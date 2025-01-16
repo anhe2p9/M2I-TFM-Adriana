@@ -18,11 +18,7 @@ de la línea de comandos, manejar excepciones del sistema, o manipular la salida
 """
 import sys # proporciona acceso a funciones relacionadas con el sistema operativo
 
-<<<<<<< HEAD
 import pandas as pd # para leer ficheros csv
-
-=======
->>>>>>> 7e68632ae742c3d9c676a8bc0b2c2abbd73f8fb2
 
 
 """
@@ -36,24 +32,18 @@ C_filename = sys.argv[3]
 
 tau_value = sys.argv[4]
 
-<<<<<<< HEAD
 S_content = pd.read_csv(S_filename)
 
-=======
->>>>>>> 7e68632ae742c3d9c676a8bc0b2c2abbd73f8fb2
 model = pyo.AbstractModel()
 
 model.S = pyo.Set() # Extracted sequences
 model.N = pyo.Set(within=model.S*model.S) # Nested sequences
 model.C = pyo.Set(within=model.S*model.S) # Conflict sequences
 
-<<<<<<< HEAD
 model.x = pyo.Var(model.S, within=pyo.Binary, initialize=0)
 model.z = pyo.Var(model.S, model.S, within=pyo.Binary, initialize=0)
-=======
 model.x = pyo.Var(model.S, within=pyo.Binary)
 model.z = pyo.Var(model.S, model.S, within=pyo.Binary)
->>>>>>> 7e68632ae742c3d9c676a8bc0b2c2abbd73f8fb2
 
 
 model.loc = pyo.Param(model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
@@ -64,17 +54,12 @@ model.ccr = pyo.Param(model.N | model.C, within=pyo.NonNegativeReals) # Cognitiv
 model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau_value), mutable=True) # Threshold
 # model.MAXloc = pyo.Param(within=pyo.NonNegativeReals) # número máximo de líneas de código de todas las secuencias
 
-<<<<<<< HEAD
 model.tmax = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['loc'].max()) # Max LOC
 model.tmin = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['loc'].min()) # min LOC
 model.cmax = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['nmcc'].max()) # Max CC
 model.cmin = pyo.Var(within=pyo.NonNegativeReals, initialize=0) # min CC
-=======
-model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
-model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
-model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
-model.cmin = pyo.Var(within=pyo.NonNegativeReals) # min CC
->>>>>>> 7e68632ae742c3d9c676a8bc0b2c2abbd73f8fb2
+
+
 
 def sequencesObjective(m):
     return sum(m.x[j] for j in m.S)
@@ -143,19 +128,12 @@ solver = pyo.SolverFactory('cplex', executable='/home/novoa/Adriana/CPLEX_Adrian
 results = solver.solve(concrete)
 concrete.pprint()
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 7e68632ae742c3d9c676a8bc0b2c2abbd73f8fb2
 if (results.solver.status == 'ok'):
     print('Optimal solution found')
     print('Objective value: ', pyo.value(concrete.obj))
     print('Completion times:')
     for j in concrete.S:
-<<<<<<< HEAD
         print(j, pyo.value(concrete.x[j]))
         
-        
-=======
-        print(j, pyo.value(concrete.x[j]))
->>>>>>> 7e68632ae742c3d9c676a8bc0b2c2abbd73f8fb2
+

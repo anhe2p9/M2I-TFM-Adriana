@@ -42,8 +42,6 @@ model.C = pyo.Set(within=model.S*model.S) # Conflict sequences
 
 model.x = pyo.Var(model.S, within=pyo.Binary, initialize=0)
 model.z = pyo.Var(model.S, model.S, within=pyo.Binary, initialize=0)
-model.x = pyo.Var(model.S, within=pyo.Binary)
-model.z = pyo.Var(model.S, model.S, within=pyo.Binary)
 
 
 model.loc = pyo.Param(model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence

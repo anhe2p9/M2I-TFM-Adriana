@@ -21,6 +21,7 @@ import sys # proporciona acceso a funciones relacionadas con el sistema operativ
 import pandas as pd # para leer ficheros csv
 
 
+
 """
 - Hay que tener en cuenta que hay que añadir en algunos momentos la secuencia 0.
 - Parámetro i porque aparece "para todo" en la restricción al final!!!!
@@ -122,7 +123,7 @@ data.load(filename=C_filename, index=model.C, param=model.ccr)
 
 concrete = model.create_instance(data)
 
-solver = pyo.SolverFactory('cplex', executable='/home/novoa/Adriana/CPLEX_Adriana/cplex/bin/x86-64_linux/cplex')
+solver = pyo.SolverFactory('cplex')
 results = solver.solve(concrete)
 concrete.pprint()
 

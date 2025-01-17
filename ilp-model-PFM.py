@@ -41,8 +41,8 @@ model.S = pyo.Set() # Extracted sequences
 model.N = pyo.Set(within=model.S*model.S) # Nested sequences
 model.C = pyo.Set(within=model.S*model.S) # Conflict sequences
 
-model.x = pyo.Var(model.S, within=pyo.Binary, initialize=0)
-model.z = pyo.Var(model.S, model.S, within=pyo.Binary, initialize=0)
+model.x = pyo.Var(model.S, within=pyo.Binary)
+model.z = pyo.Var(model.S, model.S, within=pyo.Binary)
 
 
 model.loc = pyo.Param(model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
@@ -121,11 +121,11 @@ data.load(filename=S_filename, index=model.S, param=(model.loc, model.nmcc))
 data.load(filename=N_filename, index=model.N, param=model.ccr)
 data.load(filename=C_filename, index=model.C, param=model.ccr)
 
-concrete = model.create_instance(data)
+concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
 
 solver = pyo.SolverFactory('cplex')
 results = solver.solve(concrete)
-concrete.pprint()
+# concrete.pprint()
 
 
 if (results.solver.status == 'ok'):

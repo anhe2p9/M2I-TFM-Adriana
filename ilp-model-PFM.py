@@ -5,6 +5,7 @@ modelos de optimización, variables, restricciones, y funciones objetivo, así c
 problemas utilizando diversos solvers. Es el núcleo de Pyomo.
 """
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
+from pyomo.solvers.tests.solvers import initialize
 """
 pyomo.dataportal es una herramienta de Pyomo que facilita la carga de datos en modelos
 de optimización desde fuentes externas como archivos CSV, Excel, bases de datos, entre otros.
@@ -19,7 +20,7 @@ de la línea de comandos, manejar excepciones del sistema, o manipular la salida
 import sys # proporciona acceso a funciones relacionadas con el sistema operativo
 
 import pandas as pd # para leer ficheros csv
-
+from pyomo.environ import *
 
 
 """
@@ -33,7 +34,7 @@ C_filename = sys.argv[3]
 
 tau_value = sys.argv[4]
 
-# S_content = pd.read_csv(S_filename)
+S_content = pd.read_csv(S_filename)
 
 model = pyo.AbstractModel()
 
@@ -53,10 +54,10 @@ model.ccr = pyo.Param(model.N | model.C, within=pyo.NonNegativeReals) # Cognitiv
 model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau_value), mutable=True) # Threshold
 # model.MAXloc = pyo.Param(within=pyo.NonNegativeReals) # número máximo de líneas de código de todas las secuencias
 
-model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
-model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
-model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
-model.cmin = pyo.Var(within=pyo.NonNegativeReals) # min CC
+model.tmax = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['loc'].max()) # Max LOC
+model.tmin = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['loc'].min()) # min LOC
+model.cmax = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['nmcc'].max()) # Max CC
+model.cmin = pyo.Var(within=pyo.NonNegativeReals, initialize=0)
 
 
 
@@ -70,8 +71,6 @@ def CCdifferenceObjective(m): # modelar tercer objetivo como restricción
     return m.cmax - m.cmin
 
 def weightedSum(m, sequencesWeight=0.5, LOCdiffWeight=0.5, CCdiffWeight=0.5):
-  # print(f"sequencesWeight: {sequencesWeight}, LOCdiffWeight: {LOCdiffWeight}, CCdiffWeight: {CCdiffWeight}")
-  # print(f"sequencesObjective: {sequencesObjective(m)}, LOCdifferenceObjective: {LOCdifferenceObjective(m)}, CCdifferenceObjective: {CCdifferenceObjective(m)}")
   return sequencesWeight * sequencesObjective(m) + LOCdiffWeight * LOCdifferenceObjective(m) + CCdiffWeight * CCdifferenceObjective(m)
 
 def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
@@ -81,7 +80,7 @@ def threshold(m, i): # restricción para no alcanzar el Threshold
     return m.nmcc[i] * m.x[i] - sum((m.ccr[j, k] * m.z[j, k]) for j,k in m.N if k == i) <= m.tau
 
 def zDefinition(m, i, j): # restricción para definir bien las variables z
-    interm = [l for l in m.S if (i,l) in m.N and (l,i) in m.N]
+    interm = [l for l in m.S if (l,j) in m.N and (i,l) in m.N]
     card_l = len(interm)
     return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 
@@ -125,9 +124,12 @@ data.load(filename=C_filename, index=model.C, param=model.ccr)
 concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
 
 solver = pyo.SolverFactory('cplex')
-results = solver.solve(concrete)
+results = solver.solve(concrete, tee=True)
 concrete.pprint()
 
+# Ahora puedes acceder a los valores de las variables
+for s in concrete.S:
+    print(f"x[{s}] = {concrete.x[s].value}")
 
 if (results.solver.status == 'ok'):
     print('Optimal solution found')

@@ -78,7 +78,7 @@ def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
     return m.x[i] + m.x[j] <= 1
 
 def threshold(m, i): # restricción para no alcanzar el Threshold
-    return m.nmcc[i] * m.x[i] - sum((m.ccr[j, i] * m.z[j, i]) for j,k in m.N if k == i) <= m.tau
+    return m.nmcc[i] * m.x[i] - sum((m.ccr[j, k] * m.z[j, k]) for j,k in m.N if k == i) <= m.tau
 
 def zDefinition(m, i, j): # restricción para definir bien las variables z
     interm = [l for l in m.S if (i,l) in m.N and (l,i) in m.N]
@@ -86,16 +86,16 @@ def zDefinition(m, i, j): # restricción para definir bien las variables z
     return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 
 def maxLOC(m, i):
-    return m.tmax >= m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, i] for j,k in m.N if k == i)
+    return m.tmax >= m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, k] for j,k in m.N if k == i)
     
 def minLOC(m, i):
-    return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, i] for j,k in m.N if k == i)
+    return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, k] for j,k in m.N if k == i)
     
 def maxCC(m, i):
-    return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
+    return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, k] * m.z[j, k] for j,k in m.N if k == i)
 
 def minCC(m, i):
-    return m.cmin <= m.tau * (1 - m.x[i]) + m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
+    return m.cmin <= m.tau * (1 - m.x[i]) + m.nmcc[i] * m.x[i] - sum(m.ccr[j, k] * m.z[j, k] for j,k in m.N if k == i)
 
 def x_0(m, i):
     return m.x[0] == 1
@@ -120,6 +120,7 @@ data = dp.DataPortal()
 data.load(filename=S_filename, index=model.S, param=(model.loc, model.nmcc))
 data.load(filename=N_filename, index=model.N, param=model.ccr)
 data.load(filename=C_filename, index=model.C, param=model.ccr)
+
 
 concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
 

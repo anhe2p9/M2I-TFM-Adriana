@@ -60,15 +60,12 @@ def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
     return m.x[i] + m.x[j] <= 1
 
 def threshold(m, i): # restricción para no alcanzar el Threshold
-    # print("nmcc:", [m.nmcc[i] for i in m.S])
-    # print("x:", [m.x[i].value for i in m.S])
-    # print("ccr:", {(j, k): m.ccr[j, k] for j, k in m.N if k==i})
-    # print("tau:", m.tau.value)
-    # print("z: ", [m.z[i].value for i in m.N])
-    if i >=1:
-        return m.nmcc[i] * m.x[i] - sum((m.ccr[j, k] * m.z[j, k]) for j,k in m.N if k == i) <= m.tau
-    else:
-        return m.x[0] == 1
+    print("nmcc:", [m.nmcc[i] for i in m.S])
+    print("x:", [m.x[i].value for i in m.S])
+    print("ccr:", {(j, k): m.ccr[j, k] for j, k in m.N if k==i})
+    print("tau:", m.tau.value)
+    print("z: ", [m.z[i].value for i in m.N])
+    return m.nmcc[i] * m.x[i] - sum((m.ccr[j, k] * m.z[j, k]) for j,k in m.N if k == i) <= m.tau
 
 def zDefinition(m, i, j): # restricción para definir bien las variables z
     print("N: ", m.N.pprint())
@@ -107,9 +104,12 @@ results = solver.solve(concrete, tee=True)
 concrete.pprint()
 
 
-# Ahora puedes acceder a los valores de las variables
 for s in concrete.S:
     print(f"x[{s}] = {concrete.x[s].value}")
+
+for s in concrete.S:
+    for t in concrete.S:
+        print(f"z[{s, t}] = {concrete.z[s,t].value}")
 
 if (results.solver.status == 'ok'):
     print('Optimal solution found')

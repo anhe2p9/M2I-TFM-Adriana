@@ -127,15 +127,12 @@ solver = pyo.SolverFactory('cplex')
 results = solver.solve(concrete, tee=True)
 concrete.pprint()
 
-# Ahora puedes acceder a los valores de las variables
-for s in concrete.S:
-    print(f"x[{s}] = {concrete.x[s].value}")
 
 if (results.solver.status == 'ok'):
     print('Optimal solution found')
     print('Objective value: ', pyo.value(concrete.obj))
-    print('Completion times:')
-    for j in concrete.S:
-        print(j, pyo.value(concrete.x[j]))
+    print('Sequences selected:')
+    for s in concrete.S:
+        print(f"x[{s}] = {concrete.x[s].value}")
         
 

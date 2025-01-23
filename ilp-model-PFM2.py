@@ -104,18 +104,20 @@ results = solver.solve(concrete, tee=True)
 concrete.pprint()
 
 
-for s in concrete.S:
-    print(f"x[{s}] = {concrete.x[s].value}")
+# for s in concrete.S:
+#     print(f"x[{s}] = {concrete.x[s].value}")
 
-for s in concrete.S:
-    for t in concrete.S:
-        print(f"z[{s, t}] = {concrete.z[s,t].value}")
+# for s in concrete.S:
+#     for t in concrete.S:
+#         print(f"z[{s, t}] = {concrete.z[s,t].value}")
 
 if (results.solver.status == 'ok'):
     print('Optimal solution found')
     print('Objective value: ', pyo.value(concrete.obj))
-    print('Completion times:')
-    for j in concrete.S:
-        print(j, pyo.value(concrete.x[j]))
+    print('Sequences selected:')
+    # for j in concrete.S:
+    #     print(j, pyo.value(concrete.x[j]))
+    for s in concrete.S:
+        print(f"x[{s}] = {concrete.x[s].value}")
         
 

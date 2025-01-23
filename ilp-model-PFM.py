@@ -34,7 +34,7 @@ C_filename = sys.argv[3]
 
 tau_value = sys.argv[4]
 
-S_content = pd.read_csv(S_filename)
+# S_content = pd.read_csv(S_filename)
 
 model = pyo.AbstractModel()
 
@@ -54,10 +54,10 @@ model.ccr = pyo.Param(model.N, within=pyo.NonNegativeReals) # Cognitive Complexi
 model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau_value), mutable=True) # Threshold
 # model.MAXloc = pyo.Param(within=pyo.NonNegativeReals) # número máximo de líneas de código de todas las secuencias
 
-model.tmax = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['loc'].max()) # Max LOC
-model.tmin = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['loc'].min()) # min LOC
-model.cmax = pyo.Var(within=pyo.NonNegativeReals, initialize=S_content['nmcc'].max()) # Max CC
-model.cmin = pyo.Var(within=pyo.NonNegativeReals, initialize=0)
+model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
+model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
+model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
+model.cmin = pyo.Var(within=pyo.NonNegativeReals)
 
 
 

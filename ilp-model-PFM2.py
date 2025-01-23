@@ -48,7 +48,7 @@ model.z = pyo.Var(model.S, model.S, within=pyo.Binary)
 
 model.loc = pyo.Param(model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
 model.nmcc = pyo.Param(model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
-model.ccr = pyo.Param(model.N | model.C, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
+model.ccr = pyo.Param(model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
 
 model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau_value), mutable=True) # Threshold
 
@@ -94,7 +94,7 @@ model.x_0 = pyo.Constraint(model.S, rule=x_0)
 data = dp.DataPortal()
 data.load(filename=S_filename, index=model.S, param=(model.loc, model.nmcc))
 data.load(filename=N_filename, index=model.N, param=model.ccr)
-data.load(filename=C_filename, index=model.C, param=model.ccr)
+data.load(filename=C_filename, index=model.C, param=())
 
 
 concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto

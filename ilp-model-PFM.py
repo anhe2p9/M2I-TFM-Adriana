@@ -79,8 +79,8 @@ def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
 def threshold(m, i): # restricción para no alcanzar el Threshold
     return m.nmcc[i] * m.x[i] - sum((m.ccr[j, k] * m.z[j, k]) for j,k in m.N if k == i) <= m.tau
 
-def zDefinition(m, i, j): # restricción para definir bien las variables z
-    interm = [l for l in m.S if (l,j) in m.N and (i,l) in m.N]
+def zDefinition(m, j, i): # restricción para definir bien las variables z
+    interm = [l for l in m.S if (j,l) in m.N and (l,i) in m.N]
     card_l = len(interm)
     return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 

@@ -60,15 +60,15 @@ def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
     return m.x[i] + m.x[j] <= 1
 
 def threshold(m, i): # restricción para no alcanzar el Threshold
-    print("nmcc:", [m.nmcc[i] for i in m.S])
-    print("x:", [m.x[i].value for i in m.S])
-    print("ccr:", {(j, k): m.ccr[j, k] for j, k in m.N if k==i})
-    print("tau:", m.tau.value)
-    print("z: ", [m.z[i].value for i in m.N])
+    # print("nmcc:", [m.nmcc[i] for i in m.S])
+    # print("ccr:", {(j, k): m.ccr[j, k] for j,k in m.N if k==i})
+    # print("tau:", m.tau.value)
+    # print("z: ", [m.z[i].value for i in m.N])
     return m.nmcc[i] * m.x[i] - sum((m.ccr[j, k] * m.z[j, k]) for j,k in m.N if k == i) <= m.tau
 
-def zDefinition(m, i, j): # restricción para definir bien las variables z
+def zDefinition(m, j, i): # restricción para definir bien las variables z
     print("N: ", m.N.pprint())
+    print("La j ahora mismo es: ", j)
     for l in m.S:
         print("(j,l): ", (j,l))
         print("(j,l) in m.N: ", (j,l) in m.N)

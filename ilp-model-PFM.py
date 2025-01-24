@@ -4,6 +4,7 @@ import sys # proporciona acceso a funciones relacionadas con el sistema operativ
 
 import pandas as pd # para leer ficheros csv
 from pyomo.environ import *
+import math
 
 
 """
@@ -53,7 +54,7 @@ def LOCdifferenceObjective(m): # modelar segundo objetivo como restricción
 def CCdifferenceObjective(m): # modelar tercer objetivo como restricción
     return m.cmax - m.cmin
 
-def weightedSum(m, sequencesWeight=0.5, LOCdiffWeight=0.5, CCdiffWeight=0.5):
+def weightedSum(m, sequencesWeight, LOCdiffWeight, CCdiffWeight):
   return sequencesWeight * sequencesObjective(m) + LOCdiffWeight * LOCdifferenceObjective(m) + CCdiffWeight * CCdifferenceObjective(m)
 
 def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
@@ -83,8 +84,14 @@ def x_0(m):
     return m.x[0] == 1
 
 
+w1,w2,w3 = 1,1,1
 
-model.obj = pyo.Objective(rule=lambda m: weightedSum(m))
+# tita, phi = 0,math.pi
+# w1,w2,w3 = math.sin(tita)*math.cos(phi), math.cos(tita)*math.sin(phi), math.cos(tita)
+# print("Variables: ", tita, phi, w1, w2, w3)
+
+
+model.obj = pyo.Objective(rule=lambda m: weightedSum(m, w1, w2, w3))
 
 # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
 # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT

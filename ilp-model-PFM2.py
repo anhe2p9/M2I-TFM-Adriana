@@ -6,18 +6,13 @@ import pandas as pd # para leer ficheros csv
 from pyomo.environ import *
 
 
-"""
-- Hay que tener en cuenta que hay que añadir en algunos momentos la secuencia 0.
-- Parámetro i porque aparece "para todo" en la restricción al final!!!!
-"""
-
 S_filename = sys.argv[1]
 N_filename = sys.argv[2]
 C_filename = sys.argv[3]
 
 tau_value = sys.argv[4]
 
-S_content = pd.read_csv(S_filename)
+# S_content = pd.read_csv(S_filename)
 
 model = pyo.AbstractModel()
 

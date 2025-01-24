@@ -78,7 +78,7 @@ data.load(filename=C_filename, index=model.C, param=())
 concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
 
 solver = pyo.SolverFactory('cplex')
-results = solver.solve(concrete, tee=True)
+results = solver.solve(concrete)
 concrete.pprint()
 
 num_constraints = sum(len(constraint) for constraint in concrete.component_objects(Constraint, active=True))

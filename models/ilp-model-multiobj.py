@@ -5,6 +5,7 @@ import sys # proporciona acceso a funciones relacionadas con el sistema operativ
 import pandas as pd # para leer ficheros csv
 from pyomo.environ import *
 import math
+import utils
 
 
 """
@@ -84,14 +85,19 @@ def x_0(m):
     return m.x[0] == 1
 
 
-w1,w2,w3 = 1,1,1
+# Generar las subdivisiones
+# n_divisions = 6
+# theta_div = 2  # índice de 0 a n_divisions-1
+# phi_div = 0  # índice de 0 a n_divisions-1
+# weights = utils.generate_weights(n_divisions, theta_div, phi_div)
+weights = utils.generate_weights(6,6,6)
 
-# tita, phi = 0,math.pi
-# w1,w2,w3 = math.sin(tita)*math.cos(phi), math.cos(tita)*math.sin(phi), math.cos(tita)
-# print("Variables: ", tita, phi, w1, w2, w3)
+# print(weights)
+# print("Variables: ", weights["w1"], weights["w2"], weights["w3"])
 
 
-model.obj = pyo.Objective(rule=lambda m: weightedSum(m, w1, w2, w3))
+
+model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
 
 # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
 # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
@@ -119,13 +125,34 @@ concrete.pprint()
 
 num_constraints = sum(len(constraint) for constraint in concrete.component_objects(Constraint, active=True))
 print(f"There are {num_constraints} constraints")
-
-
 if (results.solver.status == 'ok'):
     print('Optimal solution found')
     print('Objective value: ', pyo.value(concrete.obj))
     print('Sequences selected:')
     for s in concrete.S:
         print(f"x[{s}] = {concrete.x[s].value}")
+
+
+
+
+# for i in range(7):
+#     for j in range(7):
+#         weights = utils.generate_weights(7, j, i)
+#
+#
+#         model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
+#
+#         # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
+#         # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT        
+#
+#         concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
+#         solver = pyo.SolverFactory('cplex')
+#         results = solver.solve(concrete)
+#
+#
+#         if (results.solver.status == 'ok'):
+#             print('Sequences selected:')
+#             for s in concrete.S:
+#                 print(f"x[{s}] = {concrete.x[s].value}")
         
 

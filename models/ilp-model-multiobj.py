@@ -70,16 +70,16 @@ def zDefinition(m, j, i): # restricción para definir bien las variables z
     return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 
 def maxLOC(m, i):
-    return m.tmax >= m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, k] for j,k in m.N if k == i)
+    return m.tmax >= m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, i] for j,k in m.N if k == i)
     
 def minLOC(m, i):
     return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, k] for j,k in m.N if k == i)
     
 def maxCC(m, i):
-    return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, k] * m.z[j, k] for j,k in m.N if k == i)
+    return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
 
 def minCC(m, i):
-    return m.cmin <= m.tau * (1 - m.x[i]) + m.nmcc[i] * m.x[i] - sum(m.ccr[j, k] * m.z[j, k] for j,k in m.N if k == i)
+    return m.cmin <= m.nmcc[0] * (1 - m.x[i]) + m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
 
 def x_0(m):
     return m.x[0] == 1
@@ -90,14 +90,14 @@ def x_0(m):
 # theta_div = 2  # índice de 0 a n_divisions-1
 # phi_div = 0  # índice de 0 a n_divisions-1
 # weights = utils.generate_weights(n_divisions, theta_div, phi_div)
-weights = utils.generate_weights(6,6,6)
-
-# print(weights)
-# print("Variables: ", weights["w1"], weights["w2"], weights["w3"])
-
-
-
-model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
+# weights = utils.generate_weights(6,6,6)
+#
+# # print(weights)
+# # print("Variables: ", weights["w1"], weights["w2"], weights["w3"])
+#
+#
+#
+# model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
 
 # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
 # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
@@ -117,42 +117,45 @@ data.load(filename=N_filename, index=model.N, param=model.ccr)
 data.load(filename=C_filename, index=model.C, param=())
 
 
-concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
-
-solver = pyo.SolverFactory('cplex')
-results = solver.solve(concrete)
-concrete.pprint()
-
-num_constraints = sum(len(constraint) for constraint in concrete.component_objects(Constraint, active=True))
-print(f"There are {num_constraints} constraints")
-if (results.solver.status == 'ok'):
-    print('Optimal solution found')
-    print('Objective value: ', pyo.value(concrete.obj))
-    print('Sequences selected:')
-    for s in concrete.S:
-        print(f"x[{s}] = {concrete.x[s].value}")
-
-
+# concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
+#
+# solver = pyo.SolverFactory('cplex')
+# results = solver.solve(concrete)
+# concrete.pprint()
+#
+# num_constraints = sum(len(constraint) for constraint in concrete.component_objects(Constraint, active=True))
+# print(f"There are {num_constraints} constraints")
+# if (results.solver.status == 'ok'):
+#     print('Optimal solution found')
+#     print('Objective value: ', pyo.value(concrete.obj))
+#     print('Sequences selected:')
+#     for s in concrete.S:
+#         print(f"x[{s}] = {concrete.x[s].value}")
 
 
-# for i in range(7):
-#     for j in range(7):
-#         weights = utils.generate_weights(7, j, i)
-#
-#
-#         model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
-#
-#         # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
-#         # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT        
-#
-#         concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
-#         solver = pyo.SolverFactory('cplex')
-#         results = solver.solve(concrete)
-#
-#
-#         if (results.solver.status == 'ok'):
-#             print('Sequences selected:')
-#             for s in concrete.S:
-#                 print(f"x[{s}] = {concrete.x[s].value}")
+
+
+for i in range(7):
+    for j in range(7):
+        weights = utils.generate_weights(7, j, i)
+
+        if hasattr(model, 'obj'):
+            model.del_component('obj')  # Eliminar el componente existente
+            model.add_component('obj', pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"])))
+        else:
+            model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
+
+        # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
+        # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT        
+
+        concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
+        solver = pyo.SolverFactory('cplex')
+        results = solver.solve(concrete)
+
+
+        if (results.solver.status == 'ok'):
+            print('Sequences selected:')
+            for s in concrete.S:
+                print(f"x[{s}] = {concrete.x[s].value}")
         
 

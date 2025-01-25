@@ -17,9 +17,9 @@ def generate_weights(n_divisions=6, theta_index=0, phi_index=0):
     
     print(f"ESTO ES PARA THETA: {theta_index} Y PARA PHI: {phi_index}")
     
-    print(f"w1: {math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index])}")
-    print(f"w2: {math.sin(subdivisions[theta_index])*math.sin(subdivisions[phi_index])}")
-    print(f"w3: {math.cos(subdivisions[theta_index])}")
+    print(f"w1: {math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index])},   SEQUENCES")
+    print(f"w2: {math.sin(subdivisions[theta_index])*math.sin(subdivisions[phi_index])},     LOCdif")
+    print(f"w3: {math.cos(subdivisions[theta_index])},   CCdif")
     
     
     weights = {"w1": math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index]),

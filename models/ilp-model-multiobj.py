@@ -6,7 +6,7 @@ import pandas as pd # para leer ficheros csv
 from pyomo.environ import *
 import math
 import utils
-
+import csv
 
 """
 - Hay que tener en cuenta que hay que añadir en algunos momentos la secuencia 0.
@@ -133,7 +133,7 @@ data.load(filename=C_filename, index=model.C, param=())
 #         print(f"x[{s}] = {concrete.x[s].value}")
 
 
-
+csv_data = [["Weight1","Weight2","Weight3","Num.sequences","LOCdif","CCdif"]]
 
 for i in range(7):
     for j in range(7):
@@ -153,9 +153,42 @@ for i in range(7):
         results = solver.solve(concrete)
 
 
-        if (results.solver.status == 'ok'):
-            print('Sequences selected:')
-            for s in concrete.S:
-                print(f"x[{s}] = {concrete.x[s].value}")
+        # if (results.solver.status == 'ok'):
+        #     print('Sequences selected:')
+        #     for s in concrete.S:
+        #         print(f"x[{s}] = {concrete.x[s].value}")
+        
+        sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
+        
+        xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
+        zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+        
+        maxLOCselected = abs(max(xLOC) - max(zLOC))
+        minLOCselected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
+        LOCdif = abs(maxLOCselected - minLOCselected)
+        
+        
+        
+        xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
+        zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+        
+        
+        maxCCselected = abs(max(xCC) - max(zCC))
+        minCCselected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
+        CCdif = abs(maxCCselected - minCCselected)
+        
+        
+        newrow = [round(weights["w1"],2),round(weights["w2"],2),round(weights["w3"],2),sequences_sum,LOCdif,CCdif]
+        
+        csv_data.append(newrow)
         
 
+
+print(csv_data)
+
+# Escribir datos en un archivo CSV
+with open("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/results.csv", mode="w", newline="", encoding="utf-8") as file:
+    writer = csv.writer(file)
+    writer.writerows(csv_data)
+
+print("Archivo CSV creado correctamente.")

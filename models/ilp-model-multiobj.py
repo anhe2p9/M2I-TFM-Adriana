@@ -8,10 +8,6 @@ import math
 import utils
 import csv
 
-"""
-- Hay que tener en cuenta que hay que añadir en algunos momentos la secuencia 0.
-- Parámetro i porque aparece "para todo" en la restricción al final!!!!
-"""
 
 S_filename = sys.argv[1]
 N_filename = sys.argv[2]
@@ -145,18 +141,10 @@ for i in range(7):
         else:
             model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights["w1"], weights["w2"], weights["w3"]))
 
-        # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
-        # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT        
-
         concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
         solver = pyo.SolverFactory('cplex')
         results = solver.solve(concrete)
 
-
-        # if (results.solver.status == 'ok'):
-        #     print('Sequences selected:')
-        #     for s in concrete.S:
-        #         print(f"x[{s}] = {concrete.x[s].value}")
         
         sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
         

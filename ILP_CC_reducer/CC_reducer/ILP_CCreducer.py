@@ -1,8 +1,9 @@
 from abc import abstractmethod, ABC
 from typing import Any
+import pyomo.environ as pyo
 
 
-class ILPOperations(ABC):
+class ILPCCReducer(ABC):
 
     @staticmethod
     @abstractmethod
@@ -22,6 +23,12 @@ class ILPOperations(ABC):
 
     @staticmethod
     @abstractmethod
-    def reduce_CC(code: Any, instance: Any) -> Any:
+    def execute(model: pyo.AbstractModel, data: pyo.ConcreteModel, subdivisions: int) -> list[list[Any]]:
         """Apply the ILP algorithm to the given instance."""
+        pass
+    
+    @staticmethod
+    @abstractmethod
+    def definir_objetivo(self, model: pyo.ConcreteModel, **kwargs):
+        """Defines model objective."""
         pass

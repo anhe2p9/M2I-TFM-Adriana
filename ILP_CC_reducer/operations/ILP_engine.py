@@ -20,6 +20,10 @@ class ILPEngine():
         """Return the list of all ILP operations available."""
         return [self.get_operation_from_name(ref_name) for ref_name in ALGORITHMS_NAMES]
     
+    def load_concrete(self, datapath: str) -> None:
+        # data.load(filename=file_path, index=model.S, param=(model.loc, model.nmcc))
+        pass
+    
     def apply_defined_weighted_sum(self, algorithm: ILPCCReducer, model: MultiobjectiveILPmodel | ILPmodelRsain, data: pyo.ConcreteModel, w1: int, w2: int, w3:int) -> None:
         """Apply weighted sum algorithm with specified weights to the given instance."""
         return algorithm.execute(algorithm, model, data, w1, w2, w3)

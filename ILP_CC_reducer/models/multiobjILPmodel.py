@@ -1,15 +1,7 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
-import sys # proporciona acceso a funciones relacionadas con el sistema operativo
-
 
 from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
-
-S_filename = sys.argv[1]
-N_filename = sys.argv[2]
-C_filename = sys.argv[3]
-
-tau_value = sys.argv[4]
 
 class MultiobjectiveILPmodel(ILPCCReducer):
     
@@ -35,7 +27,7 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
         self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
         
-        self.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau_value), mutable=True) # Threshold
+        self.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(self.tau_value), mutable=True) # Threshold
     
     def define_variables(self):
         """Defines model variables."""

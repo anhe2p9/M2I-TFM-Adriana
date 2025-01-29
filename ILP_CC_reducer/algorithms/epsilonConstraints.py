@@ -1,30 +1,20 @@
+import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
+
+from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
 
 
 
-class EpsilonConstraintAlgorithm(FMRefactoring):
+class EpsilonConstraintAlgorithm(ILPCCReducer):
 
     @staticmethod
     def get_name() -> str:
-        return 'Excludes constraint refactoring'
+        return 'Epsilon Constraint Algorithm'
     
     @staticmethod
     def get_description() -> str:
-        return ("It translate an excludes constraint from the feature model to the feature tree.")
+        return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def get_language_construct_name() -> str:
-        return 'Excludes constraint'
-
-    @staticmethod
-    def get_instances(model: FeatureModel) -> list[Constraint]:
-        return [ctc for ctc in model.get_constraints() 
-                if constraints_utils.is_excludes_constraint(ctc)]
-
-    @staticmethod
-    def is_applicable(model: FeatureModel) -> bool:
-        return len(ExcludesConstraintRefactoring.get_instances(model)) > 0
-
-    @staticmethod
-    def transform(model: FeatureModel, instance: Constraint) -> FeatureModel:
-        return eliminate_excludes(model, instance)
+    def execute(model: pyo.AbstractModel, data: pyo.ConcreteModel, w1: float, w2: float, w3: float) -> None:
+        pass

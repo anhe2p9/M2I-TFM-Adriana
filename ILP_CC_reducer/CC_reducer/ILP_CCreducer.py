@@ -8,12 +8,7 @@ class ILPCCReducer(ABC):
     def define_model_without_obj():
         """Defines model except objective."""
         pass
-    
-    @staticmethod
-    @abstractmethod
-    def define_objectives():
-        """Defines objective functions of the model."""
-        pass
+
     
     @staticmethod
     @abstractmethod

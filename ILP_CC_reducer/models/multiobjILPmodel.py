@@ -3,6 +3,8 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
+import inspect
+
 
 class MultiobjectiveILPmodel(ILPCCReducer):
     
@@ -11,52 +13,56 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.tau_value = tau_value
         
         self.model = pyo.AbstractModel()
-        self.define_model_without_obj()
-        self.define_objectives()
+        self.defined_model = self.define_model_without_obj()
+        
+        caller = inspect.stack()[1]  # Obtener información del llamador
+        print(f"El método fue llamado desde: {caller.function} en {caller.filename}:{caller.lineno}")
         
 
     def define_model_without_obj(self) -> pyo.AbstractModel:
         """Defines model sets."""
-        self.model.S = pyo.Set() # Extracted sequences
-        self.model.N = pyo.Set(within=self.model.S*self.model.S) # Nested sequences
-        self.model.C = pyo.Set(within=self.model.S*self.model.S) # Conflict sequences
+        #
+        # print("SE ME ESTÁ LLAMANDO!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        # caller = inspect.stack()[1]  # Obtener información del llamador
+        # print(f"El método fue llamado desde: {caller.function} en {caller.filename}:{caller.lineno}")
         
-        self.model.loc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
-        self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
-        self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
-        
-        self.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(self.tau_value), mutable=True) # Threshold
-        
-        self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
-        self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)
-        
-        self.model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
-        self.model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
-        self.model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
-        self.model.cmin = pyo.Var(within=pyo.NonNegativeReals)
-        
-        
-        self.model.conflict_sequences = pyo.Constraint(self.model.C, rule=conflict_sequences)
-        self.model.threshold = pyo.Constraint(self.model.S, rule=threshold)
-        self.model.z_definition = pyo.Constraint(self.model.N, rule=zDefinition)
-        self.model.maxLOC = pyo.Constraint(self.model.S, rule=maxLOC)
-        self.model.minLOC = pyo.Constraint(self.model.S, rule=minLOC)
-        self.model.maxCC = pyo.Constraint(self.model.S, rule=maxCC)
-        self.model.minCC = pyo.Constraint(self.model.S, rule=minCC)
-        self.model.x_0 = pyo.Constraint(rule=x_0)
+        if not hasattr(self.model, 'S'):
+            self.model.S = pyo.Set() # Extracted sequences
+            self.model.N = pyo.Set(within=self.model.S*self.model.S) # Nested sequences
+            self.model.C = pyo.Set(within=self.model.S*self.model.S) # Conflict sequences
+            
+            self.model.loc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
+            self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
+            self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
+            
+            self.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(self.tau_value), mutable=True) # Threshold
+            
+            self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
+            self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)
+            
+            self.model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
+            self.model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
+            self.model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
+            self.model.cmin = pyo.Var(within=pyo.NonNegativeReals)
+            
+            
+            self.model.conflict_sequences = pyo.Constraint(self.model.C, rule=conflict_sequences)
+            self.model.threshold = pyo.Constraint(self.model.S, rule=threshold)
+            self.model.z_definition = pyo.Constraint(self.model.N, rule=zDefinition)
+            self.model.maxLOC = pyo.Constraint(self.model.S, rule=maxLOC)
+            self.model.minLOC = pyo.Constraint(self.model.S, rule=minLOC)
+            self.model.maxCC = pyo.Constraint(self.model.S, rule=maxCC)
+            self.model.minCC = pyo.Constraint(self.model.S, rule=minCC)
+            self.model.x_0 = pyo.Constraint(rule=x_0)
         
         return self.model
-        
-    def define_objectives(self):
-        """Defines objective functions of the model."""
-        pass
     
     def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dp.DataPortal:
         
         data = dp.DataPortal()
-        data.load(filename=S_filename, index=self.model.S, param=(self.model.loc, self.model.nmcc))
-        data.load(filename=N_filename, index=self.model.N, param=self.model.ccr)
-        data.load(filename=C_filename, index=self.model.C, param=())
+        data.load(filename=S_filename, index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc))
+        data.load(filename=N_filename, index=self.defined_model.N, param=self.defined_model.ccr)
+        data.load(filename=C_filename, index=self.defined_model.C, param=())
         
         return data
 

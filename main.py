@@ -1,7 +1,6 @@
 import csv
 import sys
 import argparse
-from typing import Any
 from pathlib import Path
 
 

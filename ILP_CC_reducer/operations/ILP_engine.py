@@ -64,7 +64,7 @@ class ILPEngine():
             subdivisions = int(args[0])
             return algorithm.execute(ILPm, instance, tau, subdivisions)
         else:
-            sys.exit("Subdivisions must be a integer parameter.")
+            sys.exit("Subdivisions must be an integer parameter.")
 
     
     def get_algorithm_from_name(self, algorithm_name: str) -> ILPCCReducer:

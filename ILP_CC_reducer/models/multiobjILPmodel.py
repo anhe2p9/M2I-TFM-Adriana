@@ -11,29 +11,22 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.tau_value = tau_value
         
         self.model = pyo.AbstractModel()
-        self.define_sets()
-        self.define_parameters()
-        self.define_variables()
-        self.define_constraints()
+        self.define_model_without_obj()
         self.define_objectives()
         
 
-    def define_sets(self):
+    def define_model_without_obj(self):
         """Defines model sets."""
         self.model.S = pyo.Set() # Extracted sequences
         self.model.N = pyo.Set(within=self.model.S*self.model.S) # Nested sequences
         self.model.C = pyo.Set(within=self.model.S*self.model.S) # Conflict sequences
-
-    def define_parameters(self):
-        """Defines model parameters."""
+        
         self.model.loc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
         self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
         self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
         
         self.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(self.tau_value), mutable=True) # Threshold
-    
-    def define_variables(self):
-        """Defines model variables."""
+        
         self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
         self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)
         
@@ -41,11 +34,8 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
         self.model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
         self.model.cmin = pyo.Var(within=pyo.NonNegativeReals)
-
-    
-    def define_constraints(self):
-        """Defines model constraints."""
-
+        
+        
         self.model.conflict_sequences = pyo.Constraint(self.model.C, rule=conflict_sequences)
         self.model.threshold = pyo.Constraint(self.model.S, rule=threshold)
         self.model.z_definition = pyo.Constraint(self.model.N, rule=zDefinition)
@@ -54,7 +44,6 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.model.maxCC = pyo.Constraint(self.model.S, rule=maxCC)
         self.model.minCC = pyo.Constraint(self.model.S, rule=minCC)
         self.model.x_0 = pyo.Constraint(rule=x_0)
-        
         
     def define_objectives(self):
         """Defines objective functions of the model."""

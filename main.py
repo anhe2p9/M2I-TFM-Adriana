@@ -11,24 +11,30 @@ from pathlib import Path
 
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
+
+from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
-def main(instance_folder: Path, algorithm: str, tau: int=15, subdivisions: int=6, weights: str=None):
+def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     
     model_engine = ILPEngine()
+    model = MultiobjectiveILPmodel(tau)
     
-    # Proccess weights
-    if weights:
-        weights = list(map(int, args.weights.split(',')))
-        if len(weights) != 3:
-            sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
-            
-            
+
+    # Process ilp model
+    ilp_model = model.define_model_without_obj()
     
-            
-            
-    model_engine.load_concrete(instance_folder, tau)
+    # Process algorithm
+    algorithm = model_engine.get_algorithm_from_name(alg_name)
+    
+    # Process instance
+    instance = model_engine.load_concrete(instance_folder, tau)
+    
+    result = model_engine.apply_algorithm(algorithm, ilp_model, instance, args)
+    
+    print(result)
+    
     
     
     # Procesar los datos

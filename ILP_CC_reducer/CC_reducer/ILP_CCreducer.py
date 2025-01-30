@@ -7,27 +7,9 @@ class ILPCCReducer(ABC):
     
     @staticmethod
     @abstractmethod
-    def define_sets():
-        """Defines model sets."""
+    def define_model_without_obj():
+        """Defines model except objective."""
         pass
-    
-    @staticmethod
-    @abstractmethod
-    def define_parameters():
-        """Defines model parameters."""
-        pass
-    
-    @staticmethod
-    @abstractmethod
-    def define_variables():
-        """Defines model variables."""
-        pass
-    
-    @staticmethod
-    @abstractmethod
-    def define_constraints():
-        """Defines model constraints."""
-        pass    
     
     @staticmethod
     @abstractmethod

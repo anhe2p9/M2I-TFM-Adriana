@@ -51,9 +51,19 @@ class ILPEngine():
         return data
         
 
-    def apply_algorithm(self, algorithm: ILPCCReducer, ILPm: pyo.AbstractModel, instance: dp.DataPortal, subdiv: int) -> Any:
+    def apply_algorithm(self, algorithm: ILPCCReducer, ILPm: pyo.AbstractModel, instance: dp.DataPortal, *args) -> Any:
         """Apply the given refactoring to the given instance (feature or constraint) of the given FM."""
-        return algorithm.execute(ILPm, instance, subdiv)
+        # Process weights
+        if ',' in args:
+            weights = list(map(float, args.weights.split(',')))
+            if len(weights) != 3:
+                sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
+            return algorithm.execute(ILPm, instance, weights)
+        elif len(args) <= 2:
+            subdivisions = map(int, args)
+            return algorithm.execute(ILPm, instance, subdivisions)
+        else:
+            sys.exit("Subdivisions must be a integer parameter.")
 
     
     def get_algorithm_from_name(self, algorithm_name: str) -> ILPCCReducer:

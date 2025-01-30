@@ -1,6 +1,4 @@
 from abc import abstractmethod, ABC
-from typing import Any
-import pyomo.environ as pyo
 
 
 class ILPCCReducer(ABC):

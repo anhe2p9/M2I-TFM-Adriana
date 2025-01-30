@@ -15,7 +15,7 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.define_objectives()
         
 
-    def define_model_without_obj(self):
+    def define_model_without_obj(self) -> pyo.AbstractModel:
         """Defines model sets."""
         self.model.S = pyo.Set() # Extracted sequences
         self.model.N = pyo.Set(within=self.model.S*self.model.S) # Nested sequences
@@ -45,6 +45,8 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         self.model.minCC = pyo.Constraint(self.model.S, rule=minCC)
         self.model.x_0 = pyo.Constraint(rule=x_0)
         
+        return self.model
+        
     def define_objectives(self):
         """Defines objective functions of the model."""
         pass
@@ -58,19 +60,16 @@ class MultiobjectiveILPmodel(ILPCCReducer):
         
         return data
 
-def sequencesObjective(m):
-    return sum(m.x[j] for j in m.S)
-
-def LOCdifferenceObjective(m): # modelar segundo objetivo como restricción
-    return m.tmax - m.tmin
+    def sequencesObjective(self, m):
+        return sum(m.x[j] for j in m.S)
     
-def CCdifferenceObjective(m): # modelar tercer objetivo como restricción
-    return m.cmax - m.cmin
+    def LOCdifferenceObjective(self, m): # modelar segundo objetivo como restricción
+        return m.tmax - m.tmin
+        
+    def CCdifferenceObjective(self, m): # modelar tercer objetivo como restricción
+        return m.cmax - m.cmin
+    
 
-def weightedSum(m, sequencesWeight, LOCdiffWeight, CCdiffWeight):
-    return (sequencesWeight * sequencesObjective(m) +
-            LOCdiffWeight * LOCdifferenceObjective(m) +
-            CCdiffWeight * CCdifferenceObjective(m))
 
 
 def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto

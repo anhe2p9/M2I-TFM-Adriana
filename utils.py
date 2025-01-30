@@ -3,13 +3,13 @@ import math
 
 def generate_weights(n_divisions=6, theta_index=0, phi_index=0):
     """
-    Genera subdivisiones en coordenadas esféricas para un octante.
-    
+    Generates subdivisions in spherical coordinates for an octant.
+        
     Args:
-        n_divisions (int): Número de divisiones en cada plano (XY, XZ, YZ).
-    
+        n_divisions (int): Number of divisions in each plane (XY, XZ, YZ).
+        
     Returns:
-        dict: Diccionario con subdivisiones en coordenadas esféricas.
+        dict: Dictionary with subdivisions in spherical coordinates.
     """
     # Crear ángulos según las divisiones
     angles = np.linspace(0, np.pi/2, n_divisions + 1)  # divisiones del plano

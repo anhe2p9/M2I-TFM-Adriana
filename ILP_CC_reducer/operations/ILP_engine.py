@@ -46,12 +46,12 @@ class ILPEngine():
         if None in files.values():
             sys.exit(f'The model instance must be a folder with three CSV files.')
         
-        data = model.process_data(files["sequences"], files["nested"], files["conflict"])
+        data = model.process_data(str(files["sequences"]), str(files["nested"]), str(files["conflict"]))
         
         return data
         
 
-    def apply_algorithm(self, algorithm: ILPCCReducer, ILPm: pyo.AbstractModel, instance: dp.DataPortal, *args) -> Any:
+    def apply_algorithm(self, algorithm: ILPCCReducer, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> Any:
         """Apply the given refactoring to the given instance (feature or constraint) of the given FM."""
         # Process weights
         if ',' in args:
@@ -60,8 +60,9 @@ class ILPEngine():
                 sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
             return algorithm.execute(ILPm, instance, weights)
         elif len(args) <= 2:
-            subdivisions = map(int, args)
-            return algorithm.execute(ILPm, instance, subdivisions)
+            args = args[0]
+            subdivisions = int(args[0])
+            return algorithm.execute(ILPm, instance, tau, subdivisions)
         else:
             sys.exit("Subdivisions must be a integer parameter.")
 

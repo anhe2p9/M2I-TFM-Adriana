@@ -20,22 +20,24 @@ class WeightedSumAlgorithm(ILPCCReducer):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, *args) -> list[list[Any]]:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, tau:int, *args) -> list[list[Any]]:
         
         csv_data = [["Weight1","Weight2","Weight3","Num.sequences","LOCdif","CCdif"]]
+        ilp_model = MultiobjectiveILPmodel(tau)
         
         if len(args) == 1 and isinstance(args[0], int):
-            print(f"Proccessing all ILP results with {args[0]} subdivisions")
+            args = args[0]
+            print(f"Proccessing all ILP results with {args} subdivisions")
     
-            for i in range(args):
-                for j in range(args):
-                    weights = utils.generate_weights(args, j, i)
+            for i in range(args+1):
+                for j in range(args+1):
+                    weights = utils.generate_weights(args, i, j)
                     
                     if hasattr(model, 'obj'):
                         model.del_component('obj')  # Eliminar el componente existente
-                        model.add_component('obj', pyo.Objective(rule=lambda m: model.weightedSum(m, weights['w1'], weights['w2'], weights['w3'])))
+                        model.add_component('obj', pyo.Objective(rule=lambda m: weightedSum(m, weights['w1'], weights['w2'], weights['w3'], ilp_model)))
                     else:
-                        model.obj = pyo.Objective(rule=lambda m: model.weightedSum(m, weights['w1'], weights['w2'], weights['w3']))
+                        model.obj = pyo.Objective(rule=lambda m: weightedSum(m, weights['w1'], weights['w2'], weights['w3'], ilp_model))
                     
                     concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
                     solver = pyo.SolverFactory('cplex')
@@ -66,7 +68,9 @@ class WeightedSumAlgorithm(ILPCCReducer):
                     newrow = [round(weights["w1"],2),round(weights["w2"],2),round(weights["w3"],2),sequences_sum,LOCdif,CCdif]
                     
                     csv_data.append(newrow)
-                    
+                
+                    if i == 0:
+                        break    
             return csv_data
             
             
@@ -93,7 +97,7 @@ class WeightedSumAlgorithm(ILPCCReducer):
         
             
         else:
-            sys.exit(f'The algorithm parameters must be a number of subdivisions or three weights w1,w2,w3.')
+            sys.exit(f'The algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
 
     # concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     #
@@ -131,7 +135,11 @@ class WeightedSumAlgorithm(ILPCCReducer):
     # model.min_LOC_difference = pyo.Constraint(model.S, rule=min_LOC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
     # model.min_CC_difference = pyo.Constraint(model.S, rule=min_CC_difference) # ESTO SOLO PARA EPSILON-CONSTRAINT
     
-    
+
+def weightedSum(m, sequencesWeight, LOCdiffWeight, CCdiffWeight, ilp_model):
+    return (sequencesWeight * ilp_model.sequencesObjective(m) +
+            LOCdiffWeight * ilp_model.LOCdifferenceObjective(m) +
+            CCdiffWeight * ilp_model.CCdifferenceObjective(m))
 
 
 

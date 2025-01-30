@@ -1,8 +1,4 @@
-import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
-import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
-
 import csv
-import os
 import sys
 import argparse
 from typing import Any
@@ -31,9 +27,19 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     # Process instance
     instance = model_engine.load_concrete(instance_folder, tau)
     
-    result = model_engine.apply_algorithm(algorithm, ilp_model, instance, args)
+    
+    result = model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args)
     
     print(result)
+    
+    # Escribir datos en un archivo CSV
+    with open("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/results_new.csv", mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerows(result)
+    
+    print("Archivo CSV creado correctamente.")
+
+
     
     
     
@@ -43,18 +49,6 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     
     
     
-
-    
-def resultsWriter(result_data: list[list[Any]]):
-        
-    # print(result_data)
-    
-    # Escribir datos en un archivo CSV
-    with open("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/results_new.csv", mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(result_data)
-    
-    print("Archivo CSV creado correctamente.")
 
 
 

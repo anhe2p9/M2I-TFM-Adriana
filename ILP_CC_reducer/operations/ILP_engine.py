@@ -55,7 +55,7 @@ class ILPEngine():
         """Apply the given refactoring to the given instance (feature or constraint) of the given FM."""
         
         if not hasattr(ILPm, 'tau'):
-            ILPm.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=True)) # Threshold
+            ILPm.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
         
         if len(args) == 0:
             return algorithm.execute(ILPm, instance)

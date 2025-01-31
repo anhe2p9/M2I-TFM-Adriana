@@ -26,8 +26,6 @@ class WeightedSumAlgorithm(ILPCCReducer):
         
         args = args[0]
         
-        print(f"ARGS weightedsum: {args}")
-        
  
         if isinstance(args, int):
             print(f"Proccessing all ILP results with {args} subdivisions")

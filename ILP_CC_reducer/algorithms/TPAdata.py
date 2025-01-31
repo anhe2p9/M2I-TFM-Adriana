@@ -1,7 +1,10 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-from pyomo.core.expr.visitor import identify_variables
+from pyomo.repn import generate_standard_repn
+import numpy as np
+
+from typing import Any
 
 from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
@@ -17,67 +20,77 @@ class TPAdataAlgorithm(ILPCCReducer):
         return ("It obtains model matrices to apply TPA Algorithm.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> None:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> Any:
+        
+        print(f"Proccessing ILP matrix and row vector for Ax <= b standard form.")
         
         concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
         
-        def get_matrix_vector(concrete):
-            A = []  # Matriz de coeficientes de las restricciones
-            b = []  # Vector de términos independientes
-            c = []  # Vector de la función de coste
+        # 1. Obtain variable list and assign an index for each one using id() key
+        var_list = list(concrete.component_data_objects(pyo.Var, descend_into=True))
+        var_to_index = {id(var): idx for idx, var in enumerate(var_list)}
         
-            # Obtener coeficientes de las restricciones
+        num_vars = len(var_list)
+        # Initialize lists to save matrix rows and independent term
+        A_rows = []  # Coefficients matrix rows
+        indep_terms = []     # Right-hand side (independent terms)
+        senses = []  # Constrints senses (e.g., '=', '<=', '>=')
+        
+        # 2. Scroll through the active constraints
+        for constr in concrete.component_data_objects(pyo.Constraint, active=True):
+            # generate_standard_repn: standard representation of constraint expression
+            repn = generate_standard_repn(constr.body)
             
-            # for i in range(3):
-            #     print(f"Coeficiente de x[{i}]: {concrete.constraint.expr.get(i, 0)}")
-            # print(f"Coeficiente de y[0]: {concrete.constraint.expr.get(model.y[0], 0)}")
+            # Verify that constraint is linear
+            if repn is None or not repn.linear_vars:
+                print(f"Constraint {constr.name} is not linear and will me omitted.")
+                continue
             
-            for constraint in concrete.component_data_objects(pyo.Constraint):
-                row = []
-                print(f"CONSTRAINT: {constraint}")
-                print(f"CONSTRAINT INDEX: {constraint.index()}")
-                print(f"CONSTRAINT BODY: {constraint.body}")
+            # Initialize a zeros row for A matrix
+            row = np.zeros(num_vars)
+            
+            # For each linear variable and their coefficients, ubicate the coefficient in the correspondent position
+            for coef, var in zip(repn.linear_coefs, repn.linear_vars):
+                idx = var_to_index[id(var)]
+                row[idx] = coef
+        
+            # Process depending of the constraint type
+            if constr.equality:
+                A_rows.append(row)
+                b_val = constr.lower - repn.constant
+                indep_terms.append(b_val)
+                senses.append('=')
+            elif constr.has_ub() and not constr.has_lb():
+                A_rows.append(row)
+                b_val = constr.upper - repn.constant
+                indep_terms.append(b_val)
+                senses.append('<=')
+            elif constr.has_lb() and not constr.has_ub():
+                A_rows.append(row)
+                b_val = constr.lower - repn.constant
+                indep_terms.append(b_val)
+                senses.append('>=')
+            elif constr.has_lb() and constr.has_ub():
+                # If restricted constraint, it generates one row for each limit
+                A_rows.append(row)
+                b_val_lower = constr.lower - repn.constant
+                indep_terms.append(b_val_lower)
+                senses.append('>=')
                 
-                if isinstance(constraint.index(), int):
-                    for term in constraint.body.args:
-                        if isinstance(term, tuple):  # Este es un término que tiene coeficiente y variable
-                            coef = term[0]
-                            var = term[1]
-                            print(f"Variable: {var}, Coeficiente: {coef}")
-                        else:
-                            print(f"Termino: {term}")
-                            
-                            
-                            
-                    
-                print(f"COEFFICIENTS: {constraint.body.linear_coefs[0]}")
-                
-                
-                for var in concrete.component_data_objects(pyo.Var):
-                    coef = 0
-                    # Iterar sobre los términos de la expresión lineal en la restricción
-                    
-                    # TODO
-                    
-                    
-                    
-                    
-                    
-                    
-                    row.append(coef)
-                A.append(row)
-                b.append(constraint.upper())
+                A_rows.append(row.copy())
+                b_val_upper = constr.upper - repn.constant
+                indep_terms.append(b_val_upper)
+                senses.append('<=')
+            else:
+                print(f"Constraint type not recognized in {constr.name}.")
         
-            # Obtener coeficientes de la función objetivo
-            for var in concrete.component_data_objects(pyo.Var):
-                c.append(concrete.obj.get_coeff(var))
+        # Change the rows list into a NumPy matrix
+        # A = np.array(A_rows)
         
-            return A, b, c
+        # Show coefficients matrix and independent terms vector.
+        # print("Matriz de coeficientes (A):")
+        # print(A)
+        # print("\nVector del lado derecho (b):")
+        # print(indep_terms)
         
-        # Llamar a la función
-        A, b, c = get_matrix_vector(concrete)
-        
-        # Imprimir resultados
-        print("Matriz de coeficientes de las restricciones:", A)
-        print("Vector de términos independientes:", b)
-        print("Vector de la función de costes:", c)
+        return A_rows, indep_terms

@@ -25,9 +25,9 @@ class ILPEngine():
         """Return the list of all ILP operations available."""
         return [self.get_algorithm_from_name(ref_name) for ref_name in ALGORITHMS_NAMES]
     
-    def load_concrete(self, data_folder: Path, tau_value: int) -> dp.DataPortal:
+    def load_concrete(self, data_folder: Path) -> dp.DataPortal:
         
-        model = MultiobjectiveILPmodel(tau_value)
+        model = MultiobjectiveILPmodel()
         
         files = { "sequences": None, "nested": None, "conflict": None }
 
@@ -53,18 +53,23 @@ class ILPEngine():
 
     def apply_algorithm(self, algorithm: ILPCCReducer, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> Any:
         """Apply the given refactoring to the given instance (feature or constraint) of the given FM."""
-        # Process weights
-        if ',' in args:
-            weights = list(map(float, args.weights.split(',')))
-            if len(weights) != 3:
+        
+        if not hasattr(ILPm, 'tau'):
+            ILPm.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=True)) # Threshold
+        
+        args = args[0]
+        
+        # Process weights                
+        if isinstance(args, tuple):
+            # weights = list(map(float, args.weights.split(',')))
+            if len(args) != 3:
                 sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
-            return algorithm.execute(ILPm, instance, weights)
-        elif len(args) <= 2:
-            args = args[0]
-            subdivisions = int(args[0])
-            return algorithm.execute(ILPm, instance, tau, subdivisions)
+            return algorithm.execute(ILPm, instance, args)
+        elif isinstance(args, int):
+            subdivisions = int(args)
+            return algorithm.execute(ILPm, instance, subdivisions)
         else:
-            sys.exit("Subdivisions must be an integer parameter.")
+            sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').\nSubdivisions must be an integer parameter.")
 
     
     def get_algorithm_from_name(self, algorithm_name: str) -> ILPCCReducer:
@@ -74,3 +79,4 @@ class ILPEngine():
         modules = [importlib.import_module(m[1].__name__) for m in modules]
         class_ = next((getattr(m, algorithm_name) for m in modules if hasattr(m, algorithm_name)), None)
         return class_
+    

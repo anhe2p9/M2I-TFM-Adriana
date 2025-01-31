@@ -22,12 +22,16 @@ def generate_weights(n_divisions=6, theta_index=0, phi_index=0):
     # print(f"w3: {math.cos(subdivisions[theta_index])},   CCdif")
     
     
-    weights = {"w1": math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index]),
-               "w2": math.sin(subdivisions[theta_index])*math.sin(subdivisions[phi_index]),
-               "w3": math.cos(subdivisions[theta_index])
-               }
+    # weights = {"w1": math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index]),
+    #            "w2": math.sin(subdivisions[theta_index])*math.sin(subdivisions[phi_index]),
+    #            "w3": math.cos(subdivisions[theta_index])
+    #            }
     
-    return weights
+    w1, w2, w3 =  [math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index]),
+                  math.sin(subdivisions[theta_index])*math.sin(subdivisions[phi_index]),
+                  math.cos(subdivisions[theta_index])]
+    
+    return w1, w2, w3
 
 # def generate_subdivisions(n_divisions=6):
 #     """

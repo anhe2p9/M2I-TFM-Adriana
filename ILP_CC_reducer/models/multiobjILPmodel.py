@@ -3,21 +3,15 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
-import inspect
-
 
 class MultiobjectiveILPmodel(ILPCCReducer):
     
-    def __init__(self, tau_value: int):
+    def __init__(self):
         """Initializes the abstract model."""
-        self.tau_value = tau_value
         
         self.model = pyo.AbstractModel()
         self.defined_model = self.define_model_without_obj()
-        
-        caller = inspect.stack()[1]  # Obtener información del llamador
-        print(f"El método fue llamado desde: {caller.function} en {caller.filename}:{caller.lineno}")
-        
+
 
     def define_model_without_obj(self) -> pyo.AbstractModel:
         """Defines model sets."""
@@ -34,8 +28,6 @@ class MultiobjectiveILPmodel(ILPCCReducer):
             self.model.loc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
             self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
             self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
-            
-            self.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=int(self.tau_value), mutable=True) # Threshold
             
             self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
             self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)

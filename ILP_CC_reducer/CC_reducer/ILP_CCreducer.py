@@ -1,29 +1,33 @@
-from abc import abstractmethod, ABC
+from abc import ABC, abstractstaticmethod
 
 
 class ILPCCReducer(ABC):
     
-    @staticmethod
-    @abstractmethod
-    def define_model_without_obj():
+    @abstractstaticmethod
+    def define_model_without_obj(self):
         """Defines model except objective."""
         pass
-
     
-    @staticmethod
-    @abstractmethod
-    def process_data(S_filename: str, N_filename: str, C_filename: str):
+    @abstractstaticmethod
+    def process_data(self, S_filename: str, N_filename: str, C_filename: str):
         """Processes data from DataPortal."""
         pass
-
-    # @staticmethod
-    # @abstractmethod
-    # def execute(model: pyo.AbstractModel, data: pyo.ConcreteModel, subdivisions: int) -> list[list[Any]]:
-    #     """Apply the ILP algorithm to the given instance."""
-    #     pass
-    #
-    # @staticmethod
-    # @abstractmethod
-    # def definir_objetivo(model: pyo.ConcreteModel, **kwargs):
-    #     """Defines model objective."""
-    #     pass
+    
+    @abstractstaticmethod
+    def sequencesObjective(self, m):
+        """Models number of sequences objective."""
+        pass
+    
+    @abstractstaticmethod
+    def LOCdifferenceObjective(self, m):
+        """Models LOC difference objective."""
+        pass
+        
+    @abstractstaticmethod
+    def CCdifferenceObjective(self, m):
+        """Models CC difference objective."""
+        pass
+    
+    
+    
+    

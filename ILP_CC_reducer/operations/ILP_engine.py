@@ -57,19 +57,22 @@ class ILPEngine():
         if not hasattr(ILPm, 'tau'):
             ILPm.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=True)) # Threshold
         
-        args = args[0]
-        
-        # Process weights                
-        if isinstance(args, tuple):
-            # weights = list(map(float, args.weights.split(',')))
-            if len(args) != 3:
-                sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
-            return algorithm.execute(ILPm, instance, args)
-        elif isinstance(args, int):
-            subdivisions = int(args)
-            return algorithm.execute(ILPm, instance, subdivisions)
+        if len(args) == 0:
+            return algorithm.execute(ILPm, instance)
         else:
-            sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').\nSubdivisions must be an integer parameter.")
+            args = args[0]
+            
+            # Process weights                
+            if isinstance(args, tuple):
+                # weights = list(map(float, args.weights.split(',')))
+                if len(args) != 3:
+                    sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
+                return algorithm.execute(ILPm, instance, args)
+            elif isinstance(args, int):
+                subdivisions = int(args)
+                return algorithm.execute(ILPm, instance, subdivisions)
+            else:
+                sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').\nSubdivisions must be an integer parameter.")
 
     
     def get_algorithm_from_name(self, algorithm_name: str) -> ILPCCReducer:

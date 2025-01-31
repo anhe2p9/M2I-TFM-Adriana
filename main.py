@@ -28,8 +28,10 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     # Process instance
     instance = model_engine.load_concrete(instance_folder)
     
-
-    result = model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0])
+    if len(args) == 0:
+        result = model_engine.apply_algorithm(algorithm, ilp_model, instance, tau)
+    else:
+        result = model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0])
     
     print(result)
     

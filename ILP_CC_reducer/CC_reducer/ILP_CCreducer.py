@@ -1,33 +1,30 @@
-from abc import ABC, abstractstaticmethod
+from abc import ABC, abstractstaticmethod, abstractmethod
+
+from typing import Any
+
+import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
+import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
+
 
 
 class ILPCCReducer(ABC):
     
-    @abstractstaticmethod
-    def define_model_without_obj(self):
-        """Defines model except objective."""
+    @staticmethod
+    @abstractmethod
+    def get_name() -> str:
+        """Name of the algorithm"""
         pass
     
-    @abstractstaticmethod
-    def process_data(self, S_filename: str, N_filename: str, C_filename: str):
-        """Processes data from DataPortal."""
+    @staticmethod
+    @abstractmethod
+    def get_description() -> str:
         pass
-    
-    @abstractstaticmethod
-    def sequencesObjective(self, m):
-        """Models number of sequences objective."""
+
+    @staticmethod
+    @abstractmethod
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, *args) -> list[list[Any]]:
+        """Apply the algorithm to the given model instance."""
         pass
-    
-    @abstractstaticmethod
-    def LOCdifferenceObjective(self, m):
-        """Models LOC difference objective."""
-        pass
-        
-    @abstractstaticmethod
-    def CCdifferenceObjective(self, m):
-        """Models CC difference objective."""
-        pass
-    
     
     
     

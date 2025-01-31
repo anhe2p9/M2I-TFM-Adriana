@@ -1,10 +1,9 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
 
-class MultiobjectiveILPmodel(ILPCCReducer):
+class MultiobjectiveILPmodel():
     
     def __init__(self):
         """Initializes the abstract model."""

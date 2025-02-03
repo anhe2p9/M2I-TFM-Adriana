@@ -1,10 +1,9 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
-import sys # proporciona acceso a funciones relacionadas con el sistema operativo
 
-from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
+from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 
 
-class ILPmodelRsain(ILPCCReducer):
+class ILPmodelRsain(Algorithm):
     
     def __init__(self, data):
         """Initialiczes the model with data."""

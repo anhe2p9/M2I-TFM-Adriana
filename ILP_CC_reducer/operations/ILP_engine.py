@@ -10,7 +10,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 
-from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
+from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer import algorithms as ALGORITHMS
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
@@ -21,7 +21,7 @@ class ILPEngine():
     def __init__(self) -> None:
         pass
 
-    def get_algorithms(self) -> list[ILPCCReducer]:
+    def get_algorithms(self) -> list[Algorithm]:
         """Return the list of all ILP operations available."""
         return [self.get_algorithm_from_name(ref_name) for ref_name in ALGORITHMS_NAMES]
     
@@ -51,7 +51,7 @@ class ILPEngine():
         return data
         
 
-    def apply_algorithm(self, algorithm: ILPCCReducer, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> Any:
+    def apply_algorithm(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> Any:
         """Apply the given refactoring to the given instance (feature or constraint) of the given FM."""
         
         if not hasattr(ILPm, 'tau'):
@@ -75,7 +75,7 @@ class ILPEngine():
                 sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').\nSubdivisions must be an integer parameter.")
 
     
-    def get_algorithm_from_name(self, algorithm_name: str) -> ILPCCReducer:
+    def get_algorithm_from_name(self, algorithm_name: str) -> Algorithm:
         """Given the name of an algorithm class, return the instance class of the algorithm."""
         modules = inspect.getmembers(ALGORITHMS)
         modules = filter(lambda x: inspect.ismodule(x[1]), modules)

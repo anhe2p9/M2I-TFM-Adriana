@@ -1,4 +1,3 @@
-import csv
 import os
 import sys
 import argparse
@@ -29,38 +28,13 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     instance = model_engine.load_concrete(instance_folder)
     
     if len(args) == 0:
-        result, indep_terms = model_engine.apply_algorithm(algorithm, ilp_model, instance, tau)
+        model_engine.apply_algorithm(algorithm, ilp_model, instance, tau)
     else:
-        result = model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0])
-        indep_terms = None
+        model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0])
     
     # print(result)
-    
-    # Escribir datos en un archivo CSV
-    filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/output.csv"
-    indep_terms_filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/indep_terms.csv"
-    
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        
-        if os.path.exists(indep_terms_filename):
-            os.remove(indep_terms_filename)
-        
-        writer = csv.writer(file)
-        writer.writerows(result)
-        print("Primer archivo CSV creado correctamente.")
-        
-    if indep_terms:
-        with open(indep_terms_filename, mode="w", newline="", encoding="utf-8") as file:
-            writer = csv.writer(file)
-            writer.writerow(indep_terms)
-            print("Segundo archivo CSV creado correctamente.")
 
-    
-    
-    
-    # Procesar los datos
-    # Pasar los datos al algoritmo que sea
-    # Obtener el resultado y escribirlo en un fichero CSV
+
 
 
 PROPERTIES_FILE = "properties.ini"

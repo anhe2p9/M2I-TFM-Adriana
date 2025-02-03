@@ -1,11 +1,11 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 
-from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
+from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 
 
 
 
-class EpsilonConstraintAlgorithm(ILPCCReducer):
+class EpsilonConstraintAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:

@@ -1,4 +1,4 @@
-from abc import ABC, abstractstaticmethod, abstractmethod
+from abc import ABC, abstractmethod
 
 from typing import Any
 
@@ -7,7 +7,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 
 
-class ILPCCReducer(ABC):
+class Algorithm(ABC):
     
     @staticmethod
     @abstractmethod

@@ -3,13 +3,13 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from pyomo.repn import generate_standard_repn
 import numpy as np
+import os
 
-from typing import Any
+from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.models import MultiobjectiveILPmodel
 
-from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
 
-
-class TPAdataAlgorithm(ILPCCReducer):
+class TPAdataAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:
@@ -20,77 +20,76 @@ class TPAdataAlgorithm(ILPCCReducer):
         return ("It obtains model matrices to apply TPA Algorithm.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> Any:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> None:
         
-        print(f"Proccessing ILP matrix and row vector for Ax <= b standard form.")
+        multiobj_model = MultiobjectiveILPmodel()
         
-        concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
+        concrete = model.create_instance(data)
+        concrete.write("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/model_file.lp", io_options={'symbolic_solver_labels': True})      
         
-        # 1. Obtain variable list and assign an index for each one using id() key
-        var_list = list(concrete.component_data_objects(pyo.Var, descend_into=True))
-        var_to_index = {id(var): idx for idx, var in enumerate(var_list)}
+        # Definimos una lista con las funciones objetivo que vamos a usar:
+        objectives = [
+            multiobj_model.sequencesObjective,
+            multiobj_model.LOCdifferenceObjective,
+            multiobj_model.CCdifferenceObjective
+        ]
         
-        num_vars = len(var_list)
-        # Initialize lists to save matrix rows and independent term
-        A_rows = []  # Coefficients matrix rows
-        indep_terms = []     # Right-hand side (independent terms)
-        senses = []  # Constrints senses (e.g., '=', '<=', '>=')
+        coef_rows = []
         
-        # 2. Scroll through the active constraints
-        for constr in concrete.component_data_objects(pyo.Constraint, active=True):
-            # generate_standard_repn: standard representation of constraint expression
-            repn = generate_standard_repn(constr.body)
+        num_objectives = len(objectives)
+        print(f"There are {num_objectives} objectives")
+        
+        coef_rows.append([num_objectives])
+        
+        num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
+        print(f"There are {num_variables} variables")
+        
+        num_constraints = sum(len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
+        print(f"There are {num_constraints} constraints")
+        
+        coef_rows.append([num_variables, num_constraints])
+        
+        
+        for obj_func in objectives:
+            if hasattr(model, 'obj'):
+                model.del_component('obj')
+            model.add_component('obj', pyo.Objective(rule=lambda m: obj_func(m)))
             
-            # Verify that constraint is linear
-            if repn is None or not repn.linear_vars:
-                print(f"Constraint {constr.name} is not linear and will me omitted.")
-                continue
+            concrete = model.create_instance(data)
             
-            # Initialize a zeros row for A matrix
+            # Extract variables list and build a id map from id to index
+            var_list = list(concrete.component_data_objects(pyo.Var, descend_into=True))
+            var_to_index = {id(var): idx for idx, var in enumerate(var_list)}
+            num_vars = len(var_list)
+            
             row = np.zeros(num_vars)
             
-            # For each linear variable and their coefficients, ubicate the coefficient in the correspondent position
+            repn = generate_standard_repn(concrete.obj)
+            
+            # Ubicate each coefficient inf the correspondent position
             for coef, var in zip(repn.linear_coefs, repn.linear_vars):
                 idx = var_to_index[id(var)]
                 row[idx] = coef
+            
+            row = np.array(row, dtype=int)
+
+            coef_rows.append(row)
         
-            # Process depending of the constraint type
-            if constr.equality:
-                A_rows.append(row)
-                b_val = constr.lower - repn.constant
-                indep_terms.append(b_val)
-                senses.append('=')
-            elif constr.has_ub() and not constr.has_lb():
-                A_rows.append(row)
-                b_val = constr.upper - repn.constant
-                indep_terms.append(b_val)
-                senses.append('<=')
-            elif constr.has_lb() and not constr.has_ub():
-                A_rows.append(row)
-                b_val = constr.lower - repn.constant
-                indep_terms.append(b_val)
-                senses.append('>=')
-            elif constr.has_lb() and constr.has_ub():
-                # If restricted constraint, it generates one row for each limit
-                A_rows.append(row)
-                b_val_lower = constr.lower - repn.constant
-                indep_terms.append(b_val_lower)
-                senses.append('>=')
+        print(f"coef rows: {coef_rows}")
+        
+        filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/objective_file"
+        
+        with open(filename, 'w') as f:
+            for row in coef_rows:
+                # Convertimos cada número a string y los separamos por espacios
+                f.write(' '.join(str(coef) for coef in row) + '\n')
                 
-                A_rows.append(row.copy())
-                b_val_upper = constr.upper - repn.constant
-                indep_terms.append(b_val_upper)
-                senses.append('<=')
-            else:
-                print(f"Constraint type not recognized in {constr.name}.")
+                
+                
+                
+# ./BOXES C:\Users\X1502\eclipse-workspace\git\M2I-TFM-Adriana\output\TPA\objective_file C:\Users\X1502\eclipse-workspace\git\M2I-TFM-Adriana\output\TPA\model_file.lp 0 0 p-partition holzmann reduced_scaled alternate RE 1 1          
         
-        # Change the rows list into a NumPy matrix
-        # A = np.array(A_rows)
         
-        # Show coefficients matrix and independent terms vector.
-        # print("Matriz de coeficientes (A):")
-        # print(A)
-        # print("\nVector del lado derecho (b):")
-        # print(indep_terms)
         
-        return A_rows, indep_terms
+        
+        

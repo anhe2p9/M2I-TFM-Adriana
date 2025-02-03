@@ -5,11 +5,13 @@ import sys
 import utils
 from typing import Any
 
-from ILP_CC_reducer.CC_reducer.ILP_CCreducer import ILPCCReducer
-from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
+import csv
+import os
+
+from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 
 
-class WeightedSumAlgorithm(ILPCCReducer):
+class WeightedSumAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:
@@ -34,13 +36,12 @@ class WeightedSumAlgorithm(ILPCCReducer):
                 for j in range(args+1):
                     w1, w2, w3 = utils.generate_weights(args, i, j)
                     
-                    _, newrow = process_model(model, data, w1 ,w2, w3)
+                    _, newrow = utils.process_weighted_model(model, data, w1 ,w2, w3)
                     
                     csv_data.append(newrow)
                 
                     if i == 0:
-                        break    
-            return csv_data
+                        break
             
             
             
@@ -49,63 +50,30 @@ class WeightedSumAlgorithm(ILPCCReducer):
                         
             w1, w2, w3 = args
             
-            concrete, newrow = process_model(model, data, w1 ,w2, w3)
+            concrete, newrow = utils.process_weighted_model(model, data, w1 ,w2, w3)
                   
             csv_data.append(newrow)
             
             concrete.pprint()
-                    
-            return csv_data
         
             
         else:
             sys.exit(f'The algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
-
-
-
-def process_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3):
-    
-    ilp_model = MultiobjectiveILPmodel()
-    
-    if hasattr(model, 'obj'):
-        model.del_component('obj')  # Eliminar el componente existente
-        model.add_component('obj', pyo.Objective(rule=lambda m: weightedSum(m, w1, w2, w3, ilp_model)))
-    else:
-        model.obj = pyo.Objective(rule=lambda m: weightedSum(m,w1, w2, w3, ilp_model))
-    
-    concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
-    solver = pyo.SolverFactory('cplex')
-    # results = solver.solve(concrete)
-    solver.solve(concrete)
+        
+        
+        # Write data in a CSV file.
+        filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/output.csv"
+        
+        if os.path.exists(filename):
+            os.remove(filename)
+                
+        with open(filename, mode="w", newline="", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            writer.writerows(csv_data)
+            print("CSV filed correctly created.")
     
 
-    sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
     
-    xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
-    zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-    
-    maxLOCselected = abs(max(xLOC) - max(zLOC))
-    minLOCselected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
-    LOCdif = abs(maxLOCselected - minLOCselected)
-    
-    xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
-    zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-    
-    
-    maxCCselected = abs(max(xCC) - max(zCC))
-    minCCselected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
-    CCdif = abs(maxCCselected - minCCselected)
-    
-    
-    newrow = [round(w1,2),round(w2,2),round(w3,2),sequences_sum,LOCdif,CCdif]
-    
-    return concrete, newrow
-    
-
-def weightedSum(m, sequencesWeight, LOCdiffWeight, CCdiffWeight, ilp_model):
-    return (sequencesWeight * ilp_model.sequencesObjective(m) +
-            LOCdiffWeight * ilp_model.LOCdifferenceObjective(m) +
-            CCdiffWeight * ilp_model.CCdifferenceObjective(m))
 
 
 

@@ -7,18 +7,13 @@ class MultiobjectiveILPmodel():
     
     def __init__(self):
         """Initializes the abstract model."""
-        
         self.model = pyo.AbstractModel()
         self.defined_model = self.define_model_without_obj()
 
 
     def define_model_without_obj(self) -> pyo.AbstractModel:
         """Defines model sets."""
-        #
-        # print("SE ME ESTÁ LLAMANDO!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        # caller = inspect.stack()[1]  # Obtener información del llamador
-        # print(f"El método fue llamado desde: {caller.function} en {caller.filename}:{caller.lineno}")
-        
+
         if not hasattr(self.model, 'S'):
             self.model.S = pyo.Set() # Extracted sequences
             self.model.N = pyo.Set(within=self.model.S*self.model.S) # Nested sequences
@@ -28,6 +23,10 @@ class MultiobjectiveILPmodel():
             self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
             self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
             
+            self.model.O = pyo.Set(initialize=[1,2]) # Set for epsilon-constraint
+            self.model.epsilon = pyo.Param(self.model.O, initialize={1: 1.0, 2: 2.0}, mutable=True) # Epsilon values
+            self.model.beta = pyo.Param(self.model.O, within=pyo.NonNegativeReals, initialize={1:1.0, 2:2.0}, mutable=True) # Weights for the objective function
+
             self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
             self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)
             
@@ -45,6 +44,8 @@ class MultiobjectiveILPmodel():
             self.model.maxCC = pyo.Constraint(self.model.S, rule=maxCC)
             self.model.minCC = pyo.Constraint(self.model.S, rule=minCC)
             self.model.x_0 = pyo.Constraint(rule=x_0)
+            
+            self.model.epsilonConstraint = pyo.Constraint(self.model.O, rule=self.epsilonConstraint)
         
         return self.model
     
@@ -56,7 +57,8 @@ class MultiobjectiveILPmodel():
         data.load(filename=C_filename, index=self.defined_model.C, param=())
         
         return data
-
+    
+    
     def sequencesObjective(self, m):
         return sum(m.x[j] for j in m.S)
     
@@ -65,6 +67,26 @@ class MultiobjectiveILPmodel():
         
     def CCdifferenceObjective(self, m): # modelar tercer objetivo como restricción
         return m.cmax - m.cmin
+    
+    
+    
+    
+    def weightedSum(self, m, sequencesWeight, LOCdiffWeight, CCdiffWeight):
+        return (sequencesWeight * self.sequencesObjective(m) +
+                LOCdiffWeight * self.LOCdifferenceObjective(m) +
+                CCdiffWeight * self.CCdifferenceObjective(m))
+    
+    def epsilonObjective(self, m):
+        return m.beta[1] * self.LOCdifferenceObjective(m) + m.beta[2] * self.CCdifferenceObjective(m)
+    
+    def epsilonConstraint(self, m, o):
+        if o == 1:
+            return self.LOCdifferenceObjective(m) <= m.epsilon[o]
+        else:
+            return self.CCdifferenceObjective(m) <= m.epsilon[o]
+        
+        
+    
     
 
 

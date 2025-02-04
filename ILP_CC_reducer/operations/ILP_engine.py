@@ -59,21 +59,10 @@ class ILPEngine():
         
         if len(args) == 0:
             return algorithm.execute(ILPm, instance)
+        elif len(args) == 1:
+            return algorithm.execute(ILPm, instance, args[0])
         else:
-            args = args[0]
-            
-            # Process weights                
-            if isinstance(args, tuple):
-                # weights = list(map(float, args.weights.split(',')))
-                if len(args) != 3:
-                    sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').")
-                return algorithm.execute(ILPm, instance, args)
-            elif isinstance(args, int):
-                subdivisions = int(args)
-                return algorithm.execute(ILPm, instance, subdivisions)
-            else:
-                sys.exit("Weights parameter w1,w2,w3 must be exactly three weights separated by comma (',').\nSubdivisions must be an integer parameter.")
-
+            return algorithm.execute(ILPm, instance, args[0], args[1])
     
     def get_algorithm_from_name(self, algorithm_name: str) -> Algorithm:
         """Given the name of an algorithm class, return the instance class of the algorithm."""

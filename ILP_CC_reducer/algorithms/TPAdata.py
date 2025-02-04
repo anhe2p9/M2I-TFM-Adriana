@@ -75,7 +75,7 @@ class TPAdataAlgorithm(Algorithm):
 
             coef_rows.append(row)
         
-        print(f"coef rows: {coef_rows}")
+        
         
         filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/objective_file"
         
@@ -83,6 +83,7 @@ class TPAdataAlgorithm(Algorithm):
             for row in coef_rows:
                 # Convertimos cada número a string y los separamos por espacios
                 f.write(' '.join(str(coef) for coef in row) + '\n')
+            print("Input files correctly created.")
                 
                 
                 

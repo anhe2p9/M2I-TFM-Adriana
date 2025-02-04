@@ -29,8 +29,10 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     
     if len(args) == 0:
         model_engine.apply_algorithm(algorithm, ilp_model, instance, tau)
-    else:
+    elif len(args) == 1:
         model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0])
+    else:
+        model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0], args[1])
     
     # print(result)
 
@@ -63,8 +65,11 @@ def load_config(file=PROPERTIES_FILE):
         if "subdivisions" in section:
             parameters["subdivisions"] = section.getint["subdivisions"]
         if "weights" in section:
-            # Turn "x,y,z" into (float, float, float)
-            parameters["weights"] = tuple(map(float, section["weights"].split(",")))
+            parameters["weights"] = section['weights']
+        if "epsilon" in section:
+            parameters["epsilon"] = section['epsilon']
+        if "beta" in section:
+            parameters["beta"] = section.getint["beta"]
 
     return parameters
 
@@ -98,9 +103,11 @@ def obtain_arguments():
     parser = argparse.ArgumentParser(description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally a determined number of subdivisions s or three weights w, it applies the correspondent algorithm to find the optimal solutions of the model instance.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, required=True, help='Model instance to be optimized (folder with the three data files in CSV format).')
     parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, required=True, help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
-    parser.add_argument('-t', '--tau', dest='threshold', type=str, required=False, help=f'Threshold (tau) to be reached by the optimization model.')
-    parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, required=False, help=f'Subdivisions to generate different weights.')
-    parser.add_argument('-w', '--weights', dest='weights', type=str, required=False, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated with comma (",").')
+    parser.add_argument('-t', '--tau', dest='threshold', type=int, required=False, help=f'Threshold (tau) to be reached by the optimization model.')
+    parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, required=False, help=f'Number of subdivisions to generate different weights.')
+    parser.add_argument('-w', '--weights', dest='weights', type=str, required=False, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated by comma (",").')
+    parser.add_argument('-e', '--epsilon', dest='epsilon', type=str, required=False, help=f'Epsilon e1,e2 values in the case of epsilon constraint algorithm.')
+    parser.add_argument('-b', '--beta', dest='beta', type=int, required=False, help=f'Beta value in the case of epsilon constraint algorithm.')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
 
     
@@ -108,8 +115,10 @@ def obtain_arguments():
     parameters = vars(args)
     
     # Turn "x,y,z" into (float,float,float) if --weights is a parameter in command line
-    if parameters["weights"]:
-        parameters["weights"] = tuple(map(float, parameters["weights"].split(",")))
+    if parameters['weights']:
+        parameters['weights'] = tuple(map(float, parameters['weights'].split(",")))
+    elif parameters['epsilon']:
+        parameters['epsilon'] = tuple(map(int, parameters['epsilon'].split(",")))
 
 
     return parameters
@@ -150,13 +159,22 @@ if __name__ == '__main__':
     if not instance_path.is_dir():
         sys.exit(f'The model instance must be a folder with three CSV files.')
         
-    
-    if args['subdivisions']:
-        main(instance_path, args['ilp_algorithm'], args['threshold'], args['subdivisions'])
-    elif args['weights']:
-        main(instance_path, args['ilp_algorithm'], args['threshold'], args['weights'])
-    else:
+    if args['ilp_algorithm'] == 'WeightedSumAlgorithm':
+        if args['subdivisions']:
+            main(instance_path, args['ilp_algorithm'], args['threshold'], args['subdivisions'])
+        elif args['weights']:
+            main(instance_path, args['ilp_algorithm'], args['threshold'], args['weights'])
+        else:
+            sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
+    elif args['ilp_algorithm'] == 'EpsilonConstraintAlgorithm':
+        if args['epsilon'] and args['beta']:
+            main(instance_path, args['ilp_algorithm'], args['threshold'], args['epsilon'], args['beta'])
+        else:
+            sys.exit(f'The Epsilon Constraint Algorithm parameters must be two epsilon e1,e2 values and a beta b value.')
+    elif args['ilp_algorithm'] == 'TPAdataAlgorithm':
         main(instance_path, args['ilp_algorithm'], args['threshold'])
+    else:
+        sys.exit(f'Algorithm to be applied to the model instance must be one of {[a for a in ALGORITHMS_NAMES]}')
     
     
     

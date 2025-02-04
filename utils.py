@@ -34,9 +34,9 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     if hasattr(model, 'obj'):
         model.del_component('obj')  # Eliminar el componente existente
-        model.add_component('obj', pyo.Objective(rule=lambda m: weightedSum(m, w1, w2, w3, multiobj_model)))
+        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum(m, w1, w2, w3)))
     else:
-        model.obj = pyo.Objective(rule=lambda m: weightedSum(m,w1, w2, w3, multiobj_model))
+        model.obj = pyo.Objective(rule=lambda m: multiobj_model.weightedSum(m,w1, w2, w3))
     
     concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     solver = pyo.SolverFactory('cplex')
@@ -66,10 +66,7 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     return concrete, newrow
 
-def weightedSum(m, sequencesWeight, LOCdiffWeight, CCdiffWeight, ilp_model):
-    return (sequencesWeight * ilp_model.sequencesObjective(m) +
-            LOCdiffWeight * ilp_model.LOCdifferenceObjective(m) +
-            CCdiffWeight * ilp_model.CCdifferenceObjective(m))
+
 
 
 

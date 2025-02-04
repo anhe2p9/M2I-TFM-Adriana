@@ -33,10 +33,10 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     multiobj_model = MultiobjectiveILPmodel()
     
     if hasattr(model, 'obj'):
-        model.del_component('obj')  # Eliminar el componente existente
-        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum(m, w1, w2, w3)))
-    else:
-        model.obj = pyo.Objective(rule=lambda m: multiobj_model.weightedSum(m,w1, w2, w3))
+        model.del_component('obj')
+    model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum(m, w1, w2, w3)))
+    
+    
     
     concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     solver = pyo.SolverFactory('cplex')

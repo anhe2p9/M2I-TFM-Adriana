@@ -23,22 +23,56 @@ class EpsilonConstraintAlgorithm(Algorithm):
     def execute(model: pyo.AbstractModel, data: dp.DataPortal, *args) -> list[list[Any]]:
         
         multiobj_model = MultiobjectiveILPmodel()
-        concrete = model.create_instance(data)
+        
+        if hasattr(model, 'O'):
+            model.del_component('O')
+        model.add_component('O', pyo.Set(initialize=[1,2,3])) # Set for epsilon-constraint
+        
+        if hasattr(model, 'epsilon'):
+            model.del_component('epsilon')
+        model.add_component('epsilon', pyo.Param(model.O, initialize={1: 1.0, 2: 2.0, 3: 1.0}, mutable=True)) # Epsilon values
+        
+        if hasattr(model, 'beta'):
+            model.del_component('beta')
+        model.add_component('beta', pyo.Param(model.O, within=pyo.NonNegativeReals, initialize={1:1.0, 2:0.1, 3:0.1}, mutable=True)) # Weights for the objective function
+        
+        
+        if hasattr(model, 'epsilonConstraint'):
+            model.del_component('epsilonConstraint')
+        model.add_component('epsilonConstraint', pyo.Constraint(model.O, rule=multiobj_model.epsilonConstraint))
+        
+        print(f"ARGS EPSILON CONSTRAINT: {args}")
         
         # Process args        
         epsilon = args[0]
         epsilon1 = epsilon[0]
         epsilon2 = epsilon[1]
-        beta = args[1]     
+        epsilon3 = epsilon[2]
+        
+        beta = args[1]   
+        beta1 = beta[0]
+        beta2 = beta[1]
+        
+        
+        
+        if hasattr(model, 'obj'):
+            model.del_component('obj')
+        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m)))
          
         
-        concrete.epsilon[1]=epsilon1
-        concrete.epsilon[2]=100
-        concrete.beta[1]=beta
-        concrete.beta[2]=1
+        concrete = model.create_instance(data)
+        concrete.epsilon[1] = epsilon1
+        concrete.epsilon[2] = epsilon2
+        concrete.epsilon[3] = epsilon3
+        concrete.beta[1] = beta1
+        concrete.beta[2] = beta2
+        concrete.beta[3] = 1
         
         solver=pyo.SolverFactory('cplex')
         results = solver.solve(concrete)
+        concrete.pprint()
+        
+        
         
         if results.solver.status == 'ok':
             f1 = pyo.value(multiobj_model.LOCdifferenceObjective(concrete))
@@ -49,6 +83,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
     
             pf1 = 10
             solution=1
+            
+            print(f"comparison: f1: {f1}, epsilon2: {epsilon2} and pf1: {pf1}, f1: {f1}")
+            
             while results.solver.status == 'ok' and f1 > epsilon2 and pf1 > f1:
                 solution = solution +1
                 concrete.epsilon[1]=f1-1

@@ -69,7 +69,7 @@ def load_config(file=PROPERTIES_FILE):
         if "epsilon" in section:
             parameters["epsilon"] = section['epsilon']
         if "beta" in section:
-            parameters["beta"] = section.getint["beta"]
+            parameters["beta"] = section["beta"]
 
     return parameters
 
@@ -106,8 +106,8 @@ def obtain_arguments():
     parser.add_argument('-t', '--tau', dest='threshold', type=int, required=False, help=f'Threshold (tau) to be reached by the optimization model.')
     parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, required=False, help=f'Number of subdivisions to generate different weights.')
     parser.add_argument('-w', '--weights', dest='weights', type=str, required=False, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated by comma (",").')
-    parser.add_argument('-e', '--epsilon', dest='epsilon', type=str, required=False, help=f'Epsilon e1,e2 values in the case of epsilon constraint algorithm.')
-    parser.add_argument('-b', '--beta', dest='beta', type=int, required=False, help=f'Beta value in the case of epsilon constraint algorithm.')
+    parser.add_argument('-e', '--epsilon', dest='epsilon', type=str, required=False, help=f'Epsilon e1,e2,e3 values in the case of epsilon constraint algorithm.')
+    parser.add_argument('-b', '--beta', dest='beta', type=str, required=False, help=f'Beta b1,b2 values in the case of epsilon constraint algorithm.')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
 
     
@@ -117,8 +117,11 @@ def obtain_arguments():
     # Turn "x,y,z" into (float,float,float) if --weights is a parameter in command line
     if parameters['weights']:
         parameters['weights'] = tuple(map(float, parameters['weights'].split(",")))
-    elif parameters['epsilon']:
+    if parameters['epsilon']:
         parameters['epsilon'] = tuple(map(int, parameters['epsilon'].split(",")))
+    if parameters['beta']:
+        parameters['beta'] = tuple(map(int, parameters['beta'].split(",")))
+
 
 
     return parameters

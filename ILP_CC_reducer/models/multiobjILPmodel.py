@@ -9,6 +9,7 @@ class MultiobjectiveILPmodel():
         """Initializes the abstract model."""
         self.model = pyo.AbstractModel()
         self.defined_model = self.define_model_without_obj()
+        
 
 
     def define_model_without_obj(self) -> pyo.AbstractModel:
@@ -22,10 +23,6 @@ class MultiobjectiveILPmodel():
             self.model.loc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
             self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
             self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
-            
-            self.model.O = pyo.Set(initialize=[1,2]) # Set for epsilon-constraint
-            self.model.epsilon = pyo.Param(self.model.O, initialize={1: 1.0, 2: 2.0}, mutable=True) # Epsilon values
-            self.model.beta = pyo.Param(self.model.O, within=pyo.NonNegativeReals, initialize={1:1.0, 2:2.0}, mutable=True) # Weights for the objective function
 
             self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
             self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)
@@ -44,8 +41,6 @@ class MultiobjectiveILPmodel():
             self.model.maxCC = pyo.Constraint(self.model.S, rule=maxCC)
             self.model.minCC = pyo.Constraint(self.model.S, rule=minCC)
             self.model.x_0 = pyo.Constraint(rule=x_0)
-            
-            self.model.epsilonConstraint = pyo.Constraint(self.model.O, rule=self.epsilonConstraint)
         
         return self.model
     
@@ -77,7 +72,7 @@ class MultiobjectiveILPmodel():
                 CCdiffWeight * self.CCdifferenceObjective(m))
     
     def epsilonObjective(self, m):
-        return m.beta[1] * self.LOCdifferenceObjective(m) + m.beta[2] * self.CCdifferenceObjective(m)
+        return m.beta[1] * self.sequencesObjective(m) + m.beta[2] * self.LOCdifferenceObjective(m) + m.beta[3] * self.CCdifferenceObjective(m)
     
     def epsilonConstraint(self, m, o):
         if o == 1:

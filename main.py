@@ -118,9 +118,9 @@ def obtain_arguments():
     if parameters['weights']:
         parameters['weights'] = tuple(map(float, parameters['weights'].split(",")))
     if parameters['epsilon']:
-        parameters['epsilon'] = tuple(map(int, parameters['epsilon'].split(",")))
+        parameters['epsilon'] = tuple(map(float, parameters['epsilon'].split(",")))
     if parameters['beta']:
-        parameters['beta'] = tuple(map(int, parameters['beta'].split(",")))
+        parameters['beta'] = tuple(map(float, parameters['beta'].split(",")))
 
 
 
@@ -169,17 +169,8 @@ if __name__ == '__main__':
             main(instance_path, args['ilp_algorithm'], args['threshold'], args['weights'])
         else:
             sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
-    elif args['ilp_algorithm'] == 'EpsilonConstraintAlgorithm':
-        if args['epsilon'] and args['beta']:
-            main(instance_path, args['ilp_algorithm'], args['threshold'], args['epsilon'], args['beta'])
-        else:
-            sys.exit(f'The Epsilon Constraint Algorithm parameters must be two epsilon e1,e2 values and a beta b value.')
-    elif args['ilp_algorithm'] == 'TPAdataAlgorithm':
-        main(instance_path, args['ilp_algorithm'], args['threshold'])
     else:
-        sys.exit(f'Algorithm to be applied to the model instance must be one of {[a for a in ALGORITHMS_NAMES]}')
-    
-    
+        main(instance_path, args['ilp_algorithm'], args['threshold'])
     
     
     # PARÁMETROS DE PRUEBA

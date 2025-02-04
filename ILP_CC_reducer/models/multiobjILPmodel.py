@@ -80,6 +80,9 @@ class MultiobjectiveILPmodel():
         else:
             return self.CCdifferenceObjective(m) <= m.epsilon[o]
         
+    def LOCdifferenceConstraint(self, m):
+        return self.LOCdifferenceObjective(m) <= m.f2
+        
         
     
     

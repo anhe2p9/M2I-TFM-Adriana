@@ -64,6 +64,8 @@ class ILPEngine():
         else:
             return algorithm.execute(ILPm, instance, args[0], args[1])
     
+    
+    
     def get_algorithm_from_name(self, algorithm_name: str) -> Algorithm:
         """Given the name of an algorithm class, return the instance class of the algorithm."""
         modules = inspect.getmembers(ALGORITHMS)

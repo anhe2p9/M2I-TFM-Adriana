@@ -40,8 +40,13 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     solver = pyo.SolverFactory('cplex')
-    # results = solver.solve(concrete)
-    solver.solve(concrete)
+    results = solver.solve(concrete)
+    # solver.solve(concrete)
+    
+    print(results)
+    num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
+    print(f"There are {num_variables} variables\n")
+    print("==========================================================================================================\n")
     
 
     sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)

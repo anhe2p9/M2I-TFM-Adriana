@@ -26,6 +26,7 @@ class TPAdataAlgorithm(Algorithm):
         
         concrete = model.create_instance(data)
         concrete.write("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/model_file.lp", io_options={'symbolic_solver_labels': True})      
+        # concrete.write("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/model_file.lp")
         
         # Definimos una lista con las funciones objetivo que vamos a usar:
         objectives = [

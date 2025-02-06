@@ -3,7 +3,6 @@ import sys
 import argparse
 import configparser
 from pathlib import Path
-import utils
 
 
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
@@ -37,30 +36,6 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     
     # print(result)
     
-
-
-def process_folder_path(folder_name: str) -> Path:
-
-    # Obtiene el directorio donde se encuentra este script
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Construye la ruta completa a la carpeta "data"
-    folder_path = os.path.join(base_dir, 'original_code_data', folder_name)
-    
-    return folder_path
-
-def process_file_path(file_name: str) -> Path:
-
-    # Obtiene el directorio donde se encuentra este script
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Construye la ruta completa a la carpeta "data"
-    file_path = os.path.join(base_dir, 'input', file_name)
-    
-    return file_path
-
-
-
 
 PROPERTIES_FILE = "properties.ini"
 
@@ -156,8 +131,7 @@ if __name__ == '__main__':
     # Load properties from file if it exists
     config = {}
     if args['properties_file']:
-        properties_file_path = process_file_path(args['properties_file'])
-        properties_file_path = Path(properties_file_path)
+        properties_file_path = Path(args['properties_file'])
         print(f"PROPERTIES FILE PATH: {properties_file_path}")
         if not properties_file_path.is_file():
             sys.exit(f'The model instance must be a .ini file.')
@@ -191,8 +165,7 @@ if __name__ == '__main__':
     
     
     
-    instance_path = process_folder_path(model_instance)
-    instance_path = Path(instance_path)
+    instance_path = Path(model_instance)
     if not instance_path.is_dir():
         sys.exit(f'The model instance must be a folder with three CSV files.')
         

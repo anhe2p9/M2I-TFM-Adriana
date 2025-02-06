@@ -2,7 +2,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import sys
-import utils
+import algorithms_utils
 from typing import Any
 
 import csv
@@ -36,9 +36,9 @@ class WeightedSumAlgorithm(Algorithm):
     
             for i in range(args+1):
                 for j in range(args+1):
-                    w1, w2, w3 = utils.generate_weights(args, i, j)
+                    w1, w2, w3 = algorithms_utils.generate_weights(args, i, j)
                     
-                    _, newrow = utils.process_weighted_model(model, data, w1 ,w2, w3)
+                    _, newrow = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
                     
                     csv_data.append(newrow)
                 
@@ -52,7 +52,7 @@ class WeightedSumAlgorithm(Algorithm):
                         
             w1, w2, w3 = args
             
-            concrete, newrow = utils.process_weighted_model(model, data, w1 ,w2, w3)
+            concrete, newrow = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
                   
             csv_data.append(newrow)
             
@@ -64,7 +64,7 @@ class WeightedSumAlgorithm(Algorithm):
         
         
         # Write data in a CSV file.
-        filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/output.csv"
+        filename = "output/output.csv"
         
         if os.path.exists(filename):
             os.remove(filename)

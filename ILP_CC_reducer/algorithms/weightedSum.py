@@ -28,6 +28,8 @@ class WeightedSumAlgorithm(Algorithm):
         
         args = args[0]
         
+        print(f"ARGS WEIGHTS: {args}")
+        
  
         if isinstance(args, int):
             print(f"Proccessing all ILP results with {args} subdivisions")
@@ -58,7 +60,7 @@ class WeightedSumAlgorithm(Algorithm):
         
             
         else:
-            sys.exit(f'The algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
+            sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
         
         
         # Write data in a CSV file.

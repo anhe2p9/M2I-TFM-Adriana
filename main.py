@@ -39,7 +39,7 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     
 
 
-def process_file_path(folder_name: str) -> Path:
+def process_folder_path(folder_name: str) -> Path:
 
     # Obtiene el directorio donde se encuentra este script
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -48,6 +48,16 @@ def process_file_path(folder_name: str) -> Path:
     folder_path = os.path.join(base_dir, 'original_code_data', folder_name)
     
     return folder_path
+
+def process_file_path(file_name: str) -> Path:
+
+    # Obtiene el directorio donde se encuentra este script
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construye la ruta completa a la carpeta "data"
+    file_path = os.path.join(base_dir, 'input', file_name)
+    
+    return file_path
 
 
 
@@ -112,7 +122,7 @@ def obtain_arguments():
     """Defines arguments from command line and parse them."""
 
     parser = argparse.ArgumentParser(description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally a determined number of subdivisions s or three weights w, it applies the correspondent algorithm to find the optimal solutions of the model instance. One can also give as input a properties file path.')
-    parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None, help=f'Properties file path in case one want to give every parameter from a .ini file.')
+    parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None, help=f'Properties file name in case one want to give every parameter from a .ini file.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None, help='Model instance to be optimized (name of the folder with the three data files in CSV format).')
     parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None, help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
     parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None, help=f'Threshold (tau) to be reached by the optimization model.')
@@ -146,7 +156,12 @@ if __name__ == '__main__':
     # Load properties from file if it exists
     config = {}
     if args['properties_file']:
-        config = load_config(args['properties_file'])
+        properties_file_path = process_file_path(args['properties_file'])
+        properties_file_path = Path(properties_file_path)
+        print(f"PROPERTIES FILE PATH: {properties_file_path}")
+        if not properties_file_path.is_file():
+            sys.exit(f'The model instance must be a .ini file.')
+        config = load_config(properties_file_path)
     
     
     
@@ -176,7 +191,7 @@ if __name__ == '__main__':
     
     
     
-    instance_path = process_file_path(model_instance)
+    instance_path = process_folder_path(model_instance)
     instance_path = Path(instance_path)
     if not instance_path.is_dir():
         sys.exit(f'The model instance must be a folder with three CSV files.')

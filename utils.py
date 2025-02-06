@@ -1,6 +1,8 @@
 import numpy as np
 import math
 
+import os
+
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
@@ -43,11 +45,11 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     results = solver.solve(concrete)
     # solver.solve(concrete)
     
-    print(results)
-    num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
-    print(f"There are {num_variables} variables\n")
-    print("==========================================================================================================\n")
-    
+    # print(results)
+    # num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
+    # print(f"There are {num_variables} variables\n")
+    # print("==========================================================================================================\n")
+
 
     sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
     

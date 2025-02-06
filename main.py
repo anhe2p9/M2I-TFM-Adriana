@@ -3,6 +3,7 @@ import sys
 import argparse
 import configparser
 from pathlib import Path
+import utils
 
 
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
@@ -35,6 +36,18 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
         model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, args[0], args[1])
     
     # print(result)
+    
+
+
+def process_file_path(folder_name: str) -> Path:
+
+    # Obtiene el directorio donde se encuentra este script
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construye la ruta completa a la carpeta "data"
+    folder_path = os.path.join(base_dir, 'original_code_data', folder_name)
+    
+    return folder_path
 
 
 
@@ -47,9 +60,7 @@ def delete_ini(path):
 
 def load_config(file=PROPERTIES_FILE):
     """Loads configuration from a file .ini if it exists."""
-    
-    delete_ini(file)
-    
+
     config = configparser.ConfigParser()
     config.read(file)
 
@@ -63,7 +74,7 @@ def load_config(file=PROPERTIES_FILE):
         if "threshold" in section:
             parameters["threshold"] = section.getint("threshold")
         if "subdivisions" in section:
-            parameters["subdivisions"] = section.getint["subdivisions"]
+            parameters["subdivisions"] = section.getint("subdivisions")
         if "weights" in section:
             parameters["weights"] = section['weights']
         if "epsilon" in section:
@@ -100,29 +111,21 @@ def save_config(parameters, file=PROPERTIES_FILE):
 def obtain_arguments():
     """Defines arguments from command line and parse them."""
 
-    parser = argparse.ArgumentParser(description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally a determined number of subdivisions s or three weights w, it applies the correspondent algorithm to find the optimal solutions of the model instance.')
-    parser.add_argument('-i', '--instance', dest='model_instance', type=str, required=True, help='Model instance to be optimized (folder with the three data files in CSV format).')
-    parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, required=True, help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
-    parser.add_argument('-t', '--tau', dest='threshold', type=int, required=False, help=f'Threshold (tau) to be reached by the optimization model.')
-    parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, required=False, help=f'Number of subdivisions to generate different weights.')
-    parser.add_argument('-w', '--weights', dest='weights', type=str, required=False, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated by comma (",").')
-    parser.add_argument('-e', '--epsilon', dest='epsilon', type=str, required=False, help=f'Epsilon e1,e2,e3 values in the case of epsilon constraint algorithm.')
-    parser.add_argument('-b', '--beta', dest='beta', type=str, required=False, help=f'Beta b1,b2 values in the case of epsilon constraint algorithm.')
+    parser = argparse.ArgumentParser(description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally a determined number of subdivisions s or three weights w, it applies the correspondent algorithm to find the optimal solutions of the model instance. One can also give as input a properties file path.')
+    parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None, help=f'Properties file path in case one want to give every parameter from a .ini file.')
+    parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None, help='Model instance to be optimized (name of the folder with the three data files in CSV format).')
+    parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None, help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
+    parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None, help=f'Threshold (tau) to be reached by the optimization model.')
+    parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, default=None, help=f'Number of subdivisions to generate different weights.')
+    parser.add_argument('-w', '--weights', dest='weights', type=str, default=None, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated by comma (",").')
+    parser.add_argument('-e', '--epsilon', dest='epsilon', type=str, default=None, help=f'Epsilon e1,e2,e3 values in the case of epsilon constraint algorithm.')
+    parser.add_argument('-b', '--beta', dest='beta', type=str, default=None, help=f'Beta b1,b2 values in the case of epsilon constraint algorithm.')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
 
     
     args = parser.parse_args()
     parameters = vars(args)
     
-    # Turn "x,y,z" into (float,float,float) if --weights is a parameter in command line
-    if parameters['weights']:
-        parameters['weights'] = tuple(map(float, parameters['weights'].split(",")))
-    if parameters['epsilon']:
-        parameters['epsilon'] = tuple(map(float, parameters['epsilon'].split(",")))
-    if parameters['beta']:
-        parameters['beta'] = tuple(map(float, parameters['beta'].split(",")))
-
-
 
     return parameters
 
@@ -137,40 +140,66 @@ def obtain_arguments():
 
 if __name__ == '__main__':
     
-    # Load properties from file if it exists
-    config = load_config()
-
-    # Obtain arguments from commandline
+    # Obtain arguments from command-line
     args = obtain_arguments()
+    
+    # Load properties from file if it exists
+    config = {}
+    if args['properties_file']:
+        config = load_config(args['properties_file'])
+    
+    
+    
+    model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
+    ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
+    threshold = args['threshold'] if args['threshold'] else config.get('threshold')
+    subdivisions = args['subdivisions'] if args['subdivisions'] else config.get('subdivisions')
+    weights = args['weights'] if args['weights'] else config.get('weights')
+    epsilon = args['epsilon'] if args['epsilon'] else config.get('epsilon')
+    beta = args['beta'] if args['beta'] else config.get('beta')
+    
+    
 
-    # 3Overwrite .ini file values with commandline values if it exists
+    # Overwrite .ini file values with commandline values if it exists
     for key, value in args.items():
-        if value is not None:  # Solo actualizar si el usuario lo pasó por línea de comandos
+        if value:  # Solo actualizar si el usuario lo pasó por línea de comandos
             config[key] = value
-
+    
     # Save file if there is '--save'
     if args["save"]:
         save_config(config)
 
     # Show final properties used
-    print("\nFinal configuration:")
+    print("Final configuration:")
     for key, value in config.items():
-        print(f"  {key} = {value}")  
+        print(f"   · {key} = {value}")  
     
     
-    instance_path = Path(args['model_instance'])
+    
+    instance_path = process_file_path(model_instance)
+    instance_path = Path(instance_path)
     if not instance_path.is_dir():
         sys.exit(f'The model instance must be a folder with three CSV files.')
         
-    if args['ilp_algorithm'] == 'WeightedSumAlgorithm':
-        if args['subdivisions']:
-            main(instance_path, args['ilp_algorithm'], args['threshold'], args['subdivisions'])
-        elif args['weights']:
-            main(instance_path, args['ilp_algorithm'], args['threshold'], args['weights'])
+    # Turn "x,y,z" into (float,float,float) if --weights is a parameter in command line
+    if weights:
+        weights = tuple(map(float, weights.split(",")))
+    if epsilon:
+        epsilon = tuple(map(float, epsilon.split(",")))
+    if beta:
+        beta = tuple(map(float, beta.split(",")))
+
+
+        
+    if config['ilp_algorithm'] == 'WeightedSumAlgorithm':
+        if config.get('subdivisions'):
+            main(instance_path, ilp_algorithm, threshold, subdivisions)
+        elif config.get('weights'):
+            main(instance_path, ilp_algorithm, threshold, weights)
         else:
             sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
     else:
-        main(instance_path, args['ilp_algorithm'], args['threshold'])
+        main(instance_path, ilp_algorithm, threshold)
     
     
     # PARÁMETROS DE PRUEBA

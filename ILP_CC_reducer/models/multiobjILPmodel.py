@@ -71,14 +71,20 @@ class MultiobjectiveILPmodel():
                 LOCdiffWeight * self.LOCdifferenceObjective(m) +
                 CCdiffWeight * self.CCdifferenceObjective(m))
     
-    def epsilonObjective(self, m):
-        return m.beta[1] * self.sequencesObjective(m) + m.beta[2] * self.LOCdifferenceObjective(m) + m.beta[3] * self.CCdifferenceObjective(m)
-    
-    def epsilonConstraint(self, m, o):
-        if o == 1:
-            return self.LOCdifferenceObjective(m) <= m.epsilon[o]
+    def epsilonObjective(self, m, obj, l, lambd):
+        if obj == 'LOC':
+            print(f"MULTIOBJ, locdifObj: {self.LOCdifferenceObjective(m)}")
+            print(f"MULTIOBJ, lambd: {lambd}")
+            print(f"MULTIOBJ, l: {l}")
+            return self.LOCdifferenceObjective(m) - lambd * l
         else:
-            return self.CCdifferenceObjective(m) <= m.epsilon[o]
+            return self.CCdifferenceObjective(m) - lambd * l
+    
+    def epsilonConstraint(self, m, obj, l, epsilon):
+        if obj == 'SEQ':
+            return self.sequencesObjective(m) + l == epsilon
+        else:
+            return self.LOCdifferenceObjective(m) + l == epsilon
         
     def LOCdifferenceConstraint(self, m):
         return self.LOCdifferenceObjective(m) <= m.f2

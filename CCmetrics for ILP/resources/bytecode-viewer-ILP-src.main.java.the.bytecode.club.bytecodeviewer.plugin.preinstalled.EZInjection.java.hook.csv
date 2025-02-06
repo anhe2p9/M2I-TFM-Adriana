@@ -1,0 +1,18 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5050, 5307, 1, "OK", 2, 8, 7, 3, 2, 1, 2, 2
+4811, 5392, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 9, 6, 3, 5, 1
+4695, 5402, 1, "OK", 1, 26, 16, 16, 8, 8, 5, 0
+4695, 4763, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+5118, 5289, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+4773, 5402, 1, "OK", 1, 23, 15, 15, 7, 8, 5, 0
+4916, 5321, 1, "OK", 1, 14, 10, 7, 4, 3, 3, 1
+4948, 5321, 1, "OK", 1, 13, 10, 7, 4, 3, 3, 1
+4982, 5321, 1, "OK", 2, 11, 10, 7, 4, 3, 3, 1
+5335, 5392, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+4982, 5392, 1, "OK", 2, 14, 12, 8, 5, 3, 4, 1
+4811, 4968, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+4811, 5321, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 8, 5, 3, 4, 1
+4811, 4902, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+4811, 4935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+4916, 5392, 1, "OK", 1, 17, 12, 8, 5, 3, 4, 1
+4948, 5392, 1, "OK", 1, 16, 12, 8, 5, 3, 4, 1

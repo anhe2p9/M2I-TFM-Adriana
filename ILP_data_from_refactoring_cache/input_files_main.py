@@ -6,10 +6,15 @@ from pathlib import Path
 
 # Main function
 def main(path_to_refactoring_cache: str, output_folder: str, files_n: str):
+    # Filter feasible extractions and assign id to extractions
     df = rc.set_extractions_id(dataset.dataframe_from_csv_file(path_to_refactoring_cache))
 
+    # Save the mapping between feasible extractions and offsets into a CSV file
+    dataset.dataframe_into_csv_file(
+        rc.get_extractions_including_given_columns(df, ["A", "B"]), output_folder + f"/{files_n}feasible_extractions_offsets.csv")
+
     # Save the extractions in conflict into a CSV file
-    dataset.dataframe_into_csv_file(rc.get_conflicts(df), output_folder + "conflicts.csv")
+    dataset.dataframe_into_csv_file(rc.get_conflicts(df), output_folder + f"/{files_n}conflicts.csv")
 
     # Save the lines of code and cognitive complexity of the extractions into a CSV file
     dataset.dataframe_into_csv_file(rc.get_extractions_including_given_columns(df, ["extractedLOC", "extractedMethodCC"]),

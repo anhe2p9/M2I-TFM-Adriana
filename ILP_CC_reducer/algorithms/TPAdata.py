@@ -46,10 +46,8 @@ class TPAdataAlgorithm(Algorithm):
         
         coef_rows.append([num_objectives])
         
-        print(f"VARIABLES LIST: {[len(variable) for variable in concrete.component_objects(pyo.Var, active=True)]}")
-        
-        num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
-        print(f"There are {num_variables} variables")
+        num_variables = len(concrete.S) + len(concrete.N) + 4 # sum(x[i]) + sum(z[j,,i]) + cmax + cmin + tmax + tmin
+        print(f"There are {len(concrete.S) + len(concrete.N) + 4} variables")
         
         num_constraints = sum(len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
         print(f"There are {num_constraints} constraints")
@@ -65,11 +63,12 @@ class TPAdataAlgorithm(Algorithm):
             concrete = model.create_instance(data)
             
             # Extract variables list and build a id map from id to index
-            var_list = list(concrete.component_data_objects(pyo.Var, descend_into=True))
-            var_to_index = {id(var): idx for idx, var in enumerate(var_list)}
-            num_vars = len(var_list)
+            var_other_objectives = ['tmax', 'tmin', 'cmax', 'cmin']
+            var_list = [var for var in list(concrete.component_data_objects(pyo.Var, descend_into=True)) if var.index() in concrete.S or var.index() in concrete.N or var.name in var_other_objectives]
             
-            row = np.zeros(num_vars)
+            var_to_index = {id(var): idx for idx, var in enumerate(var_list)}
+            
+            row = np.zeros(num_variables)
             
             repn = generate_standard_repn(concrete.obj)
             
@@ -81,8 +80,6 @@ class TPAdataAlgorithm(Algorithm):
             row = np.array(row, dtype=int)
 
             coef_rows.append(row)
-        
-        concrete.pprint()
         
         filename = f"output/TPA/objective_file"
         

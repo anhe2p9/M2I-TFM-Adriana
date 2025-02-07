@@ -30,7 +30,7 @@ class MultiobjectiveILPmodel():
             self.model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
             self.model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
             self.model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
-            self.model.cmin = pyo.Var(within=pyo.NonNegativeReals)
+            self.model.cmin = pyo.Var(within=pyo.NonNegativeReals) # min CC
             
             
             self.model.conflict_sequences = pyo.Constraint(self.model.C, rule=conflict_sequences)
@@ -88,6 +88,9 @@ class MultiobjectiveILPmodel():
         
     def LOCdifferenceConstraint(self, m):
         return self.LOCdifferenceObjective(m) <= m.f2
+    
+    def TPAobjective(self, m):
+        return sum(m.x[j] for j in m.S) + sum(m.z[j,i] for (j,i) in m.N) + m.tmax + m.tmin + m.cmax + m.cmin
         
         
     

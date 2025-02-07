@@ -24,6 +24,10 @@ class TPAdataAlgorithm(Algorithm):
         
         multiobj_model = MultiobjectiveILPmodel()
         
+        if hasattr(model, 'obj'):
+            model.del_component('obj')
+        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.TPAobjective(m)))
+        
         concrete = model.create_instance(data)
         concrete.write("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/model_file.lp", io_options={'symbolic_solver_labels': True})      
         # concrete.write("C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/model_file.lp")

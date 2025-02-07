@@ -1,7 +1,7 @@
 # Import the required libraries
 from typing import List
 import pandas as pd
-from utils import offsets as offsets
+from ILP_data_from_refactoring_cache.utils import offsets as offsets
 
 
 # Filter feasible extractions and set extractions id (from 0 to N)

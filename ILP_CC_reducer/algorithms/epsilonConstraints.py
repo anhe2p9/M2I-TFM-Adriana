@@ -84,7 +84,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
             f1_x_max = max(concrete.x[s].value for s in concrete.S)
             print(f"f1_x_max: {f1_x_max}")
             # lower bound for f1(x)
-            u1 = -1000 # NO SÉ CÓMO HACER QUE FUNCIONE SIN QUE SEA NEGATIVO
+            u1 = 1 # NO SÉ CÓMO HACER QUE FUNCIONE SIN QUE SEA NEGATIVO
             l = 0.01 # NO SÉ QUÉ VALOR DARLE A ESTO
             
             

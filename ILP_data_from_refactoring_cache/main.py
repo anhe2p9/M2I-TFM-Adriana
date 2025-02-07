@@ -10,13 +10,13 @@ def main(path_to_refactoring_cache: str, output_folder: str):
     # Save the extractions in conflict into a CSV file
     dataset.dataframe_into_csv_file(rc.get_conflicts(df), output_folder + "conflicts.csv")
 
-    # Save the nested extractions into a CSV file
-    dataset.dataframe_into_csv_file(rc.get_nested_extraction_for_each_extraction(df, ["reductionCC"]),
-                                    output_folder + "nestedExtractions.csv")
-
-    # Save the lines of code and cognitive complexity of the extractions into a CSV file   
-    dataset.dataframe_into_csv_file(rc.get_nested_extraction_for_each_extraction_computing_ccr(df),
+    # Save the lines of code and cognitive complexity of the extractions into a CSV file
+    dataset.dataframe_into_csv_file(rc.get_extractions_including_given_columns(df, ["extractedLOC", "extractedMethodCC"]),
                                     output_folder + "sequences.csv")
+
+    # Save the nested extractions into a CSV file  
+    dataset.dataframe_into_csv_file(rc.get_nested_extraction_for_each_extraction_computing_ccr(df),
+                                    output_folder + "nestedExtractions.csv")
 
 
 # Call the main function

@@ -80,12 +80,34 @@ class EpsilonConstraintAlgorithm(Algorithm):
             solver=pyo.SolverFactory('cplex')
             results = solver.solve(concrete)  
             
-            # min f1(x)
-            f1_x_max = max(concrete.x[s].value for s in concrete.S)
-            print(f"f1_x_max: {f1_x_max}")
+            # f1(x)
+            f1_x = lambda i: sum(concrete.x[i].value for i in concrete.S) # FUNCIÓN F1(X) QUE SUME TODOS LOS VALORES DE F1 PARA CUALQUIER X
+            # [1,0,0,0,0,0,0,0,0,0,0] = 1
+            # [0,1,0,0,0,0,0,0,0,0,0] = 1
+            # [0,0,1,0,0,0,0,0,0,0,0] = 1
+            # [0,0,0,1,0,0,0,0,0,0,0] = 1
+            # [0,0,0,0,1,0,0,0,0,0,0] = 1
+            # [0,0,0,0,0,1,0,0,0,0,0] = 1
+            # [0,0,0,0,0,0,1,0,0,0,0] = 1
+            # [0,0,0,0,0,0,0,1,0,0,0] = 1
+            # [0,0,0,0,0,0,0,0,1,0,0] = 1
+            # [0,0,0,0,0,0,0,0,0,1,0] = 1
+            # [0,0,0,0,0,0,0,0,0,0,1] = 1
+            # [1,1,0,0,0,0,0,0,0,0,0] = 2
+            # [1,0,1,0,0,0,0,0,0,0,0] = 2
+            # [1,0,0,1,0,0,0,0,0,0,0] = 2
+            # [1,0,0,0,1,0,0,0,0,0,0] = 2
+            # [1,0,0,0,0,1,0,0,0,0,0] = 2
+            #          ...             ...
+            print(f"f1_x: {f1_x}")
             # lower bound for f1(x)
             u1 = 1 # NO SÉ CÓMO HACER QUE FUNCIONE SIN QUE SEA NEGATIVO
-            l = 0.01 # NO SÉ QUÉ VALOR DARLE A ESTO
+            # l = 0.01 # NO SÉ QUÉ VALOR DARLE A ESTO
+            
+            # l = epsilon - f1(x)
+            if hasattr(model, 'l'):
+                model.del_component('l')
+            model.add_component('l', pyo.Var())
             
             
             
@@ -97,7 +119,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
             
             
             
-            while results.solver.status == 'ok' and f1_x_max <= epsilon: # NO SÉ CÓMO PONER f1(x), ¿se podría poner f1(x) = 1? porque máximo va a ser 1
+            while results.solver.status == 'ok' and f1_x <= epsilon: # NO SÉ CÓMO PONER f1(x), ¿se podría poner f1(x) = 1? porque máximo va a ser 1
                 
                 # estimate a lambda value > 0
                 lambd = 1/(fp1 - u1)
@@ -106,11 +128,11 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 # min f2(x) - lambda * l
                 if hasattr(model, 'obj'):
                     model.del_component('obj')
-                model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, 'LOC', l, lambd)))
+                model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, 'LOC', lambd)))
                 # subject to f1(x) + l = epsilon
                 if hasattr(model, 'epsilonConstraint'):
                     model.del_component('epsilonConstraint')
-                model.add_component('epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ', l, epsilon)))
+                model.add_component('epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ', epsilon)))
                 
                 
                 concrete = model.create_instance(data)
@@ -120,7 +142,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 concrete.pprint()
                 
                 
-                f2_z = pyo.value(multiobj_model.epsilonObjective(concrete, 'LOC', l, lambd))
+                f2_z = pyo.value(multiobj_model.epsilonObjective(concrete, 'LOC', lambd))
                 pareto_front.append(f2_z)
                 
                 

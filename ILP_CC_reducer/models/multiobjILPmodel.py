@@ -80,11 +80,11 @@ class MultiobjectiveILPmodel():
         else:
             return self.CCdifferenceObjective(m) - lambd * l
     
-    def epsilonConstraint(self, m, obj, l, epsilon):
+    def epsilonConstraint(self, m, obj, epsilon):
         if obj == 'SEQ':
-            return self.sequencesObjective(m) + l == epsilon
+            return self.sequencesObjective(m) + m.l == epsilon
         else:
-            return self.LOCdifferenceObjective(m) + l == epsilon
+            return self.LOCdifferenceObjective(m) + m.l == epsilon
         
     def LOCdifferenceConstraint(self, m):
         return self.LOCdifferenceObjective(m) <= m.f2

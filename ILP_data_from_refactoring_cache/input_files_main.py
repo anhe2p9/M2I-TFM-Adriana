@@ -15,11 +15,11 @@ def main(path_to_refactoring_cache: str, output_folder: str, files_n: str):
 
     # Save the nested extractions into a CSV file
     dataset.dataframe_into_csv_file(rc.get_nested_extraction_for_each_extraction(df, ["reductionCC"]),
-                                    output_folder + f"/{files_n}_nested.csv")
+                                    output_folder + f"/{files_n}_sequences.csv")
 
     # Save the lines of code and cognitive complexity of the extractions into a CSV file   
     dataset.dataframe_into_csv_file(rc.get_nested_extraction_for_each_extraction_computing_ccr(df),
-                                    output_folder + f"/{files_n}_sequences.csv")
+                                    output_folder + f"/{files_n}_nested.csv")
 
 
 # Call the main function

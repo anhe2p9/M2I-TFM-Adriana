@@ -94,7 +94,9 @@ class TPAdataAlgorithm(Algorithm):
                 
 # ./BOXES C:\Users\X1502\eclipse-workspace\git\M2I-TFM-Adriana\output\TPA\objective_file C:\Users\X1502\eclipse-workspace\git\M2I-TFM-Adriana\output\TPA\model_file.lp 0 0 p-partition holzmann reduced_scaled alternate RE 1 1          
         
-        
+# ./BOXES /home/novoa/eclipse-workspace/PFMilpPython/output/TPA/objective_file /home/novoa/eclipse-workspace/PFMilpPython/output/TPA/model_file.lp 0 0 p-partition holzmann reduced_scaled alternate RE 1 1
+      
+           
         
         
         

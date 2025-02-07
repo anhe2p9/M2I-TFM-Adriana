@@ -46,6 +46,8 @@ class TPAdataAlgorithm(Algorithm):
         
         coef_rows.append([num_objectives])
         
+        print(f"VARIABLES LIST: {[len(variable) for variable in concrete.component_objects(pyo.Var, active=True)]}")
+        
         num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
         print(f"There are {num_variables} variables")
         
@@ -80,9 +82,9 @@ class TPAdataAlgorithm(Algorithm):
 
             coef_rows.append(row)
         
+        concrete.pprint()
         
-        
-        filename = f"C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/output/TPA/objective_file"
+        filename = f"output/TPA/objective_file"
         
         with open(filename, 'w') as f:
             for row in coef_rows:

@@ -9,7 +9,7 @@ def main(path_to_refactoring_cache: str, output_folder: str, files_n: str):
     df = rc.set_extractions_id(dataset.dataframe_from_csv_file(path_to_refactoring_cache))
 
     # Save the extractions in conflict into a CSV file
-    dataset.dataframe_into_csv_file(rc.get_conflicts(df), output_folder + "conflicts.csv")
+    dataset.dataframe_into_csv_file(rc.get_conflicts(df), output_folder + f"/{files_n}_conflict.csv")
 
     # Save the lines of code and cognitive complexity of the extractions into a CSV file
     dataset.dataframe_into_csv_file(rc.get_extractions_including_given_columns(df, ["extractedLOC", "extractedMethodCC"]),
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     parser.add_argument('output_folder', type=str, help='Folder to save the output CSV files')
     args = parser.parse_args()
 
-    nested_directory_path = Path("original_code_data/bytecode-viewer")
+    nested_directory_path = Path(args.output_folder)
     
     # Create nested directories
     nested_directory_path.mkdir(parents=True, exist_ok=True)

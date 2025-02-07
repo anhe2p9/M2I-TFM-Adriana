@@ -23,10 +23,10 @@ class TPAdataAlgorithm(Algorithm):
     def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> None:
         
         multiobj_model = MultiobjectiveILPmodel()
-        
-        if hasattr(model, 'obj'):
-            model.del_component('obj')
-        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.TPAobjective(m)))
+        #
+        # if hasattr(model, 'obj'):
+        #     model.del_component('obj')
+        # model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.TPAobjective(m)))
         
         concrete = model.create_instance(data)
         concrete.write("output/TPA/model_file.lp", io_options={'symbolic_solver_labels': True})      

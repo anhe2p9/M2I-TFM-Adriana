@@ -71,23 +71,31 @@ class MultiobjectiveILPmodel():
                 LOCdiffWeight * self.LOCdifferenceObjective(m) +
                 CCdiffWeight * self.CCdifferenceObjective(m))
     
-    def epsilonObjective(self, m, obj, l, lambd):
-        if obj == 'LOC':
-            print(f"MULTIOBJ, locdifObj: {self.LOCdifferenceObjective(m)}")
-            print(f"MULTIOBJ, lambd: {lambd}")
-            print(f"MULTIOBJ, l: {l}")
-            return self.LOCdifferenceObjective(m) - lambd * l
-        else:
-            return self.CCdifferenceObjective(m) - lambd * l
+    def epsilonObjective(self, m, lambd):
+        print(f"MULTIOBJ, locdifObj: {self.LOCdifferenceObjective(m)}")
+        print(f"MULTIOBJ, lambd: {lambd}")
+        print(f"MULTIOBJ, l2: {m.l2.value}, l3: {m.l3.value}")
+        return self.sequencesObjective(m) - lambd * (m.l2 + m.l3)
     
-    def epsilonConstraint(self, m, obj, epsilon):
+    def epsilonSequencesObjective(self, m, lambd):
+        print(f"MULTIOBJ, locdifObj: {self.LOCdifferenceObjective(m)}")
+        print(f"MULTIOBJ, lambd: {lambd}")
+        print(f"MULTIOBJ, l2: {m.l2.value}, l3: {m.l3.value}")
+        return self.sequencesObjective(m) - lambd * m.l
+
+    def epsilonConstraint(self, m, obj):
         if obj == 'SEQ':
-            return self.sequencesObjective(m) + m.l == epsilon
+            print(f"epsilon: {m.epsilon}")
+            return self.sequencesObjective(m) + m.l == m.epsilon
+        elif obj == 'LOC':
+            print(f"eps2: {m.eps2}")
+            return self.LOCdifferenceObjective(m) + m.l2 == m.eps2
         else:
-            return self.LOCdifferenceObjective(m) + m.l == epsilon
+            print(f"eps3: {m.eps3}")
+            return self.CCdifferenceObjective(m) + m.l3 == m.eps3
         
-    def LOCdifferenceConstraint(self, m):
-        return self.LOCdifferenceObjective(m) <= m.f2
+    def sequencesConstraint(self, m):
+        return self.sequencesObjective(m) <= m.f1
     
     def TPAobjective(self, m):
         return sum(m.x[j] for j in m.S) + sum(m.z[j,i] for (j,i) in m.N) + m.tmax + m.tmin + m.cmax + m.cmin

@@ -177,7 +177,6 @@ if __name__ == '__main__':
     if beta:
         beta = tuple(map(float, beta.split(",")))
 
-
         
     if config['ilp_algorithm'] == 'WeightedSumAlgorithm':
         if config.get('subdivisions'):

@@ -165,7 +165,7 @@ class EpsilonConstraintAlgorithm3obj(Algorithm):
                 print(f"epsilon: eps2: {multiobj_model.eps2}, eps3: {multiobj_model.eps3}")
                 
                 # estimate a lambda value > 0
-                lambd = 1/(f1 - u1)
+                lambd = 1/(f1 - u2)
                 
                 """ Solve {min f1(x) - lambda * (l2 + l3), subject to f2(x) + l2 = epsilon AND f3(x) + l3 = epsilon} """
                 # min f1(x) - lambda * (l2 + l3)

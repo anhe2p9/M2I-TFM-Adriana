@@ -41,7 +41,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
             
             """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
             # f2(z) = f2
-            f2 = pyo.value(multiobj_model.CCdifferenceObjective(concrete))
+            f2 = pyo.value(concrete.obj)
+            print(f"f2: {f2}")
+            print(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}")
             
             # new static variable to implement new constraint f2(x) <= f2(z)
             if hasattr(model, 'f2'):
@@ -69,8 +71,13 @@ class EpsilonConstraintAlgorithm(Algorithm):
             # z
             z = pyo.value(concrete.obj)
             f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
-            # add z to Pareto front
+            # FP <- {z} (add z to Pareto front)
             pareto_front = [z]
+            
+            print(f"f2 param: {concrete.f2.value}")
+            print(f"f2 constraint: {multiobj_model.CCdiffConstraint(concrete)}")
+            
+            print(f"new objective (step 2): {pyo.value(concrete.obj)}")
             
             print(f"z: {z}, f1z: {f1z}")
             
@@ -94,7 +101,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
             
             # lower bound for f1(x)
             # f1 = pyo.value(multiobj_model.sequencesObjective(concrete))
-            u1 = f1z - 0.5
+            u1 = f1z - 1
             
              
             
@@ -131,10 +138,13 @@ class EpsilonConstraintAlgorithm(Algorithm):
             solver=pyo.SolverFactory('cplex')
             results = solver.solve(concrete)
             
+            print(f"epsilon: {concrete.epsilon.value}")
+            
             
             print(f"f1z: {f1z}")
-            print(f"epsilon: {concrete.epsilon.value}")
             print(f"u1: {u1}")
+            
+            print(f"l param: {concrete.l.value}")
             
             
             

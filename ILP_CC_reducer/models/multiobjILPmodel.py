@@ -97,8 +97,11 @@ class MultiobjectiveILPmodel():
         else:
             return self.CCdifferenceObjective(m) + m.l == m.epsilon
         
-    def CCdiffConstraint(self, m):
-        return self.CCdifferenceObjective(m) <= m.f2
+    def SecondObjdiffConstraint(self, m, obj):
+        if obj == 'LOC':
+            return self.LOCdifferenceObjective(m) <= m.f2
+        else:
+            return self.CCdifferenceObjective(m) <= m.f2
     
     def TPAobjective(self, m):
         return sum(m.x[j] for j in m.S) + sum(m.z[j,i] for (j,i) in m.N) + m.tmax + m.tmin + m.cmax + m.cmin

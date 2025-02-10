@@ -2,6 +2,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 from typing import Any
+import sys
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -19,15 +20,16 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, *args) -> list[list[Any]]:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, obj2: str) -> list[list[Any]]:
         
         multiobj_model = MultiobjectiveILPmodel()
-
+        
+        second_objective = multiobj_model.LOCdifferenceObjective if obj2 == 'LOC' else multiobj_model.CCdifferenceObjective
 
         # Solve {min f2}
         if hasattr(model, 'obj'):
             model.del_component('obj')
-        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.CCdifferenceObjective(m)))
+        model.add_component('obj', pyo.Objective(rule=lambda m: second_objective(m)))
 
         concrete = model.create_instance(data)
         solver=pyo.SolverFactory('cplex')
@@ -43,7 +45,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # f2(z) = f2
             f2 = pyo.value(concrete.obj)
             print(f"f2: {f2}")
-            print(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}")
+            if obj2 == 'LOC':
+                print(f"tmax: {concrete.cmax.value}, tmin: {concrete.cmin.value}")
+            else:
+                print(f"cmax: {concrete.tmax.value}, cmin: {concrete.tmin.value}")
             
             # new static variable to implement new constraint f2(x) <= f2(z)
             if hasattr(model, 'f2'):
@@ -53,7 +58,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # new constraint f2(x) <= f2(z)
             if hasattr(model, 'f2Constraint'):
                 model.del_component('f2Constraint')
-            model.add_component('f2Constraint', pyo.Constraint(rule=lambda m: multiobj_model.CCdiffConstraint(m)))
+            model.add_component('f2Constraint', pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2)))
             
             # new objective min f1(x)
             if hasattr(model, 'obj'):
@@ -75,7 +80,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             pareto_front = [z]
             
             print(f"f2 param: {concrete.f2.value}")
-            print(f"f2 constraint: {multiobj_model.CCdiffConstraint(concrete)}")
+            print(f"f2 constraint: {second_objective(concrete)}")
             
             print(f"new objective (step 2): {pyo.value(concrete.obj)}")
             
@@ -85,18 +90,6 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             if hasattr(model, 'epsilon'):
                 model.del_component('epsilon')
             model.add_component('epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
-            
-            # # Delete f2Constraint to obtain the lower bound of f1(x) (first component of a utopian point)
-            # if hasattr(model, 'f2Constraint'):
-            #     model.del_component('f2Constraint')
-            #
-            # if hasattr(model, 'obj'):
-            #     model.del_component('obj')
-            # model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
-            #
-            # solver=pyo.SolverFactory('cplex')
-            # results = solver.solve(concrete)
-            #
 
             
             # lower bound for f1(x)
@@ -147,12 +140,35 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             print(f"l param: {concrete.l.value}")
             
             
+            sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
+            
+            if obj2 == 'LOC':
+                xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
+                zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+                
+                max_selected = abs(max(xLOC) - max(zLOC))
+                min_selected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
+            
+            elif obj2 == 'CC':
+        
+                xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
+                zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+                
+                
+                max_selected = abs(max(xCC) - max(zCC))
+                min_selected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
+                
+            else:
+                sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
+                
+            obj2_dif = abs(max_selected - min_selected)
+            
             
             
             print('===============================================================================')
             if (results.solver.status == 'ok'):
-                print('Optimal solution found')
-                print('Objective value: ', pyo.value(concrete.obj))
+                print('Objective SEQUENCES: ', sequences_sum +1)
+                print(f'Second objective value ({obj2}): {obj2_dif}')
                 print('Sequences selected:')
                 for s in concrete.S:
                     print(f"x[{s}] = {concrete.x[s].value}")
@@ -169,7 +185,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 # min f2(x) - lambda * l
                 if hasattr(model, 'obj'):
                     model.del_component('obj')
-                model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, 'CC')))
+                model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
                 # subject to f1(x) + l = epsilon
                 if hasattr(model, 'epsilonConstraint'):
                     model.del_component('epsilonConstraint')
@@ -183,7 +199,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 # concrete.pprint()
                 
                 """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
-                fp2 = pyo.value(multiobj_model.epsilonObjective(concrete, lambd, 'CC'))
+                fp2 = pyo.value(multiobj_model.epsilonObjective(concrete, lambd, obj2))
                 """ PF = PF U {z} """
                 pareto_front.append(fp2)
                 
@@ -205,8 +221,8 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 
                 print('===============================================================================')
                 if (results.solver.status == 'ok'):
-                    print('Optimal solution found')
-                    print('Objective value: ', pyo.value(concrete.obj))
+                    print('Objective SEQUENCES: ', sequences_sum +1)
+                    print(f'Second objective value ({obj2}): {obj2_dif}')
                     print('Sequences selected:')
                     for s in concrete.S:
                         print(f"x[{s}] = {concrete.x[s].value}")

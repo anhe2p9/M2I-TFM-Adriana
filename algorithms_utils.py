@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-import os
+import sys
 
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
@@ -117,21 +117,34 @@ def process_weighted_model_2obj(model: pyo.AbstractModel, data: dp.DataPortal, w
 
 
     sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
+    
+    if obj_selected == 'LOC':
+        xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
+        zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+        
+        max_selected = abs(max(xLOC) - max(zLOC))
+        min_selected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
+    
+    elif obj_selected == 'CC':
 
-    xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
-    zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+        xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
+        zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+        
+        
+        max_selected = abs(max(xCC) - max(zCC))
+        min_selected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
+        
+    else:
+        sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
+        
+    obj2_dif = abs(max_selected - min_selected)
     
-    
-    maxCCselected = abs(max(xCC) - max(zCC))
-    minCCselected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
-    CCdif = abs(maxCCselected - minCCselected)
-    
-    newrow = [round(w1,2),round(w2,2),sequences_sum,CCdif]
+    newrow = [round(w1,2),round(w2,2),sequences_sum,obj2_dif]
     
     print('===============================================================================')
     if (results.solver.status == 'ok'):
         print('Objective SEQUENCES: ', sequences_sum +1)
-        print('Objective CCdiff: ', CCdif)
+        print(f'Objective {obj_selected}: {obj2_dif}')
         print('Sequences selected:')
         for s in concrete.S:
             print(f"x[{s}] = {concrete.x[s].value}")

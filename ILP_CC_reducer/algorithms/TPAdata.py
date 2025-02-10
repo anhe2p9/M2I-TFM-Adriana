@@ -3,7 +3,6 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from pyomo.repn import generate_standard_repn
 import numpy as np
-import os
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel

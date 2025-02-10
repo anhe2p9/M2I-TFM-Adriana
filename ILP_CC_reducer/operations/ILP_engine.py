@@ -56,13 +56,10 @@ class ILPEngine():
         
         if not hasattr(ILPm, 'tau'):
             ILPm.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
+            
+        args_list = tuple(item for item in args if item)
         
-        if len(args) == 0:
-            return algorithm.execute(ILPm, instance)
-        elif len(args) == 1:
-            return algorithm.execute(ILPm, instance, args[0])
-        else:
-            return algorithm.execute(ILPm, instance, args[0], args[1])
+        return algorithm.execute(ILPm, instance, *args_list)
     
     
     

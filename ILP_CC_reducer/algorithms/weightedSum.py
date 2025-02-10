@@ -22,11 +22,9 @@ class WeightedSumAlgorithm(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, *args) -> list[list[Any]]:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, args) -> list[list[Any]]:
         
         csv_data = [["Weight1","Weight2","Weight3","Num.sequences","LOCdif","CCdif"]]
-        
-        args = args[0]
         
         print(f"ARGS WEIGHTS: {args}")
         

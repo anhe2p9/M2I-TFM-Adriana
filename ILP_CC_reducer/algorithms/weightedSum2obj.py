@@ -22,26 +22,26 @@ class WeightedSumAlgorithm2obj(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, *args) -> list[list[Any]]:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, subs, second_obj) -> list[list[Any]]:
         
         csv_data = [["Weight1","Weight2 (CCdiff)","Num.sequences","CCdif"]]
         
-        args = args[0]
+        print(f"ARGS WEIGHTED SUM 2 OBJS: {subs}, {second_obj}")
         
-        if isinstance(args, int):
-            print(f"Proccessing all ILP results with {args} subdivisions")
+        if isinstance(subs, int):
+            print(f"Proccessing all ILP results with {subs} subdivisions")
         
-            for i in range(args+1):
-                w1, w2 = algorithms_utils.generate_weights_2obj(args, i)
+            for i in range(subs+1):
+                w1, w2 = algorithms_utils.generate_weights_2obj(subs, i)
                 
-                _, newrow = algorithms_utils.process_weighted_model_2obj(model, data, w1 ,w2, 'CC')
+                _, newrow = algorithms_utils.process_weighted_model_2obj(model, data, w1 ,w2, second_obj)
                 
                 csv_data.append(newrow)
             
                 # if i == 0:
                 #     break
         else:
-            sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
+            sys.exit(f'The Weighted Sum Algorithm parameters for two objectives must be a number of subdivisions s and the second objective.')
             
         # Write data in a CSV file.
         filename = "output/output.csv"

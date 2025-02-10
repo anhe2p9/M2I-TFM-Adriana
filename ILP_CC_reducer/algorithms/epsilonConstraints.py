@@ -5,6 +5,7 @@ from typing import Any
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
+# from pyomo.solvers.tests.solvers import initialize
 
 
 
@@ -12,7 +13,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:
-        return 'Epsilon Constraint Algorithm'
+        return 'Epsilon Constraint Algorithm with 3 obj'
     
     @staticmethod
     def get_description() -> str:
@@ -24,129 +25,126 @@ class EpsilonConstraintAlgorithm(Algorithm):
         multiobj_model = MultiobjectiveILPmodel()
 
 
-        # Solve {min f2}
+        # Solve {min f1}
         if hasattr(model, 'obj'):
             model.del_component('obj')
-        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.CCdifferenceObjective(m)))
+        model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
 
         concrete = model.create_instance(data)
         solver=pyo.SolverFactory('cplex')
         results = solver.solve(concrete)
         
-        # concrete.pprint()
-        
-        
-        
         if results.solver.status == 'ok':
             
-            """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
-            # f2(z) = f2
-            f2 = pyo.value(concrete.obj)
-            print(f"f2: {f2}")
-            print(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}")
+            """ Solve {min f2(x) subject to f1(x) <= f1(z)} """
+            # f1(z) = f1
+            f1 = pyo.value(multiobj_model.sequencesObjective(concrete))
             
-            # new static variable to implement new constraint f2(x) <= f2(z)
-            if hasattr(model, 'f2'):
-                model.del_component('f2')
-            model.add_component('f2', pyo.Param(within=pyo.NonNegativeReals, initialize=f2))
+            # new static variable to implement new constraint f1(x) <= f1(z)
+            if hasattr(model, 'f1'):
+                model.del_component('f1')
+            model.add_component('f1', pyo.Var(initialize=f1))
             
-            # new constraint f2(x) <= f2(z)
-            if hasattr(model, 'f2Constraint'):
-                model.del_component('f2Constraint')
-            model.add_component('f2Constraint', pyo.Constraint(rule=lambda m: multiobj_model.CCdiffConstraint(m)))
+            # new constraint f1(x) <= f1(z)
+            if hasattr(model, 'f1Constraint'):
+                model.del_component('f1Constraint')
+            model.add_component('f1Constraint', pyo.Constraint(rule=lambda m: multiobj_model.sequencesConstraint(m)))
             
-            # new objective min f1(x)
+            # new objective min f2(x)
             if hasattr(model, 'obj'):
                 model.del_component('obj')
-            model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
+            model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.LOCdifferenceObjective(m)))
             
             concrete = model.create_instance(data)
             solver=pyo.SolverFactory('cplex')
             results = solver.solve(concrete)
             
             # concrete.pprint()
+            
+            
+            """ z <- solve {min f2(x) subject to f1(x) <= f1(z)} """
+            # f2(z)
+            fp2 = pyo.value(multiobj_model.LOCdifferenceObjective(concrete))
+            """ add f2(z) to pareto front """
+            pareto_front = [fp2]
+            
+            
+            
                         
-            
-            """ z <- solve {min f1(x) subject to f2(x) <= f2(z)} """
-            # z
-            z = pyo.value(concrete.obj)
-            f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
-            # FP <- {z} (add z to Pareto front)
-            pareto_front = [z]
-            
-            print(f"f2 param: {concrete.f2.value}")
-            print(f"f2 constraint: {multiobj_model.CCdiffConstraint(concrete)}")
-            
-            print(f"new objective (step 2): {pyo.value(concrete.obj)}")
-            
-            print(f"z: {z}, f1z: {f1z}")
-            
-            # epsilon <- f1(z) - 1
-            if hasattr(model, 'epsilon'):
-                model.del_component('epsilon')
-            model.add_component('epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
-            
-            # # Delete f2Constraint to obtain the lower bound of f1(x) (first component of a utopian point)
-            # if hasattr(model, 'f2Constraint'):
-            #     model.del_component('f2Constraint')
-            #
-            # if hasattr(model, 'obj'):
-            #     model.del_component('obj')
-            # model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
-            #
-            # solver=pyo.SolverFactory('cplex')
-            # results = solver.solve(concrete)
-            #
-
-            
-            # lower bound for f1(x)
-            # f1 = pyo.value(multiobj_model.sequencesObjective(concrete))
-            u1 = f1z - 1
-            
-             
-            
-            # f1(x)
-            # f1_x = f1 # FUNCIÓN F1(X) QUE SUME TODOS LOS VALORES DE F1 PARA CUALQUIER X
-            # [1,0,0,0,0,0,0,0,0,0,0] = 1
-            # [0,1,0,0,0,0,0,0,0,0,0] = 1
-            # [0,0,1,0,0,0,0,0,0,0,0] = 1
-            # [0,0,0,1,0,0,0,0,0,0,0] = 1
-            # [0,0,0,0,1,0,0,0,0,0,0] = 1
-            # [0,0,0,0,0,1,0,0,0,0,0] = 1
-            # [0,0,0,0,0,0,1,0,0,0,0] = 1
-            # [0,0,0,0,0,0,0,1,0,0,0] = 1
-            # [0,0,0,0,0,0,0,0,1,0,0] = 1
-            # [0,0,0,0,0,0,0,0,0,1,0] = 1
-            # [0,0,0,0,0,0,0,0,0,0,1] = 1
-            # [1,1,0,0,0,0,0,0,0,0,0] = 2
-            # [1,0,1,0,0,0,0,0,0,0,0] = 2
-            # [1,0,0,1,0,0,0,0,0,0,0] = 2
-            # [1,0,0,0,1,0,0,0,0,0,0] = 2
-            # [1,0,0,0,0,1,0,0,0,0,0] = 2
-            #          ...             ...
-            
-            
-            
-            # l = epsilon - f1(x)
-            if hasattr(model, 'l'):
-                model.del_component('l')
-            model.add_component('l', pyo.Var(initialize = model.epsilon - f1z))
-            
-            
+            """ Solve {min f3(x) subject to f1(x) <= f1(z)} """
+            # new objective min f3(x)
+            if hasattr(model, 'obj'):
+                model.del_component('obj')
+            model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.CCdifferenceObjective(m)))
             
             concrete = model.create_instance(data)
             solver=pyo.SolverFactory('cplex')
             results = solver.solve(concrete)
             
-            print(f"epsilon: {concrete.epsilon.value}")
+            # concrete.pprint()
             
             
-            print(f"f1z: {f1z}")
-            print(f"u1: {u1}")
+            """ z <- solve {min f3(x) subject to f1(x) <= f1(z)} """
+            # f3(z)
+            fp3 = pyo.value(multiobj_model.CCdifferenceObjective(concrete))
+            """ add f3(z) to pareto front """
+            pareto_front.append(fp3)
             
-            print(f"l param: {concrete.l.value}")
+            # Delete f2Constraint to obtain the lower bound of f1(x) (first component of a utopian point)
+            if hasattr(model, 'f2Constraint'):
+                model.del_component('f2Constraint')
+                
+            # Delete f3Constraint to obtain the lower bound of f1(x) (first component of a utopian point)
+            if hasattr(model, 'f3Constraint'):
+                model.del_component('f3Constraint')
+                
+            if hasattr(model, 'obj'):
+                model.del_component('obj')
+            model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
+            
+            solver=pyo.SolverFactory('cplex')
+            results = solver.solve(concrete)  
+            
+            # f2(x)
+            f2_x = pyo.value(multiobj_model.LOCdifferenceObjective(concrete)) # FUNCIÓN F1(X) QUE SUME TODOS LOS VALORES DE F1 PARA CUALQUIER X
+            
+            # f3(x)
+            f3_x = pyo.value(multiobj_model.CCdifferenceObjective(concrete)) # FUNCIÓN F1(X) QUE SUME TODOS LOS VALORES DE F1 PARA CUALQUIER X
             
             
+            # lower bound for f1(x)
+            u2 = 0 # NO SÉ CÓMO HACER QUE FUNCIONE SIN QUE SEA NEGATIVO
+            u3 = 0
+            # l = 0.01 # NO SÉ QUÉ VALOR DARLE A ESTO
+            
+            # l2 = epsilon - f2(x)
+            if hasattr(model, 'l2'):
+                model.del_component('l2')
+            model.add_component('l2', pyo.Var())
+            
+            if hasattr(model, 'eps2'):
+                model.del_component('eps2')
+            model.add_component('eps2', pyo.Var(initialize = fp2 - 1))
+            
+            # l3 = epsilon - f3(x)
+            if hasattr(model, 'l3'):
+                model.del_component('l3')
+            model.add_component('l3', pyo.Var())
+            if hasattr(model, 'eps3'):
+                model.del_component('eps3')
+            model.add_component('eps3', pyo.Var(initialize = fp3 - 1))
+            
+            
+            # eps2 = fp2 - 1
+            # eps3 = fp3 - 1
+            
+            
+            
+            print(f"f1: {f1}")
+            
+            print(f"f2_x: {f2_x}, f3_x: {f3_x}")
+            print(f"fp2: {fp2}, fp3: {fp3}")
+            # print(f"epsilon: eps2: {eps2}, eps3: {eps3}")
             
             
             print('===============================================================================')
@@ -160,20 +158,29 @@ class EpsilonConstraintAlgorithm(Algorithm):
             
             
             
-            while results.solver.status == 'ok' and f1z <= concrete.epsilon.value: # NO SÉ CÓMO PONER f1(x), ¿se podría poner f1(x) = 1? porque máximo va a ser 1
+            while results.solver.status == 'ok' and f2_x <= multiobj_model.eps2 and f3_x <= multiobj_model.eps3:
+                
+                print(f"f2_x: {f2_x}, f3_x: {f3_x}")
+                print(f"fp2: {fp2}, fp3: {fp3}")
+                print(f"epsilon: eps2: {multiobj_model.eps2}, eps3: {multiobj_model.eps3}")
                 
                 # estimate a lambda value > 0
-                lambd = 1/(f1z - u1)
+                lambd = 1/(f1 - u2)
                 
-                """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
-                # min f2(x) - lambda * l
+                """ Solve {min f1(x) - lambda * (l2 + l3), subject to f2(x) + l2 = epsilon AND f3(x) + l3 = epsilon} """
+                # min f1(x) - lambda * (l2 + l3)
                 if hasattr(model, 'obj'):
                     model.del_component('obj')
-                model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, 'CC')))
-                # subject to f1(x) + l = epsilon
-                if hasattr(model, 'epsilonConstraint'):
-                    model.del_component('epsilonConstraint')
-                model.add_component('epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
+                model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd)))
+                # subject to f2(x) + l2 = epsilon
+                if hasattr(model, 'LOC_Constraint'):
+                    model.del_component('LOC_Constraint')
+                model.add_component('LOC_Constraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'LOC', m.eps2)))
+                # subject to f3(x) + l3 = epsilon
+                if hasattr(model, 'CC_Constraint'):
+                    model.del_component('CC_Constraint')
+                model.add_component('CC_Constraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'CC', m.ep3)))
+                
                 
                 
                 concrete = model.create_instance(data)
@@ -182,26 +189,21 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 
                 # concrete.pprint()
                 
-                """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
-                fp2 = pyo.value(multiobj_model.epsilonObjective(concrete, lambd, 'CC'))
-                """ PF = PF U {z} """
-                pareto_front.append(fp2)
+                
+                f1_z = pyo.value(multiobj_model.epsilonObjective(concrete, lambd))
+                pareto_front.append(f1_z)
                 
                 
-                concrete.epsilon = f1z - 1
+                fp2 = pyo.value(multiobj_model.LOCdifferenceObjective(concrete))
+                eps2 = fp2 -1
                 
-                #
-                # f1_x_max = max(concrete.x[s].value for s in concrete.S)
-                # print(f"f1_x_max: {f1_x_max}")
+                fp3 = pyo.value(multiobj_model.CCdifferenceObjective(concrete))
+                eps3 = fp3 -1
                 
-                print(f"f1z: {f1z}")
-                print(f"fp2: {fp2}")
-                print(f"epsilon: {model.epsilon}")
-                print(f"u1: {u1}")
-                print(f"lambda: {lambd}")
-                    
+                print(f"f2_x: {f2_x}, f3_x: {f3_x}")
+                print(f"fp2: {fp2}, fp3: {fp3}")
+                print(f"epsilon: eps2: {eps2}, eps3: {eps3}")
                 
-                print(f"comprobacion: {f1z} <= {model.epsilon}")
                 
                 print('===============================================================================')
                 if (results.solver.status == 'ok'):

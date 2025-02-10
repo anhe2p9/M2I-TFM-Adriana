@@ -17,7 +17,6 @@ def main(instance_folder: Path, alg_name: str, tau: int=15, *args):
     model_engine = ILPEngine()
     model = MultiobjectiveILPmodel()
     
-
     # Process ilp model
     ilp_model = model.define_model_without_obj()
     
@@ -178,7 +177,7 @@ if __name__ == '__main__':
         beta = tuple(map(float, beta.split(",")))
 
         
-    if config['ilp_algorithm'] == 'WeightedSumAlgorithm':
+    if config['ilp_algorithm'] == 'WeightedSumAlgorithm' or config['ilp_algorithm'] == 'WeightedSumAlgorithm2obj':
         if config.get('subdivisions'):
             main(instance_path, ilp_algorithm, threshold, subdivisions)
         elif config.get('weights'):

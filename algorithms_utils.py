@@ -8,6 +8,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 
+
 def generate_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, int, int]:
     """
     Generates subdivisions in spherical coordinates for an octant.
@@ -29,6 +30,25 @@ def generate_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, in
     return w1, w2, w3
 
 
+def generate_weights_2obj(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
+    """
+    Generates subdivisions in polar coordinates for a cuadrant.
+        
+    Args:
+        n_divisions (int): Number of divisions in each plane (XY, XZ, YZ).
+        
+    Returns:
+        dict: Dictionary with subdivisions in spherical coordinates.
+    """
+    # Crear ángulos según las divisiones
+    angles = np.linspace(0, np.pi/2, n_divisions + 1)  # divisiones del plano
+    subdivisions = {i: angles[i] for i in range(n_divisions+1)}
+    
+    w1, w2 =  [math.sin(subdivisions[theta_index]), math.cos(subdivisions[theta_index])]
+    
+    return w1, w2
+
+
 
 def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3):
     
@@ -42,8 +62,8 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     solver = pyo.SolverFactory('cplex')
-    results = solver.solve(concrete)
-    # solver.solve(concrete)
+    # results = solver.solve(concrete)
+    solver.solve(concrete)
     
     # print(results)
     # num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
@@ -75,5 +95,46 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
 
 
 
+def process_weighted_model_2obj(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, obj_selected):
+    
+    multiobj_model = MultiobjectiveILPmodel()
+    
+    if hasattr(model, 'obj'):
+        model.del_component('obj')
+    model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum2obj(m, w1, w2, obj_selected)))
+    
+    
+    
+    concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
+    solver = pyo.SolverFactory('cplex')
+    results = solver.solve(concrete)
+    # solver.solve(concrete)
+    
+    # print(results)
+    # num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
+    # print(f"There are {num_variables} variables\n")
+    # print("==========================================================================================================\n")
 
 
+    sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
+
+    xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
+    zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
+    
+    
+    maxCCselected = abs(max(xCC) - max(zCC))
+    minCCselected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
+    CCdif = abs(maxCCselected - minCCselected)
+    
+    newrow = [round(w1,2),round(w2,2),sequences_sum,CCdif]
+    
+    print('===============================================================================')
+    if (results.solver.status == 'ok'):
+        print('Objective SEQUENCES: ', sequences_sum +1)
+        print('Objective CCdiff: ', CCdif)
+        print('Sequences selected:')
+        for s in concrete.S:
+            print(f"x[{s}] = {concrete.x[s].value}")
+    print('===============================================================================')
+    
+    return concrete, newrow

@@ -70,6 +70,15 @@ class MultiobjectiveILPmodel():
         return (sequencesWeight * self.sequencesObjective(m) +
                 LOCdiffWeight * self.LOCdifferenceObjective(m) +
                 CCdiffWeight * self.CCdifferenceObjective(m))
+        
+    def weightedSum2obj(self, m, sequencesWeight, obj2_Weight, obj: str):
+        if obj =='LOC':
+            return (sequencesWeight * self.sequencesObjective(m) +
+                    obj2_Weight * self.LOCdifferenceObjective(m))
+        else:
+            return (sequencesWeight * self.sequencesObjective(m) +
+                    obj2_Weight * self.CCdifferenceObjective(m))
+            
     
     def epsilonObjective(self, m, lambd, obj):
         if obj == 'SEQ':

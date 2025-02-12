@@ -62,8 +62,8 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     solver = pyo.SolverFactory('cplex')
-    # results = solver.solve(concrete)
-    solver.solve(concrete)
+    results = solver.solve(concrete)
+    # solver.solve(concrete)
     
     # print(results)
     # num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
@@ -91,7 +91,7 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     newrow = [round(w1,2),round(w2,2),round(w3,2),sequences_sum,LOCdif,CCdif]
     
-    return concrete, newrow
+    return concrete, newrow, results
 
 
 

@@ -50,11 +50,17 @@ class WeightedSumAlgorithm(Algorithm):
                         
             w1, w2, w3 = args
             
-            concrete, newrow = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
+            concrete, newrow, results = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
                   
             csv_data.append(newrow)
             
             concrete.pprint()
+            
+            print('===============================================================================')
+            if (results.solver.status == 'ok'):
+                print('Sequences selected:')
+                for s in concrete.S:
+                    print(f"x[{s}] = {concrete.x[s].value}")
         
             
         else:

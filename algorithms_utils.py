@@ -95,6 +95,8 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     newrow = [round(w1,2),round(w2,2),round(w3,2),sequences_sum,LOCdif,CCdif]
     
+    # TODO: añadir generación de CSVs con los resultados
+    
     return concrete, newrow, results
 
 

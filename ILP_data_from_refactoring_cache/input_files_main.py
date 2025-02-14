@@ -52,7 +52,7 @@ if __name__ == "__main__":
         # print(f"Clase: {file_class}, Método: {file_method}")
     
         # Base directory of the project
-        base_dir = Path(__file__).resolve().parent.parent  # Subimos un nivel
+        base_dir = Path(__file__).resolve().parent.parent
         
         # Build Path
         output_dir = base_dir / "original_code_data" / args.output_folder / file_class / file_method

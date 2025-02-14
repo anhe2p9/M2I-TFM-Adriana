@@ -61,7 +61,8 @@ class WeightedSumAlgorithm(Algorithm):
                 print('Sequences selected:')
                 for s in concrete.S:
                     print(f"x[{s}] = {concrete.x[s].value}")
-        
+            print('===============================================================================')
+            print(results)
             
         else:
             sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')

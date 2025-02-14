@@ -2,6 +2,10 @@ import numpy as np
 import math
 
 import sys
+import os
+from typing import Any
+import csv
+from pathlib import Path
 
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
@@ -151,3 +155,103 @@ def process_weighted_model_2obj(model: pyo.AbstractModel, data: dp.DataPortal, w
     print('===============================================================================')
     
     return concrete, newrow
+
+
+
+
+
+
+
+def generate_results_csv_file(instance: str, concrete: pyo.ConcreteModel, results: Any, csv_list: list[Any]):
+    
+    data_row = []
+
+    _, folder_name = os.path.split(instance)
+    class_name, method_name = folder_name.split('_')
+    data_row.append(class_name)
+    data_row.append(method_name)
+            
+    initial_complexity = concrete.nmcc[0]
+    data_row.append(initial_complexity)
+    
+    solution = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and concrete.x[s].index() != 0]
+    data_row.append(solution)
+    
+    extractions = len(solution)
+    data_row.append(extractions)
+    
+    reduction_complexity = sum(concrete.ccr[j,i] for j,i in concrete.N if concrete.z[j,i].value == 1)
+    data_row.append(reduction_complexity)
+    
+    final_complexity = initial_complexity - reduction_complexity
+    data_row.append(final_complexity)
+    
+    
+    LOC_for_each_sequence = [concrete.loc[s] for s in concrete.S if concrete.x[s].value == 1 and concrete.x[s].index() != 0]
+    if len(LOC_for_each_sequence) > 0:
+        minExtractedLOC = min(LOC_for_each_sequence)
+        data_row.append(minExtractedLOC)
+        maxExtractedLOC = max(LOC_for_each_sequence)
+        data_row.append(maxExtractedLOC)
+        meanExtractedLOC = float(np.mean(LOC_for_each_sequence))
+        data_row.append(meanExtractedLOC)
+        totalExtractedLOC = sum(LOC_for_each_sequence)
+        data_row.append(totalExtractedLOC)
+    else:
+        for i in range(4):
+            data_row.append("")
+    
+    
+    CC_for_each_sequence = [concrete.nmcc[s] for s in concrete.S if concrete.x[s].value == 1 and concrete.x[s].index() != 0]
+    if len(CC_for_each_sequence) > 0:
+        minExtractedCC = min(CC_for_each_sequence)
+        data_row.append(minExtractedCC)
+        maxExtractedCC = max(CC_for_each_sequence)
+        data_row.append(maxExtractedCC)
+        meanExtractedCC = float(np.mean(CC_for_each_sequence))
+        data_row.append(meanExtractedCC)
+        totalExtractedCC = sum(CC_for_each_sequence)
+        data_row.append(totalExtractedCC)
+    else:
+        for i in range(4):
+            data_row.append("")
+    
+    data_row.append(str(results.solver.status))
+    data_row.append(results.solver.time)
+           
+    
+    print(data_row)
+    csv_list.append(data_row)
+    
+    print("============================================================================================================")
+    
+    
+    return csv_list
+
+
+
+
+def create_csv_from_results(concrete: pyo.ConcreteModel, results: Any):
+    
+    csv_data = [["class", "method", "initialComplexity", "solution", "extractions", 
+             "reductionComplexity", "finalComplexity",
+             "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", 
+             "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", 
+             "modelStatus", "executionTime"]]
+
+
+    instance_folder = "original_code_data"
+    
+    for subfolder in sorted(os.listdir(instance_folder)):
+        subfolder_path = os.path.join(instance_folder, subfolder)
+        if os.path.isdir(subfolder_path):
+            print(f"Processing Class_Method: {subfolder}")
+            results_csv = generate_results_csv_file(Path(subfolder_path), concrete, results, csv_data)
+        
+    
+    # Escribir datos en un archivo CSV
+    with open("results.csv", mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerows(results_csv)
+    
+    print("Archivo CSV creado correctamente.")

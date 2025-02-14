@@ -1,0 +1,99 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+31609, 31906, 1, "OK", 2, 6, 11, 3, 2, 1, 2, 4
+33320, 35196, 1, "OK", 5, 21, 21, 11, 7, 4, 5, 2
+33531, 34288, 1, "OK", 4, 12, 16, 8, 4, 4, 4, 2
+32009, 32304, 1, "OK", 2, 4, 5, 1, 1, 0, 1, 4
+33116, 34104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result InformationSystemHost from InformationSystemHost to", 0, 0, 16, 8, 4, 4, 4, 2
+31228, 31932, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Rule> rules", 0, 0, 15, 6, 3, 3, 3, 3
+30652, 32379, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 22, 9, 13, 9, 2
+33603, 34082, 1, "OK", 3, 9, 13, 4, 3, 1, 3, 3
+30849, 31932, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Rule> rules", 0, 0, 24, 9, 5, 4, 5, 3
+30849, 31163, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+30889, 31203, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+31048, 31137, 1, "OK", 4, 2, 5, 1, 1, 0, 1, 4
+35354, 35617, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+31752, 31832, 1, "OK", 3, 2, 6, 1, 1, 0, 1, 5
+33320, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 7, 4, 5, 2
+31188, 31932, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Rule> rules", 0, 0, 15, 6, 3, 3, 3, 3
+29922, 35594, 1, "OK", 4, 82, 68, 68, 22, 46, 15, 0
+33436, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 7, 4, 5, 2
+30724, 31203, 1, "OK", 3, 9, 13, 4, 3, 1, 3, 3
+33436, 35196, 1, "OK", 5, 20, 21, 11, 7, 4, 5, 2
+31296, 31932, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Rule> rules", 0, 0, 15, 6, 3, 3, 3, 3
+33728, 34082, 1, "OK", 3, 7, 9, 3, 2, 1, 2, 3
+29848, 35345, 1, "OK", 3, 80, 66, 66, 20, 46, 15, 0
+29848, 35594, 1, "OK", 3, 84, 68, 68, 22, 46, 15, 0
+29922, 35345, 1, "OK", 4, 78, 66, 66, 20, 46, 15, 0
+29848, 35617, 1, "OK", 3, 85, 68, 68, 22, 46, 15, 0
+30849, 31203, 1, "OK", 3, 7, 9, 3, 2, 1, 2, 3
+29922, 35617, 1, "OK", 4, 83, 68, 68, 22, 46, 15, 0
+31414, 31862, 1, "OK", 4, 6, 11, 3, 2, 1, 2, 4
+33531, 34104, 1, "OK", 2, 11, 16, 8, 4, 4, 4, 2
+30889, 31271, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Patch> patches", 0, 0, 9, 3, 2, 1, 2, 3
+30251, 32352, 1, "OK", 5, 31, 40, 22, 9, 13, 9, 2
+30383, 32352, 1, "OK", 5, 30, 40, 22, 9, 13, 9, 2
+33219, 34288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result InformationSystemHost to", 0, 0, 16, 8, 4, 4, 4, 2
+31414, 31906, 1, "OK", 4, 7, 11, 3, 2, 1, 2, 4
+30383, 32379, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 22, 9, 13, 9, 2
+30724, 31271, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Patch> patches", 0, 0, 13, 4, 3, 1, 3, 3
+33116, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 7, 4, 5, 2
+32178, 32304, 1, "OK", 2, 3, 5, 1, 1, 0, 1, 4
+33116, 35196, 1, "OK", 3, 23, 21, 11, 7, 4, 5, 2
+30251, 32379, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 22, 9, 13, 9, 2
+31228, 32330, 1, "OK", 5, 17, 24, 9, 5, 4, 5, 3
+34125, 35196, 1, "OK", 4, 8, 5, 3, 3, 0, 1, 2
+31360, 32330, 1, "OK", 5, 15, 24, 9, 5, 4, 5, 3
+33436, 34288, 1, "OK", 4, 13, 16, 8, 4, 4, 4, 2
+33219, 34104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result InformationSystemHost to", 0, 0, 16, 8, 4, 4, 4, 2
+30724, 32330, 1, "OK", 7, 26, 37, 13, 8, 5, 8, 3
+30849, 31271, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Patch> patches", 0, 0, 9, 3, 2, 1, 2, 3
+30101, 35255, 1, "OK", 5, 73, 63, 48, 17, 31, 15, 1
+30889, 32330, 1, "OK", 7, 23, 33, 12, 7, 5, 7, 3
+29876, 35345, 1, "OK", 4, 79, 66, 66, 20, 46, 15, 0
+30889, 31335, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Patch> patches List<Rule> rules", 0, 0, 9, 3, 2, 1, 2, 3
+33603, 33703, 1, "OK", 3, 2, 4, 1, 1, 0, 1, 3
+29876, 35594, 1, "OK", 4, 83, 68, 68, 22, 46, 15, 0
+33320, 34288, 1, "OK", 5, 14, 16, 8, 4, 4, 4, 2
+29876, 35617, 1, "OK", 4, 84, 68, 68, 22, 46, 15, 0
+30849, 32330, 1, "OK", 7, 24, 33, 12, 7, 5, 7, 3
+30724, 30824, 1, "OK", 3, 2, 4, 1, 1, 0, 1, 3
+30724, 31335, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Patch> patches List<Rule> rules", 0, 0, 13, 4, 3, 1, 3, 3
+33531, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 7, 4, 5, 2
+30168, 35255, 1, "OK", 5, 71, 63, 48, 17, 31, 15, 1
+33531, 35196, 1, "OK", 5, 19, 21, 11, 7, 4, 5, 2
+30502, 32352, 1, "OK", 6, 29, 40, 22, 9, 13, 9, 2
+31188, 32330, 1, "OK", 5, 18, 24, 9, 5, 4, 5, 3
+34125, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 1, 2
+33603, 33743, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+33320, 34104, 1, "OK", 3, 13, 16, 8, 4, 4, 4, 2
+30724, 30864, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+33768, 34042, 1, "OK", 3, 5, 9, 3, 2, 1, 2, 3
+31296, 32330, 1, "OK", 6, 16, 24, 9, 5, 4, 5, 3
+33116, 34288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result InformationSystemHost from InformationSystemHost to", 0, 0, 16, 8, 4, 4, 4, 2
+30849, 31335, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Patch> patches List<Rule> rules", 0, 0, 9, 3, 2, 1, 2, 3
+34309, 35196, 1, "OK", 4, 7, 5, 3, 3, 0, 1, 2
+33603, 34042, 1, "OK", 3, 8, 13, 4, 3, 1, 3, 3
+33219, 35196, 1, "OK", 4, 22, 21, 11, 7, 4, 5, 2
+33436, 34104, 1, "OK", 2, 12, 16, 8, 4, 4, 4, 2
+31609, 31862, 1, "OK", 2, 5, 11, 3, 2, 1, 2, 4
+33851, 34016, 1, "OK", 4, 3, 5, 1, 1, 0, 1, 4
+30229, 32397, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 22, 9, 13, 9, 2
+30502, 32379, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 22, 9, 13, 9, 2
+31957, 32330, 1, "OK", 2, 6, 9, 3, 2, 1, 2, 3
+31684, 31832, 1, "OK", 3, 3, 6, 1, 1, 0, 1, 5
+35354, 35594, 1, "OK", 2, 4, 2, 2, 2, 0, 0, 0
+34309, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 1, 2
+33219, 35223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 7, 4, 5, 2
+30972, 31137, 1, "OK", 4, 3, 5, 1, 1, 0, 1, 4
+30652, 32352, 1, "OK", 6, 28, 40, 22, 9, 13, 9, 2
+33927, 34016, 1, "OK", 4, 2, 5, 1, 1, 0, 1, 4
+33728, 34042, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+33768, 34082, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+30038, 35255, 1, "OK", 4, 74, 63, 48, 17, 31, 15, 1
+31360, 31932, 1, "OK", 4, 9, 15, 6, 3, 3, 3, 3
+33094, 35241, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 7, 4, 5, 2
+30724, 31932, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Rule> rules", 0, 0, 28, 10, 6, 4, 6, 3
+30724, 31163, 1, "OK", 3, 8, 13, 4, 3, 1, 3, 3
+30889, 31932, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String result List<Rule> rules", 0, 0, 24, 9, 5, 4, 5, 3
+30889, 31163, 1, "OK", 3, 5, 9, 3, 2, 1, 2, 3
+34607, 35196, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 2

@@ -1,9 +1,8 @@
 # Import the required libraries
 from ILP_data_from_refactoring_cache.utils import dataset as dataset, refactoring_cache as rc
 import argparse
-import os
+
 from pathlib import Path
-from fileinput import input
 import re
 
 # Main function

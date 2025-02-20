@@ -1,0 +1,58 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+21752, 24770, 1, "OK", 3, 65, 20, 20, 11, 9, 7, 0
+22312, 23280, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+21743, 24923, 1, "OK", 3, 71, 21, 21, 12, 9, 7, 0
+22369, 23426, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+22172, 22364, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer metadataPropertyId String metadataPropertyName", 0, 0, 2, 1, 1, 0, 1, 1
+22615, 24764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 13, 8, 6, 2, 5, 1
+22999, 24764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 5, 3, 3, 0, 2, 1
+23544, 24764, 1, "OK", 5, 20, 3, 2, 2, 0, 1, 1
+23065, 24764, 1, "OK", 4, 29, 5, 3, 3, 0, 2, 1
+22615, 22993, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 3, 2, 3, 1
+21933, 22119, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+22312, 23426, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+22212, 23060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+22124, 24770, 1, "OK", 3, 57, 19, 19, 10, 9, 7, 0
+22838, 22987, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+22369, 23060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 7, 5, 2, 4, 1
+22172, 23280, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+22312, 23060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 7, 5, 2, 4, 1
+22212, 22307, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+21852, 24770, 1, "OK", 3, 64, 20, 20, 11, 9, 7, 0
+22172, 23426, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+22615, 23280, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+22999, 23280, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+22172, 23060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+22212, 24764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 18, 11, 9, 2, 7, 1
+23065, 23280, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+21989, 24770, 1, "OK", 4, 61, 20, 20, 11, 9, 7, 0
+22369, 24764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 16, 10, 8, 2, 6, 1
+22654, 22831, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+21752, 22119, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+23065, 23426, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+22172, 22307, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+22212, 22993, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+22212, 22609, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer metadataPropertyId String metadataPropertyName", 0, 0, 5, 3, 3, 0, 2, 1
+22654, 22987, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+21852, 22119, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+22615, 23426, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+22999, 23426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 2, 1, 1, 0, 1, 1
+22733, 22831, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+23286, 24764, 1, "OK", 4, 24, 3, 2, 2, 0, 1, 1
+21720, 24923, 1, "OK", 3, 73, 21, 21, 12, 9, 7, 0
+22212, 22364, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer metadataPropertyId String metadataPropertyName", 0, 0, 2, 1, 1, 0, 1, 1
+22733, 22987, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+22615, 23060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 3, 2, 3, 1
+22369, 22993, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 7, 5, 2, 4, 1
+22369, 22609, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+22312, 24764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 16, 10, 8, 2, 6, 1
+22312, 22993, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 7, 5, 2, 4, 1
+22312, 22609, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+22212, 23280, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+21989, 22119, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+22172, 24764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentMetadataPropertyValue ObjMetacontent documentMatadataProperty", 0, 0, 18, 11, 9, 2, 7, 1
+22212, 23426, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+22369, 23280, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+21933, 24770, 1, "OK", 3, 62, 20, 20, 11, 9, 7, 0
+22172, 22993, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+22172, 22609, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer metadataPropertyId String metadataPropertyName", 0, 0, 5, 3, 3, 0, 2, 1

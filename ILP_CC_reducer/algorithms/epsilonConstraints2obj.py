@@ -20,7 +20,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, obj2: str) -> list[list[Any]]:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, obj2: str) -> None:
         
         multiobj_model = MultiobjectiveILPmodel()
         

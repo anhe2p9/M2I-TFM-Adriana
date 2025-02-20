@@ -74,7 +74,7 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     # print(f"There are {num_variables} variables\n")
     # print("==========================================================================================================\n")
 
-
+    # print(f"Sequences values: {[concrete.x[i].value for i in concrete.S if i != 0]}")
     sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
     
     xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
@@ -95,7 +95,7 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     
     newrow = [round(w1,2),round(w2,2),round(w3,2),sequences_sum,LOCdif,CCdif]
     
-    # TODO: añadir generación de CSVs con los resultados
+    # TODO: añadir generación de CSVs con los resultados (hay algún método ya hecho creo que sería solo llamarlo)
     
     return concrete, newrow, results
 

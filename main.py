@@ -8,15 +8,23 @@ from pathlib import Path
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
+from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
-def main(alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, second_obj=None):
-
-    print(f"Second objective: {second_obj}")    
+def main(model_type: str, alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, second_obj=None):
+    
+    if second_obj:
+        print(f"Second objective: {second_obj}")   
     model_engine = ILPEngine()
-    model = MultiobjectiveILPmodel()
+    
+    if model_type == 'uniobjective':
+        model = ILPmodelRsain()
+    elif model_type == 'multiobjective':
+        model = MultiobjectiveILPmodel()
+    else:
+        sys.exit('Model type must be one between "uniobjective" or "multiobjective".')
     
     # Process ilp model
     ilp_model = model.define_model_without_obj()
@@ -91,6 +99,7 @@ def obtain_arguments():
 
     parser = argparse.ArgumentParser(description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally a determined number of subdivisions s or three weights w, it applies the correspondent algorithm to find the optimal solutions of the model instance. One can also give as input a properties file path.')
     parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None, help=f'Properties file name in case one want to give every parameter from a .ini file.')
+    parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None, help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None, help='Model instance to be optimized (name of the folder with the three data files in CSV format).')
     parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None, help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
     parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None, help=f'Threshold (tau) to be reached by the optimization model.')
@@ -130,7 +139,7 @@ if __name__ == '__main__':
         config = load_config(properties_file_path)
     
     
-    
+    model_type = args['model_type'] if args['model_type'] else config.get('model_type')
     model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
     ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
     threshold = args['threshold'] if args['threshold'] else config.get('threshold')
@@ -163,7 +172,7 @@ if __name__ == '__main__':
         weights = tuple(map(float, weights.split(",")))
         
     
-    main(ilp_algorithm, instance_path, threshold, subdivisions, weights, second_obj)
+    main(model_type, ilp_algorithm, instance_path, threshold, subdivisions, weights, second_obj)
 
         
     # if config['ilp_algorithm'] == 'WeightedSumAlgorithm' or config['ilp_algorithm'] == 'WeightedSumAlgorithm2obj':
@@ -181,12 +190,6 @@ if __name__ == '__main__':
     
     # PARÁMETROS DE PRUEBA
     # -i C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/original_code_data/EZInjection_hook -a WeightedSumAlgorithm -t 15 -s 6
-    
-    
-    # HOLA ESTOY HACIENDO UN CAMBIO
-    # hola estoy haciendo otro cambio
-    
-    
     
     
     

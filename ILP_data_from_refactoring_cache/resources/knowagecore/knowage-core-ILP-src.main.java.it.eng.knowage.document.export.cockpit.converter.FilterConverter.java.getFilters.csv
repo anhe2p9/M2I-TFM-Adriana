@@ -1,0 +1,47 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4711, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+4591, 6350, 1, "OK", 6, 40, 24, 14, 10, 4, 5, 2
+4117, 6453, 1, "OK", 4, 57, 29, 22, 13, 9, 7, 1
+4174, 6355, 1, "OK", 5, 50, 27, 21, 12, 9, 6, 1
+5407, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues", 0, 0, 2, 2, 2, 0, 0, 2
+3987, 6457, 1, "OK", 4, 60, 30, 30, 14, 16, 7, 0
+5770, 6350, 1, "OK", 9, 12, 9, 5, 4, 1, 2, 2
+3941, 6476, 1, "OK", 3, 64, 30, 30, 14, 16, 7, 0
+4711, 6350, 1, "OK", 9, 36, 24, 14, 10, 4, 5, 2
+5939, 6299, 1, "OK", 7, 7, 5, 2, 2, 0, 1, 3
+4297, 6453, 1, "OK", 6, 52, 29, 22, 13, 9, 7, 1
+4526, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4032, 6355, 1, "OK", 4, 53, 27, 21, 12, 9, 6, 1
+4258, 6453, 1, "OK", 5, 53, 29, 22, 13, 9, 7, 1
+4753, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4526, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+4753, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+3987, 6476, 1, "OK", 4, 62, 30, 30, 14, 16, 7, 0
+4753, 6350, 1, "OK", 10, 34, 24, 14, 10, 4, 5, 2
+4117, 6355, 1, "OK", 4, 52, 27, 21, 12, 9, 6, 1
+6360, 6453, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+5901, 6350, 1, "OK", 8, 11, 9, 5, 4, 1, 2, 2
+6074, 6299, 1, "OK", 3, 6, 5, 2, 2, 0, 1, 3
+4526, 6350, 1, "OK", 6, 42, 24, 14, 10, 4, 5, 2
+4671, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4347, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String columns String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4671, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+5059, 5388, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 2, 2, 0, 1, 4
+4297, 6355, 1, "OK", 6, 47, 27, 21, 12, 9, 6, 1
+4174, 6453, 1, "OK", 5, 55, 29, 22, 13, 9, 7, 1
+4347, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String columns String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+4630, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4258, 6355, 1, "OK", 5, 48, 27, 21, 12, 9, 6, 1
+4834, 5395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 10, 4, 3, 1, 2, 3
+4987, 5388, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 2, 2, 0, 1, 4
+4630, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+4801, 5395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 10, 4, 3, 1, 2, 3
+4671, 6350, 1, "OK", 8, 37, 24, 14, 10, 4, 5, 2
+3941, 6457, 1, "OK", 3, 62, 30, 30, 14, 16, 7, 0
+4032, 6453, 1, "OK", 4, 58, 29, 22, 13, 9, 7, 1
+4591, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4347, 6350, 1, "OK", 6, 45, 24, 14, 10, 4, 5, 2
+4591, 5896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues SimpleFilter firstSimpleFilter", 0, 0, 15, 9, 6, 3, 3, 2
+4630, 6350, 1, "OK", 7, 39, 24, 14, 10, 4, 5, 2
+4711, 5764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstFilterOperator JSONArray firstFilterValues String secondFilterOperator JSONArray secondFilterValues", 0, 0, 15, 9, 6, 3, 3, 2
+4886, 5395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondFilterOperator JSONArray secondFilterValues", 0, 0, 10, 4, 3, 1, 2, 3

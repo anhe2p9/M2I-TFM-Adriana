@@ -3,7 +3,6 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 import sys
 import algorithms_utils
-from typing import Any
 
 import csv
 import os
@@ -22,7 +21,7 @@ class WeightedSumAlgorithm(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, args) -> list[list[Any]]:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, args) -> None:
         
         csv_data = [["Weight1","Weight2","Weight3","Num.sequences","LOCdif","CCdif"]]
         

@@ -49,7 +49,11 @@ class MultiobjectiveILPmodel():
         data = dp.DataPortal()
         data.load(filename=S_filename, index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc))
         data.load(filename=N_filename, index=self.defined_model.N, param=self.defined_model.ccr)
-        data.load(filename=C_filename, index=self.defined_model.C, param=())
+        
+        with open(C_filename, 'r', encoding='utf-8') as f:
+            if sum(1 for _ in f) > 1:
+                data.load(filename=str(C_filename), index=self.defined_model.C, param=())
+        
         
         return data
     

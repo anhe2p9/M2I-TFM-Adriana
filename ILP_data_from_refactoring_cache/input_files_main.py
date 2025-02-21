@@ -17,8 +17,8 @@ def main(path_to_refactoring_cache: str, output_folder: str, files_n: str):
     # Save the extractions in conflict into a CSV file
     dataset.dataframe_into_csv_file(rc.get_conflicts(df), output_folder + f"/{files_n}_conflict.csv")
 
-    # Save the lines of code and cognitive complexity of the extractions into a CSV file
-    dataset.dataframe_into_csv_file(rc.get_extractions_including_given_columns(df, ["extractedLOC", "extractedMethodCC"]),
+    # Save the lines of code, cognitive complexity, and number of parameters of the extractions into a CSV file
+    dataset.dataframe_into_csv_file(rc.get_extractions_including_given_columns(df, ["extractedLOC", "extractedMethodCC", "parameters"]),
                                     output_folder + f"/{files_n}_sequences.csv")
 
     # Save the nested extractions into a CSV file

@@ -10,16 +10,23 @@ This function assumes the input dataframe has the following columns: A, B, feasi
 extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent,
 numberNestingContributors, nesting """
 def set_extractions_id(df: pd.DataFrame) -> pd.DataFrame:
-    # Filter the DataFrame by feasible extractions
-    filtered_df = df[df['feasible'] == 1]
-
     # Sort the DataFrame by the start offset (ascending) and the end offset (descending)
-    df_sorted = filtered_df.sort_values(by=[filtered_df.columns[0], filtered_df.columns[1]], ascending=[True, False])
+    df_sorted = df.sort_values(by=[df.columns[0], df.columns[1]], ascending=[True, False])
+
+    # get first row of the sorted DataFrame (this should represent the whole method body)
+    first_row = df_sorted.iloc[0]
+
+    # Filter the DataFrame by feasible extractions
+    filtered_df = df_sorted[df_sorted['feasible'] == 1]
+
+    # add first_row to the filtered DataFrame at the beginning (the method declaration is important for the model)
+    if first_row['feasible'] == 0:
+        filtered_df = pd.concat([first_row.to_frame().T, filtered_df])
 
     # Add a new column with extractions id (from 0 to N)
-    df_sorted.insert(0, 'extraction', range(len(df_sorted)))
+    filtered_df.insert(0, 'extraction', range(len(filtered_df)))
 
-    return df_sorted
+    return filtered_df
 
 
 """ Return a dataframe with all extractions, including for each extraction the information given by the columns_to_add

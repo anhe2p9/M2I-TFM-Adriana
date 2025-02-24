@@ -17,6 +17,7 @@ class ILPmodelRsain():
             self.model.C = pyo.Set(within=self.model.S*self.model.S) # Conflict sequences
             
             self.model.loc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # LOC for each extracted sequence
+            self.model.params = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # PArameters for each new method
             self.model.nmcc = pyo.Param(self.model.S, within=pyo.NonNegativeReals) # New Method Cognitive Complexity
             self.model.ccr = pyo.Param(self.model.N, within=pyo.NonNegativeReals) # Cognitive Complexity Reduction
 

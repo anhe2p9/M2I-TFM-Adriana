@@ -76,7 +76,7 @@ class WeightedSumAlgorithm(Algorithm):
         with open(filename, mode="w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerows(csv_data)
-            print("CSV file correctly created.")
+            print(f"CSV file correctly created in {filename}.")
     
 
     

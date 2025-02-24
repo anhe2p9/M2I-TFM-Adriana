@@ -35,7 +35,7 @@ class WeightedSumAlgorithm(Algorithm):
                 for j in range(args+1):
                     w1, w2, w3 = algorithms_utils.generate_weights(args, i, j)
                     
-                    _, newrow = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
+                    _, newrow, _ = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
                     
                     csv_data.append(newrow)
                 

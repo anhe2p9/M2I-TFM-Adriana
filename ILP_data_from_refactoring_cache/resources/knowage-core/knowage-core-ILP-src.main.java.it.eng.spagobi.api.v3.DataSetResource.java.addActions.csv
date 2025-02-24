@@ -1,0 +1,32 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12730, 13056, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currDataSetType boolean isGeoDataset", 0, 0, 3, 3, 2, 1, 1, 0
+13061, 13928, 1, "OK", 8, 20, 13, 13, 10, 3, 2, 0
+13061, 13544, 1, "OK", 7, 12, 12, 12, 9, 3, 2, 0
+12658, 14006, 1, "OK", 5, 38, 17, 17, 13, 4, 3, 0
+12667, 13928, 1, "OK", 5, 32, 16, 16, 12, 4, 3, 0
+12667, 13544, 1, "OK", 5, 24, 15, 15, 11, 4, 3, 0
+12779, 13143, 1, "OK", 6, 13, 5, 5, 4, 1, 1, 0
+13148, 13928, 1, "OK", 6, 16, 11, 11, 8, 3, 2, 0
+13148, 13544, 1, "OK", 5, 8, 10, 10, 7, 3, 2, 0
+12914, 13051, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+12830, 13928, 1, "OK", 8, 29, 16, 16, 12, 4, 3, 0
+12830, 13544, 1, "OK", 8, 21, 15, 15, 11, 4, 3, 0
+12881, 13056, 1, "OK", 4, 6, 3, 3, 2, 1, 1, 0
+12730, 13143, 1, "OK", 5, 14, 5, 5, 4, 1, 1, 0
+12779, 13928, 1, "OK", 7, 30, 16, 16, 12, 4, 3, 0
+12779, 13544, 1, "OK", 7, 22, 15, 15, 11, 4, 3, 0
+13549, 13928, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+12667, 13056, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<DataSetResourceAction> actions String currDataSetType boolean isGeoDataset", 0, 0, 3, 3, 2, 1, 1, 0
+12881, 13143, 1, "OK", 6, 10, 5, 5, 4, 1, 1, 0
+12830, 13056, 1, "OK", 5, 8, 3, 3, 2, 1, 1, 0
+12730, 13928, 1, "OK", 6, 31, 16, 16, 12, 4, 3, 0
+12730, 13544, 1, "OK", 6, 23, 15, 15, 11, 4, 3, 0
+12946, 13051, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+13244, 13539, 1, "OK", 4, 6, 8, 6, 5, 1, 2, 1
+12779, 13056, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currDataSetType boolean isGeoDataset", 0, 0, 3, 3, 2, 1, 1, 0
+13061, 13143, 1, "OK", 3, 3, 2, 2, 2, 0, 0, 0
+13346, 13533, 1, "OK", 2, 4, 4, 2, 2, 0, 1, 2
+12667, 13143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<DataSetResourceAction> actions String currDataSetType", 0, 0, 5, 5, 4, 1, 1, 0
+12830, 13143, 1, "OK", 6, 12, 5, 5, 4, 1, 1, 0
+12881, 13928, 1, "OK", 9, 27, 16, 16, 12, 4, 3, 0
+12881, 13544, 1, "OK", 8, 19, 15, 15, 11, 4, 3, 0

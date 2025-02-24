@@ -1,0 +1,69 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+59667, 62222, 1, "OK", 3, 60, 41, 41, 16, 25, 13, 0
+60991, 61372, 1, "OK", 1, 7, 9, 3, 2, 1, 2, 3
+60798, 61457, 1, "OK", 1, 13, 12, 6, 3, 3, 3, 2
+60937, 61372, 1, "OK", 1, 8, 9, 3, 2, 1, 2, 3
+60237, 61693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldDeserializer fieldDeserializer boolean is", 0, 0, 26, 18, 9, 9, 8, 1
+59768, 60104, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+61518, 61661, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+59712, 60302, 1, "OK", 1, 12, 5, 3, 2, 1, 2, 1
+60538, 61693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldDeserializer fieldDeserializer boolean is", 0, 0, 24, 17, 8, 9, 7, 1
+60506, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 23, 12, 11, 10, 1
+60860, 61314, 1, "OK", 0, 8, 9, 3, 2, 1, 2, 3
+60237, 60525, 0, "Compilation unit does not compile after method extraction.", 2, 7, 2, 1, 1, 0, 1, 1
+61756, 61950, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+61968, 62162, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+60315, 61693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldDeserializer fieldDeserializer boolean is", 0, 0, 26, 18, 9, 9, 8, 1
+60766, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 21, 10, 11, 9, 1
+59846, 60104, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+61201, 61292, 1, "OK", 3, 3, 5, 1, 1, 0, 1, 4
+60174, 60492, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+61756, 62008, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+59512, 62186, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 42, 42, 17, 25, 13, 0
+59768, 60010, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+59846, 60010, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+60506, 61693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldDeserializer fieldDeserializer boolean is", 0, 0, 24, 17, 8, 9, 7, 1
+60766, 61693, 1, "OK", 3, 20, 21, 15, 6, 9, 6, 1
+61823, 61950, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+61823, 62008, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+59768, 60050, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+60937, 61314, 1, "OK", 1, 7, 9, 3, 2, 1, 2, 3
+61756, 62162, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+59512, 62222, 1, "OK", 2, 66, 42, 42, 17, 25, 13, 0
+59712, 60118, 1, "OK", 0, 8, 5, 3, 2, 1, 2, 1
+60538, 60752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos boolean is", 0, 0, 3, 2, 2, 0, 1, 1
+60315, 60752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos boolean is", 0, 0, 5, 3, 3, 0, 2, 1
+59712, 60752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos boolean is", 0, 0, 10, 6, 5, 1, 4, 1
+60798, 61390, 1, "OK", 0, 11, 12, 6, 3, 3, 3, 2
+60174, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 24, 13, 11, 11, 1
+61408, 61679, 1, "OK", 3, 6, 7, 3, 2, 1, 2, 2
+59512, 59657, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+60315, 60492, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+59712, 60492, 1, "OK", 1, 16, 7, 4, 3, 1, 3, 1
+59846, 60050, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+61474, 61679, 1, "OK", 3, 5, 7, 3, 2, 1, 2, 2
+59583, 62186, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 16, 25, 13, 0
+59712, 60224, 1, "OK", 1, 11, 5, 3, 2, 1, 2, 1
+60860, 61372, 1, "OK", 0, 9, 9, 3, 2, 1, 2, 3
+60174, 60752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos boolean is", 0, 0, 5, 3, 3, 0, 2, 1
+59712, 61693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldDeserializer fieldDeserializer boolean is", 0, 0, 31, 21, 11, 10, 10, 1
+59667, 62186, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 16, 25, 13, 0
+61075, 61292, 1, "OK", 2, 4, 5, 1, 1, 0, 1, 4
+61707, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 6, 4, 2, 3, 1
+60237, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 24, 13, 11, 11, 1
+60506, 60752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos boolean is", 0, 0, 3, 2, 2, 0, 1, 1
+61823, 62162, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+59512, 59565, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+59583, 62222, 1, "OK", 2, 62, 41, 41, 16, 25, 13, 0
+60174, 61693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldDeserializer fieldDeserializer boolean is", 0, 0, 26, 18, 9, 9, 8, 1
+60315, 60525, 0, "Compilation unit does not compile after method extraction.", 2, 6, 2, 1, 1, 0, 1, 1
+60798, 61679, 1, "OK", 3, 18, 19, 9, 5, 4, 5, 2
+59712, 60525, 0, "Compilation unit does not compile after method extraction.", 1, 18, 7, 4, 3, 1, 3, 1
+62025, 62162, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+60237, 60752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos boolean is", 0, 0, 5, 3, 3, 0, 2, 1
+60991, 61314, 1, "OK", 1, 6, 9, 3, 2, 1, 2, 3
+60538, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 23, 12, 11, 10, 1
+60315, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 24, 13, 11, 11, 1
+59712, 62176, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 15, 12, 13, 1
+60174, 60525, 0, "Compilation unit does not compile after method extraction.", 1, 8, 2, 1, 1, 0, 1, 1
+60237, 60492, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1

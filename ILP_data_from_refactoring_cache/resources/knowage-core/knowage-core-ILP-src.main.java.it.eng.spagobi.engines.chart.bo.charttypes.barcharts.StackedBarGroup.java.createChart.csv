@@ -1,0 +1,1298 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+14245, 20295, 1, "OK", 4, 146, 47, 47, 29, 18, 11, 0
+14767, 20496, 1, "OK", 4, 138, 42, 42, 27, 15, 9, 0
+16623, 18267, 1, "OK", 4, 44, 28, 28, 15, 13, 7, 0
+13549, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 20, 20, 16, 4, 3, 0
+13627, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+13368, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 7, 7, 4, 3, 2, 0
+14173, 18442, 1, "OK", 3, 108, 40, 40, 24, 16, 9, 0
+14835, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13448, 14289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+13916, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+16522, 17293, 1, "OK", 3, 16, 7, 7, 6, 1, 1, 0
+14767, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13448, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+14245, 18267, 1, "OK", 4, 104, 40, 40, 24, 16, 9, 0
+14173, 20496, 1, "OK", 3, 154, 48, 48, 30, 18, 11, 0
+14011, 15277, 1, "OK", 1, 33, 9, 9, 6, 3, 2, 0
+19738, 20023, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+15708, 15930, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+15786, 19655, 1, "OK", 4, 91, 33, 33, 19, 14, 8, 0
+14798, 19560, 1, "OK", 4, 114, 37, 37, 23, 14, 8, 0
+14011, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+14173, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13448, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14292, 14764, 1, "OK", 2, 14, 6, 6, 3, 3, 2, 0
+14767, 20519, 1, "OK", 4, 139, 42, 42, 27, 15, 9, 0
+13346, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+16623, 20325, 1, "OK", 4, 87, 35, 35, 20, 15, 9, 0
+16354, 18442, 1, "OK", 5, 51, 28, 28, 15, 13, 7, 0
+16522, 17333, 1, "OK", 4, 18, 7, 7, 6, 1, 1, 0
+13448, 14314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+14245, 20325, 1, "OK", 4, 147, 47, 47, 29, 18, 11, 0
+13549, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+15761, 18384, 1, "OK", 5, 65, 30, 30, 17, 13, 7, 0
+16354, 20496, 1, "OK", 6, 97, 36, 36, 21, 15, 9, 0
+14245, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15761, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+13916, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 47, 47, 29, 18, 11, 0
+16582, 19560, 1, "OK", 5, 71, 31, 31, 17, 14, 8, 0
+14173, 20519, 1, "OK", 3, 155, 48, 48, 30, 18, 11, 0
+14767, 20535, 1, "OK", 4, 140, 42, 42, 27, 15, 9, 0
+13549, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 20, 20, 16, 4, 3, 0
+14011, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+13368, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14730, 19655, 1, "OK", 5, 118, 37, 37, 23, 14, 8, 0
+14835, 20496, 1, "OK", 4, 136, 42, 42, 27, 15, 9, 0
+14011, 15318, 1, "OK", 1, 35, 9, 9, 6, 3, 2, 0
+18270, 20496, 1, "OK", 3, 49, 8, 8, 6, 2, 2, 0
+14173, 20535, 1, "OK", 3, 156, 48, 48, 30, 18, 11, 0
+14317, 16070, 1, "OK", 3, 48, 12, 12, 9, 3, 2, 0
+15786, 19682, 1, "OK", 4, 92, 33, 33, 19, 14, 8, 0
+14292, 14795, 1, "OK", 2, 15, 6, 6, 3, 3, 2, 0
+14835, 18442, 1, "OK", 4, 90, 34, 34, 21, 13, 7, 0
+13346, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 44, 44, 27, 17, 10, 0
+13549, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 20, 20, 16, 4, 3, 0
+14835, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+18270, 20519, 1, "OK", 3, 50, 8, 8, 6, 2, 2, 0
+13487, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+13448, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13916, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+16187, 19560, 1, "OK", 4, 76, 31, 31, 17, 14, 8, 0
+16410, 16732, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+13549, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+13916, 20325, 1, "OK", 2, 155, 47, 47, 29, 18, 11, 0
+16354, 20519, 1, "OK", 6, 98, 36, 36, 21, 15, 9, 0
+19658, 20496, 1, "OK", 4, 21, 5, 5, 4, 1, 1, 0
+13448, 20496, 1, "OK", 1, 177, 49, 49, 31, 18, 11, 0
+16522, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+18579, 19146, 1, "OK", 2, 11, 2, 1, 1, 0, 1, 1
+19738, 20081, 1, "OK", 2, 8, 3, 2, 2, 0, 1, 1
+13368, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14045, 18384, 1, "OK", 3, 110, 40, 40, 24, 16, 9, 0
+14835, 20519, 1, "OK", 4, 137, 42, 42, 27, 15, 9, 0
+18270, 20535, 1, "OK", 3, 51, 8, 8, 6, 2, 2, 0
+13448, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+15115, 15930, 1, "OK", 2, 23, 4, 4, 4, 0, 0, 0
+19658, 20519, 1, "OK", 4, 22, 5, 5, 4, 1, 1, 0
+14292, 14832, 1, "OK", 2, 16, 6, 6, 3, 3, 2, 0
+15761, 18442, 1, "OK", 5, 67, 30, 30, 17, 13, 7, 0
+13916, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14730, 19682, 1, "OK", 5, 119, 37, 37, 23, 14, 8, 0
+16354, 20535, 1, "OK", 6, 99, 36, 36, 21, 15, 9, 0
+15761, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14835, 20535, 1, "OK", 4, 138, 42, 42, 27, 15, 9, 0
+14045, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13448, 20519, 1, "OK", 1, 178, 49, 49, 31, 18, 11, 0
+15761, 20496, 1, "OK", 5, 113, 38, 38, 23, 15, 9, 0
+19658, 20535, 1, "OK", 4, 23, 5, 5, 4, 1, 1, 0
+14878, 15112, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+14317, 16131, 1, "OK", 3, 50, 12, 12, 9, 3, 2, 0
+15761, 20519, 1, "OK", 5, 114, 38, 38, 23, 15, 9, 0
+13448, 20535, 1, "OK", 1, 179, 49, 49, 31, 18, 11, 0
+13487, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 20, 20, 16, 4, 3, 0
+15188, 15758, 1, "OK", 1, 16, 2, 2, 2, 0, 0, 0
+14798, 19655, 1, "OK", 4, 116, 37, 37, 23, 14, 8, 0
+14767, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+18015, 18228, 1, "OK", 4, 6, 4, 1, 1, 0, 1, 3
+13368, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+15761, 20535, 1, "OK", 5, 115, 38, 38, 23, 15, 9, 0
+18015, 18252, 1, "OK", 4, 7, 4, 1, 1, 0, 1, 3
+14045, 18442, 1, "OK", 3, 112, 40, 40, 24, 16, 9, 0
+16582, 19655, 1, "OK", 5, 73, 31, 31, 17, 14, 8, 0
+16623, 18384, 1, "OK", 4, 45, 28, 28, 15, 13, 7, 0
+14245, 18384, 1, "OK", 4, 105, 40, 40, 24, 16, 9, 0
+14173, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14292, 14875, 1, "OK", 2, 17, 6, 6, 3, 3, 2, 0
+15321, 15758, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+14045, 20496, 1, "OK", 3, 158, 48, 48, 30, 18, 11, 0
+14798, 19682, 1, "OK", 4, 117, 37, 37, 23, 14, 8, 0
+15188, 15783, 1, "OK", 2, 17, 2, 2, 2, 0, 0, 0
+16582, 19682, 1, "OK", 5, 74, 31, 31, 17, 14, 8, 0
+13487, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+14245, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14045, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14132, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+14317, 20261, 1, "OK", 5, 143, 47, 47, 29, 18, 11, 0
+13346, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+13487, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 20, 20, 16, 4, 3, 0
+13368, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14011, 15418, 1, "OK", 1, 37, 10, 10, 7, 3, 2, 0
+13549, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+15321, 15783, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+16187, 19655, 1, "OK", 4, 78, 31, 31, 17, 14, 8, 0
+15708, 16070, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+14045, 20519, 1, "OK", 3, 159, 48, 48, 30, 18, 11, 0
+14132, 15783, 1, "OK", 2, 44, 10, 10, 7, 3, 2, 0
+14767, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14835, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13916, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+14878, 15184, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+16623, 18442, 1, "OK", 4, 47, 28, 28, 15, 13, 7, 0
+14317, 20295, 1, "OK", 5, 144, 47, 47, 29, 18, 11, 0
+14045, 20535, 1, "OK", 3, 160, 48, 48, 30, 18, 11, 0
+20455, 20496, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+14173, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14245, 18442, 1, "OK", 4, 107, 40, 40, 24, 16, 9, 0
+13916, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+19738, 20195, 1, "OK", 2, 9, 3, 2, 2, 0, 1, 1
+13487, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 20, 20, 16, 4, 3, 0
+13448, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13346, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+14088, 15112, 1, "OK", 1, 26, 8, 8, 5, 3, 2, 0
+14011, 19560, 1, "OK", 3, 136, 43, 43, 26, 17, 10, 0
+14317, 18267, 1, "OK", 5, 102, 40, 40, 24, 16, 9, 0
+16623, 20496, 1, "OK", 5, 93, 36, 36, 21, 15, 9, 0
+14245, 20496, 1, "OK", 4, 153, 48, 48, 30, 18, 11, 0
+13487, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+16187, 19682, 1, "OK", 4, 79, 31, 31, 17, 14, 8, 0
+15761, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+16623, 20519, 1, "OK", 5, 94, 36, 36, 21, 15, 9, 0
+14245, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+16522, 19560, 1, "OK", 5, 72, 31, 31, 17, 14, 8, 0
+14767, 16620, 1, "OK", 3, 45, 6, 6, 6, 0, 0, 0
+13549, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 44, 44, 27, 17, 10, 0
+15115, 16070, 1, "OK", 2, 28, 4, 4, 4, 0, 0, 0
+14317, 20325, 1, "OK", 5, 145, 47, 47, 29, 18, 11, 0
+14317, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+16623, 20535, 1, "OK", 5, 95, 36, 36, 21, 15, 9, 0
+13957, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 8, 8, 5, 3, 2, 0
+14245, 20519, 1, "OK", 4, 154, 48, 48, 30, 18, 11, 0
+17508, 17681, 1, "OK", 2, 6, 5, 3, 2, 1, 2, 1
+13627, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 8, 8, 5, 3, 2, 0
+13916, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+18579, 19285, 1, "OK", 2, 12, 2, 1, 1, 0, 1, 1
+20455, 20519, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+15708, 16131, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+13916, 20496, 1, "OK", 2, 161, 48, 48, 30, 18, 11, 0
+14245, 20535, 1, "OK", 4, 155, 48, 48, 30, 18, 11, 0
+14173, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14835, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14878, 17293, 1, "OK", 3, 56, 13, 13, 12, 1, 1, 0
+13448, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13916, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+20455, 20535, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+19738, 20257, 1, "OK", 2, 10, 3, 2, 2, 0, 1, 1
+14730, 15758, 1, "OK", 2, 26, 4, 4, 4, 0, 0, 0
+16038, 20261, 1, "OK", 4, 96, 35, 35, 20, 15, 9, 0
+13916, 20519, 1, "OK", 2, 162, 48, 48, 30, 18, 11, 0
+14045, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15708, 20261, 1, "OK", 4, 106, 37, 37, 22, 15, 9, 0
+14088, 15184, 1, "OK", 1, 27, 8, 8, 5, 3, 2, 0
+13346, 13623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset PlotOrientation plotOrientation", 0, 0, 1, 1, 1, 0, 0, 0
+15761, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14878, 15277, 1, "OK", 1, 9, 3, 3, 3, 0, 0, 0
+14730, 15783, 1, "OK", 3, 27, 4, 4, 4, 0, 0, 0
+13916, 20535, 1, "OK", 2, 163, 48, 48, 30, 18, 11, 0
+14835, 16620, 1, "OK", 3, 43, 6, 6, 6, 0, 0, 0
+15115, 16131, 1, "OK", 2, 30, 4, 4, 4, 0, 0, 0
+14878, 17333, 1, "OK", 4, 58, 13, 13, 12, 1, 1, 0
+15188, 15930, 1, "OK", 2, 21, 4, 4, 4, 0, 0, 0
+13448, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+16038, 20295, 1, "OK", 4, 97, 35, 35, 20, 15, 9, 0
+13487, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+13957, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 8, 8, 5, 3, 2, 0
+14011, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+15708, 20295, 1, "OK", 4, 107, 37, 37, 22, 15, 9, 0
+13627, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 8, 8, 5, 3, 2, 0
+16038, 18267, 1, "OK", 4, 55, 28, 28, 15, 13, 7, 0
+14878, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 13, 13, 12, 1, 1, 0
+16522, 19655, 1, "OK", 5, 74, 31, 31, 17, 14, 8, 0
+15761, 16620, 1, "OK", 3, 20, 2, 2, 2, 0, 0, 0
+15115, 20261, 1, "OK", 4, 123, 39, 39, 24, 15, 9, 0
+14435, 14717, 1, "OK", 3, 7, 3, 1, 1, 0, 1, 2
+13549, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+14878, 15318, 1, "OK", 1, 11, 3, 3, 3, 0, 0, 0
+14088, 17293, 1, "OK", 2, 78, 19, 19, 15, 4, 3, 0
+14045, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14132, 15930, 1, "OK", 2, 48, 12, 12, 9, 3, 2, 0
+14317, 18384, 1, "OK", 5, 103, 40, 40, 24, 16, 9, 0
+14245, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15321, 15930, 1, "OK", 1, 16, 3, 3, 3, 0, 0, 0
+14798, 15758, 1, "OK", 1, 24, 4, 4, 4, 0, 0, 0
+15708, 18267, 1, "OK", 4, 65, 30, 30, 17, 13, 7, 0
+16038, 20325, 1, "OK", 4, 98, 35, 35, 20, 15, 9, 0
+14767, 16732, 1, "OK", 3, 48, 7, 7, 7, 0, 0, 0
+15708, 20325, 1, "OK", 4, 108, 37, 37, 22, 15, 9, 0
+14011, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+13549, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+16522, 19682, 1, "OK", 5, 75, 31, 31, 17, 14, 8, 0
+14317, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15115, 20295, 1, "OK", 4, 124, 39, 39, 24, 15, 9, 0
+13487, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 44, 44, 27, 17, 10, 0
+14798, 15783, 1, "OK", 2, 25, 4, 4, 4, 0, 0, 0
+15708, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14088, 15277, 1, "OK", 1, 31, 9, 9, 6, 3, 2, 0
+14173, 16732, 1, "OK", 2, 64, 13, 13, 10, 3, 2, 0
+14088, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+17691, 18267, 1, "OK", 3, 18, 14, 14, 5, 9, 4, 0
+13916, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13346, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 11, 11, 8, 3, 2, 0
+13957, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 19, 19, 15, 4, 3, 0
+14292, 15112, 1, "OK", 2, 21, 8, 8, 5, 3, 2, 0
+16354, 16732, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+13627, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 19, 19, 15, 4, 3, 0
+14045, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15115, 18267, 1, "OK", 4, 82, 32, 32, 19, 13, 7, 0
+14245, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14317, 18442, 1, "OK", 5, 105, 40, 40, 24, 16, 9, 0
+15115, 20325, 1, "OK", 4, 125, 39, 39, 24, 15, 9, 0
+17297, 20261, 1, "OK", 2, 70, 28, 28, 14, 14, 8, 0
+17758, 18258, 1, "OK", 2, 14, 11, 5, 3, 2, 3, 2
+13346, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+14317, 20496, 1, "OK", 5, 151, 48, 48, 30, 18, 11, 0
+14088, 15318, 1, "OK", 1, 33, 9, 9, 6, 3, 2, 0
+14173, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+14317, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14835, 16732, 1, "OK", 3, 46, 7, 7, 7, 0, 0, 0
+15115, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+13957, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+14088, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+13448, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 14, 14, 11, 3, 2, 0
+13627, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+15786, 15930, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+13368, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+13957, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+14878, 15418, 1, "OK", 1, 13, 4, 4, 4, 0, 0, 0
+17364, 20261, 1, "OK", 3, 67, 28, 28, 14, 14, 8, 0
+14317, 20519, 1, "OK", 5, 152, 48, 48, 30, 18, 11, 0
+13627, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+17297, 20295, 1, "OK", 3, 71, 28, 28, 14, 14, 8, 0
+20264, 20496, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+17297, 18267, 1, "OK", 2, 29, 21, 21, 9, 12, 6, 0
+18472, 18710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MyStandardCategoryItemLabelGenerator generator double orient", 0, 0, 2, 1, 1, 0, 1, 1
+13957, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+15761, 16732, 1, "OK", 3, 23, 3, 3, 3, 0, 0, 0
+14317, 20535, 1, "OK", 5, 153, 48, 48, 30, 18, 11, 0
+16038, 18384, 1, "OK", 4, 56, 28, 28, 15, 13, 7, 0
+13549, 13623, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+13916, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14245, 16620, 1, "OK", 3, 60, 12, 12, 9, 3, 2, 0
+13627, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+15708, 18384, 1, "OK", 4, 66, 30, 30, 17, 13, 7, 0
+13957, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+15188, 16070, 1, "OK", 2, 26, 4, 4, 4, 0, 0, 0
+18445, 19560, 1, "OK", 1, 23, 3, 3, 2, 1, 1, 0
+14173, 14764, 1, "OK", 0, 16, 6, 6, 3, 3, 2, 0
+14730, 15930, 1, "OK", 3, 31, 6, 6, 6, 0, 0, 0
+13448, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 7, 7, 4, 3, 2, 0
+13627, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+14292, 15184, 1, "OK", 2, 22, 8, 8, 5, 3, 2, 0
+15281, 17293, 1, "OK", 2, 46, 10, 10, 9, 1, 1, 0
+17364, 20295, 1, "OK", 4, 68, 28, 28, 14, 14, 8, 0
+17297, 20325, 1, "OK", 3, 72, 28, 28, 14, 14, 8, 0
+13487, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+17364, 18267, 1, "OK", 3, 26, 21, 21, 9, 12, 6, 0
+15708, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+16074, 17293, 1, "OK", 1, 23, 7, 7, 6, 1, 1, 0
+16735, 17293, 1, "OK", 1, 11, 6, 6, 5, 1, 1, 0
+14173, 14795, 1, "OK", 0, 17, 6, 6, 3, 3, 2, 0
+15321, 16070, 1, "OK", 1, 21, 3, 3, 3, 0, 0, 0
+20264, 20519, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+14878, 19560, 1, "OK", 4, 112, 37, 37, 23, 14, 8, 0
+13487, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+14132, 16070, 1, "OK", 2, 53, 12, 12, 9, 3, 2, 0
+13916, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+20264, 20535, 1, "OK", 4, 10, 1, 1, 1, 0, 0, 0
+17364, 20325, 1, "OK", 4, 69, 28, 28, 14, 14, 8, 0
+13368, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+15115, 18384, 1, "OK", 4, 83, 32, 32, 19, 13, 7, 0
+15281, 17333, 1, "OK", 3, 48, 10, 10, 9, 1, 1, 0
+16038, 18442, 1, "OK", 4, 58, 28, 28, 15, 13, 7, 0
+13448, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14045, 16732, 1, "OK", 2, 68, 13, 13, 10, 3, 2, 0
+15708, 18442, 1, "OK", 4, 68, 30, 30, 17, 13, 7, 0
+14798, 15930, 1, "OK", 2, 29, 6, 6, 6, 0, 0, 0
+16074, 17333, 1, "OK", 2, 25, 7, 7, 6, 1, 1, 0
+16038, 20496, 1, "OK", 4, 104, 36, 36, 21, 15, 9, 0
+14011, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+14173, 14832, 1, "OK", 0, 18, 6, 6, 3, 3, 2, 0
+15115, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+15708, 20496, 1, "OK", 4, 114, 38, 38, 23, 15, 9, 0
+14088, 15418, 1, "OK", 1, 35, 10, 10, 7, 3, 2, 0
+15188, 16131, 1, "OK", 2, 28, 4, 4, 4, 0, 0, 0
+15708, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14375, 14722, 1, "OK", 2, 9, 5, 3, 2, 1, 2, 1
+14317, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14292, 17293, 1, "OK", 4, 73, 19, 19, 15, 4, 3, 0
+16735, 17333, 1, "OK", 2, 13, 6, 6, 5, 1, 1, 0
+16074, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+13448, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+13549, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 11, 11, 8, 3, 2, 0
+16038, 20519, 1, "OK", 4, 105, 36, 36, 21, 15, 9, 0
+16623, 16732, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+15281, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 10, 10, 9, 1, 1, 0
+14011, 15783, 1, "OK", 2, 47, 10, 10, 7, 3, 2, 0
+15708, 20519, 1, "OK", 4, 115, 38, 38, 23, 15, 9, 0
+14045, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+15321, 16131, 1, "OK", 1, 23, 3, 3, 3, 0, 0, 0
+13368, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 20, 20, 16, 4, 3, 0
+13957, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+18445, 19655, 1, "OK", 1, 25, 3, 3, 2, 1, 1, 0
+15188, 20261, 1, "OK", 4, 121, 39, 39, 24, 15, 9, 0
+16038, 20535, 1, "OK", 4, 106, 36, 36, 21, 15, 9, 0
+14132, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+14173, 14875, 1, "OK", 0, 19, 6, 6, 3, 3, 2, 0
+15786, 16070, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+16735, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 6, 6, 5, 1, 1, 0
+15708, 20535, 1, "OK", 4, 116, 38, 38, 23, 15, 9, 0
+13549, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+14292, 15277, 1, "OK", 2, 26, 9, 9, 6, 3, 2, 0
+13346, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+14245, 16732, 1, "OK", 3, 63, 13, 13, 10, 3, 2, 0
+15115, 20496, 1, "OK", 4, 131, 40, 40, 25, 15, 9, 0
+14292, 17333, 1, "OK", 5, 75, 19, 19, 15, 4, 3, 0
+13627, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+14088, 19560, 1, "OK", 3, 134, 43, 43, 26, 17, 10, 0
+15115, 18442, 1, "OK", 4, 85, 32, 32, 19, 13, 7, 0
+17297, 18384, 1, "OK", 2, 30, 21, 21, 9, 12, 6, 0
+15115, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+15321, 20261, 1, "OK", 4, 116, 38, 38, 23, 15, 9, 0
+18472, 18826, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MyStandardCategoryItemLabelGenerator generator double orient", 0, 0, 2, 1, 1, 0, 1, 1
+14878, 19655, 1, "OK", 4, 114, 37, 37, 23, 14, 8, 0
+13448, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+13487, 13623, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+13368, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+14317, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13346, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+15188, 20295, 1, "OK", 4, 122, 39, 39, 24, 15, 9, 0
+14132, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+17364, 18384, 1, "OK", 3, 27, 21, 21, 9, 12, 6, 0
+14045, 14764, 1, "OK", 1, 20, 6, 6, 3, 3, 2, 0
+13368, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 20, 20, 16, 4, 3, 0
+16246, 20261, 1, "OK", 5, 90, 35, 35, 20, 15, 9, 0
+14292, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+14730, 16070, 1, "OK", 3, 36, 6, 6, 6, 0, 0, 0
+15115, 20519, 1, "OK", 4, 132, 40, 40, 25, 15, 9, 0
+18445, 19682, 1, "OK", 1, 26, 3, 3, 2, 1, 1, 0
+13957, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 43, 43, 26, 17, 10, 0
+14878, 19682, 1, "OK", 4, 115, 37, 37, 23, 14, 8, 0
+14245, 14726, 1, "OK", 0, 13, 6, 6, 3, 3, 2, 0
+14292, 15318, 1, "OK", 2, 28, 9, 9, 6, 3, 2, 0
+13916, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+13627, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 43, 43, 26, 17, 10, 0
+15321, 20295, 1, "OK", 4, 117, 38, 38, 23, 15, 9, 0
+14045, 14795, 1, "OK", 1, 21, 6, 6, 3, 3, 2, 0
+15115, 20535, 1, "OK", 4, 133, 40, 40, 25, 15, 9, 0
+15188, 18267, 1, "OK", 4, 80, 32, 32, 19, 13, 7, 0
+13448, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+17297, 18442, 1, "OK", 2, 32, 21, 21, 9, 12, 6, 0
+14132, 20295, 1, "OK", 3, 149, 47, 47, 29, 18, 11, 0
+15188, 20325, 1, "OK", 4, 123, 39, 39, 24, 15, 9, 0
+13368, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+16246, 20295, 1, "OK", 5, 91, 35, 35, 20, 15, 9, 0
+15786, 16131, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+13368, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 20, 20, 16, 4, 3, 0
+16246, 18267, 1, "OK", 5, 49, 28, 28, 15, 13, 7, 0
+15321, 18267, 1, "OK", 4, 75, 31, 31, 18, 13, 7, 0
+13346, 13954, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+14317, 16620, 1, "OK", 4, 58, 12, 12, 9, 3, 2, 0
+15188, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+17297, 20496, 1, "OK", 4, 78, 29, 29, 15, 14, 8, 0
+15321, 20325, 1, "OK", 4, 118, 38, 38, 23, 15, 9, 0
+18472, 18890, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MyStandardCategoryItemLabelGenerator generator double orient", 0, 0, 2, 1, 1, 0, 1, 1
+15708, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+13916, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+15281, 15418, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+14132, 18267, 1, "OK", 3, 107, 40, 40, 24, 16, 9, 0
+14245, 14764, 1, "OK", 1, 15, 6, 6, 3, 3, 2, 0
+14045, 14832, 1, "OK", 1, 22, 6, 6, 3, 3, 2, 0
+14132, 20325, 1, "OK", 3, 150, 47, 47, 29, 18, 11, 0
+17364, 20496, 1, "OK", 5, 75, 29, 29, 15, 14, 8, 0
+16246, 20325, 1, "OK", 5, 92, 35, 35, 20, 15, 9, 0
+15786, 20261, 1, "OK", 4, 104, 37, 37, 22, 15, 9, 0
+15321, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+16410, 17293, 1, "OK", 3, 17, 7, 7, 6, 1, 1, 0
+14730, 16131, 1, "OK", 3, 38, 6, 6, 6, 0, 0, 0
+14798, 16070, 1, "OK", 2, 34, 6, 6, 6, 0, 0, 0
+17297, 20519, 1, "OK", 4, 79, 29, 29, 15, 14, 8, 0
+17364, 18442, 1, "OK", 3, 29, 21, 21, 9, 12, 6, 0
+14245, 14795, 1, "OK", 1, 16, 6, 6, 3, 3, 2, 0
+13487, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 11, 11, 8, 3, 2, 0
+14088, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14132, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+17297, 20535, 1, "OK", 4, 80, 29, 29, 15, 14, 8, 0
+13346, 14008, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+16410, 17333, 1, "OK", 4, 19, 7, 7, 6, 1, 1, 0
+13916, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+16074, 19560, 1, "OK", 3, 79, 31, 31, 17, 14, 8, 0
+14045, 14875, 1, "OK", 1, 23, 6, 6, 3, 3, 2, 0
+15786, 20295, 1, "OK", 4, 105, 37, 37, 22, 15, 9, 0
+15115, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+14730, 20261, 1, "OK", 5, 131, 41, 41, 26, 15, 9, 0
+17364, 20519, 1, "OK", 5, 76, 29, 29, 15, 14, 8, 0
+14088, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+13487, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+15281, 19560, 1, "OK", 4, 102, 34, 34, 20, 14, 8, 0
+18472, 18941, 1, "OK", 1, 10, 2, 1, 1, 0, 1, 1
+14292, 15418, 1, "OK", 2, 30, 10, 10, 7, 3, 2, 0
+16735, 19560, 1, "OK", 3, 67, 30, 30, 16, 14, 8, 0
+13346, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+13957, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14011, 15930, 1, "OK", 2, 51, 12, 12, 9, 3, 2, 0
+13549, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+19685, 20261, 1, "OK", 1, 12, 4, 4, 3, 1, 1, 0
+14245, 14832, 1, "OK", 1, 17, 6, 6, 3, 3, 2, 0
+13627, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+17364, 20535, 1, "OK", 5, 77, 29, 29, 15, 14, 8, 0
+15708, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14798, 16131, 1, "OK", 2, 36, 6, 6, 6, 0, 0, 0
+15786, 18267, 1, "OK", 4, 63, 30, 30, 17, 13, 7, 0
+13916, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+13957, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14730, 20295, 1, "OK", 5, 132, 41, 41, 26, 15, 9, 0
+15188, 18384, 1, "OK", 4, 81, 32, 32, 19, 13, 7, 0
+15786, 20325, 1, "OK", 4, 106, 37, 37, 22, 15, 9, 0
+13346, 14042, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+16410, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+13368, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+13549, 13912, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+19685, 20295, 1, "OK", 2, 13, 4, 4, 3, 1, 1, 0
+15188, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+18472, 18985, 1, "OK", 1, 11, 2, 1, 1, 0, 1, 1
+15786, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+13627, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14245, 14875, 1, "OK", 1, 18, 6, 6, 3, 3, 2, 0
+14292, 19560, 1, "OK", 5, 129, 43, 43, 26, 17, 10, 0
+13916, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14730, 18267, 1, "OK", 5, 90, 34, 34, 21, 13, 7, 0
+15708, 16620, 1, "OK", 2, 21, 2, 2, 2, 0, 0, 0
+14317, 16732, 1, "OK", 4, 61, 13, 13, 10, 3, 2, 0
+14132, 18384, 1, "OK", 3, 108, 40, 40, 24, 16, 9, 0
+14730, 20325, 1, "OK", 5, 133, 41, 41, 26, 15, 9, 0
+16246, 18384, 1, "OK", 5, 50, 28, 28, 15, 13, 7, 0
+18388, 19560, 1, "OK", 1, 24, 3, 3, 2, 1, 1, 0
+15115, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+14798, 20261, 1, "OK", 4, 129, 41, 41, 26, 15, 9, 0
+15321, 18384, 1, "OK", 4, 76, 31, 31, 18, 13, 7, 0
+15321, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+13346, 14085, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13346, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 13, 13, 10, 3, 2, 0
+16582, 20261, 1, "OK", 5, 86, 35, 35, 20, 15, 9, 0
+19685, 20325, 1, "OK", 3, 14, 4, 4, 3, 1, 1, 0
+14132, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14730, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13549, 13954, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+15188, 18442, 1, "OK", 4, 83, 32, 32, 19, 13, 7, 0
+15281, 19655, 1, "OK", 4, 104, 34, 34, 20, 14, 8, 0
+14878, 15758, 1, "OK", 1, 22, 4, 4, 4, 0, 0, 0
+13368, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 44, 44, 27, 17, 10, 0
+16074, 19655, 1, "OK", 3, 81, 31, 31, 17, 14, 8, 0
+15188, 20496, 1, "OK", 4, 129, 40, 40, 25, 15, 9, 0
+14317, 14726, 1, "OK", 1, 11, 6, 6, 3, 3, 2, 0
+14767, 15112, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+14798, 20295, 1, "OK", 4, 130, 41, 41, 26, 15, 9, 0
+16735, 19655, 1, "OK", 3, 69, 30, 30, 16, 14, 8, 0
+13346, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 48, 48, 30, 18, 11, 0
+15188, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+15115, 16620, 1, "OK", 3, 38, 4, 4, 4, 0, 0, 0
+13916, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14798, 18267, 1, "OK", 4, 88, 34, 34, 21, 13, 7, 0
+14173, 15112, 1, "OK", 0, 23, 8, 8, 5, 3, 2, 0
+16582, 20295, 1, "OK", 5, 87, 35, 35, 20, 15, 9, 0
+16187, 20261, 1, "OK", 4, 91, 35, 35, 20, 15, 9, 0
+14878, 15783, 1, "OK", 2, 23, 4, 4, 4, 0, 0, 0
+14132, 18442, 1, "OK", 3, 110, 40, 40, 24, 16, 9, 0
+16246, 18442, 1, "OK", 5, 52, 28, 28, 15, 13, 7, 0
+15188, 20519, 1, "OK", 4, 130, 40, 40, 25, 15, 9, 0
+16246, 20496, 1, "OK", 6, 98, 36, 36, 21, 15, 9, 0
+15281, 19682, 1, "OK", 4, 105, 34, 34, 20, 14, 8, 0
+15321, 18442, 1, "OK", 4, 78, 31, 31, 18, 13, 7, 0
+13346, 14129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+18616, 18710, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+15321, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+14132, 20496, 1, "OK", 3, 156, 48, 48, 30, 18, 11, 0
+16074, 19682, 1, "OK", 3, 82, 31, 31, 17, 14, 8, 0
+16582, 18267, 1, "OK", 5, 45, 28, 28, 15, 13, 7, 0
+14798, 20325, 1, "OK", 4, 131, 41, 41, 26, 15, 9, 0
+15321, 20496, 1, "OK", 4, 124, 39, 39, 24, 15, 9, 0
+13346, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 48, 48, 30, 18, 11, 0
+15786, 18384, 1, "OK", 4, 64, 30, 30, 17, 13, 7, 0
+14798, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14132, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15188, 20535, 1, "OK", 4, 131, 40, 40, 25, 15, 9, 0
+14317, 14764, 1, "OK", 2, 13, 6, 6, 3, 3, 2, 0
+15321, 20519, 1, "OK", 4, 125, 39, 39, 24, 15, 9, 0
+16582, 20325, 1, "OK", 5, 88, 35, 35, 20, 15, 9, 0
+13487, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+13549, 14008, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+14011, 16070, 1, "OK", 2, 56, 12, 12, 9, 3, 2, 0
+16187, 20295, 1, "OK", 4, 92, 35, 35, 20, 15, 9, 0
+16735, 19682, 1, "OK", 3, 70, 30, 30, 16, 14, 8, 0
+16038, 16732, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+14835, 15112, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+15786, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14132, 20519, 1, "OK", 3, 157, 48, 48, 30, 18, 11, 0
+14292, 19655, 1, "OK", 5, 131, 43, 43, 26, 17, 10, 0
+14317, 14795, 1, "OK", 2, 14, 6, 6, 3, 3, 2, 0
+15321, 20535, 1, "OK", 4, 126, 39, 39, 24, 15, 9, 0
+16246, 20519, 1, "OK", 6, 99, 36, 36, 21, 15, 9, 0
+13346, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13549, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+18388, 19655, 1, "OK", 1, 26, 3, 3, 2, 1, 1, 0
+13346, 14169, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+14730, 18384, 1, "OK", 5, 91, 34, 34, 21, 13, 7, 0
+14088, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+13346, 20325, 1, "OK", 1, 174, 48, 48, 30, 18, 11, 0
+14132, 20535, 1, "OK", 3, 158, 48, 48, 30, 18, 11, 0
+14767, 15184, 1, "OK", 1, 8, 2, 2, 2, 0, 0, 0
+15708, 16732, 1, "OK", 2, 24, 3, 3, 3, 0, 0, 0
+16187, 18267, 1, "OK", 4, 50, 28, 28, 15, 13, 7, 0
+18388, 19682, 1, "OK", 1, 27, 3, 3, 2, 1, 1, 0
+13448, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+16410, 19560, 1, "OK", 5, 73, 31, 31, 17, 14, 8, 0
+13549, 14042, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+14292, 19682, 1, "OK", 5, 132, 43, 43, 26, 17, 10, 0
+16246, 20535, 1, "OK", 6, 100, 36, 36, 21, 15, 9, 0
+13487, 13912, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+16187, 20325, 1, "OK", 4, 93, 35, 35, 20, 15, 9, 0
+14730, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14173, 15184, 1, "OK", 0, 24, 8, 8, 5, 3, 2, 0
+13346, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13368, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+15786, 20496, 1, "OK", 4, 112, 38, 38, 23, 15, 9, 0
+14317, 14832, 1, "OK", 2, 15, 6, 6, 3, 3, 2, 0
+14088, 15783, 1, "OK", 2, 45, 10, 10, 7, 3, 2, 0
+15786, 18442, 1, "OK", 4, 66, 30, 30, 17, 13, 7, 0
+15786, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+18472, 19146, 1, "OK", 1, 13, 2, 1, 1, 0, 1, 1
+13957, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+13368, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+14011, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+13549, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 13, 13, 10, 3, 2, 0
+13487, 13954, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+13627, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+15188, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+15115, 16732, 1, "OK", 3, 41, 5, 5, 5, 0, 0, 0
+14767, 17293, 1, "OK", 3, 59, 13, 13, 12, 1, 1, 0
+14835, 15184, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+15786, 20519, 1, "OK", 4, 113, 38, 38, 23, 15, 9, 0
+17336, 19560, 1, "OK", 2, 54, 24, 24, 11, 13, 7, 0
+13549, 14085, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+14730, 20496, 1, "OK", 5, 139, 42, 42, 27, 15, 9, 0
+16582, 18384, 1, "OK", 5, 46, 28, 28, 15, 13, 7, 0
+14798, 18384, 1, "OK", 4, 89, 34, 34, 21, 13, 7, 0
+13957, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+19685, 20496, 1, "OK", 4, 20, 5, 5, 4, 1, 1, 0
+14730, 18442, 1, "OK", 5, 93, 34, 34, 21, 13, 7, 0
+13346, 14242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+14317, 14875, 1, "OK", 2, 16, 6, 6, 3, 3, 2, 0
+15321, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+14730, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+15786, 20535, 1, "OK", 4, 114, 38, 38, 23, 15, 9, 0
+14045, 15112, 1, "OK", 1, 27, 8, 8, 5, 3, 2, 0
+13627, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+14011, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+13448, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+14132, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+16522, 20261, 1, "OK", 5, 87, 35, 35, 20, 15, 9, 0
+14798, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14173, 17293, 1, "OK", 2, 75, 19, 19, 15, 4, 3, 0
+14767, 15277, 1, "OK", 1, 12, 3, 3, 3, 0, 0, 0
+14730, 20519, 1, "OK", 5, 140, 42, 42, 27, 15, 9, 0
+14878, 15930, 1, "OK", 2, 27, 6, 6, 6, 0, 0, 0
+18616, 18826, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+13549, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 48, 48, 30, 18, 11, 0
+14767, 17333, 1, "OK", 4, 61, 13, 13, 12, 1, 1, 0
+13549, 14129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+16354, 17293, 1, "OK", 3, 18, 7, 7, 6, 1, 1, 0
+16410, 19655, 1, "OK", 5, 75, 31, 31, 17, 14, 8, 0
+13346, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+14730, 20535, 1, "OK", 5, 141, 42, 42, 27, 15, 9, 0
+19685, 20519, 1, "OK", 4, 21, 5, 5, 4, 1, 1, 0
+14011, 20295, 1, "OK", 3, 152, 47, 47, 29, 18, 11, 0
+13487, 14008, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+16187, 18384, 1, "OK", 4, 51, 28, 28, 15, 13, 7, 0
+13346, 14289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+16522, 20295, 1, "OK", 5, 88, 35, 35, 20, 15, 9, 0
+14173, 15277, 1, "OK", 0, 28, 9, 9, 6, 3, 2, 0
+15188, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+13346, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+15281, 15758, 1, "OK", 0, 12, 1, 1, 1, 0, 0, 0
+14798, 18442, 1, "OK", 4, 91, 34, 34, 21, 13, 7, 0
+19685, 20535, 1, "OK", 4, 22, 5, 5, 4, 1, 1, 0
+14835, 17293, 1, "OK", 3, 57, 13, 13, 12, 1, 1, 0
+13549, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 48, 48, 30, 18, 11, 0
+13487, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+14173, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+13448, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 20, 20, 16, 4, 3, 0
+16410, 19682, 1, "OK", 5, 76, 31, 31, 17, 14, 8, 0
+14245, 15112, 1, "OK", 1, 22, 8, 8, 5, 3, 2, 0
+16582, 20496, 1, "OK", 6, 94, 36, 36, 21, 15, 9, 0
+14798, 20496, 1, "OK", 4, 137, 42, 42, 27, 15, 9, 0
+14767, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 13, 13, 12, 1, 1, 0
+13368, 13623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset PlotOrientation plotOrientation", 0, 0, 1, 1, 1, 0, 0, 0
+14011, 18267, 1, "OK", 3, 110, 40, 40, 24, 16, 9, 0
+13549, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13487, 14042, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13549, 14169, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+15321, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+14011, 20325, 1, "OK", 3, 153, 47, 47, 29, 18, 11, 0
+14798, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+16582, 18442, 1, "OK", 5, 48, 28, 28, 15, 13, 7, 0
+13346, 14314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+14767, 15318, 1, "OK", 1, 14, 3, 3, 3, 0, 0, 0
+15281, 15783, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+14045, 15184, 1, "OK", 1, 28, 8, 8, 5, 3, 2, 0
+14173, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+16522, 20325, 1, "OK", 5, 89, 35, 35, 20, 15, 9, 0
+14132, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+17336, 19655, 1, "OK", 2, 56, 24, 24, 11, 13, 7, 0
+15786, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+15761, 17293, 1, "OK", 3, 34, 9, 9, 8, 1, 1, 0
+16522, 18267, 1, "OK", 5, 46, 28, 28, 15, 13, 7, 0
+18616, 18890, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+14173, 15318, 1, "OK", 0, 30, 9, 9, 6, 3, 2, 0
+14835, 15277, 1, "OK", 1, 10, 3, 3, 3, 0, 0, 0
+16354, 17333, 1, "OK", 4, 20, 7, 7, 6, 1, 1, 0
+14798, 20519, 1, "OK", 4, 138, 42, 42, 27, 15, 9, 0
+15188, 16620, 1, "OK", 3, 36, 4, 4, 4, 0, 0, 0
+13549, 20325, 1, "OK", 2, 169, 48, 48, 30, 18, 11, 0
+14011, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13448, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+13549, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+17336, 19682, 1, "OK", 2, 57, 24, 24, 11, 13, 7, 0
+14835, 17333, 1, "OK", 4, 59, 13, 13, 12, 1, 1, 0
+16354, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+18472, 19285, 1, "OK", 1, 14, 2, 1, 1, 0, 1, 1
+13448, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 20, 20, 16, 4, 3, 0
+13346, 20496, 1, "OK", 1, 180, 49, 49, 31, 18, 11, 0
+16582, 20519, 1, "OK", 6, 95, 36, 36, 21, 15, 9, 0
+13916, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 8, 8, 5, 3, 2, 0
+14798, 20535, 1, "OK", 4, 139, 42, 42, 27, 15, 9, 0
+13346, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13346, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13487, 14085, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+16187, 20496, 1, "OK", 5, 99, 36, 36, 21, 15, 9, 0
+13487, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 13, 13, 10, 3, 2, 0
+15321, 16620, 1, "OK", 2, 31, 3, 3, 3, 0, 0, 0
+19564, 20261, 1, "OK", 0, 14, 4, 4, 3, 1, 1, 0
+14088, 15930, 1, "OK", 2, 49, 12, 12, 9, 3, 2, 0
+16187, 18442, 1, "OK", 4, 53, 28, 28, 15, 13, 7, 0
+14730, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14835, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 13, 13, 12, 1, 1, 0
+16582, 20535, 1, "OK", 6, 96, 36, 36, 21, 15, 9, 0
+14292, 15758, 1, "OK", 2, 39, 10, 10, 7, 3, 2, 0
+14132, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13346, 20519, 1, "OK", 1, 181, 49, 49, 31, 18, 11, 0
+15761, 17333, 1, "OK", 4, 36, 9, 9, 8, 1, 1, 0
+14835, 15318, 1, "OK", 1, 12, 3, 3, 3, 0, 0, 0
+13448, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+14245, 15184, 1, "OK", 1, 23, 8, 8, 5, 3, 2, 0
+16187, 20519, 1, "OK", 5, 100, 36, 36, 21, 15, 9, 0
+13448, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 20, 20, 16, 4, 3, 0
+18616, 18941, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+13346, 20535, 1, "OK", 1, 182, 49, 49, 31, 18, 11, 0
+13549, 14242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+13957, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 12, 12, 9, 3, 2, 0
+13368, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 11, 11, 8, 3, 2, 0
+13487, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 48, 48, 30, 18, 11, 0
+14292, 15783, 1, "OK", 3, 40, 10, 10, 7, 3, 2, 0
+19564, 20295, 1, "OK", 1, 15, 4, 4, 3, 1, 1, 0
+14045, 17293, 1, "OK", 2, 79, 19, 19, 15, 4, 3, 0
+16187, 20535, 1, "OK", 5, 101, 36, 36, 21, 15, 9, 0
+15786, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+13487, 14129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13627, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 12, 12, 9, 3, 2, 0
+15761, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 9, 9, 8, 1, 1, 0
+14767, 15418, 1, "OK", 1, 16, 4, 4, 4, 0, 0, 0
+14878, 16070, 1, "OK", 2, 32, 6, 6, 6, 0, 0, 0
+14011, 18384, 1, "OK", 3, 111, 40, 40, 24, 16, 9, 0
+13916, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 8, 8, 5, 3, 2, 0
+19564, 20325, 1, "OK", 2, 16, 4, 4, 3, 1, 1, 0
+13368, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+14045, 15277, 1, "OK", 1, 32, 9, 9, 6, 3, 2, 0
+16623, 17293, 1, "OK", 2, 14, 7, 7, 6, 1, 1, 0
+14173, 15418, 1, "OK", 0, 32, 10, 10, 7, 3, 2, 0
+18616, 18985, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+14730, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14798, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13487, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 48, 48, 30, 18, 11, 0
+14045, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+13549, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13549, 14289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+14011, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15786, 16620, 1, "OK", 2, 19, 2, 2, 2, 0, 0, 0
+13487, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13487, 14169, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+14245, 17293, 1, "OK", 3, 74, 19, 19, 15, 4, 3, 0
+15188, 16732, 1, "OK", 3, 39, 5, 5, 5, 0, 0, 0
+16522, 18384, 1, "OK", 5, 47, 28, 28, 15, 13, 7, 0
+13487, 20325, 1, "OK", 1, 170, 48, 48, 30, 18, 11, 0
+14045, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+13549, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13549, 14314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+14045, 15318, 1, "OK", 1, 34, 9, 9, 6, 3, 2, 0
+14767, 19560, 1, "OK", 4, 115, 37, 37, 23, 14, 8, 0
+13346, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+16246, 16732, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+14878, 16131, 1, "OK", 2, 34, 6, 6, 6, 0, 0, 0
+13487, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+15321, 16732, 1, "OK", 2, 34, 4, 4, 4, 0, 0, 0
+14730, 16620, 1, "OK", 4, 46, 6, 6, 6, 0, 0, 0
+14173, 19560, 1, "OK", 3, 131, 43, 43, 26, 17, 10, 0
+15281, 15930, 1, "OK", 1, 17, 3, 3, 3, 0, 0, 0
+14132, 16732, 1, "OK", 2, 66, 13, 13, 10, 3, 2, 0
+14245, 15277, 1, "OK", 1, 27, 9, 9, 6, 3, 2, 0
+14835, 15418, 1, "OK", 1, 14, 4, 4, 4, 0, 0, 0
+16623, 17333, 1, "OK", 3, 16, 7, 7, 6, 1, 1, 0
+14011, 20496, 1, "OK", 3, 159, 48, 48, 30, 18, 11, 0
+18445, 20261, 1, "OK", 1, 38, 7, 7, 5, 2, 2, 0
+14798, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13916, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 19, 19, 15, 4, 3, 0
+13448, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+14011, 18442, 1, "OK", 3, 113, 40, 40, 24, 16, 9, 0
+14245, 17333, 1, "OK", 4, 76, 19, 19, 15, 4, 3, 0
+13549, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+14088, 16070, 1, "OK", 2, 54, 12, 12, 9, 3, 2, 0
+14011, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14317, 15112, 1, "OK", 2, 20, 8, 8, 5, 3, 2, 0
+13549, 20496, 1, "OK", 2, 175, 49, 49, 31, 18, 11, 0
+18270, 19560, 1, "OK", 1, 26, 3, 3, 2, 1, 1, 0
+16522, 18442, 1, "OK", 5, 49, 28, 28, 15, 13, 7, 0
+16623, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+14011, 20519, 1, "OK", 3, 160, 48, 48, 30, 18, 11, 0
+14245, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+13549, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14878, 20261, 1, "OK", 4, 127, 41, 41, 26, 15, 9, 0
+16354, 19560, 1, "OK", 5, 74, 31, 31, 17, 14, 8, 0
+16522, 20496, 1, "OK", 6, 95, 36, 36, 21, 15, 9, 0
+14835, 19560, 1, "OK", 4, 113, 37, 37, 23, 14, 8, 0
+13487, 14242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+18445, 20295, 1, "OK", 2, 39, 7, 7, 5, 2, 2, 0
+13916, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+14245, 15318, 1, "OK", 1, 29, 9, 9, 6, 3, 2, 0
+14132, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+16522, 20519, 1, "OK", 6, 96, 36, 36, 21, 15, 9, 0
+14798, 16620, 1, "OK", 3, 44, 6, 6, 6, 0, 0, 0
+14011, 20535, 1, "OK", 3, 161, 48, 48, 30, 18, 11, 0
+13916, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+13549, 20519, 1, "OK", 2, 176, 49, 49, 31, 18, 11, 0
+14292, 15930, 1, "OK", 3, 44, 12, 12, 9, 3, 2, 0
+13346, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13957, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 12, 12, 9, 3, 2, 0
+16522, 20535, 1, "OK", 6, 97, 36, 36, 21, 15, 9, 0
+13448, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 44, 44, 27, 17, 10, 0
+13627, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 12, 12, 9, 3, 2, 0
+17718, 18263, 1, "OK", 3, 16, 13, 9, 4, 5, 4, 1
+13549, 20535, 1, "OK", 2, 177, 49, 49, 31, 18, 11, 0
+14878, 20295, 1, "OK", 4, 128, 41, 41, 26, 15, 9, 0
+18445, 20325, 1, "OK", 2, 40, 7, 7, 5, 2, 2, 0
+13916, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+15786, 16732, 1, "OK", 2, 22, 3, 3, 3, 0, 0, 0
+14045, 15418, 1, "OK", 1, 36, 10, 10, 7, 3, 2, 0
+14878, 18267, 1, "OK", 4, 86, 34, 34, 21, 13, 7, 0
+14088, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+13916, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+14767, 19655, 1, "OK", 4, 117, 37, 37, 23, 14, 8, 0
+14132, 14764, 1, "OK", 1, 18, 6, 6, 3, 3, 2, 0
+15761, 19560, 1, "OK", 5, 90, 33, 33, 19, 14, 8, 0
+14317, 15184, 1, "OK", 2, 21, 8, 8, 5, 3, 2, 0
+13487, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13368, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+13487, 14289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+14173, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+13346, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14878, 20325, 1, "OK", 4, 129, 41, 41, 26, 15, 9, 0
+14878, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14767, 19682, 1, "OK", 4, 118, 37, 37, 23, 14, 8, 0
+14730, 16732, 1, "OK", 4, 49, 7, 7, 7, 0, 0, 0
+13487, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14088, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+13957, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+13487, 14314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+18616, 19146, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+17860, 18008, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+14132, 14795, 1, "OK", 1, 19, 6, 6, 3, 3, 2, 0
+14173, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+18270, 19655, 1, "OK", 1, 28, 3, 3, 2, 1, 1, 0
+13368, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+14045, 19560, 1, "OK", 3, 135, 43, 43, 26, 17, 10, 0
+14011, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+19564, 20496, 1, "OK", 3, 22, 5, 5, 4, 1, 1, 0
+16354, 19655, 1, "OK", 5, 76, 31, 31, 17, 14, 8, 0
+13627, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+14245, 15418, 1, "OK", 1, 31, 10, 10, 7, 3, 2, 0
+15281, 16070, 1, "OK", 1, 22, 3, 3, 3, 0, 0, 0
+14835, 19655, 1, "OK", 4, 115, 37, 37, 23, 14, 8, 0
+19564, 20519, 1, "OK", 3, 23, 5, 5, 4, 1, 1, 0
+13487, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+14132, 14832, 1, "OK", 1, 20, 6, 6, 3, 3, 2, 0
+13549, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13487, 20496, 1, "OK", 1, 176, 49, 49, 31, 18, 11, 0
+19564, 20535, 1, "OK", 3, 24, 5, 5, 4, 1, 1, 0
+13448, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+14088, 20295, 1, "OK", 3, 150, 47, 47, 29, 18, 11, 0
+14317, 17293, 1, "OK", 4, 72, 19, 19, 15, 4, 3, 0
+13957, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+14798, 16732, 1, "OK", 3, 47, 7, 7, 7, 0, 0, 0
+16354, 19682, 1, "OK", 5, 77, 31, 31, 17, 14, 8, 0
+13368, 13954, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+13627, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+18270, 19682, 1, "OK", 1, 29, 3, 3, 2, 1, 1, 0
+13487, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+15761, 19655, 1, "OK", 5, 92, 33, 33, 19, 14, 8, 0
+14088, 18267, 1, "OK", 3, 108, 40, 40, 24, 16, 9, 0
+16623, 19560, 1, "OK", 4, 70, 31, 31, 17, 14, 8, 0
+14835, 19682, 1, "OK", 4, 116, 37, 37, 23, 14, 8, 0
+14088, 20325, 1, "OK", 3, 151, 47, 47, 29, 18, 11, 0
+13916, 15418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+13448, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 44, 44, 27, 17, 10, 0
+13487, 20519, 1, "OK", 1, 177, 49, 49, 31, 18, 11, 0
+16582, 16732, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+14245, 19560, 1, "OK", 4, 130, 43, 43, 26, 17, 10, 0
+13957, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 47, 47, 29, 18, 11, 0
+14317, 15277, 1, "OK", 2, 25, 9, 9, 6, 3, 2, 0
+14088, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13627, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 47, 47, 29, 18, 11, 0
+14132, 14875, 1, "OK", 1, 21, 6, 6, 3, 3, 2, 0
+14317, 17333, 1, "OK", 5, 74, 19, 19, 15, 4, 3, 0
+13487, 20535, 1, "OK", 1, 178, 49, 49, 31, 18, 11, 0
+14011, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13549, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13957, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+14292, 16070, 1, "OK", 3, 49, 12, 12, 9, 3, 2, 0
+14878, 18384, 1, "OK", 4, 87, 34, 34, 21, 13, 7, 0
+15281, 16131, 1, "OK", 1, 24, 3, 3, 3, 0, 0, 0
+15761, 19682, 1, "OK", 5, 93, 33, 33, 19, 14, 8, 0
+13346, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 14, 14, 11, 3, 2, 0
+14317, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+14878, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+16187, 16732, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+13368, 14008, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13627, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+13957, 20325, 1, "OK", 2, 154, 47, 47, 29, 18, 11, 0
+13368, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+13957, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13916, 19560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 43, 43, 26, 17, 10, 0
+13627, 20325, 1, "OK", 2, 165, 47, 47, 29, 18, 11, 0
+14045, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14317, 15318, 1, "OK", 2, 27, 9, 9, 6, 3, 2, 0
+15281, 20261, 1, "OK", 4, 117, 38, 38, 23, 15, 9, 0
+14011, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+18616, 19285, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+16074, 20261, 1, "OK", 3, 94, 35, 35, 20, 15, 9, 0
+13627, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14045, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+13346, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 7, 7, 4, 3, 2, 0
+13368, 14042, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13549, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+17931, 18008, 1, "OK", 2, 2, 4, 1, 1, 0, 1, 3
+14878, 18442, 1, "OK", 4, 89, 34, 34, 21, 13, 7, 0
+18445, 20496, 1, "OK", 3, 46, 8, 8, 6, 2, 2, 0
+16038, 17293, 1, "OK", 2, 25, 7, 7, 6, 1, 1, 0
+16735, 20261, 1, "OK", 3, 82, 34, 34, 19, 15, 9, 0
+15281, 20295, 1, "OK", 4, 118, 38, 38, 23, 15, 9, 0
+16623, 19655, 1, "OK", 4, 72, 31, 31, 17, 14, 8, 0
+18445, 20519, 1, "OK", 3, 47, 8, 8, 6, 2, 2, 0
+14878, 20496, 1, "OK", 4, 135, 42, 42, 27, 15, 9, 0
+15708, 17293, 1, "OK", 2, 35, 9, 9, 8, 1, 1, 0
+13448, 13623, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+14292, 16131, 1, "OK", 3, 51, 12, 12, 9, 3, 2, 0
+16074, 20295, 1, "OK", 3, 95, 35, 35, 20, 15, 9, 0
+14878, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13487, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+16735, 20295, 1, "OK", 3, 83, 34, 34, 19, 15, 9, 0
+18445, 20535, 1, "OK", 3, 48, 8, 8, 6, 2, 2, 0
+14245, 19655, 1, "OK", 4, 132, 43, 43, 26, 17, 10, 0
+14767, 15758, 1, "OK", 1, 25, 4, 4, 4, 0, 0, 0
+13368, 14085, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13368, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 13, 13, 10, 3, 2, 0
+15281, 18267, 1, "OK", 4, 76, 31, 31, 18, 13, 7, 0
+13346, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14878, 20519, 1, "OK", 4, 136, 42, 42, 27, 15, 9, 0
+14088, 18384, 1, "OK", 3, 109, 40, 40, 24, 16, 9, 0
+15281, 20325, 1, "OK", 4, 119, 38, 38, 23, 15, 9, 0
+14173, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+14292, 20261, 1, "OK", 5, 144, 47, 47, 29, 18, 11, 0
+16074, 18267, 1, "OK", 3, 53, 28, 28, 15, 13, 7, 0
+16735, 18267, 1, "OK", 3, 41, 27, 27, 14, 13, 7, 0
+16038, 17333, 1, "OK", 3, 27, 7, 7, 6, 1, 1, 0
+14245, 19682, 1, "OK", 4, 133, 43, 43, 26, 17, 10, 0
+16074, 20325, 1, "OK", 3, 96, 35, 35, 20, 15, 9, 0
+18388, 20261, 1, "OK", 1, 39, 7, 7, 5, 2, 2, 0
+16623, 19682, 1, "OK", 4, 73, 31, 31, 17, 14, 8, 0
+14878, 20535, 1, "OK", 4, 137, 42, 42, 27, 15, 9, 0
+15708, 17333, 1, "OK", 3, 37, 9, 9, 8, 1, 1, 0
+14088, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14767, 15783, 1, "OK", 2, 26, 4, 4, 4, 0, 0, 0
+15115, 17293, 1, "OK", 3, 52, 11, 11, 10, 1, 1, 0
+15281, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+13368, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 48, 48, 30, 18, 11, 0
+14317, 15418, 1, "OK", 2, 29, 10, 10, 7, 3, 2, 0
+13916, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+13957, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+13346, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+16038, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+14173, 15783, 1, "OK", 1, 42, 10, 10, 7, 3, 2, 0
+16735, 20325, 1, "OK", 3, 84, 34, 34, 19, 15, 9, 0
+13627, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+15708, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 9, 9, 8, 1, 1, 0
+13487, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14292, 20295, 1, "OK", 5, 145, 47, 47, 29, 18, 11, 0
+17860, 18228, 1, "OK", 4, 10, 8, 2, 2, 0, 2, 3
+14835, 15758, 1, "OK", 1, 23, 4, 4, 4, 0, 0, 0
+13368, 14129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13957, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+18388, 20295, 1, "OK", 2, 40, 7, 7, 5, 2, 2, 0
+13448, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 11, 11, 8, 3, 2, 0
+13916, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+17860, 18252, 1, "OK", 4, 11, 8, 2, 2, 0, 2, 3
+13627, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14011, 16732, 1, "OK", 2, 69, 13, 13, 10, 3, 2, 0
+15115, 15277, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+14088, 18442, 1, "OK", 3, 111, 40, 40, 24, 16, 9, 0
+13346, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+17548, 17676, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+15115, 17333, 1, "OK", 4, 54, 11, 11, 10, 1, 1, 0
+20298, 20496, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+14088, 20496, 1, "OK", 3, 157, 48, 48, 30, 18, 11, 0
+14292, 18267, 1, "OK", 5, 103, 40, 40, 24, 16, 9, 0
+14835, 15783, 1, "OK", 2, 24, 4, 4, 4, 0, 0, 0
+14292, 20325, 1, "OK", 5, 146, 47, 47, 29, 18, 11, 0
+13368, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 48, 48, 30, 18, 11, 0
+13549, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 14, 14, 11, 3, 2, 0
+14088, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+20298, 20519, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+13487, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14317, 19560, 1, "OK", 5, 128, 43, 43, 26, 17, 10, 0
+16522, 16732, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+18388, 20325, 1, "OK", 2, 41, 7, 7, 5, 2, 2, 0
+13957, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+15115, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 11, 11, 10, 1, 1, 0
+13368, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13368, 14169, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13448, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 11, 11, 8, 3, 2, 0
+14088, 20519, 1, "OK", 3, 158, 48, 48, 30, 18, 11, 0
+14292, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+20298, 20535, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+13368, 20325, 1, "OK", 1, 173, 48, 48, 30, 18, 11, 0
+13957, 20496, 1, "OK", 2, 160, 48, 48, 30, 18, 11, 0
+14011, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+15115, 15318, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+14878, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13627, 20496, 1, "OK", 2, 171, 48, 48, 30, 18, 11, 0
+13957, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13627, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 40, 40, 24, 16, 9, 0
+14088, 20535, 1, "OK", 3, 159, 48, 48, 30, 18, 11, 0
+13368, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+13627, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13346, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+13549, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 7, 7, 4, 3, 2, 0
+16074, 18384, 1, "OK", 3, 54, 28, 28, 15, 13, 7, 0
+16410, 20261, 1, "OK", 5, 88, 35, 35, 20, 15, 9, 0
+13957, 20519, 1, "OK", 2, 161, 48, 48, 30, 18, 11, 0
+15281, 18384, 1, "OK", 4, 77, 31, 31, 18, 13, 7, 0
+15281, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+13627, 20519, 1, "OK", 2, 172, 48, 48, 30, 18, 11, 0
+14132, 15112, 1, "OK", 1, 25, 8, 8, 5, 3, 2, 0
+14011, 14764, 1, "OK", 1, 21, 6, 6, 3, 3, 2, 0
+14045, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+13957, 20535, 1, "OK", 2, 162, 48, 48, 30, 18, 11, 0
+16735, 18384, 1, "OK", 3, 42, 27, 27, 14, 13, 7, 0
+13627, 20535, 1, "OK", 2, 173, 48, 48, 30, 18, 11, 0
+14878, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13549, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+16410, 20295, 1, "OK", 5, 89, 35, 35, 20, 15, 9, 0
+17336, 20261, 1, "OK", 2, 69, 28, 28, 14, 14, 8, 0
+14767, 15930, 1, "OK", 2, 30, 6, 6, 6, 0, 0, 0
+13368, 14242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+14045, 15783, 1, "OK", 2, 46, 10, 10, 7, 3, 2, 0
+16771, 17289, 1, "OK", 1, 9, 5, 4, 4, 0, 1, 1
+17168, 17289, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 1
+14011, 14795, 1, "OK", 1, 22, 6, 6, 3, 3, 2, 0
+14173, 15930, 1, "OK", 1, 46, 12, 12, 9, 3, 2, 0
+13549, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14292, 18384, 1, "OK", 5, 104, 40, 40, 24, 16, 9, 0
+14317, 19655, 1, "OK", 5, 130, 43, 43, 26, 17, 10, 0
+15281, 18442, 1, "OK", 4, 79, 31, 31, 18, 13, 7, 0
+15281, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+16074, 20496, 1, "OK", 4, 102, 36, 36, 21, 15, 9, 0
+17931, 18228, 1, "OK", 5, 9, 8, 2, 2, 0, 2, 3
+16038, 19560, 1, "OK", 4, 81, 31, 31, 17, 14, 8, 0
+16410, 20325, 1, "OK", 5, 90, 35, 35, 20, 15, 9, 0
+16735, 18442, 1, "OK", 3, 44, 27, 27, 14, 13, 7, 0
+14088, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+16074, 18442, 1, "OK", 3, 56, 28, 28, 15, 13, 7, 0
+15281, 20496, 1, "OK", 4, 125, 39, 39, 24, 15, 9, 0
+13487, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 14, 14, 11, 3, 2, 0
+14878, 16620, 1, "OK", 3, 42, 6, 6, 6, 0, 0, 0
+15708, 19560, 1, "OK", 4, 91, 33, 33, 19, 14, 8, 0
+16410, 18267, 1, "OK", 5, 47, 28, 28, 15, 13, 7, 0
+16904, 17289, 1, "OK", 1, 7, 3, 3, 3, 0, 0, 1
+14292, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14245, 15758, 1, "OK", 1, 40, 10, 10, 7, 3, 2, 0
+14011, 14832, 1, "OK", 1, 23, 6, 6, 3, 3, 2, 0
+15281, 20519, 1, "OK", 4, 126, 39, 39, 24, 15, 9, 0
+14317, 19682, 1, "OK", 5, 131, 43, 43, 26, 17, 10, 0
+15115, 15418, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+17336, 20295, 1, "OK", 3, 70, 28, 28, 14, 14, 8, 0
+16074, 20519, 1, "OK", 4, 103, 36, 36, 21, 15, 9, 0
+16735, 20496, 1, "OK", 4, 90, 35, 35, 20, 15, 9, 0
+14132, 15184, 1, "OK", 1, 26, 8, 8, 5, 3, 2, 0
+13368, 14289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+13368, 18384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+15281, 20535, 1, "OK", 4, 127, 39, 39, 24, 15, 9, 0
+16735, 20519, 1, "OK", 4, 91, 35, 35, 20, 15, 9, 0
+13549, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+13957, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14245, 15783, 1, "OK", 2, 41, 10, 10, 7, 3, 2, 0
+17336, 20325, 1, "OK", 3, 71, 28, 28, 14, 14, 8, 0
+16074, 20535, 1, "OK", 4, 104, 36, 36, 21, 15, 9, 0
+17931, 18252, 1, "OK", 5, 10, 8, 2, 2, 0, 2, 3
+13627, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+17336, 18267, 1, "OK", 2, 28, 21, 21, 9, 12, 6, 0
+13368, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14835, 15930, 1, "OK", 2, 28, 6, 6, 6, 0, 0, 0
+14292, 18442, 1, "OK", 5, 106, 40, 40, 24, 16, 9, 0
+16735, 20535, 1, "OK", 4, 92, 35, 35, 20, 15, 9, 0
+18388, 20496, 1, "OK", 3, 47, 8, 8, 6, 2, 2, 0
+13368, 14314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 1, 1, 1, 0, 0, 0
+13448, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+13916, 15758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer TextTitle title", 0, 0, 10, 10, 7, 3, 2, 0
+14730, 15112, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+15115, 19560, 1, "OK", 4, 108, 35, 35, 21, 14, 8, 0
+14088, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14292, 20496, 1, "OK", 5, 152, 48, 48, 30, 18, 11, 0
+15188, 17293, 1, "OK", 3, 50, 11, 11, 10, 1, 1, 0
+13487, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 7, 7, 4, 3, 2, 0
+17808, 18008, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color Color gradient", 0, 0, 4, 1, 1, 0, 1, 3
+14292, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14011, 14875, 1, "OK", 1, 24, 6, 6, 3, 3, 2, 0
+13549, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+13916, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+15761, 15930, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+15321, 17293, 1, "OK", 2, 45, 10, 10, 9, 1, 1, 0
+14292, 20519, 1, "OK", 5, 153, 48, 48, 30, 18, 11, 0
+17039, 17289, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 1
+13368, 18442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13448, 13912, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+13487, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+13957, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14132, 17293, 1, "OK", 2, 77, 19, 19, 15, 4, 3, 0
+15188, 15277, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+18388, 20519, 1, "OK", 3, 48, 8, 8, 6, 2, 2, 0
+13368, 20496, 1, "OK", 1, 179, 49, 49, 31, 18, 11, 0
+16246, 17293, 1, "OK", 3, 19, 7, 7, 6, 1, 1, 0
+14088, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14292, 20535, 1, "OK", 5, 154, 48, 48, 30, 18, 11, 0
+15188, 17333, 1, "OK", 4, 52, 11, 11, 10, 1, 1, 0
+16038, 19655, 1, "OK", 4, 83, 31, 31, 17, 14, 8, 0
+13368, 16407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+15708, 19655, 1, "OK", 4, 93, 33, 33, 19, 14, 8, 0
+18388, 20535, 1, "OK", 3, 49, 8, 8, 6, 2, 2, 0
+18579, 18710, 1, "OK", 0, 4, 2, 1, 1, 0, 1, 1
+13627, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15281, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+17297, 19560, 1, "OK", 2, 55, 24, 24, 11, 13, 7, 0
+13368, 20519, 1, "OK", 1, 180, 49, 49, 31, 18, 11, 0
+14045, 15930, 1, "OK", 2, 50, 12, 12, 9, 3, 2, 0
+14878, 16732, 1, "OK", 3, 45, 7, 7, 7, 0, 0, 0
+15188, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 11, 11, 10, 1, 1, 0
+15321, 17333, 1, "OK", 3, 47, 10, 10, 9, 1, 1, 0
+16038, 19682, 1, "OK", 4, 84, 31, 31, 17, 14, 8, 0
+13487, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14132, 15277, 1, "OK", 1, 30, 9, 9, 6, 3, 2, 0
+14798, 15112, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+13448, 13954, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+14767, 16070, 1, "OK", 2, 35, 6, 6, 6, 0, 0, 0
+16410, 18384, 1, "OK", 5, 48, 28, 28, 15, 13, 7, 0
+14730, 15184, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+15708, 19682, 1, "OK", 4, 94, 33, 33, 19, 14, 8, 0
+14132, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN", 0, 0, 19, 19, 15, 4, 3, 0
+15188, 15318, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+13368, 20535, 1, "OK", 1, 181, 49, 49, 31, 18, 11, 0
+16246, 17333, 1, "OK", 4, 21, 7, 7, 6, 1, 1, 0
+14173, 16070, 1, "OK", 1, 51, 12, 12, 9, 3, 2, 0
+13957, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+17336, 18384, 1, "OK", 2, 29, 21, 21, 9, 12, 6, 0
+13627, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+15115, 19655, 1, "OK", 4, 110, 35, 35, 21, 14, 8, 0
+14132, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 19, 19, 15, 4, 3, 0
+16246, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+17364, 19560, 1, "OK", 3, 52, 24, 24, 11, 13, 7, 0
+15321, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 10, 10, 9, 1, 1, 0
+13346, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+15786, 17293, 1, "OK", 2, 33, 9, 9, 8, 1, 1, 0
+13487, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+14132, 15318, 1, "OK", 1, 32, 9, 9, 6, 3, 2, 0
+14245, 15930, 1, "OK", 2, 45, 12, 12, 9, 3, 2, 0
+14767, 16131, 1, "OK", 2, 37, 6, 6, 6, 0, 0, 0
+14292, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14835, 16070, 1, "OK", 2, 33, 6, 6, 6, 0, 0, 0
+15281, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+13448, 14008, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13448, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+16410, 18442, 1, "OK", 5, 50, 28, 28, 15, 13, 7, 0
+15115, 19682, 1, "OK", 4, 111, 35, 35, 21, 14, 8, 0
+16410, 20496, 1, "OK", 6, 96, 36, 36, 21, 15, 9, 0
+14173, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+14730, 17293, 1, "OK", 4, 60, 13, 13, 12, 1, 1, 0
+14798, 15184, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+14317, 15758, 1, "OK", 2, 38, 10, 10, 7, 3, 2, 0
+16410, 20519, 1, "OK", 6, 97, 36, 36, 21, 15, 9, 0
+13487, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 7, 7, 4, 3, 2, 0
+15786, 17333, 1, "OK", 3, 35, 9, 9, 8, 1, 1, 0
+14767, 20261, 1, "OK", 4, 130, 41, 41, 26, 15, 9, 0
+15761, 16070, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+17336, 20496, 1, "OK", 4, 77, 29, 29, 15, 14, 8, 0
+18579, 18826, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+14088, 16732, 1, "OK", 2, 67, 13, 13, 10, 3, 2, 0
+13448, 14042, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13368, 16519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+16410, 20535, 1, "OK", 6, 98, 36, 36, 21, 15, 9, 0
+13916, 15930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 12, 12, 9, 3, 2, 0
+15281, 16620, 1, "OK", 2, 32, 3, 3, 3, 0, 0, 0
+17336, 18442, 1, "OK", 2, 31, 21, 21, 9, 12, 6, 0
+14317, 15783, 1, "OK", 3, 39, 10, 10, 7, 3, 2, 0
+17297, 19655, 1, "OK", 2, 57, 24, 24, 11, 13, 7, 0
+15188, 15418, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+15786, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 9, 9, 8, 1, 1, 0
+14730, 15277, 1, "OK", 2, 13, 3, 3, 3, 0, 0, 0
+13346, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+14730, 17333, 1, "OK", 5, 62, 13, 13, 12, 1, 1, 0
+14173, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+14835, 16131, 1, "OK", 2, 35, 6, 6, 6, 0, 0, 0
+14292, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+13448, 14085, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+17336, 20519, 1, "OK", 4, 78, 29, 29, 15, 14, 8, 0
+14088, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+13448, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 13, 13, 10, 3, 2, 0
+17297, 19682, 1, "OK", 2, 58, 24, 24, 11, 13, 7, 0
+17364, 19655, 1, "OK", 3, 54, 24, 24, 11, 13, 7, 0
+13957, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+14767, 20295, 1, "OK", 4, 131, 41, 41, 26, 15, 9, 0
+14730, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 13, 13, 12, 1, 1, 0
+16582, 17293, 1, "OK", 3, 15, 7, 7, 6, 1, 1, 0
+18270, 20261, 1, "OK", 1, 41, 7, 7, 5, 2, 2, 0
+14132, 15418, 1, "OK", 1, 34, 10, 10, 7, 3, 2, 0
+13627, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 13, 13, 10, 3, 2, 0
+15321, 15418, 1, "OK", 0, 2, 1, 1, 1, 0, 0, 0
+14798, 17293, 1, "OK", 3, 58, 13, 13, 12, 1, 1, 0
+17364, 19682, 1, "OK", 3, 55, 24, 24, 11, 13, 7, 0
+17336, 20535, 1, "OK", 4, 79, 29, 29, 15, 14, 8, 0
+13368, 16579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14730, 15318, 1, "OK", 2, 15, 3, 3, 3, 0, 0, 0
+14767, 18267, 1, "OK", 4, 89, 34, 34, 21, 13, 7, 0
+14045, 16070, 1, "OK", 2, 55, 12, 12, 9, 3, 2, 0
+14173, 20295, 1, "OK", 3, 147, 47, 47, 29, 18, 11, 0
+16354, 20261, 1, "OK", 5, 89, 35, 35, 20, 15, 9, 0
+14767, 20325, 1, "OK", 4, 132, 41, 41, 26, 15, 9, 0
+18579, 18890, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+15188, 19560, 1, "OK", 4, 106, 35, 35, 21, 14, 8, 0
+14835, 20261, 1, "OK", 4, 128, 41, 41, 26, 15, 9, 0
+15761, 16131, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+19658, 20261, 1, "OK", 1, 13, 4, 4, 3, 1, 1, 0
+13448, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 48, 48, 30, 18, 11, 0
+14173, 18267, 1, "OK", 3, 105, 40, 40, 24, 16, 9, 0
+14292, 16620, 1, "OK", 4, 59, 12, 12, 9, 3, 2, 0
+14767, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+18270, 20295, 1, "OK", 2, 42, 7, 7, 5, 2, 2, 0
+14088, 14764, 1, "OK", 1, 19, 6, 6, 3, 3, 2, 0
+13957, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+14798, 15277, 1, "OK", 1, 11, 3, 3, 3, 0, 0, 0
+14011, 15112, 1, "OK", 1, 28, 8, 8, 5, 3, 2, 0
+13346, 17293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 20, 20, 16, 4, 3, 0
+13627, 14726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer KeyToGroupMap map", 0, 0, 6, 6, 3, 3, 2, 0
+13448, 14129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+17808, 18228, 1, "OK", 3, 11, 8, 2, 2, 0, 2, 3
+14173, 20325, 1, "OK", 3, 148, 47, 47, 29, 18, 11, 0
+16354, 20295, 1, "OK", 5, 90, 35, 35, 20, 15, 9, 0
+14798, 17333, 1, "OK", 4, 60, 13, 13, 12, 1, 1, 0
+14173, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14835, 20295, 1, "OK", 4, 129, 41, 41, 26, 15, 9, 0
+15761, 20261, 1, "OK", 5, 105, 37, 37, 22, 15, 9, 0
+16354, 18267, 1, "OK", 5, 48, 28, 28, 15, 13, 7, 0
+13368, 16620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+14132, 19560, 1, "OK", 3, 133, 43, 43, 26, 17, 10, 0
+16187, 17293, 1, "OK", 2, 20, 7, 7, 6, 1, 1, 0
+16246, 19560, 1, "OK", 5, 75, 31, 31, 17, 14, 8, 0
+17430, 17681, 1, "OK", 2, 7, 5, 3, 2, 1, 2, 1
+17808, 18252, 1, "OK", 3, 12, 8, 2, 2, 0, 2, 3
+15321, 19560, 1, "OK", 4, 101, 34, 34, 20, 14, 8, 0
+19658, 20295, 1, "OK", 2, 14, 4, 4, 3, 1, 1, 0
+16582, 17333, 1, "OK", 4, 17, 7, 7, 6, 1, 1, 0
+13549, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+18270, 20325, 1, "OK", 2, 43, 7, 7, 5, 2, 2, 0
+14045, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+14088, 14795, 1, "OK", 1, 20, 6, 6, 3, 3, 2, 0
+18579, 18941, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+16582, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+14245, 16070, 1, "OK", 2, 50, 12, 12, 9, 3, 2, 0
+14798, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 13, 13, 12, 1, 1, 0
+13448, 20295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 48, 48, 30, 18, 11, 0
+13346, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+15281, 16732, 1, "OK", 2, 35, 4, 4, 4, 0, 0, 0
+16354, 20325, 1, "OK", 5, 91, 35, 35, 20, 15, 9, 0
+19738, 19869, 1, "OK", 1, 4, 3, 2, 2, 0, 1, 1
+13957, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14798, 15318, 1, "OK", 1, 13, 3, 3, 3, 0, 0, 0
+14835, 18267, 1, "OK", 4, 87, 34, 34, 21, 13, 7, 0
+15761, 20295, 1, "OK", 5, 106, 37, 37, 22, 15, 9, 0
+13346, 17333, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN", 0, 0, 20, 20, 16, 4, 3, 0
+13448, 18267, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 41, 41, 25, 16, 9, 0
+13448, 14169, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13627, 14764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14835, 20325, 1, "OK", 4, 130, 41, 41, 26, 15, 9, 0
+16074, 16732, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+19658, 20325, 1, "OK", 3, 15, 4, 4, 3, 1, 1, 0
+13448, 20325, 1, "OK", 1, 171, 48, 48, 30, 18, 11, 0
+16187, 17333, 1, "OK", 3, 22, 7, 7, 6, 1, 1, 0
+13957, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+15115, 15758, 1, "OK", 1, 18, 2, 2, 2, 0, 0, 0
+14835, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+13346, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer int seriesN int numSerieColored", 0, 0, 20, 20, 16, 4, 3, 0
+14317, 15930, 1, "OK", 3, 43, 12, 12, 9, 3, 2, 0
+13448, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 13, 13, 10, 3, 2, 0
+15761, 18267, 1, "OK", 5, 64, 30, 30, 17, 13, 7, 0
+13916, 16070, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 12, 12, 9, 3, 2, 0
+14045, 20261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 47, 47, 29, 18, 11, 0
+14088, 14832, 1, "OK", 1, 21, 6, 6, 3, 3, 2, 0
+14011, 15184, 1, "OK", 1, 29, 8, 8, 5, 3, 2, 0
+16187, 17360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int seriesN int numSerieColored", 0, 0, 7, 7, 6, 1, 1, 0
+15761, 20325, 1, "OK", 5, 107, 37, 37, 22, 15, 9, 0
+13346, 15318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 10, 10, 7, 3, 2, 0
+15188, 19655, 1, "OK", 4, 108, 35, 35, 21, 14, 8, 0
+14730, 15418, 1, "OK", 2, 17, 4, 4, 4, 0, 0, 0
+13627, 14795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+15786, 19560, 1, "OK", 4, 89, 33, 33, 19, 14, 8, 0
+14245, 16131, 1, "OK", 2, 52, 12, 12, 9, 3, 2, 0
+19738, 19913, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+15115, 15783, 1, "OK", 2, 19, 2, 2, 2, 0, 0, 0
+18579, 18985, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+13549, 15184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0
+15761, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+14767, 18384, 1, "OK", 4, 90, 34, 34, 21, 13, 7, 0
+15188, 19682, 1, "OK", 4, 109, 35, 35, 21, 14, 8, 0
+15321, 19655, 1, "OK", 4, 103, 34, 34, 20, 14, 8, 0
+13957, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14045, 20295, 1, "OK", 3, 151, 47, 47, 29, 18, 11, 0
+14292, 16732, 1, "OK", 4, 62, 13, 13, 10, 3, 2, 0
+13627, 14832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14088, 14875, 1, "OK", 1, 22, 6, 6, 3, 3, 2, 0
+14132, 19655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14173, 18384, 1, "OK", 3, 106, 40, 40, 24, 16, 9, 0
+16246, 19655, 1, "OK", 5, 77, 31, 31, 17, 14, 8, 0
+14767, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+14730, 19560, 1, "OK", 5, 116, 37, 37, 23, 14, 8, 0
+14045, 18267, 1, "OK", 3, 109, 40, 40, 24, 16, 9, 0
+13448, 14242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+16623, 20261, 1, "OK", 4, 85, 35, 35, 20, 15, 9, 0
+13368, 16732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 14, 14, 11, 3, 2, 0
+14173, 16351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+14245, 20261, 1, "OK", 4, 145, 47, 47, 29, 18, 11, 0
+16354, 18384, 1, "OK", 5, 49, 28, 28, 15, 13, 7, 0
+14132, 19682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer SubCategoryAxis domainAxis", 0, 0, 43, 43, 26, 17, 10, 0
+14798, 15418, 1, "OK", 1, 15, 4, 4, 4, 0, 0, 0
+16246, 19682, 1, "OK", 5, 78, 31, 31, 17, 14, 8, 0
+15321, 19682, 1, "OK", 4, 104, 34, 34, 20, 14, 8, 0
+13916, 16131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer NumberFormat nf", 0, 0, 12, 12, 9, 3, 2, 0
+14045, 20325, 1, "OK", 3, 152, 47, 47, 29, 18, 11, 0
+13957, 14875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 6, 6, 3, 3, 2, 0
+14045, 16243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GroupedStackedBarRenderer renderer NumberFormat nf NumberAxis rangeAxis", 0, 0, 12, 12, 9, 3, 2, 0
+16623, 20295, 1, "OK", 4, 86, 35, 35, 20, 15, 9, 0
+14011, 17293, 1, "OK", 2, 80, 19, 19, 15, 4, 3, 0
+14292, 14726, 1, "OK", 1, 12, 6, 6, 3, 3, 2, 0
+14835, 18384, 1, "OK", 4, 88, 34, 34, 21, 13, 7, 0
+14767, 18442, 1, "OK", 4, 92, 34, 34, 21, 13, 7, 0
+13487, 15112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryPlot plot GroupedStackedBarRenderer renderer", 0, 0, 9, 9, 6, 3, 2, 0

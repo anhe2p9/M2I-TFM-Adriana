@@ -1,0 +1,346 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+10934, 11322, 1, "OK", 1, 12, 4, 4, 4, 0, 0, 0
+10091, 14417, 1, "OK", 2, 136, 44, 44, 31, 13, 12, 0
+10540, 13298, 1, "OK", 1, 84, 27, 27, 19, 8, 7, 0
+10091, 15440, 1, "OK", 2, 172, 58, 58, 40, 18, 17, 0
+13339, 13564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+14534, 14918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 4, 2, 2, 0, 2, 1
+12219, 12444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+10408, 14325, 1, "OK", 1, 126, 43, 43, 30, 13, 12, 0
+12527, 13147, 1, "OK", 4, 24, 10, 6, 6, 0, 4, 1
+13647, 14267, 1, "OK", 4, 24, 10, 6, 6, 0, 4, 1
+10408, 13298, 1, "OK", 1, 90, 29, 29, 21, 8, 7, 0
+10540, 14325, 1, "OK", 1, 120, 41, 41, 28, 13, 12, 0
+9894, 11322, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+9861, 11322, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+12296, 13147, 1, "OK", 2, 29, 12, 7, 7, 0, 5, 1
+13416, 14267, 1, "OK", 2, 29, 12, 7, 7, 0, 5, 1
+10144, 14325, 1, "OK", 2, 133, 44, 44, 31, 13, 12, 0
+12089, 15464, 1, "OK", 1, 115, 42, 42, 27, 15, 15, 0
+10144, 13298, 1, "OK", 2, 97, 30, 30, 22, 8, 7, 0
+10934, 14417, 1, "OK", 1, 113, 39, 39, 26, 13, 12, 0
+10091, 15464, 1, "OK", 2, 174, 58, 58, 40, 18, 17, 0
+11325, 12021, 1, "OK", 2, 21, 7, 7, 4, 3, 2, 0
+14685, 15382, 1, "OK", 3, 25, 10, 6, 6, 0, 4, 1
+10934, 15440, 1, "OK", 1, 149, 53, 53, 35, 18, 17, 0
+12698, 12992, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+13818, 14112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+12729, 13052, 1, "OK", 4, 13, 6, 4, 4, 0, 2, 1
+13849, 14172, 1, "OK", 4, 13, 6, 4, 4, 0, 2, 1
+9839, 12021, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11061, 12021, 1, "OK", 1, 28, 9, 9, 6, 3, 2, 0
+11251, 13298, 1, "OK", 1, 64, 21, 21, 13, 8, 7, 0
+11251, 14325, 1, "OK", 1, 100, 35, 35, 22, 13, 12, 0
+9861, 15440, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 41, 18, 17, 0
+9894, 14417, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+9861, 14417, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+14458, 14759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+11524, 12017, 1, "OK", 1, 14, 5, 3, 2, 1, 2, 1
+9894, 15440, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 41, 18, 17, 0
+10027, 11322, 1, "OK", 2, 37, 9, 9, 9, 0, 0, 0
+9994, 11322, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+10934, 15464, 1, "OK", 1, 151, 53, 53, 35, 18, 17, 0
+12845, 13052, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+13965, 14172, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+9928, 11322, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+14420, 15440, 1, "OK", 2, 36, 14, 14, 9, 5, 5, 0
+12527, 12683, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+13647, 13803, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+9861, 15464, 1, "OK", 1, 182, 59, 59, 41, 18, 17, 0
+10027, 15440, 1, "OK", 2, 174, 58, 58, 40, 18, 17, 0
+12296, 12683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 4, 2, 2, 0, 2, 1
+13416, 13803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 4, 2, 2, 0, 2, 1
+9994, 15440, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 41, 18, 17, 0
+10027, 14417, 1, "OK", 2, 138, 44, 44, 31, 13, 12, 0
+9894, 15464, 1, "OK", 1, 181, 59, 59, 41, 18, 17, 0
+12864, 12992, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+13984, 14112, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+10540, 11322, 1, "OK", 1, 21, 6, 6, 6, 0, 0, 0
+9994, 14417, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+9928, 15440, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 41, 18, 17, 0
+14685, 14918, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+9928, 14417, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+14420, 15464, 1, "OK", 2, 38, 14, 14, 9, 5, 5, 0
+12219, 12523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+10091, 11419, 1, "OK", 2, 38, 10, 10, 10, 0, 0, 0
+10408, 11322, 1, "OK", 1, 27, 8, 8, 8, 0, 0, 0
+13339, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+10027, 15464, 1, "OK", 2, 176, 58, 58, 40, 18, 17, 0
+9994, 15464, 1, "OK", 2, 178, 59, 59, 41, 18, 17, 0
+11476, 12017, 1, "OK", 1, 15, 5, 3, 2, 1, 2, 1
+9839, 10536, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+9839, 10024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10091, 10404, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+10144, 11322, 1, "OK", 2, 34, 9, 9, 9, 0, 0, 0
+10540, 15440, 1, "OK", 1, 158, 55, 55, 37, 18, 17, 0
+10540, 14417, 1, "OK", 1, 122, 41, 41, 28, 13, 12, 0
+10934, 11419, 1, "OK", 1, 15, 5, 5, 5, 0, 0, 0
+12181, 13205, 1, "OK", 2, 36, 14, 14, 9, 5, 5, 0
+9928, 15464, 1, "OK", 1, 180, 59, 59, 41, 18, 17, 0
+12698, 13052, 1, "OK", 3, 14, 6, 4, 4, 0, 2, 1
+13818, 14172, 1, "OK", 3, 14, 6, 4, 4, 0, 2, 1
+9839, 11057, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+13301, 14325, 1, "OK", 2, 36, 14, 14, 9, 5, 5, 0
+10408, 15440, 1, "OK", 1, 164, 57, 57, 39, 18, 17, 0
+10408, 14417, 1, "OK", 1, 128, 43, 43, 30, 13, 12, 0
+11422, 12178, 1, "OK", 2, 22, 6, 6, 3, 3, 2, 0
+9894, 11419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+9861, 11419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+10144, 15440, 1, "OK", 2, 171, 58, 58, 40, 18, 17, 0
+14853, 15382, 1, "OK", 4, 23, 10, 6, 6, 0, 4, 1
+10144, 14417, 1, "OK", 2, 135, 44, 44, 31, 13, 12, 0
+10540, 15464, 1, "OK", 1, 160, 55, 55, 37, 18, 17, 0
+11251, 14417, 1, "OK", 1, 102, 35, 35, 22, 13, 12, 0
+12448, 13147, 1, "OK", 3, 25, 10, 6, 6, 0, 4, 1
+13568, 14267, 1, "OK", 3, 25, 10, 6, 6, 0, 4, 1
+9894, 10404, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11251, 15440, 1, "OK", 1, 138, 49, 49, 31, 18, 17, 0
+12864, 13052, 1, "OK", 3, 7, 3, 2, 2, 0, 1, 1
+13984, 14172, 1, "OK", 3, 7, 3, 2, 2, 0, 1, 1
+11422, 13205, 1, "OK", 2, 58, 20, 20, 12, 8, 7, 0
+11576, 12017, 1, "OK", 1, 12, 5, 3, 2, 1, 2, 1
+9861, 10404, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10408, 15464, 1, "OK", 1, 166, 57, 57, 39, 18, 17, 0
+11775, 12012, 1, "OK", 1, 7, 3, 1, 1, 0, 1, 2
+10144, 15464, 1, "OK", 2, 173, 58, 58, 40, 18, 17, 0
+14458, 14849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+9928, 11419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+11251, 15464, 1, "OK", 1, 140, 49, 49, 31, 18, 17, 0
+10027, 11419, 1, "OK", 2, 40, 10, 10, 10, 0, 0, 0
+9994, 11419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+9928, 10404, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+14458, 15382, 1, "OK", 1, 30, 12, 7, 7, 0, 5, 1
+9839, 10087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10027, 10404, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+9994, 10404, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+14853, 14918, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+12219, 12614, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+12448, 12683, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+13339, 13734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+13568, 13803, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+10091, 12021, 1, "OK", 2, 56, 16, 16, 13, 3, 2, 0
+10408, 11419, 1, "OK", 1, 30, 9, 9, 9, 0, 0, 0
+11325, 12178, 1, "OK", 2, 25, 7, 7, 4, 3, 2, 0
+10540, 11419, 1, "OK", 1, 24, 7, 7, 7, 0, 0, 0
+14964, 15075, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+10144, 11419, 1, "OK", 2, 37, 10, 10, 10, 0, 0, 0
+13301, 15440, 1, "OK", 2, 74, 28, 28, 18, 10, 10, 0
+11061, 12178, 1, "OK", 1, 32, 9, 9, 6, 3, 2, 0
+12181, 13298, 1, "OK", 2, 38, 14, 14, 9, 5, 5, 0
+13301, 14417, 1, "OK", 2, 38, 14, 14, 9, 5, 5, 0
+11325, 13205, 1, "OK", 2, 61, 21, 21, 13, 8, 7, 0
+9839, 12178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+10144, 10404, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+9839, 13205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+11061, 13205, 1, "OK", 1, 68, 23, 23, 15, 8, 7, 0
+12181, 14325, 1, "OK", 2, 74, 28, 28, 18, 10, 10, 0
+12219, 13147, 1, "OK", 1, 30, 12, 7, 7, 0, 5, 1
+14964, 15094, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+10934, 12021, 1, "OK", 1, 33, 11, 11, 8, 3, 2, 0
+13339, 14267, 1, "OK", 1, 30, 12, 7, 7, 0, 5, 1
+14458, 14918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 4, 2, 2, 0, 2, 1
+9839, 10141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11251, 11419, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+14534, 14605, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+11422, 13298, 1, "OK", 2, 60, 20, 20, 12, 8, 7, 0
+13301, 15464, 1, "OK", 2, 76, 28, 28, 18, 10, 10, 0
+9894, 12021, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+9861, 12021, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+9839, 10668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+10091, 10536, 1, "OK", 1, 13, 3, 3, 3, 0, 0, 0
+11422, 14325, 1, "OK", 2, 96, 34, 34, 21, 13, 12, 0
+11447, 12017, 1, "OK", 1, 16, 5, 3, 2, 1, 2, 1
+14609, 15382, 1, "OK", 2, 26, 10, 6, 6, 0, 4, 1
+10091, 11057, 1, "OK", 1, 27, 7, 7, 7, 0, 0, 0
+11596, 12017, 1, "OK", 1, 11, 5, 3, 2, 1, 2, 1
+9994, 12021, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14933, 15075, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+9928, 12021, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14923, 15382, 1, "OK", 3, 19, 8, 5, 5, 0, 3, 1
+10027, 12021, 1, "OK", 2, 58, 16, 16, 13, 3, 2, 0
+11061, 11209, 1, "OK", 0, 4, 2, 2, 2, 0, 0, 0
+12219, 12683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 4, 2, 2, 0, 2, 1
+13339, 13803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 4, 2, 2, 0, 2, 1
+10934, 11057, 1, "OK", 0, 4, 2, 2, 2, 0, 0, 0
+9839, 11209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+9861, 10536, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+9861, 10024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+14933, 15094, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+9894, 10536, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+9894, 10024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9894, 11057, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+9861, 11057, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+10408, 12021, 1, "OK", 1, 48, 15, 15, 12, 3, 2, 0
+12296, 12367, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+13416, 13487, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+10540, 12021, 1, "OK", 1, 42, 13, 13, 10, 3, 2, 0
+14609, 14918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+10144, 12021, 1, "OK", 2, 55, 16, 16, 13, 3, 2, 0
+11325, 13298, 1, "OK", 2, 63, 21, 21, 13, 8, 7, 0
+14534, 14681, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+12618, 13147, 1, "OK", 4, 23, 10, 6, 6, 0, 4, 1
+13738, 14267, 1, "OK", 4, 23, 10, 6, 6, 0, 4, 1
+12181, 14417, 1, "OK", 2, 76, 28, 28, 18, 10, 10, 0
+10027, 10536, 1, "OK", 1, 15, 3, 3, 3, 0, 0, 0
+12181, 15440, 1, "OK", 2, 112, 42, 42, 27, 15, 15, 0
+9994, 10536, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+9994, 10024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11061, 13298, 1, "OK", 1, 70, 23, 23, 15, 8, 7, 0
+11325, 14325, 1, "OK", 2, 99, 35, 35, 22, 13, 12, 0
+11829, 12012, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+9839, 13298, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+9839, 14325, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+10027, 11057, 1, "OK", 1, 29, 7, 7, 7, 0, 0, 0
+11061, 14325, 1, "OK", 1, 106, 37, 37, 24, 13, 12, 0
+9928, 10536, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+9928, 10024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11251, 12021, 1, "OK", 1, 22, 7, 7, 4, 3, 2, 0
+9994, 11057, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+9928, 11057, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+12371, 13147, 1, "OK", 2, 26, 10, 6, 6, 0, 4, 1
+13491, 14267, 1, "OK", 2, 26, 10, 6, 6, 0, 4, 1
+11549, 12017, 1, "OK", 1, 13, 5, 3, 2, 1, 2, 1
+11422, 14417, 1, "OK", 2, 98, 34, 34, 21, 13, 12, 0
+12181, 15464, 1, "OK", 2, 114, 42, 42, 27, 15, 15, 0
+11422, 15440, 1, "OK", 2, 134, 48, 48, 30, 18, 17, 0
+12089, 13205, 1, "OK", 1, 37, 14, 14, 9, 5, 5, 0
+11665, 12012, 1, "OK", 1, 9, 3, 1, 1, 0, 1, 2
+13209, 14325, 1, "OK", 1, 37, 14, 14, 9, 5, 5, 0
+14329, 15440, 1, "OK", 1, 37, 14, 14, 9, 5, 5, 0
+10540, 11057, 1, "OK", 0, 13, 4, 4, 4, 0, 0, 0
+10408, 10536, 1, "OK", 0, 5, 2, 2, 2, 0, 0, 0
+12618, 12683, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+13738, 13803, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+9894, 10087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9861, 10087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10091, 12178, 1, "OK", 2, 60, 16, 16, 13, 3, 2, 0
+10144, 10536, 1, "OK", 1, 12, 3, 3, 3, 0, 0, 0
+11422, 15464, 1, "OK", 2, 136, 48, 48, 30, 18, 17, 0
+10091, 13205, 1, "OK", 2, 96, 30, 30, 22, 8, 7, 0
+10408, 11057, 1, "OK", 0, 19, 6, 6, 6, 0, 0, 0
+14964, 15227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+12296, 12444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+13416, 13564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+15080, 15227, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+10144, 11057, 1, "OK", 1, 26, 7, 7, 7, 0, 0, 0
+12729, 12840, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+13849, 13960, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+14329, 15464, 1, "OK", 1, 39, 14, 14, 9, 5, 5, 0
+10934, 12178, 1, "OK", 1, 37, 11, 11, 8, 3, 2, 0
+9994, 10087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12371, 12683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+13491, 13803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+11061, 11322, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+9928, 10087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10934, 13205, 1, "OK", 1, 73, 25, 25, 17, 8, 7, 0
+12729, 12859, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+13849, 13979, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+14534, 14759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+10091, 10668, 1, "OK", 1, 19, 5, 5, 5, 0, 0, 0
+9839, 11322, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+9894, 12178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+9861, 12178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11325, 14417, 1, "OK", 2, 101, 35, 35, 22, 13, 12, 0
+11325, 15440, 1, "OK", 2, 137, 49, 49, 31, 18, 17, 0
+9894, 13205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+9861, 13205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+11061, 14417, 1, "OK", 1, 108, 37, 37, 24, 13, 12, 0
+11061, 15440, 1, "OK", 1, 144, 51, 51, 33, 18, 17, 0
+10091, 11209, 1, "OK", 1, 32, 9, 9, 9, 0, 0, 0
+9894, 10141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9861, 10141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+14933, 15227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+9894, 10668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+14964, 15287, 1, "OK", 4, 13, 6, 4, 4, 0, 2, 1
+9839, 15440, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 41, 18, 17, 0
+9839, 14417, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+9994, 13205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+11325, 15464, 1, "OK", 2, 139, 49, 49, 31, 18, 17, 0
+12698, 12840, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+13818, 13960, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+9928, 13205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+12688, 13147, 1, "OK", 3, 19, 8, 5, 5, 0, 3, 1
+13808, 14267, 1, "OK", 3, 19, 8, 5, 5, 0, 3, 1
+14763, 15382, 1, "OK", 4, 24, 10, 6, 6, 0, 4, 1
+9861, 10668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+10027, 12178, 1, "OK", 2, 62, 16, 16, 13, 3, 2, 0
+9994, 12178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+9928, 12178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+10027, 13205, 1, "OK", 2, 98, 30, 30, 22, 8, 7, 0
+9994, 10141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10934, 11209, 1, "OK", 0, 9, 4, 4, 4, 0, 0, 0
+11061, 15464, 1, "OK", 1, 146, 51, 51, 33, 18, 17, 0
+9928, 10141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+14458, 14605, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+15080, 15287, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+12089, 14325, 1, "OK", 1, 75, 28, 28, 18, 10, 10, 0
+9839, 15464, 1, "OK", 1, 183, 59, 59, 41, 18, 17, 0
+13209, 15440, 1, "OK", 1, 75, 28, 28, 18, 10, 10, 0
+12089, 13298, 1, "OK", 1, 39, 14, 14, 9, 5, 5, 0
+13209, 14417, 1, "OK", 1, 39, 14, 14, 9, 5, 5, 0
+9894, 11209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+9861, 11209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+9928, 10668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+10540, 12178, 1, "OK", 1, 46, 13, 13, 10, 3, 2, 0
+12296, 12523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+13416, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+12698, 12859, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+13818, 13979, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+10027, 10668, 1, "OK", 1, 21, 5, 5, 5, 0, 0, 0
+15099, 15227, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+9994, 10668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+10408, 13205, 1, "OK", 1, 88, 29, 29, 21, 8, 7, 0
+10091, 13298, 1, "OK", 2, 98, 30, 30, 22, 8, 7, 0
+10091, 14325, 1, "OK", 2, 134, 44, 44, 31, 13, 12, 0
+10408, 12178, 1, "OK", 1, 52, 15, 15, 12, 3, 2, 0
+10540, 13205, 1, "OK", 1, 82, 27, 27, 19, 8, 7, 0
+12219, 12367, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+10144, 13205, 1, "OK", 2, 95, 30, 30, 22, 8, 7, 0
+13339, 13487, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+13209, 15464, 1, "OK", 1, 77, 28, 28, 18, 10, 10, 0
+10144, 12178, 1, "OK", 2, 59, 16, 16, 13, 3, 2, 0
+10934, 13298, 1, "OK", 1, 75, 25, 25, 17, 8, 7, 0
+11325, 11419, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+10027, 11209, 1, "OK", 1, 34, 9, 9, 9, 0, 0, 0
+14534, 14849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+14763, 14918, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+10408, 10668, 1, "OK", 0, 11, 4, 4, 4, 0, 0, 0
+11061, 11419, 1, "OK", 1, 10, 3, 3, 3, 0, 0, 0
+9994, 11209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+10540, 10668, 1, "OK", 0, 5, 2, 2, 2, 0, 0, 0
+14933, 15287, 1, "OK", 3, 14, 6, 4, 4, 0, 2, 1
+10934, 14325, 1, "OK", 1, 111, 39, 39, 26, 13, 12, 0
+11251, 12178, 1, "OK", 1, 26, 7, 7, 4, 3, 2, 0
+9928, 11209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+11251, 13205, 1, "OK", 1, 62, 21, 21, 13, 8, 7, 0
+9839, 11419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+9894, 13298, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+10144, 10668, 1, "OK", 1, 18, 5, 5, 5, 0, 0, 0
+9861, 13298, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+9839, 10404, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+9894, 14325, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+9861, 14325, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+14534, 15382, 1, "OK", 2, 29, 12, 7, 7, 0, 5, 1
+15099, 15287, 1, "OK", 3, 7, 3, 2, 2, 0, 1, 1
+10540, 11209, 1, "OK", 0, 18, 6, 6, 6, 0, 0, 0
+11422, 12021, 1, "OK", 1, 18, 6, 6, 3, 3, 2, 0
+10408, 11209, 1, "OK", 0, 24, 8, 8, 8, 0, 0, 0
+14458, 14681, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+9994, 14325, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+9928, 14325, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 32, 13, 12, 0
+10027, 13298, 1, "OK", 2, 100, 30, 30, 22, 8, 7, 0
+9994, 13298, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+10144, 11209, 1, "OK", 1, 31, 9, 9, 9, 0, 0, 0
+12729, 12992, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+13849, 14112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+9928, 13298, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 23, 8, 7, 0
+10027, 14325, 1, "OK", 2, 136, 44, 44, 31, 13, 12, 0
+12845, 12992, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+13965, 14112, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+10091, 11322, 1, "OK", 2, 35, 9, 9, 9, 0, 0, 0
+11952, 12012, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+12296, 12614, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+13416, 13734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+11886, 12012, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+12089, 14417, 1, "OK", 1, 77, 28, 28, 18, 10, 10, 0
+12089, 15440, 1, "OK", 1, 113, 42, 42, 27, 15, 15, 0

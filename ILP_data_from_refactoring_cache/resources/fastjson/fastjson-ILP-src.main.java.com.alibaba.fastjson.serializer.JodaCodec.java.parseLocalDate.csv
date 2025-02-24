@@ -1,0 +1,65 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+13500, 13825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1 char c2 char c3", 0, 0, 4, 2, 2, 0, 1, 2
+13716, 14937, 1, "OK", 4, 26, 21, 15, 12, 3, 3, 2
+15049, 15223, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+14299, 14663, 1, "OK", 1, 8, 7, 3, 3, 0, 1, 4
+13500, 13699, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0", 0, 0, 4, 2, 2, 0, 1, 2
+14965, 15787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 10, 8, 2, 5, 1
+14965, 15272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter boolean digit", 0, 0, 6, 4, 3, 1, 2, 1
+13320, 13401, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+13542, 13699, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0", 0, 0, 4, 2, 2, 0, 1, 2
+14080, 14685, 1, "OK", 3, 14, 13, 7, 6, 1, 2, 3
+13458, 13741, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c4 char c0 char c1", 0, 0, 4, 2, 2, 0, 1, 2
+13542, 13825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1 char c2 char c3", 0, 0, 4, 2, 2, 0, 1, 2
+13758, 14937, 1, "OK", 5, 25, 21, 15, 12, 3, 3, 2
+15807, 15929, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+13458, 13867, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c4 char c0 char c1 char c2 char c3 char c5", 0, 0, 4, 2, 2, 0, 1, 2
+13320, 14951, 1, "OK", 2, 39, 29, 23, 16, 7, 6, 1
+13415, 14951, 1, "OK", 2, 35, 27, 22, 15, 7, 5, 1
+15251, 15506, 1, "OK", 1, 8, 6, 4, 3, 1, 2, 1
+15519, 15787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+15343, 15492, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+13500, 13741, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1", 0, 0, 4, 2, 2, 0, 1, 2
+13800, 14937, 1, "OK", 6, 24, 21, 15, 12, 3, 3, 2
+13500, 13867, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1 char c2 char c3 char c5", 0, 0, 4, 2, 2, 0, 1, 2
+13320, 15237, 1, "OK", 2, 48, 35, 27, 19, 8, 8, 1
+13415, 15237, 1, "OK", 2, 44, 33, 26, 18, 8, 7, 1
+15285, 15506, 1, "OK", 2, 7, 6, 4, 3, 1, 2, 1
+15251, 15787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 6, 5, 1, 3, 1
+13458, 13783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c4 char c0 char c1 char c2", 0, 0, 4, 2, 2, 0, 1, 2
+13542, 13867, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1 char c2 char c3 char c5", 0, 0, 4, 2, 2, 0, 1, 2
+13458, 13656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c4", 0, 0, 4, 2, 2, 0, 1, 2
+14709, 14937, 1, "OK", 3, 5, 4, 4, 4, 0, 0, 2
+14375, 14663, 1, "OK", 2, 6, 7, 3, 3, 0, 1, 4
+13415, 15506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter boolean digit", 0, 0, 39, 30, 21, 9, 9, 1
+15385, 15492, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+13320, 15506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter boolean digit", 0, 0, 41, 31, 22, 9, 10, 1
+13458, 14937, 1, "OK", 2, 33, 25, 17, 14, 3, 4, 2
+13542, 13741, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1", 0, 0, 4, 2, 2, 0, 1, 2
+13842, 14937, 1, "OK", 7, 23, 21, 15, 12, 3, 3, 2
+15285, 15787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 6, 5, 1, 3, 1
+13962, 14685, 1, "OK", 5, 16, 13, 7, 6, 1, 2, 3
+13500, 14937, 1, "OK", 3, 32, 25, 17, 14, 3, 4, 2
+13884, 14937, 1, "OK", 7, 22, 21, 15, 12, 3, 3, 2
+13500, 13783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1 char c2", 0, 0, 4, 2, 2, 0, 1, 2
+13500, 13656, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+14177, 14685, 1, "OK", 2, 12, 9, 6, 5, 1, 1, 3
+13320, 15787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 33, 24, 9, 11, 1
+13415, 15787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 42, 32, 23, 9, 10, 1
+13415, 15272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter boolean digit", 0, 0, 33, 26, 18, 8, 7, 1
+13320, 15272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter boolean digit", 0, 0, 35, 27, 19, 8, 8, 1
+14492, 14663, 1, "OK", 2, 4, 2, 2, 2, 0, 0, 4
+13283, 15929, 1, "OK", 2, 68, 46, 46, 26, 20, 11, 0
+13542, 14937, 1, "OK", 4, 31, 25, 17, 14, 3, 4, 2
+15139, 15223, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 2
+13458, 13699, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c4 char c0", 0, 0, 4, 2, 2, 0, 1, 2
+13542, 13783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c0 char c1 char c2", 0, 0, 4, 2, 2, 0, 1, 2
+13283, 15797, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 25, 20, 11, 0
+13542, 13656, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+14965, 15237, 1, "OK", 2, 8, 6, 4, 3, 1, 2, 1
+13458, 13825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter char c4 char c0 char c1 char c2 char c3", 0, 0, 4, 2, 2, 0, 1, 2
+13674, 14937, 1, "OK", 3, 27, 21, 15, 12, 3, 3, 2
+14826, 14937, 1, "OK", 3, 3, 2, 2, 2, 0, 0, 2
+14965, 15506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateTimeFormatter formatter boolean digit", 0, 0, 12, 8, 6, 2, 4, 1
+15007, 15223, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+14021, 14685, 1, "OK", 4, 15, 13, 7, 6, 1, 2, 3

@@ -1,0 +1,51 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5433, 7646, 1, "OK", 8, 67, 27, 27, 14, 13, 7, 0
+4818, 7646, 1, "OK", 2, 79, 27, 27, 14, 13, 7, 0
+6008, 6473, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 3, 1, 1, 0, 1, 2
+6876, 7086, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+5542, 5688, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jndiName Context ctx", 0, 0, 2, 1, 1, 0, 1, 1
+5256, 7646, 1, "OK", 9, 70, 27, 27, 14, 13, 7, 0
+6807, 7185, 1, "OK", 5, 10, 8, 4, 3, 1, 2, 2
+5153, 7646, 1, "OK", 8, 73, 27, 27, 14, 13, 7, 0
+5956, 6431, 1, "OK", 1, 12, 3, 1, 1, 0, 1, 2
+5956, 6303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MongoClient mongoClient String databaseName", 0, 0, 3, 1, 1, 0, 1, 2
+4930, 7646, 1, "OK", 4, 77, 27, 27, 14, 13, 7, 0
+6008, 6356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MongoClient mongoClient DB database", 0, 0, 3, 1, 1, 0, 1, 2
+5368, 7646, 1, "OK", 9, 68, 27, 27, 14, 13, 7, 0
+5956, 6186, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int databaseNameStart String databaseUrl", 0, 0, 3, 1, 1, 0, 1, 2
+5511, 7448, 1, "OK", 9, 57, 26, 26, 13, 13, 7, 0
+6008, 6122, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+4745, 7646, 1, "OK", 1, 81, 27, 27, 14, 13, 7, 0
+5511, 7197, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 11, 13, 7, 0
+6008, 6252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String databaseUrl String databaseName", 0, 0, 3, 1, 1, 0, 1, 2
+5030, 7646, 1, "OK", 6, 75, 27, 27, 14, 13, 7, 0
+5542, 5598, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+6807, 7093, 1, "OK", 2, 7, 8, 4, 3, 1, 2, 2
+6008, 6393, 1, "OK", 2, 9, 3, 1, 1, 0, 1, 2
+5956, 6473, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 3, 1, 1, 0, 1, 2
+4981, 7646, 1, "OK", 5, 76, 27, 27, 14, 13, 7, 0
+5542, 5743, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+5204, 7646, 1, "OK", 9, 72, 27, 27, 14, 13, 7, 0
+5944, 6725, 1, "OK", 2, 22, 9, 3, 3, 0, 3, 2
+6944, 7086, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+5849, 6725, 1, "OK", 1, 24, 9, 3, 3, 0, 3, 2
+5907, 6725, 1, "OK", 1, 23, 9, 3, 3, 0, 3, 2
+5956, 6356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MongoClient mongoClient DB database", 0, 0, 3, 1, 1, 0, 1, 2
+7201, 7448, 1, "OK", 1, 8, 2, 2, 2, 0, 0, 0
+6807, 7122, 1, "OK", 3, 9, 8, 4, 3, 1, 2, 2
+5085, 7646, 1, "OK", 7, 74, 27, 27, 14, 13, 7, 0
+5469, 7646, 1, "OK", 8, 66, 27, 27, 14, 13, 7, 0
+5502, 7646, 1, "OK", 9, 64, 27, 27, 14, 13, 7, 0
+5956, 6122, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+7019, 7086, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+5542, 5648, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+6008, 6431, 1, "OK", 2, 11, 3, 1, 1, 0, 1, 2
+6008, 6303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MongoClient mongoClient String databaseName", 0, 0, 3, 1, 1, 0, 1, 2
+5956, 6252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String databaseUrl String databaseName", 0, 0, 3, 1, 1, 0, 1, 2
+5542, 5780, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+4722, 7646, 1, "OK", 1, 83, 27, 27, 14, 13, 7, 0
+5798, 7191, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 14, 8, 6, 6, 1
+6008, 6186, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+5956, 6393, 1, "OK", 1, 10, 3, 1, 1, 0, 1, 2
+4871, 7646, 1, "OK", 3, 78, 27, 27, 14, 13, 7, 0
+6656, 6718, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2

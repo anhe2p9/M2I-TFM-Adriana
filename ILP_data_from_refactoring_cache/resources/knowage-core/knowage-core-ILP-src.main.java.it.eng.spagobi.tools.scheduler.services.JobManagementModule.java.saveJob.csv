@@ -1,0 +1,332 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+20156, 24963, 1, "OK", 4, 99, 46, 46, 22, 24, 12, 0
+20356, 23372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj StringBuffer useFormulaParameters", 0, 0, 37, 27, 15, 12, 10, 1
+19791, 23994, 1, "OK", 4, 83, 41, 41, 18, 23, 11, 0
+21887, 22509, 1, "OK", 2, 16, 19, 7, 5, 2, 4, 3
+19509, 24035, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message", 0, 0, 41, 41, 18, 23, 11, 0
+20278, 24762, 1, "OK", 5, 90, 45, 45, 21, 24, 12, 0
+20455, 23372, 1, "OK", 4, 54, 37, 27, 15, 12, 10, 1
+20304, 23955, 1, "OK", 4, 72, 41, 41, 18, 23, 11, 0
+20846, 22516, 1, "OK", 5, 32, 29, 17, 11, 6, 6, 2
+19935, 24133, 1, "OK", 5, 84, 41, 41, 18, 23, 11, 0
+23081, 23372, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+24137, 24963, 1, "OK", 3, 19, 5, 5, 4, 1, 1, 0
+20156, 23955, 1, "OK", 3, 76, 41, 41, 18, 23, 11, 0
+19751, 24224, 1, "OK", 5, 88, 41, 41, 18, 23, 11, 0
+20614, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+19751, 23716, 1, "OK", 3, 78, 40, 40, 17, 23, 11, 0
+19856, 24035, 1, "OK", 4, 83, 41, 41, 18, 23, 11, 0
+24066, 24599, 1, "OK", 4, 11, 3, 3, 2, 1, 1, 0
+20496, 23654, 1, "OK", 4, 58, 39, 28, 16, 12, 11, 1
+19458, 24599, 1, "OK", 2, 102, 44, 44, 20, 24, 12, 0
+20194, 23818, 1, "OK", 2, 73, 41, 41, 18, 23, 11, 0
+20304, 23994, 1, "OK", 4, 73, 41, 41, 18, 23, 11, 0
+19705, 24133, 1, "OK", 4, 88, 41, 41, 18, 23, 11, 0
+20235, 24599, 1, "OK", 5, 88, 44, 44, 20, 24, 12, 0
+19669, 24224, 1, "OK", 3, 90, 41, 41, 18, 23, 11, 0
+20846, 21020, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+22367, 22509, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+20322, 24963, 1, "OK", 7, 94, 46, 46, 22, 24, 12, 0
+21975, 22360, 1, "OK", 2, 11, 15, 6, 4, 2, 3, 3
+22528, 23654, 1, "OK", 7, 18, 8, 4, 4, 0, 4, 1
+22025, 22351, 1, "OK", 2, 8, 10, 2, 2, 0, 2, 4
+20132, 24224, 1, "OK", 4, 82, 41, 41, 18, 23, 11, 0
+20156, 23994, 1, "OK", 3, 77, 41, 41, 18, 23, 11, 0
+19669, 23716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer message String doclabels", 0, 0, 40, 40, 17, 23, 11, 0
+20322, 23955, 1, "OK", 5, 71, 41, 41, 18, 23, 11, 0
+23720, 24599, 1, "OK", 5, 19, 4, 4, 3, 1, 1, 0
+19791, 24035, 1, "OK", 4, 84, 41, 41, 18, 23, 11, 0
+19751, 24762, 1, "OK", 5, 100, 45, 45, 21, 24, 12, 0
+19856, 24599, 1, "OK", 5, 95, 44, 44, 20, 24, 12, 0
+20369, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+22812, 23076, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+20496, 23710, 1, "OK", 5, 59, 39, 28, 16, 12, 11, 1
+20050, 24224, 1, "OK", 4, 83, 41, 41, 18, 23, 11, 0
+19997, 23818, 1, "OK", 2, 77, 41, 41, 18, 23, 11, 0
+20132, 23716, 1, "OK", 2, 72, 40, 40, 17, 23, 11, 0
+23864, 24762, 1, "OK", 5, 18, 4, 4, 3, 1, 1, 0
+19509, 24599, 1, "OK", 2, 101, 44, 44, 20, 24, 12, 0
+24766, 24963, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+20679, 23654, 1, "OK", 7, 55, 39, 28, 16, 12, 11, 1
+19458, 24133, 1, "OK", 2, 92, 41, 41, 18, 23, 11, 0
+19669, 24762, 1, "OK", 3, 102, 45, 45, 21, 24, 12, 0
+20496, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+20322, 23994, 1, "OK", 5, 72, 41, 41, 18, 23, 11, 0
+20235, 24133, 1, "OK", 4, 78, 41, 41, 18, 23, 11, 0
+20419, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+22528, 23710, 1, "OK", 8, 19, 8, 4, 4, 0, 4, 1
+23720, 24133, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+20050, 23716, 1, "OK", 2, 73, 40, 40, 17, 23, 11, 0
+20194, 23860, 1, "OK", 3, 74, 41, 41, 18, 23, 11, 0
+20278, 23818, 1, "OK", 2, 71, 41, 41, 18, 23, 11, 0
+24228, 24762, 1, "OK", 3, 12, 4, 4, 3, 1, 1, 0
+20304, 24035, 1, "OK", 4, 74, 41, 41, 18, 23, 11, 0
+20132, 24762, 1, "OK", 4, 94, 45, 45, 21, 24, 12, 0
+22528, 22676, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+19791, 24599, 1, "OK", 5, 96, 44, 44, 20, 24, 12, 0
+20050, 24762, 1, "OK", 4, 95, 45, 45, 21, 24, 12, 0
+20156, 24035, 1, "OK", 3, 78, 41, 41, 18, 23, 11, 0
+20679, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+22681, 23076, 1, "OK", 5, 5, 2, 1, 1, 0, 1, 1
+19935, 24224, 1, "OK", 5, 85, 41, 41, 18, 23, 11, 0
+20614, 23654, 1, "OK", 6, 56, 39, 28, 16, 12, 11, 1
+19935, 23716, 1, "OK", 3, 75, 40, 40, 17, 23, 11, 0
+19997, 23860, 1, "OK", 3, 78, 41, 41, 18, 23, 11, 0
+20679, 23710, 1, "OK", 8, 56, 39, 28, 16, 12, 11, 1
+19935, 24762, 1, "OK", 5, 97, 45, 45, 21, 24, 12, 0
+20278, 23860, 1, "OK", 3, 72, 41, 41, 18, 23, 11, 0
+23998, 24762, 1, "OK", 4, 16, 4, 4, 3, 1, 1, 0
+19509, 24133, 1, "OK", 2, 91, 41, 41, 18, 23, 11, 0
+20741, 22807, 1, "OK", 8, 40, 33, 25, 13, 12, 8, 1
+20369, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+19856, 24133, 1, "OK", 5, 85, 41, 41, 18, 23, 11, 0
+22812, 23654, 1, "OK", 6, 14, 6, 3, 3, 0, 3, 1
+21924, 22509, 1, "OK", 3, 15, 19, 7, 5, 2, 4, 3
+19705, 24224, 1, "OK", 4, 89, 41, 41, 18, 23, 11, 0
+20304, 24599, 1, "OK", 6, 86, 44, 44, 20, 24, 12, 0
+23822, 24599, 1, "OK", 5, 16, 3, 3, 2, 1, 1, 0
+19705, 23716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer message String doclabels", 0, 0, 40, 40, 17, 23, 11, 0
+24603, 24963, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+20614, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+23959, 24963, 1, "OK", 4, 23, 5, 5, 4, 1, 1, 0
+21544, 22516, 1, "OK", 4, 22, 22, 14, 8, 6, 4, 2
+20419, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+20322, 24035, 1, "OK", 5, 73, 41, 41, 18, 23, 11, 0
+19751, 23818, 1, "OK", 3, 81, 41, 41, 18, 23, 11, 0
+20614, 23710, 1, "OK", 7, 57, 39, 28, 16, 12, 11, 1
+20156, 24599, 1, "OK", 4, 90, 44, 44, 20, 24, 12, 0
+19458, 24224, 1, "OK", 2, 93, 41, 41, 18, 23, 11, 0
+20553, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+19791, 24133, 1, "OK", 5, 86, 41, 41, 18, 23, 11, 0
+19669, 23818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+20741, 23372, 1, "OK", 8, 49, 37, 27, 15, 12, 10, 1
+24137, 24599, 1, "OK", 3, 10, 3, 3, 2, 1, 1, 0
+22681, 23654, 1, "OK", 7, 15, 6, 3, 3, 0, 3, 1
+19751, 23860, 1, "OK", 4, 82, 41, 41, 18, 23, 11, 0
+19458, 23716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message String doclabels", 0, 0, 40, 40, 17, 23, 11, 0
+19705, 24762, 1, "OK", 4, 101, 45, 45, 21, 24, 12, 0
+20194, 24963, 1, "OK", 4, 98, 46, 46, 22, 24, 12, 0
+20132, 23818, 1, "OK", 2, 75, 41, 41, 18, 23, 11, 0
+19458, 24762, 1, "OK", 2, 105, 45, 45, 21, 24, 12, 0
+20050, 23818, 1, "OK", 2, 76, 41, 41, 18, 23, 11, 0
+20356, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+23720, 24224, 1, "OK", 4, 10, 1, 1, 1, 0, 0, 0
+24066, 24762, 1, "OK", 4, 14, 4, 4, 3, 1, 1, 0
+20235, 23716, 1, "OK", 2, 69, 40, 40, 17, 23, 11, 0
+20553, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+20194, 23955, 1, "OK", 3, 75, 41, 41, 18, 23, 11, 0
+20322, 24599, 1, "OK", 7, 85, 44, 44, 20, 24, 12, 0
+20369, 23654, 1, "OK", 3, 61, 39, 28, 16, 12, 11, 1
+21975, 22509, 1, "OK", 4, 14, 19, 7, 5, 2, 4, 3
+20235, 24224, 1, "OK", 4, 79, 41, 41, 18, 23, 11, 0
+20304, 24133, 1, "OK", 5, 76, 41, 41, 18, 23, 11, 0
+20455, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+20496, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+20156, 24133, 1, "OK", 4, 80, 41, 41, 18, 23, 11, 0
+19509, 24224, 1, "OK", 2, 92, 41, 41, 18, 23, 11, 0
+19935, 23818, 1, "OK", 3, 78, 41, 41, 18, 23, 11, 0
+20278, 24963, 1, "OK", 5, 96, 46, 46, 22, 24, 12, 0
+22812, 23710, 1, "OK", 7, 15, 6, 3, 3, 0, 3, 1
+19669, 23860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+19997, 24963, 1, "OK", 4, 102, 46, 46, 22, 24, 12, 0
+20419, 23654, 1, "OK", 3, 60, 39, 28, 16, 12, 11, 1
+20194, 23994, 1, "OK", 3, 76, 41, 41, 18, 23, 11, 0
+22528, 22807, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+20455, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+20278, 23955, 1, "OK", 3, 73, 41, 41, 18, 23, 11, 0
+19856, 24224, 1, "OK", 5, 86, 41, 41, 18, 23, 11, 0
+20132, 23860, 1, "OK", 3, 76, 41, 41, 18, 23, 11, 0
+23720, 24762, 1, "OK", 5, 22, 5, 5, 4, 1, 1, 0
+19509, 23716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message String doclabels", 0, 0, 40, 40, 17, 23, 11, 0
+20235, 24762, 1, "OK", 5, 91, 45, 45, 21, 24, 12, 0
+19856, 23716, 1, "OK", 3, 76, 40, 40, 17, 23, 11, 0
+19997, 23955, 1, "OK", 3, 79, 41, 41, 18, 23, 11, 0
+22213, 22351, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+19856, 24762, 1, "OK", 5, 98, 45, 45, 21, 24, 12, 0
+20369, 23710, 1, "OK", 4, 62, 39, 28, 16, 12, 11, 1
+20356, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+20050, 23860, 1, "OK", 3, 77, 41, 41, 18, 23, 11, 0
+24995, 25192, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+20322, 24133, 1, "OK", 6, 75, 41, 41, 18, 23, 11, 0
+20369, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+22681, 23710, 1, "OK", 8, 16, 6, 3, 3, 0, 3, 1
+19509, 24762, 1, "OK", 2, 104, 45, 45, 21, 24, 12, 0
+19751, 24963, 1, "OK", 5, 106, 46, 46, 22, 24, 12, 0
+20553, 23654, 1, "OK", 5, 57, 39, 28, 16, 12, 11, 1
+20419, 23710, 1, "OK", 4, 61, 39, 28, 16, 12, 11, 1
+19997, 23994, 1, "OK", 3, 80, 41, 41, 18, 23, 11, 0
+20496, 23372, 1, "OK", 4, 53, 37, 27, 15, 12, 10, 1
+20419, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+19705, 23818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+19791, 24224, 1, "OK", 5, 87, 41, 41, 18, 23, 11, 0
+20679, 22807, 1, "OK", 7, 41, 33, 25, 13, 12, 8, 1
+23377, 23654, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+19791, 23716, 1, "OK", 3, 77, 40, 40, 17, 23, 11, 0
+19935, 23860, 1, "OK", 4, 79, 41, 41, 18, 23, 11, 0
+19458, 23818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+19751, 23955, 1, "OK", 4, 83, 41, 41, 18, 23, 11, 0
+19791, 24762, 1, "OK", 5, 99, 45, 45, 21, 24, 12, 0
+19669, 24963, 1, "OK", 3, 108, 46, 46, 22, 24, 12, 0
+22528, 23372, 1, "OK", 6, 13, 6, 3, 3, 0, 3, 1
+23864, 24963, 1, "OK", 5, 24, 5, 5, 4, 1, 1, 0
+20194, 24035, 1, "OK", 3, 77, 41, 41, 18, 23, 11, 0
+20278, 23994, 1, "OK", 3, 74, 41, 41, 18, 23, 11, 0
+19705, 23860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+23081, 23654, 1, "OK", 5, 10, 4, 2, 2, 0, 2, 1
+19669, 23955, 1, "OK", 2, 85, 41, 41, 18, 23, 11, 0
+20304, 24224, 1, "OK", 5, 77, 41, 41, 18, 23, 11, 0
+20614, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+24995, 25239, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+20304, 23716, 1, "OK", 3, 67, 40, 40, 17, 23, 11, 0
+20156, 23716, 1, "OK", 2, 71, 40, 40, 17, 23, 11, 0
+20304, 24762, 1, "OK", 6, 89, 45, 45, 21, 24, 12, 0
+23377, 23710, 1, "OK", 5, 6, 2, 1, 1, 0, 1, 1
+23822, 24762, 1, "OK", 5, 19, 4, 4, 3, 1, 1, 0
+20553, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+20278, 24035, 1, "OK", 3, 75, 41, 41, 18, 23, 11, 0
+23720, 23818, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+20132, 24963, 1, "OK", 4, 100, 46, 46, 22, 24, 12, 0
+20235, 23818, 1, "OK", 2, 72, 41, 41, 18, 23, 11, 0
+20356, 23654, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj", 0, 0, 39, 28, 16, 12, 11, 1
+23959, 24599, 1, "OK", 4, 14, 3, 3, 2, 1, 1, 0
+20455, 23654, 1, "OK", 4, 59, 39, 28, 16, 12, 11, 1
+24228, 24963, 1, "OK", 3, 18, 5, 5, 4, 1, 1, 0
+20156, 24224, 1, "OK", 4, 81, 41, 41, 18, 23, 11, 0
+20679, 23372, 1, "OK", 7, 50, 37, 27, 15, 12, 10, 1
+19997, 24035, 1, "OK", 3, 81, 41, 41, 18, 23, 11, 0
+19856, 23818, 1, "OK", 3, 79, 41, 41, 18, 23, 11, 0
+20156, 24762, 1, "OK", 4, 93, 45, 45, 21, 24, 12, 0
+20322, 24224, 1, "OK", 6, 76, 41, 41, 18, 23, 11, 0
+20132, 23955, 1, "OK", 3, 77, 41, 41, 18, 23, 11, 0
+19458, 23860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+20050, 24963, 1, "OK", 4, 101, 46, 46, 22, 24, 12, 0
+20553, 23710, 1, "OK", 6, 58, 39, 28, 16, 12, 11, 1
+19751, 23994, 1, "OK", 4, 84, 41, 41, 18, 23, 11, 0
+19509, 23818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+20194, 24599, 1, "OK", 4, 89, 44, 44, 20, 24, 12, 0
+24262, 24464, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+20235, 23860, 1, "OK", 3, 73, 41, 41, 18, 23, 11, 0
+20455, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+23720, 23860, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+20322, 23716, 1, "OK", 4, 66, 40, 40, 17, 23, 11, 0
+20050, 23955, 1, "OK", 3, 78, 41, 41, 18, 23, 11, 0
+19935, 24963, 1, "OK", 5, 103, 46, 46, 22, 24, 12, 0
+23998, 24963, 1, "OK", 4, 22, 5, 5, 4, 1, 1, 0
+20614, 23372, 1, "OK", 6, 51, 37, 27, 15, 12, 10, 1
+19669, 23994, 1, "OK", 2, 86, 41, 41, 18, 23, 11, 0
+20356, 23710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String doclabels int index", 0, 0, 39, 28, 16, 12, 11, 1
+19997, 24599, 1, "OK", 4, 93, 44, 44, 20, 24, 12, 0
+20455, 23710, 1, "OK", 5, 60, 39, 28, 16, 12, 11, 1
+20322, 24762, 1, "OK", 7, 88, 45, 45, 21, 24, 12, 0
+19751, 24035, 1, "OK", 4, 85, 41, 41, 18, 23, 11, 0
+19791, 23818, 1, "OK", 3, 80, 41, 41, 18, 23, 11, 0
+20356, 22676, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+24137, 24762, 1, "OK", 3, 13, 4, 4, 3, 1, 1, 0
+19935, 23955, 1, "OK", 4, 80, 41, 41, 18, 23, 11, 0
+20741, 22523, 1, "OK", 5, 36, 31, 24, 12, 12, 7, 1
+23081, 23710, 1, "OK", 6, 11, 4, 2, 2, 0, 2, 1
+20132, 23994, 1, "OK", 3, 78, 41, 41, 18, 23, 11, 0
+20775, 20954, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+20050, 23994, 1, "OK", 3, 79, 41, 41, 18, 23, 11, 0
+19705, 24963, 1, "OK", 4, 107, 46, 46, 22, 24, 12, 0
+20775, 22516, 1, "OK", 5, 33, 29, 17, 11, 6, 6, 2
+19669, 24035, 1, "OK", 2, 87, 41, 41, 18, 23, 11, 0
+19509, 23860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message String doclabels", 0, 0, 41, 41, 18, 23, 11, 0
+20278, 24599, 1, "OK", 5, 87, 44, 44, 20, 24, 12, 0
+19856, 23860, 1, "OK", 4, 80, 41, 41, 18, 23, 11, 0
+20194, 24133, 1, "OK", 4, 79, 41, 41, 18, 23, 11, 0
+20369, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+22073, 22205, 1, "OK", 2, 4, 5, 1, 1, 0, 1, 4
+21887, 22360, 1, "OK", 1, 13, 15, 6, 4, 2, 3, 3
+19705, 23955, 1, "OK", 3, 84, 41, 41, 18, 23, 11, 0
+20304, 23818, 1, "OK", 3, 70, 41, 41, 18, 23, 11, 0
+19935, 23994, 1, "OK", 4, 81, 41, 41, 18, 23, 11, 0
+22812, 23372, 1, "OK", 5, 9, 4, 2, 2, 0, 2, 1
+24995, 25337, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+20419, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+19997, 24133, 1, "OK", 4, 83, 41, 41, 18, 23, 11, 0
+20156, 23818, 1, "OK", 2, 74, 41, 41, 18, 23, 11, 0
+20132, 24035, 1, "OK", 3, 79, 41, 41, 18, 23, 11, 0
+24066, 24963, 1, "OK", 4, 20, 5, 5, 4, 1, 1, 0
+20741, 23076, 1, "OK", 8, 44, 35, 26, 14, 12, 9, 1
+19458, 24963, 1, "OK", 2, 111, 46, 46, 22, 24, 12, 0
+19791, 23860, 1, "OK", 4, 81, 41, 41, 18, 23, 11, 0
+19397, 25341, 1, "OK", 1, 124, 49, 49, 24, 25, 13, 0
+20235, 24963, 1, "OK", 5, 97, 46, 46, 22, 24, 12, 0
+20369, 23372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj StringBuffer useFormulaParameters", 0, 0, 37, 27, 15, 12, 10, 1
+23720, 24963, 1, "OK", 5, 28, 6, 6, 5, 1, 1, 0
+19751, 24599, 1, "OK", 5, 97, 44, 44, 20, 24, 12, 0
+20278, 24133, 1, "OK", 4, 77, 41, 41, 18, 23, 11, 0
+19458, 23955, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message", 0, 0, 41, 41, 18, 23, 11, 0
+20050, 24035, 1, "OK", 3, 80, 41, 41, 18, 23, 11, 0
+20775, 21020, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biobjpar Object strategyObj", 0, 0, 3, 1, 1, 0, 1, 2
+22681, 23372, 1, "OK", 6, 10, 4, 2, 2, 0, 2, 1
+22025, 22205, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+20235, 23955, 1, "OK", 3, 74, 41, 41, 18, 23, 11, 0
+20322, 23818, 1, "OK", 4, 69, 41, 41, 18, 23, 11, 0
+20419, 23372, 1, "OK", 3, 55, 37, 27, 15, 12, 10, 1
+20553, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+19509, 24963, 1, "OK", 2, 110, 46, 46, 22, 24, 12, 0
+20496, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer fixedParameters StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+23720, 23955, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+19669, 24599, 1, "OK", 3, 99, 44, 44, 20, 24, 12, 0
+19705, 23994, 1, "OK", 3, 85, 41, 41, 18, 23, 11, 0
+23864, 24599, 1, "OK", 5, 15, 3, 3, 2, 1, 1, 0
+19935, 24035, 1, "OK", 4, 82, 41, 41, 18, 23, 11, 0
+20304, 23860, 1, "OK", 4, 71, 41, 41, 18, 23, 11, 0
+19458, 23994, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message", 0, 0, 41, 41, 18, 23, 11, 0
+20156, 23860, 1, "OK", 3, 75, 41, 41, 18, 23, 11, 0
+19509, 23955, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message", 0, 0, 41, 41, 18, 23, 11, 0
+19751, 24133, 1, "OK", 5, 87, 41, 41, 18, 23, 11, 0
+20194, 24224, 1, "OK", 4, 80, 41, 41, 18, 23, 11, 0
+19856, 24963, 1, "OK", 5, 104, 46, 46, 22, 24, 12, 0
+20132, 24599, 1, "OK", 4, 91, 44, 44, 20, 24, 12, 0
+24228, 24599, 1, "OK", 3, 9, 3, 3, 2, 1, 1, 0
+19705, 24035, 1, "OK", 3, 86, 41, 41, 18, 23, 11, 0
+24262, 24594, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+20741, 23654, 1, "OK", 8, 54, 39, 28, 16, 12, 11, 1
+20194, 23716, 1, "OK", 2, 70, 40, 40, 17, 23, 11, 0
+24603, 24762, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+19856, 23955, 1, "OK", 4, 81, 41, 41, 18, 23, 11, 0
+20050, 24599, 1, "OK", 4, 92, 44, 44, 20, 24, 12, 0
+23959, 24762, 1, "OK", 4, 17, 4, 4, 3, 1, 1, 0
+19935, 24599, 1, "OK", 5, 94, 44, 44, 20, 24, 12, 0
+20194, 24762, 1, "OK", 4, 92, 45, 45, 21, 24, 12, 0
+23998, 24599, 1, "OK", 4, 13, 3, 3, 2, 1, 1, 0
+19669, 24133, 1, "OK", 3, 89, 41, 41, 18, 23, 11, 0
+23720, 23994, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+20235, 23994, 1, "OK", 3, 75, 41, 41, 18, 23, 11, 0
+21026, 22516, 1, "OK", 5, 28, 26, 16, 10, 6, 5, 2
+20322, 23860, 1, "OK", 5, 70, 41, 41, 18, 23, 11, 0
+20455, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+19791, 24963, 1, "OK", 5, 105, 46, 46, 22, 24, 12, 0
+20356, 22807, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj StringBuffer iterativeParameters StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 33, 25, 13, 12, 8, 1
+20496, 23076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 35, 26, 14, 12, 9, 1
+20679, 22523, 1, "OK", 4, 37, 31, 24, 12, 12, 7, 1
+20960, 22516, 1, "OK", 4, 29, 26, 16, 10, 6, 5, 2
+19997, 23716, 1, "OK", 2, 74, 40, 40, 17, 23, 11, 0
+19856, 23994, 1, "OK", 4, 82, 41, 41, 18, 23, 11, 0
+20278, 24224, 1, "OK", 4, 78, 41, 41, 18, 23, 11, 0
+20278, 23716, 1, "OK", 2, 68, 40, 40, 17, 23, 11, 0
+20846, 20954, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+19458, 24035, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message", 0, 0, 41, 41, 18, 23, 11, 0
+20132, 24133, 1, "OK", 4, 81, 41, 41, 18, 23, 11, 0
+19449, 25341, 1, "OK", 2, 123, 49, 49, 24, 25, 13, 0
+19791, 23955, 1, "OK", 4, 82, 41, 41, 18, 23, 11, 0
+19997, 24224, 1, "OK", 4, 84, 41, 41, 18, 23, 11, 0
+20553, 23372, 1, "OK", 5, 52, 37, 27, 15, 12, 10, 1
+22528, 23076, 1, "OK", 5, 8, 4, 2, 2, 0, 2, 1
+19509, 23994, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService StringBuffer message", 0, 0, 41, 41, 18, 23, 11, 0
+20235, 24035, 1, "OK", 3, 76, 41, 41, 18, 23, 11, 0
+20741, 23710, 1, "OK", 9, 55, 39, 28, 16, 12, 11, 1
+20679, 23076, 1, "OK", 7, 45, 35, 26, 14, 12, 9, 1
+19705, 24599, 1, "OK", 4, 98, 44, 44, 20, 24, 12, 0
+19997, 24762, 1, "OK", 4, 96, 45, 45, 21, 24, 12, 0
+23720, 24035, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+20741, 22676, 1, "OK", 5, 39, 33, 25, 13, 12, 8, 1
+20614, 22523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer loadAtRuntimeParameters StringBuffer useFormulaParameters", 0, 0, 31, 24, 12, 12, 7, 1
+20050, 24133, 1, "OK", 4, 82, 41, 41, 18, 23, 11, 0
+20304, 24963, 1, "OK", 6, 95, 46, 46, 22, 24, 12, 0
+23822, 24963, 1, "OK", 5, 25, 5, 5, 4, 1, 1, 0
+22073, 22351, 1, "OK", 2, 7, 10, 2, 2, 0, 2, 4
+21924, 22360, 1, "OK", 2, 12, 15, 6, 4, 2, 3, 3

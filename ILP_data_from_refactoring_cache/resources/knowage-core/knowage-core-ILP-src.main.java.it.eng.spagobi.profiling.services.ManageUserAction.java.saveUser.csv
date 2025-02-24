@@ -1,0 +1,178 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6634, 12268, 1, "OK", 3, 109, 38, 38, 26, 12, 11, 0
+6710, 7864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName String password", 0, 0, 5, 5, 4, 1, 1, 0
+8403, 9398, 1, "OK", 5, 18, 10, 10, 6, 4, 3, 0
+6710, 9398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId SbiUser user", 0, 0, 19, 19, 13, 6, 5, 0
+7767, 9398, 1, "OK", 6, 33, 14, 14, 9, 5, 4, 0
+9622, 10518, 1, "OK", 7, 16, 5, 5, 4, 1, 1, 0
+6692, 12268, 1, "OK", 4, 108, 38, 38, 26, 12, 11, 0
+6762, 11378, 1, "OK", 5, 87, 28, 28, 20, 8, 7, 0
+7645, 9608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId SbiUser user", 0, 0, 14, 14, 9, 5, 4, 0
+8327, 8945, 1, "OK", 7, 11, 7, 7, 4, 3, 2, 0
+8327, 9466, 1, "OK", 7, 22, 10, 10, 6, 4, 3, 0
+8959, 11378, 1, "OK", 7, 43, 12, 12, 9, 3, 3, 0
+6710, 8390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String password SbiUser user", 0, 0, 9, 9, 7, 2, 2, 0
+6762, 8314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName String password SbiUser user", 0, 0, 9, 9, 7, 2, 2, 0
+7767, 8390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+8468, 8931, 1, "OK", 5, 7, 5, 3, 2, 1, 2, 1
+7704, 11378, 1, "OK", 6, 69, 23, 23, 16, 7, 6, 0
+6710, 7631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id", 0, 0, 5, 5, 4, 1, 1, 0
+9825, 10142, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+6762, 9608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId SbiUser user", 0, 0, 19, 19, 13, 6, 5, 0
+6762, 7816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName String password", 0, 0, 5, 5, 4, 1, 1, 0
+9767, 10142, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+7704, 8314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fullName String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+7645, 8350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId String fullName String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+8363, 9398, 1, "OK", 6, 19, 10, 10, 6, 4, 3, 0
+6528, 12268, 1, "OK", 1, 111, 38, 38, 26, 12, 11, 0
+7878, 11378, 1, "OK", 8, 65, 23, 23, 16, 7, 6, 0
+8959, 9608, 1, "OK", 6, 14, 3, 3, 2, 1, 1, 0
+7157, 7617, 1, "OK", 4, 7, 3, 2, 2, 0, 1, 1
+7704, 9608, 1, "OK", 5, 40, 14, 14, 9, 5, 4, 0
+8327, 10518, 1, "OK", 9, 43, 15, 15, 10, 5, 4, 0
+6762, 8350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName String password SbiUser user", 0, 0, 9, 9, 7, 2, 2, 0
+7878, 8314, 1, "OK", 5, 10, 4, 4, 3, 1, 1, 0
+9644, 10142, 1, "OK", 3, 10, 2, 2, 2, 0, 0, 0
+7767, 8945, 1, "OK", 6, 24, 11, 11, 7, 4, 3, 0
+7645, 9398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId SbiUser user", 0, 0, 14, 14, 9, 5, 4, 0
+8403, 8945, 1, "OK", 5, 9, 7, 7, 4, 3, 2, 0
+7829, 11378, 1, "OK", 8, 67, 23, 23, 16, 7, 6, 0
+6710, 8945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId SbiUser user", 0, 0, 16, 16, 11, 5, 4, 0
+7878, 9608, 1, "OK", 7, 36, 14, 14, 9, 5, 4, 0
+7704, 8350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fullName String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+7829, 8314, 1, "OK", 6, 12, 4, 4, 3, 1, 1, 0
+8608, 8736, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+6710, 9466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId SbiUser user", 0, 0, 19, 19, 13, 6, 5, 0
+8209, 11378, 1, "OK", 8, 59, 20, 20, 14, 6, 5, 0
+11795, 12085, 1, "OK", 3, 6, 4, 2, 2, 0, 2, 1
+7767, 9466, 1, "OK", 6, 35, 14, 14, 9, 5, 4, 0
+6595, 12268, 1, "OK", 2, 110, 38, 38, 26, 12, 11, 0
+7645, 8390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+7916, 8181, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+10631, 11060, 1, "OK", 5, 5, 1, 1, 1, 0, 0, 0
+6762, 7864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName String password", 0, 0, 5, 5, 4, 1, 1, 0
+8403, 9466, 1, "OK", 5, 20, 10, 10, 6, 4, 3, 0
+6710, 8195, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName String password", 0, 0, 8, 8, 6, 2, 2, 0
+6762, 9398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId SbiUser user", 0, 0, 19, 19, 13, 6, 5, 0
+7767, 8195, 1, "OK", 5, 8, 3, 3, 2, 1, 1, 0
+8209, 8314, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+10195, 10504, 1, "OK", 4, 3, 2, 1, 1, 0, 1, 1
+10788, 11060, 1, "OK", 5, 3, 1, 1, 1, 0, 0, 0
+6710, 7691, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId", 0, 0, 5, 5, 4, 1, 1, 0
+7829, 9608, 1, "OK", 7, 38, 14, 14, 9, 5, 4, 0
+9622, 11378, 1, "OK", 7, 28, 9, 9, 7, 2, 2, 0
+7878, 8350, 1, "OK", 5, 11, 4, 4, 3, 1, 1, 0
+7704, 9398, 1, "OK", 5, 34, 14, 14, 9, 5, 4, 0
+8209, 9608, 1, "OK", 7, 30, 11, 11, 7, 4, 3, 0
+8251, 11378, 1, "OK", 9, 58, 20, 20, 14, 6, 5, 0
+8959, 9398, 1, "OK", 4, 8, 3, 3, 2, 1, 1, 0
+6762, 8390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String password SbiUser user", 0, 0, 9, 9, 7, 2, 2, 0
+9705, 10083, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+8403, 10518, 1, "OK", 8, 41, 15, 15, 10, 5, 4, 0
+9125, 9384, 1, "OK", 4, 2, 2, 1, 1, 0, 1, 1
+6710, 10518, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id", 0, 0, 24, 24, 17, 7, 6, 0
+7767, 10518, 1, "OK", 7, 56, 19, 19, 13, 6, 5, 0
+8363, 8945, 1, "OK", 6, 10, 7, 7, 4, 3, 2, 0
+9584, 10518, 1, "OK", 7, 18, 5, 5, 4, 1, 1, 0
+8251, 8314, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+11113, 11241, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+11817, 11945, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+6762, 7631, 1, "OK", 5, 16, 5, 5, 4, 1, 1, 0
+7829, 8350, 1, "OK", 6, 13, 4, 4, 3, 1, 1, 0
+8209, 8350, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+8251, 9608, 1, "OK", 8, 29, 11, 11, 7, 4, 3, 0
+7704, 8390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+7878, 9398, 1, "OK", 7, 30, 14, 14, 9, 5, 4, 0
+8363, 9466, 1, "OK", 6, 21, 10, 10, 6, 4, 3, 0
+7645, 8945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId SbiUser user", 0, 0, 11, 11, 7, 4, 3, 0
+6710, 8238, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName String password SbiUser user", 0, 0, 8, 8, 6, 2, 2, 0
+7767, 8238, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String password SbiUser user", 0, 0, 3, 3, 2, 1, 1, 0
+7645, 9466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId SbiUser user", 0, 0, 14, 14, 9, 5, 4, 0
+8251, 8350, 1, "OK", 3, 4, 1, 1, 1, 0, 0, 0
+7829, 9398, 1, "OK", 7, 32, 14, 14, 9, 5, 4, 0
+7878, 8390, 1, "OK", 6, 12, 4, 4, 3, 1, 1, 0
+8209, 9398, 1, "OK", 7, 24, 11, 11, 7, 4, 3, 0
+7645, 8195, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId String fullName String password", 0, 0, 3, 3, 2, 1, 1, 0
+8327, 11378, 1, "OK", 9, 55, 19, 19, 13, 6, 5, 0
+8363, 10518, 1, "OK", 9, 42, 15, 15, 10, 5, 4, 0
+10532, 11378, 1, "OK", 4, 11, 4, 4, 3, 1, 1, 0
+6762, 8945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId SbiUser user", 0, 0, 16, 16, 11, 5, 4, 0
+8608, 8807, 1, "OK", 4, 2, 3, 1, 1, 0, 1, 2
+11795, 12154, 1, "OK", 4, 7, 4, 2, 2, 0, 2, 1
+10699, 11060, 1, "OK", 5, 4, 1, 1, 1, 0, 0, 0
+7829, 8390, 1, "OK", 6, 14, 4, 4, 3, 1, 1, 0
+6762, 9466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId SbiUser user", 0, 0, 19, 19, 13, 6, 5, 0
+8209, 8390, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+9705, 10142, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+6710, 7754, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName", 0, 0, 5, 5, 4, 1, 1, 0
+9412, 10518, 1, "OK", 7, 22, 5, 5, 4, 1, 1, 0
+8251, 9398, 1, "OK", 8, 23, 11, 11, 7, 4, 3, 0
+8959, 9466, 1, "OK", 4, 10, 3, 3, 2, 1, 1, 0
+6762, 8195, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName String password", 0, 0, 8, 8, 6, 2, 2, 0
+7645, 10518, 1, "OK", 5, 58, 19, 19, 13, 6, 5, 0
+7704, 8945, 1, "OK", 5, 25, 11, 11, 7, 4, 3, 0
+7704, 9466, 1, "OK", 5, 36, 14, 14, 9, 5, 4, 0
+6762, 7691, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId", 0, 0, 5, 5, 4, 1, 1, 0
+11438, 11729, 1, "OK", 3, 6, 4, 2, 2, 0, 2, 1
+10195, 10323, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+8327, 9608, 1, "OK", 8, 26, 10, 10, 6, 4, 3, 0
+8251, 8390, 1, "OK", 4, 5, 1, 1, 1, 0, 0, 0
+6762, 10518, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id", 0, 0, 24, 24, 17, 7, 6, 0
+7704, 8195, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fullName String password", 0, 0, 3, 3, 2, 1, 1, 0
+7878, 8945, 1, "OK", 7, 21, 11, 11, 7, 4, 3, 0
+6806, 7617, 1, "OK", 4, 14, 3, 2, 2, 0, 1, 1
+7645, 8238, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId String fullName String password SbiUser user", 0, 0, 3, 3, 2, 1, 1, 0
+10849, 11060, 1, "OK", 4, 2, 1, 1, 1, 0, 0, 0
+7878, 9466, 1, "OK", 7, 32, 14, 14, 9, 5, 4, 0
+7704, 10518, 1, "OK", 6, 57, 19, 19, 13, 6, 5, 0
+8959, 10518, 1, "OK", 7, 31, 8, 8, 6, 2, 2, 0
+11438, 11750, 1, "OK", 4, 7, 4, 2, 2, 0, 2, 1
+7878, 8195, 1, "OK", 4, 5, 3, 3, 2, 1, 1, 0
+6710, 11378, 1, "OK", 4, 88, 28, 28, 20, 8, 7, 0
+7829, 8945, 1, "OK", 7, 23, 11, 11, 7, 4, 3, 0
+7767, 11378, 1, "OK", 7, 68, 23, 23, 16, 7, 6, 0
+7916, 8044, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+8403, 11378, 1, "OK", 8, 53, 19, 19, 13, 6, 5, 0
+10932, 11060, 1, "OK", 3, 1, 1, 1, 1, 0, 0, 0
+7829, 9466, 1, "OK", 7, 34, 14, 14, 9, 5, 4, 0
+8209, 8945, 1, "OK", 7, 15, 8, 8, 5, 3, 2, 0
+6710, 8314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName String password SbiUser user", 0, 0, 9, 9, 7, 2, 2, 0
+6762, 8238, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName String password SbiUser user", 0, 0, 8, 8, 6, 2, 2, 0
+7767, 8314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+9584, 11378, 1, "OK", 7, 30, 9, 9, 7, 2, 2, 0
+11460, 11589, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+7829, 8195, 1, "OK", 5, 7, 3, 3, 2, 1, 1, 0
+8209, 9466, 1, "OK", 7, 26, 11, 11, 7, 4, 3, 0
+6710, 9608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId SbiUser user", 0, 0, 19, 19, 13, 6, 5, 0
+6710, 7816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName String password", 0, 0, 5, 5, 4, 1, 1, 0
+7767, 9608, 1, "OK", 6, 39, 14, 14, 9, 5, 4, 0
+7878, 10518, 1, "OK", 8, 53, 19, 19, 13, 6, 5, 0
+8403, 9608, 1, "OK", 7, 24, 10, 10, 6, 4, 3, 0
+8251, 8945, 1, "OK", 8, 14, 8, 8, 5, 3, 2, 0
+7704, 8238, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fullName String password SbiUser user", 0, 0, 3, 3, 2, 1, 1, 0
+8327, 9398, 1, "OK", 7, 20, 10, 10, 6, 4, 3, 0
+9767, 10083, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+11113, 11364, 1, "OK", 4, 2, 2, 1, 1, 0, 1, 1
+7829, 10518, 1, "OK", 8, 55, 19, 19, 13, 6, 5, 0
+6762, 7754, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality String userId String fullName", 0, 0, 5, 5, 4, 1, 1, 0
+8209, 10518, 1, "OK", 8, 47, 16, 16, 11, 5, 4, 0
+8251, 9466, 1, "OK", 8, 25, 11, 11, 7, 4, 3, 0
+9125, 9253, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+9825, 10083, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+6710, 8350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean insertModality Integer id String userId String fullName String password SbiUser user", 0, 0, 9, 9, 7, 2, 2, 0
+7878, 8238, 1, "OK", 4, 7, 3, 3, 2, 1, 1, 0
+7097, 7617, 1, "OK", 4, 8, 3, 2, 2, 0, 1, 1
+7767, 8350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+9412, 11378, 1, "OK", 7, 34, 9, 9, 7, 2, 2, 0
+8363, 11378, 1, "OK", 9, 54, 19, 19, 13, 6, 5, 0
+10195, 10396, 1, "OK", 4, 2, 2, 1, 1, 0, 1, 1
+7645, 11378, 1, "OK", 5, 70, 23, 23, 16, 7, 6, 0
+11795, 12258, 1, "OK", 4, 8, 4, 2, 2, 0, 2, 1
+8608, 8913, 1, "OK", 4, 3, 3, 1, 1, 0, 1, 2
+7916, 8095, 1, "OK", 3, 2, 2, 1, 1, 0, 1, 1
+8251, 10518, 1, "OK", 9, 46, 16, 16, 11, 5, 4, 0
+7829, 8238, 1, "OK", 5, 9, 3, 3, 2, 1, 1, 0
+8363, 9608, 1, "OK", 8, 25, 10, 10, 6, 4, 3, 0
+9644, 10083, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+7645, 8314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userId String fullName String password SbiUser user", 0, 0, 4, 4, 3, 1, 1, 0
+10554, 11060, 1, "OK", 4, 6, 1, 1, 1, 0, 0, 0

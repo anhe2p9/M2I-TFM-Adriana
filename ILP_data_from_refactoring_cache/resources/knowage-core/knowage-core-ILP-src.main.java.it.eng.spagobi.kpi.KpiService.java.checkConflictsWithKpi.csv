@@ -1,0 +1,107 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+36688, 37284, 1, "OK", 5, 16, 13, 8, 5, 3, 5, 1
+38362, 38895, 1, "OK", 4, 13, 19, 7, 4, 3, 4, 3
+38742, 38895, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+36558, 40037, 1, "OK", 5, 86, 87, 63, 26, 37, 24, 1
+36503, 36881, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Collection<String> measureAndKpi Set<String> usedMeasureList Set<String> newRuleOutputList", 0, 0, 4, 2, 2, 0, 2, 1
+37148, 38906, 1, "OK", 4, 42, 48, 36, 12, 24, 12, 1
+37958, 38113, 1, "OK", 3, 4, 6, 1, 1, 0, 1, 5
+36836, 37284, 1, "OK", 5, 12, 11, 7, 4, 3, 4, 1
+36503, 38906, 1, "OK", 3, 60, 61, 44, 17, 27, 17, 1
+39324, 40032, 1, "OK", 5, 17, 20, 10, 6, 4, 5, 2
+36608, 36684, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+37919, 38065, 1, "OK", 4, 4, 6, 1, 1, 0, 1, 5
+36558, 36736, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> usedMeasureList Set<String> newRuleOutputList", 0, 0, 2, 1, 1, 0, 1, 1
+39160, 39272, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+37818, 38122, 1, "OK", 4, 8, 11, 3, 2, 1, 2, 4
+38421, 38895, 1, "OK", 5, 12, 19, 7, 4, 3, 4, 3
+37711, 38122, 1, "OK", 5, 9, 11, 3, 2, 1, 2, 4
+36740, 40037, 1, "OK", 7, 81, 85, 62, 25, 37, 23, 1
+39358, 40032, 1, "OK", 6, 16, 20, 10, 6, 4, 5, 2
+36503, 37144, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Collection<String> measureAndKpi Set<String> newRuleOutputList", 0, 0, 13, 8, 5, 3, 5, 1
+39567, 39694, 1, "OK", 2, 3, 5, 1, 1, 0, 1, 4
+37514, 38319, 1, "OK", 3, 18, 22, 12, 5, 7, 5, 2
+36608, 40037, 1, "OK", 6, 85, 87, 63, 26, 37, 24, 1
+39160, 40032, 1, "OK", 5, 21, 23, 11, 7, 4, 6, 2
+39324, 39812, 1, "OK", 4, 13, 16, 8, 4, 4, 4, 2
+36352, 40041, 1, "OK", 4, 91, 89, 89, 28, 61, 24, 0
+36688, 36832, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+37381, 38906, 1, "OK", 3, 37, 46, 35, 11, 24, 11, 1
+36836, 38906, 1, "OK", 5, 51, 57, 42, 15, 27, 15, 1
+36558, 37284, 1, "OK", 4, 20, 15, 9, 6, 3, 6, 1
+36503, 36684, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Collection<String> measureAndKpi Set<String> usedMeasureList", 0, 0, 2, 1, 1, 0, 1, 1
+39277, 40032, 1, "OK", 4, 18, 20, 10, 6, 4, 5, 2
+39511, 39701, 1, "OK", 2, 5, 9, 3, 2, 1, 2, 3
+36608, 36736, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+36885, 38906, 1, "OK", 5, 50, 57, 42, 15, 27, 15, 1
+39358, 39812, 1, "OK", 5, 12, 16, 8, 4, 4, 4, 2
+38471, 38895, 1, "OK", 4, 11, 19, 7, 4, 3, 4, 3
+39160, 39812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> kpiNames boolean anyScheduler", 0, 0, 19, 9, 5, 4, 5, 2
+38362, 38736, 1, "OK", 3, 10, 15, 6, 3, 3, 3, 3
+36836, 37144, 1, "OK", 4, 9, 9, 6, 3, 3, 3, 1
+36927, 37139, 1, "OK", 3, 6, 7, 3, 2, 1, 2, 2
+39277, 39812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> kpiNames boolean anyScheduler", 0, 0, 16, 8, 4, 4, 4, 2
+36740, 37284, 1, "OK", 6, 15, 13, 8, 5, 3, 5, 1
+37919, 38113, 1, "OK", 4, 5, 6, 1, 1, 0, 1, 5
+39160, 39319, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+36608, 37284, 1, "OK", 5, 19, 15, 9, 6, 3, 6, 1
+36885, 37144, 1, "OK", 3, 8, 9, 6, 3, 3, 3, 1
+36688, 38906, 1, "OK", 5, 55, 59, 43, 16, 27, 16, 1
+36503, 40037, 1, "OK", 4, 87, 87, 63, 26, 37, 24, 1
+37514, 38901, 1, "OK", 5, 33, 44, 24, 10, 14, 10, 2
+36558, 36832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> usedMeasureList Set<String> newRuleOutputList", 0, 0, 4, 2, 2, 0, 2, 1
+39397, 39701, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+37565, 38130, 1, "OK", 3, 12, 15, 6, 3, 3, 3, 3
+36740, 36832, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+37460, 38319, 1, "OK", 2, 19, 22, 12, 5, 7, 5, 2
+38421, 38736, 1, "OK", 4, 9, 15, 6, 3, 3, 3, 3
+38324, 38901, 1, "OK", 4, 15, 22, 12, 5, 7, 5, 2
+39160, 39353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> kpiNames boolean anyScheduler", 0, 0, 3, 1, 1, 0, 1, 2
+39511, 39735, 1, "OK", 4, 6, 9, 3, 2, 1, 2, 3
+36688, 36881, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+39105, 40032, 1, "OK", 4, 22, 23, 11, 7, 4, 6, 2
+39707, 39806, 1, "OK", 4, 4, 4, 1, 1, 0, 1, 3
+36688, 37144, 1, "OK", 4, 13, 11, 7, 4, 3, 4, 1
+37148, 40037, 1, "OK", 6, 69, 74, 55, 21, 34, 19, 1
+36503, 36736, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Collection<String> measureAndKpi Set<String> usedMeasureList Set<String> newRuleOutputList", 0, 0, 2, 1, 1, 0, 1, 1
+39105, 39272, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+37410, 38319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> usedAttributes Map<String, List<String>> kpis", 0, 0, 22, 12, 5, 7, 5, 2
+39397, 39735, 1, "OK", 4, 7, 9, 3, 2, 1, 2, 3
+36885, 40037, 1, "OK", 7, 77, 83, 61, 24, 37, 22, 1
+39105, 39319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> placeholderNames List<String> kpiNames", 0, 0, 3, 1, 1, 0, 1, 2
+36740, 38906, 1, "OK", 6, 54, 59, 43, 16, 27, 16, 1
+36608, 38906, 1, "OK", 5, 58, 61, 44, 17, 27, 17, 1
+39817, 40032, 1, "OK", 4, 4, 4, 2, 2, 0, 1, 2
+36608, 36832, 1, "OK", 3, 7, 4, 2, 2, 0, 2, 1
+39741, 39806, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+39105, 39812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> placeholderNames List<String> kpiNames boolean anyScheduler", 0, 0, 19, 9, 5, 4, 5, 2
+38471, 38736, 1, "OK", 3, 8, 15, 6, 3, 3, 3, 3
+37865, 38065, 1, "OK", 4, 5, 6, 1, 1, 0, 1, 5
+36558, 38906, 1, "OK", 4, 59, 61, 44, 17, 27, 17, 1
+38579, 38721, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 1, 1, 0, 1, 5
+36503, 37284, 1, "OK", 3, 21, 15, 9, 6, 3, 6, 1
+36608, 36881, 1, "OK", 3, 8, 4, 2, 2, 0, 2, 1
+36740, 37144, 1, "OK", 5, 12, 11, 7, 4, 3, 4, 1
+37410, 38901, 1, "OK", 3, 35, 44, 24, 10, 14, 10, 2
+36688, 40037, 1, "OK", 6, 82, 85, 62, 25, 37, 23, 1
+36608, 37144, 1, "OK", 4, 16, 13, 8, 5, 3, 5, 1
+38514, 38729, 1, "OK", 3, 6, 11, 3, 2, 1, 2, 4
+39105, 39353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> placeholderNames List<String> kpiNames boolean anyScheduler", 0, 0, 3, 1, 1, 0, 1, 2
+37553, 38313, 1, "OK", 3, 16, 19, 7, 4, 3, 4, 3
+37658, 38130, 1, "OK", 4, 11, 15, 6, 3, 3, 3, 3
+37865, 38113, 1, "OK", 4, 6, 6, 1, 1, 0, 1, 5
+36836, 40037, 1, "OK", 7, 78, 83, 61, 24, 37, 22, 1
+37381, 40037, 1, "OK", 5, 64, 72, 54, 20, 34, 18, 1
+36558, 36881, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> usedMeasureList Set<String> newRuleOutputList", 0, 0, 4, 2, 2, 0, 2, 1
+36558, 37144, 1, "OK", 3, 17, 13, 8, 5, 3, 5, 1
+37148, 37284, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+39511, 39806, 1, "OK", 5, 9, 13, 4, 3, 1, 3, 3
+36740, 36881, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+36885, 37284, 1, "OK", 4, 11, 11, 7, 4, 3, 4, 1
+36989, 37133, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+39026, 40037, 1, "OK", 4, 24, 26, 19, 9, 10, 7, 1
+39397, 39806, 1, "OK", 5, 10, 13, 4, 3, 1, 3, 3
+36558, 36684, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+37460, 38901, 1, "OK", 4, 34, 44, 24, 10, 14, 10, 2
+36503, 36832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Collection<String> measureAndKpi Set<String> usedMeasureList Set<String> newRuleOutputList", 0, 0, 4, 2, 2, 0, 2, 1
+37958, 38065, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5

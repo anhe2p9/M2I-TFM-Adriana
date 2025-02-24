@@ -1,0 +1,158 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5518, 6157, 1, "OK", 8, 15, 9, 9, 6, 3, 2, 0
+4203, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+3973, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3784, 6157, 1, "OK", 4, 46, 20, 20, 16, 4, 3, 0
+3838, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+4915, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets", 0, 0, 3, 3, 3, 0, 0, 1
+3838, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 6241, 1, "OK", 6, 43, 20, 20, 16, 4, 3, 0
+3746, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4203, 6241, 1, "OK", 11, 38, 20, 20, 16, 4, 3, 0
+4144, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+4144, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4203, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3784, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets List<Integer> categories String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4437, 6157, 1, "OK", 12, 33, 18, 18, 14, 4, 3, 0
+3207, 6403, 1, "OK", 1, 65, 21, 21, 17, 4, 3, 0
+3240, 6403, 1, "OK", 1, 64, 21, 21, 17, 4, 3, 0
+4034, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3784, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+4085, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+5676, 6157, 1, "OK", 8, 13, 9, 9, 6, 3, 2, 0
+4270, 4432, 1, "OK", 1, 2, 2, 2, 2, 0, 0, 0
+3882, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String isTech String allMyDataDS String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+5562, 6109, 1, "OK", 7, 12, 9, 9, 6, 3, 2, 0
+3737, 6371, 1, "OK", 4, 53, 21, 21, 17, 4, 3, 0
+4437, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets", 0, 0, 9, 9, 8, 1, 1, 0
+3973, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String allMyDataDS String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+3922, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+4270, 6241, 1, "OK", 12, 37, 20, 20, 16, 4, 3, 0
+4437, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray long start", 0, 0, 9, 9, 8, 1, 1, 0
+3838, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3882, 6241, 1, "OK", 6, 45, 20, 20, 16, 4, 3, 0
+4270, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+5414, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 9, 9, 6, 3, 2, 0
+4203, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+3973, 6241, 1, "OK", 7, 42, 20, 20, 16, 4, 3, 0
+3746, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3882, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3973, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4203, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4144, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3784, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dataSetDao List<Integer> categories String isTech String allMyDataDS String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+3737, 6403, 1, "OK", 4, 54, 21, 21, 17, 4, 3, 0
+4085, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+4034, 6157, 1, "OK", 8, 40, 20, 20, 16, 4, 3, 0
+4270, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+5518, 6241, 1, "OK", 8, 16, 9, 9, 6, 3, 2, 0
+5562, 6157, 1, "OK", 8, 14, 9, 9, 6, 3, 2, 0
+5481, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 9, 9, 6, 3, 2, 0
+3784, 6241, 1, "OK", 4, 47, 20, 20, 16, 4, 3, 0
+3882, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+3973, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+3784, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4270, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3882, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3838, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+4034, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+4034, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3973, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3483, 6371, 1, "OK", 1, 58, 21, 21, 17, 4, 3, 0
+5414, 6157, 1, "OK", 9, 17, 9, 9, 6, 3, 2, 0
+4144, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3746, 6157, 1, "OK", 4, 47, 20, 20, 16, 4, 3, 0
+4203, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+4437, 6241, 1, "OK", 12, 34, 18, 18, 14, 4, 3, 0
+4437, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray", 0, 0, 9, 9, 8, 1, 1, 0
+3599, 6371, 1, "OK", 2, 56, 21, 21, 17, 4, 3, 0
+5518, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray long start", 0, 0, 9, 9, 6, 3, 2, 0
+5676, 6241, 1, "OK", 9, 14, 9, 9, 6, 3, 2, 0
+4085, 6157, 1, "OK", 9, 39, 20, 20, 16, 4, 3, 0
+3784, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+3746, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets List<Integer> categories String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3784, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3746, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+5481, 6157, 1, "OK", 8, 16, 9, 9, 6, 3, 2, 0
+3483, 6403, 1, "OK", 1, 59, 21, 21, 17, 4, 3, 0
+4270, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3882, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+4085, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+4437, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray long start", 0, 0, 18, 18, 14, 4, 3, 0
+4034, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+5795, 5903, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+3838, 6157, 1, "OK", 5, 45, 20, 20, 16, 4, 3, 0
+4203, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3973, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3599, 6403, 1, "OK", 2, 57, 21, 21, 17, 4, 3, 0
+4437, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray", 0, 0, 9, 9, 8, 1, 1, 0
+4085, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+5676, 6019, 1, "OK", 5, 9, 9, 9, 6, 3, 2, 0
+4144, 6157, 1, "OK", 10, 38, 20, 20, 16, 4, 3, 0
+4034, 6241, 1, "OK", 8, 41, 20, 20, 16, 4, 3, 0
+3838, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4034, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3838, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+5562, 6241, 1, "OK", 9, 15, 9, 9, 6, 3, 2, 0
+3746, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dataSetDao List<Integer> categories String isTech String allMyDataDS String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+3784, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+4144, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4270, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3882, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3973, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3692, 6371, 1, "OK", 3, 54, 21, 21, 17, 4, 3, 0
+4144, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 6157, 1, "OK", 6, 42, 20, 20, 16, 4, 3, 0
+4085, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+5414, 6241, 1, "OK", 9, 18, 9, 9, 6, 3, 2, 0
+4034, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+4437, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray long start", 0, 0, 9, 9, 8, 1, 1, 0
+3746, 6241, 1, "OK", 4, 48, 20, 20, 16, 4, 3, 0
+4203, 6157, 1, "OK", 11, 37, 20, 20, 16, 4, 3, 0
+5727, 6014, 1, "OK", 4, 7, 7, 5, 4, 1, 2, 1
+3746, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3643, 6371, 1, "OK", 3, 55, 21, 21, 17, 4, 3, 0
+5562, 6019, 1, "OK", 5, 10, 9, 9, 6, 3, 2, 0
+4034, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4085, 6241, 1, "OK", 9, 40, 20, 20, 16, 4, 3, 0
+3922, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3838, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dataSetDao String isTech String allMyDataDS String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+5518, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 9, 9, 6, 3, 2, 0
+4085, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3784, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 20, 20, 16, 4, 3, 0
+3692, 6403, 1, "OK", 3, 55, 21, 21, 17, 4, 3, 0
+4203, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+5481, 6241, 1, "OK", 8, 17, 9, 9, 6, 3, 2, 0
+4203, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+5414, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray long start", 0, 0, 9, 9, 6, 3, 2, 0
+4270, 6157, 1, "OK", 12, 36, 20, 20, 16, 4, 3, 0
+3746, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+4144, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+3838, 6241, 1, "OK", 5, 46, 20, 20, 16, 4, 3, 0
+3882, 6157, 1, "OK", 6, 44, 20, 20, 16, 4, 3, 0
+4666, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets", 0, 0, 6, 5, 5, 0, 1, 1
+3643, 6403, 1, "OK", 3, 56, 21, 21, 17, 4, 3, 0
+3746, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3973, 6157, 1, "OK", 7, 41, 20, 20, 16, 4, 3, 0
+3838, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4437, 6109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long start JSONArray datasetsJSONReturn", 0, 0, 18, 18, 14, 4, 3, 0
+4085, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray String typeDocWizard long start", 0, 0, 20, 20, 16, 4, 3, 0
+4144, 6241, 1, "OK", 10, 39, 20, 20, 16, 4, 3, 0
+5676, 6109, 1, "OK", 7, 11, 9, 9, 6, 3, 2, 0
+4085, 5514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4144, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4034, 5558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+4270, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+3882, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0
+4270, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+5481, 6019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray long start", 0, 0, 9, 9, 6, 3, 2, 0
+3207, 6371, 1, "OK", 1, 64, 21, 21, 17, 4, 3, 0
+3240, 6371, 1, "OK", 1, 63, 21, 21, 17, 4, 3, 0
+3882, 5672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray datasetsJSONArray JSONArray ckanJSONArray String ckanDS String ckanFilter String ckanOffset String typeDocWizard long start", 0, 0, 11, 11, 10, 1, 1, 0
+3922, 4432, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String isTech String allMyDataDS String ckanDS String ckanFilter String ckanOffset String ckanRepository String typeDocWizard", 0, 0, 2, 2, 2, 0, 0, 0
+3973, 5410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray ckanJSONArray List<IDataSet> unfilteredDataSets String ckanDS String ckanFilter String ckanOffset String typeDocWizard", 0, 0, 11, 11, 10, 1, 1, 0

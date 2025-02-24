@@ -1,0 +1,20 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12585, 13679, 1, "OK", 2, 17, 14, 8, 5, 3, 3, 2
+12669, 13792, 1, "OK", 3, 18, 14, 8, 5, 3, 3, 2
+12861, 13792, 1, "OK", 4, 15, 14, 8, 5, 3, 3, 2
+13219, 13508, 1, "OK", 4, 5, 6, 2, 2, 0, 1, 4
+12012, 13850, 1, "OK", 2, 31, 22, 22, 10, 12, 5, 0
+12132, 13810, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 16, 9, 7, 5, 1
+12188, 12458, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+12773, 13679, 1, "OK", 3, 15, 14, 8, 5, 3, 3, 2
+12323, 12458, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+12012, 13824, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 10, 12, 5, 0
+12996, 13657, 1, "OK", 4, 10, 11, 5, 4, 1, 2, 3
+12934, 13657, 1, "OK", 4, 11, 11, 5, 4, 1, 2, 3
+12669, 13679, 1, "OK", 2, 16, 14, 8, 5, 3, 3, 2
+12861, 13679, 1, "OK", 3, 13, 14, 8, 5, 3, 3, 2
+12482, 13810, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 13, 7, 6, 3, 1
+12773, 13792, 1, "OK", 4, 17, 14, 8, 5, 3, 3, 2
+12056, 13810, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 16, 9, 7, 5, 1
+12585, 13792, 1, "OK", 3, 19, 14, 8, 5, 3, 3, 2
+13068, 13508, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4

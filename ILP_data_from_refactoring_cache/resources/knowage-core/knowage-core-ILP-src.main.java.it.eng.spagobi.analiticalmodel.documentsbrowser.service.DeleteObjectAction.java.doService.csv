@@ -1,0 +1,105 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2671, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2366, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao ILowFunctionalityDAO functDAO Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+2594, 4912, 1, "OK", 5, 56, 17, 17, 11, 6, 5, 0
+2300, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile userProfile IBIObjectDAO dao ILowFunctionalityDAO functDAO Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+2490, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+4362, 4636, 1, "OK", 3, 7, 3, 1, 1, 0, 1, 2
+2594, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2804, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+3131, 4912, 1, "OK", 8, 40, 13, 13, 8, 5, 4, 0
+2776, 4912, 1, "OK", 7, 52, 17, 17, 11, 6, 5, 0
+2366, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2300, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile userProfile IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2490, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2545, 4912, 1, "OK", 4, 58, 17, 17, 11, 6, 5, 0
+2776, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2594, 5189, 1, "OK", 5, 63, 18, 18, 12, 6, 5, 0
+2804, 3031, 1, "OK", 2, 8, 4, 4, 3, 1, 1, 0
+2545, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3131, 5189, 1, "OK", 8, 47, 14, 14, 9, 5, 4, 0
+3239, 4912, 1, "OK", 8, 37, 13, 13, 8, 5, 4, 0
+2776, 5189, 1, "OK", 7, 59, 18, 18, 12, 6, 5, 0
+2671, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2545, 5189, 1, "OK", 4, 65, 18, 18, 12, 6, 5, 0
+2417, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILowFunctionalityDAO functDAO Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+2594, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3239, 5189, 1, "OK", 8, 44, 14, 14, 9, 5, 4, 0
+2366, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2300, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile userProfile IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2830, 3026, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+2417, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2490, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2776, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3501, 4245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2545, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2804, 3072, 1, "OK", 3, 10, 4, 4, 3, 1, 1, 0
+3422, 4906, 1, "OK", 9, 30, 12, 8, 7, 1, 4, 1
+4916, 5189, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+3501, 3747, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+3422, 4153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2671, 4912, 1, "OK", 6, 54, 17, 17, 11, 6, 5, 0
+3753, 4906, 1, "OK", 10, 22, 9, 6, 5, 1, 3, 1
+2671, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3076, 4912, 1, "OK", 7, 41, 13, 13, 8, 5, 4, 0
+3324, 4906, 1, "OK", 9, 33, 12, 8, 7, 1, 4, 1
+3753, 4153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 3, 2, 2, 0, 1, 1
+2417, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+3547, 4906, 1, "OK", 9, 28, 12, 8, 7, 1, 4, 1
+2366, 4912, 1, "OK", 1, 63, 17, 17, 11, 6, 5, 0
+2300, 4912, 1, "OK", 0, 64, 17, 17, 11, 6, 5, 0
+2490, 4912, 1, "OK", 3, 60, 17, 17, 11, 6, 5, 0
+2671, 5189, 1, "OK", 6, 61, 18, 18, 12, 6, 5, 0
+2366, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2804, 4912, 1, "OK", 8, 51, 17, 17, 11, 6, 5, 0
+2300, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile userProfile IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3547, 4153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2490, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3324, 4153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId Integer id BIObject biObject LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+3076, 5189, 1, "OK", 7, 48, 14, 14, 9, 5, 4, 0
+3366, 4906, 1, "OK", 8, 32, 12, 8, 7, 1, 4, 1
+2804, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2366, 5189, 1, "OK", 1, 70, 18, 18, 12, 6, 5, 0
+2300, 5189, 1, "OK", 0, 71, 18, 18, 12, 6, 5, 0
+2490, 5189, 1, "OK", 3, 67, 18, 18, 12, 6, 5, 0
+2671, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+4159, 4906, 1, "OK", 7, 15, 6, 4, 3, 1, 2, 1
+2804, 5189, 1, "OK", 8, 58, 18, 18, 12, 6, 5, 0
+3036, 4912, 1, "OK", 7, 42, 13, 13, 8, 5, 4, 0
+3366, 4153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId BIObject biObject LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2366, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2417, 4912, 1, "OK", 2, 62, 17, 17, 11, 6, 5, 0
+2300, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile userProfile IBIObjectDAO dao ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2490, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2417, 3127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+2594, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+2804, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3036, 5189, 1, "OK", 7, 49, 14, 14, 9, 5, 4, 0
+4251, 4906, 1, "OK", 7, 13, 6, 4, 3, 1, 2, 1
+2776, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+2417, 5189, 1, "OK", 2, 69, 18, 18, 12, 6, 5, 0
+2594, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+2237, 5397, 1, "OK", 0, 80, 20, 20, 14, 6, 5, 0
+2545, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+3422, 4245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2776, 3031, 1, "OK", 1, 9, 4, 4, 3, 1, 1, 0
+3277, 4912, 1, "OK", 8, 36, 13, 13, 8, 5, 4, 0
+2545, 3031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+3422, 3747, 1, "OK", 4, 7, 3, 2, 2, 0, 1, 1
+2417, 3165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILowFunctionalityDAO functDAO String ids Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId String userId", 0, 0, 4, 4, 3, 1, 1, 0
+3753, 4245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 3, 2, 2, 0, 1, 1
+2975, 3026, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 1
+3277, 5189, 1, "OK", 8, 43, 14, 14, 9, 5, 4, 0
+3547, 4245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+3324, 4245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId Integer id BIObject biObject LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2594, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+3501, 4906, 1, "OK", 9, 29, 12, 8, 7, 1, 4, 1
+2776, 3072, 1, "OK", 2, 11, 4, 4, 3, 1, 1, 0
+3547, 3747, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+3324, 3747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id BIObject biObject LowFunctionality lowFunctionality", 0, 0, 3, 2, 2, 0, 1, 1
+3501, 4153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2214, 5397, 1, "OK", 0, 82, 20, 20, 14, 6, 5, 0
+2545, 3072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean isFromMyAnalysis Boolean deleteOnlyFromPersonalFolder Integer folderId", 0, 0, 4, 4, 3, 1, 1, 0
+3366, 4245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer folderId BIObject biObject LowFunctionality lowFunctionality", 0, 0, 6, 4, 4, 0, 2, 1
+2671, 3273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean deleteOnlyFromPersonalFolder Integer folderId String userId String[] idArray", 0, 0, 4, 4, 3, 1, 1, 0
+3366, 3747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject LowFunctionality lowFunctionality", 0, 0, 3, 2, 2, 0, 1, 1

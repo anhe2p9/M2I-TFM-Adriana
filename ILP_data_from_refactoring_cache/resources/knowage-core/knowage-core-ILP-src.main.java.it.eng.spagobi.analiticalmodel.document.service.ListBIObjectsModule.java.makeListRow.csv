@@ -1,0 +1,265 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12716, 12913, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+10813, 12001, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 13, 8, 5, 4, 1
+7289, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7538, 12658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7632, 12816, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+11518, 11651, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+7387, 13249, 1, "OK", 11, 152, 62, 62, 34, 28, 15, 0
+7538, 12151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+12006, 12913, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+12516, 12978, 1, "OK", 5, 8, 2, 1, 1, 0, 1, 1
+7715, 12816, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7438, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7206, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+11656, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+10559, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canTest", 0, 0, 1, 1, 1, 0, 0, 2
+12562, 13089, 1, "OK", 6, 9, 2, 1, 1, 0, 1, 1
+7289, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+8828, 9050, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+7206, 13249, 1, "OK", 5, 158, 62, 62, 34, 28, 15, 0
+8269, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown", 0, 0, 2, 2, 2, 0, 0, 2
+9698, 10248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 7, 3, 3, 0, 2, 2
+11037, 11740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+7438, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+10378, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canTest", 0, 0, 2, 2, 2, 0, 0, 2
+10897, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 8, 7, 1, 4, 2
+7289, 13249, 1, "OK", 8, 155, 62, 62, 34, 28, 15, 0
+12662, 13089, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+9145, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canDev", 0, 0, 5, 3, 3, 0, 1, 2
+12562, 13113, 1, "OK", 6, 10, 2, 1, 1, 0, 1, 1
+9836, 10070, 1, "OK", 2, 8, 7, 3, 3, 0, 2, 2
+7342, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+8749, 8961, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+9757, 9969, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+12156, 12913, 1, "OK", 6, 13, 2, 1, 1, 0, 1, 1
+7906, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canTest int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+10958, 11651, 1, "OK", 4, 15, 12, 6, 5, 1, 3, 2
+7538, 12712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7438, 13249, 1, "OK", 11, 151, 62, 62, 34, 28, 15, 0
+12468, 12978, 1, "OK", 6, 9, 2, 1, 1, 0, 1, 1
+7989, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+8749, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canDev int visibleInstances", 0, 0, 9, 5, 5, 0, 2, 2
+8828, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 7, 7, 0, 3, 2
+12716, 12978, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+12662, 13113, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+12516, 13030, 1, "OK", 6, 9, 2, 1, 1, 0, 1, 1
+10164, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canTest", 0, 0, 5, 3, 3, 0, 1, 2
+12006, 12978, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+11856, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+9698, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 8, 8, 0, 4, 2
+10897, 11512, 1, "OK", 4, 12, 8, 4, 3, 1, 2, 2
+7538, 12227, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+11518, 11740, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+7632, 12913, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+8370, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown", 0, 0, 1, 1, 1, 0, 0, 2
+7715, 12913, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7342, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7538, 12765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+12156, 12978, 1, "OK", 6, 14, 2, 1, 1, 0, 1, 1
+12468, 13030, 1, "OK", 7, 10, 2, 1, 1, 0, 1, 1
+12769, 12913, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+12516, 13089, 1, "OK", 7, 10, 2, 1, 1, 0, 1, 1
+8828, 9139, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+11037, 11829, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+12716, 13030, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+12006, 12512, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+7262, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+9836, 10159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 7, 3, 3, 0, 2, 2
+12006, 13030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+8966, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canDev int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+7342, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7064, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+8749, 9050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 4, 2, 2, 0, 1, 2
+10958, 11740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+11037, 11851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+9836, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canTest int visibleInstances", 0, 0, 12, 6, 6, 0, 3, 2
+12516, 13113, 1, "OK", 7, 11, 2, 1, 1, 0, 1, 1
+7342, 13249, 1, "OK", 10, 153, 62, 62, 34, 28, 15, 0
+12820, 12913, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+7538, 12816, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+9757, 10070, 1, "OK", 4, 9, 7, 3, 3, 0, 2, 2
+7926, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+7632, 12978, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+8605, 12001, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 37, 25, 12, 11, 1
+9145, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 2, 2
+11037, 11874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+12468, 13089, 1, "OK", 8, 11, 2, 1, 1, 0, 1, 1
+12006, 12558, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+12156, 13030, 1, "OK", 7, 15, 2, 1, 1, 0, 1, 1
+12716, 13089, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+7715, 12978, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+12769, 12978, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+8749, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 7, 7, 0, 3, 2
+12006, 13089, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+11518, 11829, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+7262, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+10164, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 2, 2
+7064, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12468, 13113, 1, "OK", 8, 12, 2, 1, 1, 0, 1, 1
+12716, 13113, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+11518, 11851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp int visibleInstances", 0, 0, 4, 2, 2, 0, 1, 2
+9614, 12001, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 17, 9, 8, 1
+7632, 12001, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 42, 29, 13, 13, 1
+12006, 13113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+7632, 12512, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+8688, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canDev int visibleInstances", 0, 0, 9, 5, 5, 0, 2, 2
+7632, 13030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7116, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+8688, 8961, 1, "OK", 3, 7, 4, 2, 2, 0, 1, 2
+10897, 11651, 1, "OK", 4, 17, 12, 6, 5, 1, 3, 2
+7262, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7064, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12820, 12978, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+9836, 10248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 7, 3, 3, 0, 2, 2
+11745, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+7715, 12001, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 42, 29, 13, 13, 1
+12006, 12606, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+7715, 12512, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+12769, 13030, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+11518, 11874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown int visibleInstances", 0, 0, 4, 2, 2, 0, 1, 2
+12156, 13089, 1, "OK", 8, 16, 2, 1, 1, 0, 1, 1
+8749, 9139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 4, 2, 2, 0, 1, 2
+9974, 10070, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+7262, 13249, 1, "OK", 7, 156, 62, 62, 34, 28, 15, 0
+7715, 13030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7064, 13249, 1, "OK", 2, 164, 62, 62, 34, 28, 15, 0
+7315, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+10958, 11829, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+9300, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canDev", 0, 0, 1, 1, 1, 0, 0, 2
+9757, 10159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 7, 3, 3, 0, 2, 2
+12156, 13113, 1, "OK", 8, 17, 2, 1, 1, 0, 1, 1
+10958, 11851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+7632, 12558, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+9757, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canTest int visibleInstances", 0, 0, 12, 6, 6, 0, 3, 2
+8966, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 2, 2
+7233, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7538, 12913, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+8078, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown", 0, 0, 5, 3, 3, 0, 1, 2
+9836, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 8, 8, 0, 4, 2
+12006, 12658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+7116, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7715, 12558, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+10958, 11874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+7632, 13089, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+9698, 9969, 1, "OK", 3, 7, 4, 2, 2, 0, 1, 2
+11234, 11506, 1, "OK", 2, 5, 5, 2, 2, 0, 1, 3
+12820, 13030, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+12006, 12151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+7715, 13089, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7116, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+11037, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 8, 7, 1, 4, 2
+12769, 13089, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+7632, 13113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+10897, 11740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+7315, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7632, 12606, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+10254, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canTest", 0, 0, 5, 3, 3, 0, 1, 2
+8688, 9050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 4, 2, 2, 0, 1, 2
+7086, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+11880, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+7466, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7715, 13113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7116, 13249, 1, "OK", 3, 161, 62, 62, 34, 28, 15, 0
+12610, 12913, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+7233, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+11037, 11512, 1, "OK", 3, 9, 8, 4, 3, 1, 2, 2
+7315, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+9974, 10159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 3, 1, 1, 0, 1, 2
+7715, 12606, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+12769, 13113, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+7538, 12978, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+9974, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canTest int visibleInstances", 0, 0, 8, 4, 4, 0, 2, 2
+12006, 12712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+12820, 13089, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+9757, 10248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 7, 3, 3, 0, 2, 2
+7315, 13249, 1, "OK", 9, 154, 62, 62, 34, 28, 15, 0
+9055, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canDev", 0, 0, 5, 3, 3, 0, 1, 2
+7233, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+8688, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 7, 7, 0, 3, 2
+11518, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 4, 4, 0, 2, 2
+12006, 12227, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+7632, 12658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+12820, 13113, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+7233, 13249, 1, "OK", 6, 157, 62, 62, 34, 28, 15, 0
+12562, 12913, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+7632, 12151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7538, 12512, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7086, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+10682, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+9698, 10070, 1, "OK", 4, 11, 7, 3, 3, 0, 2, 2
+7466, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7538, 12001, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 42, 29, 13, 13, 1
+7715, 12658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7867, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canDev boolean canTest int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+7538, 13030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7715, 12151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+9757, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 8, 8, 0, 4, 2
+7501, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12610, 12978, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+12662, 12913, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+12006, 12765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+10075, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canTest int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+8688, 9139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 4, 2, 2, 0, 1, 2
+10897, 11829, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+9222, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canDev", 0, 0, 2, 2, 2, 0, 0, 2
+7086, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+10958, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 8, 7, 1, 4, 2
+7466, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7155, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+9483, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+7086, 13249, 1, "OK", 2, 163, 62, 62, 34, 28, 15, 0
+9974, 10248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 3, 1, 1, 0, 1, 2
+7632, 12712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7466, 13249, 1, "OK", 12, 150, 62, 62, 34, 28, 15, 0
+7802, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canDev boolean canTest int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+7538, 12558, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+10897, 11851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+12610, 13030, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+10254, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 2, 2
+7387, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7715, 12712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+12562, 12978, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+11057, 11506, 1, "OK", 2, 7, 5, 2, 2, 0, 1, 3
+7501, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12006, 12816, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+10958, 11512, 1, "OK", 4, 10, 8, 4, 3, 1, 2, 2
+7538, 13089, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7632, 12227, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+10897, 11874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec int visibleInstances", 0, 0, 12, 6, 5, 1, 3, 2
+7206, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12662, 12978, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+9974, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 6, 0, 3, 2
+7715, 12227, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+8828, 8961, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+9836, 9969, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+11037, 11651, 1, "OK", 3, 14, 12, 6, 5, 1, 3, 2
+9055, 9599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 2, 2
+7501, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7886, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canTest int visibleInstances", 0, 0, 5, 3, 3, 0, 1, 2
+11835, 11996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+12516, 12913, 1, "OK", 5, 7, 2, 1, 1, 0, 1, 1
+9698, 10159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canExec int visibleInstances", 0, 0, 7, 3, 3, 0, 2, 2
+7155, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7289, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7538, 13113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 45, 32, 13, 15, 1
+7632, 12765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7538, 12606, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+8828, 9478, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canDev int visibleInstances", 0, 0, 9, 5, 5, 0, 2, 2
+7438, 13152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+9698, 10677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown boolean canExec boolean canTest int visibleInstances", 0, 0, 12, 6, 6, 0, 3, 2
+12562, 13030, 1, "OK", 5, 8, 2, 1, 1, 0, 1, 1
+7501, 13249, 1, "OK", 12, 149, 62, 62, 34, 28, 15, 0
+7715, 12765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 44, 31, 13, 14, 1
+7155, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7387, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12610, 13089, 1, "OK", 5, 8, 2, 1, 1, 0, 1, 1
+7155, 13249, 1, "OK", 4, 159, 62, 62, 34, 28, 15, 0
+8168, 8465, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean stateUp boolean stateDown", 0, 0, 5, 3, 3, 0, 1, 2
+10075, 10798, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 2, 2
+7387, 13233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+7206, 13210, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 34, 28, 15, 0
+12662, 13030, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+12468, 12913, 1, "OK", 6, 8, 2, 1, 1, 0, 1, 1
+11159, 11506, 1, "OK", 2, 6, 5, 2, 2, 0, 1, 3
+12610, 13113, 1, "OK", 5, 9, 2, 1, 1, 0, 1, 1

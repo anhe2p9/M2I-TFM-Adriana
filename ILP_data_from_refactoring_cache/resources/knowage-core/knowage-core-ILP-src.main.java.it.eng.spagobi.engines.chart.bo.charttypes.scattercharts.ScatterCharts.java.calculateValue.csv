@@ -1,0 +1,237 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3527, 3880, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+2934, 5882, 1, "OK", 0, 125, 62, 62, 21, 41, 15, 0
+3579, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first", 0, 0, 61, 46, 20, 26, 15, 1
+5425, 5460, 1, "OK", 2, 1, 5, 1, 1, 0, 1, 4
+3625, 3920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue double[] x", 0, 0, 9, 6, 4, 2, 3, 1
+3281, 5882, 1, "OK", 4, 113, 62, 62, 21, 41, 15, 0
+3672, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+5227, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 16, 7, 4, 3, 3, 3
+3625, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3672, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3885, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 3920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x", 0, 0, 9, 6, 4, 2, 3, 1
+2934, 5922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYDataset dataset DatasetMap datasets", 0, 0, 62, 62, 21, 41, 15, 0
+5264, 5374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+3625, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+4076, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 52, 40, 16, 24, 12, 1
+3281, 5922, 1, "OK", 4, 114, 62, 62, 21, 41, 15, 0
+3625, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+4321, 4414, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+4138, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+5662, 5854, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+3527, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3625, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3350, 5859, 1, "OK", 7, 109, 62, 62, 21, 41, 15, 0
+3579, 3880, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+3885, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+2934, 5958, 1, "OK", 0, 127, 62, 62, 21, 41, 15, 0
+3527, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3672, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3281, 5958, 1, "OK", 4, 115, 62, 62, 21, 41, 15, 0
+3672, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+5264, 5417, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3924, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+4138, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3648, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first", 0, 0, 61, 46, 20, 26, 15, 1
+3235, 5859, 1, "OK", 2, 114, 62, 62, 21, 41, 15, 0
+3625, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+4420, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 44, 26, 12, 14, 9, 2
+3350, 5882, 1, "OK", 7, 110, 62, 62, 21, 41, 15, 0
+3672, 4092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+2934, 5977, 1, "OK", 0, 128, 62, 62, 21, 41, 15, 0
+3885, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+5531, 5854, 1, "OK", 6, 12, 3, 2, 2, 0, 1, 1
+5172, 5207, 1, "OK", 2, 1, 5, 1, 1, 0, 1, 4
+4321, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 47, 27, 13, 14, 10, 2
+3281, 5977, 1, "OK", 4, 116, 62, 62, 21, 41, 15, 0
+4138, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3924, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+4057, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3625, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3054, 5859, 1, "OK", 1, 121, 62, 62, 21, 41, 15, 0
+3579, 3920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x", 0, 0, 9, 6, 4, 2, 3, 1
+3235, 5882, 1, "OK", 2, 115, 62, 62, 21, 41, 15, 0
+3924, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3672, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+4138, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+5264, 5460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+4057, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3054, 5882, 1, "OK", 1, 122, 62, 62, 21, 41, 15, 0
+3350, 5922, 1, "OK", 7, 111, 62, 62, 21, 41, 15, 0
+3579, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+4138, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+5549, 5854, 1, "OK", 5, 11, 3, 2, 2, 0, 1, 1
+3527, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3924, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+2956, 5859, 1, "OK", 0, 123, 62, 62, 21, 41, 15, 0
+4057, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3579, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3672, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+4670, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 39, 15, 9, 6, 8, 3
+3235, 5922, 1, "OK", 2, 116, 62, 62, 21, 41, 15, 0
+3625, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3579, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+5382, 5417, 1, "OK", 2, 1, 5, 1, 1, 0, 1, 4
+3648, 3880, 1, "OK", 2, 11, 9, 6, 4, 2, 3, 1
+3625, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+3924, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+4670, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int num double valueD", 0, 0, 4, 1, 1, 0, 1, 3
+4209, 4414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 3, 1, 1, 0, 1, 2
+2956, 5882, 1, "OK", 0, 124, 62, 62, 21, 41, 15, 0
+3350, 5958, 1, "OK", 7, 112, 62, 62, 21, 41, 15, 0
+4057, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3054, 5922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYDataset dataset DatasetMap datasets", 0, 0, 62, 62, 21, 41, 15, 0
+3625, 4092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3579, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3304, 5859, 1, "OK", 5, 111, 62, 62, 21, 41, 15, 0
+4057, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+4076, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3235, 5958, 1, "OK", 2, 117, 62, 62, 21, 41, 15, 0
+3350, 5977, 1, "OK", 7, 113, 62, 62, 21, 41, 15, 0
+4138, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+4754, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 39, 15, 9, 6, 8, 3
+5013, 5123, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+5382, 5460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3579, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3648, 3920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x", 0, 0, 9, 6, 4, 2, 3, 1
+4622, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 39, 15, 9, 6, 8, 3
+3304, 5882, 1, "OK", 5, 112, 62, 62, 21, 41, 15, 0
+3625, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+4076, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+4754, 4968, 1, "OK", 1, 9, 4, 1, 1, 0, 1, 3
+2956, 5922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYDataset dataset DatasetMap datasets", 0, 0, 62, 62, 21, 41, 15, 0
+3235, 5977, 1, "OK", 2, 118, 62, 62, 21, 41, 15, 0
+3527, 4092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+4209, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 47, 27, 13, 14, 10, 2
+3054, 5958, 1, "OK", 1, 124, 62, 62, 21, 41, 15, 0
+4622, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String pos int num double valueD", 0, 0, 4, 1, 1, 0, 1, 3
+5286, 5374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+3924, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3579, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3687, 3753, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+3625, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+4076, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3054, 5977, 1, "OK", 1, 125, 62, 62, 21, 41, 15, 0
+3648, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+4138, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+3648, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+2956, 5958, 1, "OK", 0, 126, 62, 62, 21, 41, 15, 0
+3304, 5922, 1, "OK", 5, 113, 62, 62, 21, 41, 15, 0
+4057, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+5734, 5854, 1, "OK", 2, 3, 3, 2, 2, 0, 1, 1
+5013, 5165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+4076, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+4706, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 39, 15, 9, 6, 8, 3
+3648, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3455, 5859, 1, "OK", 9, 105, 62, 62, 21, 41, 15, 0
+4706, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int num double valueD", 0, 0, 4, 1, 1, 0, 1, 3
+3924, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+5286, 5417, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+4138, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3527, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+2956, 5977, 1, "OK", 0, 127, 62, 62, 21, 41, 15, 0
+3579, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+4076, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 49, 38, 14, 24, 11, 1
+3885, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 52, 40, 16, 24, 12, 1
+3648, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3373, 5859, 1, "OK", 8, 108, 62, 62, 21, 41, 15, 0
+3579, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+3455, 5882, 1, "OK", 9, 106, 62, 62, 21, 41, 15, 0
+3109, 5859, 1, "OK", 2, 119, 62, 62, 21, 41, 15, 0
+3304, 5958, 1, "OK", 5, 114, 62, 62, 21, 41, 15, 0
+4057, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3924, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+5013, 5207, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3579, 4092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts String catValue double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+5130, 5165, 1, "OK", 2, 1, 5, 1, 1, 0, 1, 4
+3258, 5859, 1, "OK", 3, 113, 62, 62, 21, 41, 15, 0
+3648, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+5286, 5460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3373, 5882, 1, "OK", 8, 109, 62, 62, 21, 41, 15, 0
+3304, 5977, 1, "OK", 5, 115, 62, 62, 21, 41, 15, 0
+3109, 5882, 1, "OK", 2, 120, 62, 62, 21, 41, 15, 0
+4057, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3648, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3258, 5882, 1, "OK", 3, 114, 62, 62, 21, 41, 15, 0
+3579, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+3455, 5922, 1, "OK", 9, 107, 62, 62, 21, 41, 15, 0
+3672, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first", 0, 0, 61, 46, 20, 26, 15, 1
+4076, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+5621, 5854, 1, "OK", 3, 6, 3, 2, 2, 0, 1, 1
+5130, 5207, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3160, 5859, 1, "OK", 2, 118, 62, 62, 21, 41, 15, 0
+3687, 3858, 1, "OK", 1, 6, 7, 3, 3, 0, 2, 2
+3373, 5922, 1, "OK", 8, 110, 62, 62, 21, 41, 15, 0
+3579, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+5572, 5854, 1, "OK", 4, 8, 3, 2, 2, 0, 1, 1
+3687, 3875, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+3109, 5922, 1, "OK", 2, 121, 62, 62, 21, 41, 15, 0
+3160, 5882, 1, "OK", 2, 119, 62, 62, 21, 41, 15, 0
+3258, 5922, 1, "OK", 3, 115, 62, 62, 21, 41, 15, 0
+3648, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3455, 5958, 1, "OK", 9, 108, 62, 62, 21, 41, 15, 0
+4076, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3648, 5616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+3211, 5859, 1, "OK", 2, 116, 62, 62, 21, 41, 15, 0
+3455, 5977, 1, "OK", 9, 109, 62, 62, 21, 41, 15, 0
+3373, 5958, 1, "OK", 8, 111, 62, 62, 21, 41, 15, 0
+5035, 5123, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+3648, 4092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+3109, 5958, 1, "OK", 2, 122, 62, 62, 21, 41, 15, 0
+3327, 5859, 1, "OK", 6, 110, 62, 62, 21, 41, 15, 0
+3160, 5922, 1, "OK", 2, 120, 62, 62, 21, 41, 15, 0
+4076, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[][] seriesT", 0, 0, 49, 38, 14, 24, 11, 1
+3258, 5958, 1, "OK", 3, 116, 62, 62, 21, 41, 15, 0
+3373, 5977, 1, "OK", 8, 112, 62, 62, 21, 41, 15, 0
+5491, 5854, 1, "OK", 8, 15, 3, 2, 2, 0, 1, 1
+3672, 3880, 1, "OK", 2, 9, 9, 6, 4, 2, 3, 1
+3211, 5882, 1, "OK", 2, 117, 62, 62, 21, 41, 15, 0
+3109, 5977, 1, "OK", 2, 123, 62, 62, 21, 41, 15, 0
+4496, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 41, 25, 11, 14, 8, 2
+3625, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first", 0, 0, 61, 46, 20, 26, 15, 1
+3648, 5658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+3327, 5882, 1, "OK", 6, 111, 62, 62, 21, 41, 15, 0
+3885, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] x double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+3258, 5977, 1, "OK", 3, 117, 62, 62, 21, 41, 15, 0
+5035, 5165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+4283, 4414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 3, 1, 1, 0, 1, 2
+3160, 5958, 1, "OK", 2, 121, 62, 62, 21, 41, 15, 0
+4976, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 35, 14, 8, 6, 7, 3
+3885, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] x double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+4778, 5471, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 39, 15, 9, 6, 8, 3
+3648, 5683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[][] seriesT", 0, 0, 58, 44, 18, 26, 14, 1
+4138, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 52, 40, 16, 24, 12, 1
+3672, 3920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x", 0, 0, 9, 6, 4, 2, 3, 1
+5509, 5854, 1, "OK", 7, 14, 3, 2, 2, 0, 1, 1
+3211, 5922, 1, "OK", 2, 118, 62, 62, 21, 41, 15, 0
+3527, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first", 0, 0, 61, 46, 20, 26, 15, 1
+4778, 4968, 1, "OK", 1, 8, 4, 1, 1, 0, 1, 3
+3160, 5977, 1, "OK", 2, 122, 62, 62, 21, 41, 15, 0
+3327, 5922, 1, "OK", 6, 112, 62, 62, 21, 41, 15, 0
+3885, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] x double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+4283, 5477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue", 0, 0, 47, 27, 13, 14, 10, 2
+3924, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 52, 40, 16, 24, 12, 1
+5035, 5207, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3672, 5483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3885, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] x double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+3211, 5958, 1, "OK", 2, 119, 62, 62, 21, 41, 15, 0
+3625, 3880, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+3672, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first double[] x double[] y", 0, 0, 9, 6, 4, 2, 3, 1
+4057, 5854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 52, 40, 16, 24, 12, 1
+3758, 3858, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+3327, 5958, 1, "OK", 6, 113, 62, 62, 21, 41, 15, 0
+3672, 5505, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1
+3211, 5977, 1, "OK", 2, 120, 62, 62, 21, 41, 15, 0
+3885, 5563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin String catValue double[] x double[] y", 0, 0, 49, 38, 14, 24, 11, 1
+2934, 5859, 1, "OK", 0, 124, 62, 62, 21, 41, 15, 0
+3281, 5859, 1, "OK", 4, 112, 62, 62, 21, 41, 15, 0
+3758, 3875, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+3327, 5977, 1, "OK", 6, 114, 62, 62, 21, 41, 15, 0
+3672, 5523, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY double xTempMax double xTempMin double yTempMax double yTempMin boolean first String catValue double[] x double[] y", 0, 0, 58, 44, 18, 26, 14, 1

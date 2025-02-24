@@ -1,0 +1,659 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+32855, 34252, 1, "OK", 2, 24, 1, 1, 1, 0, 0, 0
+29290, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28648, 29483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int endRangePages", 0, 0, 4, 4, 4, 0, 0, 0
+29582, 34322, 1, "OK", 5, 85, 21, 21, 14, 7, 6, 0
+29534, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+28648, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 22, 22, 15, 7, 6, 0
+29582, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28626, 34288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 25, 25, 18, 7, 6, 0
+29486, 34252, 1, "OK", 3, 86, 21, 21, 14, 7, 6, 0
+28540, 35927, 1, "OK", 0, 146, 27, 27, 20, 7, 6, 0
+28540, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+29559, 36076, 1, "OK", 4, 117, 23, 23, 16, 7, 6, 0
+30260, 35848, 1, "OK", 6, 91, 5, 5, 5, 0, 0, 0
+28981, 29414, 1, "OK", 2, 17, 3, 3, 3, 0, 0, 0
+29534, 35848, 1, "OK", 3, 112, 23, 23, 16, 7, 6, 0
+34291, 35848, 1, "OK", 2, 26, 2, 2, 2, 0, 0, 0
+30690, 35848, 1, "OK", 8, 85, 5, 5, 5, 0, 0, 0
+32724, 34252, 1, "OK", 3, 26, 1, 1, 1, 0, 0, 0
+32855, 34288, 1, "OK", 3, 25, 1, 1, 1, 0, 0, 0
+29447, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+31014, 36040, 1, "OK", 6, 86, 5, 5, 5, 0, 0, 0
+29004, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+31055, 32719, 1, "OK", 1, 27, 2, 2, 2, 0, 0, 0
+29420, 34252, 1, "OK", 2, 88, 21, 21, 14, 7, 6, 0
+30260, 32814, 1, "OK", 2, 39, 2, 2, 2, 0, 0, 0
+28540, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+34255, 35927, 1, "OK", 3, 28, 2, 2, 2, 0, 0, 0
+28648, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages", 0, 0, 4, 4, 4, 0, 0, 0
+29360, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29327, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+28981, 29444, 1, "OK", 2, 19, 3, 3, 3, 0, 0, 0
+29004, 35927, 1, "OK", 3, 133, 26, 26, 19, 7, 6, 0
+30690, 32814, 1, "OK", 4, 33, 2, 2, 2, 0, 0, 0
+34255, 35968, 1, "OK", 3, 29, 2, 2, 2, 0, 0, 0
+28648, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages String dotsStart", 0, 0, 4, 4, 4, 0, 0, 0
+29559, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+34325, 35848, 1, "OK", 2, 25, 2, 2, 2, 0, 0, 0
+29004, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+31014, 36076, 1, "OK", 6, 87, 5, 5, 5, 0, 0, 0
+28540, 35968, 1, "OK", 0, 147, 27, 27, 20, 7, 6, 0
+29420, 34288, 1, "OK", 2, 89, 21, 21, 14, 7, 6, 0
+32855, 34322, 1, "OK", 3, 26, 1, 1, 1, 0, 0, 0
+29447, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29486, 34288, 1, "OK", 3, 87, 21, 21, 14, 7, 6, 0
+32724, 34288, 1, "OK", 4, 27, 1, 1, 1, 0, 0, 0
+28626, 34322, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 25, 25, 18, 7, 6, 0
+28648, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 22, 22, 15, 7, 6, 0
+29327, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29360, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+28626, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+31055, 35848, 1, "OK", 6, 80, 5, 5, 5, 0, 0, 0
+28981, 29483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int endRangePages", 0, 0, 3, 3, 3, 0, 0, 0
+28981, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 21, 21, 14, 7, 6, 0
+28893, 34252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+29534, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28626, 29248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+34255, 36003, 1, "OK", 3, 30, 2, 2, 2, 0, 0, 0
+28540, 36003, 1, "OK", 0, 148, 27, 27, 20, 7, 6, 0
+29420, 34322, 1, "OK", 2, 90, 21, 21, 14, 7, 6, 0
+28648, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages String dotsStart String dotsEnd", 0, 0, 4, 4, 4, 0, 0, 0
+29004, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29257, 34252, 1, "OK", 2, 95, 23, 23, 16, 7, 6, 0
+30260, 35927, 1, "OK", 6, 92, 5, 5, 5, 0, 0, 0
+29486, 34322, 1, "OK", 3, 88, 21, 21, 14, 7, 6, 0
+30347, 34252, 1, "OK", 5, 63, 3, 3, 3, 0, 0, 0
+29290, 34252, 1, "OK", 3, 94, 23, 23, 16, 7, 6, 0
+30260, 32852, 1, "OK", 3, 40, 2, 2, 2, 0, 0, 0
+32724, 34322, 1, "OK", 4, 28, 1, 1, 1, 0, 0, 0
+29486, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29534, 35927, 1, "OK", 3, 113, 23, 23, 16, 7, 6, 0
+29666, 29787, 1, "OK", 2, 1, 3, 2, 2, 0, 1, 1
+29582, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29559, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29534, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+30690, 35927, 1, "OK", 8, 86, 5, 5, 5, 0, 0, 0
+28893, 34288, 1, "OK", 1, 108, 24, 24, 17, 7, 6, 0
+29004, 35968, 1, "OK", 3, 134, 26, 26, 19, 7, 6, 0
+30690, 32852, 1, "OK", 5, 34, 2, 2, 2, 0, 0, 0
+28540, 36040, 1, "OK", 0, 150, 27, 27, 20, 7, 6, 0
+30260, 35968, 1, "OK", 6, 93, 5, 5, 5, 0, 0, 0
+29257, 34288, 1, "OK", 2, 96, 23, 23, 16, 7, 6, 0
+30347, 34288, 1, "OK", 6, 64, 3, 3, 3, 0, 0, 0
+28981, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages", 0, 0, 3, 3, 3, 0, 0, 0
+29290, 34288, 1, "OK", 3, 95, 23, 23, 16, 7, 6, 0
+34255, 36040, 1, "OK", 3, 32, 2, 2, 2, 0, 0, 0
+29360, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29420, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29327, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+31055, 32814, 1, "OK", 1, 28, 2, 2, 2, 0, 0, 0
+30690, 35968, 1, "OK", 8, 87, 5, 5, 5, 0, 0, 0
+29582, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 28889, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+34291, 35927, 1, "OK", 2, 27, 2, 2, 2, 0, 0, 0
+29004, 36003, 1, "OK", 3, 135, 26, 26, 19, 7, 6, 0
+28540, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29559, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28626, 29287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+28893, 34322, 1, "OK", 1, 109, 24, 24, 17, 7, 6, 0
+29534, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28893, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29257, 34322, 1, "OK", 2, 97, 23, 23, 16, 7, 6, 0
+28648, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+30347, 34322, 1, "OK", 6, 65, 3, 3, 3, 0, 0, 0
+31055, 35927, 1, "OK", 6, 81, 5, 5, 5, 0, 0, 0
+29290, 34322, 1, "OK", 3, 96, 23, 23, 16, 7, 6, 0
+31055, 32852, 1, "OK", 2, 29, 2, 2, 2, 0, 0, 0
+29534, 35968, 1, "OK", 3, 114, 23, 23, 16, 7, 6, 0
+28981, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages String dotsStart", 0, 0, 3, 3, 3, 0, 0, 0
+34255, 36076, 1, "OK", 3, 33, 2, 2, 2, 0, 0, 0
+29004, 36040, 1, "OK", 3, 137, 26, 26, 19, 7, 6, 0
+30416, 34252, 1, "OK", 5, 61, 3, 3, 3, 0, 0, 0
+34325, 35927, 1, "OK", 2, 26, 2, 2, 2, 0, 0, 0
+28626, 29324, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 3, 3, 3, 0, 0, 0
+31126, 32719, 1, "OK", 1, 25, 2, 2, 2, 0, 0, 0
+29791, 30073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages", 0, 0, 7, 5, 4, 1, 2, 1
+28648, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 22, 22, 15, 7, 6, 0
+29606, 29662, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+28626, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28981, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages String dotsStart String dotsEnd", 0, 0, 3, 3, 3, 0, 0, 0
+30260, 36003, 1, "OK", 6, 94, 5, 5, 5, 0, 0, 0
+34291, 35968, 1, "OK", 2, 28, 2, 2, 2, 0, 0, 0
+28540, 36076, 1, "OK", 0, 151, 27, 27, 20, 7, 6, 0
+28981, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 21, 21, 14, 7, 6, 0
+34291, 36003, 1, "OK", 2, 29, 2, 2, 2, 0, 0, 0
+29004, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29534, 36003, 1, "OK", 3, 115, 23, 23, 16, 7, 6, 0
+28893, 29248, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+29290, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+30690, 36003, 1, "OK", 8, 88, 5, 5, 5, 0, 0, 0
+29447, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29327, 34252, 1, "OK", 2, 92, 22, 22, 15, 7, 6, 0
+28626, 29357, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+29360, 34252, 1, "OK", 3, 91, 22, 22, 15, 7, 6, 0
+29420, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29486, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28626, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+30260, 36040, 1, "OK", 6, 96, 5, 5, 5, 0, 0, 0
+34325, 35968, 1, "OK", 2, 27, 2, 2, 2, 0, 0, 0
+31055, 35968, 1, "OK", 6, 82, 5, 5, 5, 0, 0, 0
+28540, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28893, 29287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+29534, 36040, 1, "OK", 3, 117, 23, 23, 16, 7, 6, 0
+34291, 36040, 1, "OK", 2, 31, 2, 2, 2, 0, 0, 0
+30690, 36040, 1, "OK", 8, 90, 5, 5, 5, 0, 0, 0
+28648, 35848, 1, "OK", 2, 143, 27, 27, 20, 7, 6, 0
+29004, 36076, 1, "OK", 3, 138, 26, 26, 19, 7, 6, 0
+30416, 34288, 1, "OK", 6, 62, 3, 3, 3, 0, 0, 0
+29420, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29486, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28981, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+29534, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30260, 36076, 1, "OK", 6, 97, 5, 5, 5, 0, 0, 0
+29559, 34252, 1, "OK", 4, 84, 21, 21, 14, 7, 6, 0
+28540, 28978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+31055, 36003, 1, "OK", 6, 83, 5, 5, 5, 0, 0, 0
+31126, 35848, 1, "OK", 6, 78, 5, 5, 5, 0, 0, 0
+34325, 36003, 1, "OK", 2, 28, 2, 2, 2, 0, 0, 0
+29791, 30127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 9, 6, 5, 1, 3, 1
+29534, 36076, 1, "OK", 3, 118, 23, 23, 16, 7, 6, 0
+28893, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+28540, 29001, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+30690, 36076, 1, "OK", 8, 91, 5, 5, 5, 0, 0, 0
+34325, 36040, 1, "OK", 2, 30, 2, 2, 2, 0, 0, 0
+28981, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 21, 21, 14, 7, 6, 0
+30600, 32719, 1, "OK", 4, 33, 2, 2, 2, 0, 0, 0
+28648, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+34291, 36076, 1, "OK", 2, 32, 2, 2, 2, 0, 0, 0
+29327, 34288, 1, "OK", 2, 93, 22, 22, 15, 7, 6, 0
+30416, 34322, 1, "OK", 6, 63, 3, 3, 3, 0, 0, 0
+29360, 34288, 1, "OK", 3, 92, 22, 22, 15, 7, 6, 0
+29290, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29447, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29559, 34288, 1, "OK", 4, 85, 21, 21, 14, 7, 6, 0
+29582, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 18, 18, 11, 7, 6, 0
+31055, 36040, 1, "OK", 6, 85, 5, 5, 5, 0, 0, 0
+29004, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+31126, 32814, 1, "OK", 1, 26, 2, 2, 2, 0, 0, 0
+28626, 29414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+28540, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28893, 29324, 1, "OK", 1, 15, 2, 2, 2, 0, 0, 0
+28648, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+28893, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+31014, 34252, 1, "OK", 4, 54, 3, 3, 3, 0, 0, 0
+34325, 36076, 1, "OK", 2, 31, 2, 2, 2, 0, 0, 0
+29257, 29324, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+29327, 34322, 1, "OK", 2, 94, 22, 22, 15, 7, 6, 0
+29290, 29324, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+29360, 34322, 1, "OK", 3, 93, 22, 22, 15, 7, 6, 0
+29257, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29791, 30175, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 11, 7, 6, 1, 4, 1
+31126, 32852, 1, "OK", 2, 27, 2, 2, 2, 0, 0, 0
+31055, 36076, 1, "OK", 6, 86, 5, 5, 5, 0, 0, 0
+29360, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29559, 34322, 1, "OK", 4, 86, 21, 21, 14, 7, 6, 0
+29327, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29606, 29787, 1, "OK", 2, 2, 5, 3, 3, 0, 2, 1
+28540, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28981, 35848, 1, "OK", 2, 133, 26, 26, 19, 7, 6, 0
+29832, 29948, 1, "OK", 1, 2, 4, 2, 2, 0, 1, 2
+28626, 29444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+28648, 35927, 1, "OK", 2, 144, 27, 27, 20, 7, 6, 0
+28893, 29357, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+31014, 34288, 1, "OK", 5, 55, 3, 3, 3, 0, 0, 0
+28648, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29534, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29290, 29357, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+29257, 29357, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+31126, 35927, 1, "OK", 6, 79, 5, 5, 5, 0, 0, 0
+29290, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+30600, 35848, 1, "OK", 8, 86, 5, 5, 5, 0, 0, 0
+29004, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29257, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28626, 29483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int endRangePages", 0, 0, 4, 4, 4, 0, 0, 0
+28981, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+28648, 35968, 1, "OK", 2, 145, 27, 27, 20, 7, 6, 0
+28626, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 22, 22, 15, 7, 6, 0
+29559, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29534, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+31014, 34322, 1, "OK", 5, 56, 3, 3, 3, 0, 0, 0
+28893, 29414, 1, "OK", 1, 18, 3, 3, 3, 0, 0, 0
+31126, 35968, 1, "OK", 6, 80, 5, 5, 5, 0, 0, 0
+29447, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+30600, 32814, 1, "OK", 4, 34, 2, 2, 2, 0, 0, 0
+29004, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29257, 29414, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+28648, 36003, 1, "OK", 2, 146, 27, 27, 20, 7, 6, 0
+29420, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29290, 29414, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+29486, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 18, 18, 11, 7, 6, 0
+30901, 32719, 1, "OK", 1, 30, 2, 2, 2, 0, 0, 0
+29582, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29447, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+31126, 36003, 1, "OK", 6, 81, 5, 5, 5, 0, 0, 0
+30600, 32852, 1, "OK", 5, 35, 2, 2, 2, 0, 0, 0
+28626, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages", 0, 0, 4, 4, 4, 0, 0, 0
+28893, 29444, 1, "OK", 1, 20, 3, 3, 3, 0, 0, 0
+28981, 35927, 1, "OK", 2, 134, 26, 26, 19, 7, 6, 0
+28981, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+29257, 29444, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+29327, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+28981, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29290, 29444, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+29666, 30073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages", 0, 0, 10, 7, 6, 1, 3, 1
+29360, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29534, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 34252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String dotsEnd", 0, 0, 25, 25, 18, 7, 6, 0
+30600, 35927, 1, "OK", 8, 87, 5, 5, 5, 0, 0, 0
+28648, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28893, 29483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int endRangePages", 0, 0, 3, 3, 3, 0, 0, 0
+28981, 35968, 1, "OK", 2, 135, 26, 26, 19, 7, 6, 0
+28893, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 21, 21, 14, 7, 6, 0
+30506, 32719, 1, "OK", 3, 34, 2, 2, 2, 0, 0, 0
+32817, 35848, 1, "OK", 6, 52, 3, 3, 3, 0, 0, 0
+29447, 35848, 1, "OK", 2, 114, 23, 23, 16, 7, 6, 0
+28626, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages String dotsStart", 0, 0, 4, 4, 4, 0, 0, 0
+28648, 36040, 1, "OK", 2, 148, 27, 27, 20, 7, 6, 0
+29290, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 20, 20, 13, 7, 6, 0
+28626, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages String dotsStart String dotsEnd", 0, 0, 4, 4, 4, 0, 0, 0
+29360, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29327, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+30600, 35968, 1, "OK", 8, 88, 5, 5, 5, 0, 0, 0
+30936, 32719, 1, "OK", 1, 29, 2, 2, 2, 0, 0, 0
+28626, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 22, 22, 15, 7, 6, 0
+28540, 34288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 25, 25, 18, 7, 6, 0
+30901, 35848, 1, "OK", 6, 83, 5, 5, 5, 0, 0, 0
+28648, 28889, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+29559, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+31126, 36040, 1, "OK", 6, 83, 5, 5, 5, 0, 0, 0
+29666, 30127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 12, 8, 7, 1, 4, 1
+28981, 36003, 1, "OK", 2, 136, 26, 26, 19, 7, 6, 0
+29447, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28648, 36076, 1, "OK", 2, 149, 27, 27, 20, 7, 6, 0
+29290, 29483, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+29582, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 29483, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+29004, 34252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+28893, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages", 0, 0, 3, 3, 3, 0, 0, 0
+30506, 35848, 1, "OK", 7, 87, 5, 5, 5, 0, 0, 0
+30600, 36003, 1, "OK", 8, 89, 5, 5, 5, 0, 0, 0
+29420, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+30901, 32814, 1, "OK", 1, 31, 2, 2, 2, 0, 0, 0
+29486, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+30260, 34252, 1, "OK", 5, 64, 3, 3, 3, 0, 0, 0
+31126, 36076, 1, "OK", 6, 84, 5, 5, 5, 0, 0, 0
+28540, 34322, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 25, 25, 18, 7, 6, 0
+29582, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29559, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29447, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29534, 34252, 1, "OK", 3, 85, 21, 21, 14, 7, 6, 0
+30690, 34252, 1, "OK", 7, 58, 3, 3, 3, 0, 0, 0
+29004, 34288, 1, "OK", 3, 106, 24, 24, 17, 7, 6, 0
+28626, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+29666, 30175, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 14, 9, 8, 1, 5, 1
+28648, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+30260, 34288, 1, "OK", 6, 65, 3, 3, 3, 0, 0, 0
+29582, 35848, 1, "OK", 5, 110, 23, 23, 16, 7, 6, 0
+28893, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages String dotsStart", 0, 0, 3, 3, 3, 0, 0, 0
+29327, 29414, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+29360, 29414, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+28981, 36040, 1, "OK", 2, 138, 26, 26, 19, 7, 6, 0
+29290, 29531, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+28540, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29257, 29531, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+30936, 35848, 1, "OK", 6, 82, 5, 5, 5, 0, 0, 0
+29447, 35927, 1, "OK", 2, 115, 23, 23, 16, 7, 6, 0
+28626, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 22, 22, 15, 7, 6, 0
+30690, 34288, 1, "OK", 8, 59, 3, 3, 3, 0, 0, 0
+28893, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages String dotsStart String dotsEnd", 0, 0, 3, 3, 3, 0, 0, 0
+29257, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart", 0, 0, 2, 2, 2, 0, 0, 0
+28648, 28978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+29290, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart", 0, 0, 2, 2, 2, 0, 0, 0
+28893, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 21, 21, 14, 7, 6, 0
+29447, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 29248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+29004, 34322, 1, "OK", 3, 107, 24, 24, 17, 7, 6, 0
+30506, 32814, 1, "OK", 3, 35, 2, 2, 2, 0, 0, 0
+30901, 35927, 1, "OK", 6, 84, 5, 5, 5, 0, 0, 0
+30600, 36040, 1, "OK", 8, 91, 5, 5, 5, 0, 0, 0
+28981, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+30901, 32852, 1, "OK", 2, 32, 2, 2, 2, 0, 0, 0
+30260, 34322, 1, "OK", 6, 66, 3, 3, 3, 0, 0, 0
+31055, 34252, 1, "OK", 4, 53, 3, 3, 3, 0, 0, 0
+29290, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 20, 20, 13, 7, 6, 0
+29447, 35968, 1, "OK", 2, 116, 23, 23, 16, 7, 6, 0
+28981, 36076, 1, "OK", 2, 139, 26, 26, 19, 7, 6, 0
+32817, 35927, 1, "OK", 6, 53, 3, 3, 3, 0, 0, 0
+29327, 29444, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+30936, 32814, 1, "OK", 1, 30, 2, 2, 2, 0, 0, 0
+29360, 29444, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+29534, 34288, 1, "OK", 3, 86, 21, 21, 14, 7, 6, 0
+30506, 35927, 1, "OK", 7, 88, 5, 5, 5, 0, 0, 0
+32817, 35968, 1, "OK", 6, 54, 3, 3, 3, 0, 0, 0
+28540, 29287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+30901, 35968, 1, "OK", 6, 85, 5, 5, 5, 0, 0, 0
+30506, 32852, 1, "OK", 4, 36, 2, 2, 2, 0, 0, 0
+29420, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+30600, 36076, 1, "OK", 8, 92, 5, 5, 5, 0, 0, 0
+28648, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28648, 29001, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+29290, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart String dotsEnd", 0, 0, 2, 2, 2, 0, 0, 0
+29486, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart String dotsEnd", 0, 0, 2, 2, 2, 0, 0, 0
+29004, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29582, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29360, 29483, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+30936, 32852, 1, "OK", 2, 31, 2, 2, 2, 0, 0, 0
+29327, 29483, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+29447, 36003, 1, "OK", 2, 117, 23, 23, 16, 7, 6, 0
+29360, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 19, 19, 12, 7, 6, 0
+29327, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 19, 19, 12, 7, 6, 0
+28626, 35848, 1, "OK", 1, 144, 27, 27, 20, 7, 6, 0
+29420, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29004, 29248, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+29534, 34322, 1, "OK", 3, 87, 21, 21, 14, 7, 6, 0
+29486, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+30690, 34322, 1, "OK", 8, 60, 3, 3, 3, 0, 0, 0
+28540, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29534, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30901, 36003, 1, "OK", 6, 86, 5, 5, 5, 0, 0, 0
+28981, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+32855, 35848, 1, "OK", 5, 51, 3, 3, 3, 0, 0, 0
+32817, 36003, 1, "OK", 6, 55, 3, 3, 3, 0, 0, 0
+30131, 30175, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+29582, 35927, 1, "OK", 5, 111, 23, 23, 16, 7, 6, 0
+28648, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29582, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+31055, 34288, 1, "OK", 5, 54, 3, 3, 3, 0, 0, 0
+30936, 35927, 1, "OK", 6, 83, 5, 5, 5, 0, 0, 0
+29004, 29287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+28626, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+29420, 35848, 1, "OK", 2, 115, 23, 23, 16, 7, 6, 0
+29486, 35848, 1, "OK", 3, 113, 23, 23, 16, 7, 6, 0
+30506, 35968, 1, "OK", 7, 89, 5, 5, 5, 0, 0, 0
+29606, 30073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages", 0, 0, 12, 8, 7, 1, 4, 1
+28540, 29324, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 3, 3, 3, 0, 0, 0
+28893, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+29559, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29447, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29360, 29531, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+28540, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29327, 29531, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+32724, 35848, 1, "OK", 6, 53, 3, 3, 3, 0, 0, 0
+30936, 35968, 1, "OK", 6, 84, 5, 5, 5, 0, 0, 0
+29290, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+32817, 36040, 1, "OK", 6, 57, 3, 3, 3, 0, 0, 0
+29257, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+30347, 32719, 1, "OK", 2, 37, 2, 2, 2, 0, 0, 0
+31055, 34322, 1, "OK", 5, 55, 3, 3, 3, 0, 0, 0
+29447, 36040, 1, "OK", 2, 119, 23, 23, 16, 7, 6, 0
+29582, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28893, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 21, 21, 14, 7, 6, 0
+29004, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+30506, 36003, 1, "OK", 7, 90, 5, 5, 5, 0, 0, 0
+28981, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29290, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 20, 20, 13, 7, 6, 0
+30901, 36040, 1, "OK", 6, 88, 5, 5, 5, 0, 0, 0
+29582, 35968, 1, "OK", 5, 112, 23, 23, 16, 7, 6, 0
+28540, 29357, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+28893, 35848, 1, "OK", 1, 134, 26, 26, 19, 7, 6, 0
+30936, 36003, 1, "OK", 6, 85, 5, 5, 5, 0, 0, 0
+29606, 30127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 14, 9, 8, 1, 5, 1
+28626, 35927, 1, "OK", 1, 145, 27, 27, 20, 7, 6, 0
+29327, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart", 0, 0, 1, 1, 1, 0, 0, 0
+29447, 36076, 1, "OK", 2, 120, 23, 23, 16, 7, 6, 0
+29360, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart", 0, 0, 1, 1, 1, 0, 0, 0
+32817, 36076, 1, "OK", 6, 58, 3, 3, 3, 0, 0, 0
+28626, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+29420, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29004, 29324, 1, "OK", 3, 13, 2, 2, 2, 0, 0, 0
+29486, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28626, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29004, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+30347, 35848, 1, "OK", 6, 90, 5, 5, 5, 0, 0, 0
+29290, 35848, 1, "OK", 3, 121, 25, 25, 18, 7, 6, 0
+30506, 36040, 1, "OK", 7, 92, 5, 5, 5, 0, 0, 0
+29360, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart String dotsEnd", 0, 0, 1, 1, 1, 0, 0, 0
+29327, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int deltaPages String dotsStart String dotsEnd", 0, 0, 1, 1, 1, 0, 0, 0
+28981, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+30901, 36076, 1, "OK", 6, 89, 5, 5, 5, 0, 0, 0
+29360, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 19, 19, 12, 7, 6, 0
+29582, 36003, 1, "OK", 5, 113, 23, 23, 16, 7, 6, 0
+29327, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 19, 19, 12, 7, 6, 0
+28626, 35968, 1, "OK", 1, 146, 27, 27, 20, 7, 6, 0
+29559, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29420, 35927, 1, "OK", 2, 116, 23, 23, 16, 7, 6, 0
+29486, 35927, 1, "OK", 3, 114, 23, 23, 16, 7, 6, 0
+29534, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 29414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+29420, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29486, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28648, 34252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String dotsEnd", 0, 0, 25, 25, 18, 7, 6, 0
+29004, 29357, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+29257, 35848, 1, "OK", 2, 122, 25, 25, 18, 7, 6, 0
+32855, 35927, 1, "OK", 5, 52, 3, 3, 3, 0, 0, 0
+29447, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29606, 30175, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 16, 10, 9, 1, 6, 1
+29582, 36040, 1, "OK", 5, 115, 23, 23, 16, 7, 6, 0
+31126, 34252, 1, "OK", 4, 51, 3, 3, 3, 0, 0, 0
+28893, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+30936, 36040, 1, "OK", 6, 87, 5, 5, 5, 0, 0, 0
+29534, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 29444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+29582, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28648, 34288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 25, 25, 18, 7, 6, 0
+29257, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29420, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30347, 32814, 1, "OK", 2, 38, 2, 2, 2, 0, 0, 0
+29290, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29486, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30506, 36076, 1, "OK", 7, 93, 5, 5, 5, 0, 0, 0
+30416, 32719, 1, "OK", 2, 35, 2, 2, 2, 0, 0, 0
+29582, 36076, 1, "OK", 5, 116, 23, 23, 16, 7, 6, 0
+31126, 34288, 1, "OK", 5, 52, 3, 3, 3, 0, 0, 0
+32724, 35927, 1, "OK", 6, 54, 3, 3, 3, 0, 0, 0
+28893, 35927, 1, "OK", 1, 135, 26, 26, 19, 7, 6, 0
+29004, 29414, 1, "OK", 3, 16, 3, 3, 3, 0, 0, 0
+28893, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+30936, 36076, 1, "OK", 6, 88, 5, 5, 5, 0, 0, 0
+32855, 35968, 1, "OK", 5, 53, 3, 3, 3, 0, 0, 0
+29420, 35968, 1, "OK", 2, 117, 23, 23, 16, 7, 6, 0
+28626, 36003, 1, "OK", 1, 147, 27, 27, 20, 7, 6, 0
+29486, 35968, 1, "OK", 3, 115, 23, 23, 16, 7, 6, 0
+29290, 35927, 1, "OK", 3, 122, 25, 25, 18, 7, 6, 0
+28540, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 22, 22, 15, 7, 6, 0
+29257, 35927, 1, "OK", 2, 123, 25, 25, 18, 7, 6, 0
+29257, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+30347, 35927, 1, "OK", 6, 91, 5, 5, 5, 0, 0, 0
+30347, 32852, 1, "OK", 3, 39, 2, 2, 2, 0, 0, 0
+28648, 34322, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 25, 25, 18, 7, 6, 0
+29290, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29447, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29360, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29327, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+31126, 34322, 1, "OK", 5, 53, 3, 3, 3, 0, 0, 0
+28981, 34252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+29420, 36003, 1, "OK", 2, 118, 23, 23, 16, 7, 6, 0
+29004, 29444, 1, "OK", 3, 18, 3, 3, 3, 0, 0, 0
+29559, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+30416, 35848, 1, "OK", 6, 88, 5, 5, 5, 0, 0, 0
+29486, 36003, 1, "OK", 3, 116, 23, 23, 16, 7, 6, 0
+28626, 36040, 1, "OK", 1, 149, 27, 27, 20, 7, 6, 0
+28540, 29483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int endRangePages", 0, 0, 4, 4, 4, 0, 0, 0
+28893, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+32724, 35968, 1, "OK", 6, 55, 3, 3, 3, 0, 0, 0
+32855, 36003, 1, "OK", 5, 54, 3, 3, 3, 0, 0, 0
+29360, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 19, 19, 12, 7, 6, 0
+29327, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 19, 19, 12, 7, 6, 0
+32724, 36003, 1, "OK", 6, 56, 3, 3, 3, 0, 0, 0
+32855, 36040, 1, "OK", 5, 56, 3, 3, 3, 0, 0, 0
+28626, 28889, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+29447, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29559, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+29290, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28626, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28648, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28893, 35968, 1, "OK", 1, 136, 26, 26, 19, 7, 6, 0
+30600, 34252, 1, "OK", 7, 59, 3, 3, 3, 0, 0, 0
+30416, 32814, 1, "OK", 2, 36, 2, 2, 2, 0, 0, 0
+28981, 34288, 1, "OK", 2, 107, 24, 24, 17, 7, 6, 0
+29004, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 21, 21, 14, 7, 6, 0
+29420, 36040, 1, "OK", 2, 120, 23, 23, 16, 7, 6, 0
+29327, 35848, 1, "OK", 2, 119, 24, 24, 17, 7, 6, 0
+28626, 36076, 1, "OK", 1, 150, 27, 27, 20, 7, 6, 0
+29486, 36040, 1, "OK", 3, 118, 23, 23, 16, 7, 6, 0
+29257, 35968, 1, "OK", 2, 124, 25, 25, 18, 7, 6, 0
+28648, 29248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+29360, 35848, 1, "OK", 3, 118, 24, 24, 17, 7, 6, 0
+29582, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30347, 35968, 1, "OK", 6, 92, 5, 5, 5, 0, 0, 0
+29290, 35968, 1, "OK", 3, 123, 25, 25, 18, 7, 6, 0
+29420, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+31014, 32719, 1, "OK", 1, 28, 2, 2, 2, 0, 0, 0
+32724, 36040, 1, "OK", 6, 58, 3, 3, 3, 0, 0, 0
+29486, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30600, 34288, 1, "OK", 8, 60, 3, 3, 3, 0, 0, 0
+32855, 36076, 1, "OK", 5, 57, 3, 3, 3, 0, 0, 0
+28893, 36003, 1, "OK", 1, 137, 26, 26, 19, 7, 6, 0
+28540, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages", 0, 0, 4, 4, 4, 0, 0, 0
+29004, 29483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int endRangePages", 0, 0, 3, 3, 3, 0, 0, 0
+28981, 34322, 1, "OK", 2, 108, 24, 24, 17, 7, 6, 0
+29360, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29486, 36076, 1, "OK", 3, 119, 23, 23, 16, 7, 6, 0
+29582, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages String dotsStart", 0, 0, 4, 4, 4, 0, 0, 0
+29290, 36003, 1, "OK", 3, 124, 25, 25, 18, 7, 6, 0
+29257, 36003, 1, "OK", 2, 125, 25, 25, 18, 7, 6, 0
+30347, 36003, 1, "OK", 6, 93, 5, 5, 5, 0, 0, 0
+29559, 35848, 1, "OK", 4, 111, 23, 23, 16, 7, 6, 0
+28893, 36040, 1, "OK", 1, 139, 26, 26, 19, 7, 6, 0
+29534, 30503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel", 0, 0, 18, 18, 11, 7, 6, 0
+30600, 34322, 1, "OK", 8, 61, 3, 3, 3, 0, 0, 0
+30416, 35927, 1, "OK", 6, 89, 5, 5, 5, 0, 0, 0
+28540, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 22, 22, 15, 7, 6, 0
+32724, 36076, 1, "OK", 6, 59, 3, 3, 3, 0, 0, 0
+30416, 32852, 1, "OK", 3, 37, 2, 2, 2, 0, 0, 0
+28648, 29287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+29327, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29420, 36076, 1, "OK", 2, 121, 23, 23, 16, 7, 6, 0
+30347, 36040, 1, "OK", 6, 95, 5, 5, 5, 0, 0, 0
+29290, 36040, 1, "OK", 3, 126, 25, 25, 18, 7, 6, 0
+29559, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28893, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+28981, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+28626, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28540, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int deltaPages String dotsStart String dotsEnd", 0, 0, 4, 4, 4, 0, 0, 0
+29004, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages", 0, 0, 3, 3, 3, 0, 0, 0
+28981, 29248, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+29290, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29360, 35927, 1, "OK", 3, 119, 24, 24, 17, 7, 6, 0
+29004, 29556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages String dotsStart", 0, 0, 3, 3, 3, 0, 0, 0
+29327, 35927, 1, "OK", 2, 120, 24, 24, 17, 7, 6, 0
+29327, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29447, 34252, 1, "OK", 2, 87, 21, 21, 14, 7, 6, 0
+28648, 29324, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 3, 3, 3, 0, 0, 0
+29360, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+28626, 28978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+29582, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+31014, 35848, 1, "OK", 6, 81, 5, 5, 5, 0, 0, 0
+32817, 34252, 1, "OK", 3, 25, 1, 1, 1, 0, 0, 0
+29257, 36040, 1, "OK", 2, 127, 25, 25, 18, 7, 6, 0
+28648, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29559, 32852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29004, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 21, 21, 14, 7, 6, 0
+28626, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+28626, 29001, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+29420, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30901, 34252, 1, "OK", 4, 56, 3, 3, 3, 0, 0, 0
+29486, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28893, 36076, 1, "OK", 1, 140, 26, 26, 19, 7, 6, 0
+30416, 35968, 1, "OK", 6, 90, 5, 5, 5, 0, 0, 0
+29447, 34288, 1, "OK", 2, 88, 21, 21, 14, 7, 6, 0
+31014, 32814, 1, "OK", 1, 29, 2, 2, 2, 0, 0, 0
+28648, 29357, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+29257, 36076, 1, "OK", 2, 128, 25, 25, 18, 7, 6, 0
+28648, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+30347, 36076, 1, "OK", 6, 96, 5, 5, 5, 0, 0, 0
+29290, 36076, 1, "OK", 3, 127, 25, 25, 18, 7, 6, 0
+29004, 29579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int deltaPages String dotsStart String dotsEnd", 0, 0, 3, 3, 3, 0, 0, 0
+29360, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29327, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29559, 35927, 1, "OK", 4, 112, 23, 23, 16, 7, 6, 0
+28626, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 22, 22, 15, 7, 6, 0
+29486, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30901, 34288, 1, "OK", 5, 57, 3, 3, 3, 0, 0, 0
+29559, 30831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+30416, 36003, 1, "OK", 6, 91, 5, 5, 5, 0, 0, 0
+29327, 35968, 1, "OK", 2, 121, 24, 24, 17, 7, 6, 0
+28981, 29287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+30077, 30127, 1, "OK", 3, 1, 2, 1, 1, 0, 1, 1
+29360, 35968, 1, "OK", 3, 120, 24, 24, 17, 7, 6, 0
+31014, 32852, 1, "OK", 2, 30, 2, 2, 2, 0, 0, 0
+29447, 34322, 1, "OK", 2, 89, 21, 21, 14, 7, 6, 0
+29559, 35968, 1, "OK", 4, 113, 23, 23, 16, 7, 6, 0
+29534, 30597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 18, 18, 11, 7, 6, 0
+28540, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 22, 22, 15, 7, 6, 0
+28893, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+30506, 34252, 1, "OK", 6, 60, 3, 3, 3, 0, 0, 0
+29420, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+32817, 34288, 1, "OK", 4, 26, 1, 1, 1, 0, 0, 0
+28648, 29414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+29582, 34252, 1, "OK", 5, 83, 21, 21, 14, 7, 6, 0
+30901, 34322, 1, "OK", 5, 58, 3, 3, 3, 0, 0, 0
+29290, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29257, 31011, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+28981, 29324, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+30416, 36040, 1, "OK", 6, 93, 5, 5, 5, 0, 0, 0
+28981, 30344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+29360, 36003, 1, "OK", 3, 121, 24, 24, 17, 7, 6, 0
+30936, 34252, 1, "OK", 4, 55, 3, 3, 3, 0, 0, 0
+29327, 36003, 1, "OK", 2, 122, 24, 24, 17, 7, 6, 0
+31014, 35927, 1, "OK", 6, 82, 5, 5, 5, 0, 0, 0
+28540, 35848, 1, "OK", 0, 145, 27, 27, 20, 7, 6, 0
+29559, 36003, 1, "OK", 4, 114, 23, 23, 16, 7, 6, 0
+30506, 34288, 1, "OK", 7, 61, 3, 3, 3, 0, 0, 0
+29004, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 23, 23, 16, 7, 6, 0
+29420, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+34255, 35848, 1, "OK", 3, 27, 2, 2, 2, 0, 0, 0
+29447, 30251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+29486, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+30077, 30175, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dotsStart String dotsEnd", 0, 0, 4, 2, 2, 0, 2, 1
+30260, 32719, 1, "OK", 2, 38, 2, 2, 2, 0, 0, 0
+32817, 34322, 1, "OK", 4, 27, 1, 1, 1, 0, 0, 0
+28648, 29444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+30416, 36076, 1, "OK", 6, 94, 5, 5, 5, 0, 0, 0
+29327, 36040, 1, "OK", 2, 124, 24, 24, 17, 7, 6, 0
+31014, 35968, 1, "OK", 6, 83, 5, 5, 5, 0, 0, 0
+30936, 34288, 1, "OK", 5, 56, 3, 3, 3, 0, 0, 0
+28981, 29357, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+29360, 36040, 1, "OK", 3, 123, 24, 24, 17, 7, 6, 0
+29004, 30687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd String pageLabel String pageOfLabel", 0, 0, 21, 21, 14, 7, 6, 0
+28981, 30377, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+28893, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0
+30690, 32719, 1, "OK", 4, 32, 2, 2, 2, 0, 0, 0
+30506, 34322, 1, "OK", 7, 62, 3, 3, 3, 0, 0, 0
+29360, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29327, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 19, 19, 12, 7, 6, 0
+29257, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29290, 31052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29582, 34288, 1, "OK", 5, 84, 21, 21, 14, 7, 6, 0
+29327, 36076, 1, "OK", 2, 125, 24, 24, 17, 7, 6, 0
+29559, 30933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 18, 18, 11, 7, 6, 0
+31014, 36003, 1, "OK", 6, 84, 5, 5, 5, 0, 0, 0
+29004, 35848, 1, "OK", 3, 132, 26, 26, 19, 7, 6, 0
+29360, 36076, 1, "OK", 3, 124, 24, 24, 17, 7, 6, 0
+30936, 34322, 1, "OK", 5, 57, 3, 3, 3, 0, 0, 0
+28626, 34252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String dotsEnd", 0, 0, 25, 25, 18, 7, 6, 0
+29534, 32719, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 20, 20, 13, 7, 6, 0
+29559, 36040, 1, "OK", 4, 116, 23, 23, 16, 7, 6, 0
+28540, 32814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 24, 24, 17, 7, 6, 0
+28893, 31087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int startRangePages int endRangePages String dotsStart String dotsEnd", 0, 0, 21, 21, 14, 7, 6, 0

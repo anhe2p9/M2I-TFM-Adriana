@@ -1,0 +1,67 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+37374, 37775, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+38556, 39660, 1, "OK", 3, 19, 6, 4, 4, 0, 1, 2
+38006, 38415, 0, "Compilation unit does not compile after method extraction.", 2, 11, 6, 2, 2, 0, 2, 2
+37315, 37947, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 9, 5, 4, 5, 1
+38484, 39600, 1, "OK", 1, 18, 6, 4, 4, 0, 1, 2
+36763, 39930, 0, "Compilation unit does not compile after method extraction.", 1, 78, 37, 37, 19, 18, 11, 0
+36763, 37246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JavaBeanDeserializer beanDeser", 0, 0, 3, 3, 3, 0, 0, 0
+36856, 37054, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+39691, 39919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+37841, 39675, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 12, 9, 3, 5, 1
+37410, 37552, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+37631, 37741, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+38622, 39660, 1, "OK", 4, 18, 6, 4, 4, 0, 1, 2
+37963, 39772, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 12, 9, 3, 5, 1
+37066, 39930, 0, "Compilation unit does not compile after method extraction.", 3, 71, 36, 36, 18, 18, 11, 0
+38006, 38444, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+36808, 37054, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+37066, 37246, 1, "OK", 0, 3, 2, 2, 2, 0, 0, 0
+38006, 38186, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+37315, 39772, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 31, 21, 14, 7, 10, 1
+36930, 39930, 0, "Compilation unit does not compile after method extraction.", 4, 75, 37, 37, 19, 18, 11, 0
+37374, 37947, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 9, 5, 4, 5, 1
+38287, 38444, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+37570, 37760, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+36930, 37246, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+37791, 37947, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+37315, 37827, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+38287, 38415, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+38658, 39600, 1, "OK", 2, 15, 6, 4, 4, 0, 1, 2
+38206, 38415, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+38622, 39600, 1, "OK", 2, 16, 6, 4, 4, 0, 1, 2
+37963, 39675, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 11, 8, 3, 4, 1
+38874, 39600, 1, "OK", 2, 12, 3, 3, 3, 0, 0, 2
+38556, 39600, 1, "OK", 2, 17, 6, 4, 4, 0, 1, 2
+37315, 39675, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 29, 20, 13, 7, 9, 1
+38484, 39660, 1, "OK", 2, 20, 6, 4, 4, 0, 1, 2
+37791, 39772, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 10, 3, 6, 1
+37374, 39772, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 31, 21, 14, 7, 10, 1
+37410, 37760, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+36856, 39930, 0, "Compilation unit does not compile after method extraction.", 3, 76, 37, 37, 19, 18, 11, 0
+37374, 37827, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+36763, 37054, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JavaBeanDeserializer beanDeser", 0, 0, 1, 1, 1, 0, 0, 0
+36856, 37246, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+37963, 39919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 13, 10, 3, 6, 1
+39788, 39919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+38251, 38415, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+37841, 37947, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+37315, 39919, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+37374, 39919, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+36808, 39930, 0, "Compilation unit does not compile after method extraction.", 2, 77, 37, 37, 19, 18, 11, 0
+39691, 39772, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+37258, 39930, 1, "OK", 3, 67, 34, 34, 16, 18, 11, 0
+37791, 39919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 14, 11, 3, 7, 1
+36808, 37246, 1, "OK", 1, 9, 3, 3, 3, 0, 0, 0
+39069, 39600, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 2
+37374, 39675, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 29, 20, 13, 7, 9, 1
+38006, 38259, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+37841, 39919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 14, 11, 3, 7, 1
+36930, 37054, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+37791, 39675, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 12, 9, 3, 5, 1
+38251, 38444, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+38006, 38233, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+38658, 39660, 1, "OK", 4, 17, 6, 4, 4, 0, 1, 2
+38206, 38444, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+37841, 39772, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 10, 3, 6, 1
+37315, 37775, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1

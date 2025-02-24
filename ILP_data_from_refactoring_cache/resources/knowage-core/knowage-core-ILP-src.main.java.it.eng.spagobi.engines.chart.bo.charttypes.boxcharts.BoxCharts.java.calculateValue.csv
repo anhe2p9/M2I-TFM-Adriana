@@ -1,0 +1,101 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3404, 4880, 1, "OK", 2, 59, 28, 28, 11, 17, 8, 0
+4464, 4789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first Double valore", 0, 0, 12, 3, 3, 0, 3, 3
+4565, 4730, 1, "OK", 2, 7, 8, 2, 2, 0, 2, 3
+3561, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+3310, 4980, 1, "OK", 2, 66, 28, 28, 11, 17, 8, 0
+3138, 4944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultBoxAndWhiskerCategoryDataset dataset DatasetMap datasets", 0, 0, 28, 28, 11, 17, 8, 0
+3427, 4944, 1, "OK", 2, 60, 28, 28, 11, 17, 8, 0
+3041, 4880, 1, "OK", 0, 68, 28, 28, 11, 17, 8, 0
+4232, 4827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 16, 8, 5, 3, 4, 2
+3735, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+4736, 4820, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+3310, 4999, 1, "OK", 2, 67, 28, 28, 11, 17, 8, 0
+3404, 4904, 1, "OK", 2, 61, 28, 28, 11, 17, 8, 0
+3787, 4040, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first2 String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+4464, 4820, 1, "OK", 3, 13, 12, 3, 3, 0, 3, 3
+3041, 4904, 1, "OK", 0, 70, 28, 28, 11, 17, 8, 0
+3138, 4980, 1, "OK", 1, 71, 28, 28, 11, 17, 8, 0
+3427, 4980, 1, "OK", 2, 61, 28, 28, 11, 17, 8, 0
+3787, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+4283, 4827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 16, 8, 5, 3, 4, 2
+4565, 4789, 1, "OK", 2, 8, 12, 3, 3, 0, 3, 3
+3404, 4944, 1, "OK", 2, 62, 28, 28, 11, 17, 8, 0
+3427, 4999, 1, "OK", 2, 62, 28, 28, 11, 17, 8, 0
+3138, 4999, 1, "OK", 1, 72, 28, 28, 11, 17, 8, 0
+3847, 4017, 1, "OK", 1, 6, 7, 3, 3, 0, 2, 2
+3041, 4944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultBoxAndWhiskerCategoryDataset dataset DatasetMap datasets", 0, 0, 28, 28, 11, 17, 8, 0
+3489, 4880, 1, "OK", 4, 52, 28, 28, 11, 17, 8, 0
+3167, 4880, 1, "OK", 1, 65, 28, 28, 11, 17, 8, 0
+4193, 4827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 16, 8, 5, 3, 4, 2
+3847, 4035, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+3473, 4880, 1, "OK", 4, 54, 28, 28, 11, 17, 8, 0
+4565, 4820, 1, "OK", 3, 10, 12, 3, 3, 0, 3, 3
+3787, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+3019, 4880, 1, "OK", 0, 69, 28, 28, 11, 17, 8, 0
+4119, 4827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 16, 8, 5, 3, 4, 2
+3404, 4980, 1, "OK", 2, 63, 28, 28, 11, 17, 8, 0
+3616, 4040, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first2 List atts List values String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+3489, 4904, 1, "OK", 4, 54, 28, 28, 11, 17, 8, 0
+3167, 4904, 1, "OK", 1, 67, 28, 28, 11, 17, 8, 0
+3831, 4040, 1, "OK", 2, 9, 9, 6, 4, 2, 3, 1
+3041, 4980, 1, "OK", 0, 72, 28, 28, 11, 17, 8, 0
+3259, 4880, 1, "OK", 2, 63, 28, 28, 11, 17, 8, 0
+3449, 4880, 1, "OK", 3, 56, 28, 28, 11, 17, 8, 0
+3473, 4904, 1, "OK", 4, 56, 28, 28, 11, 17, 8, 0
+3404, 4999, 1, "OK", 2, 64, 28, 28, 11, 17, 8, 0
+3019, 4904, 1, "OK", 0, 71, 28, 28, 11, 17, 8, 0
+3616, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 List values String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+3041, 4999, 1, "OK", 0, 73, 28, 28, 11, 17, 8, 0
+4464, 4665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first Double valore", 0, 0, 4, 1, 1, 0, 1, 3
+3807, 4040, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first2 String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+3831, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+3259, 4904, 1, "OK", 2, 65, 28, 28, 11, 17, 8, 0
+3449, 4904, 1, "OK", 3, 58, 28, 28, 11, 17, 8, 0
+3489, 4944, 1, "OK", 4, 55, 28, 28, 11, 17, 8, 0
+3167, 4944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultBoxAndWhiskerCategoryDataset dataset DatasetMap datasets", 0, 0, 28, 28, 11, 17, 8, 0
+4677, 4730, 1, "OK", 1, 1, 4, 1, 1, 0, 1, 3
+3473, 4944, 1, "OK", 4, 57, 28, 28, 11, 17, 8, 0
+3310, 4880, 1, "OK", 2, 62, 28, 28, 11, 17, 8, 0
+3807, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+3019, 4944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultBoxAndWhiskerCategoryDataset dataset DatasetMap datasets", 0, 0, 28, 28, 11, 17, 8, 0
+3616, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+3767, 4040, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first2 String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+3489, 4980, 1, "OK", 4, 56, 28, 28, 11, 17, 8, 0
+3167, 4980, 1, "OK", 1, 69, 28, 28, 11, 17, 8, 0
+3259, 4944, 1, "OK", 2, 66, 28, 28, 11, 17, 8, 0
+3831, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+3449, 4944, 1, "OK", 3, 59, 28, 28, 11, 17, 8, 0
+3310, 4904, 1, "OK", 2, 64, 28, 28, 11, 17, 8, 0
+3561, 4040, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first2 List atts List values String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+3473, 4980, 1, "OK", 4, 58, 28, 28, 11, 17, 8, 0
+3489, 4999, 1, "OK", 4, 57, 28, 28, 11, 17, 8, 0
+4565, 4665, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+3167, 4999, 1, "OK", 1, 70, 28, 28, 11, 17, 8, 0
+4464, 4730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first Double valore", 0, 0, 8, 2, 2, 0, 2, 3
+3019, 4980, 1, "OK", 0, 73, 28, 28, 11, 17, 8, 0
+3767, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+3138, 4880, 1, "OK", 1, 67, 28, 28, 11, 17, 8, 0
+3427, 4880, 1, "OK", 2, 57, 28, 28, 11, 17, 8, 0
+3807, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+3735, 4040, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first2 List values String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+4048, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 18, 13, 6, 7, 5, 1
+4677, 4789, 1, "OK", 1, 2, 8, 2, 2, 0, 2, 3
+3473, 4999, 1, "OK", 4, 59, 28, 28, 11, 17, 8, 0
+3561, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 List values String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+3259, 4980, 1, "OK", 2, 67, 28, 28, 11, 17, 8, 0
+3019, 4999, 1, "OK", 0, 74, 28, 28, 11, 17, 8, 0
+3449, 4980, 1, "OK", 3, 60, 28, 28, 11, 17, 8, 0
+3310, 4944, 1, "OK", 2, 65, 28, 28, 11, 17, 8, 0
+3847, 3913, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+3918, 4017, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+3138, 4904, 1, "OK", 1, 69, 28, 28, 11, 17, 8, 0
+3427, 4904, 1, "OK", 2, 59, 28, 28, 11, 17, 8, 0
+3735, 4832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2 List values String catValue", 0, 0, 27, 19, 10, 9, 8, 1
+3259, 4999, 1, "OK", 2, 68, 28, 28, 11, 17, 8, 0
+3449, 4999, 1, "OK", 3, 61, 28, 28, 11, 17, 8, 0
+4677, 4820, 1, "OK", 2, 4, 8, 2, 2, 0, 2, 3
+4736, 4789, 1, "OK", 1, 1, 4, 1, 1, 0, 1, 3
+3767, 4876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first boolean first2", 0, 0, 27, 19, 10, 9, 8, 1
+3918, 4035, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+4048, 4876, 1, "OK", 5, 31, 18, 13, 6, 7, 5, 1

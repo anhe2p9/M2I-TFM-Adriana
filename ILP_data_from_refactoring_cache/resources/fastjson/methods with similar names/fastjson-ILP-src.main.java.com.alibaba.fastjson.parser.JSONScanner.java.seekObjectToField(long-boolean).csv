@@ -1,0 +1,211 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+80811, 83630, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 60, 46, 20, 26, 14, 1
+82266, 82558, 1, "OK", 0, 7, 5, 1, 1, 0, 1, 4
+80729, 83630, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 62, 47, 21, 26, 15, 1
+87609, 87946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+85949, 86156, 1, "OK", 0, 7, 9, 3, 2, 1, 2, 3
+81804, 84609, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 35, 19, 16, 12, 1
+87966, 88102, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+88318, 88453, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+81372, 81564, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+84032, 84609, 1, "OK", 0, 18, 3, 2, 2, 0, 1, 1
+80729, 84609, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 73, 54, 27, 27, 19, 1
+81034, 81307, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i char c", 0, 0, 9, 3, 2, 1, 2, 3
+81980, 82202, 1, "OK", 0, 6, 4, 1, 1, 0, 1, 3
+88157, 88335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+80492, 80713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+85911, 86282, 1, "OK", 0, 13, 16, 8, 5, 3, 4, 2
+80637, 80821, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+85911, 86366, 1, "OK", 0, 17, 19, 9, 6, 3, 5, 2
+83073, 83210, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+81804, 83630, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 28, 13, 15, 8, 1
+85593, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 92, 69, 34, 35, 23, 1
+87632, 87792, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+80062, 80296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+87019, 87344, 1, "OK", 0, 10, 15, 6, 3, 3, 3, 3
+88002, 88102, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+80811, 83712, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 62, 47, 21, 26, 15, 1
+86195, 86282, 1, "OK", 0, 3, 4, 2, 2, 0, 1, 2
+80492, 80795, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 3, 3, 0, 3, 1
+80308, 88561, 1, "OK", 2, 257, 208, 208, 82, 126, 53, 0
+87575, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 8, 5, 5, 1
+81409, 81564, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+86981, 87470, 1, "OK", 0, 16, 22, 12, 6, 6, 5, 2
+80835, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 199, 149, 76, 73, 50, 1
+84884, 85396, 1, "OK", 0, 17, 22, 12, 9, 3, 5, 2
+80155, 80456, 0, "Compilation unit does not compile after method extraction.", 0, 8, 4, 4, 4, 0, 0, 0
+86421, 86901, 1, "OK", 0, 18, 19, 9, 6, 3, 5, 2
+87490, 87554, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+80637, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 203, 151, 78, 73, 52, 1
+85182, 85377, 1, "OK", 0, 6, 10, 4, 4, 0, 2, 3
+88353, 88453, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+87609, 87984, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+87169, 87294, 1, "OK", 0, 4, 6, 1, 1, 0, 1, 5
+80492, 81788, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 30, 21, 10, 11, 9, 1
+85153, 85267, 1, "OK", 0, 4, 5, 2, 2, 0, 1, 3
+81409, 81532, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+84733, 85490, 1, "OK", 0, 27, 29, 15, 12, 3, 7, 2
+83646, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 139, 103, 56, 47, 36, 1
+84733, 85572, 1, "OK", 0, 30, 32, 16, 13, 3, 8, 2
+82707, 82844, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+85886, 86175, 1, "OK", 0, 10, 12, 6, 3, 3, 3, 2
+86837, 86901, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+85102, 85396, 1, "OK", 0, 9, 14, 8, 6, 2, 3, 2
+84733, 85058, 1, "OK", 0, 12, 12, 6, 5, 1, 3, 2
+83026, 83210, 1, "OK", 0, 4, 5, 1, 1, 0, 1, 4
+81804, 83712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 29, 14, 15, 9, 1
+80062, 88561, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 211, 211, 85, 126, 53, 0
+81106, 81284, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+86020, 86133, 1, "OK", 0, 4, 5, 1, 1, 0, 1, 4
+86053, 86133, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+80492, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 205, 152, 79, 73, 53, 1
+81106, 81239, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+88157, 88453, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+86446, 86710, 1, "OK", 0, 9, 12, 6, 3, 3, 3, 2
+80988, 81307, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i char c", 0, 0, 9, 3, 2, 1, 2, 3
+85508, 85572, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+80835, 84016, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 68, 51, 24, 27, 17, 1
+82050, 82179, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+80492, 80821, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 3, 3, 0, 3, 1
+80729, 83712, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 64, 48, 22, 26, 16, 1
+80637, 84016, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 72, 53, 26, 27, 19, 1
+86981, 87554, 1, "OK", 0, 20, 25, 13, 7, 6, 6, 2
+84884, 85490, 1, "OK", 0, 21, 25, 13, 10, 3, 6, 2
+86513, 86691, 1, "OK", 0, 6, 9, 3, 2, 1, 2, 3
+83762, 83910, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+86387, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 64, 48, 23, 25, 16, 1
+83728, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 137, 102, 55, 47, 35, 1
+80637, 84609, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 55, 28, 27, 20, 1
+87090, 87321, 1, "OK", 0, 7, 11, 3, 2, 1, 2, 4
+81076, 81239, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+81942, 83584, 1, "OK", 0, 39, 31, 19, 11, 8, 6, 2
+84884, 85058, 1, "OK", 0, 6, 8, 4, 3, 1, 2, 2
+85767, 85831, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+83728, 84016, 1, "OK", 0, 8, 6, 4, 3, 1, 2, 1
+87123, 87321, 1, "OK", 0, 6, 11, 3, 2, 1, 2, 4
+84951, 85039, 1, "OK", 0, 3, 5, 2, 2, 0, 1, 3
+82660, 82844, 1, "OK", 0, 4, 5, 1, 1, 0, 1, 4
+87383, 87470, 1, "OK", 0, 3, 4, 2, 2, 0, 1, 2
+80811, 81788, 1, "OK", 0, 28, 24, 18, 7, 11, 6, 1
+82224, 83565, 1, "OK", 0, 31, 24, 12, 9, 3, 4, 3
+84758, 85396, 1, "OK", 0, 22, 26, 14, 11, 3, 6, 2
+87829, 87984, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+84884, 85572, 1, "OK", 0, 24, 28, 14, 11, 3, 7, 2
+83646, 84016, 1, "OK", 0, 12, 8, 5, 4, 1, 3, 1
+82587, 83565, 1, "OK", 0, 23, 15, 9, 7, 2, 2, 3
+88182, 88300, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+86446, 86817, 1, "OK", 0, 13, 16, 8, 5, 3, 4, 2
+87609, 88102, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 3, 3, 0, 3, 2
+86195, 86366, 1, "OK", 0, 7, 7, 3, 3, 0, 2, 2
+88123, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 6, 4, 2, 2, 1
+85153, 85377, 1, "OK", 0, 7, 10, 4, 4, 0, 2, 3
+80308, 80456, 1, "OK", 0, 3, 2, 2, 2, 0, 0, 0
+86956, 87363, 1, "OK", 0, 13, 18, 10, 4, 6, 4, 2
+87206, 87294, 1, "OK", 0, 3, 6, 1, 1, 0, 1, 5
+80835, 84609, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 71, 53, 26, 27, 18, 1
+84758, 84838, 1, "OK", 0, 3, 4, 2, 2, 0, 1, 2
+83797, 83910, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+87829, 87946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+80729, 80795, 1, "OK", 0, 3, 2, 1, 1, 0, 1, 1
+81331, 81587, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+81034, 81587, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 4, 2, 4, 3
+85289, 85377, 1, "OK", 0, 3, 5, 2, 2, 0, 1, 3
+80729, 80821, 0, "Compilation unit does not compile after method extraction.", 0, 5, 2, 1, 1, 0, 1, 1
+83728, 84609, 1, "OK", 0, 27, 9, 6, 5, 1, 3, 1
+84658, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 128, 96, 50, 46, 32, 1
+80492, 84016, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 54, 27, 27, 20, 1
+81942, 83615, 1, "OK", 0, 40, 31, 19, 11, 8, 6, 2
+85416, 85490, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+80729, 81788, 1, "OK", 0, 32, 26, 19, 8, 11, 7, 1
+85886, 86282, 1, "OK", 0, 14, 16, 8, 5, 3, 4, 2
+80835, 83630, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 60, 46, 20, 26, 14, 1
+80062, 80456, 0, "Compilation unit does not compile after method extraction.", 0, 12, 5, 5, 5, 0, 0, 0
+85102, 85490, 1, "OK", 0, 13, 17, 9, 7, 2, 4, 2
+87671, 87792, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+88182, 88335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+80637, 83630, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 64, 48, 22, 26, 16, 1
+81076, 81284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i char c", 0, 0, 5, 1, 1, 0, 1, 4
+86484, 86691, 1, "OK", 0, 7, 9, 3, 2, 1, 2, 3
+82995, 83237, 1, "OK", 0, 6, 5, 1, 1, 0, 1, 4
+80637, 83712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 66, 49, 23, 26, 17, 1
+85886, 86366, 1, "OK", 0, 18, 19, 9, 6, 3, 5, 2
+80729, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 201, 150, 77, 73, 51, 1
+84032, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 131, 98, 52, 46, 33, 1
+81331, 81672, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 9, 3, 2, 1, 2, 3
+81034, 81672, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 18, 6, 4, 2, 4, 3
+87829, 88102, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+81980, 83565, 1, "OK", 0, 37, 28, 13, 10, 3, 5, 3
+84922, 85039, 1, "OK", 0, 4, 5, 2, 2, 0, 1, 3
+82344, 82481, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+86446, 86901, 1, "OK", 0, 17, 19, 9, 6, 3, 5, 2
+81331, 81621, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+82007, 82179, 1, "OK", 0, 4, 4, 1, 1, 0, 1, 3
+87383, 87554, 1, "OK", 0, 7, 7, 3, 3, 0, 2, 2
+86956, 87470, 1, "OK", 0, 17, 22, 12, 6, 6, 5, 2
+81034, 81621, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 4, 2, 4, 3
+83646, 84609, 1, "OK", 0, 31, 11, 7, 6, 1, 4, 1
+81850, 81924, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+82953, 83565, 1, "OK", 0, 15, 9, 6, 5, 1, 1, 3
+82995, 83288, 1, "OK", 0, 7, 5, 1, 1, 0, 1, 4
+80492, 84609, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 77, 56, 29, 27, 21, 1
+83317, 83565, 1, "OK", 0, 7, 3, 3, 3, 0, 0, 3
+86730, 86817, 1, "OK", 0, 3, 4, 2, 2, 0, 1, 2
+84758, 85490, 1, "OK", 0, 26, 29, 15, 12, 3, 7, 2
+85416, 85572, 1, "OK", 0, 6, 6, 2, 2, 0, 2, 2
+86922, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 33, 16, 17, 11, 1
+80835, 83712, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 62, 47, 21, 26, 15, 1
+80811, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 199, 149, 76, 73, 50, 1
+82629, 82871, 1, "OK", 0, 6, 5, 1, 1, 0, 1, 4
+85102, 85572, 1, "OK", 0, 16, 20, 10, 8, 2, 5, 2
+85911, 86175, 1, "OK", 0, 9, 12, 6, 3, 3, 3, 2
+80811, 84016, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 68, 51, 24, 27, 17, 1
+87609, 87811, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+84758, 85058, 1, "OK", 0, 11, 12, 6, 5, 1, 3, 2
+84758, 85572, 1, "OK", 0, 29, 32, 16, 13, 3, 8, 2
+86730, 86901, 1, "OK", 0, 7, 7, 3, 3, 0, 2, 2
+80155, 80296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+80637, 80713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+85978, 86156, 1, "OK", 0, 6, 9, 3, 2, 1, 2, 3
+80988, 81621, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 4, 2, 4, 3
+80729, 84016, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 70, 52, 25, 27, 18, 1
+82629, 82924, 1, "OK", 0, 7, 5, 1, 1, 0, 1, 4
+80492, 83630, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 66, 49, 23, 26, 17, 1
+86421, 86710, 1, "OK", 0, 10, 12, 6, 3, 3, 3, 2
+80869, 81691, 1, "OK", 0, 23, 21, 11, 5, 6, 5, 2
+85627, 85747, 1, "OK", 0, 5, 4, 2, 2, 0, 1, 2
+82297, 82481, 1, "OK", 0, 4, 5, 1, 1, 0, 1, 4
+85660, 85747, 1, "OK", 0, 3, 4, 2, 2, 0, 1, 2
+81804, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 175, 131, 69, 62, 44, 1
+86555, 86668, 1, "OK", 0, 4, 5, 1, 1, 0, 1, 4
+86588, 86668, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+88182, 88453, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+86956, 87554, 1, "OK", 0, 21, 25, 13, 7, 6, 6, 2
+80988, 81587, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 4, 2, 4, 3
+81804, 84016, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 33, 17, 16, 11, 1
+87048, 87344, 1, "OK", 0, 9, 15, 6, 3, 3, 3, 3
+85627, 85831, 1, "OK", 0, 9, 7, 3, 3, 0, 2, 2
+85660, 85831, 1, "OK", 0, 7, 7, 3, 3, 0, 2, 2
+81372, 81532, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+80637, 81788, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 28, 20, 9, 11, 8, 1
+86421, 86817, 1, "OK", 0, 14, 16, 8, 5, 3, 4, 2
+80988, 81672, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 18, 6, 4, 2, 4, 3
+81850, 83615, 1, "OK", 0, 43, 34, 20, 12, 8, 7, 2
+80155, 88561, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 210, 210, 84, 126, 53, 0
+80811, 84609, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 71, 53, 26, 27, 18, 1
+84733, 85396, 1, "OK", 0, 23, 26, 14, 11, 3, 6, 2
+80637, 80795, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+82266, 82508, 1, "OK", 0, 6, 5, 1, 1, 0, 1, 4
+88157, 88300, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+85852, 88550, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 84, 63, 30, 33, 21, 1
+80492, 80623, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+80920, 81691, 1, "OK", 1, 21, 21, 11, 5, 6, 5, 2
+84733, 84838, 1, "OK", 0, 4, 4, 2, 2, 0, 1, 2
+83646, 83712, 1, "OK", 0, 3, 2, 1, 1, 0, 1, 1
+86302, 86366, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+81850, 83584, 1, "OK", 0, 42, 34, 20, 12, 8, 7, 2
+80492, 83712, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 50, 24, 26, 18, 1
+80062, 80143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+86981, 87363, 1, "OK", 0, 12, 18, 10, 4, 6, 4, 2
+80468, 88561, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 206, 206, 80, 126, 53, 0
+80835, 81788, 0, "Compilation unit does not compile after method extraction.", 1, 27, 24, 18, 7, 11, 6, 1
+85182, 85267, 1, "OK", 0, 3, 5, 2, 2, 0, 1, 3

@@ -1,0 +1,103 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12341, 12506, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+12949, 13112, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+11565, 11727, 1, "OK", 2, 5, 5, 3, 2, 1, 2, 1
+12996, 13199, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+11565, 12245, 1, "OK", 4, 21, 13, 8, 5, 3, 5, 1
+12400, 14009, 1, "OK", 2, 37, 24, 17, 11, 6, 7, 1
+11780, 11982, 1, "OK", 1, 7, 3, 1, 1, 0, 1, 2
+11101, 14098, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 43, 20, 23, 14, 0
+11036, 12282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 8, 10, 7, 0
+13653, 13841, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 2
+12522, 12803, 1, "OK", 1, 7, 5, 3, 2, 1, 2, 1
+12555, 12803, 1, "OK", 2, 6, 5, 3, 2, 1, 2, 1
+11324, 11551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name JSONField annotation", 0, 0, 2, 1, 1, 0, 1, 1
+11565, 12271, 1, "OK", 4, 22, 13, 8, 5, 3, 5, 1
+12000, 12108, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+12819, 13856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 13, 8, 5, 4, 1
+12341, 12803, 1, "OK", 1, 12, 7, 4, 3, 1, 3, 1
+11608, 11712, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+13224, 13841, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 8, 6, 5, 1, 1, 2
+12400, 12506, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+12341, 12541, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+12555, 13856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 10, 6, 6, 1
+12522, 13856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 10, 6, 6, 1
+11036, 14098, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 43, 20, 23, 14, 0
+11824, 12191, 1, "OK", 1, 9, 6, 2, 2, 0, 2, 2
+11824, 11937, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+12294, 14020, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 12, 13, 7, 0
+12641, 14009, 1, "OK", 3, 31, 22, 16, 10, 6, 6, 1
+12400, 12541, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+12341, 13856, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 17, 11, 6, 7, 1
+11957, 12191, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+12400, 12803, 1, "OK", 2, 11, 7, 4, 3, 1, 3, 1
+13321, 13437, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+11824, 11982, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+12819, 13901, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 13, 8, 5, 4, 1
+12949, 13199, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+11148, 11430, 0, "Compilation unit does not compile after method extraction.", 2, 8, 4, 2, 2, 0, 2, 1
+12522, 13901, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 10, 6, 6, 1
+12555, 13901, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 10, 6, 6, 1
+11148, 12206, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 10, 7, 3, 7, 1
+11743, 12206, 1, "OK", 2, 13, 8, 5, 3, 2, 3, 1
+12400, 13856, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 17, 11, 6, 7, 1
+12341, 12627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name JSONField annotation", 0, 0, 2, 1, 1, 0, 1, 1
+11148, 11465, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 4, 2, 2, 0, 2, 1
+11446, 12206, 1, "OK", 1, 21, 13, 8, 5, 3, 5, 1
+11479, 12206, 1, "OK", 2, 20, 13, 8, 5, 3, 5, 1
+12341, 13901, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 17, 11, 6, 7, 1
+11148, 11727, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 5, 4, 1, 4, 1
+11265, 11430, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+13549, 13841, 1, "OK", 1, 7, 3, 3, 3, 0, 0, 2
+12000, 12191, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+12641, 12803, 1, "OK", 2, 5, 5, 3, 2, 1, 2, 1
+12294, 14098, 1, "OK", 2, 42, 25, 25, 12, 13, 7, 0
+11265, 12206, 1, "OK", 1, 26, 15, 9, 6, 3, 6, 1
+11780, 12108, 1, "OK", 1, 10, 6, 2, 2, 0, 2, 2
+11148, 12245, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 10, 7, 3, 7, 1
+11743, 12245, 1, "OK", 3, 15, 8, 5, 3, 2, 3, 1
+12400, 13901, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 17, 11, 6, 7, 1
+11479, 12245, 1, "OK", 3, 22, 13, 8, 5, 3, 5, 1
+11479, 11727, 1, "OK", 2, 6, 5, 3, 2, 1, 2, 1
+12856, 13841, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 9, 7, 2, 3, 2
+11446, 11727, 1, "OK", 1, 7, 5, 3, 2, 1, 2, 1
+11148, 12271, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 10, 7, 3, 7, 1
+12400, 12627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name JSONField annotation", 0, 0, 2, 1, 1, 0, 1, 1
+13274, 13437, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+11148, 11249, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+11446, 12245, 1, "OK", 2, 23, 13, 8, 5, 3, 5, 1
+12641, 13856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 10, 6, 6, 1
+11265, 11727, 1, "OK", 1, 12, 7, 4, 3, 1, 3, 1
+13321, 13524, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+11265, 11465, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+11324, 11430, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+12684, 12788, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+11265, 12245, 1, "OK", 2, 28, 15, 9, 6, 3, 6, 1
+12996, 13112, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+11743, 12271, 1, "OK", 3, 16, 8, 5, 3, 2, 3, 1
+11324, 12206, 1, "OK", 2, 25, 15, 9, 6, 3, 6, 1
+12898, 13841, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 9, 7, 2, 3, 2
+11479, 12271, 1, "OK", 3, 23, 13, 8, 5, 3, 5, 1
+11446, 12271, 1, "OK", 2, 24, 13, 8, 5, 3, 5, 1
+12819, 14009, 1, "OK", 2, 25, 17, 13, 8, 5, 4, 1
+12555, 14009, 1, "OK", 2, 32, 22, 16, 10, 6, 6, 1
+11265, 12271, 1, "OK", 2, 29, 15, 9, 6, 3, 6, 1
+11324, 11465, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+12641, 13901, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 10, 6, 6, 1
+11101, 14020, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 43, 20, 23, 14, 0
+11148, 11551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name JSONField annotation", 0, 0, 4, 2, 2, 0, 2, 1
+11324, 11727, 1, "OK", 2, 11, 7, 4, 3, 1, 3, 1
+12522, 14009, 1, "OK", 1, 33, 22, 16, 10, 6, 6, 1
+11824, 12108, 1, "OK", 1, 8, 6, 2, 2, 0, 2, 2
+11780, 12191, 1, "OK", 1, 11, 6, 2, 2, 0, 2, 2
+11780, 11937, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+11324, 12245, 1, "OK", 3, 27, 15, 9, 6, 3, 6, 1
+12341, 14009, 1, "OK", 1, 38, 24, 17, 11, 6, 7, 1
+11148, 11310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+11565, 12206, 1, "OK", 3, 19, 13, 8, 5, 3, 5, 1
+11036, 14020, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 43, 20, 23, 14, 0
+11324, 12271, 1, "OK", 3, 28, 15, 9, 6, 3, 6, 1
+11265, 11551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name JSONField annotation", 0, 0, 2, 1, 1, 0, 1, 1
+11101, 12282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 8, 10, 7, 0
+11957, 12108, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+13274, 13524, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3

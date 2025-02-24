@@ -1,0 +1,63 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+10746, 11262, 1, "OK", 2, 16, 2, 1, 1, 0, 1, 1
+9549, 9714, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+11417, 11711, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+11753, 12182, 1, "OK", 2, 10, 2, 1, 1, 0, 1, 1
+9450, 9714, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+9364, 10088, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+10832, 11299, 1, "OK", 2, 14, 2, 1, 1, 0, 1, 1
+9401, 10088, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+8041, 12186, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 15, 13, 8, 0
+9505, 10067, 1, "OK", 3, 17, 9, 3, 3, 0, 2, 3
+10832, 11041, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+11417, 11722, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+9240, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8093, 12249, 1, "OK", 4, 106, 28, 28, 15, 13, 8, 0
+9240, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+8443, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8443, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+8621, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8179, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+9505, 10081, 1, "OK", 3, 18, 9, 3, 3, 0, 2, 3
+8179, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+10378, 10667, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+9191, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+10461, 10667, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+9191, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+8621, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+10746, 11041, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+10746, 11299, 1, "OK", 2, 17, 2, 1, 1, 0, 1, 1
+9505, 9714, 1, "OK", 1, 6, 4, 1, 1, 0, 1, 3
+11417, 11626, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+11753, 11962, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+10682, 11381, 1, "OK", 3, 21, 3, 3, 2, 1, 1, 0
+10104, 11381, 1, "OK", 3, 31, 6, 6, 4, 2, 2, 0
+8539, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8539, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+9721, 10067, 1, "OK", 3, 11, 5, 2, 2, 0, 1, 3
+8680, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8680, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+9287, 10094, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 5, 5, 4, 1
+9721, 10081, 1, "OK", 3, 12, 5, 2, 2, 0, 1, 3
+11753, 12126, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+8041, 12249, 1, "OK", 3, 107, 28, 28, 15, 13, 8, 0
+8247, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8093, 12186, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 15, 13, 8, 0
+8247, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+8796, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8796, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+9549, 10067, 1, "OK", 4, 16, 9, 3, 3, 0, 2, 3
+10832, 11376, 1, "OK", 2, 16, 2, 1, 1, 0, 1, 1
+8371, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+8371, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+10832, 11262, 1, "OK", 1, 13, 2, 1, 1, 0, 1, 1
+11417, 11680, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+9450, 10067, 1, "OK", 3, 18, 9, 3, 3, 0, 2, 3
+8735, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+9549, 10081, 1, "OK", 4, 17, 9, 3, 3, 0, 2, 3
+8318, 10099, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 7, 9, 4, 0
+10746, 11376, 1, "OK", 2, 19, 2, 1, 1, 0, 1, 1
+8735, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+9330, 10094, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 5, 5, 4, 1
+8318, 11381, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 6, 0
+9450, 10081, 1, "OK", 3, 19, 9, 3, 3, 0, 2, 3

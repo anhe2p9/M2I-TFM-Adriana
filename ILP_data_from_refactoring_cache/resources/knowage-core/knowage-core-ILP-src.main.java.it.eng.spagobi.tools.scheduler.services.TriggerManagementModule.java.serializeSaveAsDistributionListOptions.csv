@@ -1,0 +1,213 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+43576, 45964, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String saveOptString String xml", 0, 0, 50, 39, 12, 27, 11, 1
+44303, 44419, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+44936, 45790, 1, "OK", 5, 20, 30, 10, 5, 5, 5, 4
+44586, 45889, 1, "OK", 5, 36, 38, 24, 8, 16, 7, 2
+43704, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+44520, 45889, 1, "OK", 4, 38, 38, 24, 8, 16, 7, 2
+43840, 44419, 1, "OK", 2, 16, 10, 4, 3, 1, 3, 2
+44303, 44402, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+43774, 44419, 1, "OK", 2, 17, 10, 4, 3, 1, 3, 2
+44520, 45864, 1, "OK", 3, 36, 38, 24, 8, 16, 7, 2
+43906, 44419, 1, "OK", 2, 15, 10, 4, 3, 1, 3, 2
+43646, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+43646, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43621, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+43971, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+46181, 46650, 1, "OK", 5, 11, 8, 2, 2, 0, 2, 3
+44018, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44520, 45915, 1, "OK", 4, 39, 38, 24, 8, 16, 7, 2
+44828, 45580, 1, "OK", 1, 19, 25, 9, 4, 5, 4, 4
+44907, 45691, 1, "OK", 1, 20, 30, 10, 5, 5, 5, 4
+45928, 46807, 1, "OK", 5, 29, 18, 13, 6, 7, 5, 1
+44586, 45915, 1, "OK", 5, 37, 38, 24, 8, 16, 7, 2
+46011, 46807, 1, "OK", 6, 26, 18, 13, 6, 7, 5, 1
+44303, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 3, 1, 1, 0, 1, 2
+44242, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 41, 25, 9, 16, 8, 2
+43621, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44018, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+44770, 45827, 1, "OK", 5, 28, 35, 17, 7, 10, 6, 3
+43840, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+43774, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+43704, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+43646, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43906, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+43596, 45920, 1, "OK", 5, 66, 50, 39, 12, 27, 11, 1
+44242, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 41, 25, 9, 16, 8, 2
+44408, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 38, 24, 8, 16, 7, 2
+43646, 45915, 1, "OK", 4, 63, 48, 28, 11, 17, 10, 2
+43646, 45889, 1, "OK", 4, 62, 48, 28, 11, 17, 10, 2
+43971, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+43576, 46007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String saveOptString String xml List l", 0, 0, 50, 39, 12, 27, 11, 1
+45341, 45565, 1, "OK", 3, 4, 7, 1, 1, 0, 1, 6
+46112, 46764, 1, "OK", 6, 19, 16, 8, 5, 3, 4, 2
+43646, 44402, 1, "OK", 3, 18, 10, 4, 3, 1, 3, 2
+44303, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 3, 1, 1, 0, 1, 2
+44408, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 38, 24, 8, 16, 7, 2
+43971, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+44242, 45889, 1, "OK", 4, 48, 41, 25, 9, 16, 8, 2
+45078, 45573, 1, "OK", 3, 12, 20, 5, 3, 2, 3, 5
+43840, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+43774, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+43906, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+46112, 46798, 1, "OK", 7, 20, 16, 8, 5, 3, 4, 2
+44475, 45833, 1, "OK", 3, 36, 38, 24, 8, 16, 7, 2
+45586, 45691, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+46146, 46764, 1, "OK", 6, 18, 16, 8, 5, 3, 4, 2
+43774, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+44907, 45790, 1, "OK", 4, 21, 30, 10, 5, 5, 5, 4
+43906, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+43840, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+46181, 46752, 1, "OK", 6, 14, 13, 4, 4, 0, 3, 3
+45129, 45573, 1, "OK", 4, 11, 20, 5, 3, 2, 3, 5
+44065, 44229, 1, "OK", 3, 6, 7, 3, 2, 1, 2, 2
+43646, 44419, 1, "OK", 3, 19, 10, 4, 3, 1, 3, 2
+43596, 45964, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String saveOptString String xml", 0, 0, 50, 39, 12, 27, 11, 1
+43971, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44475, 45864, 1, "OK", 3, 37, 38, 24, 8, 16, 7, 2
+46146, 46798, 1, "OK", 7, 19, 16, 8, 5, 3, 4, 2
+44242, 45915, 1, "OK", 4, 49, 41, 25, 9, 16, 8, 2
+44408, 45889, 1, "OK", 3, 44, 38, 24, 8, 16, 7, 2
+44303, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 3, 1, 1, 0, 1, 2
+44242, 44419, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+46066, 46764, 1, "OK", 6, 20, 16, 8, 5, 3, 4, 2
+43906, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44303, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 3, 1, 1, 0, 1, 2
+44408, 45915, 1, "OK", 3, 45, 38, 24, 8, 16, 7, 2
+44475, 45889, 1, "OK", 4, 39, 38, 24, 8, 16, 7, 2
+43840, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44242, 44402, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+44828, 45691, 1, "OK", 1, 22, 30, 10, 5, 5, 5, 4
+45203, 45333, 1, "OK", 2, 4, 7, 1, 1, 0, 1, 6
+43596, 46007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String saveOptString String xml List l", 0, 0, 50, 39, 12, 27, 11, 1
+44865, 45580, 1, "OK", 1, 18, 25, 9, 4, 5, 4, 4
+43646, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+43774, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44018, 44229, 1, "OK", 3, 7, 7, 3, 2, 1, 2, 2
+45155, 45333, 1, "OK", 2, 5, 7, 1, 1, 0, 1, 6
+44429, 45833, 1, "OK", 2, 39, 38, 24, 8, 16, 7, 2
+46066, 46798, 1, "OK", 7, 21, 16, 8, 5, 3, 4, 2
+46662, 46752, 1, "OK", 3, 2, 5, 2, 2, 0, 1, 3
+44242, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 3, 1, 1, 0, 1, 2
+43621, 44229, 1, "OK", 3, 14, 7, 3, 2, 1, 2, 2
+44475, 45915, 1, "OK", 4, 40, 38, 24, 8, 16, 7, 2
+43704, 44229, 1, "OK", 2, 12, 7, 3, 2, 1, 2, 2
+45586, 45790, 1, "OK", 4, 4, 5, 1, 1, 0, 1, 4
+44065, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+44065, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+44429, 45864, 1, "OK", 2, 40, 38, 24, 8, 16, 7, 2
+44102, 44223, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+43646, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+44065, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43646, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+44429, 45889, 1, "OK", 3, 42, 38, 24, 8, 16, 7, 2
+43704, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+43704, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+44242, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 3, 1, 1, 0, 1, 2
+44018, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+44018, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+44065, 45915, 1, "OK", 6, 56, 48, 28, 11, 17, 10, 2
+44865, 45691, 1, "OK", 1, 21, 30, 10, 5, 5, 5, 4
+43621, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43621, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+44065, 45889, 1, "OK", 6, 55, 48, 28, 11, 17, 10, 2
+44828, 45790, 1, "OK", 3, 23, 30, 10, 5, 5, 5, 4
+44018, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43704, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+46228, 46469, 1, "OK", 5, 6, 4, 1, 1, 0, 1, 3
+44065, 44402, 1, "OK", 4, 11, 10, 4, 3, 1, 3, 2
+43621, 45889, 1, "OK", 4, 63, 48, 28, 11, 17, 10, 2
+43459, 46812, 1, "OK", 6, 101, 69, 69, 19, 50, 16, 0
+43621, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43971, 44229, 1, "OK", 2, 8, 7, 3, 2, 1, 2, 2
+44429, 45915, 1, "OK", 3, 43, 38, 24, 8, 16, 7, 2
+43508, 46812, 1, "OK", 7, 99, 69, 69, 19, 50, 16, 0
+43646, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44242, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 3, 1, 1, 0, 1, 2
+46038, 46764, 1, "OK", 5, 21, 16, 8, 5, 3, 4, 2
+43621, 45915, 1, "OK", 4, 64, 48, 28, 11, 17, 10, 2
+43459, 46840, 1, "OK", 6, 103, 69, 69, 19, 50, 16, 0
+44018, 45889, 1, "OK", 5, 56, 48, 28, 11, 17, 10, 2
+44970, 45573, 1, "OK", 2, 14, 20, 5, 3, 2, 3, 5
+43427, 46812, 1, "OK", 5, 103, 69, 69, 19, 50, 16, 0
+43508, 46840, 1, "OK", 7, 101, 69, 69, 19, 50, 16, 0
+44936, 45580, 1, "OK", 2, 16, 25, 9, 4, 5, 4, 4
+43906, 44229, 1, "OK", 2, 9, 7, 3, 2, 1, 2, 2
+43840, 44229, 1, "OK", 2, 10, 7, 3, 2, 1, 2, 2
+44242, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 3, 1, 1, 0, 1, 2
+44065, 44419, 1, "OK", 4, 12, 10, 4, 3, 1, 3, 2
+46223, 46650, 1, "OK", 5, 10, 8, 2, 2, 0, 2, 3
+43774, 44229, 1, "OK", 2, 11, 7, 3, 2, 1, 2, 2
+43704, 45889, 1, "OK", 4, 61, 48, 28, 11, 17, 10, 2
+43427, 46840, 1, "OK", 5, 105, 69, 69, 19, 50, 16, 0
+43621, 44419, 1, "OK", 3, 20, 10, 4, 3, 1, 3, 2
+44865, 45790, 1, "OK", 4, 22, 30, 10, 5, 5, 5, 4
+43704, 44402, 1, "OK", 2, 17, 10, 4, 3, 1, 3, 2
+46038, 46798, 1, "OK", 6, 22, 16, 8, 5, 3, 4, 2
+43704, 45915, 1, "OK", 4, 62, 48, 28, 11, 17, 10, 2
+43971, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43576, 46807, 1, "OK", 7, 97, 68, 52, 18, 34, 16, 1
+44065, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+43621, 44402, 1, "OK", 3, 19, 10, 4, 3, 1, 3, 2
+43971, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+44018, 45915, 1, "OK", 5, 57, 48, 28, 11, 17, 10, 2
+44567, 45833, 1, "OK", 3, 34, 38, 24, 8, 16, 7, 2
+44018, 44419, 1, "OK", 3, 13, 10, 4, 3, 1, 3, 2
+43971, 45889, 1, "OK", 4, 57, 48, 28, 11, 17, 10, 2
+44303, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 41, 25, 9, 16, 8, 2
+45972, 46807, 1, "OK", 5, 27, 18, 13, 6, 7, 5, 1
+43971, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+44018, 44402, 1, "OK", 3, 12, 10, 4, 3, 1, 3, 2
+43774, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+43704, 44419, 1, "OK", 2, 18, 10, 4, 3, 1, 3, 2
+43774, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43906, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+43906, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+45203, 45565, 1, "OK", 4, 8, 14, 2, 2, 0, 2, 6
+43840, 44298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String repeatinterval", 0, 0, 7, 3, 2, 1, 2, 2
+43840, 45833, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43704, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+44936, 45691, 1, "OK", 2, 19, 30, 10, 5, 5, 5, 4
+46223, 46752, 1, "OK", 7, 13, 13, 4, 4, 0, 3, 3
+44567, 45864, 1, "OK", 3, 35, 38, 24, 8, 16, 7, 2
+43971, 45915, 1, "OK", 4, 58, 48, 28, 11, 17, 10, 2
+45155, 45565, 1, "OK", 4, 9, 14, 2, 2, 0, 2, 6
+44018, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+44303, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 41, 25, 9, 16, 8, 2
+43906, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+44065, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+43840, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+43621, 44460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 10, 4, 3, 1, 3, 2
+43774, 45864, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params", 0, 0, 48, 28, 11, 17, 10, 2
+44685, 45827, 1, "OK", 4, 29, 35, 17, 7, 10, 6, 3
+43971, 44402, 1, "OK", 2, 13, 10, 4, 3, 1, 3, 2
+44303, 45889, 1, "OK", 4, 47, 41, 25, 9, 16, 8, 2
+44065, 44562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj", 0, 0, 10, 4, 3, 1, 3, 2
+43840, 45915, 1, "OK", 4, 60, 48, 28, 11, 17, 10, 2
+43621, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+43774, 45915, 1, "OK", 4, 61, 48, 28, 11, 17, 10, 2
+43906, 45915, 1, "OK", 4, 59, 48, 28, 11, 17, 10, 2
+43774, 45889, 1, "OK", 4, 60, 48, 28, 11, 17, 10, 2
+43906, 45889, 1, "OK", 4, 58, 48, 28, 11, 17, 10, 2
+43840, 45889, 1, "OK", 4, 59, 48, 28, 11, 17, 10, 2
+44907, 45580, 1, "OK", 1, 17, 25, 9, 4, 5, 4, 4
+43596, 46807, 1, "OK", 8, 96, 68, 52, 18, 34, 16, 1
+44635, 45827, 1, "OK", 4, 30, 35, 17, 7, 10, 6, 3
+43646, 44229, 1, "OK", 3, 13, 7, 3, 2, 1, 2, 2
+44567, 45889, 1, "OK", 4, 37, 38, 24, 8, 16, 7, 2
+43774, 44402, 1, "OK", 2, 16, 10, 4, 3, 1, 3, 2
+45041, 45573, 1, "OK", 2, 13, 20, 5, 3, 2, 3, 5
+43906, 44402, 1, "OK", 2, 14, 10, 4, 3, 1, 3, 2
+44143, 44223, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+43840, 44402, 1, "OK", 2, 15, 10, 4, 3, 1, 3, 2
+44018, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+44586, 45864, 1, "OK", 4, 34, 38, 24, 8, 16, 7, 2
+44620, 45827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String params int index", 0, 0, 35, 17, 7, 10, 6, 3
+44065, 44581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params Iterator iterbiobj int index", 0, 0, 10, 4, 3, 1, 3, 2
+44567, 45915, 1, "OK", 4, 38, 38, 24, 8, 16, 7, 2
+43971, 44419, 1, "OK", 2, 14, 10, 4, 3, 1, 3, 2
+44586, 45833, 1, "OK", 4, 33, 38, 24, 8, 16, 7, 2
+44520, 45833, 1, "OK", 3, 35, 38, 24, 8, 16, 7, 2
+44303, 45915, 1, "OK", 4, 48, 41, 25, 9, 16, 8, 2
+43704, 44515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xml String params List biObjects", 0, 0, 10, 4, 3, 1, 3, 2
+43576, 45920, 1, "OK", 4, 67, 50, 39, 12, 27, 11, 1

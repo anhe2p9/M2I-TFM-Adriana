@@ -1,0 +1,59 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9811, 10422, 1, "OK", 5, 19, 19, 7, 5, 2, 4, 3
+9294, 11090, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription", 0, 0, 27, 15, 8, 7, 6, 2
+10148, 10729, 1, "OK", 5, 16, 13, 4, 3, 1, 3, 3
+9294, 10831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription boolean isMultivalueParameter", 0, 0, 27, 15, 8, 7, 6, 2
+9811, 10560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isMultivalueParameter String valuesDescr", 0, 0, 19, 7, 5, 2, 4, 3
+9690, 10978, 1, "OK", 6, 36, 27, 15, 8, 7, 6, 2
+9567, 11090, 1, "OK", 4, 40, 27, 15, 8, 7, 6, 2
+9294, 10978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription", 0, 0, 27, 15, 8, 7, 6, 2
+9690, 11246, 1, "OK", 6, 39, 27, 15, 8, 7, 6, 2
+9567, 10831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValuesDescription boolean isMultivalueParameter", 0, 0, 27, 15, 8, 7, 6, 2
+10192, 10414, 1, "OK", 3, 6, 5, 1, 1, 0, 1, 4
+9025, 11257, 1, "OK", 2, 56, 30, 30, 10, 20, 7, 0
+9734, 10142, 1, "OK", 4, 11, 10, 4, 3, 1, 2, 3
+9499, 11157, 1, "OK", 3, 42, 27, 15, 8, 7, 6, 2
+9567, 10978, 1, "OK", 4, 39, 27, 15, 8, 7, 6, 2
+9646, 11090, 1, "OK", 5, 39, 27, 15, 8, 7, 6, 2
+10566, 10729, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+9294, 11246, 1, "OK", 2, 46, 27, 15, 8, 7, 6, 2
+9646, 10831, 1, "OK", 5, 35, 27, 15, 8, 7, 6, 2
+9842, 10142, 1, "OK", 3, 9, 10, 4, 3, 1, 2, 3
+9378, 10831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription boolean isMultivalueParameter", 0, 0, 27, 15, 8, 7, 6, 2
+10459, 10729, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+9929, 10135, 1, "OK", 2, 6, 5, 1, 1, 0, 1, 4
+9646, 10978, 1, "OK", 5, 38, 27, 15, 8, 7, 6, 2
+9811, 10729, 1, "OK", 6, 26, 23, 8, 6, 2, 5, 3
+9567, 11246, 1, "OK", 4, 42, 27, 15, 8, 7, 6, 2
+9025, 11281, 1, "OK", 2, 58, 30, 30, 10, 20, 7, 0
+9378, 11090, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription", 0, 0, 27, 15, 8, 7, 6, 2
+9734, 10422, 1, "OK", 4, 20, 19, 7, 5, 2, 4, 3
+9154, 11252, 1, "OK", 2, 50, 29, 22, 9, 13, 7, 1
+9690, 11157, 1, "OK", 6, 38, 27, 15, 8, 7, 6, 2
+10263, 10414, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+9734, 10560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isMultivalueParameter String valuesDescr", 0, 0, 19, 7, 5, 2, 4, 3
+9842, 10422, 1, "OK", 5, 18, 19, 7, 5, 2, 4, 3
+9378, 10978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription", 0, 0, 27, 15, 8, 7, 6, 2
+9646, 11246, 1, "OK", 5, 41, 27, 15, 8, 7, 6, 2
+9225, 11252, 1, "OK", 2, 49, 29, 22, 9, 13, 7, 1
+9378, 11246, 1, "OK", 2, 45, 27, 15, 8, 7, 6, 2
+9842, 10560, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isMultivalueParameter String valuesDescr", 0, 0, 19, 7, 5, 2, 4, 3
+9294, 11157, 1, "OK", 2, 45, 27, 15, 8, 7, 6, 2
+9089, 11252, 1, "OK", 2, 51, 29, 22, 9, 13, 7, 1
+9499, 10831, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription boolean isMultivalueParameter", 0, 0, 27, 15, 8, 7, 6, 2
+9567, 11157, 1, "OK", 4, 41, 27, 15, 8, 7, 6, 2
+10148, 10422, 1, "OK", 4, 9, 9, 3, 2, 1, 2, 3
+9893, 10135, 1, "OK", 2, 7, 5, 1, 1, 0, 1, 4
+10148, 10560, 1, "OK", 4, 12, 9, 3, 2, 1, 2, 3
+9499, 11090, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription", 0, 0, 27, 15, 8, 7, 6, 2
+9734, 10729, 1, "OK", 5, 27, 23, 8, 6, 2, 5, 3
+9048, 11257, 1, "OK", 2, 54, 30, 30, 10, 20, 7, 0
+9811, 10142, 1, "OK", 3, 10, 10, 4, 3, 1, 2, 3
+9499, 10978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> documentParameterValues List<String> documentParameterValuesDescription", 0, 0, 27, 15, 8, 7, 6, 2
+9646, 11157, 1, "OK", 5, 40, 27, 15, 8, 7, 6, 2
+9378, 11157, 1, "OK", 2, 44, 27, 15, 8, 7, 6, 2
+9499, 11246, 1, "OK", 3, 43, 27, 15, 8, 7, 6, 2
+9690, 10831, 1, "OK", 6, 33, 27, 15, 8, 7, 6, 2
+9842, 10729, 1, "OK", 6, 25, 23, 8, 6, 2, 5, 3
+9690, 11090, 1, "OK", 6, 37, 27, 15, 8, 7, 6, 2
+9048, 11281, 1, "OK", 2, 56, 30, 30, 10, 20, 7, 0

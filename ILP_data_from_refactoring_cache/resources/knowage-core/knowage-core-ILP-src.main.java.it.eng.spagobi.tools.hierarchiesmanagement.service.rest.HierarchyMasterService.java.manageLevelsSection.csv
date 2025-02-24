@@ -1,0 +1,201 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+36674, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+36800, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+38624, 39222, 1, "OK", 12, 12, 13, 7, 4, 3, 3, 2
+35947, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+35931, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index int lvlIndex", 0, 0, 26, 18, 10, 8, 8, 1
+38260, 39250, 1, "OK", 13, 23, 15, 11, 5, 6, 4, 1
+36674, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+36826, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+36249, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+35304, 39255, 1, "OK", 12, 93, 28, 28, 12, 16, 8, 0
+36394, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nmColumn Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+35931, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37407, 37562, 1, "OK", 3, 2, 3, 1, 1, 0, 1, 2
+36634, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35304, 35657, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+38976, 39071, 1, "OK", 2, 1, 6, 2, 2, 0, 1, 4
+35931, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lvlIndex String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+35947, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+38624, 39245, 1, "OK", 12, 13, 13, 7, 4, 3, 3, 2
+37732, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 17, 12, 6, 6, 5, 1
+36674, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+38976, 39084, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+36674, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+38493, 39250, 1, "OK", 13, 16, 15, 11, 5, 6, 4, 1
+36674, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37568, 37723, 1, "OK", 3, 2, 3, 1, 1, 0, 1, 2
+35834, 39255, 1, "OK", 16, 77, 27, 27, 11, 16, 8, 0
+36826, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+35304, 35690, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+36394, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object[] tmpLvl", 0, 0, 2, 1, 1, 0, 1, 1
+35931, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index int lvlIndex Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38292, 1, "OK", 12, 15, 2, 1, 1, 0, 1, 1
+38461, 39250, 1, "OK", 12, 17, 15, 11, 5, 6, 4, 1
+38428, 39250, 1, "OK", 11, 18, 15, 11, 5, 6, 4, 1
+37732, 37783, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+36826, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+37123, 37723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 6, 2, 2, 0, 2, 2
+35947, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37965, 39250, 1, "OK", 15, 32, 15, 11, 5, 6, 4, 1
+35304, 35725, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+36394, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36674, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+38297, 39250, 1, "OK", 11, 21, 15, 11, 5, 6, 4, 1
+36249, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+36595, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+36394, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+36800, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35304, 35760, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37732, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 2, 1, 1, 0, 1, 1
+36595, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+36249, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+36634, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37196, 37562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue IField nmTmpField", 0, 0, 3, 1, 1, 0, 1, 2
+36826, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36674, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37407, 37723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 6, 2, 2, 0, 2, 2
+35606, 39255, 1, "OK", 13, 85, 27, 27, 11, 16, 8, 0
+36595, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35304, 35830, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37732, 37910, 1, "OK", 4, 3, 2, 1, 1, 0, 1, 1
+36249, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37788, 39250, 1, "OK", 15, 35, 15, 11, 5, 6, 4, 1
+36674, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index int lvlIndex Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index String cdUniqueColumn", 0, 0, 2, 1, 1, 0, 1, 1
+36674, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index int lvlIndex Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+38103, 39250, 1, "OK", 13, 28, 15, 11, 5, 6, 4, 1
+36634, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index String cdUniqueColumn Object cdUniqueValue", 0, 0, 2, 1, 1, 0, 1, 1
+35947, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+38137, 39250, 1, "OK", 13, 27, 15, 11, 5, 6, 4, 1
+36826, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35304, 35410, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+36853, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+38599, 39250, 1, "OK", 13, 15, 15, 11, 5, 6, 4, 1
+36800, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+37196, 37723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 6, 2, 2, 0, 2, 2
+38204, 39250, 1, "OK", 13, 24, 15, 11, 5, 6, 4, 1
+36634, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues String cdColumn String nmColumn Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36674, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+35931, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35693, 39255, 1, "OK", 14, 82, 27, 27, 11, 16, 8, 0
+35304, 35479, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+35931, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+38739, 39084, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+36634, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36634, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+35947, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38019, 1, "OK", 8, 6, 2, 1, 1, 0, 1, 1
+36853, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+35661, 39255, 1, "OK", 13, 83, 27, 27, 11, 16, 8, 0
+36674, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+38023, 39250, 1, "OK", 13, 31, 15, 11, 5, 6, 4, 1
+38739, 39071, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String cdUniqueColumn Object cdUniqueValue", 0, 0, 6, 2, 2, 0, 1, 4
+35304, 35513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+36634, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+38624, 39097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String cdUniqueColumn Object cdUniqueValue", 0, 0, 13, 7, 4, 3, 3, 2
+36800, 37783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 38457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+35414, 39255, 1, "OK", 12, 88, 27, 27, 11, 16, 8, 0
+36674, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index int lvlIndex Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38061, 1, "OK", 9, 7, 2, 1, 1, 0, 1, 1
+36595, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36674, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 39250, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index", 0, 0, 26, 18, 10, 8, 8, 1
+35482, 39255, 1, "OK", 13, 87, 27, 27, 11, 16, 8, 0
+36249, 38489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 2, 1, 1, 0, 1, 1
+35729, 39255, 1, "OK", 15, 80, 27, 27, 11, 16, 8, 0
+36826, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36800, 38315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue", 0, 0, 11, 7, 5, 2, 4, 1
+35947, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38133, 1, "OK", 11, 10, 2, 1, 1, 0, 1, 1
+36826, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36595, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37123, 37562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue IField nmTmpField", 0, 0, 3, 1, 1, 0, 1, 2
+36674, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+38709, 39091, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 4, 3, 1, 2, 3
+36853, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object[] tmpLvl", 0, 0, 11, 7, 5, 2, 4, 1
+38675, 39091, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 4, 3, 1, 2, 3
+35763, 39255, 1, "OK", 16, 79, 27, 27, 11, 16, 8, 0
+38624, 39145, 1, "OK", 9, 10, 13, 7, 4, 3, 3, 2
+36249, 38019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36853, 37728, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object cdValue Object nmValue", 0, 0, 9, 6, 4, 2, 3, 1
+36595, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+36394, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36249, 38061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+37732, 38171, 1, "OK", 11, 11, 2, 1, 1, 0, 1, 1
+36634, 37910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+35931, 38171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int lvlIndex Object cdValue Object nmValue", 0, 0, 11, 7, 5, 2, 4, 1
+36826, 38595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String concatNmValues int index Object cdValue String cdUniqueColumn Object cdUniqueValue boolean uniqueNodeMng", 0, 0, 11, 7, 5, 2, 4, 1
+38624, 39181, 1, "OK", 10, 11, 13, 7, 4, 3, 3, 2

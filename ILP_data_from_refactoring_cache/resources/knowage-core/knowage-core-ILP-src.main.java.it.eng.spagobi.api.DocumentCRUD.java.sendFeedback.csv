@@ -1,0 +1,48 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5694, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5822, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5859, 6724, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String emailAddressdocumentCreationUser String message String userSendingFeedback", 0, 0, 4, 4, 3, 1, 1, 0
+5772, 8142, 1, "OK", 3, 53, 19, 19, 13, 6, 5, 0
+6947, 7299, 1, "OK", 5, 5, 4, 2, 2, 0, 1, 2
+7413, 7706, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+5905, 6644, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String emailAddressdocumentCreationUser String message IEngUserProfile profile", 0, 0, 4, 4, 3, 1, 1, 0
+6794, 7310, 1, "OK", 5, 9, 9, 9, 6, 3, 2, 0
+5622, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5859, 6540, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String emailAddressdocumentCreationUser String message", 0, 0, 4, 4, 3, 1, 1, 0
+6596, 7310, 1, "OK", 4, 13, 9, 9, 6, 3, 2, 0
+7737, 8099, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+5905, 6456, 1, "OK", 3, 12, 4, 4, 3, 1, 1, 0
+5850, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5859, 7310, 1, "OK", 4, 30, 13, 13, 9, 4, 3, 0
+6499, 7310, 1, "OK", 4, 16, 9, 9, 6, 3, 2, 0
+5694, 8142, 1, "OK", 3, 55, 19, 19, 13, 6, 5, 0
+5822, 8142, 1, "OK", 4, 52, 19, 19, 13, 6, 5, 0
+6648, 7310, 1, "OK", 5, 12, 9, 9, 6, 3, 2, 0
+5513, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5905, 6724, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String emailAddressdocumentCreationUser String message String userSendingFeedback", 0, 0, 4, 4, 3, 1, 1, 0
+5491, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5622, 8142, 1, "OK", 2, 57, 19, 19, 13, 6, 5, 0
+5905, 7310, 1, "OK", 5, 29, 13, 13, 9, 4, 3, 0
+5772, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5905, 6540, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String emailAddressdocumentCreationUser String message", 0, 0, 4, 4, 3, 1, 1, 0
+5513, 8142, 1, "OK", 1, 60, 19, 19, 13, 6, 5, 0
+5850, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+7806, 8099, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+5694, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5822, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+7344, 7706, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+5491, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5622, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5859, 6644, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String emailAddressdocumentCreationUser String message IEngUserProfile profile", 0, 0, 4, 4, 3, 1, 1, 0
+5954, 6450, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+6018, 6450, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+6179, 6450, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+5859, 6456, 1, "OK", 2, 13, 4, 4, 3, 1, 1, 0
+5772, 8127, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5850, 8142, 1, "OK", 4, 51, 19, 19, 13, 6, 5, 0
+6266, 6450, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+6897, 7305, 1, "OK", 5, 7, 7, 5, 4, 1, 2, 1
+6074, 6450, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+6324, 6450, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+5513, 8103, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+5491, 8142, 1, "OK", 1, 61, 19, 19, 13, 6, 5, 0

@@ -1,0 +1,204 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+37344, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36997, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata Config previewRowsConfig boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+40875, 41124, 1, "OK", 0, 6, 2, 1, 1, 0, 1, 1
+37344, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+38375, 39780, 1, "OK", 8, 37, 7, 7, 7, 0, 0, 0
+37147, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+36876, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+38451, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 5, 5, 5, 0, 0, 0
+38636, 38837, 1, "OK", 2, 4, 2, 2, 2, 0, 0, 0
+36925, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+36997, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37949, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataSet dataSet IDataStore dataStore", 0, 0, 3, 3, 3, 0, 0, 0
+38899, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 3, 3, 3, 0, 0, 0
+38702, 38837, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 0
+37240, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+38636, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 5, 5, 5, 0, 0, 0
+38502, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 5, 5, 5, 0, 0, 0
+37147, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36925, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+37949, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 6, 6, 6, 0, 0, 0
+37147, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Config previewRowsConfig boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+36997, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+39881, 40228, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+38584, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 5, 5, 5, 0, 0, 0
+37091, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37306, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+38702, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 4, 4, 4, 0, 0, 0
+37091, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+37240, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+36876, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+37306, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+37344, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+38899, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 3, 3, 3, 0, 0, 0
+36876, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+37069, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+36925, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+37949, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataSet dataSet IDataStore dataStore boolean overflow", 0, 0, 4, 4, 4, 0, 0, 0
+39253, 39744, 1, "OK", 6, 13, 4, 4, 4, 0, 0, 0
+40761, 41124, 1, "OK", 1, 8, 2, 1, 1, 0, 1, 1
+37240, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+37069, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+37306, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+39253, 39780, 1, "OK", 6, 15, 4, 4, 4, 0, 0, 0
+37069, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36876, 39744, 1, "OK", 7, 67, 12, 12, 12, 0, 0, 0
+37091, 39744, 1, "OK", 7, 61, 12, 12, 12, 0, 0, 0
+37147, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+36925, 39744, 1, "OK", 8, 66, 12, 12, 12, 0, 0, 0
+37949, 39744, 1, "OK", 9, 44, 10, 10, 10, 0, 0, 0
+37091, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+38636, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 5, 5, 5, 0, 0, 0
+38375, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataStore dataStore", 0, 0, 2, 2, 2, 0, 0, 0
+38702, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 4, 4, 4, 0, 0, 0
+38375, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37344, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+36783, 41128, 1, "OK", 5, 105, 21, 21, 18, 3, 3, 0
+40266, 40675, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+36876, 39780, 1, "OK", 7, 69, 12, 12, 12, 0, 0, 0
+37306, 39744, 1, "OK", 9, 58, 12, 12, 12, 0, 0, 0
+36925, 39780, 1, "OK", 8, 68, 12, 12, 12, 0, 0, 0
+37949, 39780, 1, "OK", 9, 46, 10, 10, 10, 0, 0, 0
+37240, 39744, 1, "OK", 8, 59, 12, 12, 12, 0, 0, 0
+36997, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37147, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37091, 39780, 1, "OK", 7, 63, 12, 12, 12, 0, 0, 0
+39454, 39744, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+37306, 39780, 1, "OK", 9, 60, 12, 12, 12, 0, 0, 0
+37069, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+37240, 39780, 1, "OK", 8, 61, 12, 12, 12, 0, 0, 0
+38375, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 5, 5, 5, 0, 0, 0
+36925, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+37949, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataSet dataSet IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+36997, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37069, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36867, 41128, 1, "OK", 7, 102, 21, 21, 18, 3, 3, 0
+39454, 39780, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+37344, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37069, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Config previewRowsConfig boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+37091, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+36997, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+37344, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+37069, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+39953, 40228, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+37240, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+37306, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+36876, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+39253, 39388, 1, "OK", 4, 3, 2, 2, 2, 0, 0, 0
+37147, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+39987, 40228, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+40435, 40675, 1, "OK", 0, 6, 2, 1, 1, 0, 1, 1
+36876, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+36876, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37091, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+37147, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+38451, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataStore dataStore boolean overflow", 0, 0, 1, 1, 1, 0, 0, 0
+38584, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 3, 3, 3, 0, 0, 0
+36997, 39744, 1, "OK", 6, 64, 12, 12, 12, 0, 0, 0
+38451, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 3, 3, 3, 0, 0, 0
+36925, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+37949, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+36925, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36997, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+37949, 38370, 1, "OK", 3, 8, 3, 3, 3, 0, 0, 0
+40833, 41124, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+37344, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+38584, 38698, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+37147, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+38502, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber ValidationErrors validationErrors JSONArray columns", 0, 0, 3, 3, 3, 0, 0, 0
+36925, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+37949, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 8, 8, 8, 0, 0, 0
+37306, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+37091, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37344, 39744, 1, "OK", 10, 57, 12, 12, 12, 0, 0, 0
+39253, 39449, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+37240, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+37240, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37306, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+38451, 39744, 1, "OK", 7, 34, 7, 7, 7, 0, 0, 0
+38451, 39780, 1, "OK", 7, 36, 7, 7, 7, 0, 0, 0
+36925, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37949, 38447, 1, "OK", 5, 10, 3, 3, 3, 0, 0, 0
+37091, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+36657, 41128, 1, "OK", 2, 109, 21, 21, 18, 3, 3, 0
+38502, 39744, 1, "OK", 8, 32, 7, 7, 7, 0, 0, 0
+36925, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata Config previewRowsConfig boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+38899, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 1, 1, 1, 0, 0, 0
+40321, 40675, 1, "OK", 1, 8, 2, 1, 1, 0, 1, 1
+36997, 39780, 1, "OK", 6, 66, 12, 12, 12, 0, 0, 0
+39393, 39744, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+37147, 39744, 1, "OK", 8, 60, 12, 12, 12, 0, 0, 0
+37069, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37344, 39780, 1, "OK", 10, 59, 12, 12, 12, 0, 0, 0
+38502, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber boolean overflow", 0, 0, 1, 1, 1, 0, 0, 0
+38584, 39744, 1, "OK", 9, 30, 7, 7, 7, 0, 0, 0
+36876, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+37091, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Config previewRowsConfig boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+37306, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36757, 41128, 1, "OK", 4, 106, 21, 21, 18, 3, 3, 0
+36691, 41128, 1, "OK", 3, 108, 21, 21, 18, 3, 3, 0
+37069, 38631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37240, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37306, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+38502, 39780, 1, "OK", 8, 34, 7, 7, 7, 0, 0, 0
+38636, 38698, 1, "OK", 2, 1, 1, 1, 1, 0, 0, 0
+37240, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+37306, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+36876, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+39393, 39780, 1, "OK", 3, 11, 2, 2, 2, 0, 0, 0
+37147, 39780, 1, "OK", 8, 62, 12, 12, 12, 0, 0, 0
+38636, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 3, 3, 3, 0, 0, 0
+38702, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 2, 2, 2, 0, 0, 0
+38899, 39744, 1, "OK", 8, 21, 5, 5, 5, 0, 0, 0
+36876, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata Config previewRowsConfig boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+37091, 38447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+38584, 39780, 1, "OK", 9, 32, 7, 7, 7, 0, 0, 0
+39826, 40228, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+38702, 39744, 1, "OK", 10, 27, 6, 6, 6, 0, 0, 0
+38899, 39780, 1, "OK", 8, 23, 5, 5, 5, 0, 0, 0
+36997, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+36876, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37344, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+38636, 39744, 1, "OK", 9, 28, 7, 7, 7, 0, 0, 0
+37091, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37240, 37944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit boolean limitPreviewCheck", 0, 0, 2, 2, 2, 0, 0, 0
+36925, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37949, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore", 0, 0, 3, 3, 3, 0, 0, 0
+36726, 41128, 1, "OK", 4, 107, 21, 21, 18, 3, 3, 0
+38702, 39780, 1, "OK", 10, 29, 6, 6, 6, 0, 0, 0
+37147, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 7, 7, 7, 0, 0, 0
+36997, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+38636, 39780, 1, "OK", 9, 30, 7, 7, 7, 0, 0, 0
+36997, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit String datasetMetadata IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+37069, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore boolean overflow", 0, 0, 6, 6, 6, 0, 0, 0
+38584, 38837, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+37344, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+40706, 41124, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+38451, 38837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataStore dataStore", 0, 0, 2, 2, 2, 0, 0, 0
+37240, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37306, 38497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37069, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber ValidationErrors validationErrors JSONArray columns boolean limitPreviewCheck IDataStore dataStore", 0, 0, 8, 8, 8, 0, 0, 0
+38502, 38837, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+36925, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37949, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataSet dataSet IDataStore dataStore", 0, 0, 3, 3, 3, 0, 0, 0
+37069, 39744, 1, "OK", 7, 63, 12, 12, 12, 0, 0, 0
+37344, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+38451, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+38375, 39189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 3, 3, 3, 0, 0, 0
+37091, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+36596, 41128, 1, "OK", 1, 110, 21, 21, 18, 3, 3, 0
+38502, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 5, 5, 5, 0, 0, 0
+36997, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+37306, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37344, 39449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns JSONObject gridDataFeed", 0, 0, 10, 10, 10, 0, 0, 0
+38375, 39744, 1, "OK", 8, 35, 7, 7, 7, 0, 0, 0
+40393, 40675, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+37069, 39780, 1, "OK", 7, 65, 12, 12, 12, 0, 0, 0
+37240, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37147, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns IDataStore dataStore", 0, 0, 10, 10, 10, 0, 0, 0
+38375, 38698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer resultNumber IDataStore dataStore boolean overflow", 0, 0, 1, 1, 1, 0, 0, 0
+38584, 39388, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValidationErrors validationErrors JSONArray columns", 0, 0, 5, 5, 5, 0, 0, 0
+36876, 38579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit Integer resultNumber String datasetMetadata IDataSet dataSet boolean limitPreviewCheck IDataStore dataStore", 0, 0, 5, 5, 5, 0, 0, 0
+37147, 38370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer limit IDataSet dataSet boolean limitPreviewCheck", 0, 0, 5, 5, 5, 0, 0, 0
+36827, 41128, 1, "OK", 6, 104, 21, 21, 18, 3, 3, 0

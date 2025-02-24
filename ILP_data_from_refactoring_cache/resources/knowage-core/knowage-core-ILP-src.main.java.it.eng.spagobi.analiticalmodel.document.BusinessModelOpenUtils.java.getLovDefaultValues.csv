@@ -1,0 +1,308 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5355, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 38, 38, 20, 18, 7, 0
+5690, 6971, 1, "OK", 2, 33, 27, 17, 11, 6, 5, 2
+4735, 10980, 1, "OK", 8, 152, 87, 87, 41, 46, 18, 0
+7363, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+9092, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 15, 9, 6, 5, 2
+4951, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest LovResultHandler lovResultHandler", 0, 0, 37, 37, 19, 18, 7, 0
+4889, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 40, 46, 18, 0
+5117, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5034, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest LovResultHandler lovResultHandler", 0, 0, 37, 37, 19, 18, 7, 0
+5231, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+8584, 8921, 1, "OK", 2, 11, 7, 3, 2, 1, 2, 2
+8927, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 11, 6, 7, 2
+8657, 9229, 1, "OK", 3, 17, 16, 6, 5, 1, 5, 2
+4889, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5231, 5350, 1, "OK", 1, 1, 2, 2, 2, 0, 0, 0
+6987, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+9175, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 14, 8, 6, 4, 2
+5117, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest LovResultHandler lovResultHandler", 0, 0, 37, 37, 19, 18, 7, 0
+6554, 6842, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 3
+6059, 6315, 1, "OK", 1, 9, 12, 4, 3, 1, 2, 4
+4703, 10980, 1, "OK", 8, 153, 87, 87, 41, 46, 18, 0
+5231, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 40, 40, 22, 18, 7, 0
+5503, 5636, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+6987, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8879, 9009, 1, "OK", 2, 2, 3, 1, 1, 0, 1, 2
+8441, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 16, 28, 11, 0
+7402, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+9015, 9406, 1, "OK", 2, 11, 6, 2, 2, 0, 2, 2
+9787, 10562, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 14, 6, 5, 1, 2, 4
+4951, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+6142, 6315, 1, "OK", 2, 7, 12, 4, 3, 1, 2, 4
+7450, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+8584, 9457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> itemAsMap ArrayList<HashMap<String, Object>> defaultErrorValues boolean defaultParameterAlreadyExist", 0, 0, 16, 6, 5, 1, 5, 2
+4889, 5227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BusinessModelRuntime dum Map selectedParameterValues String mode", 0, 0, 2, 2, 2, 0, 0, 0
+4951, 5350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BusinessModelRuntime dum Map selectedParameterValues String mode String contest", 0, 0, 4, 4, 4, 0, 0, 0
+7450, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8276, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 16, 28, 11, 0
+5642, 6977, 1, "OK", 2, 35, 29, 23, 12, 11, 6, 1
+4889, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+4951, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+4889, 10868, 1, "OK", 9, 143, 86, 86, 40, 46, 18, 0
+5034, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5034, 5350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode String contest", 0, 0, 4, 4, 4, 0, 0, 0
+8657, 9268, 1, "OK", 3, 18, 16, 6, 5, 1, 5, 2
+4889, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows String mode", 0, 0, 39, 39, 21, 18, 7, 0
+7214, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8927, 9086, 1, "OK", 2, 4, 6, 2, 2, 0, 2, 2
+5355, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 38, 38, 20, 18, 7, 0
+8879, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 11, 6, 7, 2
+5117, 5350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mode String contest", 0, 0, 4, 4, 4, 0, 0, 0
+5034, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+6987, 10868, 1, "OK", 13, 90, 49, 49, 21, 28, 11, 0
+5231, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+5117, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5077, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+6987, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows", 0, 0, 2, 2, 2, 0, 0, 0
+6059, 6361, 1, "OK", 3, 10, 12, 4, 3, 1, 2, 4
+9235, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 15, 9, 6, 5, 2
+8657, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 21, 14, 7, 10, 2
+7363, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+9309, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 14, 8, 6, 4, 2
+8145, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 16, 28, 11, 0
+8720, 8865, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3
+7450, 10868, 1, "OK", 11, 79, 49, 49, 21, 28, 11, 0
+8441, 10868, 1, "OK", 5, 62, 44, 44, 16, 28, 11, 0
+5077, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 42, 42, 24, 18, 7, 0
+5117, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+7450, 7800, 1, "OK", 5, 4, 2, 2, 2, 0, 0, 0
+7402, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+6142, 6361, 1, "OK", 4, 8, 12, 4, 3, 1, 2, 4
+9015, 9457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> defaultErrorValues boolean defaultParameterAlreadyExist", 0, 0, 6, 2, 2, 0, 2, 2
+4951, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5355, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues", 0, 0, 33, 33, 15, 18, 7, 0
+7402, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8276, 10868, 1, "OK", 6, 65, 44, 44, 16, 28, 11, 0
+8584, 9009, 1, "OK", 2, 12, 10, 4, 3, 1, 3, 2
+5034, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+4755, 10980, 1, "OK", 8, 151, 87, 87, 41, 46, 18, 0
+7291, 8140, 1, "OK", 8, 15, 5, 5, 5, 0, 0, 0
+4889, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+8879, 9086, 1, "OK", 2, 5, 6, 2, 2, 0, 2, 2
+5117, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5231, 6982, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+6987, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5355, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 82, 82, 36, 46, 18, 0
+8145, 10868, 1, "OK", 5, 67, 44, 44, 16, 28, 11, 0
+5355, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 38, 38, 20, 18, 7, 0
+4889, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest LovResultHandler lovResultHandler", 0, 0, 37, 37, 19, 18, 7, 0
+7402, 10868, 1, "OK", 11, 80, 49, 49, 21, 28, 11, 0
+9092, 9169, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+7402, 7800, 1, "OK", 5, 5, 2, 2, 2, 0, 0, 0
+7450, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+4822, 10980, 1, "OK", 9, 149, 87, 87, 41, 46, 18, 0
+9873, 10553, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 3, 3, 0, 1, 5
+8584, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 20, 13, 7, 9, 2
+6376, 6842, 1, "OK", 3, 10, 4, 4, 4, 0, 0, 3
+4951, 6982, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BusinessModelRuntime dum Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+8213, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 16, 28, 11, 0
+8927, 9169, 1, "OK", 2, 7, 9, 3, 3, 0, 3, 2
+6096, 6315, 1, "OK", 1, 8, 12, 4, 3, 1, 2, 4
+5034, 6982, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5077, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5231, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+7111, 8140, 1, "OK", 10, 18, 5, 5, 5, 0, 0, 0
+5117, 6982, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5355, 10868, 1, "OK", 14, 134, 82, 82, 36, 46, 18, 0
+9725, 10570, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 9, 6, 3, 3, 3
+4889, 5350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BusinessModelRuntime dum Map selectedParameterValues String mode String contest", 0, 0, 4, 4, 4, 0, 0, 0
+5355, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows", 0, 0, 35, 35, 17, 18, 7, 0
+5749, 6850, 1, "OK", 2, 28, 24, 16, 10, 6, 4, 2
+5355, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues", 0, 0, 33, 33, 15, 18, 7, 0
+4889, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5931, 6842, 1, "OK", 3, 23, 21, 12, 9, 3, 3, 3
+7805, 8140, 1, "OK", 5, 6, 3, 3, 3, 0, 0, 0
+8584, 9086, 1, "OK", 2, 15, 13, 5, 4, 1, 4, 2
+5077, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7291, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5425, 5636, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+4951, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7402, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8657, 8872, 1, "OK", 3, 7, 7, 3, 2, 1, 2, 2
+4889, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+9015, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 16, 10, 6, 6, 2
+8213, 10868, 1, "OK", 6, 66, 44, 44, 16, 28, 11, 0
+8879, 9169, 1, "OK", 2, 8, 9, 3, 3, 0, 3, 2
+6096, 6361, 1, "OK", 3, 9, 12, 4, 3, 1, 2, 4
+6987, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5034, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+8657, 9406, 1, "OK", 3, 21, 16, 6, 5, 1, 5, 2
+9412, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 14, 8, 6, 4, 2
+8927, 9229, 1, "OK", 2, 8, 9, 3, 3, 0, 3, 2
+9092, 9229, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+5077, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 40, 46, 18, 0
+7030, 8140, 1, "OK", 11, 20, 5, 5, 5, 0, 0, 0
+5117, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7450, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+4889, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5355, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 38, 38, 20, 18, 7, 0
+5077, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+8364, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 16, 28, 11, 0
+4676, 10980, 1, "OK", 8, 154, 87, 87, 41, 46, 18, 0
+7111, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+9015, 9086, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+8657, 8921, 1, "OK", 3, 9, 7, 3, 2, 1, 2, 2
+7291, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+8927, 9268, 1, "OK", 2, 9, 9, 3, 3, 0, 3, 2
+5077, 5227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode", 0, 0, 2, 2, 2, 0, 0, 0
+7291, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+9092, 9268, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+5231, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+7805, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 3, 3, 3, 0, 0, 0
+5355, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues LovResultHandler lovResultHandler", 0, 0, 33, 33, 15, 18, 7, 0
+8927, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 18, 12, 6, 8, 2
+8879, 9229, 1, "OK", 2, 9, 9, 3, 3, 0, 3, 2
+5231, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 40, 40, 22, 18, 7, 0
+9092, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 16, 10, 6, 6, 2
+6462, 6842, 1, "OK", 3, 8, 3, 3, 3, 0, 0, 3
+5702, 6850, 1, "OK", 1, 29, 24, 16, 10, 6, 4, 2
+9463, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 14, 8, 6, 4, 2
+5077, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+9175, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 15, 9, 6, 5, 2
+5077, 10868, 1, "OK", 11, 139, 86, 86, 40, 46, 18, 0
+8657, 9457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> defaultErrorValues boolean defaultParameterAlreadyExist", 0, 0, 16, 6, 5, 1, 5, 2
+5077, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows String mode", 0, 0, 39, 39, 21, 18, 7, 0
+7402, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+4889, 6982, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BusinessModelRuntime dum Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+8364, 10868, 1, "OK", 6, 64, 44, 44, 16, 28, 11, 0
+4951, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+8584, 9169, 1, "OK", 2, 18, 16, 6, 5, 1, 5, 2
+5835, 6842, 1, "OK", 3, 25, 21, 12, 9, 3, 3, 3
+4951, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 42, 42, 24, 18, 7, 0
+8498, 10817, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 32, 15, 17, 11, 1
+5355, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues", 0, 0, 33, 33, 15, 18, 7, 0
+7291, 10868, 1, "OK", 11, 83, 49, 49, 21, 28, 11, 0
+5034, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7214, 8140, 1, "OK", 8, 17, 5, 5, 5, 0, 0, 0
+7291, 7800, 1, "OK", 5, 8, 2, 2, 2, 0, 0, 0
+7030, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5034, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 42, 42, 24, 18, 7, 0
+8879, 9268, 1, "OK", 2, 10, 9, 3, 3, 0, 3, 2
+7111, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+5117, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5355, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 38, 38, 20, 18, 7, 0
+7111, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+7363, 8140, 1, "OK", 8, 14, 5, 5, 5, 0, 0, 0
+7805, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 19, 28, 11, 0
+8879, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 18, 12, 6, 8, 2
+5117, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 42, 42, 24, 18, 7, 0
+5077, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+7805, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 3, 3, 3, 0, 0, 0
+4889, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet IEngUserProfile profile Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+9309, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 15, 9, 6, 5, 2
+9015, 9169, 1, "OK", 2, 6, 6, 2, 2, 0, 2, 2
+5231, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 40, 40, 22, 18, 7, 0
+8584, 9229, 1, "OK", 2, 19, 16, 6, 5, 1, 5, 2
+8657, 9009, 1, "OK", 3, 10, 10, 4, 3, 1, 3, 2
+5077, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest LovResultHandler lovResultHandler", 0, 0, 37, 37, 19, 18, 7, 0
+7111, 10868, 1, "OK", 13, 86, 49, 49, 21, 28, 11, 0
+7291, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5355, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues", 0, 0, 33, 33, 15, 18, 7, 0
+7111, 7800, 1, "OK", 7, 11, 2, 2, 2, 0, 0, 0
+7030, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+7030, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+4951, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+7805, 10868, 1, "OK", 8, 74, 47, 47, 19, 28, 11, 0
+9235, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 14, 8, 6, 4, 2
+5231, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+5503, 6977, 1, "OK", 4, 39, 31, 24, 13, 11, 7, 1
+4581, 10980, 1, "OK", 7, 155, 87, 87, 41, 46, 18, 0
+8795, 8865, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+8657, 10577, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 20, 13, 7, 9, 2
+7214, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8584, 9268, 1, "OK", 2, 20, 16, 6, 5, 1, 5, 2
+5034, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+7363, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5077, 5350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode String contest", 0, 0, 4, 4, 4, 0, 0, 0
+8584, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 21, 14, 7, 10, 2
+5077, 7397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+9015, 9229, 1, "OK", 2, 7, 6, 2, 2, 0, 2, 2
+5805, 6850, 1, "OK", 3, 27, 24, 16, 10, 6, 4, 2
+4951, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5117, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5231, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 84, 84, 38, 46, 18, 0
+7030, 10868, 1, "OK", 13, 88, 49, 49, 21, 28, 11, 0
+5355, 6982, 1, "OK", 4, 43, 33, 33, 15, 18, 7, 0
+9092, 9406, 1, "OK", 2, 8, 3, 1, 1, 0, 1, 2
+5231, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 40, 40, 22, 18, 7, 0
+7030, 7800, 1, "OK", 8, 13, 2, 2, 2, 0, 0, 0
+7111, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5077, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5034, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+8927, 9406, 1, "OK", 2, 12, 9, 3, 3, 0, 3, 2
+4889, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies IEngUserProfile profile Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+8657, 9086, 1, "OK", 3, 13, 13, 5, 4, 1, 4, 2
+5117, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7805, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 3, 3, 3, 0, 0, 0
+4951, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 40, 46, 18, 0
+6021, 6842, 1, "OK", 3, 21, 17, 11, 8, 3, 2, 3
+4889, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 42, 42, 24, 18, 7, 0
+4880, 10980, 1, "OK", 9, 148, 87, 87, 41, 46, 18, 0
+4951, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+7291, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+7214, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+9015, 9268, 1, "OK", 2, 8, 6, 2, 2, 0, 2, 2
+5034, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 40, 46, 18, 0
+5077, 7446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7214, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+6987, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray", 0, 0, 5, 5, 5, 0, 0, 0
+9015, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 11, 6, 7, 2
+10584, 10811, 1, "OK", 4, 7, 3, 1, 1, 0, 1, 2
+5231, 10868, 1, "OK", 13, 136, 84, 84, 38, 46, 18, 0
+5034, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5355, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet Map selectedParameterValues", 0, 0, 33, 33, 15, 18, 7, 0
+7363, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 21, 28, 11, 0
+5117, 10822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 40, 46, 18, 0
+5231, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows", 0, 0, 37, 37, 19, 18, 7, 0
+5231, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String contest", 0, 0, 35, 35, 17, 18, 7, 0
+9092, 9457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> defaultErrorValues boolean defaultParameterAlreadyExist", 0, 0, 3, 1, 1, 0, 1, 2
+7363, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+7030, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+7450, 8140, 1, "OK", 8, 11, 5, 5, 5, 0, 0, 0
+8879, 9406, 1, "OK", 2, 13, 9, 3, 3, 0, 3, 2
+5117, 8272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+4951, 5227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BusinessModelRuntime dum Map selectedParameterValues String mode", 0, 0, 2, 2, 2, 0, 0, 0
+8927, 9457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> defaultErrorValues boolean defaultParameterAlreadyExist", 0, 0, 9, 3, 3, 0, 3, 2
+4951, 10868, 1, "OK", 10, 142, 86, 86, 40, 46, 18, 0
+9412, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 15, 9, 6, 5, 2
+4951, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows String mode", 0, 0, 39, 39, 21, 18, 7, 0
+5034, 5227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode", 0, 0, 2, 2, 2, 0, 0, 0
+4951, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7214, 10868, 1, "OK", 11, 85, 49, 49, 21, 28, 11, 0
+7214, 7800, 1, "OK", 5, 10, 2, 2, 2, 0, 0, 0
+5034, 10868, 1, "OK", 11, 140, 86, 86, 40, 46, 18, 0
+5034, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows String mode", 0, 0, 39, 39, 21, 18, 7, 0
+5117, 5227, 1, "OK", 1, 1, 2, 2, 2, 0, 0, 0
+7111, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5034, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5077, 6982, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+7363, 10868, 1, "OK", 11, 82, 49, 49, 21, 28, 11, 0
+7363, 7800, 1, "OK", 5, 7, 2, 2, 2, 0, 0, 0
+5117, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+5231, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 40, 40, 22, 18, 7, 0
+5117, 10868, 1, "OK", 12, 137, 86, 86, 40, 46, 18, 0
+4889, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+7805, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 3, 3, 3, 0, 0, 0
+8554, 10817, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 32, 15, 17, 11, 1
+5117, 7800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List rows String mode", 0, 0, 39, 39, 21, 18, 7, 0
+7402, 8140, 1, "OK", 8, 12, 5, 5, 5, 0, 0, 0
+9463, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 15, 9, 6, 5, 2
+6987, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+8584, 8872, 1, "OK", 2, 9, 7, 3, 2, 1, 2, 2
+8657, 9169, 1, "OK", 3, 16, 16, 6, 5, 1, 5, 2
+8879, 9457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> defaultErrorValues boolean defaultParameterAlreadyExist", 0, 0, 9, 3, 3, 0, 3, 2
+5875, 6842, 1, "OK", 3, 24, 21, 12, 9, 3, 3, 3
+4889, 7210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String lovResult ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0
+4951, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5231, 7359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues String contest LovResultHandler lovResultHandler", 0, 0, 35, 35, 17, 18, 7, 0
+5425, 6977, 1, "OK", 4, 41, 31, 24, 13, 11, 7, 1
+8584, 9406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> itemAsMap ArrayList<HashMap<String, Object>> defaultErrorValues", 0, 0, 16, 6, 5, 1, 5, 2
+6190, 6305, 1, "OK", 3, 5, 7, 2, 2, 0, 1, 5
+8927, 9009, 1, "OK", 2, 1, 3, 1, 1, 0, 1, 2
+7214, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5355, 7106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet List<MetaModelParuse> metaModelOpenDependencies Map selectedParameterValues", 0, 0, 33, 33, 15, 18, 7, 0
+7450, 8209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+7030, 8436, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 5, 5, 5, 0, 0, 0
+5034, 8360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet JSONArray valuesJSONArray List defaultValuesMetadata", 0, 0, 42, 42, 24, 18, 7, 0
+5077, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ILovDetail lovProvDet Map selectedParameterValues String mode String contest", 0, 0, 37, 37, 19, 18, 7, 0

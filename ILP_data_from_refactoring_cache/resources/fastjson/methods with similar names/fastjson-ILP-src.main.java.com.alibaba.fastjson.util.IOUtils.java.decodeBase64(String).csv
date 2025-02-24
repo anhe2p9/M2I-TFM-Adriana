@@ -1,0 +1,106 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+21799, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int d", 0, 0, 4, 4, 3, 1, 1, 0
+21318, 21446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pad int cCnt", 0, 0, 3, 3, 2, 1, 1, 0
+21189, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int eIx int pad int sepCnt int len", 0, 0, 8, 8, 6, 2, 2, 0
+21318, 22752, 1, "OK", 4, 35, 15, 15, 10, 5, 5, 0
+20947, 21700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int sepCnt int len byte[] dArr", 0, 0, 10, 10, 8, 2, 2, 0
+21672, 22776, 1, "OK", 6, 32, 9, 9, 6, 3, 3, 0
+20947, 21446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int cCnt", 0, 0, 7, 7, 6, 1, 1, 0
+20875, 21631, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+21189, 21390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int eIx int pad", 0, 0, 5, 5, 4, 1, 1, 0
+20875, 22421, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 3, 0
+20947, 22752, 1, "OK", 2, 46, 19, 19, 14, 5, 5, 0
+22312, 22410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int cc", 0, 0, 3, 2, 2, 0, 1, 1
+22433, 22752, 1, "OK", 7, 9, 5, 5, 3, 2, 2, 0
+22549, 22741, 1, "OK", 8, 5, 4, 2, 2, 0, 2, 1
+21503, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sepCnt int len", 0, 0, 3, 3, 2, 1, 1, 0
+21068, 21809, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int sepCnt int len byte[] dArr int d", 0, 0, 10, 10, 8, 2, 2, 0
+20875, 21137, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+20875, 21390, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+22433, 22776, 1, "OK", 7, 11, 5, 5, 3, 2, 2, 0
+22525, 22741, 1, "OK", 7, 6, 4, 2, 2, 0, 2, 1
+21068, 21576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int cCnt int sepCnt", 0, 0, 10, 10, 8, 2, 2, 0
+21318, 22776, 1, "OK", 4, 37, 15, 15, 10, 5, 5, 0
+21421, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sepCnt int len", 0, 0, 3, 3, 2, 1, 1, 0
+21189, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int len byte[] dArr int d", 0, 0, 12, 12, 9, 3, 3, 0
+21503, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int len byte[] dArr int d", 0, 0, 7, 7, 5, 2, 2, 0
+20843, 21631, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+20843, 22421, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 3, 0
+21421, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int len byte[] dArr int d", 0, 0, 7, 7, 5, 2, 2, 0
+20947, 22776, 1, "OK", 2, 48, 19, 19, 14, 5, 5, 0
+20843, 21137, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+20843, 21390, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+20875, 21700, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+21799, 22752, 1, "OK", 7, 27, 9, 9, 6, 3, 3, 0
+20875, 21446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+20875, 20935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+20947, 21256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx", 0, 0, 4, 4, 4, 0, 0, 0
+22141, 22410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int d int cc", 0, 0, 3, 2, 2, 0, 1, 1
+21318, 21809, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pad int sepCnt int len byte[] dArr int d", 0, 0, 6, 6, 4, 2, 2, 0
+21189, 21446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int eIx int pad int cCnt", 0, 0, 5, 5, 4, 1, 1, 0
+21189, 21700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int eIx int pad int sepCnt int len byte[] dArr", 0, 0, 8, 8, 6, 2, 2, 0
+21503, 21700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sepCnt int len byte[] dArr", 0, 0, 3, 3, 2, 1, 1, 0
+20843, 21700, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+21819, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int d", 0, 0, 4, 4, 3, 1, 1, 0
+21421, 21700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sepCnt int len byte[] dArr", 0, 0, 3, 3, 2, 1, 1, 0
+20947, 21809, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int sepCnt int len byte[] dArr int d", 0, 0, 10, 10, 8, 2, 2, 0
+20843, 21446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+21189, 22752, 1, "OK", 4, 39, 17, 17, 12, 5, 5, 0
+20843, 20935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+21799, 22776, 1, "OK", 7, 29, 9, 9, 6, 3, 3, 0
+20875, 22752, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 15, 5, 5, 0
+21068, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int sepCnt int len", 0, 0, 10, 10, 8, 2, 2, 0
+21068, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int len byte[] dArr int d", 0, 0, 14, 14, 11, 3, 3, 0
+20875, 22776, 1, "OK", 2, 52, 20, 20, 15, 5, 5, 0
+21503, 22752, 1, "OK", 6, 33, 12, 12, 8, 4, 4, 0
+21588, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int len byte[] dArr int d", 0, 0, 4, 4, 3, 1, 1, 0
+21068, 21390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad", 0, 0, 7, 7, 6, 1, 1, 0
+21318, 21576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pad int cCnt int sepCnt", 0, 0, 6, 6, 4, 2, 2, 0
+21068, 21137, 1, "OK", 3, 2, 2, 2, 2, 0, 0, 0
+20875, 20975, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+21503, 22776, 1, "OK", 6, 35, 12, 12, 8, 4, 4, 0
+20875, 21256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+20843, 22752, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 15, 5, 5, 0
+20947, 21576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int cCnt int sepCnt", 0, 0, 10, 10, 8, 2, 2, 0
+21189, 22776, 1, "OK", 4, 41, 17, 17, 12, 5, 5, 0
+21421, 22752, 1, "OK", 5, 34, 12, 12, 8, 4, 4, 0
+20843, 22776, 1, "OK", 1, 53, 20, 20, 15, 5, 5, 0
+21672, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx byte[] dArr int d", 0, 0, 4, 4, 3, 1, 1, 0
+21421, 22776, 1, "OK", 5, 36, 12, 12, 8, 4, 4, 0
+22184, 22410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int d int cc", 0, 0, 3, 2, 2, 0, 1, 1
+21189, 21256, 1, "OK", 2, 2, 2, 2, 2, 0, 0, 0
+20843, 20975, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+21318, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pad int sepCnt int len", 0, 0, 6, 6, 4, 2, 2, 0
+21068, 21446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int cCnt", 0, 0, 7, 7, 6, 1, 1, 0
+21068, 21700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int sepCnt int len byte[] dArr", 0, 0, 10, 10, 8, 2, 2, 0
+22226, 22410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int d int cc", 0, 0, 3, 2, 2, 0, 1, 1
+20843, 21256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+21318, 21390, 1, "OK", 2, 1, 3, 3, 2, 1, 1, 0
+20947, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int sepCnt int len", 0, 0, 10, 10, 8, 2, 2, 0
+21189, 21809, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int eIx int pad int sepCnt int len byte[] dArr int d", 0, 0, 8, 8, 6, 2, 2, 0
+21588, 22752, 1, "OK", 6, 31, 9, 9, 6, 3, 3, 0
+22549, 22646, 1, "OK", 5, 2, 2, 1, 1, 0, 1, 1
+21819, 22752, 1, "OK", 8, 26, 9, 9, 6, 3, 3, 0
+20875, 21809, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+22525, 22646, 1, "OK", 4, 3, 2, 1, 1, 0, 1, 1
+20875, 21576, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+21819, 22776, 1, "OK", 8, 28, 9, 9, 6, 3, 3, 0
+20947, 21137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx", 0, 0, 2, 2, 2, 0, 0, 0
+20947, 21390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad", 0, 0, 7, 7, 6, 1, 1, 0
+21503, 21809, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sepCnt int len byte[] dArr int d", 0, 0, 3, 3, 2, 1, 1, 0
+21318, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int pad int len byte[] dArr int d", 0, 0, 10, 10, 7, 3, 3, 0
+22662, 22741, 1, "OK", 4, 2, 2, 1, 1, 0, 1, 1
+21068, 22752, 1, "OK", 4, 43, 19, 19, 14, 5, 5, 0
+21503, 21576, 1, "OK", 3, 1, 3, 3, 2, 1, 1, 0
+21068, 22776, 1, "OK", 4, 45, 19, 19, 14, 5, 5, 0
+20947, 22421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx int pad int len byte[] dArr int d", 0, 0, 14, 14, 11, 3, 3, 0
+21963, 22410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int d int cc", 0, 0, 3, 2, 2, 0, 1, 1
+20843, 21809, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+21189, 21576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int eIx int pad int cCnt int sepCnt", 0, 0, 8, 8, 6, 2, 2, 0
+21421, 21809, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sepCnt int len byte[] dArr int d", 0, 0, 3, 3, 2, 1, 1, 0
+21588, 22776, 1, "OK", 6, 33, 9, 9, 6, 3, 3, 0
+21672, 22752, 1, "OK", 6, 30, 9, 9, 6, 3, 3, 0
+20843, 21576, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+21318, 21700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pad int sepCnt int len byte[] dArr", 0, 0, 6, 6, 4, 2, 2, 0
+21421, 21576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int cCnt int sepCnt", 0, 0, 3, 3, 2, 1, 1, 0
+21068, 21256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int sIx int eIx", 0, 0, 4, 4, 4, 0, 0, 0

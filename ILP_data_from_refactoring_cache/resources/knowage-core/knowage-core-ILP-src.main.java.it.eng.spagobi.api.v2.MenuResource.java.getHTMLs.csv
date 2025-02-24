@@ -1,0 +1,78 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4908, 5997, 1, "OK", 0, 35, 14, 14, 8, 6, 4, 0
+5207, 5305, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+6001, 6419, 1, "OK", 1, 15, 3, 3, 2, 1, 1, 0
+5050, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File dir String[] filesHtmls ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+5145, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+5309, 6371, 1, "OK", 4, 37, 16, 16, 9, 7, 5, 0
+5668, 5992, 1, "OK", 3, 10, 6, 4, 3, 1, 2, 1
+5225, 6419, 1, "OK", 5, 42, 17, 17, 10, 7, 5, 0
+5225, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+5309, 5997, 1, "OK", 4, 24, 13, 13, 7, 6, 4, 0
+5363, 5992, 1, "OK", 3, 21, 12, 8, 6, 2, 4, 1
+5088, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+5114, 6419, 1, "OK", 2, 45, 17, 17, 10, 7, 5, 0
+5114, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+4865, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File dir String[] filesHtmls ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+5388, 5992, 1, "OK", 3, 19, 12, 8, 6, 2, 4, 1
+4952, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File dir String[] filesHtmls ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+4833, 6822, 1, "OK", 0, 66, 19, 19, 12, 7, 5, 0
+4908, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+5050, 6371, 1, "OK", 1, 45, 17, 17, 10, 7, 5, 0
+5145, 6371, 1, "OK", 3, 42, 17, 17, 10, 7, 5, 0
+4908, 6419, 1, "OK", 0, 50, 17, 17, 10, 7, 5, 0
+5363, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] files int count", 0, 0, 6, 4, 3, 1, 2, 1
+5632, 5992, 1, "OK", 3, 11, 6, 4, 3, 1, 2, 1
+5207, 6371, 1, "OK", 4, 41, 17, 17, 10, 7, 5, 0
+5388, 5627, 1, "OK", 2, 8, 6, 4, 3, 1, 2, 1
+5225, 5305, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+5207, 5997, 1, "OK", 4, 28, 14, 14, 8, 6, 4, 0
+5309, 6419, 1, "OK", 4, 39, 16, 16, 9, 7, 5, 0
+5050, 5997, 1, "OK", 1, 32, 14, 14, 8, 6, 4, 0
+5145, 5997, 1, "OK", 3, 29, 14, 14, 8, 6, 4, 0
+5309, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 13, 13, 7, 6, 4, 0
+6129, 6347, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+5467, 5621, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+5533, 5621, 1, "OK", 2, 3, 4, 2, 2, 0, 1, 2
+5434, 5621, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+4865, 6371, 1, "OK", 0, 49, 17, 17, 10, 7, 5, 0
+5114, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+5088, 6371, 1, "OK", 2, 44, 17, 17, 10, 7, 5, 0
+5668, 5934, 1, "OK", 2, 9, 6, 4, 3, 1, 2, 1
+4908, 5305, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File dir String[] filesHtmls ArrayList<String> filesHtmlsArrayList int count", 0, 0, 1, 1, 1, 0, 0, 0
+5088, 5997, 1, "OK", 2, 31, 14, 14, 8, 6, 4, 0
+6038, 6371, 1, "OK", 2, 11, 3, 3, 2, 1, 1, 0
+6129, 6366, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+4952, 6371, 1, "OK", 0, 46, 17, 17, 10, 7, 5, 0
+4865, 5997, 1, "OK", 0, 36, 14, 14, 8, 6, 4, 0
+5363, 5663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] files String[] filesHtmls", 0, 0, 6, 4, 3, 1, 2, 1
+6001, 6371, 1, "OK", 1, 13, 3, 3, 2, 1, 1, 0
+5813, 5927, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+4952, 5997, 1, "OK", 0, 33, 14, 14, 8, 6, 4, 0
+5714, 5927, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+5388, 5663, 1, "OK", 2, 9, 6, 4, 3, 1, 2, 1
+5747, 5927, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+5050, 6419, 1, "OK", 1, 47, 17, 17, 10, 7, 5, 0
+5145, 6419, 1, "OK", 3, 44, 17, 17, 10, 7, 5, 0
+5207, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+5225, 6371, 1, "OK", 5, 40, 17, 17, 10, 7, 5, 0
+5050, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+5145, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+5363, 5934, 1, "OK", 3, 20, 12, 8, 6, 2, 4, 1
+5207, 6419, 1, "OK", 4, 43, 17, 17, 10, 7, 5, 0
+5388, 5934, 1, "OK", 3, 18, 12, 8, 6, 2, 4, 1
+6089, 6347, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+5225, 5997, 1, "OK", 5, 27, 14, 14, 8, 6, 4, 0
+5114, 6371, 1, "OK", 2, 43, 17, 17, 10, 7, 5, 0
+4856, 6822, 1, "OK", 0, 64, 19, 19, 12, 7, 5, 0
+5632, 5934, 1, "OK", 3, 10, 6, 4, 3, 1, 2, 1
+5088, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+4865, 6419, 1, "OK", 0, 51, 17, 17, 10, 7, 5, 0
+4865, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+6089, 6366, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+5088, 6419, 1, "OK", 2, 46, 17, 17, 10, 7, 5, 0
+5114, 5997, 1, "OK", 2, 30, 14, 14, 8, 6, 4, 0
+4952, 6033, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] filesHtmls JSONArray njo", 0, 0, 14, 14, 8, 6, 4, 0
+4908, 6371, 1, "OK", 0, 48, 17, 17, 10, 7, 5, 0
+6038, 6419, 1, "OK", 2, 13, 3, 3, 2, 1, 1, 0
+4952, 6419, 1, "OK", 0, 48, 17, 17, 10, 7, 5, 0

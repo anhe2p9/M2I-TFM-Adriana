@@ -1,0 +1,184 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3788, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 18, 2, 2, 0
+4176, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4136, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+4136, 4455, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 3, 3, 3, 0, 0, 0
+6210, 6978, 1, "OK", 4, 13, 2, 2, 2, 0, 0, 0
+4008, 4329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 2, 2, 2, 0, 0, 0
+5035, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+5145, 5438, 1, "OK", 2, 8, 4, 2, 2, 0, 2, 1
+6166, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3788, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+4647, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+5035, 6290, 1, "OK", 5, 24, 10, 10, 8, 2, 2, 0
+4332, 4788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message IFaceBasicListService listService", 0, 0, 4, 4, 4, 0, 0, 0
+6293, 6978, 1, "OK", 3, 12, 2, 2, 2, 0, 0, 0
+4008, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 4, 4, 4, 0, 0, 0
+4176, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+4647, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+5145, 5188, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+4263, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4458, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+3788, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 19, 2, 2, 0
+4387, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+5008, 6368, 1, "OK", 4, 26, 10, 10, 8, 2, 2, 0
+5035, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4136, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4176, 4260, 1, "OK", 1, 2, 2, 2, 2, 0, 0, 0
+4647, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+3788, 4260, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+3788, 4004, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4263, 4384, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+4176, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+3788, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 9, 0, 0, 0
+4458, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4647, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+4136, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 16, 2, 2, 0
+4176, 4788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message IFaceBasicListService listService", 0, 0, 6, 6, 6, 0, 0, 0
+3788, 4788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+4136, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4458, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4791, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+4647, 4788, 1, "OK", 4, 2, 2, 2, 2, 0, 0, 0
+4008, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4791, 6978, 1, "OK", 4, 41, 13, 13, 11, 2, 2, 0
+4458, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 14, 2, 2, 0
+4136, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+4332, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4008, 4384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 3, 3, 3, 0, 0, 0
+4263, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4458, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+4263, 6978, 1, "OK", 4, 52, 17, 17, 15, 2, 2, 0
+4136, 4260, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+4387, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4387, 6978, 1, "OK", 5, 49, 16, 16, 14, 2, 2, 0
+4136, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+5081, 5438, 1, "OK", 2, 9, 4, 2, 2, 0, 2, 1
+5008, 6163, 1, "OK", 3, 23, 10, 10, 8, 2, 2, 0
+6014, 6978, 1, "OK", 4, 15, 2, 2, 2, 0, 0, 0
+4332, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 2, 2, 2, 0, 0, 0
+4458, 4788, 1, "OK", 5, 7, 3, 3, 3, 0, 0, 0
+6210, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5081, 5188, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+4136, 4788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message IFaceBasicListService listService", 0, 0, 6, 6, 6, 0, 0, 0
+4176, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4791, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3788, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+5035, 6368, 1, "OK", 5, 25, 10, 10, 8, 2, 2, 0
+6293, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4176, 4329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 2, 2, 2, 0, 0, 0
+4647, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+6568, 6978, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+4008, 6978, 1, "OK", 3, 57, 19, 19, 17, 2, 2, 0
+6210, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4008, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+3788, 4329, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+4263, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+4263, 4455, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String list_nocache IFaceBasicListService listService", 0, 0, 1, 1, 1, 0, 0, 0
+6293, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4176, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 4, 4, 4, 0, 0, 0
+4387, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+4791, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+3788, 4598, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+4332, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+5807, 6011, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+5008, 6978, 1, "OK", 4, 37, 12, 12, 10, 2, 2, 0
+5008, 6207, 1, "OK", 3, 24, 10, 10, 8, 2, 2, 0
+4458, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4263, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4332, 4384, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+4791, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4136, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4387, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4791, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+4136, 4329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 2, 2, 2, 0, 0, 0
+4008, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+4008, 4455, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 3, 3, 3, 0, 0, 0
+6371, 6978, 1, "OK", 2, 11, 2, 2, 2, 0, 0, 0
+4176, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4263, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 14, 2, 2, 0
+4791, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+3788, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+4387, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+5035, 6163, 1, "OK", 4, 22, 10, 10, 8, 2, 2, 0
+5907, 6011, 1, "OK", 3, 2, 1, 1, 1, 0, 0, 0
+6014, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4136, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 4, 4, 4, 0, 0, 0
+4263, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4458, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 1, 1, 1, 0, 0, 0
+4647, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+4791, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4387, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4176, 4384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 3, 3, 3, 0, 0, 0
+3788, 4384, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+4332, 6978, 1, "OK", 5, 51, 17, 17, 15, 2, 2, 0
+5701, 6011, 1, "OK", 3, 6, 3, 3, 3, 0, 0, 0
+4008, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4332, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4263, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+3788, 4132, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4387, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 14, 2, 2, 0
+6014, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4263, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+4387, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+4008, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 16, 2, 2, 0
+4458, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4008, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4263, 4788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message IFaceBasicListService listService", 0, 0, 4, 4, 4, 0, 0, 0
+4136, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+5008, 6011, 1, "OK", 3, 22, 10, 10, 8, 2, 2, 0
+6166, 6978, 1, "OK", 4, 14, 2, 2, 2, 0, 0, 0
+4387, 4788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message IFaceBasicListService listService", 0, 0, 3, 3, 3, 0, 0, 0
+4176, 6978, 1, "OK", 4, 54, 19, 19, 17, 2, 2, 0
+4176, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+3788, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+5192, 5438, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+3788, 6978, 1, "OK", 3, 62, 21, 21, 19, 2, 2, 0
+4008, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+5035, 6207, 1, "OK", 4, 23, 10, 10, 8, 2, 2, 0
+6568, 6811, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+5035, 6978, 1, "OK", 5, 36, 12, 12, 10, 2, 2, 0
+4136, 4384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache", 0, 0, 3, 3, 3, 0, 0, 0
+4647, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+4008, 4260, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+4332, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+4332, 4455, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String list_nocache IFaceBasicListService listService", 0, 0, 1, 1, 1, 0, 0, 0
+4647, 6978, 1, "OK", 5, 43, 15, 15, 13, 2, 2, 0
+5008, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+4008, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+5008, 6290, 1, "OK", 4, 25, 10, 10, 8, 2, 2, 0
+3788, 4173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+5595, 6011, 1, "OK", 3, 8, 4, 4, 4, 0, 0, 0
+4791, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+6371, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4008, 4788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message IFaceBasicListService listService", 0, 0, 6, 6, 6, 0, 0, 0
+5008, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4332, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4458, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4263, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+4136, 6978, 1, "OK", 3, 55, 19, 19, 17, 2, 2, 0
+4136, 6207, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4176, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+4176, 4455, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 3, 3, 3, 0, 0, 0
+6371, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4458, 6978, 1, "OK", 5, 48, 16, 16, 14, 2, 2, 0
+4387, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+3788, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 9, 0, 0, 0
+3788, 4455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+4332, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 14, 2, 2, 0
+4647, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+4332, 6290, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 13, 2, 2, 0
+5522, 6011, 1, "OK", 3, 10, 5, 5, 5, 0, 0, 0
+4176, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+3788, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 17, 2, 2, 0
+4263, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 2, 2, 2, 0, 0, 0
+4332, 6811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+5035, 6011, 1, "OK", 4, 21, 10, 10, 8, 2, 2, 0
+6166, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4387, 4598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String message String list_nocache IFaceBasicListService listService", 0, 0, 1, 1, 1, 0, 0, 0
+4647, 6011, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+4008, 6368, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 15, 2, 2, 0
+4458, 4967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+4176, 6539, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 16, 2, 2, 0
+4332, 5032, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+4791, 6163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0

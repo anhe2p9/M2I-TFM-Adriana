@@ -1,0 +1,183 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+17204, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 116, 116, 61, 55, 34, 0
+28394, 28658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+17650, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 58, 54, 33, 0
+25922, 26187, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+24958, 25608, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 3, 1, 2, 1
+16766, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 120, 120, 64, 56, 35, 0
+26859, 27345, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+20518, 20652, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+21419, 21905, 1, "OK", 3, 10, 6, 2, 2, 0, 2, 2
+22900, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+19287, 19663, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+21385, 21698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondValueStr boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+22851, 24893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 14, 8, 6, 6, 1
+23063, 24209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dateFormat boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+20136, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 91, 91, 42, 49, 28, 0
+20555, 20805, 1, "OK", 2, 9, 6, 2, 2, 0, 2, 2
+21352, 21698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+21527, 21905, 1, "OK", 3, 8, 6, 2, 2, 0, 2, 2
+19236, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 99, 99, 48, 51, 30, 0
+23257, 23574, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+20238, 20652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit String decimalSeparator", 0, 0, 3, 1, 1, 0, 1, 2
+22900, 23888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+24407, 24787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 2, 2, 0, 1, 3
+23030, 24209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+23165, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+22146, 22676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+20360, 20700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit int pos", 0, 0, 3, 1, 1, 0, 1, 2
+16329, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 124, 124, 67, 57, 36, 0
+19386, 19663, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+26456, 26794, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+16524, 16756, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+21144, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 37, 42, 24, 0
+21493, 21698, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+20428, 20652, 1, "OK", 2, 8, 3, 1, 1, 0, 1, 2
+23092, 23574, 1, "OK", 4, 10, 3, 1, 1, 0, 1, 2
+26809, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 6, 0
+27589, 28043, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+26506, 26794, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+20360, 20735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit int pos String decimalCharacters", 0, 0, 3, 1, 1, 0, 1, 2
+21419, 21698, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+23353, 24209, 1, "OK", 5, 14, 9, 3, 3, 0, 3, 2
+21703, 22116, 1, "OK", 3, 8, 6, 2, 2, 0, 2, 2
+16376, 16756, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+22998, 24209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+23645, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 7, 6, 1, 4, 2
+16923, 17194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+20518, 20700, 1, "OK", 2, 8, 3, 1, 1, 0, 1, 2
+23165, 23888, 1, "OK", 3, 14, 6, 2, 2, 0, 2, 2
+15959, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 69, 58, 37, 0
+18865, 19226, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+15934, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 69, 58, 37, 0
+21910, 22116, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+20238, 20700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit int pos", 0, 0, 3, 1, 1, 0, 1, 2
+21527, 21698, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+18816, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 103, 103, 51, 52, 31, 0
+23257, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+23092, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+20705, 20805, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+22288, 22676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+20518, 20735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos String decimalCharacters", 0, 0, 3, 1, 1, 0, 1, 2
+23257, 23888, 1, "OK", 3, 12, 6, 2, 2, 0, 2, 2
+20555, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 3, 3, 0, 3, 2
+20811, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+22900, 24209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+24903, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 20, 18, 12, 0
+23092, 23888, 1, "OK", 4, 15, 6, 2, 2, 0, 2, 2
+20428, 20700, 1, "OK", 3, 10, 3, 1, 1, 0, 1, 2
+21385, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+18123, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 55, 53, 32, 0
+21352, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+23645, 23888, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+25176, 25603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+21703, 21905, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+25143, 25603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+16468, 16756, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+21250, 22116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+27356, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 4, 0
+28058, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 3, 3, 2, 0
+21493, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+16012, 16318, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+24245, 24787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 2, 2, 0, 1, 3
+28282, 28658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+16111, 16318, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+20360, 20805, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit String decimalCharacters", 0, 0, 6, 2, 2, 0, 2, 2
+22121, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 4, 3, 1, 2, 2
+20238, 20735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit int pos String decimalCharacters", 0, 0, 3, 1, 1, 0, 1, 2
+21419, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+20428, 20735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos String decimalCharacters", 0, 0, 3, 1, 1, 0, 1, 2
+23165, 24209, 1, "OK", 4, 19, 9, 3, 3, 0, 3, 2
+27003, 27340, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+25111, 25603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+15934, 28737, 1, "OK", 7, 307, 127, 127, 69, 58, 37, 0
+15959, 28737, 1, "OK", 7, 305, 127, 127, 69, 58, 37, 0
+20705, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+22216, 22676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+20555, 20652, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+20740, 20805, 1, "OK", 3, 2, 3, 1, 1, 0, 1, 2
+19677, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 95, 95, 45, 50, 29, 0
+23961, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 5, 1, 3, 2
+24303, 24787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 2, 2, 0, 1, 3
+21527, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+23257, 24209, 1, "OK", 4, 17, 9, 3, 3, 0, 3, 2
+23092, 24209, 1, "OK", 4, 20, 9, 3, 3, 0, 3, 2
+27029, 27340, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+17259, 17640, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+17714, 18113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+25720, 26187, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+28159, 28658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+21250, 21905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+24452, 24787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 2, 2, 0, 1, 3
+25819, 26187, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+20658, 20805, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+23645, 24209, 1, "OK", 4, 9, 6, 2, 2, 0, 2, 2
+27453, 28043, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+26403, 26794, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+19731, 20126, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+25671, 26192, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+26304, 26794, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+28110, 28663, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+20518, 20805, 1, "OK", 2, 11, 6, 2, 2, 0, 2, 2
+23030, 23574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+26202, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 8, 0
+27403, 28049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 3, 1, 2, 1
+23063, 23574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dateFormat boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+20238, 20805, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit String decimalCharacters", 0, 0, 6, 2, 2, 0, 2, 2
+20428, 20805, 1, "OK", 3, 13, 6, 2, 2, 0, 2, 2
+22358, 22676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+23353, 23574, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+21385, 22116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondValueStr boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+21352, 22116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr boolean syntaxCorrect", 0, 0, 9, 3, 3, 0, 3, 2
+20555, 20700, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+24354, 24787, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 2, 2, 0, 1, 3
+18271, 18802, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 3, 3, 0, 1, 1
+19831, 20126, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+18960, 19226, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+17815, 18113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+23030, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+23063, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+22998, 23574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+20360, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 3, 3, 0, 3, 2
+21250, 21698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+20740, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+26255, 26799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+21419, 22116, 1, "OK", 3, 14, 9, 3, 3, 0, 3, 2
+23030, 23888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+17360, 17640, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+23063, 23888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dateFormat boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+20658, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+23961, 24209, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+21493, 22116, 1, "OK", 3, 13, 9, 3, 3, 0, 3, 2
+20555, 20735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pos String decimalCharacters", 0, 0, 3, 1, 1, 0, 1, 2
+21703, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 6, 5, 1, 4, 2
+21352, 21905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+25304, 25603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+27073, 27340, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+25618, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 16, 15, 10, 0
+21385, 21905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String secondValueStr boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+21527, 22116, 1, "OK", 4, 12, 9, 3, 3, 0, 3, 2
+22900, 23574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 3, 1, 1, 0, 1, 2
+22998, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+23353, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 8, 7, 1, 5, 2
+20360, 20652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int maxNumberOfDecimalDigit String decimalSeparator", 0, 0, 3, 1, 1, 0, 1, 2
+21910, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 5, 4, 1, 3, 2
+20518, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 3, 3, 0, 3, 2
+21250, 22779, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+22998, 23888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String firstValueStr String secondValueStr String dateFormat boolean syntaxCorrect", 0, 0, 6, 2, 2, 0, 2, 2
+25872, 26187, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+23165, 23574, 1, "OK", 2, 9, 3, 1, 1, 0, 1, 2
+23353, 23888, 1, "OK", 4, 9, 6, 2, 2, 0, 2, 2
+20238, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 3, 3, 0, 3, 2
+20428, 21129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 3, 3, 0, 3, 2
+21493, 21905, 1, "OK", 2, 9, 6, 2, 2, 0, 2, 2
+24221, 24888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 4, 1, 2, 2
+25007, 25603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+20188, 21134, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 7, 4, 3, 4, 1
+21200, 22784, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 13, 7, 6, 6, 1
+28253, 28658, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+26908, 27340, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+16822, 17194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+18174, 18802, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 3, 3, 0, 1, 1
+22794, 28671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 29, 30, 18, 0
+27546, 28043, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2

@@ -1,0 +1,150 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5447, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+7335, 7945, 1, "OK", 4, 14, 12, 3, 3, 0, 3, 3
+5399, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4779, 8336, 1, "OK", 1, 107, 64, 64, 24, 40, 16, 0
+5559, 5660, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+7308, 7506, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+4845, 8336, 1, "OK", 2, 105, 64, 64, 24, 40, 16, 0
+5127, 8299, 1, "OK", 3, 96, 64, 64, 24, 40, 16, 0
+5348, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+5018, 8355, 1, "OK", 2, 101, 64, 64, 24, 40, 16, 0
+4666, 8257, 1, "OK", 1, 109, 64, 64, 24, 40, 16, 0
+4898, 8233, 1, "OK", 2, 100, 64, 64, 24, 40, 16, 0
+5757, 8229, 1, "OK", 6, 69, 54, 41, 19, 22, 13, 1
+4630, 8355, 1, "OK", 1, 113, 64, 64, 24, 40, 16, 0
+4994, 8336, 1, "OK", 2, 101, 64, 64, 24, 40, 16, 0
+5943, 7075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue int contSer", 0, 0, 31, 19, 12, 7, 6, 2
+7335, 8216, 1, "OK", 5, 21, 16, 4, 4, 0, 4, 3
+4508, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+4705, 8336, 1, "OK", 1, 110, 64, 64, 24, 40, 16, 0
+5902, 7075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue int contSer", 0, 0, 31, 19, 12, 7, 6, 2
+4845, 8355, 1, "OK", 2, 106, 64, 64, 24, 40, 16, 0
+4779, 8355, 1, "OK", 1, 108, 64, 64, 24, 40, 16, 0
+5559, 5679, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+5103, 8299, 1, "OK", 2, 97, 64, 64, 24, 40, 16, 0
+4994, 8355, 1, "OK", 2, 102, 64, 64, 24, 40, 16, 0
+4705, 8355, 1, "OK", 1, 111, 64, 64, 24, 40, 16, 0
+4898, 8257, 1, "OK", 2, 102, 64, 64, 24, 40, 16, 0
+5254, 8229, 1, "OK", 3, 90, 63, 47, 23, 24, 16, 1
+5737, 7080, 1, "OK", 4, 39, 33, 26, 13, 13, 7, 1
+5828, 7075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue int contSer", 0, 0, 31, 19, 12, 7, 6, 2
+7257, 7581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Double valueD String subcat", 0, 0, 4, 1, 1, 0, 1, 3
+5127, 8336, 1, "OK", 3, 97, 64, 64, 24, 40, 16, 0
+7873, 7945, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+5425, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5254, 5684, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap myseries HashMap additionalValues String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+4666, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+5399, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+4508, 8336, 1, "OK", 0, 114, 64, 64, 24, 40, 16, 0
+7873, 8216, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+7335, 7749, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+5127, 8355, 1, "OK", 3, 98, 64, 64, 24, 40, 16, 0
+5103, 8336, 1, "OK", 2, 98, 64, 64, 24, 40, 16, 0
+4743, 8233, 1, "OK", 1, 105, 64, 64, 24, 40, 16, 0
+4898, 8299, 1, "OK", 2, 103, 64, 64, 24, 40, 16, 0
+6294, 6495, 1, "OK", 1, 6, 4, 1, 1, 0, 1, 3
+4508, 8355, 1, "OK", 0, 115, 64, 64, 24, 40, 16, 0
+5470, 8229, 1, "OK", 6, 81, 63, 47, 23, 24, 16, 1
+5487, 5660, 1, "OK", 1, 6, 7, 3, 3, 0, 2, 2
+5305, 8229, 1, "OK", 3, 88, 63, 47, 23, 24, 16, 1
+7335, 7506, 1, "OK", 1, 6, 4, 1, 1, 0, 1, 3
+7308, 7581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Double valueD String subcat", 0, 0, 4, 1, 1, 0, 1, 3
+4666, 8336, 1, "OK", 1, 111, 64, 64, 24, 40, 16, 0
+5470, 5684, 1, "OK", 2, 9, 9, 6, 4, 2, 3, 1
+7668, 7945, 1, "OK", 5, 5, 8, 2, 2, 0, 2, 3
+5103, 8355, 1, "OK", 2, 99, 64, 64, 24, 40, 16, 0
+4743, 8257, 1, "OK", 1, 107, 64, 64, 24, 40, 16, 0
+5425, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+5995, 7075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue int contSer", 0, 0, 31, 19, 12, 7, 6, 2
+5305, 5684, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap myseries HashMap additionalValues String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+5487, 5679, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+7668, 8216, 1, "OK", 6, 12, 12, 3, 3, 0, 3, 3
+4666, 8355, 1, "OK", 1, 112, 64, 64, 24, 40, 16, 0
+4898, 8336, 1, "OK", 2, 104, 64, 64, 24, 40, 16, 0
+5199, 8229, 1, "OK", 3, 91, 63, 47, 23, 24, 16, 1
+5254, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap myseries HashMap additionalValues String catValue int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4530, 8233, 1, "OK", 0, 109, 64, 64, 24, 40, 16, 0
+5447, 8229, 1, "OK", 6, 83, 63, 47, 23, 24, 16, 1
+4898, 8355, 1, "OK", 2, 105, 64, 64, 24, 40, 16, 0
+5348, 8229, 1, "OK", 4, 87, 63, 47, 23, 24, 16, 1
+5199, 5684, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap myseries HashMap additionalValues String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+4743, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+5447, 5684, 1, "OK", 2, 11, 9, 6, 4, 2, 3, 1
+5757, 7080, 1, "OK", 5, 38, 33, 26, 13, 13, 7, 1
+6387, 6495, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+7668, 7749, 1, "OK", 4, 1, 4, 1, 1, 0, 1, 3
+4530, 8257, 1, "OK", 0, 111, 64, 64, 24, 40, 16, 0
+5018, 8233, 1, "OK", 2, 96, 64, 64, 24, 40, 16, 0
+7215, 8223, 1, "OK", 5, 26, 19, 9, 5, 4, 5, 2
+7257, 7945, 1, "OK", 4, 16, 12, 3, 3, 0, 3, 3
+7513, 7945, 1, "OK", 4, 7, 8, 2, 2, 0, 2, 3
+5348, 5684, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+6253, 7075, 1, "OK", 5, 24, 24, 16, 10, 6, 4, 2
+7335, 7581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Double valueD String subcat", 0, 0, 4, 1, 1, 0, 1, 3
+4630, 8233, 1, "OK", 1, 108, 64, 64, 24, 40, 16, 0
+4779, 8233, 1, "OK", 1, 103, 64, 64, 24, 40, 16, 0
+5470, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4845, 8233, 1, "OK", 2, 101, 64, 64, 24, 40, 16, 0
+5737, 8229, 1, "OK", 5, 70, 54, 41, 19, 22, 13, 1
+5254, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap myseries HashMap additionalValues String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+5305, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap myseries HashMap additionalValues String catValue int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+7257, 8216, 1, "OK", 5, 23, 16, 4, 4, 0, 4, 3
+7513, 8216, 1, "OK", 5, 14, 12, 3, 3, 0, 3, 3
+4743, 8336, 1, "OK", 1, 109, 64, 64, 24, 40, 16, 0
+4994, 8233, 1, "OK", 2, 97, 64, 64, 24, 40, 16, 0
+5018, 8257, 1, "OK", 2, 98, 64, 64, 24, 40, 16, 0
+4705, 8233, 1, "OK", 1, 106, 64, 64, 24, 40, 16, 0
+5399, 8229, 1, "OK", 5, 86, 63, 47, 23, 24, 16, 1
+6322, 6495, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+4630, 8257, 1, "OK", 1, 110, 64, 64, 24, 40, 16, 0
+6580, 6692, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+4779, 8257, 1, "OK", 1, 105, 64, 64, 24, 40, 16, 0
+4845, 8257, 1, "OK", 2, 103, 64, 64, 24, 40, 16, 0
+4530, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+6058, 6241, 1, "OK", 1, 6, 4, 1, 1, 0, 1, 3
+6514, 6954, 1, "OK", 5, 13, 18, 9, 7, 2, 3, 3
+5399, 5684, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 9, 6, 4, 2, 3, 1
+6083, 6241, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+7308, 7945, 1, "OK", 4, 15, 12, 3, 3, 0, 3, 3
+4743, 8355, 1, "OK", 1, 110, 64, 64, 24, 40, 16, 0
+5127, 8233, 1, "OK", 3, 93, 64, 64, 24, 40, 16, 0
+4994, 8257, 1, "OK", 2, 99, 64, 64, 24, 40, 16, 0
+4705, 8257, 1, "OK", 1, 108, 64, 64, 24, 40, 16, 0
+6713, 6947, 1, "OK", 4, 6, 7, 3, 3, 0, 1, 4
+5199, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap myseries HashMap additionalValues String catValue int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5470, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+4508, 8233, 1, "OK", 0, 110, 64, 64, 24, 40, 16, 0
+6870, 6947, 1, "OK", 3, 2, 1, 1, 1, 0, 0, 4
+7257, 7749, 1, "OK", 4, 12, 8, 2, 2, 0, 2, 3
+7308, 8216, 1, "OK", 5, 22, 16, 4, 4, 0, 4, 3
+7513, 7749, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+5018, 8299, 1, "OK", 2, 99, 64, 64, 24, 40, 16, 0
+5447, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5305, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap myseries HashMap additionalValues String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+4630, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+5348, 5753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5425, 8229, 1, "OK", 6, 84, 63, 47, 23, 24, 16, 1
+5103, 8233, 1, "OK", 2, 94, 64, 64, 24, 40, 16, 0
+5127, 8257, 1, "OK", 3, 95, 64, 64, 24, 40, 16, 0
+7257, 7506, 1, "OK", 2, 8, 4, 1, 1, 0, 1, 3
+7085, 8229, 1, "OK", 4, 30, 21, 15, 6, 9, 6, 1
+4530, 8336, 1, "OK", 0, 113, 64, 64, 24, 40, 16, 0
+4845, 8299, 1, "OK", 2, 104, 64, 64, 24, 40, 16, 0
+4779, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+4508, 8257, 1, "OK", 0, 112, 64, 64, 24, 40, 16, 0
+5425, 5684, 1, "OK", 2, 12, 9, 6, 4, 2, 3, 1
+5487, 5554, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+6142, 6241, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+4994, 8299, 1, "OK", 2, 100, 64, 64, 24, 40, 16, 0
+4705, 8299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 64, 64, 24, 40, 16, 0
+6035, 6241, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+4530, 8355, 1, "OK", 0, 114, 64, 64, 24, 40, 16, 0
+5103, 8257, 1, "OK", 2, 96, 64, 64, 24, 40, 16, 0
+4666, 8233, 1, "OK", 1, 107, 64, 64, 24, 40, 16, 0
+5018, 8336, 1, "OK", 2, 100, 64, 64, 24, 40, 16, 0
+5199, 7080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap myseries HashMap additionalValues String catValue", 0, 0, 42, 32, 17, 15, 10, 1
+4630, 8336, 1, "OK", 1, 112, 64, 64, 24, 40, 16, 0
+7308, 7749, 1, "OK", 3, 11, 8, 2, 2, 0, 2, 3
+7169, 8223, 1, "OK", 5, 27, 19, 9, 5, 4, 5, 2
+7995, 8216, 1, "OK", 3, 6, 4, 1, 1, 0, 1, 3

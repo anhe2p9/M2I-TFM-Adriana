@@ -1,0 +1,201 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12704, 13284, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 12, 4, 3, 1, 2, 4
+9057, 11651, 1, "OK", 2, 41, 47, 23, 12, 11, 12, 2
+9189, 10119, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible", 0, 0, 20, 5, 5, 0, 5, 3
+12588, 13292, 1, "OK", 4, 16, 16, 7, 4, 3, 3, 3
+10332, 11559, 1, "OK", 7, 18, 20, 5, 5, 0, 5, 3
+9741, 9915, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+11808, 13418, 1, "OK", 1, 34, 31, 17, 8, 9, 7, 2
+10332, 10533, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+9189, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 40, 10, 10, 0, 10, 3
+9241, 11594, 1, "OK", 2, 36, 44, 11, 11, 0, 11, 3
+8770, 11870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List lstFilters ArrayList<Filter> metadataFilterDim", 0, 0, 50, 24, 13, 11, 13, 2
+12172, 13412, 1, "OK", 3, 27, 24, 9, 6, 3, 5, 3
+9741, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 24, 6, 6, 0, 6, 3
+12348, 12564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterDefault boolean checkCondition", 0, 0, 4, 1, 1, 0, 1, 3
+9241, 9564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName", 0, 0, 8, 2, 2, 0, 2, 3
+12570, 13376, 1, "OK", 5, 18, 16, 7, 4, 3, 3, 3
+9570, 10119, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible", 0, 0, 12, 3, 3, 0, 3, 3
+10332, 11594, 1, "OK", 8, 19, 20, 5, 5, 0, 5, 3
+10957, 11162, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+8289, 13480, 1, "OK", 3, 91, 86, 86, 24, 62, 22, 0
+8256, 13480, 1, "OK", 2, 92, 86, 86, 24, 62, 22, 0
+8770, 13418, 1, "OK", 2, 80, 81, 41, 21, 20, 20, 2
+11875, 13418, 1, "OK", 2, 33, 31, 17, 8, 9, 7, 2
+12348, 12582, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterDefault boolean checkCondition int idx", 0, 0, 4, 1, 1, 0, 1, 3
+10125, 10326, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+8570, 13476, 1, "OK", 3, 85, 85, 63, 23, 40, 22, 1
+11943, 12342, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbFilter String filterName String filterType", 0, 0, 8, 2, 2, 0, 2, 3
+8256, 13499, 1, "OK", 2, 93, 86, 86, 24, 62, 22, 0
+11694, 13418, 1, "OK", 1, 35, 31, 17, 8, 9, 7, 2
+11808, 13470, 1, "OK", 2, 35, 31, 17, 8, 9, 7, 2
+9570, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 32, 8, 8, 0, 8, 3
+8207, 13480, 1, "OK", 1, 93, 86, 86, 24, 62, 22, 0
+10125, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 24, 6, 6, 0, 6, 3
+8289, 13499, 1, "OK", 3, 92, 86, 86, 24, 62, 22, 0
+11943, 13376, 1, "OK", 1, 30, 28, 10, 7, 3, 6, 3
+9921, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 12, 3, 3, 0, 3, 3
+9921, 11559, 1, "OK", 5, 24, 28, 7, 7, 0, 7, 3
+9399, 10326, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable", 0, 0, 20, 5, 5, 0, 5, 3
+8207, 13499, 1, "OK", 1, 94, 86, 86, 24, 62, 22, 0
+12673, 13292, 1, "OK", 5, 15, 16, 7, 4, 3, 3, 3
+9241, 10119, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible", 0, 0, 20, 5, 5, 0, 5, 3
+12570, 13412, 1, "OK", 6, 19, 16, 7, 4, 3, 3, 3
+12588, 13376, 1, "OK", 6, 17, 16, 7, 4, 3, 3, 3
+9399, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 40, 10, 10, 0, 10, 3
+11996, 13292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType String filterDefault LinkedHashMap<String, String> conditions", 0, 0, 28, 10, 7, 3, 6, 3
+8770, 13470, 1, "OK", 2, 81, 81, 41, 21, 20, 20, 2
+11875, 13470, 1, "OK", 3, 34, 31, 17, 8, 9, 7, 2
+10539, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 16, 4, 4, 0, 4, 3
+8946, 11600, 1, "OK", 1, 41, 47, 23, 12, 11, 12, 2
+11943, 13412, 1, "OK", 2, 31, 28, 10, 7, 3, 6, 3
+9241, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 40, 10, 10, 0, 10, 3
+9921, 11594, 1, "OK", 6, 25, 28, 7, 7, 0, 7, 3
+11694, 13470, 1, "OK", 2, 36, 31, 17, 8, 9, 7, 2
+10332, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 16, 4, 4, 0, 4, 3
+9741, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 16, 4, 4, 0, 4, 3
+9122, 11803, 1, "OK", 4, 42, 47, 23, 12, 11, 12, 2
+9189, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 32, 8, 8, 0, 8, 3
+9741, 11559, 1, "OK", 4, 27, 32, 8, 8, 0, 8, 3
+12588, 13412, 1, "OK", 7, 18, 16, 7, 4, 3, 3, 3
+11168, 11366, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+8770, 8904, 1, "OK", 2, 1, 3, 1, 1, 0, 1, 2
+12348, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterDefault boolean checkCondition int idx LinkedHashMap<String, String> conditions", 0, 0, 4, 1, 1, 0, 1, 3
+9189, 9735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType", 0, 0, 12, 3, 3, 0, 3, 3
+8946, 11651, 1, "OK", 2, 42, 47, 23, 12, 11, 12, 2
+9570, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 24, 6, 6, 0, 6, 3
+9741, 11594, 1, "OK", 5, 28, 32, 8, 8, 0, 8, 3
+11996, 12342, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType", 0, 0, 8, 2, 2, 0, 2, 3
+9057, 11803, 1, "OK", 3, 43, 47, 23, 12, 11, 12, 2
+10125, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 16, 4, 4, 0, 4, 3
+11996, 13376, 1, "OK", 1, 29, 28, 10, 7, 3, 6, 3
+9399, 9915, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue", 0, 0, 12, 3, 3, 0, 3, 3
+12172, 12527, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterDefault", 0, 0, 8, 2, 2, 0, 2, 3
+9570, 9735, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+9921, 10119, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+10756, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 12, 3, 3, 0, 3, 3
+12673, 13376, 1, "OK", 7, 16, 16, 7, 4, 3, 3, 3
+9399, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 32, 8, 8, 0, 8, 3
+10539, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 8, 2, 2, 0, 2, 3
+9122, 11870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List lstFilters ArrayList<Filter> metadataFilterDim", 0, 0, 47, 23, 12, 11, 12, 2
+9921, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 24, 6, 6, 0, 6, 3
+9241, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 32, 8, 8, 0, 8, 3
+12673, 13412, 1, "OK", 8, 17, 16, 7, 4, 3, 3, 3
+9241, 9735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType", 0, 0, 12, 3, 3, 0, 3, 3
+11996, 13412, 1, "OK", 2, 30, 28, 10, 7, 3, 6, 3
+12172, 12564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterDefault boolean checkCondition", 0, 0, 8, 2, 2, 0, 2, 3
+9122, 13418, 1, "OK", 4, 76, 78, 40, 20, 20, 19, 2
+8377, 13480, 1, "OK", 3, 89, 86, 86, 24, 62, 22, 0
+9189, 10326, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable", 0, 0, 24, 6, 6, 0, 6, 3
+9057, 11870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List lstFilters ArrayList<Filter> metadataFilterDim", 0, 0, 47, 23, 12, 11, 12, 2
+12172, 12582, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterDefault boolean checkCondition int idx", 0, 0, 8, 2, 2, 0, 2, 3
+9741, 10119, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible", 0, 0, 8, 2, 2, 0, 2, 3
+9189, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 44, 11, 11, 0, 11, 3
+10332, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 8, 2, 2, 0, 2, 3
+8377, 13499, 1, "OK", 3, 90, 86, 86, 24, 62, 22, 0
+9741, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 28, 7, 7, 0, 7, 3
+11943, 12527, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbFilter String filterName String filterType String filterDefault", 0, 0, 12, 3, 3, 0, 3, 3
+9057, 13418, 1, "OK", 3, 77, 78, 40, 20, 20, 19, 2
+9570, 10326, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable", 0, 0, 16, 4, 4, 0, 4, 3
+12348, 13292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterDefault LinkedHashMap<String, String> conditions", 0, 0, 20, 8, 5, 3, 4, 3
+9122, 13470, 1, "OK", 4, 77, 78, 40, 20, 20, 19, 2
+10125, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 8, 2, 2, 0, 2, 3
+10125, 11559, 1, "OK", 6, 21, 24, 6, 6, 0, 6, 3
+10957, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 8, 2, 2, 0, 2, 3
+9570, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 36, 9, 9, 0, 9, 3
+10756, 10951, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+8770, 11600, 1, "OK", 2, 43, 50, 24, 13, 11, 13, 2
+9399, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 24, 6, 6, 0, 6, 3
+11943, 12564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbFilter String filterName String filterType String filterDefault boolean checkCondition", 0, 0, 12, 3, 3, 0, 3, 3
+9399, 11559, 1, "OK", 2, 33, 40, 10, 10, 0, 10, 3
+10539, 11559, 1, "OK", 8, 15, 16, 4, 4, 0, 4, 3
+9057, 13470, 1, "OK", 3, 78, 78, 40, 20, 20, 19, 2
+9241, 10326, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable", 0, 0, 24, 6, 6, 0, 6, 3
+9921, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 16, 4, 4, 0, 4, 3
+10125, 11594, 1, "OK", 7, 22, 24, 6, 6, 0, 6, 3
+8770, 9052, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+11943, 12582, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbFilter String filterName String filterType String filterDefault boolean checkCondition int idx", 0, 0, 12, 3, 3, 0, 3, 3
+9189, 9393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId", 0, 0, 4, 1, 1, 0, 1, 3
+9241, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 44, 11, 11, 0, 11, 3
+8946, 11803, 1, "OK", 2, 44, 47, 23, 12, 11, 12, 2
+9399, 11594, 1, "OK", 3, 34, 40, 10, 10, 0, 10, 3
+9189, 9915, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue", 0, 0, 16, 4, 4, 0, 4, 3
+12172, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterDefault boolean checkCondition int idx LinkedHashMap<String, String> conditions", 0, 0, 8, 2, 2, 0, 2, 3
+9399, 9564, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+12348, 13376, 1, "OK", 3, 23, 20, 8, 5, 3, 4, 3
+10539, 11594, 1, "OK", 9, 16, 16, 4, 4, 0, 4, 3
+8770, 11651, 1, "OK", 2, 44, 50, 24, 13, 11, 13, 2
+8518, 8712, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbRow String dimensionLabel", 0, 0, 2, 1, 1, 0, 1, 1
+9189, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 36, 9, 9, 0, 9, 3
+11168, 11559, 1, "OK", 11, 6, 4, 1, 1, 0, 1, 3
+10332, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 20, 5, 5, 0, 5, 3
+11996, 12527, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType String filterDefault", 0, 0, 12, 3, 3, 0, 3, 3
+9741, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 20, 5, 5, 0, 5, 3
+8770, 9117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List lstFields ArrayList<Field> metadataDimension", 0, 0, 3, 1, 1, 0, 1, 2
+9570, 9915, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue", 0, 0, 8, 2, 2, 0, 2, 3
+10756, 11559, 1, "OK", 9, 12, 12, 3, 3, 0, 3, 3
+9570, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 28, 7, 7, 0, 7, 3
+8946, 11870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List lstFilters ArrayList<Filter> metadataFilterDim", 0, 0, 47, 23, 12, 11, 12, 2
+10125, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 20, 5, 5, 0, 5, 3
+11168, 11594, 1, "OK", 12, 7, 4, 1, 1, 0, 1, 3
+12348, 13412, 1, "OK", 4, 24, 20, 8, 5, 3, 4, 3
+11943, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbFilter String filterName String filterType String filterDefault boolean checkCondition int idx LinkedHashMap<String, String> conditions", 0, 0, 12, 3, 3, 0, 3, 3
+12534, 13292, 1, "OK", 2, 18, 16, 7, 4, 3, 3, 3
+9921, 10326, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsVisible boolean fieldIsEditable", 0, 0, 8, 2, 2, 0, 2, 3
+11605, 13418, 1, "OK", 3, 37, 31, 17, 8, 9, 7, 2
+9399, 10119, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible", 0, 0, 16, 4, 4, 0, 4, 3
+11996, 12564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType String filterDefault boolean checkCondition", 0, 0, 12, 3, 3, 0, 3, 3
+8946, 13418, 1, "OK", 2, 78, 78, 40, 20, 20, 19, 2
+9241, 9393, 1, "OK", 1, 2, 4, 1, 1, 0, 1, 3
+9399, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 36, 9, 9, 0, 9, 3
+9921, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 28, 7, 7, 0, 7, 3
+10756, 11594, 1, "OK", 10, 13, 12, 3, 3, 0, 3, 3
+11943, 12166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbFilter String filterName", 0, 0, 4, 1, 1, 0, 1, 3
+9241, 9915, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue", 0, 0, 16, 4, 4, 0, 4, 3
+8570, 8712, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+9241, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 36, 9, 9, 0, 9, 3
+11996, 12582, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType String filterDefault boolean checkCondition int idx", 0, 0, 12, 3, 3, 0, 3, 3
+13048, 13262, 1, "OK", 2, 4, 6, 1, 1, 0, 1, 5
+10539, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique", 0, 0, 12, 3, 3, 0, 3, 3
+12717, 13284, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 12, 4, 3, 1, 2, 4
+13048, 13276, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5
+12172, 13292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterDefault LinkedHashMap<String, String> conditions", 0, 0, 24, 9, 6, 3, 5, 3
+9189, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 28, 7, 7, 0, 7, 3
+9189, 11559, 1, "OK", 1, 36, 44, 11, 11, 0, 11, 3
+8946, 13470, 1, "OK", 2, 79, 78, 40, 20, 20, 19, 2
+10332, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 12, 3, 3, 0, 3, 3
+9122, 11600, 1, "OK", 2, 39, 47, 23, 12, 11, 12, 2
+9741, 10326, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible boolean fieldIsEditable", 0, 0, 12, 3, 3, 0, 3, 3
+11605, 13470, 1, "OK", 3, 38, 31, 17, 8, 9, 7, 2
+9741, 11366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent boolean fieldIsUnique boolean fieldIsOrder", 0, 0, 32, 8, 8, 0, 8, 3
+10957, 11559, 1, "OK", 10, 9, 8, 2, 2, 0, 2, 3
+9570, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 20, 5, 5, 0, 5, 3
+8451, 13480, 1, "OK", 3, 88, 86, 86, 24, 62, 22, 0
+9189, 11594, 1, "OK", 2, 37, 44, 11, 11, 0, 11, 3
+9570, 11559, 1, "OK", 3, 30, 36, 9, 9, 0, 9, 3
+12534, 13376, 1, "OK", 4, 19, 16, 7, 4, 3, 3, 3
+10756, 11162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsParent boolean fieldIsUnique", 0, 0, 8, 2, 2, 0, 2, 3
+9057, 11600, 1, "OK", 1, 40, 47, 23, 12, 11, 12, 2
+12570, 13292, 1, "OK", 3, 17, 16, 7, 4, 3, 3, 3
+10125, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 12, 3, 3, 0, 3, 3
+8518, 13476, 1, "OK", 3, 86, 85, 63, 23, 40, 22, 1
+10957, 11594, 1, "OK", 11, 10, 8, 2, 2, 0, 2, 3
+9189, 9564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean sbField String fieldId String fieldName", 0, 0, 8, 2, 2, 0, 2, 3
+8451, 13499, 1, "OK", 3, 89, 86, 86, 24, 62, 22, 0
+8716, 13476, 1, "OK", 4, 84, 83, 62, 22, 40, 21, 1
+8770, 11803, 1, "OK", 2, 46, 50, 24, 13, 11, 13, 2
+9921, 10951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue boolean fieldIsParent", 0, 0, 20, 5, 5, 0, 5, 3
+11943, 13292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType String filterDefault LinkedHashMap<String, String> conditions", 0, 0, 28, 10, 7, 3, 6, 3
+11996, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterName String filterType String filterDefault boolean checkCondition int idx LinkedHashMap<String, String> conditions", 0, 0, 12, 3, 3, 0, 3, 3
+9122, 11651, 1, "OK", 3, 40, 47, 23, 12, 11, 12, 2
+9241, 10533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldId String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired", 0, 0, 28, 7, 7, 0, 7, 3
+12534, 13412, 1, "OK", 5, 20, 16, 7, 4, 3, 3, 3
+9241, 11559, 1, "OK", 1, 35, 44, 11, 11, 0, 11, 3
+9399, 10750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType String fixValue boolean fieldIsVisible boolean fieldIsEditable boolean fieldIsRequired boolean fieldIsSingleValue", 0, 0, 28, 7, 7, 0, 7, 3
+9570, 11594, 1, "OK", 4, 31, 36, 9, 9, 0, 9, 3
+11996, 12166, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+12172, 12342, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+12172, 13376, 1, "OK", 2, 26, 24, 9, 6, 3, 5, 3
+10539, 10750, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+12348, 12527, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+9399, 9735, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fieldName String fieldType", 0, 0, 8, 2, 2, 0, 2, 3

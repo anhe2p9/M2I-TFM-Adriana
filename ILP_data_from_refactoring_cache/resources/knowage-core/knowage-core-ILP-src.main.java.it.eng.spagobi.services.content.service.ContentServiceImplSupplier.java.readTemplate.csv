@@ -1,0 +1,180 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4722, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+4898, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+3190, 4346, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj ObjTemplate temp", 0, 0, 10, 10, 8, 2, 2, 0
+5898, 6160, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+4656, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+4898, 5413, 1, "OK", 3, 9, 4, 3, 3, 0, 1, 1
+4975, 5330, 1, "OK", 3, 7, 4, 3, 3, 0, 1, 1
+5336, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 3, 2, 2, 0, 1, 1
+2874, 3139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters Content content", 0, 0, 1, 1, 1, 0, 0, 0
+3671, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 16, 4, 4, 0
+4975, 5595, 1, "OK", 5, 13, 7, 5, 5, 0, 2, 1
+2874, 6474, 1, "OK", 3, 94, 27, 27, 22, 5, 5, 0
+3190, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+3891, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 5, 5, 4, 1, 1, 0
+3525, 3959, 1, "OK", 5, 13, 5, 5, 4, 1, 1, 0
+3151, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3190, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3418, 3959, 1, "OK", 3, 15, 5, 5, 4, 1, 1, 0
+4656, 5777, 1, "OK", 4, 21, 7, 5, 5, 0, 2, 1
+4390, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 3, 0
+4722, 5777, 1, "OK", 4, 20, 7, 5, 5, 0, 2, 1
+4819, 5330, 1, "OK", 2, 9, 4, 3, 3, 0, 1, 1
+2851, 3111, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+4591, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+3891, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+4819, 5595, 1, "OK", 4, 15, 7, 5, 5, 0, 2, 1
+3115, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 21, 5, 5, 0
+3190, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj ObjTemplate temp byte[] template", 0, 0, 10, 10, 8, 2, 2, 0
+3449, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3671, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 16, 4, 4, 0
+2851, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 22, 5, 5, 0
+3610, 3661, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+5420, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 3, 2, 2, 0, 1, 1
+3671, 3825, 1, "OK", 4, 3, 2, 2, 2, 0, 0, 0
+3151, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3190, 3887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj IObjTemplateDAO tempdao", 0, 0, 5, 5, 4, 1, 1, 0
+2851, 3139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters Content content", 0, 0, 1, 1, 1, 0, 0, 0
+3115, 6474, 1, "OK", 3, 86, 26, 26, 21, 5, 5, 0
+4390, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 3, 0
+4591, 5777, 1, "OK", 3, 22, 7, 5, 5, 0, 2, 1
+3151, 3825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj Integer id", 0, 0, 5, 5, 4, 1, 1, 0
+3671, 4346, 1, "OK", 5, 15, 7, 7, 6, 1, 1, 0
+2851, 6474, 1, "OK", 3, 96, 27, 27, 22, 5, 5, 0
+3190, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+4350, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 3, 0
+3151, 4346, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj ObjTemplate temp", 0, 0, 10, 10, 8, 2, 2, 0
+3671, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4898, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+3449, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3830, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4975, 5413, 1, "OK", 3, 8, 4, 3, 3, 0, 1, 1
+3151, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+4975, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+3449, 3825, 1, "OK", 4, 11, 5, 5, 4, 1, 1, 0
+3671, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 16, 4, 4, 0
+3190, 3666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj boolean checkNeeded", 0, 0, 3, 3, 2, 1, 1, 0
+5336, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 3, 2, 2, 0, 1, 1
+4580, 5888, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 6, 6, 0, 3, 1
+3525, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+4656, 5330, 1, "OK", 2, 11, 4, 3, 3, 0, 1, 1
+4390, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+3151, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3449, 4346, 1, "OK", 5, 23, 10, 10, 8, 2, 2, 0
+4722, 5330, 1, "OK", 2, 10, 4, 3, 3, 0, 1, 1
+5953, 6085, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+4722, 5595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template IEngineDriver aEngineDriver", 0, 0, 7, 5, 5, 0, 2, 1
+4350, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 3, 0
+4390, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 3, 0
+3963, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+3449, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+3418, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3671, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 7, 7, 6, 1, 1, 0
+4656, 5595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template IEngineDriver aEngineDriver", 0, 0, 7, 5, 5, 0, 2, 1
+4819, 5413, 1, "OK", 2, 10, 4, 3, 3, 0, 1, 1
+3830, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4819, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+4898, 5777, 1, "OK", 5, 18, 7, 5, 5, 0, 2, 1
+3142, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 21, 5, 5, 0
+3151, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj ObjTemplate temp byte[] template", 0, 0, 10, 10, 8, 2, 2, 0
+3671, 3887, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+5336, 5777, 1, "OK", 3, 10, 3, 2, 2, 0, 1, 1
+3449, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3151, 3887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj Integer id IObjTemplateDAO tempdao", 0, 0, 5, 5, 4, 1, 1, 0
+3987, 4341, 1, "OK", 3, 7, 4, 3, 3, 0, 1, 1
+3190, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj ObjTemplate temp", 0, 0, 5, 5, 4, 1, 1, 0
+3142, 6474, 1, "OK", 4, 85, 26, 26, 21, 5, 5, 0
+3830, 4346, 1, "OK", 2, 11, 5, 5, 4, 1, 1, 0
+3525, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3671, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4591, 5330, 1, "OK", 2, 12, 4, 3, 3, 0, 1, 1
+2813, 3111, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+4350, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+5953, 6120, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+5420, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 3, 2, 2, 0, 1, 1
+3449, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 10, 10, 8, 2, 2, 0
+3525, 3825, 1, "OK", 5, 10, 5, 5, 4, 1, 1, 0
+3151, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+3418, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3963, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4591, 5595, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template IEngineDriver aEngineDriver", 0, 0, 7, 5, 5, 0, 2, 1
+3830, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+4350, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 3, 0
+3449, 3887, 1, "OK", 4, 13, 5, 5, 4, 1, 1, 0
+3525, 4346, 1, "OK", 6, 22, 10, 10, 8, 2, 2, 0
+3418, 3825, 1, "OK", 3, 12, 5, 5, 4, 1, 1, 0
+2813, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 22, 5, 5, 0
+3830, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4390, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+3418, 4346, 1, "OK", 4, 24, 10, 10, 8, 2, 2, 0
+3525, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+3963, 4346, 1, "OK", 3, 9, 5, 5, 4, 1, 1, 0
+4054, 4341, 1, "OK", 3, 6, 4, 3, 3, 0, 1, 1
+3449, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+5420, 5777, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+3151, 3666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj Integer id boolean checkNeeded", 0, 0, 3, 3, 2, 1, 1, 0
+2813, 3139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters Content content", 0, 0, 1, 1, 1, 0, 0, 0
+4975, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+3963, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+3830, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 5, 5, 4, 1, 1, 0
+3418, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+3525, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+2813, 6474, 1, "OK", 3, 99, 27, 27, 22, 5, 5, 0
+4656, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+3891, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+5953, 6160, 1, "OK", 4, 8, 2, 2, 2, 0, 0, 0
+4722, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+4898, 5330, 1, "OK", 3, 8, 4, 3, 3, 0, 1, 1
+2963, 3111, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+4656, 5413, 1, "OK", 2, 12, 4, 3, 3, 0, 1, 1
+3418, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+4722, 5413, 1, "OK", 2, 11, 4, 3, 3, 0, 1, 1
+3963, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+4898, 5595, 1, "OK", 5, 14, 7, 5, 5, 0, 2, 1
+3449, 3666, 1, "OK", 2, 7, 3, 3, 2, 1, 1, 0
+5898, 6085, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+3525, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 10, 10, 8, 2, 2, 0
+3671, 3959, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 0
+4975, 5777, 1, "OK", 5, 17, 7, 5, 5, 0, 2, 1
+4350, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+4819, 5747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+2963, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 22, 5, 5, 0
+5336, 5595, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+2914, 3111, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+3151, 3959, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj Integer id ObjTemplate temp", 0, 0, 5, 5, 4, 1, 1, 0
+3418, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 10, 10, 8, 2, 2, 0
+3830, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+3963, 4386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate temp byte[] template", 0, 0, 5, 5, 4, 1, 1, 0
+3525, 3887, 1, "OK", 5, 12, 5, 5, 4, 1, 1, 0
+2963, 3139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters Content content", 0, 0, 1, 1, 1, 0, 0, 0
+3549, 3661, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+3190, 6085, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+4591, 5413, 1, "OK", 2, 13, 4, 3, 3, 0, 1, 1
+4591, 5666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] template byte[] elabTemplate", 0, 0, 7, 5, 5, 0, 2, 1
+2914, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 22, 5, 5, 0
+3418, 3887, 1, "OK", 3, 14, 5, 5, 4, 1, 1, 0
+3891, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0
+3525, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+2832, 3111, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+2963, 6474, 1, "OK", 3, 91, 27, 27, 22, 5, 5, 0
+5898, 6120, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+4819, 5777, 1, "OK", 4, 19, 7, 5, 5, 0, 2, 1
+3449, 3959, 1, "OK", 4, 14, 5, 5, 4, 1, 1, 0
+3963, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+2914, 3139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters Content content", 0, 0, 1, 1, 1, 0, 0, 0
+3418, 5949, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 16, 5, 5, 0
+2914, 6474, 1, "OK", 3, 93, 27, 27, 22, 5, 5, 0
+2832, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 22, 5, 5, 0
+3891, 4346, 1, "OK", 3, 10, 5, 5, 4, 1, 1, 0
+2874, 3111, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+3525, 3666, 1, "OK", 3, 6, 3, 3, 2, 1, 1, 0
+3190, 6120, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 18, 5, 5, 0
+3891, 5893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+5420, 5595, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+2832, 3139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters Content content", 0, 0, 1, 1, 1, 0, 0, 0
+3418, 3666, 1, "OK", 1, 8, 3, 3, 2, 1, 1, 0
+2832, 6474, 1, "OK", 3, 98, 27, 27, 22, 5, 5, 0
+3190, 3825, 1, "OK", 3, 16, 5, 5, 4, 1, 1, 0
+2874, 6455, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 22, 5, 5, 0
+3891, 6160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 4, 0

@@ -1,0 +1,88 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6985, 8299, 1, "OK", 7, 61, 19, 19, 13, 6, 6, 0
+6890, 8299, 1, "OK", 4, 64, 19, 19, 13, 6, 6, 0
+7952, 8273, 1, "OK", 6, 20, 9, 6, 6, 0, 3, 1
+7051, 8299, 1, "OK", 8, 58, 19, 19, 13, 6, 6, 0
+7511, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 12, 8, 8, 0, 4, 1
+7854, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7095, 7453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2 double alpha", 0, 0, 6, 4, 4, 0, 2, 1
+7399, 8273, 1, "OK", 8, 38, 12, 8, 8, 0, 4, 1
+7952, 8026, 1, "OK", 3, 5, 3, 2, 2, 0, 1, 1
+8036, 8110, 1, "OK", 3, 5, 3, 2, 2, 0, 1, 1
+7854, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7458, 7849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double betaq double x1", 0, 0, 3, 2, 2, 0, 1, 1
+7458, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7095, 7849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2 double betaq double x1", 0, 0, 9, 6, 6, 0, 3, 1
+7211, 7453, 1, "OK", 5, 9, 3, 2, 2, 0, 1, 1
+7399, 7897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1
+7952, 8294, 1, "OK", 7, 21, 9, 6, 6, 0, 3, 1
+8155, 8273, 1, "OK", 4, 7, 3, 2, 2, 0, 1, 1
+7458, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 12, 8, 8, 0, 4, 1
+7399, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7399, 7770, 1, "OK", 2, 12, 3, 2, 2, 0, 1, 1
+8036, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7511, 8273, 1, "OK", 9, 34, 12, 8, 8, 0, 4, 1
+7376, 7849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double betaq double x1", 0, 0, 3, 2, 2, 0, 1, 1
+7095, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 15, 10, 10, 0, 5, 1
+7211, 7849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double betaq double x1", 0, 0, 6, 4, 4, 0, 2, 1
+7376, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7095, 7348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2 double beta", 0, 0, 6, 4, 4, 0, 2, 1
+7511, 7897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1
+7095, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 18, 12, 12, 0, 6, 1
+7399, 8294, 1, "OK", 9, 39, 12, 8, 8, 0, 4, 1
+7095, 7483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2 double alpha double rand", 0, 0, 6, 4, 4, 0, 2, 1
+6920, 8299, 1, "OK", 5, 63, 19, 19, 13, 6, 6, 0
+7211, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 12, 8, 8, 0, 4, 1
+7511, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7511, 7770, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+7854, 8273, 1, "OK", 8, 23, 9, 6, 6, 0, 3, 1
+7211, 7348, 1, "OK", 4, 5, 3, 2, 2, 0, 1, 1
+7376, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 12, 8, 8, 0, 4, 1
+6846, 8299, 1, "OK", 4, 65, 19, 19, 13, 6, 6, 0
+8036, 8273, 1, "OK", 6, 14, 6, 4, 4, 0, 2, 1
+7211, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 15, 10, 10, 0, 5, 1
+7854, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1
+8155, 8294, 1, "OK", 5, 8, 3, 2, 2, 0, 1, 1
+7211, 7483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double alpha double rand", 0, 0, 3, 2, 2, 0, 1, 1
+7806, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7458, 8273, 1, "OK", 8, 37, 12, 8, 8, 0, 4, 1
+7511, 8294, 1, "OK", 10, 35, 12, 8, 8, 0, 4, 1
+7095, 8273, 1, "OK", 7, 55, 18, 12, 12, 0, 6, 1
+7806, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7458, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7458, 7770, 1, "OK", 2, 11, 3, 2, 2, 0, 1, 1
+7854, 8294, 1, "OK", 9, 24, 9, 6, 6, 0, 3, 1
+7458, 7897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1
+7095, 7897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+8036, 8294, 1, "OK", 7, 15, 6, 4, 4, 0, 2, 1
+7376, 8273, 1, "OK", 8, 39, 12, 8, 8, 0, 4, 1
+7211, 8273, 1, "OK", 7, 46, 15, 10, 10, 0, 5, 1
+6950, 8299, 1, "OK", 6, 62, 19, 19, 13, 6, 6, 0
+7458, 8294, 1, "OK", 9, 38, 12, 8, 8, 0, 4, 1
+7095, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 12, 8, 8, 0, 4, 1
+7095, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2 double betaq", 0, 0, 9, 6, 6, 0, 3, 1
+7376, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7376, 7770, 1, "OK", 2, 13, 3, 2, 2, 0, 1, 1
+7376, 7897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1
+7211, 7897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7095, 7394, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2 double beta", 0, 0, 6, 4, 4, 0, 2, 1
+7095, 8294, 1, "OK", 8, 56, 18, 12, 12, 0, 6, 1
+7211, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7211, 7770, 1, "OK", 5, 20, 6, 4, 4, 0, 2, 1
+7376, 8294, 1, "OK", 9, 40, 12, 8, 8, 0, 4, 1
+7806, 8273, 1, "OK", 7, 24, 9, 6, 6, 0, 3, 1
+7211, 7394, 1, "OK", 4, 8, 3, 2, 2, 0, 1, 1
+7952, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 6, 4, 4, 0, 2, 1
+7806, 8026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1
+7211, 8294, 1, "OK", 8, 47, 15, 10, 10, 0, 5, 1
+7399, 7849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double betaq double x1", 0, 0, 3, 2, 2, 0, 1, 1
+7992, 8026, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 1
+8076, 8110, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 1
+7806, 8294, 1, "OK", 8, 25, 9, 6, 6, 0, 3, 1
+7399, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7952, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+7511, 7849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double betaq double x1", 0, 0, 3, 2, 2, 0, 1, 1
+7399, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 12, 8, 8, 0, 4, 1
+7095, 7184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double y1 double y2", 0, 0, 3, 2, 2, 0, 1, 1
+7511, 8110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 9, 6, 6, 0, 3, 1
+8155, 8247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double x1 double x2", 0, 0, 3, 2, 2, 0, 1, 1

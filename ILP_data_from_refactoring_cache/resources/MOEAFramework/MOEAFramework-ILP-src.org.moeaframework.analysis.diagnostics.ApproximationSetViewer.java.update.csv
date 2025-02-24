@@ -1,0 +1,139 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+13997, 15698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 12, 12, 8, 4, 4, 0
+15706, 16992, 1, "OK", 3, 36, 12, 12, 9, 3, 3, 0
+13903, 15538, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYSeriesCollection dataset JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 11, 11, 7, 4, 4, 0
+14783, 16931, 1, "OK", 1, 66, 16, 16, 12, 4, 4, 0
+15546, 16829, 1, "OK", 4, 36, 13, 13, 10, 3, 3, 0
+15458, 16739, 1, "OK", 2, 36, 13, 13, 10, 3, 3, 0
+15422, 16829, 1, "OK", 2, 40, 13, 13, 10, 3, 3, 0
+13903, 16829, 1, "OK", 0, 93, 24, 24, 17, 7, 7, 0
+14566, 14706, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+15458, 15980, 1, "OK", 2, 15, 3, 3, 3, 0, 0, 0
+15706, 16739, 1, "OK", 2, 28, 12, 12, 9, 3, 3, 0
+15086, 15733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 1, 1, 1, 0, 0, 0
+13997, 16739, 1, "OK", 1, 87, 24, 24, 17, 7, 7, 0
+13997, 16992, 1, "OK", 1, 95, 24, 24, 17, 7, 7, 0
+15791, 16931, 1, "OK", 2, 31, 12, 12, 9, 3, 3, 0
+15458, 15733, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+13997, 15454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 11, 11, 7, 4, 4, 0
+15706, 15980, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+15988, 16963, 1, "OK", 2, 27, 10, 10, 7, 3, 3, 0
+14375, 14742, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 2, 1, 1, 0, 1, 1
+16623, 16734, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+14228, 14706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 5, 3, 3, 0, 2, 1
+14228, 14443, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+15546, 16864, 1, "OK", 4, 38, 13, 13, 10, 3, 3, 0
+14783, 16963, 1, "OK", 1, 67, 16, 16, 12, 4, 4, 0
+14055, 14443, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+15422, 16864, 1, "OK", 2, 42, 13, 13, 10, 3, 3, 0
+13997, 15980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 14, 14, 10, 4, 4, 0
+14928, 15037, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+15988, 16992, 1, "OK", 2, 28, 10, 10, 7, 3, 3, 0
+14055, 14706, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 4, 0, 3, 1
+13997, 15733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 12, 12, 8, 4, 4, 0
+16459, 16739, 1, "OK", 1, 9, 5, 5, 3, 2, 2, 0
+15791, 16963, 1, "OK", 2, 32, 12, 12, 9, 3, 3, 0
+14783, 15698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 4, 4, 3, 1, 1, 0
+13903, 16864, 1, "OK", 0, 95, 24, 24, 17, 7, 7, 0
+14138, 14443, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+16145, 16739, 1, "OK", 1, 17, 9, 9, 6, 3, 3, 0
+14566, 14742, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+15988, 16739, 1, "OK", 1, 20, 10, 10, 7, 3, 3, 0
+16183, 16339, 1, "OK", 0, 4, 3, 2, 2, 0, 1, 1
+13903, 15078, 1, "OK", 0, 41, 11, 11, 7, 4, 4, 0
+14138, 14706, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 4, 0, 3, 1
+14783, 16739, 1, "OK", 1, 60, 16, 16, 12, 4, 4, 0
+14783, 16992, 1, "OK", 1, 68, 16, 16, 12, 4, 4, 0
+14055, 14217, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+14228, 14742, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 5, 3, 3, 0, 2, 1
+16505, 16613, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+14783, 15454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 3, 3, 2, 1, 1, 0
+13997, 14747, 1, "OK", 1, 25, 8, 8, 5, 3, 3, 0
+14783, 15980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 6, 6, 5, 1, 1, 0
+14114, 14443, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+14783, 15733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 4, 4, 3, 1, 1, 0
+15791, 16739, 1, "OK", 1, 25, 12, 12, 9, 3, 3, 0
+15791, 16992, 1, "OK", 2, 33, 12, 12, 9, 3, 3, 0
+14928, 15073, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+14055, 14742, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 7, 4, 4, 0, 3, 1
+14138, 14217, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+15086, 16829, 1, "OK", 1, 51, 13, 13, 10, 3, 3, 0
+14114, 14706, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 4, 0, 3, 1
+15791, 15980, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+15458, 16829, 1, "OK", 3, 39, 13, 13, 10, 3, 3, 0
+14138, 14742, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 7, 4, 4, 0, 3, 1
+13903, 15369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYSeriesCollection dataset JFreeChart chart", 0, 0, 11, 11, 7, 4, 4, 0
+13997, 15538, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 11, 11, 7, 4, 4, 0
+15422, 16931, 1, "OK", 2, 43, 13, 13, 10, 3, 3, 0
+15706, 16829, 1, "OK", 3, 31, 12, 12, 9, 3, 3, 0
+15546, 16931, 1, "OK", 4, 39, 13, 13, 10, 3, 3, 0
+14114, 14217, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+16183, 16395, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+13903, 16931, 1, "OK", 0, 96, 24, 24, 17, 7, 7, 0
+14114, 14742, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 7, 4, 4, 0, 3, 1
+15086, 16864, 1, "OK", 1, 53, 13, 13, 10, 3, 3, 0
+13997, 16829, 1, "OK", 1, 90, 24, 24, 17, 7, 7, 0
+15458, 16864, 1, "OK", 3, 41, 13, 13, 10, 3, 3, 0
+14815, 15037, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+15706, 16864, 1, "OK", 3, 33, 12, 12, 9, 3, 3, 0
+15422, 16963, 1, "OK", 2, 44, 13, 13, 10, 3, 3, 0
+15546, 16963, 1, "OK", 4, 40, 13, 13, 10, 3, 3, 0
+15988, 16829, 1, "OK", 2, 23, 10, 10, 7, 3, 3, 0
+14228, 14555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 3, 2, 2, 0, 1, 1
+13997, 16864, 1, "OK", 1, 92, 24, 24, 17, 7, 7, 0
+15422, 15698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+13903, 16963, 1, "OK", 0, 97, 24, 24, 17, 7, 7, 0
+14783, 15538, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 3, 3, 2, 1, 1, 0
+14055, 14555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+14783, 16829, 1, "OK", 1, 63, 16, 16, 12, 4, 4, 0
+13997, 15078, 1, "OK", 1, 38, 11, 11, 7, 4, 4, 0
+15546, 15698, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+15546, 16992, 1, "OK", 4, 41, 13, 13, 10, 3, 3, 0
+15422, 16739, 1, "OK", 2, 37, 13, 13, 10, 3, 3, 0
+13903, 15698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 12, 12, 8, 4, 4, 0
+15422, 16992, 1, "OK", 2, 45, 13, 13, 10, 3, 3, 0
+14138, 14555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+14815, 15073, 1, "OK", 1, 9, 2, 1, 1, 0, 1, 1
+15422, 15980, 1, "OK", 2, 16, 3, 3, 3, 0, 0, 0
+15791, 16829, 1, "OK", 2, 28, 12, 12, 9, 3, 3, 0
+15988, 16864, 1, "OK", 2, 25, 10, 10, 7, 3, 3, 0
+15546, 16739, 1, "OK", 3, 33, 13, 13, 10, 3, 3, 0
+16183, 16448, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+15086, 16931, 1, "OK", 1, 54, 13, 13, 10, 3, 3, 0
+13903, 16739, 1, "OK", 0, 90, 24, 24, 17, 7, 7, 0
+13903, 16992, 1, "OK", 0, 98, 24, 24, 17, 7, 7, 0
+15546, 15980, 1, "OK", 3, 12, 3, 3, 3, 0, 0, 0
+13903, 15454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYSeriesCollection dataset JFreeChart chart XYPlot plot", 0, 0, 11, 11, 7, 4, 4, 0
+13903, 15980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 14, 14, 10, 4, 4, 0
+13997, 15369, 1, "OK", 1, 48, 11, 11, 7, 4, 4, 0
+15546, 15733, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+14114, 14555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+15422, 15733, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+13903, 15733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 12, 12, 8, 4, 4, 0
+14448, 14706, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+14783, 16864, 1, "OK", 1, 65, 16, 16, 12, 4, 4, 0
+15458, 16931, 1, "OK", 3, 42, 13, 13, 10, 3, 3, 0
+15706, 16931, 1, "OK", 3, 34, 12, 12, 9, 3, 3, 0
+16505, 16734, 1, "OK", 1, 7, 4, 2, 2, 0, 2, 1
+14783, 15078, 1, "OK", 1, 11, 3, 3, 2, 1, 1, 0
+14228, 14364, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+14055, 14364, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+13997, 16931, 1, "OK", 1, 93, 24, 24, 17, 7, 7, 0
+15086, 16963, 1, "OK", 1, 55, 13, 13, 10, 3, 3, 0
+15791, 16864, 1, "OK", 2, 30, 12, 12, 9, 3, 3, 0
+14448, 14742, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+15086, 15698, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot XYLineAndShapeRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+15458, 16963, 1, "OK", 3, 43, 13, 13, 10, 3, 3, 0
+14138, 14364, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+13903, 14747, 1, "OK", 0, 28, 8, 8, 5, 3, 3, 0
+14375, 14706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<?> list XYSeries series", 0, 0, 2, 1, 1, 0, 1, 1
+14783, 15369, 1, "OK", 1, 21, 3, 3, 2, 1, 1, 0
+15706, 16963, 1, "OK", 3, 35, 12, 12, 9, 3, 3, 0
+13997, 16963, 1, "OK", 1, 94, 24, 24, 17, 7, 7, 0
+15086, 16739, 1, "OK", 1, 48, 13, 13, 10, 3, 3, 0
+15086, 16992, 1, "OK", 1, 56, 13, 13, 10, 3, 3, 0
+15458, 15698, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+15988, 16931, 1, "OK", 2, 26, 10, 10, 7, 3, 3, 0
+15086, 15980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart XYPlot plot", 0, 0, 3, 3, 3, 0, 0, 0
+15458, 16992, 1, "OK", 3, 44, 13, 13, 10, 3, 3, 0
+14114, 14364, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1

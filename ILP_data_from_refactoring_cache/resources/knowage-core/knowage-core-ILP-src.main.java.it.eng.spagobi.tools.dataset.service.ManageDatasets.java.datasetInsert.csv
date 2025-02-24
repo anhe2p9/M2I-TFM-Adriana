@@ -1,0 +1,88 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12892, 15136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String operation Boolean isFromSaveNoMetadata", 0, 0, 20, 14, 10, 4, 6, 1
+12613, 16742, 1, "OK", 4, 86, 36, 36, 18, 18, 12, 0
+16060, 16262, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+13836, 14294, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+12952, 13165, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+15750, 16028, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+12560, 16742, 1, "OK", 3, 88, 36, 36, 18, 18, 12, 0
+12952, 13547, 1, "OK", 6, 12, 4, 2, 2, 0, 1, 2
+13763, 14133, 1, "OK", 3, 10, 6, 2, 2, 0, 2, 2
+15040, 15632, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+15192, 15542, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+12823, 15632, 1, "OK", 5, 51, 22, 15, 11, 4, 7, 1
+12892, 15542, 1, "OK", 6, 48, 22, 15, 11, 4, 7, 1
+13763, 14525, 1, "OK", 4, 16, 6, 2, 2, 0, 2, 2
+12952, 13296, 1, "OK", 5, 8, 4, 2, 2, 0, 1, 2
+13763, 14395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+13763, 14918, 1, "OK", 4, 22, 9, 3, 3, 0, 3, 2
+12634, 16382, 1, "OK", 4, 75, 32, 21, 15, 6, 11, 1
+14531, 14918, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+16397, 16600, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+12892, 15035, 1, "OK", 6, 40, 20, 14, 10, 4, 6, 1
+12952, 13431, 1, "OK", 6, 10, 4, 2, 2, 0, 1, 2
+14929, 15632, 1, "OK", 3, 11, 5, 3, 3, 0, 2, 1
+13966, 14395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 3, 1, 1, 0, 1, 2
+14139, 14918, 1, "OK", 3, 12, 3, 1, 1, 0, 1, 2
+12823, 15136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String operation Boolean isFromSaveNoMetadata", 0, 0, 20, 14, 10, 4, 6, 1
+14300, 14918, 1, "OK", 3, 10, 3, 1, 1, 0, 1, 2
+13966, 14133, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+15040, 15542, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+13836, 14338, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+13763, 14294, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+13966, 14525, 1, "OK", 4, 11, 3, 1, 1, 0, 1, 2
+12892, 14924, 1, "OK", 6, 39, 17, 12, 8, 4, 5, 1
+14929, 15136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String operation Boolean isFromSaveNoMetadata", 0, 0, 3, 2, 2, 0, 1, 1
+16060, 16299, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+13836, 14473, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+12892, 15703, 1, "OK", 6, 51, 22, 15, 11, 4, 7, 1
+13836, 14087, 1, "OK", 2, 7, 6, 2, 2, 0, 2, 2
+13836, 13959, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+13836, 14213, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+16397, 16738, 1, "OK", 1, 8, 2, 1, 1, 0, 1, 1
+13966, 14918, 1, "OK", 4, 17, 6, 2, 2, 0, 2, 2
+14094, 14918, 1, "OK", 3, 13, 3, 1, 1, 0, 1, 2
+14929, 15542, 1, "OK", 3, 9, 5, 3, 3, 0, 2, 1
+12823, 15035, 1, "OK", 5, 41, 20, 14, 10, 4, 6, 1
+12823, 15542, 1, "OK", 5, 49, 22, 15, 11, 4, 7, 1
+15192, 15703, 1, "OK", 5, 9, 2, 1, 1, 0, 1, 1
+12755, 16382, 1, "OK", 4, 72, 32, 21, 15, 6, 11, 1
+15750, 15954, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+14929, 15035, 1, "OK", 1, 1, 3, 2, 2, 0, 1, 1
+12952, 13216, 1, "OK", 4, 6, 4, 2, 2, 0, 1, 2
+13966, 14294, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 3, 1, 1, 0, 1, 2
+12823, 14924, 1, "OK", 5, 40, 17, 12, 8, 4, 5, 1
+12952, 13613, 1, "OK", 6, 13, 4, 2, 2, 0, 1, 2
+12714, 16382, 1, "OK", 4, 73, 32, 21, 15, 6, 11, 1
+12813, 16382, 1, "OK", 5, 71, 32, 21, 15, 6, 11, 1
+12952, 13481, 1, "OK", 6, 11, 4, 2, 2, 0, 1, 2
+12952, 13353, 1, "OK", 6, 9, 4, 2, 2, 0, 1, 2
+12673, 16382, 1, "OK", 4, 74, 32, 21, 15, 6, 11, 1
+14219, 14918, 1, "OK", 3, 11, 3, 1, 1, 0, 1, 2
+15040, 15703, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+12952, 13744, 1, "OK", 6, 14, 4, 2, 2, 0, 1, 2
+14479, 14918, 1, "OK", 3, 7, 3, 1, 1, 0, 1, 2
+14929, 15703, 1, "OK", 4, 12, 5, 3, 3, 0, 2, 1
+16397, 16660, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+12952, 13246, 1, "OK", 5, 7, 4, 2, 2, 0, 1, 2
+13763, 14473, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+14401, 14918, 1, "OK", 3, 8, 3, 1, 1, 0, 1, 2
+13763, 14087, 1, "OK", 3, 8, 6, 2, 2, 0, 2, 2
+13763, 13959, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+13763, 14213, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+13763, 14338, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+12823, 15703, 1, "OK", 5, 52, 22, 15, 11, 4, 7, 1
+13836, 14133, 1, "OK", 4, 9, 6, 2, 2, 0, 2, 2
+12497, 16742, 1, "OK", 2, 89, 36, 36, 18, 18, 12, 0
+12892, 15632, 1, "OK", 6, 50, 22, 15, 11, 4, 7, 1
+13966, 14338, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 3, 1, 1, 0, 1, 2
+13836, 14525, 1, "OK", 5, 15, 6, 2, 2, 0, 2, 2
+13836, 14395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 6, 2, 2, 0, 2, 2
+12952, 13128, 1, "OK", 2, 3, 4, 2, 2, 0, 1, 2
+14344, 14918, 1, "OK", 3, 9, 3, 1, 1, 0, 1, 2
+16060, 16377, 1, "OK", 2, 8, 3, 1, 1, 0, 1, 2
+13966, 14473, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 3, 1, 1, 0, 1, 2
+13966, 14087, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+13836, 14918, 1, "OK", 5, 21, 9, 3, 3, 0, 3, 2
+15192, 15632, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+13966, 14213, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer dsID VersionedDataSet dsSaved", 0, 0, 3, 1, 1, 0, 1, 2

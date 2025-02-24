@@ -1,0 +1,66 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+31654, 32051, 1, "OK", 6, 11, 5, 5, 4, 1, 1, 0
+28928, 32074, 1, "OK", 8, 67, 23, 23, 17, 6, 4, 0
+27872, 31651, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level JSONObject temp2", 0, 0, 20, 20, 15, 5, 3, 0
+29276, 31646, 1, "OK", 4, 42, 15, 12, 10, 2, 3, 1
+27912, 32074, 1, "OK", 6, 95, 25, 25, 19, 6, 4, 0
+28064, 28258, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+29342, 31646, 1, "OK", 4, 39, 15, 12, 10, 2, 3, 1
+27993, 32023, 1, "OK", 6, 90, 25, 25, 19, 6, 4, 0
+28043, 28936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level String text", 0, 0, 2, 2, 2, 0, 0, 0
+27912, 28258, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path String text", 0, 0, 2, 2, 2, 0, 0, 0
+27872, 32051, 1, "OK", 5, 96, 25, 25, 19, 6, 4, 0
+31841, 32019, 1, "OK", 3, 5, 4, 3, 3, 0, 1, 1
+27993, 28936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level String text", 0, 0, 2, 2, 2, 0, 0, 0
+28043, 32023, 1, "OK", 7, 89, 25, 25, 19, 6, 4, 0
+28939, 32023, 1, "OK", 7, 63, 23, 23, 17, 6, 4, 0
+28064, 28936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level String text", 0, 0, 2, 2, 2, 0, 0, 0
+30004, 31646, 1, "OK", 4, 27, 7, 6, 5, 1, 1, 1
+27872, 32074, 1, "OK", 5, 97, 25, 25, 19, 6, 4, 0
+27993, 31651, 1, "OK", 5, 81, 20, 20, 15, 5, 3, 0
+31654, 32074, 1, "OK", 6, 12, 5, 5, 4, 1, 1, 0
+30856, 31592, 1, "OK", 2, 11, 3, 1, 1, 0, 1, 2
+30667, 31592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path String url", 0, 0, 3, 1, 1, 0, 1, 2
+28043, 31651, 1, "OK", 6, 80, 20, 20, 15, 5, 3, 0
+28064, 32023, 1, "OK", 7, 87, 25, 25, 19, 6, 4, 0
+29732, 31646, 1, "OK", 4, 30, 9, 8, 7, 1, 1, 1
+27993, 32051, 1, "OK", 7, 92, 25, 25, 19, 6, 4, 0
+30609, 31592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path String url", 0, 0, 3, 1, 1, 0, 1, 2
+28939, 31651, 1, "OK", 5, 54, 18, 18, 13, 5, 3, 0
+30248, 31646, 1, "OK", 4, 24, 6, 5, 4, 1, 1, 1
+28043, 32051, 1, "OK", 8, 91, 25, 25, 19, 6, 4, 0
+29237, 31646, 1, "OK", 4, 43, 15, 12, 10, 2, 3, 1
+28939, 32051, 1, "OK", 8, 65, 23, 23, 17, 6, 4, 0
+28064, 31651, 1, "OK", 6, 78, 20, 20, 15, 5, 3, 0
+29307, 31646, 1, "OK", 4, 41, 15, 12, 10, 2, 3, 1
+27912, 28936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level String path String text", 0, 0, 2, 2, 2, 0, 0, 0
+30535, 31592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path String url", 0, 0, 3, 1, 1, 0, 1, 2
+30758, 31592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path String url", 0, 0, 3, 1, 1, 0, 1, 2
+27872, 28258, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject temp2 String path String text", 0, 0, 2, 2, 2, 0, 0, 0
+27912, 31651, 1, "OK", 5, 83, 20, 20, 15, 5, 3, 0
+28928, 32023, 1, "OK", 7, 64, 23, 23, 17, 6, 4, 0
+28064, 32051, 1, "OK", 8, 89, 25, 25, 19, 6, 4, 0
+29382, 29721, 1, "OK", 3, 8, 4, 2, 2, 0, 1, 2
+27912, 32023, 1, "OK", 5, 92, 25, 25, 19, 6, 4, 0
+30856, 31641, 1, "OK", 4, 13, 3, 1, 1, 0, 1, 2
+29167, 31646, 1, "OK", 5, 45, 15, 12, 10, 2, 3, 1
+27993, 32074, 1, "OK", 7, 93, 25, 25, 19, 6, 4, 0
+30667, 31641, 1, "OK", 4, 17, 3, 1, 1, 0, 1, 2
+27912, 32051, 1, "OK", 6, 94, 25, 25, 19, 6, 4, 0
+27872, 28936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level JSONObject temp2 String path String text", 0, 0, 2, 2, 2, 0, 0, 0
+28064, 32074, 1, "OK", 8, 90, 25, 25, 19, 6, 4, 0
+31691, 32019, 1, "OK", 5, 7, 4, 3, 3, 0, 1, 1
+27993, 28258, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+30609, 31641, 1, "OK", 4, 18, 3, 1, 1, 0, 1, 2
+28928, 31651, 1, "OK", 6, 55, 18, 18, 13, 5, 3, 0
+28043, 32074, 1, "OK", 8, 92, 25, 25, 19, 6, 4, 0
+28939, 32074, 1, "OK", 8, 66, 23, 23, 17, 6, 4, 0
+30469, 31646, 1, "OK", 4, 21, 5, 4, 3, 1, 1, 1
+27872, 32023, 1, "OK", 4, 94, 25, 25, 19, 6, 4, 0
+28043, 28258, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+29193, 31646, 1, "OK", 4, 44, 15, 12, 10, 2, 3, 1
+31741, 32019, 1, "OK", 6, 6, 4, 3, 3, 0, 1, 1
+28928, 32051, 1, "OK", 8, 66, 23, 23, 17, 6, 4, 0
+30758, 31641, 1, "OK", 4, 16, 3, 1, 1, 0, 1, 2
+31654, 32023, 1, "OK", 5, 9, 5, 5, 4, 1, 1, 0
+30535, 31641, 1, "OK", 4, 19, 3, 1, 1, 0, 1, 2

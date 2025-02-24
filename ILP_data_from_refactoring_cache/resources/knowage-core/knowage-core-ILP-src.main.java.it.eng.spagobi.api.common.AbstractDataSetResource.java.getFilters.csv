@@ -1,0 +1,63 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+31471, 32988, 1, "OK", 4, 43, 19, 19, 8, 11, 6, 0
+32131, 32747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects", 0, 0, 10, 4, 3, 1, 3, 2
+32203, 32307, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+31516, 32867, 1, "OK", 4, 34, 16, 11, 6, 5, 5, 1
+32036, 32747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> columnsList List<Projection> projections List<Object> valueObjects", 0, 0, 10, 4, 3, 1, 3, 2
+32131, 32360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects", 0, 0, 3, 1, 1, 0, 1, 2
+32313, 32862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 7, 3, 2, 1, 2, 2
+32036, 32360, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> columnsList List<Projection> projections List<Object> valueObjects", 0, 0, 3, 1, 1, 0, 1, 2
+32872, 32965, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+31860, 32307, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+31658, 32965, 1, "OK", 5, 36, 18, 12, 7, 5, 6, 1
+32203, 32835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 10, 4, 3, 1, 3, 2
+31944, 32030, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+32528, 32741, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+31860, 32198, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+32313, 32747, 1, "OK", 2, 8, 7, 3, 2, 1, 2, 2
+31821, 32126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+31731, 32867, 1, "OK", 5, 29, 16, 11, 6, 5, 5, 1
+31860, 32835, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+31944, 32307, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+31860, 32862, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 5, 4, 1, 4, 2
+31944, 32198, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+32203, 32360, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+31944, 32835, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+31658, 32867, 1, "OK", 5, 31, 16, 11, 6, 5, 5, 1
+31860, 32747, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+32365, 32835, 1, "OK", 3, 9, 7, 3, 2, 1, 2, 2
+31601, 32965, 1, "OK", 4, 38, 18, 12, 7, 5, 6, 1
+31860, 32360, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+32203, 32862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 10, 4, 3, 1, 3, 2
+31821, 32030, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+31771, 32965, 1, "OK", 6, 32, 18, 12, 7, 5, 6, 1
+31860, 32126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+31821, 32307, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+32203, 32747, 1, "OK", 4, 12, 10, 4, 3, 1, 3, 2
+32365, 32747, 1, "OK", 3, 7, 7, 3, 2, 1, 2, 2
+32423, 32741, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3
+31821, 32198, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+31821, 32835, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+31944, 32862, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 5, 4, 1, 4, 2
+31601, 32867, 1, "OK", 4, 33, 16, 11, 6, 5, 5, 1
+32365, 32862, 1, "OK", 4, 10, 7, 3, 2, 1, 2, 2
+32131, 32307, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+32036, 32307, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> columnsList List<Projection> projections", 0, 0, 3, 1, 1, 0, 1, 2
+31860, 32030, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+32313, 32835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 7, 3, 2, 1, 2, 2
+31516, 32965, 1, "OK", 4, 39, 18, 12, 7, 5, 6, 1
+31425, 32969, 1, "OK", 3, 43, 19, 19, 8, 11, 6, 0
+31771, 32867, 1, "OK", 6, 27, 16, 11, 6, 5, 5, 1
+31944, 32747, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+31944, 32360, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+32131, 32835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 10, 4, 3, 1, 3, 2
+32036, 32835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> columnsList List<Projection> projections List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 10, 4, 3, 1, 3, 2
+31821, 32747, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+31425, 32988, 1, "OK", 3, 45, 19, 19, 8, 11, 6, 0
+31821, 32360, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+32131, 32862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 10, 4, 3, 1, 3, 2
+31471, 32969, 1, "OK", 4, 41, 19, 19, 8, 11, 6, 0
+32036, 32862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> columnsList List<Projection> projections List<Object> valueObjects MultipleProjectionSimpleFilter inFilter", 0, 0, 10, 4, 3, 1, 3, 2
+31944, 32126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+31731, 32965, 1, "OK", 5, 34, 18, 12, 7, 5, 6, 1
+31821, 32862, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 5, 4, 1, 4, 2

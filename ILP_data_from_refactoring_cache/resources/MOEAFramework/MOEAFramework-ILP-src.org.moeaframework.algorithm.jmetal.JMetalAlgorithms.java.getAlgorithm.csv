@@ -1,0 +1,25 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+8559, 9906, 1, "OK", 4, 28, 18, 18, 18, 0, 0, 0
+7649, 10113, 1, "OK", 4, 56, 33, 33, 33, 0, 0, 0
+9164, 9906, 1, "OK", 4, 16, 10, 10, 10, 0, 0, 0
+9459, 9906, 1, "OK", 4, 10, 6, 6, 6, 0, 0, 0
+7649, 9990, 1, "OK", 4, 50, 31, 31, 31, 0, 0, 0
+8112, 9906, 1, "OK", 4, 37, 24, 24, 24, 0, 0, 0
+8711, 9906, 1, "OK", 4, 25, 16, 16, 16, 0, 0, 0
+7659, 9906, 1, "OK", 4, 46, 30, 30, 30, 0, 0, 0
+8267, 9906, 1, "OK", 4, 34, 22, 22, 22, 0, 0, 0
+7604, 10113, 1, "OK", 3, 58, 33, 33, 33, 0, 0, 0
+9608, 9906, 1, "OK", 4, 7, 4, 4, 4, 0, 0, 0
+7535, 10113, 1, "OK", 3, 59, 33, 33, 33, 0, 0, 0
+7604, 9990, 1, "OK", 3, 52, 31, 31, 31, 0, 0, 0
+7808, 9906, 1, "OK", 4, 43, 28, 28, 28, 0, 0, 0
+9310, 9906, 1, "OK", 4, 13, 8, 8, 8, 0, 0, 0
+9996, 10113, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+8413, 9906, 1, "OK", 4, 31, 20, 20, 20, 0, 0, 0
+8860, 9906, 1, "OK", 4, 22, 14, 14, 14, 0, 0, 0
+9763, 9906, 1, "OK", 4, 4, 2, 2, 2, 0, 0, 0
+7960, 9906, 1, "OK", 4, 40, 26, 26, 26, 0, 0, 0
+7465, 10113, 1, "OK", 3, 60, 33, 33, 33, 0, 0, 0
+7535, 9990, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JMetalProblemAdapter adapter Algorithm algorithm", 0, 0, 31, 31, 31, 0, 0, 0
+9012, 9906, 1, "OK", 4, 19, 12, 12, 12, 0, 0, 0
+7465, 9990, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JMetalProblemAdapter adapter Algorithm algorithm", 0, 0, 31, 31, 31, 0, 0, 0

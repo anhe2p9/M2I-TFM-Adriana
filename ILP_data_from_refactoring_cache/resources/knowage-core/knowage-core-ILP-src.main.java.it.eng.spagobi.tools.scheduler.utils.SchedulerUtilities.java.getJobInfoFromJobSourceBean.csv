@@ -1,0 +1,196 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6661, 11686, 1, "OK", 4, 88, 51, 39, 15, 24, 12, 1
+7617, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+7193, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7939, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 7, 3, 2, 1, 2, 2
+7193, 11588, 1, "OK", 4, 77, 49, 27, 14, 13, 11, 2
+11257, 11564, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 3, 2, 1, 2, 5
+9702, 11643, 1, "OK", 7, 40, 32, 20, 9, 11, 6, 2
+7304, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+7086, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+6034, 11691, 1, "OK", 2, 100, 52, 52, 16, 36, 12, 0
+6926, 11686, 1, "OK", 6, 85, 51, 39, 15, 24, 12, 1
+7304, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+8163, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String queryString", 0, 0, 14, 6, 4, 2, 4, 2
+7666, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+6497, 11691, 1, "OK", 3, 92, 52, 52, 16, 36, 12, 0
+7362, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+7483, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+7270, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+8081, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 14, 6, 4, 2, 4, 2
+7617, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+6862, 11649, 1, "OK", 5, 85, 51, 39, 15, 24, 12, 1
+7086, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7362, 7933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+7193, 11643, 1, "OK", 5, 79, 49, 27, 14, 13, 11, 2
+11209, 11564, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 3, 2, 1, 2, 5
+7304, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+7483, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+9755, 11588, 1, "OK", 5, 37, 32, 20, 9, 11, 6, 2
+7193, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+8814, 11588, 1, "OK", 6, 53, 39, 23, 11, 12, 8, 2
+7666, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+8163, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 14, 6, 4, 2, 4, 2
+9921, 11581, 1, "OK", 5, 33, 29, 14, 8, 6, 5, 3
+6862, 11686, 1, "OK", 6, 86, 51, 39, 15, 24, 12, 1
+7193, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+7939, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 7, 3, 2, 1, 2, 2
+7270, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+7939, 11588, 1, "OK", 5, 66, 46, 26, 13, 13, 10, 2
+9029, 11588, 1, "OK", 6, 51, 39, 23, 11, 12, 8, 2
+8081, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 14, 6, 4, 2, 4, 2
+7617, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+9806, 11588, 1, "OK", 5, 36, 32, 20, 9, 11, 6, 2
+7666, 8808, 1, "OK", 4, 18, 10, 4, 3, 1, 3, 2
+7362, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7270, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7362, 11588, 1, "OK", 3, 74, 49, 27, 14, 13, 11, 2
+9921, 10084, 1, "OK", 2, 5, 5, 2, 2, 0, 1, 3
+7304, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+8163, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 14, 6, 4, 2, 4, 2
+9755, 11643, 1, "OK", 7, 39, 32, 20, 9, 11, 6, 2
+8814, 11643, 1, "OK", 8, 55, 39, 23, 11, 12, 8, 2
+7617, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+9029, 11643, 1, "OK", 8, 53, 39, 23, 11, 12, 8, 2
+6071, 11691, 1, "OK", 3, 99, 52, 52, 16, 36, 12, 0
+7939, 11643, 1, "OK", 7, 68, 46, 26, 13, 13, 10, 2
+8081, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 14, 6, 4, 2, 4, 2
+6352, 11691, 1, "OK", 5, 95, 52, 52, 16, 36, 12, 0
+7304, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+8163, 8808, 1, "OK", 2, 11, 7, 3, 2, 1, 2, 2
+7193, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+11113, 11573, 1, "OK", 2, 11, 18, 6, 3, 3, 3, 4
+9806, 11643, 1, "OK", 7, 38, 32, 20, 9, 11, 6, 2
+7193, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+8345, 8801, 1, "OK", 2, 7, 4, 1, 1, 0, 1, 3
+8814, 9623, 1, "OK", 2, 13, 7, 3, 2, 1, 2, 2
+7939, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 14, 6, 4, 2, 4, 2
+9029, 9623, 1, "OK", 2, 11, 7, 3, 2, 1, 2, 2
+7362, 11643, 1, "OK", 5, 76, 49, 27, 14, 13, 11, 2
+8081, 8808, 1, "OK", 1, 12, 7, 3, 2, 1, 2, 2
+7086, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+7362, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+8950, 11588, 1, "OK", 5, 52, 39, 23, 11, 12, 8, 2
+8280, 8801, 1, "OK", 2, 8, 4, 1, 1, 0, 1, 3
+9063, 9616, 1, "OK", 2, 9, 4, 1, 1, 0, 1, 3
+7086, 7933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+7362, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+7483, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+7193, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+7483, 7933, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+9196, 9616, 1, "OK", 2, 7, 4, 1, 1, 0, 1, 3
+10718, 11581, 1, "OK", 3, 19, 20, 11, 5, 6, 3, 3
+6604, 11649, 1, "OK", 2, 88, 51, 39, 15, 24, 12, 1
+8814, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String queryString", 0, 0, 7, 3, 2, 1, 2, 2
+10091, 11581, 1, "OK", 4, 28, 24, 12, 6, 6, 4, 3
+9029, 9696, 1, "OK", 3, 13, 7, 3, 2, 1, 2, 2
+7666, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+7939, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 14, 6, 4, 2, 4, 2
+8950, 11643, 1, "OK", 7, 54, 39, 23, 11, 12, 8, 2
+7270, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+7666, 7933, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+7086, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7193, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+7617, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+7086, 11588, 1, "OK", 5, 78, 49, 27, 14, 13, 11, 2
+6604, 11686, 1, "OK", 3, 89, 51, 39, 15, 24, 12, 1
+7270, 7933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+7362, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+7617, 7933, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+8200, 8801, 1, "OK", 2, 9, 4, 1, 1, 0, 1, 3
+7362, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+9630, 11588, 1, "OK", 5, 39, 32, 20, 9, 11, 6, 2
+7483, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+8950, 9623, 1, "OK", 1, 12, 7, 3, 2, 1, 2, 2
+7483, 11588, 1, "OK", 4, 73, 49, 27, 14, 13, 11, 2
+7304, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+8163, 8944, 1, "OK", 4, 12, 7, 3, 2, 1, 2, 2
+11167, 11564, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 3, 2, 1, 2, 5
+8814, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 7, 3, 2, 1, 2, 2
+9845, 11581, 1, "OK", 5, 34, 29, 14, 8, 6, 5, 3
+7939, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 14, 6, 4, 2, 4, 2
+7193, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7304, 7933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+9029, 9749, 1, "OK", 3, 14, 7, 3, 2, 1, 2, 2
+8081, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 7, 3, 2, 1, 2, 2
+11322, 11385, 1, "OK", 1, 1, 7, 1, 1, 0, 1, 6
+6407, 11691, 1, "OK", 4, 94, 52, 52, 16, 36, 12, 0
+6739, 11649, 1, "OK", 4, 86, 51, 39, 15, 24, 12, 1
+7086, 11643, 1, "OK", 6, 80, 49, 27, 14, 13, 11, 2
+7666, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+6143, 11691, 1, "OK", 4, 98, 52, 52, 16, 36, 12, 0
+7666, 11588, 1, "OK", 6, 71, 49, 27, 14, 13, 11, 2
+9845, 10084, 1, "OK", 2, 6, 5, 2, 2, 0, 1, 3
+7362, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+7270, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+9630, 11643, 1, "OK", 7, 41, 32, 20, 9, 11, 6, 2
+7270, 11588, 1, "OK", 4, 76, 49, 27, 14, 13, 11, 2
+7617, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7086, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+8814, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 7, 3, 2, 1, 2, 2
+9029, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] parCouples Iterator iterbiobjpar", 0, 0, 7, 3, 2, 1, 2, 2
+7483, 11643, 1, "OK", 6, 75, 49, 27, 14, 13, 11, 2
+6971, 11649, 1, "OK", 5, 83, 51, 39, 15, 24, 12, 1
+7939, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 14, 6, 4, 2, 4, 2
+7617, 11588, 1, "OK", 5, 72, 49, 27, 14, 13, 11, 2
+7086, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+8950, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String queryString", 0, 0, 7, 3, 2, 1, 2, 2
+7483, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+6739, 11686, 1, "OK", 5, 87, 51, 39, 15, 24, 12, 1
+8163, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 7, 3, 2, 1, 2, 2
+7304, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 10, 4, 3, 1, 3, 2
+7304, 11588, 1, "OK", 4, 75, 49, 27, 14, 13, 11, 2
+7483, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+11322, 11443, 1, "OK", 1, 2, 7, 1, 1, 0, 1, 6
+7362, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 17, 7, 5, 2, 5, 2
+7939, 8808, 1, "OK", 2, 13, 7, 3, 2, 1, 2, 2
+8163, 11588, 1, "OK", 7, 64, 46, 26, 13, 13, 10, 2
+7666, 11643, 1, "OK", 8, 73, 49, 27, 14, 13, 11, 2
+8081, 9023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB Map<String, String> useFormulaParameters", 0, 0, 7, 3, 2, 1, 2, 2
+6971, 11686, 1, "OK", 6, 84, 51, 39, 15, 24, 12, 1
+8081, 11588, 1, "OK", 6, 65, 46, 26, 13, 13, 10, 2
+5990, 11894, 1, "OK", 1, 106, 53, 53, 17, 36, 12, 0
+7270, 11643, 1, "OK", 5, 78, 49, 27, 14, 13, 11, 2
+7617, 11643, 1, "OK", 7, 74, 49, 27, 14, 13, 11, 2
+7666, 8075, 1, "OK", 4, 6, 3, 1, 1, 0, 1, 2
+5990, 11912, 1, "OK", 1, 107, 53, 53, 17, 36, 12, 0
+7362, 8808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters", 0, 0, 10, 4, 3, 1, 3, 2
+8950, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 7, 3, 2, 1, 2, 2
+7270, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+7666, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+6311, 11691, 1, "OK", 6, 96, 52, 52, 16, 36, 12, 0
+7617, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+11322, 11492, 1, "OK", 1, 3, 7, 1, 1, 0, 1, 6
+7086, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+7270, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+7086, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+6229, 11691, 1, "OK", 5, 97, 52, 52, 16, 36, 12, 0
+7617, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+7304, 11643, 1, "OK", 5, 77, 49, 27, 14, 13, 11, 2
+7193, 8944, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters SourceBean useFormulaSB", 0, 0, 10, 4, 3, 1, 3, 2
+8163, 11643, 1, "OK", 9, 66, 46, 26, 13, 13, 10, 2
+6576, 11691, 1, "OK", 3, 91, 52, 52, 16, 36, 12, 0
+7483, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+9137, 9616, 1, "OK", 2, 8, 4, 1, 1, 0, 1, 3
+7483, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+7193, 7933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List biobjpars String biobjlbl SourceBean queryStringSB List iterativeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+7304, 8075, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB", 0, 0, 3, 1, 1, 0, 1, 2
+6025, 11894, 1, "OK", 2, 105, 53, 53, 17, 36, 12, 0
+8081, 11643, 1, "OK", 8, 67, 46, 26, 13, 13, 10, 2
+8163, 9623, 1, "OK", 4, 24, 14, 6, 4, 2, 4, 2
+7304, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean queryStringSB List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 17, 7, 5, 2, 5, 2
+8950, 9800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> useFormulaParameters String[] parCouples Iterator iterbiobjpar", 0, 0, 7, 3, 2, 1, 2, 2
+9702, 11588, 1, "OK", 5, 38, 32, 20, 9, 11, 6, 2
+11322, 11538, 1, "OK", 2, 4, 7, 1, 1, 0, 1, 6
+6661, 11649, 1, "OK", 3, 87, 51, 39, 15, 24, 12, 1
+6025, 11912, 1, "OK", 2, 106, 53, 53, 17, 36, 12, 0
+8081, 9623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters", 0, 0, 14, 6, 4, 2, 4, 2
+7086, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List biobjpars List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+7666, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+11322, 11554, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 1, 1, 0, 1, 6
+7666, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+6926, 11649, 1, "OK", 5, 84, 51, 39, 15, 24, 12, 1
+7270, 9696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String queryString", 0, 0, 17, 7, 5, 2, 5, 2
+7483, 9749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters Map<String, String> loadAtRuntimeParameters Map<String, String> useFormulaParameters String[] parCouples", 0, 0, 17, 7, 5, 2, 5, 2
+7270, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String biobjlbl SourceBean queryStringSB List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2
+7617, 8157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List iterativeParameters SourceBean loadAtRuntimeSB Map<String, String> loadAtRuntimeParameters", 0, 0, 3, 1, 1, 0, 1, 2

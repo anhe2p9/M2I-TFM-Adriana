@@ -1,0 +1,129 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2495, 6176, 1, "OK", 0, 88, 22, 22, 17, 5, 4, 0
+2639, 2736, 1, "OK", 0, 1, 1, 1, 1, 0, 0, 0
+2639, 4277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel BIObject obj", 0, 0, 9, 9, 7, 2, 2, 0
+2639, 5823, 0, "Compilation unit does not compile after method extraction.", 3, 67, 20, 20, 15, 5, 4, 0
+2800, 4416, 1, "OK", 2, 28, 9, 9, 7, 2, 2, 0
+2800, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 18, 18, 13, 5, 4, 0
+2739, 3237, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentLabel BIObject obj", 0, 0, 1, 1, 1, 0, 0, 0
+4932, 5401, 1, "OK", 1, 13, 5, 3, 2, 1, 2, 1
+3294, 3697, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+2471, 6176, 1, "OK", 0, 89, 22, 22, 17, 5, 4, 0
+2609, 3181, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel IEngUserProfile profile", 0, 0, 2, 2, 2, 0, 0, 0
+3226, 4277, 1, "OK", 2, 20, 7, 7, 5, 2, 2, 0
+5829, 6016, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+4419, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 9, 9, 6, 3, 2, 0
+2800, 4687, 0, "Compilation unit does not compile after method extraction.", 4, 36, 10, 10, 8, 2, 2, 0
+2739, 4277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String documentLabel BIObject obj", 0, 0, 8, 8, 6, 2, 2, 0
+2979, 3237, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+2609, 4466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj IEngUserProfile profile", 0, 0, 10, 10, 8, 2, 2, 0
+4280, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 10, 10, 7, 3, 2, 0
+4506, 5823, 0, "Compilation unit does not compile after method extraction.", 4, 33, 10, 10, 7, 3, 2, 0
+3226, 5823, 0, "Compilation unit does not compile after method extraction.", 5, 57, 18, 18, 13, 5, 4, 0
+2739, 5823, 0, "Compilation unit does not compile after method extraction.", 4, 66, 19, 19, 14, 5, 4, 0
+4419, 4687, 0, "Compilation unit does not compile after method extraction.", 3, 8, 1, 1, 1, 0, 0, 0
+2609, 6016, 0, "Compilation unit does not compile after method extraction.", 2, 74, 21, 21, 16, 5, 4, 0
+4999, 5401, 1, "OK", 2, 11, 5, 3, 2, 1, 2, 1
+2979, 4277, 1, "OK", 2, 24, 8, 8, 6, 2, 2, 0
+2538, 6176, 1, "OK", 0, 86, 22, 22, 17, 5, 4, 0
+3240, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 17, 17, 12, 5, 4, 0
+2885, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 18, 18, 13, 5, 4, 0
+2979, 5823, 0, "Compilation unit does not compile after method extraction.", 5, 61, 19, 19, 14, 5, 4, 0
+2639, 2794, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel", 0, 0, 1, 1, 1, 0, 0, 0
+5442, 6016, 1, "OK", 3, 13, 2, 2, 2, 0, 0, 0
+2800, 3181, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+2800, 4466, 1, "OK", 2, 29, 9, 9, 7, 2, 2, 0
+5066, 5391, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+4280, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 10, 10, 7, 3, 2, 0
+4694, 5405, 0, "Compilation unit does not compile after method extraction.", 2, 18, 8, 8, 5, 3, 2, 0
+4280, 4416, 1, "OK", 3, 1, 1, 1, 1, 0, 0, 0
+2609, 2973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel IEngUserProfile profile", 0, 0, 1, 1, 1, 0, 0, 0
+5025, 5391, 1, "OK", 2, 8, 3, 1, 1, 0, 1, 2
+2800, 6016, 0, "Compilation unit does not compile after method extraction.", 5, 70, 20, 20, 15, 5, 4, 0
+2609, 3237, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel BIObject obj IEngUserProfile profile", 0, 0, 2, 2, 2, 0, 0, 0
+3811, 4119, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+3240, 4416, 1, "OK", 3, 20, 8, 8, 6, 2, 2, 0
+3240, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 17, 17, 12, 5, 4, 0
+2885, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 18, 18, 13, 5, 4, 0
+4280, 4687, 0, "Compilation unit does not compile after method extraction.", 5, 9, 2, 2, 2, 0, 0, 0
+4419, 6016, 0, "Compilation unit does not compile after method extraction.", 4, 42, 11, 11, 8, 3, 2, 0
+2885, 4416, 1, "OK", 2, 27, 9, 9, 7, 2, 2, 0
+2609, 2736, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId IEngUserProfile profile", 0, 0, 1, 1, 1, 0, 0, 0
+2556, 6176, 0, "Compilation unit does not compile after method extraction.", 1, 85, 22, 22, 17, 5, 4, 0
+2609, 4277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel BIObject obj IEngUserProfile profile", 0, 0, 9, 9, 7, 2, 2, 0
+3371, 3697, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+4694, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roles JSONObject rolesJSON", 0, 0, 8, 8, 5, 3, 2, 0
+3240, 4687, 0, "Compilation unit does not compile after method extraction.", 5, 28, 9, 9, 7, 2, 2, 0
+2885, 4687, 0, "Compilation unit does not compile after method extraction.", 4, 35, 10, 10, 8, 2, 2, 0
+2609, 5823, 0, "Compilation unit does not compile after method extraction.", 2, 68, 20, 20, 15, 5, 4, 0
+2639, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 19, 19, 14, 5, 4, 0
+2449, 6176, 1, "OK", 0, 90, 22, 22, 17, 5, 4, 0
+2800, 3237, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+4960, 5401, 1, "OK", 2, 12, 5, 3, 2, 1, 2, 1
+4280, 4466, 1, "OK", 3, 2, 1, 1, 1, 0, 0, 0
+5411, 6016, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+5442, 5823, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+3226, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 17, 17, 12, 5, 4, 0
+4506, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 9, 9, 6, 3, 2, 0
+2800, 4277, 1, "OK", 2, 27, 8, 8, 6, 2, 2, 0
+2885, 3181, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+2739, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 18, 18, 13, 5, 4, 0
+3240, 4466, 1, "OK", 3, 21, 8, 8, 6, 2, 2, 0
+4280, 6016, 0, "Compilation unit does not compile after method extraction.", 6, 43, 12, 12, 9, 3, 2, 0
+2885, 4466, 1, "OK", 2, 28, 9, 9, 7, 2, 2, 0
+2639, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 19, 19, 14, 5, 4, 0
+2800, 5823, 0, "Compilation unit does not compile after method extraction.", 5, 64, 19, 19, 14, 5, 4, 0
+2639, 4416, 1, "OK", 0, 31, 10, 10, 8, 2, 2, 0
+2639, 2882, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel", 0, 0, 1, 1, 1, 0, 0, 0
+3240, 6016, 0, "Compilation unit does not compile after method extraction.", 6, 62, 19, 19, 14, 5, 4, 0
+3709, 4277, 1, "OK", 2, 11, 4, 4, 3, 1, 1, 0
+2979, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 18, 18, 13, 5, 4, 0
+2609, 2794, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel IEngUserProfile profile", 0, 0, 1, 1, 1, 0, 0, 0
+2885, 6016, 0, "Compilation unit does not compile after method extraction.", 5, 69, 20, 20, 15, 5, 4, 0
+4419, 5823, 0, "Compilation unit does not compile after method extraction.", 4, 36, 10, 10, 7, 3, 2, 0
+2639, 4687, 0, "Compilation unit does not compile after method extraction.", 2, 39, 11, 11, 9, 2, 2, 0
+4506, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 9, 9, 6, 3, 2, 0
+3226, 4416, 1, "OK", 2, 21, 8, 8, 6, 2, 2, 0
+3226, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 17, 17, 12, 5, 4, 0
+4694, 6016, 0, "Compilation unit does not compile after method extraction.", 2, 33, 10, 10, 7, 3, 2, 0
+2739, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 18, 18, 13, 5, 4, 0
+2739, 4416, 1, "OK", 1, 30, 9, 9, 7, 2, 2, 0
+4506, 4687, 0, "Compilation unit does not compile after method extraction.", 3, 5, 1, 1, 1, 0, 0, 0
+3226, 4687, 0, "Compilation unit does not compile after method extraction.", 4, 29, 9, 9, 7, 2, 2, 0
+2739, 4687, 0, "Compilation unit does not compile after method extraction.", 3, 38, 10, 10, 8, 2, 2, 0
+2979, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 18, 18, 13, 5, 4, 0
+3740, 4119, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+2639, 3181, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel", 0, 0, 2, 2, 2, 0, 0, 0
+2979, 4416, 1, "OK", 2, 25, 9, 9, 7, 2, 2, 0
+5411, 5823, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+2885, 3237, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+2639, 4466, 1, "OK", 0, 32, 10, 10, 8, 2, 2, 0
+4280, 5823, 0, "Compilation unit does not compile after method extraction.", 6, 37, 11, 11, 8, 3, 2, 0
+2609, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 19, 19, 14, 5, 4, 0
+2979, 4687, 0, "Compilation unit does not compile after method extraction.", 4, 33, 10, 10, 8, 2, 2, 0
+3240, 4277, 1, "OK", 3, 19, 7, 7, 5, 2, 2, 0
+2576, 6176, 0, "Compilation unit does not compile after method extraction.", 2, 82, 22, 22, 17, 5, 4, 0
+2885, 4277, 1, "OK", 2, 26, 8, 8, 6, 2, 2, 0
+2639, 6016, 0, "Compilation unit does not compile after method extraction.", 3, 73, 21, 21, 16, 5, 4, 0
+3226, 4466, 1, "OK", 2, 22, 8, 8, 6, 2, 2, 0
+2601, 6176, 0, "Compilation unit does not compile after method extraction.", 2, 80, 22, 22, 17, 5, 4, 0
+3240, 5823, 0, "Compilation unit does not compile after method extraction.", 6, 56, 18, 18, 13, 5, 4, 0
+2739, 3181, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+2885, 5823, 0, "Compilation unit does not compile after method extraction.", 5, 63, 19, 19, 14, 5, 4, 0
+2739, 4466, 1, "OK", 1, 31, 9, 9, 7, 2, 2, 0
+4506, 6016, 0, "Compilation unit does not compile after method extraction.", 4, 39, 11, 11, 8, 3, 2, 0
+3226, 6016, 0, "Compilation unit does not compile after method extraction.", 5, 63, 19, 19, 14, 5, 4, 0
+4694, 5823, 0, "Compilation unit does not compile after method extraction.", 2, 27, 9, 9, 6, 3, 2, 0
+2979, 3181, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+2609, 5439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles JSONObject rolesJSON", 0, 0, 19, 19, 14, 5, 4, 0
+2639, 2973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel", 0, 0, 1, 1, 1, 0, 0, 0
+2739, 6016, 0, "Compilation unit does not compile after method extraction.", 4, 72, 20, 20, 15, 5, 4, 0
+2800, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 18, 18, 13, 5, 4, 0
+2609, 4416, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj IEngUserProfile profile", 0, 0, 10, 10, 8, 2, 2, 0
+2979, 4466, 1, "OK", 2, 26, 9, 9, 7, 2, 2, 0
+2511, 6176, 1, "OK", 0, 87, 22, 22, 17, 5, 4, 0
+2609, 2882, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel IEngUserProfile profile", 0, 0, 1, 1, 1, 0, 0, 0
+2639, 3237, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer documentId String documentLabel BIObject obj", 0, 0, 2, 2, 2, 0, 0, 0
+4419, 5405, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List roleNames List roles", 0, 0, 9, 9, 6, 3, 2, 0
+2609, 4687, 0, "Compilation unit does not compile after method extraction.", 1, 40, 11, 11, 9, 2, 2, 0
+2979, 6016, 0, "Compilation unit does not compile after method extraction.", 5, 67, 20, 20, 15, 5, 4, 0

@@ -1,0 +1,319 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12352, 13446, 1, "OK", 1, 41, 14, 14, 9, 5, 5, 0
+10517, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+6330, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9530, 11833, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 49, 20, 29, 14, 1
+7248, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+7793, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 104, 104, 38, 66, 25, 0
+6589, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 126, 126, 53, 73, 32, 0
+6589, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 8, 8, 6, 2, 2, 0
+7102, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 107, 107, 40, 67, 26, 0
+6330, 7124, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12920, 13265, 1, "OK", 4, 14, 6, 4, 4, 0, 2, 1
+12474, 12756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+6526, 7194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 1, 1, 1, 0, 0, 0
+12545, 12612, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+6589, 7299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 1, 1, 1, 0, 0, 0
+7875, 8393, 1, "OK", 1, 12, 15, 11, 5, 6, 4, 1
+10638, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+10942, 11102, 1, "OK", 1, 1, 6, 3, 3, 0, 1, 3
+10463, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+6589, 13446, 1, "OK", 2, 193, 126, 126, 53, 73, 32, 0
+7197, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+6642, 7194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 1, 1, 1, 0, 0, 0
+8575, 9223, 1, "OK", 1, 14, 17, 12, 6, 6, 5, 1
+10353, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+10407, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+7102, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 125, 125, 52, 73, 32, 0
+7102, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 7, 7, 5, 2, 2, 0
+11647, 11796, 1, "OK", 5, 4, 7, 1, 1, 0, 1, 6
+7302, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+6330, 7151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6330, 6639, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+6499, 6523, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+6589, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 44, 68, 27, 0
+6526, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 44, 68, 27, 0
+9500, 9750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+9530, 9853, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 3, 1, 3, 1
+9121, 9223, 1, "OK", 0, 1, 2, 1, 1, 0, 1, 1
+12687, 13363, 1, "OK", 3, 26, 10, 6, 6, 0, 4, 1
+6642, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 44, 68, 27, 0
+7154, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+7102, 13446, 1, "OK", 1, 183, 125, 125, 52, 73, 32, 0
+7302, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 107, 107, 40, 67, 26, 0
+8596, 9117, 1, "OK", 1, 12, 15, 11, 5, 6, 4, 1
+10575, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+6526, 7245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames", 0, 0, 1, 1, 1, 0, 0, 0
+8257, 8375, 1, "OK", 1, 2, 5, 1, 1, 0, 1, 4
+6526, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+7248, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+7793, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 101, 101, 36, 65, 24, 0
+12010, 12348, 1, "OK", 0, 9, 3, 3, 2, 1, 1, 0
+9500, 11833, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 49, 20, 29, 14, 1
+7102, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+8224, 8382, 1, "OK", 1, 4, 9, 3, 2, 1, 2, 3
+6642, 7245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames", 0, 0, 1, 1, 1, 0, 0, 0
+10751, 10936, 1, "OK", 2, 8, 9, 3, 2, 1, 2, 3
+6642, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+7154, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 107, 107, 40, 67, 26, 0
+6330, 7194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7434, 7785, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 6, 4, 4, 0, 2, 1
+6385, 6523, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10669, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+7302, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 125, 125, 52, 73, 32, 0
+7302, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 7, 7, 5, 2, 2, 0
+12545, 12683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+6352, 6523, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11401, 11805, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 4, 3, 1, 3, 5
+6526, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 126, 126, 53, 73, 32, 0
+6526, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 8, 8, 6, 2, 2, 0
+12474, 12841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+7391, 7602, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets String name Object value", 0, 0, 3, 2, 2, 0, 1, 1
+6435, 6523, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12687, 12906, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+6499, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12474, 13363, 1, "OK", 1, 31, 12, 7, 7, 0, 5, 1
+6642, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 126, 126, 53, 73, 32, 0
+7154, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 125, 125, 52, 73, 32, 0
+6642, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 8, 8, 6, 2, 2, 0
+7154, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 7, 7, 5, 2, 2, 0
+6330, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+12010, 13422, 1, "OK", 1, 49, 17, 17, 11, 6, 6, 0
+7302, 13446, 1, "OK", 5, 178, 125, 125, 52, 73, 32, 0
+6526, 7299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 1, 1, 1, 0, 0, 0
+10575, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+10296, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value String colorS String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+6589, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+6526, 13446, 1, "OK", 2, 194, 126, 126, 53, 73, 32, 0
+13058, 13196, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+6499, 7124, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6642, 7299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 1, 1, 1, 0, 0, 0
+12440, 13422, 1, "OK", 1, 38, 14, 14, 9, 5, 5, 0
+9602, 9750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+10214, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value String colorS String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+7875, 8499, 1, "OK", 1, 13, 17, 12, 6, 6, 5, 1
+7302, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+6589, 6898, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+6642, 13446, 1, "OK", 2, 192, 126, 126, 53, 73, 32, 0
+7154, 13446, 1, "OK", 3, 181, 125, 125, 52, 73, 32, 0
+6330, 7245, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6330, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+12010, 13446, 1, "OK", 1, 51, 17, 17, 11, 6, 6, 0
+6526, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 44, 68, 27, 0
+9500, 9853, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 3, 1, 3, 1
+6642, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 44, 68, 27, 0
+7154, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+6352, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+6385, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12010, 12437, 1, "OK", 1, 11, 3, 3, 2, 1, 1, 0
+12440, 13446, 1, "OK", 1, 40, 14, 14, 9, 5, 5, 0
+7102, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+6499, 7151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6499, 6639, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10638, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+10517, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+8596, 9223, 1, "OK", 1, 13, 17, 12, 6, 6, 5, 1
+10296, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+12545, 12756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS", 0, 0, 2, 1, 1, 0, 1, 1
+6330, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 54, 73, 32, 0
+6330, 7789, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+10114, 11828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 32, 14, 18, 10, 2
+10407, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+12474, 12906, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 4, 2, 2, 0, 2, 1
+11618, 11805, 1, "OK", 5, 6, 13, 3, 2, 1, 2, 5
+6435, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9602, 11833, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 49, 20, 29, 14, 1
+10463, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String colorS String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+13076, 13196, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+6352, 7124, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6385, 7124, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6330, 7299, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10353, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+10214, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+6330, 13446, 1, "OK", 1, 199, 127, 127, 54, 73, 32, 0
+11172, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 14, 6, 8, 5, 3
+6435, 7124, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8981, 9099, 1, "OK", 1, 2, 5, 1, 1, 0, 1, 4
+13058, 13265, 1, "OK", 4, 8, 3, 2, 2, 0, 1, 1
+6499, 7194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8948, 9106, 1, "OK", 1, 4, 9, 3, 2, 1, 2, 3
+6385, 7151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6385, 6639, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12064, 12344, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+6330, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+7302, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+6352, 7151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6352, 6639, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11866, 12348, 1, "OK", 0, 14, 4, 4, 3, 1, 1, 0
+6526, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+6435, 7151, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6435, 6639, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11355, 11813, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 8, 4, 4, 3, 4
+12950, 13053, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+8513, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 82, 82, 28, 54, 19, 0
+11428, 11610, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 1, 1, 0, 1, 5
+10942, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 17, 9, 8, 6, 3
+10463, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+6526, 6898, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+6642, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+7154, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+9602, 9853, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 3, 1, 3, 1
+13076, 13265, 1, "OK", 4, 7, 3, 2, 2, 0, 1, 1
+6499, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+12950, 13071, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+7478, 7602, 1, "OK", 4, 4, 3, 2, 2, 0, 1, 1
+6642, 6898, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+8312, 8375, 1, "OK", 1, 1, 5, 1, 1, 0, 1, 4
+7127, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+10751, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isVisible", 0, 0, 15, 6, 5, 1, 3, 3
+6352, 7194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6499, 7245, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6385, 7194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10575, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+12545, 12841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+11866, 13422, 1, "OK", 1, 54, 18, 18, 12, 6, 6, 0
+6499, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+12545, 13363, 1, "OK", 2, 30, 12, 7, 7, 0, 5, 1
+10669, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+12760, 13363, 1, "OK", 4, 25, 10, 6, 6, 0, 4, 1
+6435, 7194, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7127, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 107, 107, 40, 67, 26, 0
+6499, 7789, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+11866, 13446, 1, "OK", 1, 56, 18, 18, 12, 6, 6, 0
+7391, 7785, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 6, 4, 4, 0, 2, 1
+6330, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 110, 43, 67, 26, 0
+6352, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+6385, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+6499, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 54, 73, 32, 0
+7127, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 7, 7, 5, 2, 2, 0
+7606, 7785, 1, "OK", 4, 4, 3, 2, 2, 0, 1, 1
+6435, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+11866, 12437, 1, "OK", 1, 16, 4, 4, 3, 1, 1, 0
+6330, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7127, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 125, 125, 52, 73, 32, 0
+9755, 11833, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 46, 18, 28, 12, 1
+6352, 7245, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6385, 7245, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10775, 10929, 1, "OK", 2, 6, 5, 1, 1, 0, 1, 4
+11738, 11796, 1, "OK", 2, 3, 7, 1, 1, 0, 1, 6
+10517, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String colorS String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+12920, 13053, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+6499, 7299, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8132, 8388, 1, "OK", 1, 7, 13, 7, 4, 3, 3, 2
+10296, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+6352, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+6385, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+6499, 13446, 1, "OK", 2, 195, 127, 127, 54, 73, 32, 0
+6435, 7245, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12545, 12906, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS String colorS String orientationS", 0, 0, 4, 2, 2, 0, 2, 1
+6499, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+6435, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 109, 42, 67, 26, 0
+7127, 13446, 1, "OK", 2, 182, 125, 125, 52, 73, 32, 0
+10638, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+7951, 8388, 1, "OK", 1, 10, 13, 7, 4, 3, 3, 2
+12760, 12906, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+10214, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+12134, 12344, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+6352, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 54, 73, 32, 0
+7127, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+6352, 7789, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+6385, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 54, 73, 32, 0
+7852, 8393, 1, "OK", 1, 13, 15, 11, 5, 6, 4, 1
+10407, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+6385, 7789, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12920, 13071, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+8067, 8388, 1, "OK", 1, 8, 13, 7, 4, 3, 3, 2
+12845, 13363, 1, "OK", 4, 24, 10, 6, 6, 0, 4, 1
+12911, 13363, 1, "OK", 4, 20, 8, 5, 5, 0, 3, 1
+10004, 11828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 32, 14, 18, 10, 2
+8001, 8388, 1, "OK", 1, 9, 13, 7, 4, 3, 3, 2
+6435, 7789, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+10353, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value String colorS String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+6435, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 127, 127, 54, 73, 32, 0
+6385, 7299, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12950, 13196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+6352, 13446, 1, "OK", 1, 198, 127, 127, 54, 73, 32, 0
+6385, 13446, 1, "OK", 1, 197, 127, 127, 54, 73, 32, 0
+6352, 7299, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6589, 7124, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+10463, 10936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String visibleS Color colorC boolean isMain", 0, 0, 14, 5, 4, 1, 3, 3
+10517, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+6435, 7299, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7197, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+9036, 9099, 1, "OK", 1, 1, 5, 1, 1, 0, 1, 4
+6352, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+6385, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+6435, 13446, 1, "OK", 1, 196, 127, 127, 54, 73, 32, 0
+9755, 9853, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+11866, 12006, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+12474, 12612, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+11195, 11813, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 9, 5, 4, 4, 4
+6435, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 45, 68, 27, 0
+6589, 7151, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 1, 1, 1, 0, 0, 0
+12845, 12906, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+9694, 9723, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7197, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 107, 107, 40, 67, 26, 0
+10353, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+9857, 11833, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 45, 17, 28, 11, 1
+6499, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 110, 43, 67, 26, 0
+10669, 10745, 1, "OK", 1, 1, 5, 2, 2, 0, 1, 3
+7434, 7602, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets Object value", 0, 0, 3, 2, 2, 0, 1, 1
+12616, 13363, 1, "OK", 2, 27, 10, 6, 6, 0, 4, 1
+7248, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+7793, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 104, 104, 38, 66, 25, 0
+9694, 9745, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7197, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 125, 125, 52, 73, 32, 0
+7197, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames Vector<String> baselinesNames", 0, 0, 7, 7, 5, 2, 2, 0
+6499, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7127, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+10575, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+7478, 7785, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 6, 4, 4, 0, 2, 1
+11401, 11610, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 1, 1, 0, 1, 5
+12950, 13265, 1, "OK", 5, 13, 6, 4, 4, 0, 2, 1
+8575, 9117, 1, "OK", 1, 13, 15, 11, 5, 6, 4, 1
+6589, 7194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 1, 1, 1, 0, 0, 0
+11428, 11805, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 4, 3, 1, 3, 5
+6330, 6523, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+8397, 8499, 1, "OK", 0, 1, 2, 1, 1, 0, 1, 1
+8856, 9112, 1, "OK", 1, 7, 13, 7, 4, 3, 3, 2
+7248, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 107, 107, 40, 67, 26, 0
+7793, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 100, 100, 35, 65, 24, 0
+7197, 13446, 1, "OK", 3, 180, 125, 125, 52, 73, 32, 0
+7852, 8499, 1, "OK", 1, 14, 17, 12, 6, 6, 5, 1
+8675, 9112, 1, "OK", 1, 10, 13, 7, 4, 3, 3, 2
+12920, 13196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color color int size", 0, 0, 6, 4, 4, 0, 2, 1
+6352, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 110, 43, 67, 26, 0
+6526, 7124, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+12474, 12683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fontS String sizeS", 0, 0, 2, 1, 1, 0, 1, 1
+6385, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 110, 43, 67, 26, 0
+10751, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 20, 11, 9, 8, 3
+9530, 9750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+7197, 12437, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+9630, 9723, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7248, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 125, 125, 52, 73, 32, 0
+7248, 7789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> baselinesNames", 0, 0, 7, 7, 5, 2, 2, 0
+7793, 13422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 118, 118, 47, 71, 30, 0
+10173, 11828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 32, 14, 18, 10, 2
+6352, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6642, 7124, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+8725, 9112, 1, "OK", 1, 9, 13, 7, 4, 3, 3, 2
+6385, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10296, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+6589, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 44, 68, 27, 0
+12616, 12906, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sizeS String colorS String orientationS", 0, 0, 2, 1, 1, 0, 1, 1
+8791, 9112, 1, "OK", 1, 8, 13, 7, 4, 3, 3, 2
+6435, 12006, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 110, 43, 67, 26, 0
+10669, 11822, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 22, 13, 9, 9, 3
+12352, 13422, 1, "OK", 1, 39, 14, 14, 9, 5, 5, 0
+10638, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+9630, 9745, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+6526, 7151, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 1, 1, 1, 0, 0, 0
+6589, 7245, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines Vector<String> targetNames", 0, 0, 1, 1, 1, 0, 0, 0
+6435, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7248, 13446, 1, "OK", 4, 179, 125, 125, 52, 73, 32, 0
+7793, 13446, 1, "OK", 5, 165, 118, 118, 47, 71, 30, 0
+10407, 10745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value String colorS String visibleS Color colorC boolean isMain", 0, 0, 5, 2, 2, 0, 1, 3
+6589, 11860, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 41, 67, 26, 0
+7102, 12348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 43, 68, 27, 0
+10214, 11102, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value Color colorC boolean isMain boolean isVisible", 0, 0, 20, 8, 7, 1, 4, 3
+6642, 7151, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean targets boolean baselines", 0, 0, 1, 1, 1, 0, 0, 0

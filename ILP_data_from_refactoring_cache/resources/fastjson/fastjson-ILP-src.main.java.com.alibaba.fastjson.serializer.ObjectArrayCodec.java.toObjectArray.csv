@@ -1,0 +1,48 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7085, 7247, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+7257, 8891, 1, "OK", 5, 45, 29, 29, 11, 18, 8, 0
+7347, 8788, 1, "OK", 6, 38, 28, 20, 10, 10, 8, 1
+7899, 8571, 1, "OK", 5, 15, 16, 8, 4, 4, 4, 2
+7477, 8788, 1, "OK", 6, 33, 26, 19, 9, 10, 7, 1
+7525, 7819, 1, "OK", 5, 8, 4, 2, 2, 0, 1, 2
+8457, 8552, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+7558, 7819, 1, "OK", 5, 7, 4, 2, 2, 0, 1, 2
+7190, 8921, 0, "Compilation unit does not compile after method extraction.", 4, 47, 29, 29, 11, 18, 8, 0
+7154, 8891, 1, "OK", 3, 48, 29, 29, 11, 18, 8, 0
+7190, 8799, 1, "OK", 4, 43, 29, 29, 11, 18, 8, 0
+7899, 8771, 1, "OK", 7, 20, 19, 9, 5, 4, 5, 2
+8001, 8552, 1, "OK", 6, 12, 13, 4, 3, 1, 3, 3
+7085, 8921, 0, "Compilation unit does not compile after method extraction.", 3, 53, 30, 30, 12, 18, 8, 0
+8125, 8552, 1, "OK", 7, 10, 13, 4, 3, 1, 3, 3
+7085, 8799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 8, 0
+7257, 8843, 1, "OK", 5, 44, 29, 29, 11, 18, 8, 0
+7347, 7461, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7525, 7767, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+8001, 8435, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean contains JSONArray valueArray", 0, 0, 9, 3, 2, 1, 2, 3
+7558, 7767, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+8591, 8771, 1, "OK", 6, 4, 3, 1, 1, 0, 1, 2
+7899, 8721, 1, "OK", 7, 19, 19, 9, 5, 4, 5, 2
+7954, 8552, 1, "OK", 5, 13, 13, 4, 3, 1, 3, 3
+8125, 8435, 1, "OK", 6, 7, 9, 3, 2, 1, 2, 3
+7085, 7142, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+7154, 8843, 1, "OK", 3, 47, 29, 29, 11, 18, 8, 0
+8256, 8412, 1, "OK", 6, 4, 5, 1, 1, 0, 1, 4
+7954, 8435, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean contains JSONArray valueArray", 0, 0, 9, 3, 2, 1, 2, 3
+7257, 8921, 0, "Compilation unit does not compile after method extraction.", 5, 46, 29, 29, 11, 18, 8, 0
+7257, 8799, 1, "OK", 5, 42, 29, 29, 11, 18, 8, 0
+7190, 8891, 1, "OK", 4, 46, 29, 29, 11, 18, 8, 0
+8591, 8721, 1, "OK", 4, 3, 3, 1, 1, 0, 1, 2
+7859, 8571, 1, "OK", 4, 16, 16, 8, 4, 4, 4, 2
+8064, 8552, 1, "OK", 6, 11, 13, 4, 3, 1, 3, 3
+7154, 8921, 0, "Compilation unit does not compile after method extraction.", 3, 49, 29, 29, 11, 18, 8, 0
+7085, 8891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 8, 0
+7154, 8799, 1, "OK", 3, 45, 29, 29, 11, 18, 8, 0
+7303, 8788, 1, "OK", 5, 40, 28, 20, 10, 10, 8, 1
+7859, 8771, 1, "OK", 6, 21, 19, 9, 5, 4, 5, 2
+7190, 8843, 1, "OK", 4, 45, 29, 29, 11, 18, 8, 0
+8064, 8435, 1, "OK", 5, 8, 9, 3, 2, 1, 2, 3
+8193, 8412, 1, "OK", 6, 5, 5, 1, 1, 0, 1, 4
+7085, 8843, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 8, 0
+7303, 7461, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7859, 8721, 1, "OK", 6, 20, 19, 9, 5, 4, 5, 2
+7085, 7178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0

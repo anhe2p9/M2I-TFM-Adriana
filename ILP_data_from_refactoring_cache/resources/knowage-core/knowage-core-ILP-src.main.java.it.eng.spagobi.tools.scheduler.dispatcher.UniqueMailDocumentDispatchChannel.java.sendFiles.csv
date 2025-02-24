@@ -1,0 +1,509 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9457, 11030, 1, "OK", 5, 56, 8, 8, 6, 2, 2, 0
+8567, 10967, 1, "OK", 6, 65, 14, 14, 12, 2, 2, 0
+7133, 8321, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+7205, 8137, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+8459, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 5, 5, 5, 0, 0, 0
+7960, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+9091, 11121, 1, "OK", 8, 69, 11, 11, 9, 2, 2, 0
+8428, 11201, 1, "OK", 7, 77, 15, 15, 13, 2, 2, 0
+9686, 11121, 1, "OK", 7, 54, 7, 7, 5, 2, 2, 0
+9200, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 4, 4, 4, 0, 0, 0
+7443, 7956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj String mailTxt", 0, 0, 3, 3, 3, 0, 0, 0
+7133, 9379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+8966, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 6, 6, 6, 0, 0, 0
+10289, 10864, 1, "OK", 3, 19, 2, 1, 1, 0, 1, 1
+7443, 11030, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg", 0, 0, 20, 20, 18, 2, 2, 0
+8093, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+7862, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 9, 9, 9, 0, 0, 0
+7960, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg InternetAddress[] addressTo", 0, 0, 2, 2, 2, 0, 0, 0
+7205, 9196, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 12, 0, 0, 0
+7763, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 9, 9, 9, 0, 0, 0
+7546, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 14, 14, 14, 0, 0, 0
+9457, 11073, 1, "OK", 5, 57, 8, 8, 6, 2, 2, 0
+8325, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+7546, 7857, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+8966, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 6, 6, 6, 0, 0, 0
+7133, 8380, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+8567, 11030, 1, "OK", 6, 68, 14, 14, 12, 2, 2, 0
+7546, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 14, 14, 14, 0, 0, 0
+8428, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 5, 5, 5, 0, 0, 0
+8093, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg InternetAddress[] addressTo", 0, 0, 1, 1, 1, 0, 0, 0
+7133, 9408, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+9565, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument", 0, 0, 2, 2, 2, 0, 0, 0
+7205, 8211, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+7443, 11073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg", 0, 0, 20, 20, 18, 2, 2, 0
+7763, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt Message msg InternetAddress[] addressTo", 0, 0, 3, 3, 3, 0, 0, 0
+7653, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 12, 12, 12, 0, 0, 0
+7253, 8769, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+7862, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg InternetAddress[] addressTo", 0, 0, 3, 3, 3, 0, 0, 0
+7960, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String contentType", 0, 0, 9, 9, 9, 0, 0, 0
+9924, 10967, 1, "OK", 6, 40, 6, 6, 4, 2, 2, 0
+9858, 10967, 1, "OK", 6, 44, 6, 6, 4, 2, 2, 0
+7253, 9802, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+8966, 10967, 1, "OK", 7, 63, 12, 12, 10, 2, 2, 0
+7253, 7759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+8215, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 9, 9, 9, 0, 0, 0
+9091, 11201, 1, "OK", 9, 71, 11, 11, 9, 2, 2, 0
+8142, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 10, 10, 10, 0, 0, 0
+7546, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg Multipart mp", 0, 0, 20, 20, 18, 2, 2, 0
+8093, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+9457, 11121, 1, "OK", 6, 60, 8, 8, 6, 2, 2, 0
+7960, 8380, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+9686, 11201, 1, "OK", 8, 56, 7, 7, 5, 2, 2, 0
+7960, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType", 0, 0, 9, 9, 9, 0, 0, 0
+9500, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument", 0, 0, 2, 2, 2, 0, 0, 0
+7862, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+8567, 11073, 1, "OK", 6, 69, 14, 14, 12, 2, 2, 0
+7763, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+8459, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+9200, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 4, 4, 4, 0, 0, 0
+8142, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 10, 10, 10, 0, 0, 0
+8325, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+7443, 11121, 1, "OK", 2, 96, 20, 20, 18, 2, 2, 0
+8093, 8380, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+7862, 8380, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg", 0, 0, 3, 3, 3, 0, 0, 0
+8093, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+7862, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+7133, 8454, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+7763, 8380, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt Message msg", 0, 0, 3, 3, 3, 0, 0, 0
+7443, 8065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj String mailTxt String[] recipients", 0, 0, 4, 4, 4, 0, 0, 0
+7763, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+7443, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 9, 9, 9, 0, 0, 0
+8142, 10967, 1, "OK", 6, 75, 16, 16, 14, 2, 2, 0
+9091, 9196, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+7133, 7438, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+9858, 11030, 1, "OK", 7, 47, 6, 6, 4, 2, 2, 0
+9200, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 4, 4, 4, 0, 0, 0
+8966, 11030, 1, "OK", 7, 66, 12, 12, 10, 2, 2, 0
+9924, 11030, 1, "OK", 7, 43, 6, 6, 4, 2, 2, 0
+7546, 7956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt", 0, 0, 3, 3, 3, 0, 0, 0
+8325, 9408, 1, "OK", 4, 17, 7, 7, 7, 0, 0, 0
+9317, 9379, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 0
+7546, 11030, 1, "OK", 3, 88, 20, 20, 18, 2, 2, 0
+7133, 9496, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+7205, 9312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 13, 0, 0, 0
+8567, 11121, 1, "OK", 7, 72, 14, 14, 12, 2, 2, 0
+7960, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject", 0, 0, 2, 2, 2, 0, 0, 0
+9200, 10967, 1, "OK", 8, 61, 10, 10, 8, 2, 2, 0
+8567, 9087, 1, "OK", 1, 3, 3, 3, 3, 0, 0, 0
+9565, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+8428, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+7253, 9893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+7133, 9522, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+9457, 11201, 1, "OK", 7, 62, 8, 8, 6, 2, 2, 0
+8966, 11073, 1, "OK", 7, 67, 12, 12, 10, 2, 2, 0
+9317, 9408, 1, "OK", 4, 5, 1, 1, 1, 0, 0, 0
+9924, 11073, 1, "OK", 7, 44, 6, 6, 4, 2, 2, 0
+8459, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+7205, 8321, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+7253, 7857, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+7653, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 7, 7, 7, 0, 0, 0
+7960, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 9, 9, 9, 0, 0, 0
+9858, 11073, 1, "OK", 7, 48, 6, 6, 4, 2, 2, 0
+7653, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 13, 13, 13, 0, 0, 0
+9565, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+7253, 9919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+7653, 7759, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+8093, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject", 0, 0, 1, 1, 1, 0, 0, 0
+7546, 11073, 1, "OK", 3, 89, 20, 20, 18, 2, 2, 0
+7443, 11201, 1, "OK", 3, 98, 20, 20, 18, 2, 2, 0
+8142, 11030, 1, "OK", 6, 78, 16, 16, 14, 2, 2, 0
+9500, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+8215, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 4, 4, 4, 0, 0, 0
+8215, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 10, 10, 10, 0, 0, 0
+7862, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject", 0, 0, 3, 3, 3, 0, 0, 0
+8459, 9408, 1, "OK", 3, 12, 7, 7, 7, 0, 0, 0
+7443, 8137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj String mailTxt String[] recipients Message msg", 0, 0, 4, 4, 4, 0, 0, 0
+7763, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject", 0, 0, 3, 3, 3, 0, 0, 0
+7960, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 9, 9, 9, 0, 0, 0
+7103, 11511, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 21, 2, 2, 0
+7205, 9379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+8093, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 8, 8, 8, 0, 0, 0
+9565, 10967, 1, "OK", 4, 48, 8, 8, 6, 2, 2, 0
+7253, 10967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7862, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType MimeBodyPart mbp1", 0, 0, 10, 10, 10, 0, 0, 0
+9500, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+9200, 11030, 1, "OK", 8, 64, 10, 10, 8, 2, 2, 0
+7763, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType MimeBodyPart mbp1", 0, 0, 10, 10, 10, 0, 0, 0
+8966, 11121, 1, "OK", 8, 70, 12, 12, 10, 2, 2, 0
+9924, 11121, 1, "OK", 8, 47, 6, 6, 4, 2, 2, 0
+7103, 11526, 1, "OK", 2, 121, 23, 23, 21, 2, 2, 0
+8567, 11201, 1, "OK", 8, 74, 14, 14, 12, 2, 2, 0
+8142, 11073, 1, "OK", 6, 79, 16, 16, 14, 2, 2, 0
+8325, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 7, 7, 7, 0, 0, 0
+7133, 8563, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+9858, 11121, 1, "OK", 8, 51, 6, 6, 4, 2, 2, 0
+8093, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 8, 8, 8, 0, 0, 0
+9500, 10967, 1, "OK", 5, 52, 8, 8, 6, 2, 2, 0
+7443, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+7133, 7541, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+9091, 9312, 1, "OK", 1, 2, 2, 2, 2, 0, 0, 0
+7205, 8380, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+7546, 11121, 1, "OK", 3, 92, 20, 20, 18, 2, 2, 0
+8428, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+7862, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 10, 10, 10, 0, 0, 0
+8966, 9087, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+7205, 9408, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+7763, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 10, 10, 10, 0, 0, 0
+7546, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 9, 9, 9, 0, 0, 0
+8325, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 7, 7, 7, 0, 0, 0
+7546, 8065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients", 0, 0, 4, 4, 4, 0, 0, 0
+9317, 9496, 1, "OK", 4, 7, 1, 1, 1, 0, 0, 0
+8428, 9408, 1, "OK", 3, 14, 7, 7, 7, 0, 0, 0
+8567, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean reportNameInSubject String contentType", 0, 0, 4, 4, 4, 0, 0, 0
+9200, 11073, 1, "OK", 8, 65, 10, 10, 8, 2, 2, 0
+9565, 11030, 1, "OK", 5, 51, 8, 8, 6, 2, 2, 0
+7960, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix", 0, 0, 3, 3, 3, 0, 0, 0
+8142, 11121, 1, "OK", 7, 82, 16, 16, 14, 2, 2, 0
+7253, 11030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7443, 8211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj String mailTxt String[] recipients Message msg InternetAddress[] addressTo", 0, 0, 4, 4, 4, 0, 0, 0
+7653, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 13, 13, 13, 0, 0, 0
+7253, 7956, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+8459, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 7, 7, 7, 0, 0, 0
+9317, 9522, 1, "OK", 5, 8, 1, 1, 1, 0, 0, 0
+9898, 10967, 1, "OK", 7, 42, 6, 6, 4, 2, 2, 0
+8215, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 10, 10, 10, 0, 0, 0
+7653, 7857, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+8093, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix", 0, 0, 2, 2, 2, 0, 0, 0
+8142, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 5, 5, 5, 0, 0, 0
+7653, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 13, 13, 13, 0, 0, 0
+8966, 11201, 1, "OK", 9, 72, 12, 12, 10, 2, 2, 0
+9924, 11201, 1, "OK", 9, 49, 6, 6, 4, 2, 2, 0
+10163, 10961, 1, "OK", 3, 30, 4, 2, 2, 0, 2, 1
+7862, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix", 0, 0, 4, 4, 4, 0, 0, 0
+9500, 11030, 1, "OK", 6, 55, 8, 8, 6, 2, 2, 0
+7205, 8454, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+9565, 11073, 1, "OK", 5, 52, 8, 8, 6, 2, 2, 0
+7763, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix", 0, 0, 4, 4, 4, 0, 0, 0
+9858, 11201, 1, "OK", 9, 53, 6, 6, 4, 2, 2, 0
+9091, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 3, 3, 3, 0, 0, 0
+9200, 11121, 1, "OK", 9, 68, 10, 10, 8, 2, 2, 0
+7205, 7438, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7546, 11201, 1, "OK", 4, 94, 20, 20, 18, 2, 2, 0
+8325, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix", 0, 0, 1, 1, 1, 0, 0, 0
+8459, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 7, 7, 7, 0, 0, 0
+8215, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 10, 10, 10, 0, 0, 0
+7253, 11073, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7653, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg Multipart mp", 0, 0, 19, 19, 17, 2, 2, 0
+7546, 8137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients Message msg", 0, 0, 4, 4, 4, 0, 0, 0
+7133, 9682, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 15, 0, 0, 0
+7205, 9496, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+9091, 9408, 1, "OK", 5, 8, 3, 3, 3, 0, 0, 0
+9500, 11073, 1, "OK", 6, 56, 8, 8, 6, 2, 2, 0
+8966, 9196, 1, "OK", 1, 2, 2, 2, 2, 0, 0, 0
+8215, 10967, 1, "OK", 7, 74, 16, 16, 14, 2, 2, 0
+7133, 7649, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+8428, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 7, 7, 7, 0, 0, 0
+9898, 11030, 1, "OK", 8, 45, 6, 6, 4, 2, 2, 0
+7205, 9522, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+7443, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 11, 11, 11, 0, 0, 0
+7546, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+8142, 11201, 1, "OK", 8, 84, 16, 16, 14, 2, 2, 0
+9565, 11121, 1, "OK", 6, 55, 8, 8, 6, 2, 2, 0
+10333, 10864, 1, "OK", 4, 17, 2, 1, 1, 0, 1, 1
+7960, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 10, 10, 10, 0, 0, 0
+7253, 11121, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+8428, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 7, 7, 7, 0, 0, 0
+7253, 9087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+7443, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj String mailTxt Message msg InternetAddress[] addressTo", 0, 0, 5, 5, 5, 0, 0, 0
+8459, 8563, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+7253, 8065, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+8567, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean reportNameInSubject String contentType", 0, 0, 5, 5, 5, 0, 0, 0
+7653, 11030, 1, "OK", 4, 87, 19, 19, 17, 2, 2, 0
+9500, 11121, 1, "OK", 7, 59, 8, 8, 6, 2, 2, 0
+7653, 7956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt", 0, 0, 2, 2, 2, 0, 0, 0
+8093, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 9, 9, 9, 0, 0, 0
+9200, 11201, 1, "OK", 10, 70, 10, 10, 8, 2, 2, 0
+7546, 8211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients Message msg InternetAddress[] addressTo", 0, 0, 4, 4, 4, 0, 0, 0
+8142, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+9898, 11073, 1, "OK", 8, 46, 6, 6, 4, 2, 2, 0
+7862, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 11, 11, 11, 0, 0, 0
+7763, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 11, 11, 11, 0, 0, 0
+8215, 11030, 1, "OK", 7, 77, 16, 16, 14, 2, 2, 0
+8325, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 8, 8, 8, 0, 0, 0
+7205, 8563, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+7205, 7541, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7443, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject String contentType", 0, 0, 12, 12, 12, 0, 0, 0
+9091, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 3, 3, 3, 0, 0, 0
+7653, 11073, 1, "OK", 4, 88, 19, 19, 17, 2, 2, 0
+9565, 11201, 1, "OK", 7, 57, 8, 8, 6, 2, 2, 0
+7133, 8769, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+7443, 8380, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj String mailTxt Message msg", 0, 0, 5, 5, 5, 0, 0, 0
+8567, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+9317, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 2, 2, 2, 0, 0, 0
+8428, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix", 0, 0, 1, 1, 1, 0, 0, 0
+9898, 11121, 1, "OK", 9, 49, 6, 6, 4, 2, 2, 0
+7133, 9802, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+7443, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String contentType", 0, 0, 12, 12, 12, 0, 0, 0
+7253, 11201, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+8215, 11073, 1, "OK", 7, 78, 16, 16, 14, 2, 2, 0
+7133, 7759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+9091, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 3, 3, 3, 0, 0, 0
+7253, 8137, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+8966, 9312, 1, "OK", 1, 3, 3, 3, 3, 0, 0, 0
+9500, 11201, 1, "OK", 8, 61, 8, 8, 6, 2, 2, 0
+7546, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 11, 11, 11, 0, 0, 0
+7960, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 5, 5, 5, 0, 0, 0
+8459, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 8, 8, 8, 0, 0, 0
+7653, 11121, 1, "OK", 4, 91, 19, 19, 17, 2, 2, 0
+8567, 9408, 1, "OK", 4, 11, 6, 6, 6, 0, 0, 0
+9384, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 1, 1, 1, 0, 0, 0
+7960, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 11, 11, 11, 0, 0, 0
+7653, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 8, 8, 8, 0, 0, 0
+7253, 9196, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 12, 0, 0, 0
+7653, 8065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients", 0, 0, 3, 3, 3, 0, 0, 0
+8215, 11121, 1, "OK", 8, 81, 16, 16, 14, 2, 2, 0
+8093, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 4, 4, 4, 0, 0, 0
+7546, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt Message msg InternetAddress[] addressTo", 0, 0, 5, 5, 5, 0, 0, 0
+7763, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 6, 6, 6, 0, 0, 0
+7205, 9682, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 15, 0, 0, 0
+8093, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 10, 10, 10, 0, 0, 0
+8215, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 5, 5, 5, 0, 0, 0
+7862, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 6, 6, 6, 0, 0, 0
+7862, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 12, 12, 12, 0, 0, 0
+7443, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject", 0, 0, 5, 5, 5, 0, 0, 0
+8142, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+8325, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 3, 3, 3, 0, 0, 0
+8966, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 4, 4, 4, 0, 0, 0
+7763, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 12, 12, 12, 0, 0, 0
+7253, 8211, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+9898, 11201, 1, "OK", 10, 51, 6, 6, 4, 2, 2, 0
+7205, 7649, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+8325, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 9, 9, 9, 0, 0, 0
+8428, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 8, 8, 8, 0, 0, 0
+7443, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String contentType MimeBodyPart mbp1", 0, 0, 12, 12, 12, 0, 0, 0
+7546, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String contentType", 0, 0, 12, 12, 12, 0, 0, 0
+7133, 9893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+10204, 10961, 1, "OK", 3, 29, 4, 2, 2, 0, 2, 1
+9200, 9312, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+7133, 7857, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+8142, 8321, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+7653, 11201, 1, "OK", 5, 93, 19, 19, 17, 2, 2, 0
+8966, 9408, 1, "OK", 5, 9, 4, 4, 4, 0, 0, 0
+7133, 9919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+7546, 8380, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt Message msg", 0, 0, 5, 5, 5, 0, 0, 0
+9317, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 3, 3, 3, 0, 0, 0
+7443, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg String contentType MimeBodyPart mbp1", 0, 0, 12, 12, 12, 0, 0, 0
+7546, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType", 0, 0, 12, 12, 12, 0, 0, 0
+7653, 8137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients Message msg", 0, 0, 3, 3, 3, 0, 0, 0
+8567, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 6, 6, 6, 0, 0, 0
+7960, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 11, 11, 11, 0, 0, 0
+8215, 11201, 1, "OK", 9, 83, 16, 16, 14, 2, 2, 0
+8142, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+8459, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameSuffix Boolean reportNameInSubject", 0, 0, 3, 3, 3, 0, 0, 0
+7133, 10967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+8567, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 6, 6, 6, 0, 0, 0
+8459, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 9, 9, 9, 0, 0, 0
+9384, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 2, 2, 2, 0, 0, 0
+8093, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 10, 10, 10, 0, 0, 0
+7653, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 9, 9, 9, 0, 0, 0
+7960, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 11, 11, 11, 0, 0, 0
+8142, 8380, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+7253, 9312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 13, 0, 0, 0
+7763, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 12, 12, 12, 0, 0, 0
+9200, 9379, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+8215, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+7862, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 12, 12, 12, 0, 0, 0
+9091, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 4, 4, 4, 0, 0, 0
+8142, 9408, 1, "OK", 4, 21, 8, 8, 8, 0, 0, 0
+7205, 8769, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 10, 0, 0, 0
+8093, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 10, 10, 10, 0, 0, 0
+7443, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject String nameSuffix", 0, 0, 6, 6, 6, 0, 0, 0
+7960, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg Multipart mp", 0, 0, 17, 17, 15, 2, 2, 0
+7205, 9802, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+8325, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 9, 9, 9, 0, 0, 0
+7205, 7759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+7862, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 12, 12, 12, 0, 0, 0
+7653, 8211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients Message msg InternetAddress[] addressTo", 0, 0, 3, 3, 3, 0, 0, 0
+7253, 8321, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+7546, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject", 0, 0, 5, 5, 5, 0, 0, 0
+7763, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 12, 12, 12, 0, 0, 0
+8428, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 3, 3, 3, 0, 0, 0
+9200, 9408, 1, "OK", 5, 7, 2, 2, 2, 0, 0, 0
+8966, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 4, 4, 4, 0, 0, 0
+10240, 10961, 1, "OK", 3, 28, 4, 2, 2, 0, 2, 1
+7133, 11030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7133, 7956, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+8428, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 9, 9, 9, 0, 0, 0
+7546, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType MimeBodyPart mbp1", 0, 0, 12, 12, 12, 0, 0, 0
+8093, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg Multipart mp", 0, 0, 16, 16, 14, 2, 2, 0
+8325, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 9, 9, 9, 0, 0, 0
+7862, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg Multipart mp", 0, 0, 18, 18, 16, 2, 2, 0
+9317, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 3, 3, 3, 0, 0, 0
+7763, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg Multipart mp", 0, 0, 18, 18, 16, 2, 2, 0
+8966, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 4, 4, 4, 0, 0, 0
+7253, 9379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+10274, 10961, 1, "OK", 3, 27, 4, 2, 2, 0, 2, 1
+8325, 10967, 1, "OK", 6, 71, 15, 15, 13, 2, 2, 0
+7546, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 12, 12, 12, 0, 0, 0
+8142, 8454, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+9384, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+7960, 11030, 1, "OK", 5, 83, 17, 17, 15, 2, 2, 0
+8459, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 9, 9, 9, 0, 0, 0
+9317, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 3, 3, 3, 0, 0, 0
+7133, 11073, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+9457, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 1, 1, 1, 0, 0, 0
+7253, 8380, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+7253, 9408, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+8142, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 8, 8, 8, 0, 0, 0
+8459, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 9, 9, 9, 0, 0, 0
+9317, 10967, 1, "OK", 8, 59, 9, 9, 7, 2, 2, 0
+7862, 7956, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+9384, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+8093, 11030, 1, "OK", 6, 80, 16, 16, 14, 2, 2, 0
+7653, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 10, 10, 10, 0, 0, 0
+7763, 7956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt", 0, 0, 1, 1, 1, 0, 0, 0
+8142, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 8, 8, 8, 0, 0, 0
+7205, 9893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+7862, 11030, 1, "OK", 4, 84, 18, 18, 16, 2, 2, 0
+7443, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 13, 13, 13, 0, 0, 0
+7763, 11030, 1, "OK", 5, 86, 18, 18, 16, 2, 2, 0
+7960, 11073, 1, "OK", 5, 84, 17, 17, 15, 2, 2, 0
+8459, 10967, 1, "OK", 5, 66, 15, 15, 13, 2, 2, 0
+7443, 7649, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj", 0, 0, 1, 1, 1, 0, 0, 0
+9091, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 5, 5, 5, 0, 0, 0
+9200, 9496, 1, "OK", 5, 9, 2, 2, 2, 0, 0, 0
+7205, 7857, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+8215, 9312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+9686, 9802, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+9384, 10967, 1, "OK", 6, 55, 8, 8, 6, 2, 2, 0
+7133, 11121, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+8325, 11030, 1, "OK", 6, 74, 15, 15, 13, 2, 2, 0
+7205, 9919, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 16, 0, 0, 0
+8567, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 7, 7, 7, 0, 0, 0
+7546, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix", 0, 0, 6, 6, 6, 0, 0, 0
+7653, 8321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt Message msg InternetAddress[] addressTo", 0, 0, 4, 4, 4, 0, 0, 0
+8428, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 9, 9, 9, 0, 0, 0
+7133, 9087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+8093, 11073, 1, "OK", 6, 81, 16, 16, 14, 2, 2, 0
+7133, 8065, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+9200, 9522, 1, "OK", 6, 10, 2, 2, 2, 0, 0, 0
+7763, 11073, 1, "OK", 5, 87, 18, 18, 16, 2, 2, 0
+7862, 11073, 1, "OK", 4, 85, 18, 18, 16, 2, 2, 0
+8215, 8321, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+7205, 10967, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+8428, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 9, 9, 9, 0, 0, 0
+7253, 8454, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 7, 0, 0, 0
+9317, 11030, 1, "OK", 8, 62, 9, 9, 7, 2, 2, 0
+7253, 7438, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+7960, 11121, 1, "OK", 5, 87, 17, 17, 15, 2, 2, 0
+8325, 11073, 1, "OK", 6, 75, 15, 15, 13, 2, 2, 0
+7653, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String contentType", 0, 0, 11, 11, 11, 0, 0, 0
+8142, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix", 0, 0, 2, 2, 2, 0, 0, 0
+7253, 9496, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+8428, 10967, 1, "OK", 5, 68, 15, 15, 13, 2, 2, 0
+8459, 11030, 1, "OK", 5, 69, 15, 15, 13, 2, 2, 0
+7960, 8065, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+8215, 9379, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+7960, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 6, 6, 6, 0, 0, 0
+9384, 11030, 1, "OK", 6, 58, 8, 8, 6, 2, 2, 0
+8093, 11121, 1, "OK", 6, 84, 16, 16, 14, 2, 2, 0
+9317, 11073, 1, "OK", 8, 63, 9, 9, 7, 2, 2, 0
+7653, 8380, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt Message msg", 0, 0, 4, 4, 4, 0, 0, 0
+7763, 11121, 1, "OK", 5, 90, 18, 18, 16, 2, 2, 0
+7253, 9522, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 14, 0, 0, 0
+9457, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 2, 2, 2, 0, 0, 0
+7653, 9408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType", 0, 0, 11, 11, 11, 0, 0, 0
+7862, 11121, 1, "OK", 4, 88, 18, 18, 16, 2, 2, 0
+8093, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 5, 5, 5, 0, 0, 0
+8215, 8380, 1, "OK", 3, 4, 1, 1, 1, 0, 0, 0
+7133, 11201, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+9091, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 5, 5, 5, 0, 0, 0
+7862, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 7, 7, 7, 0, 0, 0
+8325, 11121, 1, "OK", 7, 78, 15, 15, 13, 2, 2, 0
+8966, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 5, 5, 5, 0, 0, 0
+7443, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 8, 8, 8, 0, 0, 0
+7763, 8065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients", 0, 0, 2, 2, 2, 0, 0, 0
+7133, 8137, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+7763, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 7, 7, 7, 0, 0, 0
+8215, 9408, 1, "OK", 5, 20, 8, 8, 8, 0, 0, 0
+7862, 8065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt String[] recipients", 0, 0, 2, 2, 2, 0, 0, 0
+7205, 11030, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7205, 7956, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+8459, 11073, 1, "OK", 5, 70, 15, 15, 13, 2, 2, 0
+9686, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName Multipart mp", 0, 0, 1, 1, 1, 0, 0, 0
+9091, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 5, 5, 5, 0, 0, 0
+7546, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 13, 13, 13, 0, 0, 0
+7443, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 14, 14, 14, 0, 0, 0
+7443, 7759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj Map parametersMap", 0, 0, 2, 2, 2, 0, 0, 0
+9384, 11073, 1, "OK", 6, 59, 8, 8, 6, 2, 2, 0
+8325, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 4, 4, 4, 0, 0, 0
+7960, 11201, 1, "OK", 6, 89, 17, 17, 15, 2, 2, 0
+9317, 11121, 1, "OK", 9, 66, 9, 9, 7, 2, 2, 0
+7546, 7649, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+9686, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName Multipart mp", 0, 0, 1, 1, 1, 0, 0, 0
+8428, 11030, 1, "OK", 5, 71, 15, 15, 13, 2, 2, 0
+8567, 8769, 1, "OK", 1, 1, 2, 2, 2, 0, 0, 0
+8567, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 8, 8, 8, 0, 0, 0
+7960, 8137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] recipients Message msg", 0, 0, 1, 1, 1, 0, 0, 0
+9091, 10967, 1, "OK", 7, 62, 11, 11, 9, 2, 2, 0
+7133, 9196, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 12, 0, 0, 0
+7253, 8563, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 8, 0, 0, 0
+7205, 11073, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7125, 11511, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 21, 2, 2, 0
+7653, 8454, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject", 0, 0, 4, 4, 4, 0, 0, 0
+8093, 11201, 1, "OK", 7, 86, 16, 16, 14, 2, 2, 0
+8142, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 9, 9, 9, 0, 0, 0
+7253, 7541, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8459, 11121, 1, "OK", 6, 73, 15, 15, 13, 2, 2, 0
+9686, 10967, 1, "OK", 5, 47, 7, 7, 5, 2, 2, 0
+7763, 11201, 1, "OK", 6, 92, 18, 18, 16, 2, 2, 0
+9384, 11121, 1, "OK", 7, 62, 8, 8, 6, 2, 2, 0
+7862, 11201, 1, "OK", 5, 90, 18, 18, 16, 2, 2, 0
+7125, 11526, 1, "OK", 2, 120, 23, 23, 21, 2, 2, 0
+8459, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameSuffix Boolean reportNameInSubject", 0, 0, 4, 4, 4, 0, 0, 0
+9457, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+8428, 11073, 1, "OK", 5, 72, 15, 15, 13, 2, 2, 0
+7133, 8211, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+7763, 8137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients Message msg", 0, 0, 2, 2, 2, 0, 0, 0
+8215, 8454, 1, "OK", 4, 7, 1, 1, 1, 0, 0, 0
+7960, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 7, 7, 7, 0, 0, 0
+7653, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String contentType MimeBodyPart mbp1", 0, 0, 11, 11, 11, 0, 0, 0
+7862, 8137, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt String[] recipients Message msg", 0, 0, 2, 2, 2, 0, 0, 0
+8325, 11201, 1, "OK", 8, 80, 15, 15, 13, 2, 2, 0
+8215, 9496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 8, 8, 8, 0, 0, 0
+9200, 9682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 3, 3, 3, 0, 0, 0
+9457, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName boolean isZipDocument Multipart mp", 0, 0, 2, 2, 2, 0, 0, 0
+7653, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String contentType MimeBodyPart mbp1", 0, 0, 11, 11, 11, 0, 0, 0
+7205, 11121, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0
+7443, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 14, 14, 14, 0, 0, 0
+9091, 11030, 1, "OK", 7, 65, 11, 11, 9, 2, 2, 0
+8093, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 6, 6, 6, 0, 0, 0
+7862, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+7205, 9087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 11, 0, 0, 0
+8215, 9522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentType MimeBodyPart mbp1", 0, 0, 8, 8, 8, 0, 0, 0
+7763, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 8, 8, 8, 0, 0, 0
+9317, 11201, 1, "OK", 10, 68, 9, 9, 7, 2, 2, 0
+7443, 7857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade String mailSubj", 0, 0, 2, 2, 2, 0, 0, 0
+7205, 8065, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+7960, 8211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] recipients Message msg InternetAddress[] addressTo", 0, 0, 1, 1, 1, 0, 0, 0
+8966, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 6, 6, 6, 0, 0, 0
+8428, 11121, 1, "OK", 6, 75, 15, 15, 13, 2, 2, 0
+9457, 10967, 1, "OK", 4, 53, 8, 8, 6, 2, 2, 0
+9686, 11030, 1, "OK", 6, 50, 7, 7, 5, 2, 2, 0
+7546, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 8, 8, 8, 0, 0, 0
+8567, 9893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument Multipart mp", 0, 0, 8, 8, 8, 0, 0, 0
+8325, 9196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject String contentType", 0, 0, 5, 5, 5, 0, 0, 0
+7443, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 14, 14, 14, 0, 0, 0
+8428, 9087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 4, 4, 4, 0, 0, 0
+7546, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Message msg String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 14, 14, 14, 0, 0, 0
+9565, 9682, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+8459, 11201, 1, "OK", 7, 75, 15, 15, 13, 2, 2, 0
+7546, 7759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj Map parametersMap", 0, 0, 2, 2, 2, 0, 0, 0
+9091, 11073, 1, "OK", 7, 66, 11, 11, 9, 2, 2, 0
+7253, 9682, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 15, 0, 0, 0
+7862, 8211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt String[] recipients Message msg InternetAddress[] addressTo", 0, 0, 2, 2, 2, 0, 0, 0
+9384, 11201, 1, "OK", 8, 64, 8, 8, 6, 2, 2, 0
+7763, 8211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailSubj String mailTxt String[] recipients Message msg InternetAddress[] addressTo", 0, 0, 2, 2, 2, 0, 0, 0
+7443, 10967, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SessionFacade facade Message msg Multipart mp", 0, 0, 20, 20, 18, 2, 2, 0
+7133, 9312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 13, 0, 0, 0
+9686, 11073, 1, "OK", 6, 51, 7, 7, 5, 2, 2, 0
+7653, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String mailTxt Message msg String subject String nameSuffix", 0, 0, 5, 5, 5, 0, 0, 0
+8567, 9919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType boolean isZipDocument Multipart mp", 0, 0, 8, 8, 8, 0, 0, 0
+7253, 7649, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+9500, 9682, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+8142, 8769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix Boolean reportNameInSubject", 0, 0, 4, 4, 4, 0, 0, 0
+8142, 9802, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String zipFileName String contentType MimeBodyPart mbp1 boolean isZipDocument", 0, 0, 10, 10, 10, 0, 0, 0
+8215, 8563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String subject String nameSuffix", 0, 0, 2, 2, 2, 0, 0, 0
+7205, 11201, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 20, 2, 2, 0

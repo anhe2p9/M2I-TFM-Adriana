@@ -1,0 +1,38 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6202, 6588, 1, "OK", 5, 16, 21, 11, 6, 5, 5, 2
+5696, 5826, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+6173, 6588, 1, "OK", 4, 18, 21, 11, 6, 5, 5, 2
+5752, 6781, 1, "OK", 3, 45, 31, 31, 12, 19, 8, 0
+6440, 6573, 1, "OK", 4, 4, 5, 1, 1, 0, 1, 4
+5562, 6781, 1, "OK", 2, 52, 32, 32, 13, 19, 8, 0
+5752, 5826, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+6222, 6295, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+6316, 6581, 1, "OK", 5, 10, 13, 4, 3, 1, 3, 3
+6316, 6389, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+5562, 5826, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+5993, 6612, 1, "OK", 3, 28, 27, 20, 9, 11, 7, 1
+5875, 6761, 1, "OK", 4, 37, 30, 30, 11, 19, 8, 0
+6012, 6095, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+6114, 6588, 1, "OK", 3, 20, 21, 11, 6, 5, 5, 2
+5959, 6594, 1, "OK", 2, 28, 27, 20, 9, 11, 7, 1
+5993, 6756, 1, "OK", 5, 32, 29, 21, 10, 11, 8, 1
+6482, 6573, 1, "OK", 4, 3, 5, 1, 1, 0, 1, 4
+5832, 6761, 1, "OK", 3, 39, 30, 30, 11, 19, 8, 0
+5562, 5658, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+5696, 6761, 1, "OK", 2, 45, 31, 31, 12, 19, 8, 0
+5875, 6781, 1, "OK", 4, 39, 30, 30, 11, 19, 8, 0
+5696, 5869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int L double[][] points", 0, 0, 1, 1, 1, 0, 0, 0
+5959, 6612, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long[] V long X", 0, 0, 27, 20, 9, 11, 7, 1
+6617, 6756, 1, "OK", 5, 4, 2, 1, 1, 0, 1, 1
+5752, 6761, 1, "OK", 3, 43, 31, 31, 12, 19, 8, 0
+6154, 6588, 1, "OK", 3, 19, 21, 11, 6, 5, 5, 2
+5562, 6761, 1, "OK", 2, 50, 32, 32, 13, 19, 8, 0
+5752, 5869, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+5832, 6781, 1, "OK", 3, 41, 30, 30, 11, 19, 8, 0
+5562, 5869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int L double[][] points", 0, 0, 2, 2, 2, 0, 0, 0
+5993, 6594, 1, "OK", 3, 26, 27, 20, 9, 11, 7, 1
+5562, 5746, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+6398, 6581, 1, "OK", 4, 6, 9, 3, 2, 1, 2, 3
+5696, 6781, 1, "OK", 2, 47, 31, 31, 12, 19, 8, 0
+5959, 6756, 1, "OK", 4, 34, 29, 21, 10, 11, 8, 1
+6601, 6756, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1

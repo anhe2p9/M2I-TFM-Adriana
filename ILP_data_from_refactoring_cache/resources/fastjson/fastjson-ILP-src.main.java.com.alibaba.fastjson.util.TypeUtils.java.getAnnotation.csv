@@ -1,0 +1,42 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+120787, 121134, 1, "OK", 3, 8, 7, 7, 4, 3, 2, 0
+119801, 120778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+120063, 121167, 1, "OK", 4, 26, 20, 20, 10, 10, 6, 0
+119801, 121167, 1, "OK", 2, 34, 21, 21, 11, 10, 6, 0
+119911, 120701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+120479, 120562, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+120607, 120691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+119875, 120778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+119911, 121134, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 11, 10, 6, 0
+120317, 120580, 1, "OK", 3, 6, 7, 3, 2, 1, 2, 2
+119970, 120778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+120711, 121167, 1, "OK", 3, 10, 7, 7, 4, 3, 2, 0
+119970, 121167, 1, "OK", 5, 30, 21, 21, 11, 10, 6, 0
+119911, 120053, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+120101, 120691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 8, 5, 3, 4, 1
+120063, 120778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 6, 7, 4, 0
+119875, 121167, 1, "OK", 3, 32, 21, 21, 11, 10, 6, 0
+120176, 120594, 1, "OK", 3, 9, 10, 7, 4, 3, 3, 1
+119801, 120701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+119875, 120701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+120063, 120701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 6, 7, 4, 0
+120244, 120594, 1, "OK", 3, 8, 10, 7, 4, 3, 3, 1
+119970, 120701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+119801, 120053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  A targetAnnotation Class<?> mixInClass", 0, 0, 1, 1, 1, 0, 0, 0
+120787, 121167, 1, "OK", 3, 9, 7, 7, 4, 3, 2, 0
+119875, 120053, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+120063, 121134, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 10, 10, 6, 0
+119801, 121134, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 11, 10, 6, 0
+120381, 120562, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+119970, 120053, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+120711, 121134, 1, "OK", 3, 9, 7, 7, 4, 3, 2, 0
+119911, 121167, 1, "OK", 4, 31, 21, 21, 11, 10, 6, 0
+120101, 120594, 1, "OK", 2, 10, 10, 7, 4, 3, 3, 1
+119875, 121134, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 11, 10, 6, 0
+121034, 121110, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+119970, 121134, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 11, 10, 6, 0
+120939, 121110, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+120244, 120691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 8, 5, 3, 4, 1
+120868, 121124, 1, "OK", 3, 6, 5, 3, 2, 1, 2, 1
+119911, 120778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 7, 7, 4, 0
+120176, 120691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 8, 5, 3, 4, 1

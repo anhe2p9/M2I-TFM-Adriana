@@ -1,0 +1,153 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+38259, 40293, 1, "OK", 8, 63, 34, 34, 19, 15, 10, 0
+37715, 40264, 1, "OK", 4, 79, 35, 35, 20, 15, 10, 0
+37715, 38470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 1, 1, 1, 0, 0, 0
+37509, 38206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 2, 2, 2, 0, 0, 0
+37536, 38394, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 2, 2, 2, 0, 0, 0
+37742, 38153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 1, 1, 1, 0, 0, 0
+38474, 40293, 1, "OK", 9, 56, 34, 34, 19, 15, 10, 0
+38978, 40259, 1, "OK", 10, 38, 28, 20, 16, 4, 8, 1
+38118, 40293, 1, "OK", 7, 67, 34, 34, 19, 15, 10, 0
+38210, 40264, 1, "OK", 7, 63, 34, 34, 19, 15, 10, 0
+37536, 38115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 2, 2, 2, 0, 0, 0
+39535, 39896, 1, "OK", 6, 7, 13, 10, 7, 3, 3, 1
+38582, 38973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON JSONArray actions boolean isGeoDataset", 0, 0, 5, 3, 2, 1, 2, 1
+38582, 40259, 1, "OK", 11, 51, 33, 23, 18, 5, 10, 1
+37715, 38206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 1, 1, 1, 0, 0, 0
+37742, 38394, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 1, 1, 1, 0, 0, 0
+38524, 40264, 1, "OK", 10, 54, 34, 34, 19, 15, 10, 0
+38944, 39531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isGeoDataset String dsType", 0, 0, 8, 5, 5, 0, 3, 1
+39535, 39937, 1, "OK", 7, 9, 13, 10, 7, 3, 3, 1
+37715, 40293, 1, "OK", 4, 80, 35, 35, 20, 15, 10, 0
+37742, 37923, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+38582, 39531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON JSONArray actions boolean isGeoDataset String dsType", 0, 0, 13, 8, 7, 1, 5, 1
+39127, 39277, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+37536, 38426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 2, 2, 2, 0, 0, 0
+40113, 40201, 1, "OK", 4, 3, 4, 2, 2, 0, 1, 2
+37715, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 1, 1, 1, 0, 0, 0
+37509, 38470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 2, 2, 2, 0, 0, 0
+37715, 37970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction", 0, 0, 1, 1, 1, 0, 0, 0
+37509, 40264, 1, "OK", 3, 87, 36, 36, 21, 15, 10, 0
+38210, 40293, 1, "OK", 7, 64, 34, 34, 19, 15, 10, 0
+37536, 38153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 2, 2, 2, 0, 0, 0
+38524, 40293, 1, "OK", 10, 55, 34, 34, 19, 15, 10, 0
+37509, 37711, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+38978, 39531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isGeoDataset String dsType", 0, 0, 8, 5, 5, 0, 3, 1
+37509, 37970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction", 0, 0, 2, 2, 2, 0, 0, 0
+37742, 38426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 1, 1, 1, 0, 0, 0
+37742, 38206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 1, 1, 1, 0, 0, 0
+38072, 40264, 1, "OK", 6, 67, 34, 34, 19, 15, 10, 0
+38687, 39375, 1, "OK", 6, 23, 10, 6, 5, 1, 4, 1
+37973, 40264, 1, "OK", 6, 70, 34, 34, 19, 15, 10, 0
+37509, 38521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction JSONArray datasetsJSONReturn", 0, 0, 2, 2, 2, 0, 0, 0
+38646, 39375, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray actions boolean isGeoDataset", 0, 0, 10, 6, 5, 1, 4, 1
+38687, 39896, 1, "OK", 10, 36, 26, 18, 14, 4, 8, 1
+37509, 38015, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction", 0, 0, 2, 2, 2, 0, 0, 0
+37742, 40264, 1, "OK", 5, 78, 35, 35, 20, 15, 10, 0
+38751, 38934, 1, "OK", 4, 4, 3, 1, 1, 0, 1, 2
+37742, 38470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 1, 1, 1, 0, 0, 0
+37536, 38206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 2, 2, 2, 0, 0, 0
+37509, 40293, 1, "OK", 3, 88, 36, 36, 21, 15, 10, 0
+37509, 37739, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine", 0, 0, 1, 1, 1, 0, 0, 0
+37715, 38521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction JSONArray datasetsJSONReturn", 0, 0, 1, 1, 1, 0, 0, 0
+37536, 37923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine", 0, 0, 2, 2, 2, 0, 0, 0
+39380, 39896, 1, "OK", 9, 12, 16, 12, 9, 3, 4, 1
+39177, 39277, 1, "OK", 2, 2, 3, 2, 2, 0, 1, 1
+38303, 40264, 1, "OK", 8, 61, 34, 34, 19, 15, 10, 0
+37509, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 2, 2, 2, 0, 0, 0
+37715, 38015, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction", 0, 0, 1, 1, 1, 0, 0, 0
+37536, 37970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction", 0, 0, 2, 2, 2, 0, 0, 0
+37536, 37711, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+39464, 39896, 1, "OK", 6, 8, 13, 10, 7, 3, 3, 1
+37973, 40293, 1, "OK", 6, 71, 34, 34, 19, 15, 10, 0
+38944, 39375, 1, "OK", 1, 15, 5, 3, 3, 0, 2, 1
+39613, 39891, 1, "OK", 5, 5, 10, 6, 5, 1, 2, 2
+38354, 40264, 1, "OK", 8, 59, 34, 34, 19, 15, 10, 0
+39535, 40259, 1, "OK", 10, 19, 20, 15, 11, 4, 5, 1
+37509, 38300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 2, 2, 2, 0, 0, 0
+37742, 40293, 1, "OK", 5, 79, 35, 35, 20, 15, 10, 0
+38944, 39896, 1, "OK", 8, 28, 21, 15, 12, 3, 6, 1
+38156, 40264, 1, "OK", 7, 65, 34, 34, 19, 15, 10, 0
+38646, 39896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray actions boolean isGeoDataset", 0, 0, 26, 18, 14, 4, 8, 1
+37536, 38470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 2, 2, 2, 0, 0, 0
+38303, 40293, 1, "OK", 8, 62, 34, 34, 19, 15, 10, 0
+37742, 37970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction", 0, 0, 1, 1, 1, 0, 0, 0
+37715, 38300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 1, 1, 1, 0, 0, 0
+37536, 40264, 1, "OK", 4, 86, 36, 36, 21, 15, 10, 0
+38072, 40293, 1, "OK", 6, 68, 34, 34, 19, 15, 10, 0
+39380, 39937, 1, "OK", 9, 14, 16, 12, 9, 3, 4, 1
+37742, 38015, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction", 0, 0, 1, 1, 1, 0, 0, 0
+37509, 38068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction", 0, 0, 2, 2, 2, 0, 0, 0
+37536, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 2, 2, 2, 0, 0, 0
+39380, 39459, 1, "OK", 4, 3, 3, 2, 2, 0, 1, 1
+38978, 39896, 1, "OK", 9, 26, 21, 15, 12, 3, 6, 1
+38720, 38934, 1, "OK", 5, 5, 3, 1, 1, 0, 1, 2
+38354, 40293, 1, "OK", 8, 60, 34, 34, 19, 15, 10, 0
+37536, 38521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction JSONArray datasetsJSONReturn", 0, 0, 2, 2, 2, 0, 0, 0
+38156, 40293, 1, "OK", 7, 66, 34, 34, 19, 15, 10, 0
+38582, 39375, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON JSONArray actions boolean isGeoDataset", 0, 0, 10, 6, 5, 1, 4, 1
+39464, 39937, 1, "OK", 6, 10, 13, 10, 7, 3, 3, 1
+37715, 38350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 1, 1, 1, 0, 0, 0
+38687, 38939, 1, "OK", 6, 7, 5, 3, 2, 1, 2, 1
+37715, 38068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction", 0, 0, 1, 1, 1, 0, 0, 0
+37742, 38256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 1, 1, 1, 0, 0, 0
+38687, 39937, 1, "OK", 10, 38, 26, 18, 14, 4, 8, 1
+37536, 40293, 1, "OK", 4, 87, 36, 36, 21, 15, 10, 0
+38978, 39375, 1, "OK", 2, 13, 5, 3, 3, 0, 2, 1
+37536, 37739, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine", 0, 0, 1, 1, 1, 0, 0, 0
+37742, 38521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction JSONArray datasetsJSONReturn", 0, 0, 1, 1, 1, 0, 0, 0
+38429, 40264, 1, "OK", 9, 57, 34, 34, 19, 15, 10, 0
+38646, 39937, 1, "OK", 9, 40, 26, 18, 14, 4, 8, 1
+37715, 38115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 1, 1, 1, 0, 0, 0
+39380, 40259, 1, "OK", 10, 24, 23, 17, 13, 4, 6, 1
+37509, 38115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 2, 2, 2, 0, 0, 0
+38687, 38973, 1, "OK", 6, 9, 5, 3, 2, 1, 2, 1
+39942, 40259, 1, "OK", 5, 9, 7, 5, 4, 1, 2, 1
+37536, 38300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 2, 2, 2, 0, 0, 0
+38582, 39896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON JSONArray actions boolean isGeoDataset", 0, 0, 26, 18, 14, 4, 8, 1
+38944, 39937, 1, "OK", 8, 30, 21, 15, 12, 3, 6, 1
+37536, 38015, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction", 0, 0, 2, 2, 2, 0, 0, 0
+38646, 38939, 1, "OK", 5, 9, 5, 3, 2, 1, 2, 1
+38687, 39459, 1, "OK", 8, 27, 13, 8, 7, 1, 5, 1
+37509, 38350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 2, 2, 2, 0, 0, 0
+38429, 40293, 1, "OK", 9, 58, 34, 34, 19, 15, 10, 0
+38646, 39459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray actions boolean isGeoDataset", 0, 0, 13, 8, 7, 1, 5, 1
+37742, 38300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 1, 1, 1, 0, 0, 0
+38397, 40264, 1, "OK", 9, 58, 34, 34, 19, 15, 10, 0
+39714, 39885, 1, "OK", 3, 3, 5, 2, 2, 0, 1, 3
+37509, 38394, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 2, 2, 2, 0, 0, 0
+37715, 38153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 1, 1, 1, 0, 0, 0
+37536, 38068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction", 0, 0, 2, 2, 2, 0, 0, 0
+39380, 39531, 1, "OK", 5, 5, 3, 2, 2, 0, 1, 1
+37927, 40293, 1, "OK", 5, 72, 34, 34, 19, 15, 10, 0
+39464, 40259, 1, "OK", 9, 20, 20, 15, 11, 4, 5, 1
+37927, 40264, 1, "OK", 5, 71, 34, 34, 19, 15, 10, 0
+38978, 39937, 1, "OK", 9, 28, 21, 15, 12, 3, 6, 1
+39901, 40259, 1, "OK", 6, 11, 7, 5, 4, 1, 2, 1
+37742, 38068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction", 0, 0, 1, 1, 1, 0, 0, 0
+38018, 40264, 1, "OK", 6, 69, 34, 34, 19, 15, 10, 0
+38687, 40259, 1, "OK", 11, 48, 33, 23, 18, 5, 10, 1
+38944, 39459, 1, "OK", 4, 19, 8, 5, 5, 0, 3, 1
+37715, 38394, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 1, 1, 1, 0, 0, 0
+38646, 38973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray actions boolean isGeoDataset", 0, 0, 5, 3, 2, 1, 2, 1
+38397, 40293, 1, "OK", 9, 59, 34, 34, 19, 15, 10, 0
+38646, 40259, 1, "OK", 10, 50, 33, 23, 18, 5, 10, 1
+38582, 39937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON boolean isGeoDataset", 0, 0, 26, 18, 14, 4, 8, 1
+37715, 37923, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+37509, 38426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 2, 2, 2, 0, 0, 0
+37742, 38115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 1, 1, 1, 0, 0, 0
+38259, 40264, 1, "OK", 8, 62, 34, 34, 19, 15, 10, 0
+38646, 39531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray actions boolean isGeoDataset String dsType", 0, 0, 13, 8, 7, 1, 5, 1
+37509, 37923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine", 0, 0, 2, 2, 2, 0, 0, 0
+38474, 40264, 1, "OK", 9, 55, 34, 34, 19, 15, 10, 0
+38118, 40264, 1, "OK", 7, 66, 34, 34, 19, 15, 10, 0
+38978, 39459, 1, "OK", 5, 17, 8, 5, 5, 0, 3, 1
+37742, 38350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 1, 1, 1, 0, 0, 0
+38582, 38939, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON JSONArray actions", 0, 0, 5, 3, 2, 1, 2, 1
+38018, 40293, 1, "OK", 6, 70, 34, 34, 19, 15, 10, 0
+37509, 38153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction", 0, 0, 2, 2, 2, 0, 0, 0
+38944, 40259, 1, "OK", 9, 40, 28, 20, 16, 4, 8, 1
+37715, 38426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction JSONObject qbeAction", 0, 0, 1, 1, 1, 0, 0, 0
+38582, 39459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject datasetJSON JSONArray actions boolean isGeoDataset", 0, 0, 13, 8, 7, 1, 5, 1
+37536, 38350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Engine qbeEngine Engine geoEngine JSONObject detailAction JSONObject deleteAction JSONObject georeportAction", 0, 0, 2, 2, 2, 0, 0, 0
+38687, 39531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isGeoDataset String dsType", 0, 0, 13, 8, 7, 1, 5, 1

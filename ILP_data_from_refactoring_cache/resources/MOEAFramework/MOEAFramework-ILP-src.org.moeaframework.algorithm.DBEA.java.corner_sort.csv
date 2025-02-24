@@ -1,0 +1,107 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+16097, 17159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates List<Population> sortedSets Population result int current_id int current_f", 0, 0, 16, 16, 8, 8, 4, 0
+16362, 16626, 1, "OK", 4, 9, 7, 3, 2, 1, 2, 2
+17119, 17480, 1, "OK", 4, 19, 5, 5, 3, 2, 2, 0
+16216, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 21, 21, 11, 10, 6, 0
+16097, 17667, 1, "OK", 1, 63, 22, 22, 12, 10, 6, 0
+16216, 16794, 1, "OK", 3, 22, 14, 14, 6, 8, 4, 0
+16137, 17448, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates Population result", 0, 0, 21, 21, 11, 10, 6, 0
+16216, 17047, 1, "OK", 3, 30, 16, 16, 8, 8, 4, 0
+17079, 17690, 1, "OK", 3, 29, 6, 6, 4, 2, 2, 0
+17141, 17563, 1, "OK", 5, 21, 5, 5, 3, 2, 2, 0
+16097, 16919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates List<Population> sortedSets", 0, 0, 15, 15, 7, 8, 4, 0
+17079, 17448, 1, "OK", 2, 18, 5, 5, 3, 2, 2, 0
+16800, 17138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result int current_id", 0, 0, 2, 2, 2, 0, 0, 0
+16097, 17690, 1, "OK", 1, 65, 22, 22, 12, 10, 6, 0
+16137, 16706, 1, "OK", 2, 22, 14, 14, 6, 8, 4, 0
+16800, 17159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result int current_id int current_f", 0, 0, 2, 2, 2, 0, 0, 0
+16137, 17480, 1, "OK", 2, 55, 21, 21, 11, 10, 6, 0
+16925, 17116, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+16800, 17667, 1, "OK", 3, 36, 8, 8, 6, 2, 2, 0
+16097, 17448, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates Population result", 0, 0, 21, 21, 11, 10, 6, 0
+16800, 16919, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+16800, 17690, 1, "OK", 3, 38, 8, 8, 6, 2, 2, 0
+16736, 17116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Population> sortedSets Population result", 0, 0, 2, 2, 2, 0, 0, 0
+17079, 17480, 1, "OK", 3, 20, 5, 5, 3, 2, 2, 0
+17208, 17321, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+16925, 17138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result int current_id", 0, 0, 1, 1, 1, 0, 0, 0
+16800, 17448, 1, "OK", 2, 27, 7, 7, 5, 2, 2, 0
+16216, 17116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Population> sortedSets Population result", 0, 0, 16, 16, 8, 8, 4, 0
+16925, 17159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result int current_id int current_f", 0, 0, 1, 1, 1, 0, 0, 0
+16097, 16706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates", 0, 0, 14, 14, 6, 8, 4, 0
+16447, 16620, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+17271, 17444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int current_id int current_f", 0, 0, 4, 2, 2, 0, 2, 1
+17569, 17667, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+17208, 17341, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+16097, 17480, 1, "OK", 1, 56, 21, 21, 11, 10, 6, 0
+16925, 17667, 1, "OK", 3, 32, 7, 7, 5, 2, 2, 0
+17569, 17690, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+17119, 17563, 1, "OK", 4, 22, 5, 5, 3, 2, 2, 0
+16925, 17690, 1, "OK", 3, 34, 7, 7, 5, 2, 2, 0
+16362, 16697, 1, "OK", 4, 13, 10, 4, 3, 1, 3, 2
+16736, 17138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Population> sortedSets Population result int current_id", 0, 0, 2, 2, 2, 0, 0, 0
+16216, 17138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Population> sortedSets Population result int current_id", 0, 0, 16, 16, 8, 8, 4, 0
+17329, 17444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int current_id int current_f", 0, 0, 2, 1, 1, 0, 1, 1
+17454, 17667, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+17165, 17667, 1, "OK", 6, 23, 6, 6, 4, 2, 2, 0
+16736, 17159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Population> sortedSets Population result int current_id int current_f", 0, 0, 2, 2, 2, 0, 0, 0
+16800, 17480, 1, "OK", 3, 29, 7, 7, 5, 2, 2, 0
+16925, 17448, 1, "OK", 2, 23, 6, 6, 4, 2, 2, 0
+17454, 17690, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+17165, 17690, 1, "OK", 6, 25, 6, 6, 4, 2, 2, 0
+17141, 17667, 1, "OK", 5, 25, 6, 6, 4, 2, 2, 0
+16137, 17047, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates List<Population> sortedSets", 0, 0, 16, 16, 8, 8, 4, 0
+16216, 17667, 1, "OK", 3, 59, 22, 22, 12, 10, 6, 0
+16736, 17667, 1, "OK", 2, 38, 8, 8, 6, 2, 2, 0
+16736, 16919, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+16736, 17690, 1, "OK", 2, 40, 8, 8, 6, 2, 2, 0
+16137, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 21, 21, 11, 10, 6, 0
+17165, 17448, 1, "OK", 5, 14, 5, 5, 3, 2, 2, 0
+16137, 16794, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates List<Population> sortedSets", 0, 0, 14, 14, 6, 8, 4, 0
+16636, 16697, 1, "OK", 4, 3, 3, 1, 1, 0, 1, 2
+16216, 17159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Population> sortedSets Population result int current_id int current_f", 0, 0, 16, 16, 8, 8, 4, 0
+16736, 17448, 1, "OK", 1, 29, 7, 7, 5, 2, 2, 0
+16216, 17690, 1, "OK", 3, 61, 22, 22, 12, 10, 6, 0
+16925, 17480, 1, "OK", 3, 25, 6, 6, 4, 2, 2, 0
+16216, 16919, 1, "OK", 3, 26, 15, 15, 7, 8, 4, 0
+17079, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 5, 5, 3, 2, 2, 0
+17141, 17690, 1, "OK", 5, 27, 6, 6, 4, 2, 2, 0
+16097, 17047, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates List<Population> sortedSets", 0, 0, 16, 16, 8, 8, 4, 0
+16265, 16702, 1, "OK", 4, 17, 13, 9, 5, 4, 4, 1
+17165, 17480, 1, "OK", 6, 16, 5, 5, 3, 2, 2, 0
+16216, 17448, 1, "OK", 3, 50, 21, 21, 11, 10, 6, 0
+16097, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 21, 21, 11, 10, 6, 0
+17141, 17448, 1, "OK", 4, 16, 5, 5, 3, 2, 2, 0
+16097, 16794, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates List<Population> sortedSets", 0, 0, 14, 14, 6, 8, 4, 0
+16736, 17480, 1, "OK", 2, 31, 7, 7, 5, 2, 2, 0
+17208, 17444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int current_id int current_f", 0, 0, 4, 2, 2, 0, 2, 1
+16400, 16626, 1, "OK", 5, 7, 7, 3, 2, 1, 2, 2
+16216, 16706, 1, "OK", 3, 19, 14, 14, 6, 8, 4, 0
+16800, 17047, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+16137, 17116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates List<Population> sortedSets Population result", 0, 0, 16, 16, 8, 8, 4, 0
+16800, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 7, 7, 5, 2, 2, 0
+16216, 17480, 1, "OK", 3, 52, 21, 21, 11, 10, 6, 0
+17523, 17667, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+17141, 17480, 1, "OK", 5, 18, 5, 5, 3, 2, 2, 0
+17523, 17690, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+17349, 17444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int current_id int current_f", 0, 0, 2, 1, 1, 0, 1, 1
+16137, 17138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates List<Population> sortedSets Population result int current_id", 0, 0, 16, 16, 8, 8, 4, 0
+17119, 17667, 1, "OK", 4, 26, 6, 6, 4, 2, 2, 0
+16925, 17047, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+17119, 17690, 1, "OK", 4, 28, 6, 6, 4, 2, 2, 0
+16925, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 6, 6, 4, 2, 2, 0
+16137, 17159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates List<Population> sortedSets Population result int current_id int current_f", 0, 0, 16, 16, 8, 8, 4, 0
+16097, 17116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates List<Population> sortedSets Population result", 0, 0, 16, 16, 8, 8, 4, 0
+17271, 17321, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+16137, 17667, 1, "OK", 2, 62, 22, 22, 12, 10, 6, 0
+17119, 17448, 1, "OK", 3, 17, 5, 5, 3, 2, 2, 0
+16400, 16697, 1, "OK", 5, 11, 10, 4, 3, 1, 3, 2
+17079, 17667, 1, "OK", 3, 27, 6, 6, 4, 2, 2, 0
+17165, 17563, 1, "OK", 6, 19, 5, 5, 3, 2, 2, 0
+16137, 16919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population duplicates List<Population> sortedSets", 0, 0, 15, 15, 7, 8, 4, 0
+17271, 17341, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+16736, 17047, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+16736, 17563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population result Population prunedSet", 0, 0, 7, 7, 5, 2, 2, 0
+16097, 17138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Population unique Population duplicates List<Population> sortedSets Population result int current_id", 0, 0, 16, 16, 8, 8, 4, 0
+16137, 17690, 1, "OK", 2, 64, 22, 22, 12, 10, 6, 0
+16800, 17116, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0

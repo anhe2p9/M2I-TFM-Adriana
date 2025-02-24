@@ -1,0 +1,383 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+13255, 15660, 1, "OK", 3, 75, 16, 16, 16, 0, 0, 0
+12804, 13251, 1, "OK", 2, 11, 3, 3, 3, 0, 0, 0
+13194, 15497, 1, "OK", 2, 70, 16, 16, 16, 0, 0, 0
+13255, 13618, 1, "OK", 2, 14, 4, 4, 4, 0, 0, 0
+11902, 15627, 1, "OK", 1, 113, 22, 22, 22, 0, 0, 0
+11902, 13067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+11969, 15598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12205, 12373, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+12804, 14797, 1, "OK", 2, 63, 16, 16, 16, 0, 0, 0
+12804, 13773, 1, "OK", 2, 31, 9, 9, 9, 0, 0, 0
+12063, 13190, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12100, 15627, 1, "OK", 4, 107, 22, 22, 22, 0, 0, 0
+12100, 13067, 1, "OK", 4, 29, 6, 6, 6, 0, 0, 0
+13025, 15627, 1, "OK", 3, 79, 16, 16, 16, 0, 0, 0
+14116, 15598, 1, "OK", 2, 37, 6, 6, 6, 0, 0, 0
+12590, 13251, 1, "OK", 2, 17, 5, 5, 5, 0, 0, 0
+11969, 12531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12100, 14111, 1, "OK", 4, 67, 16, 16, 16, 0, 0, 0
+13025, 14111, 1, "OK", 2, 39, 10, 10, 10, 0, 0, 0
+12024, 12373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+13300, 14797, 1, "OK", 2, 51, 13, 13, 13, 0, 0, 0
+13300, 13773, 1, "OK", 2, 19, 6, 6, 6, 0, 0, 0
+12156, 12373, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+12100, 12586, 1, "OK", 4, 16, 1, 1, 1, 0, 0, 0
+12590, 14797, 1, "OK", 2, 69, 18, 18, 18, 0, 0, 0
+12590, 13773, 1, "OK", 2, 37, 11, 11, 11, 0, 0, 0
+11902, 14111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 16, 16, 16, 0, 0, 0
+11902, 12586, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+11902, 15660, 1, "OK", 1, 114, 22, 22, 22, 0, 0, 0
+12100, 13618, 1, "OK", 4, 47, 10, 10, 10, 0, 0, 0
+13025, 15660, 1, "OK", 3, 80, 16, 16, 16, 0, 0, 0
+12378, 13190, 1, "OK", 4, 22, 5, 5, 5, 0, 0, 0
+12804, 13296, 1, "OK", 2, 12, 3, 3, 3, 0, 0, 0
+13623, 15555, 1, "OK", 2, 56, 12, 12, 12, 0, 0, 0
+12100, 15660, 1, "OK", 4, 108, 22, 22, 22, 0, 0, 0
+11969, 15627, 1, "OK", 1, 112, 22, 22, 22, 0, 0, 0
+11969, 13067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12205, 13940, 1, "OK", 6, 57, 14, 14, 14, 0, 0, 0
+14116, 15627, 1, "OK", 3, 39, 6, 6, 6, 0, 0, 0
+11902, 13618, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 10, 10, 10, 0, 0, 0
+12205, 12418, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+13945, 14797, 1, "OK", 2, 24, 5, 5, 5, 0, 0, 0
+13025, 13618, 1, "OK", 2, 19, 4, 4, 4, 0, 0, 0
+12205, 13439, 1, "OK", 6, 37, 8, 8, 8, 0, 0, 0
+13444, 13940, 1, "OK", 2, 19, 6, 6, 6, 0, 0, 0
+12024, 13940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 14, 14, 14, 0, 0, 0
+11969, 14111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 16, 16, 16, 0, 0, 0
+12205, 15497, 1, "OK", 6, 99, 22, 22, 22, 0, 0, 0
+12536, 13940, 1, "OK", 4, 45, 13, 13, 13, 0, 0, 0
+12156, 13940, 1, "OK", 5, 58, 14, 14, 14, 0, 0, 0
+13194, 15555, 1, "OK", 2, 72, 16, 16, 16, 0, 0, 0
+12063, 13251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+13444, 15497, 1, "OK", 2, 61, 14, 14, 14, 0, 0, 0
+12156, 13439, 1, "OK", 5, 38, 8, 8, 8, 0, 0, 0
+12156, 12418, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+12100, 13129, 1, "OK", 4, 31, 6, 6, 6, 0, 0, 0
+12590, 13296, 1, "OK", 2, 18, 5, 5, 5, 0, 0, 0
+12156, 15497, 1, "OK", 5, 100, 22, 22, 22, 0, 0, 0
+12487, 13940, 1, "OK", 4, 47, 13, 13, 13, 0, 0, 0
+11902, 13129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+11969, 15660, 1, "OK", 1, 113, 22, 22, 22, 0, 0, 0
+12063, 14797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 19, 19, 19, 0, 0, 0
+12063, 13773, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 12, 12, 12, 0, 0, 0
+12024, 13439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 8, 8, 8, 0, 0, 0
+12024, 12418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12536, 13439, 1, "OK", 4, 25, 7, 7, 7, 0, 0, 0
+11969, 12586, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+14116, 15660, 1, "OK", 3, 40, 6, 6, 6, 0, 0, 0
+12536, 15497, 1, "OK", 4, 87, 21, 21, 21, 0, 0, 0
+12590, 12799, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+11969, 13618, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 10, 10, 10, 0, 0, 0
+12024, 15497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+13623, 15598, 1, "OK", 2, 57, 12, 12, 12, 0, 0, 0
+12487, 13439, 1, "OK", 4, 27, 7, 7, 7, 0, 0, 0
+13194, 15598, 1, "OK", 2, 73, 16, 16, 16, 0, 0, 0
+12487, 15497, 1, "OK", 4, 89, 21, 21, 21, 0, 0, 0
+12422, 13940, 1, "OK", 4, 49, 13, 13, 13, 0, 0, 0
+11969, 13129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12378, 13251, 1, "OK", 4, 23, 5, 5, 5, 0, 0, 0
+12205, 15555, 1, "OK", 6, 101, 22, 22, 22, 0, 0, 0
+12378, 14797, 1, "OK", 4, 75, 18, 18, 18, 0, 0, 0
+12378, 13773, 1, "OK", 4, 43, 11, 11, 11, 0, 0, 0
+12205, 12482, 1, "OK", 5, 9, 1, 1, 1, 0, 0, 0
+13623, 15627, 1, "OK", 3, 59, 12, 12, 12, 0, 0, 0
+12063, 13296, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+13072, 14797, 1, "OK", 2, 55, 13, 13, 13, 0, 0, 0
+13072, 13773, 1, "OK", 2, 23, 6, 6, 6, 0, 0, 0
+12422, 13439, 1, "OK", 4, 29, 7, 7, 7, 0, 0, 0
+12156, 12482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12422, 15497, 1, "OK", 4, 91, 21, 21, 21, 0, 0, 0
+12063, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 3, 3, 3, 0, 0, 0
+13194, 15627, 1, "OK", 3, 75, 16, 16, 16, 0, 0, 0
+12100, 13190, 1, "OK", 4, 32, 6, 6, 6, 0, 0, 0
+13444, 15555, 1, "OK", 2, 63, 14, 14, 14, 0, 0, 0
+12024, 15555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12536, 15555, 1, "OK", 4, 89, 21, 21, 21, 0, 0, 0
+11902, 13190, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12024, 12482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12156, 15555, 1, "OK", 5, 102, 22, 22, 22, 0, 0, 0
+13133, 13940, 1, "OK", 2, 29, 8, 8, 8, 0, 0, 0
+13623, 14111, 1, "OK", 2, 19, 6, 6, 6, 0, 0, 0
+13194, 14111, 1, "OK", 2, 35, 10, 10, 10, 0, 0, 0
+13623, 15660, 1, "OK", 3, 60, 12, 12, 12, 0, 0, 0
+12378, 13296, 1, "OK", 4, 24, 5, 5, 5, 0, 0, 0
+12205, 13020, 1, "OK", 6, 24, 6, 6, 6, 0, 0, 0
+13133, 13439, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+12487, 15555, 1, "OK", 4, 91, 21, 21, 21, 0, 0, 0
+13133, 15497, 1, "OK", 2, 71, 16, 16, 16, 0, 0, 0
+11866, 15857, 1, "OK", 1, 122, 23, 23, 23, 0, 0, 0
+12024, 13020, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12378, 12799, 1, "OK", 4, 11, 2, 2, 2, 0, 0, 0
+13255, 14797, 1, "OK", 2, 52, 13, 13, 13, 0, 0, 0
+13255, 13773, 1, "OK", 2, 20, 6, 6, 6, 0, 0, 0
+12205, 12531, 1, "OK", 5, 11, 1, 1, 1, 0, 0, 0
+11969, 13190, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12536, 13020, 1, "OK", 4, 12, 5, 5, 5, 0, 0, 0
+12156, 13020, 1, "OK", 5, 25, 6, 6, 6, 0, 0, 0
+12205, 15598, 1, "OK", 6, 102, 22, 22, 22, 0, 0, 0
+13194, 15660, 1, "OK", 3, 76, 16, 16, 16, 0, 0, 0
+13778, 13940, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+13444, 15598, 1, "OK", 2, 64, 14, 14, 14, 0, 0, 0
+13194, 13618, 1, "OK", 2, 15, 4, 4, 4, 0, 0, 0
+12487, 13020, 1, "OK", 4, 14, 5, 5, 5, 0, 0, 0
+12536, 15598, 1, "OK", 4, 90, 21, 21, 21, 0, 0, 0
+12024, 15598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12156, 15598, 1, "OK", 5, 103, 22, 22, 22, 0, 0, 0
+12804, 13940, 1, "OK", 2, 38, 11, 11, 11, 0, 0, 0
+12422, 15555, 1, "OK", 4, 93, 21, 21, 21, 0, 0, 0
+12024, 12531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12205, 15627, 1, "OK", 6, 104, 22, 22, 22, 0, 0, 0
+12205, 13067, 1, "OK", 6, 26, 6, 6, 6, 0, 0, 0
+12804, 13439, 1, "OK", 2, 18, 5, 5, 5, 0, 0, 0
+12156, 12531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+13778, 15497, 1, "OK", 2, 48, 10, 10, 10, 0, 0, 0
+14802, 15497, 1, "OK", 2, 16, 3, 3, 3, 0, 0, 0
+12804, 15497, 1, "OK", 2, 80, 19, 19, 19, 0, 0, 0
+12590, 13940, 1, "OK", 2, 44, 13, 13, 13, 0, 0, 0
+11902, 13251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12100, 13251, 1, "OK", 4, 33, 6, 6, 6, 0, 0, 0
+13300, 13940, 1, "OK", 2, 26, 8, 8, 8, 0, 0, 0
+13300, 13439, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+13025, 14797, 1, "OK", 2, 57, 13, 13, 13, 0, 0, 0
+13025, 13773, 1, "OK", 2, 25, 6, 6, 6, 0, 0, 0
+12487, 15598, 1, "OK", 4, 92, 21, 21, 21, 0, 0, 0
+13444, 15627, 1, "OK", 3, 66, 14, 14, 14, 0, 0, 0
+12100, 14797, 1, "OK", 4, 85, 19, 19, 19, 0, 0, 0
+12100, 13773, 1, "OK", 4, 53, 12, 12, 12, 0, 0, 0
+13300, 15497, 1, "OK", 2, 68, 16, 16, 16, 0, 0, 0
+12024, 15627, 1, "OK", 2, 110, 22, 22, 22, 0, 0, 0
+12024, 13067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12422, 13020, 1, "OK", 4, 16, 5, 5, 5, 0, 0, 0
+13133, 15555, 1, "OK", 2, 73, 16, 16, 16, 0, 0, 0
+12063, 12373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12536, 15627, 1, "OK", 5, 92, 21, 21, 21, 0, 0, 0
+12536, 13067, 1, "OK", 4, 14, 5, 5, 5, 0, 0, 0
+12590, 13439, 1, "OK", 2, 24, 7, 7, 7, 0, 0, 0
+11902, 14797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 19, 19, 19, 0, 0, 0
+11902, 13773, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 12, 12, 12, 0, 0, 0
+12156, 13067, 1, "OK", 5, 27, 6, 6, 6, 0, 0, 0
+12205, 14111, 1, "OK", 6, 64, 16, 16, 16, 0, 0, 0
+12156, 15627, 1, "OK", 5, 105, 22, 22, 22, 0, 0, 0
+12590, 15497, 1, "OK", 2, 86, 21, 21, 21, 0, 0, 0
+13444, 14111, 1, "OK", 2, 26, 8, 8, 8, 0, 0, 0
+12205, 12586, 1, "OK", 6, 13, 1, 1, 1, 0, 0, 0
+12156, 14111, 1, "OK", 5, 65, 16, 16, 16, 0, 0, 0
+12205, 13618, 1, "OK", 6, 44, 10, 10, 10, 0, 0, 0
+12487, 15627, 1, "OK", 5, 94, 21, 21, 21, 0, 0, 0
+12487, 13067, 1, "OK", 4, 16, 5, 5, 5, 0, 0, 0
+11969, 13251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12205, 15660, 1, "OK", 6, 105, 22, 22, 22, 0, 0, 0
+11969, 14797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 19, 19, 19, 0, 0, 0
+11969, 13773, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 12, 12, 12, 0, 0, 0
+12100, 13296, 1, "OK", 4, 34, 6, 6, 6, 0, 0, 0
+13444, 13618, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+12156, 12586, 1, "OK", 5, 14, 1, 1, 1, 0, 0, 0
+14116, 14797, 1, "OK", 2, 17, 3, 3, 3, 0, 0, 0
+12024, 14111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 16, 16, 16, 0, 0, 0
+12536, 14111, 1, "OK", 4, 52, 15, 15, 15, 0, 0, 0
+12422, 15598, 1, "OK", 4, 94, 21, 21, 21, 0, 0, 0
+13444, 15660, 1, "OK", 3, 67, 14, 14, 14, 0, 0, 0
+12024, 15660, 1, "OK", 2, 111, 22, 22, 22, 0, 0, 0
+12156, 13618, 1, "OK", 5, 45, 10, 10, 10, 0, 0, 0
+12063, 13940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 14, 14, 14, 0, 0, 0
+12536, 15660, 1, "OK", 5, 93, 21, 21, 21, 0, 0, 0
+13778, 15555, 1, "OK", 2, 50, 10, 10, 10, 0, 0, 0
+14802, 15555, 1, "OK", 2, 18, 3, 3, 3, 0, 0, 0
+11902, 13296, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12024, 12586, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12156, 15660, 1, "OK", 5, 106, 22, 22, 22, 0, 0, 0
+13945, 15497, 1, "OK", 2, 41, 8, 8, 8, 0, 0, 0
+12205, 13129, 1, "OK", 6, 28, 6, 6, 6, 0, 0, 0
+12100, 12799, 1, "OK", 4, 21, 3, 3, 3, 0, 0, 0
+12536, 13618, 1, "OK", 4, 32, 9, 9, 9, 0, 0, 0
+12024, 13618, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 10, 10, 10, 0, 0, 0
+12487, 14111, 1, "OK", 4, 54, 15, 15, 15, 0, 0, 0
+12422, 15627, 1, "OK", 4, 96, 21, 21, 21, 0, 0, 0
+12422, 13067, 1, "OK", 4, 18, 5, 5, 5, 0, 0, 0
+12487, 15660, 1, "OK", 5, 95, 21, 21, 21, 0, 0, 0
+12063, 12418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12063, 13439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 8, 8, 8, 0, 0, 0
+13133, 15598, 1, "OK", 2, 74, 16, 16, 16, 0, 0, 0
+12804, 15555, 1, "OK", 2, 82, 19, 19, 19, 0, 0, 0
+11902, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 3, 3, 3, 0, 0, 0
+12487, 13618, 1, "OK", 4, 34, 9, 9, 9, 0, 0, 0
+12156, 13129, 1, "OK", 5, 29, 6, 6, 6, 0, 0, 0
+12063, 15497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12590, 15555, 1, "OK", 2, 88, 21, 21, 21, 0, 0, 0
+12536, 13129, 1, "OK", 4, 16, 5, 5, 5, 0, 0, 0
+11969, 13296, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+13300, 15555, 1, "OK", 2, 70, 16, 16, 16, 0, 0, 0
+12024, 13129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+13133, 15627, 1, "OK", 3, 76, 16, 16, 16, 0, 0, 0
+11969, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 3, 3, 3, 0, 0, 0
+14802, 15598, 1, "OK", 2, 19, 3, 3, 3, 0, 0, 0
+13778, 15598, 1, "OK", 2, 51, 10, 10, 10, 0, 0, 0
+12422, 14111, 1, "OK", 4, 56, 15, 15, 15, 0, 0, 0
+12378, 13940, 1, "OK", 4, 50, 13, 13, 13, 0, 0, 0
+12804, 13020, 1, "OK", 2, 5, 3, 3, 3, 0, 0, 0
+12378, 13439, 1, "OK", 4, 30, 7, 7, 7, 0, 0, 0
+12422, 15660, 1, "OK", 4, 97, 21, 21, 21, 0, 0, 0
+13072, 13940, 1, "OK", 2, 30, 8, 8, 8, 0, 0, 0
+12487, 13129, 1, "OK", 4, 18, 5, 5, 5, 0, 0, 0
+12590, 13020, 1, "OK", 2, 11, 5, 5, 5, 0, 0, 0
+12422, 13618, 1, "OK", 4, 36, 9, 9, 9, 0, 0, 0
+12804, 15598, 1, "OK", 2, 83, 19, 19, 19, 0, 0, 0
+13945, 15555, 1, "OK", 2, 43, 8, 8, 8, 0, 0, 0
+13623, 14797, 1, "OK", 2, 37, 9, 9, 9, 0, 0, 0
+13623, 13773, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+13133, 14111, 1, "OK", 2, 36, 10, 10, 10, 0, 0, 0
+12378, 15497, 1, "OK", 4, 92, 21, 21, 21, 0, 0, 0
+13072, 13439, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+13072, 15497, 1, "OK", 2, 72, 16, 16, 16, 0, 0, 0
+13778, 15627, 1, "OK", 3, 53, 10, 10, 10, 0, 0, 0
+13300, 15598, 1, "OK", 2, 71, 16, 16, 16, 0, 0, 0
+14802, 15627, 1, "OK", 3, 21, 3, 3, 3, 0, 0, 0
+12205, 13190, 1, "OK", 6, 29, 6, 6, 6, 0, 0, 0
+12063, 15555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+13133, 13618, 1, "OK", 2, 16, 4, 4, 4, 0, 0, 0
+12063, 12482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12422, 13129, 1, "OK", 4, 20, 5, 5, 5, 0, 0, 0
+13194, 14797, 1, "OK", 2, 53, 13, 13, 13, 0, 0, 0
+13194, 13773, 1, "OK", 2, 21, 6, 6, 6, 0, 0, 0
+13133, 15660, 1, "OK", 3, 77, 16, 16, 16, 0, 0, 0
+12590, 15598, 1, "OK", 2, 89, 21, 21, 21, 0, 0, 0
+13255, 13940, 1, "OK", 2, 27, 8, 8, 8, 0, 0, 0
+13778, 14111, 1, "OK", 2, 13, 4, 4, 4, 0, 0, 0
+12536, 13190, 1, "OK", 4, 17, 5, 5, 5, 0, 0, 0
+12024, 13190, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12156, 13190, 1, "OK", 5, 30, 6, 6, 6, 0, 0, 0
+12804, 15627, 1, "OK", 3, 85, 19, 19, 19, 0, 0, 0
+12804, 13067, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+13945, 15598, 1, "OK", 2, 44, 8, 8, 8, 0, 0, 0
+12100, 12373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12590, 15627, 1, "OK", 3, 91, 21, 21, 21, 0, 0, 0
+12590, 13067, 1, "OK", 2, 13, 5, 5, 5, 0, 0, 0
+12804, 14111, 1, "OK", 2, 45, 13, 13, 13, 0, 0, 0
+12063, 13020, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+14802, 15660, 1, "OK", 3, 22, 3, 3, 3, 0, 0, 0
+11902, 12373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+13778, 15660, 1, "OK", 3, 54, 10, 10, 10, 0, 0, 0
+13300, 15627, 1, "OK", 3, 73, 16, 16, 16, 0, 0, 0
+13255, 13439, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+13255, 15497, 1, "OK", 2, 69, 16, 16, 16, 0, 0, 0
+12487, 13190, 1, "OK", 4, 19, 5, 5, 5, 0, 0, 0
+12804, 13618, 1, "OK", 2, 25, 7, 7, 7, 0, 0, 0
+13300, 14111, 1, "OK", 2, 33, 10, 10, 10, 0, 0, 0
+12378, 15555, 1, "OK", 4, 94, 21, 21, 21, 0, 0, 0
+12804, 15660, 1, "OK", 3, 86, 19, 19, 19, 0, 0, 0
+11969, 12373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12063, 12531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+11902, 13940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 14, 14, 14, 0, 0, 0
+12205, 13251, 1, "OK", 6, 30, 6, 6, 6, 0, 0, 0
+13025, 13940, 1, "OK", 2, 32, 8, 8, 8, 0, 0, 0
+13072, 15555, 1, "OK", 2, 74, 16, 16, 16, 0, 0, 0
+12100, 13940, 1, "OK", 4, 60, 14, 14, 14, 0, 0, 0
+12590, 14111, 1, "OK", 2, 51, 15, 15, 15, 0, 0, 0
+12063, 15598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+13945, 15627, 1, "OK", 3, 46, 8, 8, 8, 0, 0, 0
+11840, 15857, 1, "OK", 1, 123, 23, 23, 23, 0, 0, 0
+12100, 13439, 1, "OK", 4, 40, 8, 8, 8, 0, 0, 0
+12590, 15660, 1, "OK", 3, 92, 21, 21, 21, 0, 0, 0
+13025, 13439, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+13300, 13618, 1, "OK", 2, 13, 4, 4, 4, 0, 0, 0
+12100, 12418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+13300, 15660, 1, "OK", 3, 74, 16, 16, 16, 0, 0, 0
+11902, 12418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12804, 13129, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+13945, 14111, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+12100, 15497, 1, "OK", 4, 102, 22, 22, 22, 0, 0, 0
+12590, 13618, 1, "OK", 2, 31, 9, 9, 9, 0, 0, 0
+12205, 13773, 1, "OK", 6, 50, 12, 12, 12, 0, 0, 0
+12378, 13020, 1, "OK", 4, 17, 5, 5, 5, 0, 0, 0
+11902, 13439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 8, 8, 8, 0, 0, 0
+12205, 14797, 1, "OK", 6, 82, 19, 19, 19, 0, 0, 0
+12422, 13190, 1, "OK", 4, 21, 5, 5, 5, 0, 0, 0
+12063, 15627, 1, "OK", 3, 108, 22, 22, 22, 0, 0, 0
+12063, 13067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+11902, 15497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12024, 13251, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12536, 13251, 1, "OK", 4, 18, 5, 5, 5, 0, 0, 0
+13444, 14797, 1, "OK", 2, 44, 11, 11, 11, 0, 0, 0
+13444, 13773, 1, "OK", 2, 12, 4, 4, 4, 0, 0, 0
+12156, 13251, 1, "OK", 5, 31, 6, 6, 6, 0, 0, 0
+13025, 15497, 1, "OK", 2, 74, 16, 16, 16, 0, 0, 0
+12536, 14797, 1, "OK", 4, 70, 18, 18, 18, 0, 0, 0
+12536, 13773, 1, "OK", 4, 38, 11, 11, 11, 0, 0, 0
+11969, 13940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 14, 14, 14, 0, 0, 0
+13945, 15660, 1, "OK", 3, 47, 8, 8, 8, 0, 0, 0
+12024, 14797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 19, 19, 19, 0, 0, 0
+12024, 13773, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 12, 12, 12, 0, 0, 0
+12378, 15598, 1, "OK", 4, 95, 21, 21, 21, 0, 0, 0
+12156, 14797, 1, "OK", 5, 83, 19, 19, 19, 0, 0, 0
+12156, 13773, 1, "OK", 5, 51, 12, 12, 12, 0, 0, 0
+13072, 15598, 1, "OK", 2, 75, 16, 16, 16, 0, 0, 0
+11969, 13439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 8, 8, 8, 0, 0, 0
+12590, 13129, 1, "OK", 2, 15, 5, 5, 5, 0, 0, 0
+12487, 13251, 1, "OK", 4, 20, 5, 5, 5, 0, 0, 0
+13255, 15555, 1, "OK", 2, 71, 16, 16, 16, 0, 0, 0
+14116, 15497, 1, "OK", 2, 34, 6, 6, 6, 0, 0, 0
+12205, 13296, 1, "OK", 6, 31, 6, 6, 6, 0, 0, 0
+12487, 14797, 1, "OK", 4, 72, 18, 18, 18, 0, 0, 0
+12487, 13773, 1, "OK", 4, 40, 11, 11, 11, 0, 0, 0
+12063, 14111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 16, 16, 16, 0, 0, 0
+11969, 12418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray", 0, 0, 1, 1, 1, 0, 0, 0
+12063, 12586, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12063, 15660, 1, "OK", 3, 109, 22, 22, 22, 0, 0, 0
+11969, 15497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12156, 13296, 1, "OK", 5, 32, 6, 6, 6, 0, 0, 0
+12063, 13618, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 10, 10, 10, 0, 0, 0
+12378, 15627, 1, "OK", 4, 97, 21, 21, 21, 0, 0, 0
+12378, 13067, 1, "OK", 4, 19, 5, 5, 5, 0, 0, 0
+12205, 12799, 1, "OK", 6, 18, 3, 3, 3, 0, 0, 0
+12422, 13251, 1, "OK", 4, 22, 5, 5, 5, 0, 0, 0
+12100, 12482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+13072, 15627, 1, "OK", 3, 77, 16, 16, 16, 0, 0, 0
+12024, 13296, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12536, 13296, 1, "OK", 4, 19, 5, 5, 5, 0, 0, 0
+11902, 12482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+12378, 14111, 1, "OK", 4, 57, 15, 15, 15, 0, 0, 0
+12156, 12799, 1, "OK", 5, 19, 3, 3, 3, 0, 0, 0
+11902, 15555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12100, 15555, 1, "OK", 4, 104, 22, 22, 22, 0, 0, 0
+12804, 13190, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+13025, 15555, 1, "OK", 2, 76, 16, 16, 16, 0, 0, 0
+12487, 13296, 1, "OK", 4, 21, 5, 5, 5, 0, 0, 0
+12024, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 3, 3, 3, 0, 0, 0
+12063, 13129, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+12422, 14797, 1, "OK", 4, 74, 18, 18, 18, 0, 0, 0
+12422, 13773, 1, "OK", 4, 42, 11, 11, 11, 0, 0, 0
+12536, 12799, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 0
+13255, 15598, 1, "OK", 2, 72, 16, 16, 16, 0, 0, 0
+12378, 15660, 1, "OK", 4, 98, 21, 21, 21, 0, 0, 0
+13072, 14111, 1, "OK", 2, 37, 10, 10, 10, 0, 0, 0
+11893, 15857, 1, "OK", 1, 121, 23, 23, 23, 0, 0, 0
+13623, 13940, 1, "OK", 2, 12, 4, 4, 4, 0, 0, 0
+11902, 13020, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+13072, 15660, 1, "OK", 3, 78, 16, 16, 16, 0, 0, 0
+12100, 13020, 1, "OK", 4, 27, 6, 6, 6, 0, 0, 0
+12378, 13618, 1, "OK", 4, 37, 9, 9, 9, 0, 0, 0
+12487, 12799, 1, "OK", 4, 8, 2, 2, 2, 0, 0, 0
+12590, 13190, 1, "OK", 2, 16, 5, 5, 5, 0, 0, 0
+13255, 15627, 1, "OK", 3, 74, 16, 16, 16, 0, 0, 0
+13072, 13618, 1, "OK", 2, 17, 4, 4, 4, 0, 0, 0
+11969, 15555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+14116, 15555, 1, "OK", 2, 36, 6, 6, 6, 0, 0, 0
+11969, 12482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+13133, 14797, 1, "OK", 2, 54, 13, 13, 13, 0, 0, 0
+13133, 13773, 1, "OK", 2, 22, 6, 6, 6, 0, 0, 0
+13025, 15598, 1, "OK", 2, 77, 16, 16, 16, 0, 0, 0
+12422, 13296, 1, "OK", 4, 23, 5, 5, 5, 0, 0, 0
+13194, 13940, 1, "OK", 2, 28, 8, 8, 8, 0, 0, 0
+12100, 15598, 1, "OK", 4, 105, 22, 22, 22, 0, 0, 0
+13194, 13439, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+11902, 12531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao JSONObject paramsObj ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+11902, 15598, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 22, 22, 22, 0, 0, 0
+12100, 12531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<Role> rolesArrayList Role[] rolesArray Menu menu", 0, 0, 1, 1, 1, 0, 0, 0
+13623, 15497, 1, "OK", 2, 54, 12, 12, 12, 0, 0, 0
+12378, 13129, 1, "OK", 4, 21, 5, 5, 5, 0, 0, 0
+11969, 13020, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IMenuDAO objDao Menu menu", 0, 0, 6, 6, 6, 0, 0, 0
+13778, 14797, 1, "OK", 2, 31, 7, 7, 7, 0, 0, 0
+12422, 12799, 1, "OK", 4, 10, 2, 2, 2, 0, 0, 0
+13255, 14111, 1, "OK", 2, 34, 10, 10, 10, 0, 0, 0

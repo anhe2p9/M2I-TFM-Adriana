@@ -1,0 +1,29 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12546, 13569, 1, "OK", 3, 33, 40, 40, 11, 29, 8, 0
+12449, 13569, 1, "OK", 2, 35, 40, 40, 11, 29, 8, 0
+13088, 13356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 4, 4, 0, 3, 5
+13088, 13289, 1, "OK", 4, 7, 13, 3, 3, 0, 2, 5
+12724, 13507, 1, "OK", 4, 23, 36, 22, 8, 14, 7, 2
+12788, 13507, 1, "OK", 4, 22, 36, 22, 8, 14, 7, 2
+12646, 13507, 1, "OK", 3, 24, 36, 22, 8, 14, 7, 2
+12578, 13565, 1, "OK", 3, 31, 39, 31, 10, 21, 8, 1
+12954, 13365, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 5, 3, 4, 4
+12449, 13594, 1, "OK", 2, 37, 40, 40, 11, 29, 8, 0
+13155, 13341, 1, "OK", 3, 6, 13, 3, 3, 0, 2, 5
+12489, 13569, 1, "OK", 3, 34, 40, 40, 11, 29, 8, 0
+12546, 13594, 1, "OK", 3, 35, 40, 40, 11, 29, 8, 0
+13015, 13341, 1, "OK", 4, 10, 19, 4, 4, 0, 3, 5
+13155, 13289, 1, "OK", 3, 4, 7, 2, 2, 0, 1, 5
+13015, 13146, 1, "OK", 2, 4, 6, 1, 1, 0, 1, 5
+13298, 13341, 1, "OK", 2, 2, 6, 1, 1, 0, 1, 5
+12820, 13501, 1, "OK", 4, 20, 33, 15, 7, 8, 6, 3
+13155, 13356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 3, 3, 0, 2, 5
+12878, 13494, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 29, 9, 6, 3, 5, 4
+13015, 13356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 4, 4, 0, 3, 5
+12489, 13594, 1, "OK", 3, 36, 40, 40, 11, 29, 8, 0
+13015, 13289, 1, "OK", 4, 8, 13, 3, 3, 0, 2, 5
+13088, 13341, 1, "OK", 4, 9, 19, 4, 4, 0, 3, 5
+12610, 13565, 1, "OK", 3, 30, 39, 31, 10, 21, 8, 1
+12891, 13365, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 5, 3, 4, 4
+13088, 13146, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5
+13298, 13356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5

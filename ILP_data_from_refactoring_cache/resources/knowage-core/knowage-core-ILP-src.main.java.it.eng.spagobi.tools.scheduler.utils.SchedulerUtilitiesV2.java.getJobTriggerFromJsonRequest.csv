@@ -1,0 +1,335 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6478, 9166, 1, "OK", 3, 76, 40, 40, 21, 19, 10, 0
+5947, 9248, 1, "OK", 4, 87, 43, 43, 24, 19, 10, 0
+6241, 8838, 1, "OK", 4, 73, 41, 41, 22, 19, 10, 0
+6825, 9166, 1, "OK", 5, 69, 40, 40, 21, 19, 10, 0
+5704, 9099, 1, "OK", 3, 87, 43, 43, 24, 19, 10, 0
+7613, 9312, 1, "OK", 4, 49, 24, 24, 11, 13, 6, 0
+8143, 8242, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+6033, 7610, 1, "OK", 4, 40, 19, 19, 13, 6, 4, 0
+6160, 6746, 1, "OK", 4, 11, 2, 2, 2, 0, 0, 0
+5798, 8754, 1, "OK", 4, 77, 42, 42, 23, 19, 10, 0
+5798, 6712, 1, "OK", 4, 14, 3, 3, 3, 0, 0, 0
+6160, 9312, 1, "OK", 4, 86, 42, 42, 23, 19, 10, 0
+5947, 8754, 1, "OK", 4, 76, 42, 42, 23, 19, 10, 0
+5947, 6712, 1, "OK", 4, 13, 3, 3, 3, 0, 0, 0
+7682, 9248, 1, "OK", 4, 44, 24, 24, 11, 13, 6, 0
+6033, 9166, 1, "OK", 4, 85, 43, 43, 24, 19, 10, 0
+8758, 9166, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+6749, 8991, 1, "OK", 4, 68, 40, 40, 21, 19, 10, 0
+8841, 9166, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+5704, 6568, 1, "OK", 3, 13, 3, 3, 3, 0, 0, 0
+5798, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 19, 19, 13, 6, 4, 0
+7883, 8138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validTime int m", 0, 0, 4, 2, 2, 0, 1, 2
+7913, 8744, 1, "OK", 3, 25, 19, 9, 7, 2, 5, 2
+6241, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 2, 2, 2, 0, 0, 0
+5798, 9290, 1, "OK", 4, 89, 43, 43, 24, 19, 10, 0
+6275, 8838, 1, "OK", 3, 72, 41, 41, 22, 19, 10, 0
+6716, 8991, 1, "OK", 3, 69, 40, 40, 21, 19, 10, 0
+7613, 8838, 1, "OK", 4, 37, 23, 23, 10, 13, 6, 0
+7781, 8750, 1, "OK", 3, 29, 22, 16, 9, 7, 6, 1
+7913, 8242, 1, "OK", 3, 11, 8, 4, 4, 0, 2, 2
+5947, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 19, 19, 13, 6, 4, 0
+6643, 7678, 1, "OK", 3, 30, 16, 16, 10, 6, 4, 0
+5704, 7610, 1, "OK", 3, 43, 19, 19, 13, 6, 4, 0
+5947, 9290, 1, "OK", 4, 88, 43, 43, 24, 19, 10, 0
+6478, 7678, 1, "OK", 3, 32, 16, 16, 10, 6, 4, 0
+7682, 8754, 1, "OK", 4, 33, 23, 23, 10, 13, 6, 0
+6160, 8838, 1, "OK", 4, 74, 41, 41, 22, 19, 10, 0
+6825, 7678, 1, "OK", 5, 25, 16, 16, 10, 6, 4, 0
+5798, 6746, 1, "OK", 4, 16, 3, 3, 3, 0, 0, 0
+5798, 9312, 1, "OK", 4, 91, 43, 43, 24, 19, 10, 0
+5798, 6238, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+6275, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 2, 2, 2, 0, 0, 0
+7754, 9099, 1, "OK", 5, 40, 24, 24, 11, 13, 6, 0
+7243, 7532, 1, "OK", 3, 10, 8, 4, 4, 0, 2, 2
+5947, 6746, 1, "OK", 4, 15, 3, 3, 3, 0, 0, 0
+6033, 6640, 1, "OK", 4, 11, 3, 3, 3, 0, 0, 0
+5947, 9312, 1, "OK", 4, 90, 43, 43, 24, 19, 10, 0
+5704, 9166, 1, "OK", 3, 88, 43, 43, 24, 19, 10, 0
+5660, 8991, 1, "OK", 2, 86, 43, 43, 24, 19, 10, 0
+5947, 6238, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+7682, 9290, 1, "OK", 4, 45, 24, 24, 11, 13, 6, 0
+6033, 7678, 1, "OK", 4, 41, 19, 19, 13, 6, 4, 0
+6354, 8991, 1, "OK", 3, 76, 42, 42, 23, 19, 10, 0
+6643, 9248, 1, "OK", 3, 75, 40, 40, 21, 19, 10, 0
+7280, 7421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate int m", 0, 0, 4, 2, 2, 0, 1, 2
+7967, 8138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validTime int m", 0, 0, 4, 2, 2, 0, 1, 2
+6478, 9248, 1, "OK", 3, 77, 40, 40, 21, 19, 10, 0
+8447, 8629, 1, "OK", 4, 4, 4, 1, 1, 0, 1, 3
+6160, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 2, 2, 2, 0, 0, 0
+5798, 6272, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+6825, 9248, 1, "OK", 5, 70, 40, 40, 21, 19, 10, 0
+7682, 9312, 1, "OK", 4, 47, 24, 24, 11, 13, 6, 0
+6033, 6157, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+5798, 8838, 1, "OK", 4, 79, 42, 42, 23, 19, 10, 0
+6643, 8754, 1, "OK", 3, 64, 39, 39, 20, 19, 10, 0
+5947, 6272, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+6478, 8754, 1, "OK", 3, 66, 39, 39, 20, 19, 10, 0
+7426, 7532, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+6825, 8754, 1, "OK", 5, 59, 39, 39, 20, 19, 10, 0
+5704, 6640, 1, "OK", 3, 14, 3, 3, 3, 0, 0, 0
+5947, 8838, 1, "OK", 4, 78, 42, 42, 23, 19, 10, 0
+8758, 9248, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+5660, 6475, 1, "OK", 2, 13, 3, 3, 3, 0, 0, 0
+6033, 9248, 1, "OK", 4, 86, 43, 43, 24, 19, 10, 0
+5704, 7678, 1, "OK", 3, 44, 19, 19, 13, 6, 4, 0
+6643, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 16, 16, 10, 6, 4, 0
+6354, 6475, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+6716, 7541, 1, "OK", 3, 25, 16, 16, 10, 6, 4, 0
+6478, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 16, 16, 10, 6, 4, 0
+6749, 7541, 1, "OK", 4, 24, 16, 16, 10, 6, 4, 0
+6643, 9290, 1, "OK", 3, 76, 40, 40, 21, 19, 10, 0
+8841, 9248, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+6825, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 16, 16, 10, 6, 4, 0
+7883, 8744, 1, "OK", 2, 26, 19, 9, 7, 2, 5, 2
+6478, 9290, 1, "OK", 3, 78, 40, 40, 21, 19, 10, 0
+6033, 8754, 1, "OK", 4, 75, 42, 42, 23, 19, 10, 0
+6825, 9290, 1, "OK", 5, 71, 40, 40, 21, 19, 10, 0
+5798, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 3, 3, 3, 0, 0, 0
+5704, 6157, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+7545, 8991, 1, "OK", 4, 43, 24, 24, 11, 13, 6, 0
+7682, 8838, 1, "OK", 4, 35, 23, 23, 10, 13, 6, 0
+7754, 9166, 1, "OK", 5, 41, 24, 24, 11, 13, 6, 0
+5947, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 3, 3, 3, 0, 0, 0
+6033, 6712, 1, "OK", 4, 12, 3, 3, 3, 0, 0, 0
+7883, 8242, 1, "OK", 2, 12, 8, 4, 4, 0, 2, 2
+6749, 9099, 1, "OK", 4, 70, 40, 40, 21, 19, 10, 0
+6643, 9312, 1, "OK", 3, 78, 40, 40, 21, 19, 10, 0
+6478, 9312, 1, "OK", 3, 80, 40, 40, 21, 19, 10, 0
+8758, 9290, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+6716, 9099, 1, "OK", 3, 71, 40, 40, 21, 19, 10, 0
+6033, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 19, 19, 13, 6, 4, 0
+6571, 8991, 1, "OK", 3, 72, 40, 40, 21, 19, 10, 0
+5660, 7541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger boolean validStartDate", 0, 0, 19, 19, 13, 6, 4, 0
+6033, 9290, 1, "OK", 4, 87, 43, 43, 24, 19, 10, 0
+5704, 9248, 1, "OK", 3, 89, 43, 43, 24, 19, 10, 0
+6825, 9312, 1, "OK", 5, 73, 40, 40, 21, 19, 10, 0
+6241, 8991, 1, "OK", 4, 78, 42, 42, 23, 19, 10, 0
+8841, 9290, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+6354, 7541, 1, "OK", 3, 32, 18, 18, 12, 6, 4, 0
+5798, 6351, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+6033, 6746, 1, "OK", 4, 14, 3, 3, 3, 0, 0, 0
+5704, 8754, 1, "OK", 3, 78, 42, 42, 23, 19, 10, 0
+7967, 8744, 1, "OK", 4, 24, 19, 9, 7, 2, 5, 2
+6033, 6238, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+8758, 9312, 1, "OK", 3, 13, 1, 1, 1, 0, 0, 0
+5660, 9099, 1, "OK", 2, 88, 43, 43, 24, 19, 10, 0
+5704, 6712, 1, "OK", 3, 15, 3, 3, 3, 0, 0, 0
+6033, 9312, 1, "OK", 4, 89, 43, 43, 24, 19, 10, 0
+8248, 8744, 1, "OK", 3, 13, 11, 5, 3, 2, 3, 2
+5947, 6351, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+6643, 8838, 1, "OK", 3, 66, 39, 39, 20, 19, 10, 0
+7967, 8242, 1, "OK", 3, 10, 8, 4, 4, 0, 2, 2
+6354, 9099, 1, "OK", 3, 78, 42, 42, 23, 19, 10, 0
+6478, 8838, 1, "OK", 3, 68, 39, 39, 20, 19, 10, 0
+6716, 7610, 1, "OK", 3, 27, 16, 16, 10, 6, 4, 0
+8841, 9312, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+5704, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 19, 19, 13, 6, 4, 0
+6749, 7610, 1, "OK", 4, 26, 16, 16, 10, 6, 4, 0
+6825, 8838, 1, "OK", 5, 61, 39, 39, 20, 19, 10, 0
+6275, 8991, 1, "OK", 3, 77, 42, 42, 23, 19, 10, 0
+7280, 7532, 1, "OK", 4, 9, 8, 4, 4, 0, 2, 2
+7613, 8991, 1, "OK", 4, 42, 24, 24, 11, 13, 6, 0
+5704, 9290, 1, "OK", 3, 90, 43, 43, 24, 19, 10, 0
+8004, 8138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validTime int m", 0, 0, 4, 2, 2, 0, 1, 2
+6241, 6475, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+7317, 7421, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+5660, 6568, 1, "OK", 2, 14, 3, 3, 3, 0, 0, 0
+6716, 9166, 1, "OK", 3, 72, 40, 40, 21, 19, 10, 0
+5704, 6746, 1, "OK", 3, 17, 3, 3, 3, 0, 0, 0
+6749, 9166, 1, "OK", 4, 71, 40, 40, 21, 19, 10, 0
+6033, 6272, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+8352, 8629, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+6160, 8991, 1, "OK", 4, 79, 42, 42, 23, 19, 10, 0
+6354, 6568, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+7754, 9248, 1, "OK", 5, 42, 24, 24, 11, 13, 6, 0
+5704, 6238, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+6033, 8838, 1, "OK", 4, 77, 42, 42, 23, 19, 10, 0
+5704, 9312, 1, "OK", 3, 92, 43, 43, 24, 19, 10, 0
+5660, 7610, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger boolean validStartDate", 0, 0, 19, 19, 13, 6, 4, 0
+6571, 7541, 1, "OK", 3, 28, 16, 16, 10, 6, 4, 0
+6275, 6475, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+6354, 7610, 1, "OK", 3, 34, 18, 18, 12, 6, 4, 0
+7754, 8754, 1, "OK", 4, 31, 23, 23, 10, 13, 6, 0
+7545, 9099, 1, "OK", 4, 45, 24, 24, 11, 13, 6, 0
+5660, 9166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger JSONArray ja", 0, 0, 43, 43, 24, 19, 10, 0
+6241, 7541, 1, "OK", 4, 34, 18, 18, 12, 6, 4, 0
+6033, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 3, 3, 3, 0, 0, 0
+5798, 8991, 1, "OK", 4, 84, 43, 43, 24, 19, 10, 0
+5704, 6272, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+5704, 8838, 1, "OK", 3, 80, 42, 42, 23, 19, 10, 0
+6354, 9166, 1, "OK", 3, 79, 42, 42, 23, 19, 10, 0
+6160, 6475, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 0
+6716, 7678, 1, "OK", 3, 28, 16, 16, 10, 6, 4, 0
+6749, 7678, 1, "OK", 4, 27, 16, 16, 10, 6, 4, 0
+6571, 9099, 1, "OK", 3, 74, 40, 40, 21, 19, 10, 0
+7754, 9290, 1, "OK", 5, 43, 24, 24, 11, 13, 6, 0
+5947, 8991, 1, "OK", 4, 83, 43, 43, 24, 19, 10, 0
+6241, 9099, 1, "OK", 4, 80, 42, 42, 23, 19, 10, 0
+7187, 7421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate int m", 0, 0, 4, 2, 2, 0, 1, 2
+6275, 7541, 1, "OK", 3, 33, 18, 18, 12, 6, 4, 0
+7754, 9312, 1, "OK", 5, 45, 24, 24, 11, 13, 6, 0
+5660, 6640, 1, "OK", 2, 15, 3, 3, 3, 0, 0, 0
+8536, 8629, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+5704, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 3, 3, 3, 0, 0, 0
+6354, 6640, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+6033, 6351, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+7682, 8991, 1, "OK", 4, 40, 24, 24, 11, 13, 6, 0
+5660, 7678, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger boolean validStartDate", 0, 0, 19, 19, 13, 6, 4, 0
+5798, 6475, 1, "OK", 4, 11, 3, 3, 3, 0, 0, 0
+6160, 7541, 1, "OK", 4, 35, 18, 18, 12, 6, 4, 0
+6854, 7019, 1, "OK", 3, 4, 3, 2, 2, 0, 1, 1
+6716, 9248, 1, "OK", 3, 73, 40, 40, 21, 19, 10, 0
+8004, 8744, 1, "OK", 5, 23, 19, 9, 7, 2, 5, 2
+6749, 9248, 1, "OK", 4, 72, 40, 40, 21, 19, 10, 0
+6275, 9099, 1, "OK", 3, 79, 42, 42, 23, 19, 10, 0
+6241, 6568, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 0
+7613, 9099, 1, "OK", 4, 44, 24, 24, 11, 13, 6, 0
+8004, 8242, 1, "OK", 4, 9, 8, 4, 4, 0, 2, 2
+6354, 7678, 1, "OK", 3, 35, 18, 18, 12, 6, 4, 0
+6854, 7537, 1, "OK", 3, 20, 15, 11, 9, 2, 4, 1
+5660, 6157, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger SourceBean jobDetailSB", 0, 0, 1, 1, 1, 0, 0, 0
+5947, 6475, 1, "OK", 4, 10, 3, 3, 3, 0, 0, 0
+6571, 7610, 1, "OK", 3, 30, 16, 16, 10, 6, 4, 0
+6716, 8754, 1, "OK", 3, 62, 39, 39, 20, 19, 10, 0
+6749, 8754, 1, "OK", 4, 61, 39, 39, 20, 19, 10, 0
+7545, 9166, 1, "OK", 4, 46, 24, 24, 11, 13, 6, 0
+6241, 7610, 1, "OK", 4, 36, 18, 18, 12, 6, 4, 0
+7317, 7532, 1, "OK", 4, 8, 8, 4, 4, 0, 2, 2
+7754, 8838, 1, "OK", 5, 33, 23, 23, 10, 13, 6, 0
+6160, 9099, 1, "OK", 4, 81, 42, 42, 23, 19, 10, 0
+8041, 8138, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+6275, 6568, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+5660, 9248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger Map<String, DispatchContext> saveOptions", 0, 0, 43, 43, 24, 19, 10, 0
+6571, 9166, 1, "OK", 3, 75, 40, 40, 21, 19, 10, 0
+6716, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 16, 16, 10, 6, 4, 0
+6749, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 16, 16, 10, 6, 4, 0
+5704, 6351, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+6354, 9248, 1, "OK", 3, 80, 42, 42, 23, 19, 10, 0
+6716, 9290, 1, "OK", 3, 74, 40, 40, 21, 19, 10, 0
+6241, 9166, 1, "OK", 4, 81, 42, 42, 23, 19, 10, 0
+6749, 9290, 1, "OK", 4, 73, 40, 40, 21, 19, 10, 0
+6643, 8991, 1, "OK", 3, 71, 40, 40, 21, 19, 10, 0
+6478, 8991, 1, "OK", 3, 73, 40, 40, 21, 19, 10, 0
+8270, 8738, 1, "OK", 2, 11, 8, 2, 2, 0, 2, 3
+5798, 7541, 1, "OK", 4, 40, 19, 19, 13, 6, 4, 0
+6825, 8991, 1, "OK", 5, 66, 40, 40, 21, 19, 10, 0
+5660, 8754, 1, "OK", 2, 79, 42, 42, 23, 19, 10, 0
+5947, 7541, 1, "OK", 4, 39, 19, 19, 13, 6, 4, 0
+6160, 6568, 1, "OK", 4, 7, 2, 2, 2, 0, 0, 0
+6275, 7610, 1, "OK", 3, 35, 18, 18, 12, 6, 4, 0
+5660, 6712, 1, "OK", 2, 16, 3, 3, 3, 0, 0, 0
+6354, 8754, 1, "OK", 3, 69, 41, 41, 22, 19, 10, 0
+5798, 9099, 1, "OK", 4, 86, 43, 43, 24, 19, 10, 0
+6354, 6712, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+6716, 9312, 1, "OK", 3, 76, 40, 40, 21, 19, 10, 0
+6749, 9312, 1, "OK", 4, 75, 40, 40, 21, 19, 10, 0
+6160, 7610, 1, "OK", 4, 37, 18, 18, 12, 6, 4, 0
+5660, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger boolean validStartDate boolean hasZonedEndTime", 0, 0, 19, 19, 13, 6, 4, 0
+6033, 8991, 1, "OK", 4, 82, 43, 43, 24, 19, 10, 0
+5660, 9290, 1, "OK", 2, 91, 43, 43, 24, 19, 10, 0
+8758, 8991, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+6275, 9166, 1, "OK", 3, 80, 42, 42, 23, 19, 10, 0
+7613, 9166, 1, "OK", 4, 45, 24, 24, 11, 13, 6, 0
+5947, 9099, 1, "OK", 4, 85, 43, 43, 24, 19, 10, 0
+6241, 6640, 1, "OK", 4, 7, 2, 2, 2, 0, 0, 0
+8841, 8991, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+6354, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 18, 18, 12, 6, 4, 0
+6571, 7678, 1, "OK", 3, 31, 16, 16, 10, 6, 4, 0
+7187, 7532, 1, "OK", 3, 11, 8, 4, 4, 0, 2, 2
+6354, 9290, 1, "OK", 3, 81, 42, 42, 23, 19, 10, 0
+6160, 9166, 1, "OK", 4, 82, 42, 42, 23, 19, 10, 0
+5660, 6746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger boolean validStartDate", 0, 0, 3, 3, 3, 0, 0, 0
+6241, 7678, 1, "OK", 4, 37, 18, 18, 12, 6, 4, 0
+5660, 6238, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger JobInfo jobInfo", 0, 0, 1, 1, 1, 0, 0, 0
+5798, 6568, 1, "OK", 4, 12, 3, 3, 3, 0, 0, 0
+5660, 9312, 1, "OK", 2, 93, 43, 43, 24, 19, 10, 0
+6716, 8838, 1, "OK", 3, 64, 39, 39, 20, 19, 10, 0
+6749, 8838, 1, "OK", 4, 63, 39, 39, 20, 19, 10, 0
+7682, 9099, 1, "OK", 4, 42, 24, 24, 11, 13, 6, 0
+6354, 6746, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+7545, 9248, 1, "OK", 4, 47, 24, 24, 11, 13, 6, 0
+5947, 6568, 1, "OK", 4, 11, 3, 3, 3, 0, 0, 0
+6354, 9312, 1, "OK", 3, 83, 42, 42, 23, 19, 10, 0
+6275, 6640, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+6571, 9248, 1, "OK", 3, 76, 40, 40, 21, 19, 10, 0
+5798, 7610, 1, "OK", 4, 42, 19, 19, 13, 6, 4, 0
+6033, 6475, 1, "OK", 4, 9, 3, 3, 3, 0, 0, 0
+7545, 8754, 1, "OK", 4, 36, 23, 23, 10, 13, 6, 0
+5704, 8991, 1, "OK", 3, 85, 43, 43, 24, 19, 10, 0
+6275, 7678, 1, "OK", 3, 36, 18, 18, 12, 6, 4, 0
+6643, 7541, 1, "OK", 3, 27, 16, 16, 10, 6, 4, 0
+7023, 7537, 1, "OK", 3, 16, 12, 9, 7, 2, 3, 1
+5947, 7610, 1, "OK", 4, 41, 19, 19, 13, 6, 4, 0
+6160, 6640, 1, "OK", 4, 8, 2, 2, 2, 0, 0, 0
+6241, 9248, 1, "OK", 4, 82, 42, 42, 23, 19, 10, 0
+8041, 8744, 1, "OK", 5, 22, 19, 9, 7, 2, 5, 2
+5660, 6272, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+5660, 8838, 1, "OK", 2, 81, 42, 42, 23, 19, 10, 0
+8041, 8242, 1, "OK", 4, 8, 8, 4, 4, 0, 2, 2
+5798, 9166, 1, "OK", 4, 87, 43, 43, 24, 19, 10, 0
+6478, 7541, 1, "OK", 3, 29, 16, 16, 10, 6, 4, 0
+6571, 8754, 1, "OK", 3, 65, 39, 39, 20, 19, 10, 0
+6160, 7678, 1, "OK", 4, 38, 18, 18, 12, 6, 4, 0
+6825, 7541, 1, "OK", 4, 22, 16, 16, 10, 6, 4, 0
+6241, 8754, 1, "OK", 4, 71, 41, 41, 22, 19, 10, 0
+7545, 9290, 1, "OK", 4, 48, 24, 24, 11, 13, 6, 0
+5947, 9166, 1, "OK", 4, 86, 43, 43, 24, 19, 10, 0
+6354, 8838, 1, "OK", 3, 71, 41, 41, 22, 19, 10, 0
+6643, 9099, 1, "OK", 3, 73, 40, 40, 21, 19, 10, 0
+6241, 6712, 1, "OK", 4, 8, 2, 2, 2, 0, 0, 0
+6275, 9248, 1, "OK", 3, 81, 42, 42, 23, 19, 10, 0
+6478, 9099, 1, "OK", 3, 75, 40, 40, 21, 19, 10, 0
+6571, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 16, 16, 10, 6, 4, 0
+6825, 9099, 1, "OK", 5, 68, 40, 40, 21, 19, 10, 0
+7913, 8138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validTime int m", 0, 0, 4, 2, 2, 0, 1, 2
+6571, 9290, 1, "OK", 3, 77, 40, 40, 21, 19, 10, 0
+6241, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 18, 18, 12, 6, 4, 0
+5704, 6475, 1, "OK", 3, 12, 3, 3, 3, 0, 0, 0
+6033, 7541, 1, "OK", 4, 38, 19, 19, 13, 6, 4, 0
+7613, 9248, 1, "OK", 4, 46, 24, 24, 11, 13, 6, 0
+5660, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JobTrigger jobTrigger boolean validStartDate boolean hasZonedStartTime", 0, 0, 3, 3, 3, 0, 0, 0
+5798, 6640, 1, "OK", 4, 13, 3, 3, 3, 0, 0, 0
+6241, 9290, 1, "OK", 4, 83, 42, 42, 23, 19, 10, 0
+7545, 9312, 1, "OK", 4, 50, 24, 24, 11, 13, 6, 0
+8340, 8738, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+7682, 9166, 1, "OK", 4, 43, 24, 24, 11, 13, 6, 0
+7243, 7421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate int m", 0, 0, 4, 2, 2, 0, 1, 2
+6160, 9248, 1, "OK", 4, 83, 42, 42, 23, 19, 10, 0
+8758, 9099, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+6275, 8754, 1, "OK", 3, 70, 41, 41, 22, 19, 10, 0
+5947, 6640, 1, "OK", 4, 12, 3, 3, 3, 0, 0, 0
+6275, 6712, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+6571, 9312, 1, "OK", 3, 79, 40, 40, 21, 19, 10, 0
+7613, 8754, 1, "OK", 4, 35, 23, 23, 10, 13, 6, 0
+7754, 8991, 1, "OK", 5, 38, 24, 24, 11, 13, 6, 0
+6354, 6821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedStartTime", 0, 0, 2, 2, 2, 0, 0, 0
+6033, 9099, 1, "OK", 4, 84, 43, 43, 24, 19, 10, 0
+6241, 6746, 1, "OK", 4, 10, 2, 2, 2, 0, 0, 0
+5798, 7678, 1, "OK", 4, 43, 19, 19, 13, 6, 4, 0
+6160, 8754, 1, "OK", 4, 72, 41, 41, 22, 19, 10, 0
+6241, 9312, 1, "OK", 4, 85, 42, 42, 23, 19, 10, 0
+5947, 7678, 1, "OK", 4, 42, 19, 19, 13, 6, 4, 0
+6275, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 18, 18, 12, 6, 4, 0
+8841, 9099, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+5798, 6157, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+6160, 6712, 1, "OK", 4, 9, 2, 2, 2, 0, 0, 0
+6275, 9290, 1, "OK", 3, 82, 42, 42, 23, 19, 10, 0
+6643, 7610, 1, "OK", 3, 29, 16, 16, 10, 6, 4, 0
+5704, 7541, 1, "OK", 3, 41, 19, 19, 13, 6, 4, 0
+7545, 8838, 1, "OK", 4, 38, 23, 23, 10, 13, 6, 0
+7613, 9290, 1, "OK", 4, 47, 24, 24, 11, 13, 6, 0
+6478, 7610, 1, "OK", 3, 31, 16, 16, 10, 6, 4, 0
+5947, 6157, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+6825, 7610, 1, "OK", 5, 24, 16, 16, 10, 6, 4, 0
+6160, 7750, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean validStartDate boolean hasZonedEndTime", 0, 0, 18, 18, 12, 6, 4, 0
+5660, 6351, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+6160, 9290, 1, "OK", 4, 84, 42, 42, 23, 19, 10, 0
+5798, 9248, 1, "OK", 4, 88, 43, 43, 24, 19, 10, 0
+8143, 8744, 1, "OK", 4, 18, 15, 7, 5, 2, 4, 2
+6033, 6568, 1, "OK", 4, 10, 3, 3, 3, 0, 0, 0
+6275, 6746, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+6275, 9312, 1, "OK", 3, 84, 42, 42, 23, 19, 10, 0
+6571, 8838, 1, "OK", 3, 67, 39, 39, 20, 19, 10, 0
+6643, 9166, 1, "OK", 3, 74, 40, 40, 21, 19, 10, 0

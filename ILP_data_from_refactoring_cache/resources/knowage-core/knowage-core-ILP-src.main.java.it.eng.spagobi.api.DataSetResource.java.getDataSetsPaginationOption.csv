@@ -1,0 +1,57 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9032, 9355, 1, "OK", 5, 7, 2, 2, 2, 0, 0, 0
+9462, 9593, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+9090, 11270, 1, "OK", 6, 68, 28, 28, 12, 16, 7, 0
+9773, 11212, 1, "OK", 4, 42, 22, 17, 8, 9, 5, 1
+9360, 11217, 1, "OK", 1, 59, 27, 27, 11, 16, 7, 0
+9914, 10940, 1, "OK", 3, 32, 20, 12, 7, 5, 4, 2
+9158, 11217, 1, "OK", 5, 64, 27, 27, 11, 16, 7, 0
+9253, 11217, 1, "OK", 6, 61, 27, 27, 11, 16, 7, 0
+9022, 11463, 1, "OK", 6, 77, 30, 30, 14, 16, 7, 0
+9090, 9355, 1, "OK", 5, 6, 1, 1, 1, 0, 0, 0
+10474, 10748, 1, "OK", 3, 7, 6, 2, 2, 0, 1, 4
+10251, 10748, 1, "OK", 3, 14, 12, 4, 4, 0, 2, 4
+9090, 9248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int fetchSize IDataSetDAO dsDao", 0, 0, 1, 1, 1, 0, 0, 0
+9032, 9248, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset int fetchSize IDataSetDAO dsDao", 0, 0, 2, 2, 2, 0, 0, 0
+9421, 11270, 1, "OK", 3, 59, 27, 27, 11, 16, 7, 0
+10215, 10465, 1, "OK", 3, 8, 6, 2, 2, 0, 1, 4
+9462, 9497, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+9808, 10940, 1, "OK", 3, 34, 20, 12, 7, 5, 4, 2
+9503, 9767, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SimpleDateFormat sdf ISchedulerDAO schedulerDAO", 0, 0, 2, 1, 1, 0, 1, 1
+9360, 11270, 1, "OK", 2, 61, 27, 27, 11, 16, 7, 0
+10215, 10748, 1, "OK", 3, 16, 12, 4, 4, 0, 2, 4
+10085, 10933, 1, "OK", 3, 25, 16, 7, 5, 2, 3, 3
+9462, 9767, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+9209, 11217, 1, "OK", 6, 63, 27, 27, 11, 16, 7, 0
+9032, 9153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset int fetchSize", 0, 0, 2, 2, 2, 0, 0, 0
+9503, 10946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SimpleDateFormat sdf ISchedulerDAO schedulerDAO", 0, 0, 24, 18, 9, 9, 6, 1
+10474, 10925, 1, "OK", 3, 10, 6, 2, 2, 0, 1, 4
+9090, 9416, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets List<IDataSet> toBeReturned", 0, 0, 1, 1, 1, 0, 0, 0
+10127, 10933, 1, "OK", 3, 23, 16, 7, 5, 2, 3, 3
+9090, 9153, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+8999, 11463, 1, "OK", 6, 79, 30, 30, 14, 16, 7, 0
+9032, 9416, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> dataSets List<IDataSet> toBeReturned", 0, 0, 2, 2, 2, 0, 0, 0
+9158, 11270, 1, "OK", 6, 66, 27, 27, 11, 16, 7, 0
+9253, 11270, 1, "OK", 7, 63, 27, 27, 11, 16, 7, 0
+10251, 10925, 1, "OK", 3, 17, 12, 4, 4, 0, 2, 4
+9462, 10946, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 26, 19, 10, 9, 7, 1
+9503, 11212, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SimpleDateFormat sdf ISchedulerDAO schedulerDAO", 0, 0, 24, 18, 9, 9, 6, 1
+9599, 9767, 0, "Compilation unit does not compile after method extraction.", 1, 5, 2, 1, 1, 0, 1, 1
+9032, 11217, 1, "OK", 5, 67, 29, 29, 13, 16, 7, 0
+9566, 9767, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+9462, 11212, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SimpleDateFormat sdf ISchedulerDAO schedulerDAO", 0, 0, 26, 19, 10, 9, 7, 1
+9090, 11217, 1, "OK", 5, 66, 28, 28, 12, 16, 7, 0
+9462, 9561, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+9599, 10946, 0, "Compilation unit does not compile after method extraction.", 3, 43, 24, 18, 9, 9, 6, 1
+9421, 11217, 1, "OK", 2, 57, 27, 27, 11, 16, 7, 0
+9566, 10946, 1, "OK", 2, 45, 24, 18, 9, 9, 6, 1
+10215, 10925, 1, "OK", 3, 19, 12, 4, 4, 0, 2, 4
+9032, 9205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset int fetchSize IDataSetDAO dsDao", 0, 0, 2, 2, 2, 0, 0, 0
+9209, 11270, 1, "OK", 7, 65, 27, 27, 11, 16, 7, 0
+9599, 11212, 0, "Compilation unit does not compile after method extraction.", 4, 48, 24, 18, 9, 9, 6, 1
+9566, 11212, 1, "OK", 3, 50, 24, 18, 9, 9, 6, 1
+9090, 9205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int fetchSize IDataSetDAO dsDao", 0, 0, 1, 1, 1, 0, 0, 0
+9773, 10946, 1, "OK", 3, 37, 22, 17, 8, 9, 5, 1
+10251, 10465, 1, "OK", 3, 6, 6, 2, 2, 0, 1, 4
+9032, 9086, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+9032, 11270, 1, "OK", 6, 69, 29, 29, 13, 16, 7, 0

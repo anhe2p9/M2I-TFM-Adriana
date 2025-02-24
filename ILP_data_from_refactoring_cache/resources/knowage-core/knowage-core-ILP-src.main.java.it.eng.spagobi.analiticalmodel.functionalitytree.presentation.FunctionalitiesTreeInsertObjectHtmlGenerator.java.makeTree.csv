@@ -1,0 +1,950 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7132, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 7324, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+6878, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6672, 7255, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+9941, 10364, 1, "OK", 2, 9, 3, 2, 2, 0, 1, 1
+6672, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 11292, 1, "OK", 3, 69, 21, 21, 13, 8, 6, 0
+7599, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+8582, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+8922, 11248, 1, "OK", 6, 45, 16, 16, 10, 6, 4, 0
+9850, 11145, 1, "OK", 5, 25, 15, 15, 9, 6, 4, 0
+6731, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7670, 11145, 1, "OK", 3, 63, 21, 21, 13, 8, 6, 0
+7199, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7077, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7327, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 7504, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+7016, 10955, 1, "OK", 2, 71, 22, 22, 14, 8, 6, 0
+8922, 11271, 1, "OK", 6, 46, 16, 16, 10, 6, 4, 0
+7926, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6821, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 11145, 1, "OK", 3, 76, 22, 22, 14, 8, 6, 0
+6903, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9850, 11184, 1, "OK", 5, 26, 15, 15, 9, 6, 4, 0
+7413, 10955, 1, "OK", 3, 64, 21, 21, 13, 8, 6, 0
+6878, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 11184, 1, "OK", 3, 64, 21, 21, 13, 8, 6, 0
+9376, 9499, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+8582, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+7413, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 7404, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+7327, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 11145, 1, "OK", 2, 72, 22, 22, 14, 8, 6, 0
+7258, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8922, 11292, 1, "OK", 6, 47, 16, 16, 10, 6, 4, 0
+7016, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7199, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 7324, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+6878, 11184, 1, "OK", 3, 77, 22, 22, 14, 8, 6, 0
+7132, 7404, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+9850, 11215, 1, "OK", 5, 27, 15, 15, 9, 6, 4, 0
+7926, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+7077, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 11215, 1, "OK", 3, 65, 21, 21, 13, 8, 6, 0
+7413, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9060, 11145, 1, "OK", 6, 38, 16, 16, 10, 6, 4, 0
+9376, 9535, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+6903, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 11184, 1, "OK", 2, 73, 22, 22, 14, 8, 6, 0
+6731, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6878, 11215, 1, "OK", 3, 78, 22, 22, 14, 8, 6, 0
+6603, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+9850, 11248, 1, "OK", 5, 28, 15, 15, 9, 6, 4, 0
+7670, 11248, 1, "OK", 3, 66, 21, 21, 13, 8, 6, 0
+8340, 10955, 1, "OK", 4, 46, 16, 16, 10, 6, 4, 0
+6672, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 7596, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+7413, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9879, 10364, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality folder boolean isDefaultForNew", 0, 0, 3, 2, 2, 0, 1, 1
+7132, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+6821, 10955, 1, "OK", 3, 75, 22, 22, 14, 8, 6, 0
+7077, 11215, 1, "OK", 2, 74, 22, 22, 14, 8, 6, 0
+7258, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9060, 11184, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+9850, 11271, 1, "OK", 5, 29, 15, 15, 9, 6, 4, 0
+7599, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6821, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 11248, 1, "OK", 3, 79, 22, 22, 14, 8, 6, 0
+7670, 11271, 1, "OK", 3, 67, 21, 21, 13, 8, 6, 0
+10257, 10948, 1, "OK", 5, 12, 11, 8, 6, 2, 3, 1
+6603, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7016, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9247, 9499, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+7327, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8388, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+8582, 9629, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+6672, 7404, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+7199, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 11292, 1, "OK", 3, 68, 21, 21, 13, 8, 6, 0
+7670, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 7504, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+6966, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+9115, 9499, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+7132, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+9850, 11292, 1, "OK", 5, 30, 15, 15, 9, 6, 4, 0
+9060, 11215, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+6878, 11271, 1, "OK", 3, 80, 22, 22, 14, 8, 6, 0
+7413, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7077, 11248, 1, "OK", 2, 75, 22, 22, 14, 8, 6, 0
+6821, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 7504, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+8388, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+6731, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7016, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9376, 9629, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+6878, 11292, 1, "OK", 3, 81, 22, 22, 14, 8, 6, 0
+6878, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6878, 7193, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+7077, 11271, 1, "OK", 2, 76, 22, 22, 14, 8, 6, 0
+8984, 9499, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+9115, 9535, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+7199, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+9247, 9535, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+7926, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+9060, 11248, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+6731, 7667, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+7413, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7965, 8328, 1, "OK", 2, 9, 5, 5, 3, 2, 2, 0
+8673, 10955, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+6821, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 7193, 1, "OK", 0, 2, 1, 1, 1, 0, 0, 0
+7077, 11292, 1, "OK", 2, 77, 22, 22, 14, 8, 6, 0
+7077, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8582, 9700, 1, "OK", 1, 18, 1, 1, 1, 0, 0, 0
+9315, 9499, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+9060, 11271, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+7016, 11145, 1, "OK", 2, 73, 22, 22, 14, 8, 6, 0
+7327, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8984, 9535, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+6603, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7016, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6672, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7258, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7413, 11145, 1, "OK", 3, 66, 21, 21, 13, 8, 6, 0
+6878, 7255, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+9315, 9535, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+6821, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9060, 11292, 1, "OK", 6, 43, 16, 16, 10, 6, 4, 0
+6603, 7596, 1, "OK", 1, 18, 1, 1, 1, 0, 0, 0
+7132, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+9376, 9700, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+6672, 7504, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+6878, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7413, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7016, 11184, 1, "OK", 2, 74, 22, 22, 14, 8, 6, 0
+7835, 8328, 1, "OK", 0, 11, 5, 5, 3, 2, 2, 0
+7599, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 7255, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+7132, 7596, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+7258, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9247, 9629, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+6731, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+7199, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8388, 9629, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+7413, 11184, 1, "OK", 3, 67, 21, 21, 13, 8, 6, 0
+9115, 9629, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+6966, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 11215, 1, "OK", 2, 75, 22, 22, 14, 8, 6, 0
+7670, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7926, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8340, 11145, 1, "OK", 4, 48, 16, 16, 10, 6, 4, 0
+7413, 11215, 1, "OK", 3, 68, 21, 21, 13, 8, 6, 0
+6603, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6878, 7324, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+8582, 9801, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+8984, 9629, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+6878, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7835, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6821, 11145, 1, "OK", 3, 77, 22, 22, 14, 8, 6, 0
+8922, 9499, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+6731, 7790, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+7327, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+6603, 7667, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+7016, 11248, 1, "OK", 2, 76, 22, 22, 14, 8, 6, 0
+7132, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6672, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7670, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+7507, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+6821, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8340, 11184, 1, "OK", 4, 49, 16, 16, 10, 6, 4, 0
+7077, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 7324, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+7132, 7667, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+6672, 7596, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+7413, 11248, 1, "OK", 3, 69, 21, 21, 13, 8, 6, 0
+9315, 9629, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+8922, 9535, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+9247, 9700, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+7016, 11271, 1, "OK", 2, 77, 22, 22, 14, 8, 6, 0
+7199, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8388, 9700, 1, "OK", 1, 20, 1, 1, 1, 0, 0, 0
+8582, 9844, 1, "OK", 2, 20, 1, 1, 1, 0, 0, 0
+6878, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9115, 9700, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+9376, 9801, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+6781, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 11184, 1, "OK", 3, 78, 22, 22, 14, 8, 6, 0
+7413, 11271, 1, "OK", 3, 70, 21, 21, 13, 8, 6, 0
+7016, 7193, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+7327, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 11292, 1, "OK", 2, 78, 22, 22, 14, 8, 6, 0
+7016, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8340, 11215, 1, "OK", 4, 50, 16, 16, 10, 6, 4, 0
+6821, 11215, 1, "OK", 3, 79, 22, 22, 14, 8, 6, 0
+8984, 9700, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+6903, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7413, 11292, 1, "OK", 3, 71, 21, 21, 13, 8, 6, 0
+7413, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6878, 7404, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+7507, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7599, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8673, 11145, 1, "OK", 6, 44, 16, 16, 10, 6, 4, 0
+9376, 9844, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+6672, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+8340, 11248, 1, "OK", 4, 51, 16, 16, 10, 6, 4, 0
+6603, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+7965, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7670, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+9315, 9700, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+6672, 7667, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+7077, 7404, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+7132, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+6821, 11248, 1, "OK", 3, 80, 22, 22, 14, 8, 6, 0
+8340, 11271, 1, "OK", 4, 52, 16, 16, 10, 6, 4, 0
+7016, 7255, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+8673, 11184, 1, "OK", 6, 45, 16, 16, 10, 6, 4, 0
+7016, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+6966, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 11271, 1, "OK", 3, 81, 22, 22, 14, 8, 6, 0
+8922, 9629, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+8388, 9801, 1, "OK", 1, 21, 1, 1, 1, 0, 0, 0
+6603, 7790, 1, "OK", 1, 20, 1, 1, 1, 0, 0, 0
+7199, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6603, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+7670, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+7413, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8673, 11215, 1, "OK", 6, 46, 16, 16, 10, 6, 4, 0
+9115, 9801, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+8340, 11292, 1, "OK", 4, 53, 16, 16, 10, 6, 4, 0
+9247, 9801, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+7132, 7790, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+7077, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7599, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 7193, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+7926, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+6821, 11292, 1, "OK", 3, 82, 22, 22, 14, 8, 6, 0
+6821, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7835, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+9541, 10955, 1, "OK", 7, 27, 15, 15, 9, 6, 4, 0
+6878, 7504, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+9247, 9844, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+6731, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+8673, 11248, 1, "OK", 6, 47, 16, 16, 10, 6, 4, 0
+7016, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7199, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+8388, 9844, 1, "OK", 2, 22, 1, 1, 1, 0, 0, 0
+7016, 7324, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+8984, 9801, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+7077, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+6672, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+7926, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+9060, 9499, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+9115, 9844, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+8673, 11271, 1, "OK", 6, 48, 16, 16, 10, 6, 4, 0
+9315, 9801, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+7413, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7077, 7504, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+8922, 9700, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+6821, 7255, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+6966, 10955, 1, "OK", 2, 72, 22, 22, 14, 8, 6, 0
+8673, 11292, 1, "OK", 6, 49, 16, 16, 10, 6, 4, 0
+9060, 9535, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+8984, 9844, 1, "OK", 3, 15, 1, 1, 1, 0, 0, 0
+9807, 10955, 1, "OK", 5, 24, 15, 15, 9, 6, 4, 0
+6821, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6672, 7790, 1, "OK", 1, 18, 1, 1, 1, 0, 0, 0
+6903, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+7016, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7670, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9315, 9844, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+7599, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7413, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6781, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7016, 7404, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+6603, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+6878, 7596, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+9941, 10948, 1, "OK", 5, 20, 14, 10, 8, 2, 4, 1
+6821, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6821, 7324, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+7132, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+6966, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+7835, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7077, 7596, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+7670, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6603, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+8922, 9801, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+6903, 10955, 1, "OK", 2, 73, 22, 22, 14, 8, 6, 0
+7016, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7132, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+9060, 9629, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+6903, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7413, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 7667, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+7016, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+8922, 9844, 1, "OK", 3, 17, 1, 1, 1, 0, 0, 0
+9541, 11145, 1, "OK", 7, 29, 15, 15, 9, 6, 4, 0
+6903, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6672, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+7413, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 7504, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+6821, 7404, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+7077, 7667, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+6966, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7965, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8953, 10955, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+6903, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9060, 9700, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+6672, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+9541, 11184, 1, "OK", 7, 30, 15, 15, 9, 6, 4, 0
+9879, 10948, 1, "OK", 5, 21, 14, 10, 8, 2, 4, 1
+8340, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+8822, 10955, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+6821, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+6966, 11145, 1, "OK", 2, 74, 22, 22, 14, 8, 6, 0
+7670, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+9807, 11145, 1, "OK", 5, 26, 15, 15, 9, 6, 4, 0
+6966, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8340, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+6878, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+6903, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9541, 11215, 1, "OK", 7, 31, 15, 15, 9, 6, 4, 0
+7016, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6821, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+6966, 11184, 1, "OK", 2, 75, 22, 22, 14, 8, 6, 0
+7835, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7670, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 7596, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+7077, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+9807, 11184, 1, "OK", 5, 27, 15, 15, 9, 6, 4, 0
+6903, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9541, 11248, 1, "OK", 7, 32, 15, 15, 9, 6, 4, 0
+7413, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 10955, 1, "OK", 5, 56, 21, 21, 13, 8, 6, 0
+6821, 7504, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+6878, 7790, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+6878, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+7965, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 11215, 1, "OK", 2, 76, 22, 22, 14, 8, 6, 0
+8673, 9499, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+9060, 9801, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+9807, 11215, 1, "OK", 5, 28, 15, 15, 9, 6, 4, 0
+9541, 11271, 1, "OK", 7, 33, 15, 15, 9, 6, 4, 0
+7077, 7790, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+7258, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 11145, 1, "OK", 2, 75, 22, 22, 14, 8, 6, 0
+7077, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+6966, 11248, 1, "OK", 2, 77, 22, 22, 14, 8, 6, 0
+7965, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8673, 9535, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+9541, 11292, 1, "OK", 7, 34, 15, 15, 9, 6, 4, 0
+7016, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6903, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9807, 11248, 1, "OK", 5, 29, 15, 15, 9, 6, 4, 0
+8340, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+7016, 7667, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+6966, 11271, 1, "OK", 2, 78, 22, 22, 14, 8, 6, 0
+7835, 10955, 1, "OK", 3, 58, 21, 21, 13, 8, 6, 0
+7413, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9060, 9844, 1, "OK", 3, 13, 1, 1, 1, 0, 0, 0
+6903, 11184, 1, "OK", 2, 76, 22, 22, 14, 8, 6, 0
+6821, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7965, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+9807, 11271, 1, "OK", 5, 30, 15, 15, 9, 6, 4, 0
+7835, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 11292, 1, "OK", 2, 79, 22, 22, 14, 8, 6, 0
+6966, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 7193, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+9807, 11292, 1, "OK", 5, 31, 15, 15, 9, 6, 4, 0
+6821, 7596, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+7258, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+8953, 11145, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+6903, 11215, 1, "OK", 2, 77, 22, 22, 14, 8, 6, 0
+7835, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9979, 10081, 1, "OK", 3, 3, 3, 2, 2, 0, 1, 1
+7965, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7327, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+8822, 11145, 1, "OK", 6, 43, 16, 16, 10, 6, 4, 0
+6731, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+8340, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+7835, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 11248, 1, "OK", 2, 78, 22, 22, 14, 8, 6, 0
+8673, 9629, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+9423, 10955, 1, "OK", 7, 31, 16, 16, 10, 6, 4, 0
+7507, 10955, 1, "OK", 2, 63, 21, 21, 13, 8, 6, 0
+8953, 11184, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+6966, 7255, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+7016, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+6821, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7507, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7965, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 10955, 1, "OK", 4, 76, 22, 22, 14, 8, 6, 0
+6821, 7667, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+7077, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+10481, 10948, 1, "OK", 5, 7, 11, 8, 6, 2, 3, 1
+6903, 11271, 1, "OK", 2, 79, 22, 22, 14, 8, 6, 0
+8953, 11215, 1, "OK", 6, 43, 16, 16, 10, 6, 4, 0
+7413, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+8822, 11184, 1, "OK", 6, 44, 16, 16, 10, 6, 4, 0
+6903, 7193, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+7327, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7016, 7790, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+6903, 11292, 1, "OK", 2, 80, 22, 22, 14, 8, 6, 0
+6903, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7835, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7016, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+7965, 11145, 1, "OK", 5, 58, 21, 21, 13, 8, 6, 0
+7077, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+6781, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 11248, 1, "OK", 6, 44, 16, 16, 10, 6, 4, 0
+6603, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+8822, 11215, 1, "OK", 6, 45, 16, 16, 10, 6, 4, 0
+7965, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7507, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8673, 9700, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+7413, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+9029, 10955, 1, "OK", 6, 37, 16, 16, 10, 6, 4, 0
+6966, 7324, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+7835, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 11271, 1, "OK", 6, 45, 16, 16, 10, 6, 4, 0
+7132, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+8340, 9801, 1, "OK", 0, 22, 1, 1, 1, 0, 0, 0
+7965, 11184, 1, "OK", 5, 59, 21, 21, 13, 8, 6, 0
+6781, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8822, 11248, 1, "OK", 6, 46, 16, 16, 10, 6, 4, 0
+8953, 11292, 1, "OK", 6, 46, 16, 16, 10, 6, 4, 0
+7258, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 7255, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+6903, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+10748, 10940, 1, "OK", 4, 2, 4, 2, 2, 0, 1, 2
+6821, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+7199, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+7835, 11145, 1, "OK", 3, 60, 21, 21, 13, 8, 6, 0
+7926, 8328, 1, "OK", 1, 10, 5, 5, 3, 2, 2, 0
+7965, 11215, 1, "OK", 5, 60, 21, 21, 13, 8, 6, 0
+7507, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8822, 11271, 1, "OK", 6, 47, 16, 16, 10, 6, 4, 0
+7835, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8822, 11292, 1, "OK", 6, 48, 16, 16, 10, 6, 4, 0
+6781, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+8340, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 1, 1, 1, 0, 0, 0
+6821, 7790, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+7507, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+6966, 7404, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+7835, 11184, 1, "OK", 3, 61, 21, 21, 13, 8, 6, 0
+7965, 11248, 1, "OK", 5, 61, 21, 21, 13, 8, 6, 0
+6672, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+7199, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 7324, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+6781, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 11271, 1, "OK", 5, 62, 21, 21, 13, 8, 6, 0
+8673, 9801, 1, "OK", 2, 18, 1, 1, 1, 0, 0, 0
+7016, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+7926, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7507, 11145, 1, "OK", 2, 65, 21, 21, 13, 8, 6, 0
+7835, 11215, 1, "OK", 3, 62, 21, 21, 13, 8, 6, 0
+7327, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+9423, 11145, 1, "OK", 7, 33, 16, 16, 10, 6, 4, 0
+7965, 11292, 1, "OK", 5, 63, 21, 21, 13, 8, 6, 0
+7965, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7507, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6781, 11145, 1, "OK", 4, 78, 22, 22, 14, 8, 6, 0
+7016, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+8673, 9844, 1, "OK", 3, 19, 1, 1, 1, 0, 0, 0
+6672, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7835, 11248, 1, "OK", 3, 63, 21, 21, 13, 8, 6, 0
+7599, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+7507, 11184, 1, "OK", 2, 66, 21, 21, 13, 8, 6, 0
+6781, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7258, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9423, 11184, 1, "OK", 7, 34, 16, 16, 10, 6, 4, 0
+6966, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7835, 11271, 1, "OK", 3, 64, 21, 21, 13, 8, 6, 0
+6903, 7404, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+6781, 11184, 1, "OK", 4, 79, 22, 22, 14, 8, 6, 0
+6966, 7504, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+7507, 11215, 1, "OK", 2, 67, 21, 21, 13, 8, 6, 0
+7835, 11292, 1, "OK", 3, 65, 21, 21, 13, 8, 6, 0
+7835, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9029, 11145, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+7965, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9423, 11215, 1, "OK", 7, 35, 16, 16, 10, 6, 4, 0
+9979, 10364, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+7997, 8324, 1, "OK", 2, 7, 4, 2, 2, 0, 2, 1
+6821, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+6781, 11215, 1, "OK", 4, 80, 22, 22, 14, 8, 6, 0
+7599, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 11248, 1, "OK", 2, 68, 21, 21, 13, 8, 6, 0
+7132, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+9423, 11248, 1, "OK", 7, 36, 16, 16, 10, 6, 4, 0
+9029, 11184, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+6821, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+7507, 11271, 1, "OK", 2, 69, 21, 21, 13, 8, 6, 0
+6781, 11248, 1, "OK", 4, 81, 22, 22, 14, 8, 6, 0
+9423, 11271, 1, "OK", 7, 37, 16, 16, 10, 6, 4, 0
+7199, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7835, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7965, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7327, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7926, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6781, 11271, 1, "OK", 4, 82, 22, 22, 14, 8, 6, 0
+7507, 11292, 1, "OK", 2, 70, 21, 21, 13, 8, 6, 0
+7507, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+9423, 11292, 1, "OK", 7, 38, 16, 16, 10, 6, 4, 0
+6966, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+9029, 11215, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+6966, 7596, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+6903, 7504, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+6781, 7193, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+6781, 11292, 1, "OK", 4, 83, 22, 22, 14, 8, 6, 0
+6781, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 9499, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+9029, 11248, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+6672, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+7965, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+7258, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7835, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8822, 9499, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+8953, 9535, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+9029, 11271, 1, "OK", 6, 43, 16, 16, 10, 6, 4, 0
+6878, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9502, 10955, 1, "OK", 7, 28, 15, 15, 9, 6, 4, 0
+6966, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6603, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 7255, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+9029, 11292, 1, "OK", 6, 44, 16, 16, 10, 6, 4, 0
+6966, 7667, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+7132, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7077, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9635, 10955, 1, "OK", 6, 26, 15, 15, 9, 6, 4, 0
+7599, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+8822, 9535, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+7670, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7835, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 7596, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+7965, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7199, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6878, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7926, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7258, 10955, 1, "OK", 2, 66, 21, 21, 13, 8, 6, 0
+7327, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7258, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7077, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 9629, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+6781, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 7324, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+6672, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6966, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+7507, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6903, 7667, 1, "OK", 0, 12, 1, 1, 1, 0, 0, 0
+7258, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 10955, 1, "OK", 4, 77, 22, 22, 14, 8, 6, 0
+7835, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8822, 9629, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+6731, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 7790, 1, "OK", 0, 12, 1, 1, 1, 0, 0, 0
+6966, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+7258, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8582, 10955, 1, "OK", 5, 43, 16, 16, 10, 6, 4, 0
+7835, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 9700, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+6603, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7327, 10955, 1, "OK", 3, 65, 21, 21, 13, 8, 6, 0
+6731, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 7404, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+7599, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7327, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7132, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9376, 10955, 1, "OK", 6, 32, 16, 16, 10, 6, 4, 0
+9502, 11145, 1, "OK", 7, 30, 15, 15, 9, 6, 4, 0
+9423, 9499, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+7258, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7507, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8822, 9700, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+6903, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+7199, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7413, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 5, 5, 3, 2, 2, 0
+7327, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6781, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+6878, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9635, 11145, 1, "OK", 6, 28, 15, 15, 9, 6, 4, 0
+7258, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7507, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7327, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9423, 9535, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+9502, 11184, 1, "OK", 7, 31, 15, 15, 9, 6, 4, 0
+7016, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 7790, 1, "OK", 0, 13, 1, 1, 1, 0, 0, 0
+6903, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+6781, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+7835, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6603, 10955, 1, "OK", 3, 80, 22, 22, 14, 8, 6, 0
+6672, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9635, 11184, 1, "OK", 6, 29, 15, 15, 9, 6, 4, 0
+7965, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6603, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7413, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+7132, 10955, 1, "OK", 2, 69, 22, 22, 14, 8, 6, 0
+7258, 11145, 1, "OK", 2, 68, 21, 21, 13, 8, 6, 0
+9029, 9499, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+6731, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 9801, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+9502, 11215, 1, "OK", 7, 32, 15, 15, 9, 6, 4, 0
+6781, 7504, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+7258, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+7132, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6821, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+7327, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9247, 10955, 1, "OK", 6, 34, 16, 16, 10, 6, 4, 0
+9635, 11215, 1, "OK", 6, 30, 15, 15, 9, 6, 4, 0
+8388, 10955, 1, "OK", 5, 45, 16, 16, 10, 6, 4, 0
+7199, 10955, 1, "OK", 2, 67, 21, 21, 13, 8, 6, 0
+6603, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8822, 9801, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+7258, 11184, 1, "OK", 2, 69, 21, 21, 13, 8, 6, 0
+7926, 10955, 1, "OK", 4, 57, 21, 21, 13, 8, 6, 0
+9115, 10955, 1, "OK", 6, 35, 16, 16, 10, 6, 4, 0
+9502, 11248, 1, "OK", 7, 33, 15, 15, 9, 6, 4, 0
+7132, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8953, 9844, 1, "OK", 3, 16, 1, 1, 1, 0, 0, 0
+7199, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 11145, 1, "OK", 4, 79, 22, 22, 14, 8, 6, 0
+9029, 9535, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+7327, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7926, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6966, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+7599, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7835, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9635, 11248, 1, "OK", 6, 31, 15, 15, 9, 6, 4, 0
+9423, 9629, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+6731, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9502, 11271, 1, "OK", 7, 34, 15, 15, 9, 6, 4, 0
+8984, 10955, 1, "OK", 6, 38, 16, 16, 10, 6, 4, 0
+7258, 11215, 1, "OK", 2, 70, 21, 21, 13, 8, 6, 0
+7132, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9711, 10955, 1, "OK", 6, 25, 15, 15, 9, 6, 4, 0
+7199, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8822, 9844, 1, "OK", 3, 18, 1, 1, 1, 0, 0, 0
+9502, 11292, 1, "OK", 7, 35, 15, 15, 9, 6, 4, 0
+6821, 8385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6672, 10955, 1, "OK", 3, 78, 22, 22, 14, 8, 6, 0
+8582, 11145, 1, "OK", 5, 45, 16, 16, 10, 6, 4, 0
+9635, 11271, 1, "OK", 6, 32, 15, 15, 9, 6, 4, 0
+6781, 9629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+6878, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 11184, 1, "OK", 4, 80, 22, 22, 14, 8, 6, 0
+7327, 11145, 1, "OK", 3, 67, 21, 21, 13, 8, 6, 0
+6672, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9315, 10955, 1, "OK", 6, 33, 16, 16, 10, 6, 4, 0
+7965, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6781, 7596, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+7199, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7258, 11248, 1, "OK", 2, 71, 21, 21, 13, 8, 6, 0
+7077, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7327, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+9635, 11292, 1, "OK", 6, 33, 15, 15, 9, 6, 4, 0
+7926, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 11215, 1, "OK", 4, 81, 22, 22, 14, 8, 6, 0
+7258, 11271, 1, "OK", 2, 72, 21, 21, 13, 8, 6, 0
+9376, 11145, 1, "OK", 6, 34, 16, 16, 10, 6, 4, 0
+8582, 11184, 1, "OK", 5, 46, 16, 16, 10, 6, 4, 0
+7327, 11184, 1, "OK", 3, 68, 21, 21, 13, 8, 6, 0
+7507, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9423, 9700, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+6603, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7016, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7965, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+9029, 9629, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+7599, 10955, 1, "OK", 3, 62, 21, 21, 13, 8, 6, 0
+7258, 11292, 1, "OK", 2, 73, 21, 21, 13, 8, 6, 0
+7258, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7413, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 11248, 1, "OK", 4, 82, 22, 22, 14, 8, 6, 0
+7132, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6903, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+7199, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7599, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6781, 9700, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 7, 7, 5, 2, 2, 0
+7835, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8582, 11215, 1, "OK", 5, 47, 16, 16, 10, 6, 4, 0
+7327, 11215, 1, "OK", 3, 69, 21, 21, 13, 8, 6, 0
+6781, 7667, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+9376, 11184, 1, "OK", 6, 35, 16, 16, 10, 6, 4, 0
+6603, 11145, 1, "OK", 3, 82, 22, 22, 14, 8, 6, 0
+6731, 11271, 1, "OK", 4, 83, 22, 22, 14, 8, 6, 0
+7199, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9941, 10081, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+7599, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6731, 7193, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+6603, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7132, 11145, 1, "OK", 2, 71, 22, 22, 14, 8, 6, 0
+9979, 10948, 1, "OK", 6, 19, 14, 10, 8, 2, 4, 1
+7926, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8582, 11248, 1, "OK", 5, 48, 16, 16, 10, 6, 4, 0
+6672, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 11292, 1, "OK", 4, 84, 22, 22, 14, 8, 6, 0
+6731, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7327, 11248, 1, "OK", 3, 70, 21, 21, 13, 8, 6, 0
+9376, 11215, 1, "OK", 6, 36, 16, 16, 10, 6, 4, 0
+8922, 10955, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+10515, 10725, 1, "OK", 5, 2, 4, 2, 2, 0, 1, 2
+7835, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7132, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8388, 11145, 1, "OK", 5, 47, 16, 16, 10, 6, 4, 0
+7599, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9029, 9700, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+6603, 11184, 1, "OK", 3, 83, 22, 22, 14, 8, 6, 0
+8582, 11271, 1, "OK", 5, 49, 16, 16, 10, 6, 4, 0
+7258, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7199, 11145, 1, "OK", 2, 69, 21, 21, 13, 8, 6, 0
+7327, 11271, 1, "OK", 3, 71, 21, 21, 13, 8, 6, 0
+9115, 11145, 1, "OK", 6, 37, 16, 16, 10, 6, 4, 0
+9247, 11145, 1, "OK", 6, 36, 16, 16, 10, 6, 4, 0
+6672, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8582, 11292, 1, "OK", 5, 50, 16, 16, 10, 6, 4, 0
+6821, 8539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+7507, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9376, 11248, 1, "OK", 6, 37, 16, 16, 10, 6, 4, 0
+7132, 11184, 1, "OK", 2, 72, 22, 22, 14, 8, 6, 0
+7926, 11145, 1, "OK", 4, 59, 21, 21, 13, 8, 6, 0
+7199, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7327, 11292, 1, "OK", 3, 72, 21, 21, 13, 8, 6, 0
+7327, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9423, 9801, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+7926, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 11215, 1, "OK", 3, 84, 22, 22, 14, 8, 6, 0
+8388, 11184, 1, "OK", 5, 48, 16, 16, 10, 6, 4, 0
+7077, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9376, 11271, 1, "OK", 6, 38, 16, 16, 10, 6, 4, 0
+6731, 7255, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+6781, 9801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream", 0, 0, 7, 7, 5, 2, 2, 0
+6731, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7199, 11184, 1, "OK", 2, 70, 21, 21, 13, 8, 6, 0
+9115, 11184, 1, "OK", 6, 38, 16, 16, 10, 6, 4, 0
+7016, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8984, 11145, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+9247, 11184, 1, "OK", 6, 37, 16, 16, 10, 6, 4, 0
+7132, 11215, 1, "OK", 2, 73, 22, 22, 14, 8, 6, 0
+7599, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7926, 11184, 1, "OK", 4, 60, 21, 21, 13, 8, 6, 0
+6672, 11145, 1, "OK", 3, 80, 22, 22, 14, 8, 6, 0
+9376, 11292, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+9711, 11145, 1, "OK", 6, 27, 15, 15, 9, 6, 4, 0
+7507, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 6, 6, 4, 2, 2, 0
+9423, 9844, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+9315, 11145, 1, "OK", 6, 35, 16, 16, 10, 6, 4, 0
+6603, 11248, 1, "OK", 3, 85, 22, 22, 14, 8, 6, 0
+7258, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8388, 11215, 1, "OK", 5, 49, 16, 16, 10, 6, 4, 0
+7413, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6781, 7790, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+9115, 11215, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+7199, 11215, 1, "OK", 2, 71, 21, 21, 13, 8, 6, 0
+7670, 10955, 1, "OK", 3, 61, 21, 21, 13, 8, 6, 0
+9247, 11215, 1, "OK", 6, 38, 16, 16, 10, 6, 4, 0
+7132, 11248, 1, "OK", 2, 74, 22, 22, 14, 8, 6, 0
+9850, 10955, 1, "OK", 5, 23, 15, 15, 9, 6, 4, 0
+7926, 11215, 1, "OK", 4, 61, 21, 21, 13, 8, 6, 0
+6781, 9844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream Iterator it", 0, 0, 7, 7, 5, 2, 2, 0
+7327, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8984, 11184, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+6603, 11271, 1, "OK", 3, 86, 22, 22, 14, 8, 6, 0
+7670, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9029, 9801, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+6672, 11184, 1, "OK", 3, 81, 22, 22, 14, 8, 6, 0
+9711, 11184, 1, "OK", 6, 28, 15, 15, 9, 6, 4, 0
+8388, 11248, 1, "OK", 5, 50, 16, 16, 10, 6, 4, 0
+9315, 11184, 1, "OK", 6, 36, 16, 16, 10, 6, 4, 0
+6603, 7193, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+6878, 10955, 1, "OK", 3, 74, 22, 22, 14, 8, 6, 0
+7132, 11271, 1, "OK", 2, 75, 22, 22, 14, 8, 6, 0
+9879, 10081, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality folder boolean isDefaultForNew", 0, 0, 3, 2, 2, 0, 1, 1
+6731, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7258, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 11292, 1, "OK", 3, 87, 22, 22, 14, 8, 6, 0
+6603, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6731, 7324, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+7199, 11248, 1, "OK", 2, 72, 21, 21, 13, 8, 6, 0
+9115, 11248, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+9247, 11248, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+7599, 11145, 1, "OK", 3, 64, 21, 21, 13, 8, 6, 0
+7926, 11248, 1, "OK", 4, 62, 21, 21, 13, 8, 6, 0
+6878, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8984, 11215, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+7132, 7193, 1, "OK", 0, 1, 1, 1, 1, 0, 0, 0
+8388, 11271, 1, "OK", 5, 51, 16, 16, 10, 6, 4, 0
+7132, 11292, 1, "OK", 2, 76, 22, 22, 14, 8, 6, 0
+7132, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 11215, 1, "OK", 3, 82, 22, 22, 14, 8, 6, 0
+7077, 10955, 1, "OK", 2, 70, 22, 22, 14, 8, 6, 0
+9711, 11215, 1, "OK", 6, 29, 15, 15, 9, 6, 4, 0
+7599, 9112, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9115, 11271, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+9315, 11215, 1, "OK", 6, 37, 16, 16, 10, 6, 4, 0
+7199, 11271, 1, "OK", 2, 73, 21, 21, 13, 8, 6, 0
+9247, 11271, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+7077, 8919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 11271, 1, "OK", 4, 63, 21, 21, 13, 8, 6, 0
+9029, 9844, 1, "OK", 3, 14, 1, 1, 1, 0, 0, 0
+6821, 8670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9247, 11292, 1, "OK", 6, 41, 16, 16, 10, 6, 4, 0
+7327, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7199, 11292, 1, "OK", 2, 74, 21, 21, 13, 8, 6, 0
+7199, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+8388, 11292, 1, "OK", 5, 52, 16, 16, 10, 6, 4, 0
+8984, 11248, 1, "OK", 6, 43, 16, 16, 10, 6, 4, 0
+6731, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+7599, 11184, 1, "OK", 3, 65, 21, 21, 13, 8, 6, 0
+6672, 11248, 1, "OK", 3, 83, 22, 22, 14, 8, 6, 0
+7670, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7926, 11292, 1, "OK", 4, 64, 21, 21, 13, 8, 6, 0
+7926, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9115, 11292, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+9711, 11248, 1, "OK", 6, 30, 15, 15, 9, 6, 4, 0
+9315, 11248, 1, "OK", 6, 38, 16, 16, 10, 6, 4, 0
+9060, 10955, 1, "OK", 6, 36, 16, 16, 10, 6, 4, 0
+6603, 7255, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+6603, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 8950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8922, 11145, 1, "OK", 6, 42, 16, 16, 10, 6, 4, 0
+8984, 11271, 1, "OK", 6, 44, 16, 16, 10, 6, 4, 0
+6672, 11271, 1, "OK", 3, 84, 22, 22, 14, 8, 6, 0
+6878, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+9711, 11271, 1, "OK", 6, 31, 15, 15, 9, 6, 4, 0
+7132, 7255, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+6731, 7404, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+7132, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7258, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+8984, 11292, 1, "OK", 6, 45, 16, 16, 10, 6, 4, 0
+9315, 11271, 1, "OK", 6, 39, 16, 16, 10, 6, 4, 0
+7599, 11215, 1, "OK", 3, 66, 21, 21, 13, 8, 6, 0
+6672, 7193, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+9711, 11292, 1, "OK", 6, 32, 15, 15, 9, 6, 4, 0
+7327, 9420, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 5, 5, 3, 2, 2, 0
+6672, 11292, 1, "OK", 3, 85, 22, 22, 14, 8, 6, 0
+6672, 9244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7670, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7016, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6966, 8328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc", 0, 0, 6, 6, 4, 2, 2, 0
+7077, 8981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+8922, 11184, 1, "OK", 6, 43, 16, 16, 10, 6, 4, 0
+6781, 7923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId", 0, 0, 1, 1, 1, 0, 0, 0
+7199, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7413, 8819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+9315, 11292, 1, "OK", 6, 40, 16, 16, 10, 6, 4, 0
+7599, 11248, 1, "OK", 3, 67, 21, 21, 13, 8, 6, 0
+7258, 9535, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 6, 6, 4, 2, 2, 0
+6878, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+7926, 9309, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+7670, 9057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 5, 5, 3, 2, 2, 0
+6603, 9373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0
+6603, 7324, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+6731, 9499, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree String context", 0, 0, 7, 7, 5, 2, 2, 0
+8922, 11215, 1, "OK", 6, 44, 16, 16, 10, 6, 4, 0
+7599, 11271, 1, "OK", 3, 68, 21, 21, 13, 8, 6, 0
+6781, 7962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj String functionalityId LowFunctionality defaultFunc", 0, 0, 1, 1, 1, 0, 0, 0
+7077, 9026, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj LowFunctionality defaultFunc StringBuffer htmlStream String nameTree", 0, 0, 6, 6, 4, 2, 2, 0

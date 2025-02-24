@@ -1,0 +1,51 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5569, 5986, 1, "OK", 3, 10, 12, 6, 3, 3, 3, 2
+4975, 8015, 1, "OK", 3, 53, 52, 41, 17, 24, 11, 1
+4898, 5291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String triggerName JSONObject jo", 0, 0, 2, 1, 1, 0, 1, 1
+6194, 8000, 1, "OK", 4, 26, 35, 23, 11, 12, 6, 2
+4975, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String triggerName JSONObject jo String typeEvent", 0, 0, 2, 1, 1, 0, 1, 1
+4864, 8015, 1, "OK", 1, 56, 52, 41, 17, 24, 11, 1
+4777, 8025, 1, "OK", 2, 58, 53, 53, 18, 35, 11, 0
+7055, 7934, 1, "OK", 4, 10, 9, 4, 4, 0, 1, 5
+4740, 8025, 1, "OK", 1, 60, 53, 53, 18, 35, 11, 0
+6058, 8000, 1, "OK", 3, 28, 35, 23, 11, 12, 6, 2
+4898, 5179, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+5620, 5968, 1, "OK", 2, 8, 9, 3, 2, 1, 2, 3
+4864, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean eventSolved String triggerName JSONObject jo String typeEvent", 0, 0, 2, 1, 1, 0, 1, 1
+5405, 5986, 1, "OK", 2, 13, 12, 6, 3, 3, 3, 2
+5667, 5928, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+6825, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean exf boolean validDS", 0, 0, 13, 3, 3, 0, 2, 5
+6825, 6897, 1, "OK", 1, 1, 6, 1, 1, 0, 1, 5
+4777, 8054, 1, "OK", 2, 60, 53, 53, 18, 35, 11, 0
+4898, 8015, 1, "OK", 2, 54, 52, 41, 17, 24, 11, 1
+6627, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean exf boolean validDS", 0, 0, 13, 3, 3, 0, 2, 5
+6627, 6897, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Boolean exf", 0, 0, 6, 1, 1, 0, 1, 5
+4740, 8054, 1, "OK", 1, 62, 53, 53, 18, 35, 11, 0
+6825, 7934, 1, "OK", 4, 13, 22, 7, 7, 0, 3, 5
+5480, 5986, 1, "OK", 3, 11, 12, 6, 3, 3, 3, 2
+4898, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String triggerName JSONObject jo String typeEvent", 0, 0, 2, 1, 1, 0, 1, 1
+6353, 7982, 1, "OK", 3, 22, 32, 17, 10, 7, 5, 3
+6627, 7934, 1, "OK", 3, 16, 22, 7, 7, 0, 3, 5
+7523, 7934, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 5
+6270, 8000, 1, "OK", 3, 25, 35, 23, 11, 12, 6, 2
+5357, 8015, 1, "OK", 5, 46, 50, 40, 16, 24, 10, 1
+5667, 5968, 1, "OK", 3, 7, 9, 3, 2, 1, 2, 3
+5727, 5906, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+6006, 8015, 1, "OK", 4, 32, 36, 30, 12, 18, 6, 1
+6118, 8000, 1, "OK", 4, 27, 35, 23, 11, 12, 6, 2
+6420, 7982, 1, "OK", 3, 21, 32, 17, 10, 7, 5, 3
+5304, 8015, 1, "OK", 4, 47, 50, 40, 16, 24, 10, 1
+6707, 7025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean exf boolean validDS", 0, 0, 13, 3, 3, 0, 2, 5
+6707, 6897, 1, "OK", 1, 2, 6, 1, 1, 0, 1, 5
+4975, 5291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String triggerName JSONObject jo", 0, 0, 2, 1, 1, 0, 1, 1
+5193, 8015, 1, "OK", 3, 48, 50, 40, 16, 24, 10, 1
+6313, 7982, 1, "OK", 3, 23, 32, 17, 10, 7, 5, 3
+6926, 7025, 1, "OK", 1, 1, 7, 2, 2, 0, 1, 5
+6574, 7960, 1, "OK", 3, 18, 27, 11, 8, 3, 4, 4
+4864, 5291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean eventSolved String triggerName JSONObject jo", 0, 0, 2, 1, 1, 0, 1, 1
+4975, 5179, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+6707, 7934, 1, "OK", 3, 14, 22, 7, 7, 0, 3, 5
+6504, 7960, 1, "OK", 3, 19, 27, 11, 8, 3, 4, 4
+6926, 7934, 1, "OK", 4, 12, 16, 6, 6, 0, 2, 5
+5620, 5928, 1, "OK", 2, 7, 9, 3, 2, 1, 2, 3
+4864, 5179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Boolean eventSolved String triggerName", 0, 0, 2, 1, 1, 0, 1, 1

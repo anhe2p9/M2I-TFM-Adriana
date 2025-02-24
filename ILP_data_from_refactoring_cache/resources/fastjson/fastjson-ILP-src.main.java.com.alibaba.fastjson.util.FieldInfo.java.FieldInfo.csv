@@ -1,0 +1,527 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4654, 5296, 0, "Compilation unit does not compile after method extraction.", 7, 16, 4, 4, 4, 0, 0, 0
+4714, 5484, 0, "Compilation unit does not compile after method extraction.", 7, 22, 7, 7, 7, 0, 0, 0
+4349, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String format JSONField annotation", 0, 0, 11, 11, 10, 1, 1, 0
+5314, 6337, 0, "Compilation unit does not compile after method extraction.", 4, 37, 9, 9, 8, 1, 1, 0
+6433, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+4992, 5061, 0, "Compilation unit does not compile after method extraction.", 2, 1, 1, 1, 1, 0, 0, 1
+4909, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4349, 4517, 1, "OK", 2, 6, 3, 3, 2, 1, 1, 0
+4527, 6167, 0, "Compilation unit does not compile after method extraction.", 9, 52, 12, 12, 11, 1, 1, 0
+4810, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+6404, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 8, 8, 7, 1, 1, 0
+7327, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 9, 5, 4, 0
+4654, 6337, 0, "Compilation unit does not compile after method extraction.", 9, 54, 13, 13, 12, 1, 1, 0
+5314, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 17, 17, 15, 2, 2, 0
+4624, 6253, 0, "Compilation unit does not compile after method extraction.", 9, 51, 12, 12, 11, 1, 1, 0
+4682, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4858, 6167, 0, "Compilation unit does not compile after method extraction.", 5, 41, 11, 11, 10, 1, 1, 0
+5542, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+5314, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 9, 9, 8, 1, 1, 0
+4682, 5484, 0, "Compilation unit does not compile after method extraction.", 8, 23, 7, 7, 7, 0, 0, 0
+6134, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 65, 23, 23, 17, 6, 5, 0
+6433, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+4624, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+5463, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+4909, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+6177, 6253, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+4654, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+4714, 8598, 0, "Compilation unit does not compile after method extraction.", 11, 108, 34, 34, 27, 7, 6, 0
+4810, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4714, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4654, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+7295, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 9, 5, 4, 0
+6177, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+4349, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 11, 11, 10, 1, 1, 0
+5314, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 9, 9, 8, 1, 1, 0
+5542, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+7327, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 9, 5, 4, 0
+4624, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4349, 4580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name int ordinal", 0, 0, 4, 4, 3, 1, 1, 0
+4654, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4682, 8598, 0, "Compilation unit does not compile after method extraction.", 12, 109, 34, 34, 27, 7, 6, 0
+4682, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+6404, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+4598, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+5463, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+5314, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 9, 9, 8, 1, 1, 0
+6177, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+6433, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 52, 21, 21, 15, 6, 5, 0
+5314, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 23, 7, 6, 0
+4349, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 11, 11, 10, 1, 1, 0
+4527, 6253, 0, "Compilation unit does not compile after method extraction.", 9, 56, 13, 13, 12, 1, 1, 0
+7295, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 9, 5, 4, 0
+4624, 5296, 0, "Compilation unit does not compile after method extraction.", 7, 17, 4, 4, 4, 0, 0, 0
+4349, 4615, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name int ordinal", 0, 0, 4, 4, 3, 1, 1, 0
+4654, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4764, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+4527, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+4654, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+7327, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 9, 5, 4, 0
+4598, 6116, 0, "Compilation unit does not compile after method extraction.", 9, 46, 11, 11, 10, 1, 1, 0
+4714, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4624, 6337, 0, "Compilation unit does not compile after method extraction.", 9, 55, 13, 13, 12, 1, 1, 0
+7396, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 8, 5, 4, 0
+5542, 8598, 0, "Compilation unit does not compile after method extraction.", 8, 84, 27, 27, 20, 7, 6, 0
+4858, 6253, 0, "Compilation unit does not compile after method extraction.", 5, 45, 12, 12, 11, 1, 1, 0
+4992, 5176, 0, "Compilation unit does not compile after method extraction.", 2, 3, 2, 2, 2, 0, 0, 1
+6404, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+4858, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+5314, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 23, 7, 6, 0
+6177, 6337, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+5314, 5445, 0, "Compilation unit does not compile after method extraction.", 1, 5, 3, 3, 3, 0, 0, 0
+4624, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+4527, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+7295, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 9, 5, 4, 0
+4349, 4645, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name int ordinal", 0, 0, 4, 4, 3, 1, 1, 0
+4764, 6116, 0, "Compilation unit does not compile after method extraction.", 7, 41, 11, 11, 10, 1, 1, 0
+4682, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4714, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4624, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4654, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+6177, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 10, 10, 9, 1, 1, 0
+4654, 5445, 0, "Compilation unit does not compile after method extraction.", 8, 22, 7, 7, 7, 0, 0, 0
+7327, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 32, 14, 14, 9, 5, 4, 0
+7396, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 8, 5, 4, 0
+4858, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4527, 5296, 0, "Compilation unit does not compile after method extraction.", 8, 22, 5, 5, 5, 0, 0, 0
+4598, 6167, 0, "Compilation unit does not compile after method extraction.", 9, 48, 11, 11, 10, 1, 1, 0
+6177, 6371, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+5314, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 23, 7, 6, 0
+4349, 4673, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name int ordinal", 0, 0, 4, 4, 3, 1, 1, 0
+6404, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+5314, 5484, 0, "Compilation unit does not compile after method extraction.", 1, 7, 3, 3, 3, 0, 0, 0
+4624, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+6095, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4682, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5493, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 4, 4, 3, 1, 1, 0
+4527, 6337, 0, "Compilation unit does not compile after method extraction.", 9, 60, 14, 14, 13, 1, 1, 0
+4858, 5296, 0, "Compilation unit does not compile after method extraction.", 3, 11, 4, 4, 4, 0, 0, 0
+4654, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+6177, 6395, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+7295, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 33, 14, 14, 9, 5, 4, 0
+4654, 5484, 0, "Compilation unit does not compile after method extraction.", 8, 24, 7, 7, 7, 0, 0, 0
+4764, 6167, 0, "Compilation unit does not compile after method extraction.", 7, 43, 11, 11, 10, 1, 1, 0
+5600, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+4624, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4349, 4705, 0, "Compilation unit does not compile after method extraction.", 4, 15, 4, 4, 3, 1, 1, 0
+7396, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 8, 5, 4, 0
+6380, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+4858, 6337, 0, "Compilation unit does not compile after method extraction.", 5, 49, 13, 13, 12, 1, 1, 0
+4624, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4527, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 22, 22, 20, 2, 2, 0
+6347, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+6404, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 53, 21, 21, 15, 6, 5, 0
+5493, 6116, 0, "Compilation unit does not compile after method extraction.", 2, 20, 4, 4, 3, 1, 1, 0
+6177, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+4527, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 14, 14, 13, 1, 1, 0
+5314, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 93, 30, 30, 23, 7, 6, 0
+5314, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 3, 3, 3, 0, 0, 0
+6095, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+6177, 6424, 1, "OK", 2, 11, 2, 2, 2, 0, 0, 0
+7961, 8469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> fieldClass Type genericFieldType", 0, 0, 9, 9, 5, 4, 3, 0
+4858, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+4858, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+6380, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+5600, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+4654, 8598, 0, "Compilation unit does not compile after method extraction.", 12, 110, 34, 34, 27, 7, 6, 0
+4654, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4527, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 14, 14, 13, 1, 1, 0
+6347, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+4624, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+7396, 8598, 0, "Compilation unit does not compile after method extraction.", 5, 30, 13, 13, 8, 5, 4, 0
+4624, 5445, 0, "Compilation unit does not compile after method extraction.", 8, 23, 7, 7, 7, 0, 0, 0
+4349, 4755, 0, "Compilation unit does not compile after method extraction.", 5, 16, 4, 4, 3, 1, 1, 0
+4598, 6253, 0, "Compilation unit does not compile after method extraction.", 9, 52, 12, 12, 11, 1, 1, 0
+4858, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+5493, 6167, 0, "Compilation unit does not compile after method extraction.", 2, 22, 4, 4, 3, 1, 1, 0
+6177, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+4598, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4527, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 28, 7, 6, 0
+6263, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+4527, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 14, 14, 13, 1, 1, 0
+7961, 8513, 0, "Compilation unit does not compile after method extraction.", 6, 13, 9, 9, 5, 4, 3, 0
+4909, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4764, 6253, 0, "Compilation unit does not compile after method extraction.", 7, 47, 12, 12, 11, 1, 1, 0
+4810, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+5463, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 4, 4, 3, 1, 1, 0
+5314, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 3, 3, 3, 0, 0, 0
+4764, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4624, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+5636, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+4858, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4858, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4624, 5484, 0, "Compilation unit does not compile after method extraction.", 8, 25, 7, 7, 7, 0, 0, 0
+4598, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+6177, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+4349, 4801, 0, "Compilation unit does not compile after method extraction.", 6, 17, 4, 4, 3, 1, 1, 0
+4654, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5463, 6116, 0, "Compilation unit does not compile after method extraction.", 1, 21, 4, 4, 3, 1, 1, 0
+6380, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 8, 8, 7, 1, 1, 0
+7961, 8551, 0, "Compilation unit does not compile after method extraction.", 6, 14, 9, 9, 5, 4, 3, 0
+4527, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 28, 7, 6, 0
+6263, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 11, 2, 2, 0
+6347, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 8, 8, 7, 1, 1, 0
+4527, 5445, 0, "Compilation unit does not compile after method extraction.", 9, 28, 8, 8, 8, 0, 0, 0
+5314, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 3, 3, 3, 0, 0, 0
+4598, 5296, 0, "Compilation unit does not compile after method extraction.", 8, 18, 4, 4, 4, 0, 0, 0
+4764, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4909, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4810, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4349, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 25, 4, 4, 0
+4624, 8598, 0, "Compilation unit does not compile after method extraction.", 12, 111, 34, 34, 27, 7, 6, 0
+5636, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+4858, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4654, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4598, 6337, 0, "Compilation unit does not compile after method extraction.", 9, 56, 13, 13, 12, 1, 1, 0
+4858, 5445, 0, "Compilation unit does not compile after method extraction.", 4, 17, 7, 7, 7, 0, 0, 0
+4624, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+6177, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 63, 23, 23, 17, 6, 5, 0
+4349, 4849, 0, "Compilation unit does not compile after method extraction.", 7, 18, 4, 4, 3, 1, 1, 0
+4764, 5296, 0, "Compilation unit does not compile after method extraction.", 5, 13, 4, 4, 4, 0, 0, 0
+4527, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 28, 7, 6, 0
+5493, 6253, 0, "Compilation unit does not compile after method extraction.", 3, 26, 5, 5, 4, 1, 1, 0
+4527, 5484, 0, "Compilation unit does not compile after method extraction.", 9, 30, 8, 8, 8, 0, 0, 0
+7961, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 16, 9, 9, 5, 4, 3, 0
+8010, 8102, 1, "OK", 4, 1, 2, 1, 1, 0, 1, 1
+5493, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+5463, 6167, 0, "Compilation unit does not compile after method extraction.", 1, 23, 4, 4, 3, 1, 1, 0
+4764, 6337, 0, "Compilation unit does not compile after method extraction.", 7, 51, 13, 13, 12, 1, 1, 0
+6134, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4598, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+6347, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+6494, 6984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 5, 4, 4, 0, 1, 1
+4349, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 25, 4, 4, 0
+6380, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+4598, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4858, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4714, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4858, 5484, 0, "Compilation unit does not compile after method extraction.", 4, 19, 7, 7, 7, 0, 0, 0
+5674, 5796, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+4764, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+5493, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+4598, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4349, 4899, 0, "Compilation unit does not compile after method extraction.", 8, 19, 4, 4, 3, 1, 1, 0
+4624, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4527, 8598, 0, "Compilation unit does not compile after method extraction.", 12, 116, 35, 35, 28, 7, 6, 0
+4764, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4527, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 8, 8, 8, 0, 0, 0
+4682, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+6134, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+6347, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+6380, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+6433, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4714, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4858, 8598, 0, "Compilation unit does not compile after method extraction.", 8, 105, 34, 34, 27, 7, 6, 0
+4598, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4858, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4598, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4764, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+5600, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 4, 4, 3, 1, 1, 0
+6494, 7046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 5, 4, 4, 0, 1, 1
+4624, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5493, 6337, 0, "Compilation unit does not compile after method extraction.", 4, 30, 6, 6, 5, 1, 1, 0
+5674, 5846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 2, 1, 1, 0, 1, 1
+5542, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+5463, 6253, 0, "Compilation unit does not compile after method extraction.", 2, 27, 5, 5, 4, 1, 1, 0
+4764, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4682, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+6347, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+4764, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+6380, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+5463, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+5493, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 14, 14, 12, 2, 2, 0
+6433, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+5600, 6116, 0, "Compilation unit does not compile after method extraction.", 2, 16, 4, 4, 3, 1, 1, 0
+4527, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 8, 8, 8, 0, 0, 0
+6464, 6984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 5, 4, 4, 0, 1, 1
+4430, 4507, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+5493, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4598, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+7558, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+4598, 5445, 0, "Compilation unit does not compile after method extraction.", 9, 24, 7, 7, 7, 0, 0, 0
+4527, 4580, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+7327, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+4858, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5674, 5894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 2, 1, 1, 0, 1, 1
+5542, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+5463, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+4764, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+5493, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4764, 5445, 0, "Compilation unit does not compile after method extraction.", 6, 19, 7, 7, 7, 0, 0, 0
+6380, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 54, 21, 21, 15, 6, 5, 0
+4527, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 8, 8, 8, 0, 0, 0
+6347, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 55, 21, 21, 15, 6, 5, 0
+4598, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+8169, 8445, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+4598, 5484, 0, "Compilation unit does not compile after method extraction.", 9, 26, 7, 7, 7, 0, 0, 0
+4909, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+5600, 6167, 0, "Compilation unit does not compile after method extraction.", 2, 18, 4, 4, 3, 1, 1, 0
+4942, 5061, 0, "Compilation unit does not compile after method extraction.", 2, 2, 1, 1, 1, 0, 0, 1
+4527, 4615, 0, "Compilation unit does not compile after method extraction.", 2, 5, 1, 1, 1, 0, 0, 0
+7295, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+4810, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+4858, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5636, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 4, 4, 3, 1, 1, 0
+5493, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+6464, 7046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 5, 4, 4, 0, 1, 1
+5493, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+5463, 6337, 0, "Compilation unit does not compile after method extraction.", 3, 31, 6, 6, 5, 1, 1, 0
+7327, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+4764, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4764, 5484, 0, "Compilation unit does not compile after method extraction.", 6, 21, 7, 7, 7, 0, 0, 0
+4527, 4645, 0, "Compilation unit does not compile after method extraction.", 3, 6, 1, 1, 1, 0, 0, 0
+5674, 5952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 2, 1, 1, 0, 1, 1
+5314, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 3, 0
+4810, 6116, 0, "Compilation unit does not compile after method extraction.", 6, 40, 11, 11, 10, 1, 1, 0
+4909, 6116, 0, "Compilation unit does not compile after method extraction.", 4, 37, 11, 11, 10, 1, 1, 0
+6404, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4598, 8598, 0, "Compilation unit does not compile after method extraction.", 12, 112, 34, 34, 27, 7, 6, 0
+5636, 6116, 0, "Compilation unit does not compile after method extraction.", 2, 15, 4, 4, 3, 1, 1, 0
+4598, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5463, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 14, 14, 12, 2, 2, 0
+4349, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 15, 15, 13, 2, 2, 0
+7295, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+4654, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+5463, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+5493, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4527, 4673, 0, "Compilation unit does not compile after method extraction.", 4, 7, 1, 1, 1, 0, 0, 0
+4764, 8598, 0, "Compilation unit does not compile after method extraction.", 10, 107, 34, 34, 27, 7, 6, 0
+7396, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+6095, 6253, 0, "Compilation unit does not compile after method extraction.", 2, 7, 1, 1, 1, 0, 0, 0
+4764, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5314, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 3, 0
+5463, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+6404, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4909, 6167, 0, "Compilation unit does not compile after method extraction.", 4, 39, 11, 11, 10, 1, 1, 0
+7496, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+4349, 6116, 0, "Compilation unit does not compile after method extraction.", 9, 57, 15, 15, 13, 2, 2, 0
+6095, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+4810, 6167, 0, "Compilation unit does not compile after method extraction.", 6, 42, 11, 11, 10, 1, 1, 0
+5600, 6253, 0, "Compilation unit does not compile after method extraction.", 3, 22, 5, 5, 4, 1, 1, 0
+4527, 4705, 0, "Compilation unit does not compile after method extraction.", 4, 8, 1, 1, 1, 0, 0, 0
+5493, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+5600, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+5636, 6167, 0, "Compilation unit does not compile after method extraction.", 2, 17, 4, 4, 3, 1, 1, 0
+4654, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+5463, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4714, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+5463, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4598, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5074, 5176, 0, "Compilation unit does not compile after method extraction.", 2, 2, 1, 1, 1, 0, 0, 1
+7396, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4942, 5176, 0, "Compilation unit does not compile after method extraction.", 2, 4, 2, 2, 2, 0, 0, 1
+6095, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+5600, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+4349, 6167, 0, "Compilation unit does not compile after method extraction.", 9, 59, 15, 15, 13, 2, 2, 0
+4714, 6116, 0, "Compilation unit does not compile after method extraction.", 8, 42, 11, 11, 10, 1, 1, 0
+4764, 5590, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4682, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+5493, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 86, 27, 27, 20, 7, 6, 0
+4598, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4527, 4755, 0, "Compilation unit does not compile after method extraction.", 5, 9, 1, 1, 1, 0, 0, 0
+5463, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4624, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+6095, 6337, 0, "Compilation unit does not compile after method extraction.", 3, 11, 2, 2, 2, 0, 0, 0
+7909, 8469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> fieldClass Type genericFieldType", 0, 0, 9, 9, 5, 4, 3, 0
+6177, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+4682, 6116, 0, "Compilation unit does not compile after method extraction.", 9, 43, 11, 11, 10, 1, 1, 0
+5600, 6337, 0, "Compilation unit does not compile after method extraction.", 4, 26, 6, 6, 5, 1, 1, 0
+4764, 5627, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4909, 6253, 0, "Compilation unit does not compile after method extraction.", 4, 43, 12, 12, 11, 1, 1, 0
+5542, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 4, 4, 3, 1, 1, 0
+6263, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 8, 8, 7, 1, 1, 0
+4810, 6253, 0, "Compilation unit does not compile after method extraction.", 6, 46, 12, 12, 11, 1, 1, 0
+4909, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+5636, 6253, 0, "Compilation unit does not compile after method extraction.", 3, 21, 5, 5, 4, 1, 1, 0
+4714, 6167, 0, "Compilation unit does not compile after method extraction.", 8, 44, 11, 11, 10, 1, 1, 0
+4810, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+6095, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 10, 10, 9, 1, 1, 0
+4527, 4801, 0, "Compilation unit does not compile after method extraction.", 6, 10, 1, 1, 1, 0, 0, 0
+5636, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+5717, 5796, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+5463, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+6095, 6371, 0, "Compilation unit does not compile after method extraction.", 3, 13, 2, 2, 2, 0, 0, 0
+5600, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 14, 14, 12, 2, 2, 0
+4624, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+5542, 6116, 0, "Compilation unit does not compile after method extraction.", 3, 18, 4, 4, 3, 1, 1, 0
+7909, 8513, 0, "Compilation unit does not compile after method extraction.", 5, 15, 9, 9, 5, 4, 3, 0
+8010, 8459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> fieldClass Type genericFieldType", 0, 0, 8, 5, 4, 1, 3, 1
+6263, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 8, 8, 7, 1, 1, 0
+6177, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 12, 2, 2, 0
+5600, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4909, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4682, 6167, 0, "Compilation unit does not compile after method extraction.", 9, 45, 11, 11, 10, 1, 1, 0
+4527, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 23, 3, 3, 0
+4810, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+6095, 6395, 0, "Compilation unit does not compile after method extraction.", 3, 14, 2, 2, 2, 0, 0, 0
+5636, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+4349, 6253, 0, "Compilation unit does not compile after method extraction.", 9, 63, 16, 16, 14, 2, 2, 0
+4349, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 24, 24, 21, 3, 3, 0
+5600, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4858, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+7909, 8551, 0, "Compilation unit does not compile after method extraction.", 5, 16, 9, 9, 5, 4, 3, 0
+5717, 5846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 2, 1, 1, 0, 1, 1
+4527, 4849, 0, "Compilation unit does not compile after method extraction.", 7, 11, 1, 1, 1, 0, 0, 0
+5463, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 87, 27, 27, 20, 7, 6, 0
+6095, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+4810, 5296, 0, "Compilation unit does not compile after method extraction.", 4, 12, 4, 4, 4, 0, 0, 0
+4909, 5296, 0, "Compilation unit does not compile after method extraction.", 2, 9, 4, 4, 4, 0, 0, 0
+6095, 6424, 0, "Compilation unit does not compile after method extraction.", 3, 15, 2, 2, 2, 0, 0, 0
+6263, 6337, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+5542, 6167, 0, "Compilation unit does not compile after method extraction.", 3, 20, 4, 4, 3, 1, 1, 0
+5600, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4909, 6337, 0, "Compilation unit does not compile after method extraction.", 4, 47, 13, 13, 12, 1, 1, 0
+4349, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 24, 24, 21, 3, 3, 0
+4810, 6337, 0, "Compilation unit does not compile after method extraction.", 6, 50, 13, 13, 12, 1, 1, 0
+4527, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 23, 3, 3, 0
+5600, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+6134, 6253, 0, "Compilation unit does not compile after method extraction.", 1, 5, 1, 1, 1, 0, 0, 0
+5636, 6337, 0, "Compilation unit does not compile after method extraction.", 4, 25, 6, 6, 5, 1, 1, 0
+6134, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+7634, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+4714, 6253, 0, "Compilation unit does not compile after method extraction.", 8, 48, 12, 12, 11, 1, 1, 0
+5314, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 7, 7, 6, 1, 1, 0
+6263, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+4858, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4909, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+6263, 6371, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+4714, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+6095, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+5717, 5894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 2, 1, 1, 0, 1, 1
+7909, 8598, 0, "Compilation unit does not compile after method extraction.", 5, 18, 9, 9, 5, 4, 3, 0
+4810, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+4909, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+5636, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 14, 14, 12, 2, 2, 0
+4349, 5296, 0, "Compilation unit does not compile after method extraction.", 8, 29, 8, 8, 7, 1, 1, 0
+4527, 4899, 0, "Compilation unit does not compile after method extraction.", 8, 12, 1, 1, 1, 0, 0, 0
+4810, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4654, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+5600, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+5314, 6116, 0, "Compilation unit does not compile after method extraction.", 2, 27, 7, 7, 6, 1, 1, 0
+5636, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+6134, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 9, 9, 8, 1, 1, 0
+4682, 6253, 0, "Compilation unit does not compile after method extraction.", 9, 49, 12, 12, 11, 1, 1, 0
+6263, 6395, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+4349, 6337, 0, "Compilation unit does not compile after method extraction.", 9, 67, 17, 17, 15, 2, 2, 0
+4909, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4682, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4714, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4810, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+6347, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+6380, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+6674, 6984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 3, 3, 3, 0, 0, 1
+4654, 6116, 0, "Compilation unit does not compile after method extraction.", 9, 44, 11, 11, 10, 1, 1, 0
+6433, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+5636, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+6095, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+4349, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 25, 25, 22, 3, 3, 0
+6263, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 16, 6, 5, 0
+6263, 6424, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+4349, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 17, 17, 15, 2, 2, 0
+4714, 5296, 0, "Compilation unit does not compile after method extraction.", 6, 14, 4, 4, 4, 0, 0, 0
+5542, 6253, 0, "Compilation unit does not compile after method extraction.", 4, 24, 5, 5, 4, 1, 1, 0
+5600, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4909, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4810, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4810, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4909, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+5717, 5952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 2, 1, 1, 0, 1, 1
+4682, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+6134, 6337, 0, "Compilation unit does not compile after method extraction.", 2, 9, 2, 2, 2, 0, 0, 0
+5636, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+5542, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+5314, 6167, 0, "Compilation unit does not compile after method extraction.", 2, 29, 7, 7, 6, 1, 1, 0
+6433, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+5636, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4714, 6337, 0, "Compilation unit does not compile after method extraction.", 8, 52, 13, 13, 12, 1, 1, 0
+4349, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 17, 17, 15, 2, 2, 0
+6347, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+6380, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+4598, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4682, 5296, 0, "Compilation unit does not compile after method extraction.", 7, 15, 4, 4, 4, 0, 0, 0
+6134, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 10, 10, 9, 1, 1, 0
+4654, 6167, 0, "Compilation unit does not compile after method extraction.", 9, 46, 11, 11, 10, 1, 1, 0
+6263, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 16, 6, 5, 0
+6095, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 67, 23, 23, 17, 6, 5, 0
+6134, 6371, 0, "Compilation unit does not compile after method extraction.", 2, 11, 2, 2, 2, 0, 0, 0
+4714, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+5542, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 13, 13, 11, 2, 2, 0
+4624, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+5600, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 82, 27, 27, 20, 7, 6, 0
+4909, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4714, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4682, 6337, 0, "Compilation unit does not compile after method extraction.", 9, 53, 13, 13, 12, 1, 1, 0
+4810, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4349, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 30, 8, 7, 0
+4909, 5445, 0, "Compilation unit does not compile after method extraction.", 3, 15, 7, 7, 7, 0, 0, 0
+5636, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4349, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 17, 17, 15, 2, 2, 0
+4810, 5445, 0, "Compilation unit does not compile after method extraction.", 5, 18, 7, 7, 7, 0, 0, 0
+4764, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+6134, 6395, 0, "Compilation unit does not compile after method extraction.", 2, 12, 2, 2, 2, 0, 0, 0
+4598, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+4714, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+6263, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 16, 6, 5, 0
+4682, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 21, 21, 19, 2, 2, 0
+4624, 6116, 0, "Compilation unit does not compile after method extraction.", 9, 45, 11, 11, 10, 1, 1, 0
+4682, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4909, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+6433, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 8, 8, 7, 1, 1, 0
+8116, 8459, 1, "OK", 3, 7, 6, 4, 3, 1, 2, 1
+4810, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+5542, 6337, 0, "Compilation unit does not compile after method extraction.", 5, 28, 6, 6, 5, 1, 1, 0
+6134, 6424, 0, "Compilation unit does not compile after method extraction.", 2, 13, 2, 2, 2, 0, 0, 0
+4810, 5484, 0, "Compilation unit does not compile after method extraction.", 5, 20, 7, 7, 7, 0, 0, 0
+4909, 5484, 0, "Compilation unit does not compile after method extraction.", 3, 17, 7, 7, 7, 0, 0, 0
+6134, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+5636, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4349, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 30, 8, 7, 0
+4349, 5445, 0, "Compilation unit does not compile after method extraction.", 9, 35, 11, 11, 10, 1, 1, 0
+4714, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4714, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4764, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 22, 3, 3, 0
+5314, 6253, 0, "Compilation unit does not compile after method extraction.", 3, 33, 8, 8, 7, 1, 1, 0
+4682, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+6404, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+5314, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 16, 16, 14, 2, 2, 0
+5542, 7386, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 14, 14, 12, 2, 2, 0
+4527, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 12, 12, 11, 1, 1, 0
+5542, 6371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+4654, 6253, 0, "Compilation unit does not compile after method extraction.", 9, 50, 12, 12, 11, 1, 1, 0
+6263, 8598, 0, "Compilation unit does not compile after method extraction.", 6, 59, 22, 22, 16, 6, 5, 0
+5493, 7899, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+8316, 8445, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 2
+4909, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 103, 34, 34, 27, 7, 6, 0
+4349, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 30, 8, 7, 0
+4624, 6167, 0, "Compilation unit does not compile after method extraction.", 9, 47, 11, 11, 10, 1, 1, 0
+4654, 7286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+4682, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 13, 13, 12, 1, 1, 0
+4682, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4810, 8598, 0, "Compilation unit does not compile after method extraction.", 9, 106, 34, 34, 27, 7, 6, 0
+4858, 6086, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format boolean jsonDirect", 0, 0, 11, 11, 10, 1, 1, 0
+6134, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+6404, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type fieldType Class<?> fieldClass", 0, 0, 7, 7, 6, 1, 1, 0
+4810, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+5636, 8598, 0, "Compilation unit does not compile after method extraction.", 7, 81, 27, 27, 20, 7, 6, 0
+4349, 5484, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String format", 0, 0, 11, 11, 10, 1, 1, 0
+4909, 5532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String format JSONField annotation", 0, 0, 7, 7, 7, 0, 0, 0
+4527, 6116, 0, "Compilation unit does not compile after method extraction.", 9, 50, 12, 12, 11, 1, 1, 0
+5542, 6395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+6433, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 15, 6, 5, 0
+5314, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 16, 16, 14, 2, 2, 0
+4714, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4714, 5445, 0, "Compilation unit does not compile after method extraction.", 7, 20, 7, 7, 7, 0, 0, 0
+7327, 7386, 0, "Compilation unit does not compile after method extraction.", 2, 1, 1, 1, 1, 0, 0, 0
+4858, 6116, 0, "Compilation unit does not compile after method extraction.", 5, 39, 11, 11, 10, 1, 1, 0
+4654, 7318, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect Type fieldType Class<?> fieldClass", 0, 0, 20, 20, 18, 2, 2, 0
+5493, 7943, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 3, 0
+5542, 6424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonDirect boolean getOnly", 0, 0, 6, 6, 5, 1, 1, 0
+6134, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+5542, 8469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 20, 7, 6, 0
+4349, 8598, 0, "Compilation unit does not compile after method extraction.", 12, 123, 38, 38, 30, 8, 7, 0
+4682, 8513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4714, 8551, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 27, 7, 6, 0
+4382, 4507, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+4682, 5445, 0, "Compilation unit does not compile after method extraction.", 8, 21, 7, 7, 7, 0, 0, 0
+7295, 7386, 0, "Compilation unit does not compile after method extraction.", 3, 2, 1, 1, 1, 0, 0, 0

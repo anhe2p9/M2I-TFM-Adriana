@@ -1,0 +1,107 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+14551, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles", 0, 0, 6, 6, 6, 0, 0, 0
+16470, 16865, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+17212, 17416, 1, "OK", 5, 5, 2, 1, 1, 0, 1, 1
+16366, 17007, 1, "OK", 5, 11, 6, 4, 3, 1, 2, 1
+14711, 15328, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+15083, 15328, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+14711, 15850, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+15434, 17501, 1, "OK", 4, 42, 14, 14, 10, 4, 3, 0
+15854, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters String roleName", 0, 0, 1, 1, 1, 0, 0, 0
+14551, 15430, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+15405, 15850, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+14467, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles String roleName", 0, 0, 7, 7, 7, 0, 0, 0
+14746, 15029, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+14551, 17501, 1, "OK", 3, 61, 16, 16, 12, 4, 3, 0
+14458, 17562, 0, "Compilation unit does not compile after method extraction.", 4, 70, 17, 17, 13, 4, 3, 0
+15083, 15850, 1, "OK", 2, 14, 4, 4, 4, 0, 0, 0
+14711, 15359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+16425, 17007, 1, "OK", 5, 10, 6, 4, 3, 1, 2, 1
+15083, 15359, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+15434, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles String roleName", 0, 0, 4, 4, 4, 0, 0, 0
+14467, 14742, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+14711, 17422, 1, "OK", 3, 57, 16, 16, 12, 4, 3, 0
+14746, 15328, 1, "OK", 3, 13, 2, 2, 2, 0, 0, 0
+15332, 15850, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+15083, 17422, 1, "OK", 3, 48, 15, 15, 11, 4, 3, 0
+15405, 17422, 1, "OK", 4, 41, 14, 14, 10, 4, 3, 0
+17082, 17416, 1, "OK", 5, 7, 2, 1, 1, 0, 1, 1
+14551, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles String roleName", 0, 0, 6, 6, 6, 0, 0, 0
+14711, 15147, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile boolean canExec", 0, 0, 1, 1, 1, 0, 0, 0
+14467, 15029, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15151, 15328, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+14746, 15850, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+16190, 17422, 1, "OK", 4, 26, 10, 10, 6, 4, 3, 0
+14711, 15923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+15151, 15850, 1, "OK", 3, 13, 4, 4, 4, 0, 0, 0
+15405, 15923, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+14746, 15359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14711, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles", 0, 0, 6, 6, 6, 0, 0, 0
+15083, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+15405, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+16034, 17422, 1, "OK", 4, 31, 11, 11, 7, 4, 3, 0
+15332, 17422, 1, "OK", 3, 43, 14, 14, 10, 4, 3, 0
+15083, 15923, 1, "OK", 2, 15, 4, 4, 4, 0, 0, 0
+14746, 17422, 1, "OK", 4, 56, 16, 16, 12, 4, 3, 0
+16366, 16871, 1, "OK", 3, 9, 6, 4, 3, 1, 2, 1
+14467, 14547, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+15151, 15359, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+14711, 15430, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14551, 15029, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+14467, 15328, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 3, 3, 3, 0, 0, 0
+15083, 15430, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+14711, 17501, 1, "OK", 3, 59, 16, 16, 12, 4, 3, 0
+15151, 17422, 1, "OK", 4, 47, 15, 15, 11, 4, 3, 0
+16258, 17422, 1, "OK", 5, 25, 10, 10, 6, 4, 3, 0
+14467, 15850, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 6, 6, 6, 0, 0, 0
+15332, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+14247, 17562, 0, "Compilation unit does not compile after method extraction.", 3, 72, 17, 17, 13, 4, 3, 0
+15083, 17501, 1, "OK", 3, 50, 15, 15, 11, 4, 3, 0
+14746, 15147, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile boolean canExec", 0, 0, 1, 1, 1, 0, 0, 0
+15405, 17501, 1, "OK", 4, 43, 14, 14, 10, 4, 3, 0
+15332, 15923, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+16425, 16871, 1, "OK", 3, 8, 6, 4, 3, 1, 2, 1
+14467, 15359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 3, 3, 3, 0, 0, 0
+14746, 15923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+16034, 16185, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+15151, 15923, 1, "OK", 3, 14, 4, 4, 4, 0, 0, 0
+15434, 15850, 1, "OK", 2, 6, 3, 3, 3, 0, 0, 0
+15854, 17422, 1, "OK", 4, 34, 11, 11, 7, 4, 3, 0
+14746, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles", 0, 0, 6, 6, 6, 0, 0, 0
+16190, 17501, 1, "OK", 4, 28, 10, 10, 6, 4, 3, 0
+14746, 15430, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14467, 17422, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 17, 17, 13, 4, 3, 0
+15151, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+14551, 15328, 1, "OK", 2, 16, 2, 2, 2, 0, 0, 0
+14711, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles String roleName", 0, 0, 6, 6, 6, 0, 0, 0
+14551, 15850, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+15083, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles String roleName", 0, 0, 5, 5, 5, 0, 0, 0
+15405, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles String roleName", 0, 0, 4, 4, 4, 0, 0, 0
+16034, 17501, 1, "OK", 4, 33, 11, 11, 7, 4, 3, 0
+15332, 17501, 1, "OK", 3, 45, 14, 14, 10, 4, 3, 0
+15151, 15430, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+15434, 17422, 1, "OK", 4, 40, 14, 14, 10, 4, 3, 0
+14746, 17501, 1, "OK", 4, 58, 16, 16, 12, 4, 3, 0
+15151, 17501, 1, "OK", 4, 49, 15, 15, 11, 4, 3, 0
+15854, 16185, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+14467, 15147, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+14551, 15359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14467, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles", 0, 0, 7, 7, 7, 0, 0, 0
+17169, 17416, 1, "OK", 5, 6, 2, 1, 1, 0, 1, 1
+14467, 15923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 6, 6, 6, 0, 0, 0
+14711, 15029, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+16034, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters String roleName", 0, 0, 1, 1, 1, 0, 0, 0
+16258, 17501, 1, "OK", 5, 27, 10, 10, 6, 4, 3, 0
+15332, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles String roleName", 0, 0, 4, 4, 4, 0, 0, 0
+14551, 17422, 1, "OK", 3, 59, 16, 16, 12, 4, 3, 0
+14357, 17562, 0, "Compilation unit does not compile after method extraction.", 3, 71, 17, 17, 13, 4, 3, 0
+14746, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters IEngUserProfile profile List correctRoles String roleName", 0, 0, 6, 6, 6, 0, 0, 0
+14467, 15430, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile Integer id", 0, 0, 3, 3, 3, 0, 0, 0
+15434, 15923, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+14551, 15147, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile boolean canExec", 0, 0, 1, 1, 1, 0, 0, 0
+14467, 14676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+15151, 16254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles String roleName", 0, 0, 5, 5, 5, 0, 0, 0
+15434, 16185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, ?> parameters List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+15854, 17501, 1, "OK", 4, 36, 11, 11, 7, 4, 3, 0
+14551, 15923, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List correctRoles", 0, 0, 5, 5, 5, 0, 0, 0
+14467, 17501, 0, "Compilation unit does not compile after method extraction.", 3, 65, 17, 17, 13, 4, 3, 0

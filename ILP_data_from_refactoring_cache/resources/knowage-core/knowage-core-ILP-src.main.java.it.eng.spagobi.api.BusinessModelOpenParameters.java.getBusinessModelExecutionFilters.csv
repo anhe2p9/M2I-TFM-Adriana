@@ -1,0 +1,700 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+22021, 26029, 1, "OK", 2, 93, 77, 62, 23, 39, 15, 1
+29965, 31673, 1, "OK", 3, 37, 15, 10, 8, 2, 5, 1
+26034, 31673, 1, "OK", 5, 125, 87, 66, 35, 31, 21, 1
+31725, 32404, 1, "OK", 3, 25, 14, 14, 8, 6, 3, 0
+22610, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+31964, 32157, 1, "OK", 2, 7, 8, 4, 3, 1, 2, 2
+21894, 29961, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+22326, 29882, 1, "OK", 5, 176, 149, 118, 50, 68, 31, 1
+22537, 31532, 1, "OK", 5, 205, 161, 126, 56, 70, 35, 1
+28394, 30187, 1, "OK", 6, 42, 49, 39, 14, 25, 10, 1
+21950, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+20063, 32471, 1, "OK", 1, 283, 180, 180, 68, 112, 39, 0
+20040, 20899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role", 0, 0, 1, 1, 1, 0, 0, 0
+26362, 27667, 1, "OK", 4, 21, 15, 9, 9, 0, 3, 2
+23238, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+21243, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 165, 165, 59, 106, 36, 0
+20519, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+22961, 31717, 1, "OK", 6, 206, 164, 128, 58, 70, 36, 1
+27709, 29961, 1, "OK", 5, 55, 54, 42, 16, 26, 12, 1
+20473, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+22096, 29882, 1, "OK", 5, 180, 149, 118, 50, 68, 31, 1
+22268, 31717, 1, "OK", 6, 216, 164, 128, 58, 70, 36, 1
+22155, 28050, 1, "OK", 5, 134, 100, 79, 36, 43, 21, 1
+22021, 26066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 77, 62, 23, 39, 15, 1
+23346, 25952, 1, "OK", 3, 68, 75, 47, 22, 25, 14, 2
+20040, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+26267, 27548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov ArrayList<HashMap<String, Object>> admissibleValues Object values", 0, 0, 11, 7, 7, 0, 2, 2
+20727, 21115, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+31725, 32428, 1, "OK", 3, 27, 14, 14, 8, 6, 3, 0
+23062, 31673, 1, "OK", 5, 203, 164, 128, 58, 70, 36, 1
+20063, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+22462, 29813, 1, "OK", 5, 172, 149, 118, 50, 68, 31, 1
+22691, 29882, 1, "OK", 5, 171, 149, 118, 50, 68, 31, 1
+20727, 32404, 1, "OK", 5, 270, 180, 180, 68, 112, 39, 0
+29965, 31717, 1, "OK", 4, 38, 15, 10, 8, 2, 5, 1
+32032, 32151, 1, "OK", 2, 4, 5, 2, 2, 0, 1, 3
+26034, 31717, 1, "OK", 6, 126, 87, 66, 35, 31, 21, 1
+22889, 29882, 1, "OK", 5, 168, 149, 118, 50, 68, 31, 1
+20643, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+22823, 29882, 1, "OK", 5, 169, 149, 118, 50, 68, 31, 1
+22961, 27673, 1, "OK", 3, 111, 95, 76, 34, 42, 19, 1
+30048, 30187, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+20151, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+22389, 30044, 1, "OK", 5, 177, 149, 118, 50, 68, 31, 1
+31725, 32471, 1, "OK", 3, 28, 14, 14, 8, 6, 3, 0
+28729, 29086, 1, "OK", 3, 11, 19, 7, 5, 2, 3, 4
+22155, 26029, 1, "OK", 3, 91, 77, 62, 23, 39, 15, 1
+26096, 29813, 1, "OK", 6, 82, 72, 56, 27, 29, 16, 1
+22755, 29961, 1, "OK", 5, 171, 149, 118, 50, 68, 31, 1
+30264, 31673, 1, "OK", 3, 33, 13, 9, 7, 2, 4, 1
+22021, 30187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 151, 119, 51, 68, 32, 1
+25530, 25850, 1, "OK", 3, 7, 9, 3, 3, 0, 2, 3
+26362, 26684, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+22268, 27673, 1, "OK", 3, 121, 95, 76, 34, 42, 19, 1
+30715, 31029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parLab String useModLab", 0, 0, 7, 3, 3, 0, 2, 2
+24162, 24255, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+20727, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+26802, 27398, 1, "OK", 4, 8, 7, 5, 5, 0, 1, 2
+23062, 31717, 1, "OK", 6, 204, 164, 128, 58, 70, 36, 1
+20727, 32428, 1, "OK", 5, 272, 180, 180, 68, 112, 39, 0
+21894, 30044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+21047, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 165, 165, 59, 106, 36, 0
+27553, 27667, 1, "OK", 2, 3, 4, 2, 2, 0, 1, 2
+22326, 29961, 1, "OK", 5, 177, 149, 118, 50, 68, 31, 1
+30264, 31717, 1, "OK", 4, 34, 13, 9, 7, 2, 4, 1
+22155, 26066, 1, "OK", 3, 93, 77, 62, 23, 39, 15, 1
+26034, 27673, 1, "OK", 3, 31, 18, 14, 11, 3, 4, 1
+23647, 23852, 1, "OK", 1, 4, 5, 2, 2, 0, 1, 3
+22212, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+28697, 29086, 1, "OK", 2, 12, 19, 7, 5, 2, 3, 4
+25530, 25887, 1, "OK", 4, 8, 9, 3, 3, 0, 2, 3
+20519, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+22096, 29961, 1, "OK", 5, 181, 149, 118, 50, 68, 31, 1
+22021, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+28251, 31673, 1, "OK", 6, 79, 64, 49, 22, 27, 15, 1
+22389, 28050, 1, "OK", 5, 130, 100, 79, 36, 43, 21, 1
+22462, 29882, 1, "OK", 5, 174, 149, 118, 50, 68, 31, 1
+25403, 25743, 1, "OK", 3, 7, 9, 3, 3, 0, 2, 3
+21689, 32328, 1, "OK", 7, 250, 179, 179, 67, 112, 39, 0
+29818, 30187, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+23346, 26024, 1, "OK", 3, 69, 75, 47, 22, 25, 14, 2
+26267, 26604, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+28729, 29128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+23714, 23852, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+20473, 20899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role", 0, 0, 1, 1, 1, 0, 0, 0
+30715, 31079, 1, "OK", 1, 5, 7, 3, 3, 0, 2, 2
+20473, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+21894, 28050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 100, 79, 36, 43, 21, 1
+26096, 29882, 1, "OK", 6, 84, 72, 56, 27, 29, 16, 1
+22823, 29961, 1, "OK", 5, 170, 149, 118, 50, 68, 31, 1
+22889, 29961, 1, "OK", 5, 169, 149, 118, 50, 68, 31, 1
+20727, 32471, 1, "OK", 5, 273, 180, 180, 68, 112, 39, 0
+22155, 30187, 1, "OK", 5, 182, 151, 119, 51, 68, 32, 1
+22691, 29961, 1, "OK", 5, 172, 149, 118, 50, 68, 31, 1
+27709, 30044, 1, "OK", 5, 56, 54, 42, 16, 26, 12, 1
+23062, 27673, 1, "OK", 3, 109, 95, 76, 34, 42, 19, 1
+22755, 30044, 1, "OK", 5, 172, 149, 118, 50, 68, 31, 1
+22389, 26029, 1, "OK", 3, 87, 77, 62, 23, 39, 15, 1
+26267, 27667, 1, "OK", 3, 23, 15, 9, 9, 0, 3, 2
+28729, 29167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+22537, 31673, 1, "OK", 5, 211, 164, 128, 58, 70, 36, 1
+20063, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+21525, 32328, 1, "OK", 6, 252, 179, 179, 67, 112, 39, 0
+28697, 29128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+22610, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+29886, 30187, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+21894, 26029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 77, 62, 23, 39, 15, 1
+21950, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22212, 31532, 1, "OK", 5, 210, 161, 126, 56, 70, 35, 1
+29273, 29732, 1, "OK", 3, 11, 17, 5, 3, 2, 3, 4
+28251, 31717, 1, "OK", 7, 80, 64, 49, 22, 27, 15, 1
+29372, 29732, 1, "OK", 3, 9, 17, 5, 3, 2, 3, 4
+30557, 30885, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+20727, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+20151, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+23238, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22326, 30044, 1, "OK", 5, 178, 149, 118, 50, 68, 31, 1
+22961, 29813, 1, "OK", 5, 165, 149, 118, 50, 68, 31, 1
+30715, 31129, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+22268, 29813, 1, "OK", 5, 175, 149, 118, 50, 68, 31, 1
+22389, 26066, 1, "OK", 3, 89, 77, 62, 23, 39, 15, 1
+21689, 32404, 1, "OK", 7, 252, 179, 179, 67, 112, 39, 0
+22537, 31717, 1, "OK", 6, 212, 164, 128, 58, 70, 36, 1
+26362, 26797, 1, "OK", 3, 7, 4, 2, 2, 0, 1, 2
+22021, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+28697, 29167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+27709, 28050, 1, "OK", 4, 9, 5, 3, 2, 1, 2, 1
+32069, 32151, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+29539, 29682, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5
+22155, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+24162, 24362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr", 0, 0, 10, 2, 2, 0, 2, 4
+21894, 26066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 77, 62, 23, 39, 15, 1
+22096, 30044, 1, "OK", 5, 182, 149, 118, 50, 68, 31, 1
+22462, 29961, 1, "OK", 5, 175, 149, 118, 50, 68, 31, 1
+20040, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+26034, 29813, 1, "OK", 5, 85, 72, 56, 27, 29, 16, 1
+28729, 29212, 1, "OK", 3, 14, 19, 7, 5, 2, 3, 4
+20643, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+28128, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 2, 1, 1, 0, 1, 1
+26267, 26684, 1, "OK", 2, 8, 4, 2, 2, 0, 1, 2
+20519, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+22610, 31532, 1, "OK", 5, 204, 161, 126, 56, 70, 35, 1
+22691, 30044, 1, "OK", 5, 173, 149, 118, 50, 68, 31, 1
+23940, 24098, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr", 0, 0, 6, 2, 2, 0, 1, 4
+22326, 28050, 1, "OK", 5, 131, 100, 79, 36, 43, 21, 1
+26096, 29961, 1, "OK", 6, 85, 72, 56, 27, 29, 16, 1
+20063, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+29539, 29723, 1, "OK", 3, 4, 6, 1, 1, 0, 1, 5
+22755, 28050, 1, "OK", 5, 125, 100, 79, 36, 43, 21, 1
+22389, 30187, 1, "OK", 5, 178, 151, 119, 51, 68, 32, 1
+22823, 30044, 1, "OK", 5, 171, 149, 118, 50, 68, 31, 1
+21689, 32428, 1, "OK", 7, 254, 179, 179, 67, 112, 39, 0
+22889, 30044, 1, "OK", 5, 170, 149, 118, 50, 68, 31, 1
+22755, 26029, 1, "OK", 2, 82, 77, 62, 23, 39, 15, 1
+22961, 29882, 1, "OK", 5, 167, 149, 118, 50, 68, 31, 1
+28729, 29252, 1, "OK", 4, 15, 19, 7, 5, 2, 3, 4
+21950, 31532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 126, 56, 70, 35, 1
+30427, 30885, 1, "OK", 2, 9, 4, 2, 2, 0, 1, 2
+26802, 27548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+22155, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+21830, 32167, 1, "OK", 5, 241, 177, 177, 65, 112, 39, 0
+21525, 32404, 1, "OK", 6, 254, 179, 179, 67, 112, 39, 0
+28697, 29212, 1, "OK", 2, 15, 19, 7, 5, 2, 3, 4
+23062, 29813, 1, "OK", 5, 163, 149, 118, 50, 68, 31, 1
+21894, 30187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 151, 119, 51, 68, 32, 1
+23238, 31532, 1, "OK", 5, 193, 161, 126, 56, 70, 35, 1
+25403, 25850, 1, "OK", 3, 10, 13, 4, 4, 0, 3, 3
+28195, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object oVals Object oDescr", 0, 0, 2, 1, 1, 0, 1, 1
+21525, 32428, 1, "OK", 6, 256, 179, 179, 67, 112, 39, 0
+22326, 26029, 1, "OK", 3, 88, 77, 62, 23, 39, 15, 1
+22268, 29882, 1, "OK", 5, 177, 149, 118, 50, 68, 31, 1
+21689, 32471, 1, "OK", 7, 255, 179, 179, 67, 112, 39, 0
+32005, 32157, 1, "OK", 2, 6, 8, 4, 3, 1, 2, 2
+20727, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+22537, 27673, 1, "OK", 3, 117, 95, 76, 34, 42, 19, 1
+21335, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 177, 177, 65, 112, 39, 0
+26609, 27398, 1, "OK", 4, 10, 7, 5, 5, 0, 1, 2
+20040, 21115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role HashMap<String, Object> resultAsMap", 0, 0, 1, 1, 1, 0, 0, 0
+22389, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+28128, 31532, 1, "OK", 3, 75, 61, 47, 20, 27, 14, 1
+23388, 25894, 1, "OK", 3, 65, 75, 47, 22, 25, 14, 2
+22889, 28050, 1, "OK", 5, 123, 100, 79, 36, 43, 21, 1
+27709, 30187, 1, "OK", 5, 57, 56, 43, 17, 26, 13, 1
+28697, 29252, 1, "OK", 3, 16, 19, 7, 5, 2, 3, 4
+20040, 32404, 1, "OK", 1, 282, 180, 180, 68, 112, 39, 0
+26034, 29882, 1, "OK", 5, 87, 72, 56, 27, 29, 16, 1
+28516, 29739, 1, "OK", 5, 31, 42, 21, 11, 10, 7, 3
+21119, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 165, 165, 59, 106, 36, 0
+22823, 28050, 1, "OK", 5, 124, 100, 79, 36, 43, 21, 1
+22096, 28050, 1, "OK", 5, 135, 100, 79, 36, 43, 21, 1
+25403, 25887, 1, "OK", 4, 11, 13, 4, 4, 0, 3, 3
+24263, 24362, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+21894, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+22096, 26029, 1, "OK", 3, 92, 77, 62, 23, 39, 15, 1
+22462, 30044, 1, "OK", 5, 176, 149, 118, 50, 68, 31, 1
+22326, 26066, 1, "OK", 3, 90, 77, 62, 23, 39, 15, 1
+22691, 28050, 1, "OK", 5, 126, 100, 79, 36, 43, 21, 1
+22755, 26066, 1, "OK", 2, 84, 77, 62, 23, 39, 15, 1
+22691, 26029, 1, "OK", 2, 83, 77, 62, 23, 39, 15, 1
+26096, 30044, 1, "OK", 6, 86, 72, 56, 27, 29, 16, 1
+20040, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+22755, 30187, 1, "OK", 5, 173, 151, 119, 51, 68, 32, 1
+20151, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+20063, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+28195, 31532, 1, "OK", 4, 74, 61, 47, 20, 27, 14, 1
+21525, 32471, 1, "OK", 6, 257, 179, 179, 67, 112, 39, 0
+20643, 20899, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+20040, 32428, 1, "OK", 1, 284, 180, 180, 68, 112, 39, 0
+22823, 26029, 1, "OK", 2, 81, 77, 62, 23, 39, 15, 1
+22889, 26029, 1, "OK", 2, 80, 77, 62, 23, 39, 15, 1
+23062, 29882, 1, "OK", 5, 165, 149, 118, 50, 68, 31, 1
+20643, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+22961, 29961, 1, "OK", 5, 168, 149, 118, 50, 68, 31, 1
+28251, 29813, 1, "OK", 5, 39, 49, 39, 14, 25, 10, 1
+30557, 31029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parLab String useModLab", 0, 0, 7, 3, 3, 0, 2, 2
+20473, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+20519, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+22212, 31673, 1, "OK", 5, 216, 164, 128, 58, 70, 36, 1
+22326, 30187, 1, "OK", 5, 179, 151, 119, 51, 68, 32, 1
+26362, 26922, 1, "OK", 3, 8, 4, 2, 2, 0, 1, 2
+26267, 26797, 1, "OK", 2, 9, 4, 2, 2, 0, 1, 2
+27495, 27667, 1, "OK", 2, 4, 4, 2, 2, 0, 1, 2
+22889, 26066, 1, "OK", 2, 82, 77, 62, 23, 39, 15, 1
+22268, 29961, 1, "OK", 5, 178, 149, 118, 50, 68, 31, 1
+22537, 29813, 1, "OK", 5, 171, 149, 118, 50, 68, 31, 1
+22823, 26066, 1, "OK", 2, 83, 77, 62, 23, 39, 15, 1
+22389, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+22096, 26066, 1, "OK", 3, 94, 77, 62, 23, 39, 15, 1
+28516, 29802, 1, "OK", 6, 32, 42, 21, 11, 10, 7, 3
+22021, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+20727, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+27709, 28191, 1, "OK", 4, 12, 5, 3, 2, 1, 2, 1
+28394, 31532, 1, "OK", 6, 71, 59, 46, 19, 27, 13, 1
+23388, 25952, 1, "OK", 4, 67, 75, 47, 22, 25, 14, 2
+23555, 25894, 1, "OK", 5, 62, 75, 47, 22, 25, 14, 2
+31908, 32163, 1, "OK", 2, 10, 11, 8, 5, 3, 3, 1
+26034, 29961, 1, "OK", 5, 88, 72, 56, 27, 29, 16, 1
+22096, 30187, 1, "OK", 5, 183, 151, 119, 51, 68, 32, 1
+22755, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+21894, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+20040, 32471, 1, "OK", 1, 285, 180, 180, 68, 112, 39, 0
+21173, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 177, 177, 65, 112, 39, 0
+22691, 26066, 1, "OK", 2, 85, 77, 62, 23, 39, 15, 1
+24507, 25073, 1, "OK", 5, 16, 28, 12, 8, 4, 4, 4
+22462, 28050, 1, "OK", 5, 129, 100, 79, 36, 43, 21, 1
+22326, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+22691, 30187, 1, "OK", 5, 174, 151, 119, 51, 68, 32, 1
+22610, 31673, 1, "OK", 5, 210, 164, 128, 58, 70, 36, 1
+30557, 31079, 1, "OK", 2, 9, 7, 3, 3, 0, 2, 2
+22889, 30187, 1, "OK", 5, 171, 151, 119, 51, 68, 32, 1
+20473, 21115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role HashMap<String, Object> resultAsMap", 0, 0, 1, 1, 1, 0, 0, 0
+22212, 31717, 1, "OK", 6, 217, 164, 128, 58, 70, 36, 1
+22823, 30187, 1, "OK", 5, 172, 151, 119, 51, 68, 32, 1
+21603, 32167, 1, "OK", 6, 243, 177, 177, 65, 112, 39, 0
+26096, 28050, 1, "OK", 6, 39, 23, 17, 13, 4, 6, 1
+26802, 27667, 1, "OK", 4, 14, 11, 7, 7, 0, 2, 2
+22155, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+23555, 25952, 1, "OK", 6, 64, 75, 47, 22, 25, 14, 2
+30427, 31029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parLab String useModLab", 0, 0, 7, 3, 3, 0, 2, 2
+20473, 32404, 1, "OK", 3, 274, 180, 180, 68, 112, 39, 0
+21950, 31673, 1, "OK", 5, 221, 164, 128, 58, 70, 36, 1
+27709, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultValuesList parameterValueList Object oVals", 0, 0, 5, 3, 2, 1, 2, 1
+20040, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+24579, 24920, 1, "OK", 2, 9, 14, 4, 3, 1, 2, 5
+22462, 26029, 1, "OK", 3, 86, 77, 62, 23, 39, 15, 1
+23062, 29961, 1, "OK", 5, 166, 149, 118, 50, 68, 31, 1
+23238, 31673, 1, "OK", 5, 199, 164, 128, 58, 70, 36, 1
+26609, 27548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+22021, 31532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 126, 56, 70, 35, 1
+30048, 31532, 1, "OK", 2, 30, 12, 8, 6, 2, 4, 1
+28419, 29808, 1, "OK", 6, 35, 45, 29, 12, 17, 8, 2
+30890, 31029, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+20151, 20899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role", 0, 0, 1, 1, 1, 0, 0, 0
+23388, 26024, 1, "OK", 4, 68, 75, 47, 22, 25, 14, 2
+22961, 30044, 1, "OK", 5, 169, 149, 118, 50, 68, 31, 1
+21830, 32328, 1, "OK", 6, 249, 179, 179, 67, 112, 39, 0
+28251, 29882, 1, "OK", 5, 41, 49, 39, 14, 25, 10, 1
+20473, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+22823, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+30557, 31129, 1, "OK", 2, 11, 7, 3, 3, 0, 2, 2
+22691, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+28128, 31673, 1, "OK", 4, 81, 64, 49, 22, 27, 15, 1
+21335, 32328, 1, "OK", 6, 256, 179, 179, 67, 112, 39, 0
+22537, 29882, 1, "OK", 5, 173, 149, 118, 50, 68, 31, 1
+23940, 25301, 1, "OK", 6, 35, 49, 17, 13, 4, 8, 4
+22096, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+20151, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+22212, 27673, 1, "OK", 3, 122, 95, 76, 34, 42, 19, 1
+22889, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+20473, 32428, 1, "OK", 3, 276, 180, 180, 68, 112, 39, 0
+20727, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+22462, 26066, 1, "OK", 3, 88, 77, 62, 23, 39, 15, 1
+22755, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+22610, 31717, 1, "OK", 6, 211, 164, 128, 58, 70, 36, 1
+21950, 31717, 1, "OK", 6, 222, 164, 128, 58, 70, 36, 1
+30427, 31079, 1, "OK", 2, 11, 7, 3, 3, 0, 2, 2
+22462, 30187, 1, "OK", 5, 177, 151, 119, 51, 68, 32, 1
+26034, 30044, 1, "OK", 5, 89, 72, 56, 27, 29, 16, 1
+24106, 25301, 1, "OK", 5, 31, 43, 15, 11, 4, 7, 4
+22326, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+22268, 30044, 1, "OK", 5, 179, 149, 118, 50, 68, 31, 1
+20063, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+23238, 31717, 1, "OK", 6, 200, 164, 128, 58, 70, 36, 1
+26096, 30187, 1, "OK", 6, 87, 74, 57, 28, 29, 17, 1
+32171, 32328, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+30890, 31079, 1, "OK", 2, 2, 3, 1, 1, 0, 1, 2
+20473, 32471, 1, "OK", 3, 277, 180, 180, 68, 112, 39, 0
+20519, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+28195, 31673, 1, "OK", 5, 80, 64, 49, 22, 27, 15, 1
+26267, 26922, 1, "OK", 2, 10, 4, 2, 2, 0, 1, 2
+29818, 31532, 1, "OK", 2, 33, 12, 8, 6, 2, 4, 1
+22096, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+28251, 29961, 1, "OK", 5, 42, 49, 39, 14, 25, 10, 1
+22610, 27673, 1, "OK", 3, 116, 95, 76, 34, 42, 19, 1
+22889, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+20040, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+21830, 32404, 1, "OK", 6, 251, 179, 179, 67, 112, 39, 0
+21243, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 177, 177, 65, 112, 39, 0
+22155, 31532, 1, "OK", 5, 211, 161, 126, 56, 70, 35, 1
+23460, 25894, 1, "OK", 4, 64, 75, 47, 22, 25, 14, 2
+22961, 28050, 1, "OK", 5, 122, 100, 79, 36, 43, 21, 1
+25579, 25743, 1, "OK", 2, 2, 5, 2, 2, 0, 1, 3
+28128, 31717, 1, "OK", 5, 82, 64, 49, 22, 27, 15, 1
+20643, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+23062, 30044, 1, "OK", 5, 167, 149, 118, 50, 68, 31, 1
+23555, 26024, 1, "OK", 6, 65, 75, 47, 22, 25, 14, 2
+30427, 31129, 1, "OK", 2, 13, 7, 3, 3, 0, 2, 2
+21335, 32404, 1, "OK", 6, 258, 179, 179, 67, 112, 39, 0
+21950, 27673, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 95, 76, 34, 42, 19, 1
+22961, 26029, 1, "OK", 2, 79, 77, 62, 23, 39, 15, 1
+22389, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22823, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+22268, 28050, 1, "OK", 5, 132, 100, 79, 36, 43, 21, 1
+28394, 31673, 1, "OK", 7, 77, 62, 48, 21, 27, 14, 1
+22691, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+23238, 27673, 1, "OK", 3, 105, 95, 76, 34, 42, 19, 1
+29422, 29531, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr", 0, 0, 6, 1, 1, 0, 1, 5
+29886, 31532, 1, "OK", 2, 32, 12, 8, 6, 2, 4, 1
+22462, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+20473, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+21894, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22537, 29961, 1, "OK", 5, 174, 149, 118, 50, 68, 31, 1
+29582, 29682, 1, "OK", 3, 2, 6, 1, 1, 0, 1, 5
+21830, 32428, 1, "OK", 6, 253, 179, 179, 67, 112, 39, 0
+26034, 28050, 1, "OK", 5, 42, 23, 17, 13, 4, 6, 1
+28195, 31717, 1, "OK", 6, 81, 64, 49, 22, 27, 15, 1
+20063, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+28394, 31717, 1, "OK", 8, 78, 62, 48, 21, 27, 14, 1
+20643, 21115, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+23062, 28050, 1, "OK", 5, 120, 100, 79, 36, 43, 21, 1
+23460, 25952, 1, "OK", 5, 66, 75, 47, 22, 25, 14, 2
+22212, 29813, 1, "OK", 5, 176, 149, 118, 50, 68, 31, 1
+22268, 26029, 1, "OK", 3, 89, 77, 62, 23, 39, 15, 1
+21335, 32428, 1, "OK", 6, 260, 179, 179, 67, 112, 39, 0
+26096, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 23, 17, 13, 4, 6, 1
+21173, 32328, 1, "OK", 6, 259, 179, 179, 67, 112, 39, 0
+30890, 31129, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+20727, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+29582, 29723, 1, "OK", 4, 3, 6, 1, 1, 0, 1, 5
+27709, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 7, 4, 3, 1, 3, 1
+32171, 32404, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+22961, 26066, 1, "OK", 2, 81, 77, 62, 23, 39, 15, 1
+21603, 32328, 1, "OK", 7, 251, 179, 179, 67, 112, 39, 0
+26609, 27667, 1, "OK", 4, 16, 11, 7, 7, 0, 2, 2
+28779, 29002, 1, "OK", 4, 6, 8, 3, 3, 0, 1, 5
+22961, 30187, 1, "OK", 5, 170, 151, 119, 51, 68, 32, 1
+22462, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+22389, 31532, 1, "OK", 5, 207, 161, 126, 56, 70, 35, 1
+23062, 26029, 1, "OK", 2, 77, 77, 62, 23, 39, 15, 1
+30048, 31673, 1, "OK", 3, 36, 15, 10, 8, 2, 5, 1
+23647, 25308, 1, "OK", 5, 44, 58, 28, 16, 12, 10, 3
+20519, 20899, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+29422, 29574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+20643, 32404, 1, "OK", 5, 271, 180, 180, 68, 112, 39, 0
+21689, 31722, 1, "OK", 6, 227, 165, 165, 59, 106, 36, 0
+21830, 32471, 1, "OK", 6, 254, 179, 179, 67, 112, 39, 0
+21047, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 177, 177, 65, 112, 39, 0
+20040, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+22268, 26066, 1, "OK", 3, 91, 77, 62, 23, 39, 15, 1
+22021, 31673, 1, "OK", 4, 219, 164, 128, 58, 70, 36, 1
+23983, 24098, 1, "OK", 3, 1, 6, 2, 2, 0, 1, 4
+20643, 32428, 1, "OK", 5, 273, 180, 180, 68, 112, 39, 0
+26096, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 23, 17, 13, 4, 6, 1
+22755, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+20519, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+21335, 32471, 1, "OK", 6, 261, 179, 179, 67, 112, 39, 0
+29617, 29682, 1, "OK", 3, 1, 6, 1, 1, 0, 1, 5
+32171, 32428, 1, "OK", 3, 11, 2, 2, 2, 0, 0, 0
+21894, 31532, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 126, 56, 70, 35, 1
+22610, 29813, 1, "OK", 5, 170, 149, 118, 50, 68, 31, 1
+28251, 30044, 1, "OK", 5, 43, 49, 39, 14, 25, 10, 1
+23714, 25308, 1, "OK", 6, 43, 58, 28, 16, 12, 10, 3
+20473, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+29965, 30187, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+21950, 29813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+29422, 29609, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+31784, 32163, 1, "OK", 2, 12, 11, 8, 5, 3, 3, 1
+23062, 26066, 1, "OK", 2, 79, 77, 62, 23, 39, 15, 1
+26034, 30187, 1, "OK", 5, 90, 74, 57, 28, 29, 17, 1
+20151, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+20643, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+22268, 30187, 1, "OK", 5, 180, 151, 119, 51, 68, 32, 1
+22326, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+23238, 29813, 1, "OK", 5, 159, 149, 118, 50, 68, 31, 1
+21525, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 165, 165, 59, 106, 36, 0
+25579, 25850, 1, "OK", 2, 5, 9, 3, 3, 0, 2, 3
+22212, 29882, 1, "OK", 5, 178, 149, 118, 50, 68, 31, 1
+24945, 25025, 1, "OK", 2, 2, 7, 2, 2, 0, 1, 5
+22537, 30044, 1, "OK", 5, 175, 149, 118, 50, 68, 31, 1
+32171, 32471, 1, "OK", 3, 12, 2, 2, 2, 0, 0, 0
+28779, 29078, 1, "OK", 4, 9, 14, 4, 4, 0, 2, 5
+30715, 31527, 1, "OK", 2, 18, 7, 3, 3, 0, 2, 2
+22961, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+22155, 31673, 1, "OK", 5, 217, 164, 128, 58, 70, 36, 1
+29617, 29723, 1, "OK", 4, 2, 6, 1, 1, 0, 1, 5
+30048, 31717, 1, "OK", 4, 37, 15, 10, 8, 2, 5, 1
+21173, 32404, 1, "OK", 6, 261, 179, 179, 67, 112, 39, 0
+23596, 23852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> valuesList List<String> descriptionList", 0, 0, 5, 2, 2, 0, 1, 3
+22021, 31717, 1, "OK", 5, 220, 164, 128, 58, 70, 36, 1
+29010, 29078, 1, "OK", 3, 3, 6, 1, 1, 0, 1, 5
+29818, 31673, 1, "OK", 3, 39, 15, 10, 8, 2, 5, 1
+23460, 26024, 1, "OK", 5, 67, 75, 47, 22, 25, 14, 2
+21173, 32428, 1, "OK", 6, 263, 179, 179, 67, 112, 39, 0
+27017, 27398, 1, "OK", 3, 5, 7, 5, 5, 0, 1, 2
+22823, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22889, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+21603, 32404, 1, "OK", 7, 253, 179, 179, 67, 112, 39, 0
+25579, 25887, 1, "OK", 3, 6, 9, 3, 3, 0, 2, 3
+28128, 29813, 1, "OK", 3, 41, 49, 39, 14, 25, 10, 1
+24945, 25063, 1, "OK", 4, 3, 7, 2, 2, 0, 1, 5
+22096, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+23062, 30187, 1, "OK", 5, 168, 151, 119, 51, 68, 32, 1
+27709, 31532, 1, "OK", 5, 86, 66, 50, 22, 28, 16, 1
+20643, 32471, 1, "OK", 5, 274, 180, 180, 68, 112, 39, 0
+21603, 32428, 1, "OK", 7, 255, 179, 179, 67, 112, 39, 0
+22537, 28050, 1, "OK", 5, 128, 100, 79, 36, 43, 21, 1
+22755, 31532, 1, "OK", 5, 202, 161, 126, 56, 70, 35, 1
+22610, 29882, 1, "OK", 5, 172, 149, 118, 50, 68, 31, 1
+26034, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 23, 17, 13, 4, 6, 1
+29818, 31717, 1, "OK", 4, 40, 15, 10, 8, 2, 5, 1
+21243, 32328, 1, "OK", 7, 258, 179, 179, 67, 112, 39, 0
+31537, 31673, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+22691, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+20040, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+20727, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+20151, 21115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role HashMap<String, Object> resultAsMap", 0, 0, 1, 1, 1, 0, 0, 0
+22268, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+24786, 24909, 1, "OK", 3, 3, 8, 2, 2, 0, 1, 6
+22155, 31717, 1, "OK", 6, 218, 164, 128, 58, 70, 36, 1
+29886, 31673, 1, "OK", 3, 38, 15, 10, 8, 2, 5, 1
+29321, 29732, 1, "OK", 3, 10, 17, 5, 3, 2, 3, 4
+20151, 32404, 1, "OK", 2, 279, 180, 180, 68, 112, 39, 0
+21950, 29882, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+20643, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+22326, 31532, 1, "OK", 5, 208, 161, 126, 56, 70, 35, 1
+23238, 29882, 1, "OK", 5, 161, 149, 118, 50, 68, 31, 1
+28195, 29813, 1, "OK", 4, 40, 49, 39, 14, 25, 10, 1
+22021, 27673, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 95, 76, 34, 42, 19, 1
+23062, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+28394, 29813, 1, "OK", 6, 37, 47, 38, 13, 25, 9, 1
+21173, 32471, 1, "OK", 6, 264, 179, 179, 67, 112, 39, 0
+29422, 29682, 1, "OK", 3, 5, 12, 2, 2, 0, 2, 5
+20063, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+22212, 29961, 1, "OK", 5, 179, 149, 118, 50, 68, 31, 1
+22961, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+20473, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+22537, 26029, 1, "OK", 2, 85, 77, 62, 23, 39, 15, 1
+20151, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+22268, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+28128, 29882, 1, "OK", 3, 43, 49, 39, 14, 25, 10, 1
+22096, 31532, 1, "OK", 5, 212, 161, 126, 56, 70, 35, 1
+28649, 29086, 1, "OK", 2, 13, 19, 7, 5, 2, 3, 4
+31537, 31717, 1, "OK", 3, 6, 3, 2, 2, 0, 1, 1
+20151, 32428, 1, "OK", 2, 281, 180, 180, 68, 112, 39, 0
+21603, 32471, 1, "OK", 7, 256, 179, 179, 67, 112, 39, 0
+29422, 29723, 1, "OK", 4, 6, 12, 2, 2, 0, 2, 5
+22537, 26066, 1, "OK", 2, 87, 77, 62, 23, 39, 15, 1
+22691, 31532, 1, "OK", 5, 203, 161, 126, 56, 70, 35, 1
+22462, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22155, 27673, 1, "OK", 3, 123, 95, 76, 34, 42, 19, 1
+29886, 31717, 1, "OK", 4, 39, 15, 10, 8, 2, 5, 1
+26034, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 23, 17, 13, 4, 6, 1
+26689, 27398, 1, "OK", 4, 9, 7, 5, 5, 0, 1, 2
+22823, 31532, 1, "OK", 5, 201, 161, 126, 56, 70, 35, 1
+22389, 31673, 1, "OK", 5, 213, 164, 128, 58, 70, 36, 1
+22889, 31532, 1, "OK", 5, 200, 161, 126, 56, 70, 35, 1
+21243, 32404, 1, "OK", 7, 260, 179, 179, 67, 112, 39, 0
+22610, 29961, 1, "OK", 5, 173, 149, 118, 50, 68, 31, 1
+28195, 29882, 1, "OK", 4, 42, 49, 39, 14, 25, 10, 1
+21047, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 179, 179, 67, 112, 39, 0
+26096, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 25, 18, 14, 4, 7, 1
+28251, 30187, 1, "OK", 5, 44, 51, 40, 15, 25, 11, 1
+21894, 31673, 1, "OK", 4, 222, 164, 128, 58, 70, 36, 1
+21119, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 177, 177, 65, 112, 39, 0
+21950, 29961, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+20519, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+22537, 30187, 1, "OK", 5, 176, 151, 119, 51, 68, 32, 1
+29462, 29531, 1, "OK", 3, 1, 6, 1, 1, 0, 1, 5
+23062, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+25749, 25850, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+20151, 32471, 1, "OK", 2, 282, 180, 180, 68, 112, 39, 0
+23983, 25301, 1, "OK", 6, 33, 49, 17, 13, 4, 8, 4
+28649, 29128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+23238, 29961, 1, "OK", 5, 162, 149, 118, 50, 68, 31, 1
+20040, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+27709, 31673, 1, "OK", 6, 92, 69, 52, 24, 28, 17, 1
+22212, 30044, 1, "OK", 5, 180, 149, 118, 50, 68, 31, 1
+23304, 25894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List paramValueLst Object paramDescriptionValues", 0, 0, 75, 47, 22, 25, 14, 2
+28819, 29002, 1, "OK", 3, 5, 8, 3, 3, 0, 1, 5
+20473, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+21243, 32428, 1, "OK", 7, 262, 179, 179, 67, 112, 39, 0
+22389, 31717, 1, "OK", 6, 214, 164, 128, 58, 70, 36, 1
+20643, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+22021, 29813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+28394, 29882, 1, "OK", 6, 39, 47, 38, 13, 25, 9, 1
+20063, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+22462, 31532, 1, "OK", 5, 206, 161, 126, 56, 70, 35, 1
+20727, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+28128, 29961, 1, "OK", 3, 44, 49, 39, 14, 25, 10, 1
+25749, 25887, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+28649, 29167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+21894, 31717, 1, "OK", 5, 223, 164, 128, 58, 70, 36, 1
+20151, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+24690, 24920, 1, "OK", 3, 7, 14, 4, 3, 1, 2, 5
+20063, 20899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role", 0, 0, 1, 1, 1, 0, 0, 0
+26096, 31532, 1, "OK", 6, 116, 84, 64, 33, 31, 20, 1
+25320, 25894, 1, "OK", 4, 15, 14, 8, 5, 3, 3, 2
+21047, 32404, 1, "OK", 4, 264, 179, 179, 67, 112, 39, 0
+21243, 32471, 1, "OK", 7, 263, 179, 179, 67, 112, 39, 0
+27017, 27548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+22537, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+22755, 31673, 1, "OK", 5, 208, 164, 128, 58, 70, 36, 1
+20519, 21115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap", 0, 0, 1, 1, 1, 0, 0, 0
+29462, 29574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+22610, 30044, 1, "OK", 5, 174, 149, 118, 50, 68, 31, 1
+22155, 29813, 1, "OK", 5, 177, 149, 118, 50, 68, 31, 1
+26362, 27398, 1, "OK", 4, 15, 11, 7, 7, 0, 2, 2
+20519, 32404, 1, "OK", 4, 273, 180, 180, 68, 112, 39, 0
+27709, 31717, 1, "OK", 7, 93, 69, 52, 24, 28, 17, 1
+24625, 24920, 1, "OK", 3, 8, 14, 4, 3, 1, 2, 5
+22212, 28050, 1, "OK", 5, 133, 100, 79, 36, 43, 21, 1
+28195, 29961, 1, "OK", 4, 43, 49, 39, 14, 25, 10, 1
+22389, 27673, 1, "OK", 3, 119, 95, 76, 34, 42, 19, 1
+22326, 31673, 1, "OK", 5, 214, 164, 128, 58, 70, 36, 1
+20643, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+23304, 25952, 1, "OK", 2, 69, 75, 47, 22, 25, 14, 2
+31725, 32167, 1, "OK", 1, 15, 12, 12, 6, 6, 3, 0
+21950, 30044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+28649, 29212, 1, "OK", 2, 16, 19, 7, 5, 2, 3, 4
+29462, 29609, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+21047, 32428, 1, "OK", 4, 266, 179, 179, 67, 112, 39, 0
+22021, 29882, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+23238, 30044, 1, "OK", 5, 163, 149, 118, 50, 68, 31, 1
+21894, 27673, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 95, 76, 34, 42, 19, 1
+22961, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22096, 31673, 1, "OK", 5, 218, 164, 128, 58, 70, 36, 1
+22212, 26029, 1, "OK", 3, 90, 77, 62, 23, 39, 15, 1
+22268, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22537, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+23887, 25308, 1, "OK", 5, 38, 53, 26, 14, 12, 9, 3
+30557, 31527, 1, "OK", 2, 22, 7, 3, 3, 0, 2, 2
+20040, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+20519, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+22755, 31717, 1, "OK", 6, 209, 164, 128, 58, 70, 36, 1
+28819, 29078, 1, "OK", 5, 8, 14, 4, 4, 0, 2, 5
+20519, 32428, 1, "OK", 4, 275, 180, 180, 68, 112, 39, 0
+28394, 29961, 1, "OK", 6, 40, 47, 38, 13, 25, 9, 1
+21830, 31722, 1, "OK", 5, 226, 165, 165, 59, 106, 36, 0
+28128, 30044, 1, "OK", 3, 45, 49, 39, 14, 25, 10, 1
+26689, 27548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+28649, 29252, 1, "OK", 3, 17, 19, 7, 5, 2, 3, 4
+20151, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+22823, 31673, 1, "OK", 5, 207, 164, 128, 58, 70, 36, 1
+26034, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 25, 18, 14, 4, 7, 1
+24825, 24909, 1, "OK", 2, 2, 8, 2, 2, 0, 1, 6
+22889, 31673, 1, "OK", 5, 206, 164, 128, 58, 70, 36, 1
+22326, 31717, 1, "OK", 6, 215, 164, 128, 58, 70, 36, 1
+22691, 31673, 1, "OK", 5, 209, 164, 128, 58, 70, 36, 1
+21335, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 165, 165, 59, 106, 36, 0
+20473, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+22212, 26066, 1, "OK", 3, 92, 77, 62, 23, 39, 15, 1
+23238, 28050, 1, "OK", 5, 116, 100, 79, 36, 43, 21, 1
+20727, 20899, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+22610, 28050, 1, "OK", 5, 127, 100, 79, 36, 43, 21, 1
+21047, 32471, 1, "OK", 4, 267, 179, 179, 67, 112, 39, 0
+29462, 29682, 1, "OK", 3, 4, 12, 2, 2, 0, 2, 5
+22823, 31717, 1, "OK", 6, 208, 164, 128, 58, 70, 36, 1
+22889, 31717, 1, "OK", 6, 207, 164, 128, 58, 70, 36, 1
+22610, 26029, 1, "OK", 2, 84, 77, 62, 23, 39, 15, 1
+22961, 31532, 1, "OK", 5, 199, 161, 126, 56, 70, 35, 1
+28195, 30044, 1, "OK", 4, 44, 49, 39, 14, 25, 10, 1
+22155, 29882, 1, "OK", 5, 179, 149, 118, 50, 68, 31, 1
+20519, 32471, 1, "OK", 4, 276, 180, 180, 68, 112, 39, 0
+20727, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 178, 178, 66, 112, 39, 0
+23062, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22096, 31717, 1, "OK", 6, 219, 164, 128, 58, 70, 36, 1
+22755, 27673, 1, "OK", 3, 114, 95, 76, 34, 42, 19, 1
+31826, 32163, 1, "OK", 1, 11, 11, 8, 5, 3, 3, 1
+21950, 28050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 100, 79, 36, 43, 21, 1
+21119, 32328, 1, "OK", 5, 260, 179, 179, 67, 112, 39, 0
+20643, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+22212, 30187, 1, "OK", 5, 181, 151, 119, 51, 68, 32, 1
+23238, 26029, 1, "OK", 2, 73, 77, 62, 23, 39, 15, 1
+30427, 31527, 1, "OK", 2, 24, 7, 3, 3, 0, 2, 2
+27017, 27667, 1, "OK", 4, 11, 11, 7, 7, 0, 2, 2
+22691, 31717, 1, "OK", 6, 210, 164, 128, 58, 70, 36, 1
+22389, 29813, 1, "OK", 5, 173, 149, 118, 50, 68, 31, 1
+23304, 26024, 1, "OK", 2, 70, 75, 47, 22, 25, 14, 2
+22326, 27673, 1, "OK", 3, 120, 95, 76, 34, 42, 19, 1
+22021, 29961, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+30890, 31527, 1, "OK", 3, 15, 3, 1, 1, 0, 1, 2
+22462, 31673, 1, "OK", 5, 212, 164, 128, 58, 70, 36, 1
+26034, 31532, 1, "OK", 5, 119, 84, 64, 33, 31, 20, 1
+20519, 21240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao IParameterUseDAO parameterUseDAO", 0, 0, 1, 1, 1, 0, 0, 0
+21894, 29813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+21950, 26029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 77, 62, 23, 39, 15, 1
+22268, 31532, 1, "OK", 5, 209, 161, 126, 56, 70, 35, 1
+28394, 30044, 1, "OK", 6, 41, 47, 38, 13, 25, 9, 1
+22096, 27673, 1, "OK", 3, 124, 95, 76, 34, 42, 19, 1
+26267, 27398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov ArrayList<HashMap<String, Object>> admissibleValues", 0, 0, 11, 7, 7, 0, 2, 2
+20063, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+23238, 26066, 1, "OK", 2, 75, 77, 62, 23, 39, 15, 1
+26096, 31673, 1, "OK", 6, 122, 87, 66, 35, 31, 21, 1
+29462, 29723, 1, "OK", 4, 5, 12, 2, 2, 0, 2, 5
+22610, 26066, 1, "OK", 2, 86, 77, 62, 23, 39, 15, 1
+29965, 31532, 1, "OK", 2, 31, 12, 8, 6, 2, 4, 1
+20151, 21404, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale", 0, 0, 1, 1, 1, 0, 0, 0
+22610, 30187, 1, "OK", 5, 175, 151, 119, 51, 68, 32, 1
+20473, 21686, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList BusinessModelRuntime dum", 0, 0, 1, 1, 1, 0, 0, 0
+27709, 29813, 1, "OK", 5, 52, 54, 42, 16, 26, 12, 1
+22155, 29961, 1, "OK", 5, 180, 149, 118, 50, 68, 31, 1
+22212, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+25403, 25524, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+22823, 27673, 1, "OK", 3, 113, 95, 76, 34, 42, 19, 1
+22889, 27673, 1, "OK", 3, 112, 95, 76, 34, 42, 19, 1
+24162, 25073, 1, "OK", 5, 24, 38, 14, 10, 4, 6, 4
+21173, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 165, 165, 59, 106, 36, 0
+22691, 27673, 1, "OK", 3, 115, 95, 76, 34, 42, 19, 1
+23062, 31532, 1, "OK", 5, 197, 161, 126, 56, 70, 35, 1
+21950, 26066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 77, 62, 23, 39, 15, 1
+21603, 31722, 1, "OK", 6, 228, 165, 165, 59, 106, 36, 0
+22462, 31717, 1, "OK", 6, 213, 164, 128, 58, 70, 36, 1
+21950, 30187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 151, 119, 51, 68, 32, 1
+28251, 28389, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+22389, 29882, 1, "OK", 5, 175, 149, 118, 50, 68, 31, 1
+23238, 30187, 1, "OK", 5, 164, 151, 119, 51, 68, 32, 1
+26362, 27548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 11, 7, 7, 0, 2, 2
+22021, 30044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+31725, 32328, 1, "OK", 3, 23, 14, 14, 8, 6, 3, 0
+20063, 21115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role HashMap<String, Object> resultAsMap", 0, 0, 1, 1, 1, 0, 0, 0
+20040, 21827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 1, 1, 1, 0, 0, 0
+22537, 28389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 102, 80, 37, 43, 22, 1
+22755, 29813, 1, "OK", 5, 168, 149, 118, 50, 68, 31, 1
+26096, 31717, 1, "OK", 7, 123, 87, 66, 35, 31, 21, 1
+30264, 31532, 1, "OK", 2, 27, 10, 7, 5, 2, 3, 1
+27767, 28044, 1, "OK", 4, 6, 3, 1, 1, 0, 1, 2
+21119, 32404, 1, "OK", 5, 262, 179, 179, 67, 112, 39, 0
+26689, 27667, 1, "OK", 4, 15, 11, 7, 7, 0, 2, 2
+21894, 29882, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 149, 118, 50, 68, 31, 1
+24263, 25073, 1, "OK", 5, 21, 33, 13, 9, 4, 5, 4
+28128, 30187, 1, "OK", 3, 46, 51, 40, 15, 25, 11, 1
+21119, 32428, 1, "OK", 5, 264, 179, 179, 67, 112, 39, 0
+30715, 30885, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+21689, 32167, 1, "OK", 6, 242, 177, 177, 65, 112, 39, 0
+22610, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+25403, 25572, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+20519, 21331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String role HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel", 0, 0, 1, 1, 1, 0, 0, 0
+22326, 29813, 1, "OK", 5, 174, 149, 118, 50, 68, 31, 1
+23238, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+27709, 29882, 1, "OK", 5, 54, 54, 42, 16, 26, 12, 1
+20643, 21600, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap IParameterUseDAO parameterUseDAO MetaModel businessModel Locale locale ArrayList<HashMap<String, Object>> parametersArrayList", 0, 0, 1, 1, 1, 0, 0, 0
+22462, 27673, 1, "OK", 3, 118, 95, 76, 34, 42, 19, 1
+25530, 25743, 1, "OK", 3, 4, 5, 2, 2, 0, 1, 3
+20151, 31722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 166, 166, 60, 106, 36, 0
+22212, 28247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 100, 79, 36, 43, 21, 1
+20063, 32404, 1, "OK", 1, 280, 180, 180, 68, 112, 39, 0
+22961, 31673, 1, "OK", 5, 205, 164, 128, 58, 70, 36, 1
+22021, 28050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 100, 79, 36, 43, 21, 1
+22823, 29813, 1, "OK", 5, 167, 149, 118, 50, 68, 31, 1
+28195, 30187, 1, "OK", 4, 45, 51, 40, 15, 25, 11, 1
+22889, 29813, 1, "OK", 5, 166, 149, 118, 50, 68, 31, 1
+26096, 27673, 1, "OK", 4, 28, 18, 14, 11, 3, 4, 1
+20063, 32428, 1, "OK", 1, 282, 180, 180, 68, 112, 39, 0
+21950, 28191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 100, 79, 36, 43, 21, 1
+22096, 29813, 1, "OK", 5, 178, 149, 118, 50, 68, 31, 1
+24732, 24920, 1, "OK", 2, 6, 14, 4, 3, 1, 2, 5
+21119, 32471, 1, "OK", 5, 265, 179, 179, 67, 112, 39, 0
+22755, 29882, 1, "OK", 5, 170, 149, 118, 50, 68, 31, 1
+22268, 31673, 1, "OK", 5, 215, 164, 128, 58, 70, 36, 1
+20727, 32328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> resultAsMap List<BusinessModelDriverRuntime> parameters", 0, 0, 180, 180, 68, 112, 39, 0
+22155, 30044, 1, "OK", 5, 181, 149, 118, 50, 68, 31, 1
+22691, 29813, 1, "OK", 5, 169, 149, 118, 50, 68, 31, 1
+21525, 32167, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<HashMap<String, Object>> parametersArrayList List<BusinessModelDriverRuntime> parameters", 0, 0, 177, 177, 65, 112, 39, 0
+23596, 25308, 1, "OK", 5, 45, 58, 28, 16, 12, 10, 3
+20063, 21170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer aRequestContainer String name String role HashMap<String, Object> resultAsMap IMetaModelsDAO dao", 0, 0, 1, 1, 1, 0, 0, 0
+22389, 29961, 1, "OK", 5, 176, 149, 118, 50, 68, 31, 1
+23346, 25894, 1, "OK", 2, 66, 75, 47, 22, 25, 14, 2
+28251, 31532, 1, "OK", 5, 73, 61, 47, 20, 27, 14, 1
+26362, 26604, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2

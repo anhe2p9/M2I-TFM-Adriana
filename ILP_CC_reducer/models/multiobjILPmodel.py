@@ -128,10 +128,10 @@ def zDefinition(m, j, i): # restricción para definir bien las variables z
             return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 
 def maxLOC(m, i):
-            return m.tmax >= m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, i] for j,k in m.N if k == i)
+            return m.tmax >= m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, i] for j,k in m.N if k == i)
 
 def minLOC(m, i):
-            return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, k] for j,k in m.N if k == i)
+            return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, k] for j,k in m.N if k == i)
         
 def maxCC(m, i):
             return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)

@@ -40,7 +40,7 @@ class ILPmodelRsain():
     def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dp.DataPortal:
         
         data = dp.DataPortal()
-        data.load(filename=S_filename, index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc))
+        data.load(filename=S_filename, index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc, self.defined_model.params))
         data.load(filename=N_filename, index=self.defined_model.N, param=self.defined_model.ccr)
         
         with open(C_filename, 'r', encoding='utf-8') as f:

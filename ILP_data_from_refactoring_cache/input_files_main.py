@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # Import the required libraries
-from utils import dataset as dataset, refactoring_cache as rc
+from ILP_data_from_refactoring_cache.utils import dataset as dataset, refactoring_cache as rc
 import argparse
 
 from pathlib import Path

@@ -58,6 +58,7 @@ if __name__ == "__main__":
         
         # Create folder if it does not exists
         output_dir.mkdir(parents=True, exist_ok=True)
+        print(f"Processing {file_class} class, and {file_method} method.")
         
         main(file, str(output_dir), file_method)
         print(f"New data is available in: {output_dir}")

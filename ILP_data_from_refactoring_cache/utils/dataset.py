@@ -5,7 +5,7 @@ import pandas as pd
 # Read the data from a CSV file
 def dataframe_from_csv_file(file_path: str) -> pd.DataFrame:
     # Read the CSV file into a DataFrame
-    data = pd.read_csv(file_path, quotechar='"', delimiter=",")
+    data = pd.read_csv(file_path, quotechar='"', delimiter=",", skipinitialspace=True)
 
     # Strip leading and trailing white spaces from column names
     data.columns = data.columns.str.strip()

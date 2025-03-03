@@ -2,6 +2,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 from typing import Any
+import sys
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -20,10 +21,12 @@ class EpsilonConstraintAlgorithm(Algorithm):
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> None:
+    def execute(model: pyo.AbstractModel, data: dp.DataPortal, obj2: str) -> None:
         
         
         multiobj_model = MultiobjectiveILPmodel()
+        
+        second_objective = multiobj_model.LOCdifferenceObjective if obj2 == 'LOC' else multiobj_model.CCdifferenceObjective
         
         # Solve {min f2}
         if hasattr(model, 'obj'):

@@ -15,8 +15,6 @@ from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 
 def main(model_type: str, alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, second_obj=None):
     
-    print("Usando Python en:", sys.executable)
-    
     if second_obj:
         print(f"Second objective: {second_obj}")
     model_engine = ILPEngine()

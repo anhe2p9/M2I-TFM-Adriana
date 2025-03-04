@@ -33,12 +33,12 @@ def main(path_to_refactoring_cache: str, output_folder: str, files_n: str):
     
     
 def extraer_clase_metodo(nombre_archivo):
-        patron = r'\.(?P<clase>[^.]+)\.java\.(?P<metodo>[^.]+)\.csv'
-        coincidencia = re.search(patron, nombre_archivo)
-        
-        if coincidencia:
-            return coincidencia.group("clase"), coincidencia.group("metodo")
-        return None, None
+    patron = r'\.(?P<clase>[^.]+)\.java\.(?P<metodo>[^.]+)\.csv'
+    coincidencia = re.search(patron, nombre_archivo)
+    
+    if coincidencia:
+        return coincidencia.group("clase"), coincidencia.group("metodo")
+    return None, None
 
 
 
@@ -65,6 +65,7 @@ if __name__ == "__main__":
         output_dir.mkdir(parents=True, exist_ok=True)
         print(f"Processing {file_class} class, and {file_method} method.")
         
-        main(file, str(output_dir), file_method)
-        print(f"New data is available in: {output_dir}")
+        if file_class is not None and file_method is not None:
+            main(file, str(output_dir), file_method)
+            print(f"New data is available in: {output_dir}")
 

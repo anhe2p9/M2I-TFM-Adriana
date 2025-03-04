@@ -58,14 +58,14 @@ if __name__ == "__main__":
         # Base directory of the project
         base_dir = Path(__file__).resolve().parent.parent
         
-        # Build Path
-        output_dir = base_dir / "original_code_data" / args.output_folder / file_class / file_method
-        
-        # Create folder if it does not exists
-        output_dir.mkdir(parents=True, exist_ok=True)
-        print(f"Processing {file_class} class, and {file_method} method.")
-        
         if file_class is not None and file_method is not None:
+            # Build Path
+            output_dir = base_dir / "original_code_data" / args.output_folder / file_class / file_method
+            
+            # Create folder if it does not exists
+            output_dir.mkdir(parents=True, exist_ok=True)
+            print(f"Processing {file_class} class, and {file_method} method.")
+        
             main(file, str(output_dir), file_method)
             print(f"New data is available in: {output_dir}")
 

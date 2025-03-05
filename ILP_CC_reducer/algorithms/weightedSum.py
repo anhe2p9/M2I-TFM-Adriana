@@ -21,7 +21,7 @@ class WeightedSumAlgorithm(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, args) -> None:
+    def execute(model: pyo.AbstractModel, data: dict, args) -> None:
         
         csv_data = [["Weight1","Weight2","Weight3","Num.sequences","LOCdif","CCdif"]]
         
@@ -35,7 +35,7 @@ class WeightedSumAlgorithm(Algorithm):
                 for j in range(args+1):
                     w1, w2, w3 = algorithms_utils.generate_weights(args, i, j)
                     
-                    _, newrow, _ = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
+                    _, newrow, _ = algorithms_utils.process_weighted_model(model, data["data"], w1 ,w2, w3)
                     
                     csv_data.append(newrow)
                 
@@ -49,7 +49,7 @@ class WeightedSumAlgorithm(Algorithm):
                         
             w1, w2, w3 = args
             
-            concrete, newrow, results = algorithms_utils.process_weighted_model(model, data, w1 ,w2, w3)
+            concrete, newrow, results = algorithms_utils.process_weighted_model(model, data["data"], w1 ,w2, w3)
                   
             csv_data.append(newrow)
             

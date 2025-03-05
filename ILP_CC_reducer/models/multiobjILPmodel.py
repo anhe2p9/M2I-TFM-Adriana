@@ -47,8 +47,6 @@ class MultiobjectiveILPmodel():
     
     def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dict:
         
-        print(f"HE SALTADO AL MULTIOBJETIVOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
-        
         data = dp.DataPortal()
         
         empty_file = []

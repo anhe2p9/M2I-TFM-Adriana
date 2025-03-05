@@ -45,18 +45,46 @@ class MultiobjectiveILPmodel():
         
         return self.model
     
-    def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dp.DataPortal:
+    def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dict:
+        
+        print(f"HE SALTADO AL MULTIOBJETIVOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
         
         data = dp.DataPortal()
-        data.load(filename=S_filename, index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc, self.defined_model.params))
-        data.load(filename=N_filename, index=self.defined_model.N, param=self.defined_model.ccr)
         
-        with open(C_filename, 'r', encoding='utf-8') as f:
-            if sum(1 for _ in f) > 1:
-                data.load(filename=str(C_filename), index=self.defined_model.C, param=())
+        empty_file = []
+        missing_file = []
+        if S_filename:
+            with open(str(S_filename), 'r', encoding='utf-8') as f:
+                if sum(1 for _ in f) > 1: # at least there must be one nested sequence
+                    data.load(filename=str(S_filename), index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc, self.defined_model.params))
+                else:
+                    empty_file.append("sequences")
+        else:
+            missing_file.append("sequences")
+            
+        
+        if N_filename:
+            with open(str(N_filename), 'r', encoding='utf-8') as f:
+                if sum(1 for _ in f) > 1:
+                    data.load(filename=str(N_filename), index=self.defined_model.N, param=self.defined_model.ccr)
+                else:
+                    empty_file.append("nested")
+        else:
+            missing_file.append("nested")
         
         
-        return data
+        if C_filename:
+            with open(str(C_filename), 'r', encoding='utf-8') as f:
+                if sum(1 for _ in f) > 1:
+                    data.load(filename=str(C_filename), index=self.defined_model.C, param=())
+                else:
+                    empty_file.append("conflict")
+        else:
+            missing_file.append("nested")
+        
+        total_data = {"missingFile": missing_file, "emptyFiles": empty_file, "data": data}
+        print(f"DATA: {total_data}")
+        return total_data
     
     
     def sequencesObjective(self, m):

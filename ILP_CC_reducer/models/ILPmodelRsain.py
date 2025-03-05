@@ -7,8 +7,10 @@ class ILPmodelRsain():
     def __init__(self):
         """Initializes the abstract model."""
         self.model = pyo.AbstractModel()
-        self.defined_model = self.define_model_without_obj()
-    def define_model_without_obj(self) -> pyo.AbstractModel:
+        self.defined_model = self.define_model()
+        
+        
+    def define_model(self) -> pyo.AbstractModel:
         """Defines model sets."""
 
         if not hasattr(self.model, 'S'):
@@ -30,6 +32,9 @@ class ILPmodelRsain():
             self.model.cmin = pyo.Var(within=pyo.NonNegativeReals) # min CC
             
             
+            self.model.obj = pyo.Objective(rule=lambda m: sequencesObjective(m))
+            
+            
             self.model.conflict_sequences = pyo.Constraint(self.model.C, rule=conflict_sequences)
             self.model.threshold = pyo.Constraint(self.model.S, rule=threshold)
             self.model.z_definition = pyo.Constraint(self.model.N, rule=zDefinition)
@@ -37,22 +42,48 @@ class ILPmodelRsain():
         
         return self.model
     
-    def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dp.DataPortal:
+    def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dict:
         
         data = dp.DataPortal()
-        data.load(filename=S_filename, index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc, self.defined_model.params))
-        data.load(filename=N_filename, index=self.defined_model.N, param=self.defined_model.ccr)
         
-        with open(C_filename, 'r', encoding='utf-8') as f:
-            if sum(1 for _ in f) > 1:
-                data.load(filename=str(C_filename, index=self.defined_model.C, param=()))
+        empty_file = []
+        missing_file = []
+        if S_filename != "None":
+            with open(str(S_filename), 'r', encoding='utf-8') as f:
+                if sum(1 for _ in f) > 1: # at least there must be one nested sequence
+                    data.load(filename=str(S_filename), index=self.defined_model.S, param=(self.defined_model.loc, self.defined_model.nmcc, self.defined_model.params))
+                else:
+                    empty_file.append("sequences")
+        else:
+            missing_file.append("sequences")
+            
+        
+        if N_filename != "None":
+            with open(str(N_filename), 'r', encoding='utf-8') as f:
+                if sum(1 for _ in f) > 1:
+                    data.load(filename=str(N_filename), index=self.defined_model.N, param=self.defined_model.ccr)
+                else:
+                    empty_file.append("nested")
+        else:
+            missing_file.append("nested")
         
         
-        return data
+        if C_filename != "None":
+            with open(str(C_filename), 'r', encoding='utf-8') as f:
+                if sum(1 for _ in f) > 1:
+                    data.load(filename=str(C_filename), index=self.defined_model.C, param=())
+                else:
+                    empty_file.append("conflict")
+        else:
+            missing_file.append("conflict")
+        
+        total_data = {"missingFiles": missing_file, "emptyFiles": empty_file, "data": data}
+        print(f"DATA: {total_data}")
+        return total_data
     
     
-    def sequencesObjective(self, m):
-        return sum(m.x[j] for j in m.S)
+def sequencesObjective(m):
+    return sum(m.x[j] for j in m.S)
     
 
 def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto

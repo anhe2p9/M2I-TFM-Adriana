@@ -2,13 +2,16 @@ import inspect
 import importlib
 from typing import Any
 
-import sys
+# import sys
+# import csv
+# import os
 from pathlib import Path
 
 import pyomo.environ as pyo
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
+# from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
+# from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer import algorithms as ALGORITHMS
@@ -25,9 +28,7 @@ class ILPEngine():
         """Return the list of all ILP operations available."""
         return [self.get_algorithm_from_name(ref_name) for ref_name in ALGORITHMS_NAMES]
     
-    def load_concrete(self, data_folder: Path) -> dp.DataPortal:
-        
-        model = MultiobjectiveILPmodel()
+    def load_concrete(self, data_folder: Path, model: pyo.AbstractModel) -> dp.DataPortal:
         
         files = { "sequences": None, "nested": None, "conflict": None }
 
@@ -41,17 +42,18 @@ class ILPEngine():
                     files["nested"] = file
                 elif clear_name.endswith("conflict"):
                     files["conflict"] = file
-    
-        # Verificar si todos los archivos han sido encontrados
-        if None in files.values():
-            sys.exit(f'The model instance must be a folder with three CSV files.')
-        
+
+
         data = model.process_data(str(files["sequences"]), str(files["nested"]), str(files["conflict"]))
         
-        return data
+        
+        
+        return data # files_status_dict = {"missingFiles": lista_de_archivos_que_faltan, "emtyFiles": lista_de_archivos_vacios, "data": data}
+        
+        
         
 
-    def apply_algorithm(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> Any:
+    def apply_algorithm(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: str, *args) -> Any:
         """Apply the given algorithm to the given model instance."""
         
         if not hasattr(ILPm, 'tau'):
@@ -61,11 +63,24 @@ class ILPEngine():
         
         return algorithm.execute(ILPm, instance, *args_list)
     
-    def apply_algorithms(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> list[list[Any]]:
+    def apply_algorithms(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> None:
         """Apply the given algorithm to all model instances."""
         # TODO: dado un conjunto de instancias, aplicar a todas ellas el correspondiente algoritmo y generar el csv de resultados
+        # la verdad es que no tengo claro si hacer los multiobjetivo así, creo que lo voy a enfocar más en hacer cada uno por separado
+        # y sacar el frente de pareto o algo así
         pass
     
+    def apply_rsain_model(self, algorithm: Algorithm, model: pyo.ConcreteModel, data: dp.DataPortal, tau: str, csv_data: list[str], folders_data: dict) -> None:
+        """Creates a csv with the results data."""
+        if hasattr(model, 'tau'):
+            model.del_component('tau')
+            model.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
+        else:
+            model.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
+            
+        
+        return algorithm.execute(model, data, csv_data, folders_data)
+
     
     
     def get_algorithm_from_name(self, algorithm_name: str) -> Algorithm:

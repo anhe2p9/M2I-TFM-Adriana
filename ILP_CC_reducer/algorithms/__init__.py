@@ -1,4 +1,4 @@
-from .addOneObjective import addOneObjectiveAlgorithm
+from ILP_CC_reducer.algorithms.obtainResults import obtainResultsAlgorithm
 from .weightedSum2obj import WeightedSumAlgorithm2obj
 from .weightedSum import WeightedSumAlgorithm
 from .epsilonConstraints2obj import EpsilonConstraintAlgorithm2obj
@@ -6,7 +6,7 @@ from .epsilonConstraints import EpsilonConstraintAlgorithm
 from .TPAdata import TPAdataAlgorithm
 
 
-__all__ = ['addOneObjectiveAlgorithm',
+__all__ = ['obtainResultsAlgorithm',
            'WeightedSumAlgorithm2obj',
            'WeightedSumAlgorithm',
            'EpsilonConstraintAlgorithm2obj',

@@ -47,7 +47,7 @@ class obtainResultsAlgorithm(Algorithm):
             
             concrete = model.create_instance(data["data"]) # para crear una instancia de modelo y hacerlo concreto
             solver = pyo.SolverFactory('cplex')
-            solver.options["timelimit"] = 2 # time limit for solver
+            solver.options["timelimit"] = 300 # time limit for solver
             results = solver.solve(concrete)
         
         

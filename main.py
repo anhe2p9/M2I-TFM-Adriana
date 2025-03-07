@@ -63,12 +63,12 @@ def main_one_obj(alg_name: str, tau: int=15):
                     results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
 
     
-    # Escribir datos en un archivo CSV
-    with open("results.csv", mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(results_csv)
-    
-    print("Archivo CSV creado correctamente.")
+        # Escribir datos en un archivo CSV
+        with open(f"{project_folder}_results.csv", mode="w", newline="", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            writer.writerows(results_csv)
+        
+        print("Archivo CSV creado correctamente.")
     
     
 

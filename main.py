@@ -14,7 +14,7 @@ from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
-def main_one_obj(alg_name: str, tau: int=15):
+def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
     
     model_engine = ILPEngine()
     model = ILPmodelRsain()
@@ -32,45 +32,45 @@ def main_one_obj(alg_name: str, tau: int=15):
 
     
     
-    instance_folder = "original_code_data"
+    # instance_folder = "original_code_data"
 
-    for project_folder in sorted(os.listdir(instance_folder)):
-        project_folder = Path(project_folder)
-        print(f"Project folder: {project_folder}")
-        total_path = instance_folder / project_folder
-        for class_folder in sorted(os.listdir(total_path)):
-            class_folder = Path(class_folder)
-            print(f"Class folder: {class_folder}")
-            total_path = instance_folder / project_folder / class_folder
-            for method_folder in sorted(os.listdir(total_path)):
-                method_folder = Path(method_folder)
-                print(f"Method folder: {method_folder}")
-                total_path = instance_folder / project_folder / class_folder / method_folder
-                print(f"Total path: {total_path}")
-                if os.path.isdir(total_path):
-                    print(f"Processing project: {project_folder}, class: {class_folder}, method: {method_folder}")
-                    
-                    # Process ilp model
-                    ilp_model = model.define_model()
-                    
-                    # Process algorithm
-                    algorithm = model_engine.get_algorithm_from_name(alg_name)
-                    
-                    # Process instance
-                    instance = model_engine.load_concrete(total_path, model)
-                    
-                    folders_data = {"project": str(project_folder), "class": str(class_folder), "method": str(method_folder)}
-                    results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
+    # for project_folder in sorted(os.listdir(instance_folder)):
+    #     project_folder = Path(project_folder)
+    #     print(f"Project folder: {project_folder}")
+    #     total_path = instance_folder / project_folder
+    for class_folder in sorted(os.listdir(project_folder)):
+        class_folder = Path(class_folder)
+        print(f"Class folder: {class_folder}")
+        total_path = project_folder / class_folder
+        for method_folder in sorted(os.listdir(total_path)):
+            method_folder = Path(method_folder)
+            print(f"Method folder: {method_folder}")
+            total_path = project_folder / class_folder / method_folder
+            print(f"Total path: {total_path}")
+            if os.path.isdir(total_path):
+                print(f"Processing project: {project_folder}, class: {class_folder}, method: {method_folder}")
+                
+                # Process ilp model
+                ilp_model = model.define_model()
+                
+                # Process algorithm
+                algorithm = model_engine.get_algorithm_from_name(alg_name)
+                
+                # Process instance
+                instance = model_engine.load_concrete(total_path, model)
+                
+                folders_data = {"project": str(project_folder), "class": str(class_folder), "method": str(method_folder)}
+                results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
 
+
+    # Escribir datos en un archivo CSV
+    with open(f"{project_folder}_results.csv", mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerows(results_csv)
     
-        # Escribir datos en un archivo CSV
-        with open(f"{project_folder}_results.csv", mode="w", newline="", encoding="utf-8") as file:
-            writer = csv.writer(file)
-            writer.writerows(results_csv)
-        
-        print("Archivo CSV creado correctamente.")
-    
-    
+    print("Archivo CSV creado correctamente.")
+
+
 
 
 def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, second_obj=None):
@@ -193,6 +193,7 @@ if __name__ == '__main__':
         config = load_config(properties_file_path)
     
     
+    model_type = args['model_type'] if args['model_type'] else config.get('model_type')
     model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
     ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
     threshold = args['threshold'] if args['threshold'] else config.get('threshold')
@@ -216,7 +217,8 @@ if __name__ == '__main__':
     
     
     if model_instance:
-        instance_path = Path(model_instance)
+        model_instance = Path(model_instance)
+        instance_path = "original_code_data" / model_instance
         if not instance_path.is_dir():
             sys.exit(f'The model instance must be a folder with three CSV files.')
             
@@ -225,9 +227,9 @@ if __name__ == '__main__':
         weights = tuple(map(float, weights.split(",")))
     
     
-    if ilp_algorithm and threshold and not model_instance:
-        main_one_obj(ilp_algorithm, threshold)
-    elif ilp_algorithm and instance_path and threshold:
+    if model_type == 'uniobjective':
+        main_one_obj(ilp_algorithm, instance_path, threshold)
+    elif model_type == 'multiobjective':
         main_multiobjective(ilp_algorithm, instance_path, threshold, subdivisions, weights, second_obj)
     else:
         sys.exit("No adequate number of parameters have been provided. Run python main.py -h for help.")

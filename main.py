@@ -61,7 +61,7 @@ def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
                 # Process instance
                 instance = model_engine.load_concrete(total_path, model)
                 
-                folders_data = {"project": str(project_folder), "class": str(class_folder), "method": str(method_folder)}
+                folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
                 results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
 
 

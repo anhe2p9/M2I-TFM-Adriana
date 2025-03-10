@@ -11,6 +11,7 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
+from ntpath import split
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
@@ -48,7 +49,8 @@ def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
             total_path = project_folder / class_folder / method_folder
             print(f"Total path: {total_path}")
             if os.path.isdir(total_path):
-                print(f"Processing project: {project_folder}, class: {class_folder}, method: {method_folder}")
+                project_folder_name = project_folder.name
+                print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
                 
                 # Process ilp model
                 ilp_model = model.define_model()
@@ -64,7 +66,7 @@ def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
 
 
     # Escribir datos en un archivo CSV
-    with open(f"{project_folder}_results.csv", mode="w", newline="", encoding="utf-8") as file:
+    with open(f"{project_folder_name}_results.csv", mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerows(results_csv)
     

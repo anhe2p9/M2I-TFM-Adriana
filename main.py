@@ -11,7 +11,7 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
-from ntpath import split
+
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 

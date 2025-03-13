@@ -97,7 +97,7 @@ class obtainResultsAlgorithm(Algorithm):
                 nested_solution = {}
 
                 for s, k in concrete.N:
-                    if concrete.z[s, k].value != 0 and k in not_nested_solution:
+                    if concrete.z[s, k].value != 0 and k in solution:
                         if k not in nested_solution:
                             nested_solution[k] = []  # Crear una nueva lista para cada k
                         nested_solution[k].append(concrete.x[s].index())

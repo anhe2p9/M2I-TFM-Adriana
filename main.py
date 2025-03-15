@@ -16,7 +16,7 @@ import algorithms_utils
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
-def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
+def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
     
     # Uso del script
     file_path = "GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
@@ -38,41 +38,41 @@ def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
 
     
     
-    # instance_folder = "original_code_data"
+    instance_folder = "original_code_data"
 
-    # for project_folder in sorted(os.listdir(instance_folder)):
-    #     project_folder = Path(project_folder)
-    #     print(f"Project folder: {project_folder}")
-    #     total_path = instance_folder / project_folder
-    for class_folder in sorted(os.listdir(project_folder)):
-        class_folder = Path(class_folder)
-        print(f"Class folder: {class_folder}")
-        total_path = project_folder / class_folder
-        for method_folder in sorted(os.listdir(total_path)):
-            method_folder = Path(method_folder)
-            print(f"Method folder: {method_folder}")
-            total_path = project_folder / class_folder / method_folder
-            print(f"Total path: {total_path}")
-            if os.path.isdir(total_path):
-                project_folder_name = project_folder.name
-                print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
-                
-                folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
-                
-                if folder_tuple in optimal_tuples:
-                
-                    # Process ilp model
-                    ilp_model = model.define_model()
+    for project_folder in sorted(os.listdir(instance_folder)):
+        project_folder = Path(project_folder)
+        print(f"Project folder: {project_folder}")
+        total_path = instance_folder / project_folder
+        for class_folder in sorted(os.listdir(total_path)):
+            class_folder = Path(class_folder)
+            print(f"Class folder: {class_folder}")
+            total_path = instance_folder / project_folder / class_folder
+            for method_folder in sorted(os.listdir(total_path)):
+                method_folder = Path(method_folder)
+                print(f"Method folder: {method_folder}")
+                total_path = instance_folder / project_folder / class_folder / method_folder
+                print(f"Total path: {total_path}")
+                if os.path.isdir(total_path):
+                    project_folder_name = project_folder.name
+                    print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
                     
-                    # Process algorithm
-                    algorithm = model_engine.get_algorithm_from_name(alg_name)
+                    folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
                     
-                    # Process instance
-                    instance = model_engine.load_concrete(total_path, model)
+                    if folder_tuple in optimal_tuples:
                     
-                    folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
-                    results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
-
+                        # Process ilp model
+                        ilp_model = model.define_model()
+                        
+                        # Process algorithm
+                        algorithm = model_engine.get_algorithm_from_name(alg_name)
+                        
+                        # Process instance
+                        instance = model_engine.load_concrete(total_path, model)
+                        
+                        folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
+                        results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
+    
 
     # Escribir datos en un archivo CSV
     with open(f"{project_folder_name}_results.csv", mode="w", newline="", encoding="utf-8") as file:
@@ -239,7 +239,10 @@ if __name__ == '__main__':
     
     
     if model_type == 'uniobjective':
-        main_one_obj(ilp_algorithm, instance_path, threshold)
+        if model_instance:
+            main_one_obj(ilp_algorithm, instance_path, threshold)
+        else:
+            main_one_obj(ilp_algorithm, threshold)
     elif model_type == 'multiobjective':
         main_multiobjective(ilp_algorithm, instance_path, threshold, subdivisions, weights, second_obj)
     else:

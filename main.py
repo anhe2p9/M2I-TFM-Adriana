@@ -19,7 +19,7 @@ import algorithms_utils
 def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
     
     # Uso del script
-    file_path = "C:/Users/X1502/Adriana/LAB334/CCreductionRsain/RESULTS/GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
+    file_path = "GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
     optimal_tuples = algorithms_utils.extract_optimal_tuples(file_path)
     
     model_engine = ILPEngine()

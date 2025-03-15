@@ -12,10 +12,15 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
 
+import algorithms_utils
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
 def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
+    
+    # Uso del script
+    file_path = "C:/Users/X1502/Adriana/LAB334/CCreductionRsain/RESULTS/GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
+    optimal_tuples = algorithms_utils.extract_optimal_tuples(file_path)
     
     model_engine = ILPEngine()
     model = ILPmodelRsain()
@@ -52,17 +57,21 @@ def main_one_obj(alg_name: str, project_folder: str, tau: int=15):
                 project_folder_name = project_folder.name
                 print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
                 
-                # Process ilp model
-                ilp_model = model.define_model()
+                folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
                 
-                # Process algorithm
-                algorithm = model_engine.get_algorithm_from_name(alg_name)
+                if folder_tuple in optimal_tuples:
                 
-                # Process instance
-                instance = model_engine.load_concrete(total_path, model)
-                
-                folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
-                results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
+                    # Process ilp model
+                    ilp_model = model.define_model()
+                    
+                    # Process algorithm
+                    algorithm = model_engine.get_algorithm_from_name(alg_name)
+                    
+                    # Process instance
+                    instance = model_engine.load_concrete(total_path, model)
+                    
+                    folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
+                    results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
 
 
     # Escribir datos en un archivo CSV

@@ -6,11 +6,34 @@ import os
 from typing import Any
 import csv
 from pathlib import Path
+import pandas as pd
 
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
+
+
+def extract_optimal_tuples(file_path):
+    sheets = ["General", "MaxTimeSOLVED"]
+    result_set = set()
+    
+    for sheet in sheets:
+        df = pd.read_excel(file_path, sheet_name=sheet, engine='openpyxl')
+        
+        if df.shape[1] < 33:  # Verifica que haya al menos 33 columnas (AG es la columna 33)
+            print(f"Advertencia: La hoja '{sheet}' no tiene suficientes columnas.")
+            continue
+        
+        df = df.dropna(subset=['terminationCondition'])  # Elimina filas donde 'AG' es NaN
+        
+        for _, row in df.iterrows():
+            if str(row['terminationCondition']).strip().lower() == 'optimal':
+                result_set.add((row.iloc[0], row.iloc[1], row.iloc[2]))
+    
+    return result_set
+
+
 
 
 def generate_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, int, int]:

@@ -19,9 +19,9 @@ import algorithms_utils
 def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
     
     # Uso del script
-    file_path = "GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
-    optimal_tuples = algorithms_utils.extract_optimal_tuples(file_path)
-    
+    # file_path = "GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
+    # optimal_tuples = algorithms_utils.extract_optimal_tuples(file_path)
+
     model_engine = ILPEngine()
     model = ILPmodelRsain()
     
@@ -57,10 +57,9 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
                     project_folder_name = project_folder.name
                     print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
                     
-                    folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
-                    
+                    # folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
+
                     # if folder_tuple in optimal_tuples:
-                    #
 
                     # Process ilp model
                     ilp_model = model.define_model()

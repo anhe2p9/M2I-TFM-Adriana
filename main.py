@@ -59,20 +59,21 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
                     
                     folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
                     
-                    if folder_tuple in optimal_tuples:
+                    # if folder_tuple in optimal_tuples:
+                    #
+
+                    # Process ilp model
+                    ilp_model = model.define_model()
                     
-                        # Process ilp model
-                        ilp_model = model.define_model()
-                        
-                        # Process algorithm
-                        algorithm = model_engine.get_algorithm_from_name(alg_name)
-                        
-                        # Process instance
-                        instance = model_engine.load_concrete(total_path, model)
-                        
-                        folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
-                        results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
-    
+                    # Process algorithm
+                    algorithm = model_engine.get_algorithm_from_name(alg_name)
+                    
+                    # Process instance
+                    instance = model_engine.load_concrete(total_path, model)
+                    
+                    folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
+                    results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
+
 
     # Escribir datos en un archivo CSV
     with open(f"{project_folder_name}_results.csv", mode="w", newline="", encoding="utf-8") as file:

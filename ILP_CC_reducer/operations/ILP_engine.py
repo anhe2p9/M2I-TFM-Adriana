@@ -42,13 +42,13 @@ class ILPEngine():
                     files["nested"] = file
                 elif clear_name.endswith("conflict"):
                     files["conflict"] = file
+                elif clear_name.endswith("feasible_extractions_offsets"):
+                    files["feasible_extractions_offsets"] = file
 
 
-        data = model.process_data(str(files["sequences"]), str(files["nested"]), str(files["conflict"]))
+        data = model.process_data(str(files["sequences"]), str(files["nested"]), str(files["conflict"]), str(files["feasible_extractions_offsets"]))
         
-        
-        
-        return data # files_status_dict = {"missingFiles": lista_de_archivos_que_faltan, "emtyFiles": lista_de_archivos_vacios, "data": data}
+        return data # files_status_dict = {"missingFiles": lista_de_archivos_que_faltan, "emtyFiles": lista_de_archivos_vacios, "data": data, "offsets": Offsets_filename}
         
         
         

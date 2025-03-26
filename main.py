@@ -12,7 +12,7 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
 
-import algorithms_utils
+# import algorithms_utils
     
 # code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
 
@@ -27,7 +27,7 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
     
     csv_data = [["project", "class", "method", "missingFile", "emptyFile",
          "numberOfSequences", "numberOfVariables", "numberOfConstraints",
-         "initialComplexity", "solution", "extractions",
+         "initialComplexity", "solution", "offsets", "extractions",
          "NOTnestedSolution", "NOTnestedExtractions",
          "NESTEDsolution", "NESTEDextractions",
          "reductionComplexity", "finalComplexity",

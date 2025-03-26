@@ -5,6 +5,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 # import algorithms_utils
 # from typing import Any
 import numpy as np
+import pandas as pd
 #
 # import csv
 # import os
@@ -80,6 +81,18 @@ class obtainResultsAlgorithm(Algorithm):
                 solution = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and s != 0]
                 data_row.append(solution)
                 print(f"SOLUTION: {solution}")
+                
+                
+                # OFFSETS
+                df_csv = pd.read_csv(data["offsets"], header=None, names=["index", "start", "end"])
+            
+                # Filter by intex in solution str list and obtain values
+                solution_str = [str(i) for i in solution]
+                offsets_list = df_csv[df_csv["index"].isin(solution_str)][["start", "end"]].values.tolist()
+                
+                offsets_list = [[int(start), int(end)] for start, end in offsets_list]
+                data_row.append(offsets_list)
+                
                 
                 # EXTRACTIONS
                 extractions = len(solution)
@@ -188,7 +201,7 @@ class obtainResultsAlgorithm(Algorithm):
                     for _ in range(4):
                         data_row.append("")
             else:
-                for _ in range(23):
+                for _ in range(24):
                     data_row.append("")
                 
             data_row.append(str(results.solver.status))

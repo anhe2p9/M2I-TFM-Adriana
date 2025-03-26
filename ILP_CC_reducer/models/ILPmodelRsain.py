@@ -42,7 +42,7 @@ class ILPmodelRsain():
         
         return self.model
     
-    def process_data(self, S_filename: str, N_filename: str, C_filename: str) -> dict:
+    def process_data(self, S_filename: str, N_filename: str, C_filename: str, Offsets_filename: str) -> dict:
         
         data = dp.DataPortal()
         
@@ -77,7 +77,7 @@ class ILPmodelRsain():
         else:
             missing_file.append("conflict")
         
-        total_data = {"missingFiles": missing_file, "emptyFiles": empty_file, "data": data}
+        total_data = {"missingFiles": missing_file, "emptyFiles": empty_file, "data": data, "offsets": Offsets_filename}
         print(f"DATA: {total_data}")
         return total_data
     

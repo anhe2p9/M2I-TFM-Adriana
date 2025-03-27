@@ -47,16 +47,20 @@ class obtainResultsAlgorithm(Algorithm):
         if len(data.get("missingFiles")) == 0 and "sequences" not in data["emptyFiles"]:
             
             concrete = model.create_instance(data["data"]) # para crear una instancia de modelo y hacerlo concreto
+            
             solver = pyo.SolverFactory('cplex')
             solver.options["timelimit"] = 3600 # time limit for solver
             results = solver.solve(concrete)
+            
+            # Guardar el modelo en un archivo .lp antes de resolverlo
+            concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp', io_options={'symbolic_solver_labels': True})
         
         
             num_sequences = len([s for s in concrete.S])
             print(f"There are {num_sequences} x[i] variables")
             data_row.append(num_sequences)
         
-            num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
+            num_variables = sum(1 for variable in concrete.component_objects(pyo.Var, active=True) for index in variable if variable[index].value is not None)
             print(f"There are {num_variables} variables")
             data_row.append(num_variables)
             

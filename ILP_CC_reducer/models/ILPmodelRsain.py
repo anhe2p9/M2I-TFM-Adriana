@@ -26,10 +26,6 @@ class ILPmodelRsain():
             self.model.x = pyo.Var(self.model.S, within=pyo.Binary)
             self.model.z = pyo.Var(self.model.S, self.model.S, within=pyo.Binary)
             
-            self.model.tmax = pyo.Var(within=pyo.NonNegativeReals) # Max LOC
-            self.model.tmin = pyo.Var(within=pyo.NonNegativeReals) # min LOC
-            self.model.cmax = pyo.Var(within=pyo.NonNegativeReals) # Max CC
-            self.model.cmin = pyo.Var(within=pyo.NonNegativeReals) # min CC
             
             
             self.model.obj = pyo.Objective(rule=lambda m: sequencesObjective(m))

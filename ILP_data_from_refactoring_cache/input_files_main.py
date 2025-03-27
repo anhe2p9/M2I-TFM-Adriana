@@ -33,11 +33,26 @@ def main(path_to_refactoring_cache: str, output_folder: str, files_n: str):
     
     
 def extraer_clase_metodo(nombre_archivo):
-    patron = r'\.(?P<clase>[^.]+)\.java\.(?P<metodo>[^.]+)\.csv'
-    coincidencia = re.search(patron, nombre_archivo)
     
-    if coincidencia:
-        return coincidencia.group("clase"), coincidencia.group("metodo")
+    class_match = re.search(r'ILP-(.*)\.([^.]+)\.csv$', nombre_archivo)
+    
+    if class_match:
+        class_name = class_match.group(1)  # Gets the part between the second "-" and before method name
+    else:
+        class_name = None
+
+    
+    method_match = re.search(r'\.([^\.]+)\.csv$', nombre_archivo)
+    
+    if method_match:
+        method_name =  method_match.group(1)  # Captura el texto entre el último punto y ".csv"
+    else:
+        method_name =  None  # Si no coincide el formato esperado
+
+    
+    
+    if class_name and method_name:
+        return class_name, method_name
     return None, None
 
 

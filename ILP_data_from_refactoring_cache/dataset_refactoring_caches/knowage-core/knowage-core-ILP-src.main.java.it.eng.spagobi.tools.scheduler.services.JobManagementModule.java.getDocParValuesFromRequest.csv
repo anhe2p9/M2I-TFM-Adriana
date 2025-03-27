@@ -1,0 +1,93 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+28150, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biobjpar String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2
+28497, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+28838, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 10, 7, 3, 3, 2
+29792, 30253, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 2, 3
+27859, 30401, 1, "OK", 6, 58, 25, 25, 13, 12, 5, 0
+28333, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+27578, 30401, 1, "OK", 2, 65, 25, 25, 13, 12, 5, 0
+27732, 30363, 1, "OK", 3, 61, 25, 25, 13, 12, 5, 0
+28112, 30359, 1, "OK", 7, 49, 24, 19, 12, 7, 5, 1
+28150, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biobjpar String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+29387, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 5, 3, 2, 2
+27955, 30359, 1, "OK", 5, 53, 24, 19, 12, 7, 5, 1
+28333, 30291, 1, "OK", 5, 42, 22, 14, 11, 3, 4, 2
+28462, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+27842, 30401, 1, "OK", 5, 59, 25, 25, 13, 12, 5, 0
+27893, 30359, 1, "OK", 5, 55, 24, 19, 12, 7, 5, 1
+28930, 29058, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 2
+28225, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+27995, 30296, 1, "OK", 5, 50, 24, 19, 12, 7, 5, 1
+28426, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+29023, 30291, 1, "OK", 9, 28, 15, 9, 6, 3, 3, 2
+28748, 28832, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 2
+28529, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+28497, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2
+28462, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+28838, 30291, 1, "OK", 8, 30, 16, 10, 7, 3, 3, 2
+27732, 30401, 1, "OK", 4, 62, 25, 25, 13, 12, 5, 0
+28150, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biobjpar String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+28426, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+28462, 30291, 1, "OK", 7, 40, 22, 14, 11, 3, 4, 2
+28529, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+28225, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2
+28150, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+27905, 30296, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biobj List newBiobjpars", 0, 0, 24, 19, 12, 7, 5, 1
+28062, 30296, 1, "OK", 6, 48, 24, 19, 12, 7, 5, 1
+28333, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2
+28838, 29018, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 2
+28333, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+28930, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 10, 7, 3, 3, 2
+28497, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+29765, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 7, 4, 3, 2, 2
+29063, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 6, 3, 3, 2
+28112, 30296, 1, "OK", 6, 47, 24, 19, 12, 7, 5, 1
+27796, 30363, 1, "OK", 4, 59, 25, 25, 13, 12, 5, 0
+28426, 30291, 1, "OK", 6, 41, 22, 14, 11, 3, 4, 2
+28529, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+27893, 30296, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj List newBiobjpars", 0, 0, 24, 19, 12, 7, 5, 1
+29955, 30246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+27955, 30296, 1, "OK", 4, 51, 24, 19, 12, 7, 5, 1
+27995, 30331, 1, "OK", 5, 51, 24, 19, 12, 7, 5, 1
+28225, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+28497, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+28529, 30291, 1, "OK", 9, 38, 22, 14, 11, 3, 4, 2
+27995, 30359, 1, "OK", 6, 52, 24, 19, 12, 7, 5, 1
+28062, 30331, 1, "OK", 6, 49, 24, 19, 12, 7, 5, 1
+28150, 30291, 1, "OK", 6, 45, 22, 14, 11, 3, 4, 2
+28838, 29058, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 2
+27905, 30331, 1, "OK", 4, 53, 24, 19, 12, 7, 5, 1
+27842, 30363, 1, "OK", 4, 58, 25, 25, 13, 12, 5, 0
+28930, 29018, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 2
+28462, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2
+28333, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+28426, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+28930, 30291, 1, "OK", 9, 29, 16, 10, 7, 3, 3, 2
+28462, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+27689, 30363, 1, "OK", 3, 62, 25, 25, 13, 12, 5, 0
+28225, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+28529, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+28112, 30331, 1, "OK", 6, 48, 24, 19, 12, 7, 5, 1
+29919, 30253, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 2, 3
+27796, 30401, 1, "OK", 5, 60, 25, 25, 13, 12, 5, 0
+29063, 30291, 1, "OK", 8, 27, 15, 9, 6, 3, 3, 2
+27859, 30363, 1, "OK", 5, 57, 25, 25, 13, 12, 5, 0
+27955, 30331, 1, "OK", 4, 52, 24, 19, 12, 7, 5, 1
+28497, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+28150, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biobjpar String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+27893, 30331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int index BIObject biobj", 0, 0, 24, 19, 12, 7, 5, 1
+28333, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 14, 11, 3, 4, 2
+28497, 30291, 1, "OK", 8, 39, 22, 14, 11, 3, 4, 2
+27578, 30363, 1, "OK", 2, 64, 25, 25, 13, 12, 5, 0
+29841, 30253, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 2, 3
+27689, 30401, 1, "OK", 3, 63, 25, 25, 13, 12, 5, 0
+28426, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2
+28062, 30359, 1, "OK", 7, 50, 24, 19, 12, 7, 5, 1
+28225, 29018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameParInRequest boolean useFixedValues boolean loadAtRuntime boolean useFormula boolean isIterative", 0, 0, 7, 5, 5, 0, 1, 2
+28426, 28925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula String isIterativeStr", 0, 0, 6, 4, 4, 0, 1, 2
+27905, 30359, 1, "OK", 5, 54, 24, 19, 12, 7, 5, 1
+29023, 30259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 6, 3, 3, 2
+28652, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean loadAtRuntime boolean useFormula", 0, 0, 2, 2, 2, 0, 0, 2
+28225, 30291, 1, "OK", 6, 44, 22, 14, 11, 3, 4, 2
+28462, 28832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 6, 4, 4, 0, 1, 2
+28529, 29058, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean useFixedValues boolean loadAtRuntime boolean useFormula", 0, 0, 7, 5, 5, 0, 1, 2

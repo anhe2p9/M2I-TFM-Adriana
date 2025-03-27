@@ -1,0 +1,120 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+16543, 17414, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 4, 3
+17751, 18880, 1, "OK", 6, 18, 7, 3, 3, 0, 1, 4
+17908, 18880, 1, "OK", 7, 15, 7, 3, 3, 0, 1, 4
+15955, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+16500, 16695, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+16500, 17464, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 4, 3
+16543, 16644, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+15750, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15955, 19782, 1, "OK", 8, 82, 60, 60, 23, 37, 11, 0
+17007, 17129, 1, "OK", 2, 2, 6, 2, 2, 0, 1, 4
+19075, 19326, 1, "OK", 4, 8, 13, 3, 3, 0, 2, 5
+17836, 18569, 1, "OK", 4, 10, 7, 3, 3, 0, 1, 4
+15972, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17836, 18812, 1, "OK", 6, 15, 7, 3, 3, 0, 1, 4
+15955, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15972, 19782, 1, "OK", 9, 80, 60, 60, 23, 37, 11, 0
+16010, 19371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl String key", 0, 0, 58, 47, 21, 26, 11, 1
+17751, 18646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parsValue Map parsMap", 0, 0, 7, 3, 3, 0, 1, 4
+15750, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+16856, 17464, 1, "OK", 6, 10, 16, 7, 6, 1, 3, 3
+17908, 18646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parsValue Map parsMap", 0, 0, 7, 3, 3, 0, 1, 4
+17688, 18812, 1, "OK", 4, 18, 7, 3, 3, 0, 1, 4
+16652, 17137, 1, "OK", 3, 8, 11, 5, 4, 1, 2, 3
+16543, 16695, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+15972, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+16543, 17464, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 4, 3
+17790, 18743, 1, "OK", 4, 15, 7, 3, 3, 0, 1, 4
+16652, 17414, 1, "OK", 6, 12, 16, 7, 6, 1, 3, 3
+16416, 19358, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 25, 18, 7, 9, 3
+16416, 19343, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 25, 18, 7, 9, 3
+17688, 18569, 1, "OK", 4, 13, 7, 3, 3, 0, 1, 4
+15750, 19782, 1, "OK", 4, 89, 60, 60, 23, 37, 11, 0
+17218, 19343, 1, "OK", 8, 42, 36, 18, 12, 6, 6, 3
+16127, 19371, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl String key", 0, 0, 58, 47, 21, 26, 11, 1
+17751, 18682, 1, "OK", 4, 15, 7, 3, 3, 0, 1, 4
+17908, 18682, 1, "OK", 5, 12, 7, 3, 3, 0, 1, 4
+16177, 19365, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 56, 36, 20, 16, 10, 2
+19075, 19133, 1, "OK", 1, 2, 6, 1, 1, 0, 1, 5
+15750, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+16500, 19343, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 25, 18, 7, 9, 3
+17218, 19358, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl int cont", 0, 0, 36, 18, 12, 6, 6, 3
+17836, 18880, 1, "OK", 7, 16, 7, 3, 3, 0, 1, 4
+15876, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17790, 18515, 1, "OK", 2, 10, 7, 3, 3, 0, 1, 4
+17688, 18880, 1, "OK", 5, 19, 7, 3, 3, 0, 1, 4
+16500, 19358, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 25, 18, 7, 9, 3
+17836, 18646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parsValue Map parsMap", 0, 0, 7, 3, 3, 0, 1, 4
+16652, 17464, 1, "OK", 6, 13, 16, 7, 6, 1, 3, 3
+16856, 19343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl List values", 0, 0, 47, 23, 16, 7, 8, 3
+15876, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17688, 18646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parsValue Map parsMap", 0, 0, 7, 3, 3, 0, 1, 4
+17790, 18812, 1, "OK", 5, 16, 7, 3, 3, 0, 1, 4
+19029, 19326, 1, "OK", 4, 9, 13, 3, 3, 0, 2, 5
+15876, 19782, 1, "OK", 6, 85, 60, 60, 23, 37, 11, 0
+17790, 18569, 1, "OK", 3, 11, 7, 3, 3, 0, 1, 4
+17836, 18682, 1, "OK", 5, 13, 7, 3, 3, 0, 1, 4
+17751, 18743, 1, "OK", 4, 16, 7, 3, 3, 0, 1, 4
+17908, 18743, 1, "OK", 5, 13, 7, 3, 3, 0, 1, 4
+18979, 19335, 1, "OK", 3, 11, 18, 6, 4, 2, 3, 4
+19194, 19326, 1, "OK", 4, 5, 7, 2, 2, 0, 1, 5
+16856, 19358, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl List values int cont", 0, 0, 47, 23, 16, 7, 8, 3
+15876, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17751, 18515, 1, "OK", 2, 11, 7, 3, 3, 0, 1, 4
+16543, 19343, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 25, 18, 7, 9, 3
+16416, 17137, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 7, 6, 1, 3, 3
+15895, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15928, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15981, 19376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl String key", 0, 0, 59, 59, 22, 37, 11, 0
+16543, 19358, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 25, 18, 7, 9, 3
+17908, 18515, 1, "OK", 3, 8, 7, 3, 3, 0, 1, 4
+17688, 18682, 1, "OK", 4, 16, 7, 3, 3, 0, 1, 4
+16353, 19365, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 56, 36, 20, 16, 10, 2
+16416, 16644, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+15829, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+16416, 17414, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 4, 3
+16946, 17129, 1, "OK", 3, 3, 6, 2, 2, 0, 1, 4
+16500, 17137, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 7, 6, 1, 3, 3
+15829, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15895, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15928, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+19029, 19133, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5
+17908, 18812, 1, "OK", 6, 14, 7, 3, 3, 0, 1, 4
+17836, 18743, 1, "OK", 5, 14, 7, 3, 3, 0, 1, 4
+15772, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15928, 19782, 1, "OK", 8, 83, 60, 60, 23, 37, 11, 0
+17790, 18880, 1, "OK", 6, 17, 7, 3, 3, 0, 1, 4
+16652, 19343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl List values", 0, 0, 47, 23, 16, 7, 8, 3
+17218, 17414, 1, "OK", 4, 3, 5, 2, 2, 0, 1, 3
+17751, 18812, 1, "OK", 5, 17, 7, 3, 3, 0, 1, 4
+16416, 16695, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+16416, 17464, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 4, 3
+17790, 18646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parsValue Map parsMap", 0, 0, 7, 3, 3, 0, 1, 4
+16856, 17137, 1, "OK", 3, 5, 11, 5, 4, 1, 2, 3
+15829, 19782, 1, "OK", 5, 86, 60, 60, 23, 37, 11, 0
+15895, 19782, 1, "OK", 7, 84, 60, 60, 23, 37, 11, 0
+17553, 19343, 1, "OK", 5, 37, 31, 16, 10, 6, 5, 3
+16500, 16644, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+16500, 17414, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 4, 3
+16652, 19358, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl List values int cont", 0, 0, 47, 23, 16, 7, 8, 3
+17751, 18569, 1, "OK", 3, 12, 7, 3, 3, 0, 1, 4
+17908, 18569, 1, "OK", 4, 9, 7, 3, 3, 0, 1, 4
+15772, 19763, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17836, 18515, 1, "OK", 3, 9, 7, 3, 3, 0, 1, 4
+15829, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15895, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+15928, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17553, 19358, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl int cont", 0, 0, 31, 16, 10, 6, 5, 3
+16856, 17414, 1, "OK", 6, 9, 16, 7, 6, 1, 3, 3
+17688, 18743, 1, "OK", 4, 17, 7, 3, 3, 0, 1, 4
+17421, 19343, 1, "OK", 5, 39, 31, 16, 10, 6, 5, 3
+15772, 19782, 1, "OK", 4, 88, 60, 60, 23, 37, 11, 0
+15955, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17688, 18515, 1, "OK", 3, 12, 7, 3, 3, 0, 1, 4
+17790, 18682, 1, "OK", 4, 14, 7, 3, 3, 0, 1, 4
+15772, 19544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17421, 19358, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramUrl int cont", 0, 0, 31, 16, 10, 6, 5, 3
+16543, 17137, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 7, 6, 1, 3, 3
+15972, 19740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 23, 37, 11, 0
+17218, 17464, 1, "OK", 4, 4, 5, 2, 2, 0, 1, 3

@@ -1,0 +1,60 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4885, 5303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] vertices Arc[] arcs Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex", 0, 0, 1, 1, 1, 0, 0, 0
+5554, 7346, 1, "OK", 8, 32, 26, 26, 11, 15, 5, 0
+5069, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 4, 4, 4, 0, 0, 0
+5007, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 4, 4, 4, 0, 0, 0
+5127, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 4, 4, 4, 0, 0, 0
+5188, 7319, 1, "OK", 9, 38, 28, 28, 13, 15, 5, 0
+5470, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex[] V_Predecessors", 0, 0, 2, 2, 2, 0, 0, 0
+5312, 7319, 1, "OK", 9, 35, 27, 27, 12, 15, 5, 0
+4953, 7319, 1, "OK", 5, 43, 28, 28, 13, 15, 5, 0
+4885, 5461, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] vertices Arc[] arcs Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex", 0, 0, 2, 2, 2, 0, 0, 0
+5188, 5545, 1, "OK", 4, 7, 2, 2, 2, 0, 0, 0
+5312, 5545, 1, "OK", 4, 4, 1, 1, 1, 0, 0, 0
+5069, 7319, 1, "OK", 7, 41, 28, 28, 13, 15, 5, 0
+5007, 7319, 1, "OK", 6, 42, 28, 28, 13, 15, 5, 0
+5188, 7346, 1, "OK", 9, 39, 28, 28, 13, 15, 5, 0
+5312, 7346, 1, "OK", 9, 36, 27, 27, 12, 15, 5, 0
+4953, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 2, 2, 2, 0, 0, 0
+5127, 7319, 1, "OK", 8, 40, 28, 28, 13, 15, 5, 0
+6196, 6954, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 7, 2, 2, 0, 1, 5
+5188, 5303, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+4953, 7346, 1, "OK", 5, 44, 28, 28, 13, 15, 5, 0
+5470, 7319, 1, "OK", 9, 32, 26, 26, 11, 15, 5, 0
+5007, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 2, 2, 2, 0, 0, 0
+4953, 5303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Arc[] arcs Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex", 0, 0, 1, 1, 1, 0, 0, 0
+5069, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 2, 2, 2, 0, 0, 0
+6121, 6980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 12, 4, 3, 1, 2, 4
+6287, 6954, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 7, 2, 2, 0, 1, 5
+4885, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 4, 4, 4, 0, 0, 0
+5127, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 2, 2, 2, 0, 0, 0
+6196, 6836, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 7, 2, 2, 0, 1, 5
+5069, 7346, 1, "OK", 7, 42, 28, 28, 13, 15, 5, 0
+5554, 5751, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+6287, 6836, 1, "OK", 2, 9, 7, 2, 2, 0, 1, 5
+5007, 7346, 1, "OK", 6, 43, 28, 28, 13, 15, 5, 0
+5069, 5303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex ORVertex Vertex ANDVertex", 0, 0, 1, 1, 1, 0, 0, 0
+5007, 5303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex", 0, 0, 1, 1, 1, 0, 0, 0
+7008, 7277, 1, "OK", 6, 4, 1, 1, 1, 0, 0, 3
+5127, 7346, 1, "OK", 8, 41, 28, 28, 13, 15, 5, 0
+5889, 7277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 18, 9, 6, 3, 3, 3
+5188, 5461, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+5127, 5303, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+5312, 5461, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+5470, 7346, 1, "OK", 9, 33, 26, 26, 11, 15, 5, 0
+5760, 7319, 1, "OK", 8, 26, 24, 24, 9, 15, 5, 0
+4953, 5461, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Arc[] arcs Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex", 0, 0, 2, 2, 2, 0, 0, 0
+4885, 7319, 1, "OK", 4, 44, 28, 28, 13, 15, 5, 0
+5554, 7319, 1, "OK", 8, 31, 26, 26, 11, 15, 5, 0
+5007, 5461, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex", 0, 0, 2, 2, 2, 0, 0, 0
+5802, 7309, 1, "OK", 8, 24, 23, 18, 8, 10, 5, 1
+5852, 7295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 21, 13, 7, 6, 4, 2
+6051, 7277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Graph AttackPath", 0, 0, 14, 8, 5, 3, 2, 3
+5069, 5461, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex ORVertex Vertex ANDVertex", 0, 0, 2, 2, 2, 0, 0, 0
+5127, 5461, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+5760, 7346, 1, "OK", 8, 27, 24, 24, 9, 15, 5, 0
+5188, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex[] V_Predecessors", 0, 0, 4, 4, 4, 0, 0, 0
+4885, 5545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 2, 2, 2, 0, 0, 0
+5312, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex[] V_Predecessors", 0, 0, 3, 3, 3, 0, 0, 0
+4885, 7346, 1, "OK", 4, 45, 28, 28, 13, 15, 5, 0
+4953, 5751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Vertex[] Forbidden Vertex LEAFVertex Vertex ORVertex Vertex ANDVertex Vertex[] V_Predecessors", 0, 0, 4, 4, 4, 0, 0, 0

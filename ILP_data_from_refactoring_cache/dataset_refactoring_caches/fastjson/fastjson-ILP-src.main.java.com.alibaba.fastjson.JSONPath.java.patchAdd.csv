@@ -1,0 +1,90 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9992, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+10838, 12124, 0, "Compilation unit does not compile after method extraction.", 4, 35, 9, 9, 8, 1, 1, 0
+10144, 10597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object currentObject Object parentObject", 0, 0, 6, 4, 3, 1, 2, 1
+10088, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+9927, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 15, 4, 3, 0
+10865, 11666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object newResult Segment lastSegment", 0, 0, 7, 7, 6, 1, 1, 0
+9992, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+10657, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10052, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+10009, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+10052, 10647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object parentObject Object result", 0, 0, 7, 7, 4, 3, 2, 0
+9927, 10043, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9992, 12124, 0, "Compilation unit does not compile after method extraction.", 3, 59, 18, 18, 14, 4, 3, 0
+10657, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0
+10617, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 10, 1, 1, 0
+10009, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+10186, 10597, 1, "OK", 4, 8, 6, 4, 3, 1, 2, 1
+10657, 12124, 0, "Compilation unit does not compile after method extraction.", 4, 41, 11, 11, 10, 1, 1, 0
+10911, 11546, 0, "Compilation unit does not compile after method extraction.", 3, 15, 4, 3, 3, 0, 1, 1
+10865, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0
+11614, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10009, 12124, 0, "Compilation unit does not compile after method extraction.", 3, 57, 18, 18, 14, 4, 3, 0
+10052, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+10088, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+9927, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+10657, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11906, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9992, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+10838, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+10088, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+9927, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+10377, 10583, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+10009, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+11675, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+9992, 10607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object currentObject Object parentObject", 0, 0, 7, 7, 4, 3, 2, 0
+10088, 12124, 0, "Compilation unit does not compile after method extraction.", 5, 55, 18, 18, 14, 4, 3, 0
+10617, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+9927, 12124, 0, "Compilation unit does not compile after method extraction.", 3, 63, 19, 19, 15, 4, 3, 0
+10009, 10607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object currentObject Object parentObject", 0, 0, 7, 7, 4, 3, 2, 0
+9992, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+10838, 11666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object newResult Segment lastSegment", 0, 0, 7, 7, 6, 1, 1, 0
+10617, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0
+9927, 10079, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10657, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 9, 1, 1, 0
+10966, 11546, 0, "Compilation unit does not compile after method extraction.", 4, 13, 4, 3, 3, 0, 1, 1
+10617, 12124, 0, "Compilation unit does not compile after method extraction.", 4, 43, 11, 11, 10, 1, 1, 0
+10865, 11604, 0, "Compilation unit does not compile after method extraction.", 4, 19, 7, 7, 6, 1, 1, 0
+10009, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+10088, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+9927, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+10865, 12124, 0, "Compilation unit does not compile after method extraction.", 5, 33, 9, 9, 8, 1, 1, 0
+10617, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+10088, 10607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object currentObject Object parentObject", 0, 0, 7, 7, 4, 3, 2, 0
+9927, 10607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 5, 3, 2, 0
+10052, 10828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+11614, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+9992, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+9992, 10647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object parentObject Object result", 0, 0, 7, 7, 4, 3, 2, 0
+10229, 10597, 1, "OK", 5, 7, 6, 4, 3, 1, 2, 1
+11338, 11546, 0, "Compilation unit does not compile after method extraction.", 3, 5, 2, 2, 2, 0, 0, 1
+10052, 11604, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+10088, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+9927, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+10838, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0
+10657, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0
+10009, 10647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object parentObject Object result", 0, 0, 7, 7, 4, 3, 2, 0
+9927, 9982, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10052, 12124, 0, "Compilation unit does not compile after method extraction.", 4, 56, 18, 18, 14, 4, 3, 0
+10009, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+11906, 12124, 0, "Compilation unit does not compile after method extraction.", 3, 6, 1, 1, 1, 0, 0, 0
+10052, 10855, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+10304, 10597, 1, "OK", 4, 6, 6, 4, 3, 1, 2, 1
+9992, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+10617, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 9, 1, 1, 0
+11675, 12124, 0, "Compilation unit does not compile after method extraction.", 3, 12, 2, 2, 2, 0, 0, 0
+9927, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+10052, 10607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object currentObject Object parentObject", 0, 0, 7, 7, 4, 3, 2, 0
+9927, 9999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10657, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 10, 1, 1, 0
+10865, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+10088, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+10052, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+10009, 12072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+10088, 10647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object parentObject Object result", 0, 0, 7, 7, 4, 3, 2, 0
+9927, 10647, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 5, 3, 2, 0
+10838, 11604, 1, "OK", 3, 21, 7, 7, 6, 1, 1, 0
+11614, 12124, 0, "Compilation unit does not compile after method extraction.", 2, 13, 2, 2, 2, 0, 0, 0
+11675, 11896, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+10617, 11666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0

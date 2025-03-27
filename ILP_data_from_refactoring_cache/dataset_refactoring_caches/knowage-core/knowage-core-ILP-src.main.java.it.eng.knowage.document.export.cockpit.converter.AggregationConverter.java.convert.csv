@@ -1,0 +1,133 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2022, 2150, 1, "OK", 2, 1, 1, 1, 1, 0, 0, 0
+1788, 4030, 1, "OK", 5, 59, 33, 33, 16, 17, 7, 0
+1788, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+2425, 3230, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject column JSONObject categoryOrMeasure", 0, 0, 15, 6, 6, 0, 3, 3
+2478, 2867, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String formula", 0, 0, 5, 2, 2, 0, 1, 3
+2770, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed String fieldType", 0, 0, 10, 4, 4, 0, 2, 3
+2874, 3651, 1, "OK", 9, 18, 16, 7, 7, 0, 3, 3
+2538, 2814, 1, "OK", 2, 7, 5, 2, 2, 0, 1, 3
+3665, 3972, 1, "OK", 5, 8, 4, 2, 2, 0, 1, 2
+2478, 3651, 1, "OK", 7, 28, 21, 9, 9, 0, 4, 3
+2822, 3230, 1, "OK", 6, 9, 10, 4, 4, 0, 2, 3
+2425, 2992, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column JSONObject categoryOrMeasure String name", 0, 0, 9, 3, 3, 0, 2, 3
+1708, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+1665, 4030, 1, "OK", 3, 63, 33, 33, 16, 17, 7, 0
+3238, 3651, 1, "OK", 4, 9, 6, 3, 3, 0, 1, 3
+1665, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+2022, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingDefined boolean isSortingUsed", 0, 0, 1, 1, 1, 0, 0, 0
+1756, 4030, 1, "OK", 4, 60, 33, 33, 16, 17, 7, 0
+1708, 3983, 1, "OK", 4, 60, 33, 33, 16, 17, 7, 0
+1788, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+1756, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+2154, 3983, 1, "OK", 6, 49, 31, 31, 14, 17, 7, 0
+2478, 2645, 1, "OK", 1, 4, 5, 2, 2, 0, 1, 3
+1571, 4140, 1, "OK", 2, 70, 34, 34, 17, 17, 7, 0
+2822, 2992, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+2022, 3983, 1, "OK", 5, 50, 32, 32, 15, 17, 7, 0
+2999, 3651, 1, "OK", 9, 16, 12, 6, 6, 0, 2, 3
+2708, 2943, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+2425, 2763, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column String aliasToShow JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+2425, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject column JSONObject categoryOrMeasure String fieldType", 0, 0, 15, 6, 6, 0, 3, 3
+2950, 3651, 1, "OK", 9, 17, 12, 6, 6, 0, 2, 3
+1665, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+3396, 3651, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 3
+1571, 4164, 1, "OK", 2, 72, 34, 34, 17, 17, 7, 0
+1756, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+2653, 3651, 1, "OK", 8, 23, 16, 7, 7, 0, 3, 3
+2874, 2943, 1, "OK", 2, 1, 4, 1, 1, 0, 1, 3
+2708, 3230, 1, "OK", 7, 12, 10, 4, 4, 0, 2, 3
+2246, 3983, 1, "OK", 7, 46, 31, 31, 14, 17, 7, 0
+2538, 2867, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String formula", 0, 0, 5, 2, 2, 0, 1, 3
+1708, 4030, 1, "OK", 4, 62, 33, 33, 16, 17, 7, 0
+2478, 2943, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String name", 0, 0, 9, 3, 3, 0, 2, 3
+2822, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed String fieldType", 0, 0, 10, 4, 4, 0, 2, 3
+2154, 4030, 1, "OK", 7, 51, 31, 31, 14, 17, 7, 0
+1708, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+2022, 4030, 1, "OK", 6, 52, 32, 32, 15, 17, 7, 0
+2538, 3651, 1, "OK", 8, 27, 21, 9, 9, 0, 4, 3
+2022, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 1, 1, 1, 0, 0, 0
+2708, 2992, 1, "OK", 3, 6, 4, 1, 1, 0, 1, 3
+2346, 3978, 1, "OK", 7, 43, 30, 23, 13, 10, 7, 1
+2478, 2701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String aliasToShow JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+2189, 3983, 1, "OK", 7, 47, 31, 31, 14, 17, 7, 0
+2874, 3230, 1, "OK", 7, 8, 10, 4, 4, 0, 2, 3
+2425, 2814, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+1819, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2538, 2645, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+2478, 3230, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject categoryOrMeasure", 0, 0, 15, 6, 6, 0, 3, 3
+1621, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+1877, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2770, 3651, 1, "OK", 9, 21, 16, 7, 7, 0, 3, 3
+1708, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+2874, 2992, 1, "OK", 3, 2, 4, 1, 1, 0, 1, 3
+2246, 4030, 1, "OK", 8, 48, 31, 31, 14, 17, 7, 0
+1580, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray measures JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2478, 2992, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String name", 0, 0, 9, 3, 3, 0, 2, 3
+2653, 2943, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String name", 0, 0, 4, 1, 1, 0, 1, 3
+2374, 3658, 1, "OK", 7, 32, 24, 14, 10, 4, 5, 2
+2708, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed String fieldType", 0, 0, 10, 4, 4, 0, 2, 3
+2999, 3230, 1, "OK", 7, 6, 6, 3, 3, 0, 1, 3
+2273, 3978, 1, "OK", 7, 44, 30, 23, 13, 10, 7, 1
+1819, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+2189, 4030, 1, "OK", 8, 49, 31, 31, 14, 17, 7, 0
+1621, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+1877, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+1819, 3983, 1, "OK", 5, 56, 33, 33, 16, 17, 7, 0
+2538, 2943, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String name", 0, 0, 9, 3, 3, 0, 2, 3
+1525, 4140, 1, "OK", 1, 71, 34, 34, 17, 17, 7, 0
+2950, 3230, 1, "OK", 7, 7, 6, 3, 3, 0, 1, 3
+2425, 2867, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column JSONObject categoryOrMeasure String formula", 0, 0, 5, 2, 2, 0, 1, 3
+1621, 3983, 1, "OK", 3, 63, 33, 33, 16, 17, 7, 0
+1877, 3983, 1, "OK", 6, 55, 33, 33, 16, 17, 7, 0
+1580, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray measures JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+2478, 2763, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String aliasToShow JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+2874, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed String fieldType", 0, 0, 10, 4, 4, 0, 2, 3
+2653, 3230, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject categoryOrMeasure", 0, 0, 10, 4, 4, 0, 2, 3
+1580, 3983, 1, "OK", 2, 64, 33, 33, 16, 17, 7, 0
+2538, 2701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String aliasToShow JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+2425, 3651, 1, "OK", 8, 30, 21, 9, 9, 0, 4, 3
+1788, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2478, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject categoryOrMeasure String fieldType", 0, 0, 15, 6, 6, 0, 3, 3
+2770, 2943, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+1525, 4164, 1, "OK", 1, 73, 34, 34, 17, 17, 7, 0
+2538, 3230, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject categoryOrMeasure", 0, 0, 15, 6, 6, 0, 3, 3
+2653, 2992, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String name", 0, 0, 4, 1, 1, 0, 1, 3
+2425, 2645, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column String aliasToShow", 0, 0, 5, 2, 2, 0, 1, 3
+2374, 3972, 1, "OK", 7, 41, 28, 16, 12, 4, 6, 2
+2822, 3651, 1, "OK", 8, 19, 16, 7, 7, 0, 3, 3
+2999, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed String fieldType", 0, 0, 6, 3, 3, 0, 1, 3
+1819, 4030, 1, "OK", 6, 58, 33, 33, 16, 17, 7, 0
+1665, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2538, 2992, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject categoryOrMeasure String name", 0, 0, 9, 3, 3, 0, 2, 3
+1819, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+1621, 4030, 1, "OK", 3, 65, 33, 33, 16, 17, 7, 0
+1877, 4030, 1, "OK", 7, 57, 33, 33, 16, 17, 7, 0
+1756, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2770, 3230, 1, "OK", 7, 11, 10, 4, 4, 0, 2, 3
+1788, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+1621, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+1877, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+2478, 2814, 1, "OK", 1, 8, 5, 2, 2, 0, 1, 3
+1580, 4030, 1, "OK", 2, 66, 33, 33, 16, 17, 7, 0
+2950, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed String fieldType", 0, 0, 6, 3, 3, 0, 1, 3
+1788, 3983, 1, "OK", 4, 57, 33, 33, 16, 17, 7, 0
+1580, 2242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray measures JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed JSONObject content", 0, 0, 2, 2, 2, 0, 0, 0
+2653, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject categoryOrMeasure String fieldType", 0, 0, 10, 4, 4, 0, 2, 3
+2770, 2992, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+2538, 2763, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String aliasToShow JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+2425, 2943, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column JSONObject categoryOrMeasure String name", 0, 0, 9, 3, 3, 0, 2, 3
+1819, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+3294, 3651, 1, "OK", 5, 8, 6, 3, 3, 0, 1, 3
+1665, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+1621, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray categories String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+1756, 2184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined boolean isSortingUsed", 0, 0, 2, 2, 2, 0, 0, 0
+1877, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+1665, 3983, 1, "OK", 3, 61, 33, 33, 16, 17, 7, 0
+2538, 3287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isSortingUsed JSONObject categoryOrMeasure String fieldType", 0, 0, 15, 6, 6, 0, 3, 3
+2708, 3651, 1, "OK", 9, 22, 16, 7, 7, 0, 3, 3
+1756, 3983, 1, "OK", 3, 58, 33, 33, 16, 17, 7, 0
+2425, 2701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject column String aliasToShow JSONObject categoryOrMeasure", 0, 0, 5, 2, 2, 0, 1, 3
+1580, 2017, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray measures JSONArray categories String sortingColumn String sortingOrder", 0, 0, 1, 1, 1, 0, 0, 0
+1708, 2150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sortingColumn String sortingOrder boolean isSortingDefined", 0, 0, 2, 2, 2, 0, 0, 0
+2822, 2943, 1, "OK", 1, 2, 4, 1, 1, 0, 1, 3

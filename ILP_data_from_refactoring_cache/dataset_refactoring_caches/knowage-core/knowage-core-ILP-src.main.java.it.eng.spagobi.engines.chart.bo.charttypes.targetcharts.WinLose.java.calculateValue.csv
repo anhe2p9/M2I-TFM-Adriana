@@ -1,0 +1,57 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2483, 2707, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2412, 2603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2711, 4854, 1, "OK", 2, 64, 73, 73, 25, 48, 11, 0
+3741, 4798, 1, "OK", 8, 28, 48, 18, 12, 6, 6, 5
+3943, 4296, 1, "OK", 7, 10, 25, 7, 5, 2, 3, 6
+2674, 4854, 1, "OK", 2, 66, 73, 73, 25, 48, 11, 0
+4699, 4798, 1, "OK", 3, 3, 7, 2, 2, 0, 1, 5
+2435, 2668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2711, 4873, 1, "OK", 2, 65, 73, 73, 25, 48, 11, 0
+3977, 4027, 1, "OK", 2, 1, 8, 1, 1, 0, 1, 7
+2890, 4827, 1, "OK", 2, 55, 70, 59, 22, 37, 11, 1
+2919, 4827, 1, "OK", 3, 54, 70, 59, 22, 37, 11, 1
+2435, 4854, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 27, 48, 11, 0
+2483, 2603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2674, 4873, 1, "OK", 2, 67, 73, 73, 25, 48, 11, 0
+3812, 4798, 1, "OK", 8, 27, 48, 18, 12, 6, 6, 5
+2435, 4873, 1, "OK", 0, 73, 75, 75, 27, 48, 11, 0
+3333, 4815, 1, "OK", 4, 40, 60, 36, 17, 19, 8, 3
+3866, 4296, 1, "OK", 6, 12, 25, 7, 5, 2, 3, 6
+2435, 2707, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2606, 4831, 1, "OK", 1, 66, 73, 73, 25, 48, 11, 0
+3943, 4216, 1, "OK", 4, 8, 25, 7, 5, 2, 3, 6
+2412, 4831, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 27, 48, 11, 0
+3916, 4296, 1, "OK", 6, 11, 25, 7, 5, 2, 3, 6
+3131, 4822, 1, "OK", 3, 47, 63, 45, 18, 27, 9, 2
+2412, 2668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3280, 4815, 1, "OK", 4, 41, 60, 36, 17, 19, 8, 3
+2435, 2603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2606, 4854, 1, "OK", 1, 67, 73, 73, 25, 48, 11, 0
+2412, 4854, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 27, 48, 11, 0
+3741, 4614, 1, "OK", 6, 24, 41, 16, 10, 6, 5, 5
+2483, 4831, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 27, 48, 11, 0
+2863, 4827, 1, "OK", 1, 56, 70, 59, 22, 37, 11, 1
+3050, 3126, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Double mainTarget Double mainBaseline", 0, 0, 4, 2, 2, 0, 1, 2
+3611, 4807, 1, "OK", 8, 34, 55, 27, 15, 12, 7, 4
+3396, 4815, 1, "OK", 5, 39, 60, 36, 17, 19, 8, 3
+4043, 4216, 1, "OK", 3, 6, 10, 4, 3, 1, 1, 6
+3421, 4815, 1, "OK", 6, 38, 60, 36, 17, 19, 8, 3
+3202, 4822, 1, "OK", 3, 44, 63, 45, 18, 27, 9, 2
+4079, 4130, 1, "OK", 2, 1, 8, 1, 1, 0, 1, 7
+2483, 2668, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2606, 4873, 1, "OK", 1, 68, 73, 73, 25, 48, 11, 0
+3866, 4216, 1, "OK", 3, 10, 25, 7, 5, 2, 3, 6
+2412, 4873, 1, "OK", 0, 75, 75, 75, 27, 48, 11, 0
+3812, 4614, 1, "OK", 6, 23, 41, 16, 10, 6, 5, 5
+2483, 4854, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 27, 48, 11, 0
+2711, 4831, 1, "OK", 2, 63, 73, 73, 25, 48, 11, 0
+2412, 2707, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3050, 4822, 1, "OK", 3, 49, 67, 47, 20, 27, 10, 2
+3916, 4216, 1, "OK", 3, 9, 25, 7, 5, 2, 3, 6
+2674, 4831, 1, "OK", 2, 65, 73, 73, 25, 48, 11, 0
+3050, 3163, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Double mainTarget Double mainBaseline", 0, 0, 4, 2, 2, 0, 1, 2
+2483, 4873, 1, "OK", 1, 72, 75, 75, 27, 48, 11, 0
+3472, 4807, 1, "OK", 7, 36, 55, 27, 15, 12, 7, 4
+4325, 4605, 1, "OK", 3, 7, 8, 2, 2, 0, 1, 6
+2435, 4831, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 27, 48, 11, 0

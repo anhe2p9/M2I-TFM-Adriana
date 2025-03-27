@@ -1,0 +1,76 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+10182, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 4, 2, 2, 0, 2, 1
+9135, 11669, 1, "OK", 2, 56, 27, 27, 16, 11, 7, 0
+11216, 11535, 1, "OK", 5, 7, 4, 1, 1, 0, 1, 3
+10258, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 2, 1, 1, 0, 1, 1
+10601, 11542, 1, "OK", 4, 20, 12, 6, 5, 1, 3, 2
+10042, 10177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String rollupPolicy", 0, 0, 2, 1, 1, 0, 1, 1
+9971, 10332, 1, "OK", 3, 8, 6, 3, 3, 0, 3, 1
+10258, 11548, 1, "OK", 4, 28, 16, 11, 7, 4, 5, 1
+9230, 11553, 1, "OK", 3, 49, 26, 26, 15, 11, 7, 0
+10182, 10332, 1, "OK", 3, 4, 4, 2, 2, 0, 2, 1
+9906, 10177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String bottomLevel String rollupPolicy", 0, 0, 2, 1, 1, 0, 1, 1
+10042, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 6, 3, 3, 0, 3, 1
+9296, 11553, 1, "OK", 3, 48, 26, 26, 15, 11, 7, 0
+10337, 11548, 1, "OK", 3, 26, 14, 10, 6, 4, 4, 1
+9738, 11553, 1, "OK", 3, 40, 23, 23, 12, 11, 7, 0
+9135, 11687, 1, "OK", 2, 57, 27, 27, 16, 11, 7, 0
+9906, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 6, 3, 3, 0, 3, 1
+9875, 10253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String rollupPolicy", 0, 0, 4, 2, 2, 0, 2, 1
+10538, 10947, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String memberName String memberAccess", 0, 0, 5, 3, 3, 0, 1, 2
+10482, 11542, 1, "OK", 3, 22, 12, 6, 5, 1, 3, 2
+10042, 10332, 1, "OK", 4, 7, 6, 3, 3, 0, 3, 1
+10953, 11542, 1, "OK", 4, 15, 7, 3, 2, 1, 2, 2
+9875, 11548, 1, "OK", 2, 36, 20, 13, 9, 4, 7, 1
+10668, 11542, 1, "OK", 4, 19, 12, 6, 5, 1, 3, 2
+9875, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 6, 3, 3, 0, 3, 1
+9906, 10332, 1, "OK", 2, 9, 6, 3, 3, 0, 3, 1
+10115, 10253, 1, "OK", 3, 4, 4, 2, 2, 0, 2, 1
+11251, 11535, 1, "OK", 4, 6, 4, 1, 1, 0, 1, 3
+10258, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 2, 1, 1, 0, 1, 1
+9158, 11646, 1, "OK", 3, 54, 27, 27, 16, 11, 7, 0
+10115, 11548, 1, "OK", 6, 32, 20, 13, 9, 4, 7, 1
+10601, 10947, 1, "OK", 2, 5, 5, 3, 3, 0, 1, 2
+9356, 9734, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+9971, 10253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String rollupPolicy", 0, 0, 4, 2, 2, 0, 2, 1
+10115, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 6, 3, 3, 0, 3, 1
+9113, 11646, 1, "OK", 2, 56, 27, 27, 16, 11, 7, 0
+9875, 10177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String bottomLevel String rollupPolicy", 0, 0, 2, 1, 1, 0, 1, 1
+10182, 10253, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+9534, 9734, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+9971, 11548, 1, "OK", 4, 34, 20, 13, 9, 4, 7, 1
+10258, 10332, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+9971, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 6, 3, 3, 0, 3, 1
+10042, 10253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String rollupPolicy", 0, 0, 4, 2, 2, 0, 2, 1
+9356, 11553, 1, "OK", 4, 47, 26, 26, 15, 11, 7, 0
+10182, 11548, 1, "OK", 5, 30, 18, 12, 8, 4, 6, 1
+9158, 11669, 1, "OK", 3, 55, 27, 27, 16, 11, 7, 0
+10482, 10947, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String memberName String memberAccess", 0, 0, 5, 3, 3, 0, 1, 2
+9906, 10253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String rollupPolicy", 0, 0, 4, 2, 2, 0, 2, 1
+9113, 11669, 1, "OK", 2, 57, 27, 27, 16, 11, 7, 0
+10115, 10177, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+9167, 9734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rulesSB String access", 0, 0, 3, 3, 3, 0, 0, 0
+9875, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 6, 3, 3, 0, 3, 1
+10182, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 4, 2, 2, 0, 2, 1
+10668, 10947, 1, "OK", 2, 4, 5, 3, 3, 0, 1, 2
+10042, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 6, 3, 3, 0, 3, 1
+11372, 11535, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+9158, 11687, 1, "OK", 3, 56, 27, 27, 16, 11, 7, 0
+10042, 11548, 1, "OK", 5, 33, 20, 13, 9, 4, 7, 1
+9906, 10397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken List members", 0, 0, 6, 3, 3, 0, 3, 1
+10538, 11542, 1, "OK", 3, 21, 12, 6, 5, 1, 3, 2
+9113, 11687, 1, "OK", 2, 58, 27, 27, 16, 11, 7, 0
+9971, 10177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken String bottomLevel String rollupPolicy", 0, 0, 2, 1, 1, 0, 1, 1
+10447, 11548, 1, "OK", 3, 24, 14, 10, 6, 4, 4, 1
+10115, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 6, 3, 3, 0, 3, 1
+9875, 10332, 1, "OK", 1, 10, 6, 3, 3, 0, 3, 1
+9906, 11548, 1, "OK", 3, 35, 20, 13, 9, 4, 7, 1
+11174, 11535, 1, "OK", 4, 8, 4, 1, 1, 0, 1, 3
+9296, 9734, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+9135, 11646, 1, "OK", 2, 55, 27, 27, 16, 11, 7, 0
+9167, 11553, 1, "OK", 2, 50, 26, 26, 15, 11, 7, 0
+11315, 11535, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+9971, 10442, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String datoken Iterator membersIt", 0, 0, 6, 3, 3, 0, 3, 1
+9230, 9734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rulesSB String access", 0, 0, 3, 3, 3, 0, 0, 0
+10115, 10332, 1, "OK", 4, 6, 6, 3, 3, 0, 3, 1
+10402, 11548, 1, "OK", 3, 25, 14, 10, 6, 4, 4, 1

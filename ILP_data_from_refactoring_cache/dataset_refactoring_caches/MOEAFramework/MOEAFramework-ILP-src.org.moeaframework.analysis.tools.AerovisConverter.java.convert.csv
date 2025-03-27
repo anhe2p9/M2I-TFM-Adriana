@@ -1,0 +1,63 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7762, 7890, 1, "OK", 4, 5, 5, 2, 2, 0, 1, 3
+6974, 7485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7539, 7897, 1, "OK", 4, 15, 15, 7, 5, 2, 4, 2
+6935, 7932, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 11, 6, 8, 1
+7025, 7957, 1, "OK", 5, 42, 25, 17, 11, 6, 8, 1
+7591, 7690, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+6935, 7296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+7025, 7455, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7278, 7932, 1, "OK", 5, 29, 20, 14, 8, 6, 6, 1
+7306, 7957, 1, "OK", 5, 28, 20, 14, 8, 6, 6, 1
+7081, 7129, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7306, 7455, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+6935, 7957, 1, "OK", 4, 44, 25, 17, 11, 6, 8, 1
+7709, 7897, 1, "OK", 4, 7, 8, 4, 3, 1, 2, 2
+6974, 7129, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7081, 7268, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+7139, 7268, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+6974, 7268, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+7539, 7926, 1, "OK", 4, 17, 15, 7, 5, 2, 4, 2
+6726, 6896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+6935, 7455, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7278, 7957, 1, "OK", 5, 30, 20, 14, 8, 6, 6, 1
+6850, 6896, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+7025, 7485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7278, 7455, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+7081, 7932, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 11, 6, 8, 1
+7306, 7485, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+7465, 7932, 1, "OK", 4, 21, 17, 12, 6, 6, 5, 1
+7139, 7932, 1, "OK", 5, 35, 23, 16, 10, 6, 7, 1
+7709, 7926, 1, "OK", 4, 9, 8, 4, 3, 1, 2, 2
+7081, 7296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+6974, 7932, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 11, 6, 8, 1
+7539, 7697, 1, "OK", 3, 7, 7, 3, 2, 1, 2, 2
+7139, 7296, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+6974, 7296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+6935, 7485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7025, 7129, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7591, 7637, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+7081, 7957, 1, "OK", 5, 40, 25, 17, 11, 6, 8, 1
+7465, 7957, 1, "OK", 4, 22, 17, 12, 6, 6, 5, 1
+7762, 7837, 1, "OK", 3, 3, 5, 2, 2, 0, 1, 3
+7139, 7957, 1, "OK", 5, 36, 23, 16, 10, 6, 7, 1
+6785, 6896, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+7278, 7485, 1, "OK", 2, 9, 3, 2, 2, 0, 1, 1
+7081, 7455, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7495, 7932, 1, "OK", 4, 19, 17, 12, 6, 6, 5, 1
+6726, 7962, 1, "OK", 4, 53, 27, 27, 13, 14, 8, 0
+7025, 7268, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+6850, 7962, 1, "OK", 5, 50, 27, 27, 13, 14, 8, 0
+6974, 7957, 1, "OK", 4, 43, 25, 17, 11, 6, 8, 1
+7139, 7455, 1, "OK", 2, 13, 6, 4, 4, 0, 2, 1
+6904, 7962, 1, "OK", 4, 46, 26, 26, 12, 14, 8, 0
+6935, 7129, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+6974, 7455, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7495, 7957, 1, "OK", 4, 20, 17, 12, 6, 6, 5, 1
+6935, 7268, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+7025, 7932, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 11, 6, 8, 1
+7306, 7932, 1, "OK", 5, 27, 20, 14, 8, 6, 6, 1
+7025, 7296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+7081, 7485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 5, 0, 3, 1
+7139, 7485, 1, "OK", 2, 15, 6, 4, 4, 0, 2, 1
+6785, 7962, 1, "OK", 5, 52, 27, 27, 13, 14, 8, 0

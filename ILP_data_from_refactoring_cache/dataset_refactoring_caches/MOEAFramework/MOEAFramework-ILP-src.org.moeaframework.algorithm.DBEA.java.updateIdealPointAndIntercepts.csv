@@ -1,0 +1,42 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12995, 13224, 1, "OK", 4, 5, 6, 2, 2, 0, 1, 4
+11754, 13421, 1, "OK", 1, 43, 41, 31, 12, 19, 10, 1
+13061, 13224, 1, "OK", 2, 3, 6, 2, 2, 0, 1, 4
+12577, 12741, 1, "OK", 4, 5, 5, 1, 1, 0, 1, 4
+11862, 12054, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+12307, 12852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RealMatrix b RealMatrix A double numerator", 0, 0, 9, 3, 2, 1, 2, 3
+12307, 12914, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double numerator RealMatrix normal", 0, 0, 9, 3, 2, 1, 2, 3
+12390, 12852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RealMatrix A double numerator", 0, 0, 9, 3, 2, 1, 2, 3
+11318, 11524, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+12390, 12914, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double numerator RealMatrix normal", 0, 0, 9, 3, 2, 1, 2, 3
+12064, 13416, 1, "OK", 1, 34, 36, 20, 10, 10, 8, 2
+12390, 13232, 1, "OK", 2, 21, 19, 7, 5, 2, 4, 3
+11916, 12054, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+12859, 13232, 1, "OK", 4, 9, 10, 4, 3, 1, 2, 3
+12510, 12852, 1, "OK", 3, 10, 9, 3, 2, 1, 2, 3
+12510, 12914, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double numerator RealMatrix normal", 0, 0, 9, 3, 2, 1, 2, 3
+12510, 13232, 1, "OK", 3, 19, 19, 7, 5, 2, 4, 3
+11862, 13416, 1, "OK", 1, 40, 39, 21, 11, 10, 9, 2
+11916, 13416, 1, "OK", 2, 38, 39, 21, 11, 10, 9, 2
+12307, 12817, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RealMatrix b RealMatrix A double numerator", 0, 0, 9, 3, 2, 1, 2, 3
+11631, 13421, 1, "OK", 2, 47, 41, 31, 12, 19, 10, 1
+12307, 12749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RealMatrix b RealMatrix A", 0, 0, 9, 3, 2, 1, 2, 3
+12758, 13232, 1, "OK", 3, 11, 10, 4, 3, 1, 2, 3
+11318, 11663, 1, "OK", 1, 8, 2, 1, 1, 0, 1, 1
+12824, 13232, 1, "OK", 4, 10, 10, 4, 3, 1, 2, 3
+12609, 12741, 1, "OK", 3, 3, 5, 1, 1, 0, 1, 4
+11247, 13425, 1, "OK", 1, 57, 44, 44, 14, 30, 11, 0
+11563, 13421, 1, "OK", 1, 48, 41, 31, 12, 19, 10, 1
+13275, 13403, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+11318, 11746, 1, "OK", 1, 10, 2, 1, 1, 0, 1, 1
+12390, 12817, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RealMatrix A double numerator", 0, 0, 9, 3, 2, 1, 2, 3
+12390, 12749, 1, "OK", 2, 9, 9, 3, 2, 1, 2, 3
+11671, 13421, 1, "OK", 1, 45, 41, 31, 12, 19, 10, 1
+12510, 12817, 1, "OK", 3, 9, 9, 3, 2, 1, 2, 3
+11318, 11627, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+12510, 12749, 1, "OK", 3, 7, 9, 3, 2, 1, 2, 3
+12928, 13232, 1, "OK", 3, 7, 10, 4, 3, 1, 2, 3
+12307, 13232, 1, "OK", 1, 22, 19, 7, 5, 2, 4, 3
+12150, 12276, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+12295, 13410, 1, "OK", 1, 28, 28, 10, 7, 3, 6, 3
+11318, 13421, 1, "OK", 1, 54, 43, 32, 13, 19, 11, 1

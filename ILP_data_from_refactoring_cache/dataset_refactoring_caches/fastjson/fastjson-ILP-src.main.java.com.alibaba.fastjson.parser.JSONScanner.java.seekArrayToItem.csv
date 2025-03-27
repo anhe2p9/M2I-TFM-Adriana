@@ -1,0 +1,41 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+77978, 78079, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+77899, 77966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+79087, 79475, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 2, 2, 0, 1, 3
+78933, 79638, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+79281, 79475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 3
+79748, 79910, 1, "OK", 0, 5, 2, 2, 2, 0, 0, 1
+79514, 79609, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+77899, 79947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 18, 11, 6, 0
+77779, 79969, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 19, 11, 6, 0
+78973, 79494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 4, 3, 1, 2, 2
+77899, 79969, 1, "OK", 1, 67, 29, 29, 18, 11, 6, 0
+77978, 79947, 0, "Compilation unit does not compile after method extraction.", 1, 62, 28, 28, 17, 11, 6, 0
+78772, 79653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 10, 6, 4, 3, 1
+78115, 79923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 16, 11, 6, 0
+79514, 79638, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+78973, 79638, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+78933, 79609, 0, "Compilation unit does not compile after method extraction.", 0, 19, 11, 5, 4, 1, 3, 2
+77779, 79923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 19, 11, 6, 0
+77779, 78079, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+77779, 77887, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+78373, 78610, 1, "OK", 0, 7, 2, 2, 2, 0, 0, 2
+77978, 79969, 1, "OK", 1, 63, 28, 28, 17, 11, 6, 0
+77899, 79923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 18, 11, 6, 0
+78115, 79947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 16, 11, 6, 0
+78193, 79910, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 20, 15, 5, 6, 1
+78162, 79653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 17, 12, 5, 5, 1
+77899, 78079, 0, "Compilation unit does not compile after method extraction.", 0, 7, 2, 2, 2, 0, 0, 0
+78162, 79910, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 20, 15, 5, 6, 1
+78193, 79653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 17, 12, 5, 5, 1
+79669, 79910, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 3, 3, 0, 1, 1
+78241, 78610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 1, 2
+78933, 79494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 4, 3, 1, 2, 2
+78272, 78610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 1, 2
+79041, 79475, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 2, 2, 0, 1, 3
+77779, 77966, 0, "Compilation unit does not compile after method extraction.", 1, 7, 2, 2, 2, 0, 0, 0
+78115, 79969, 1, "OK", 1, 58, 27, 27, 16, 11, 6, 0
+78631, 79653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 11, 7, 4, 3, 1
+78973, 79609, 0, "Compilation unit does not compile after method extraction.", 1, 18, 11, 5, 4, 1, 3, 2
+77978, 79923, 0, "Compilation unit does not compile after method extraction.", 1, 60, 28, 28, 17, 11, 6, 0
+77779, 79947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 19, 11, 6, 0

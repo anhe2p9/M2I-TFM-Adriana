@@ -1,0 +1,283 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+48906, 50208, 1, "OK", 3, 32, 10, 4, 4, 0, 3, 2
+46862, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+46928, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43056, 58495, 1, "OK", 3, 371, 166, 166, 79, 87, 37, 0
+47065, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 31, 31, 18, 0
+43166, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 37, 56, 23, 0
+55879, 58294, 1, "OK", 4, 44, 27, 19, 14, 5, 4, 2
+50690, 51223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 8, 5, 3, 3, 1
+52064, 52150, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+50657, 51223, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 8, 5, 3, 3, 1
+43166, 46884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 19, 36, 11, 0
+47203, 48198, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 16, 11, 7, 4, 5, 1
+42850, 46946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 22, 37, 12, 0
+47094, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43339, 44088, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 2, 3
+43097, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+47293, 48018, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+43024, 58495, 1, "OK", 2, 372, 166, 166, 79, 87, 37, 0
+55930, 58294, 1, "OK", 4, 43, 27, 19, 14, 5, 4, 2
+51857, 51950, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+47541, 48018, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 3, 0, 2, 2
+50572, 58495, 1, "OK", 8, 167, 72, 72, 41, 31, 14, 0
+52064, 52181, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+43166, 46916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 19, 36, 11, 0
+48906, 49710, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 3, 0, 2, 2
+42850, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 97, 97, 40, 57, 24, 0
+46894, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 57, 51, 26, 0
+43056, 43154, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+47065, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43456, 44065, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+47094, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43097, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+50468, 51976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 24, 24, 13, 11, 6, 0
+52064, 58309, 1, "OK", 8, 113, 45, 37, 25, 12, 8, 1
+43097, 47053, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+50239, 50422, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+47094, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 57, 51, 26, 0
+43097, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 164, 164, 77, 87, 37, 0
+48214, 50223, 1, "OK", 4, 53, 18, 12, 8, 4, 6, 1
+43166, 46946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 19, 36, 11, 0
+45972, 46490, 1, "OK", 1, 9, 7, 2, 2, 0, 1, 5
+47293, 47521, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+46862, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 57, 51, 26, 0
+51362, 51950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 8, 4, 4, 0, 2, 2
+43166, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 37, 56, 23, 0
+51395, 51950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 8, 4, 4, 0, 2, 2
+42850, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 97, 97, 40, 57, 24, 0
+43024, 43154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int len int newcount", 0, 0, 1, 1, 1, 0, 0, 0
+46928, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 57, 51, 26, 0
+47065, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+52197, 58309, 1, "OK", 7, 108, 43, 36, 24, 12, 7, 1
+50535, 51976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 24, 24, 13, 11, 6, 0
+52164, 58309, 1, "OK", 8, 110, 43, 36, 24, 12, 7, 1
+48906, 49236, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+48314, 50223, 1, "OK", 4, 50, 16, 11, 7, 4, 5, 1
+49256, 50208, 1, "OK", 3, 22, 6, 2, 2, 0, 2, 2
+48347, 50223, 1, "OK", 3, 48, 16, 11, 7, 4, 5, 1
+51330, 51965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 10, 7, 5, 2, 3, 1
+43097, 47082, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+47002, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+50690, 51316, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 10, 7, 3, 3, 1
+50657, 51316, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 10, 7, 3, 3, 1
+43166, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 37, 56, 23, 0
+47065, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+50239, 50445, 1, "OK", 1, 8, 3, 2, 2, 0, 1, 1
+47256, 48183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 14, 6, 6, 0, 4, 2
+47002, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 31, 31, 18, 0
+45972, 46529, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+42850, 47053, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 22, 37, 12, 0
+42850, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 167, 167, 79, 88, 38, 0
+47203, 48300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 18, 12, 8, 4, 6, 1
+42883, 43001, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+43056, 46850, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+48414, 49710, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+50608, 58495, 1, "OK", 9, 165, 72, 72, 41, 31, 14, 0
+56660, 58275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int bufIndex", 0, 0, 18, 12, 10, 2, 2, 3
+43056, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 118, 118, 51, 67, 29, 0
+51434, 51837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount char lastSpecial", 0, 0, 5, 3, 3, 0, 1, 2
+43278, 46632, 1, "OK", 1, 72, 49, 31, 16, 15, 9, 2
+43166, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 37, 56, 23, 0
+48414, 50208, 1, "OK", 2, 46, 14, 6, 6, 0, 4, 2
+42883, 42980, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+42850, 47082, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 22, 37, 12, 0
+47065, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+47203, 48331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 18, 12, 8, 4, 6, 1
+55999, 58275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int bufIndex", 0, 0, 24, 15, 13, 2, 3, 3
+49256, 49710, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+43056, 46884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+48414, 49236, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+47203, 50422, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end", 0, 0, 37, 25, 17, 8, 12, 1
+54365, 55738, 1, "OK", 3, 23, 6, 3, 3, 0, 1, 3
+43166, 47053, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 19, 36, 11, 0
+50572, 51976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 24, 24, 13, 11, 6, 0
+43024, 46850, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+43166, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 163, 163, 76, 87, 37, 0
+47875, 48018, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+43024, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 118, 118, 51, 67, 29, 0
+43278, 46663, 1, "OK", 1, 74, 49, 31, 16, 15, 9, 2
+50499, 58320, 1, "OK", 5, 162, 70, 70, 39, 31, 14, 0
+42850, 43012, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+47002, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+47065, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43056, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+43024, 46884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+43056, 46916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+47161, 50223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end", 0, 0, 34, 23, 15, 8, 11, 1
+48214, 48300, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+46894, 58495, 1, "OK", 5, 279, 110, 110, 59, 51, 26, 0
+50730, 51208, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 2, 2
+45163, 45608, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+43381, 46579, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 46, 22, 15, 7, 8, 3
+47293, 48183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 14, 6, 6, 0, 4, 2
+47065, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 57, 51, 26, 0
+43247, 46632, 1, "OK", 1, 74, 49, 31, 16, 15, 9, 2
+42850, 43046, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+47002, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+54415, 55738, 1, "OK", 3, 22, 6, 3, 3, 0, 1, 3
+55819, 58294, 1, "OK", 4, 45, 27, 19, 14, 5, 4, 2
+43166, 47082, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 19, 36, 11, 0
+43024, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+43208, 46800, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 43, 18, 25, 11, 1
+47203, 50445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end", 0, 0, 37, 25, 17, 8, 12, 1
+50730, 51181, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 9, 5, 4, 1, 2, 2
+43056, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+43024, 46916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+48214, 48331, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+51988, 58320, 1, "OK", 8, 116, 46, 46, 26, 20, 8, 0
+50690, 51965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial boolean special", 0, 0, 23, 17, 12, 5, 6, 1
+46862, 58495, 1, "OK", 4, 280, 110, 110, 59, 51, 26, 0
+43208, 46839, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 43, 18, 25, 11, 1
+50657, 51965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial boolean special", 0, 0, 23, 17, 12, 5, 6, 1
+43056, 46946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+46928, 58495, 1, "OK", 5, 277, 110, 110, 59, 51, 26, 0
+48451, 50208, 1, "OK", 3, 44, 14, 6, 6, 0, 4, 2
+43247, 46663, 1, "OK", 1, 76, 49, 31, 16, 15, 9, 2
+47541, 48183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 10, 4, 4, 0, 3, 2
+56966, 57588, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int bufIndex", 0, 0, 6, 2, 2, 0, 1, 4
+50468, 58320, 1, "OK", 4, 163, 70, 70, 39, 31, 14, 0
+51239, 51316, 1, "OK", 1, 1, 2, 2, 2, 0, 0, 1
+47161, 48198, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 16, 11, 7, 4, 5, 1
+42850, 43087, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+43056, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+47002, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43024, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+50608, 51976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 24, 24, 13, 11, 6, 0
+48038, 48183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 3, 1, 1, 0, 1, 2
+43024, 46946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+43056, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+42850, 58495, 1, "OK", 2, 380, 169, 169, 81, 88, 38, 0
+44752, 45608, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 2, 2, 0, 2, 4
+43278, 46760, 1, "OK", 2, 77, 52, 32, 17, 15, 10, 2
+43097, 43154, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+47256, 47855, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+43097, 58495, 1, "OK", 4, 370, 166, 166, 79, 87, 37, 0
+50535, 58320, 1, "OK", 6, 161, 70, 70, 39, 31, 14, 0
+43381, 46613, 1, "OK", 1, 68, 46, 22, 15, 7, 8, 3
+51471, 51837, 1, "OK", 2, 9, 5, 3, 3, 0, 1, 2
+43024, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+48451, 49710, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+56917, 57588, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int bufIndex", 0, 0, 6, 2, 2, 0, 1, 4
+47002, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+51434, 51950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int firstSpecialIndex char lastSpecial", 0, 0, 8, 4, 4, 0, 2, 2
+47094, 58495, 1, "OK", 5, 271, 110, 110, 59, 51, 26, 0
+43056, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+47002, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 108, 108, 57, 51, 26, 0
+43278, 46785, 1, "OK", 2, 78, 52, 32, 17, 15, 10, 2
+42850, 43154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+48451, 49236, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+43024, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+46681, 46760, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+45930, 46490, 1, "OK", 1, 10, 7, 2, 2, 0, 1, 5
+48314, 50422, 1, "OK", 5, 57, 19, 13, 9, 4, 6, 1
+45664, 46556, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 6, 1, 2, 4
+48347, 50422, 1, "OK", 4, 55, 19, 13, 9, 4, 6, 1
+48214, 50445, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 21, 14, 10, 4, 7, 1
+43381, 44088, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 2, 3
+48214, 50422, 1, "OK", 5, 60, 21, 14, 10, 4, 7, 1
+50904, 51005, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+44191, 45608, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 4, 4, 0, 3, 4
+43024, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+47875, 48183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 6, 2, 2, 0, 2, 2
+47161, 48300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 18, 12, 8, 4, 6, 1
+48314, 50445, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 19, 13, 9, 4, 6, 1
+44191, 45135, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 3, 3, 0, 2, 4
+48347, 50445, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 19, 13, 9, 4, 6, 1
+50499, 58495, 1, "OK", 6, 169, 72, 72, 41, 31, 14, 0
+52239, 55757, 1, "OK", 3, 60, 13, 9, 8, 1, 2, 2
+52025, 52150, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+43056, 47053, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+46894, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 31, 31, 18, 0
+45930, 46529, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+48414, 48886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+43247, 46760, 1, "OK", 2, 79, 52, 32, 17, 15, 10, 2
+44752, 45135, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+50904, 51044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int firstSpecialIndex", 0, 0, 4, 1, 1, 0, 1, 3
+46681, 46785, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+50904, 51087, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex int firstSpecialIndex", 0, 0, 4, 1, 1, 0, 1, 3
+47161, 48331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex", 0, 0, 18, 12, 8, 4, 6, 1
+52025, 52181, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+43247, 46785, 1, "OK", 2, 80, 52, 32, 17, 15, 10, 2
+43024, 47053, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+46862, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 31, 31, 18, 0
+43056, 47082, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+46928, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 31, 31, 18, 0
+51239, 51965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial boolean special", 0, 0, 12, 9, 7, 2, 3, 1
+44112, 46579, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 18, 12, 6, 6, 3
+43056, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 164, 164, 77, 87, 37, 0
+52025, 58309, 1, "OK", 8, 114, 45, 37, 25, 12, 8, 1
+43166, 58495, 1, "OK", 4, 366, 165, 165, 78, 87, 37, 0
+46894, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+56041, 58275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int bufIndex", 0, 0, 24, 15, 13, 2, 3, 3
+47094, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 31, 31, 18, 0
+50468, 58495, 1, "OK", 5, 170, 72, 72, 41, 31, 14, 0
+47293, 47855, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+43097, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 118, 118, 51, 67, 29, 0
+50904, 51126, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 4, 1, 1, 0, 1, 3
+47161, 50422, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end", 0, 0, 37, 25, 17, 8, 12, 1
+47541, 47855, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+43024, 47082, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+47065, 58495, 1, "OK", 5, 273, 110, 110, 59, 51, 26, 0
+44112, 46613, 1, "OK", 1, 52, 36, 18, 12, 6, 6, 3
+52868, 55757, 1, "OK", 3, 49, 10, 8, 7, 1, 1, 2
+43024, 58320, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 164, 164, 77, 87, 37, 0
+51471, 51950, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int firstSpecialIndex", 0, 0, 8, 4, 4, 0, 2, 2
+46894, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+46862, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+50572, 58320, 1, "OK", 7, 160, 70, 70, 39, 31, 14, 0
+43097, 46850, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+46928, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+50535, 58495, 1, "OK", 7, 168, 72, 72, 41, 31, 14, 0
+42850, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 97, 97, 40, 57, 24, 0
+47161, 50445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end", 0, 0, 37, 25, 17, 8, 12, 1
+44191, 44724, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+46894, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+42909, 43001, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+47256, 48018, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+53497, 55757, 1, "OK", 3, 38, 9, 7, 6, 1, 1, 2
+42850, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 121, 121, 53, 68, 30, 0
+47094, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+42850, 46850, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 22, 37, 12, 0
+43097, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+51988, 58495, 1, "OK", 9, 123, 48, 48, 28, 20, 8, 0
+43097, 46884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+46862, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+46652, 46760, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+46928, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+42909, 42980, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+57644, 58252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int bufIndex", 0, 0, 7, 3, 3, 0, 1, 4
+51395, 51837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int lastSpecialIndex char lastSpecial", 0, 0, 5, 3, 3, 0, 1, 2
+46894, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+48451, 48886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+51362, 51837, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 3, 3, 0, 1, 2
+46862, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+49730, 50208, 1, "OK", 3, 10, 3, 1, 1, 0, 1, 2
+42850, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 97, 97, 40, 57, 24, 0
+46652, 46785, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+47094, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43097, 50489, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+42850, 46884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 22, 37, 12, 0
+46928, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+43097, 46916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+50904, 51162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 4, 1, 1, 0, 1, 3
+43339, 46579, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 46, 22, 15, 7, 8, 3
+47256, 47521, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+46894, 50596, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+46862, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+46928, 50562, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+42850, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 97, 97, 40, 57, 24, 0
+43166, 50456, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 37, 56, 23, 0
+43097, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 38, 56, 23, 0
+43166, 46850, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 19, 36, 11, 0
+47002, 58495, 1, "OK", 5, 275, 110, 110, 59, 51, 26, 0
+42850, 46916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 22, 37, 12, 0
+58332, 58495, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+50608, 58320, 1, "OK", 8, 158, 70, 70, 39, 31, 14, 0
+47203, 50223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end", 0, 0, 34, 23, 15, 8, 11, 1
+43166, 51976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 117, 117, 50, 67, 29, 0
+50499, 51976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex int firstSpecialIndex char lastSpecial", 0, 0, 24, 24, 13, 11, 6, 0
+43339, 46613, 1, "OK", 2, 70, 46, 22, 15, 7, 8, 3
+43097, 46946, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 20, 36, 11, 0
+47094, 50525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 18, 20, 12, 0
+55778, 58309, 1, "OK", 5, 47, 28, 24, 15, 9, 4, 1

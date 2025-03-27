@@ -1,0 +1,158 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+82340, 83084, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83030, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int start int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+81984, 83114, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83062, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82299, 83835, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+83443, 83699, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 4, 3, 3, 0, 1, 1
+82266, 83835, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+84536, 84891, 1, "OK", 3, 7, 5, 3, 3, 0, 1, 2
+83096, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83293, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83233, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+82299, 83862, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+82266, 83862, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+82421, 82898, 1, "OK", 1, 11, 10, 6, 5, 1, 2, 2
+82299, 83353, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82299, 83084, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82266, 83084, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82340, 83862, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+83363, 84917, 1, "OK", 6, 37, 15, 15, 11, 4, 3, 0
+81984, 84917, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 20, 11, 7, 0
+82340, 83353, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83874, 84951, 1, "OK", 5, 23, 9, 9, 6, 3, 2, 0
+83329, 84951, 1, "OK", 5, 40, 15, 15, 11, 4, 3, 0
+82057, 82143, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+82340, 83052, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83062, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83757, 84951, 1, "OK", 6, 28, 10, 10, 7, 3, 2, 0
+81984, 83084, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83096, 84951, 1, "OK", 4, 47, 15, 15, 11, 4, 3, 0
+83030, 84951, 1, "OK", 3, 50, 15, 15, 11, 4, 3, 0
+83293, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82340, 83835, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+81984, 83353, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83262, 84951, 1, "OK", 3, 42, 15, 15, 11, 4, 3, 0
+81984, 82330, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+82299, 83319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83170, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82266, 83319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+84428, 84906, 1, "OK", 3, 11, 7, 5, 4, 1, 2, 1
+82299, 83052, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82266, 83052, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82340, 83319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83363, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83874, 84917, 1, "OK", 5, 21, 9, 9, 6, 3, 2, 0
+83329, 84917, 1, "OK", 5, 38, 15, 15, 11, 4, 3, 0
+84180, 84906, 1, "OK", 4, 15, 7, 5, 4, 1, 2, 1
+81984, 83862, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 14, 8, 5, 0
+82451, 82953, 1, "OK", 1, 12, 10, 6, 5, 1, 2, 2
+83412, 83699, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 4, 3, 3, 0, 1, 1
+83262, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82057, 82191, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+83363, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82299, 84951, 1, "OK", 2, 70, 28, 28, 18, 10, 6, 0
+82266, 84951, 1, "OK", 1, 71, 28, 28, 18, 10, 6, 0
+82018, 82143, 1, "OK", 0, 4, 2, 1, 1, 0, 1, 1
+81984, 83710, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 13, 8, 5, 0
+83293, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83722, 83835, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+82340, 84951, 1, "OK", 3, 69, 28, 28, 18, 10, 6, 0
+83233, 84917, 1, "OK", 3, 42, 15, 15, 11, 4, 3, 0
+82421, 82953, 1, "OK", 1, 13, 10, 6, 5, 1, 2, 2
+83096, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83030, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int start int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82513, 82879, 1, "OK", 2, 8, 7, 4, 4, 0, 1, 3
+82266, 83353, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83262, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83170, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82554, 82879, 1, "OK", 1, 7, 7, 4, 4, 0, 1, 3
+82340, 83114, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+81984, 84951, 1, "OK", 1, 81, 31, 31, 20, 11, 7, 0
+82299, 84917, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 18, 10, 6, 0
+82266, 84917, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 18, 10, 6, 0
+82421, 82928, 1, "OK", 1, 12, 10, 6, 5, 1, 2, 2
+83329, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82299, 83114, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82266, 83114, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82340, 84917, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 18, 10, 6, 0
+83363, 84951, 1, "OK", 6, 39, 15, 15, 11, 4, 3, 0
+83233, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+84499, 84891, 1, "OK", 2, 9, 5, 3, 3, 0, 1, 2
+83722, 84917, 1, "OK", 6, 27, 10, 10, 7, 3, 2, 0
+82018, 82191, 1, "OK", 0, 5, 2, 1, 1, 0, 1, 1
+83757, 83835, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+83062, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83363, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+81984, 83747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 13, 8, 5, 0
+82299, 83710, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 11, 7, 4, 0
+83096, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+82266, 83710, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 11, 7, 4, 0
+83030, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int start int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+84143, 84917, 1, "OK", 5, 17, 8, 8, 5, 3, 2, 0
+83293, 84917, 1, "OK", 4, 39, 15, 15, 11, 4, 3, 0
+82299, 83223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82266, 83223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83233, 83710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83262, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83096, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+84408, 84906, 1, "OK", 3, 12, 7, 5, 4, 1, 2, 1
+81984, 83250, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83845, 84951, 1, "OK", 6, 25, 9, 9, 6, 3, 2, 0
+82340, 83223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83170, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83722, 83862, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+83329, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+83062, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+82057, 82222, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+81984, 83223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83170, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83293, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+82340, 83710, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 11, 7, 4, 0
+82057, 82243, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+83845, 84917, 1, "OK", 6, 23, 9, 9, 6, 3, 2, 0
+83233, 84951, 1, "OK", 3, 44, 15, 15, 11, 4, 3, 0
+83757, 84917, 1, "OK", 6, 26, 10, 10, 7, 3, 2, 0
+81984, 83052, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83030, 84917, 1, "OK", 3, 48, 15, 15, 11, 4, 3, 0
+82451, 82898, 1, "OK", 1, 10, 10, 6, 5, 1, 2, 2
+83062, 84951, 1, "OK", 4, 49, 15, 15, 11, 4, 3, 0
+82018, 82243, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+83233, 83747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 5, 5, 4, 1, 1, 0
+82340, 83018, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+81984, 83319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83262, 84917, 1, "OK", 3, 40, 15, 15, 11, 4, 3, 0
+82299, 83283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83363, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+82266, 83283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+84336, 84906, 1, "OK", 4, 13, 7, 5, 4, 1, 2, 1
+81984, 83835, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 14, 8, 5, 0
+82451, 82928, 1, "OK", 1, 11, 10, 6, 5, 1, 2, 2
+82299, 83018, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82340, 83283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82266, 83018, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+81984, 82289, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+82382, 83007, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 9, 6, 3, 3, 1
+83170, 84951, 1, "OK", 4, 45, 15, 15, 11, 4, 3, 0
+83329, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+82299, 83747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 11, 7, 4, 0
+82266, 83747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 11, 7, 4, 0
+83757, 83862, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+81984, 83018, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+82382, 82968, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 9, 6, 3, 3, 1
+82018, 82222, 1, "OK", 0, 6, 2, 1, 1, 0, 1, 1
+83722, 84951, 1, "OK", 6, 29, 10, 10, 7, 3, 2, 0
+81984, 82254, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+82340, 83250, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82340, 83747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 11, 7, 4, 0
+83062, 84917, 1, "OK", 4, 47, 15, 15, 11, 4, 3, 0
+83030, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int start int end int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+84293, 84906, 1, "OK", 4, 14, 7, 5, 4, 1, 2, 1
+82299, 83250, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+82266, 83250, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 7, 6, 3, 0
+83262, 83862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83293, 84951, 1, "OK", 4, 41, 15, 15, 11, 4, 3, 0
+83329, 83835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int newcount int specialCount int lastSpecialIndex char lastSpecial", 0, 0, 6, 6, 5, 1, 1, 0
+83096, 84917, 1, "OK", 4, 45, 15, 15, 11, 4, 3, 0
+81984, 83283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 9, 7, 4, 0
+83170, 84917, 1, "OK", 4, 43, 15, 15, 11, 4, 3, 0

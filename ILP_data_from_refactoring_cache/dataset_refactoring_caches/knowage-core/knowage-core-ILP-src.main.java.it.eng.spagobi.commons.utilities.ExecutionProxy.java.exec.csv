@@ -1,0 +1,719 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+8650, 9421, 1, "OK", 4, 20, 10, 10, 6, 4, 3, 0
+11581, 11745, 1, "OK", 4, 4, 3, 1, 1, 0, 1, 2
+11927, 12283, 1, "OK", 2, 10, 5, 3, 2, 1, 2, 1
+4312, 5655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className InternalEngineIFace internalEngine", 0, 0, 3, 1, 1, 0, 1, 2
+7895, 8247, 1, "OK", 3, 11, 7, 3, 3, 0, 2, 2
+7301, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+11078, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+5460, 6935, 1, "OK", 5, 31, 16, 6, 6, 0, 5, 2
+8953, 9255, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+8430, 13173, 1, "OK", 5, 112, 32, 32, 22, 10, 7, 0
+7301, 8247, 1, "OK", 2, 33, 10, 4, 4, 0, 3, 2
+3942, 9973, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 25, 25, 14, 0
+10036, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 18, 18, 12, 6, 4, 0
+10705, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+7044, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+8342, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 30, 30, 20, 10, 7, 0
+4312, 4657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+10858, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod int statusCode", 0, 0, 14, 14, 8, 6, 4, 0
+4384, 5498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+9588, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 22, 22, 16, 6, 4, 0
+12726, 13138, 1, "OK", 3, 10, 2, 2, 2, 0, 0, 0
+8342, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId", 0, 0, 16, 16, 12, 4, 3, 0
+4280, 5655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className InternalEngineIFace internalEngine", 0, 0, 3, 1, 1, 0, 1, 2
+12627, 13138, 1, "OK", 4, 12, 2, 2, 2, 0, 0, 0
+8579, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 30, 30, 20, 10, 7, 0
+8579, 10629, 1, "OK", 4, 48, 15, 15, 11, 4, 3, 0
+7512, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3942, 11027, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 30, 25, 14, 0
+9588, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 7, 7, 7, 0, 0, 0
+9808, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 19, 19, 13, 6, 4, 0
+4025, 12548, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+4143, 10945, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+8342, 9804, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars Locale locale", 0, 0, 11, 11, 7, 4, 3, 0
+4143, 12997, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 38, 31, 18, 0
+11285, 11751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GetMethod getMethod List<NameValuePair> nameValuePairs", 0, 0, 5, 3, 2, 1, 2, 1
+10646, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 17, 17, 11, 6, 4, 0
+4280, 4657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+7402, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+7512, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5033, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 38, 16, 6, 6, 0, 5, 2
+7118, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+8650, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+8579, 9640, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars Locale locale", 0, 0, 10, 10, 6, 4, 3, 0
+10646, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 2, 2, 2, 0, 0, 0
+12627, 13173, 1, "OK", 4, 13, 2, 2, 2, 0, 0, 0
+9588, 13173, 1, "OK", 4, 84, 22, 22, 16, 6, 4, 0
+12726, 13173, 1, "OK", 3, 11, 2, 2, 2, 0, 0, 0
+9644, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 20, 20, 14, 6, 4, 0
+4312, 4703, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+10858, 12722, 1, "OK", 3, 45, 14, 14, 8, 6, 4, 0
+5033, 6935, 1, "OK", 6, 39, 16, 6, 6, 0, 5, 2
+7402, 8247, 1, "OK", 3, 30, 10, 4, 4, 0, 3, 2
+8579, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+4384, 4533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp", 0, 0, 3, 1, 1, 0, 1, 2
+10036, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 18, 18, 12, 6, 4, 0
+9353, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+7240, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+4341, 4853, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+11104, 12288, 1, "OK", 3, 28, 13, 13, 7, 6, 4, 0
+4143, 9973, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 24, 25, 14, 0
+10646, 13173, 1, "OK", 4, 59, 17, 17, 11, 6, 4, 0
+10982, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+4539, 6913, 0, "Compilation unit does not compile after method extraction.", 5, 46, 16, 6, 6, 0, 5, 2
+12098, 12196, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+4280, 4703, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+7118, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+5398, 6913, 0, "Compilation unit does not compile after method extraction.", 5, 32, 16, 6, 6, 0, 5, 2
+3942, 13138, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 39, 31, 18, 0
+8579, 10701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager", 0, 0, 15, 15, 11, 4, 3, 0
+4341, 6913, 0, "Compilation unit does not compile after method extraction.", 5, 54, 19, 7, 7, 0, 6, 2
+10858, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 14, 14, 8, 6, 4, 0
+9808, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 19, 19, 13, 6, 4, 0
+10322, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 18, 18, 12, 6, 4, 0
+4025, 8521, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+3942, 11100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 30, 25, 14, 0
+4025, 12623, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+10322, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 3, 3, 3, 0, 0, 0
+10705, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod String userId", 0, 0, 15, 15, 9, 6, 4, 0
+4312, 4747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+8579, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+9353, 10277, 1, "OK", 4, 19, 4, 4, 4, 0, 0, 0
+11285, 11827, 1, "OK", 2, 12, 5, 3, 2, 1, 2, 1
+7873, 8024, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+11554, 11679, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+4539, 6935, 1, "OK", 5, 47, 16, 6, 6, 0, 5, 2
+5398, 6935, 1, "OK", 5, 33, 16, 6, 6, 0, 5, 2
+4341, 6935, 1, "OK", 5, 55, 19, 7, 7, 0, 6, 2
+5082, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+8650, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 30, 30, 20, 10, 7, 0
+7076, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 5, 5, 0, 4, 2
+4143, 11027, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+7118, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+11078, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+4384, 5607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+4917, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+4384, 4594, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+3942, 13173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 39, 31, 18, 0
+12098, 12248, 1, "OK", 4, 4, 3, 1, 1, 0, 1, 2
+10036, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 18, 18, 12, 6, 4, 0
+10036, 10629, 1, "OK", 3, 12, 3, 3, 3, 0, 0, 0
+4280, 4747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+8430, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+4341, 4911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+9644, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+7240, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+11285, 11855, 1, "OK", 2, 13, 5, 3, 2, 1, 2, 1
+9123, 9255, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+7044, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 5, 5, 0, 4, 2
+8342, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId", 0, 0, 17, 17, 13, 4, 3, 0
+3942, 3984, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4753, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+4025, 12677, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+4025, 10629, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 27, 25, 14, 0
+7240, 8247, 1, "OK", 1, 34, 10, 4, 4, 0, 3, 2
+8342, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+11078, 13173, 1, "OK", 5, 48, 15, 15, 9, 6, 4, 0
+8650, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 30, 30, 20, 10, 7, 0
+8650, 10629, 1, "OK", 5, 47, 15, 15, 11, 4, 3, 0
+10858, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod Header headContetType", 0, 0, 14, 14, 8, 6, 4, 0
+4384, 5655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className InternalEngineIFace internalEngine", 0, 0, 3, 1, 1, 0, 1, 2
+10036, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 18, 18, 12, 6, 4, 0
+8430, 10277, 1, "OK", 4, 42, 14, 14, 10, 4, 3, 0
+9353, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 20, 20, 14, 6, 4, 0
+8579, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 30, 30, 20, 10, 7, 0
+7076, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 5, 5, 0, 4, 2
+7512, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+9808, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 19, 19, 13, 6, 4, 0
+11104, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String userId", 0, 0, 13, 13, 7, 6, 4, 0
+11554, 11745, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+4143, 13138, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 38, 31, 18, 0
+10322, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 3, 3, 3, 0, 0, 0
+9588, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+4143, 11100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+10705, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 15, 15, 9, 6, 4, 0
+4384, 4657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+4025, 9640, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 22, 25, 14, 0
+5613, 6492, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 10, 4, 4, 0, 3, 2
+4341, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7076, 8247, 1, "OK", 1, 40, 13, 5, 5, 0, 4, 2
+4025, 12722, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+8650, 9640, 1, "OK", 4, 25, 10, 10, 6, 4, 3, 0
+4312, 4853, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7076, 7234, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+8579, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId", 0, 0, 16, 16, 12, 4, 3, 0
+10036, 10701, 1, "OK", 3, 15, 3, 3, 3, 0, 0, 0
+9644, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 20, 20, 14, 6, 4, 0
+7044, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 5, 5, 0, 4, 2
+8342, 9973, 1, "OK", 4, 40, 12, 12, 8, 4, 3, 0
+4143, 13173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 38, 31, 18, 0
+10982, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+4312, 6913, 0, "Compilation unit does not compile after method extraction.", 4, 55, 19, 7, 7, 0, 6, 2
+4025, 8646, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+8650, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+8579, 9804, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars Locale locale", 0, 0, 11, 11, 7, 4, 3, 0
+10646, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+10036, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 18, 18, 12, 6, 4, 0
+9808, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 19, 19, 13, 6, 4, 0
+9808, 10629, 1, "OK", 4, 18, 4, 4, 4, 0, 0, 0
+9588, 10277, 1, "OK", 3, 14, 4, 4, 4, 0, 0, 0
+3942, 4059, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4025, 10701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 27, 25, 14, 0
+8430, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 30, 30, 20, 10, 7, 0
+7044, 8247, 1, "OK", 1, 41, 13, 5, 5, 0, 4, 2
+8342, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+4280, 4853, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7044, 7234, 1, "OK", 0, 7, 3, 1, 1, 0, 1, 2
+4709, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 43, 16, 6, 6, 0, 5, 2
+8650, 10701, 1, "OK", 5, 50, 15, 15, 11, 4, 3, 0
+7873, 8163, 1, "OK", 3, 9, 7, 3, 3, 0, 2, 2
+4312, 6935, 1, "OK", 4, 56, 19, 7, 7, 0, 6, 2
+4384, 4703, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+4025, 12766, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+10322, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 18, 18, 12, 6, 4, 0
+12771, 12997, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+4280, 6913, 0, "Compilation unit does not compile after method extraction.", 3, 56, 19, 7, 7, 0, 6, 2
+7118, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+4341, 5027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+10322, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 3, 3, 3, 0, 0, 0
+8650, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+10705, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+4709, 6935, 1, "OK", 6, 44, 16, 6, 6, 0, 5, 2
+8430, 9348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngineDriver aEngineDriver Map mapPars", 0, 0, 10, 10, 6, 4, 3, 0
+9353, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 20, 20, 14, 6, 4, 0
+10982, 13173, 1, "OK", 4, 51, 15, 15, 9, 6, 4, 0
+4974, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 39, 16, 6, 6, 0, 5, 2
+3942, 12288, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+4312, 4911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+12071, 12196, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+11104, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String encodedUserId", 0, 0, 13, 13, 7, 6, 4, 0
+9644, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 20, 20, 14, 6, 4, 0
+9644, 10629, 1, "OK", 4, 22, 5, 5, 5, 0, 0, 0
+7076, 7295, 1, "OK", 0, 7, 3, 1, 1, 0, 1, 2
+3878, 13256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 18, 0
+10322, 13173, 1, "OK", 4, 68, 18, 18, 12, 6, 4, 0
+4280, 6935, 1, "OK", 3, 57, 19, 7, 7, 0, 6, 2
+5736, 5832, 1, "OK", 1, 2, 4, 2, 2, 0, 1, 2
+9808, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 19, 19, 13, 6, 4, 0
+4974, 6935, 1, "OK", 7, 40, 16, 6, 6, 0, 5, 2
+9588, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 20, 20, 14, 6, 4, 0
+4384, 4747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+10036, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 18, 18, 12, 6, 4, 0
+8731, 9261, 1, "OK", 0, 13, 6, 4, 3, 1, 2, 1
+3878, 13279, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 18, 0
+8342, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+9808, 10701, 1, "OK", 4, 21, 4, 4, 4, 0, 0, 0
+4280, 4911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+11872, 12254, 1, "OK", 2, 10, 5, 3, 2, 1, 2, 1
+11078, 12288, 1, "OK", 3, 29, 13, 13, 7, 6, 4, 0
+7044, 7295, 1, "OK", 0, 8, 3, 1, 1, 0, 1, 2
+5504, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 29, 16, 6, 6, 0, 5, 2
+3942, 10277, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 27, 25, 14, 0
+4341, 5076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+8342, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+9644, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+7873, 8228, 1, "OK", 3, 11, 7, 3, 3, 0, 2, 2
+9808, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 19, 19, 13, 6, 4, 0
+10036, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 4, 4, 4, 0, 0, 0
+12476, 12997, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+10646, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 15, 15, 9, 6, 4, 0
+3878, 13298, 1, "OK", 3, 236, 71, 71, 40, 31, 18, 0
+8430, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 30, 30, 20, 10, 7, 0
+7512, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+4025, 12840, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+4312, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7873, 8247, 1, "OK", 3, 12, 7, 3, 3, 0, 2, 2
+7781, 8024, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] bytes int offset", 0, 0, 4, 2, 2, 0, 1, 2
+12071, 12248, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+9353, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+10858, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 16, 16, 10, 6, 4, 0
+11872, 12283, 1, "OK", 2, 11, 5, 3, 2, 1, 2, 1
+10705, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 15, 15, 9, 6, 4, 0
+5504, 6935, 1, "OK", 6, 30, 16, 6, 6, 0, 5, 2
+8579, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId", 0, 0, 17, 17, 13, 4, 3, 0
+8650, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 30, 30, 20, 10, 7, 0
+10858, 10945, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+11104, 12548, 1, "OK", 3, 31, 13, 13, 7, 6, 4, 0
+4025, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 28, 25, 14, 0
+8342, 13173, 1, "OK", 4, 115, 32, 32, 22, 10, 7, 0
+8430, 9421, 1, "OK", 4, 24, 10, 10, 6, 4, 3, 0
+7076, 7369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer reqContainer SpagoBIChartInternalEngine sbcie", 0, 0, 3, 1, 1, 0, 1, 2
+9644, 10701, 1, "OK", 4, 25, 5, 5, 5, 0, 0, 0
+8579, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+5142, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 36, 16, 6, 6, 0, 5, 2
+4143, 12288, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+4280, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+5736, 5917, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+4025, 9804, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 23, 25, 14, 0
+8650, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 16, 16, 12, 4, 3, 0
+9644, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+6947, 8310, 1, "OK", 3, 46, 15, 11, 7, 4, 4, 1
+3942, 12384, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+4341, 5136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+4859, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+5142, 6935, 1, "OK", 7, 37, 16, 6, 6, 0, 5, 2
+9588, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 20, 20, 14, 6, 4, 0
+8731, 9343, 1, "OK", 2, 16, 8, 5, 4, 1, 3, 1
+7044, 7369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer reqContainer SpagoBIChartInternalEngine sbcie", 0, 0, 3, 1, 1, 0, 1, 2
+8650, 9804, 1, "OK", 4, 29, 11, 11, 7, 4, 3, 0
+4312, 5027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7512, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+10705, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 15, 15, 9, 6, 4, 0
+8430, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+3942, 8315, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 17, 21, 11, 0
+4384, 4853, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+4143, 10277, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 26, 25, 14, 0
+5190, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+7118, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 5, 5, 0, 4, 2
+12771, 13138, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+8579, 9973, 1, "OK", 4, 34, 12, 12, 8, 4, 3, 0
+3942, 9348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 23, 25, 14, 0
+9808, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 19, 19, 13, 6, 4, 0
+10982, 12288, 1, "OK", 2, 32, 13, 13, 7, 6, 4, 0
+11078, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String userId", 0, 0, 13, 13, 7, 6, 4, 0
+4384, 6913, 0, "Compilation unit does not compile after method extraction.", 5, 52, 19, 7, 7, 0, 6, 2
+9353, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 20, 20, 14, 6, 4, 0
+6498, 6913, 1, "OK", 4, 10, 6, 2, 2, 0, 2, 2
+7512, 8247, 1, "OK", 1, 27, 10, 4, 4, 0, 3, 2
+10646, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 15, 15, 9, 6, 4, 0
+7595, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+9808, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 5, 5, 5, 0, 0, 0
+10322, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 16, 16, 10, 6, 4, 0
+4280, 5027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+4341, 5184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+10858, 11027, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+8579, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+11104, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod HttpClient client", 0, 0, 13, 13, 7, 6, 4, 0
+12771, 13173, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+6498, 6935, 1, "OK", 5, 11, 6, 2, 2, 0, 2, 2
+9644, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 20, 20, 14, 6, 4, 0
+4384, 6935, 1, "OK", 5, 53, 19, 7, 7, 0, 6, 2
+4312, 5076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+4663, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+10705, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+10036, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 5, 5, 5, 0, 0, 0
+4143, 12384, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+3942, 12472, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+12476, 13138, 1, "OK", 4, 16, 2, 2, 2, 0, 0, 0
+4384, 4911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7076, 7476, 1, "OK", 1, 11, 3, 1, 1, 0, 1, 2
+5324, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+9644, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 6, 6, 6, 0, 0, 0
+7118, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 5, 5, 0, 4, 2
+9588, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+8078, 8163, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+10036, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+9353, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 20, 20, 14, 6, 4, 0
+9353, 10629, 1, "OK", 4, 28, 5, 5, 5, 0, 0, 0
+3942, 8387, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 17, 21, 11, 0
+12844, 12997, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+7781, 8163, 1, "OK", 2, 13, 7, 3, 3, 0, 2, 2
+4280, 5076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7630, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+11104, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod int statusCode", 0, 0, 13, 13, 7, 6, 4, 0
+9644, 9804, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+8430, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 30, 30, 20, 10, 7, 0
+7118, 8247, 1, "OK", 1, 39, 13, 5, 5, 0, 4, 2
+3942, 9421, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 23, 25, 14, 0
+10646, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+4025, 10945, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+10705, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+10858, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 16, 16, 10, 6, 4, 0
+7852, 8024, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+4025, 12997, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 38, 31, 18, 0
+4143, 8315, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+8342, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+7044, 7476, 1, "OK", 1, 12, 3, 1, 1, 0, 1, 2
+4341, 5253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer permSession", 0, 0, 3, 1, 1, 0, 1, 2
+4143, 9348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 22, 25, 14, 0
+8579, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+10858, 11100, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+11078, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String encodedUserId", 0, 0, 13, 13, 7, 6, 4, 0
+7118, 7234, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+8650, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+11465, 11751, 1, "OK", 3, 8, 5, 3, 2, 1, 2, 1
+4312, 5136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+8650, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 17, 17, 13, 4, 3, 0
+12476, 13173, 1, "OK", 4, 17, 2, 2, 2, 0, 0, 0
+8579, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+10982, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String userId", 0, 0, 13, 13, 7, 6, 4, 0
+7595, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7301, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+10858, 13173, 1, "OK", 4, 56, 16, 16, 10, 6, 4, 0
+10322, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 16, 16, 10, 6, 4, 0
+4384, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+9353, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+8342, 10277, 1, "OK", 4, 45, 14, 14, 10, 4, 3, 0
+8078, 8228, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+11104, 12722, 1, "OK", 3, 36, 13, 13, 7, 6, 4, 0
+11501, 11679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parurlname String parvalue", 0, 0, 3, 1, 1, 0, 1, 2
+8579, 13173, 1, "OK", 5, 109, 32, 32, 22, 10, 7, 0
+9588, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 20, 20, 14, 6, 4, 0
+12681, 12997, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+4280, 5136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+8430, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 30, 30, 20, 10, 7, 0
+8430, 10629, 1, "OK", 4, 51, 15, 15, 11, 4, 3, 0
+3942, 12548, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+4025, 9973, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 24, 25, 14, 0
+9353, 10701, 1, "OK", 4, 31, 5, 5, 5, 0, 0, 0
+7076, 7555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file InputStream is", 0, 0, 3, 1, 1, 0, 1, 2
+7781, 8228, 1, "OK", 2, 15, 7, 3, 3, 0, 2, 2
+10036, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 5, 5, 5, 0, 0, 0
+4600, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+4143, 12472, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+8650, 9973, 1, "OK", 4, 33, 12, 12, 8, 4, 3, 0
+8078, 8247, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+5082, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 37, 16, 6, 6, 0, 5, 2
+4312, 5184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+8772, 9261, 1, "OK", 1, 12, 6, 4, 3, 1, 2, 1
+4917, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 40, 16, 6, 6, 0, 5, 2
+7781, 8247, 1, "OK", 2, 16, 7, 3, 3, 0, 2, 2
+7118, 7295, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+9353, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+9808, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 21, 21, 15, 6, 4, 0
+7595, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+9808, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 6, 6, 6, 0, 0, 0
+4143, 8387, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+4025, 11027, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+11078, 12548, 1, "OK", 3, 32, 13, 13, 7, 6, 4, 0
+11104, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 13, 13, 7, 6, 4, 0
+5082, 6935, 1, "OK", 6, 38, 16, 6, 6, 0, 5, 2
+4143, 9421, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 22, 25, 14, 0
+10705, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 15, 15, 9, 6, 4, 0
+7630, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+8430, 9640, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars Locale locale", 0, 0, 10, 10, 6, 4, 3, 0
+10646, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 15, 15, 9, 6, 4, 0
+8430, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+4917, 6935, 1, "OK", 7, 41, 16, 6, 6, 0, 5, 2
+5724, 6492, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 10, 4, 4, 0, 3, 2
+7044, 7555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file InputStream is", 0, 0, 3, 1, 1, 0, 1, 2
+7595, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7402, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4384, 5027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+9266, 9343, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+4280, 5184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+5460, 6492, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 10, 4, 4, 0, 3, 2
+8650, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+10705, 10811, 1, "OK", 3, 1, 1, 1, 1, 0, 0, 0
+11465, 11827, 1, "OK", 4, 9, 5, 3, 2, 1, 2, 1
+8342, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 30, 30, 20, 10, 7, 0
+11501, 11745, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+9644, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 7, 7, 7, 0, 0, 0
+4753, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 42, 16, 6, 6, 0, 5, 2
+9588, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 20, 20, 14, 6, 4, 0
+9588, 10629, 1, "OK", 3, 23, 5, 5, 5, 0, 0, 0
+10982, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String encodedUserId", 0, 0, 13, 13, 7, 6, 4, 0
+10036, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+9644, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 22, 22, 16, 6, 4, 0
+9005, 9255, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+12844, 13138, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+9808, 9973, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+10322, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 16, 16, 10, 6, 4, 0
+11465, 11855, 1, "OK", 4, 10, 5, 3, 2, 1, 2, 1
+8430, 10701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager", 0, 0, 15, 15, 11, 4, 3, 0
+7301, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4753, 6935, 1, "OK", 6, 43, 16, 6, 6, 0, 5, 2
+3942, 8521, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 17, 21, 11, 0
+7076, 7623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InputStream is long length", 0, 0, 3, 1, 1, 0, 1, 2
+3942, 12623, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+8342, 9348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngineDriver aEngineDriver Map mapPars", 0, 0, 10, 10, 6, 4, 3, 0
+4312, 5253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer permSession", 0, 0, 3, 1, 1, 0, 1, 2
+10036, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 5, 5, 5, 0, 0, 0
+7630, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4143, 12548, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+8430, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+10646, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 15, 15, 9, 6, 4, 0
+4384, 5076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+5613, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 28, 16, 6, 6, 0, 5, 2
+4025, 13138, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 38, 31, 18, 0
+8772, 9343, 1, "OK", 3, 15, 8, 5, 4, 1, 3, 1
+11337, 11751, 1, "OK", 1, 10, 5, 3, 2, 1, 2, 1
+9588, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+7852, 8163, 1, "OK", 2, 10, 7, 3, 3, 0, 2, 2
+4341, 5392, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+7118, 7369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContainer reqContainer SpagoBIChartInternalEngine sbcie", 0, 0, 3, 1, 1, 0, 1, 2
+9808, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 6, 6, 6, 0, 0, 0
+9353, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 20, 20, 14, 6, 4, 0
+4025, 11100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+10036, 13173, 1, "OK", 4, 73, 20, 20, 14, 6, 4, 0
+7044, 7623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InputStream is long length", 0, 0, 3, 1, 1, 0, 1, 2
+7630, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5613, 6935, 1, "OK", 6, 29, 16, 6, 6, 0, 5, 2
+11104, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod Header headContetType", 0, 0, 13, 13, 7, 6, 4, 0
+12844, 13173, 1, "OK", 4, 8, 2, 2, 2, 0, 0, 0
+4280, 5253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer permSession", 0, 0, 3, 1, 1, 0, 1, 2
+8650, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+9644, 9973, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+11078, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod HttpClient client", 0, 0, 13, 13, 7, 6, 4, 0
+10858, 12288, 1, "OK", 3, 37, 14, 14, 8, 6, 4, 0
+7301, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+11982, 12254, 1, "OK", 3, 8, 5, 3, 2, 1, 2, 1
+5033, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+8650, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+9353, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 6, 6, 6, 0, 0, 0
+10646, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+8579, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+10982, 12548, 1, "OK", 2, 35, 13, 13, 7, 6, 4, 0
+12586, 12997, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+9588, 10701, 1, "OK", 3, 26, 5, 5, 5, 0, 0, 0
+4025, 13173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 38, 31, 18, 0
+9353, 9804, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+7402, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3942, 12677, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+3942, 10629, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 28, 25, 14, 0
+12388, 12997, 1, "OK", 2, 15, 2, 2, 2, 0, 0, 0
+8342, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 30, 30, 20, 10, 7, 0
+8650, 13173, 1, "OK", 6, 108, 32, 32, 22, 10, 7, 0
+7240, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+11982, 12283, 1, "OK", 3, 9, 5, 3, 2, 1, 2, 1
+9644, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 7, 7, 7, 0, 0, 0
+12681, 13138, 1, "OK", 4, 11, 2, 2, 2, 0, 0, 0
+7301, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+9588, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+4384, 5136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+10322, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 16, 16, 10, 6, 4, 0
+12018, 12196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parurlname String parvalue", 0, 0, 3, 1, 1, 0, 1, 2
+4143, 8521, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+7852, 8228, 1, "OK", 2, 12, 7, 3, 3, 0, 2, 2
+4341, 5453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+8342, 9421, 1, "OK", 4, 27, 10, 10, 6, 4, 3, 0
+8430, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 30, 30, 20, 10, 7, 0
+4539, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler RequestContainer reqContainer InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+3942, 9640, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 23, 25, 14, 0
+4143, 12623, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+11078, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod int statusCode", 0, 0, 13, 13, 7, 6, 4, 0
+5398, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+8579, 10277, 1, "OK", 4, 39, 14, 14, 10, 4, 3, 0
+9808, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 21, 21, 15, 6, 4, 0
+9808, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 6, 6, 6, 0, 0, 0
+8430, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId", 0, 0, 16, 16, 12, 4, 3, 0
+4341, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer InternalEngineIFace internalEngine", 0, 0, 13, 5, 5, 0, 4, 2
+12681, 13173, 1, "OK", 4, 12, 2, 2, 2, 0, 0, 0
+10646, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+7595, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+11337, 11827, 1, "OK", 2, 11, 5, 3, 2, 1, 2, 1
+3942, 12722, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+7076, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+7852, 8247, 1, "OK", 2, 13, 7, 3, 3, 0, 2, 2
+10705, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response Integer auditId HttpMethod httpMethod", 0, 0, 17, 17, 11, 6, 4, 0
+7402, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+10705, 10945, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+8430, 9804, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars Locale locale", 0, 0, 11, 11, 7, 4, 3, 0
+9808, 13173, 1, "OK", 5, 79, 21, 21, 15, 6, 4, 0
+11337, 11855, 1, "OK", 2, 12, 5, 3, 2, 1, 2, 1
+12018, 12248, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+3942, 8646, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 17, 21, 11, 0
+9644, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 22, 22, 16, 6, 4, 0
+4384, 5184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer session", 0, 0, 3, 1, 1, 0, 1, 2
+4341, 5498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+7118, 7476, 1, "OK", 1, 10, 3, 1, 1, 0, 1, 2
+11078, 12722, 1, "OK", 3, 37, 13, 13, 7, 6, 4, 0
+3942, 10701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 28, 25, 14, 0
+8342, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+7402, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+10982, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod HttpClient client", 0, 0, 13, 13, 7, 6, 4, 0
+7044, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+9588, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 20, 20, 14, 6, 4, 0
+10858, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String userId", 0, 0, 14, 14, 8, 6, 4, 0
+4143, 12677, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+4143, 10629, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 27, 25, 14, 0
+9644, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 7, 7, 7, 0, 0, 0
+8579, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 30, 30, 20, 10, 7, 0
+3942, 12766, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+10322, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 16, 16, 10, 6, 4, 0
+4312, 5392, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+12292, 12997, 1, "OK", 1, 16, 2, 2, 2, 0, 0, 0
+7240, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7630, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+10036, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 18, 18, 12, 6, 4, 0
+9588, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 6, 6, 6, 0, 0, 0
+9644, 13173, 1, "OK", 5, 83, 22, 22, 16, 6, 4, 0
+10646, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 15, 15, 9, 6, 4, 0
+4143, 9640, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 22, 25, 14, 0
+9353, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 22, 22, 16, 6, 4, 0
+4280, 5392, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+11078, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 13, 13, 7, 6, 4, 0
+9353, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 7, 7, 7, 0, 0, 0
+9588, 9804, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+7895, 8024, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+10646, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 1, 1, 1, 0, 0, 0
+11104, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+4341, 4533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp", 0, 0, 3, 1, 1, 0, 1, 2
+4384, 5253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext SessionContainer permSession", 0, 0, 3, 1, 1, 0, 1, 2
+10982, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod int statusCode", 0, 0, 13, 13, 7, 6, 4, 0
+4859, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 41, 16, 6, 6, 0, 5, 2
+4143, 12722, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+8579, 9348, 1, "OK", 3, 19, 10, 10, 6, 4, 3, 0
+10705, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId String urlEngine", 0, 0, 2, 2, 2, 0, 0, 0
+12388, 13138, 1, "OK", 4, 17, 2, 2, 2, 0, 0, 0
+4025, 12288, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+7076, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+12586, 13138, 1, "OK", 3, 13, 2, 2, 2, 0, 0, 0
+10322, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 16, 16, 10, 6, 4, 0
+10322, 10629, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+8650, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+4312, 5453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+7118, 7555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file InputStream is", 0, 0, 3, 1, 1, 0, 1, 2
+10036, 10277, 1, "OK", 3, 3, 2, 2, 2, 0, 0, 0
+7240, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7301, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+4143, 8646, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+4143, 10701, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 27, 25, 14, 0
+8342, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 30, 30, 20, 10, 7, 0
+4187, 8310, 1, "OK", 3, 104, 36, 25, 15, 10, 11, 1
+5190, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 35, 16, 6, 6, 0, 5, 2
+4859, 6935, 1, "OK", 7, 42, 16, 6, 6, 0, 5, 2
+3942, 12840, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 37, 31, 18, 0
+4312, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer InternalEngineIFace internalEngine", 0, 0, 13, 5, 5, 0, 4, 2
+10982, 12722, 1, "OK", 2, 40, 13, 13, 7, 6, 4, 0
+9353, 9973, 1, "OK", 3, 14, 2, 2, 2, 0, 0, 0
+7240, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+10858, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod String encodedUserId", 0, 0, 14, 14, 8, 6, 4, 0
+12586, 13173, 1, "OK", 3, 14, 2, 2, 2, 0, 0, 0
+7044, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+4025, 10277, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 26, 25, 14, 0
+8430, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId", 0, 0, 17, 17, 13, 4, 3, 0
+5190, 6935, 1, "OK", 7, 36, 16, 6, 6, 0, 5, 2
+4341, 5607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+4143, 12766, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+8579, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 30, 30, 20, 10, 7, 0
+11410, 11751, 1, "OK", 2, 9, 5, 3, 2, 1, 2, 1
+3942, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 54, 29, 25, 14, 0
+12388, 13173, 1, "OK", 4, 18, 2, 2, 2, 0, 0, 0
+4280, 5453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+8650, 10277, 1, "OK", 5, 38, 14, 14, 10, 4, 3, 0
+4709, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+7595, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+7076, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+8430, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+4341, 4594, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+4312, 5498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+10322, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 16, 16, 10, 6, 4, 0
+3942, 9804, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 24, 25, 14, 0
+11078, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod Header headContetType", 0, 0, 13, 13, 7, 6, 4, 0
+10705, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 17, 17, 11, 6, 4, 0
+4280, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer InternalEngineIFace internalEngine", 0, 0, 13, 5, 5, 0, 4, 2
+10036, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 18, 18, 12, 6, 4, 0
+10705, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer auditId String urlEngine", 0, 0, 2, 2, 2, 0, 0, 0
+4663, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 44, 16, 6, 6, 0, 5, 2
+7402, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+4974, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+7076, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+8579, 9421, 1, "OK", 4, 21, 10, 10, 6, 4, 3, 0
+9353, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 7, 7, 7, 0, 0, 0
+8342, 12677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod int statusCode", 0, 0, 30, 30, 20, 10, 7, 0
+8342, 10629, 1, "OK", 4, 54, 15, 15, 11, 4, 3, 0
+5324, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 33, 16, 6, 6, 0, 5, 2
+9808, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 19, 19, 13, 6, 4, 0
+10322, 10701, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+7118, 7623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InputStream is long length", 0, 0, 3, 1, 1, 0, 1, 2
+8849, 9261, 1, "OK", 2, 10, 6, 4, 3, 1, 2, 1
+7044, 7867, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+10982, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 13, 13, 7, 6, 4, 0
+10705, 13173, 1, "OK", 5, 58, 17, 17, 11, 6, 4, 0
+4280, 5498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+4341, 5655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className InternalEngineIFace internalEngine", 0, 0, 3, 1, 1, 0, 1, 2
+4663, 6935, 1, "OK", 7, 45, 16, 6, 6, 0, 5, 2
+10322, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 16, 16, 10, 6, 4, 0
+12292, 13138, 1, "OK", 3, 18, 2, 2, 2, 0, 0, 0
+4025, 12384, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+9588, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 7, 7, 7, 0, 0, 0
+8430, 9973, 1, "OK", 4, 37, 12, 12, 8, 4, 3, 0
+7044, 7889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+5324, 6935, 1, "OK", 7, 34, 16, 6, 6, 0, 5, 2
+9644, 12288, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 20, 20, 14, 6, 4, 0
+9808, 10277, 1, "OK", 4, 9, 3, 3, 3, 0, 0, 0
+8650, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 30, 30, 20, 10, 7, 0
+12627, 12997, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+7630, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+9588, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 22, 22, 16, 6, 4, 0
+12726, 12997, 1, "OK", 1, 8, 2, 2, 2, 0, 0, 0
+8342, 9640, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars Locale locale", 0, 0, 10, 10, 6, 4, 3, 0
+4143, 12840, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+8342, 12722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+7595, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+8817, 9261, 1, "OK", 1, 11, 6, 4, 3, 1, 2, 1
+7512, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4312, 4533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp", 0, 0, 3, 1, 1, 0, 1, 2
+10858, 12548, 1, "OK", 3, 40, 14, 14, 8, 6, 4, 0
+4341, 4657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+5504, 6492, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 10, 4, 4, 0, 3, 2
+4025, 8315, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+8430, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+8579, 12548, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+11410, 11827, 1, "OK", 3, 10, 5, 3, 2, 1, 2, 1
+10646, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 2, 2, 2, 0, 0, 0
+4025, 9348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 22, 25, 14, 0
+9353, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 22, 22, 16, 6, 4, 0
+7595, 8247, 1, "OK", 2, 24, 10, 4, 4, 0, 3, 2
+7895, 8163, 1, "OK", 3, 8, 7, 3, 3, 0, 2, 2
+4143, 10811, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 28, 25, 14, 0
+9353, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 7, 7, 7, 0, 0, 0
+4384, 5392, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer DefaultRequestContext defaultRequestContext", 0, 0, 3, 1, 1, 0, 1, 2
+12292, 13173, 1, "OK", 3, 19, 2, 2, 2, 0, 0, 0
+10646, 12997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 17, 17, 11, 6, 4, 0
+11104, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 15, 15, 9, 6, 4, 0
+11410, 11855, 1, "OK", 3, 11, 5, 3, 2, 1, 2, 1
+4143, 9804, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 23, 25, 14, 0
+8342, 10701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager", 0, 0, 15, 15, 11, 4, 3, 0
+4280, 4533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp", 0, 0, 3, 1, 1, 0, 1, 2
+7301, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+9644, 10277, 1, "OK", 4, 13, 4, 4, 4, 0, 0, 0
+8650, 9348, 1, "OK", 2, 18, 10, 10, 6, 4, 3, 0
+10036, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 18, 18, 12, 6, 4, 0
+5142, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  EMFErrorHandler errorHandler InternalEngineIFace internalEngine", 0, 0, 10, 4, 4, 0, 3, 2
+9588, 9973, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+10982, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod Header headContetType", 0, 0, 13, 13, 7, 6, 4, 0
+11581, 11679, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+4600, 6913, 0, "Compilation unit does not compile after method extraction.", 6, 45, 16, 6, 6, 0, 5, 2
+9353, 13173, 1, "OK", 5, 89, 22, 22, 16, 6, 4, 0
+4341, 4703, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+9050, 9255, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+8849, 9343, 1, "OK", 4, 13, 8, 5, 4, 1, 3, 1
+8342, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod", 0, 0, 30, 30, 20, 10, 7, 0
+3933, 13256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 18, 0
+3900, 13256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 18, 0
+10322, 12840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response AuditManager auditManager Integer auditId HttpMethod httpMethod Header headContetType", 0, 0, 16, 16, 10, 6, 4, 0
+4312, 5607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+7240, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+11104, 13173, 1, "OK", 5, 47, 15, 15, 9, 6, 4, 0
+7630, 8228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+9808, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 19, 19, 13, 6, 4, 0
+8885, 9255, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+4312, 4594, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+3942, 10945, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 30, 25, 14, 0
+3933, 13279, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 18, 0
+8430, 13138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] response HttpMethod httpMethod", 0, 0, 32, 32, 22, 10, 7, 0
+7118, 7727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+3942, 12997, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 39, 31, 18, 0
+4025, 12472, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 36, 31, 18, 0
+4600, 6935, 1, "OK", 6, 46, 16, 6, 6, 0, 5, 2
+10858, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpMethod httpMethod HttpClient client", 0, 0, 14, 14, 8, 6, 4, 0
+9588, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 7, 7, 7, 0, 0, 0
+5724, 6913, 0, "Compilation unit does not compile after method extraction.", 7, 26, 16, 6, 6, 0, 5, 2
+3900, 13279, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 18, 0
+4025, 8387, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 16, 21, 11, 0
+8579, 12623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod HttpClient client", 0, 0, 30, 30, 20, 10, 7, 0
+7630, 8247, 1, "OK", 2, 22, 10, 4, 4, 0, 3, 2
+8430, 11100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map mapPars AuditManager auditManager Integer auditId String urlEngine", 0, 0, 17, 17, 13, 4, 3, 0
+8650, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String encodedUserId", 0, 0, 30, 30, 20, 10, 7, 0
+8817, 9343, 1, "OK", 3, 14, 8, 5, 4, 1, 3, 1
+4384, 5453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+5460, 6913, 0, "Compilation unit does not compile after method extraction.", 5, 30, 16, 6, 6, 0, 5, 2
+7895, 8228, 1, "OK", 3, 10, 7, 3, 3, 0, 2, 2
+11927, 12254, 1, "OK", 2, 9, 5, 3, 2, 1, 2, 1
+10322, 10811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId", 0, 0, 2, 2, 2, 0, 0, 0
+9644, 12384, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId HttpMethod httpMethod String userId", 0, 0, 20, 20, 14, 6, 4, 0
+4280, 5607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer String className", 0, 0, 3, 1, 1, 0, 1, 2
+3933, 13298, 1, "OK", 4, 234, 71, 71, 40, 31, 18, 0
+3900, 13298, 1, "OK", 3, 235, 71, 71, 40, 31, 18, 0
+4341, 4747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp RequestContainer reqContainer ResponseContainer resContainer", 0, 0, 3, 1, 1, 0, 1, 2
+7076, 8024, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+4025, 9421, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 22, 25, 14, 0
+7512, 7819, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4280, 4594, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean request SourceBean resp RequestContainer reqContainer", 0, 0, 3, 1, 1, 0, 1, 2
+7402, 8163, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+10646, 11027, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AuditManager auditManager Integer auditId String urlEngine", 0, 0, 2, 2, 2, 0, 0, 0
+5724, 6935, 1, "OK", 7, 27, 16, 6, 6, 0, 5, 2
+4384, 6492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean resp EMFErrorHandler errorHandler RequestContainer reqContainer InternalEngineIFace internalEngine", 0, 0, 13, 5, 5, 0, 4, 2

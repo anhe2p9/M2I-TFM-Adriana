@@ -1,0 +1,19 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+19243, 20821, 1, "OK", 4, 37, 27, 27, 14, 13, 6, 0
+19524, 20464, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LocalDateTime dateTime String format", 0, 0, 16, 10, 7, 3, 3, 2
+19468, 20811, 1, "OK", 5, 28, 23, 18, 11, 7, 5, 1
+19369, 20811, 1, "OK", 5, 32, 25, 19, 12, 7, 6, 1
+19963, 20446, 1, "OK", 2, 10, 8, 5, 4, 1, 1, 3
+19672, 20464, 1, "OK", 4, 16, 16, 10, 7, 3, 3, 2
+19740, 20724, 1, "OK", 6, 20, 20, 12, 9, 3, 4, 2
+19782, 20446, 1, "OK", 4, 12, 13, 7, 6, 1, 2, 3
+19607, 20464, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LocalDateTime dateTime String format", 0, 0, 16, 10, 7, 3, 3, 2
+19289, 20821, 1, "OK", 5, 36, 27, 27, 14, 13, 6, 0
+19672, 20724, 1, "OK", 5, 22, 20, 12, 9, 3, 4, 2
+19607, 20724, 1, "OK", 5, 23, 20, 12, 9, 3, 4, 2
+19524, 20724, 1, "OK", 4, 24, 20, 12, 9, 3, 4, 2
+20482, 20724, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+19740, 20464, 1, "OK", 5, 14, 16, 10, 7, 3, 3, 2
+20213, 20424, 1, "OK", 1, 5, 6, 2, 2, 0, 1, 4
+20146, 20424, 1, "OK", 1, 6, 6, 2, 2, 0, 1, 4
+19369, 19454, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1

@@ -1,0 +1,87 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+42651, 43150, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+41957, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 23, 14, 10, 4, 9, 1
+42613, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 10, 7, 3, 7, 1
+42052, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 13, 9, 4, 8, 1
+41907, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 15, 11, 4, 10, 1
+43022, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+42651, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 6, 3, 6, 1
+42882, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+43539, 43659, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+42702, 42854, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+42613, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 6, 3, 6, 1
+41907, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 23, 14, 10, 4, 9, 1
+42651, 43009, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+42882, 43009, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+42951, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+42882, 43150, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+43022, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 3, 2, 3, 1
+43211, 43443, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+43460, 43659, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int parserFeatures String propertyName", 0, 0, 3, 1, 1, 0, 1, 2
+41957, 43150, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+41957, 42638, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 4, 1, 3, 1
+43164, 44006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int ordinal int serialzeFeatures int parserFeatures String propertyName", 0, 0, 10, 6, 4, 2, 4, 1
+42052, 43150, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+42052, 42638, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 3, 1, 2, 1
+41957, 42937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+42052, 42937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+41957, 43060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+42052, 43060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+41957, 42038, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+42882, 43060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+42109, 42585, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+42651, 42937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+43164, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 3, 2, 3, 1
+42882, 42937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+42651, 43060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+41907, 42038, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+43074, 44006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int ordinal int serialzeFeatures int parserFeatures String propertyName JSONField fieldAnnotation", 0, 0, 10, 6, 4, 2, 4, 1
+41957, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 15, 11, 4, 10, 1
+42613, 42937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+42052, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 23, 14, 10, 4, 9, 1
+41907, 42937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+42613, 43060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+41907, 43060, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+43687, 43817, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+43211, 43350, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+42651, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 10, 7, 3, 7, 1
+42882, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 7, 5, 2, 5, 1
+41907, 44006, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 25, 15, 11, 4, 10, 1
+41907, 42599, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 4, 1, 3, 1
+43211, 43521, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+42613, 44006, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 17, 10, 7, 3, 7, 1
+43022, 44006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int ordinal int serialzeFeatures int parserFeatures String propertyName JSONField fieldAnnotation", 0, 0, 10, 6, 4, 2, 4, 1
+43074, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 3, 2, 3, 1
+43314, 43659, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int ordinal int serialzeFeatures int parserFeatures String propertyName", 0, 0, 3, 1, 1, 0, 1, 2
+43367, 43659, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int serialzeFeatures int parserFeatures String propertyName", 0, 0, 3, 1, 1, 0, 1, 2
+41770, 44016, 1, "OK", 5, 58, 26, 26, 12, 14, 10, 0
+42163, 42585, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+42951, 44006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int ordinal int serialzeFeatures int parserFeatures String propertyName JSONField fieldAnnotation", 0, 0, 10, 6, 4, 2, 4, 1
+43164, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+42514, 42585, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+43211, 43296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+41957, 42868, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+42052, 42868, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 7, 5, 2, 4, 1
+42951, 43673, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 3, 2, 3, 1
+41907, 43150, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+41907, 42638, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 4, 1, 3, 1
+41957, 43009, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+42052, 43009, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+41842, 44016, 1, "OK", 6, 56, 26, 26, 12, 14, 10, 0
+42613, 43150, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+42651, 42868, 1, "OK", 3, 6, 5, 3, 2, 1, 2, 1
+42052, 42599, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 3, 1, 2, 1
+42882, 44006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int ordinal int serialzeFeatures int parserFeatures String propertyName JSONField fieldAnnotation", 0, 0, 12, 7, 5, 2, 5, 1
+42109, 42497, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 2
+42613, 42868, 1, "OK", 2, 7, 5, 3, 2, 1, 2, 1
+43211, 43659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+43687, 44006, 1, "OK", 11, 6, 2, 1, 1, 0, 1, 1
+41907, 42868, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 8, 6, 2, 5, 1
+41957, 44006, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 25, 15, 11, 4, 10, 1
+41957, 42599, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 5, 4, 1, 3, 1
+42052, 44006, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 23, 14, 10, 4, 9, 1
+42651, 44006, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 17, 10, 7, 3, 7, 1
+42613, 43009, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+41907, 43009, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 7, 2, 6, 1
+42163, 42497, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 2
+43074, 43817, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1

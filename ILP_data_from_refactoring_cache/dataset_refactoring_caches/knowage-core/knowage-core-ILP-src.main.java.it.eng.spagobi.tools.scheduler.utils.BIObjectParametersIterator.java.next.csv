@@ -1,0 +1,36 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3870, 4063, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3339, 3759, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+3722, 5262, 1, "OK", 0, 43, 21, 21, 9, 12, 6, 0
+4193, 4551, 1, "OK", 3, 8, 4, 1, 1, 0, 1, 3
+3943, 5199, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 13, 7, 6, 6, 1
+3943, 3982, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3722, 5203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List result boolean gotNext", 0, 0, 20, 20, 8, 12, 6, 0
+3793, 5244, 1, "OK", 0, 38, 21, 21, 9, 12, 6, 0
+4067, 5199, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 17, 12, 6, 6, 5, 1
+3820, 5244, 1, "OK", 1, 37, 21, 21, 9, 12, 6, 0
+4664, 5194, 1, "OK", 1, 12, 7, 3, 2, 1, 2, 2
+3339, 5244, 1, "OK", 0, 50, 22, 22, 10, 12, 6, 0
+4145, 4577, 1, "OK", 2, 11, 7, 3, 2, 1, 2, 2
+3943, 4063, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+4902, 5188, 1, "OK", 4, 7, 4, 1, 1, 0, 1, 3
+4145, 4588, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+3793, 5262, 1, "OK", 1, 40, 21, 21, 9, 12, 6, 0
+4782, 5194, 1, "OK", 2, 10, 7, 3, 2, 1, 2, 2
+3793, 5203, 1, "OK", 0, 35, 20, 20, 8, 12, 6, 0
+3820, 5262, 1, "OK", 2, 39, 21, 21, 9, 12, 6, 0
+3339, 3404, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+3339, 5262, 1, "OK", 0, 52, 22, 22, 10, 12, 6, 0
+5206, 5244, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+4830, 5188, 1, "OK", 3, 8, 4, 1, 1, 0, 1, 3
+3339, 5203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List result boolean gotNext", 0, 0, 21, 21, 9, 12, 6, 0
+3820, 5203, 1, "OK", 1, 34, 20, 20, 8, 12, 6, 0
+3870, 3982, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3722, 5244, 1, "OK", 0, 41, 21, 21, 9, 12, 6, 0
+3870, 5199, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 13, 7, 6, 6, 1
+4721, 5194, 1, "OK", 2, 11, 7, 3, 2, 1, 2, 2
+5206, 5262, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+4265, 4551, 1, "OK", 4, 7, 4, 1, 1, 0, 1, 3
+3339, 3817, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List result boolean gotNext", 0, 0, 1, 1, 1, 0, 0, 0
+3986, 5199, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 17, 12, 6, 6, 5, 1
+4145, 4557, 1, "OK", 2, 10, 7, 3, 2, 1, 2, 2

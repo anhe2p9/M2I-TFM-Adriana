@@ -1,0 +1,192 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+14638, 15025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 7, 3, 3, 0, 2, 2
+13209, 13755, 1, "OK", 3, 15, 3, 3, 2, 1, 1, 0
+13322, 13580, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+14074, 14332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13842, 15633, 0, "Compilation unit does not compile after method extraction.", 5, 45, 21, 21, 11, 10, 7, 0
+13933, 15629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 20, 13, 10, 3, 7, 1
+14583, 15205, 1, "OK", 5, 13, 11, 5, 5, 0, 3, 2
+12725, 15712, 1, "OK", 2, 82, 24, 24, 13, 11, 8, 0
+12962, 15790, 1, "OK", 3, 76, 24, 24, 13, 11, 8, 0
+14663, 15025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 7, 3, 3, 0, 2, 2
+13796, 15790, 1, "OK", 4, 51, 21, 21, 11, 10, 7, 0
+13887, 15285, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+14074, 15629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 20, 13, 10, 3, 7, 1
+13821, 15790, 0, "Compilation unit does not compile after method extraction.", 5, 50, 21, 21, 11, 10, 7, 0
+15289, 15594, 1, "OK", 2, 9, 3, 2, 2, 0, 1, 1
+12586, 15673, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 24, 24, 13, 11, 8, 0
+12657, 15790, 1, "OK", 1, 84, 24, 24, 13, 11, 8, 0
+12962, 13755, 1, "OK", 2, 23, 3, 3, 2, 1, 1, 0
+14388, 15629, 1, "OK", 4, 29, 16, 11, 8, 3, 5, 1
+12804, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13111, 15790, 1, "OK", 3, 70, 24, 24, 13, 11, 8, 0
+13590, 15790, 1, "OK", 3, 57, 21, 21, 11, 10, 7, 0
+13111, 13755, 1, "OK", 2, 17, 3, 3, 2, 1, 1, 0
+13173, 15673, 1, "OK", 3, 67, 24, 24, 13, 11, 8, 0
+13887, 15555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+13209, 13787, 1, "OK", 3, 17, 3, 3, 2, 1, 1, 0
+14443, 15210, 1, "OK", 3, 16, 13, 9, 6, 3, 4, 1
+14218, 15285, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass String rowId", 0, 0, 15, 10, 7, 3, 5, 1
+12657, 13755, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 3, 3, 2, 1, 1, 0
+14491, 14756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameColumn String field", 0, 0, 4, 2, 2, 0, 1, 2
+13842, 15673, 0, "Compilation unit does not compile after method extraction.", 5, 47, 21, 21, 11, 10, 7, 0
+14144, 15285, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+14491, 15025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 7, 3, 3, 0, 2, 2
+12586, 15712, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 24, 24, 13, 11, 8, 0
+15289, 15629, 1, "OK", 2, 10, 3, 2, 2, 0, 1, 1
+14931, 15205, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+14309, 15285, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowId", 0, 0, 13, 9, 6, 3, 4, 1
+12804, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13761, 15633, 1, "OK", 3, 48, 21, 21, 11, 10, 7, 0
+15030, 15205, 1, "OK", 3, 2, 4, 2, 2, 0, 1, 2
+14309, 15555, 1, "OK", 5, 30, 16, 11, 8, 3, 5, 1
+13209, 13812, 0, "Compilation unit does not compile after method extraction.", 3, 18, 3, 3, 2, 1, 1, 0
+12962, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13887, 14296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+14218, 15555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 18, 12, 9, 3, 6, 1
+14638, 14822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field", 0, 0, 7, 3, 3, 0, 2, 2
+14766, 15205, 1, "OK", 5, 6, 7, 3, 3, 0, 2, 2
+14638, 15091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 11, 5, 5, 0, 3, 2
+14144, 15555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+13111, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14663, 14822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field", 0, 0, 7, 3, 3, 0, 2, 2
+12804, 15633, 1, "OK", 3, 77, 24, 24, 13, 11, 8, 0
+13842, 15712, 0, "Compilation unit does not compile after method extraction.", 5, 48, 21, 21, 11, 10, 7, 0
+14218, 14296, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+14583, 14756, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+12804, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13173, 15712, 1, "OK", 3, 68, 24, 24, 13, 11, 8, 0
+13887, 15594, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+14663, 15091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 11, 5, 5, 0, 3, 2
+12804, 13584, 1, "OK", 2, 23, 3, 3, 2, 1, 1, 0
+12657, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13209, 13839, 0, "Compilation unit does not compile after method extraction.", 3, 19, 3, 3, 2, 1, 1, 0
+12962, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13111, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13887, 14332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13933, 15210, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+12725, 15790, 1, "OK", 2, 83, 24, 24, 13, 11, 8, 0
+14583, 15025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 7, 3, 3, 0, 2, 2
+13933, 14439, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13209, 13584, 1, "OK", 2, 10, 3, 3, 2, 1, 1, 0
+13209, 15633, 1, "OK", 4, 64, 24, 24, 13, 11, 8, 0
+13761, 15673, 1, "OK", 3, 50, 21, 21, 11, 10, 7, 0
+14144, 14296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+12725, 13755, 1, "OK", 1, 30, 3, 3, 2, 1, 1, 0
+14309, 15594, 1, "OK", 5, 32, 16, 11, 8, 3, 5, 1
+12657, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14218, 15594, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 18, 12, 9, 3, 6, 1
+12962, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13796, 15633, 1, "OK", 4, 47, 21, 21, 11, 10, 7, 0
+14074, 14439, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+12962, 13584, 1, "OK", 1, 18, 3, 3, 2, 1, 1, 0
+13887, 15629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 20, 13, 10, 3, 7, 1
+13933, 14201, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+14491, 14822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field", 0, 0, 7, 3, 3, 0, 2, 2
+14443, 15285, 1, "OK", 3, 18, 13, 9, 6, 3, 4, 1
+14144, 15594, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+12804, 15673, 1, "OK", 3, 79, 24, 24, 13, 11, 8, 0
+14388, 15210, 1, "OK", 3, 17, 13, 9, 6, 3, 4, 1
+13821, 15633, 0, "Compilation unit does not compile after method extraction.", 5, 46, 21, 21, 11, 10, 7, 0
+14218, 14332, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 2, 1, 1, 0, 1, 1
+12962, 15633, 1, "OK", 3, 72, 24, 24, 13, 11, 8, 0
+15219, 15555, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+14074, 15210, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+12657, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13590, 15633, 1, "OK", 3, 53, 21, 21, 11, 10, 7, 0
+14144, 14332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13111, 13584, 1, "OK", 1, 12, 3, 3, 2, 1, 1, 0
+13111, 15633, 1, "OK", 3, 66, 24, 24, 13, 11, 8, 0
+13261, 13540, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+14443, 15555, 1, "OK", 4, 25, 16, 11, 8, 3, 5, 1
+14491, 15091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 11, 5, 5, 0, 3, 2
+13111, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+12725, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14218, 15629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 18, 12, 9, 3, 6, 1
+12586, 15790, 1, "OK", 0, 86, 24, 24, 13, 11, 8, 0
+14766, 15025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String align", 0, 0, 3, 1, 1, 0, 1, 2
+12657, 13584, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 3, 3, 2, 1, 1, 0
+13761, 15712, 1, "OK", 3, 51, 21, 21, 11, 10, 7, 0
+14074, 14201, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+12657, 15633, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 24, 24, 13, 11, 8, 0
+13209, 15673, 1, "OK", 4, 66, 24, 24, 13, 11, 8, 0
+14144, 15629, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 20, 13, 10, 3, 7, 1
+14309, 15629, 1, "OK", 5, 33, 16, 11, 8, 3, 5, 1
+13796, 15673, 1, "OK", 4, 49, 21, 21, 11, 10, 7, 0
+12586, 13755, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List rows Integer masterId Map subreportMap", 0, 0, 3, 3, 2, 1, 1, 0
+14583, 14822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field", 0, 0, 7, 3, 3, 0, 2, 2
+14583, 15091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String field String align", 0, 0, 11, 5, 5, 0, 3, 2
+12804, 15712, 1, "OK", 3, 80, 24, 24, 13, 11, 8, 0
+13821, 15673, 0, "Compilation unit does not compile after method extraction.", 5, 48, 21, 21, 11, 10, 7, 0
+13842, 15790, 0, "Compilation unit does not compile after method extraction.", 5, 49, 21, 21, 11, 10, 7, 0
+13173, 15790, 1, "OK", 3, 69, 24, 24, 13, 11, 8, 0
+12962, 15673, 1, "OK", 3, 74, 24, 24, 13, 11, 8, 0
+15219, 15594, 1, "OK", 3, 10, 3, 2, 2, 0, 1, 1
+13173, 13755, 1, "OK", 2, 16, 3, 3, 2, 1, 1, 0
+13590, 15673, 1, "OK", 3, 55, 21, 21, 11, 10, 7, 0
+13111, 15673, 1, "OK", 3, 68, 24, 24, 13, 11, 8, 0
+12725, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13261, 13580, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+14443, 15594, 1, "OK", 4, 27, 16, 11, 8, 3, 5, 1
+13209, 15712, 1, "OK", 4, 67, 24, 24, 13, 11, 8, 0
+12657, 15673, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 24, 24, 13, 11, 8, 0
+13933, 15285, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+13933, 15555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+12586, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List rows Integer masterId Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14663, 15205, 1, "OK", 5, 11, 11, 5, 5, 0, 3, 2
+12962, 15712, 1, "OK", 3, 75, 24, 24, 13, 11, 8, 0
+15030, 15091, 1, "OK", 1, 1, 4, 2, 2, 0, 1, 2
+12725, 13584, 1, "OK", 1, 25, 3, 3, 2, 1, 1, 0
+14074, 15285, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+12725, 15633, 1, "OK", 2, 79, 24, 24, 13, 11, 8, 0
+13796, 15712, 1, "OK", 4, 50, 21, 21, 11, 10, 7, 0
+13387, 13540, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+15219, 15629, 1, "OK", 3, 11, 3, 2, 2, 0, 1, 1
+12725, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14766, 14822, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+14638, 15205, 1, "OK", 5, 12, 11, 5, 5, 0, 3, 2
+13173, 13787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14766, 15091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String rowId String align", 0, 0, 7, 3, 3, 0, 2, 2
+13821, 15712, 0, "Compilation unit does not compile after method extraction.", 5, 49, 21, 21, 11, 10, 7, 0
+14443, 15629, 1, "OK", 4, 28, 16, 11, 8, 3, 5, 1
+14388, 15285, 1, "OK", 3, 19, 13, 9, 6, 3, 4, 1
+14931, 15091, 1, "OK", 1, 2, 4, 2, 2, 0, 1, 2
+13761, 15790, 1, "OK", 3, 52, 21, 21, 11, 10, 7, 0
+13887, 15210, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+13933, 14296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13111, 15712, 1, "OK", 3, 69, 24, 24, 13, 11, 8, 0
+14074, 15555, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+12586, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List rows Integer masterId Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+13590, 15712, 1, "OK", 3, 56, 21, 21, 11, 10, 7, 0
+13887, 14439, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+12657, 15712, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 24, 24, 13, 11, 8, 0
+14388, 15555, 1, "OK", 4, 26, 16, 11, 8, 3, 5, 1
+13933, 15594, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+14218, 14439, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass", 0, 0, 2, 1, 1, 0, 1, 1
+14074, 14296, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13322, 13540, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+13887, 14201, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+12586, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List rows Integer masterId Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+12586, 13584, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List rows Integer masterId Map subreportMap", 0, 0, 3, 3, 2, 1, 1, 0
+14309, 15210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowId", 0, 0, 13, 9, 6, 3, 4, 1
+12725, 15673, 1, "OK", 2, 81, 24, 24, 13, 11, 8, 0
+13387, 13580, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+13173, 13812, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+14218, 15210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean alternate String rowClass String rowId", 0, 0, 15, 10, 7, 3, 5, 1
+15289, 15555, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+14491, 15205, 1, "OK", 4, 14, 11, 5, 5, 0, 3, 2
+12804, 15790, 1, "OK", 3, 81, 24, 24, 13, 11, 8, 0
+14144, 15210, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 11, 8, 3, 6, 1
+12586, 15633, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer masterId Map subreportMap", 0, 0, 24, 24, 13, 11, 8, 0
+14144, 14439, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+13209, 15790, 1, "OK", 4, 68, 24, 24, 13, 11, 8, 0
+14388, 15594, 1, "OK", 4, 28, 16, 11, 8, 3, 5, 1
+14638, 14756, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+13933, 14332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+14074, 15594, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 13, 10, 3, 7, 1
+14663, 14756, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+13173, 13584, 1, "OK", 1, 11, 3, 3, 2, 1, 1, 0
+13173, 15633, 1, "OK", 3, 65, 24, 24, 13, 11, 8, 0
+14144, 14201, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+13173, 13839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map subreportMap boolean alternate", 0, 0, 3, 3, 2, 1, 1, 0
+12804, 13755, 1, "OK", 2, 28, 3, 3, 2, 1, 1, 0

@@ -1,0 +1,115 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+13033, 14095, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 6, 4, 4, 0, 2, 1
+10473, 14095, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 25, 17, 8, 10, 1
+10950, 12359, 1, "OK", 4, 30, 18, 10, 7, 3, 4, 2
+12782, 12923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+9941, 10366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjectDeserializer keyDeserializer ObjectDeserializer valueDeserializer", 0, 0, 2, 2, 2, 0, 0, 0
+10630, 14095, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 33, 24, 16, 8, 9, 1
+10835, 12359, 1, "OK", 3, 33, 18, 10, 7, 3, 4, 2
+11266, 11798, 1, "OK", 4, 11, 7, 4, 3, 1, 1, 3
+12656, 12997, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+13977, 14282, 1, "OK", 7, 8, 2, 1, 1, 0, 1, 1
+12024, 12359, 1, "OK", 2, 9, 3, 1, 1, 0, 1, 2
+9900, 10366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer ObjectDeserializer keyDeserializer ObjectDeserializer valueDeserializer", 0, 0, 2, 2, 2, 0, 0, 0
+9941, 10119, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+9900, 10119, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+11381, 11571, 1, "OK", 1, 5, 5, 1, 1, 0, 1, 4
+13061, 14282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 8, 5, 5, 0, 3, 1
+11317, 11513, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+14151, 14282, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+10473, 14133, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 25, 17, 8, 10, 1
+13033, 14133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 6, 4, 4, 0, 2, 1
+13033, 13886, 1, "OK", 4, 16, 6, 4, 4, 0, 2, 1
+10473, 13886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 25, 17, 8, 10, 1
+10950, 12150, 1, "OK", 4, 24, 18, 10, 7, 3, 4, 2
+10630, 14133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 33, 24, 16, 8, 9, 1
+12024, 12150, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+9941, 10419, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjectDeserializer keyDeserializer ObjectDeserializer valueDeserializer ParseContext context", 0, 0, 2, 2, 2, 0, 0, 0
+12395, 13959, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 8, 7, 1, 4, 1
+10630, 13886, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 33, 24, 16, 8, 9, 1
+13904, 14282, 1, "OK", 7, 10, 2, 1, 1, 0, 1, 1
+13061, 14045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 6, 4, 4, 0, 2, 1
+10835, 12150, 1, "OK", 3, 27, 18, 10, 7, 3, 4, 2
+13733, 13959, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+9900, 10419, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer ObjectDeserializer keyDeserializer ObjectDeserializer valueDeserializer ParseContext context", 0, 0, 2, 2, 2, 0, 0, 0
+12395, 13715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+10878, 12359, 1, "OK", 4, 31, 18, 10, 7, 3, 4, 2
+10219, 14366, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 19, 19, 11, 0
+10630, 12377, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 16, 9, 7, 5, 1
+10376, 14366, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 19, 19, 11, 0
+10473, 12377, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 23, 17, 10, 7, 6, 1
+11317, 11571, 1, "OK", 1, 6, 5, 1, 1, 0, 1, 4
+14062, 14282, 1, "OK", 6, 7, 2, 1, 1, 0, 1, 1
+12782, 12997, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+10950, 12204, 1, "OK", 4, 25, 18, 10, 7, 3, 4, 2
+11969, 12359, 1, "OK", 2, 10, 3, 1, 1, 0, 1, 2
+10950, 11947, 1, "OK", 4, 19, 15, 9, 6, 3, 3, 2
+10376, 14387, 1, "OK", 7, 93, 38, 38, 19, 19, 11, 0
+10473, 10612, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+9941, 10210, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+10129, 14366, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 19, 19, 11, 0
+10219, 14387, 1, "OK", 6, 96, 38, 38, 19, 19, 11, 0
+13061, 14095, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 6, 4, 4, 0, 2, 1
+12024, 12204, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+9900, 10210, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer ObjectDeserializer keyDeserializer", 0, 0, 2, 2, 2, 0, 0, 0
+11079, 11798, 1, "OK", 4, 14, 11, 5, 4, 1, 2, 3
+13033, 13959, 1, "OK", 5, 18, 6, 4, 4, 0, 2, 1
+10473, 13959, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 25, 17, 8, 10, 1
+10835, 11947, 1, "OK", 3, 22, 15, 9, 6, 3, 3, 2
+10878, 12150, 1, "OK", 4, 25, 18, 10, 7, 3, 4, 2
+10835, 12204, 1, "OK", 3, 28, 18, 10, 7, 3, 4, 2
+13733, 14282, 1, "OK", 7, 14, 4, 2, 2, 0, 2, 1
+12728, 12923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+10129, 14387, 1, "OK", 5, 97, 38, 38, 19, 19, 11, 0
+12395, 14282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 14, 9, 8, 1, 5, 1
+10630, 13959, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 33, 24, 16, 8, 9, 1
+10630, 13715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 23, 15, 8, 8, 1
+12395, 13015, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 3, 1, 2, 1
+14113, 14282, 1, "OK", 5, 5, 2, 1, 1, 0, 1, 1
+13033, 13715, 1, "OK", 4, 12, 4, 3, 3, 0, 1, 1
+10446, 14296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 19, 19, 11, 0
+10473, 13715, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 33, 24, 16, 8, 9, 1
+11969, 12150, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+12395, 14045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 12, 8, 7, 1, 4, 1
+13061, 14133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 6, 4, 4, 0, 2, 1
+10950, 12003, 1, "OK", 4, 21, 15, 9, 6, 3, 3, 2
+13061, 13886, 1, "OK", 4, 15, 6, 4, 4, 0, 2, 1
+13733, 14045, 1, "OK", 5, 7, 2, 1, 1, 0, 1, 1
+10428, 14366, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 19, 19, 11, 0
+10878, 12204, 1, "OK", 4, 26, 18, 10, 7, 3, 4, 2
+10878, 11947, 1, "OK", 4, 20, 15, 9, 6, 3, 3, 2
+12395, 13044, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 3, 1, 2, 1
+11023, 11798, 1, "OK", 4, 15, 11, 5, 4, 1, 2, 3
+9941, 14366, 0, "Compilation unit does not compile after method extraction.", 5, 99, 40, 40, 21, 19, 11, 0
+10313, 14366, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 38, 19, 19, 11, 0
+10835, 12003, 1, "OK", 3, 24, 15, 9, 6, 3, 3, 2
+9900, 14366, 0, "Compilation unit does not compile after method extraction.", 4, 101, 40, 40, 21, 19, 11, 0
+9941, 14387, 1, "OK", 5, 101, 40, 40, 21, 19, 11, 0
+10428, 14387, 1, "OK", 8, 92, 38, 38, 19, 19, 11, 0
+10630, 14282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 35, 25, 17, 8, 10, 1
+12395, 14095, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 12, 8, 7, 1, 4, 1
+13033, 14282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 8, 5, 5, 0, 3, 1
+10473, 14282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 37, 26, 18, 8, 11, 1
+9941, 10304, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjectDeserializer keyDeserializer ObjectDeserializer valueDeserializer", 0, 0, 2, 2, 2, 0, 0, 0
+12728, 12997, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+11969, 12204, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+10473, 13015, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 29, 21, 13, 8, 8, 1
+12656, 12923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+9900, 14387, 1, "OK", 4, 103, 40, 40, 21, 19, 11, 0
+13733, 14095, 1, "OK", 6, 8, 2, 1, 1, 0, 1, 1
+10313, 14387, 1, "OK", 7, 95, 38, 38, 19, 19, 11, 0
+10473, 14045, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 25, 17, 8, 10, 1
+9900, 10304, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer ObjectDeserializer keyDeserializer ObjectDeserializer valueDeserializer", 0, 0, 2, 2, 2, 0, 0, 0
+13033, 14045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 6, 4, 4, 0, 2, 1
+10630, 13015, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 20, 12, 8, 7, 1
+10630, 14045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 33, 24, 16, 8, 9, 1
+11381, 11513, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+10878, 12003, 1, "OK", 4, 22, 15, 9, 6, 3, 3, 2
+13061, 13959, 1, "OK", 5, 17, 6, 4, 4, 0, 2, 1
+10473, 13044, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 29, 21, 13, 8, 8, 1
+13061, 13715, 1, "OK", 4, 11, 4, 3, 3, 0, 1, 1
+10630, 13044, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 20, 12, 8, 7, 1
+12395, 14133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object key Object value", 0, 0, 12, 8, 7, 1, 4, 1
+12395, 13886, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 8, 7, 1, 4, 1
+13733, 14133, 1, "OK", 6, 10, 2, 1, 1, 0, 1, 1
+13733, 13886, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1

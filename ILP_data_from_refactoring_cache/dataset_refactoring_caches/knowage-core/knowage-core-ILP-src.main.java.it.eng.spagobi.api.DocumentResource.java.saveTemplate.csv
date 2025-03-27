@@ -1,0 +1,56 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+20626, 21019, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+20519, 21268, 1, "OK", 1, 17, 2, 2, 2, 0, 0, 0
+18782, 20189, 1, "OK", 4, 49, 16, 16, 8, 8, 4, 0
+19922, 20177, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+18136, 20506, 1, "OK", 2, 76, 19, 19, 11, 8, 4, 0
+16993, 22021, 1, "OK", 2, 133, 25, 25, 17, 8, 4, 0
+18772, 20506, 1, "OK", 4, 62, 19, 19, 11, 8, 4, 0
+16993, 20506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  AnalyticalModelDocumentManagementAPI documentManager ObjTemplate template ArrayList<String> categoriesNames String specificChartType", 0, 0, 19, 19, 11, 8, 4, 0
+17192, 22021, 1, "OK", 4, 129, 25, 25, 17, 8, 4, 0
+20548, 21268, 1, "OK", 1, 16, 2, 2, 2, 0, 0, 0
+19922, 20090, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+20722, 21019, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+18870, 20189, 1, "OK", 5, 45, 16, 16, 8, 8, 4, 0
+20548, 21803, 1, "OK", 5, 29, 5, 5, 5, 0, 0, 0
+19741, 19816, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 1, 1, 1, 0, 0, 3
+19878, 20177, 1, "OK", 3, 8, 3, 1, 1, 0, 1, 2
+18986, 20184, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 15, 11, 7, 4, 4, 1
+19043, 19824, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 3, 1, 2, 2
+19249, 19824, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 3, 1, 2, 2
+17155, 22021, 1, "OK", 4, 130, 25, 25, 17, 8, 4, 0
+20519, 21803, 1, "OK", 5, 30, 5, 5, 5, 0, 0, 0
+17155, 20506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<String> categoriesNames String specificChartType", 0, 0, 19, 19, 11, 8, 4, 0
+20519, 21185, 1, "OK", 1, 15, 2, 2, 2, 0, 0, 0
+20570, 21268, 1, "OK", 1, 15, 2, 2, 2, 0, 0, 0
+18916, 20189, 1, "OK", 5, 43, 16, 16, 8, 8, 4, 0
+20548, 21185, 1, "OK", 1, 14, 2, 2, 2, 0, 0, 0
+17192, 20506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<String> categoriesNames String specificChartType", 0, 0, 19, 19, 11, 8, 4, 0
+18838, 20189, 1, "OK", 4, 47, 16, 16, 8, 8, 4, 0
+19081, 19824, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 3, 1, 2, 2
+17111, 22021, 1, "OK", 3, 131, 25, 25, 17, 8, 4, 0
+20616, 21268, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+17313, 22021, 1, "OK", 4, 126, 25, 25, 17, 8, 4, 0
+17313, 20506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<String> categoriesNames String specificChartType", 0, 0, 19, 19, 11, 8, 4, 0
+18284, 22021, 1, "OK", 6, 111, 25, 25, 17, 8, 4, 0
+18218, 22021, 1, "OK", 6, 112, 25, 25, 17, 8, 4, 0
+20670, 21019, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+21392, 21803, 1, "OK", 5, 10, 3, 3, 3, 0, 0, 0
+20570, 21803, 1, "OK", 5, 28, 5, 5, 5, 0, 0, 0
+19878, 20090, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+18946, 20184, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 15, 11, 7, 4, 4, 1
+19842, 20184, 1, "OK", 3, 12, 4, 3, 2, 1, 1, 1
+17231, 22021, 1, "OK", 4, 128, 25, 25, 17, 8, 4, 0
+21623, 21803, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+19425, 19816, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+20510, 22021, 1, "OK", 5, 36, 6, 6, 6, 0, 0, 0
+20570, 21185, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+17231, 20506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<String> categoriesNames String specificChartType", 0, 0, 19, 19, 11, 8, 4, 0
+18136, 22021, 1, "OK", 5, 113, 25, 25, 17, 8, 4, 0
+18284, 20506, 1, "OK", 3, 74, 19, 19, 11, 8, 4, 0
+17111, 20506, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjTemplate template ArrayList<String> categoriesNames String specificChartType", 0, 0, 19, 19, 11, 8, 4, 0
+21190, 21803, 1, "OK", 5, 14, 3, 3, 3, 0, 0, 0
+20616, 21803, 1, "OK", 6, 27, 5, 5, 5, 0, 0, 0
+20616, 21185, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+18218, 20506, 1, "OK", 3, 75, 19, 19, 11, 8, 4, 0
+18772, 22021, 1, "OK", 7, 99, 25, 25, 17, 8, 4, 0

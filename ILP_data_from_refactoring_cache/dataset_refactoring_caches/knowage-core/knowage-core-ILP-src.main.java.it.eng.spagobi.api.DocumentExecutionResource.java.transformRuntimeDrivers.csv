@@ -1,0 +1,579 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+64755, 72431, 1, "OK", 6, 176, 159, 126, 52, 74, 33, 1
+68697, 69019, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+63764, 72431, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+64155, 73621, 1, "OK", 6, 207, 171, 134, 58, 76, 37, 1
+63671, 74286, 1, "OK", 6, 244, 189, 189, 68, 121, 42, 0
+64610, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+63820, 73762, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 176, 137, 61, 76, 39, 1
+67452, 67684, 1, "OK", 1, 6, 5, 1, 1, 0, 1, 4
+70048, 72200, 1, "OK", 6, 50, 54, 42, 16, 26, 12, 1
+64389, 68401, 1, "OK", 3, 96, 87, 70, 25, 45, 17, 1
+69137, 69733, 1, "OK", 4, 8, 7, 5, 5, 0, 1, 2
+63820, 64533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64691, 72348, 1, "OK", 6, 176, 159, 126, 52, 74, 33, 1
+66944, 67062, 1, "OK", 4, 3, 7, 2, 2, 0, 1, 5
+64823, 72348, 1, "OK", 6, 174, 159, 126, 52, 74, 33, 1
+65714, 67306, 1, "OK", 6, 41, 58, 28, 16, 12, 10, 3
+69888, 70007, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+64155, 72574, 1, "OK", 6, 186, 161, 127, 53, 74, 34, 1
+64889, 72348, 1, "OK", 6, 173, 159, 126, 52, 74, 33, 1
+72814, 73516, 1, "OK", 2, 13, 7, 3, 3, 0, 2, 2
+64389, 70438, 1, "OK", 6, 135, 110, 87, 38, 49, 23, 1
+73814, 74256, 1, "OK", 1, 15, 12, 12, 6, 6, 3, 0
+64462, 72269, 1, "OK", 6, 178, 159, 126, 52, 74, 33, 1
+64268, 72200, 1, "OK", 6, 179, 159, 126, 52, 74, 33, 1
+68602, 69883, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov ArrayList<HashMap<String, Object>> admissibleValues Object values", 0, 0, 11, 7, 7, 0, 2, 2
+64755, 68364, 1, "OK", 2, 89, 87, 70, 25, 45, 17, 1
+63764, 68364, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 89, 71, 26, 45, 18, 1
+64155, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64021, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+63764, 64264, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+72814, 73466, 1, "OK", 2, 11, 7, 3, 3, 0, 2, 2
+70807, 72195, 1, "OK", 6, 34, 45, 29, 12, 17, 8, 2
+66944, 67024, 1, "OK", 2, 2, 7, 2, 2, 0, 1, 5
+65983, 66098, 1, "OK", 3, 1, 6, 2, 2, 0, 1, 4
+64326, 72431, 1, "OK", 6, 182, 159, 126, 52, 74, 33, 1
+64961, 72200, 1, "OK", 6, 169, 159, 126, 52, 74, 33, 1
+67401, 68223, 1, "OK", 4, 21, 23, 8, 6, 2, 5, 3
+65238, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+65647, 67306, 1, "OK", 5, 42, 58, 28, 16, 12, 10, 3
+73277, 73466, 1, "OK", 2, 2, 3, 1, 1, 0, 1, 2
+64755, 68401, 1, "OK", 2, 91, 87, 70, 25, 45, 17, 1
+63764, 68401, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 89, 71, 26, 45, 18, 1
+64691, 72431, 1, "OK", 6, 177, 159, 126, 52, 74, 33, 1
+72944, 73616, 1, "OK", 2, 14, 7, 3, 3, 0, 2, 2
+64389, 72574, 1, "OK", 6, 182, 161, 127, 53, 74, 34, 1
+65388, 68229, 1, "OK", 3, 72, 85, 53, 24, 29, 16, 2
+64823, 72431, 1, "OK", 6, 175, 159, 126, 52, 74, 33, 1
+71970, 72070, 1, "OK", 3, 2, 6, 1, 1, 0, 1, 5
+64889, 72431, 1, "OK", 6, 174, 159, 126, 52, 74, 33, 1
+64755, 70438, 1, "OK", 6, 130, 110, 87, 38, 49, 23, 1
+63764, 70438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 112, 88, 39, 49, 24, 1
+63820, 64606, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+70048, 72269, 1, "OK", 6, 52, 54, 42, 16, 26, 12, 1
+71810, 71919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr", 0, 0, 6, 1, 1, 0, 1, 5
+64096, 72431, 1, "OK", 6, 186, 159, 126, 52, 74, 33, 1
+64462, 72348, 1, "OK", 6, 179, 159, 126, 52, 74, 33, 1
+73915, 74252, 1, "OK", 1, 11, 11, 8, 5, 3, 3, 1
+64326, 68364, 1, "OK", 3, 95, 87, 70, 25, 45, 17, 1
+64537, 70012, 1, "OK", 4, 123, 105, 84, 36, 48, 21, 1
+63820, 73806, 0, "Compilation unit does not compile after method extraction.", 8, 223, 176, 137, 61, 76, 39, 1
+66786, 66909, 1, "OK", 3, 3, 8, 2, 2, 0, 1, 6
+68602, 70007, 1, "OK", 4, 23, 15, 9, 9, 0, 3, 2
+65596, 65852, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<String> valuesList List<String> descriptionList", 0, 0, 5, 2, 2, 0, 1, 3
+64691, 68364, 1, "OK", 2, 90, 87, 70, 25, 45, 17, 1
+64823, 68364, 1, "OK", 2, 88, 87, 70, 25, 45, 17, 1
+70106, 70433, 1, "OK", 5, 6, 3, 1, 1, 0, 1, 2
+64889, 68364, 1, "OK", 2, 87, 87, 70, 25, 45, 17, 1
+70639, 72348, 1, "OK", 5, 41, 49, 39, 14, 25, 10, 1
+68369, 70012, 1, "OK", 4, 30, 18, 14, 11, 3, 4, 1
+64155, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+64389, 73621, 1, "OK", 6, 203, 171, 134, 58, 76, 37, 1
+63764, 64322, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+63820, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 114, 89, 40, 49, 25, 1
+64021, 73762, 1, "OK", 5, 215, 174, 136, 60, 76, 38, 1
+64096, 68364, 1, "OK", 3, 99, 87, 70, 25, 45, 17, 1
+64961, 72269, 1, "OK", 6, 171, 159, 126, 52, 74, 33, 1
+64326, 68401, 1, "OK", 3, 97, 87, 70, 25, 45, 17, 1
+68602, 68939, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+73277, 73516, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+68431, 72200, 1, "OK", 7, 79, 72, 56, 27, 29, 16, 1
+65062, 72200, 1, "OK", 6, 167, 159, 126, 52, 74, 33, 1
+73814, 74286, 1, "OK", 1, 16, 12, 12, 6, 6, 3, 0
+64326, 70438, 1, "OK", 6, 136, 110, 87, 38, 49, 23, 1
+64691, 68401, 1, "OK", 2, 92, 87, 70, 25, 45, 17, 1
+72814, 73616, 1, "OK", 2, 16, 7, 3, 3, 0, 2, 2
+72005, 72070, 1, "OK", 3, 1, 6, 1, 1, 0, 1, 5
+70639, 72431, 1, "OK", 5, 42, 49, 39, 14, 25, 10, 1
+68602, 69019, 1, "OK", 2, 8, 4, 2, 2, 0, 1, 2
+64823, 68401, 1, "OK", 2, 90, 87, 70, 25, 45, 17, 1
+67746, 67910, 1, "OK", 2, 2, 5, 2, 2, 0, 1, 3
+64021, 73806, 1, "OK", 6, 216, 174, 136, 60, 76, 38, 1
+64889, 68401, 1, "OK", 2, 89, 87, 70, 25, 45, 17, 1
+64691, 70438, 1, "OK", 6, 131, 110, 87, 38, 49, 23, 1
+65388, 68287, 1, "OK", 4, 74, 85, 53, 24, 29, 16, 2
+64096, 68401, 1, "OK", 3, 101, 87, 70, 25, 45, 17, 1
+64823, 70438, 1, "OK", 6, 129, 110, 87, 38, 49, 23, 1
+64389, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64889, 70438, 1, "OK", 6, 128, 110, 87, 38, 49, 23, 1
+72352, 73621, 1, "OK", 2, 23, 12, 8, 6, 2, 4, 1
+73277, 73616, 1, "OK", 3, 7, 3, 1, 1, 0, 1, 2
+64096, 70438, 1, "OK", 6, 140, 110, 87, 38, 49, 23, 1
+64268, 72269, 1, "OK", 6, 181, 159, 126, 52, 74, 33, 1
+70048, 72348, 1, "OK", 6, 53, 54, 42, 16, 26, 12, 1
+71810, 71997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+64462, 68364, 1, "OK", 3, 93, 87, 70, 25, 45, 17, 1
+71167, 71390, 1, "OK", 4, 6, 8, 3, 3, 0, 1, 5
+64961, 72348, 1, "OK", 6, 172, 159, 126, 52, 74, 33, 1
+64326, 72574, 1, "OK", 6, 183, 161, 127, 53, 74, 34, 1
+71970, 72111, 1, "OK", 4, 3, 6, 1, 1, 0, 1, 5
+63764, 64385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64755, 72574, 1, "OK", 6, 177, 161, 127, 53, 74, 34, 1
+65555, 68229, 1, "OK", 5, 69, 85, 53, 24, 29, 16, 2
+63764, 72574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 163, 128, 54, 74, 35, 1
+68697, 69132, 1, "OK", 3, 7, 4, 2, 2, 0, 1, 2
+64155, 73762, 1, "OK", 6, 213, 174, 136, 60, 76, 38, 1
+65062, 72269, 1, "OK", 6, 169, 159, 126, 52, 74, 33, 1
+71810, 71962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+63820, 64687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+72352, 72574, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+64462, 72431, 1, "OK", 6, 180, 159, 126, 52, 74, 33, 1
+68431, 72269, 1, "OK", 7, 81, 72, 56, 27, 29, 16, 1
+64096, 72574, 1, "OK", 6, 187, 161, 127, 53, 74, 34, 1
+65388, 68359, 1, "OK", 4, 75, 85, 53, 24, 29, 16, 2
+64462, 70438, 1, "OK", 6, 134, 110, 87, 38, 49, 23, 1
+66690, 66919, 1, "OK", 3, 6, 14, 4, 3, 1, 2, 5
+72651, 73621, 1, "OK", 2, 19, 10, 7, 5, 2, 3, 1
+64155, 73806, 1, "OK", 7, 214, 174, 136, 60, 76, 38, 1
+64268, 72348, 1, "OK", 6, 182, 159, 126, 52, 74, 33, 1
+64326, 73621, 1, "OK", 6, 204, 171, 134, 58, 76, 37, 1
+64537, 72200, 1, "OK", 6, 175, 159, 126, 52, 74, 33, 1
+68431, 72348, 1, "OK", 7, 82, 72, 56, 27, 29, 16, 1
+70583, 72200, 1, "OK", 4, 39, 49, 39, 14, 25, 10, 1
+63593, 73811, 1, "OK", 5, 229, 177, 177, 62, 115, 39, 0
+64389, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+71709, 72119, 1, "OK", 3, 9, 17, 5, 3, 2, 3, 4
+64021, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64755, 73621, 1, "OK", 6, 198, 171, 134, 58, 76, 37, 1
+63764, 73621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 173, 135, 59, 76, 38, 1
+64155, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64823, 73621, 1, "OK", 6, 197, 171, 134, 58, 76, 37, 1
+64389, 73762, 1, "OK", 6, 209, 174, 136, 60, 76, 38, 1
+64889, 73621, 1, "OK", 6, 196, 171, 134, 58, 76, 37, 1
+65983, 67299, 1, "OK", 6, 31, 49, 17, 13, 4, 8, 4
+71398, 71466, 1, "OK", 3, 3, 6, 1, 1, 0, 1, 5
+63764, 64458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+65062, 72348, 1, "OK", 6, 170, 159, 126, 52, 74, 33, 1
+72005, 72111, 1, "OK", 4, 2, 6, 1, 1, 0, 1, 5
+64096, 73621, 1, "OK", 6, 208, 171, 134, 58, 76, 37, 1
+69137, 69883, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+65555, 68287, 1, "OK", 6, 71, 85, 53, 24, 29, 16, 2
+71167, 71466, 1, "OK", 4, 9, 14, 4, 4, 0, 2, 5
+64326, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64691, 72574, 1, "OK", 6, 178, 161, 127, 53, 74, 34, 1
+64212, 70012, 1, "OK", 4, 128, 105, 84, 36, 48, 21, 1
+64823, 72574, 1, "OK", 6, 176, 161, 127, 53, 74, 34, 1
+70516, 72200, 1, "OK", 3, 40, 49, 39, 14, 25, 10, 1
+68944, 69733, 1, "OK", 4, 10, 7, 5, 5, 0, 1, 2
+64889, 72574, 1, "OK", 6, 175, 161, 127, 53, 74, 34, 1
+68369, 72200, 1, "OK", 6, 82, 72, 56, 27, 29, 16, 1
+63820, 64751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64462, 68401, 1, "OK", 3, 95, 87, 70, 25, 45, 17, 1
+64755, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+63764, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 112, 88, 39, 49, 24, 1
+64823, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64610, 70012, 1, "OK", 4, 122, 105, 84, 36, 48, 21, 1
+64889, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64755, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+74053, 74246, 1, "OK", 2, 7, 8, 4, 3, 1, 2, 2
+63764, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 112, 88, 39, 49, 24, 1
+64537, 72269, 1, "OK", 6, 177, 159, 126, 52, 74, 33, 1
+64096, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+65887, 67306, 1, "OK", 5, 36, 53, 26, 14, 12, 9, 3
+71810, 72111, 1, "OK", 4, 6, 12, 2, 2, 0, 2, 5
+64961, 72431, 1, "OK", 6, 173, 159, 126, 52, 74, 33, 1
+69830, 70007, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+70639, 72574, 1, "OK", 5, 43, 51, 40, 15, 25, 11, 1
+70583, 72269, 1, "OK", 4, 41, 49, 39, 14, 25, 10, 1
+66825, 66909, 1, "OK", 2, 2, 8, 2, 2, 0, 1, 6
+64691, 73621, 1, "OK", 6, 199, 171, 134, 58, 76, 37, 1
+71810, 72070, 1, "OK", 3, 5, 12, 2, 2, 0, 2, 5
+66625, 66919, 1, "OK", 3, 7, 14, 4, 3, 1, 2, 5
+70782, 72200, 1, "OK", 6, 36, 47, 38, 13, 25, 9, 1
+64462, 72574, 1, "OK", 6, 181, 161, 127, 53, 74, 34, 1
+68697, 69257, 1, "OK", 3, 8, 4, 2, 2, 0, 1, 2
+70048, 72431, 1, "OK", 6, 54, 54, 42, 16, 26, 12, 1
+65460, 68229, 1, "OK", 4, 71, 85, 53, 24, 29, 16, 2
+68602, 69132, 1, "OK", 2, 9, 4, 2, 2, 0, 1, 2
+64961, 68364, 1, "OK", 2, 86, 87, 70, 25, 45, 17, 1
+71037, 71474, 1, "OK", 2, 13, 19, 7, 5, 2, 3, 4
+64389, 73806, 1, "OK", 7, 210, 174, 136, 60, 76, 38, 1
+65555, 68359, 1, "OK", 6, 72, 85, 53, 24, 29, 16, 2
+63820, 64819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+65238, 70012, 1, "OK", 4, 111, 105, 84, 36, 48, 21, 1
+70516, 72269, 1, "OK", 3, 42, 49, 39, 14, 25, 10, 1
+64326, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+64268, 72431, 1, "OK", 6, 183, 159, 126, 52, 74, 33, 1
+68369, 72269, 1, "OK", 6, 84, 72, 56, 27, 29, 16, 1
+64691, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64326, 73762, 1, "OK", 6, 210, 174, 136, 60, 76, 38, 1
+64268, 70438, 1, "OK", 6, 137, 110, 87, 38, 49, 23, 1
+71037, 71555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+64691, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+64389, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64823, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+70516, 72348, 1, "OK", 3, 43, 49, 39, 14, 25, 10, 1
+64889, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+72352, 73806, 1, "OK", 4, 30, 15, 10, 8, 2, 5, 1
+68369, 72348, 1, "OK", 6, 85, 72, 56, 27, 29, 16, 1
+68944, 69883, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+64961, 68401, 1, "OK", 2, 88, 87, 70, 25, 45, 17, 1
+64755, 73762, 1, "OK", 6, 204, 174, 136, 60, 76, 38, 1
+63764, 73762, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 176, 137, 61, 76, 39, 1
+71850, 71962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+64096, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+65062, 72431, 1, "OK", 6, 171, 159, 126, 52, 74, 33, 1
+64462, 73621, 1, "OK", 6, 202, 171, 134, 58, 76, 37, 1
+64961, 70438, 1, "OK", 6, 127, 110, 87, 38, 49, 23, 1
+68431, 70438, 1, "OK", 7, 37, 23, 17, 13, 4, 6, 1
+72651, 73762, 1, "OK", 3, 25, 13, 9, 7, 2, 4, 1
+63764, 64533, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64268, 68364, 1, "OK", 3, 96, 87, 70, 25, 45, 17, 1
+68431, 72431, 1, "OK", 7, 83, 72, 56, 27, 29, 16, 1
+72352, 73762, 1, "OK", 3, 29, 15, 10, 8, 2, 5, 1
+71037, 71516, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+64755, 73806, 1, "OK", 7, 205, 174, 136, 60, 76, 38, 1
+63764, 73806, 0, "Compilation unit does not compile after method extraction.", 7, 224, 176, 137, 61, 76, 39, 1
+70048, 70438, 1, "OK", 5, 8, 5, 3, 2, 1, 2, 1
+70639, 73621, 1, "OK", 5, 64, 61, 47, 20, 27, 14, 1
+71850, 71919, 1, "OK", 3, 1, 6, 1, 1, 0, 1, 5
+69137, 70007, 1, "OK", 5, 14, 11, 7, 7, 0, 2, 2
+64212, 72200, 1, "OK", 6, 180, 159, 126, 52, 74, 33, 1
+65460, 68287, 1, "OK", 5, 73, 85, 53, 24, 29, 16, 2
+63820, 70012, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 107, 85, 37, 48, 22, 1
+70782, 72269, 1, "OK", 6, 38, 47, 38, 13, 25, 9, 1
+63820, 64885, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+65062, 68364, 1, "OK", 2, 84, 87, 70, 25, 45, 17, 1
+64268, 68401, 1, "OK", 3, 98, 87, 70, 25, 45, 17, 1
+64462, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+71207, 71390, 1, "OK", 3, 5, 8, 3, 3, 0, 1, 5
+64537, 72348, 1, "OK", 6, 178, 159, 126, 52, 74, 33, 1
+74121, 74240, 1, "OK", 2, 4, 5, 2, 2, 0, 1, 3
+64462, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+64961, 72574, 1, "OK", 6, 174, 161, 127, 53, 74, 34, 1
+71207, 71466, 1, "OK", 5, 8, 14, 4, 4, 0, 2, 5
+72651, 73806, 1, "OK", 4, 26, 13, 9, 7, 2, 4, 1
+64691, 73762, 1, "OK", 6, 205, 174, 136, 60, 76, 38, 1
+64823, 73762, 1, "OK", 6, 203, 174, 136, 60, 76, 38, 1
+65062, 68401, 1, "OK", 2, 86, 87, 70, 25, 45, 17, 1
+63764, 64606, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+70048, 73621, 1, "OK", 6, 76, 66, 50, 22, 28, 16, 1
+64889, 73762, 1, "OK", 6, 202, 174, 136, 60, 76, 38, 1
+64326, 73806, 1, "OK", 7, 211, 174, 136, 60, 76, 38, 1
+67746, 68186, 1, "OK", 2, 10, 14, 5, 4, 1, 3, 3
+64096, 73762, 1, "OK", 6, 214, 174, 136, 60, 76, 38, 1
+65062, 70438, 1, "OK", 6, 125, 110, 87, 38, 49, 23, 1
+68369, 72431, 1, "OK", 6, 86, 72, 56, 27, 29, 16, 1
+70516, 72431, 1, "OK", 3, 44, 49, 39, 14, 25, 10, 1
+71037, 71640, 1, "OK", 3, 17, 19, 7, 5, 2, 3, 4
+64691, 73806, 1, "OK", 7, 206, 174, 136, 60, 76, 38, 1
+70583, 72348, 1, "OK", 4, 42, 49, 39, 14, 25, 10, 1
+64212, 72269, 1, "OK", 6, 182, 159, 126, 52, 74, 33, 1
+64823, 73806, 1, "OK", 7, 204, 174, 136, 60, 76, 38, 1
+64537, 72431, 1, "OK", 6, 179, 159, 126, 52, 74, 33, 1
+64889, 73806, 1, "OK", 7, 203, 174, 136, 60, 76, 38, 1
+64961, 73621, 1, "OK", 6, 195, 171, 134, 58, 76, 37, 1
+64326, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64268, 72574, 1, "OK", 6, 184, 161, 127, 53, 74, 34, 1
+65238, 72200, 1, "OK", 6, 163, 159, 126, 52, 74, 33, 1
+63820, 64957, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+66162, 67071, 1, "OK", 5, 22, 38, 14, 10, 4, 6, 4
+64096, 73806, 1, "OK", 7, 215, 174, 136, 60, 76, 38, 1
+68602, 69257, 1, "OK", 2, 10, 4, 2, 2, 0, 1, 2
+65460, 68359, 1, "OK", 5, 74, 85, 53, 24, 29, 16, 2
+71037, 71600, 1, "OK", 2, 16, 19, 7, 5, 2, 3, 4
+71850, 71997, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemDescr LovValue defValue", 0, 0, 6, 1, 1, 0, 1, 5
+64610, 72200, 1, "OK", 6, 174, 159, 126, 52, 74, 33, 1
+64755, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+63764, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 114, 89, 40, 49, 25, 1
+70048, 72574, 1, "OK", 6, 55, 56, 43, 17, 26, 13, 1
+70782, 72348, 1, "OK", 6, 39, 47, 38, 13, 25, 9, 1
+63764, 64687, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64096, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+65062, 72574, 1, "OK", 6, 172, 161, 127, 53, 74, 34, 1
+68431, 73621, 1, "OK", 7, 105, 84, 64, 33, 31, 20, 1
+68944, 70007, 1, "OK", 5, 16, 11, 7, 7, 0, 2, 2
+64462, 73762, 1, "OK", 6, 208, 174, 136, 60, 76, 38, 1
+64537, 68364, 1, "OK", 2, 92, 87, 70, 25, 45, 17, 1
+64961, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+65596, 67306, 1, "OK", 5, 43, 58, 28, 16, 12, 10, 3
+70782, 72431, 1, "OK", 6, 40, 47, 38, 13, 25, 9, 1
+64268, 73621, 1, "OK", 6, 205, 171, 134, 58, 76, 37, 1
+64021, 70012, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 105, 84, 36, 48, 21, 1
+68369, 70438, 1, "OK", 6, 40, 23, 17, 13, 4, 6, 1
+66732, 66919, 1, "OK", 2, 5, 14, 4, 3, 1, 2, 5
+63700, 73811, 0, "Compilation unit does not compile after method extraction.", 7, 227, 177, 177, 62, 115, 39, 0
+63820, 72200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+64537, 68401, 1, "OK", 2, 94, 87, 70, 25, 45, 17, 1
+65238, 72269, 1, "OK", 6, 165, 159, 126, 52, 74, 33, 1
+66263, 67071, 1, "OK", 5, 19, 33, 13, 9, 4, 5, 4
+65062, 73621, 1, "OK", 6, 193, 171, 134, 58, 76, 37, 1
+64537, 70438, 1, "OK", 6, 133, 110, 87, 38, 49, 23, 1
+68431, 72574, 1, "OK", 7, 84, 74, 57, 28, 29, 17, 1
+64610, 72269, 1, "OK", 6, 176, 159, 126, 52, 74, 33, 1
+70048, 70579, 1, "OK", 5, 11, 5, 3, 2, 1, 2, 1
+70639, 73762, 1, "OK", 6, 70, 64, 49, 22, 27, 15, 1
+64268, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+74158, 74240, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+64691, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+70583, 72431, 1, "OK", 4, 43, 49, 39, 14, 25, 10, 1
+64823, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64889, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+71850, 72070, 1, "OK", 3, 4, 12, 2, 2, 0, 2, 5
+67746, 68223, 1, "OK", 3, 11, 14, 5, 4, 1, 3, 3
+63764, 64751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+73102, 73272, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+63820, 65057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+70639, 70777, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+65062, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+67401, 67739, 1, "OK", 2, 9, 9, 3, 2, 1, 2, 3
+64961, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+64212, 72348, 1, "OK", 6, 183, 159, 126, 52, 74, 33, 1
+63820, 64016, 0, "Compilation unit does not compile after method extraction.", 3, 6, 2, 1, 1, 0, 1, 1
+68431, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 23, 17, 13, 4, 6, 1
+64155, 70012, 1, "OK", 4, 129, 105, 84, 36, 48, 21, 1
+64462, 73806, 1, "OK", 7, 209, 174, 136, 60, 76, 38, 1
+69352, 69733, 1, "OK", 3, 5, 7, 5, 5, 0, 1, 2
+63671, 73811, 1, "OK", 6, 228, 177, 177, 62, 115, 39, 0
+70639, 73806, 1, "OK", 7, 71, 64, 49, 22, 27, 15, 1
+67401, 67691, 1, "OK", 1, 8, 9, 3, 2, 1, 2, 3
+64610, 72348, 1, "OK", 6, 177, 159, 126, 52, 74, 33, 1
+68431, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 23, 17, 13, 4, 6, 1
+71850, 72111, 1, "OK", 4, 5, 12, 2, 2, 0, 2, 5
+70048, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultValuesList parameterValueList Object oVals", 0, 0, 5, 3, 2, 1, 2, 1
+67318, 68229, 1, "OK", 4, 24, 24, 14, 7, 7, 5, 2
+65304, 68229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List paramValueLst Object paramDescriptionValues", 0, 0, 85, 53, 24, 29, 16, 2
+64462, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+74094, 74246, 1, "OK", 2, 6, 8, 4, 3, 1, 2, 2
+64268, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+70516, 73621, 1, "OK", 3, 66, 61, 47, 20, 27, 14, 1
+64537, 73621, 1, "OK", 6, 201, 171, 134, 58, 76, 37, 1
+64212, 72431, 1, "OK", 6, 184, 159, 126, 52, 74, 33, 1
+68369, 73621, 1, "OK", 6, 108, 84, 64, 33, 31, 20, 1
+73997, 74252, 1, "OK", 2, 10, 11, 8, 5, 3, 3, 1
+64389, 70012, 1, "OK", 4, 125, 105, 84, 36, 48, 21, 1
+64268, 73762, 1, "OK", 6, 211, 174, 136, 60, 76, 38, 1
+70583, 72574, 1, "OK", 4, 44, 51, 40, 15, 25, 11, 1
+64021, 72200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 159, 126, 52, 74, 33, 1
+70048, 73806, 1, "OK", 8, 83, 69, 52, 24, 28, 17, 1
+63820, 64092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+65647, 65852, 1, "OK", 1, 4, 5, 2, 2, 0, 1, 3
+68431, 73762, 1, "OK", 7, 111, 87, 66, 35, 31, 21, 1
+67916, 68223, 1, "OK", 2, 9, 9, 3, 2, 1, 2, 3
+65238, 72348, 1, "OK", 6, 166, 159, 126, 52, 74, 33, 1
+64537, 72574, 1, "OK", 6, 180, 161, 127, 53, 74, 34, 1
+65062, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+63820, 72269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+64961, 73762, 1, "OK", 6, 201, 174, 136, 60, 76, 38, 1
+70583, 73621, 1, "OK", 4, 65, 61, 47, 20, 27, 14, 1
+70048, 73762, 1, "OK", 7, 82, 69, 52, 24, 28, 17, 1
+65062, 73762, 1, "OK", 6, 199, 174, 136, 60, 76, 38, 1
+64537, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+64212, 68364, 1, "OK", 3, 97, 87, 70, 25, 45, 17, 1
+70516, 72574, 1, "OK", 3, 45, 51, 40, 15, 25, 11, 1
+67916, 68186, 1, "OK", 1, 8, 9, 3, 2, 1, 2, 3
+68369, 72574, 1, "OK", 6, 87, 74, 57, 28, 29, 17, 1
+64961, 73806, 1, "OK", 7, 202, 174, 136, 60, 76, 38, 1
+65304, 68287, 1, "OK", 2, 76, 85, 53, 24, 29, 16, 2
+66162, 66255, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+63764, 64819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64212, 68401, 1, "OK", 3, 99, 87, 70, 25, 45, 17, 1
+68431, 73806, 1, "OK", 8, 112, 87, 66, 35, 31, 21, 1
+65238, 72431, 1, "OK", 6, 167, 159, 126, 52, 74, 33, 1
+64021, 72269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 159, 126, 52, 74, 33, 1
+64961, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64212, 70438, 1, "OK", 6, 138, 110, 87, 38, 49, 23, 1
+63820, 72348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+72435, 72574, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+64155, 72200, 1, "OK", 6, 181, 159, 126, 52, 74, 33, 1
+64610, 72431, 1, "OK", 6, 178, 159, 126, 52, 74, 33, 1
+63820, 64151, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+63593, 74256, 1, "OK", 5, 244, 189, 189, 68, 121, 42, 0
+67697, 67910, 1, "OK", 3, 4, 5, 2, 2, 0, 1, 3
+73102, 73416, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parLab String useModLab", 0, 0, 7, 3, 3, 0, 2, 2
+68369, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 23, 17, 13, 4, 6, 1
+64268, 73806, 1, "OK", 7, 212, 174, 136, 60, 76, 38, 1
+68369, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 23, 17, 13, 4, 6, 1
+70782, 72574, 1, "OK", 6, 41, 49, 39, 14, 25, 10, 1
+69024, 69733, 1, "OK", 4, 9, 7, 5, 5, 0, 1, 2
+64326, 70012, 1, "OK", 4, 126, 105, 84, 36, 48, 21, 1
+65238, 68364, 1, "OK", 2, 80, 87, 70, 25, 45, 17, 1
+63820, 65216, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+65714, 65852, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+64537, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+65304, 68359, 1, "OK", 2, 77, 85, 53, 24, 29, 16, 2
+64268, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64610, 68364, 1, "OK", 2, 91, 87, 70, 25, 45, 17, 1
+64755, 70012, 1, "OK", 4, 120, 105, 84, 36, 48, 21, 1
+63764, 70012, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 107, 85, 37, 48, 22, 1
+65062, 73806, 1, "OK", 7, 200, 174, 136, 60, 76, 38, 1
+70048, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 7, 4, 3, 1, 3, 1
+63593, 74286, 1, "OK", 5, 245, 189, 189, 68, 121, 42, 0
+70782, 73621, 1, "OK", 6, 62, 59, 46, 19, 27, 13, 1
+63764, 64885, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64096, 70012, 1, "OK", 4, 130, 105, 84, 36, 48, 21, 1
+65238, 68401, 1, "OK", 2, 82, 87, 70, 25, 45, 17, 1
+71085, 71474, 1, "OK", 2, 12, 19, 7, 5, 2, 3, 4
+72205, 73621, 1, "OK", 2, 25, 12, 8, 6, 2, 4, 1
+65062, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+64155, 72269, 1, "OK", 6, 183, 159, 126, 52, 74, 33, 1
+68697, 69733, 1, "OK", 4, 15, 11, 7, 7, 0, 2, 2
+70516, 73762, 1, "OK", 4, 72, 64, 49, 22, 27, 15, 1
+65238, 70438, 1, "OK", 6, 121, 110, 87, 38, 49, 23, 1
+73102, 73466, 1, "OK", 1, 5, 7, 3, 3, 0, 2, 2
+64610, 68401, 1, "OK", 2, 93, 87, 70, 25, 45, 17, 1
+71117, 71516, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+68369, 73762, 1, "OK", 6, 114, 87, 66, 35, 31, 21, 1
+63820, 64208, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64610, 70438, 1, "OK", 6, 132, 110, 87, 38, 49, 23, 1
+72435, 73621, 1, "OK", 2, 22, 12, 8, 6, 2, 4, 1
+63820, 64264, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+71117, 71474, 1, "OK", 3, 11, 19, 7, 5, 2, 3, 4
+66162, 66362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr", 0, 0, 10, 2, 2, 0, 2, 4
+68431, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 25, 18, 14, 4, 7, 1
+72205, 72574, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+64212, 72574, 1, "OK", 6, 185, 161, 127, 53, 74, 34, 1
+63764, 64957, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64537, 73762, 1, "OK", 6, 207, 174, 136, 60, 76, 38, 1
+64691, 70012, 1, "OK", 4, 121, 105, 84, 36, 48, 21, 1
+69352, 69883, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+64021, 72348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 159, 126, 52, 74, 33, 1
+64823, 70012, 1, "OK", 4, 119, 105, 84, 36, 48, 21, 1
+63820, 72431, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+64389, 72200, 1, "OK", 6, 177, 159, 126, 52, 74, 33, 1
+64889, 70012, 1, "OK", 4, 118, 105, 84, 36, 48, 21, 1
+67401, 67910, 1, "OK", 3, 12, 14, 5, 4, 1, 3, 3
+65940, 66098, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String itemVal String itemDescr", 0, 0, 6, 2, 2, 0, 1, 4
+67956, 68179, 1, "OK", 1, 6, 5, 1, 1, 0, 1, 4
+64610, 72574, 1, "OK", 6, 179, 161, 127, 53, 74, 34, 1
+63820, 70438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 112, 88, 39, 49, 24, 1
+72273, 73621, 1, "OK", 2, 24, 12, 8, 6, 2, 4, 1
+70782, 73762, 1, "OK", 7, 68, 62, 48, 21, 27, 14, 1
+71661, 72119, 1, "OK", 3, 10, 17, 5, 3, 2, 3, 4
+64537, 73806, 1, "OK", 7, 208, 174, 136, 60, 76, 38, 1
+71760, 72119, 1, "OK", 3, 8, 17, 5, 3, 2, 3, 4
+71927, 72070, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5
+71085, 71555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+70583, 73806, 1, "OK", 6, 72, 64, 49, 22, 27, 15, 1
+64212, 73621, 1, "OK", 6, 206, 171, 134, 58, 76, 37, 1
+63820, 68364, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 89, 71, 26, 45, 18, 1
+63764, 64016, 0, "Compilation unit does not compile after method extraction.", 3, 7, 2, 1, 1, 0, 1, 1
+64021, 72431, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 159, 126, 52, 74, 33, 1
+66263, 66362, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+63820, 64322, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64755, 72200, 1, "OK", 6, 172, 159, 126, 52, 74, 33, 1
+63764, 72200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+72944, 73272, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+64610, 73621, 1, "OK", 6, 200, 171, 134, 58, 76, 37, 1
+72273, 72574, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+70583, 73762, 1, "OK", 5, 71, 64, 49, 22, 27, 15, 1
+64462, 70012, 1, "OK", 4, 124, 105, 84, 36, 48, 21, 1
+71085, 71516, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+71117, 71555, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String stringResult LovValue defValue", 0, 0, 19, 7, 5, 2, 3, 4
+64389, 72269, 1, "OK", 6, 179, 159, 126, 52, 74, 33, 1
+65238, 72574, 1, "OK", 6, 168, 161, 127, 53, 74, 34, 1
+63820, 68401, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 89, 71, 26, 45, 18, 1
+70516, 73806, 1, "OK", 5, 73, 64, 49, 22, 27, 15, 1
+73102, 73516, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+64155, 72348, 1, "OK", 6, 184, 159, 126, 52, 74, 33, 1
+69024, 69883, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 7, 5, 5, 0, 1, 2
+64212, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+68369, 73806, 1, "OK", 7, 115, 87, 66, 35, 31, 21, 1
+65238, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+70583, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object oVals Object oDescr", 0, 0, 2, 1, 1, 0, 1, 1
+71085, 71600, 1, "OK", 2, 15, 19, 7, 5, 2, 3, 4
+64021, 68364, 1, "OK", 2, 100, 87, 70, 25, 45, 17, 1
+64212, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+64610, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+68602, 69733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov ArrayList<HashMap<String, Object>> admissibleValues", 0, 0, 11, 7, 7, 0, 2, 2
+71117, 71640, 1, "OK", 4, 15, 19, 7, 5, 2, 3, 4
+63764, 65057, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+72205, 73762, 1, "OK", 3, 31, 15, 10, 8, 2, 5, 1
+66579, 66919, 1, "OK", 2, 8, 14, 4, 3, 1, 2, 5
+65346, 68229, 1, "OK", 2, 73, 85, 53, 24, 29, 16, 2
+64326, 72200, 1, "OK", 6, 178, 159, 126, 52, 74, 33, 1
+64537, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+65238, 73621, 1, "OK", 6, 189, 171, 134, 58, 76, 37, 1
+72435, 73806, 1, "OK", 4, 29, 15, 10, 8, 2, 5, 1
+65346, 68287, 1, "OK", 3, 75, 85, 53, 24, 29, 16, 2
+63700, 74256, 0, "Compilation unit does not compile after method extraction.", 7, 242, 189, 189, 68, 121, 42, 0
+64021, 68401, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 87, 70, 25, 45, 17, 1
+64755, 72269, 1, "OK", 6, 174, 159, 126, 52, 74, 33, 1
+70516, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 2, 1, 1, 0, 1, 1
+63764, 72269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+71117, 71600, 1, "OK", 3, 14, 19, 7, 5, 2, 3, 4
+64389, 72348, 1, "OK", 6, 180, 159, 126, 52, 74, 33, 1
+68369, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 25, 18, 14, 4, 7, 1
+72814, 73272, 1, "OK", 2, 9, 4, 2, 2, 0, 1, 2
+63820, 64385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64691, 72200, 1, "OK", 6, 173, 159, 126, 52, 74, 33, 1
+64155, 72431, 1, "OK", 6, 185, 159, 126, 52, 74, 33, 1
+63820, 72574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 163, 128, 54, 74, 35, 1
+64021, 70438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 110, 87, 38, 49, 23, 1
+64823, 72200, 1, "OK", 6, 171, 159, 126, 52, 74, 33, 1
+64889, 72200, 1, "OK", 6, 170, 159, 126, 52, 74, 33, 1
+69352, 70007, 1, "OK", 5, 11, 11, 7, 7, 0, 2, 2
+70782, 73806, 1, "OK", 8, 69, 62, 48, 21, 27, 14, 1
+72435, 73762, 1, "OK", 3, 28, 15, 10, 8, 2, 5, 1
+66507, 67071, 1, "OK", 5, 14, 28, 12, 8, 4, 4, 4
+64096, 72200, 1, "OK", 6, 182, 159, 126, 52, 74, 33, 1
+73873, 74252, 1, "OK", 2, 12, 11, 8, 5, 3, 3, 1
+71927, 72111, 1, "OK", 3, 4, 6, 1, 1, 0, 1, 5
+72205, 73806, 1, "OK", 4, 32, 15, 10, 8, 2, 5, 1
+64961, 70012, 1, "OK", 4, 117, 105, 84, 36, 48, 21, 1
+63700, 74286, 0, "Compilation unit does not compile after method extraction.", 7, 243, 189, 189, 68, 121, 42, 0
+65238, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+66106, 67299, 1, "OK", 5, 29, 43, 15, 11, 4, 7, 4
+64155, 68364, 1, "OK", 3, 98, 87, 70, 25, 45, 17, 1
+64212, 73762, 1, "OK", 6, 212, 174, 136, 60, 76, 38, 1
+72273, 73762, 1, "OK", 3, 30, 15, 10, 8, 2, 5, 1
+63820, 73621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 173, 135, 59, 76, 38, 1
+64610, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 110, 87, 38, 49, 23, 1
+63764, 64092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+73626, 73806, 1, "OK", 3, 6, 3, 2, 2, 0, 1, 1
+64326, 72269, 1, "OK", 6, 180, 159, 126, 52, 74, 33, 1
+70639, 72200, 1, "OK", 5, 38, 49, 39, 14, 25, 10, 1
+63820, 64458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+73102, 73616, 1, "OK", 2, 10, 7, 3, 3, 0, 2, 2
+68697, 69883, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov Object values", 0, 0, 11, 7, 7, 0, 2, 2
+64212, 73806, 1, "OK", 7, 213, 174, 136, 60, 76, 38, 1
+64462, 72200, 1, "OK", 6, 176, 159, 126, 52, 74, 33, 1
+64691, 72269, 1, "OK", 6, 175, 159, 126, 52, 74, 33, 1
+70904, 72126, 1, "OK", 5, 30, 42, 21, 11, 10, 7, 3
+64155, 68401, 1, "OK", 3, 100, 87, 70, 25, 45, 17, 1
+64823, 72269, 1, "OK", 6, 173, 159, 126, 52, 74, 33, 1
+64889, 72269, 1, "OK", 6, 172, 159, 126, 52, 74, 33, 1
+73626, 73762, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+64268, 70012, 1, "OK", 4, 127, 105, 84, 36, 48, 21, 1
+71085, 71640, 1, "OK", 3, 16, 19, 7, 5, 2, 3, 4
+65940, 67299, 1, "OK", 6, 33, 49, 17, 13, 4, 8, 4
+64096, 72269, 1, "OK", 6, 184, 159, 126, 52, 74, 33, 1
+64155, 70438, 1, "OK", 6, 139, 110, 87, 38, 49, 23, 1
+63820, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 112, 88, 39, 49, 24, 1
+69024, 70007, 1, "OK", 5, 15, 11, 7, 7, 0, 2, 2
+72944, 73416, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parLab String useModLab", 0, 0, 7, 3, 3, 0, 2, 2
+64326, 72348, 1, "OK", 6, 181, 159, 126, 52, 74, 33, 1
+65062, 70012, 1, "OK", 4, 115, 105, 84, 36, 48, 21, 1
+67697, 68223, 1, "OK", 4, 13, 14, 5, 4, 1, 3, 3
+73277, 73416, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+65238, 73762, 1, "OK", 6, 195, 174, 136, 60, 76, 38, 1
+67401, 68186, 1, "OK", 3, 20, 23, 8, 6, 2, 5, 3
+64389, 72431, 1, "OK", 6, 181, 159, 126, 52, 74, 33, 1
+64021, 72574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+64755, 72348, 1, "OK", 6, 175, 159, 126, 52, 74, 33, 1
+63764, 72348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 161, 127, 53, 74, 34, 1
+65346, 68359, 1, "OK", 3, 76, 85, 53, 24, 29, 16, 2
+63764, 64151, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+70639, 72269, 1, "OK", 5, 40, 49, 39, 14, 25, 10, 1
+64610, 73762, 1, "OK", 6, 206, 174, 136, 60, 76, 38, 1
+68697, 70007, 1, "OK", 5, 21, 15, 9, 9, 0, 3, 2
+72944, 73516, 1, "OK", 2, 11, 7, 3, 3, 0, 2, 2
+64021, 70579, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList", 0, 0, 110, 87, 38, 49, 23, 1
+63764, 64208, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64096, 72348, 1, "OK", 6, 185, 159, 126, 52, 74, 33, 1
+70904, 72189, 1, "OK", 6, 31, 42, 21, 11, 10, 7, 3
+63671, 74256, 1, "OK", 6, 243, 189, 189, 68, 121, 42, 0
+65238, 73806, 1, "OK", 7, 196, 174, 136, 60, 76, 38, 1
+72944, 73466, 1, "OK", 2, 9, 7, 3, 3, 0, 2, 2
+67697, 68186, 1, "OK", 3, 12, 14, 5, 4, 1, 3, 3
+68431, 70012, 1, "OK", 5, 27, 18, 14, 11, 3, 4, 1
+63764, 65216, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap", 0, 0, 2, 1, 1, 0, 1, 1
+64610, 73806, 1, "OK", 7, 207, 174, 136, 60, 76, 38, 1
+68697, 68939, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+64389, 68364, 1, "OK", 3, 94, 87, 70, 25, 45, 17, 1
+72814, 73416, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parLab String useModLab", 0, 0, 7, 3, 3, 0, 2, 2
+64212, 70777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean showParameterLov DefaultValuesList parameterValueList Object oVals Object oDescr", 0, 0, 112, 88, 39, 49, 24, 1
+72273, 73806, 1, "OK", 4, 31, 15, 10, 8, 2, 5, 1
+64021, 73621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> parameterAsMap boolean showParameterLov", 0, 0, 171, 134, 58, 76, 37, 1
+63820, 70635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterUse parameterUse HashMap<String, Object> parameterAsMap boolean showParameterLov DefaultValuesList parameterValueList Object oVals", 0, 0, 112, 88, 39, 49, 24, 1

@@ -1,0 +1,806 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12031, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15203, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11804, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12031, 17255, 1, "OK", 7, 120, 31, 31, 25, 6, 4, 0
+11675, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12666, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+11961, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+13403, 13643, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+12497, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13403, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+13333, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12769, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 14, 14, 11, 3, 2, 0
+12307, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13111, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+15122, 15671, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+15203, 17255, 1, "OK", 9, 46, 15, 15, 12, 3, 2, 0
+12579, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+14844, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+12206, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11721, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 14, 14, 11, 3, 2, 0
+11721, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+15403, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+12497, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+12497, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15708, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 2, 2, 2, 0, 0, 0
+15122, 15705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ignoreSubNodesStr boolean ignoreSubNodes", 0, 0, 1, 1, 1, 0, 0, 0
+11804, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12206, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11961, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13707, 14525, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+15403, 17255, 1, "OK", 8, 41, 14, 14, 11, 3, 2, 0
+12579, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12415, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14921, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15708, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 2, 2, 2, 0, 0, 0
+12122, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13047, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+12497, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+11618, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12415, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+12666, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+11675, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+14844, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+12497, 17255, 1, "OK", 11, 112, 31, 31, 25, 6, 4, 0
+12497, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11721, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11721, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12415, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12706, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 14, 14, 11, 3, 2, 0
+11961, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+16528, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+11721, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+11888, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+16528, 17255, 1, "OK", 9, 18, 10, 10, 7, 3, 2, 0
+12769, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11961, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13403, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+13111, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+11888, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+14685, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12307, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+16133, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+11888, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12206, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+11721, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13333, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11721, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+15122, 15823, 1, "OK", 3, 15, 3, 3, 3, 0, 0, 0
+13707, 14631, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+12638, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12666, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+12122, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+13111, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+16133, 17255, 1, "OK", 8, 24, 10, 10, 7, 3, 2, 0
+13333, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12769, 13007, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+12122, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+15708, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 4, 4, 4, 0, 0, 0
+12031, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13047, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+12307, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+15203, 15400, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+15078, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12706, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11721, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+12638, 13007, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+13707, 14682, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+12415, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12497, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+14921, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+12031, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+13047, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+13111, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+12206, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12122, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12122, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+15078, 17255, 1, "OK", 8, 49, 15, 15, 12, 3, 2, 0
+11618, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12769, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+15674, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+15708, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 4, 4, 4, 0, 0, 0
+12579, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 14, 14, 11, 3, 2, 0
+14685, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12031, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+15975, 16100, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+12122, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12307, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14921, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+11618, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11888, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12706, 13007, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+15674, 17255, 1, "OK", 8, 37, 14, 14, 11, 3, 2, 0
+15203, 15470, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+16005, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+13403, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+14685, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12769, 13108, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+11721, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12769, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+13333, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13707, 14746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+11804, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12497, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12122, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13047, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+12122, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12307, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+16005, 17255, 1, "OK", 9, 29, 12, 12, 9, 3, 2, 0
+12307, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13403, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles", 0, 0, 1, 1, 1, 0, 0, 0
+14685, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15122, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 3, 3, 3, 0, 0, 0
+12769, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 24, 6, 4, 0
+12307, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+11961, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+16804, 17080, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+12769, 17255, 1, "OK", 13, 104, 30, 30, 24, 6, 4, 0
+14685, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12769, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12307, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12706, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+15975, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean runAnywayB List errors", 0, 0, 2, 2, 2, 0, 0, 0
+14685, 17255, 1, "OK", 9, 60, 16, 16, 13, 3, 2, 0
+12497, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+12307, 17255, 1, "OK", 10, 115, 31, 31, 25, 6, 4, 0
+12638, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 24, 6, 4, 0
+11961, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+15122, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 3, 3, 3, 0, 0, 0
+12497, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13333, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14921, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+12122, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+12415, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11961, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12638, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+13111, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 13, 13, 10, 3, 2, 0
+11618, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+16804, 17126, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+12638, 17255, 1, "OK", 11, 108, 30, 30, 24, 6, 4, 0
+12579, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12706, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12706, 13108, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+11675, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12666, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12415, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12706, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 24, 6, 4, 0
+13707, 14873, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+11721, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13403, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11888, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+16877, 16971, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+12706, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12706, 17255, 1, "OK", 12, 105, 30, 30, 24, 6, 4, 0
+15078, 15400, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+12122, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13047, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 13, 13, 10, 3, 2, 0
+12579, 13007, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+14921, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+11618, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+15122, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 5, 5, 5, 0, 0, 0
+11888, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12031, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11721, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+11804, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+12769, 13295, 1, "OK", 4, 12, 3, 3, 3, 0, 0, 0
+12206, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+11961, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+15203, 15671, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+12307, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+12031, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13403, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12415, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+13111, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+12579, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+15078, 15470, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+15203, 15705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ignoreSubNodesStr boolean ignoreSubNodes", 0, 0, 1, 1, 1, 0, 0, 0
+16877, 17063, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+12638, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles", 0, 0, 3, 3, 3, 0, 0, 0
+11721, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15122, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 5, 5, 5, 0, 0, 0
+13707, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+14685, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12769, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+16877, 17075, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+11888, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12307, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14434, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12122, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11804, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12497, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12666, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+11675, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13047, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+12579, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 24, 6, 4, 0
+12706, 13295, 1, "OK", 3, 13, 3, 3, 3, 0, 0, 0
+11721, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+11804, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11721, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12415, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+14567, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12497, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+12769, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 3, 3, 3, 0, 0, 0
+12307, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+12579, 17255, 1, "OK", 11, 110, 30, 30, 24, 6, 4, 0
+13333, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+12769, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14634, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11721, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+12497, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12122, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+12031, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+13730, 14355, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 6, 5, 1, 2, 1
+14685, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11721, 17255, 1, "OK", 3, 128, 31, 31, 25, 6, 4, 0
+11804, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11804, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12307, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11721, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12638, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles String role", 0, 0, 3, 3, 3, 0, 0, 0
+13111, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+12706, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11888, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+11961, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+15203, 15823, 1, "OK", 3, 13, 3, 3, 3, 0, 0, 0
+12206, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11804, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13111, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+15158, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+11675, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12666, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+14434, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11961, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12706, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 3, 3, 3, 0, 0, 0
+11618, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12122, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15158, 17255, 1, "OK", 9, 47, 15, 15, 12, 3, 2, 0
+11804, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13111, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 23, 6, 4, 0
+13047, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+15403, 15823, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+11804, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12706, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13111, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+14567, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+14434, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+15078, 15671, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+13111, 17255, 1, "OK", 12, 96, 29, 29, 23, 6, 4, 0
+12497, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+13047, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+13403, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+12122, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+12122, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13707, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 19, 6, 4, 0
+14634, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11675, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12666, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+14434, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14567, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles", 0, 0, 3, 3, 3, 0, 0, 0
+15557, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+13707, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+12122, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+15078, 15705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ignoreSubNodesStr boolean ignoreSubNodes", 0, 0, 1, 1, 1, 0, 0, 0
+12206, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+11675, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+14434, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 17255, 1, "OK", 13, 82, 25, 25, 19, 6, 4, 0
+12206, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13047, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 23, 6, 4, 0
+14434, 17255, 1, "OK", 12, 64, 16, 16, 13, 3, 2, 0
+11721, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+12122, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12031, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+15557, 17255, 1, "OK", 7, 38, 14, 14, 11, 3, 2, 0
+11804, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+12122, 17255, 1, "OK", 8, 118, 31, 31, 25, 6, 4, 0
+11961, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+13047, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+14567, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14634, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+13333, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+13047, 17255, 1, "OK", 11, 97, 29, 29, 23, 6, 4, 0
+14567, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14634, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11675, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12031, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11675, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+15203, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 3, 3, 3, 0, 0, 0
+14567, 17255, 1, "OK", 9, 62, 16, 16, 13, 3, 2, 0
+12666, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12206, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12206, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14634, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12769, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14634, 17255, 1, "OK", 9, 61, 16, 16, 13, 3, 2, 0
+11804, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14685, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12415, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12307, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11721, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+15203, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 3, 3, 3, 0, 0, 0
+12769, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 5, 5, 5, 0, 0, 0
+12206, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12579, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles String role", 0, 0, 3, 3, 3, 0, 0, 0
+11618, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14685, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12638, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15403, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 2, 2, 2, 0, 0, 0
+11961, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12307, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+12769, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13111, 13295, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+11675, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+12307, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12638, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles String role", 0, 0, 5, 5, 5, 0, 0, 0
+12579, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12206, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+11888, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+15078, 15823, 1, "OK", 2, 16, 3, 3, 3, 0, 0, 0
+12497, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12206, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+15158, 15400, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+11721, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+13333, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+12638, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15403, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 2, 2, 2, 0, 0, 0
+11721, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12031, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+13403, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+12706, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15674, 15823, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+12122, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+12497, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+13111, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13047, 13295, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+13333, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+15203, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 5, 5, 5, 0, 0, 0
+12666, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 14, 14, 11, 3, 2, 0
+12706, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 5, 5, 5, 0, 0, 0
+12206, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+11804, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11618, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+15894, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+12706, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15158, 15470, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+14434, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11618, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13111, 13400, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+12769, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+12122, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12031, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+13047, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+14685, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15894, 17255, 1, "OK", 8, 31, 12, 12, 9, 3, 2, 0
+12415, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12307, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+14844, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+15403, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 4, 4, 4, 0, 0, 0
+13940, 14350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+13111, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+13333, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+14567, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12206, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13403, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+11804, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+12497, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12638, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+15203, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 5, 5, 5, 0, 0, 0
+14634, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15078, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 3, 3, 3, 0, 0, 0
+12122, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+11618, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11618, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+13047, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 2, 2, 2, 0, 0, 0
+14434, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11888, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12122, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11618, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+11675, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12666, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+15078, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 3, 3, 3, 0, 0, 0
+13047, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+13403, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+12706, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+15674, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 2, 2, 2, 0, 0, 0
+14567, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15403, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 4, 4, 4, 0, 0, 0
+11804, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12579, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11618, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+11961, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+11618, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14634, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12415, 12576, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+12497, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+11721, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+15674, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 2, 2, 2, 0, 0, 0
+12415, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12579, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id List correctRoles String role", 0, 0, 5, 5, 5, 0, 0, 0
+11675, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+12666, 13007, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+12579, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14844, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11804, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+11804, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12769, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+13333, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 11, 11, 8, 3, 2, 0
+11721, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+13403, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 11, 11, 8, 3, 2, 0
+12206, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14685, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+11804, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+11721, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11888, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12307, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11618, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+15078, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 5, 5, 5, 0, 0, 0
+12415, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12415, 12634, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+11888, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14844, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11804, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12638, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+14685, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+16834, 16971, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+12769, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+15158, 15671, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+11804, 17255, 1, "OK", 4, 126, 31, 31, 25, 6, 4, 0
+11675, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12666, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+14844, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12307, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12415, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+14844, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12638, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+15158, 15705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ignoreSubNodesStr boolean ignoreSubNodes", 0, 0, 1, 1, 1, 0, 0, 0
+12206, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+13111, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+14844, 17255, 1, "OK", 8, 58, 16, 16, 13, 3, 2, 0
+15674, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 4, 4, 4, 0, 0, 0
+11888, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11888, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+13111, 13643, 1, "OK", 2, 12, 4, 4, 4, 0, 0, 0
+12415, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12031, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12666, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11618, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12666, 13108, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+11675, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+12706, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+13111, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12415, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+16005, 16100, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+15078, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 5, 5, 5, 0, 0, 0
+12579, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+13707, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+11888, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12666, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 24, 6, 4, 0
+14434, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11675, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+13403, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 11, 11, 8, 3, 2, 0
+12122, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11961, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12666, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11721, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12769, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+11675, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12206, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13333, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+12706, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+13047, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 17255, 1, "OK", 2, 129, 31, 31, 25, 6, 4, 0
+12666, 17255, 1, "OK", 12, 107, 30, 30, 24, 6, 4, 0
+13707, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+11888, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+11888, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+16834, 17063, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+14685, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+13047, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+12307, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+14567, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12122, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+16834, 17075, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+15674, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 4, 4, 4, 0, 0, 0
+14434, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12206, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12638, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+12206, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+12122, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13047, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12415, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+14634, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+16005, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean runAnywayB List errors", 0, 0, 2, 2, 2, 0, 0, 0
+11804, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+14567, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15158, 15823, 1, "OK", 3, 14, 3, 3, 3, 0, 0, 0
+12497, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12206, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+14921, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11888, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+14685, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+15708, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+11618, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12769, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+12206, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14634, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12206, 17255, 1, "OK", 9, 116, 31, 31, 25, 6, 4, 0
+12415, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13111, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12706, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+12307, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+11804, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11961, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+15708, 17255, 1, "OK", 9, 36, 14, 14, 11, 3, 2, 0
+11961, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12638, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+12031, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+13403, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+13333, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+13707, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+12579, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+14434, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+14844, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11618, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+15557, 15823, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+11888, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List snapshots List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+12666, 13295, 1, "OK", 3, 15, 3, 3, 3, 0, 0, 0
+12122, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11804, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+11721, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+13333, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+13047, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12579, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+11961, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11961, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+15975, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+14567, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+11804, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12706, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+11961, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13333, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 21, 6, 4, 0
+16707, 17080, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+11721, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+14921, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+14634, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15975, 17255, 1, "OK", 8, 30, 12, 12, 9, 3, 2, 0
+15158, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 3, 3, 3, 0, 0, 0
+12666, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13333, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+11618, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11675, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14844, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+13333, 17255, 1, "OK", 12, 91, 27, 27, 21, 6, 4, 0
+12415, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11961, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+11961, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 12576, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+12206, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+13111, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+15158, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 3, 3, 3, 0, 0, 0
+12497, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 14631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14921, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+16707, 17126, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+13403, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+11618, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+11618, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12666, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 3, 3, 3, 0, 0, 0
+11675, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+12579, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+11618, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+13111, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+11888, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14921, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11675, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12666, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12415, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14921, 17255, 1, "OK", 9, 55, 16, 16, 13, 3, 2, 0
+11721, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12031, 14682, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 12634, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality", 0, 0, 1, 1, 1, 0, 0, 0
+11618, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13707, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+12206, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13403, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+14921, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+11618, 17255, 1, "OK", 2, 132, 31, 31, 25, 6, 4, 0
+11961, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+14434, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15557, 15972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway", 0, 0, 2, 2, 2, 0, 0, 0
+13047, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12122, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+13403, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 21, 6, 4, 0
+12769, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+14567, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15557, 16002, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes String runAnyway boolean runAnywayB", 0, 0, 2, 2, 2, 0, 0, 0
+12031, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+13403, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+12307, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+11888, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14434, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15158, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 5, 5, 5, 0, 0, 0
+13047, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13403, 17255, 1, "OK", 13, 90, 27, 27, 21, 6, 4, 0
+12122, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12206, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+12497, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12497, 12576, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+12579, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 17, 3, 2, 0
+12415, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+15122, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 14746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+14567, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+12638, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id String role", 0, 0, 14, 14, 11, 3, 2, 0
+14634, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+11961, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj List viewpoints Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12206, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13111, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11721, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12415, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+15122, 17255, 1, "OK", 9, 48, 15, 15, 12, 3, 2, 0
+12415, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11804, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14634, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+11888, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12497, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12497, 12634, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+12706, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+13333, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+12415, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+11804, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+15158, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 5, 5, 5, 0, 0, 0
+11804, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14844, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+13707, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11888, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+11888, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12497, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12415, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+14434, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+12031, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+15557, 16100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB", 0, 0, 4, 4, 4, 0, 0, 0
+13047, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11618, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+12122, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12415, 17255, 1, "OK", 10, 113, 31, 31, 25, 6, 4, 0
+14567, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+14844, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+13111, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11888, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+12497, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+12497, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+11888, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11675, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12666, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11961, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12769, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+13333, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+14634, 16100, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+11888, 17255, 1, "OK", 5, 124, 31, 31, 25, 6, 4, 0
+12031, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj Snapshot snapshot SubObject subObj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11618, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14921, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15557, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean ignoreSubNodes boolean runAnywayB List errors", 0, 0, 4, 4, 4, 0, 0, 0
+12307, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+13707, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+11675, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+12666, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List correctRoles String role", 0, 0, 5, 5, 5, 0, 0, 0
+14434, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+11675, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+13047, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12122, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 18, 3, 2, 0
+12638, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12666, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12497, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+13403, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+14567, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+11804, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11618, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+11961, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+14921, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11618, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12206, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+14634, 16178, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+15122, 15400, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+12579, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id String role", 0, 0, 14, 14, 11, 3, 2, 0
+14844, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+12415, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+12706, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12206, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+12769, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12307, 12576, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+11721, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12206, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12497, 14873, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+11961, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13403, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+12307, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11888, 13295, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 4, 4, 4, 0, 0, 0
+15894, 16100, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+12415, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12638, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+11675, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12666, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+11961, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+15122, 15470, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+12769, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+11961, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+12307, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+12307, 12634, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+12031, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+12638, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+11888, 15400, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12415, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+11961, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+12706, 14631, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12307, 12663, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13333, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+13111, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+11961, 17255, 1, "OK", 6, 122, 31, 31, 25, 6, 4, 0
+11804, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+11961, 15200, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+13333, 13643, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+12415, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+15894, 16178, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean runAnywayB List errors", 0, 0, 2, 2, 2, 0, 0, 0
+12769, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12497, 14999, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11804, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+13333, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+12206, 15823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+12307, 12702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 1, 1, 1, 0, 0, 0
+13707, 14359, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 6, 3, 2, 0
+11888, 13400, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 4, 4, 4, 0, 0, 0
+12307, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 15, 12, 3, 2, 0
+14844, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+15708, 15823, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+12031, 15119, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11888, 15470, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12122, 14359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SubObject subObj String userProvidedParametersStr String modality Integer id String role", 0, 0, 15, 15, 12, 3, 2, 0
+12638, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12579, 14525, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+12706, 14682, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0
+14844, 16002, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+13047, 14359, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 13, 13, 10, 3, 2, 0
+14921, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+11721, 14525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr ExecutionInstance instance", 0, 0, 15, 15, 12, 3, 2, 0
+12031, 15155, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+11618, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12031, 13108, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles", 0, 0, 2, 2, 2, 0, 0, 0
+12497, 13007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id", 0, 0, 2, 2, 2, 0, 0, 0
+12307, 12766, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String modality Integer id boolean canSee", 0, 0, 1, 1, 1, 0, 0, 0
+12666, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+11618, 13643, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile profile List subObjects List snapshots List viewpoints Snapshot snapshot SubObject subObj String userProvidedParametersStr String modality Integer id List correctRoles String role", 0, 0, 6, 6, 6, 0, 0, 0
+11675, 15972, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 16, 3, 2, 0
+14921, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+12031, 17232, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 25, 6, 4, 0
+13403, 15671, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+11618, 15705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+12706, 14746, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 14, 11, 3, 2, 0

@@ -1,0 +1,68 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4330, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 13, 3, 2, 0
+2604, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 22, 7, 5, 0
+2653, 2812, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3632, 4081, 1, "OK", 3, 13, 2, 1, 1, 0, 1, 1
+5213, 6018, 1, "OK", 3, 22, 7, 5, 4, 1, 2, 1
+2877, 3424, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+6056, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+2822, 6415, 0, "Compilation unit does not compile after method extraction.", 6, 89, 28, 28, 21, 7, 5, 0
+5309, 5989, 1, "OK", 4, 19, 7, 5, 4, 1, 2, 1
+3632, 3965, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+2604, 2812, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2653, 6415, 1, "OK", 4, 97, 29, 29, 22, 7, 5, 0
+5264, 5989, 1, "OK", 3, 20, 7, 5, 4, 1, 2, 1
+2748, 6415, 1, "OK", 4, 92, 28, 28, 21, 7, 5, 0
+3632, 4102, 0, "Compilation unit does not compile after method extraction.", 3, 14, 2, 1, 1, 0, 1, 1
+5358, 6018, 1, "OK", 4, 18, 7, 5, 4, 1, 2, 1
+5213, 6039, 0, "Compilation unit does not compile after method extraction.", 3, 23, 7, 5, 4, 1, 2, 1
+3703, 4081, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+5456, 5800, 1, "OK", 4, 8, 4, 2, 2, 0, 1, 2
+6189, 6379, 0, "Compilation unit does not compile after method extraction.", 3, 5, 2, 2, 2, 0, 0, 0
+5165, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+3766, 4052, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+4624, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 14, 11, 3, 2, 0
+2798, 6415, 1, "OK", 5, 90, 28, 28, 21, 7, 5, 0
+3795, 4052, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+4806, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 10, 3, 2, 0
+5309, 6018, 1, "OK", 4, 20, 7, 5, 4, 1, 2, 1
+2604, 6415, 1, "OK", 3, 99, 29, 29, 22, 7, 5, 0
+3703, 3965, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+5358, 6039, 0, "Compilation unit does not compile after method extraction.", 4, 19, 7, 5, 4, 1, 2, 1
+5407, 5800, 1, "OK", 4, 10, 4, 2, 2, 0, 1, 2
+3703, 4102, 0, "Compilation unit does not compile after method extraction.", 3, 12, 2, 1, 1, 0, 1, 1
+5264, 6018, 1, "OK", 3, 21, 7, 5, 4, 1, 2, 1
+2653, 2736, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3576, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 17, 4, 3, 0
+3632, 4006, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+4472, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 12, 3, 2, 0
+5309, 6039, 0, "Compilation unit does not compile after method extraction.", 4, 21, 7, 5, 4, 1, 2, 1
+4980, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 2, 0
+2950, 3391, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+3766, 4081, 1, "OK", 4, 9, 2, 1, 1, 0, 1, 1
+3795, 4081, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+2604, 2736, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3766, 3965, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+3795, 3965, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+5264, 6039, 0, "Compilation unit does not compile after method extraction.", 3, 22, 7, 5, 4, 1, 2, 1
+3766, 4102, 0, "Compilation unit does not compile after method extraction.", 4, 10, 2, 1, 1, 0, 1, 1
+3703, 4006, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+3795, 4102, 0, "Compilation unit does not compile after method extraction.", 4, 9, 2, 1, 1, 0, 1, 1
+2950, 3424, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+3441, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 18, 4, 3, 0
+2877, 3391, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+3022, 3376, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3632, 4052, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+2653, 2786, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2822, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 21, 7, 5, 0
+5213, 5989, 1, "OK", 3, 21, 7, 5, 4, 1, 2, 1
+2653, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 22, 7, 5, 0
+3766, 4006, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+2748, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 21, 7, 5, 0
+4214, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 14, 3, 2, 0
+3795, 4006, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+2604, 2786, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4119, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 15, 3, 2, 0
+5358, 5989, 1, "OK", 4, 17, 7, 5, 4, 1, 2, 1
+2798, 6379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 21, 7, 5, 0
+3703, 4052, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1

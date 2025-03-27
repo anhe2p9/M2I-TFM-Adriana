@@ -1,0 +1,18 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+15395, 16166, 1, "OK", 5, 19, 17, 5, 4, 1, 3, 4
+15395, 15749, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dataSetLabel IMetaData metadata", 0, 0, 6, 2, 2, 0, 1, 4
+15068, 16188, 1, "OK", 2, 29, 27, 27, 8, 19, 6, 0
+15023, 16188, 1, "OK", 1, 31, 27, 27, 8, 19, 6, 0
+15921, 16158, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 1, 1, 0, 1, 5
+15261, 16179, 1, "OK", 3, 24, 24, 14, 6, 8, 5, 2
+15817, 16158, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 1, 1, 0, 1, 5
+15442, 16166, 1, "OK", 6, 17, 17, 5, 4, 1, 3, 4
+15442, 15749, 1, "OK", 3, 7, 6, 2, 2, 0, 1, 4
+15475, 16166, 1, "OK", 6, 16, 17, 5, 4, 1, 3, 4
+15475, 15749, 1, "OK", 3, 6, 6, 2, 2, 0, 1, 4
+15207, 16184, 1, "OK", 3, 26, 26, 20, 7, 13, 6, 1
+15358, 16173, 1, "OK", 5, 21, 21, 9, 5, 4, 4, 3
+15135, 16188, 1, "OK", 3, 28, 27, 27, 8, 19, 6, 0
+15312, 16173, 1, "OK", 4, 22, 21, 9, 5, 4, 4, 3
+15757, 16166, 1, "OK", 5, 9, 11, 3, 2, 1, 2, 4
+15877, 16158, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 1, 1, 0, 1, 5

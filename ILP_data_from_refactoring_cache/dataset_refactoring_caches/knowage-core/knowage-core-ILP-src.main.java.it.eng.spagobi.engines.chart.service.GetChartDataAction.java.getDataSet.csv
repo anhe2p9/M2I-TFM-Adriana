@@ -1,0 +1,71 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+37580, 38686, 1, "OK", 6, 19, 9, 6, 4, 2, 3, 1
+36599, 41705, 1, "OK", 3, 90, 17, 17, 11, 6, 4, 0
+37167, 38686, 1, "OK", 3, 24, 9, 6, 4, 2, 3, 1
+37996, 38466, 1, "OK", 5, 7, 3, 1, 1, 0, 1, 2
+38706, 39622, 1, "OK", 3, 16, 2, 2, 2, 0, 0, 0
+39276, 39622, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+39712, 40697, 1, "OK", 2, 15, 2, 1, 1, 0, 1, 1
+37671, 38686, 1, "OK", 6, 18, 9, 6, 4, 2, 3, 1
+39632, 41646, 1, "OK", 3, 35, 4, 4, 3, 1, 1, 0
+37893, 38466, 1, "OK", 5, 8, 3, 1, 1, 0, 1, 2
+37506, 38686, 1, "OK", 6, 20, 9, 6, 4, 2, 3, 1
+39276, 41646, 1, "OK", 3, 42, 5, 5, 4, 1, 1, 0
+40717, 41646, 1, "OK", 3, 17, 1, 1, 1, 0, 0, 0
+36546, 39622, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 13, 13, 8, 5, 3, 0
+36513, 39622, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 13, 13, 8, 5, 3, 0
+39926, 40697, 1, "OK", 4, 12, 2, 1, 1, 0, 1, 1
+37749, 38686, 1, "OK", 5, 16, 9, 6, 4, 2, 3, 1
+37015, 41729, 1, "OK", 3, 82, 16, 16, 10, 6, 4, 0
+36599, 39266, 1, "OK", 3, 46, 12, 12, 7, 5, 3, 0
+37015, 40707, 1, "OK", 3, 62, 15, 15, 9, 6, 4, 0
+37015, 38696, 1, "OK", 3, 27, 10, 10, 5, 5, 3, 0
+38706, 39266, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+36599, 37005, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+37445, 38686, 1, "OK", 6, 21, 9, 6, 4, 2, 3, 1
+37015, 41646, 1, "OK", 3, 80, 16, 16, 10, 6, 4, 0
+38706, 41705, 1, "OK", 3, 53, 6, 6, 5, 1, 1, 0
+37094, 38686, 1, "OK", 2, 25, 9, 6, 4, 2, 3, 1
+39276, 41705, 1, "OK", 3, 43, 5, 5, 4, 1, 1, 0
+40717, 41705, 1, "OK", 3, 18, 1, 1, 1, 0, 0, 0
+36546, 39266, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 12, 12, 7, 5, 3, 0
+36513, 39266, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 12, 12, 7, 5, 3, 0
+39770, 40697, 1, "OK", 3, 14, 2, 1, 1, 0, 1, 1
+36513, 41705, 1, "OK", 1, 93, 17, 17, 11, 6, 4, 0
+36546, 41705, 1, "OK", 2, 92, 17, 17, 11, 6, 4, 0
+36599, 41729, 1, "OK", 3, 91, 17, 17, 11, 6, 4, 0
+36599, 40707, 1, "OK", 3, 71, 16, 16, 10, 6, 4, 0
+38706, 40707, 1, "OK", 3, 34, 5, 5, 4, 1, 1, 0
+37015, 39622, 1, "OK", 3, 44, 12, 12, 7, 5, 3, 0
+38706, 41729, 1, "OK", 3, 54, 6, 6, 5, 1, 1, 0
+36599, 38696, 1, "OK", 3, 36, 11, 11, 6, 5, 3, 0
+39276, 41729, 1, "OK", 3, 44, 5, 5, 4, 1, 1, 0
+40717, 41729, 1, "OK", 3, 19, 1, 1, 1, 0, 0, 0
+39974, 40697, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+36599, 41646, 1, "OK", 3, 89, 17, 17, 11, 6, 4, 0
+39632, 41705, 1, "OK", 3, 36, 4, 4, 3, 1, 1, 0
+39276, 40707, 1, "OK", 3, 24, 4, 4, 3, 1, 1, 0
+40061, 40697, 1, "OK", 4, 10, 2, 1, 1, 0, 1, 1
+36513, 41729, 1, "OK", 1, 94, 17, 17, 11, 6, 4, 0
+36546, 41729, 1, "OK", 2, 93, 17, 17, 11, 6, 4, 0
+36513, 40707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 16, 16, 10, 6, 4, 0
+36546, 40707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 16, 16, 10, 6, 4, 0
+37867, 38672, 1, "OK", 5, 13, 6, 2, 2, 0, 2, 2
+40308, 40697, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+36513, 37005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 1, 1, 1, 0, 0, 0
+36546, 37005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 1, 1, 1, 0, 0, 0
+39854, 40697, 1, "OK", 4, 13, 2, 1, 1, 0, 1, 1
+36599, 39622, 1, "OK", 3, 53, 13, 13, 8, 5, 3, 0
+37015, 41705, 1, "OK", 3, 81, 16, 16, 10, 6, 4, 0
+39632, 41729, 1, "OK", 3, 37, 4, 4, 3, 1, 1, 0
+37356, 38686, 1, "OK", 5, 22, 9, 6, 4, 2, 3, 1
+40136, 40697, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+39632, 40707, 1, "OK", 3, 17, 3, 3, 2, 1, 1, 0
+37253, 38686, 1, "OK", 4, 23, 9, 6, 4, 2, 3, 1
+38706, 41646, 1, "OK", 3, 52, 6, 6, 5, 1, 1, 0
+36546, 38696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 11, 11, 6, 5, 3, 0
+36513, 38696, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 11, 11, 6, 5, 3, 0
+36546, 41646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 17, 17, 11, 6, 4, 0
+37827, 38672, 1, "OK", 5, 14, 6, 2, 2, 0, 2, 2
+37015, 39266, 1, "OK", 3, 37, 11, 11, 6, 5, 3, 0
+36513, 41646, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 17, 17, 11, 6, 4, 0

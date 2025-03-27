@@ -1,0 +1,95 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5622, 5749, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 2, 1, 1, 0, 1, 1
+1081, 5851, 0, "Compilation unit does not compile after method extraction.", 4, 110, 79, 79, 45, 34, 17, 0
+1212, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+712, 1166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+712, 1038, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 3, 3, 3, 0, 0, 0
+1113, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+3331, 5608, 1, "OK", 2, 48, 39, 32, 23, 9, 7, 1
+672, 999, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 3, 3, 3, 0, 0, 0
+1047, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+1175, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+1376, 1832, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+3013, 3311, 1, "OK", 2, 7, 5, 3, 3, 0, 1, 2
+4384, 5608, 1, "OK", 2, 27, 19, 16, 13, 3, 3, 1
+672, 1132, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+1627, 1735, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+3381, 3810, 1, "OK", 1, 9, 6, 4, 4, 0, 1, 2
+4912, 5119, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 2
+2273, 2578, 1, "OK", 2, 7, 5, 3, 3, 0, 1, 2
+1845, 5608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 64, 52, 39, 13, 12, 1
+826, 1104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName", 0, 0, 2, 2, 2, 0, 0, 0
+2225, 5608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName String fileName int lineNumber", 0, 0, 57, 47, 35, 12, 10, 1
+3497, 3810, 1, "OK", 1, 7, 3, 3, 3, 0, 0, 2
+672, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 82, 82, 48, 34, 17, 0
+826, 1242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 2, 2, 2, 0, 0, 0
+1845, 5749, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 66, 53, 40, 13, 13, 1
+826, 5851, 0, "Compilation unit does not compile after method extraction.", 2, 116, 81, 81, 47, 34, 17, 0
+1081, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+3613, 3810, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 2
+4010, 4175, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+712, 1072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName", 0, 0, 3, 3, 3, 0, 0, 0
+712, 816, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+712, 1203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+1411, 1550, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+826, 999, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+1307, 1832, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+672, 1166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+672, 1038, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass", 0, 0, 3, 3, 3, 0, 0, 0
+4533, 4737, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 2
+1997, 2205, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 2
+826, 1132, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 2, 2, 2, 0, 0, 0
+2965, 5608, 1, "OK", 3, 56, 45, 37, 27, 10, 8, 1
+4757, 5608, 1, "OK", 2, 19, 13, 11, 9, 2, 2, 1
+1252, 5851, 0, "Compilation unit does not compile after method extraction.", 6, 104, 79, 79, 45, 34, 17, 0
+2598, 5608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileName int lineNumber", 0, 0, 51, 42, 31, 11, 9, 1
+3881, 4364, 1, "OK", 1, 10, 12, 6, 4, 2, 3, 2
+826, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 81, 81, 47, 34, 17, 0
+1141, 5851, 0, "Compilation unit does not compile after method extraction.", 6, 108, 79, 79, 45, 34, 17, 0
+1376, 1767, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+712, 1104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName", 0, 0, 3, 3, 3, 0, 0, 0
+1376, 5608, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 76, 60, 43, 17, 16, 1
+1009, 5851, 0, "Compilation unit does not compile after method extraction.", 2, 112, 79, 79, 45, 34, 17, 0
+2374, 2578, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 2
+5298, 5507, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 2
+672, 1072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass String methodName", 0, 0, 3, 3, 3, 0, 0, 0
+672, 816, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+712, 1242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+672, 1203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+712, 5851, 0, "Compilation unit does not compile after method extraction.", 2, 121, 82, 82, 48, 34, 17, 0
+1781, 5608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 64, 52, 39, 13, 12, 1
+826, 1166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 2, 2, 2, 0, 0, 0
+826, 1038, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+1376, 5749, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 78, 61, 44, 17, 17, 1
+1567, 1753, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+1252, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+4221, 4346, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+712, 999, 0, "Compilation unit does not compile after method extraction.", 1, 8, 3, 3, 3, 0, 0, 0
+1212, 5851, 0, "Compilation unit does not compile after method extraction.", 6, 106, 79, 79, 45, 34, 17, 0
+1781, 5749, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 66, 53, 40, 13, 13, 1
+1113, 5851, 0, "Compilation unit does not compile after method extraction.", 5, 109, 79, 79, 45, 34, 17, 0
+3950, 4175, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+712, 1132, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+1047, 5851, 0, "Compilation unit does not compile after method extraction.", 3, 111, 79, 79, 45, 34, 17, 0
+1175, 5851, 0, "Compilation unit does not compile after method extraction.", 6, 107, 79, 79, 45, 34, 17, 0
+3111, 3311, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 2
+2743, 2945, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 2
+1141, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+1307, 1767, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 4, 4, 4, 1
+1307, 5608, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 76, 60, 43, 17, 16, 1
+1009, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 79, 79, 45, 34, 17, 0
+2644, 2945, 1, "OK", 2, 7, 5, 3, 3, 0, 1, 2
+4432, 4737, 1, "OK", 1, 7, 5, 3, 3, 0, 1, 2
+672, 1104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass String methodName String fileName", 0, 0, 3, 3, 3, 0, 0, 0
+3830, 5608, 1, "OK", 2, 38, 32, 26, 18, 8, 6, 1
+5139, 5608, 1, "OK", 2, 11, 7, 6, 5, 1, 1, 1
+826, 1072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName", 0, 0, 2, 2, 2, 0, 0, 0
+1411, 1753, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+712, 5759, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 82, 82, 48, 34, 17, 0
+826, 1203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String declaringClass String methodName String fileName int lineNumber", 0, 0, 2, 2, 2, 0, 0, 0
+1892, 2205, 1, "OK", 2, 7, 5, 3, 3, 0, 1, 2
+4808, 5119, 1, "OK", 1, 7, 5, 3, 3, 0, 1, 2
+672, 1242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer String declaringClass String methodName String fileName int lineNumber", 0, 0, 3, 3, 3, 0, 0, 0
+1307, 5749, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 78, 61, 44, 17, 17, 1
+672, 5851, 0, "Compilation unit does not compile after method extraction.", 1, 122, 82, 82, 48, 34, 17, 0
+5192, 5507, 1, "OK", 1, 7, 5, 3, 3, 0, 1, 2

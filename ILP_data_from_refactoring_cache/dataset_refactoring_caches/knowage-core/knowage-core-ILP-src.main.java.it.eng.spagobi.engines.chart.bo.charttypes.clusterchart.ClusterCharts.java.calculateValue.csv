@@ -1,0 +1,339 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7607, 7958, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] xArr double[] yArr double[] zArr", 0, 0, 5, 3, 2, 1, 2, 1
+3466, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4311, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+3798, 8281, 1, "OK", 9, 158, 85, 85, 28, 57, 18, 0
+6670, 6803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstZ double[] zArr", 0, 0, 5, 1, 1, 0, 1, 4
+3413, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3234, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+6271, 6889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY boolean firstZ double yTempMax double yTempMin", 0, 0, 27, 12, 7, 5, 5, 3
+5995, 6226, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+4691, 5185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i String tmpSerieName", 0, 0, 5, 2, 2, 0, 1, 3
+6379, 6616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3648, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3519, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3582, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3895, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7103, 7217, 1, "OK", 2, 2, 5, 2, 2, 0, 1, 3
+3256, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7558, 7958, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String serieName double[] xArr double[] yArr double[] zArr", 0, 0, 5, 3, 2, 1, 2, 1
+7872, 7952, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+3234, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4196, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+3698, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3466, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6737, 6803, 1, "OK", 2, 4, 5, 1, 1, 0, 1, 4
+3357, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3519, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3895, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5995, 6257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+7054, 7217, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+7722, 8020, 1, "OK", 3, 13, 5, 3, 2, 1, 2, 1
+3519, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3648, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3748, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7288, 8159, 1, "OK", 5, 34, 6, 6, 3, 3, 2, 0
+3234, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3466, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 8281, 1, "OK", 9, 155, 85, 85, 28, 57, 18, 0
+6178, 6226, 1, "OK", 2, 2, 5, 1, 1, 0, 1, 4
+6482, 6530, 1, "OK", 2, 2, 5, 1, 1, 0, 1, 4
+7338, 8159, 1, "OK", 3, 32, 6, 6, 3, 3, 2, 0
+3895, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6670, 6850, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstZ double[] zArr", 0, 0, 10, 2, 2, 0, 2, 4
+3698, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3798, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3256, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3519, 8281, 1, "OK", 2, 169, 85, 85, 28, 57, 18, 0
+3648, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7607, 8020, 1, "OK", 2, 15, 5, 3, 2, 1, 2, 1
+4065, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+3466, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3748, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3698, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3256, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7558, 8020, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String serieName double[][] seriesT", 0, 0, 5, 3, 2, 1, 2, 1
+3256, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3357, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3648, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7288, 8202, 1, "OK", 5, 36, 6, 6, 3, 3, 2, 0
+3582, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6737, 6850, 1, "OK", 2, 6, 10, 2, 2, 0, 2, 4
+3798, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6178, 6257, 1, "OK", 4, 3, 5, 1, 1, 0, 1, 4
+3748, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6670, 6882, 1, "OK", 4, 10, 10, 2, 2, 0, 2, 4
+3623, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3234, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3967, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+3698, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7338, 8202, 1, "OK", 3, 34, 6, 6, 3, 3, 2, 0
+3256, 8281, 1, "OK", 0, 176, 85, 85, 28, 57, 18, 0
+3798, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3895, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3673, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+5952, 6116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin double[] xArr", 0, 0, 5, 1, 1, 0, 1, 4
+5827, 5898, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 4
+3748, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6482, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+4017, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+3519, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6737, 6882, 1, "OK", 4, 8, 10, 2, 2, 0, 2, 4
+3357, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3466, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3723, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+5344, 5526, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+3798, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6354, 6475, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+7288, 8239, 1, "OK", 5, 37, 6, 6, 3, 3, 2, 0
+3648, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7357, 8159, 1, "OK", 2, 31, 6, 6, 3, 3, 2, 0
+3773, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3357, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6482, 6616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3623, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7338, 8239, 1, "OK", 3, 35, 6, 6, 3, 3, 2, 0
+4497, 7223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 46, 23, 23, 15, 2
+3519, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5696, 5898, 1, "OK", 2, 6, 6, 2, 2, 0, 1, 4
+3357, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3698, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7288, 8262, 1, "OK", 5, 38, 6, 6, 3, 3, 2, 0
+7473, 8159, 1, "OK", 2, 25, 6, 6, 3, 3, 2, 0
+3882, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5344, 5553, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+5912, 6889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY boolean firstZ double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 46, 19, 11, 8, 9, 3
+3673, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7722, 8128, 1, "OK", 5, 17, 5, 3, 2, 1, 2, 1
+3256, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3748, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3357, 8281, 1, "OK", 1, 174, 85, 85, 28, 57, 18, 0
+3519, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7338, 8262, 1, "OK", 3, 36, 6, 6, 3, 3, 2, 0
+5952, 6171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin double[] xArr", 0, 0, 10, 2, 2, 0, 2, 4
+3723, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7288, 8281, 1, "OK", 5, 39, 6, 6, 3, 3, 2, 0
+6020, 6116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+3882, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4217, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+3798, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7827, 7958, 1, "OK", 2, 7, 5, 3, 2, 1, 2, 1
+3623, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7607, 8128, 1, "OK", 3, 19, 5, 3, 2, 1, 2, 1
+7357, 8202, 1, "OK", 2, 33, 6, 6, 3, 3, 2, 0
+3519, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3773, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+5533, 6889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY boolean firstZ double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 56, 23, 14, 9, 11, 3
+3256, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6354, 6530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+7722, 8154, 1, "OK", 5, 18, 5, 3, 2, 1, 2, 1
+7338, 8281, 1, "OK", 3, 37, 6, 6, 3, 3, 2, 0
+3673, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7558, 8128, 1, "OK", 3, 21, 5, 3, 2, 1, 2, 1
+7473, 8202, 1, "OK", 2, 27, 6, 6, 3, 3, 2, 0
+3623, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3623, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3256, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3723, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7607, 8154, 1, "OK", 3, 20, 5, 3, 2, 1, 2, 1
+3673, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3544, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3673, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7357, 8239, 1, "OK", 2, 34, 6, 6, 3, 3, 2, 0
+5952, 6226, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin double[] xArr", 0, 0, 15, 3, 3, 0, 3, 4
+3623, 8281, 1, "OK", 2, 165, 85, 85, 28, 57, 18, 0
+3773, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3357, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3723, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7558, 8154, 1, "OK", 3, 22, 5, 3, 2, 1, 2, 1
+3256, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5533, 5905, 1, "OK", 2, 12, 10, 4, 3, 1, 2, 3
+6020, 6171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3519, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7473, 8239, 1, "OK", 2, 28, 6, 6, 3, 3, 2, 0
+3723, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3673, 8281, 1, "OK", 4, 163, 85, 85, 28, 57, 18, 0
+7827, 8020, 1, "OK", 4, 9, 5, 3, 2, 1, 2, 1
+3773, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7763, 7958, 1, "OK", 2, 9, 5, 3, 2, 1, 2, 1
+7357, 8262, 1, "OK", 2, 35, 6, 6, 3, 3, 2, 0
+3357, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3413, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3773, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+6354, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+7377, 8159, 1, "OK", 1, 29, 6, 6, 3, 3, 2, 0
+3723, 8281, 1, "OK", 6, 161, 85, 85, 28, 57, 18, 0
+5952, 6257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3544, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7473, 8262, 1, "OK", 2, 29, 6, 6, 3, 3, 2, 0
+3773, 8281, 1, "OK", 8, 159, 85, 85, 28, 57, 18, 0
+7357, 8281, 1, "OK", 2, 36, 6, 6, 3, 3, 2, 0
+3357, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6354, 6616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3256, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3623, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7473, 8281, 1, "OK", 2, 30, 6, 6, 3, 3, 2, 0
+6020, 6226, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3357, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6537, 6585, 1, "OK", 2, 2, 5, 1, 1, 0, 1, 4
+7682, 7958, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] xArr double[] yArr double[] zArr", 0, 0, 5, 3, 2, 1, 2, 1
+3413, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3673, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5750, 5898, 1, "OK", 1, 5, 6, 2, 2, 0, 1, 4
+3544, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7377, 8202, 1, "OK", 1, 31, 6, 6, 3, 3, 2, 0
+5421, 6889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 24, 15, 9, 12, 3
+3623, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7763, 8020, 1, "OK", 4, 11, 5, 3, 2, 1, 2, 1
+3723, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4667, 5185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i String serieName String tmpSerieName", 0, 0, 5, 2, 2, 0, 1, 3
+6810, 6850, 1, "OK", 1, 2, 5, 1, 1, 0, 1, 4
+3544, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7313, 8159, 1, "OK", 4, 33, 6, 6, 3, 3, 2, 0
+6020, 6257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3544, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3673, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3773, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6537, 6616, 1, "OK", 4, 3, 5, 1, 1, 0, 1, 4
+3623, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6713, 6803, 1, "OK", 4, 5, 5, 1, 1, 0, 1, 4
+3413, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3723, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7377, 8239, 1, "OK", 1, 32, 6, 6, 3, 3, 2, 0
+3357, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3234, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3544, 8281, 1, "OK", 2, 168, 85, 85, 28, 57, 18, 0
+3673, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3623, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6311, 6475, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin double[] yArr", 0, 0, 5, 1, 1, 0, 1, 4
+5421, 5905, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 5, 4, 1, 3, 3
+3895, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+5197, 7223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 42, 20, 22, 13, 2
+3773, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6810, 6882, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+3413, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4239, 7228, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 62, 24, 38, 16, 1
+7827, 8128, 1, "OK", 6, 13, 5, 3, 2, 1, 2, 1
+4619, 7223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 46, 23, 23, 15, 2
+7682, 8020, 1, "OK", 2, 14, 5, 3, 2, 1, 2, 1
+3723, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6123, 6171, 1, "OK", 2, 2, 5, 1, 1, 0, 1, 4
+3413, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3673, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7377, 8262, 1, "OK", 1, 33, 6, 6, 3, 3, 2, 0
+3466, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7313, 8202, 1, "OK", 4, 35, 6, 6, 3, 3, 2, 0
+4537, 7223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 46, 23, 23, 15, 2
+3773, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6998, 7217, 1, "OK", 2, 4, 5, 2, 2, 0, 1, 3
+4768, 5185, 1, "OK", 3, 13, 5, 2, 2, 0, 1, 3
+3648, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3723, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3413, 8281, 1, "OK", 2, 172, 85, 85, 28, 57, 18, 0
+3234, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+6713, 6850, 1, "OK", 4, 7, 10, 2, 2, 0, 2, 4
+7377, 8281, 1, "OK", 1, 34, 6, 6, 3, 3, 2, 0
+7827, 8154, 1, "OK", 6, 14, 5, 3, 2, 1, 2, 1
+3698, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3773, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3623, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3895, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3544, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7313, 8239, 1, "OK", 4, 36, 6, 6, 3, 3, 2, 0
+3748, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+6311, 6530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin double[] yArr", 0, 0, 10, 2, 2, 0, 2, 4
+3466, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3673, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6379, 6475, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+6630, 6889, 1, "OK", 5, 12, 11, 5, 3, 2, 2, 3
+6713, 6882, 1, "OK", 5, 9, 10, 2, 2, 0, 2, 4
+3648, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3798, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+6123, 6226, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3582, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7763, 8128, 1, "OK", 6, 15, 5, 3, 2, 1, 2, 1
+3234, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3723, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3544, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4423, 7223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 46, 23, 23, 15, 2
+7313, 8262, 1, "OK", 4, 37, 6, 6, 3, 3, 2, 0
+3698, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3895, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+5995, 6116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 5, 1, 1, 0, 1, 4
+3413, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3773, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6901, 7223, 1, "OK", 3, 7, 6, 4, 3, 1, 1, 2
+3234, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3544, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+4737, 5185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i String tmpSerieName", 0, 0, 5, 2, 2, 0, 1, 3
+3234, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+6123, 6257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3748, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3466, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3895, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7313, 8281, 1, "OK", 4, 38, 6, 6, 3, 3, 2, 0
+7763, 8154, 1, "OK", 6, 16, 5, 3, 2, 1, 2, 1
+6311, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin double[] yArr", 0, 0, 15, 3, 3, 0, 3, 4
+3648, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3895, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3413, 7335, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3798, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3544, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3234, 8281, 1, "OK", 0, 177, 85, 85, 28, 57, 18, 0
+3466, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6379, 6530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3466, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+7682, 8128, 1, "OK", 4, 18, 5, 3, 2, 1, 2, 1
+3698, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3519, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3895, 8281, 1, "OK", 10, 154, 85, 85, 28, 57, 18, 0
+3648, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3648, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3413, 7354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3582, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+4590, 7223, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 46, 23, 23, 15, 2
+5344, 6889, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 24, 15, 9, 12, 3
+5421, 5526, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+3748, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3466, 8281, 1, "OK", 2, 171, 85, 85, 28, 57, 18, 0
+3698, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5559, 6889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX boolean firstY boolean firstZ double xTempMax double xTempMin double yTempMax double yTempMin", 0, 0, 56, 23, 14, 9, 11, 3
+6311, 6616, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+5995, 6171, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstX double xTempMax double xTempMin", 0, 0, 10, 2, 2, 0, 2, 4
+3698, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3413, 7373, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7682, 8154, 1, "OK", 4, 19, 5, 3, 2, 1, 2, 1
+3648, 8281, 1, "OK", 3, 164, 85, 85, 28, 57, 18, 0
+3798, 8239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3582, 8281, 1, "OK", 2, 167, 85, 85, 28, 57, 18, 0
+3748, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+3882, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3748, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3544, 7419, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5421, 5553, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+3256, 8159, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3698, 8281, 1, "OK", 5, 162, 85, 85, 28, 57, 18, 0
+3234, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+6379, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean firstY double yTempMax double yTempMin", 0, 0, 15, 3, 3, 0, 3, 4
+3519, 8202, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+3798, 7233, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+7722, 7958, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] yArr double[] zArr", 0, 0, 5, 3, 2, 1, 2, 1
+3798, 8262, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 28, 57, 18, 0
+5344, 5905, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 5, 4, 1, 3, 3
+7904, 7952, 1, "OK", 3, 2, 3, 1, 1, 0, 1, 2
+3748, 8281, 1, "OK", 7, 160, 85, 85, 28, 57, 18, 0
+3895, 7310, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 79, 25, 54, 16, 0
+5559, 5905, 1, "OK", 2, 11, 10, 4, 3, 1, 2, 3

@@ -1,0 +1,82 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+28201, 29013, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies long[] hashArray int index", 0, 0, 9, 6, 3, 3, 3, 1
+29107, 29215, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+28099, 29095, 1, "OK", 0, 23, 10, 10, 4, 6, 3, 0
+28655, 28883, 1, "OK", 5, 5, 4, 1, 1, 0, 1, 3
+28452, 28902, 1, "OK", 4, 10, 7, 3, 2, 1, 2, 2
+28099, 30399, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 9, 0
+29272, 30388, 1, "OK", 1, 29, 18, 12, 6, 6, 6, 1
+30224, 30313, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+28386, 28917, 1, "OK", 3, 12, 9, 6, 3, 3, 3, 1
+29164, 30399, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 8, 12, 6, 0
+29463, 30347, 1, "OK", 2, 23, 16, 11, 5, 6, 5, 1
+28358, 29013, 1, "OK", 2, 16, 9, 6, 3, 3, 3, 1
+28201, 28917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies long[] hashArray int index", 0, 0, 9, 6, 3, 3, 3, 1
+28099, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 13, 18, 9, 0
+29107, 30399, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 8, 12, 6, 0
+28158, 29095, 1, "OK", 1, 22, 10, 10, 4, 6, 3, 0
+28268, 29013, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long[] hashArray int index", 0, 0, 9, 6, 3, 3, 3, 1
+30411, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+29164, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 9, 12, 6, 0
+29848, 30332, 1, "OK", 4, 12, 11, 5, 3, 2, 3, 2
+28158, 29215, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 5, 6, 3, 0
+29272, 29496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies short[] mapping", 0, 0, 2, 1, 1, 0, 1, 1
+29107, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 9, 12, 6, 0
+30411, 30568, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+29463, 30388, 1, "OK", 2, 24, 16, 11, 5, 6, 5, 1
+28655, 28813, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+29164, 30568, 1, "OK", 2, 42, 21, 21, 9, 12, 6, 0
+29576, 29828, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+29642, 29828, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+28386, 29084, 1, "OK", 3, 16, 9, 6, 3, 3, 3, 1
+30461, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+29272, 29387, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+29227, 30399, 1, "OK", 1, 31, 19, 19, 7, 12, 6, 0
+28729, 28813, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+29576, 30332, 1, "OK", 3, 20, 14, 6, 4, 2, 4, 2
+28358, 28917, 1, "OK", 2, 13, 9, 6, 3, 3, 3, 1
+29642, 30332, 1, "OK", 4, 18, 14, 6, 4, 2, 4, 2
+30461, 30568, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+29164, 30451, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 8, 12, 6, 0
+28268, 28917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long[] hashArray int index", 0, 0, 9, 6, 3, 3, 3, 1
+29227, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 8, 12, 6, 0
+29510, 30347, 1, "OK", 2, 22, 16, 11, 5, 6, 5, 1
+28099, 30568, 1, "OK", 1, 67, 31, 31, 13, 18, 9, 0
+28582, 28902, 1, "OK", 4, 7, 7, 3, 2, 1, 2, 2
+28099, 29154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies int pos", 0, 0, 10, 10, 4, 6, 3, 0
+28386, 28964, 1, "OK", 3, 13, 9, 6, 3, 3, 3, 1
+28516, 28902, 1, "OK", 4, 9, 7, 3, 2, 1, 2, 2
+28158, 30399, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 9, 0
+29227, 30568, 1, "OK", 2, 38, 20, 20, 8, 12, 6, 0
+28201, 28964, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies long[] hashArray int index", 0, 0, 9, 6, 3, 3, 3, 1
+29995, 30313, 0, "Compilation unit does not compile after method extraction.", 4, 9, 8, 2, 2, 0, 2, 3
+28358, 28964, 1, "OK", 2, 14, 9, 6, 3, 3, 3, 1
+29107, 30568, 1, "OK", 2, 43, 21, 21, 9, 12, 6, 0
+28201, 29084, 1, "OK", 0, 20, 9, 6, 3, 3, 3, 1
+28358, 29084, 1, "OK", 2, 17, 9, 6, 3, 3, 3, 1
+28099, 30451, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 9, 0
+28158, 30544, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 13, 18, 9, 0
+29403, 30347, 1, "OK", 1, 24, 16, 11, 5, 6, 5, 1
+29751, 29828, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+29510, 30388, 1, "OK", 2, 23, 16, 11, 5, 6, 5, 1
+28158, 30568, 1, "OK", 2, 66, 31, 31, 13, 18, 9, 0
+29227, 30451, 1, "OK", 2, 33, 19, 19, 7, 12, 6, 0
+29921, 30313, 0, "Compilation unit does not compile after method extraction.", 5, 10, 8, 2, 2, 0, 2, 3
+28158, 29154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies int pos", 0, 0, 10, 10, 4, 6, 3, 0
+29751, 30332, 1, "OK", 5, 16, 14, 6, 4, 2, 4, 2
+29107, 30451, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 8, 12, 6, 0
+28099, 29215, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 5, 6, 3, 0
+29921, 30079, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+28268, 28964, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long[] hashArray int index", 0, 0, 9, 6, 3, 3, 3, 1
+29403, 30388, 1, "OK", 1, 25, 16, 11, 5, 6, 5, 1
+29921, 30202, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+28729, 28883, 1, "OK", 4, 4, 4, 1, 1, 0, 1, 3
+28386, 29013, 1, "OK", 3, 15, 9, 6, 3, 3, 3, 1
+29164, 29215, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+29272, 30347, 1, "OK", 1, 28, 18, 12, 6, 6, 6, 1
+28158, 30451, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 12, 18, 9, 0
+29995, 30079, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+28268, 29084, 1, "OK", 1, 18, 9, 6, 3, 3, 3, 1
+29272, 29449, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PropertyNamingStrategy[] namingStrategies short[] mapping", 0, 0, 2, 1, 1, 0, 1, 1
+30103, 30313, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+29995, 30202, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3

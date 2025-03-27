@@ -1,0 +1,294 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+1868, 11788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 151, 151, 81, 70, 38, 0
+2723, 11911, 1, "OK", 8, 200, 141, 141, 75, 66, 35, 0
+5466, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 83, 62, 44, 18, 21, 1
+6728, 7051, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 3, 1, 1, 2
+10725, 11665, 1, "OK", 6, 16, 11, 8, 5, 3, 3, 1
+3277, 3447, 1, "OK", 3, 2, 2, 2, 2, 0, 0, 1
+3094, 11679, 1, "OK", 9, 178, 138, 138, 72, 66, 35, 0
+3786, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 121, 90, 62, 28, 31, 1
+5742, 5878, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+1868, 2583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+4646, 7091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 51, 39, 24, 15, 12, 1
+7125, 9091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Object entryKey", 0, 0, 26, 20, 17, 3, 6, 1
+5466, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 65, 49, 35, 14, 16, 1
+10508, 10707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter Class<?> clazz", 0, 0, 2, 1, 1, 0, 1, 1
+5466, 7786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 43, 33, 22, 11, 10, 1
+2973, 3665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first", 0, 0, 5, 5, 4, 1, 1, 0
+3837, 7091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 68, 52, 32, 20, 16, 1
+10560, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter", 0, 0, 13, 9, 6, 3, 4, 1
+4750, 5414, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+9338, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 33, 23, 16, 7, 10, 1
+11921, 11976, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+9150, 9302, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+7125, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 64, 46, 35, 11, 18, 1
+10934, 11344, 1, "OK", 2, 7, 7, 3, 2, 1, 2, 2
+5466, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 83, 62, 44, 18, 21, 1
+4668, 5414, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+5466, 6273, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+7803, 9091, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Object entryKey", 0, 0, 17, 13, 11, 2, 4, 1
+1915, 11911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 153, 153, 83, 70, 38, 0
+4646, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 104, 77, 54, 23, 27, 1
+2930, 11679, 1, "OK", 6, 185, 138, 138, 72, 66, 35, 0
+2774, 11911, 1, "OK", 9, 199, 141, 141, 75, 66, 35, 0
+7803, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 55, 39, 29, 10, 16, 1
+3837, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 121, 90, 62, 28, 31, 1
+1868, 2114, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+1915, 2713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+3736, 4629, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+8498, 9073, 1, "OK", 5, 9, 8, 6, 5, 1, 2, 1
+9392, 9520, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+2593, 11911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 142, 142, 76, 66, 35, 0
+2723, 11976, 1, "OK", 8, 204, 142, 142, 76, 66, 35, 0
+6560, 6696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+7825, 8440, 1, "OK", 4, 9, 9, 7, 6, 1, 2, 1
+3786, 4629, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+10385, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+10560, 10707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter", 0, 0, 2, 1, 1, 0, 1, 1
+2593, 2713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9109, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 38, 26, 18, 8, 12, 1
+7125, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 53, 38, 30, 8, 15, 1
+11760, 11911, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+9338, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 15, 11, 4, 7, 1
+2049, 11911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 152, 152, 82, 70, 38, 0
+6290, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 68, 50, 37, 13, 18, 1
+1915, 11976, 1, "OK", 7, 230, 154, 154, 84, 70, 38, 0
+10353, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+2774, 11976, 1, "OK", 9, 203, 142, 142, 76, 66, 35, 0
+1915, 2765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+2005, 11750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 150, 150, 80, 70, 38, 0
+2049, 2713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+3837, 4629, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+3165, 3447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeKey boolean containsKey", 0, 0, 2, 2, 2, 0, 0, 1
+6290, 8458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 27, 20, 7, 8, 1
+7803, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 31, 24, 7, 13, 1
+11004, 11322, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+10385, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+6082, 6207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+1868, 11911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 153, 153, 83, 70, 38, 0
+10934, 11437, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type valueType JavaBeanSerializer javaBeanSerializer", 0, 0, 7, 3, 2, 1, 2, 2
+3059, 3665, 1, "OK", 4, 13, 5, 5, 4, 1, 1, 0
+8476, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 31, 22, 16, 6, 9, 1
+8158, 8418, 1, "OK", 4, 4, 2, 2, 2, 0, 0, 2
+2219, 2573, 1, "OK", 1, 11, 8, 5, 4, 1, 3, 1
+4368, 4563, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+7486, 7746, 1, "OK", 4, 4, 2, 2, 2, 0, 0, 2
+2593, 11976, 1, "OK", 8, 209, 143, 143, 77, 66, 35, 0
+3736, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 117, 88, 60, 28, 29, 1
+8476, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 9, 7, 2, 4, 1
+3225, 3651, 1, "OK", 5, 8, 4, 3, 3, 0, 1, 1
+2593, 2765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+1868, 2713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+2335, 2573, 1, "OK", 1, 7, 6, 4, 3, 1, 2, 1
+3736, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 99, 75, 51, 24, 24, 1
+3736, 7786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 77, 59, 38, 21, 18, 1
+3786, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 117, 88, 60, 28, 29, 1
+2005, 11788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 150, 150, 80, 70, 38, 0
+9109, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 27, 18, 13, 5, 9, 1
+10353, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+11760, 11976, 1, "OK", 4, 8, 3, 3, 3, 0, 0, 0
+3786, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 99, 75, 51, 24, 24, 1
+6290, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 68, 50, 37, 13, 18, 1
+3786, 7786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 77, 59, 38, 21, 18, 1
+8476, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 31, 22, 16, 6, 9, 1
+7222, 7768, 1, "OK", 5, 8, 9, 7, 6, 1, 2, 1
+7894, 8440, 1, "OK", 5, 8, 9, 7, 6, 1, 2, 1
+2853, 2916, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+2005, 2583, 1, "OK", 3, 15, 10, 10, 6, 4, 3, 0
+5466, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 85, 63, 45, 18, 22, 1
+4269, 4589, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 3, 1, 1, 2
+9445, 9520, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+2049, 11976, 1, "OK", 8, 224, 153, 153, 83, 70, 38, 0
+3736, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 117, 88, 60, 28, 29, 1
+3736, 6273, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 51, 39, 24, 15, 12, 1
+2049, 2765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+3011, 3665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ObjectSerializer preWriter boolean first", 0, 0, 5, 5, 4, 1, 1, 0
+1915, 2826, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+5466, 8458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 52, 40, 28, 12, 12, 1
+3786, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 117, 88, 60, 28, 29, 1
+4646, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 100, 75, 52, 23, 25, 1
+3786, 6273, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 51, 39, 24, 15, 12, 1
+4022, 4589, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 8, 6, 2, 3, 2
+1868, 11976, 1, "OK", 6, 232, 154, 154, 84, 70, 38, 0
+2123, 11750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 150, 150, 80, 70, 38, 0
+3094, 3665, 1, "OK", 5, 11, 5, 5, 4, 1, 1, 0
+6900, 7025, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+4646, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 82, 62, 43, 19, 20, 1
+1868, 2765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+3837, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 117, 88, 60, 28, 29, 1
+5488, 6255, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+4646, 7786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 60, 46, 30, 16, 14, 1
+2853, 2959, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+8718, 9051, 1, "OK", 5, 5, 4, 2, 2, 0, 1, 2
+2593, 2826, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9392, 9662, 1, "OK", 4, 9, 6, 2, 2, 0, 2, 2
+3837, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 99, 75, 51, 24, 24, 1
+3837, 7786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 77, 59, 38, 21, 18, 1
+11797, 11911, 1, "OK", 3, 3, 2, 2, 2, 0, 0, 0
+3277, 3651, 1, "OK", 6, 7, 4, 3, 3, 0, 1, 1
+5466, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 85, 63, 45, 18, 22, 1
+4646, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 100, 75, 52, 23, 25, 1
+2853, 11679, 1, "OK", 7, 189, 139, 139, 73, 66, 35, 0
+10934, 11540, 1, "OK", 7, 10, 7, 3, 2, 1, 2, 2
+4646, 6273, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 16, 10, 8, 1
+3679, 11679, 1, "OK", 9, 166, 133, 133, 68, 65, 34, 0
+2930, 3665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first", 0, 0, 5, 5, 4, 1, 1, 0
+3837, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 117, 88, 60, 28, 29, 1
+9338, 10335, 1, "OK", 5, 26, 18, 13, 9, 4, 5, 1
+2123, 11788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 150, 150, 80, 70, 38, 0
+10891, 11344, 1, "OK", 1, 8, 7, 3, 2, 1, 2, 2
+3837, 6273, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 51, 39, 24, 15, 12, 1
+10385, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter Class<?> clazz", 0, 0, 15, 10, 7, 3, 5, 1
+5171, 5366, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+7125, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 49, 36, 28, 8, 13, 1
+2049, 2826, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+2123, 2583, 1, "OK", 4, 13, 10, 10, 6, 4, 3, 0
+6290, 9091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 43, 33, 25, 8, 10, 1
+2853, 2998, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+2835, 11750, 1, "OK", 8, 193, 139, 139, 73, 66, 35, 0
+7125, 7786, 1, "OK", 4, 11, 9, 7, 6, 1, 2, 1
+7125, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 31, 23, 19, 4, 8, 1
+9542, 9662, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+1868, 2826, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+9338, 10367, 1, "OK", 5, 28, 18, 13, 9, 4, 5, 1
+6290, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 81, 59, 43, 16, 22, 1
+5072, 5392, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 3, 1, 1, 2
+10353, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 15, 10, 7, 3, 5, 1
+7803, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 29, 22, 7, 11, 1
+9392, 9713, 1, "OK", 4, 10, 6, 2, 2, 0, 2, 2
+7125, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 49, 36, 28, 8, 13, 1
+7803, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 16, 13, 3, 6, 1
+3859, 4611, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+11797, 11976, 1, "OK", 4, 7, 3, 3, 3, 0, 0, 0
+2005, 11911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 152, 152, 82, 70, 38, 0
+4825, 5392, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 8, 6, 2, 3, 2
+2835, 11788, 1, "OK", 8, 195, 139, 139, 73, 66, 35, 0
+8476, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 33, 23, 17, 6, 10, 1
+2853, 3045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter", 0, 0, 1, 1, 1, 0, 0, 0
+6290, 7091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+3736, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 119, 89, 61, 28, 30, 1
+2005, 2713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+7803, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 40, 29, 22, 7, 11, 1
+10385, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+2423, 2559, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+5466, 9091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 60, 46, 33, 13, 14, 1
+9542, 9713, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+9109, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 23, 16, 11, 5, 7, 1
+3786, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 119, 89, 61, 28, 30, 1
+9109, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 2, 1, 2, 1
+3736, 8458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 86, 66, 44, 22, 20, 1
+5466, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 98, 72, 51, 21, 26, 1
+9445, 9662, 1, "OK", 3, 7, 6, 2, 2, 0, 2, 2
+3786, 8458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 86, 66, 44, 22, 20, 1
+6290, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 70, 51, 38, 13, 19, 1
+4104, 4237, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+2853, 3080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+3165, 3651, 1, "OK", 5, 9, 4, 3, 3, 0, 1, 1
+10353, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+10891, 11437, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type valueType JavaBeanSerializer javaBeanSerializer", 0, 0, 7, 3, 2, 1, 2, 2
+5575, 6255, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+9109, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 23, 16, 11, 5, 7, 1
+2005, 11976, 1, "OK", 7, 225, 153, 153, 83, 70, 38, 0
+3736, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 119, 89, 61, 28, 30, 1
+4646, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 102, 76, 53, 23, 26, 1
+8476, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 33, 23, 17, 6, 10, 1
+2005, 2765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+5466, 7091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 16, 10, 8, 1
+4441, 4563, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+2123, 11911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 152, 152, 82, 70, 38, 0
+3837, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 119, 89, 61, 28, 30, 1
+3736, 5432, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 16, 10, 8, 1
+2973, 11679, 1, "OK", 6, 183, 138, 138, 72, 66, 35, 0
+3786, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 119, 89, 61, 28, 30, 1
+2723, 11750, 1, "OK", 8, 195, 139, 139, 73, 66, 35, 0
+4646, 8458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 69, 53, 36, 17, 16, 1
+9445, 9713, 1, "OK", 4, 8, 6, 2, 2, 0, 2, 2
+9856, 10280, 1, "OK", 4, 7, 6, 4, 4, 0, 1, 2
+2123, 2713, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+3786, 5432, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 16, 10, 8, 1
+3837, 8458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 86, 66, 44, 22, 20, 1
+1915, 1995, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5466, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 87, 64, 46, 18, 23, 1
+5660, 6233, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 8, 6, 2, 3, 2
+3464, 3651, 1, "OK", 5, 5, 2, 1, 1, 0, 1, 1
+11194, 11322, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+7125, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 51, 37, 29, 8, 14, 1
+9338, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 14, 10, 4, 6, 1
+2219, 2321, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+6393, 7073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+9856, 10317, 1, "OK", 4, 9, 6, 4, 4, 0, 1, 2
+2723, 11788, 1, "OK", 8, 197, 139, 139, 73, 66, 35, 0
+4646, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 102, 76, 53, 23, 26, 1
+2853, 3665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first", 0, 0, 6, 6, 5, 1, 1, 0
+1915, 11750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 151, 151, 81, 70, 38, 0
+7147, 7768, 1, "OK", 4, 9, 9, 7, 6, 1, 2, 1
+2774, 11750, 1, "OK", 9, 194, 139, 139, 73, 66, 35, 0
+4646, 5432, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+3837, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 119, 89, 61, 28, 30, 1
+2835, 11911, 1, "OK", 8, 198, 141, 141, 75, 66, 35, 0
+7125, 8458, 1, "OK", 4, 22, 18, 14, 12, 2, 4, 1
+2005, 2826, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+3837, 5432, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 16, 10, 8, 1
+1915, 2040, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2123, 11976, 1, "OK", 9, 223, 153, 153, 83, 70, 38, 0
+2123, 2765, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+7803, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 42, 30, 23, 7, 12, 1
+4907, 5040, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+6009, 6207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+2593, 11750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 140, 140, 74, 66, 35, 0
+8476, 9091, 1, "OK", 5, 11, 8, 6, 5, 1, 2, 1
+3736, 9091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 94, 72, 49, 23, 22, 1
+9759, 10280, 1, "OK", 5, 11, 9, 5, 5, 0, 2, 2
+10891, 11540, 1, "OK", 6, 11, 7, 3, 2, 1, 2, 2
+9338, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 20, 14, 10, 4, 6, 1
+8476, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 46, 32, 23, 9, 14, 1
+1915, 11788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 151, 151, 81, 70, 38, 0
+7803, 8458, 1, "OK", 4, 11, 9, 7, 6, 1, 2, 1
+2774, 11788, 1, "OK", 9, 196, 139, 139, 73, 66, 35, 0
+3947, 4611, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+7125, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 51, 37, 29, 8, 14, 1
+5244, 5366, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+6312, 7073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 13, 8, 5, 4, 1
+3736, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 132, 98, 67, 31, 34, 1
+3786, 9091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 94, 72, 49, 23, 22, 1
+1915, 2583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+6478, 7051, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 8, 6, 2, 3, 2
+3225, 3447, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 1
+1868, 1995, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9109, 10490, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 12, 5, 8, 1
+10508, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter Class<?> clazz", 0, 0, 13, 9, 6, 3, 4, 1
+5910, 6233, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 3, 1, 1, 2
+2049, 11750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 150, 150, 80, 70, 38, 0
+8825, 9051, 1, "OK", 6, 4, 3, 1, 1, 0, 1, 2
+11097, 11322, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+3786, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 132, 98, 67, 31, 34, 1
+9759, 10317, 1, "OK", 5, 13, 9, 5, 5, 0, 2, 2
+3059, 11679, 1, "OK", 8, 180, 138, 138, 72, 66, 35, 0
+2593, 11788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 140, 140, 74, 66, 35, 0
+6290, 10335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 66, 49, 36, 13, 17, 1
+6290, 9320, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 48, 36, 27, 9, 12, 1
+2835, 11976, 1, "OK", 8, 202, 142, 142, 76, 66, 35, 0
+7803, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 42, 30, 23, 7, 12, 1
+8718, 8800, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 2
+1868, 11750, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 151, 151, 81, 70, 38, 0
+6290, 7786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 26, 20, 14, 6, 6, 1
+4646, 9091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 77, 59, 41, 18, 18, 1
+3736, 7091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 68, 52, 32, 20, 16, 1
+2123, 2826, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 7, 4, 3, 0
+7299, 7746, 1, "OK", 4, 6, 6, 4, 4, 0, 1, 2
+7971, 8418, 1, "OK", 4, 6, 6, 4, 4, 0, 1, 2
+6827, 7025, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+3837, 9091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 94, 72, 49, 23, 22, 1
+1915, 2114, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+9759, 9834, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+3786, 7091, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 68, 52, 32, 20, 16, 1
+1868, 2040, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2049, 11788, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 150, 150, 80, 70, 38, 0
+6290, 10367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 66, 49, 36, 13, 17, 1
+4646, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 115, 85, 59, 26, 30, 1
+2049, 2583, 1, "OK", 3, 14, 10, 10, 6, 4, 3, 0
+3837, 11665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> preClazz ObjectSerializer preWriter boolean first Class<?> clazz", 0, 0, 132, 98, 67, 31, 34, 1
+3011, 11679, 1, "OK", 7, 182, 138, 138, 72, 66, 35, 0
+8476, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 35, 24, 18, 6, 11, 1
+3736, 10707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 121, 90, 62, 28, 31, 1
+9109, 10542, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 12, 5, 8, 1

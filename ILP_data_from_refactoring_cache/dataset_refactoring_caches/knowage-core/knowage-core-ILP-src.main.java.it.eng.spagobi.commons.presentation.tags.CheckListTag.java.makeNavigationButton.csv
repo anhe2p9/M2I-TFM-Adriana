@@ -1,0 +1,1225 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+18022, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+22486, 22879, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+22461, 23653, 1, "OK", 5, 19, 12, 8, 8, 0, 4, 1
+21059, 24107, 1, "OK", 8, 45, 20, 13, 11, 2, 7, 1
+16172, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+16767, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+16434, 24115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 31, 31, 22, 9, 7, 0
+16767, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 3, 3, 3, 0, 0, 0
+16351, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+17977, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16434, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+23135, 23261, 1, "OK", 1, 3, 3, 2, 2, 0, 1, 1
+17737, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21735, 23653, 1, "OK", 6, 31, 20, 13, 11, 2, 7, 1
+18082, 24256, 1, "OK", 4, 105, 27, 27, 18, 9, 7, 0
+21153, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+17142, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+16790, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+16351, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 4, 4, 4, 0, 0, 0
+16172, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+18022, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17039, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+20809, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+21972, 22452, 1, "OK", 3, 7, 6, 2, 2, 0, 2, 2
+17473, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21537, 23653, 1, "OK", 9, 34, 20, 13, 11, 2, 7, 1
+22461, 23701, 1, "OK", 5, 20, 12, 8, 8, 0, 4, 1
+16434, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16767, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+17072, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 2, 2, 2, 0, 0, 0
+21444, 22457, 1, "OK", 4, 17, 8, 5, 3, 2, 3, 1
+17936, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 24115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 32, 32, 23, 9, 7, 0
+16412, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 4, 4, 4, 0, 0, 0
+16412, 16675, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+20867, 23981, 1, "OK", 5, 45, 20, 13, 11, 2, 7, 1
+20758, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+21444, 22482, 1, "OK", 4, 18, 8, 5, 3, 2, 3, 1
+21735, 23701, 1, "OK", 6, 32, 20, 13, 11, 2, 7, 1
+18022, 24115, 1, "OK", 5, 103, 27, 27, 18, 9, 7, 0
+16679, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+16351, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+21687, 23131, 1, "OK", 5, 24, 14, 9, 7, 2, 5, 1
+16767, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17039, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+20961, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+21832, 22751, 1, "OK", 2, 16, 11, 7, 5, 2, 4, 1
+21349, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+22625, 22751, 1, "OK", 1, 3, 3, 2, 2, 0, 1, 1
+18082, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22534, 23521, 1, "OK", 4, 16, 12, 8, 8, 0, 4, 1
+17142, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 1, 1, 1, 0, 0, 0
+17109, 17608, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+16767, 24115, 1, "OK", 2, 141, 30, 30, 21, 9, 7, 0
+21537, 23701, 1, "OK", 9, 35, 20, 13, 11, 2, 7, 1
+16434, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+20401, 24115, 1, "OK", 8, 58, 22, 22, 13, 9, 7, 0
+23393, 23521, 1, "OK", 1, 3, 3, 2, 2, 0, 1, 1
+17072, 24916, 1, "OK", 3, 142, 31, 31, 22, 9, 7, 0
+17782, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16412, 24916, 1, "OK", 1, 165, 33, 33, 24, 9, 7, 0
+18394, 24916, 1, "OK", 5, 108, 29, 29, 20, 9, 7, 0
+18290, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21444, 22530, 1, "OK", 4, 19, 8, 5, 3, 2, 3, 1
+17386, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+22486, 23007, 1, "OK", 2, 9, 6, 4, 4, 0, 2, 1
+16351, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 4, 4, 4, 0, 0, 0
+17072, 24953, 1, "OK", 3, 143, 31, 31, 22, 9, 7, 0
+17696, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 24256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 31, 31, 22, 9, 7, 0
+18337, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17039, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 24060, 1, "OK", 6, 46, 20, 13, 11, 2, 7, 1
+23135, 23389, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+16679, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16412, 24953, 1, "OK", 1, 166, 33, 33, 24, 9, 7, 0
+22883, 23007, 1, "OK", 1, 3, 3, 2, 2, 0, 1, 1
+16434, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 4, 4, 4, 0, 0, 0
+21153, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+20139, 24115, 1, "OK", 6, 61, 22, 22, 13, 9, 7, 0
+17109, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17072, 24987, 1, "OK", 3, 144, 31, 31, 22, 9, 7, 0
+17142, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 1, 1, 1, 0, 0, 0
+18726, 24916, 1, "OK", 8, 103, 29, 29, 20, 9, 7, 0
+16412, 16764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+18290, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18394, 24953, 1, "OK", 5, 109, 29, 29, 20, 9, 7, 0
+17895, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 16787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+18082, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16258, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+17696, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18181, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+20758, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelContain String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+20867, 24107, 1, "OK", 6, 47, 20, 13, 11, 2, 7, 1
+17895, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 9, 9, 9, 0, 0, 0
+16679, 24916, 1, "OK", 1, 155, 32, 32, 23, 9, 7, 0
+22461, 23849, 1, "OK", 6, 21, 12, 8, 8, 0, 4, 1
+16412, 24987, 1, "OK", 1, 167, 33, 33, 24, 9, 7, 0
+16767, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17039, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+18290, 24115, 1, "OK", 5, 97, 27, 27, 18, 9, 7, 0
+18394, 24987, 1, "OK", 5, 110, 29, 29, 20, 9, 7, 0
+20809, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+18337, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21687, 23261, 1, "OK", 5, 27, 17, 11, 9, 2, 6, 1
+21444, 22621, 1, "OK", 4, 20, 8, 5, 3, 2, 3, 1
+21832, 22879, 1, "OK", 3, 17, 11, 7, 5, 2, 4, 1
+18022, 24256, 1, "OK", 5, 106, 27, 27, 18, 9, 7, 0
+22625, 22879, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+17142, 24916, 1, "OK", 4, 139, 30, 30, 21, 9, 7, 0
+20961, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+21349, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+17072, 25023, 1, "OK", 3, 145, 31, 31, 22, 9, 7, 0
+16258, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17696, 24115, 1, "OK", 5, 111, 27, 27, 18, 9, 7, 0
+16172, 24256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 32, 32, 23, 9, 7, 0
+18726, 24953, 1, "OK", 8, 104, 29, 29, 20, 9, 7, 0
+16172, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 5, 5, 5, 0, 0, 0
+21537, 23849, 1, "OK", 10, 36, 20, 13, 11, 2, 7, 1
+17737, 24916, 1, "OK", 5, 123, 29, 29, 20, 9, 7, 0
+18447, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17895, 24115, 1, "OK", 4, 106, 27, 27, 18, 9, 7, 0
+21735, 23849, 1, "OK", 7, 33, 20, 13, 11, 2, 7, 1
+16767, 24256, 1, "OK", 2, 144, 30, 30, 21, 9, 7, 0
+23265, 23521, 1, "OK", 3, 4, 3, 2, 2, 0, 1, 1
+22534, 23653, 1, "OK", 5, 17, 12, 8, 8, 0, 4, 1
+16412, 25023, 1, "OK", 1, 168, 33, 33, 24, 9, 7, 0
+16351, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 4, 4, 4, 0, 0, 0
+16351, 16675, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+23393, 23653, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+18394, 25023, 1, "OK", 5, 111, 29, 29, 20, 9, 7, 0
+17039, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+17109, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+16767, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 3, 3, 3, 0, 0, 0
+17039, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl", 0, 0, 2, 2, 2, 0, 0, 0
+20401, 24256, 1, "OK", 8, 61, 22, 22, 13, 9, 7, 0
+16679, 24953, 1, "OK", 1, 156, 32, 32, 23, 9, 7, 0
+17473, 24916, 1, "OK", 4, 129, 29, 29, 20, 9, 7, 0
+21252, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+18726, 24987, 1, "OK", 8, 105, 29, 29, 20, 9, 7, 0
+16434, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 4, 4, 4, 0, 0, 0
+22119, 22223, 1, "OK", 2, 1, 3, 1, 1, 0, 1, 2
+18082, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21252, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17142, 24953, 1, "OK", 4, 140, 30, 30, 21, 9, 7, 0
+17655, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17936, 24916, 1, "OK", 5, 118, 29, 29, 20, 9, 7, 0
+22486, 23131, 1, "OK", 3, 10, 6, 4, 4, 0, 2, 1
+23011, 23261, 1, "OK", 3, 4, 3, 2, 2, 0, 1, 1
+17473, 24953, 1, "OK", 4, 130, 29, 29, 20, 9, 7, 0
+18022, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22883, 23131, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+16172, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 10, 10, 10, 0, 0, 0
+18726, 25023, 1, "OK", 8, 106, 29, 29, 20, 9, 7, 0
+22755, 23007, 1, "OK", 3, 4, 3, 2, 2, 0, 1, 1
+17039, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+17737, 24953, 1, "OK", 5, 124, 29, 29, 20, 9, 7, 0
+22534, 23701, 1, "OK", 5, 18, 12, 8, 8, 0, 4, 1
+16679, 24987, 1, "OK", 1, 157, 32, 32, 23, 9, 7, 0
+16351, 24916, 1, "OK", 1, 167, 33, 33, 24, 9, 7, 0
+23393, 23701, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+18540, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 9, 9, 9, 0, 0, 0
+16790, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+17936, 24953, 1, "OK", 5, 119, 29, 29, 20, 9, 7, 0
+23135, 23521, 1, "OK", 2, 7, 6, 4, 4, 0, 2, 1
+16767, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 8, 8, 8, 0, 0, 0
+22119, 22249, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelColumn String selected", 0, 0, 3, 1, 1, 0, 1, 2
+21153, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+17039, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+17142, 24987, 1, "OK", 4, 141, 30, 30, 21, 9, 7, 0
+16679, 25023, 1, "OK", 1, 158, 32, 32, 23, 9, 7, 0
+16351, 24953, 1, "OK", 1, 168, 33, 33, 24, 9, 7, 0
+16434, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 4, 4, 4, 0, 0, 0
+17109, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17473, 24987, 1, "OK", 4, 131, 29, 29, 20, 9, 7, 0
+21252, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+16351, 16764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+17737, 24987, 1, "OK", 5, 125, 29, 29, 20, 9, 7, 0
+20139, 24256, 1, "OK", 6, 64, 22, 22, 13, 9, 7, 0
+16258, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+16790, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+17142, 25023, 1, "OK", 4, 142, 30, 30, 21, 9, 7, 0
+17936, 24987, 1, "OK", 5, 120, 29, 29, 20, 9, 7, 0
+18290, 24256, 1, "OK", 5, 100, 27, 27, 18, 9, 7, 0
+20758, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelContain String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+16172, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 24115, 1, "OK", 2, 130, 29, 29, 20, 9, 7, 0
+21687, 23389, 1, "OK", 6, 28, 17, 11, 9, 2, 6, 1
+20809, 23981, 1, "OK", 4, 47, 20, 13, 11, 2, 7, 1
+20317, 24916, 1, "OK", 8, 72, 24, 24, 15, 9, 7, 0
+21832, 23007, 1, "OK", 3, 20, 14, 9, 7, 2, 5, 1
+18540, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 3, 3, 3, 0, 0, 0
+22625, 23007, 1, "OK", 2, 7, 6, 4, 4, 0, 2, 1
+16351, 24987, 1, "OK", 1, 169, 33, 33, 24, 9, 7, 0
+21444, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+17473, 25023, 1, "OK", 4, 132, 29, 29, 20, 9, 7, 0
+20961, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+22461, 23981, 1, "OK", 8, 22, 12, 8, 8, 0, 4, 1
+16351, 16787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+17737, 25023, 1, "OK", 5, 126, 29, 29, 20, 9, 7, 0
+16434, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 4, 4, 4, 0, 0, 0
+21586, 22457, 1, "OK", 4, 14, 8, 5, 3, 2, 3, 1
+17109, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl", 0, 0, 1, 1, 1, 0, 0, 0
+21537, 23981, 1, "OK", 11, 37, 20, 13, 11, 2, 7, 1
+16172, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 10, 10, 10, 0, 0, 0
+17696, 24256, 1, "OK", 5, 114, 27, 27, 18, 9, 7, 0
+21349, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+21735, 23981, 1, "OK", 9, 34, 20, 13, 11, 2, 7, 1
+23265, 23653, 1, "OK", 4, 5, 3, 2, 2, 0, 1, 1
+17109, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+17895, 24256, 1, "OK", 4, 109, 27, 27, 18, 9, 7, 0
+16767, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 8, 8, 8, 0, 0, 0
+16434, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 9, 9, 9, 0, 0, 0
+22119, 22341, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelColumn String selected", 0, 0, 6, 2, 2, 0, 2, 2
+20317, 24953, 1, "OK", 8, 73, 24, 24, 15, 9, 7, 0
+17936, 25023, 1, "OK", 5, 121, 29, 29, 20, 9, 7, 0
+17039, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+18022, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22486, 23261, 1, "OK", 3, 13, 9, 6, 6, 0, 3, 1
+17506, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 3, 3, 3, 0, 0, 0
+18290, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16351, 25023, 1, "OK", 1, 170, 33, 33, 24, 9, 7, 0
+21586, 22482, 1, "OK", 4, 15, 8, 5, 3, 2, 3, 1
+21252, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+22883, 23261, 1, "OK", 2, 7, 6, 4, 4, 0, 2, 1
+23011, 23389, 1, "OK", 4, 5, 3, 2, 2, 0, 1, 1
+17109, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+22755, 23131, 1, "OK", 4, 5, 3, 2, 2, 0, 1, 1
+20317, 24987, 1, "OK", 8, 74, 24, 24, 15, 9, 7, 0
+17109, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+16258, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+21349, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+18337, 24916, 1, "OK", 5, 109, 29, 29, 20, 9, 7, 0
+21059, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+20809, 24060, 1, "OK", 5, 48, 20, 13, 11, 2, 7, 1
+23265, 23701, 1, "OK", 4, 6, 3, 2, 2, 0, 1, 1
+23393, 23849, 1, "OK", 3, 6, 3, 2, 2, 0, 1, 1
+16412, 17034, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+17696, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18082, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+22461, 24060, 1, "OK", 10, 23, 12, 8, 8, 0, 4, 1
+23135, 23653, 1, "OK", 3, 8, 6, 4, 4, 0, 2, 1
+16434, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 4, 4, 4, 0, 0, 0
+21153, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+22534, 23849, 1, "OK", 6, 19, 12, 8, 8, 0, 4, 1
+18337, 24953, 1, "OK", 5, 110, 29, 29, 20, 9, 7, 0
+17895, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 3, 3, 3, 0, 0, 0
+21537, 24060, 1, "OK", 13, 38, 20, 13, 11, 2, 7, 1
+16172, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 24115, 1, "OK", 3, 127, 28, 28, 19, 9, 7, 0
+17039, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+17506, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21059, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+16790, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21586, 22530, 1, "OK", 4, 16, 8, 5, 3, 2, 3, 1
+21735, 24060, 1, "OK", 11, 35, 20, 13, 11, 2, 7, 1
+18022, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21687, 23521, 1, "OK", 6, 31, 20, 13, 11, 2, 7, 1
+16258, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 10, 10, 10, 0, 0, 0
+22461, 24107, 1, "OK", 10, 24, 12, 8, 8, 0, 4, 1
+20317, 25023, 1, "OK", 8, 75, 24, 24, 15, 9, 7, 0
+20809, 24107, 1, "OK", 5, 49, 20, 13, 11, 2, 7, 1
+17109, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+16434, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 4, 4, 4, 0, 0, 0
+22625, 23131, 1, "OK", 3, 8, 6, 4, 4, 0, 2, 1
+18337, 24987, 1, "OK", 5, 111, 29, 29, 20, 9, 7, 0
+22254, 22341, 1, "OK", 3, 2, 3, 1, 1, 0, 1, 2
+21444, 22879, 1, "OK", 6, 24, 11, 7, 5, 2, 4, 1
+24153, 24916, 1, "OK", 2, 11, 2, 2, 2, 0, 0, 0
+16767, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 8, 8, 8, 0, 0, 0
+16412, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+17039, 24256, 1, "OK", 2, 133, 29, 29, 20, 9, 7, 0
+17506, 24115, 1, "OK", 4, 115, 27, 27, 18, 9, 7, 0
+20758, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+23135, 23701, 1, "OK", 3, 9, 6, 4, 4, 0, 2, 1
+21832, 23131, 1, "OK", 4, 21, 14, 9, 7, 2, 5, 1
+21153, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+18290, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21537, 24107, 1, "OK", 13, 39, 20, 13, 11, 2, 7, 1
+22119, 22452, 1, "OK", 4, 5, 6, 2, 2, 0, 2, 2
+17109, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17039, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl", 0, 0, 2, 2, 2, 0, 0, 0
+21059, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+16172, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 5, 5, 5, 0, 0, 0
+17072, 17106, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+20961, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+18082, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21735, 24107, 1, "OK", 11, 36, 20, 13, 11, 2, 7, 1
+16767, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 3, 3, 3, 0, 0, 0
+17696, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16258, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 16348, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+18337, 25023, 1, "OK", 5, 112, 29, 29, 20, 9, 7, 0
+16412, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+16790, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+22486, 23389, 1, "OK", 4, 14, 9, 6, 6, 0, 3, 1
+21586, 22621, 1, "OK", 4, 17, 8, 5, 3, 2, 3, 1
+24153, 24953, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+20758, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+16679, 17034, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+17072, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 1, 1, 1, 0, 0, 0
+16412, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22755, 23261, 1, "OK", 4, 8, 6, 4, 4, 0, 2, 1
+22883, 23389, 1, "OK", 3, 8, 6, 4, 4, 0, 2, 1
+23011, 23521, 1, "OK", 4, 8, 6, 4, 4, 0, 2, 1
+21252, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+16434, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+16172, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 7, 7, 7, 0, 0, 0
+17895, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 24916, 1, "OK", 6, 105, 29, 29, 20, 9, 7, 0
+23265, 23849, 1, "OK", 5, 7, 3, 2, 2, 0, 1, 1
+16767, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 3, 3, 3, 0, 0, 0
+17109, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+22534, 23981, 1, "OK", 8, 20, 12, 8, 8, 0, 4, 1
+23393, 23981, 1, "OK", 5, 7, 3, 2, 2, 0, 1, 1
+24153, 24987, 1, "OK", 2, 13, 2, 2, 2, 0, 0, 0
+16258, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 16406, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+16679, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+21349, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+16434, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 4, 4, 4, 0, 0, 0
+21059, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17842, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17072, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+18290, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+20548, 24115, 1, "OK", 4, 57, 22, 22, 13, 9, 7, 0
+16172, 16431, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String pageNumberString int pageNumber", 0, 0, 1, 1, 1, 0, 0, 0
+16351, 17034, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+16679, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+17039, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 2, 2, 2, 0, 0, 0
+17109, 24256, 1, "OK", 3, 130, 28, 28, 19, 9, 7, 0
+21687, 23653, 1, "OK", 7, 32, 20, 13, 11, 2, 7, 1
+17696, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 24953, 1, "OK", 6, 106, 29, 29, 20, 9, 7, 0
+18635, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+19954, 24115, 1, "OK", 6, 67, 22, 22, 13, 9, 7, 0
+24153, 25023, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+22254, 22452, 1, "OK", 4, 3, 3, 1, 1, 0, 1, 2
+16172, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+17109, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl", 0, 0, 1, 1, 1, 0, 0, 0
+18022, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+21444, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+22625, 23261, 1, "OK", 3, 11, 9, 6, 6, 0, 3, 1
+17506, 24256, 1, "OK", 4, 118, 27, 27, 18, 9, 7, 0
+16258, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+16434, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+21832, 23261, 1, "OK", 4, 24, 17, 11, 9, 2, 6, 1
+20867, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17895, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+23135, 23849, 1, "OK", 4, 10, 6, 4, 4, 0, 2, 1
+18635, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21153, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+16258, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+17039, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 7, 7, 7, 0, 0, 0
+17072, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+19297, 19949, 1, "OK", 1, 10, 2, 2, 2, 0, 0, 0
+16679, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+18240, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16351, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+17842, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+20961, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+21687, 23701, 1, "OK", 7, 33, 20, 13, 11, 2, 7, 1
+17039, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 2, 2, 2, 0, 0, 0
+23393, 24060, 1, "OK", 7, 8, 3, 2, 2, 0, 1, 1
+16172, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 24987, 1, "OK", 6, 107, 29, 29, 20, 9, 7, 0
+20867, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+22534, 24060, 1, "OK", 10, 21, 12, 8, 8, 0, 4, 1
+18635, 24115, 1, "OK", 7, 91, 27, 27, 18, 9, 7, 0
+16767, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17109, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 6, 6, 6, 0, 0, 0
+21586, 22751, 1, "OK", 5, 20, 11, 7, 5, 2, 4, 1
+22486, 23521, 1, "OK", 4, 17, 12, 8, 8, 0, 4, 1
+16412, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+17842, 24115, 1, "OK", 4, 108, 27, 27, 18, 9, 7, 0
+16258, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+18394, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+22755, 23389, 1, "OK", 5, 9, 6, 4, 4, 0, 2, 1
+16790, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+22883, 23521, 1, "OK", 3, 11, 9, 6, 6, 0, 3, 1
+17506, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21252, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+16258, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+18240, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+19297, 19986, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+16351, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+17977, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 25023, 1, "OK", 6, 108, 29, 29, 20, 9, 7, 0
+20758, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+16434, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 4, 4, 4, 0, 0, 0
+20961, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+23393, 24107, 1, "OK", 7, 9, 3, 2, 2, 0, 1, 1
+21349, 23981, 1, "OK", 10, 40, 20, 13, 11, 2, 7, 1
+17039, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 2, 2, 2, 0, 0, 0
+23265, 23981, 1, "OK", 7, 8, 3, 2, 2, 0, 1, 1
+18022, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+23011, 23653, 1, "OK", 5, 9, 6, 4, 4, 0, 2, 1
+20867, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+22534, 24107, 1, "OK", 10, 22, 12, 8, 8, 0, 4, 1
+16679, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16767, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+16258, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+17977, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+20548, 24256, 1, "OK", 4, 60, 22, 22, 13, 9, 7, 0
+21059, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+16258, 24115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 32, 32, 23, 9, 7, 0
+19297, 24115, 1, "OK", 6, 77, 24, 24, 15, 9, 7, 0
+18082, 24916, 1, "OK", 4, 115, 29, 29, 20, 9, 7, 0
+16351, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+18240, 24115, 1, "OK", 5, 98, 27, 27, 18, 9, 7, 0
+17142, 17196, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+18726, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16790, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 3, 3, 3, 0, 0, 0
+19954, 24256, 1, "OK", 6, 70, 22, 22, 13, 9, 7, 0
+17039, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 7, 7, 7, 0, 0, 0
+17109, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 1, 1, 1, 0, 0, 0
+16790, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+18082, 24953, 1, "OK", 4, 116, 29, 29, 20, 9, 7, 0
+21444, 23131, 1, "OK", 7, 28, 14, 9, 7, 2, 5, 1
+17977, 24115, 1, "OK", 5, 104, 27, 27, 18, 9, 7, 0
+22625, 23389, 1, "OK", 4, 12, 9, 6, 6, 0, 3, 1
+18290, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+23011, 23701, 1, "OK", 5, 10, 6, 4, 4, 0, 2, 1
+16172, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21832, 23389, 1, "OK", 5, 25, 17, 11, 9, 2, 6, 1
+16679, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+17039, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 2, 2, 2, 0, 0, 0
+16767, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 3, 3, 3, 0, 0, 0
+23135, 23981, 1, "OK", 6, 11, 6, 4, 4, 0, 2, 1
+16258, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16351, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21153, 23981, 1, "OK", 8, 42, 20, 13, 11, 2, 7, 1
+17696, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 6, 6, 6, 0, 0, 0
+17142, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 4, 4, 4, 0, 0, 0
+16790, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17109, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 1, 1, 1, 0, 0, 0
+17782, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17506, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+20867, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+18082, 24987, 1, "OK", 4, 117, 29, 29, 20, 9, 7, 0
+21349, 24060, 1, "OK", 11, 41, 20, 13, 11, 2, 7, 1
+17473, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17895, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+23265, 24060, 1, "OK", 9, 9, 3, 2, 2, 0, 1, 1
+16434, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 4, 4, 4, 0, 0, 0
+16434, 16675, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+17737, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17936, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+21586, 22879, 1, "OK", 6, 21, 11, 7, 5, 2, 4, 1
+17842, 24256, 1, "OK", 4, 111, 27, 27, 18, 9, 7, 0
+17386, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+22070, 22223, 1, "OK", 2, 2, 3, 1, 1, 0, 1, 2
+20758, 23981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+17039, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 2, 2, 2, 0, 0, 0
+22755, 23521, 1, "OK", 5, 12, 9, 6, 6, 0, 3, 1
+16351, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+17782, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 24115, 1, "OK", 3, 140, 30, 30, 21, 9, 7, 0
+18082, 25023, 1, "OK", 4, 118, 29, 29, 20, 9, 7, 0
+21252, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+16258, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+21687, 23849, 1, "OK", 8, 34, 20, 13, 11, 2, 7, 1
+22486, 23653, 1, "OK", 5, 18, 12, 8, 8, 0, 4, 1
+18290, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18635, 24256, 1, "OK", 7, 94, 27, 27, 18, 9, 7, 0
+23265, 24107, 1, "OK", 9, 10, 3, 2, 2, 0, 1, 1
+17386, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+20961, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+22883, 23653, 1, "OK", 4, 12, 9, 6, 6, 0, 3, 1
+16790, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+16434, 24916, 1, "OK", 2, 164, 33, 33, 24, 9, 7, 0
+21349, 24107, 1, "OK", 11, 42, 20, 13, 11, 2, 7, 1
+17696, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 1, 1, 1, 0, 0, 0
+17109, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 6, 6, 6, 0, 0, 0
+23135, 24060, 1, "OK", 8, 12, 6, 4, 4, 0, 2, 1
+17782, 24115, 1, "OK", 5, 109, 27, 27, 18, 9, 7, 0
+21153, 24060, 1, "OK", 9, 43, 20, 13, 11, 2, 7, 1
+16258, 24256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 32, 32, 23, 9, 7, 0
+17895, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21059, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+20226, 24115, 1, "OK", 7, 60, 22, 22, 13, 9, 7, 0
+22070, 22249, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelColumn String selected", 0, 0, 3, 1, 1, 0, 1, 2
+16172, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 16675, 1, "OK", 0, 15, 2, 2, 2, 0, 0, 0
+16434, 24953, 1, "OK", 2, 165, 33, 33, 24, 9, 7, 0
+18181, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17386, 24115, 1, "OK", 4, 117, 27, 27, 18, 9, 7, 0
+16434, 16764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+17506, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17842, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17072, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+16258, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 5, 5, 5, 0, 0, 0
+18240, 24256, 1, "OK", 5, 101, 27, 27, 18, 9, 7, 0
+19297, 24256, 1, "OK", 6, 80, 24, 24, 15, 9, 7, 0
+20689, 24115, 1, "OK", 4, 54, 22, 22, 13, 9, 7, 0
+22486, 23701, 1, "OK", 5, 19, 12, 8, 8, 0, 4, 1
+16767, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+21444, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+21832, 23521, 1, "OK", 5, 28, 20, 13, 11, 2, 7, 1
+22883, 23701, 1, "OK", 4, 13, 9, 6, 6, 0, 3, 1
+17039, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+20809, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+18635, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17977, 24256, 1, "OK", 5, 107, 27, 27, 18, 9, 7, 0
+20809, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+16172, 24916, 1, "OK", 0, 170, 34, 34, 25, 9, 7, 0
+21153, 24107, 1, "OK", 9, 44, 20, 13, 11, 2, 7, 1
+16434, 24987, 1, "OK", 2, 166, 33, 33, 24, 9, 7, 0
+18181, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+23135, 24107, 1, "OK", 8, 13, 6, 4, 4, 0, 2, 1
+18022, 24916, 1, "OK", 5, 116, 29, 29, 20, 9, 7, 0
+16434, 16787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+22625, 23521, 1, "OK", 4, 15, 12, 8, 8, 0, 4, 1
+16412, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17109, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 1, 1, 1, 0, 0, 0
+23011, 23849, 1, "OK", 6, 11, 6, 4, 4, 0, 2, 1
+20758, 24060, 1, "OK", 4, 49, 20, 13, 11, 2, 7, 1
+17039, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 2, 2, 2, 0, 0, 0
+21537, 22457, 1, "OK", 4, 15, 8, 5, 3, 2, 3, 1
+16258, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 10, 10, 10, 0, 0, 0
+18447, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+19297, 20223, 1, "OK", 1, 17, 2, 2, 2, 0, 0, 0
+20867, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+17072, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21735, 22457, 1, "OK", 1, 12, 8, 5, 3, 2, 3, 1
+16767, 24916, 1, "OK", 2, 154, 32, 32, 23, 9, 7, 0
+16790, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+21586, 23007, 1, "OK", 6, 24, 14, 9, 7, 2, 5, 1
+16172, 24953, 1, "OK", 0, 171, 34, 34, 25, 9, 7, 0
+16434, 25023, 1, "OK", 2, 167, 33, 33, 24, 9, 7, 0
+21735, 22482, 1, "OK", 1, 13, 8, 5, 3, 2, 3, 1
+18181, 24115, 1, "OK", 4, 99, 27, 27, 18, 9, 7, 0
+18240, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20401, 24916, 1, "OK", 8, 71, 24, 24, 15, 9, 7, 0
+20809, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21252, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+16767, 24953, 1, "OK", 2, 155, 32, 32, 23, 9, 7, 0
+18337, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 16764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 2, 2, 2, 0, 0, 0
+21537, 22482, 1, "OK", 4, 16, 8, 5, 3, 2, 3, 1
+22070, 22341, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelColumn String selected", 0, 0, 6, 2, 2, 0, 2, 2
+18022, 24953, 1, "OK", 5, 117, 29, 29, 20, 9, 7, 0
+20758, 24107, 1, "OK", 4, 50, 20, 13, 11, 2, 7, 1
+17109, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 1, 1, 1, 0, 0, 0
+21687, 23981, 1, "OK", 10, 35, 20, 13, 11, 2, 7, 1
+17039, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+17655, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17842, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 24256, 1, "OK", 3, 143, 30, 30, 21, 9, 7, 0
+20401, 24953, 1, "OK", 8, 72, 24, 24, 15, 9, 7, 0
+20961, 23981, 1, "OK", 6, 44, 20, 13, 11, 2, 7, 1
+22755, 23653, 1, "OK", 6, 13, 9, 6, 6, 0, 3, 1
+18447, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 16787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+17977, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16790, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 3, 3, 3, 0, 0, 0
+17655, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 24987, 1, "OK", 2, 156, 32, 32, 23, 9, 7, 0
+20226, 24256, 1, "OK", 7, 63, 22, 22, 13, 9, 7, 0
+21735, 22530, 1, "OK", 1, 14, 8, 5, 3, 2, 3, 1
+21059, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+16172, 24987, 1, "OK", 0, 172, 34, 34, 25, 9, 7, 0
+18635, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16258, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 5, 5, 5, 0, 0, 0
+18022, 24987, 1, "OK", 5, 118, 29, 29, 20, 9, 7, 0
+17142, 17470, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+20401, 24987, 1, "OK", 8, 73, 24, 24, 15, 9, 7, 0
+17782, 24256, 1, "OK", 5, 112, 27, 27, 18, 9, 7, 0
+20139, 24916, 1, "OK", 6, 74, 24, 24, 15, 9, 7, 0
+17109, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+21537, 22530, 1, "OK", 4, 17, 8, 5, 3, 2, 3, 1
+18447, 24115, 1, "OK", 5, 93, 27, 27, 18, 9, 7, 0
+21444, 23389, 1, "OK", 8, 32, 17, 11, 9, 2, 6, 1
+16258, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 10, 10, 10, 0, 0, 0
+16679, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+17039, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 2, 2, 2, 0, 0, 0
+18022, 25023, 1, "OK", 5, 119, 29, 29, 20, 9, 7, 0
+18240, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+19297, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String pageLabel String pageOfLabel", 0, 0, 2, 2, 2, 0, 0, 0
+21832, 23653, 1, "OK", 6, 29, 20, 13, 11, 2, 7, 1
+17655, 24115, 1, "OK", 4, 112, 27, 27, 18, 9, 7, 0
+22755, 23701, 1, "OK", 6, 14, 9, 6, 6, 0, 3, 1
+20689, 24256, 1, "OK", 4, 57, 22, 22, 13, 9, 7, 0
+16172, 25023, 1, "OK", 0, 173, 34, 34, 25, 9, 7, 0
+17386, 24256, 1, "OK", 4, 120, 27, 27, 18, 9, 7, 0
+22486, 23849, 1, "OK", 6, 20, 12, 8, 8, 0, 4, 1
+23011, 23981, 1, "OK", 8, 12, 6, 4, 4, 0, 2, 1
+16790, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 8, 8, 8, 0, 0, 0
+17142, 17503, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+16412, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20401, 25023, 1, "OK", 8, 74, 24, 24, 15, 9, 7, 0
+20139, 24953, 1, "OK", 6, 75, 24, 24, 15, 9, 7, 0
+17506, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 25023, 1, "OK", 2, 157, 32, 32, 23, 9, 7, 0
+18290, 24916, 1, "OK", 5, 110, 29, 29, 20, 9, 7, 0
+16258, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 5, 5, 5, 0, 0, 0
+21687, 24060, 1, "OK", 12, 36, 20, 13, 11, 2, 7, 1
+22883, 23849, 1, "OK", 5, 14, 9, 6, 6, 0, 3, 1
+22625, 23653, 1, "OK", 5, 16, 12, 8, 8, 0, 4, 1
+17842, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22070, 22452, 1, "OK", 3, 6, 6, 2, 2, 0, 2, 2
+20961, 24060, 1, "OK", 7, 45, 20, 13, 11, 2, 7, 1
+20867, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+17109, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 1, 1, 1, 0, 0, 0
+17696, 24916, 1, "OK", 5, 124, 29, 29, 20, 9, 7, 0
+20809, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21586, 23131, 1, "OK", 7, 25, 14, 9, 7, 2, 5, 1
+18290, 24953, 1, "OK", 5, 111, 29, 29, 20, 9, 7, 0
+17782, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21832, 23701, 1, "OK", 6, 30, 20, 13, 11, 2, 7, 1
+17895, 24916, 1, "OK", 4, 119, 29, 29, 20, 9, 7, 0
+16351, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17977, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18635, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21252, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+17696, 24953, 1, "OK", 5, 125, 29, 29, 20, 9, 7, 0
+21880, 22223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameColumn String labelColumn", 0, 0, 3, 1, 1, 0, 1, 2
+18181, 24256, 1, "OK", 4, 102, 27, 27, 18, 9, 7, 0
+21537, 22621, 1, "OK", 4, 18, 8, 5, 3, 2, 3, 1
+20139, 24987, 1, "OK", 6, 76, 24, 24, 15, 9, 7, 0
+17109, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+16258, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 5, 5, 5, 0, 0, 0
+21735, 22621, 1, "OK", 1, 15, 8, 5, 3, 2, 3, 1
+17386, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22625, 23701, 1, "OK", 5, 17, 12, 8, 8, 0, 4, 1
+21687, 24107, 1, "OK", 12, 37, 20, 13, 11, 2, 7, 1
+20961, 24107, 1, "OK", 7, 46, 20, 13, 11, 2, 7, 1
+18290, 24987, 1, "OK", 5, 112, 29, 29, 20, 9, 7, 0
+16258, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 10, 10, 10, 0, 0, 0
+17072, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+18240, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+19297, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String pageLabel String pageOfLabel", 0, 0, 2, 2, 2, 0, 0, 0
+16351, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17506, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 3, 3, 3, 0, 0, 0
+23011, 24060, 1, "OK", 10, 13, 6, 4, 4, 0, 2, 1
+21059, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+17696, 24987, 1, "OK", 5, 126, 29, 29, 20, 9, 7, 0
+21880, 22249, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameColumn String labelColumn String selected", 0, 0, 3, 1, 1, 0, 1, 2
+18540, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17895, 24953, 1, "OK", 4, 120, 29, 29, 20, 9, 7, 0
+20139, 25023, 1, "OK", 6, 77, 24, 24, 15, 9, 7, 0
+17039, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 2, 2, 2, 0, 0, 0
+18290, 25023, 1, "OK", 5, 113, 29, 29, 20, 9, 7, 0
+16412, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16679, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16790, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 8, 8, 8, 0, 0, 0
+16258, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 17034, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+18181, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22486, 23981, 1, "OK", 8, 21, 12, 8, 8, 0, 4, 1
+21444, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+17142, 17608, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+18447, 24256, 1, "OK", 5, 96, 27, 27, 18, 9, 7, 0
+16258, 16348, 1, "OK", 0, 2, 1, 1, 1, 0, 0, 0
+17109, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 1, 1, 1, 0, 0, 0
+17895, 24987, 1, "OK", 4, 121, 29, 29, 20, 9, 7, 0
+17977, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+22883, 23981, 1, "OK", 7, 15, 9, 6, 6, 0, 3, 1
+17655, 24256, 1, "OK", 4, 115, 27, 27, 18, 9, 7, 0
+23011, 24107, 1, "OK", 10, 14, 6, 4, 4, 0, 2, 1
+16412, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+17696, 25023, 1, "OK", 5, 127, 29, 29, 20, 9, 7, 0
+22755, 23849, 1, "OK", 7, 15, 9, 6, 6, 0, 3, 1
+17782, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 24916, 1, "OK", 2, 143, 31, 31, 22, 9, 7, 0
+17895, 25023, 1, "OK", 4, 122, 29, 29, 20, 9, 7, 0
+16434, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+17386, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+20809, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+16351, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17039, 24953, 1, "OK", 2, 144, 31, 31, 22, 9, 7, 0
+21880, 22341, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameColumn String labelColumn String selected", 0, 0, 6, 2, 2, 0, 2, 2
+21586, 23261, 1, "OK", 7, 28, 17, 11, 9, 2, 6, 1
+22461, 22751, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+17072, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+16790, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 3, 3, 3, 0, 0, 0
+16258, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+21252, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+16790, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 8, 8, 8, 0, 0, 0
+16258, 16406, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+21735, 22751, 1, "OK", 2, 18, 11, 7, 5, 2, 4, 1
+21537, 22751, 1, "OK", 5, 21, 11, 7, 5, 2, 4, 1
+16172, 17034, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 3, 3, 3, 0, 0, 0
+17842, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18447, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18635, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17142, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17655, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22625, 23849, 1, "OK", 6, 18, 12, 8, 8, 0, 4, 1
+16767, 17034, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+17039, 24987, 1, "OK", 2, 145, 31, 31, 22, 9, 7, 0
+17109, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 1, 1, 1, 0, 0, 0
+21832, 23849, 1, "OK", 7, 31, 20, 13, 11, 2, 7, 1
+16258, 16431, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+16434, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+22486, 24060, 1, "OK", 10, 22, 12, 8, 8, 0, 4, 1
+17782, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21059, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+22883, 24060, 1, "OK", 9, 16, 9, 6, 6, 0, 3, 1
+18082, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+18181, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21349, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21349, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+16172, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+16767, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+16258, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+16679, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+19297, 20545, 1, "OK", 2, 20, 2, 2, 2, 0, 0, 0
+16434, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16790, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 3, 3, 3, 0, 0, 0
+18240, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17386, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18635, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16351, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+17039, 25023, 1, "OK", 2, 146, 31, 31, 22, 9, 7, 0
+17142, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+16412, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+17842, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+22486, 24107, 1, "OK", 10, 23, 12, 8, 8, 0, 4, 1
+16172, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 4, 4, 4, 0, 0, 0
+22755, 23981, 1, "OK", 9, 16, 9, 6, 6, 0, 3, 1
+17977, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+22883, 24107, 1, "OK", 9, 17, 9, 6, 6, 0, 3, 1
+16679, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+18447, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 24916, 1, "OK", 3, 140, 30, 30, 21, 9, 7, 0
+21444, 23653, 1, "OK", 9, 36, 20, 13, 11, 2, 7, 1
+16258, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+21153, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21349, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17072, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+17142, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+21880, 22452, 1, "OK", 2, 8, 6, 2, 2, 0, 2, 2
+17072, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl", 0, 0, 2, 2, 2, 0, 0, 0
+17506, 24916, 1, "OK", 4, 128, 29, 29, 20, 9, 7, 0
+16767, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+16790, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 3, 3, 3, 0, 0, 0
+20809, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+16351, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+18181, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21586, 23389, 1, "OK", 8, 29, 17, 11, 9, 2, 6, 1
+22461, 22879, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+16258, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 10, 10, 10, 0, 0, 0
+17655, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+19297, 20613, 1, "OK", 2, 21, 2, 2, 2, 0, 0, 0
+16412, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 4, 4, 4, 0, 0, 0
+17109, 24953, 1, "OK", 3, 141, 30, 30, 21, 9, 7, 0
+18240, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17506, 24953, 1, "OK", 4, 129, 29, 29, 20, 9, 7, 0
+21735, 22879, 1, "OK", 3, 19, 11, 7, 5, 2, 4, 1
+21252, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+21537, 22879, 1, "OK", 6, 22, 11, 7, 5, 2, 4, 1
+17072, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+21153, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21444, 23701, 1, "OK", 9, 37, 20, 13, 11, 2, 7, 1
+16412, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+16767, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+18394, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+16434, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+16790, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+17977, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+22625, 23981, 1, "OK", 8, 19, 12, 8, 8, 0, 4, 1
+17072, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+21832, 23981, 1, "OK", 9, 32, 20, 13, 11, 2, 7, 1
+20758, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17109, 24987, 1, "OK", 3, 142, 30, 30, 21, 9, 7, 0
+18394, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21059, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+22755, 24060, 1, "OK", 11, 17, 9, 6, 6, 0, 3, 1
+17142, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage HashMap prevParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17506, 24987, 1, "OK", 4, 130, 29, 29, 20, 9, 7, 0
+20758, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+16412, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16351, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16412, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+16258, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18726, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 25023, 1, "OK", 3, 143, 30, 30, 21, 9, 7, 0
+17782, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21153, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+18447, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17072, 24115, 1, "OK", 3, 129, 29, 29, 20, 9, 7, 0
+17072, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+16412, 24115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 31, 31, 22, 9, 7, 0
+17386, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17655, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22534, 22751, 1, "OK", 1, 4, 3, 2, 2, 0, 1, 1
+16679, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 3, 3, 3, 0, 0, 0
+16412, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+18394, 24115, 1, "OK", 5, 95, 27, 27, 18, 9, 7, 0
+21349, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17506, 25023, 1, "OK", 4, 131, 29, 29, 20, 9, 7, 0
+20548, 24916, 1, "OK", 6, 70, 24, 24, 15, 9, 7, 0
+16790, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 3, 3, 3, 0, 0, 0
+22755, 24107, 1, "OK", 11, 18, 9, 6, 6, 0, 3, 1
+17142, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl", 0, 0, 1, 1, 1, 0, 0, 0
+18726, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+20758, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+19954, 24916, 1, "OK", 6, 80, 24, 24, 15, 9, 7, 0
+16679, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+17142, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+20867, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+16767, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+16172, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+22625, 24060, 1, "OK", 10, 20, 12, 8, 8, 0, 4, 1
+16790, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+16351, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+17072, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+20548, 24953, 1, "OK", 6, 71, 24, 24, 15, 9, 7, 0
+20809, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+18022, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+21832, 24060, 1, "OK", 11, 33, 20, 13, 11, 2, 7, 1
+16412, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+19954, 24953, 1, "OK", 6, 81, 24, 24, 15, 9, 7, 0
+16679, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+17473, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18726, 24115, 1, "OK", 8, 90, 27, 27, 18, 9, 7, 0
+22461, 23007, 1, "OK", 2, 10, 6, 4, 4, 0, 2, 1
+17737, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17142, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+20548, 24987, 1, "OK", 6, 72, 24, 24, 15, 9, 7, 0
+21735, 23007, 1, "OK", 3, 22, 14, 9, 7, 2, 5, 1
+17386, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17142, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+18181, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21537, 23007, 1, "OK", 6, 25, 14, 9, 7, 2, 5, 1
+17936, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21153, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17782, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21586, 23521, 1, "OK", 8, 32, 20, 13, 11, 2, 7, 1
+22625, 24107, 1, "OK", 10, 21, 12, 8, 8, 0, 4, 1
+17737, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18635, 24916, 1, "OK", 7, 104, 29, 29, 20, 9, 7, 0
+19954, 24987, 1, "OK", 6, 82, 24, 24, 15, 9, 7, 0
+16258, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16258, 16675, 1, "OK", 1, 14, 2, 2, 2, 0, 0, 0
+16679, 24115, 1, "OK", 1, 142, 30, 30, 21, 9, 7, 0
+16351, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+21252, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+21687, 22457, 1, "OK", 2, 13, 8, 5, 3, 2, 3, 1
+16351, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 4, 4, 4, 0, 0, 0
+17842, 24916, 1, "OK", 4, 121, 29, 29, 20, 9, 7, 0
+21444, 23849, 1, "OK", 10, 38, 20, 13, 11, 2, 7, 1
+21832, 24107, 1, "OK", 11, 34, 20, 13, 11, 2, 7, 1
+20961, 22457, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21059, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+17142, 24115, 1, "OK", 4, 126, 28, 28, 19, 9, 7, 0
+20548, 25023, 1, "OK", 6, 73, 24, 24, 15, 9, 7, 0
+21687, 22482, 1, "OK", 2, 14, 8, 5, 3, 2, 3, 1
+16679, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl HashMap nextParamsMap", 0, 0, 2, 2, 2, 0, 0, 0
+17473, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17842, 24953, 1, "OK", 4, 122, 29, 29, 20, 9, 7, 0
+20758, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17737, 24115, 1, "OK", 5, 110, 27, 27, 18, 9, 7, 0
+18635, 24953, 1, "OK", 7, 105, 29, 29, 20, 9, 7, 0
+16351, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+19954, 25023, 1, "OK", 6, 83, 24, 24, 15, 9, 7, 0
+17142, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+17936, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+21349, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+22534, 22879, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+16679, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+20961, 22482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+21252, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+17072, 24256, 1, "OK", 3, 132, 29, 29, 20, 9, 7, 0
+18447, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16258, 24916, 1, "OK", 1, 169, 34, 34, 25, 9, 7, 0
+17473, 24115, 1, "OK", 4, 116, 27, 27, 18, 9, 7, 0
+16351, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+18240, 24916, 1, "OK", 5, 111, 29, 29, 20, 9, 7, 0
+19297, 24916, 1, "OK", 6, 90, 26, 26, 17, 9, 7, 0
+17842, 24987, 1, "OK", 4, 123, 29, 29, 20, 9, 7, 0
+18290, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17655, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17142, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+21687, 22530, 1, "OK", 2, 15, 8, 5, 3, 2, 3, 1
+17072, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl", 0, 0, 2, 2, 2, 0, 0, 0
+18181, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 17106, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+17936, 24115, 1, "OK", 5, 105, 27, 27, 18, 9, 7, 0
+16412, 24256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 31, 31, 22, 9, 7, 0
+18394, 24256, 1, "OK", 5, 98, 27, 27, 18, 9, 7, 0
+16258, 24953, 1, "OK", 1, 170, 34, 34, 25, 9, 7, 0
+16351, 17974, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+19297, 24953, 1, "OK", 6, 91, 26, 26, 17, 9, 7, 0
+20867, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+18240, 24953, 1, "OK", 5, 112, 29, 29, 20, 9, 7, 0
+17696, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17977, 24916, 1, "OK", 5, 117, 29, 29, 20, 9, 7, 0
+22461, 23131, 1, "OK", 3, 11, 6, 4, 4, 0, 2, 1
+18635, 24987, 1, "OK", 7, 106, 29, 29, 20, 9, 7, 0
+20809, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+16258, 16764, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 2, 2, 2, 0, 0, 0
+16351, 24115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 31, 31, 22, 9, 7, 0
+16412, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 4, 4, 4, 0, 0, 0
+16434, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+16790, 18723, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+17842, 25023, 1, "OK", 4, 124, 29, 29, 20, 9, 7, 0
+20961, 22530, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+17039, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 1, 1, 1, 0, 0, 0
+16679, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+21537, 23131, 1, "OK", 7, 26, 14, 9, 7, 2, 5, 1
+16258, 24987, 1, "OK", 1, 171, 34, 34, 25, 9, 7, 0
+18726, 24256, 1, "OK", 8, 93, 27, 27, 18, 9, 7, 0
+19297, 24987, 1, "OK", 6, 92, 26, 26, 17, 9, 7, 0
+16258, 16787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+18240, 24987, 1, "OK", 5, 113, 29, 29, 20, 9, 7, 0
+21153, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+17072, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 7, 7, 7, 0, 0, 0
+18635, 25023, 1, "OK", 7, 107, 29, 29, 20, 9, 7, 0
+17895, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+18447, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21586, 23653, 1, "OK", 9, 33, 20, 13, 11, 2, 7, 1
+21735, 23131, 1, "OK", 4, 23, 14, 9, 7, 2, 5, 1
+21444, 23981, 1, "OK", 11, 39, 20, 13, 11, 2, 7, 1
+17142, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl HashMap nextParamsMap", 0, 0, 1, 1, 1, 0, 0, 0
+18337, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17655, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17977, 24953, 1, "OK", 5, 118, 29, 29, 20, 9, 7, 0
+16412, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 9, 9, 9, 0, 0, 0
+16351, 18019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+18394, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 24256, 1, "OK", 1, 145, 30, 30, 21, 9, 7, 0
+16258, 25023, 1, "OK", 1, 172, 34, 34, 25, 9, 7, 0
+17039, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+19297, 25023, 1, "OK", 6, 93, 26, 26, 17, 9, 7, 0
+16790, 24916, 1, "OK", 3, 153, 32, 32, 23, 9, 7, 0
+20317, 24115, 1, "OK", 8, 59, 22, 22, 13, 9, 7, 0
+20758, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+16679, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 2, 2, 2, 0, 0, 0
+17142, 24256, 1, "OK", 4, 129, 28, 28, 19, 9, 7, 0
+18240, 25023, 1, "OK", 5, 114, 29, 29, 20, 9, 7, 0
+21059, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+17977, 24987, 1, "OK", 5, 119, 29, 29, 20, 9, 7, 0
+21687, 22621, 1, "OK", 2, 16, 8, 5, 3, 2, 3, 1
+21586, 23701, 1, "OK", 9, 34, 20, 13, 11, 2, 7, 1
+17737, 24256, 1, "OK", 5, 113, 27, 27, 18, 9, 7, 0
+21349, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+22534, 23007, 1, "OK", 2, 8, 6, 4, 4, 0, 2, 1
+17142, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl", 0, 0, 1, 1, 1, 0, 0, 0
+18726, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16172, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 4, 4, 4, 0, 0, 0
+17782, 24916, 1, "OK", 5, 122, 29, 29, 20, 9, 7, 0
+20961, 22621, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 8, 5, 3, 2, 3, 1
+18337, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+20226, 24916, 1, "OK", 7, 73, 24, 24, 15, 9, 7, 0
+17072, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 7, 7, 7, 0, 0, 0
+17386, 24916, 1, "OK", 4, 130, 29, 29, 20, 9, 7, 0
+17039, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+17473, 24256, 1, "OK", 4, 119, 27, 27, 18, 9, 7, 0
+16351, 18079, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16790, 24953, 1, "OK", 3, 154, 32, 32, 23, 9, 7, 0
+21252, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+20689, 24916, 1, "OK", 6, 67, 24, 24, 15, 9, 7, 0
+17977, 25023, 1, "OK", 5, 120, 29, 29, 20, 9, 7, 0
+16679, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 8, 8, 8, 0, 0, 0
+20226, 24953, 1, "OK", 7, 74, 24, 24, 15, 9, 7, 0
+16172, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+21444, 24060, 1, "OK", 12, 40, 20, 13, 11, 2, 7, 1
+17072, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+16412, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 9, 9, 9, 0, 0, 0
+17936, 24256, 1, "OK", 5, 108, 27, 27, 18, 9, 7, 0
+21059, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+18337, 24115, 1, "OK", 5, 96, 27, 27, 18, 9, 7, 0
+20809, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+17142, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 6, 6, 6, 0, 0, 0
+20689, 24953, 1, "OK", 6, 68, 24, 24, 15, 9, 7, 0
+18394, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16767, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16351, 24256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 31, 31, 22, 9, 7, 0
+22461, 23261, 1, "OK", 3, 14, 9, 6, 6, 0, 3, 1
+17782, 24953, 1, "OK", 5, 123, 29, 29, 20, 9, 7, 0
+16790, 24987, 1, "OK", 3, 155, 32, 32, 23, 9, 7, 0
+20226, 24987, 1, "OK", 7, 75, 24, 24, 15, 9, 7, 0
+21153, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+17473, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21537, 23261, 1, "OK", 7, 29, 17, 11, 9, 2, 6, 1
+17386, 24953, 1, "OK", 4, 131, 29, 29, 20, 9, 7, 0
+16412, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 4, 4, 4, 0, 0, 0
+16351, 18128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl", 0, 0, 4, 4, 4, 0, 0, 0
+21735, 23261, 1, "OK", 4, 26, 17, 11, 9, 2, 6, 1
+16434, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+17737, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+20689, 24987, 1, "OK", 6, 69, 24, 24, 15, 9, 7, 0
+16790, 25023, 1, "OK", 3, 156, 32, 32, 23, 9, 7, 0
+21444, 24107, 1, "OK", 12, 41, 20, 13, 11, 2, 7, 1
+17072, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 2, 2, 2, 0, 0, 0
+17782, 24987, 1, "OK", 5, 124, 29, 29, 20, 9, 7, 0
+17109, 17196, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+17072, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 7, 7, 7, 0, 0, 0
+20226, 25023, 1, "OK", 7, 76, 24, 24, 15, 9, 7, 0
+17936, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18181, 24916, 1, "OK", 4, 112, 29, 29, 20, 9, 7, 0
+22228, 22341, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+17386, 24987, 1, "OK", 4, 132, 29, 29, 20, 9, 7, 0
+16679, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 3, 3, 3, 0, 0, 0
+18726, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+20758, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+17782, 25023, 1, "OK", 5, 125, 29, 29, 20, 9, 7, 0
+21687, 22751, 1, "OK", 3, 19, 11, 7, 5, 2, 4, 1
+20689, 25023, 1, "OK", 6, 70, 24, 24, 15, 9, 7, 0
+16412, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 4, 4, 4, 0, 0, 0
+16351, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 9, 9, 9, 0, 0, 0
+18540, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17142, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 1, 1, 1, 0, 0, 0
+20317, 24256, 1, "OK", 8, 62, 22, 22, 13, 9, 7, 0
+21349, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+21586, 23849, 1, "OK", 10, 35, 20, 13, 11, 2, 7, 1
+20961, 22751, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelStart String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 11, 7, 5, 2, 4, 1
+16172, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+16412, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 9, 9, 9, 0, 0, 0
+16679, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 8, 8, 8, 0, 0, 0
+18394, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18181, 24953, 1, "OK", 4, 113, 29, 29, 20, 9, 7, 0
+22534, 23131, 1, "OK", 3, 9, 6, 4, 4, 0, 2, 1
+17386, 25023, 1, "OK", 4, 133, 29, 29, 20, 9, 7, 0
+17072, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 2, 2, 2, 0, 0, 0
+21252, 23981, 1, "OK", 9, 41, 20, 13, 11, 2, 7, 1
+16767, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+16434, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+17142, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 6, 6, 6, 0, 0, 0
+16679, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 3, 3, 3, 0, 0, 0
+18540, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 4, 4, 4, 0, 0, 0
+18447, 24916, 1, "OK", 5, 106, 29, 29, 20, 9, 7, 0
+17473, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17506, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16351, 18234, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUIDGenerator uuidGen", 0, 0, 4, 4, 4, 0, 0, 0
+16412, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 4, 4, 4, 0, 0, 0
+17655, 24916, 1, "OK", 4, 125, 29, 29, 20, 9, 7, 0
+17737, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17142, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 1, 1, 1, 0, 0, 0
+18181, 24987, 1, "OK", 4, 114, 29, 29, 20, 9, 7, 0
+20809, 23389, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll", 0, 0, 17, 11, 9, 2, 6, 1
+18726, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18540, 24115, 1, "OK", 6, 92, 27, 27, 18, 9, 7, 0
+18447, 24953, 1, "OK", 5, 107, 29, 29, 20, 9, 7, 0
+17936, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+18337, 24256, 1, "OK", 5, 99, 27, 27, 18, 9, 7, 0
+20867, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+22461, 23389, 1, "OK", 4, 15, 9, 6, 6, 0, 3, 1
+21059, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+16258, 17034, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 2, 2, 2, 0, 0, 0
+18181, 25023, 1, "OK", 4, 115, 29, 29, 20, 9, 7, 0
+16351, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 9, 9, 9, 0, 0, 0
+21153, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+21537, 23389, 1, "OK", 8, 30, 17, 11, 9, 2, 6, 1
+16434, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16679, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 3, 3, 3, 0, 0, 0
+21735, 23389, 1, "OK", 5, 27, 17, 11, 9, 2, 6, 1
+16679, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 8, 8, 8, 0, 0, 0
+18447, 24987, 1, "OK", 5, 108, 29, 29, 20, 9, 7, 0
+24263, 24916, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+16351, 18284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl UUID uuid", 0, 0, 4, 4, 4, 0, 0, 0
+16412, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 4, 4, 4, 0, 0, 0
+16258, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+17655, 24953, 1, "OK", 4, 126, 29, 29, 20, 9, 7, 0
+22228, 22452, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+17142, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 1, 1, 1, 0, 0, 0
+17142, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 6, 6, 6, 0, 0, 0
+21252, 24060, 1, "OK", 10, 42, 20, 13, 11, 2, 7, 1
+16172, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+21972, 22223, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+16767, 17693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+18337, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+21832, 22457, 1, "OK", 1, 10, 8, 5, 3, 2, 3, 1
+20867, 23701, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+20758, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+21832, 22482, 1, "OK", 1, 11, 8, 5, 3, 2, 3, 1
+21687, 22879, 1, "OK", 4, 20, 11, 7, 5, 2, 4, 1
+18082, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17473, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+17655, 24987, 1, "OK", 4, 127, 29, 29, 20, 9, 7, 0
+17737, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+22534, 23261, 1, "OK", 3, 12, 9, 6, 6, 0, 3, 1
+16351, 18331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 4, 4, 4, 0, 0, 0
+20961, 22879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 11, 7, 5, 2, 4, 1
+16258, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 4, 4, 4, 0, 0, 0
+21586, 23981, 1, "OK", 11, 36, 20, 13, 11, 2, 7, 1
+17936, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 17470, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+18447, 25023, 1, "OK", 5, 109, 29, 29, 20, 9, 7, 0
+24263, 24953, 1, "OK", 2, 11, 2, 2, 2, 0, 0, 0
+16679, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+16172, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+21972, 22249, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelColumn String selected", 0, 0, 3, 1, 1, 0, 1, 2
+21349, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+16767, 17734, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17655, 25023, 1, "OK", 4, 128, 29, 29, 20, 9, 7, 0
+18394, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+21252, 24107, 1, "OK", 10, 43, 20, 13, 11, 2, 7, 1
+17142, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 1, 1, 1, 0, 0, 0
+16412, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+21832, 22530, 1, "OK", 1, 12, 8, 5, 3, 2, 3, 1
+17072, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 2, 2, 2, 0, 0, 0
+20809, 23521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelFilter String labelAll String selected", 0, 0, 20, 13, 11, 2, 7, 1
+16258, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+16434, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+16351, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 9, 9, 9, 0, 0, 0
+17039, 17503, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+18082, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16790, 17034, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+24263, 24987, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+22486, 22751, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+21059, 23981, 1, "OK", 7, 43, 20, 13, 11, 2, 7, 1
+16412, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 4, 4, 4, 0, 0, 0
+16679, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+22461, 23521, 1, "OK", 4, 18, 12, 8, 8, 0, 4, 1
+16790, 17069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+16351, 18391, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String requestIdentity", 0, 0, 4, 4, 4, 0, 0, 0
+21153, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+21735, 23521, 1, "OK", 5, 30, 20, 13, 11, 2, 7, 1
+18337, 20314, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+24263, 25023, 1, "OK", 2, 13, 2, 2, 2, 0, 0, 0
+18726, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18082, 24115, 1, "OK", 4, 102, 27, 27, 18, 9, 7, 0
+17142, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 1, 1, 1, 0, 0, 0
+18540, 24256, 1, "OK", 6, 95, 27, 27, 18, 9, 7, 0
+16767, 17779, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+17072, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 7, 7, 7, 0, 0, 0
+21586, 24060, 1, "OK", 13, 37, 20, 13, 11, 2, 7, 1
+16412, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+17842, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+18394, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 4, 4, 4, 0, 0, 0
+21537, 23521, 1, "OK", 8, 33, 20, 13, 11, 2, 7, 1
+16258, 17196, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+16434, 19949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+16790, 17106, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+18635, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+21972, 22341, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelColumn String selected", 0, 0, 6, 2, 2, 0, 2, 2
+17109, 17470, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+16172, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 5, 5, 5, 0, 0, 0
+16351, 18441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId", 0, 0, 4, 4, 4, 0, 0, 0
+21687, 23007, 1, "OK", 4, 23, 14, 9, 7, 2, 5, 1
+17142, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 6, 6, 6, 0, 0, 0
+20758, 23131, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL allUrl String labelContain String labelEqual String labelFilter String labelAll", 0, 0, 14, 9, 7, 2, 5, 1
+20867, 23849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+21059, 24060, 1, "OK", 8, 44, 20, 13, 11, 2, 7, 1
+21586, 24107, 1, "OK", 13, 38, 20, 13, 11, 2, 7, 1
+17072, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 2, 2, 2, 0, 0, 0
+17737, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17039, 17608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21349, 23261, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll String selected", 0, 0, 17, 11, 9, 2, 6, 1
+22534, 23389, 1, "OK", 4, 13, 9, 6, 6, 0, 3, 1
+16434, 17933, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl HashMap nextParamsMap", 0, 0, 4, 4, 4, 0, 0, 0
+18240, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 3, 3, 3, 0, 0, 0
+20961, 23007, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelEnd String labelContain String labelEqual String labelFilter String labelAll String selected", 0, 0, 14, 9, 7, 2, 5, 1
+16790, 17139, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+16767, 17839, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage HashMap prevParamsMap", 0, 0, 3, 3, 3, 0, 0, 0
+21832, 22621, 1, "OK", 1, 13, 8, 5, 3, 2, 3, 1
+16258, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+18540, 20223, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter String pageLabel", 0, 0, 5, 5, 5, 0, 0, 0
+17109, 17503, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+16412, 18632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter String columnFilter", 0, 0, 4, 4, 4, 0, 0, 0
+18337, 20398, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter String pageLabel String pageOfLabel", 0, 0, 5, 5, 5, 0, 0, 0
+16434, 19986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 9, 9, 9, 0, 0, 0
+17473, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+18726, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 3, 3, 3, 0, 0, 0
+16172, 17888, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage PortletURL prevUrl", 0, 0, 5, 5, 5, 0, 0, 0
+16679, 20613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber String formId String valueFilter String columnFilter String typeFilter", 0, 0, 8, 8, 8, 0, 0, 0
+20809, 23653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelFilter String labelAll", 0, 0, 20, 13, 11, 2, 7, 1
+17936, 20545, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String formId String valueFilter String columnFilter String typeFilter", 0, 0, 5, 5, 5, 0, 0, 0
+17142, 18537, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PortletURL prevUrl PortletURL nextUrl String formId String valueFilter", 0, 0, 1, 1, 1, 0, 0, 0

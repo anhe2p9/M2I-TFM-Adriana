@@ -1,0 +1,21 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+23281, 25146, 1, "OK", 5, 39, 33, 26, 16, 10, 7, 1
+23969, 24335, 1, "OK", 1, 6, 7, 3, 3, 0, 1, 4
+23652, 24815, 1, "OK", 5, 21, 24, 16, 11, 5, 4, 2
+24444, 24775, 1, "OK", 1, 7, 7, 3, 3, 0, 1, 4
+24389, 24775, 1, "OK", 1, 8, 7, 3, 3, 0, 1, 4
+23652, 25059, 1, "OK", 6, 27, 28, 18, 13, 5, 5, 2
+23380, 25146, 1, "OK", 5, 35, 31, 25, 15, 10, 6, 1
+23519, 25059, 1, "OK", 5, 30, 28, 18, 13, 5, 5, 2
+23201, 25156, 1, "OK", 5, 43, 35, 35, 18, 17, 7, 0
+23436, 24815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LocalDateTime dateTime String format", 0, 0, 24, 16, 11, 5, 4, 2
+23584, 25059, 1, "OK", 5, 29, 28, 18, 13, 5, 5, 2
+24833, 25059, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+23875, 24797, 1, "OK", 2, 17, 16, 10, 8, 2, 2, 3
+24556, 24775, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 4
+23436, 25059, 1, "OK", 4, 31, 28, 18, 13, 5, 5, 2
+23155, 25156, 1, "OK", 4, 44, 35, 35, 18, 17, 7, 0
+23519, 24815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LocalDateTime dateTime String format", 0, 0, 24, 16, 11, 5, 4, 2
+23584, 24815, 1, "OK", 4, 23, 24, 16, 11, 5, 4, 2
+23694, 24797, 1, "OK", 4, 19, 21, 12, 10, 2, 3, 3
+23281, 23366, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1

@@ -1,0 +1,43 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+1401, 2904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject selections JSONObject datasetFilters", 0, 0, 33, 33, 12, 21, 9, 0
+2497, 2848, 1, "OK", 4, 9, 5, 2, 2, 0, 1, 3
+1494, 2904, 1, "OK", 2, 51, 33, 33, 12, 21, 9, 0
+1959, 3017, 1, "OK", 3, 37, 19, 19, 8, 11, 5, 0
+2086, 2855, 1, "OK", 3, 21, 12, 6, 4, 2, 3, 2
+2303, 2848, 1, "OK", 4, 15, 9, 3, 3, 0, 2, 3
+1445, 3017, 1, "OK", 2, 59, 34, 34, 13, 21, 9, 0
+1401, 1955, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject selections JSONObject datasetFilters", 0, 0, 15, 15, 5, 10, 4, 0
+1647, 1946, 1, "OK", 3, 13, 12, 6, 3, 3, 3, 2
+1494, 1955, 1, "OK", 1, 19, 15, 15, 5, 10, 4, 0
+2907, 3017, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+2138, 2855, 1, "OK", 2, 20, 12, 6, 4, 2, 3, 2
+2046, 2894, 1, "OK", 3, 26, 15, 7, 5, 2, 4, 2
+1959, 2904, 1, "OK", 2, 31, 18, 18, 7, 11, 5, 0
+1445, 2904, 1, "OK", 1, 53, 33, 33, 12, 21, 9, 0
+1720, 1932, 1, "OK", 4, 8, 5, 1, 1, 0, 1, 4
+2075, 2894, 1, "OK", 3, 25, 15, 7, 5, 2, 4, 2
+1577, 1951, 1, "OK", 2, 16, 14, 10, 4, 6, 4, 1
+2345, 2848, 1, "OK", 5, 14, 9, 3, 3, 0, 2, 3
+2303, 2489, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+1600, 1946, 1, "OK", 2, 14, 12, 6, 3, 3, 3, 2
+1401, 2996, 1, "OK", 1, 59, 34, 34, 13, 21, 9, 0
+2244, 2848, 1, "OK", 3, 17, 9, 3, 3, 0, 2, 3
+1445, 1955, 1, "OK", 0, 21, 15, 15, 5, 10, 4, 0
+1494, 2996, 1, "OK", 3, 56, 34, 34, 13, 21, 9, 0
+2303, 2562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray values String filterOperator", 0, 0, 4, 1, 1, 0, 1, 3
+2207, 2855, 1, "OK", 3, 19, 12, 6, 4, 2, 3, 2
+1673, 1940, 1, "OK", 3, 11, 9, 3, 2, 1, 2, 3
+1793, 1932, 1, "OK", 4, 6, 5, 1, 1, 0, 1, 4
+1959, 2996, 1, "OK", 3, 36, 19, 19, 8, 11, 5, 0
+1991, 2900, 1, "OK", 2, 29, 17, 12, 6, 6, 5, 1
+1445, 2996, 1, "OK", 2, 58, 34, 34, 13, 21, 9, 0
+1520, 1951, 1, "OK", 1, 17, 14, 10, 4, 6, 4, 1
+2345, 2489, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+1401, 3017, 1, "OK", 1, 60, 34, 34, 13, 21, 9, 0
+1494, 3017, 1, "OK", 3, 57, 34, 34, 13, 21, 9, 0
+1752, 1932, 1, "OK", 3, 7, 5, 1, 1, 0, 1, 4
+2244, 2489, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String colName JSONArray values", 0, 0, 4, 1, 1, 0, 1, 3
+2569, 2848, 1, "OK", 4, 8, 5, 2, 2, 0, 1, 3
+2907, 2996, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+2345, 2562, 1, "OK", 3, 6, 4, 1, 1, 0, 1, 3
+2244, 2562, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String colName JSONArray values String filterOperator", 0, 0, 4, 1, 1, 0, 1, 3

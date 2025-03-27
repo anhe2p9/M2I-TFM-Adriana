@@ -1,0 +1,104 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+17717, 18647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject hourlyOptionsJSON JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 7, 7, 5, 2, 2, 0
+17963, 19214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 13, 13, 9, 4, 4, 0
+17708, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 82, 28, 28, 17, 11, 8, 0
+18024, 18350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 4, 4, 3, 1, 1, 0
+19466, 19746, 1, "OK", 2, 7, 7, 3, 2, 1, 2, 2
+19433, 19746, 1, "OK", 2, 8, 7, 3, 2, 1, 2, 2
+17843, 18350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject hourlyOptionsJSON JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 4, 4, 3, 1, 1, 0
+19593, 19652, 1, "OK", 2, 1, 4, 1, 1, 0, 1, 3
+17780, 20292, 1, "OK", 2, 74, 27, 27, 16, 11, 8, 0
+18088, 18936, 1, "OK", 3, 28, 10, 10, 7, 3, 3, 0
+19383, 19752, 1, "OK", 2, 10, 10, 7, 4, 3, 3, 1
+17904, 20292, 1, "OK", 4, 72, 27, 27, 16, 11, 8, 0
+17963, 19757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 24, 24, 14, 10, 7, 0
+17717, 18936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 10, 10, 7, 3, 3, 0
+18088, 19214, 1, "OK", 4, 38, 13, 13, 9, 4, 4, 0
+17708, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 84, 28, 28, 17, 11, 8, 0
+17717, 19214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 13, 13, 9, 4, 4, 0
+17963, 20292, 1, "OK", 5, 71, 27, 27, 16, 11, 8, 0
+17652, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 85, 28, 28, 17, 11, 8, 0
+18024, 18647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 7, 7, 5, 2, 2, 0
+19318, 19752, 1, "OK", 2, 11, 10, 7, 4, 3, 3, 1
+19543, 19717, 1, "OK", 2, 4, 7, 3, 2, 1, 2, 2
+18125, 18350, 1, "OK", 2, 6, 4, 4, 3, 1, 1, 0
+17843, 18647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject hourlyOptionsJSON JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 7, 7, 5, 2, 2, 0
+18355, 18647, 1, "OK", 2, 9, 3, 3, 2, 1, 1, 0
+18088, 19757, 1, "OK", 5, 53, 24, 24, 14, 10, 7, 0
+17717, 19757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 24, 24, 14, 10, 7, 0
+18225, 18345, 1, "OK", 2, 3, 3, 2, 2, 0, 1, 1
+19880, 20287, 1, "OK", 2, 11, 2, 1, 1, 0, 1, 1
+17463, 20464, 1, "OK", 1, 92, 28, 28, 17, 11, 8, 0
+17686, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 83, 28, 28, 17, 11, 8, 0
+18652, 18936, 1, "OK", 2, 9, 3, 3, 2, 1, 1, 0
+17620, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 86, 28, 28, 17, 11, 8, 0
+18088, 20292, 1, "OK", 6, 68, 27, 27, 16, 11, 8, 0
+18455, 18642, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+19938, 20287, 1, "OK", 2, 10, 2, 1, 1, 0, 1, 1
+18024, 18936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 10, 10, 7, 3, 3, 0
+19510, 19717, 1, "OK", 2, 5, 7, 3, 2, 1, 2, 2
+19031, 19209, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+19593, 19710, 1, "OK", 3, 2, 4, 1, 1, 0, 1, 3
+18125, 18647, 1, "OK", 3, 16, 7, 7, 5, 2, 2, 0
+19510, 19746, 1, "OK", 2, 6, 7, 3, 2, 1, 2, 2
+19543, 19746, 1, "OK", 2, 5, 7, 3, 2, 1, 2, 2
+17843, 18936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 10, 10, 7, 3, 3, 0
+18355, 18936, 1, "OK", 3, 19, 6, 6, 4, 2, 2, 0
+18024, 19214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 13, 13, 9, 4, 4, 0
+17780, 18350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject minutesOptionsJSON JSONObject hourlyOptionsJSON JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 4, 4, 3, 1, 1, 0
+17843, 19214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 13, 13, 9, 4, 4, 0
+18355, 19214, 1, "OK", 4, 29, 9, 9, 6, 3, 3, 0
+17904, 18350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 4, 4, 3, 1, 1, 0
+17717, 20292, 1, "OK", 1, 75, 27, 27, 16, 11, 8, 0
+17652, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 87, 28, 28, 17, 11, 8, 0
+18652, 19214, 1, "OK", 3, 19, 6, 6, 4, 2, 2, 0
+18941, 19214, 1, "OK", 2, 9, 3, 3, 2, 1, 1, 0
+18125, 18936, 1, "OK", 4, 26, 10, 10, 7, 3, 3, 0
+17463, 20517, 1, "OK", 1, 94, 28, 28, 17, 11, 8, 0
+18024, 19757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 24, 24, 14, 10, 7, 0
+17843, 19757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 24, 24, 14, 10, 7, 0
+18355, 19757, 1, "OK", 5, 44, 20, 20, 11, 9, 6, 0
+17589, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 87, 28, 28, 17, 11, 8, 0
+17556, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 89, 28, 28, 17, 11, 8, 0
+18024, 20292, 1, "OK", 6, 70, 27, 27, 16, 11, 8, 0
+17523, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 90, 28, 28, 17, 11, 8, 0
+17490, 20464, 0, "Compilation unit does not compile after method extraction.", 2, 91, 28, 28, 17, 11, 8, 0
+17686, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 85, 28, 28, 17, 11, 8, 0
+18941, 19757, 1, "OK", 3, 24, 14, 14, 7, 7, 4, 0
+17620, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 88, 28, 28, 17, 11, 8, 0
+18652, 19757, 1, "OK", 4, 34, 17, 17, 9, 8, 5, 0
+17904, 18647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 7, 7, 5, 2, 2, 0
+18652, 20292, 1, "OK", 5, 49, 20, 20, 11, 9, 6, 0
+18941, 20292, 1, "OK", 4, 39, 17, 17, 9, 8, 5, 0
+18125, 19214, 1, "OK", 5, 36, 13, 13, 9, 4, 4, 0
+17780, 18647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject hourlyOptionsJSON JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 7, 7, 5, 2, 2, 0
+17963, 18350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 4, 4, 3, 1, 1, 0
+19281, 19757, 1, "OK", 2, 13, 11, 11, 5, 6, 3, 0
+17843, 20292, 1, "OK", 3, 73, 27, 27, 16, 11, 8, 0
+18355, 20292, 1, "OK", 6, 59, 23, 23, 13, 10, 7, 0
+18977, 19209, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+17904, 18936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 10, 10, 7, 3, 3, 0
+17963, 18647, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 7, 7, 5, 2, 2, 0
+18125, 19757, 1, "OK", 6, 51, 24, 24, 14, 10, 7, 0
+19842, 20292, 1, "OK", 2, 13, 3, 3, 2, 1, 1, 0
+17780, 18936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 10, 10, 7, 3, 3, 0
+18088, 18350, 1, "OK", 1, 8, 4, 4, 3, 1, 1, 0
+18125, 20292, 1, "OK", 7, 66, 27, 27, 16, 11, 8, 0
+17717, 18350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject minutesOptionsJSON JSONObject hourlyOptionsJSON JSONObject dailyOptionsJSON JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 4, 4, 3, 1, 1, 0
+18393, 18642, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+17780, 19214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 13, 13, 9, 4, 4, 0
+17904, 19214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 13, 13, 9, 4, 4, 0
+17589, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 89, 28, 28, 17, 11, 8, 0
+17556, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 91, 28, 28, 17, 11, 8, 0
+18689, 18931, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+17523, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 92, 28, 28, 17, 11, 8, 0
+17490, 20517, 0, "Compilation unit does not compile after method extraction.", 2, 93, 28, 28, 17, 11, 8, 0
+19281, 20292, 1, "OK", 3, 28, 14, 14, 7, 7, 4, 0
+18163, 18345, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+17963, 18936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject weeklyOptionsJSON JSONObject monthlyOptionsJSON", 0, 0, 10, 10, 7, 3, 3, 0
+18748, 18931, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+17780, 19757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 24, 24, 14, 10, 7, 0
+19433, 19717, 1, "OK", 2, 7, 7, 3, 2, 1, 2, 2
+19466, 19717, 1, "OK", 2, 6, 7, 3, 2, 1, 2, 2
+17904, 19757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer expression JSONObject monthlyOptionsJSON", 0, 0, 24, 24, 14, 10, 7, 0
+18088, 18647, 1, "OK", 2, 18, 7, 7, 5, 2, 2, 0

@@ -1,0 +1,41 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+13999, 14291, 1, "OK", 3, 11, 3, 3, 2, 1, 1, 0
+13727, 14657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean degenerate double[] intercepts", 0, 0, 11, 11, 7, 4, 3, 0
+13874, 14388, 1, "OK", 2, 18, 4, 4, 3, 1, 1, 0
+14260, 14388, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+13864, 14963, 1, "OK", 3, 44, 17, 17, 10, 7, 5, 0
+13727, 14987, 1, "OK", 0, 50, 17, 17, 10, 7, 5, 0
+14665, 14963, 1, "OK", 2, 11, 6, 6, 3, 3, 2, 0
+13864, 14450, 1, "OK", 3, 22, 5, 5, 4, 1, 1, 0
+14456, 14657, 1, "OK", 2, 9, 6, 6, 3, 3, 2, 0
+14785, 14952, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+14456, 14987, 1, "OK", 2, 23, 12, 12, 6, 6, 4, 0
+13923, 14291, 1, "OK", 2, 13, 3, 3, 2, 1, 1, 0
+13999, 14253, 1, "OK", 3, 9, 3, 3, 2, 1, 1, 0
+13864, 14657, 1, "OK", 3, 32, 11, 11, 7, 4, 3, 0
+14298, 14388, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+13774, 14963, 1, "OK", 1, 47, 17, 17, 10, 7, 5, 0
+13805, 14450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean degenerate double[] intercepts", 0, 0, 5, 5, 4, 1, 1, 0
+13999, 14388, 1, "OK", 4, 15, 4, 4, 3, 1, 1, 0
+13805, 14963, 1, "OK", 2, 46, 17, 17, 10, 7, 5, 0
+13864, 14987, 1, "OK", 3, 46, 17, 17, 10, 7, 5, 0
+13774, 14450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean degenerate double[] intercepts", 0, 0, 5, 5, 4, 1, 1, 0
+14051, 14247, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+14521, 14652, 1, "OK", 2, 6, 5, 3, 2, 1, 2, 1
+14665, 14987, 1, "OK", 2, 13, 6, 6, 3, 3, 2, 0
+13874, 14291, 1, "OK", 1, 14, 3, 3, 2, 1, 1, 0
+13923, 14253, 1, "OK", 2, 11, 3, 3, 2, 1, 1, 0
+14573, 14646, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+14144, 14247, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+13727, 14450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean degenerate double[] intercepts", 0, 0, 5, 5, 4, 1, 1, 0
+13774, 14657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean degenerate double[] intercepts", 0, 0, 11, 11, 7, 4, 3, 0
+13727, 14963, 1, "OK", 0, 48, 17, 17, 10, 7, 5, 0
+13805, 14657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean degenerate double[] intercepts", 0, 0, 11, 11, 7, 4, 3, 0
+14163, 14247, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+14747, 14958, 1, "OK", 1, 7, 5, 3, 2, 1, 2, 1
+13923, 14388, 1, "OK", 3, 17, 4, 4, 3, 1, 1, 0
+14687, 14958, 1, "OK", 1, 9, 5, 3, 2, 1, 2, 1
+13774, 14987, 1, "OK", 1, 49, 17, 17, 10, 7, 5, 0
+13805, 14987, 1, "OK", 2, 48, 17, 17, 10, 7, 5, 0
+13874, 14253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] b double[][] A", 0, 0, 3, 3, 2, 1, 1, 0
+14456, 14963, 1, "OK", 2, 21, 12, 12, 6, 6, 4, 0

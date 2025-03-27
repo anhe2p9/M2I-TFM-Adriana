@@ -1,0 +1,148 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3357, 4028, 1, "OK", 3, 16, 8, 5, 3, 2, 3, 1
+1184, 2537, 1, "OK", 0, 30, 20, 13, 10, 3, 7, 1
+2725, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 4, 2, 2, 0, 2, 1
+3072, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 2, 1, 1, 0, 1, 1
+1003, 4058, 1, "OK", 3, 73, 37, 37, 19, 18, 13, 0
+2750, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 4, 2, 2, 0, 2, 1
+1184, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 44, 25, 16, 13, 3, 9, 1
+1184, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 27, 17, 14, 3, 10, 1
+3357, 4048, 1, "OK", 3, 17, 8, 5, 3, 2, 3, 1
+1720, 3343, 1, "OK", 1, 37, 19, 12, 10, 2, 7, 1
+3031, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 2, 1, 1, 0, 1, 1
+1586, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 21, 13, 11, 2, 8, 1
+1132, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 27, 17, 14, 3, 10, 1
+1586, 2134, 1, "OK", 0, 12, 8, 5, 4, 1, 3, 1
+2148, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 13, 8, 7, 1, 5, 1
+1132, 2134, 1, "OK", 1, 23, 14, 9, 7, 2, 5, 1
+1184, 3343, 1, "OK", 1, 50, 27, 17, 14, 3, 10, 1
+2551, 2711, 1, "OK", 0, 3, 3, 2, 2, 0, 1, 1
+2235, 2523, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+2551, 3992, 1, "OK", 2, 35, 15, 9, 7, 2, 6, 1
+1184, 1572, 1, "OK", 0, 8, 6, 4, 3, 1, 2, 1
+3509, 3992, 1, "OK", 3, 13, 8, 5, 3, 2, 3, 1
+2551, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 7, 4, 4, 0, 3, 1
+2725, 3992, 1, "OK", 2, 31, 12, 7, 5, 2, 5, 1
+1811, 2120, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+1720, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 19, 12, 10, 2, 7, 1
+3072, 3992, 0, "Compilation unit does not compile after method extraction.", 3, 22, 10, 6, 4, 2, 4, 1
+2551, 2737, 0, "Compilation unit does not compile after method extraction.", 0, 5, 3, 2, 2, 0, 1, 1
+2750, 3992, 0, "Compilation unit does not compile after method extraction.", 3, 30, 12, 7, 5, 2, 5, 1
+1720, 2134, 1, "OK", 0, 8, 6, 4, 3, 1, 2, 1
+3419, 3992, 1, "OK", 3, 14, 8, 5, 3, 2, 3, 1
+3031, 3992, 1, "OK", 2, 23, 10, 6, 4, 2, 4, 1
+2725, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 4, 2, 2, 0, 2, 1
+1586, 2711, 1, "OK", 0, 25, 17, 11, 9, 2, 6, 1
+1586, 3992, 1, "OK", 2, 57, 29, 18, 14, 4, 11, 1
+2551, 4028, 1, "OK", 3, 36, 15, 9, 7, 2, 6, 1
+3072, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 2, 1, 1, 0, 1, 1
+3509, 4028, 1, "OK", 4, 14, 8, 5, 3, 2, 3, 1
+2750, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 4, 2, 2, 0, 2, 1
+1132, 2711, 1, "OK", 1, 36, 23, 15, 12, 3, 8, 1
+1132, 3992, 1, "OK", 2, 68, 35, 22, 17, 5, 13, 1
+1184, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 27, 17, 14, 3, 10, 1
+2551, 3017, 1, "OK", 1, 11, 5, 3, 3, 0, 2, 1
+3031, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 2, 1, 1, 0, 1, 1
+2148, 3992, 1, "OK", 2, 44, 21, 13, 10, 3, 8, 1
+2148, 2711, 1, "OK", 0, 12, 9, 6, 5, 1, 3, 1
+1184, 2134, 1, "OK", 0, 21, 14, 9, 7, 2, 5, 1
+1586, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 21, 13, 11, 2, 8, 1
+1586, 1706, 1, "OK", 0, 3, 2, 1, 1, 0, 1, 1
+2725, 4028, 1, "OK", 3, 32, 12, 7, 5, 2, 5, 1
+3585, 3992, 1, "OK", 4, 11, 8, 5, 3, 2, 3, 1
+2551, 4048, 1, "OK", 3, 37, 15, 9, 7, 2, 6, 1
+3072, 4028, 0, "Compilation unit does not compile after method extraction.", 4, 23, 10, 6, 4, 2, 4, 1
+1132, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 27, 17, 14, 3, 10, 1
+3509, 4048, 1, "OK", 4, 15, 8, 5, 3, 2, 3, 1
+2551, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 7, 4, 4, 0, 3, 1
+2750, 4028, 0, "Compilation unit does not compile after method extraction.", 4, 31, 12, 7, 5, 2, 5, 1
+1132, 1706, 1, "OK", 1, 14, 8, 5, 4, 1, 3, 1
+1586, 2737, 0, "Compilation unit does not compile after method extraction.", 0, 27, 17, 11, 9, 2, 6, 1
+3419, 4028, 1, "OK", 4, 15, 8, 5, 3, 2, 3, 1
+2148, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 13, 8, 7, 1, 5, 1
+2725, 3017, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+1132, 2737, 0, "Compilation unit does not compile after method extraction.", 1, 38, 23, 15, 12, 3, 8, 1
+3031, 4028, 1, "OK", 3, 24, 10, 6, 4, 2, 4, 1
+1586, 4028, 1, "OK", 3, 58, 29, 18, 14, 4, 11, 1
+2725, 4048, 1, "OK", 3, 33, 12, 7, 5, 2, 5, 1
+2750, 3017, 0, "Compilation unit does not compile after method extraction.", 2, 6, 2, 1, 1, 0, 1, 1
+2148, 2737, 0, "Compilation unit does not compile after method extraction.", 0, 14, 9, 6, 5, 1, 3, 1
+2725, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 4, 2, 2, 0, 2, 1
+3072, 4048, 0, "Compilation unit does not compile after method extraction.", 4, 24, 10, 6, 4, 2, 4, 1
+1132, 4028, 1, "OK", 3, 69, 35, 22, 17, 5, 13, 1
+2750, 4048, 0, "Compilation unit does not compile after method extraction.", 4, 32, 12, 7, 5, 2, 5, 1
+3072, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 2, 1, 1, 0, 1, 1
+3419, 4048, 1, "OK", 4, 16, 8, 5, 3, 2, 3, 1
+1586, 3017, 1, "OK", 1, 33, 19, 12, 10, 2, 7, 1
+2148, 4028, 1, "OK", 3, 45, 21, 13, 10, 3, 8, 1
+2750, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 4, 2, 2, 0, 2, 1
+3671, 3918, 1, "OK", 3, 7, 6, 2, 2, 0, 2, 2
+3031, 4048, 1, "OK", 3, 25, 10, 6, 4, 2, 4, 1
+2551, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 13, 5, 3, 3, 0, 2, 1
+3585, 4028, 1, "OK", 5, 12, 8, 5, 3, 2, 3, 1
+1132, 3017, 1, "OK", 1, 44, 25, 16, 13, 3, 9, 1
+3031, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 2, 1, 1, 0, 1, 1
+1586, 4048, 1, "OK", 3, 59, 29, 18, 14, 4, 11, 1
+2551, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 7, 4, 4, 0, 3, 1
+1720, 2711, 1, "OK", 0, 21, 15, 10, 8, 2, 5, 1
+3630, 3918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Entry<String, Method> entry Object val", 0, 0, 6, 2, 2, 0, 2, 2
+1720, 3992, 1, "OK", 2, 53, 27, 17, 13, 4, 10, 1
+1586, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 21, 13, 11, 2, 8, 1
+1132, 4048, 1, "OK", 3, 70, 35, 22, 17, 5, 13, 1
+2148, 3017, 1, "OK", 1, 20, 11, 7, 6, 1, 4, 1
+1132, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 27, 17, 14, 3, 10, 1
+2148, 4048, 1, "OK", 3, 46, 21, 13, 10, 3, 8, 1
+2725, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 9, 2, 1, 1, 0, 1, 1
+1720, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 19, 12, 10, 2, 7, 1
+2725, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 4, 2, 2, 0, 2, 1
+3585, 4048, 1, "OK", 5, 13, 8, 5, 3, 2, 3, 1
+2148, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 13, 8, 7, 1, 5, 1
+3072, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 2, 1, 1, 0, 1, 1
+2750, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 4, 2, 2, 0, 2, 1
+3554, 3992, 1, "OK", 3, 12, 8, 5, 3, 2, 3, 1
+2750, 3059, 0, "Compilation unit does not compile after method extraction.", 2, 8, 2, 1, 1, 0, 1, 1
+1184, 2711, 1, "OK", 0, 34, 23, 15, 12, 3, 8, 1
+1586, 2537, 1, "OK", 0, 21, 14, 9, 7, 2, 5, 1
+2551, 3343, 1, "OK", 1, 19, 7, 4, 4, 0, 3, 1
+1058, 4058, 1, "OK", 3, 72, 37, 37, 19, 18, 13, 0
+1184, 3992, 1, "OK", 2, 66, 35, 22, 17, 5, 13, 1
+1720, 2737, 0, "Compilation unit does not compile after method extraction.", 0, 23, 15, 10, 8, 2, 5, 1
+959, 4058, 1, "OK", 2, 74, 37, 37, 19, 18, 13, 0
+1132, 2537, 1, "OK", 1, 32, 20, 13, 10, 3, 7, 1
+3031, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 2, 1, 1, 0, 1, 1
+1586, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 35, 19, 12, 10, 2, 7, 1
+1586, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 21, 13, 11, 2, 8, 1
+1720, 4028, 1, "OK", 3, 54, 27, 17, 13, 4, 10, 1
+2148, 2537, 1, "OK", 0, 8, 6, 4, 3, 1, 2, 1
+1132, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 46, 25, 16, 13, 3, 9, 1
+1263, 1558, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+1132, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 27, 17, 14, 3, 10, 1
+1184, 3496, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 27, 17, 14, 3, 10, 1
+2725, 3343, 1, "OK", 1, 15, 4, 2, 2, 0, 2, 1
+1184, 1706, 1, "OK", 0, 12, 8, 5, 4, 1, 3, 1
+2148, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 13, 8, 7, 1, 5, 1
+2148, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 22, 11, 7, 6, 1, 4, 1
+3072, 3343, 0, "Compilation unit does not compile after method extraction.", 2, 6, 2, 1, 1, 0, 1, 1
+1184, 2737, 0, "Compilation unit does not compile after method extraction.", 0, 36, 23, 15, 12, 3, 8, 1
+1720, 3017, 1, "OK", 1, 29, 17, 11, 9, 2, 6, 1
+2750, 3343, 0, "Compilation unit does not compile after method extraction.", 2, 14, 4, 2, 2, 0, 2, 1
+3671, 3978, 1, "OK", 4, 8, 6, 2, 2, 0, 2, 2
+3031, 3343, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+1720, 4048, 1, "OK", 3, 55, 27, 17, 13, 4, 10, 1
+3554, 4028, 1, "OK", 4, 13, 8, 5, 3, 2, 3, 1
+3630, 3978, 1, "OK", 4, 9, 6, 2, 2, 0, 2, 2
+1184, 4028, 1, "OK", 3, 67, 35, 22, 17, 5, 13, 1
+3357, 3992, 1, "OK", 2, 15, 8, 5, 3, 2, 3, 1
+1586, 3343, 1, "OK", 1, 41, 21, 13, 11, 2, 8, 1
+1720, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 19, 12, 10, 2, 7, 1
+1132, 3343, 1, "OK", 1, 52, 27, 17, 14, 3, 10, 1
+1184, 3017, 1, "OK", 1, 42, 25, 16, 13, 3, 9, 1
+2148, 3343, 1, "OK", 1, 28, 13, 8, 7, 1, 5, 1
+3554, 4048, 1, "OK", 4, 14, 8, 5, 3, 2, 3, 1
+1184, 4048, 1, "OK", 3, 68, 35, 22, 17, 5, 13, 1
+1720, 2537, 1, "OK", 0, 17, 12, 8, 6, 2, 4, 1
+1184, 3541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator", 0, 0, 27, 17, 14, 3, 10, 1
+1132, 1572, 1, "OK", 1, 10, 6, 4, 3, 1, 2, 1
+2551, 3406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Method> members JSONObject json", 0, 0, 7, 4, 4, 0, 3, 1
+1720, 3059, 0, "Compilation unit does not compile after method extraction.", 1, 31, 17, 11, 9, 2, 6, 1
+1720, 3572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject json Iterator<Entry<String, Method>> iterator Object val", 0, 0, 19, 12, 10, 2, 7, 1

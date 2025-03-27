@@ -1,0 +1,80 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+166846, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+166868, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max", 0, 0, 3, 3, 3, 0, 0, 0
+166764, 166915, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+166790, 168159, 1, "OK", 1, 50, 17, 17, 13, 4, 4, 0
+167402, 167878, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 4, 4, 0, 3, 1
+167445, 167697, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+167445, 167541, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+167402, 167724, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+166846, 166915, 0, "Compilation unit does not compile after method extraction.", 0, 5, 1, 1, 1, 0, 0, 0
+167194, 168159, 0, "Compilation unit does not compile after method extraction.", 7, 32, 14, 14, 10, 4, 4, 0
+167593, 167697, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+166825, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+167711, 167878, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+166790, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 12, 12, 9, 3, 3, 0
+166868, 168159, 0, "Compilation unit does not compile after method extraction.", 3, 46, 17, 17, 13, 4, 4, 0
+166764, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i int max long multmin", 0, 0, 4, 4, 4, 0, 0, 0
+166927, 168159, 0, "Compilation unit does not compile after method extraction.", 3, 42, 16, 16, 12, 4, 4, 0
+166868, 166915, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+166790, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i int max long multmin", 0, 0, 4, 4, 4, 0, 0, 0
+167445, 167848, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 4, 0, 3, 1
+166927, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max", 0, 0, 2, 2, 2, 0, 0, 0
+167445, 167724, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+166868, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+166965, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 11, 11, 8, 3, 3, 0
+167299, 168159, 0, "Compilation unit does not compile after method extraction.", 7, 28, 13, 13, 9, 4, 4, 0
+166764, 166953, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+166790, 166915, 0, "Compilation unit does not compile after method extraction.", 0, 7, 1, 1, 1, 0, 0, 0
+167593, 167878, 1, "OK", 4, 8, 4, 2, 2, 0, 2, 1
+166825, 166953, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+166790, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max", 0, 0, 3, 3, 3, 0, 0, 0
+167194, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int digit int i", 0, 0, 1, 1, 1, 0, 0, 0
+167901, 168159, 1, "OK", 3, 9, 5, 5, 4, 1, 1, 0
+167593, 167848, 1, "OK", 4, 7, 4, 2, 2, 0, 2, 1
+166927, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 11, 11, 8, 3, 3, 0
+166764, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int i int max long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+167593, 167724, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+167445, 167579, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+166868, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i int max long multmin", 0, 0, 4, 4, 4, 0, 0, 0
+167557, 167697, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+166846, 166953, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+167299, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int i", 0, 0, 8, 8, 5, 3, 3, 0
+167738, 167848, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+166965, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i", 0, 0, 2, 2, 2, 0, 0, 0
+167151, 168159, 0, "Compilation unit does not compile after method extraction.", 6, 33, 14, 14, 10, 4, 4, 0
+167445, 167878, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 4, 4, 0, 3, 1
+166846, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 12, 12, 9, 3, 3, 0
+166825, 168159, 1, "OK", 2, 49, 17, 17, 13, 4, 4, 0
+166868, 166953, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+166825, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max", 0, 0, 3, 3, 3, 0, 0, 0
+167151, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int i", 0, 0, 9, 9, 6, 3, 3, 0
+167557, 167848, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int digit", 0, 0, 4, 2, 2, 0, 2, 1
+166825, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 12, 12, 9, 3, 3, 0
+167557, 167724, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int digit", 0, 0, 2, 1, 1, 0, 1, 1
+166790, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+166927, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i int max long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+166965, 168159, 0, "Compilation unit does not compile after method extraction.", 5, 40, 16, 16, 12, 4, 4, 0
+167738, 167878, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+167402, 167541, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+166825, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i int max long multmin", 0, 0, 4, 4, 4, 0, 0, 0
+167402, 167579, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+166764, 168159, 1, "OK", 0, 51, 17, 17, 13, 4, 4, 0
+167194, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int i", 0, 0, 9, 9, 6, 3, 3, 0
+166825, 166915, 0, "Compilation unit does not compile after method extraction.", 0, 6, 1, 1, 1, 0, 0, 0
+166764, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int i int max", 0, 0, 3, 3, 3, 0, 0, 0
+166846, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i int max long multmin", 0, 0, 4, 4, 4, 0, 0, 0
+166965, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i long multmin", 0, 0, 2, 2, 2, 0, 0, 0
+167402, 167848, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 4, 0, 3, 1
+166868, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 12, 12, 9, 3, 3, 0
+166846, 168159, 1, "OK", 2, 48, 17, 17, 13, 4, 4, 0
+166927, 167184, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max long multmin", 0, 0, 2, 2, 2, 0, 0, 0
+167557, 167878, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int digit", 0, 0, 4, 2, 2, 0, 2, 1
+166965, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative long limit int digit int i long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+166790, 166953, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+166764, 167889, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i", 0, 0, 12, 12, 9, 3, 3, 0
+166846, 167141, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative long limit int i int max", 0, 0, 3, 3, 3, 0, 0, 0
+167402, 167697, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+167151, 167289, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int digit int i long multmin", 0, 0, 1, 1, 1, 0, 0, 0
+167711, 167848, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+167930, 168101, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1

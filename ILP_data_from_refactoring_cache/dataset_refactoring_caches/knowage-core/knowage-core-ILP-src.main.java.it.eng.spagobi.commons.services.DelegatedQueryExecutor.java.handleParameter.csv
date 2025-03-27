@@ -1,0 +1,98 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12748, 17810, 1, "OK", 8, 130, 65, 65, 31, 34, 15, 0
+16558, 16694, 1, "OK", 3, 2, 1, 1, 1, 0, 0, 3
+17062, 17715, 1, "OK", 6, 15, 15, 6, 3, 3, 3, 3
+12821, 17858, 1, "OK", 9, 131, 65, 65, 31, 34, 15, 0
+12887, 17858, 1, "OK", 10, 130, 65, 65, 31, 34, 15, 0
+14137, 14437, 1, "OK", 1, 10, 6, 2, 2, 0, 2, 2
+13210, 17834, 1, "OK", 15, 120, 65, 65, 31, 34, 15, 0
+12748, 17834, 1, "OK", 8, 132, 65, 65, 31, 34, 15, 0
+13101, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+14137, 14963, 1, "OK", 3, 21, 11, 5, 5, 0, 3, 2
+12955, 17810, 1, "OK", 11, 126, 65, 65, 31, 34, 15, 0
+17062, 17743, 1, "OK", 6, 17, 15, 6, 3, 3, 3, 3
+14179, 14437, 1, "OK", 2, 8, 6, 2, 2, 0, 2, 2
+16270, 16694, 1, "OK", 3, 6, 3, 3, 3, 0, 0, 3
+13210, 17858, 1, "OK", 15, 121, 65, 65, 31, 34, 15, 0
+14191, 14340, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+12748, 17858, 1, "OK", 8, 133, 65, 65, 31, 34, 15, 0
+12821, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+12887, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+12955, 17834, 1, "OK", 11, 128, 65, 65, 31, 34, 15, 0
+14691, 14963, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 2
+14179, 14963, 1, "OK", 4, 19, 11, 5, 5, 0, 3, 2
+17237, 17715, 1, "OK", 8, 11, 15, 6, 3, 3, 3, 3
+12726, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+13210, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion", 0, 0, 31, 31, 17, 14, 8, 0
+14137, 14501, 1, "OK", 1, 12, 6, 2, 2, 0, 2, 2
+12955, 17858, 1, "OK", 11, 129, 65, 65, 31, 34, 15, 0
+14444, 14963, 1, "OK", 4, 10, 5, 3, 3, 0, 1, 2
+17180, 17715, 1, "OK", 7, 12, 15, 6, 3, 3, 3, 3
+17417, 17536, 1, "OK", 4, 1, 6, 1, 1, 0, 1, 5
+13024, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+17237, 17743, 1, "OK", 8, 13, 15, 6, 3, 3, 3, 3
+12726, 17810, 1, "OK", 8, 131, 65, 65, 31, 34, 15, 0
+16123, 16694, 1, "OK", 3, 8, 4, 4, 4, 0, 0, 3
+12748, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+14179, 14501, 1, "OK", 2, 10, 6, 2, 2, 0, 2, 2
+16999, 17715, 1, "OK", 6, 16, 15, 6, 3, 3, 3, 3
+12955, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+16915, 17750, 1, "OK", 7, 23, 18, 10, 4, 6, 4, 2
+12726, 17834, 1, "OK", 8, 133, 65, 65, 31, 34, 15, 0
+13058, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+13024, 17810, 1, "OK", 12, 124, 65, 65, 31, 34, 15, 0
+13696, 15154, 1, "OK", 4, 40, 21, 15, 10, 5, 6, 1
+17180, 17743, 1, "OK", 7, 14, 15, 6, 3, 3, 3, 3
+16999, 17743, 1, "OK", 6, 18, 15, 6, 3, 3, 3, 3
+15791, 17810, 1, "OK", 10, 48, 35, 35, 15, 20, 7, 0
+14126, 15149, 1, "OK", 3, 26, 14, 6, 6, 0, 4, 2
+12726, 17858, 1, "OK", 8, 134, 65, 65, 31, 34, 15, 0
+13024, 17834, 1, "OK", 12, 126, 65, 65, 31, 34, 15, 0
+13696, 15189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object inParameterValue boolean skipParameterInsertion", 0, 0, 21, 15, 10, 5, 6, 1
+15512, 15722, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+13058, 17810, 1, "OK", 13, 123, 65, 65, 31, 34, 15, 0
+17062, 17590, 1, "OK", 6, 12, 15, 6, 3, 3, 3, 3
+15791, 17834, 1, "OK", 10, 50, 35, 35, 15, 20, 7, 0
+13101, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+13024, 17858, 1, "OK", 12, 127, 65, 65, 31, 34, 15, 0
+17370, 17544, 1, "OK", 5, 3, 11, 3, 2, 1, 2, 4
+13696, 15214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion", 0, 0, 21, 15, 10, 5, 6, 1
+15977, 16694, 1, "OK", 3, 10, 8, 5, 5, 0, 1, 3
+15850, 17810, 1, "OK", 10, 45, 34, 34, 14, 20, 7, 0
+13058, 17834, 1, "OK", 13, 125, 65, 65, 31, 34, 15, 0
+15884, 17779, 1, "OK", 9, 43, 33, 26, 13, 13, 7, 1
+16415, 16694, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 3
+15323, 15727, 1, "OK", 7, 8, 6, 4, 3, 1, 2, 1
+15791, 17858, 1, "OK", 10, 51, 35, 35, 15, 20, 7, 0
+14261, 14340, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+12726, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+12821, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+12887, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+13101, 17810, 1, "OK", 14, 121, 65, 65, 31, 34, 15, 0
+13024, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+13724, 14109, 1, "OK", 4, 10, 4, 2, 2, 0, 1, 2
+15850, 17834, 1, "OK", 10, 47, 34, 34, 14, 20, 7, 0
+13058, 17858, 1, "OK", 13, 126, 65, 65, 31, 34, 15, 0
+15472, 15727, 1, "OK", 3, 7, 6, 4, 3, 1, 2, 1
+17237, 17590, 1, "OK", 7, 8, 15, 6, 3, 3, 3, 3
+17180, 17590, 1, "OK", 7, 9, 15, 6, 3, 3, 3, 3
+12821, 17810, 1, "OK", 9, 128, 65, 65, 31, 34, 15, 0
+13101, 17834, 1, "OK", 14, 123, 65, 65, 31, 34, 15, 0
+12887, 17810, 1, "OK", 10, 127, 65, 65, 31, 34, 15, 0
+13210, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion", 0, 0, 30, 30, 16, 14, 8, 0
+15225, 15731, 1, "OK", 8, 12, 8, 8, 5, 3, 2, 0
+15850, 17858, 1, "OK", 10, 48, 34, 34, 14, 20, 7, 0
+17370, 17583, 1, "OK", 7, 4, 11, 3, 2, 1, 2, 4
+15791, 15846, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+13058, 15846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 31, 31, 17, 14, 8, 0
+15934, 16801, 1, "OK", 4, 14, 12, 8, 7, 1, 2, 2
+13758, 14109, 1, "OK", 4, 9, 4, 2, 2, 0, 1, 2
+12748, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+14507, 14963, 1, "OK", 4, 9, 5, 3, 3, 0, 1, 2
+12821, 17834, 1, "OK", 9, 130, 65, 65, 31, 34, 15, 0
+13101, 17858, 1, "OK", 14, 124, 65, 65, 31, 34, 15, 0
+12887, 17834, 1, "OK", 10, 129, 65, 65, 31, 34, 15, 0
+16999, 17590, 1, "OK", 6, 13, 15, 6, 3, 3, 3, 3
+15934, 16827, 1, "OK", 4, 15, 12, 8, 7, 1, 2, 2
+12955, 15731, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean parameterUsed Object inParameterValue boolean skipParameterInsertion String dialect", 0, 0, 30, 30, 16, 14, 8, 0
+13210, 17810, 1, "OK", 15, 118, 65, 65, 31, 34, 15, 0

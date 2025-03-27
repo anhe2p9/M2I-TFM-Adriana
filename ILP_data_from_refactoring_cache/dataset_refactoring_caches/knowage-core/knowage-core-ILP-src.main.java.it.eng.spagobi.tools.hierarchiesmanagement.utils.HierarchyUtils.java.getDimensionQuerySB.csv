@@ -1,0 +1,158 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+22351, 23992, 1, "OK", 3, 28, 19, 13, 8, 5, 6, 1
+21162, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 5, 5, 4, 1, 1, 0
+21764, 25042, 1, "OK", 14, 58, 25, 25, 13, 12, 7, 0
+23533, 23705, 1, "OK", 5, 3, 1, 1, 1, 0, 0, 3
+21798, 22194, 1, "OK", 6, 7, 2, 2, 2, 0, 0, 0
+23351, 23705, 1, "OK", 5, 5, 2, 2, 2, 0, 0, 3
+22874, 23130, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+21141, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 5, 5, 4, 1, 1, 0
+21482, 25066, 1, "OK", 12, 66, 25, 25, 13, 12, 7, 0
+21549, 25042, 1, "OK", 12, 61, 25, 25, 13, 12, 7, 0
+24034, 24808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol String dimFilterFieldCol String selectFilterField", 0, 0, 2, 1, 1, 0, 1, 1
+24100, 24808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol String dimFilterFieldCol String selectFilterField", 0, 0, 2, 1, 1, 0, 1, 1
+23169, 23739, 1, "OK", 6, 8, 6, 3, 3, 0, 1, 3
+21056, 21655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21658, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String endDtColumn StringBuffer query", 0, 0, 2, 2, 2, 0, 0, 0
+21549, 25066, 1, "OK", 12, 63, 25, 25, 13, 12, 7, 0
+24139, 24391, 1, "OK", 5, 4, 2, 1, 1, 0, 1, 1
+22855, 23746, 1, "OK", 6, 16, 12, 6, 5, 1, 3, 2
+21162, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 25, 25, 13, 12, 7, 0
+21482, 25082, 1, "OK", 12, 67, 25, 25, 13, 12, 7, 0
+22636, 23099, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterValue HashMap<String, String> filterCondition", 0, 0, 6, 2, 2, 0, 2, 2
+21798, 23996, 1, "OK", 7, 41, 22, 22, 11, 11, 6, 0
+22636, 22849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterValue HashMap<String, String> filterCondition", 0, 0, 3, 1, 1, 0, 1, 2
+22636, 22868, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterValue HashMap<String, String> filterCondition int cIdx", 0, 0, 3, 1, 1, 0, 1, 2
+21162, 25042, 1, "OK", 14, 77, 28, 28, 15, 13, 8, 0
+21549, 25082, 1, "OK", 12, 64, 25, 25, 13, 12, 7, 0
+22636, 23130, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterValue HashMap<String, String> filterCondition String filterString", 0, 0, 6, 2, 2, 0, 2, 2
+21798, 25042, 1, "OK", 14, 57, 25, 25, 13, 12, 7, 0
+22777, 23099, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+23136, 23746, 1, "OK", 6, 10, 9, 5, 4, 1, 2, 2
+21205, 21655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21658, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String endDtColumn StringBuffer query", 0, 0, 22, 22, 11, 11, 6, 0
+21764, 25066, 1, "OK", 14, 60, 25, 25, 13, 12, 7, 0
+22434, 23752, 1, "OK", 3, 22, 17, 12, 7, 5, 5, 1
+22558, 23746, 1, "OK", 3, 19, 15, 7, 6, 1, 4, 2
+24100, 24605, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol", 0, 0, 2, 1, 1, 0, 1, 1
+21658, 25042, 1, "OK", 13, 60, 25, 25, 13, 12, 7, 0
+21082, 21655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21205, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 5, 5, 4, 1, 1, 0
+21056, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 25, 25, 13, 12, 7, 0
+21162, 21478, 1, "OK", 4, 12, 3, 3, 2, 1, 1, 0
+24034, 24605, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol", 0, 0, 2, 1, 1, 0, 1, 1
+21056, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 5, 5, 4, 1, 1, 0
+21764, 25082, 1, "OK", 14, 61, 25, 25, 13, 12, 7, 0
+21205, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 25, 25, 13, 12, 7, 0
+21482, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 2, 2, 2, 0, 0, 0
+22777, 23130, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, String> filterCondition String filterString", 0, 0, 3, 1, 1, 0, 1, 2
+21162, 25066, 1, "OK", 14, 79, 28, 28, 15, 13, 8, 0
+21798, 25066, 1, "OK", 14, 59, 25, 25, 13, 12, 7, 0
+22072, 23996, 1, "OK", 5, 35, 20, 20, 9, 11, 6, 0
+22072, 25042, 1, "OK", 14, 51, 23, 23, 11, 12, 7, 0
+21082, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 5, 5, 4, 1, 1, 0
+24139, 24706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol String dimFilterFieldCol", 0, 0, 2, 1, 1, 0, 1, 1
+21205, 25042, 1, "OK", 15, 75, 28, 28, 15, 13, 8, 0
+21056, 25042, 1, "OK", 12, 82, 28, 28, 15, 13, 8, 0
+21162, 25082, 1, "OK", 14, 80, 28, 28, 15, 13, 8, 0
+21658, 25066, 1, "OK", 13, 62, 25, 25, 13, 12, 7, 0
+21162, 21760, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21247, 21429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sep String column", 0, 0, 2, 1, 1, 0, 1, 1
+22558, 22771, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue", 0, 0, 3, 1, 1, 0, 1, 2
+21798, 25082, 1, "OK", 14, 60, 25, 25, 13, 12, 7, 0
+21056, 25066, 1, "OK", 12, 84, 28, 28, 15, 13, 8, 0
+22874, 23746, 1, "OK", 7, 15, 12, 6, 5, 1, 3, 2
+21549, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 2, 2, 2, 0, 0, 0
+21082, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 25, 25, 13, 12, 7, 0
+21141, 21655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+23105, 23746, 1, "OK", 5, 11, 9, 5, 4, 1, 2, 2
+21658, 25082, 1, "OK", 13, 63, 25, 25, 13, 12, 7, 0
+21056, 21478, 1, "OK", 2, 17, 3, 3, 2, 1, 1, 0
+24034, 24391, 1, "OK", 5, 6, 2, 1, 1, 0, 1, 1
+22494, 23746, 1, "OK", 4, 20, 15, 7, 6, 1, 4, 2
+24100, 24391, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+21162, 21795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21056, 25082, 1, "OK", 12, 85, 28, 28, 15, 13, 8, 0
+21082, 25042, 1, "OK", 12, 80, 28, 28, 15, 13, 8, 0
+21141, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 5, 5, 4, 1, 1, 0
+21205, 21478, 1, "OK", 5, 10, 3, 3, 2, 1, 1, 0
+21764, 22069, 1, "OK", 4, 7, 2, 2, 2, 0, 0, 0
+22072, 25066, 1, "OK", 14, 53, 23, 23, 11, 12, 7, 0
+21205, 25066, 1, "OK", 15, 77, 28, 28, 15, 13, 8, 0
+21162, 21534, 1, "OK", 4, 14, 3, 3, 2, 1, 1, 0
+21141, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 25, 25, 13, 12, 7, 0
+24139, 24498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol", 0, 0, 2, 1, 1, 0, 1, 1
+21162, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 5, 5, 4, 1, 1, 0
+21205, 21760, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21290, 21429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String sep String column", 0, 0, 2, 1, 1, 0, 1, 1
+21082, 21478, 1, "OK", 2, 15, 3, 3, 2, 1, 1, 0
+22231, 23992, 1, "OK", 3, 31, 19, 13, 8, 5, 6, 1
+22072, 25082, 1, "OK", 14, 54, 23, 23, 11, 12, 7, 0
+21056, 21760, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21205, 25082, 1, "OK", 15, 78, 28, 28, 15, 13, 8, 0
+22198, 23996, 1, "OK", 3, 33, 20, 20, 9, 11, 6, 0
+21247, 21474, 1, "OK", 6, 8, 2, 1, 1, 0, 1, 1
+21141, 25042, 1, "OK", 13, 79, 28, 28, 15, 13, 8, 0
+24100, 24706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol String dimFilterFieldCol", 0, 0, 2, 1, 1, 0, 1, 1
+21056, 21534, 1, "OK", 2, 19, 3, 3, 2, 1, 1, 0
+22558, 23099, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue HashMap<String, String> filterCondition", 0, 0, 6, 2, 2, 0, 2, 2
+21658, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String endDtColumn String vDateWhereClause", 0, 0, 2, 2, 2, 0, 0, 0
+22198, 25042, 1, "OK", 12, 49, 23, 23, 11, 12, 7, 0
+21798, 22069, 1, "OK", 4, 6, 2, 2, 2, 0, 0, 0
+21082, 25066, 1, "OK", 12, 82, 28, 28, 15, 13, 8, 0
+22636, 23746, 1, "OK", 4, 18, 15, 7, 6, 1, 4, 2
+22494, 22771, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject filter String filterType String filterValue", 0, 0, 3, 1, 1, 0, 1, 2
+22855, 23099, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+21205, 21534, 1, "OK", 5, 12, 3, 3, 2, 1, 1, 0
+22777, 23746, 1, "OK", 5, 17, 12, 6, 5, 1, 3, 2
+21205, 21795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+24034, 24706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol String dimFilterFieldCol", 0, 0, 2, 1, 1, 0, 1, 1
+21082, 25082, 1, "OK", 12, 83, 28, 28, 15, 13, 8, 0
+21082, 21760, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21056, 21795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+22558, 22849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue HashMap<String, String> filterCondition", 0, 0, 3, 1, 1, 0, 1, 2
+24139, 25038, 1, "OK", 12, 11, 2, 1, 1, 0, 1, 1
+21290, 21474, 1, "OK", 6, 7, 2, 1, 1, 0, 1, 1
+24139, 24808, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol String dimFilterFieldCol String selectFilterField", 0, 0, 2, 1, 1, 0, 1, 1
+22558, 23130, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue HashMap<String, String> filterCondition String filterString", 0, 0, 6, 2, 2, 0, 2, 2
+21141, 21478, 1, "OK", 3, 14, 3, 3, 2, 1, 1, 0
+21056, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 5, 5, 4, 1, 1, 0
+21141, 25066, 1, "OK", 13, 81, 28, 28, 15, 13, 8, 0
+22558, 22868, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue HashMap<String, String> filterCondition int cIdx", 0, 0, 3, 1, 1, 0, 1, 2
+22198, 25066, 1, "OK", 12, 51, 23, 23, 11, 12, 7, 0
+22855, 23130, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+21082, 21795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21482, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 2, 2, 2, 0, 0, 0
+22636, 22771, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+24100, 24498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol", 0, 0, 2, 1, 1, 0, 1, 1
+21383, 21429, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+21141, 21760, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21205, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 5, 5, 4, 1, 1, 0
+21141, 25082, 1, "OK", 13, 82, 28, 28, 15, 13, 8, 0
+21082, 21534, 1, "OK", 2, 17, 3, 3, 2, 1, 1, 0
+22198, 25082, 1, "OK", 12, 52, 23, 23, 11, 12, 7, 0
+22494, 23099, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue HashMap<String, String> filterCondition", 0, 0, 6, 2, 2, 0, 2, 2
+21082, 22069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn String vDateWhereClause", 0, 0, 5, 5, 4, 1, 1, 0
+24000, 25042, 1, "OK", 11, 15, 3, 3, 2, 1, 1, 0
+21482, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 22, 22, 11, 11, 6, 0
+24034, 24498, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol", 0, 0, 2, 1, 1, 0, 1, 1
+21141, 21534, 1, "OK", 3, 16, 3, 3, 2, 1, 1, 0
+24000, 25066, 1, "OK", 11, 17, 3, 3, 2, 1, 1, 0
+24100, 25038, 1, "OK", 11, 12, 2, 1, 1, 0, 1, 1
+21482, 25042, 1, "OK", 12, 64, 25, 25, 13, 12, 7, 0
+21162, 21655, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21141, 21795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selectClause String beginDtColumn String endDtColumn", 0, 0, 3, 3, 2, 1, 1, 0
+21764, 22194, 1, "OK", 6, 8, 2, 2, 2, 0, 0, 0
+24034, 25038, 1, "OK", 11, 13, 2, 1, 1, 0, 1, 1
+22874, 23099, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+22424, 23992, 1, "OK", 3, 27, 19, 13, 8, 5, 6, 1
+21549, 22194, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 2, 2, 2, 0, 0, 0
+22494, 22849, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject filter String filterType String filterValue HashMap<String, String> filterCondition", 0, 0, 3, 1, 1, 0, 1, 2
+24000, 25082, 1, "OK", 11, 18, 3, 3, 2, 1, 1, 0
+23169, 23705, 1, "OK", 5, 7, 6, 3, 3, 0, 1, 3
+21764, 23996, 1, "OK", 7, 42, 22, 22, 11, 11, 6, 0
+21383, 21474, 1, "OK", 5, 5, 2, 1, 1, 0, 1, 1
+22494, 23130, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String filterType String filterValue HashMap<String, String> filterCondition String filterString", 0, 0, 6, 2, 2, 0, 2, 2
+24139, 24605, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String vFilterDateWhereClause String hierNameCol String hierTypeCol", 0, 0, 2, 1, 1, 0, 1, 1
+21549, 23996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String beginDtColumn String endDtColumn StringBuffer query", 0, 0, 22, 22, 11, 11, 6, 0
+22494, 22868, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject filter String filterType String filterValue HashMap<String, String> filterCondition int cIdx", 0, 0, 3, 1, 1, 0, 1, 2

@@ -1,0 +1,242 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+16969, 20340, 1, "OK", 1, 71, 24, 24, 13, 11, 7, 0
+17220, 18191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean row List captions", 0, 0, 10, 7, 5, 2, 3, 1
+18698, 19477, 1, "OK", 4, 15, 8, 4, 4, 0, 2, 2
+15101, 20380, 1, "OK", 1, 107, 24, 24, 13, 11, 7, 0
+15613, 20380, 1, "OK", 1, 99, 24, 24, 13, 11, 7, 0
+17407, 19565, 1, "OK", 1, 45, 20, 14, 10, 4, 6, 1
+19028, 19477, 1, "OK", 4, 8, 4, 2, 2, 0, 1, 2
+18466, 19513, 1, "OK", 3, 20, 8, 4, 4, 0, 2, 2
+17220, 20254, 1, "OK", 2, 58, 23, 16, 12, 4, 7, 1
+17407, 18042, 1, "OK", 1, 13, 10, 7, 5, 2, 3, 1
+15747, 20340, 1, "OK", 1, 93, 24, 24, 13, 11, 7, 0
+18268, 19513, 1, "OK", 2, 23, 8, 4, 4, 0, 2, 2
+16588, 20380, 1, "OK", 1, 80, 24, 24, 13, 11, 7, 0
+18401, 19477, 1, "OK", 2, 20, 8, 4, 4, 0, 2, 2
+18195, 20254, 1, "OK", 2, 38, 13, 9, 7, 2, 4, 1
+18129, 20254, 1, "OK", 2, 39, 13, 9, 7, 2, 4, 1
+18466, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18634, 19438, 1, "OK", 3, 15, 8, 4, 4, 0, 2, 2
+17289, 18125, 1, "OK", 1, 17, 10, 7, 5, 2, 3, 1
+19028, 19513, 1, "OK", 4, 9, 4, 2, 2, 0, 1, 2
+18401, 19513, 1, "OK", 2, 21, 8, 4, 4, 0, 2, 2
+17220, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 20, 14, 10, 4, 6, 1
+18698, 19513, 1, "OK", 4, 16, 8, 4, 4, 0, 2, 2
+16969, 20380, 1, "OK", 1, 73, 24, 24, 13, 11, 7, 0
+17220, 18231, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean row Iterator iter", 0, 0, 10, 7, 5, 2, 3, 1
+18268, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+15747, 20380, 1, "OK", 1, 95, 24, 24, 13, 11, 7, 0
+16079, 20340, 1, "OK", 1, 87, 24, 24, 13, 11, 7, 0
+17407, 19623, 1, "OK", 1, 46, 20, 14, 10, 4, 6, 1
+18634, 19477, 1, "OK", 3, 16, 8, 4, 4, 0, 2, 2
+18401, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+17220, 20293, 1, "OK", 2, 60, 23, 16, 12, 4, 7, 1
+17627, 17918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String field String align", 0, 0, 4, 2, 2, 0, 1, 2
+18871, 19291, 1, "OK", 4, 10, 8, 4, 4, 0, 2, 2
+18698, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18055, 19518, 1, "OK", 1, 29, 10, 7, 5, 2, 3, 1
+18466, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+17923, 17984, 1, "OK", 1, 1, 4, 2, 2, 0, 1, 2
+18525, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label", 0, 0, 8, 4, 4, 0, 2, 2
+18195, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 10, 7, 5, 2, 3, 1
+18129, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 10, 7, 5, 2, 3, 1
+18195, 20293, 1, "OK", 2, 40, 13, 9, 7, 2, 4, 1
+18129, 20293, 1, "OK", 2, 41, 13, 9, 7, 2, 4, 1
+17220, 20332, 1, "OK", 2, 62, 23, 16, 12, 4, 7, 1
+18339, 19438, 1, "OK", 2, 20, 8, 4, 4, 0, 2, 2
+17407, 18125, 1, "OK", 1, 16, 10, 7, 5, 2, 3, 1
+16079, 20380, 1, "OK", 1, 89, 24, 24, 13, 11, 7, 0
+17824, 17984, 1, "OK", 1, 2, 4, 2, 2, 0, 1, 2
+18268, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+16526, 20340, 1, "OK", 1, 79, 24, 24, 13, 11, 7, 0
+17289, 18191, 1, "OK", 1, 18, 10, 7, 5, 2, 3, 1
+18195, 20332, 1, "OK", 2, 42, 13, 9, 7, 2, 4, 1
+18129, 20332, 1, "OK", 2, 43, 13, 9, 7, 2, 4, 1
+18401, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18634, 19513, 1, "OK", 3, 17, 8, 4, 4, 0, 2, 2
+18698, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+17289, 20254, 1, "OK", 1, 56, 23, 16, 12, 4, 7, 1
+17602, 17720, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+18576, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label", 0, 0, 8, 4, 4, 0, 2, 2
+16526, 20380, 1, "OK", 1, 81, 24, 24, 13, 11, 7, 0
+16742, 20340, 1, "OK", 1, 74, 24, 24, 13, 11, 7, 0
+17289, 18231, 1, "OK", 1, 19, 10, 7, 5, 2, 3, 1
+17627, 17984, 1, "OK", 2, 7, 8, 4, 4, 0, 2, 2
+18055, 19565, 1, "OK", 1, 30, 10, 7, 5, 2, 3, 1
+18634, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+17289, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 20, 14, 10, 4, 6, 1
+16131, 20340, 1, "OK", 1, 86, 24, 24, 13, 11, 7, 0
+17289, 20293, 1, "OK", 1, 58, 23, 16, 12, 4, 7, 1
+17923, 18037, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+18339, 19477, 1, "OK", 2, 21, 8, 4, 4, 0, 2, 2
+17547, 17918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String field String align", 0, 0, 4, 2, 2, 0, 1, 2
+15867, 20340, 1, "OK", 1, 91, 24, 24, 13, 11, 7, 0
+17824, 18037, 1, "OK", 2, 3, 4, 2, 2, 0, 1, 2
+17455, 17720, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+19570, 20254, 1, "OK", 1, 10, 3, 2, 2, 0, 1, 1
+16710, 20340, 1, "OK", 1, 75, 24, 24, 13, 11, 7, 0
+18239, 19518, 1, "OK", 2, 25, 10, 7, 5, 2, 3, 1
+15273, 20340, 1, "OK", 1, 102, 24, 24, 13, 11, 7, 0
+15917, 20340, 1, "OK", 1, 90, 24, 24, 13, 11, 7, 0
+17627, 18037, 1, "OK", 2, 8, 8, 4, 4, 0, 2, 2
+17407, 18191, 1, "OK", 1, 17, 10, 7, 5, 2, 3, 1
+16131, 20380, 1, "OK", 1, 88, 24, 24, 13, 11, 7, 0
+18634, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+16742, 20380, 1, "OK", 1, 76, 24, 24, 13, 11, 7, 0
+19785, 20254, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+18339, 19513, 1, "OK", 2, 22, 8, 4, 4, 0, 2, 2
+15867, 20380, 1, "OK", 1, 93, 24, 24, 13, 11, 7, 0
+18339, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+16678, 20340, 1, "OK", 1, 76, 24, 24, 13, 11, 7, 0
+18239, 19565, 1, "OK", 2, 26, 10, 7, 5, 2, 3, 1
+17407, 20254, 1, "OK", 1, 55, 23, 16, 12, 4, 7, 1
+18055, 19623, 1, "OK", 1, 31, 10, 7, 5, 2, 3, 1
+18842, 19291, 1, "OK", 3, 11, 8, 4, 4, 0, 2, 2
+17289, 20332, 1, "OK", 1, 60, 23, 16, 12, 4, 7, 1
+18776, 19291, 1, "OK", 3, 12, 8, 4, 4, 0, 2, 2
+16463, 20340, 1, "OK", 1, 80, 24, 24, 13, 11, 7, 0
+15373, 20340, 1, "OK", 2, 101, 24, 24, 13, 11, 7, 0
+17407, 18231, 1, "OK", 1, 18, 10, 7, 5, 2, 3, 1
+18871, 19438, 1, "OK", 5, 11, 8, 4, 4, 0, 2, 2
+15273, 20380, 1, "OK", 1, 104, 24, 24, 13, 11, 7, 0
+16794, 20340, 1, "OK", 1, 73, 24, 24, 13, 11, 7, 0
+19074, 19291, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+19522, 20254, 1, "OK", 1, 11, 3, 2, 2, 0, 1, 1
+19785, 20293, 1, "OK", 2, 8, 3, 2, 2, 0, 1, 1
+15917, 20380, 1, "OK", 1, 92, 24, 24, 13, 11, 7, 0
+16645, 20340, 1, "OK", 1, 77, 24, 24, 13, 11, 7, 0
+19570, 20293, 1, "OK", 1, 12, 3, 2, 2, 0, 1, 1
+17547, 17984, 1, "OK", 3, 9, 8, 4, 4, 0, 2, 2
+16710, 20380, 1, "OK", 1, 77, 24, 24, 13, 11, 7, 0
+16463, 20380, 1, "OK", 1, 82, 24, 24, 13, 11, 7, 0
+16167, 20340, 1, "OK", 1, 85, 24, 24, 13, 11, 7, 0
+17407, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 20, 14, 10, 4, 6, 1
+17407, 20293, 1, "OK", 1, 57, 23, 16, 12, 4, 7, 1
+16645, 20380, 1, "OK", 1, 79, 24, 24, 13, 11, 7, 0
+19570, 20332, 1, "OK", 1, 14, 3, 2, 2, 0, 1, 1
+18339, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18871, 19477, 1, "OK", 5, 12, 8, 4, 4, 0, 2, 2
+15373, 20380, 1, "OK", 2, 103, 24, 24, 13, 11, 7, 0
+18525, 19438, 1, "OK", 2, 17, 8, 4, 4, 0, 2, 2
+16678, 20380, 1, "OK", 1, 78, 24, 24, 13, 11, 7, 0
+18239, 19623, 1, "OK", 2, 27, 10, 7, 5, 2, 3, 1
+17547, 18037, 1, "OK", 3, 10, 8, 4, 4, 0, 2, 2
+17407, 20332, 1, "OK", 1, 59, 23, 16, 12, 4, 7, 1
+16794, 20380, 1, "OK", 1, 75, 24, 24, 13, 11, 7, 0
+19738, 20254, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+19522, 20293, 1, "OK", 1, 13, 3, 2, 2, 0, 1, 1
+19785, 20332, 1, "OK", 2, 10, 3, 2, 2, 0, 1, 1
+15821, 20340, 1, "OK", 1, 92, 24, 24, 13, 11, 7, 0
+18525, 19477, 1, "OK", 2, 18, 8, 4, 4, 0, 2, 2
+16167, 20380, 1, "OK", 1, 87, 24, 24, 13, 11, 7, 0
+15970, 20340, 1, "OK", 1, 89, 24, 24, 13, 11, 7, 0
+18576, 19438, 1, "OK", 2, 16, 8, 4, 4, 0, 2, 2
+19522, 20332, 1, "OK", 1, 15, 3, 2, 2, 0, 1, 1
+19738, 20293, 1, "OK", 2, 9, 3, 2, 2, 0, 1, 1
+18871, 19513, 1, "OK", 5, 13, 8, 4, 4, 0, 2, 2
+16879, 20340, 1, "OK", 1, 72, 24, 24, 13, 11, 7, 0
+18055, 20254, 1, "OK", 1, 40, 13, 9, 7, 2, 4, 1
+18871, 19023, 1, "OK", 2, 4, 4, 2, 2, 0, 1, 2
+17220, 19518, 1, "OK", 2, 47, 20, 14, 10, 4, 6, 1
+18466, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label", 0, 0, 8, 4, 4, 0, 2, 2
+18525, 19513, 1, "OK", 2, 19, 8, 4, 4, 0, 2, 2
+17602, 17918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String field String align", 0, 0, 4, 2, 2, 0, 1, 2
+15821, 20380, 1, "OK", 1, 94, 24, 24, 13, 11, 7, 0
+15970, 20380, 1, "OK", 1, 91, 24, 24, 13, 11, 7, 0
+16219, 20340, 1, "OK", 1, 84, 24, 24, 13, 11, 7, 0
+19028, 19291, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+15410, 20340, 1, "OK", 2, 100, 24, 24, 13, 11, 7, 0
+18195, 19518, 1, "OK", 2, 27, 10, 7, 5, 2, 3, 1
+15476, 20340, 1, "OK", 2, 99, 24, 24, 13, 11, 7, 0
+16879, 20380, 1, "OK", 1, 74, 24, 24, 13, 11, 7, 0
+18129, 19518, 1, "OK", 2, 28, 10, 7, 5, 2, 3, 1
+18268, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label", 0, 0, 8, 4, 4, 0, 2, 2
+18576, 19477, 1, "OK", 2, 17, 8, 4, 4, 0, 2, 2
+18401, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label", 0, 0, 8, 4, 4, 0, 2, 2
+17178, 20340, 1, "OK", 1, 65, 24, 24, 13, 11, 7, 0
+18055, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 10, 7, 5, 2, 3, 1
+18055, 20293, 1, "OK", 1, 42, 13, 9, 7, 2, 4, 1
+19738, 20332, 1, "OK", 2, 11, 3, 2, 2, 0, 1, 1
+18525, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18698, 19291, 1, "OK", 3, 13, 8, 4, 4, 0, 2, 2
+18842, 19438, 1, "OK", 4, 12, 8, 4, 4, 0, 2, 2
+18776, 19438, 1, "OK", 4, 13, 8, 4, 4, 0, 2, 2
+17220, 19565, 1, "OK", 2, 48, 20, 14, 10, 4, 6, 1
+18576, 19513, 1, "OK", 2, 18, 8, 4, 4, 0, 2, 2
+19074, 19438, 1, "OK", 4, 6, 4, 2, 2, 0, 1, 2
+16219, 20380, 1, "OK", 1, 86, 24, 24, 13, 11, 7, 0
+15410, 20380, 1, "OK", 2, 102, 24, 24, 13, 11, 7, 0
+16336, 20340, 1, "OK", 1, 82, 24, 24, 13, 11, 7, 0
+15476, 20380, 1, "OK", 2, 101, 24, 24, 13, 11, 7, 0
+18871, 19069, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+18195, 19565, 1, "OK", 2, 28, 10, 7, 5, 2, 3, 1
+18129, 19565, 1, "OK", 2, 29, 10, 7, 5, 2, 3, 1
+18842, 19477, 1, "OK", 4, 13, 8, 4, 4, 0, 2, 2
+17627, 17720, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+17602, 17984, 1, "OK", 2, 8, 8, 4, 4, 0, 2, 2
+18776, 19477, 1, "OK", 4, 14, 8, 4, 4, 0, 2, 2
+17455, 17918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String field String align", 0, 0, 4, 2, 2, 0, 1, 2
+17220, 18042, 1, "OK", 2, 16, 10, 7, 5, 2, 3, 1
+16336, 20380, 1, "OK", 1, 84, 24, 24, 13, 11, 7, 0
+18239, 20254, 1, "OK", 2, 36, 13, 9, 7, 2, 4, 1
+18525, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18576, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+17178, 20380, 1, "OK", 1, 67, 24, 24, 13, 11, 7, 0
+18055, 20332, 1, "OK", 1, 44, 13, 9, 7, 2, 4, 1
+18634, 19291, 1, "OK", 2, 14, 8, 4, 4, 0, 2, 2
+19074, 19477, 1, "OK", 4, 7, 4, 2, 2, 0, 1, 2
+15644, 20340, 1, "OK", 1, 96, 24, 24, 13, 11, 7, 0
+17289, 19518, 1, "OK", 1, 45, 20, 14, 10, 4, 6, 1
+15677, 20340, 1, "OK", 1, 94, 24, 24, 13, 11, 7, 0
+18576, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18842, 19513, 1, "OK", 4, 14, 8, 4, 4, 0, 2, 2
+18776, 19513, 1, "OK", 4, 15, 8, 4, 4, 0, 2, 2
+15562, 20340, 1, "OK", 1, 98, 24, 24, 13, 11, 7, 0
+17220, 19623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean row String checked", 0, 0, 20, 14, 10, 4, 6, 1
+18239, 19778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked Object key", 0, 0, 10, 7, 5, 2, 3, 1
+18239, 20293, 1, "OK", 2, 38, 13, 9, 7, 2, 4, 1
+18776, 19023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+19074, 19513, 1, "OK", 4, 8, 4, 2, 2, 0, 1, 2
+17455, 17984, 1, "OK", 2, 10, 8, 4, 4, 0, 2, 2
+15034, 20340, 1, "OK", 0, 106, 24, 24, 13, 11, 7, 0
+16289, 20340, 1, "OK", 1, 83, 24, 24, 13, 11, 7, 0
+17602, 18037, 1, "OK", 2, 9, 8, 4, 4, 0, 2, 2
+18195, 19623, 1, "OK", 2, 29, 10, 7, 5, 2, 3, 1
+18129, 19623, 1, "OK", 2, 30, 10, 7, 5, 2, 3, 1
+18842, 19023, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+17132, 20340, 1, "OK", 1, 67, 24, 24, 13, 11, 7, 0
+17099, 20340, 1, "OK", 1, 69, 24, 24, 13, 11, 7, 0
+17220, 18125, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean row SourceBean captionsSB", 0, 0, 10, 7, 5, 2, 3, 1
+18466, 19438, 1, "OK", 3, 18, 8, 4, 4, 0, 2, 2
+17000, 20340, 1, "OK", 1, 70, 24, 24, 13, 11, 7, 0
+15644, 20380, 1, "OK", 1, 98, 24, 24, 13, 11, 7, 0
+18239, 20332, 1, "OK", 2, 40, 13, 9, 7, 2, 4, 1
+17547, 17720, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+15677, 20380, 1, "OK", 1, 96, 24, 24, 13, 11, 7, 0
+16405, 20340, 1, "OK", 1, 81, 24, 24, 13, 11, 7, 0
+16042, 20340, 1, "OK", 1, 88, 24, 24, 13, 11, 7, 0
+17289, 19565, 1, "OK", 1, 46, 20, 14, 10, 4, 6, 1
+18339, 19291, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String img String label", 0, 0, 8, 4, 4, 0, 2, 2
+19028, 19438, 1, "OK", 4, 7, 4, 2, 2, 0, 1, 2
+15562, 20380, 1, "OK", 1, 100, 24, 24, 13, 11, 7, 0
+16289, 20380, 1, "OK", 1, 85, 24, 24, 13, 11, 7, 0
+17289, 18042, 1, "OK", 1, 14, 10, 7, 5, 2, 3, 1
+18268, 19438, 1, "OK", 2, 21, 8, 4, 4, 0, 2, 2
+15101, 20340, 1, "OK", 1, 105, 24, 24, 13, 11, 7, 0
+15613, 20340, 1, "OK", 1, 97, 24, 24, 13, 11, 7, 0
+16405, 20380, 1, "OK", 1, 83, 24, 24, 13, 11, 7, 0
+16588, 20340, 1, "OK", 1, 78, 24, 24, 13, 11, 7, 0
+15034, 20380, 1, "OK", 0, 108, 24, 24, 13, 11, 7, 0
+18401, 19438, 1, "OK", 2, 19, 8, 4, 4, 0, 2, 2
+17407, 19518, 1, "OK", 1, 44, 20, 14, 10, 4, 6, 1
+18698, 19438, 1, "OK", 4, 14, 8, 4, 4, 0, 2, 2
+18842, 19069, 1, "OK", 1, 6, 4, 2, 2, 0, 1, 2
+17455, 18037, 1, "OK", 2, 11, 8, 4, 4, 0, 2, 2
+18776, 19069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String buttonUrl boolean confirm", 0, 0, 4, 2, 2, 0, 1, 2
+18268, 19477, 1, "OK", 2, 22, 8, 4, 4, 0, 2, 2
+16042, 20380, 1, "OK", 1, 90, 24, 24, 13, 11, 7, 0
+17289, 19623, 1, "OK", 1, 47, 20, 14, 10, 4, 6, 1
+17132, 20380, 1, "OK", 1, 69, 24, 24, 13, 11, 7, 0
+17099, 20380, 1, "OK", 1, 71, 24, 24, 13, 11, 7, 0
+17000, 20380, 1, "OK", 1, 72, 24, 24, 13, 11, 7, 0
+18466, 19477, 1, "OK", 3, 19, 8, 4, 4, 0, 2, 2

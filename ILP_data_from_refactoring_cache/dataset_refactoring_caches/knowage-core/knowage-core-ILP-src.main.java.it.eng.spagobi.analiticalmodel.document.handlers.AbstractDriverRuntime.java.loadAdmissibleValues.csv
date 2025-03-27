@@ -1,0 +1,128 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+15547, 16801, 1, "OK", 1, 26, 48, 32, 14, 18, 8, 2
+12032, 12358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+13391, 15024, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HashMap<String, Object> itemAsMap boolean defaultParameterAlreadyExist", 0, 0, 36, 21, 11, 10, 5, 3
+12047, 12410, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+15605, 16801, 1, "OK", 2, 25, 48, 32, 14, 18, 8, 2
+12653, 15129, 1, "OK", 3, 56, 48, 39, 16, 23, 9, 1
+11163, 17295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 40, 73, 22, 0
+15032, 15116, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+12032, 13141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+15388, 15599, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+16184, 16776, 1, "OK", 5, 13, 23, 8, 6, 2, 3, 5
+11346, 11886, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+12047, 17035, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 87, 36, 51, 22, 1
+13455, 15116, 1, "OK", 3, 35, 40, 22, 12, 10, 6, 3
+15202, 15487, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+11283, 17165, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 39, 73, 22, 0
+15746, 16794, 1, "OK", 2, 22, 45, 24, 13, 11, 7, 3
+15862, 16794, 1, "OK", 2, 21, 40, 22, 11, 11, 6, 3
+11509, 11957, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+15202, 17028, 1, "OK", 1, 38, 55, 35, 17, 18, 10, 2
+15920, 16786, 1, "OK", 3, 18, 36, 16, 10, 6, 5, 4
+11163, 17318, 1, "OK", 2, 146, 113, 113, 40, 73, 22, 0
+12308, 12543, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+12483, 13004, 1, "OK", 2, 10, 3, 2, 2, 0, 1, 1
+12047, 13206, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+12363, 13141, 1, "OK", 3, 16, 5, 3, 3, 0, 2, 1
+16928, 17028, 1, "OK", 0, 3, 4, 2, 2, 0, 1, 2
+13146, 17035, 1, "OK", 2, 90, 102, 83, 32, 51, 19, 1
+13212, 17035, 1, "OK", 2, 88, 102, 83, 32, 51, 19, 1
+12415, 15129, 1, "OK", 3, 62, 48, 39, 16, 23, 9, 1
+12032, 12410, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12308, 15129, 1, "OK", 3, 64, 50, 40, 17, 23, 10, 1
+13638, 15116, 1, "OK", 5, 32, 40, 22, 12, 10, 6, 3
+15605, 16858, 1, "OK", 2, 26, 48, 32, 14, 18, 8, 2
+15178, 17035, 1, "OK", 1, 41, 57, 46, 18, 28, 11, 1
+16239, 16400, 1, "OK", 1, 3, 8, 2, 2, 0, 1, 6
+16410, 16743, 1, "OK", 3, 7, 8, 2, 2, 0, 1, 6
+12047, 12464, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+15202, 16801, 1, "OK", 1, 32, 51, 33, 15, 18, 9, 2
+15547, 16858, 1, "OK", 1, 27, 48, 32, 14, 18, 8, 2
+12032, 17035, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 109, 87, 36, 51, 22, 1
+11283, 11841, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+11846, 17165, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 38, 73, 22, 0
+13010, 15129, 1, "OK", 3, 48, 45, 37, 14, 23, 8, 1
+12653, 13141, 1, "OK", 3, 9, 3, 2, 2, 0, 1, 1
+12032, 13206, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+14149, 14904, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 3, 3, 0, 1, 7
+12363, 12410, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+13391, 15116, 1, "OK", 2, 37, 40, 22, 12, 10, 6, 3
+12047, 13004, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+13559, 15024, 1, "OK", 3, 30, 36, 21, 11, 10, 5, 3
+11346, 11957, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+12363, 17035, 1, "OK", 3, 106, 107, 86, 35, 51, 21, 1
+15746, 15855, 1, "OK", 1, 1, 5, 2, 2, 0, 1, 3
+12363, 13206, 1, "OK", 3, 17, 5, 3, 3, 0, 2, 1
+16410, 16766, 1, "OK", 3, 8, 8, 2, 2, 0, 1, 6
+11141, 17295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 113, 113, 40, 73, 22, 0
+15699, 16794, 1, "OK", 2, 23, 45, 24, 13, 11, 7, 3
+12415, 13141, 1, "OK", 3, 15, 3, 2, 2, 0, 1, 1
+12483, 15129, 1, "OK", 3, 59, 48, 39, 16, 23, 9, 1
+12032, 12464, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+16807, 17028, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+16017, 16175, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map map String valueD", 0, 0, 7, 2, 2, 0, 1, 5
+11283, 11886, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+12653, 17035, 1, "OK", 3, 99, 105, 85, 34, 51, 20, 1
+13301, 15123, 1, "OK", 3, 42, 43, 29, 13, 16, 7, 2
+11509, 17165, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 39, 73, 22, 0
+15202, 16858, 1, "OK", 1, 33, 51, 33, 15, 18, 9, 2
+12363, 12464, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+13359, 15123, 1, "OK", 2, 40, 43, 29, 13, 16, 7, 2
+12308, 13141, 1, "OK", 3, 17, 5, 3, 3, 0, 2, 1
+15890, 16786, 1, "OK", 2, 19, 36, 16, 10, 6, 5, 4
+11141, 17318, 1, "OK", 2, 147, 113, 113, 40, 73, 22, 0
+12032, 13004, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+15202, 15599, 1, "OK", 1, 7, 3, 1, 1, 0, 1, 2
+12653, 13206, 1, "OK", 3, 10, 3, 2, 2, 0, 1, 1
+16059, 16175, 1, "OK", 1, 1, 7, 2, 2, 0, 1, 5
+11997, 17165, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 38, 73, 22, 0
+12047, 12543, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+11890, 17165, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 111, 111, 38, 73, 22, 0
+16239, 16743, 1, "OK", 3, 10, 16, 4, 4, 0, 2, 6
+12308, 12410, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+15388, 15487, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+12047, 12303, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+12363, 13004, 1, "OK", 2, 14, 5, 3, 3, 0, 2, 1
+11509, 11841, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+12415, 17035, 1, "OK", 3, 105, 105, 85, 34, 51, 20, 1
+12047, 15129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 41, 18, 23, 11, 1
+15388, 17028, 1, "OK", 1, 36, 55, 35, 17, 18, 10, 2
+13559, 15116, 1, "OK", 4, 34, 40, 22, 12, 10, 6, 3
+12483, 13141, 1, "OK", 3, 12, 3, 2, 2, 0, 1, 1
+16239, 16766, 1, "OK", 3, 11, 16, 4, 4, 0, 2, 6
+13212, 15129, 1, "OK", 2, 45, 45, 37, 14, 23, 8, 1
+11346, 17165, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 39, 73, 22, 0
+15699, 15855, 1, "OK", 1, 2, 5, 2, 2, 0, 1, 3
+13010, 17035, 1, "OK", 3, 91, 102, 83, 32, 51, 19, 1
+12308, 17035, 1, "OK", 3, 107, 107, 86, 35, 51, 21, 1
+12415, 13206, 1, "OK", 3, 16, 3, 2, 2, 0, 1, 1
+15388, 16801, 1, "OK", 1, 30, 51, 33, 15, 18, 9, 2
+13455, 15024, 1, "OK", 2, 31, 36, 21, 11, 10, 5, 3
+12032, 12543, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12308, 13206, 1, "OK", 3, 18, 5, 3, 3, 0, 2, 1
+11283, 11957, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+12653, 13004, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+13146, 15129, 1, "OK", 2, 47, 45, 37, 14, 23, 8, 1
+12363, 12543, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+12032, 12303, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+12308, 12464, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+12047, 12358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+11509, 11886, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+12032, 15129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 41, 18, 23, 11, 1
+16017, 16776, 1, "OK", 4, 15, 30, 10, 8, 2, 4, 5
+12047, 13141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+12415, 13004, 1, "OK", 2, 13, 3, 2, 2, 0, 1, 1
+12363, 15129, 1, "OK", 3, 63, 50, 40, 17, 23, 10, 1
+13969, 15007, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 11, 8, 3, 3, 5
+16059, 16776, 1, "OK", 4, 14, 30, 10, 8, 2, 4, 5
+13638, 15024, 1, "OK", 4, 28, 36, 21, 11, 10, 5, 3
+15547, 17028, 1, "OK", 1, 32, 52, 34, 16, 18, 9, 2
+12483, 17035, 1, "OK", 3, 102, 105, 85, 34, 51, 20, 1
+14030, 14915, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 5, 1, 2, 6
+12483, 13206, 1, "OK", 3, 13, 3, 2, 2, 0, 1, 1
+11346, 11841, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+15605, 17028, 1, "OK", 2, 31, 52, 34, 16, 18, 9, 2
+15388, 16858, 1, "OK", 1, 31, 51, 33, 15, 18, 9, 2
+13903, 15016, 1, "OK", 3, 23, 31, 15, 9, 6, 4, 4
+12308, 13004, 1, "OK", 3, 15, 5, 3, 3, 0, 2, 1

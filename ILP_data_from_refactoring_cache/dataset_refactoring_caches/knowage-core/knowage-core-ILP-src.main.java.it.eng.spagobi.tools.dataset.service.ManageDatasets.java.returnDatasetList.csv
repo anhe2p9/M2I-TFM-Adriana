@@ -1,0 +1,56 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9413, 9577, 0, "Compilation unit does not compile after method extraction.", 1, 5, 1, 1, 1, 0, 0, 0
+10030, 10676, 1, "OK", 4, 14, 16, 7, 5, 2, 3, 3
+9654, 11701, 1, "OK", 5, 44, 36, 36, 15, 21, 9, 0
+11277, 11564, 1, "OK", 3, 3, 3, 2, 2, 0, 1, 1
+10973, 11263, 1, "OK", 4, 7, 7, 3, 2, 1, 2, 2
+9089, 12072, 1, "OK", 2, 69, 39, 39, 18, 21, 9, 0
+11071, 11175, 1, "OK", 4, 3, 4, 1, 1, 0, 1, 3
+9700, 11564, 1, "OK", 5, 39, 35, 26, 14, 12, 9, 1
+9120, 9577, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer totalItemsNum List<IDataSet> items JSONArray itemsJSON ISchedulerDAO schedulerDAO", 0, 0, 1, 1, 1, 0, 0, 0
+9413, 11887, 0, "Compilation unit does not compile after method extraction.", 4, 57, 38, 38, 17, 21, 9, 0
+10134, 10667, 1, "OK", 4, 11, 12, 4, 4, 0, 2, 4
+9120, 11887, 1, "OK", 2, 62, 38, 38, 17, 21, 9, 0
+9170, 11887, 1, "OK", 3, 61, 38, 38, 17, 21, 9, 0
+9170, 9577, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<IDataSet> items JSONArray itemsJSON ISchedulerDAO schedulerDAO", 0, 0, 1, 1, 1, 0, 0, 0
+10912, 11270, 1, "OK", 4, 9, 10, 7, 4, 3, 3, 1
+9700, 10691, 1, "OK", 5, 23, 22, 17, 8, 9, 5, 1
+10759, 11270, 1, "OK", 3, 11, 10, 7, 4, 3, 3, 1
+9591, 11647, 1, "OK", 4, 44, 36, 36, 15, 21, 9, 0
+10879, 11270, 1, "OK", 3, 10, 10, 7, 4, 3, 3, 1
+10134, 10559, 1, "OK", 4, 10, 12, 4, 4, 0, 2, 4
+10912, 11414, 1, "OK", 5, 11, 10, 7, 4, 3, 3, 1
+10759, 11414, 1, "OK", 3, 13, 10, 7, 4, 3, 3, 1
+9111, 12072, 1, "OK", 2, 68, 39, 39, 18, 21, 9, 0
+10973, 11183, 1, "OK", 2, 6, 7, 3, 2, 1, 2, 2
+10073, 10667, 1, "OK", 4, 12, 12, 4, 4, 0, 2, 4
+9229, 9577, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray itemsJSON ISchedulerDAO schedulerDAO", 0, 0, 1, 1, 1, 0, 0, 0
+10879, 11414, 1, "OK", 4, 12, 10, 7, 4, 3, 3, 1
+9382, 9577, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+10759, 11564, 1, "OK", 3, 15, 13, 9, 6, 3, 4, 1
+10073, 10559, 1, "OK", 4, 11, 12, 4, 4, 0, 2, 4
+9229, 11887, 1, "OK", 3, 60, 38, 38, 17, 21, 9, 0
+10912, 11564, 1, "OK", 5, 13, 13, 9, 6, 3, 4, 1
+10879, 11564, 1, "OK", 4, 14, 13, 9, 6, 3, 4, 1
+9382, 11887, 1, "OK", 3, 58, 38, 38, 17, 21, 9, 0
+9654, 11647, 1, "OK", 5, 43, 36, 36, 15, 21, 9, 0
+10134, 10346, 1, "OK", 4, 5, 6, 2, 2, 0, 1, 4
+11028, 11175, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+9700, 10873, 1, "OK", 5, 25, 22, 17, 8, 9, 5, 1
+9267, 9577, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray itemsJSON ISchedulerDAO schedulerDAO", 0, 0, 1, 1, 1, 0, 0, 0
+11420, 11564, 1, "OK", 3, 2, 3, 2, 2, 0, 1, 1
+9834, 10684, 1, "OK", 4, 20, 20, 12, 7, 5, 4, 2
+9267, 11887, 1, "OK", 3, 59, 38, 38, 17, 21, 9, 0
+9591, 11571, 1, "OK", 3, 43, 36, 36, 15, 21, 9, 0
+9591, 11701, 1, "OK", 4, 45, 36, 36, 15, 21, 9, 0
+10355, 10667, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4
+11111, 11175, 1, "OK", 3, 2, 4, 1, 1, 0, 1, 3
+9581, 11887, 1, "OK", 4, 52, 37, 37, 16, 21, 9, 0
+9700, 11270, 1, "OK", 5, 35, 32, 24, 12, 12, 8, 1
+10355, 10559, 1, "OK", 4, 5, 6, 2, 2, 0, 1, 4
+9700, 10906, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ArrayList<BIObject> objectsUsing String documentsNames", 0, 0, 22, 17, 8, 9, 5, 1
+9740, 10684, 1, "OK", 5, 21, 20, 12, 7, 5, 4, 2
+9988, 10676, 1, "OK", 4, 15, 16, 7, 5, 2, 3, 3
+10073, 10346, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4
+9700, 11414, 1, "OK", 5, 37, 32, 24, 12, 12, 8, 1
+9654, 11571, 1, "OK", 4, 42, 36, 36, 15, 21, 9, 0

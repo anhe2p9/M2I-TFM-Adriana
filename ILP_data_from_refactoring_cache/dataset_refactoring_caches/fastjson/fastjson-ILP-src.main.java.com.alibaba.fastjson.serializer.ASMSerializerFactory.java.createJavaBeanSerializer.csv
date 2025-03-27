@@ -1,0 +1,790 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4633, 4922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4500, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5454, 14292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 36, 36, 24, 12, 10, 0
+5160, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 16, 8, 7, 0
+5354, 7154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 8, 8, 6, 2, 2, 0
+5894, 17037, 1, "OK", 7, 257, 40, 40, 27, 13, 11, 0
+15555, 16558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9329, 10917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+10873, 14255, 1, "OK", 8, 73, 10, 7, 6, 1, 3, 1
+4378, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+9223, 14200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4633, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+4500, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 20, 9, 8, 0
+9436, 9653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 2, 2, 2, 0, 0, 1
+4500, 4976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+15620, 16615, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4932, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+4577, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+6153, 17235, 1, "OK", 9, 252, 40, 40, 27, 13, 11, 0
+7819, 8597, 1, "OK", 4, 15, 3, 2, 2, 0, 1, 1
+5160, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+5354, 15378, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 37, 37, 25, 12, 10, 0
+9288, 14255, 1, "OK", 9, 112, 14, 10, 9, 1, 4, 1
+5454, 6143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+4633, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 20, 9, 8, 0
+10873, 14282, 1, "OK", 8, 74, 10, 7, 6, 1, 3, 1
+4633, 4976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4500, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+6153, 9067, 1, "OK", 4, 64, 19, 19, 12, 7, 6, 0
+15555, 16615, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+11014, 11979, 1, "OK", 4, 20, 4, 2, 2, 0, 1, 2
+5484, 7282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+7291, 8607, 1, "OK", 3, 29, 7, 7, 5, 2, 2, 0
+9288, 14282, 1, "OK", 9, 113, 14, 10, 9, 1, 4, 1
+4378, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+9223, 14255, 1, "OK", 9, 113, 14, 10, 9, 1, 4, 1
+15620, 16665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5060, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 40, 27, 13, 11, 0
+4633, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5160, 17343, 1, "OK", 6, 282, 45, 45, 31, 14, 12, 0
+9223, 14282, 1, "OK", 9, 114, 14, 10, 9, 1, 4, 1
+4334, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+4500, 5050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4577, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+7291, 8638, 1, "OK", 3, 31, 7, 7, 5, 2, 2, 0
+5484, 7317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+6153, 17296, 1, "OK", 9, 253, 40, 40, 27, 13, 11, 0
+4500, 17343, 1, "OK", 2, 302, 50, 50, 35, 15, 13, 0
+15555, 16665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5894, 17141, 1, "OK", 8, 259, 40, 40, 27, 13, 11, 0
+4378, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+5060, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+4633, 5050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+7291, 8666, 1, "OK", 3, 32, 7, 7, 5, 2, 2, 0
+9288, 10247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4633, 17343, 1, "OK", 4, 298, 50, 50, 35, 15, 13, 0
+15775, 16000, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 2, 2, 2, 0, 0, 1
+5160, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+5354, 7282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4577, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5484, 7352, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4334, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+6153, 17343, 1, "OK", 9, 255, 40, 40, 27, 13, 11, 0
+7291, 8689, 1, "OK", 3, 33, 7, 7, 5, 2, 2, 0
+15620, 16726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4500, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+9223, 10247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+8675, 16996, 1, "OK", 9, 194, 27, 27, 18, 9, 7, 0
+5160, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 40, 27, 13, 11, 0
+5354, 7317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+15555, 16726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5577, 8607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+4633, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+7361, 8607, 1, "OK", 3, 27, 7, 7, 5, 2, 2, 0
+4500, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+4500, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+6153, 7154, 1, "OK", 2, 19, 6, 6, 4, 2, 2, 0
+5354, 7352, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+5894, 17235, 1, "OK", 8, 260, 40, 40, 27, 13, 11, 0
+8675, 17037, 1, "OK", 9, 196, 27, 27, 18, 9, 7, 0
+4932, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 40, 27, 13, 11, 0
+7291, 8746, 1, "OK", 3, 35, 7, 7, 5, 2, 2, 0
+5577, 8638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+4633, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+15620, 16800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+7361, 8638, 1, "OK", 3, 29, 7, 7, 5, 2, 2, 0
+4378, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+4633, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+5894, 9067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 19, 19, 12, 7, 6, 0
+7164, 8607, 1, "OK", 3, 30, 7, 7, 5, 2, 2, 0
+6153, 15378, 1, "OK", 8, 209, 35, 35, 23, 12, 10, 0
+15482, 16996, 1, "OK", 6, 34, 5, 5, 4, 1, 1, 0
+5577, 8666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+7565, 8477, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 4, 0, 2, 1
+4577, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+7361, 8666, 1, "OK", 3, 30, 7, 7, 5, 2, 2, 0
+15555, 16800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+7510, 14292, 1, "OK", 8, 159, 28, 28, 18, 10, 8, 0
+4932, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+8699, 14292, 1, "OK", 7, 130, 21, 21, 13, 8, 6, 0
+5484, 7469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+7164, 8638, 1, "OK", 3, 32, 7, 7, 5, 2, 2, 0
+5894, 17296, 1, "OK", 8, 261, 40, 40, 27, 13, 11, 0
+5160, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+7291, 16996, 1, "OK", 9, 226, 34, 34, 23, 11, 9, 0
+5577, 8689, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 15, 15, 11, 4, 4, 0
+7361, 8689, 1, "OK", 3, 31, 7, 7, 5, 2, 2, 0
+15482, 17037, 1, "OK", 6, 36, 5, 5, 4, 1, 1, 0
+5514, 8607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+7164, 8666, 1, "OK", 3, 33, 7, 7, 5, 2, 2, 0
+4500, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+4378, 4922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONType jsonType FieldInfo[] unsortedGetters", 0, 0, 5, 5, 4, 1, 1, 0
+4986, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+15620, 16870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5160, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+7291, 17037, 1, "OK", 9, 228, 34, 34, 23, 11, 9, 0
+7164, 8689, 1, "OK", 3, 34, 7, 7, 5, 2, 2, 0
+5514, 8638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+8675, 17141, 1, "OK", 10, 198, 27, 27, 18, 9, 7, 0
+4378, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+4577, 4922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4633, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+5894, 17343, 1, "OK", 8, 263, 40, 40, 27, 13, 11, 0
+4500, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+5577, 8746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 15, 15, 11, 4, 4, 0
+15620, 16904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+15555, 16870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5354, 7469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4986, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+6153, 7282, 1, "OK", 2, 21, 6, 6, 4, 2, 2, 0
+7361, 8746, 1, "OK", 3, 33, 7, 7, 5, 2, 2, 0
+4378, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 21, 9, 8, 0
+4577, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5160, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+5514, 8666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+4378, 4976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONType jsonType FieldInfo[] unsortedGetters FieldInfo[] getters", 0, 0, 5, 5, 4, 1, 1, 0
+4633, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+15555, 16904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4986, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+4500, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+8872, 9043, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+4577, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 20, 9, 8, 0
+5514, 8689, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 15, 15, 11, 4, 4, 0
+7565, 8597, 1, "OK", 4, 22, 6, 4, 4, 0, 2, 1
+7164, 8746, 1, "OK", 3, 36, 7, 7, 5, 2, 2, 0
+6153, 7317, 1, "OK", 2, 22, 6, 6, 4, 2, 2, 0
+5894, 7154, 1, "OK", 2, 27, 6, 6, 4, 2, 2, 0
+4577, 4976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4378, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+4986, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+5160, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+15482, 17141, 1, "OK", 7, 38, 5, 5, 4, 1, 1, 0
+15620, 16959, 1, "OK", 7, 29, 4, 3, 3, 0, 1, 1
+5577, 16996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull ClassWriter cw", 0, 0, 42, 42, 29, 13, 11, 0
+4633, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+7361, 16996, 1, "OK", 9, 224, 34, 34, 23, 11, 9, 0
+5894, 15378, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 35, 35, 23, 12, 10, 0
+4500, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+15620, 16986, 1, "OK", 7, 30, 4, 3, 3, 0, 1, 1
+4577, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+6153, 7352, 1, "OK", 2, 23, 6, 6, 4, 2, 2, 0
+8675, 17235, 1, "OK", 10, 199, 27, 27, 18, 9, 7, 0
+7291, 17141, 1, "OK", 10, 230, 34, 34, 23, 11, 9, 0
+8617, 16996, 1, "OK", 9, 196, 27, 27, 18, 9, 7, 0
+15555, 16959, 1, "OK", 7, 30, 4, 3, 3, 0, 1, 1
+4378, 5050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONType jsonType FieldInfo[] unsortedGetters FieldInfo[] getters boolean nativeSorted", 0, 0, 5, 5, 4, 1, 1, 0
+5514, 8746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 15, 15, 11, 4, 4, 0
+4378, 17343, 1, "OK", 2, 306, 51, 51, 36, 15, 13, 0
+5577, 17037, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull byte[] code", 0, 0, 42, 42, 29, 13, 11, 0
+4633, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+7164, 16996, 1, "OK", 8, 227, 34, 34, 23, 11, 9, 0
+8675, 9067, 1, "OK", 2, 11, 6, 6, 3, 3, 2, 0
+7361, 17037, 1, "OK", 9, 226, 34, 34, 23, 11, 9, 0
+4986, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+4577, 5050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4577, 17343, 1, "OK", 3, 300, 50, 50, 35, 15, 13, 0
+15555, 16986, 1, "OK", 7, 31, 4, 3, 3, 0, 1, 1
+8617, 17037, 1, "OK", 9, 198, 27, 27, 18, 9, 7, 0
+5160, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 3, 0
+8675, 17296, 1, "OK", 10, 200, 27, 27, 18, 9, 7, 0
+5454, 8607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+7164, 17037, 1, "OK", 8, 229, 34, 34, 23, 11, 9, 0
+4500, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+5514, 16996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull ClassWriter cw", 0, 0, 42, 42, 29, 13, 11, 0
+4378, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+5160, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+15482, 17235, 1, "OK", 7, 39, 5, 5, 4, 1, 1, 0
+4986, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5894, 7282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 6, 6, 4, 2, 2, 0
+4500, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+4577, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+5454, 8638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+4633, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+8675, 17343, 1, "OK", 10, 202, 27, 27, 18, 9, 7, 0
+7291, 17235, 1, "OK", 10, 231, 34, 34, 23, 11, 9, 0
+4378, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5160, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+14302, 16996, 1, "OK", 8, 61, 6, 6, 5, 1, 1, 0
+5514, 17037, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull byte[] code", 0, 0, 42, 42, 29, 13, 11, 0
+6153, 7469, 1, "OK", 2, 24, 6, 6, 4, 2, 2, 0
+4378, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+4633, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+5454, 8666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+5577, 17141, 1, "OK", 8, 268, 42, 42, 29, 13, 11, 0
+4577, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+15482, 17296, 1, "OK", 7, 40, 5, 5, 4, 1, 1, 0
+4500, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+5894, 7317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 6, 6, 4, 2, 2, 0
+7291, 9067, 1, "OK", 4, 43, 13, 13, 8, 5, 4, 0
+4986, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+7361, 17141, 1, "OK", 10, 228, 34, 34, 23, 11, 9, 0
+5160, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+15524, 16000, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+4577, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+5060, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+4334, 4490, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+9150, 16996, 1, "OK", 9, 179, 21, 21, 15, 6, 5, 0
+5454, 8689, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 15, 15, 11, 4, 4, 0
+4633, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+8617, 17141, 1, "OK", 10, 200, 27, 27, 18, 9, 7, 0
+4500, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+4334, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+5894, 7352, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 6, 6, 4, 2, 2, 0
+7291, 17296, 1, "OK", 10, 232, 34, 34, 23, 11, 9, 0
+14302, 17037, 1, "OK", 8, 63, 6, 6, 5, 1, 1, 0
+5060, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+7164, 17141, 1, "OK", 9, 231, 34, 34, 23, 11, 9, 0
+15482, 17343, 1, "OK", 7, 42, 5, 5, 4, 1, 1, 0
+4633, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+9288, 10717, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4334, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+8675, 15378, 1, "OK", 9, 156, 22, 22, 14, 8, 6, 0
+9150, 17037, 1, "OK", 9, 181, 21, 21, 15, 6, 5, 0
+5060, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+8755, 16996, 1, "OK", 9, 191, 27, 27, 18, 9, 7, 0
+4378, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+5160, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+5454, 8746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 15, 15, 11, 4, 4, 0
+7291, 17343, 1, "OK", 10, 234, 34, 34, 23, 11, 9, 0
+4334, 4567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JSONType jsonType", 0, 0, 1, 1, 1, 0, 0, 0
+5577, 17235, 1, "OK", 8, 269, 42, 42, 29, 13, 11, 0
+5060, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+5514, 17141, 1, "OK", 7, 269, 42, 42, 29, 13, 11, 0
+4334, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+4500, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+4577, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+7361, 17235, 1, "OK", 10, 229, 34, 34, 23, 11, 9, 0
+9223, 10717, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4378, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+4986, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+8755, 17037, 1, "OK", 9, 193, 27, 27, 18, 9, 7, 0
+5577, 9067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 21, 21, 14, 7, 6, 0
+4334, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+7361, 9067, 1, "OK", 4, 41, 13, 13, 8, 5, 4, 0
+4633, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+9192, 9653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+9288, 10774, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+8617, 17235, 1, "OK", 10, 201, 27, 27, 18, 9, 7, 0
+5454, 16996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull ClassWriter cw", 0, 0, 42, 42, 29, 13, 11, 0
+4577, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+7164, 17235, 1, "OK", 9, 232, 34, 34, 23, 11, 9, 0
+4378, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+4932, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+14302, 17141, 1, "OK", 9, 65, 6, 6, 5, 1, 1, 0
+4334, 4623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JSONType jsonType FieldInfo[] unsortedGetters", 0, 0, 1, 1, 1, 0, 0, 0
+5938, 14292, 1, "OK", 7, 192, 34, 34, 22, 12, 10, 0
+5060, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+8617, 9067, 1, "OK", 2, 13, 6, 6, 3, 3, 2, 0
+15524, 16145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5577, 17296, 1, "OK", 8, 270, 42, 42, 29, 13, 11, 0
+5894, 7469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 6, 6, 4, 2, 2, 0
+8647, 14292, 1, "OK", 8, 133, 21, 21, 13, 8, 6, 0
+7164, 9067, 1, "OK", 4, 44, 13, 13, 8, 5, 4, 0
+7361, 17296, 1, "OK", 10, 230, 34, 34, 23, 11, 9, 0
+15661, 16000, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+7326, 14292, 1, "OK", 8, 163, 28, 28, 18, 10, 8, 0
+9223, 10774, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4932, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+4577, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+7291, 15378, 1, "OK", 9, 188, 29, 29, 19, 10, 8, 0
+9150, 17141, 1, "OK", 10, 183, 21, 21, 15, 6, 5, 0
+4334, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+5454, 17037, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull byte[] code", 0, 0, 42, 42, 29, 13, 11, 0
+4378, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+5514, 17235, 1, "OK", 7, 270, 42, 42, 29, 13, 11, 0
+7510, 8607, 1, "OK", 3, 24, 7, 7, 5, 2, 2, 0
+8617, 17296, 1, "OK", 10, 202, 27, 27, 18, 9, 7, 0
+5484, 5884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull", 0, 0, 2, 2, 2, 0, 0, 0
+4932, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+5577, 17343, 1, "OK", 8, 272, 42, 42, 29, 13, 11, 0
+7164, 17296, 1, "OK", 9, 233, 34, 34, 23, 11, 9, 0
+4986, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+7361, 17343, 1, "OK", 10, 232, 34, 34, 23, 11, 9, 0
+5514, 9067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 21, 21, 14, 7, 6, 0
+9288, 10860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4577, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+5060, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+8755, 17141, 1, "OK", 10, 195, 27, 27, 18, 9, 7, 0
+7510, 8638, 1, "OK", 3, 26, 7, 7, 5, 2, 2, 0
+4932, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+4986, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 17, 8, 7, 0
+14302, 17235, 1, "OK", 9, 66, 6, 6, 5, 1, 1, 0
+8617, 17343, 1, "OK", 10, 204, 27, 27, 18, 9, 7, 0
+4334, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+5484, 5929, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+9223, 10860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5514, 17296, 1, "OK", 7, 271, 42, 42, 29, 13, 11, 0
+7510, 8666, 1, "OK", 3, 27, 7, 7, 5, 2, 2, 0
+7164, 17343, 1, "OK", 9, 235, 34, 34, 23, 11, 9, 0
+5060, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5577, 7154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 8, 8, 6, 2, 2, 0
+5354, 5884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull", 0, 0, 2, 2, 2, 0, 0, 0
+9150, 17235, 1, "OK", 10, 184, 21, 21, 15, 6, 5, 0
+4986, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+4378, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+9288, 10917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9192, 9798, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+6642, 6926, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+7510, 8689, 1, "OK", 3, 28, 7, 7, 5, 2, 2, 0
+9329, 9653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+4334, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+4932, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 14, 5, 5, 0
+5577, 15378, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 37, 37, 25, 12, 10, 0
+5454, 17141, 1, "OK", 7, 271, 42, 42, 29, 13, 11, 0
+4378, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+4577, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 4, 0
+7361, 15378, 1, "OK", 9, 186, 29, 29, 19, 10, 8, 0
+5514, 17343, 1, "OK", 7, 273, 42, 42, 29, 13, 11, 0
+14302, 17296, 1, "OK", 9, 67, 6, 6, 5, 1, 1, 0
+9192, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+9223, 10917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5354, 5929, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+15661, 16145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4986, 17343, 1, "OK", 5, 288, 46, 46, 32, 14, 12, 0
+8755, 17235, 1, "OK", 10, 196, 27, 27, 18, 9, 7, 0
+4577, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+4378, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+8617, 15378, 1, "OK", 9, 158, 22, 22, 14, 8, 6, 0
+7164, 15378, 1, "OK", 8, 189, 29, 29, 19, 10, 8, 0
+7510, 8746, 1, "OK", 3, 30, 7, 7, 5, 2, 2, 0
+9150, 17296, 1, "OK", 10, 185, 21, 21, 15, 6, 5, 0
+8755, 9067, 1, "OK", 2, 8, 6, 6, 3, 3, 2, 0
+4577, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+4932, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+14302, 17343, 1, "OK", 9, 69, 6, 6, 5, 1, 1, 0
+9192, 13962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4378, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+5514, 7154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 8, 8, 6, 2, 2, 0
+5060, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+8755, 17296, 1, "OK", 10, 197, 27, 27, 18, 9, 7, 0
+4986, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+4577, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+5454, 17235, 1, "OK", 7, 272, 42, 42, 29, 13, 11, 0
+9150, 17343, 1, "OK", 10, 187, 21, 21, 15, 6, 5, 0
+4932, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5577, 7282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4334, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+5514, 15378, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 37, 37, 25, 12, 10, 0
+7510, 16996, 1, "OK", 9, 221, 34, 34, 23, 11, 9, 0
+8699, 16996, 1, "OK", 8, 192, 27, 27, 18, 9, 7, 0
+5160, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+4986, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 28, 13, 11, 0
+5454, 9067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 21, 21, 14, 7, 6, 0
+9192, 14023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4378, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+4986, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+8755, 17343, 1, "OK", 10, 199, 27, 27, 18, 9, 7, 0
+4500, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+5484, 14292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 36, 36, 24, 12, 10, 0
+5577, 7317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+14302, 15378, 1, "OK", 8, 23, 1, 1, 1, 0, 0, 0
+9329, 9798, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9192, 11993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 11, 8, 7, 1, 3, 1
+8699, 17037, 1, "OK", 8, 194, 27, 27, 18, 9, 7, 0
+7510, 17037, 1, "OK", 9, 223, 34, 34, 23, 11, 9, 0
+15524, 16415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5160, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+5454, 17296, 1, "OK", 7, 273, 42, 42, 29, 13, 11, 0
+4577, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+4633, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+9329, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4334, 4922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JSONType jsonType FieldInfo[] unsortedGetters", 0, 0, 5, 5, 4, 1, 1, 0
+9150, 15378, 1, "OK", 9, 141, 16, 16, 11, 5, 4, 0
+5060, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5577, 7352, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4500, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+5484, 6143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+6203, 6397, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+7611, 7805, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+4334, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+5354, 14292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 36, 36, 24, 12, 10, 0
+5060, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 17, 8, 7, 0
+5514, 7282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+9192, 14097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4932, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5454, 17343, 1, "OK", 7, 275, 42, 42, 29, 13, 11, 0
+15524, 16472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4633, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+6642, 7144, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+4986, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+4334, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 21, 9, 8, 0
+9329, 13962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4334, 4976, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JSONType jsonType FieldInfo[] unsortedGetters FieldInfo[] getters", 0, 0, 5, 5, 4, 1, 1, 0
+8755, 15378, 1, "OK", 9, 153, 22, 22, 14, 8, 6, 0
+7611, 7845, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+5514, 7317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+5060, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5354, 6143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+4986, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+8699, 17141, 1, "OK", 9, 196, 27, 27, 18, 9, 7, 0
+4334, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 36, 15, 13, 0
+7510, 17141, 1, "OK", 10, 225, 34, 34, 23, 11, 9, 0
+5454, 7154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 8, 8, 6, 2, 2, 0
+9192, 14166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+5514, 7352, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+9329, 14023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4986, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+5060, 17343, 1, "OK", 6, 286, 46, 46, 32, 14, 12, 0
+5454, 15378, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 37, 37, 25, 12, 10, 0
+5577, 7469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+15524, 16558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9329, 11993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 11, 8, 7, 1, 3, 1
+4334, 5050, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz JSONType jsonType FieldInfo[] unsortedGetters FieldInfo[] getters boolean nativeSorted", 0, 0, 5, 5, 4, 1, 1, 0
+4334, 17343, 1, "OK", 1, 307, 51, 51, 36, 15, 13, 0
+4932, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+10787, 13912, 1, "OK", 6, 67, 10, 7, 6, 1, 3, 1
+15661, 16415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9192, 14200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4986, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4932, 9067, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 17, 8, 7, 0
+5938, 8607, 1, "OK", 3, 57, 13, 13, 9, 4, 4, 0
+5060, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+5160, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 39, 39, 26, 13, 11, 0
+7510, 17235, 1, "OK", 10, 226, 34, 34, 23, 11, 9, 0
+8699, 17235, 1, "OK", 9, 197, 27, 27, 18, 9, 7, 0
+7326, 8607, 1, "OK", 3, 28, 7, 7, 5, 2, 2, 0
+4500, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 30, 14, 12, 0
+15524, 16615, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9329, 14097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4334, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+7859, 8477, 1, "OK", 3, 11, 3, 2, 2, 0, 1, 1
+15661, 16472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9192, 14255, 1, "OK", 9, 114, 14, 10, 9, 1, 4, 1
+5060, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 28, 13, 11, 0
+10787, 13962, 1, "OK", 6, 69, 10, 7, 6, 1, 3, 1
+4932, 17296, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5938, 8638, 1, "OK", 3, 59, 13, 13, 9, 4, 4, 0
+7510, 9067, 1, "OK", 4, 38, 13, 13, 8, 5, 4, 0
+8699, 9067, 1, "OK", 1, 9, 6, 6, 3, 3, 2, 0
+5060, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5160, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+4633, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 30, 14, 12, 0
+10261, 13912, 1, "OK", 6, 81, 10, 7, 6, 1, 3, 1
+7326, 8638, 1, "OK", 3, 30, 7, 7, 5, 2, 2, 0
+5514, 7469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4334, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 32, 14, 12, 0
+5454, 7282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+9192, 14282, 1, "OK", 9, 115, 14, 10, 9, 1, 4, 1
+5938, 8666, 1, "OK", 3, 60, 13, 13, 9, 4, 4, 0
+4500, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+6153, 14292, 1, "OK", 7, 185, 34, 34, 22, 12, 10, 0
+15524, 16665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+8699, 17296, 1, "OK", 9, 198, 27, 27, 18, 9, 7, 0
+9667, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 10, 7, 6, 1, 3, 1
+4334, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+4986, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+7510, 17296, 1, "OK", 10, 227, 34, 34, 23, 11, 9, 0
+4932, 17343, 1, "OK", 4, 290, 46, 46, 32, 14, 12, 0
+7326, 8666, 1, "OK", 3, 31, 7, 7, 5, 2, 2, 0
+10787, 14023, 1, "OK", 7, 70, 10, 7, 6, 1, 3, 1
+5938, 8689, 1, "OK", 3, 61, 13, 13, 9, 4, 4, 0
+9329, 14166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4633, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+6203, 6628, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+5454, 7317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+4986, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+10787, 11993, 1, "OK", 5, 27, 7, 5, 4, 1, 2, 1
+10261, 13962, 1, "OK", 6, 83, 10, 7, 6, 1, 3, 1
+7326, 8689, 1, "OK", 3, 32, 7, 7, 5, 2, 2, 0
+4378, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+8699, 17343, 1, "OK", 9, 200, 27, 27, 18, 9, 7, 0
+9192, 10247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+15661, 16558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4986, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+5454, 7352, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+7510, 17343, 1, "OK", 10, 229, 34, 34, 23, 11, 9, 0
+9329, 14200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+9667, 13962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 10, 7, 6, 1, 3, 1
+4932, 7154, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+5060, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+12047, 13912, 1, "OK", 4, 38, 3, 2, 2, 0, 1, 1
+15524, 16726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5938, 8746, 1, "OK", 3, 63, 13, 13, 9, 4, 4, 0
+4577, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+7859, 8597, 1, "OK", 4, 13, 3, 2, 2, 0, 1, 1
+4334, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+4986, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+10787, 14097, 1, "OK", 7, 71, 10, 7, 6, 1, 3, 1
+4932, 15378, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 28, 13, 11, 0
+7326, 8746, 1, "OK", 3, 34, 7, 7, 5, 2, 2, 0
+5060, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+4378, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+10261, 14023, 1, "OK", 7, 84, 10, 7, 6, 1, 3, 1
+4932, 5150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+12047, 13962, 1, "OK", 4, 40, 3, 2, 2, 0, 1, 1
+9329, 14255, 1, "OK", 10, 111, 14, 10, 9, 1, 4, 1
+15661, 16615, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+10261, 11993, 1, "OK", 5, 41, 7, 5, 4, 1, 2, 1
+9667, 14023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 10, 7, 6, 1, 3, 1
+4334, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+4577, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+5938, 16996, 1, "OK", 8, 254, 40, 40, 27, 13, 11, 0
+9667, 11993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 7, 5, 4, 1, 2, 1
+5060, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+8647, 16996, 1, "OK", 9, 195, 27, 27, 18, 9, 7, 0
+15524, 16800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+8699, 15378, 1, "OK", 8, 154, 22, 22, 14, 8, 6, 0
+7510, 15378, 1, "OK", 9, 183, 29, 29, 19, 10, 8, 0
+9329, 14282, 1, "OK", 10, 112, 14, 10, 9, 1, 4, 1
+7326, 16996, 1, "OK", 9, 225, 34, 34, 23, 11, 9, 0
+4986, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4334, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+15661, 16665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5894, 14292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 34, 34, 22, 12, 10, 0
+10787, 14166, 1, "OK", 8, 72, 10, 7, 6, 1, 3, 1
+10261, 14097, 1, "OK", 7, 85, 10, 7, 6, 1, 3, 1
+12047, 14023, 1, "OK", 5, 41, 3, 2, 2, 0, 1, 1
+5060, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+5938, 17037, 1, "OK", 8, 256, 40, 40, 27, 13, 11, 0
+5454, 7469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 8, 8, 6, 2, 2, 0
+8647, 17037, 1, "OK", 9, 197, 27, 27, 18, 9, 7, 0
+9667, 14097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 10, 7, 6, 1, 3, 1
+4932, 7282, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+4334, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+7326, 17037, 1, "OK", 9, 227, 34, 34, 23, 11, 9, 0
+9329, 10247, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+10787, 14200, 1, "OK", 8, 73, 10, 7, 6, 1, 3, 1
+5484, 8607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+15524, 16870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+10731, 13912, 1, "OK", 6, 68, 10, 7, 6, 1, 3, 1
+15661, 16726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4932, 7317, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+5484, 8638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+15524, 16904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+12047, 14097, 1, "OK", 5, 42, 3, 2, 2, 0, 1, 1
+10261, 14166, 1, "OK", 8, 86, 10, 7, 6, 1, 3, 1
+5060, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+10787, 14255, 1, "OK", 8, 74, 10, 7, 6, 1, 3, 1
+5484, 8666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+9667, 14166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 10, 7, 6, 1, 3, 1
+5354, 8607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+4932, 7352, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+4378, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+15620, 16000, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+5060, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+10261, 14200, 1, "OK", 8, 87, 10, 7, 6, 1, 3, 1
+4334, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 4, 0
+10931, 13912, 1, "OK", 6, 64, 10, 7, 6, 1, 3, 1
+5484, 8689, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 15, 15, 11, 4, 4, 0
+10731, 13962, 1, "OK", 6, 70, 10, 7, 6, 1, 3, 1
+5938, 17141, 1, "OK", 9, 258, 40, 40, 27, 13, 11, 0
+8647, 17141, 1, "OK", 10, 199, 27, 27, 18, 9, 7, 0
+10787, 14282, 1, "OK", 8, 75, 10, 7, 6, 1, 3, 1
+9667, 14200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 10, 7, 6, 1, 3, 1
+15661, 16800, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4577, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 30, 14, 12, 0
+5354, 8638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+15555, 16000, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+4334, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+7326, 17141, 1, "OK", 10, 229, 34, 34, 23, 11, 9, 0
+15524, 16959, 1, "OK", 7, 31, 4, 3, 3, 0, 1, 1
+4932, 5344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+5060, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4378, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+12047, 14166, 1, "OK", 6, 43, 3, 2, 2, 0, 1, 1
+15524, 16986, 1, "OK", 7, 32, 4, 3, 3, 0, 1, 1
+5354, 8666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw MethodVisitor mw", 0, 0, 15, 15, 11, 4, 4, 0
+4334, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+6203, 6926, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+10731, 14023, 1, "OK", 7, 71, 10, 7, 6, 1, 3, 1
+5060, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4577, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+5484, 8746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 15, 15, 11, 4, 4, 0
+10931, 13962, 1, "OK", 6, 66, 10, 7, 6, 1, 3, 1
+10261, 14255, 1, "OK", 8, 88, 10, 7, 6, 1, 3, 1
+9667, 14255, 1, "OK", 10, 100, 10, 7, 6, 1, 3, 1
+5354, 8689, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 15, 15, 11, 4, 4, 0
+10731, 11993, 1, "OK", 5, 28, 7, 5, 4, 1, 2, 1
+12047, 14200, 1, "OK", 6, 44, 3, 2, 2, 0, 1, 1
+10261, 14282, 1, "OK", 8, 89, 10, 7, 6, 1, 3, 1
+4334, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+5577, 5884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull", 0, 0, 2, 2, 2, 0, 0, 0
+8675, 14292, 1, "OK", 8, 132, 21, 21, 13, 8, 6, 0
+15661, 16870, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5938, 17235, 1, "OK", 9, 259, 40, 40, 27, 13, 11, 0
+4932, 7469, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 9, 3, 3, 0
+8647, 17235, 1, "OK", 10, 200, 27, 27, 18, 9, 7, 0
+9288, 9653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+9667, 14282, 1, "OK", 10, 101, 10, 7, 6, 1, 3, 1
+10931, 14023, 1, "OK", 7, 67, 10, 7, 6, 1, 3, 1
+7326, 17235, 1, "OK", 10, 230, 34, 34, 23, 11, 9, 0
+5938, 9067, 1, "OK", 4, 71, 19, 19, 12, 7, 6, 0
+5160, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 13, 5, 5, 0
+5484, 16996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull ClassWriter cw", 0, 0, 42, 42, 29, 13, 11, 0
+15661, 16904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5060, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4932, 5445, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+8647, 9067, 1, "OK", 2, 12, 6, 6, 3, 3, 2, 0
+9812, 13912, 1, "OK", 7, 90, 10, 7, 6, 1, 3, 1
+10731, 14097, 1, "OK", 7, 72, 10, 7, 6, 1, 3, 1
+10931, 11993, 1, "OK", 5, 24, 7, 5, 4, 1, 2, 1
+5354, 8746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 15, 15, 11, 4, 4, 0
+5577, 5929, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+12047, 14255, 1, "OK", 6, 45, 3, 2, 2, 0, 1, 1
+15620, 16145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9223, 9653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext boolean writeDirect", 0, 0, 4, 3, 3, 0, 1, 1
+7326, 9067, 1, "OK", 4, 42, 13, 13, 8, 5, 4, 0
+4500, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+4334, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+7565, 7805, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+5160, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 13, 5, 5, 0
+12047, 14282, 1, "OK", 6, 46, 3, 2, 2, 0, 1, 1
+5938, 17296, 1, "OK", 9, 260, 40, 40, 27, 13, 11, 0
+5484, 17037, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull byte[] code", 0, 0, 42, 42, 29, 13, 11, 0
+4932, 5475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+4633, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+15555, 16145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4500, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+8647, 17296, 1, "OK", 10, 201, 27, 27, 18, 9, 7, 0
+7326, 17296, 1, "OK", 10, 231, 34, 34, 23, 11, 9, 0
+5160, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 13, 5, 5, 0
+5514, 5884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull", 0, 0, 2, 2, 2, 0, 0, 0
+9812, 13962, 1, "OK", 7, 92, 10, 7, 6, 1, 3, 1
+6153, 8607, 1, "OK", 3, 50, 13, 13, 9, 4, 4, 0
+15661, 16959, 1, "OK", 8, 28, 4, 3, 3, 0, 1, 1
+5354, 16996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull ClassWriter cw", 0, 0, 42, 42, 29, 13, 11, 0
+7291, 14292, 1, "OK", 8, 164, 28, 28, 18, 10, 8, 0
+7565, 7845, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+10931, 14097, 1, "OK", 7, 68, 10, 7, 6, 1, 3, 1
+4932, 5505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+7611, 8477, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 4, 4, 0, 2, 1
+4986, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+4633, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+4500, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+5160, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 13, 5, 5, 0
+10731, 14166, 1, "OK", 8, 73, 10, 7, 6, 1, 3, 1
+15661, 16986, 1, "OK", 8, 29, 4, 3, 3, 0, 1, 1
+5938, 17343, 1, "OK", 9, 262, 40, 40, 27, 13, 11, 0
+6153, 8638, 1, "OK", 3, 52, 13, 13, 9, 4, 4, 0
+4500, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+8647, 17343, 1, "OK", 10, 203, 27, 27, 18, 9, 7, 0
+4633, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+7326, 17343, 1, "OK", 10, 233, 34, 34, 23, 11, 9, 0
+5514, 5929, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+5354, 17037, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameFull byte[] code", 0, 0, 42, 42, 29, 13, 11, 0
+10731, 14200, 1, "OK", 8, 74, 10, 7, 6, 1, 3, 1
+9812, 14023, 1, "OK", 8, 93, 10, 7, 6, 1, 3, 1
+6153, 8666, 1, "OK", 3, 53, 13, 13, 9, 4, 4, 0
+4986, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+9192, 10717, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4633, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+9288, 9798, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4932, 5568, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+5160, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 13, 5, 5, 0
+10931, 14166, 1, "OK", 8, 69, 10, 7, 6, 1, 3, 1
+9812, 11993, 1, "OK", 6, 50, 7, 5, 4, 1, 2, 1
+5938, 7154, 1, "OK", 3, 26, 6, 6, 4, 2, 2, 0
+10873, 13912, 1, "OK", 6, 66, 10, 7, 6, 1, 3, 1
+5484, 17141, 1, "OK", 7, 270, 42, 42, 29, 13, 11, 0
+6153, 8689, 1, "OK", 3, 54, 13, 13, 9, 4, 4, 0
+6203, 7144, 1, "OK", 2, 17, 5, 3, 3, 0, 2, 1
+4500, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+9288, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+10731, 14255, 1, "OK", 8, 75, 10, 7, 6, 1, 3, 1
+5938, 15378, 1, "OK", 8, 216, 35, 35, 23, 12, 10, 0
+10931, 14200, 1, "OK", 8, 70, 10, 7, 6, 1, 3, 1
+9223, 9798, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String methodName boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+8647, 15378, 1, "OK", 9, 157, 22, 22, 14, 8, 6, 0
+9192, 10774, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5577, 14292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 36, 36, 24, 12, 10, 0
+4633, 8746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+7326, 15378, 1, "OK", 9, 187, 29, 29, 19, 10, 8, 0
+9223, 13912, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+7361, 14292, 1, "OK", 8, 162, 28, 28, 18, 10, 8, 0
+10873, 13962, 1, "OK", 6, 68, 10, 7, 6, 1, 3, 1
+7611, 8597, 1, "OK", 4, 21, 6, 4, 4, 0, 2, 1
+9812, 14097, 1, "OK", 8, 94, 10, 7, 6, 1, 3, 1
+4691, 4912, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+5160, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+6153, 8746, 1, "OK", 3, 56, 13, 13, 9, 4, 4, 0
+10731, 14282, 1, "OK", 8, 76, 10, 7, 6, 1, 3, 1
+9288, 13962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+8617, 14292, 1, "OK", 8, 134, 21, 21, 13, 8, 6, 0
+5354, 17141, 1, "OK", 6, 272, 42, 42, 29, 13, 11, 0
+4500, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5577, 6143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+5894, 8607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 13, 13, 9, 4, 4, 0
+10931, 14255, 1, "OK", 8, 71, 10, 7, 6, 1, 3, 1
+7164, 14292, 1, "OK", 7, 165, 28, 28, 18, 10, 8, 0
+9223, 13962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+5207, 5334, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+5160, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+6411, 6926, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+5484, 17235, 1, "OK", 7, 271, 42, 42, 29, 13, 11, 0
+10873, 14023, 1, "OK", 7, 69, 10, 7, 6, 1, 3, 1
+5454, 5884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull", 0, 0, 2, 2, 2, 0, 0, 0
+4633, 16996, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+4500, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5894, 8638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 13, 13, 9, 4, 4, 0
+10931, 14282, 1, "OK", 8, 72, 10, 7, 6, 1, 3, 1
+6153, 16996, 1, "OK", 8, 247, 40, 40, 27, 13, 11, 0
+9192, 10860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5484, 9067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 21, 21, 14, 7, 6, 0
+5938, 7282, 1, "OK", 3, 28, 6, 6, 4, 2, 2, 0
+9288, 14023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+10873, 11993, 1, "OK", 5, 26, 7, 5, 4, 1, 2, 1
+9812, 14166, 1, "OK", 9, 95, 10, 7, 6, 1, 3, 1
+5514, 14292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 36, 36, 24, 12, 10, 0
+9329, 10717, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9288, 11993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 11, 8, 7, 1, 3, 1
+4633, 17037, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5894, 8666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw MethodVisitor mw", 0, 0, 13, 13, 9, 4, 4, 0
+4986, 14292, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 40, 27, 13, 11, 0
+15620, 16415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5454, 5929, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+9812, 14200, 1, "OK", 9, 96, 10, 7, 6, 1, 3, 1
+9223, 14023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+5938, 7317, 1, "OK", 3, 29, 6, 6, 4, 2, 2, 0
+6153, 17037, 1, "OK", 8, 249, 40, 40, 27, 13, 11, 0
+5484, 17296, 1, "OK", 7, 272, 42, 42, 29, 13, 11, 0
+5354, 17235, 1, "OK", 6, 273, 42, 42, 29, 13, 11, 0
+5894, 8689, 1, "OK", 2, 62, 13, 13, 9, 4, 4, 0
+4378, 4490, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+5514, 6143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 2, 2, 2, 0, 0, 0
+9223, 11993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 11, 8, 7, 1, 3, 1
+9192, 10917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+15555, 16415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5060, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+10873, 14097, 1, "OK", 7, 70, 10, 7, 6, 1, 3, 1
+5354, 9067, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 21, 21, 14, 7, 6, 0
+9329, 10774, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4378, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+4986, 6143, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+5938, 7352, 1, "OK", 3, 30, 6, 6, 4, 2, 2, 0
+5160, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+4334, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+9288, 14097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+15620, 16472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9150, 14292, 1, "OK", 8, 117, 15, 15, 10, 5, 4, 0
+5484, 17343, 1, "OK", 7, 274, 42, 42, 29, 13, 11, 0
+9812, 14255, 1, "OK", 9, 97, 10, 7, 6, 1, 3, 1
+4577, 8607, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+4500, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+5060, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+5354, 17296, 1, "OK", 6, 274, 42, 42, 29, 13, 11, 0
+4378, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+5894, 8746, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 13, 13, 9, 4, 4, 0
+8791, 9057, 1, "OK", 2, 6, 5, 3, 2, 1, 2, 1
+9223, 14097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+7819, 8477, 1, "OK", 3, 13, 3, 2, 2, 0, 1, 1
+15555, 16472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+9812, 14282, 1, "OK", 9, 98, 10, 7, 6, 1, 3, 1
+10873, 14166, 1, "OK", 8, 71, 10, 7, 6, 1, 3, 1
+4378, 4567, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+4577, 8638, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+4334, 5929, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 9, 2, 2, 0
+4633, 17141, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 35, 15, 13, 0
+4378, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+5484, 7154, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw", 0, 0, 8, 8, 6, 2, 2, 0
+8755, 14292, 1, "OK", 8, 129, 21, 21, 13, 8, 6, 0
+9288, 14166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+6153, 17141, 1, "OK", 9, 251, 40, 40, 27, 13, 11, 0
+5354, 17343, 1, "OK", 6, 276, 42, 42, 29, 13, 11, 0
+4577, 8666, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+9329, 10860, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw boolean nonContext Context context", 0, 0, 4, 3, 3, 0, 1, 1
+4378, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 18, 6, 6, 0
+5894, 16996, 1, "OK", 7, 255, 40, 40, 27, 13, 11, 0
+4500, 4922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+5484, 15378, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String classNameType String classNameFull ClassWriter cw boolean DisableCircularReferenceDetect", 0, 0, 37, 37, 25, 12, 10, 0
+10873, 14200, 1, "OK", 8, 72, 10, 7, 6, 1, 3, 1
+15620, 16558, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 4, 3, 3, 0, 1, 1
+5160, 17235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 31, 14, 12, 0
+4577, 8689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 6, 0
+4378, 4623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONType jsonType FieldInfo[] unsortedGetters", 0, 0, 1, 1, 1, 0, 0, 0
+9223, 14166, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+9288, 14200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  MethodVisitor mw Context context", 0, 0, 14, 10, 9, 1, 4, 1
+4932, 5884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+6411, 7144, 1, "OK", 2, 11, 2, 1, 1, 0, 1, 1
+5938, 7469, 1, "OK", 3, 31, 6, 6, 4, 2, 2, 0

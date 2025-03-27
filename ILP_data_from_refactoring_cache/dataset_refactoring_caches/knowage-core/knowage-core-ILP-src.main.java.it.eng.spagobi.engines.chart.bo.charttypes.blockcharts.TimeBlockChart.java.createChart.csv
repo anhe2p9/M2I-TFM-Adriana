@@ -1,0 +1,907 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9303, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+10175, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9332, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9262, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9178, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11959, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9456, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9303, 9683, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+9389, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11879, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+12938, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9125, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+10242, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10910, 13120, 1, "OK", 1, 51, 11, 11, 7, 4, 3, 0
+9303, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9303, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9147, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9178, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+13071, 13732, 1, "OK", 5, 20, 1, 1, 1, 0, 0, 0
+9389, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+12938, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9125, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 13823, 1, "OK", 6, 52, 8, 8, 5, 3, 2, 0
+9456, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11959, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+13071, 13756, 1, "OK", 5, 21, 1, 1, 1, 0, 0, 0
+10910, 13161, 1, "OK", 1, 52, 11, 11, 7, 4, 3, 0
+9303, 13823, 1, "OK", 2, 120, 17, 17, 13, 4, 3, 0
+13402, 13732, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+9332, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9456, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 13847, 1, "OK", 6, 54, 8, 8, 5, 3, 2, 0
+11706, 13068, 1, "OK", 1, 33, 7, 7, 4, 3, 2, 0
+12938, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9262, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9178, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+12180, 12717, 1, "OK", 4, 12, 6, 4, 3, 1, 2, 1
+10175, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10910, 13187, 1, "OK", 1, 53, 11, 11, 7, 4, 3, 0
+9303, 13847, 1, "OK", 2, 122, 17, 17, 13, 4, 3, 0
+13402, 13756, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+11879, 13864, 1, "OK", 6, 56, 8, 8, 5, 3, 2, 0
+11959, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9687, 10143, 1, "OK", 1, 14, 3, 3, 3, 0, 0, 0
+12938, 13823, 1, "OK", 6, 26, 1, 1, 1, 0, 0, 0
+13071, 13797, 1, "OK", 5, 22, 1, 1, 1, 0, 0, 0
+9303, 13864, 1, "OK", 2, 124, 17, 17, 13, 4, 3, 0
+9332, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+12180, 12753, 1, "OK", 5, 13, 6, 4, 3, 1, 2, 1
+9303, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+9687, 10172, 1, "OK", 1, 15, 3, 3, 3, 0, 0, 0
+11706, 13120, 1, "OK", 1, 34, 7, 7, 4, 3, 2, 0
+9147, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10242, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+12938, 13847, 1, "OK", 6, 28, 1, 1, 1, 0, 0, 0
+13402, 13797, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+10101, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10175, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9262, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+13071, 13823, 1, "OK", 5, 23, 1, 1, 1, 0, 0, 0
+12938, 13864, 1, "OK", 6, 30, 1, 1, 1, 0, 0, 0
+11959, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9389, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+13402, 13823, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+9125, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 4, 4, 3, 1, 1, 0
+10242, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+10101, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+13071, 13847, 1, "OK", 5, 25, 1, 1, 1, 0, 0, 0
+9456, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11706, 13161, 1, "OK", 1, 35, 7, 7, 4, 3, 2, 0
+9262, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+13402, 13847, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+9303, 9843, 1, "OK", 1, 17, 5, 5, 5, 0, 0, 0
+13071, 13864, 1, "OK", 5, 27, 1, 1, 1, 0, 0, 0
+11828, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10101, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 4, 4, 3, 1, 1, 0
+10175, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+10331, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+13402, 13864, 1, "OK", 2, 18, 1, 1, 1, 0, 0, 0
+11959, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10910, 13286, 1, "OK", 1, 56, 11, 11, 7, 4, 3, 0
+9687, 10239, 1, "OK", 1, 16, 3, 3, 3, 0, 0, 0
+9178, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+11706, 13187, 1, "OK", 1, 36, 7, 7, 4, 3, 2, 0
+9262, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9178, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9389, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10242, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9178, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9687, 10275, 1, "OK", 1, 17, 3, 3, 3, 0, 0, 0
+11959, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9361, 10143, 1, "OK", 1, 24, 5, 5, 5, 0, 0, 0
+10101, 13823, 1, "OK", 2, 95, 12, 12, 8, 4, 3, 0
+9456, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+11296, 11601, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+10331, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 9683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis", 0, 0, 2, 2, 2, 0, 0, 0
+10910, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+10242, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10101, 13847, 1, "OK", 2, 97, 12, 12, 8, 4, 3, 0
+9178, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9361, 10172, 1, "OK", 1, 25, 5, 5, 5, 0, 0, 0
+9332, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9389, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 13864, 1, "OK", 2, 99, 12, 12, 8, 4, 3, 0
+10175, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 4, 4, 3, 1, 1, 0
+11959, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 7, 7, 4, 3, 2, 0
+9178, 13823, 1, "OK", 1, 123, 17, 17, 13, 4, 3, 0
+9687, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+11706, 13286, 1, "OK", 1, 39, 7, 7, 4, 3, 2, 0
+9456, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11296, 11657, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+9332, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 13847, 1, "OK", 1, 125, 17, 17, 13, 4, 3, 0
+9125, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9262, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9147, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+10910, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 7, 7, 4, 3, 2, 0
+10331, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 13864, 1, "OK", 1, 127, 17, 17, 13, 4, 3, 0
+9361, 10239, 1, "OK", 1, 26, 5, 5, 5, 0, 0, 0
+9687, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+9456, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+10469, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+10403, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+11296, 11698, 1, "OK", 2, 10, 3, 2, 2, 0, 1, 1
+9178, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+10910, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9125, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11706, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10331, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10469, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 10275, 1, "OK", 1, 27, 5, 5, 5, 0, 0, 0
+9456, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10403, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+10175, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9687, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+11959, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+9178, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+10910, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+13545, 13732, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+10175, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+11706, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9147, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 11702, 1, "OK", 1, 36, 4, 4, 3, 1, 1, 0
+9178, 9843, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis", 0, 0, 5, 5, 5, 0, 0, 0
+11959, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+9125, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10469, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9361, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9262, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 11702, 1, "OK", 1, 35, 4, 4, 3, 1, 1, 0
+9389, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9456, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+13545, 13756, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+10403, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+9332, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9125, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 11737, 1, "OK", 1, 38, 4, 4, 3, 1, 1, 0
+10242, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10175, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+11959, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+11828, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+9147, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10910, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11706, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9262, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9456, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 13068, 1, "OK", 1, 66, 11, 11, 7, 4, 3, 0
+10469, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+13545, 13797, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+10242, 11737, 1, "OK", 1, 37, 4, 4, 3, 1, 1, 0
+9687, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+10910, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10242, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10175, 13823, 1, "OK", 3, 93, 12, 12, 8, 4, 3, 0
+10403, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+11959, 13823, 1, "OK", 6, 49, 8, 8, 5, 3, 2, 0
+9303, 10143, 1, "OK", 1, 26, 5, 5, 5, 0, 0, 0
+11706, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+13545, 13823, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+9125, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+10242, 13823, 1, "OK", 3, 92, 12, 12, 8, 4, 3, 0
+10175, 13847, 1, "OK", 3, 95, 12, 12, 8, 4, 3, 0
+10403, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9456, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+9303, 10172, 1, "OK", 1, 27, 5, 5, 5, 0, 0, 0
+10331, 13120, 1, "OK", 1, 67, 11, 11, 7, 4, 3, 0
+11959, 13847, 1, "OK", 6, 51, 8, 8, 5, 3, 2, 0
+9262, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10469, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13823, 1, "OK", 5, 53, 8, 8, 5, 3, 2, 0
+13545, 13847, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+10175, 13864, 1, "OK", 3, 97, 12, 12, 8, 4, 3, 0
+9147, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10910, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+10242, 13847, 1, "OK", 3, 94, 12, 12, 8, 4, 3, 0
+9361, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10175, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 4, 4, 3, 1, 1, 0
+11959, 13864, 1, "OK", 6, 53, 8, 8, 5, 3, 2, 0
+13351, 13732, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+9332, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13847, 1, "OK", 5, 55, 8, 8, 5, 3, 2, 0
+10242, 13864, 1, "OK", 3, 96, 12, 12, 8, 4, 3, 0
+13545, 13864, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+10403, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11706, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10331, 13161, 1, "OK", 1, 68, 11, 11, 7, 4, 3, 0
+10469, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13864, 1, "OK", 5, 57, 8, 8, 5, 3, 2, 0
+13351, 13756, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+10146, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+10242, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 4, 4, 3, 1, 1, 0
+9262, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+10279, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+10331, 13187, 1, "OK", 1, 69, 11, 11, 7, 4, 3, 0
+11706, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9303, 10239, 1, "OK", 1, 28, 5, 5, 5, 0, 0, 0
+9262, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+13351, 13797, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+9389, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+10175, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+10146, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+10242, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9303, 10275, 1, "OK", 1, 29, 5, 5, 5, 0, 0, 0
+9361, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9389, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+10242, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+10279, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9456, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9389, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9125, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9147, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9125, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+11706, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 7, 7, 4, 3, 2, 0
+9332, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+13351, 13823, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+10910, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9262, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 9683, 1, "OK", 1, 8, 2, 2, 2, 0, 0, 0
+9456, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9389, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9456, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9125, 9683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis", 0, 0, 2, 2, 2, 0, 0, 0
+12760, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+10469, 13068, 1, "OK", 1, 62, 11, 11, 7, 4, 3, 0
+10403, 13068, 1, "OK", 1, 64, 11, 11, 7, 4, 3, 0
+9125, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+10146, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+13351, 13847, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+10910, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9687, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 14, 14, 10, 4, 3, 0
+10910, 11702, 1, "OK", 1, 16, 4, 4, 3, 1, 1, 0
+9389, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9456, 9683, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+9147, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+12760, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+13351, 13864, 1, "OK", 2, 19, 1, 1, 1, 0, 0, 0
+12336, 12561, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+9125, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9303, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10279, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10331, 13286, 1, "OK", 1, 72, 11, 11, 7, 4, 3, 0
+9456, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9456, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9332, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 13823, 1, "OK", 2, 117, 17, 17, 13, 4, 3, 0
+10469, 13120, 1, "OK", 1, 63, 11, 11, 7, 4, 3, 0
+10910, 11737, 1, "OK", 1, 18, 4, 4, 3, 1, 1, 0
+10403, 13120, 1, "OK", 1, 65, 11, 11, 7, 4, 3, 0
+13290, 13732, 1, "OK", 4, 13, 1, 1, 1, 0, 0, 0
+9125, 13823, 1, "OK", 1, 125, 17, 17, 13, 4, 3, 0
+9687, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 14, 14, 10, 4, 3, 0
+9178, 10143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10146, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+12760, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9147, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10910, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9303, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+11047, 11601, 1, "OK", 1, 10, 3, 2, 2, 0, 1, 1
+9389, 13847, 1, "OK", 2, 119, 17, 17, 13, 4, 3, 0
+13489, 13732, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+12336, 12612, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+9456, 13823, 1, "OK", 2, 116, 17, 17, 13, 4, 3, 0
+13290, 13756, 1, "OK", 4, 14, 1, 1, 1, 0, 0, 0
+9125, 13847, 1, "OK", 1, 127, 17, 17, 13, 4, 3, 0
+9389, 13864, 1, "OK", 2, 121, 17, 17, 13, 4, 3, 0
+10279, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 13864, 1, "OK", 1, 129, 17, 17, 13, 4, 3, 0
+10469, 13161, 1, "OK", 1, 64, 11, 11, 7, 4, 3, 0
+9389, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+10403, 13161, 1, "OK", 1, 66, 11, 11, 7, 4, 3, 0
+10146, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 10172, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10910, 13823, 1, "OK", 4, 73, 12, 12, 8, 4, 3, 0
+9125, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+13489, 13756, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+9456, 13847, 1, "OK", 2, 118, 17, 17, 13, 4, 3, 0
+9147, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11706, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+12760, 13823, 1, "OK", 6, 31, 1, 1, 1, 0, 0, 0
+10331, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9687, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 14, 14, 10, 4, 3, 0
+10469, 13187, 1, "OK", 1, 65, 11, 11, 7, 4, 3, 0
+13290, 13797, 1, "OK", 4, 15, 1, 1, 1, 0, 0, 0
+9456, 13864, 1, "OK", 2, 120, 17, 17, 13, 4, 3, 0
+10910, 13847, 1, "OK", 4, 75, 12, 12, 8, 4, 3, 0
+10279, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10403, 13187, 1, "OK", 1, 67, 11, 11, 7, 4, 3, 0
+9332, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+9456, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+11706, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+12760, 13847, 1, "OK", 6, 33, 1, 1, 1, 0, 0, 0
+11047, 11657, 1, "OK", 1, 12, 3, 2, 2, 0, 1, 1
+9303, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+13623, 13732, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+9262, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+10146, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+10910, 13864, 1, "OK", 4, 77, 12, 12, 8, 4, 3, 0
+13290, 13823, 1, "OK", 5, 16, 1, 1, 1, 0, 0, 0
+10910, 11825, 1, "OK", 1, 20, 4, 4, 3, 1, 1, 0
+13489, 13797, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+12760, 13864, 1, "OK", 6, 35, 1, 1, 1, 0, 0, 0
+10331, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9389, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+13623, 13756, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+9361, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9178, 10239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9262, 9683, 1, "OK", 0, 12, 2, 2, 2, 0, 0, 0
+9389, 9843, 1, "OK", 1, 14, 5, 5, 5, 0, 0, 0
+9125, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9262, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+13290, 13847, 1, "OK", 5, 18, 1, 1, 1, 0, 0, 0
+9687, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 14, 14, 10, 4, 3, 0
+11706, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+13489, 13823, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+11047, 11698, 1, "OK", 2, 13, 3, 2, 2, 0, 1, 1
+9125, 9843, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10279, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9389, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9456, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9125, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+13290, 13864, 1, "OK", 5, 20, 1, 1, 1, 0, 0, 0
+9262, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9456, 9843, 1, "OK", 1, 13, 5, 5, 5, 0, 0, 0
+11117, 11601, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+13489, 13847, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+10910, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9456, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+11706, 13823, 1, "OK", 4, 56, 8, 8, 5, 3, 2, 0
+9147, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+13623, 13797, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+10331, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 10275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9361, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 14, 14, 10, 4, 3, 0
+9262, 13823, 1, "OK", 1, 121, 17, 17, 13, 4, 3, 0
+11706, 13847, 1, "OK", 4, 58, 8, 8, 5, 3, 2, 0
+10910, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+11741, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 7, 7, 4, 3, 2, 0
+13489, 13864, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+9303, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10403, 13286, 1, "OK", 1, 70, 11, 11, 7, 4, 3, 0
+10469, 13286, 1, "OK", 1, 68, 11, 11, 7, 4, 3, 0
+11706, 13864, 1, "OK", 4, 60, 8, 8, 5, 3, 2, 0
+9262, 13847, 1, "OK", 1, 123, 17, 17, 13, 4, 3, 0
+10146, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+13623, 13823, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+10331, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9332, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+11117, 11657, 1, "OK", 1, 11, 3, 2, 2, 0, 1, 1
+11741, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 7, 7, 4, 3, 2, 0
+9178, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9687, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 14, 14, 10, 4, 3, 0
+9262, 13864, 1, "OK", 1, 125, 17, 17, 13, 4, 3, 0
+13164, 13732, 1, "OK", 5, 18, 1, 1, 1, 0, 0, 0
+9262, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+10279, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9332, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9361, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+13623, 13847, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+9332, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9147, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+13623, 13864, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+13164, 13756, 1, "OK", 5, 19, 1, 1, 1, 0, 0, 0
+10146, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9332, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9178, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+11117, 11698, 1, "OK", 2, 12, 3, 2, 2, 0, 1, 1
+9332, 9683, 1, "OK", 1, 10, 2, 2, 2, 0, 0, 0
+10469, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10403, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10331, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+9262, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9332, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9361, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9147, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+12902, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+13164, 13797, 1, "OK", 5, 20, 1, 1, 1, 0, 0, 0
+12145, 12617, 1, "OK", 3, 11, 6, 4, 3, 1, 2, 1
+10279, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 9843, 1, "OK", 0, 18, 5, 5, 5, 0, 0, 0
+9332, 13823, 1, "OK", 2, 119, 17, 17, 13, 4, 3, 0
+9262, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+10146, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+10331, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10403, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+12902, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9687, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 14, 14, 10, 4, 3, 0
+13164, 13823, 1, "OK", 5, 21, 1, 1, 1, 0, 0, 0
+9361, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10469, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9332, 13847, 1, "OK", 2, 121, 17, 17, 13, 4, 3, 0
+11741, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+10279, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+10146, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+13164, 13847, 1, "OK", 5, 23, 1, 1, 1, 0, 0, 0
+9147, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9178, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9332, 13864, 1, "OK", 2, 123, 17, 17, 13, 4, 3, 0
+10279, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9332, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+10469, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9361, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+13164, 13864, 1, "OK", 5, 25, 1, 1, 1, 0, 0, 0
+10331, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+10403, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+12902, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+11879, 12757, 1, "OK", 2, 21, 7, 7, 4, 3, 2, 0
+9687, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 14, 14, 10, 4, 3, 0
+11741, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+9147, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+12145, 12717, 1, "OK", 3, 13, 6, 4, 3, 1, 2, 1
+9303, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+12902, 13823, 1, "OK", 6, 27, 1, 1, 1, 0, 0, 0
+10403, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10469, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 12795, 1, "OK", 3, 22, 7, 7, 4, 3, 2, 0
+12083, 12617, 1, "OK", 2, 12, 6, 4, 3, 1, 2, 1
+12902, 13847, 1, "OK", 6, 29, 1, 1, 1, 0, 0, 0
+9332, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+11741, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+9687, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 14, 14, 10, 4, 3, 0
+10146, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 9843, 1, "OK", 1, 16, 5, 5, 5, 0, 0, 0
+12145, 12753, 1, "OK", 4, 14, 6, 4, 3, 1, 2, 1
+9178, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+12902, 13864, 1, "OK", 6, 31, 1, 1, 1, 0, 0, 0
+9332, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9687, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 14, 14, 10, 4, 3, 0
+9147, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 10143, 1, "OK", 1, 23, 5, 5, 5, 0, 0, 0
+9361, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9125, 10143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10469, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10279, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+10994, 11601, 1, "OK", 1, 11, 3, 2, 2, 0, 1, 1
+10403, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 12851, 1, "OK", 3, 24, 7, 7, 4, 3, 2, 0
+9147, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9389, 10172, 1, "OK", 1, 24, 5, 5, 5, 0, 0, 0
+9456, 10143, 1, "OK", 1, 22, 5, 5, 5, 0, 0, 0
+9303, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 11702, 1, "OK", 1, 32, 4, 4, 3, 1, 1, 0
+10469, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 10172, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10403, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10146, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10331, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9456, 10172, 1, "OK", 1, 23, 5, 5, 5, 0, 0, 0
+9361, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11741, 13068, 1, "OK", 1, 31, 7, 7, 4, 3, 2, 0
+11879, 12899, 1, "OK", 3, 25, 7, 7, 4, 3, 2, 0
+10331, 11737, 1, "OK", 1, 34, 4, 4, 3, 1, 1, 0
+10279, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10994, 11657, 1, "OK", 1, 13, 3, 2, 2, 0, 1, 1
+9147, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+12083, 12717, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer index String insertLabel", 0, 0, 6, 4, 3, 1, 2, 1
+9303, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10146, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9687, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 14, 14, 10, 4, 3, 0
+10469, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+9389, 10239, 1, "OK", 1, 25, 5, 5, 5, 0, 0, 0
+10403, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+12083, 12753, 1, "OK", 3, 15, 6, 4, 3, 1, 2, 1
+9361, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9125, 10239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10331, 13823, 1, "OK", 4, 89, 12, 12, 8, 4, 3, 0
+11741, 13120, 1, "OK", 1, 32, 7, 7, 4, 3, 2, 0
+11879, 12935, 1, "OK", 3, 26, 7, 7, 4, 3, 2, 0
+10994, 11698, 1, "OK", 2, 14, 3, 2, 2, 0, 1, 1
+10101, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9389, 10275, 1, "OK", 1, 26, 5, 5, 5, 0, 0, 0
+9456, 10239, 1, "OK", 1, 24, 5, 5, 5, 0, 0, 0
+10279, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10331, 13847, 1, "OK", 4, 91, 12, 12, 8, 4, 3, 0
+9125, 10275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10101, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+10146, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13161, 1, "OK", 1, 33, 7, 7, 4, 3, 2, 0
+9687, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 14, 14, 10, 4, 3, 0
+10331, 13864, 1, "OK", 4, 93, 12, 12, 8, 4, 3, 0
+11879, 12975, 1, "OK", 3, 27, 7, 7, 4, 3, 2, 0
+9456, 10275, 1, "OK", 1, 25, 5, 5, 5, 0, 0, 0
+10331, 11825, 1, "OK", 1, 36, 4, 4, 3, 1, 1, 0
+9262, 10143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9178, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+10279, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+11741, 13187, 1, "OK", 1, 34, 7, 7, 4, 3, 2, 0
+9389, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10146, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 10172, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9147, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9125, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+12979, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9147, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+13574, 13732, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+10101, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9687, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 14, 14, 10, 4, 3, 0
+10469, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9147, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9178, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+10403, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+12979, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9456, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10279, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10331, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9389, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10403, 11702, 1, "OK", 1, 30, 4, 4, 3, 1, 1, 0
+13574, 13756, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+9361, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10469, 11702, 1, "OK", 1, 28, 4, 4, 3, 1, 1, 0
+9125, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10331, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9147, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9147, 9683, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis", 0, 0, 2, 2, 2, 0, 0, 0
+10469, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10403, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10146, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 13068, 1, "OK", 3, 29, 7, 7, 4, 3, 2, 0
+9687, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 14, 14, 10, 4, 3, 0
+10101, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+10469, 11737, 1, "OK", 1, 30, 4, 4, 3, 1, 1, 0
+9303, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10403, 11737, 1, "OK", 1, 32, 4, 4, 3, 1, 1, 0
+9456, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+12979, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9262, 10239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+10279, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9147, 13823, 1, "OK", 1, 124, 17, 17, 13, 4, 3, 0
+10146, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10469, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10403, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+13574, 13797, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+9332, 10143, 1, "OK", 1, 25, 5, 5, 5, 0, 0, 0
+12979, 13823, 1, "OK", 6, 24, 1, 1, 1, 0, 0, 0
+11741, 13286, 1, "OK", 1, 37, 7, 7, 4, 3, 2, 0
+9361, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9262, 10275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9389, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10101, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10403, 13823, 1, "OK", 4, 87, 12, 12, 8, 4, 3, 0
+9147, 13847, 1, "OK", 1, 126, 17, 17, 13, 4, 3, 0
+10279, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9687, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 14, 14, 10, 4, 3, 0
+13574, 13823, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+10469, 13823, 1, "OK", 4, 85, 12, 12, 8, 4, 3, 0
+11879, 13120, 1, "OK", 3, 30, 7, 7, 4, 3, 2, 0
+12979, 13847, 1, "OK", 6, 26, 1, 1, 1, 0, 0, 0
+9147, 13864, 1, "OK", 1, 128, 17, 17, 13, 4, 3, 0
+9332, 10172, 1, "OK", 1, 26, 5, 5, 5, 0, 0, 0
+9178, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9303, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10403, 13847, 1, "OK", 4, 89, 12, 12, 8, 4, 3, 0
+12979, 13864, 1, "OK", 6, 28, 1, 1, 1, 0, 0, 0
+9147, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+13574, 13847, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+10146, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+10469, 13847, 1, "OK", 4, 87, 12, 12, 8, 4, 3, 0
+9456, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+13446, 13732, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+10101, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10469, 13864, 1, "OK", 4, 89, 12, 12, 8, 4, 3, 0
+9361, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10403, 13864, 1, "OK", 4, 91, 12, 12, 8, 4, 3, 0
+13574, 13864, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+11879, 13161, 1, "OK", 3, 31, 7, 7, 4, 3, 2, 0
+10469, 11825, 1, "OK", 1, 32, 4, 4, 3, 1, 1, 0
+12029, 12617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RangeBlocks range Integer index", 0, 0, 6, 4, 3, 1, 2, 1
+9178, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10403, 11825, 1, "OK", 1, 34, 4, 4, 3, 1, 1, 0
+9687, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 14, 14, 10, 4, 3, 0
+10279, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9262, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+13446, 13756, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+10175, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9303, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11879, 13187, 1, "OK", 3, 32, 7, 7, 4, 3, 2, 0
+11959, 12757, 1, "OK", 2, 18, 7, 7, 4, 3, 2, 0
+9332, 10239, 1, "OK", 1, 27, 5, 5, 5, 0, 0, 0
+9687, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 14, 14, 10, 4, 3, 0
+9303, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9389, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9147, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+10242, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9178, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9262, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9361, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9147, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+10175, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 9843, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis", 0, 0, 5, 5, 5, 0, 0, 0
+11741, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+11959, 12795, 1, "OK", 3, 19, 7, 7, 4, 3, 2, 0
+10469, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+13446, 13797, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+10403, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+11828, 12757, 1, "OK", 1, 22, 7, 7, 4, 3, 2, 0
+12854, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9456, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10403, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9332, 10275, 1, "OK", 1, 28, 5, 5, 5, 0, 0, 0
+10469, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9361, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 14, 14, 10, 4, 3, 0
+10101, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+13446, 13823, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+10242, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+12854, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+11741, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10146, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+11828, 12795, 1, "OK", 2, 23, 7, 7, 4, 3, 2, 0
+10175, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+10146, 11702, 1, "OK", 1, 37, 4, 4, 3, 1, 1, 0
+13446, 13847, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+12029, 12717, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer index String insertLabel", 0, 0, 6, 4, 3, 1, 2, 1
+11959, 12851, 1, "OK", 3, 21, 7, 7, 4, 3, 2, 0
+10279, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10146, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9332, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+11879, 13286, 1, "OK", 3, 35, 7, 7, 4, 3, 2, 0
+13446, 13864, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+10101, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+12029, 12753, 1, "OK", 3, 16, 6, 4, 3, 1, 2, 1
+9361, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10279, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+9303, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10279, 11702, 1, "OK", 0, 33, 4, 4, 3, 1, 1, 0
+12854, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9178, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10146, 11737, 1, "OK", 1, 39, 4, 4, 3, 1, 1, 0
+10175, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10146, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+11828, 12851, 1, "OK", 2, 25, 7, 7, 4, 3, 2, 0
+11959, 12899, 1, "OK", 3, 22, 7, 7, 4, 3, 2, 0
+9332, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+12854, 13823, 1, "OK", 6, 28, 1, 1, 1, 0, 0, 0
+10101, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9361, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10279, 11737, 1, "OK", 0, 35, 4, 4, 3, 1, 1, 0
+10279, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 12, 12, 8, 4, 3, 0
+10146, 13823, 1, "OK", 3, 94, 12, 12, 8, 4, 3, 0
+11879, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9178, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+12301, 12561, 1, "OK", 1, 6, 4, 2, 2, 0, 1, 2
+12854, 13847, 1, "OK", 6, 30, 1, 1, 1, 0, 0, 0
+10242, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9262, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9303, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 15, 15, 11, 4, 3, 0
+10101, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+10175, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10146, 13847, 1, "OK", 3, 96, 12, 12, 8, 4, 3, 0
+11959, 12935, 1, "OK", 3, 23, 7, 7, 4, 3, 2, 0
+11828, 12899, 1, "OK", 2, 26, 7, 7, 4, 3, 2, 0
+12854, 13864, 1, "OK", 6, 32, 1, 1, 1, 0, 0, 0
+10279, 13823, 1, "OK", 3, 90, 12, 12, 8, 4, 3, 0
+9361, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 15, 15, 11, 4, 3, 0
+10146, 13864, 1, "OK", 3, 98, 12, 12, 8, 4, 3, 0
+10242, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9687, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 7, 7, 6, 1, 1, 0
+13123, 13732, 1, "OK", 5, 19, 1, 1, 1, 0, 0, 0
+9332, 10434, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9389, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 12935, 1, "OK", 2, 27, 7, 7, 4, 3, 2, 0
+9178, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10146, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 4, 4, 3, 1, 1, 0
+10175, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10279, 13847, 1, "OK", 3, 92, 12, 12, 8, 4, 3, 0
+11879, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9125, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+13256, 13732, 1, "OK", 4, 15, 1, 1, 1, 0, 0, 0
+11959, 12975, 1, "OK", 3, 24, 7, 7, 4, 3, 2, 0
+13123, 13756, 1, "OK", 5, 20, 1, 1, 1, 0, 0, 0
+12301, 12612, 1, "OK", 3, 7, 4, 2, 2, 0, 1, 2
+9456, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9303, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 7, 7, 6, 1, 1, 0
+10279, 13864, 1, "OK", 3, 94, 12, 12, 8, 4, 3, 0
+9389, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 15, 15, 11, 4, 3, 0
+10242, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10279, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 4, 4, 3, 1, 1, 0
+9125, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+13256, 13756, 1, "OK", 4, 16, 1, 1, 1, 0, 0, 0
+11879, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+11828, 12975, 1, "OK", 2, 28, 7, 7, 4, 3, 2, 0
+10910, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 7, 7, 4, 3, 2, 0
+13123, 13797, 1, "OK", 5, 21, 1, 1, 1, 0, 0, 0
+10146, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9456, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9303, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 13823, 1, "OK", 2, 108, 15, 15, 11, 4, 3, 0
+10146, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+10101, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+13256, 13797, 1, "OK", 4, 17, 1, 1, 1, 0, 0, 0
+10279, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+10910, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 11, 11, 7, 4, 3, 0
+13123, 13823, 1, "OK", 5, 22, 1, 1, 1, 0, 0, 0
+9332, 10522, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9389, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9687, 13847, 1, "OK", 2, 110, 15, 15, 11, 4, 3, 0
+9125, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9361, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+11959, 13068, 1, "OK", 3, 26, 7, 7, 4, 3, 2, 0
+13123, 13847, 1, "OK", 5, 24, 1, 1, 1, 0, 0, 0
+10279, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 4, 4, 3, 1, 1, 0
+9687, 13864, 1, "OK", 2, 112, 15, 15, 11, 4, 3, 0
+9303, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+13256, 13823, 1, "OK", 5, 18, 1, 1, 1, 0, 0, 0
+9687, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 7, 7, 6, 1, 1, 0
+9456, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+13123, 13864, 1, "OK", 5, 26, 1, 1, 1, 0, 0, 0
+9147, 10143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9361, 11702, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+9361, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9178, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9389, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10910, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10101, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+13256, 13847, 1, "OK", 5, 20, 1, 1, 1, 0, 0, 0
+11706, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 7, 7, 4, 3, 2, 0
+11879, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+9125, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13068, 1, "OK", 2, 30, 7, 7, 4, 3, 2, 0
+9147, 10172, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9361, 9683, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+10175, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+13256, 13864, 1, "OK", 5, 22, 1, 1, 1, 0, 0, 0
+9687, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 7, 7, 6, 1, 1, 0
+9303, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9262, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 11737, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 9, 9, 8, 1, 1, 0
+11741, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+11959, 13120, 1, "OK", 3, 27, 7, 7, 4, 3, 2, 0
+9456, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+9687, 9843, 1, "OK", 1, 5, 3, 3, 3, 0, 0, 0
+11879, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 7, 7, 4, 3, 2, 0
+10242, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9389, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+12799, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+10910, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+9687, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 7, 7, 6, 1, 1, 0
+11741, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+9125, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11706, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale String[] labels", 0, 0, 7, 7, 4, 3, 2, 0
+9303, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11828, 13120, 1, "OK", 2, 31, 7, 7, 4, 3, 2, 0
+9262, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 13823, 1, "OK", 2, 118, 17, 17, 13, 4, 3, 0
+10175, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 13348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11959, 13161, 1, "OK", 3, 28, 7, 7, 4, 3, 2, 0
+12799, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9456, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10175, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 10239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+9361, 13847, 1, "OK", 2, 120, 17, 17, 13, 4, 3, 0
+9389, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+11959, 13187, 1, "OK", 3, 29, 7, 7, 4, 3, 2, 0
+10101, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11879, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 7, 7, 4, 3, 2, 0
+11741, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+10242, 13161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9125, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10910, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+11828, 13161, 1, "OK", 2, 32, 7, 7, 4, 3, 2, 0
+9178, 13399, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+9303, 13620, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 13864, 1, "OK", 2, 122, 17, 17, 13, 4, 3, 0
+11706, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+12799, 13797, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+9262, 12851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9456, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 11825, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale", 0, 0, 9, 9, 8, 1, 1, 0
+11741, 13823, 1, "OK", 4, 54, 8, 8, 5, 3, 2, 0
+10242, 13187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 10275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis", 0, 0, 5, 5, 5, 0, 0, 0
+11828, 13187, 1, "OK", 2, 33, 7, 7, 4, 3, 2, 0
+10910, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 11, 11, 7, 4, 3, 0
+10101, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11741, 13847, 1, "OK", 4, 56, 8, 8, 5, 3, 2, 0
+9332, 12757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+12799, 13823, 1, "OK", 6, 29, 1, 1, 1, 0, 0, 0
+11741, 13864, 1, "OK", 4, 58, 8, 8, 5, 3, 2, 0
+9178, 13443, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+11706, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+9361, 11876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9262, 12899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+9147, 10328, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+12799, 13847, 1, "OK", 6, 31, 1, 1, 1, 0, 0, 0
+9361, 11894, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 9, 9, 8, 1, 1, 0
+9389, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9361, 9843, 1, "OK", 1, 15, 5, 5, 5, 0, 0, 0
+11706, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+9125, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+9332, 12795, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale String[] labels", 0, 0, 16, 16, 12, 4, 3, 0
+12799, 13864, 1, "OK", 6, 33, 1, 1, 1, 0, 0, 0
+10175, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9178, 13486, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 16, 16, 12, 4, 3, 0
+10101, 13541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+11959, 13286, 1, "OK", 3, 32, 7, 7, 4, 3, 2, 0
+9456, 13068, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11879, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+9262, 12935, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 16, 16, 12, 4, 3, 0
+10242, 13286, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 11, 11, 7, 4, 3, 0
+9147, 10368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer", 0, 0, 5, 5, 5, 0, 0, 0
+9303, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 17, 17, 13, 4, 3, 0
+10101, 13570, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl XYPlot plot", 0, 0, 11, 11, 7, 4, 3, 0
+10910, 13068, 1, "OK", 1, 50, 11, 11, 7, 4, 3, 0
+9389, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0
+11706, 12975, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  LookupPaintScale paintScale SymbolAxis scaleAxis", 0, 0, 7, 7, 4, 3, 2, 0
+11879, 13756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaintScaleLegend psl JFreeChart chart", 0, 0, 8, 8, 5, 3, 2, 0
+12180, 12617, 1, "OK", 3, 10, 6, 4, 3, 1, 2, 1
+11828, 13286, 1, "OK", 2, 36, 7, 7, 4, 3, 2, 0
+9125, 13120, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultXYZDataset dataset DateAxis xAxis NumberAxis yAxis XYBlockRenderer renderer PaintScaleLegend psl", 0, 0, 16, 16, 12, 4, 3, 0

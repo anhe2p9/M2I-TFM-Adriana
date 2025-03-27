@@ -1,0 +1,336 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+8446, 15745, 1, "OK", 3, 131, 87, 87, 33, 54, 19, 0
+8446, 8578, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+8505, 15965, 1, "OK", 4, 134, 88, 88, 34, 54, 19, 0
+11647, 13282, 1, "OK", 2, 27, 24, 9, 9, 0, 5, 3
+9678, 10323, 1, "OK", 4, 11, 6, 3, 3, 0, 1, 3
+13183, 13282, 1, "OK", 2, 2, 4, 1, 1, 0, 1, 3
+11248, 15413, 1, "OK", 2, 75, 56, 56, 18, 38, 13, 0
+12116, 13081, 1, "OK", 2, 12, 15, 6, 6, 0, 3, 3
+11515, 15324, 1, "OK", 2, 66, 53, 29, 16, 13, 12, 2
+12201, 12501, 1, "OK", 3, 5, 5, 2, 2, 0, 1, 3
+9052, 11306, 1, "OK", 2, 39, 27, 27, 11, 16, 6, 0
+13304, 13636, 1, "OK", 2, 6, 4, 1, 1, 0, 1, 3
+12440, 13282, 1, "OK", 2, 11, 14, 5, 5, 0, 3, 3
+12752, 14874, 1, "OK", 3, 36, 26, 8, 7, 1, 6, 3
+11755, 12501, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element servicePortElement", 0, 0, 10, 4, 4, 0, 2, 3
+10840, 11169, 1, "OK", 2, 6, 9, 3, 2, 1, 2, 3
+8588, 15965, 1, "OK", 3, 131, 87, 87, 33, 54, 19, 0
+8678, 15745, 1, "OK", 4, 126, 86, 86, 32, 54, 19, 0
+8446, 9114, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+10345, 11169, 1, "OK", 2, 13, 14, 5, 4, 1, 3, 3
+12752, 13866, 1, "OK", 2, 18, 17, 5, 5, 0, 4, 3
+12842, 13636, 1, "OK", 3, 13, 13, 4, 4, 0, 3, 3
+9052, 15413, 1, "OK", 3, 113, 83, 83, 29, 54, 19, 0
+10505, 10819, 1, "OK", 4, 5, 5, 2, 2, 0, 1, 3
+11718, 13162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceCPEElement", 0, 0, 20, 8, 8, 0, 4, 3
+10428, 11169, 1, "OK", 3, 12, 14, 5, 4, 1, 3, 3
+13103, 14771, 1, "OK", 3, 30, 21, 6, 5, 1, 5, 3
+11755, 13547, 1, "OK", 2, 30, 28, 10, 10, 0, 6, 3
+11315, 15413, 1, "OK", 3, 74, 56, 56, 18, 38, 13, 0
+12201, 13547, 1, "OK", 3, 20, 23, 8, 8, 0, 5, 3
+12522, 12821, 1, "OK", 3, 4, 5, 2, 2, 0, 1, 3
+11248, 15965, 1, "OK", 2, 85, 59, 59, 21, 38, 13, 0
+12752, 13368, 1, "OK", 2, 9, 9, 3, 3, 0, 2, 3
+8678, 9114, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+11647, 12821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceProtocolElement", 0, 0, 15, 6, 6, 0, 3, 3
+12116, 13636, 1, "OK", 2, 23, 23, 8, 8, 0, 5, 3
+12522, 14874, 1, "OK", 4, 39, 31, 10, 9, 1, 7, 3
+12440, 12821, 1, "OK", 2, 5, 5, 2, 2, 0, 1, 3
+11647, 14874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceDeployedPatchElement", 0, 0, 41, 14, 13, 1, 9, 3
+13103, 15306, 1, "OK", 3, 39, 30, 9, 7, 2, 7, 3
+13183, 14874, 1, "OK", 4, 31, 21, 6, 5, 1, 5, 3
+9834, 11169, 1, "OK", 5, 23, 20, 8, 7, 1, 4, 3
+13103, 13768, 1, "OK", 2, 12, 12, 3, 3, 0, 3, 3
+15422, 15607, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+9873, 10484, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement Element maskElement", 0, 0, 6, 3, 3, 0, 1, 3
+15359, 15524, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+10275, 10819, 1, "OK", 3, 9, 5, 2, 2, 0, 1, 3
+15616, 15745, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+12440, 14874, 1, "OK", 3, 40, 31, 10, 9, 1, 7, 3
+9052, 15965, 1, "OK", 3, 123, 86, 86, 32, 54, 19, 0
+12522, 13866, 1, "OK", 3, 21, 22, 7, 7, 0, 5, 3
+12842, 13162, 1, "OK", 3, 4, 5, 2, 2, 0, 1, 3
+8505, 15524, 1, "OK", 4, 126, 86, 86, 32, 54, 19, 0
+11647, 13866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element vulnerabilitiesElement", 0, 0, 32, 11, 11, 0, 7, 3
+12522, 13368, 1, "OK", 3, 12, 14, 5, 5, 0, 3, 3
+8446, 11211, 1, "OK", 2, 48, 29, 29, 13, 16, 6, 0
+11718, 12180, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceIPElement", 0, 0, 5, 2, 2, 0, 1, 3
+11755, 13081, 1, "OK", 2, 21, 20, 8, 8, 0, 4, 3
+13183, 13866, 1, "OK", 3, 13, 12, 3, 3, 0, 3, 3
+9123, 11211, 1, "OK", 2, 35, 27, 27, 11, 16, 6, 0
+11315, 15965, 1, "OK", 3, 84, 59, 59, 21, 38, 13, 0
+12116, 13162, 1, "OK", 2, 14, 15, 6, 6, 0, 3, 3
+13103, 13282, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+8446, 15828, 1, "OK", 3, 133, 87, 87, 33, 54, 19, 0
+15534, 15745, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+12201, 13081, 1, "OK", 3, 11, 15, 6, 6, 0, 3, 3
+12440, 13866, 1, "OK", 2, 22, 22, 7, 7, 0, 5, 3
+9123, 15828, 1, "OK", 4, 120, 85, 85, 31, 54, 19, 0
+10345, 10714, 1, "OK", 2, 5, 5, 2, 2, 0, 1, 3
+10428, 10714, 1, "OK", 3, 4, 5, 2, 2, 0, 1, 3
+13183, 13368, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+8588, 15524, 1, "OK", 3, 123, 85, 85, 31, 54, 19, 0
+9678, 10407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement", 0, 0, 6, 3, 3, 0, 1, 3
+13389, 13636, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+11647, 13368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceAccountElement", 0, 0, 24, 9, 9, 0, 5, 3
+8678, 11211, 1, "OK", 3, 43, 28, 28, 12, 16, 6, 0
+8446, 8669, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+9587, 11187, 1, "OK", 5, 27, 24, 14, 9, 5, 5, 2
+12440, 13368, 1, "OK", 2, 13, 14, 5, 5, 0, 3, 3
+8678, 15828, 1, "OK", 4, 128, 86, 86, 32, 54, 19, 0
+11718, 14771, 1, "OK", 3, 53, 41, 14, 13, 1, 9, 3
+9753, 11169, 1, "OK", 5, 24, 20, 8, 7, 1, 4, 3
+11248, 15524, 1, "OK", 2, 77, 57, 57, 19, 38, 13, 0
+11718, 12730, 1, "OK", 2, 18, 15, 6, 6, 0, 3, 3
+8446, 15348, 1, "OK", 3, 122, 85, 85, 31, 54, 19, 0
+9834, 10714, 1, "OK", 5, 15, 11, 5, 5, 0, 2, 3
+9123, 15348, 1, "OK", 4, 109, 83, 83, 29, 54, 19, 0
+11755, 12093, 1, "OK", 1, 7, 5, 2, 2, 0, 1, 3
+9505, 11187, 1, "OK", 4, 28, 24, 14, 9, 5, 5, 2
+12201, 13636, 1, "OK", 3, 22, 23, 8, 8, 0, 5, 3
+13304, 14771, 1, "OK", 3, 26, 17, 5, 4, 1, 4, 3
+11755, 13636, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceVersionElement", 0, 0, 28, 10, 10, 0, 6, 3
+11718, 15306, 1, "OK", 3, 62, 50, 17, 15, 2, 11, 3
+11718, 13768, 1, "OK", 2, 35, 32, 11, 11, 0, 7, 3
+13949, 14749, 1, "OK", 3, 14, 5, 1, 1, 0, 1, 4
+13103, 14874, 1, "OK", 3, 32, 21, 6, 5, 1, 5, 3
+8678, 15348, 1, "OK", 4, 117, 84, 84, 30, 54, 19, 0
+12842, 14771, 1, "OK", 4, 33, 26, 8, 7, 1, 6, 3
+9052, 15524, 1, "OK", 3, 115, 84, 84, 30, 54, 19, 0
+15616, 15828, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+13304, 15306, 1, "OK", 3, 35, 26, 8, 6, 2, 6, 3
+13569, 14771, 1, "OK", 3, 21, 13, 4, 3, 1, 3, 3
+11315, 15524, 1, "OK", 3, 76, 57, 57, 19, 38, 13, 0
+13304, 13768, 1, "OK", 2, 8, 8, 2, 2, 0, 2, 3
+11718, 13282, 1, "OK", 2, 26, 24, 9, 9, 0, 5, 3
+12842, 13768, 1, "OK", 3, 15, 17, 5, 5, 0, 4, 3
+13103, 13866, 1, "OK", 2, 14, 12, 3, 3, 0, 3, 3
+8505, 15607, 1, "OK", 4, 128, 86, 86, 32, 54, 19, 0
+15359, 15607, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+15534, 15828, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+9834, 10253, 1, "OK", 4, 7, 6, 3, 3, 0, 1, 3
+11647, 12418, 1, "OK", 2, 15, 10, 4, 4, 0, 2, 3
+12116, 12730, 1, "OK", 2, 8, 10, 4, 4, 0, 2, 3
+9678, 10484, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement Element maskElement", 0, 0, 6, 3, 3, 0, 1, 3
+11755, 13162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceCPEElement", 0, 0, 20, 8, 8, 0, 4, 3
+12116, 14771, 1, "OK", 3, 43, 36, 12, 11, 1, 8, 3
+9753, 10714, 1, "OK", 5, 16, 11, 5, 5, 0, 2, 3
+12201, 13162, 1, "OK", 3, 13, 15, 6, 6, 0, 3, 3
+12842, 15306, 1, "OK", 4, 42, 35, 11, 9, 2, 8, 3
+8588, 15607, 1, "OK", 3, 125, 85, 85, 31, 54, 19, 0
+8446, 11306, 1, "OK", 2, 51, 29, 29, 13, 16, 6, 0
+9123, 11306, 1, "OK", 3, 38, 27, 27, 11, 16, 6, 0
+13103, 13368, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+13569, 15306, 1, "OK", 3, 30, 22, 7, 5, 2, 5, 3
+13569, 13768, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+12116, 13768, 1, "OK", 2, 25, 27, 9, 9, 0, 6, 3
+12116, 15306, 1, "OK", 3, 52, 45, 15, 13, 2, 10, 3
+9123, 15413, 1, "OK", 4, 112, 83, 83, 29, 54, 19, 0
+8446, 15413, 1, "OK", 3, 125, 85, 85, 31, 54, 19, 0
+10345, 10819, 1, "OK", 2, 7, 5, 2, 2, 0, 1, 3
+12842, 13282, 1, "OK", 3, 6, 9, 3, 3, 0, 2, 3
+8678, 11306, 1, "OK", 3, 46, 28, 28, 12, 16, 6, 0
+13389, 14771, 1, "OK", 4, 25, 17, 5, 4, 1, 4, 3
+15422, 15745, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+12116, 13282, 1, "OK", 2, 16, 19, 7, 7, 0, 4, 3
+11248, 15607, 1, "OK", 2, 79, 57, 57, 19, 38, 13, 0
+10428, 10819, 1, "OK", 3, 6, 5, 2, 2, 0, 1, 3
+11012, 11147, 1, "OK", 2, 3, 5, 1, 1, 0, 1, 4
+11755, 12180, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceIPElement", 0, 0, 5, 2, 2, 0, 1, 3
+11718, 14874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceDeployedPatchElement", 0, 0, 41, 14, 13, 1, 9, 3
+9753, 10253, 1, "OK", 4, 8, 6, 3, 3, 0, 1, 3
+8678, 15413, 1, "OK", 4, 120, 84, 84, 30, 54, 19, 0
+11718, 12821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceProtocolElement", 0, 0, 15, 6, 6, 0, 3, 3
+9052, 15607, 1, "OK", 3, 117, 84, 84, 30, 54, 19, 0
+13389, 15306, 1, "OK", 4, 34, 26, 8, 6, 2, 6, 3
+12752, 13547, 1, "OK", 2, 12, 13, 4, 4, 0, 3, 3
+13389, 13768, 1, "OK", 3, 7, 8, 2, 2, 0, 2, 3
+9834, 10819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element directlyConnectedElement", 0, 0, 11, 5, 5, 0, 2, 3
+9123, 15965, 1, "OK", 4, 122, 86, 86, 32, 54, 19, 0
+11315, 15607, 1, "OK", 3, 78, 57, 57, 19, 38, 13, 0
+11718, 13866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element vulnerabilitiesElement", 0, 0, 32, 11, 11, 0, 7, 3
+8446, 15965, 1, "OK", 3, 135, 88, 88, 34, 54, 19, 0
+8505, 9016, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+13304, 14874, 1, "OK", 3, 28, 17, 5, 4, 1, 4, 3
+14793, 15306, 1, "OK", 2, 8, 9, 3, 2, 1, 2, 3
+8588, 9016, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+11755, 14771, 1, "OK", 3, 52, 41, 14, 13, 1, 9, 3
+12201, 14771, 1, "OK", 4, 42, 36, 12, 11, 1, 8, 3
+9834, 10323, 1, "OK", 4, 9, 6, 3, 3, 0, 1, 3
+9261, 11201, 1, "OK", 2, 32, 26, 20, 10, 10, 6, 1
+11647, 12501, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element servicePortElement", 0, 0, 10, 4, 4, 0, 2, 3
+9873, 11169, 1, "OK", 5, 21, 20, 8, 7, 1, 4, 3
+11755, 12730, 1, "OK", 2, 17, 15, 6, 6, 0, 3, 3
+13304, 13866, 1, "OK", 2, 10, 8, 2, 2, 0, 2, 3
+11718, 13368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceAccountElement", 0, 0, 24, 9, 9, 0, 5, 3
+12201, 12730, 1, "OK", 3, 7, 10, 4, 4, 0, 2, 3
+12842, 14874, 1, "OK", 4, 35, 26, 8, 7, 1, 6, 3
+11755, 13768, 1, "OK", 2, 34, 32, 11, 11, 0, 7, 3
+8678, 15965, 1, "OK", 4, 130, 87, 87, 33, 54, 19, 0
+13569, 14874, 1, "OK", 3, 23, 13, 4, 3, 1, 3, 3
+12116, 14874, 1, "OK", 3, 45, 36, 12, 11, 1, 8, 3
+12201, 15306, 1, "OK", 4, 51, 45, 15, 13, 2, 10, 3
+12522, 13547, 1, "OK", 3, 15, 18, 6, 6, 0, 4, 3
+11755, 15306, 1, "OK", 3, 61, 50, 17, 15, 2, 11, 3
+12201, 13768, 1, "OK", 3, 24, 27, 9, 9, 0, 6, 3
+12116, 12821, 1, "OK", 2, 10, 10, 4, 4, 0, 2, 3
+12842, 13866, 1, "OK", 3, 17, 17, 5, 5, 0, 4, 3
+11358, 15338, 1, "OK", 2, 69, 55, 42, 17, 25, 13, 1
+11647, 13547, 1, "OK", 2, 32, 28, 10, 10, 0, 6, 3
+12842, 13368, 1, "OK", 3, 8, 9, 3, 3, 0, 2, 3
+13183, 13547, 1, "OK", 3, 7, 8, 2, 2, 0, 2, 3
+12752, 13081, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+13569, 13866, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+9753, 10819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element directlyConnectedElement", 0, 0, 11, 5, 5, 0, 2, 3
+15422, 15828, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+12116, 13866, 1, "OK", 2, 27, 27, 9, 9, 0, 6, 3
+12440, 13547, 1, "OK", 2, 16, 18, 6, 6, 0, 4, 3
+13887, 14771, 1, "OK", 3, 16, 9, 3, 2, 1, 2, 3
+15616, 15965, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+11755, 13282, 1, "OK", 2, 25, 24, 9, 9, 0, 5, 3
+9753, 10323, 1, "OK", 4, 10, 6, 3, 3, 0, 1, 3
+12201, 13282, 1, "OK", 3, 15, 19, 7, 7, 0, 4, 3
+12116, 13368, 1, "OK", 2, 18, 19, 7, 7, 0, 4, 3
+8446, 15524, 1, "OK", 3, 127, 86, 86, 32, 54, 19, 0
+15359, 15745, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+9123, 15524, 1, "OK", 4, 114, 84, 84, 30, 54, 19, 0
+13389, 14874, 1, "OK", 4, 27, 17, 5, 4, 1, 4, 3
+13887, 15306, 1, "OK", 4, 25, 18, 6, 4, 2, 4, 3
+8505, 15745, 1, "OK", 4, 130, 87, 87, 33, 54, 19, 0
+8505, 8578, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+9873, 10714, 1, "OK", 5, 13, 11, 5, 5, 0, 2, 3
+8588, 15745, 1, "OK", 3, 127, 86, 86, 32, 54, 19, 0
+12752, 13636, 1, "OK", 2, 14, 13, 4, 4, 0, 3, 3
+12522, 13081, 1, "OK", 3, 6, 10, 4, 4, 0, 2, 3
+15534, 15965, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+11718, 12418, 1, "OK", 2, 14, 10, 4, 4, 0, 2, 3
+13389, 13866, 1, "OK", 3, 9, 8, 2, 2, 0, 2, 3
+9834, 10407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement", 0, 0, 6, 3, 3, 0, 1, 3
+8678, 15524, 1, "OK", 4, 122, 85, 85, 31, 54, 19, 0
+14895, 15306, 1, "OK", 2, 7, 9, 3, 2, 1, 2, 3
+13657, 14771, 1, "OK", 4, 20, 13, 4, 3, 1, 3, 3
+11647, 13081, 1, "OK", 2, 23, 20, 8, 8, 0, 4, 3
+12440, 13081, 1, "OK", 2, 7, 10, 4, 4, 0, 2, 3
+14962, 15284, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+8505, 9114, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+12201, 12821, 1, "OK", 3, 9, 10, 4, 4, 0, 2, 3
+8588, 9114, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+11755, 12821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceProtocolElement", 0, 0, 15, 6, 6, 0, 3, 3
+9678, 11169, 1, "OK", 5, 25, 20, 8, 7, 1, 4, 3
+13790, 14771, 1, "OK", 3, 17, 9, 3, 2, 1, 2, 3
+12201, 14874, 1, "OK", 4, 44, 36, 12, 11, 1, 8, 3
+13657, 15306, 1, "OK", 4, 29, 22, 7, 5, 2, 5, 3
+11755, 14874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceDeployedPatchElement", 0, 0, 41, 14, 13, 1, 9, 3
+13657, 13768, 1, "OK", 2, 2, 4, 1, 1, 0, 1, 3
+11248, 15745, 1, "OK", 2, 81, 58, 58, 20, 38, 13, 0
+9873, 10253, 1, "OK", 4, 5, 6, 3, 3, 0, 1, 3
+11647, 12093, 1, "OK", 1, 9, 5, 2, 2, 0, 1, 3
+13103, 13547, 1, "OK", 2, 8, 8, 2, 2, 0, 2, 3
+12522, 13636, 1, "OK", 3, 17, 18, 6, 6, 0, 4, 3
+12752, 13162, 1, "OK", 2, 5, 5, 2, 2, 0, 1, 3
+13183, 13636, 1, "OK", 3, 9, 8, 2, 2, 0, 2, 3
+9052, 15745, 1, "OK", 3, 119, 85, 85, 31, 54, 19, 0
+11647, 13636, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceVersionElement", 0, 0, 28, 10, 10, 0, 6, 3
+11755, 13866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element vulnerabilitiesElement", 0, 0, 32, 11, 11, 0, 7, 3
+12201, 13866, 1, "OK", 3, 26, 27, 9, 9, 0, 6, 3
+11315, 15745, 1, "OK", 3, 80, 58, 58, 20, 38, 13, 0
+12116, 12418, 1, "OK", 2, 4, 5, 2, 2, 0, 1, 3
+9753, 10407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement", 0, 0, 6, 3, 3, 0, 1, 3
+11755, 13368, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceAccountElement", 0, 0, 24, 9, 9, 0, 5, 3
+12440, 13636, 1, "OK", 2, 18, 18, 6, 6, 0, 4, 3
+13790, 15306, 1, "OK", 3, 26, 18, 6, 4, 2, 4, 3
+14056, 14749, 1, "OK", 3, 13, 5, 1, 1, 0, 1, 4
+9123, 15607, 1, "OK", 4, 116, 84, 84, 30, 54, 19, 0
+15359, 15828, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+11593, 15324, 1, "OK", 3, 65, 53, 29, 16, 13, 12, 2
+12201, 13368, 1, "OK", 3, 17, 19, 7, 7, 0, 4, 3
+8505, 11211, 1, "OK", 3, 47, 29, 29, 13, 16, 6, 0
+10736, 11169, 1, "OK", 2, 7, 9, 3, 2, 1, 2, 3
+8505, 15828, 1, "OK", 4, 132, 87, 87, 33, 54, 19, 0
+13887, 14874, 1, "OK", 4, 18, 9, 3, 2, 1, 2, 3
+10505, 11169, 1, "OK", 4, 11, 14, 5, 4, 1, 3, 3
+8446, 15607, 1, "OK", 3, 129, 86, 86, 32, 54, 19, 0
+8505, 8669, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+8588, 11211, 1, "OK", 2, 44, 28, 28, 12, 16, 6, 0
+12522, 13162, 1, "OK", 3, 8, 10, 4, 4, 0, 2, 3
+9415, 11187, 1, "OK", 3, 29, 24, 14, 9, 5, 5, 2
+9678, 10714, 1, "OK", 5, 17, 11, 5, 5, 0, 2, 3
+11647, 13162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceCPEElement", 0, 0, 20, 8, 8, 0, 4, 3
+8588, 15828, 1, "OK", 3, 129, 86, 86, 32, 54, 19, 0
+9834, 10484, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement Element maskElement", 0, 0, 6, 3, 3, 0, 1, 3
+11718, 12501, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element servicePortElement", 0, 0, 10, 4, 4, 0, 2, 3
+12440, 13162, 1, "OK", 2, 9, 10, 4, 4, 0, 2, 3
+8678, 15607, 1, "OK", 4, 124, 85, 85, 31, 54, 19, 0
+9873, 10819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element directlyConnectedElement", 0, 0, 11, 5, 5, 0, 2, 3
+8505, 15348, 1, "OK", 4, 121, 85, 85, 31, 54, 19, 0
+10275, 11169, 1, "OK", 3, 15, 14, 5, 4, 1, 3, 3
+9333, 11187, 1, "OK", 2, 30, 24, 14, 9, 5, 5, 2
+11248, 15828, 1, "OK", 2, 83, 58, 58, 20, 38, 13, 0
+12752, 14771, 1, "OK", 3, 34, 26, 8, 7, 1, 6, 3
+11718, 13547, 1, "OK", 2, 31, 28, 10, 10, 0, 6, 3
+13657, 14874, 1, "OK", 4, 22, 13, 4, 3, 1, 3, 3
+15422, 15965, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+9873, 10323, 1, "OK", 4, 7, 6, 3, 3, 0, 1, 3
+8588, 15348, 1, "OK", 3, 118, 84, 84, 30, 54, 19, 0
+11446, 15338, 1, "OK", 2, 68, 55, 42, 17, 25, 13, 1
+13103, 13636, 1, "OK", 2, 10, 8, 2, 2, 0, 2, 3
+10904, 11147, 1, "OK", 2, 4, 5, 1, 1, 0, 1, 4
+13304, 13547, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+11647, 12180, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceIPElement", 0, 0, 5, 2, 2, 0, 1, 3
+9052, 11211, 1, "OK", 2, 36, 27, 27, 11, 16, 6, 0
+13657, 13866, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+9168, 11201, 1, "OK", 2, 33, 26, 20, 10, 10, 6, 1
+10505, 10714, 1, "OK", 3, 3, 5, 2, 2, 0, 1, 3
+9753, 10484, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement Element maskElement", 0, 0, 6, 3, 3, 0, 1, 3
+13790, 14874, 1, "OK", 3, 19, 9, 3, 2, 1, 2, 3
+9052, 15828, 1, "OK", 3, 121, 85, 85, 31, 54, 19, 0
+11755, 12418, 1, "OK", 2, 13, 10, 4, 4, 0, 2, 3
+12752, 15306, 1, "OK", 3, 43, 35, 11, 9, 2, 8, 3
+8446, 9016, 1, "OK", 1, 10, 2, 2, 2, 0, 0, 0
+12201, 12418, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+12752, 13768, 1, "OK", 2, 16, 17, 5, 5, 0, 4, 3
+11248, 15348, 1, "OK", 2, 72, 56, 56, 18, 38, 13, 0
+9678, 10253, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String interfaceName Interface inface", 0, 0, 6, 3, 3, 0, 1, 3
+12842, 13547, 1, "OK", 3, 11, 13, 4, 4, 0, 3, 3
+11315, 15828, 1, "OK", 3, 82, 58, 58, 20, 38, 13, 0
+12116, 12501, 1, "OK", 2, 6, 5, 2, 2, 0, 1, 3
+12522, 14771, 1, "OK", 4, 37, 31, 10, 9, 1, 7, 3
+11647, 14771, 1, "OK", 3, 54, 41, 14, 13, 1, 9, 3
+11718, 13081, 1, "OK", 2, 22, 20, 8, 8, 0, 4, 3
+13183, 14771, 1, "OK", 4, 29, 21, 6, 5, 1, 5, 3
+12752, 13282, 1, "OK", 2, 7, 9, 3, 3, 0, 2, 3
+8505, 11306, 1, "OK", 3, 50, 29, 29, 13, 16, 6, 0
+8678, 9016, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+12522, 12730, 1, "OK", 2, 2, 5, 2, 2, 0, 1, 3
+8505, 15413, 1, "OK", 4, 124, 85, 85, 31, 54, 19, 0
+11647, 12730, 1, "OK", 2, 19, 15, 6, 6, 0, 3, 3
+12522, 13768, 1, "OK", 3, 19, 22, 7, 7, 0, 5, 3
+12440, 14771, 1, "OK", 3, 38, 31, 10, 9, 1, 7, 3
+8588, 11306, 1, "OK", 2, 47, 28, 28, 12, 16, 6, 0
+9052, 15348, 1, "OK", 3, 110, 83, 83, 29, 54, 19, 0
+10275, 10714, 1, "OK", 3, 7, 5, 2, 2, 0, 1, 3
+12116, 13547, 1, "OK", 2, 21, 23, 8, 8, 0, 5, 3
+15422, 15524, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+12440, 12730, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+15837, 15965, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+11315, 15348, 1, "OK", 2, 71, 56, 56, 18, 38, 13, 0
+12522, 15306, 1, "OK", 4, 46, 40, 13, 11, 2, 9, 3
+11647, 15306, 1, "OK", 3, 63, 50, 17, 15, 2, 11, 3
+13183, 15306, 1, "OK", 4, 38, 30, 9, 7, 2, 7, 3
+13183, 13768, 1, "OK", 3, 11, 12, 3, 3, 0, 3, 3
+8588, 15413, 1, "OK", 3, 121, 84, 84, 30, 54, 19, 0
+11647, 13768, 1, "OK", 2, 36, 32, 11, 11, 0, 7, 3
+9678, 10819, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element directlyConnectedElement", 0, 0, 11, 5, 5, 0, 2, 3
+9873, 10407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Interface inface Element networkElement", 0, 0, 6, 3, 3, 0, 1, 3
+15755, 15965, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+12440, 15306, 1, "OK", 3, 47, 40, 13, 11, 2, 9, 3
+12842, 13081, 1, "OK", 2, 2, 5, 2, 2, 0, 1, 3
+12440, 13768, 1, "OK", 2, 20, 22, 7, 7, 0, 5, 3
+15359, 15965, 1, "OK", 1, 11, 3, 3, 3, 0, 0, 0
+13389, 13547, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+11718, 13636, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Service service Element serviceVersionElement", 0, 0, 28, 10, 10, 0, 6, 3
+9123, 15745, 1, "OK", 4, 118, 85, 85, 31, 54, 19, 0
+11718, 12093, 1, "OK", 1, 8, 5, 2, 2, 0, 1, 3
+15067, 15284, 1, "OK", 2, 4, 5, 1, 1, 0, 1, 4
+12522, 13282, 1, "OK", 3, 10, 14, 5, 5, 0, 3, 3

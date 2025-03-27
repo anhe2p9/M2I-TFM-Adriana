@@ -1,0 +1,82 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3280, 6799, 1, "OK", 0, 79, 20, 20, 11, 9, 4, 0
+4600, 6074, 1, "OK", 1, 36, 12, 6, 4, 2, 3, 2
+3280, 6418, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3341, 6703, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4538, 6074, 1, "OK", 1, 37, 12, 6, 4, 2, 3, 2
+4502, 4767, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4824, 6050, 1, "OK", 0, 28, 9, 5, 3, 2, 2, 2
+4600, 4806, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5184, 6030, 1, "OK", 4, 20, 9, 3, 3, 0, 2, 3
+3341, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4502, 6050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+4538, 4806, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3482, 6703, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+5184, 5396, 1, "OK", 1, 7, 5, 2, 2, 0, 1, 3
+3544, 6703, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+5015, 6030, 1, "OK", 1, 24, 9, 3, 3, 0, 2, 3
+5015, 5396, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int width int height int oldZoomSteps", 0, 0, 5, 2, 2, 0, 1, 3
+5073, 6030, 1, "OK", 2, 23, 9, 3, 3, 0, 2, 3
+3412, 6703, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3888, 6542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 4, 0
+3482, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3280, 6703, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3888, 6799, 1, "OK", 5, 70, 19, 19, 10, 9, 4, 0
+4824, 6074, 1, "OK", 0, 29, 9, 5, 3, 2, 2, 2
+3544, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3888, 6418, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 4, 0
+3412, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+5073, 5396, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int height int oldZoomSteps", 0, 0, 5, 2, 2, 0, 1, 3
+4502, 6074, 1, "OK", 1, 39, 12, 6, 4, 2, 3, 2
+3341, 6741, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3280, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3341, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4784, 6050, 1, "OK", 0, 30, 9, 5, 3, 2, 2, 2
+4502, 4806, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3482, 6741, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4900, 6050, 1, "OK", 0, 27, 9, 5, 3, 2, 2, 2
+3544, 6741, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3888, 6703, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 4, 0
+3412, 6741, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3482, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3544, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3280, 6741, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3412, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4784, 6074, 1, "OK", 0, 31, 9, 5, 3, 2, 2, 2
+3888, 6586, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 4, 0
+3280, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4959, 6030, 1, "OK", 1, 25, 9, 3, 3, 0, 2, 3
+4959, 5396, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int width int height int oldZoomSteps", 0, 0, 5, 2, 2, 0, 1, 3
+4900, 6074, 1, "OK", 0, 28, 9, 5, 3, 2, 2, 2
+4538, 4883, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3341, 3847, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameLowerCase String onlyName String contentsAsString boolean hexViewerOnly", 0, 0, 1, 1, 1, 0, 0, 0
+4600, 4883, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5133, 6030, 1, "OK", 3, 22, 9, 3, 3, 0, 2, 3
+3341, 6799, 1, "OK", 1, 78, 20, 20, 11, 9, 4, 0
+3341, 6542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4538, 4767, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3341, 6418, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3888, 6741, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 4, 0
+4301, 6353, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 13, 8, 5, 4, 1
+5418, 6030, 1, "OK", 3, 12, 4, 1, 1, 0, 1, 3
+4600, 6050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+4600, 4767, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5133, 5396, 1, "OK", 1, 9, 5, 2, 2, 0, 1, 3
+4538, 6050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+3888, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 10, 9, 4, 0
+3482, 3847, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String contentsAsString boolean hexViewerOnly", 0, 0, 1, 1, 1, 0, 0, 0
+3544, 3847, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+3482, 6542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3412, 3847, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String onlyName String contentsAsString boolean hexViewerOnly", 0, 0, 1, 1, 1, 0, 0, 0
+3544, 6542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3482, 6799, 1, "OK", 3, 76, 20, 20, 11, 9, 4, 0
+3482, 6418, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3280, 3847, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] contents String nameLowerCase String onlyName String contentsAsString boolean hexViewerOnly", 0, 0, 1, 1, 1, 0, 0, 0
+3544, 6799, 1, "OK", 4, 75, 20, 20, 11, 9, 4, 0
+3412, 6542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3544, 6418, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+4502, 4883, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+6131, 6353, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 1
+3412, 6799, 1, "OK", 2, 77, 20, 20, 11, 9, 4, 0
+3280, 6542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0
+3412, 6418, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 11, 9, 4, 0

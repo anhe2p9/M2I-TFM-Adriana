@@ -1,0 +1,110 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6730, 6986, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+4785, 5844, 1, "OK", 6, 22, 23, 8, 5, 3, 5, 3
+6730, 7758, 1, "OK", 5, 31, 17, 11, 6, 5, 6, 1
+3627, 3859, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 1, 1, 0, 1, 4
+4653, 5844, 1, "OK", 5, 25, 23, 8, 5, 3, 5, 3
+7040, 7377, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+7788, 7995, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+4736, 5844, 1, "OK", 5, 23, 23, 8, 5, 3, 5, 3
+3476, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 19, 9, 5, 4, 5, 2
+6133, 6575, 1, "OK", 3, 10, 9, 6, 3, 3, 3, 1
+6423, 6543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+2985, 6632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser JSONLexer lexer", 0, 0, 64, 64, 21, 43, 16, 0
+3164, 3899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType int paramIndex", 0, 0, 15, 7, 4, 3, 4, 2
+2922, 8077, 1, "OK", 4, 121, 85, 85, 30, 55, 23, 0
+3288, 3899, 1, "OK", 3, 14, 15, 7, 4, 3, 4, 2
+4989, 5445, 1, "OK", 3, 10, 15, 6, 3, 3, 3, 3
+7788, 8023, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+4373, 5862, 1, "OK", 3, 29, 27, 15, 7, 8, 6, 2
+4948, 5445, 1, "OK", 2, 11, 15, 6, 3, 3, 3, 3
+4224, 5876, 1, "OK", 2, 32, 28, 22, 8, 14, 6, 1
+4572, 5844, 1, "OK", 4, 26, 23, 8, 5, 3, 5, 3
+5148, 5396, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 1, 1, 0, 1, 5
+5040, 5422, 1, "OK", 3, 7, 11, 3, 2, 1, 2, 4
+3164, 3421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType Class<?> objectClass", 0, 0, 3, 1, 1, 0, 1, 2
+3288, 3421, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+6027, 6575, 1, "OK", 2, 13, 9, 6, 3, 3, 3, 1
+2985, 6674, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser JSONLexer lexer int token", 0, 0, 64, 64, 21, 43, 16, 0
+7395, 7697, 1, "OK", 6, 9, 3, 1, 1, 0, 1, 2
+3044, 5876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 52, 39, 15, 24, 13, 1
+3164, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 22, 10, 6, 4, 6, 2
+2922, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 64, 64, 21, 43, 16, 0
+7040, 7697, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 13, 5, 4, 1, 4, 2
+4040, 4186, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+3288, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 22, 10, 6, 4, 6, 2
+4465, 5862, 1, "OK", 4, 28, 27, 15, 7, 8, 6, 2
+7290, 7377, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+7788, 8067, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+7040, 7454, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+3100, 3899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType int paramIndex", 0, 0, 15, 7, 4, 3, 4, 2
+6301, 6561, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 2, 1, 2, 2
+5232, 5396, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 1, 1, 0, 1, 5
+3164, 3459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType Class<?> objectClass int paramIndex", 0, 0, 3, 1, 1, 0, 1, 2
+2883, 8077, 1, "OK", 3, 122, 85, 85, 30, 55, 23, 0
+3439, 3899, 1, "OK", 2, 10, 12, 6, 3, 3, 3, 2
+4785, 4926, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+3288, 3459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> objectClass int paramIndex", 0, 0, 3, 1, 1, 0, 1, 2
+7113, 7254, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+4653, 4926, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType Class<?> objectClass", 0, 0, 4, 1, 1, 0, 1, 3
+7553, 7697, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+4785, 5445, 1, "OK", 3, 15, 19, 7, 4, 3, 4, 3
+6369, 6516, 1, "OK", 2, 4, 4, 1, 1, 0, 1, 3
+6950, 7711, 1, "OK", 5, 24, 15, 10, 5, 5, 5, 1
+4653, 5445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType int paramIndex", 0, 0, 19, 7, 4, 3, 4, 3
+7040, 7486, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+4736, 4926, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+2922, 6632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser JSONLexer lexer", 0, 0, 64, 64, 21, 43, 16, 0
+7471, 7697, 1, "OK", 4, 8, 3, 1, 1, 0, 1, 2
+3917, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 7, 3, 2, 1, 2, 2
+7504, 7697, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+3100, 3421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  TypeVariable typeVar ParameterizedType paramType Class<?> objectClass", 0, 0, 3, 1, 1, 0, 1, 2
+4736, 5445, 1, "OK", 2, 16, 19, 7, 4, 3, 4, 3
+3523, 3881, 1, "OK", 3, 7, 9, 3, 2, 1, 2, 3
+4285, 5862, 1, "OK", 2, 30, 27, 15, 7, 8, 6, 2
+6087, 6575, 1, "OK", 3, 12, 9, 6, 3, 3, 3, 1
+7000, 7711, 1, "OK", 5, 22, 15, 10, 5, 5, 5, 1
+6369, 6543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+6683, 8077, 1, "OK", 6, 40, 21, 21, 9, 12, 7, 0
+3100, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 22, 10, 6, 4, 6, 2
+2883, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 64, 64, 21, 43, 16, 0
+5467, 5844, 1, "OK", 5, 6, 4, 1, 1, 0, 1, 3
+4785, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> objectClass int paramIndex", 0, 0, 4, 1, 1, 0, 1, 3
+7290, 7697, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 2, 2, 0, 2, 2
+4653, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType Class<?> objectClass int paramIndex", 0, 0, 4, 1, 1, 0, 1, 3
+6642, 8077, 1, "OK", 5, 41, 21, 21, 9, 12, 7, 0
+3439, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 19, 9, 5, 4, 5, 2
+4572, 4926, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  TypeVariable typeVar ParameterizedType paramType Class<?> objectClass", 0, 0, 4, 1, 1, 0, 1, 3
+7290, 7454, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+2922, 6674, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser JSONLexer lexer int token", 0, 0, 64, 64, 21, 43, 16, 0
+4572, 5445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParameterizedType paramType int paramIndex", 0, 0, 19, 7, 4, 3, 4, 3
+3100, 3459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  TypeVariable typeVar ParameterizedType paramType Class<?> objectClass int paramIndex", 0, 0, 3, 1, 1, 0, 1, 2
+6950, 7758, 1, "OK", 5, 26, 15, 10, 5, 5, 5, 1
+7040, 7272, 1, "OK", 1, 6, 7, 3, 2, 1, 2, 2
+4736, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> objectClass int paramIndex", 0, 0, 4, 1, 1, 0, 1, 3
+6229, 6561, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 2, 1, 2, 2
+3243, 3899, 1, "OK", 2, 15, 15, 7, 4, 3, 4, 2
+7040, 7535, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+7000, 7758, 1, "OK", 5, 24, 15, 10, 5, 5, 5, 1
+3707, 3859, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 1, 1, 0, 1, 4
+4989, 5844, 1, "OK", 7, 17, 19, 7, 4, 3, 4, 3
+3961, 4186, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 4, 1, 1, 0, 1, 3
+4948, 5844, 1, "OK", 6, 18, 19, 7, 4, 3, 4, 3
+2985, 8077, 1, "OK", 5, 119, 85, 85, 30, 55, 23, 0
+7290, 7486, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+2883, 6632, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser JSONLexer lexer", 0, 0, 64, 64, 21, 43, 16, 0
+7788, 7923, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+6730, 6936, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+4572, 4968, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  TypeVariable typeVar ParameterizedType paramType Class<?> objectClass int paramIndex", 0, 0, 4, 1, 1, 0, 1, 3
+3243, 3421, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+6730, 7711, 1, "OK", 5, 29, 17, 11, 6, 5, 6, 1
+3243, 4204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 22, 10, 6, 4, 6, 2
+6595, 8077, 1, "OK", 4, 43, 21, 21, 9, 12, 7, 0
+3476, 3899, 1, "OK", 3, 9, 12, 6, 3, 3, 3, 2
+2985, 6585, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser", 0, 0, 64, 64, 21, 43, 16, 0
+2883, 6674, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type itemType ObjectDeserializer itemTypeDeser JSONLexer lexer int token", 0, 0, 64, 64, 21, 43, 16, 0
+5892, 6585, 1, "OK", 2, 16, 11, 11, 5, 6, 3, 0
+7290, 7535, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+3243, 3459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> objectClass int paramIndex", 0, 0, 3, 1, 1, 0, 1, 2
+5975, 6575, 1, "OK", 2, 14, 9, 6, 3, 3, 3, 1
+6423, 6516, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3

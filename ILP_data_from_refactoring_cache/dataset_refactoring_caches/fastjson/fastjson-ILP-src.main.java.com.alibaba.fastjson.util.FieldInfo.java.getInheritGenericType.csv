@@ -1,0 +1,53 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+15617, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> class_gd Type[] arguments", 0, 0, 1, 1, 1, 0, 0, 0
+15651, 15749, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 0
+15556, 15749, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+15759, 17021, 1, "OK", 4, 33, 15, 15, 10, 5, 4, 0
+15792, 17021, 1, "OK", 5, 32, 15, 15, 10, 5, 4, 0
+16041, 16595, 1, "OK", 3, 10, 6, 4, 3, 1, 2, 1
+15829, 16011, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+15617, 16694, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+16615, 16993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+16615, 16727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15651, 16799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+15556, 16799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+16808, 17021, 1, "OK", 4, 8, 3, 3, 2, 1, 1, 0
+15651, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> class_gd Type[] arguments", 0, 0, 1, 1, 1, 0, 0, 0
+15556, 15783, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> class_gd Type[] arguments", 0, 0, 1, 1, 1, 0, 0, 0
+16216, 16581, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+15617, 16727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+15651, 16694, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+15556, 16694, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+15759, 16799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+15792, 16799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+15617, 16605, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> class_gd Type[] arguments", 0, 0, 11, 11, 7, 4, 3, 0
+16615, 17021, 1, "OK", 3, 14, 5, 5, 4, 1, 1, 0
+15792, 16694, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+15617, 16993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 11, 5, 4, 0
+16736, 16993, 1, "OK", 4, 7, 3, 3, 2, 1, 1, 0
+15759, 16694, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+16615, 16799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15651, 16727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+15556, 16727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+16736, 17021, 1, "OK", 4, 9, 3, 3, 2, 1, 1, 0
+15651, 16993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 11, 5, 4, 0
+15556, 16993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 11, 5, 4, 0
+15617, 17021, 1, "OK", 4, 38, 16, 16, 11, 5, 4, 0
+16869, 16983, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 2, 1, 1, 0, 1, 1
+15651, 16605, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> class_gd Type[] arguments", 0, 0, 11, 11, 7, 4, 3, 0
+15556, 16605, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> class_gd Type[] arguments", 0, 0, 11, 11, 7, 4, 3, 0
+15617, 15749, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+15759, 16605, 1, "OK", 3, 18, 10, 10, 6, 4, 3, 0
+15792, 16605, 1, "OK", 4, 17, 10, 10, 6, 4, 3, 0
+16704, 16993, 1, "OK", 3, 8, 3, 3, 2, 1, 1, 0
+16156, 16581, 1, "OK", 2, 8, 3, 1, 1, 0, 1, 2
+15759, 16727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+15792, 16727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+16808, 16993, 1, "OK", 4, 6, 3, 3, 2, 1, 1, 0
+15759, 16993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 10, 5, 4, 0
+15792, 16993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 10, 5, 4, 0
+16704, 17021, 1, "OK", 3, 10, 3, 3, 2, 1, 1, 0
+15617, 16799, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 9, 4, 3, 0
+16615, 16694, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+15651, 17021, 1, "OK", 5, 37, 16, 16, 11, 5, 4, 0
+15556, 17021, 1, "OK", 3, 40, 16, 16, 11, 5, 4, 0

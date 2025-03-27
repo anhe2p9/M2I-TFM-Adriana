@@ -1,0 +1,139 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9512, 13166, 1, "OK", 2, 80, 22, 22, 13, 9, 7, 0
+12972, 13166, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+9730, 10242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobGroupName List schedules", 0, 0, 1, 1, 1, 0, 0, 0
+10108, 11582, 1, "OK", 4, 30, 11, 11, 5, 6, 4, 0
+12132, 12588, 1, "OK", 4, 11, 3, 3, 2, 1, 1, 0
+9802, 10066, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+10188, 11670, 1, "OK", 5, 30, 11, 11, 5, 6, 4, 0
+11273, 11571, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+9891, 11670, 1, "OK", 5, 37, 12, 12, 6, 6, 4, 0
+9802, 12128, 1, "OK", 4, 48, 15, 15, 8, 7, 5, 0
+10246, 11670, 1, "OK", 5, 29, 11, 11, 5, 6, 4, 0
+9668, 11670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String resp_DJ", 0, 0, 12, 12, 6, 6, 4, 0
+9958, 10104, 1, "OK", 3, 4, 1, 1, 1, 0, 0, 0
+10070, 11761, 1, "OK", 5, 34, 11, 11, 5, 6, 4, 0
+12202, 12485, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+10296, 11670, 1, "OK", 5, 28, 11, 11, 5, 6, 4, 0
+12619, 12867, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+10108, 12128, 1, "OK", 5, 42, 14, 14, 7, 7, 5, 0
+9668, 10153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+10547, 11577, 1, "OK", 4, 21, 10, 6, 4, 2, 4, 1
+9891, 10153, 1, "OK", 4, 6, 1, 1, 1, 0, 0, 0
+9802, 10104, 1, "OK", 4, 6, 1, 1, 1, 0, 0, 0
+11603, 12128, 1, "OK", 4, 11, 3, 3, 2, 1, 1, 0
+9573, 12588, 1, "OK", 3, 62, 18, 18, 10, 8, 6, 0
+9730, 12588, 1, "OK", 5, 60, 18, 18, 10, 8, 6, 0
+11765, 12490, 1, "OK", 3, 18, 6, 6, 4, 2, 2, 0
+9573, 10292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService String jobName String jobGroupName Iterator iterSchedules", 0, 0, 1, 1, 1, 0, 0, 0
+11674, 12490, 1, "OK", 3, 19, 6, 6, 4, 2, 2, 0
+9958, 11670, 1, "OK", 5, 36, 12, 12, 6, 6, 4, 0
+9730, 10292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobGroupName Iterator iterSchedules", 0, 0, 1, 1, 1, 0, 0, 0
+9730, 11582, 1, "OK", 4, 37, 12, 12, 6, 6, 4, 0
+10188, 12490, 1, "OK", 5, 49, 17, 17, 9, 8, 6, 0
+10725, 11197, 1, "OK", 3, 10, 5, 3, 2, 1, 2, 1
+9573, 11582, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService String jobName String jobGroupName", 0, 0, 12, 12, 6, 6, 4, 0
+9958, 10153, 1, "OK", 4, 5, 1, 1, 1, 0, 0, 0
+10246, 12490, 1, "OK", 5, 48, 17, 17, 9, 8, 6, 0
+9668, 12490, 1, "OK", 3, 59, 18, 18, 10, 8, 6, 0
+9512, 12969, 1, "OK", 2, 74, 21, 21, 12, 9, 7, 0
+11802, 12123, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+9802, 11670, 1, "OK", 4, 38, 12, 12, 6, 6, 4, 0
+9573, 10066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService String jobName String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+9891, 12490, 1, "OK", 5, 56, 18, 18, 10, 8, 6, 0
+10070, 12588, 1, "OK", 6, 54, 17, 17, 9, 8, 6, 0
+9730, 10066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+10296, 12490, 1, "OK", 5, 47, 17, 17, 9, 8, 6, 0
+9564, 13166, 1, "OK", 3, 79, 22, 22, 13, 9, 7, 0
+9573, 12128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName SourceBean schedModRespSB_DJ", 0, 0, 15, 15, 8, 7, 5, 0
+10817, 11197, 1, "OK", 3, 9, 5, 3, 2, 1, 2, 1
+10334, 11577, 1, "OK", 3, 24, 10, 6, 4, 2, 4, 1
+9730, 12128, 1, "OK", 4, 49, 15, 15, 8, 7, 5, 0
+10108, 11670, 1, "OK", 5, 32, 11, 11, 5, 6, 4, 0
+9958, 12490, 1, "OK", 5, 55, 18, 18, 10, 8, 6, 0
+10188, 11761, 1, "OK", 5, 31, 11, 11, 5, 6, 4, 0
+9802, 10153, 1, "OK", 4, 7, 1, 1, 1, 0, 0, 0
+10246, 11761, 1, "OK", 5, 30, 11, 11, 5, 6, 4, 0
+9668, 11761, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName SourceBean schedModRespSB_DJ", 0, 0, 12, 12, 6, 6, 4, 0
+9891, 11761, 1, "OK", 5, 38, 12, 12, 6, 6, 4, 0
+10070, 11582, 1, "OK", 5, 31, 11, 11, 5, 6, 4, 0
+10640, 11577, 1, "OK", 4, 20, 10, 6, 4, 2, 4, 1
+9573, 10104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService String jobName String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+10471, 11197, 1, "OK", 4, 13, 5, 3, 2, 1, 2, 1
+9730, 10104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+10855, 11064, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+9668, 10242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String jobGroupName List schedules", 0, 0, 1, 1, 1, 0, 0, 0
+11202, 11577, 1, "OK", 3, 9, 5, 3, 2, 1, 2, 1
+12619, 12965, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+10296, 11761, 1, "OK", 5, 29, 11, 11, 5, 6, 4, 0
+9891, 10242, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+10397, 11197, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String triggerName SourceBean schedModRespSB_DS", 0, 0, 5, 3, 2, 1, 2, 1
+9802, 12490, 1, "OK", 4, 57, 18, 18, 10, 8, 6, 0
+9958, 11761, 1, "OK", 5, 37, 12, 12, 6, 6, 4, 0
+9564, 12969, 1, "OK", 3, 73, 21, 21, 12, 9, 7, 0
+10108, 12490, 1, "OK", 5, 51, 17, 17, 9, 8, 6, 0
+10070, 12128, 1, "OK", 5, 43, 14, 14, 7, 7, 5, 0
+9730, 11670, 1, "OK", 4, 39, 12, 12, 6, 6, 4, 0
+9573, 11670, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String resp_DJ", 0, 0, 12, 12, 6, 6, 4, 0
+11674, 12588, 1, "OK", 4, 21, 6, 6, 4, 2, 2, 0
+9958, 10242, 1, "OK", 4, 7, 1, 1, 1, 0, 0, 0
+11603, 12490, 1, "OK", 4, 20, 6, 6, 4, 2, 2, 0
+11765, 12588, 1, "OK", 4, 20, 6, 6, 4, 2, 2, 0
+9573, 10153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService String jobName String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+10246, 12588, 1, "OK", 6, 50, 17, 17, 9, 8, 6, 0
+12132, 12490, 1, "OK", 3, 9, 3, 3, 2, 1, 1, 0
+10188, 12588, 1, "OK", 6, 51, 17, 17, 9, 8, 6, 0
+9730, 10153, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+9802, 11761, 1, "OK", 4, 39, 12, 12, 6, 6, 4, 0
+9668, 12588, 1, "OK", 4, 61, 18, 18, 10, 8, 6, 0
+9891, 12588, 1, "OK", 6, 58, 18, 18, 10, 8, 6, 0
+10547, 11197, 1, "OK", 4, 12, 5, 3, 2, 1, 2, 1
+10296, 12588, 1, "OK", 6, 49, 17, 17, 9, 8, 6, 0
+10725, 11577, 1, "OK", 3, 19, 10, 6, 4, 2, 4, 1
+10108, 11761, 1, "OK", 5, 33, 11, 11, 5, 6, 4, 0
+9668, 10292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String jobGroupName Iterator iterSchedules", 0, 0, 1, 1, 1, 0, 0, 0
+9891, 10292, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+10188, 11582, 1, "OK", 3, 28, 11, 11, 5, 6, 4, 0
+11273, 11482, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+9891, 11582, 1, "OK", 5, 35, 12, 12, 6, 6, 4, 0
+10246, 11582, 1, "OK", 3, 27, 11, 11, 5, 6, 4, 0
+9802, 10242, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+9668, 11582, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String jobGroupName", 0, 0, 12, 12, 6, 6, 4, 0
+9573, 12490, 1, "OK", 2, 60, 18, 18, 10, 8, 6, 0
+10296, 11582, 1, "OK", 3, 26, 11, 11, 5, 6, 4, 0
+11674, 12128, 1, "OK", 3, 10, 3, 3, 2, 1, 1, 0
+9958, 12588, 1, "OK", 6, 57, 18, 18, 10, 8, 6, 0
+10070, 11670, 1, "OK", 5, 33, 11, 11, 5, 6, 4, 0
+11802, 12006, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+12202, 12406, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+11765, 12128, 1, "OK", 3, 9, 3, 3, 2, 1, 1, 0
+9668, 10066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+9958, 10292, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+9730, 12490, 1, "OK", 4, 58, 18, 18, 10, 8, 6, 0
+10188, 12128, 1, "OK", 5, 40, 14, 14, 7, 7, 5, 0
+9891, 10066, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+9668, 12128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName SourceBean schedModRespSB_DJ", 0, 0, 15, 15, 8, 7, 5, 0
+9891, 12128, 1, "OK", 5, 47, 15, 15, 8, 7, 5, 0
+10817, 11577, 1, "OK", 3, 18, 10, 6, 4, 2, 4, 1
+9958, 11582, 1, "OK", 5, 34, 12, 12, 6, 6, 4, 0
+10246, 12128, 1, "OK", 5, 39, 14, 14, 7, 7, 5, 0
+10334, 11197, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String triggerName SourceBean schedModRespSB_DS", 0, 0, 5, 3, 2, 1, 2, 1
+9802, 12588, 1, "OK", 5, 59, 18, 18, 10, 8, 6, 0
+9573, 11761, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName SourceBean schedModRespSB_DJ", 0, 0, 12, 12, 6, 6, 4, 0
+9958, 10066, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+10640, 11197, 1, "OK", 4, 11, 5, 3, 2, 1, 2, 1
+10296, 12128, 1, "OK", 5, 38, 14, 14, 7, 7, 5, 0
+12619, 12818, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+9802, 10292, 1, "OK", 4, 10, 1, 1, 1, 0, 0, 0
+9668, 10104, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jobName String jobGroupName SourceBean rowsSB_JSL", 0, 0, 1, 1, 1, 0, 0, 0
+9802, 11582, 1, "OK", 4, 36, 12, 12, 6, 6, 4, 0
+10070, 12490, 1, "OK", 5, 52, 17, 17, 9, 8, 6, 0
+9891, 10104, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+9730, 11761, 1, "OK", 4, 40, 12, 12, 6, 6, 4, 0
+10855, 11191, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+10108, 12588, 1, "OK", 6, 53, 17, 17, 9, 8, 6, 0
+10471, 11577, 1, "OK", 4, 22, 10, 6, 4, 2, 4, 1
+10397, 11577, 1, "OK", 3, 23, 10, 6, 4, 2, 4, 1
+9573, 10242, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISchedulerServiceSupplier schedulerService String jobName String jobGroupName List schedules", 0, 0, 1, 1, 1, 0, 0, 0
+9958, 12128, 1, "OK", 5, 46, 15, 15, 8, 7, 5, 0
+11603, 12588, 1, "OK", 5, 22, 6, 6, 4, 2, 2, 0

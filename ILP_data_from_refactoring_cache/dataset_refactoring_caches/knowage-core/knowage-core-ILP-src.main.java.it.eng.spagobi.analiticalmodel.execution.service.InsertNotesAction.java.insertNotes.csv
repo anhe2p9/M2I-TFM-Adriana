@@ -1,0 +1,209 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4887, 7804, 1, "OK", 10, 79, 28, 28, 16, 12, 7, 0
+5146, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5329, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 5, 4, 4, 0, 1, 1
+4408, 7804, 1, "OK", 3, 89, 28, 28, 16, 12, 7, 0
+4477, 7718, 1, "OK", 6, 85, 28, 28, 16, 12, 7, 0
+5003, 7804, 1, "OK", 10, 78, 28, 28, 16, 12, 7, 0
+6117, 7061, 1, "OK", 5, 25, 13, 5, 5, 0, 4, 2
+6609, 7168, 1, "OK", 4, 13, 7, 3, 3, 0, 2, 2
+5098, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 6, 6, 5, 1, 1, 0
+5895, 7804, 1, "OK", 9, 51, 22, 22, 11, 11, 6, 0
+5044, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4780, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6028, 6254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canSee BIObject obj", 0, 0, 3, 1, 1, 0, 1, 2
+7099, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 4, 2, 2, 0, 1, 2
+4508, 7804, 1, "OK", 7, 85, 28, 28, 16, 12, 7, 0
+5995, 6254, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean canSee BIObject obj", 0, 0, 3, 1, 1, 0, 1, 2
+4562, 7670, 1, "OK", 8, 81, 28, 28, 16, 12, 7, 0
+4452, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4430, 7670, 1, "OK", 4, 86, 28, 28, 16, 12, 7, 0
+4632, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6117, 7093, 1, "OK", 5, 26, 13, 5, 5, 0, 4, 2
+5943, 7367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 20, 14, 9, 5, 6, 1
+4539, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+5098, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5146, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+7067, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 4, 2, 2, 0, 1, 2
+6117, 6603, 1, "OK", 3, 14, 6, 2, 2, 0, 2, 2
+6028, 6799, 1, "OK", 3, 20, 9, 3, 3, 0, 3, 2
+5995, 6799, 1, "OK", 2, 22, 9, 3, 3, 0, 3, 2
+5044, 7622, 1, "OK", 9, 74, 28, 28, 16, 12, 7, 0
+4705, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+6567, 6998, 1, "OK", 2, 10, 7, 3, 3, 0, 2, 2
+4562, 7718, 1, "OK", 8, 82, 28, 28, 16, 12, 7, 0
+4887, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4780, 7622, 1, "OK", 8, 77, 28, 28, 16, 12, 7, 0
+4408, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4430, 7718, 1, "OK", 4, 87, 28, 28, 16, 12, 7, 0
+5497, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String oldNotes String execIdentifier", 0, 0, 3, 3, 3, 0, 0, 1
+6260, 6799, 1, "OK", 4, 14, 6, 2, 2, 0, 2, 2
+4477, 7804, 1, "OK", 6, 86, 28, 28, 16, 12, 7, 0
+5003, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4452, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4539, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+5098, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5895, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 22, 22, 11, 11, 6, 0
+5200, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 5, 4, 4, 0, 1, 1
+5146, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4632, 7622, 1, "OK", 8, 79, 28, 28, 16, 12, 7, 0
+5995, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 17, 7, 7, 0, 5, 2
+6028, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 17, 7, 7, 0, 5, 2
+4508, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+5795, 5879, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 1
+4705, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+6117, 7168, 1, "OK", 5, 27, 13, 5, 5, 0, 4, 2
+5044, 7670, 1, "OK", 10, 75, 28, 28, 16, 12, 7, 0
+4539, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4780, 7670, 1, "OK", 9, 78, 28, 28, 16, 12, 7, 0
+4408, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String conflict String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+6260, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 14, 6, 6, 0, 4, 2
+4887, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+6805, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 8, 4, 4, 0, 2, 2
+6567, 7061, 1, "OK", 3, 12, 7, 3, 3, 0, 2, 2
+5003, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId", 0, 0, 6, 6, 5, 1, 1, 0
+5098, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6609, 6799, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+4632, 7670, 1, "OK", 9, 80, 28, 28, 16, 12, 7, 0
+4452, 7622, 1, "OK", 4, 84, 28, 28, 16, 12, 7, 0
+4705, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4508, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+4887, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4562, 7804, 1, "OK", 8, 83, 28, 28, 16, 12, 7, 0
+4408, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6567, 7093, 1, "OK", 3, 13, 7, 3, 3, 0, 2, 2
+4430, 7804, 1, "OK", 4, 88, 28, 28, 16, 12, 7, 0
+5146, 7622, 1, "OK", 10, 71, 28, 28, 16, 12, 7, 0
+5044, 7718, 1, "OK", 10, 76, 28, 28, 16, 12, 7, 0
+5003, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4477, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4539, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5895, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String notesEnc", 0, 0, 22, 22, 11, 11, 6, 0
+4780, 7718, 1, "OK", 9, 79, 28, 28, 16, 12, 7, 0
+7005, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 4, 2, 2, 0, 1, 2
+4508, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4705, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4632, 7718, 1, "OK", 9, 81, 28, 28, 16, 12, 7, 0
+6609, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 11, 5, 5, 0, 3, 2
+5286, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 5, 4, 4, 0, 1, 1
+4452, 7670, 1, "OK", 5, 85, 28, 28, 16, 12, 7, 0
+4408, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4887, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5098, 7622, 1, "OK", 10, 73, 28, 28, 16, 12, 7, 0
+5146, 7670, 1, "OK", 11, 72, 28, 28, 16, 12, 7, 0
+4477, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String conflict String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+5617, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String oldNotes", 0, 0, 2, 2, 2, 0, 0, 1
+5003, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6117, 6254, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+5895, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String notesEnc", 0, 0, 22, 22, 11, 11, 6, 0
+4539, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5254, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 5, 4, 4, 0, 1, 1
+4508, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6567, 7168, 1, "OK", 3, 14, 7, 3, 3, 0, 2, 2
+4562, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4430, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4452, 7718, 1, "OK", 5, 86, 28, 28, 16, 12, 7, 0
+4705, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4477, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6117, 6799, 1, "OK", 4, 19, 9, 3, 3, 0, 3, 2
+6028, 6998, 1, "OK", 3, 24, 13, 5, 5, 0, 4, 2
+5044, 7804, 1, "OK", 10, 77, 28, 28, 16, 12, 7, 0
+5995, 6998, 1, "OK", 2, 26, 13, 5, 5, 0, 4, 2
+5098, 7670, 1, "OK", 11, 74, 28, 28, 16, 12, 7, 0
+5146, 7718, 1, "OK", 11, 73, 28, 28, 16, 12, 7, 0
+4408, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4780, 7804, 1, "OK", 9, 80, 28, 28, 16, 12, 7, 0
+4887, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5003, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6260, 6998, 1, "OK", 4, 18, 10, 4, 4, 0, 3, 2
+5173, 5879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 5, 4, 4, 0, 1, 1
+6805, 6998, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+5895, 7559, 1, "OK", 8, 47, 22, 22, 11, 11, 6, 0
+4632, 7804, 1, "OK", 9, 82, 28, 28, 16, 12, 7, 0
+4562, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+6028, 6521, 1, "OK", 3, 13, 6, 2, 2, 0, 2, 2
+5995, 6521, 1, "OK", 2, 15, 6, 2, 2, 0, 2, 2
+4508, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4539, 7622, 1, "OK", 7, 81, 28, 28, 16, 12, 7, 0
+4430, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String conflict String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+4477, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6117, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 17, 7, 7, 0, 5, 2
+5098, 7718, 1, "OK", 11, 75, 28, 28, 16, 12, 7, 0
+4705, 7622, 1, "OK", 8, 78, 28, 28, 16, 12, 7, 0
+6260, 6521, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+6028, 7061, 1, "OK", 4, 26, 13, 5, 5, 0, 4, 2
+5995, 7061, 1, "OK", 3, 28, 13, 5, 5, 0, 4, 2
+4408, 7622, 1, "OK", 2, 86, 28, 28, 16, 12, 7, 0
+4562, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4430, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4887, 7622, 1, "OK", 9, 76, 28, 28, 16, 12, 7, 0
+4452, 7804, 1, "OK", 5, 87, 28, 28, 16, 12, 7, 0
+4539, 7670, 1, "OK", 8, 82, 28, 28, 16, 12, 7, 0
+5003, 7622, 1, "OK", 9, 75, 28, 28, 16, 12, 7, 0
+5044, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+5146, 7804, 1, "OK", 11, 74, 28, 28, 16, 12, 7, 0
+6260, 7061, 1, "OK", 5, 20, 10, 4, 4, 0, 3, 2
+5895, 7622, 1, "OK", 8, 48, 22, 22, 11, 11, 6, 0
+6805, 7061, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+6609, 6998, 1, "OK", 3, 9, 7, 3, 3, 0, 2, 2
+4780, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+6028, 7093, 1, "OK", 4, 27, 13, 5, 5, 0, 4, 2
+4477, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4508, 7622, 1, "OK", 6, 82, 28, 28, 16, 12, 7, 0
+5995, 7093, 1, "OK", 3, 29, 13, 5, 5, 0, 4, 2
+4705, 7670, 1, "OK", 9, 79, 28, 28, 16, 12, 7, 0
+4632, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4408, 7670, 1, "OK", 3, 87, 28, 28, 16, 12, 7, 0
+4562, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6260, 7093, 1, "OK", 5, 21, 10, 4, 4, 0, 3, 2
+4887, 7670, 1, "OK", 10, 77, 28, 28, 16, 12, 7, 0
+6028, 6603, 1, "OK", 3, 15, 6, 2, 2, 0, 2, 2
+6805, 7093, 1, "OK", 3, 7, 4, 2, 2, 0, 1, 2
+4430, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5995, 6603, 1, "OK", 2, 17, 6, 2, 2, 0, 2, 2
+6567, 6799, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+4539, 7718, 1, "OK", 8, 83, 28, 28, 16, 12, 7, 0
+5003, 7670, 1, "OK", 10, 76, 28, 28, 16, 12, 7, 0
+5044, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 6, 6, 5, 1, 1, 0
+5098, 7804, 1, "OK", 11, 76, 28, 28, 16, 12, 7, 0
+5895, 7670, 1, "OK", 9, 49, 22, 22, 11, 11, 6, 0
+4780, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+4508, 7670, 1, "OK", 7, 83, 28, 28, 16, 12, 7, 0
+6260, 6603, 1, "OK", 2, 9, 3, 1, 1, 0, 1, 2
+4705, 7718, 1, "OK", 9, 80, 28, 28, 16, 12, 7, 0
+6609, 7061, 1, "OK", 4, 11, 7, 3, 3, 0, 2, 2
+4477, 7622, 1, "OK", 5, 83, 28, 28, 16, 12, 7, 0
+4632, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+4408, 7718, 1, "OK", 3, 88, 28, 28, 16, 12, 7, 0
+4452, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+5044, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+7178, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 4, 2, 2, 0, 1, 2
+4887, 7718, 1, "OK", 10, 78, 28, 28, 16, 12, 7, 0
+4562, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5995, 7168, 1, "OK", 3, 30, 13, 5, 5, 0, 4, 2
+5146, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+6567, 7356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String notes String conflict", 0, 0, 11, 5, 5, 0, 3, 2
+4780, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6028, 7168, 1, "OK", 4, 28, 13, 5, 5, 0, 4, 2
+4430, 7559, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5003, 7718, 1, "OK", 10, 77, 28, 28, 16, 12, 7, 0
+5895, 7718, 1, "OK", 9, 50, 22, 22, 11, 11, 6, 0
+6609, 7093, 1, "OK", 4, 12, 7, 3, 3, 0, 2, 2
+4508, 7718, 1, "OK", 7, 84, 28, 28, 16, 12, 7, 0
+4632, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6260, 7168, 1, "OK", 5, 22, 10, 4, 4, 0, 3, 2
+6805, 7168, 1, "OK", 3, 8, 4, 2, 2, 0, 1, 2
+6117, 6998, 1, "OK", 4, 23, 13, 5, 5, 0, 4, 2
+4477, 7670, 1, "OK", 6, 84, 28, 28, 16, 12, 7, 0
+5044, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+4452, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String conflict String execIdentifier String userId IEngUserProfile profile2", 0, 0, 6, 6, 5, 1, 1, 0
+4539, 7804, 1, "OK", 8, 84, 28, 28, 16, 12, 7, 0
+4780, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+5146, 5887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String oldNotes String execIdentifier", 0, 0, 6, 6, 5, 1, 1, 0
+5098, 7376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String notes String conflict String execIdentifier", 0, 0, 28, 28, 16, 12, 7, 0
+4632, 7502, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0
+6117, 6521, 1, "OK", 3, 12, 6, 2, 2, 0, 2, 2
+4562, 7622, 1, "OK", 7, 80, 28, 28, 16, 12, 7, 0
+4430, 7622, 1, "OK", 3, 85, 28, 28, 16, 12, 7, 0
+4705, 7804, 1, "OK", 9, 81, 28, 28, 16, 12, 7, 0
+4452, 7456, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String objId String conflict String execIdentifier String notesEnc", 0, 0, 28, 28, 16, 12, 7, 0

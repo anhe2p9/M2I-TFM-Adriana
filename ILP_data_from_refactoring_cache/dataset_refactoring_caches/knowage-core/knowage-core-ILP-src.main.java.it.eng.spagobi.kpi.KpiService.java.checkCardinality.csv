@@ -1,0 +1,43 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+46609, 46784, 1, "OK", 4, 4, 3, 1, 1, 0, 1, 2
+46138, 46296, 1, "OK", 3, 6, 9, 3, 2, 1, 2, 3
+45263, 46793, 1, "OK", 3, 41, 24, 24, 9, 15, 7, 0
+45684, 46030, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45550, 46789, 1, "OK", 4, 34, 22, 15, 7, 8, 7, 1
+46510, 46789, 1, "OK", 2, 7, 5, 3, 2, 1, 2, 1
+45501, 46307, 1, "OK", 3, 22, 17, 12, 5, 7, 5, 1
+45179, 45468, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray measureArray JSONArray measureOfFormulaArray", 0, 0, 1, 1, 1, 0, 0, 0
+45980, 46302, 1, "OK", 4, 11, 12, 6, 3, 3, 3, 2
+46654, 46784, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+45501, 46506, 1, "OK", 3, 28, 17, 12, 5, 7, 5, 1
+46212, 46289, 1, "OK", 3, 3, 5, 1, 1, 0, 1, 4
+45604, 45938, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45604, 45810, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+46090, 46296, 1, "OK", 2, 7, 9, 3, 2, 1, 2, 3
+45604, 45869, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45471, 46793, 1, "OK", 3, 37, 23, 23, 8, 15, 7, 0
+45604, 46059, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45815, 46302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject misuraJson JSONObject attrs Measure measure", 0, 0, 12, 6, 3, 3, 3, 2
+45943, 46302, 1, "OK", 3, 12, 12, 6, 3, 3, 3, 2
+45550, 46307, 1, "OK", 4, 21, 17, 12, 5, 7, 5, 1
+45604, 45975, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+46174, 46289, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+45352, 45468, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 0
+46311, 46789, 1, "OK", 2, 13, 5, 3, 2, 1, 2, 1
+45684, 45938, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45684, 45810, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45550, 46506, 1, "OK", 4, 27, 17, 12, 5, 7, 5, 1
+45684, 45869, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45604, 46302, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 15, 7, 4, 3, 4, 2
+45684, 46059, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45684, 45975, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45352, 46793, 1, "OK", 3, 40, 24, 24, 9, 15, 7, 0
+46560, 46784, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+45263, 45468, 1, "OK", 3, 4, 1, 1, 1, 0, 0, 0
+45179, 46793, 1, "OK", 3, 42, 24, 24, 9, 15, 7, 0
+46064, 46302, 1, "OK", 2, 9, 12, 6, 3, 3, 3, 2
+46035, 46302, 1, "OK", 3, 10, 12, 6, 3, 3, 3, 2
+45874, 46302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject attrs Measure measure", 0, 0, 12, 6, 3, 3, 3, 2
+45604, 46030, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+45684, 46302, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 15, 7, 4, 3, 4, 2
+45501, 46789, 1, "OK", 3, 35, 22, 15, 7, 8, 7, 1

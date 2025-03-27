@@ -1,0 +1,177 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+48077, 49537, 1, "OK", 7, 17, 3, 2, 2, 0, 1, 1
+46928, 48036, 1, "OK", 5, 22, 11, 11, 6, 5, 3, 0
+48077, 50046, 1, "OK", 7, 22, 3, 2, 2, 0, 1, 1
+46069, 48036, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix", 0, 0, 14, 14, 9, 5, 3, 0
+46335, 50810, 1, "OK", 9, 65, 18, 18, 12, 6, 4, 0
+46069, 46513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+46152, 48036, 1, "OK", 7, 35, 14, 14, 9, 5, 3, 0
+46417, 46477, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+47622, 48031, 1, "OK", 6, 10, 10, 7, 5, 2, 3, 1
+48302, 50247, 1, "OK", 7, 22, 3, 2, 2, 0, 1, 1
+46317, 48036, 1, "OK", 5, 32, 14, 14, 9, 5, 3, 0
+51001, 51310, 1, "OK", 3, 8, 7, 3, 2, 1, 2, 2
+46417, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+46152, 46477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+48213, 50170, 1, "OK", 7, 22, 3, 2, 2, 0, 1, 1
+48527, 50420, 1, "OK", 7, 22, 3, 2, 2, 0, 1, 1
+48213, 49401, 1, "OK", 7, 15, 3, 2, 2, 0, 1, 1
+48302, 49969, 1, "OK", 7, 19, 3, 2, 2, 0, 1, 1
+46152, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+48438, 50616, 1, "OK", 7, 25, 3, 2, 2, 0, 1, 1
+46317, 46477, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+48213, 50420, 1, "OK", 7, 25, 3, 2, 2, 0, 1, 1
+48438, 50357, 1, "OK", 7, 22, 3, 2, 2, 0, 1, 1
+48438, 49845, 1, "OK", 7, 17, 3, 2, 2, 0, 1, 1
+47572, 48031, 1, "OK", 6, 11, 10, 7, 5, 2, 3, 1
+48077, 50552, 1, "OK", 7, 27, 3, 2, 2, 0, 1, 1
+48527, 50170, 1, "OK", 7, 19, 3, 2, 2, 0, 1, 1
+46417, 50810, 1, "OK", 10, 64, 18, 18, 12, 6, 4, 0
+47663, 48025, 1, "OK", 6, 8, 7, 3, 3, 0, 2, 2
+48302, 50744, 1, "OK", 7, 27, 3, 2, 2, 0, 1, 1
+48527, 49401, 1, "OK", 6, 12, 3, 2, 2, 0, 1, 1
+45904, 51864, 1, "OK", 5, 103, 28, 28, 16, 12, 7, 0
+48077, 50804, 1, "OK", 7, 30, 3, 2, 2, 0, 1, 1
+47663, 47812, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+46417, 48036, 1, "OK", 6, 30, 14, 14, 9, 5, 3, 0
+46261, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+46517, 46985, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+45939, 51845, 1, "OK", 6, 100, 28, 28, 16, 12, 7, 0
+48302, 49759, 1, "OK", 7, 17, 3, 2, 2, 0, 1, 1
+45832, 51845, 1, "OK", 4, 104, 28, 28, 16, 12, 7, 0
+48438, 50420, 1, "OK", 7, 23, 3, 2, 2, 0, 1, 1
+45948, 50810, 1, "OK", 6, 72, 18, 18, 12, 6, 4, 0
+48213, 49969, 1, "OK", 7, 20, 3, 2, 2, 0, 1, 1
+46261, 46477, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+46261, 50810, 1, "OK", 9, 67, 18, 18, 12, 6, 4, 0
+46517, 50810, 1, "OK", 10, 62, 17, 17, 11, 6, 4, 0
+48438, 49626, 1, "OK", 7, 15, 3, 2, 2, 0, 1, 1
+46190, 46866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level", 0, 0, 3, 3, 3, 0, 0, 0
+46317, 46513, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+46335, 46477, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+50972, 51454, 1, "OK", 3, 11, 9, 6, 3, 3, 3, 1
+46152, 46513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+46335, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+48302, 49537, 1, "OK", 7, 15, 3, 2, 2, 0, 1, 1
+45948, 46477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isRoot boolean isLeaf String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+47533, 48031, 1, "OK", 6, 12, 10, 7, 5, 2, 3, 1
+48213, 50247, 1, "OK", 7, 23, 3, 2, 2, 0, 1, 1
+46335, 46513, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+46261, 48036, 1, "OK", 6, 33, 14, 14, 9, 5, 3, 0
+46517, 48036, 1, "OK", 6, 28, 13, 13, 8, 5, 3, 0
+48302, 50046, 1, "OK", 7, 20, 3, 2, 2, 0, 1, 1
+45832, 51864, 1, "OK", 4, 105, 28, 28, 16, 12, 7, 0
+46031, 46477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+46261, 46513, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+51194, 51275, 1, "OK", 4, 1, 4, 1, 1, 0, 1, 3
+46031, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+48527, 50247, 1, "OK", 7, 20, 3, 2, 2, 0, 1, 1
+45939, 51864, 1, "OK", 6, 101, 28, 28, 16, 12, 7, 0
+46335, 48036, 1, "OK", 5, 31, 14, 14, 9, 5, 3, 0
+48302, 50804, 1, "OK", 7, 28, 3, 2, 2, 0, 1, 1
+48438, 50170, 1, "OK", 7, 20, 3, 2, 2, 0, 1, 1
+48213, 50744, 1, "OK", 7, 28, 3, 2, 2, 0, 1, 1
+48438, 49401, 1, "OK", 7, 13, 3, 2, 2, 0, 1, 1
+48527, 49969, 1, "OK", 7, 17, 3, 2, 2, 0, 1, 1
+46417, 46513, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+45948, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isRoot boolean isLeaf String hierarchyPrefix int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+46031, 50810, 1, "OK", 7, 71, 18, 18, 12, 6, 4, 0
+48077, 50616, 1, "OK", 7, 28, 3, 2, 2, 0, 1, 1
+48302, 50552, 1, "OK", 7, 25, 3, 2, 2, 0, 1, 1
+48527, 50744, 1, "OK", 7, 25, 3, 2, 2, 0, 1, 1
+48077, 50357, 1, "OK", 7, 25, 3, 2, 2, 0, 1, 1
+48077, 49845, 1, "OK", 7, 20, 3, 2, 2, 0, 1, 1
+50841, 51454, 1, "OK", 3, 12, 9, 6, 3, 3, 3, 1
+45948, 46513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isRoot boolean isLeaf String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+46031, 48036, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix", 0, 0, 14, 14, 9, 5, 3, 0
+45904, 51458, 1, "OK", 5, 90, 28, 28, 16, 12, 7, 0
+48527, 49759, 1, "OK", 7, 15, 3, 2, 2, 0, 1, 1
+46069, 46866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level", 0, 0, 3, 3, 3, 0, 0, 0
+48438, 49969, 1, "OK", 7, 18, 3, 2, 2, 0, 1, 1
+45854, 51458, 1, "OK", 4, 91, 28, 28, 16, 12, 7, 0
+46481, 46866, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+48077, 49626, 1, "OK", 7, 18, 3, 2, 2, 0, 1, 1
+51087, 51281, 1, "OK", 3, 5, 7, 3, 2, 1, 2, 2
+48213, 49759, 1, "OK", 7, 18, 3, 2, 2, 0, 1, 1
+45948, 48036, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isRoot boolean isLeaf String hierarchyPrefix", 0, 0, 14, 14, 9, 5, 3, 0
+50972, 51315, 1, "OK", 3, 10, 9, 6, 3, 3, 3, 1
+48040, 50810, 1, "OK", 8, 34, 4, 4, 3, 1, 1, 0
+48527, 49537, 1, "OK", 7, 13, 3, 2, 2, 0, 1, 1
+48438, 50247, 1, "OK", 7, 21, 3, 2, 2, 0, 1, 1
+48527, 50046, 1, "OK", 7, 18, 3, 2, 2, 0, 1, 1
+46190, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+51039, 51281, 1, "OK", 2, 6, 7, 3, 2, 1, 2, 2
+46317, 46866, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+48527, 50804, 1, "OK", 7, 26, 3, 2, 2, 0, 1, 1
+48213, 50552, 1, "OK", 7, 26, 3, 2, 2, 0, 1, 1
+48438, 50744, 1, "OK", 7, 26, 3, 2, 2, 0, 1, 1
+46031, 46513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+48213, 50804, 1, "OK", 7, 29, 3, 2, 2, 0, 1, 1
+51087, 51310, 1, "OK", 4, 6, 7, 3, 2, 1, 2, 2
+48077, 50170, 1, "OK", 7, 23, 3, 2, 2, 0, 1, 1
+48077, 49401, 1, "OK", 7, 16, 3, 2, 2, 0, 1, 1
+48213, 49537, 1, "OK", 7, 16, 3, 2, 2, 0, 1, 1
+46190, 50810, 1, "OK", 8, 68, 18, 18, 12, 6, 4, 0
+48302, 50616, 1, "OK", 7, 26, 3, 2, 2, 0, 1, 1
+46152, 46866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level", 0, 0, 3, 3, 3, 0, 0, 0
+48213, 50046, 1, "OK", 7, 21, 3, 2, 2, 0, 1, 1
+48527, 50552, 1, "OK", 7, 23, 3, 2, 2, 0, 1, 1
+48077, 50420, 1, "OK", 7, 26, 3, 2, 2, 0, 1, 1
+48302, 50357, 1, "OK", 7, 23, 3, 2, 2, 0, 1, 1
+48302, 49845, 1, "OK", 7, 18, 3, 2, 2, 0, 1, 1
+46190, 48036, 1, "OK", 6, 34, 14, 14, 9, 5, 3, 0
+46335, 46866, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+50841, 51315, 1, "OK", 3, 11, 9, 6, 3, 3, 3, 1
+45939, 51458, 1, "OK", 6, 88, 28, 28, 16, 12, 7, 0
+46261, 46866, 1, "OK", 3, 10, 3, 3, 3, 0, 0, 0
+46517, 46866, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+48438, 50804, 1, "OK", 7, 27, 3, 2, 2, 0, 1, 1
+51039, 51310, 1, "OK", 3, 7, 7, 3, 2, 1, 2, 2
+45832, 51458, 1, "OK", 4, 92, 28, 28, 16, 12, 7, 0
+46417, 46866, 1, "OK", 3, 7, 3, 3, 3, 0, 0, 0
+46190, 46477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+48302, 49626, 1, "OK", 7, 16, 3, 2, 2, 0, 1, 1
+47726, 48025, 1, "OK", 7, 7, 7, 3, 3, 0, 2, 2
+47504, 50810, 1, "OK", 11, 48, 15, 15, 9, 6, 4, 0
+48438, 49759, 1, "OK", 7, 16, 3, 2, 2, 0, 1, 1
+47726, 47812, 1, "OK", 4, 2, 3, 1, 1, 0, 1, 2
+45948, 46866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isRoot boolean isLeaf String hierarchyPrefix int level", 0, 0, 3, 3, 3, 0, 0, 0
+47504, 48036, 1, "OK", 6, 14, 11, 11, 6, 5, 3, 0
+47818, 48025, 1, "OK", 5, 5, 4, 2, 2, 0, 1, 2
+48077, 50247, 1, "OK", 7, 24, 3, 2, 2, 0, 1, 1
+46481, 46985, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+51157, 51275, 1, "OK", 4, 2, 4, 1, 1, 0, 1, 3
+48302, 50420, 1, "OK", 7, 24, 3, 2, 2, 0, 1, 1
+48527, 50357, 1, "OK", 7, 21, 3, 2, 2, 0, 1, 1
+48527, 49845, 1, "OK", 7, 16, 3, 2, 2, 0, 1, 1
+46190, 46513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+48077, 49969, 1, "OK", 7, 21, 3, 2, 2, 0, 1, 1
+48213, 50616, 1, "OK", 7, 27, 3, 2, 2, 0, 1, 1
+48438, 50552, 1, "OK", 7, 24, 3, 2, 2, 0, 1, 1
+48213, 50357, 1, "OK", 7, 24, 3, 2, 2, 0, 1, 1
+48213, 49845, 1, "OK", 7, 19, 3, 2, 2, 0, 1, 1
+48302, 50170, 1, "OK", 7, 21, 3, 2, 2, 0, 1, 1
+48077, 50744, 1, "OK", 7, 29, 3, 2, 2, 0, 1, 1
+48302, 49401, 1, "OK", 7, 14, 3, 2, 2, 0, 1, 1
+48438, 49537, 1, "OK", 7, 14, 3, 2, 2, 0, 1, 1
+46481, 50810, 1, "OK", 10, 63, 17, 17, 11, 6, 4, 0
+48527, 50616, 1, "OK", 7, 24, 3, 2, 2, 0, 1, 1
+48438, 50046, 1, "OK", 7, 19, 3, 2, 2, 0, 1, 1
+45904, 51845, 1, "OK", 5, 102, 28, 28, 16, 12, 7, 0
+51001, 51281, 1, "OK", 2, 7, 7, 3, 2, 1, 2, 2
+46481, 48036, 1, "OK", 6, 29, 13, 13, 8, 5, 3, 0
+46069, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+48077, 49759, 1, "OK", 7, 19, 3, 2, 2, 0, 1, 1
+46152, 50810, 1, "OK", 8, 69, 18, 18, 12, 6, 4, 0
+51117, 51275, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+46317, 46985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int level Iterator iter", 0, 0, 3, 3, 3, 0, 0, 0
+45854, 51864, 1, "OK", 4, 104, 28, 28, 16, 12, 7, 0
+46069, 46477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level", 0, 0, 1, 1, 1, 0, 0, 0
+46069, 50810, 1, "OK", 7, 70, 18, 18, 12, 6, 4, 0
+48213, 49626, 1, "OK", 7, 17, 3, 2, 2, 0, 1, 1
+46031, 46866, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isLeaf String hierarchyPrefix int level", 0, 0, 3, 3, 3, 0, 0, 0
+46317, 50810, 1, "OK", 9, 66, 18, 18, 12, 6, 4, 0
+48527, 49626, 1, "OK", 7, 14, 3, 2, 2, 0, 1, 1
+49071, 49401, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 1
+46928, 50810, 1, "OK", 10, 56, 15, 15, 9, 6, 4, 0
+45854, 51845, 1, "OK", 4, 103, 28, 28, 16, 12, 7, 0

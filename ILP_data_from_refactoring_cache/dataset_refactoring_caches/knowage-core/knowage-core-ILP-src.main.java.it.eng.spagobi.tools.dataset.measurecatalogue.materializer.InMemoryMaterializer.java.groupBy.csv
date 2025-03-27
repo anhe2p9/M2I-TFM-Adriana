@@ -1,0 +1,100 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+11861, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12609, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+11841, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13911, 14541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int measurePosition int recordLength", 0, 0, 7, 5, 4, 1, 2, 1
+14856, 15222, 1, "OK", 4, 8, 8, 4, 3, 1, 2, 2
+12057, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12189, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13412, 13656, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+12402, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13979, 15277, 1, "OK", 11, 29, 17, 12, 8, 4, 5, 1
+12553, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+11841, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12609, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+12402, 15281, 1, "OK", 8, 73, 32, 32, 16, 16, 9, 0
+14111, 14536, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 2, 2, 0, 0, 2
+12273, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+11841, 15281, 1, "OK", 3, 83, 32, 32, 16, 16, 9, 0
+13979, 14541, 1, "OK", 6, 12, 7, 5, 4, 1, 2, 1
+14981, 15222, 1, "OK", 5, 6, 8, 4, 3, 1, 2, 2
+12609, 15281, 1, "OK", 10, 68, 32, 32, 16, 16, 9, 0
+12851, 13667, 1, "OK", 9, 21, 13, 9, 6, 3, 4, 1
+12402, 15311, 1, "OK", 8, 75, 32, 32, 16, 16, 9, 0
+13883, 14710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InMemoryAggregator inMemoryAggregator int recordLength", 0, 0, 7, 5, 4, 1, 2, 1
+12587, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+14740, 15277, 1, "OK", 5, 12, 10, 7, 4, 3, 3, 1
+11885, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12719, 13671, 1, "OK", 8, 24, 14, 14, 7, 7, 4, 0
+13099, 13667, 1, "OK", 8, 13, 9, 7, 4, 3, 2, 1
+14800, 15222, 1, "OK", 5, 9, 8, 4, 3, 1, 2, 2
+13675, 15281, 1, "OK", 10, 40, 18, 18, 9, 9, 5, 0
+13840, 15281, 1, "OK", 10, 35, 18, 18, 9, 9, 5, 0
+14856, 15272, 1, "OK", 5, 9, 8, 4, 3, 1, 2, 2
+12057, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12609, 15311, 1, "OK", 10, 70, 32, 32, 16, 16, 9, 0
+12885, 13667, 1, "OK", 10, 20, 13, 9, 6, 3, 4, 1
+11841, 15311, 1, "OK", 3, 85, 32, 32, 16, 16, 9, 0
+12026, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12189, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12851, 12937, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+12976, 13667, 1, "OK", 10, 16, 11, 8, 5, 3, 3, 1
+12189, 15281, 1, "OK", 6, 75, 32, 32, 16, 16, 9, 0
+11861, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12553, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+12057, 15281, 1, "OK", 5, 79, 32, 32, 16, 16, 9, 0
+12402, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13675, 15311, 1, "OK", 10, 42, 18, 18, 9, 9, 5, 0
+14981, 15272, 1, "OK", 6, 7, 8, 4, 3, 1, 2, 2
+13840, 15311, 1, "OK", 10, 37, 18, 18, 9, 9, 5, 0
+13324, 13656, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+12553, 15281, 1, "OK", 9, 70, 32, 32, 16, 16, 9, 0
+12719, 13732, 1, "OK", 9, 26, 14, 14, 7, 7, 4, 0
+12057, 15311, 1, "OK", 5, 81, 32, 32, 16, 16, 9, 0
+12273, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12885, 12937, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+12189, 15311, 1, "OK", 6, 77, 32, 32, 16, 16, 9, 0
+13883, 15277, 1, "OK", 9, 32, 17, 12, 8, 4, 5, 1
+12587, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+11841, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+11885, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12609, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+14800, 15272, 1, "OK", 6, 10, 8, 4, 3, 1, 2, 2
+11885, 15281, 1, "OK", 3, 81, 32, 32, 16, 16, 9, 0
+12553, 15311, 1, "OK", 9, 72, 32, 32, 16, 16, 9, 0
+12587, 15281, 1, "OK", 10, 69, 32, 32, 16, 16, 9, 0
+13242, 13662, 1, "OK", 8, 10, 7, 3, 2, 1, 2, 2
+12719, 15281, 1, "OK", 11, 65, 32, 32, 16, 16, 9, 0
+12273, 15281, 1, "OK", 7, 74, 32, 32, 16, 16, 9, 0
+13735, 15281, 1, "OK", 10, 39, 18, 18, 9, 9, 5, 0
+12026, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+11861, 13732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13883, 14541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int measurePosition int recordLength", 0, 0, 7, 5, 4, 1, 2, 1
+12788, 13667, 1, "OK", 9, 22, 13, 9, 6, 3, 4, 1
+11861, 15281, 1, "OK", 3, 82, 32, 32, 16, 16, 9, 0
+12189, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12273, 15311, 1, "OK", 7, 76, 32, 32, 16, 16, 9, 0
+12026, 15281, 1, "OK", 4, 80, 32, 32, 16, 16, 9, 0
+15084, 15216, 1, "OK", 5, 3, 5, 2, 2, 0, 1, 3
+12587, 15311, 1, "OK", 10, 71, 32, 32, 16, 16, 9, 0
+12057, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+11885, 15311, 1, "OK", 3, 83, 32, 32, 16, 16, 9, 0
+13911, 14710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InMemoryAggregator inMemoryAggregator int recordLength", 0, 0, 7, 5, 4, 1, 2, 1
+12719, 15311, 1, "OK", 11, 67, 32, 32, 16, 16, 9, 0
+14024, 14536, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 3, 3, 0, 1, 2
+13735, 15311, 1, "OK", 10, 41, 18, 18, 9, 9, 5, 0
+12788, 12937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IFieldMetaData fmd String alias", 0, 0, 2, 1, 1, 0, 1, 1
+14165, 14536, 1, "OK", 4, 6, 1, 1, 1, 0, 0, 2
+12026, 15311, 1, "OK", 4, 82, 32, 32, 16, 16, 9, 0
+12553, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+15027, 15216, 1, "OK", 5, 4, 5, 2, 2, 0, 1, 3
+14546, 15277, 1, "OK", 10, 16, 10, 7, 4, 3, 3, 1
+11861, 15311, 1, "OK", 3, 84, 32, 32, 16, 16, 9, 0
+12587, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore int measureColumnIndex", 0, 0, 14, 14, 7, 7, 4, 0
+11885, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore List<Integer> hierarchiesColumnsIndexInDataSet int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12719, 13816, 1, "OK", 9, 27, 14, 14, 7, 7, 4, 0
+12273, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+12402, 13671, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13911, 15277, 1, "OK", 10, 31, 17, 12, 8, 4, 5, 1
+12026, 13816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet IDataStore dataStore int measureColumnIndex InMemoryAggregator inMemoryAggregator List<IFieldMetaData> newDataStoreFieldMetaData Map<MeasureCatalogueDimension, IFieldMetaData> mapDimensionsFields Map<IFieldMetaData, MeasureCatalogueDimension> mapFieldsDimensions", 0, 0, 14, 14, 7, 7, 4, 0
+13979, 14710, 1, "OK", 10, 15, 7, 5, 4, 1, 2, 1

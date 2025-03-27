@@ -1,0 +1,79 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2960, 4816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String accountName Map<String, ForecastValue> values", 0, 0, 27, 21, 10, 11, 6, 1
+3022, 4816, 1, "OK", 1, 49, 27, 21, 10, 11, 6, 1
+2166, 2295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3076, 5064, 1, "OK", 8, 55, 29, 22, 11, 11, 7, 1
+3479, 3835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String prefixName boolean isAbsoluteValue", 0, 0, 5, 2, 2, 0, 1, 3
+4017, 4187, 1, "OK", 3, 5, 6, 2, 2, 0, 1, 4
+2783, 5064, 1, "OK", 3, 61, 29, 22, 11, 11, 7, 1
+3076, 4816, 1, "OK", 2, 48, 27, 21, 10, 11, 6, 1
+2054, 5268, 1, "OK", 1, 84, 33, 33, 15, 18, 7, 0
+2166, 2435, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4526, 4794, 1, "OK", 6, 7, 6, 2, 2, 0, 1, 4
+2500, 5268, 1, "OK", 5, 76, 32, 32, 14, 18, 7, 0
+2054, 2583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2783, 4816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String closureCode String hierCode String accountCode String accountName Map<String, ForecastValue> values", 0, 0, 27, 21, 10, 11, 6, 1
+2844, 5101, 1, "OK", 4, 62, 29, 22, 11, 11, 7, 1
+4569, 4745, 1, "OK", 3, 5, 6, 2, 2, 0, 1, 4
+2899, 5064, 1, "OK", 5, 59, 29, 22, 11, 11, 7, 1
+3331, 3835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramValue String prefixName boolean isAbsoluteValue", 0, 0, 5, 2, 2, 0, 1, 3
+4291, 4794, 1, "OK", 4, 12, 6, 2, 2, 0, 1, 4
+2360, 5268, 1, "OK", 4, 78, 32, 32, 14, 18, 7, 0
+3154, 5101, 1, "OK", 9, 56, 29, 22, 11, 11, 7, 1
+4444, 4794, 1, "OK", 7, 9, 6, 2, 2, 0, 1, 4
+2166, 5268, 1, "OK", 2, 83, 33, 33, 15, 18, 7, 0
+2899, 4816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String accountCode String accountName Map<String, ForecastValue> values", 0, 0, 27, 21, 10, 11, 6, 1
+2960, 5101, 1, "OK", 6, 60, 29, 22, 11, 11, 7, 1
+3022, 5101, 1, "OK", 7, 58, 29, 22, 11, 11, 7, 1
+4902, 5064, 1, "OK", 7, 3, 2, 1, 1, 0, 1, 1
+3395, 4802, 1, "OK", 3, 39, 22, 10, 8, 2, 4, 3
+2166, 2583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4483, 4745, 1, "OK", 5, 7, 6, 2, 2, 0, 1, 4
+2637, 5268, 1, "OK", 3, 74, 32, 32, 14, 18, 7, 0
+3956, 4187, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4
+3076, 5101, 1, "OK", 8, 57, 29, 22, 11, 11, 7, 1
+2054, 2356, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2783, 5101, 1, "OK", 3, 63, 29, 22, 11, 11, 7, 1
+2054, 2230, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3288, 4809, 1, "OK", 3, 42, 25, 15, 9, 6, 5, 2
+4405, 4745, 1, "OK", 4, 9, 6, 2, 2, 0, 1, 4
+4017, 4233, 1, "OK", 5, 6, 6, 2, 2, 0, 1, 4
+3588, 3835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String prefixName boolean isAbsoluteValue", 0, 0, 5, 2, 2, 0, 1, 3
+2054, 2496, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2899, 5101, 1, "OK", 5, 61, 29, 22, 11, 11, 7, 1
+2299, 5268, 1, "OK", 3, 79, 32, 32, 14, 18, 7, 0
+2735, 5064, 1, "OK", 2, 62, 29, 22, 11, 11, 7, 1
+2166, 2356, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2166, 2230, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4569, 4794, 1, "OK", 5, 6, 6, 2, 2, 0, 1, 4
+2735, 4816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String year String closureCode String hierCode String accountCode String accountName Map<String, ForecastValue> values", 0, 0, 27, 21, 10, 11, 6, 1
+3454, 4802, 1, "OK", 3, 37, 22, 10, 8, 2, 4, 3
+4352, 4745, 1, "OK", 4, 10, 6, 2, 2, 0, 1, 4
+2045, 5479, 1, "OK", 1, 90, 34, 34, 16, 18, 7, 0
+2166, 2496, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+4902, 5101, 1, "OK", 7, 5, 2, 1, 1, 0, 1, 1
+3198, 4809, 1, "OK", 3, 44, 25, 15, 9, 6, 5, 2
+3479, 4802, 1, "OK", 3, 36, 22, 10, 8, 2, 4, 3
+3956, 4233, 1, "OK", 4, 7, 6, 2, 2, 0, 1, 4
+3395, 3835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String paramValue String prefixName boolean isAbsoluteValue", 0, 0, 5, 2, 2, 0, 1, 3
+2234, 5268, 1, "OK", 2, 80, 32, 32, 14, 18, 7, 0
+4483, 4794, 1, "OK", 7, 8, 6, 2, 2, 0, 1, 4
+2735, 5101, 1, "OK", 2, 64, 29, 22, 11, 11, 7, 1
+4526, 4745, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4
+3331, 4802, 1, "OK", 3, 40, 22, 10, 8, 2, 4, 3
+3843, 4802, 1, "OK", 4, 24, 17, 8, 6, 2, 3, 3
+4405, 4794, 1, "OK", 6, 10, 6, 2, 2, 0, 1, 4
+4291, 4745, 1, "OK", 3, 11, 6, 2, 2, 0, 1, 4
+2844, 5064, 1, "OK", 4, 60, 29, 22, 11, 11, 7, 1
+4444, 4745, 1, "OK", 5, 8, 6, 2, 2, 0, 1, 4
+2054, 2295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+2844, 4816, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String hierCode String accountCode String accountName Map<String, ForecastValue> values", 0, 0, 27, 21, 10, 11, 6, 1
+3154, 5064, 1, "OK", 9, 54, 29, 22, 11, 11, 7, 1
+2960, 5064, 1, "OK", 6, 58, 29, 22, 11, 11, 7, 1
+4352, 4794, 1, "OK", 5, 11, 6, 2, 2, 0, 1, 4
+2458, 5268, 1, "OK", 5, 77, 32, 32, 14, 18, 7, 0
+3022, 5064, 1, "OK", 7, 56, 29, 22, 11, 11, 7, 1
+3154, 4816, 1, "OK", 3, 47, 27, 21, 10, 11, 6, 1
+3588, 4802, 1, "OK", 4, 33, 22, 10, 8, 2, 4, 3
+2054, 2435, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3454, 3835, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String prefixName boolean isAbsoluteValue", 0, 0, 5, 2, 2, 0, 1, 3

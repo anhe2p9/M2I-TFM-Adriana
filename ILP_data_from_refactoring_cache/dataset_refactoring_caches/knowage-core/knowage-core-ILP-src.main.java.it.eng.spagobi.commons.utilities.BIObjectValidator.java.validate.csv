@@ -1,0 +1,99 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7382, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+7578, 7836, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7890, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+6413, 6828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+7890, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+8171, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+8171, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+7075, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 12, 17, 9, 0
+8207, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+8463, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 17, 7, 5, 2, 5, 2
+8017, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+7350, 9286, 1, "OK", 3, 51, 27, 27, 10, 17, 9, 0
+7507, 9282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 17, 9, 8, 9, 1
+7408, 9286, 1, "OK", 3, 49, 27, 27, 10, 17, 9, 0
+8368, 8458, 1, "OK", 2, 2, 3, 1, 1, 0, 1, 2
+7350, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+7458, 9282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 17, 9, 8, 9, 1
+7949, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+6051, 6828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+7578, 9156, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 16, 8, 8, 8, 1
+7949, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+7408, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+7075, 7344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+8521, 8605, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+5631, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 15, 18, 10, 0
+7382, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+7890, 8458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameterValue String inParameterValue", 0, 0, 3, 1, 1, 0, 1, 2
+5631, 7072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+6980, 9286, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+8171, 8458, 1, "OK", 4, 7, 3, 1, 1, 0, 1, 2
+7507, 7799, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7075, 9677, 1, "OK", 3, 70, 29, 29, 12, 17, 9, 0
+8718, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+5631, 7344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+7075, 7379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5631, 6836, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+7458, 7799, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+6980, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 12, 17, 9, 0
+7350, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+7408, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+7949, 8458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameterValue String inParameterValue", 0, 0, 3, 1, 1, 0, 1, 2
+7840, 9282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 24, 16, 8, 8, 8, 1
+8017, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+8207, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+8463, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+8521, 8653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+8017, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+8094, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+7075, 7405, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+7507, 7836, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7803, 9156, 1, "OK", 3, 34, 22, 15, 7, 8, 7, 1
+8207, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+8463, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 6, 4, 2, 4, 2
+5631, 9677, 1, "OK", 3, 107, 33, 33, 15, 18, 10, 0
+9203, 9282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 2, 1, 1, 0, 1, 1
+5631, 7379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+7458, 7836, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7382, 9677, 1, "OK", 3, 59, 28, 28, 11, 17, 9, 0
+9335, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+6980, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 12, 17, 9, 0
+5631, 7405, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+6145, 6828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+7507, 9156, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 16, 8, 8, 8, 1
+8780, 8864, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+8368, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+8207, 8458, 1, "OK", 5, 6, 3, 1, 1, 0, 1, 2
+8017, 8458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameterValue String inParameterValue", 0, 0, 3, 1, 1, 0, 1, 2
+7350, 9677, 1, "OK", 3, 60, 28, 28, 11, 17, 9, 0
+7408, 9677, 1, "OK", 3, 58, 28, 28, 11, 17, 9, 0
+7458, 9156, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 16, 8, 8, 8, 1
+7578, 9282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 17, 9, 8, 9, 1
+6526, 6828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+6980, 7344, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+7890, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+8094, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+8094, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+9335, 9614, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+8171, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+8780, 8912, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+5767, 6828, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+7075, 9286, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 11, 17, 9, 0
+6980, 9677, 1, "OK", 3, 72, 29, 29, 12, 17, 9, 0
+8981, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+6980, 7379, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+7075, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 12, 17, 9, 0
+7949, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 20, 8, 6, 2, 6, 2
+7578, 7799, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+8368, 8659, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+8368, 8918, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 5, 2, 5, 2
+7840, 9156, 1, "OK", 4, 33, 22, 15, 7, 8, 7, 1
+6980, 7405, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5631, 9286, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 32, 32, 14, 18, 10, 0
+7803, 9282, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 24, 16, 8, 8, 8, 1
+8094, 8458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameterValue String inParameterValue", 0, 0, 3, 1, 1, 0, 1, 2
+8718, 9090, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 4, 3, 1, 3, 2
+7382, 9286, 1, "OK", 3, 50, 27, 27, 10, 17, 9, 0
+9335, 9677, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+5631, 9560, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 15, 18, 10, 0

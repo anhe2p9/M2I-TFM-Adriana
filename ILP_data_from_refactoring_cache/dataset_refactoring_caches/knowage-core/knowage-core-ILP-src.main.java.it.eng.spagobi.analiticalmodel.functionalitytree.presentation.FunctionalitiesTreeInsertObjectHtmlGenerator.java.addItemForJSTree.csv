@@ -1,0 +1,66 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12512, 12965, 1, "OK", 8, 10, 12, 4, 3, 1, 2, 4
+12978, 13240, 1, "OK", 6, 5, 1, 1, 1, 0, 0, 3
+12372, 13336, 1, "OK", 8, 20, 22, 10, 7, 3, 4, 3
+11604, 14867, 1, "OK", 7, 65, 47, 47, 21, 26, 11, 0
+11687, 14867, 1, "OK", 8, 63, 47, 47, 21, 26, 11, 0
+11467, 11841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+12261, 13336, 1, "OK", 7, 21, 22, 10, 7, 3, 4, 3
+11490, 14839, 1, "OK", 6, 65, 47, 47, 21, 26, 11, 0
+11646, 14867, 1, "OK", 7, 64, 47, 47, 21, 26, 11, 0
+11604, 13350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 31, 31, 13, 18, 6, 0
+11745, 14867, 1, "OK", 9, 61, 47, 47, 21, 26, 11, 0
+11845, 14839, 1, "OK", 8, 56, 45, 45, 19, 26, 11, 0
+11529, 11841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+11745, 13350, 1, "OK", 9, 33, 31, 31, 13, 18, 6, 0
+11687, 13350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id Integer parentId", 0, 0, 31, 31, 13, 18, 6, 0
+13353, 14839, 1, "OK", 6, 26, 16, 16, 8, 8, 5, 0
+11845, 14867, 1, "OK", 8, 58, 45, 45, 19, 26, 11, 0
+13766, 14833, 1, "OK", 6, 19, 13, 9, 6, 3, 4, 1
+11604, 11841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+11646, 13350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String codeType Integer id Integer parentId", 0, 0, 31, 31, 13, 18, 6, 0
+13893, 14734, 1, "OK", 7, 14, 11, 8, 5, 3, 3, 1
+14130, 14169, 1, "OK", 3, 1, 4, 1, 1, 0, 1, 3
+11490, 14867, 1, "OK", 6, 67, 47, 47, 21, 26, 11, 0
+11718, 14839, 1, "OK", 9, 60, 47, 47, 21, 26, 11, 0
+12543, 12700, 1, "OK", 4, 6, 12, 4, 3, 1, 2, 4
+13434, 13876, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String imgFolder String imgFolderOp", 0, 0, 2, 1, 1, 0, 1, 1
+14056, 14178, 1, "OK", 3, 4, 7, 3, 2, 1, 2, 2
+11687, 11841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+13882, 14833, 1, "OK", 7, 18, 13, 9, 6, 3, 4, 1
+11490, 13350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 31, 31, 13, 18, 6, 0
+11646, 11841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String codeType Integer id Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+12543, 12965, 1, "OK", 9, 9, 12, 4, 3, 1, 2, 4
+13434, 13760, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+11745, 11841, 1, "OK", 2, 2, 2, 2, 2, 0, 0, 0
+11845, 13350, 1, "OK", 8, 30, 29, 29, 11, 18, 6, 0
+11467, 14839, 1, "OK", 6, 66, 47, 47, 21, 26, 11, 0
+14056, 14454, 1, "OK", 7, 7, 7, 3, 2, 1, 2, 2
+11529, 14839, 1, "OK", 7, 64, 47, 47, 21, 26, 11, 0
+11924, 13346, 1, "OK", 8, 28, 28, 22, 10, 12, 6, 1
+11718, 14867, 1, "OK", 9, 62, 47, 47, 21, 26, 11, 0
+14468, 14734, 1, "OK", 6, 5, 1, 1, 1, 0, 0, 1
+13353, 14867, 1, "OK", 6, 28, 16, 16, 8, 8, 5, 0
+12156, 13336, 1, "OK", 6, 22, 22, 10, 7, 3, 4, 3
+12569, 12692, 1, "OK", 4, 4, 7, 2, 2, 0, 1, 5
+13656, 14833, 1, "OK", 5, 20, 13, 9, 6, 3, 4, 1
+12382, 13240, 1, "OK", 8, 16, 18, 9, 6, 3, 3, 3
+14024, 14178, 1, "OK", 2, 5, 7, 3, 2, 1, 2, 2
+13434, 13650, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+11604, 14839, 1, "OK", 7, 63, 47, 47, 21, 26, 11, 0
+11718, 13350, 1, "OK", 9, 34, 31, 31, 13, 18, 6, 0
+11490, 11841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+12615, 12692, 1, "OK", 4, 3, 7, 2, 2, 0, 1, 5
+14024, 14454, 1, "OK", 6, 8, 7, 3, 2, 1, 2, 2
+11467, 14867, 1, "OK", 6, 68, 47, 47, 21, 26, 11, 0
+11529, 14867, 1, "OK", 7, 66, 47, 47, 21, 26, 11, 0
+12074, 13341, 1, "OK", 7, 24, 25, 15, 8, 7, 5, 2
+14083, 14169, 1, "OK", 3, 2, 4, 1, 1, 0, 1, 3
+11745, 14839, 1, "OK", 9, 59, 47, 47, 21, 26, 11, 0
+11687, 14839, 1, "OK", 8, 61, 47, 47, 21, 26, 11, 0
+11467, 13350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 31, 31, 13, 18, 6, 0
+11718, 11841, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+11529, 13350, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer id Integer parentId", 0, 0, 31, 31, 13, 18, 6, 0
+12512, 12700, 1, "OK", 3, 7, 12, 4, 3, 1, 2, 4
+13434, 14833, 1, "OK", 5, 24, 15, 10, 7, 3, 5, 1
+11646, 14839, 1, "OK", 7, 62, 47, 47, 21, 26, 11, 0

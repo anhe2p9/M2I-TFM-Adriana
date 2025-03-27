@@ -1,0 +1,113 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+46656, 49301, 1, "OK", 3, 91, 21, 21, 14, 7, 7, 0
+49137, 49192, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+47067, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+48572, 49297, 1, "OK", 4, 33, 16, 16, 10, 6, 6, 0
+46924, 48415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+46788, 49301, 1, "OK", 7, 84, 21, 21, 14, 7, 7, 0
+47067, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 47996, 1, "OK", 5, 20, 4, 4, 3, 1, 1, 0
+46850, 48415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 47996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+48595, 49098, 1, "OK", 3, 23, 11, 11, 7, 4, 4, 0
+46924, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46697, 49301, 1, "OK", 4, 88, 21, 21, 14, 7, 7, 0
+46850, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 47722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+48918, 49093, 1, "OK", 1, 7, 4, 2, 2, 0, 2, 1
+47202, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 47781, 1, "OK", 3, 15, 4, 4, 3, 1, 1, 0
+47067, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47067, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 47996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 47722, 1, "OK", 3, 15, 4, 4, 3, 1, 1, 0
+48929, 48994, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+47228, 47722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+49126, 49292, 1, "OK", 1, 7, 4, 2, 2, 0, 2, 1
+47067, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 47722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String fileZipName String path", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 47801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 47781, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip", 0, 0, 4, 4, 3, 1, 1, 0
+49102, 49297, 1, "OK", 1, 9, 5, 5, 3, 2, 2, 0
+48595, 48885, 1, "OK", 2, 14, 6, 6, 4, 2, 2, 0
+47228, 47996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+48572, 49098, 1, "OK", 3, 24, 11, 11, 7, 4, 4, 0
+48739, 49297, 1, "OK", 3, 25, 13, 13, 8, 5, 5, 0
+47309, 47801, 1, "OK", 4, 16, 4, 4, 3, 1, 1, 0
+46633, 49301, 1, "OK", 3, 93, 21, 21, 14, 7, 7, 0
+46732, 49301, 1, "OK", 5, 87, 21, 21, 14, 7, 7, 0
+47269, 47801, 1, "OK", 3, 18, 4, 4, 3, 1, 1, 0
+48618, 48730, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+46924, 47996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip String fileZipName", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 47801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 47996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip String fileZipName", 0, 0, 4, 4, 3, 1, 1, 0
+48572, 48885, 1, "OK", 2, 15, 6, 6, 4, 2, 2, 0
+47067, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+48889, 49297, 1, "OK", 2, 18, 10, 10, 6, 4, 4, 0
+47067, 48415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 47781, 1, "OK", 3, 17, 4, 4, 3, 1, 1, 0
+47309, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 47781, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 47722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String fileZipName String path", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 47781, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String fileZipName String path", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+48739, 49098, 1, "OK", 2, 16, 8, 8, 5, 3, 3, 0
+47228, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48415, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 4, 4, 3, 1, 1, 0
+48739, 48885, 1, "OK", 1, 7, 3, 3, 2, 1, 1, 0
+48889, 49098, 1, "OK", 1, 9, 5, 5, 3, 2, 2, 0
+47067, 47722, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String path", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 48415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 47801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String fileZipName String path", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 47781, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String fileZipName String path", 0, 0, 4, 4, 3, 1, 1, 0
+46677, 49301, 1, "OK", 3, 89, 21, 21, 14, 7, 7, 0
+46924, 47801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String fileZipName String path", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+48595, 48735, 1, "OK", 1, 7, 3, 3, 2, 1, 1, 0
+47202, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47202, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+48595, 49297, 1, "OK", 4, 32, 16, 16, 10, 6, 6, 0
+47269, 48415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+47269, 48395, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+47067, 47996, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip String fileZipName SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 48336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn DataHandler dhSource", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 48076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip String fileZipName SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+48766, 48880, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+46850, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46850, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47067, 47801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String path", 0, 0, 4, 4, 3, 1, 1, 0
+47309, 47722, 1, "OK", 3, 13, 4, 4, 3, 1, 1, 0
+47228, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 48370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+46924, 48114, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn", 0, 0, 4, 4, 3, 1, 1, 0
+47067, 48287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip File inFileZip SDKTemplate toReturn MemoryOnlyDataSource mods", 0, 0, 4, 4, 3, 1, 1, 0
+47228, 48415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FileOutputStream fileZip ZipOutputStream zip File inFileZip", 0, 0, 4, 4, 3, 1, 1, 0
+48572, 48735, 1, "OK", 1, 8, 3, 3, 2, 1, 1, 0
+47269, 48179, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ZipOutputStream zip File inFileZip SDKTemplate toReturn SDKObjectsConverter objConverter", 0, 0, 4, 4, 3, 1, 1, 0
+46762, 49301, 1, "OK", 6, 86, 21, 21, 14, 7, 7, 0
+47067, 47781, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File file FileOutputStream fileZip ZipOutputStream zip String path", 0, 0, 4, 4, 3, 1, 1, 0
+47358, 47717, 1, "OK", 4, 11, 3, 2, 2, 0, 1, 1

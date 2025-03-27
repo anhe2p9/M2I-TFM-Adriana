@@ -1,0 +1,88 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+15851, 15952, 1, "OK", 2, 4, 2, 2, 2, 0, 0, 0
+19957, 20641, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+15787, 23819, 1, "OK", 6, 110, 27, 27, 17, 10, 6, 0
+15956, 23842, 1, "OK", 7, 104, 25, 25, 15, 10, 6, 0
+19874, 23842, 1, "OK", 5, 53, 11, 11, 7, 4, 3, 0
+20705, 23810, 1, "OK", 3, 37, 6, 4, 4, 0, 1, 2
+21056, 23810, 1, "OK", 6, 31, 6, 4, 4, 0, 1, 2
+21184, 23810, 1, "OK", 7, 29, 6, 4, 4, 0, 1, 2
+16233, 19861, 1, "OK", 5, 43, 10, 6, 5, 1, 2, 2
+15956, 19871, 1, "OK", 7, 51, 14, 14, 8, 6, 3, 0
+15746, 23819, 1, "OK", 5, 111, 27, 27, 17, 10, 6, 0
+16811, 19855, 1, "OK", 4, 34, 7, 4, 4, 0, 1, 3
+20796, 23810, 1, "OK", 4, 35, 6, 4, 4, 0, 1, 2
+21151, 23810, 1, "OK", 6, 30, 6, 4, 4, 0, 1, 2
+16873, 19855, 1, "OK", 4, 33, 7, 4, 4, 0, 1, 3
+20990, 23810, 1, "OK", 5, 32, 6, 4, 4, 0, 1, 2
+22089, 23810, 1, "OK", 8, 17, 3, 3, 3, 0, 0, 2
+15787, 19871, 1, "OK", 6, 58, 16, 16, 10, 6, 3, 0
+15824, 23842, 1, "OK", 7, 110, 27, 27, 17, 10, 6, 0
+17171, 19855, 1, "OK", 6, 29, 7, 4, 4, 0, 1, 3
+19996, 20599, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+15515, 23819, 1, "OK", 4, 115, 27, 27, 17, 10, 6, 0
+15824, 19871, 1, "OK", 7, 57, 16, 16, 10, 6, 3, 0
+16076, 19867, 1, "OK", 6, 48, 13, 10, 7, 3, 3, 1
+15746, 19871, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String codeType Integer idFolder", 0, 0, 16, 16, 10, 6, 3, 0
+19996, 20206, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+15787, 23842, 1, "OK", 6, 111, 27, 27, 17, 10, 6, 0
+20210, 23815, 1, "OK", 4, 45, 8, 6, 5, 1, 2, 1
+17543, 19855, 1, "OK", 8, 22, 7, 4, 4, 0, 1, 3
+15515, 19871, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer idFolder", 0, 0, 16, 16, 10, 6, 3, 0
+20318, 23815, 1, "OK", 5, 44, 8, 6, 5, 1, 2, 1
+15695, 15952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer idFolder Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+19996, 23815, 1, "OK", 4, 49, 10, 7, 6, 1, 3, 1
+15746, 23842, 1, "OK", 5, 112, 27, 27, 17, 10, 6, 0
+15493, 15952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer idFolder Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+15515, 23842, 1, "OK", 4, 116, 27, 27, 17, 10, 6, 0
+21342, 23810, 1, "OK", 8, 26, 6, 4, 4, 0, 1, 2
+19957, 20428, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String imgFolder String imgFolderOp", 0, 0, 2, 1, 1, 0, 1, 1
+17205, 19855, 1, "OK", 7, 28, 7, 4, 4, 0, 1, 3
+20946, 23810, 1, "OK", 4, 33, 6, 4, 4, 0, 1, 2
+16449, 19861, 1, "OK", 7, 41, 10, 6, 5, 1, 2, 2
+15787, 15952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer idFolder Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+15824, 15952, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+15851, 23819, 1, "OK", 7, 108, 27, 27, 17, 10, 6, 0
+20604, 23815, 1, "OK", 3, 40, 8, 6, 5, 1, 2, 1
+16615, 19861, 1, "OK", 3, 39, 10, 6, 5, 1, 2, 2
+15746, 15952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String codeType Integer idFolder Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+20645, 23815, 1, "OK", 3, 39, 8, 6, 5, 1, 2, 1
+16718, 19855, 1, "OK", 3, 36, 7, 4, 4, 0, 1, 3
+16338, 19861, 1, "OK", 6, 42, 10, 6, 5, 1, 2, 2
+19957, 20314, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+19996, 20641, 1, "OK", 4, 10, 2, 1, 1, 0, 1, 1
+16760, 19855, 1, "OK", 3, 35, 7, 4, 4, 0, 1, 3
+15515, 15952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer idFolder Integer parentId", 0, 0, 2, 2, 2, 0, 0, 0
+15851, 19871, 1, "OK", 7, 56, 16, 16, 10, 6, 3, 0
+19957, 20206, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+21447, 23810, 1, "OK", 8, 23, 6, 4, 4, 0, 1, 2
+15695, 23819, 1, "OK", 5, 112, 27, 27, 17, 10, 6, 0
+15851, 23842, 1, "OK", 7, 109, 27, 27, 17, 10, 6, 0
+15493, 23819, 1, "OK", 4, 116, 27, 27, 17, 10, 6, 0
+20857, 23810, 1, "OK", 4, 34, 6, 4, 4, 0, 1, 2
+18119, 19855, 1, "OK", 8, 17, 3, 3, 3, 0, 0, 3
+19874, 23819, 1, "OK", 5, 52, 11, 11, 7, 4, 3, 0
+16963, 19855, 1, "OK", 4, 32, 7, 4, 4, 0, 1, 3
+17008, 19855, 1, "OK", 5, 31, 7, 4, 4, 0, 1, 3
+19957, 20599, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+16657, 19861, 1, "OK", 3, 38, 10, 6, 5, 1, 2, 2
+18743, 19855, 1, "OK", 8, 11, 2, 2, 2, 0, 0, 3
+16038, 19867, 1, "OK", 6, 49, 13, 10, 7, 3, 3, 1
+20432, 23815, 1, "OK", 6, 43, 8, 6, 5, 1, 2, 1
+15695, 23842, 1, "OK", 5, 113, 27, 27, 17, 10, 6, 0
+20746, 23810, 1, "OK", 3, 36, 6, 4, 4, 0, 1, 2
+17364, 19855, 1, "OK", 8, 26, 7, 4, 4, 0, 1, 3
+17075, 19855, 1, "OK", 6, 30, 7, 4, 4, 0, 1, 3
+15695, 19871, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer idFolder", 0, 0, 16, 16, 10, 6, 3, 0
+19996, 20314, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+19996, 20428, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String imgFolder String imgFolderOp", 0, 0, 2, 1, 1, 0, 1, 1
+15493, 23842, 1, "OK", 4, 117, 27, 27, 17, 10, 6, 0
+17471, 19855, 1, "OK", 8, 23, 7, 4, 4, 0, 1, 3
+23281, 23810, 1, "OK", 8, 6, 1, 1, 1, 0, 0, 2
+19957, 23815, 1, "OK", 4, 50, 10, 7, 6, 1, 3, 1
+15824, 23819, 1, "OK", 7, 109, 27, 27, 17, 10, 6, 0
+22707, 23810, 1, "OK", 8, 11, 2, 2, 2, 0, 0, 2
+15493, 19871, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String codeType Integer idFolder", 0, 0, 16, 16, 10, 6, 3, 0
+19321, 19855, 1, "OK", 8, 6, 1, 1, 1, 0, 0, 3
+15956, 23819, 1, "OK", 7, 103, 25, 25, 15, 10, 6, 0
+21518, 23810, 1, "OK", 8, 22, 6, 4, 4, 0, 1, 2

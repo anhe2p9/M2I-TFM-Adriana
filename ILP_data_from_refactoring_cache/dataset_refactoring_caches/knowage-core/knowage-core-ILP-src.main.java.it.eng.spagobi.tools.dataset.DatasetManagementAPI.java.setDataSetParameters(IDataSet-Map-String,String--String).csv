@@ -1,0 +1,90 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+26286, 27193, 1, "OK", 6, 25, 44, 19, 9, 10, 5, 5
+25404, 27272, 1, "OK", 4, 49, 79, 67, 18, 49, 12, 1
+26104, 27072, 1, "OK", 2, 26, 50, 20, 10, 10, 6, 5
+25820, 26278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString List<String> newValues", 0, 0, 20, 5, 4, 1, 3, 5
+26048, 27141, 1, "OK", 2, 28, 50, 20, 10, 10, 6, 5
+25696, 26278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString List<String> newValues", 0, 0, 20, 5, 4, 1, 3, 5
+26104, 27193, 1, "OK", 4, 28, 50, 20, 10, 10, 6, 5
+26851, 26949, 1, "OK", 3, 3, 10, 1, 1, 0, 1, 9
+25765, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 64, 24, 13, 11, 8, 5
+25820, 26039, 1, "OK", 2, 6, 14, 4, 3, 1, 2, 5
+25820, 27193, 1, "OK", 5, 36, 64, 24, 13, 11, 8, 5
+25696, 26039, 1, "OK", 3, 8, 14, 4, 3, 1, 2, 5
+25851, 26227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString", 0, 0, 20, 5, 4, 1, 3, 5
+25696, 27193, 1, "OK", 3, 38, 64, 24, 13, 11, 8, 5
+25820, 26165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar String delim", 0, 0, 20, 5, 4, 1, 3, 5
+26286, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 19, 9, 10, 5, 5
+25060, 25399, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+25696, 26165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar String delim", 0, 0, 20, 5, 4, 1, 3, 5
+25851, 26096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar", 0, 0, 14, 4, 3, 1, 2, 5
+26104, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 50, 20, 10, 10, 6, 5
+26286, 27072, 1, "OK", 4, 23, 44, 19, 9, 10, 5, 5
+25765, 26096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar", 0, 0, 14, 4, 3, 1, 2, 5
+25820, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 64, 24, 13, 11, 8, 5
+25765, 26227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString", 0, 0, 20, 5, 4, 1, 3, 5
+25696, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 64, 24, 13, 11, 8, 5
+25135, 25399, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+25543, 27215, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 70, 34, 15, 19, 9, 4
+26173, 27141, 1, "OK", 3, 26, 44, 19, 9, 10, 5, 5
+25851, 27141, 1, "OK", 3, 34, 64, 24, 13, 11, 8, 5
+26235, 27141, 1, "OK", 3, 25, 44, 19, 9, 10, 5, 5
+25851, 27006, 1, "OK", 3, 32, 64, 24, 13, 11, 8, 5
+26235, 27006, 1, "OK", 3, 23, 44, 19, 9, 10, 5, 5
+25820, 27072, 1, "OK", 3, 34, 64, 24, 13, 11, 8, 5
+25438, 27267, 1, "OK", 4, 47, 77, 55, 17, 38, 11, 2
+26048, 26278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String delim boolean isString List<String> newValues", 0, 0, 6, 1, 1, 0, 1, 5
+25696, 27072, 1, "OK", 3, 36, 64, 24, 13, 11, 8, 5
+26173, 27006, 1, "OK", 3, 24, 44, 19, 9, 10, 5, 5
+26104, 26227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String delim boolean isString", 0, 0, 6, 1, 1, 0, 1, 5
+25765, 27006, 1, "OK", 4, 34, 64, 24, 13, 11, 8, 5
+26048, 27193, 1, "OK", 4, 29, 50, 20, 10, 10, 6, 5
+26410, 26973, 1, "OK", 4, 15, 31, 10, 7, 3, 3, 7
+26048, 26165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typePar String delim", 0, 0, 6, 1, 1, 0, 1, 5
+25851, 26278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString List<String> newValues", 0, 0, 20, 5, 4, 1, 3, 5
+26377, 26997, 1, "OK", 4, 19, 38, 14, 8, 6, 4, 6
+26104, 27141, 1, "OK", 2, 27, 50, 20, 10, 10, 6, 5
+26048, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 50, 20, 10, 10, 6, 5
+25030, 27276, 1, "OK", 3, 57, 82, 82, 20, 62, 13, 0
+26104, 27006, 1, "OK", 2, 25, 50, 20, 10, 10, 6, 5
+25765, 27141, 1, "OK", 4, 36, 64, 24, 13, 11, 8, 5
+26048, 27072, 1, "OK", 2, 27, 50, 20, 10, 10, 6, 5
+25933, 26030, 1, "OK", 2, 1, 7, 1, 1, 0, 1, 6
+25851, 26039, 1, "OK", 2, 5, 14, 4, 3, 1, 2, 5
+26173, 27193, 1, "OK", 5, 27, 44, 19, 9, 10, 5, 5
+25696, 27006, 1, "OK", 3, 35, 64, 24, 13, 11, 8, 5
+25851, 27193, 1, "OK", 5, 35, 64, 24, 13, 11, 8, 5
+26235, 27193, 1, "OK", 5, 26, 44, 19, 9, 10, 5, 5
+25820, 26227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString", 0, 0, 20, 5, 4, 1, 3, 5
+26286, 27141, 1, "OK", 4, 24, 44, 19, 9, 10, 5, 5
+25851, 26165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar String delim", 0, 0, 20, 5, 4, 1, 3, 5
+25696, 26227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString", 0, 0, 20, 5, 4, 1, 3, 5
+25820, 26096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar", 0, 0, 14, 4, 3, 1, 2, 5
+26336, 26997, 1, "OK", 5, 20, 38, 14, 8, 6, 4, 6
+25696, 26096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar", 0, 0, 14, 4, 3, 1, 2, 5
+26286, 27006, 1, "OK", 4, 22, 44, 19, 9, 10, 5, 5
+25851, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 64, 24, 13, 11, 8, 5
+26235, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 19, 9, 10, 5, 5
+26104, 26278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String delim boolean isString List<String> newValues", 0, 0, 6, 1, 1, 0, 1, 5
+25820, 27141, 1, "OK", 3, 35, 64, 24, 13, 11, 8, 5
+26173, 27207, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 19, 9, 10, 5, 5
+25491, 27222, 1, "OK", 4, 44, 74, 44, 16, 28, 10, 3
+26173, 27072, 1, "OK", 3, 25, 44, 19, 9, 10, 5, 5
+25060, 27272, 1, "OK", 3, 55, 81, 68, 19, 49, 13, 1
+25696, 27141, 1, "OK", 3, 37, 64, 24, 13, 11, 8, 5
+25851, 27072, 1, "OK", 3, 33, 64, 24, 13, 11, 8, 5
+26235, 27072, 1, "OK", 3, 24, 44, 19, 9, 10, 5, 5
+25765, 26278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String delim boolean isString List<String> newValues", 0, 0, 20, 5, 4, 1, 3, 5
+25820, 27006, 1, "OK", 3, 33, 64, 24, 13, 11, 8, 5
+26851, 26916, 1, "OK", 2, 2, 10, 1, 1, 0, 1, 9
+25765, 27072, 1, "OK", 4, 35, 64, 24, 13, 11, 8, 5
+26104, 26165, 1, "OK", 1, 1, 6, 1, 1, 0, 1, 5
+25438, 27228, 1, "OK", 3, 46, 77, 55, 17, 38, 11, 2
+26048, 27006, 1, "OK", 2, 26, 50, 20, 10, 10, 6, 5
+25591, 27215, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 70, 34, 15, 19, 9, 4
+25135, 27272, 1, "OK", 4, 54, 81, 68, 19, 49, 13, 1
+26048, 26227, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String delim boolean isString", 0, 0, 6, 1, 1, 0, 1, 5
+25765, 27193, 1, "OK", 4, 37, 64, 24, 13, 11, 8, 5
+25765, 26165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] values String typePar String delim", 0, 0, 20, 5, 4, 1, 3, 5
+26594, 26961, 1, "OK", 4, 9, 21, 5, 4, 1, 2, 8
+25765, 26039, 1, "OK", 3, 7, 14, 4, 3, 1, 2, 5

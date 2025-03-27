@@ -1,0 +1,116 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12523, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12478, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 3, 3, 3, 0, 0, 0
+12551, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 3, 3, 3, 0, 0, 0
+14320, 14654, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 6, 4, 2, 3, 1
+12303, 12411, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+12457, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+13170, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 4, 2, 2, 0
+12501, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12501, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+13418, 13691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12421, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 3, 3, 3, 0, 0, 0
+13378, 13661, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12329, 14693, 1, "OK", 1, 85, 36, 36, 20, 16, 9, 0
+12303, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+12303, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max char type", 0, 0, 2, 2, 2, 0, 0, 0
+14519, 14639, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+12329, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12551, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12551, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+14320, 14682, 1, "OK", 2, 13, 9, 6, 4, 2, 3, 1
+12478, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 3, 3, 3, 0, 0, 0
+12478, 14693, 1, "OK", 4, 79, 35, 35, 19, 16, 9, 0
+12364, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 4, 4, 4, 0, 0, 0
+12329, 12411, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+12303, 12447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12329, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+12329, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max char type", 0, 0, 2, 2, 2, 0, 0, 0
+13378, 13691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+13849, 13938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+12303, 12468, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12421, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 3, 3, 3, 0, 0, 0
+12946, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i long limit long multmin", 0, 0, 3, 3, 3, 0, 0, 0
+12421, 14693, 1, "OK", 2, 81, 35, 35, 19, 16, 9, 0
+12478, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12478, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+12329, 12447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+14418, 14499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+13778, 14113, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+12303, 12491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12364, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12501, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12364, 14693, 1, "OK", 2, 84, 36, 36, 20, 16, 9, 0
+13132, 14693, 1, "OK", 6, 50, 32, 32, 16, 16, 9, 0
+13962, 14050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+12421, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12421, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+12303, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 5, 5, 5, 0, 0, 0
+13418, 13516, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+13170, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int i", 0, 0, 1, 1, 1, 0, 0, 0
+12329, 12468, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12551, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12364, 12411, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+13778, 14145, 1, "OK", 2, 12, 12, 6, 4, 2, 3, 2
+12303, 12511, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+13418, 13543, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+12457, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 3, 3, 3, 0, 0, 0
+12364, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+12364, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max char type", 0, 0, 2, 2, 2, 0, 0, 0
+13132, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 4, 2, 2, 0
+12523, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 3, 3, 3, 0, 0, 0
+13530, 13661, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+13962, 14094, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+12329, 12491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12303, 12539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+13378, 13516, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+12329, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 5, 5, 5, 0, 0, 0
+12329, 12511, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12364, 12447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12478, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12523, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 3, 3, 3, 0, 0, 0
+12457, 14693, 1, "OK", 4, 80, 35, 35, 19, 16, 9, 0
+12523, 14693, 1, "OK", 4, 76, 35, 35, 19, 16, 9, 0
+13378, 13543, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+13530, 13691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+12457, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 3, 3, 3, 0, 0, 0
+12421, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+13849, 14050, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 2, 2, 0, 2, 3
+13275, 14693, 1, "OK", 7, 45, 31, 31, 15, 16, 9, 0
+12364, 12468, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+14418, 14599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 2, 2, 0, 2, 2
+12329, 12539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+12946, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i long limit", 0, 0, 2, 2, 2, 0, 0, 0
+12457, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12457, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+12523, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 7, 2, 2, 0
+12523, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+12364, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 5, 5, 5, 0, 0, 0
+13132, 13265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result int i long multmin", 0, 0, 1, 1, 1, 0, 0, 0
+13743, 14288, 1, "OK", 3, 16, 15, 11, 6, 5, 4, 1
+12364, 12491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12501, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 3, 3, 3, 0, 0, 0
+13275, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 3, 2, 2, 0
+13557, 13661, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+13849, 14094, 1, "OK", 2, 9, 8, 2, 2, 0, 2, 3
+12946, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i long limit long multmin", 0, 0, 2, 2, 2, 0, 0, 0
+12303, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit char type", 0, 0, 4, 4, 4, 0, 0, 0
+12364, 12511, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max", 0, 0, 1, 1, 1, 0, 0, 0
+12946, 14693, 1, "OK", 5, 57, 34, 34, 18, 16, 9, 0
+13714, 14693, 1, "OK", 4, 32, 26, 26, 12, 14, 7, 0
+14351, 14654, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 6, 4, 2, 3, 1
+14418, 14639, 1, "OK", 2, 9, 6, 2, 2, 0, 2, 2
+12551, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 3, 3, 3, 0, 0, 0
+13557, 13691, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+14351, 14682, 1, "OK", 2, 12, 9, 6, 4, 2, 3, 1
+12303, 14693, 1, "OK", 0, 86, 36, 36, 20, 16, 9, 0
+12501, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit long multmin char type", 0, 0, 3, 3, 3, 0, 0, 0
+13170, 14693, 1, "OK", 7, 49, 32, 32, 16, 16, 9, 0
+13418, 13661, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12946, 13702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 6, 2, 2, 0
+12364, 12539, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int i int max char type", 0, 0, 1, 1, 1, 0, 0, 0
+14519, 14599, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+12501, 14693, 1, "OK", 4, 78, 35, 35, 19, 16, 9, 0
+12551, 14693, 1, "OK", 5, 74, 35, 35, 19, 16, 9, 0
+12303, 13160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long result boolean negative int i int max long limit long multmin char type", 0, 0, 4, 4, 4, 0, 0, 0
+12329, 13122, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean negative int i int max long limit char type", 0, 0, 4, 4, 4, 0, 0, 0

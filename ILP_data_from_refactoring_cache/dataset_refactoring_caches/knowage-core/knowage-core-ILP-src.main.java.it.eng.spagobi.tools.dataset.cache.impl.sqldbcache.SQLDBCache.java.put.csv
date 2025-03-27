@@ -1,0 +1,97 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+17727, 18089, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17704, 18036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17873, 21629, 1, "OK", 3, 67, 23, 23, 13, 10, 6, 0
+20355, 20593, 1, "OK", 5, 4, 4, 1, 1, 0, 1, 3
+18361, 21606, 1, "OK", 7, 58, 23, 23, 13, 10, 6, 0
+19211, 21228, 1, "OK", 6, 32, 16, 12, 8, 4, 4, 1
+18370, 21445, 1, "OK", 7, 54, 22, 22, 12, 10, 6, 0
+17727, 18341, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18705, 19638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BigDecimal requiredMemory BigDecimal maxUsableMemory", 0, 0, 4, 2, 2, 0, 2, 1
+17727, 18358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18608, 19080, 1, "OK", 4, 9, 4, 2, 2, 0, 2, 1
+20355, 20474, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+17994, 21606, 1, "OK", 3, 64, 23, 23, 13, 10, 6, 0
+18608, 18830, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+18039, 21606, 1, "OK", 4, 63, 23, 23, 13, 10, 6, 0
+19645, 21228, 1, "OK", 6, 25, 16, 12, 8, 4, 4, 1
+18092, 21629, 1, "OK", 5, 63, 23, 23, 13, 10, 6, 0
+18883, 19638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BigDecimal requiredMemory BigDecimal maxUsableMemory", 0, 0, 2, 1, 1, 0, 1, 1
+17704, 21629, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 14, 10, 6, 0
+18192, 21606, 1, "OK", 7, 60, 23, 23, 13, 10, 6, 0
+18344, 21629, 1, "OK", 8, 60, 23, 23, 13, 10, 6, 0
+18608, 19205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timing Monitor timingMemory", 0, 0, 4, 2, 2, 0, 2, 1
+17727, 17990, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17704, 21649, 1, "OK", 3, 74, 24, 24, 14, 10, 6, 0
+18344, 21649, 1, "OK", 8, 61, 23, 23, 13, 10, 6, 0
+18608, 19612, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timing Monitor timingMemory BigDecimal requiredMemory BigDecimal maxUsableMemory", 0, 0, 4, 2, 2, 0, 2, 1
+18578, 21309, 1, "OK", 8, 48, 20, 14, 10, 4, 6, 1
+18192, 21629, 1, "OK", 7, 61, 23, 23, 13, 10, 6, 0
+18705, 19422, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timingMemory BigDecimal requiredMemory", 0, 0, 4, 2, 2, 0, 2, 1
+17727, 18111, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17873, 21649, 1, "OK", 3, 68, 23, 23, 13, 10, 6, 0
+18705, 19282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timingMemory BigDecimal requiredMemory", 0, 0, 4, 2, 2, 0, 2, 1
+18361, 21629, 1, "OK", 7, 59, 23, 23, 13, 10, 6, 0
+18114, 21606, 1, "OK", 6, 61, 23, 23, 13, 10, 6, 0
+17704, 18189, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18092, 21649, 1, "OK", 5, 64, 23, 23, 13, 10, 6, 0
+18039, 21629, 1, "OK", 4, 64, 23, 23, 13, 10, 6, 0
+18361, 21649, 1, "OK", 7, 60, 23, 23, 13, 10, 6, 0
+20162, 20474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet long timeSpent String tableName Map<String, Object> properties", 0, 0, 4, 1, 1, 0, 1, 3
+18039, 21649, 1, "OK", 4, 65, 23, 23, 13, 10, 6, 0
+18114, 21629, 1, "OK", 6, 62, 23, 23, 13, 10, 6, 0
+18705, 21228, 1, "OK", 6, 41, 20, 14, 10, 4, 6, 1
+18705, 19308, 1, "OK", 5, 11, 4, 2, 2, 0, 2, 1
+18883, 19422, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timingMemory BigDecimal requiredMemory", 0, 0, 2, 1, 1, 0, 1, 1
+17704, 18341, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17727, 17870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18883, 19282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timingMemory BigDecimal requiredMemory", 0, 0, 2, 1, 1, 0, 1, 1
+20162, 20593, 1, "OK", 4, 7, 4, 1, 1, 0, 1, 3
+17994, 21629, 1, "OK", 3, 65, 23, 23, 13, 10, 6, 0
+20003, 20919, 1, "OK", 5, 15, 9, 5, 4, 1, 2, 2
+17727, 21606, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 14, 10, 6, 0
+17994, 21649, 1, "OK", 3, 66, 23, 23, 13, 10, 6, 0
+19428, 21228, 1, "OK", 6, 29, 16, 12, 8, 4, 4, 1
+19618, 21228, 1, "OK", 7, 27, 16, 12, 8, 4, 4, 1
+18883, 21228, 1, "OK", 5, 36, 18, 13, 9, 4, 5, 1
+18883, 19308, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+20229, 20593, 1, "OK", 5, 6, 4, 1, 1, 0, 1, 3
+17704, 18358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17704, 18089, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18192, 21649, 1, "OK", 7, 62, 23, 23, 13, 10, 6, 0
+18467, 21445, 1, "OK", 8, 53, 22, 22, 12, 10, 6, 0
+18608, 19638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timing BigDecimal requiredMemory BigDecimal maxUsableMemory", 0, 0, 4, 2, 2, 0, 2, 1
+17704, 18111, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18705, 19080, 1, "OK", 3, 8, 4, 2, 2, 0, 2, 1
+19086, 21228, 1, "OK", 5, 33, 16, 12, 8, 4, 4, 1
+17704, 17990, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+17727, 21629, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 14, 10, 6, 0
+18705, 18830, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+18114, 21649, 1, "OK", 6, 63, 23, 23, 13, 10, 6, 0
+18705, 19205, 1, "OK", 4, 9, 4, 2, 2, 0, 2, 1
+19288, 21228, 1, "OK", 7, 31, 16, 12, 8, 4, 4, 1
+17727, 18036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+20229, 20474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet long timeSpent Map<String, Object> properties", 0, 0, 4, 1, 1, 0, 1, 3
+20114, 20474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet long timeSpent String tableName Map<String, Object> properties", 0, 0, 4, 1, 1, 0, 1, 3
+19761, 19896, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+18705, 19612, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timingMemory BigDecimal requiredMemory BigDecimal maxUsableMemory", 0, 0, 4, 2, 2, 0, 2, 1
+18608, 19422, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timing Monitor timingMemory BigDecimal requiredMemory", 0, 0, 4, 2, 2, 0, 2, 1
+17727, 18189, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+20114, 20593, 1, "OK", 3, 8, 4, 1, 1, 0, 1, 3
+18608, 19282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timing Monitor timingMemory BigDecimal requiredMemory", 0, 0, 4, 2, 2, 0, 2, 1
+18883, 19205, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+19761, 20919, 1, "OK", 5, 19, 13, 7, 6, 1, 3, 2
+17704, 17870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+18883, 19080, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+18597, 21309, 0, "Compilation unit does not compile after method extraction.", 7, 47, 20, 14, 10, 4, 6, 1
+19314, 21228, 1, "OK", 6, 30, 16, 12, 8, 4, 4, 1
+18092, 21606, 1, "OK", 5, 62, 23, 23, 13, 10, 6, 0
+18883, 19612, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timingMemory BigDecimal requiredMemory BigDecimal maxUsableMemory", 0, 0, 2, 1, 1, 0, 1, 1
+18608, 21228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long timeSpent Monitor timing", 0, 0, 20, 14, 10, 4, 6, 1
+18608, 19308, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Monitor timing BigDecimal requiredMemory", 0, 0, 4, 2, 2, 0, 2, 1
+18344, 21606, 1, "OK", 8, 59, 23, 23, 13, 10, 6, 0
+20284, 20474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Map<String, Object> properties", 0, 0, 4, 1, 1, 0, 1, 3
+17704, 21606, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 14, 10, 6, 0
+17727, 21649, 1, "OK", 3, 72, 24, 24, 14, 10, 6, 0
+17873, 21606, 1, "OK", 3, 66, 23, 23, 13, 10, 6, 0
+20284, 20593, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3

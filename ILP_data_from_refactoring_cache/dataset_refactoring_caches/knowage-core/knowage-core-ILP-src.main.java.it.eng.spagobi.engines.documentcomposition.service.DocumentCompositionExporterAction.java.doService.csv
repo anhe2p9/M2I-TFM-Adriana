@@ -1,0 +1,184 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4050, 4306, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle", 0, 0, 7, 4, 3, 1, 3, 1
+3772, 5243, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 7, 6, 1, 6, 1
+5598, 6240, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2425, 7067, 1, "OK", 1, 124, 23, 23, 14, 9, 8, 0
+3896, 5243, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 7, 6, 1, 6, 1
+6272, 6853, 1, "OK", 1, 16, 2, 1, 1, 0, 1, 1
+6488, 6813, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+3818, 4591, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+2350, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DocumentCompositionConfiguration docCompConf File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+3019, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+6718, 6853, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+6734, 6869, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+6023, 6898, 1, "OK", 7, 23, 3, 3, 2, 1, 1, 0
+4704, 5553, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object urlO String svg", 0, 0, 6, 3, 3, 0, 3, 1
+4212, 4421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle DocumentContainer documentContainer", 0, 0, 5, 3, 2, 1, 2, 1
+5746, 6019, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5598, 5741, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+6272, 6869, 1, "OK", 1, 17, 2, 1, 1, 0, 1, 1
+6578, 6853, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+3772, 4756, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+5670, 5823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6718, 6869, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+2425, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DocumentCompositionConfiguration docCompConf File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+3896, 4756, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+2781, 7067, 1, "OK", 3, 114, 23, 23, 14, 9, 8, 0
+3818, 5132, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+3940, 4421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle DocumentContainer documentContainer", 0, 0, 7, 4, 3, 1, 3, 1
+5598, 6019, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6578, 6869, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+2707, 7067, 1, "OK", 2, 116, 23, 23, 14, 9, 8, 0
+5670, 6096, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6488, 6853, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+5136, 5243, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+2476, 7067, 1, "OK", 1, 122, 23, 23, 14, 9, 8, 0
+4050, 4097, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+5670, 5852, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3772, 5553, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle Object urlO String svg", 0, 0, 15, 8, 7, 1, 7, 1
+4760, 5132, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+5670, 6874, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+2781, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+3994, 4306, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle", 0, 0, 7, 4, 3, 1, 3, 1
+5827, 6874, 1, "OK", 6, 29, 3, 3, 2, 1, 1, 0
+3896, 5553, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle Object urlO String svg", 0, 0, 15, 8, 7, 1, 7, 1
+4212, 4466, 1, "OK", 4, 7, 5, 3, 2, 1, 2, 1
+6488, 6869, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+2707, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+4050, 4374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle DocumentContainer documentContainer", 0, 0, 7, 4, 3, 1, 3, 1
+6100, 6874, 1, "OK", 8, 21, 3, 3, 2, 1, 1, 0
+3858, 4700, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+2476, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DocumentCompositionConfiguration docCompConf File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+5746, 5823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3940, 4207, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+3940, 4466, 1, "OK", 6, 12, 7, 4, 3, 1, 3, 1
+6449, 6813, 1, "OK", 4, 9, 2, 1, 1, 0, 1, 1
+4102, 4306, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle", 0, 0, 5, 3, 2, 1, 2, 1
+5670, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+3113, 7067, 1, "OK", 3, 106, 23, 23, 14, 9, 8, 0
+5827, 6898, 1, "OK", 6, 30, 3, 3, 2, 1, 1, 0
+4634, 4976, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+6100, 6898, 1, "OK", 8, 22, 3, 3, 2, 1, 1, 0
+5746, 6096, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3858, 4976, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+4634, 5243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object urlO String svg", 0, 0, 4, 2, 2, 0, 2, 1
+5136, 5553, 1, "OK", 3, 8, 4, 2, 2, 0, 2, 1
+5598, 5823, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2742, 7067, 1, "OK", 3, 115, 23, 23, 14, 9, 8, 0
+3188, 7067, 1, "OK", 4, 105, 23, 23, 14, 9, 8, 0
+3994, 4097, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+5746, 5852, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3858, 5243, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 7, 6, 1, 6, 1
+5746, 6874, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+3113, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+4704, 5132, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+5598, 6096, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3818, 4700, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+3772, 4591, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+4050, 4421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle DocumentContainer documentContainer", 0, 0, 7, 4, 3, 1, 3, 1
+5670, 5916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6449, 6853, 1, "OK", 4, 10, 2, 1, 1, 0, 1, 1
+3896, 4591, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+3994, 4374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle DocumentContainer documentContainer", 0, 0, 7, 4, 3, 1, 3, 1
+5598, 5852, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+5598, 6874, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+2742, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+3858, 4756, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+3188, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+5746, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+3818, 4976, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+6449, 6869, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+7021, 7063, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+5073, 5243, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+3772, 5132, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+3818, 5243, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 7, 6, 1, 6, 1
+4102, 4374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle DocumentContainer documentContainer", 0, 0, 5, 3, 2, 1, 2, 1
+3495, 7067, 1, "OK", 5, 99, 23, 23, 14, 9, 8, 0
+3896, 5132, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+3528, 7067, 1, "OK", 6, 97, 23, 23, 14, 9, 8, 0
+5598, 6898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+5921, 6874, 1, "OK", 6, 26, 3, 3, 2, 1, 1, 0
+2372, 7067, 1, "OK", 0, 125, 23, 23, 14, 9, 8, 0
+4634, 5553, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object urlO String svg", 0, 0, 6, 3, 3, 0, 3, 1
+4760, 4976, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+6303, 6813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpServletResponse response BufferedInputStream in", 0, 0, 2, 1, 1, 0, 1, 1
+4212, 4306, 1, "OK", 2, 3, 5, 3, 2, 1, 2, 1
+3677, 7067, 1, "OK", 8, 94, 23, 23, 14, 9, 8, 0
+4050, 4207, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+4050, 4466, 1, "OK", 5, 10, 7, 4, 3, 1, 3, 1
+3858, 5553, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle Object urlO String svg", 0, 0, 15, 8, 7, 1, 7, 1
+5670, 5964, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+4760, 5243, 1, "OK", 4, 11, 4, 2, 2, 0, 2, 1
+5746, 5916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+3818, 4756, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+3994, 4421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle DocumentContainer documentContainer", 0, 0, 7, 4, 3, 1, 3, 1
+3495, 5557, 1, "OK", 4, 49, 16, 16, 8, 8, 7, 0
+3940, 4306, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle", 0, 0, 7, 4, 3, 1, 3, 1
+3528, 5557, 1, "OK", 5, 47, 16, 16, 8, 8, 7, 0
+5921, 6898, 1, "OK", 6, 27, 3, 3, 2, 1, 1, 0
+2372, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DocumentCompositionConfiguration docCompConf File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+4246, 4300, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+6345, 6813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpServletResponse response BufferedInputStream in", 0, 0, 2, 1, 1, 0, 1, 1
+6634, 6813, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+3677, 5557, 1, "OK", 7, 44, 16, 16, 8, 8, 7, 0
+5670, 6240, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+5856, 6874, 1, "OK", 6, 28, 3, 3, 2, 1, 1, 0
+5598, 5916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2654, 7067, 1, "OK", 1, 117, 23, 23, 14, 9, 8, 0
+6395, 6813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpServletResponse response BufferedInputStream in", 0, 0, 2, 1, 1, 0, 1, 1
+5561, 7067, 1, "OK", 5, 49, 7, 7, 6, 1, 1, 0
+4102, 4421, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle DocumentContainer documentContainer", 0, 0, 5, 3, 2, 1, 2, 1
+5073, 5553, 1, "OK", 3, 9, 4, 2, 2, 0, 2, 1
+6303, 6853, 1, "OK", 2, 15, 2, 1, 1, 0, 1, 1
+3818, 5553, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle Object urlO String svg", 0, 0, 15, 8, 7, 1, 7, 1
+5670, 5741, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+3282, 7067, 1, "OK", 4, 102, 23, 23, 14, 9, 8, 0
+2894, 7067, 1, "OK", 2, 111, 23, 23, 14, 9, 8, 0
+5247, 5553, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+5856, 6898, 1, "OK", 6, 29, 3, 3, 2, 1, 1, 0
+2506, 7067, 1, "OK", 1, 120, 23, 23, 14, 9, 8, 0
+4704, 4976, 1, "OK", 3, 8, 2, 1, 1, 0, 1, 1
+6734, 6813, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+5989, 6874, 1, "OK", 7, 23, 3, 3, 2, 1, 1, 0
+6303, 6869, 1, "OK", 2, 16, 2, 1, 1, 0, 1, 1
+6245, 6874, 1, "OK", 1, 19, 3, 3, 2, 1, 1, 0
+3621, 7067, 1, "OK", 7, 95, 23, 23, 14, 9, 8, 0
+3994, 4207, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+4760, 5553, 1, "OK", 4, 18, 6, 3, 3, 0, 3, 1
+3994, 4466, 1, "OK", 6, 11, 7, 4, 3, 1, 3, 1
+2654, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+5746, 5964, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+5670, 6019, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+6272, 6813, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HttpServletResponse response BufferedInputStream in", 0, 0, 2, 1, 1, 0, 1, 1
+4704, 5243, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object urlO String svg", 0, 0, 4, 2, 2, 0, 2, 1
+6345, 6853, 1, "OK", 3, 13, 2, 1, 1, 0, 1, 1
+3858, 4591, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+3940, 4097, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+6634, 6853, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+3772, 4700, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+4212, 4374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle DocumentContainer documentContainer", 0, 0, 5, 3, 2, 1, 2, 1
+6718, 6813, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+3896, 4700, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 4, 1
+3282, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+6395, 6853, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+2894, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+5989, 6898, 1, "OK", 7, 24, 3, 3, 2, 1, 1, 0
+2506, 5557, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DocumentCompositionConfiguration docCompConf File tmpFile Map<String, DocumentContainer> documents Map<String, CurrentConfigurationDocComp> currentConfigurationsMap boolean defaultStyle", 0, 0, 16, 16, 8, 8, 7, 0
+5598, 5964, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+5746, 6240, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+6245, 6898, 1, "OK", 1, 20, 3, 3, 2, 1, 1, 0
+6345, 6869, 1, "OK", 3, 14, 2, 1, 1, 0, 1, 1
+2350, 7067, 1, "OK", 0, 126, 23, 23, 14, 9, 8, 0
+4102, 4466, 1, "OK", 5, 8, 5, 3, 2, 1, 2, 1
+6578, 6813, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+6634, 6869, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+3019, 7067, 1, "OK", 2, 108, 23, 23, 14, 9, 8, 0
+3621, 5557, 1, "OK", 6, 45, 16, 16, 8, 8, 7, 0
+4634, 5132, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+3940, 4374, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean defaultStyle MetadataStyle metadataStyle DocumentContainer documentContainer", 0, 0, 7, 4, 3, 1, 3, 1
+3772, 4976, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+6023, 6874, 1, "OK", 7, 22, 3, 3, 2, 1, 1, 0
+3896, 4976, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+6395, 6869, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+3858, 5132, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 5, 1, 5, 1
+6734, 6853, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1

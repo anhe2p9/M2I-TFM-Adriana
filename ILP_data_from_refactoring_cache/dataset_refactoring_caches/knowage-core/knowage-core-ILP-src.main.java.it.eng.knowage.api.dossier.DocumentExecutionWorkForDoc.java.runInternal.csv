@@ -1,0 +1,788 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4940, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+6257, 11934, 0, "Compilation unit does not compile after method extraction.", 8, 136, 32, 32, 18, 14, 8, 0
+9674, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+7586, 9667, 0, "Compilation unit does not compile after method extraction.", 6, 36, 12, 6, 6, 0, 3, 2
+8721, 9301, 0, "Compilation unit does not compile after method extraction.", 2, 8, 4, 2, 2, 0, 1, 2
+6294, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8681, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6096, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6147, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+7837, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6596, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+8199, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5273, 5623, 0, "Compilation unit does not compile after method extraction.", 1, 11, 1, 1, 1, 0, 0, 0
+5929, 11909, 0, "Compilation unit does not compile after method extraction.", 5, 141, 32, 32, 18, 14, 8, 0
+8024, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8503, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9808, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+6861, 11693, 0, "Compilation unit does not compile after method extraction.", 10, 111, 28, 28, 14, 14, 8, 0
+5672, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+5655, 12221, 0, "Compilation unit does not compile after method extraction.", 2, 161, 33, 33, 19, 14, 8, 0
+8298, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+4811, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 24, 1, 1, 1, 0, 0, 0
+6147, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+5929, 11934, 0, "Compilation unit does not compile after method extraction.", 5, 143, 32, 32, 18, 14, 8, 0
+7984, 9667, 0, "Compilation unit does not compile after method extraction.", 8, 26, 9, 5, 5, 0, 2, 2
+8570, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6596, 11745, 0, "Compilation unit does not compile after method extraction.", 11, 120, 31, 31, 17, 14, 8, 0
+5273, 5652, 0, "Compilation unit does not compile after method extraction.", 1, 13, 1, 1, 1, 0, 0, 0
+9674, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+5805, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+8199, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8103, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+4811, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+7837, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10272, 10452, 0, "Compilation unit does not compile after method extraction.", 1, 8, 3, 1, 1, 0, 1, 2
+6861, 11745, 0, "Compilation unit does not compile after method extraction.", 11, 112, 28, 28, 14, 14, 8, 0
+5672, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+6596, 11781, 0, "Compilation unit does not compile after method extraction.", 12, 121, 31, 31, 17, 14, 8, 0
+8298, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7009, 11264, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Map<String, String> imagesMap", 0, 0, 26, 18, 12, 6, 8, 1
+6147, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+8199, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6401, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+8250, 9667, 0, "Compilation unit does not compile after method extraction.", 6, 21, 9, 5, 5, 0, 2, 2
+5754, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+8199, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+5129, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 178, 34, 34, 20, 14, 8, 0
+5805, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+6861, 11781, 0, "Compilation unit does not compile after method extraction.", 12, 113, 28, 28, 14, 14, 8, 0
+8024, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5672, 11781, 0, "Compilation unit does not compile after method extraction.", 2, 144, 32, 32, 18, 14, 8, 0
+8865, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+4865, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 186, 34, 34, 20, 14, 8, 0
+8103, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9808, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+5887, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+7586, 9801, 0, "Compilation unit does not compile after method extraction.", 8, 38, 12, 6, 6, 0, 3, 2
+9308, 9667, 0, "Compilation unit does not compile after method extraction.", 3, 5, 5, 3, 3, 0, 1, 2
+7837, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8932, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8298, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6482, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 30, 30, 16, 14, 8, 0
+6294, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+6096, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+5805, 11781, 0, "Compilation unit does not compile after method extraction.", 4, 141, 32, 32, 18, 14, 8, 0
+5754, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6218, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6401, 11745, 0, "Compilation unit does not compile after method extraction.", 8, 125, 31, 31, 17, 14, 8, 0
+6596, 11844, 0, "Compilation unit does not compile after method extraction.", 12, 123, 31, 31, 17, 14, 8, 0
+6294, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+8298, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5887, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+8503, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10272, 10543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+7984, 9801, 0, "Compilation unit does not compile after method extraction.", 11, 28, 9, 5, 5, 0, 2, 2
+6096, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+6861, 11844, 0, "Compilation unit does not compile after method extraction.", 12, 115, 28, 28, 14, 14, 8, 0
+8865, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7837, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5672, 11844, 0, "Compilation unit does not compile after method extraction.", 2, 146, 32, 32, 18, 14, 8, 0
+6401, 11781, 0, "Compilation unit does not compile after method extraction.", 9, 126, 31, 31, 17, 14, 8, 0
+6482, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 30, 30, 16, 14, 8, 0
+8570, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8199, 9301, 0, "Compilation unit does not compile after method extraction.", 6, 16, 4, 2, 2, 0, 1, 2
+8103, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6218, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+8932, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5754, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+7586, 7830, 0, "Compilation unit does not compile after method extraction.", 1, 4, 3, 1, 1, 0, 1, 2
+5805, 11844, 0, "Compilation unit does not compile after method extraction.", 4, 143, 32, 32, 18, 14, 8, 0
+7837, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6596, 11909, 0, "Compilation unit does not compile after method extraction.", 12, 124, 31, 31, 17, 14, 8, 0
+8865, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5887, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+8103, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8503, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6551, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+7924, 9667, 0, "Compilation unit does not compile after method extraction.", 7, 27, 9, 5, 5, 0, 2, 2
+8250, 9801, 0, "Compilation unit does not compile after method extraction.", 9, 23, 9, 5, 5, 0, 2, 2
+6596, 11934, 0, "Compilation unit does not compile after method extraction.", 12, 126, 31, 31, 17, 14, 8, 0
+6861, 11909, 0, "Compilation unit does not compile after method extraction.", 12, 116, 28, 28, 14, 14, 8, 0
+5672, 11909, 0, "Compilation unit does not compile after method extraction.", 2, 147, 32, 32, 18, 14, 8, 0
+6482, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+7586, 7873, 0, "Compilation unit does not compile after method extraction.", 1, 6, 3, 1, 1, 0, 1, 2
+6218, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+6401, 11844, 0, "Compilation unit does not compile after method extraction.", 9, 128, 31, 31, 17, 14, 8, 0
+8932, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8865, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+9308, 9801, 0, "Compilation unit does not compile after method extraction.", 6, 7, 5, 3, 3, 0, 1, 2
+6861, 11934, 0, "Compilation unit does not compile after method extraction.", 12, 118, 28, 28, 14, 14, 8, 0
+7586, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5672, 11934, 0, "Compilation unit does not compile after method extraction.", 2, 149, 32, 32, 18, 14, 8, 0
+8570, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8103, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5805, 11909, 0, "Compilation unit does not compile after method extraction.", 4, 144, 32, 32, 18, 14, 8, 0
+6551, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+5017, 5623, 0, "Compilation unit does not compile after method extraction.", 1, 17, 1, 1, 1, 0, 0, 0
+8865, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+5333, 12221, 0, "Compilation unit does not compile after method extraction.", 1, 173, 34, 34, 20, 14, 8, 0
+7586, 7917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName String hostUrl", 0, 0, 3, 1, 1, 0, 1, 2
+8932, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5805, 11934, 0, "Compilation unit does not compile after method extraction.", 4, 146, 32, 32, 18, 14, 8, 0
+7880, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8932, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8503, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5017, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+7984, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6401, 11909, 0, "Compilation unit does not compile after method extraction.", 9, 129, 31, 31, 17, 14, 8, 0
+8298, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8570, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6551, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+6401, 11934, 0, "Compilation unit does not compile after method extraction.", 9, 131, 31, 31, 17, 14, 8, 0
+8608, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8503, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8146, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+11298, 11693, 0, "Compilation unit does not compile after method extraction.", 2, 9, 1, 1, 1, 0, 0, 0
+7586, 7978, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName String hostUrl StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+7150, 11264, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Map<String, String> imagesMap", 0, 0, 26, 18, 12, 6, 8, 1
+8865, 9301, 0, "Compilation unit does not compile after method extraction.", 2, 6, 4, 2, 2, 0, 1, 2
+7880, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5218, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 12, 1, 1, 1, 0, 0, 0
+7924, 9801, 0, "Compilation unit does not compile after method extraction.", 10, 29, 9, 5, 5, 0, 2, 2
+8721, 9667, 0, "Compilation unit does not compile after method extraction.", 2, 14, 9, 5, 5, 0, 2, 2
+7837, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8250, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7009, 7453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject String imageName", 0, 0, 2, 1, 1, 0, 1, 1
+8570, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8503, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+4940, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 183, 34, 34, 20, 14, 8, 0
+5218, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+7586, 8018, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+9308, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+8932, 9301, 0, "Compilation unit does not compile after method extraction.", 2, 5, 4, 2, 2, 0, 1, 2
+7085, 11264, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Map<String, String> imagesMap", 0, 0, 26, 18, 12, 6, 8, 1
+5987, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+8412, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7880, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8608, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7009, 7491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject String imageName Integer docId", 0, 0, 2, 1, 1, 0, 1, 1
+8298, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8146, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8570, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+11298, 11745, 0, "Compilation unit does not compile after method extraction.", 3, 10, 1, 1, 1, 0, 0, 0
+7586, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6147, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+8103, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+11298, 11781, 0, "Compilation unit does not compile after method extraction.", 4, 11, 1, 1, 1, 0, 0, 0
+8608, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7880, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5987, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+7837, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+7880, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8146, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6294, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6096, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6955, 11264, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Map<String, String> imagesMap", 0, 0, 26, 18, 12, 6, 8, 1
+7009, 7547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject String imageName Integer docId Collection<String> roles", 0, 0, 2, 1, 1, 0, 1, 1
+8412, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7984, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6147, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+7586, 8097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+5273, 12221, 0, "Compilation unit does not compile after method extraction.", 1, 174, 34, 34, 20, 14, 8, 0
+5987, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+7586, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8608, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+4811, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 187, 34, 34, 20, 14, 8, 0
+8146, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7924, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8721, 9801, 0, "Compilation unit does not compile after method extraction.", 5, 16, 9, 5, 5, 0, 2, 2
+8608, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+6147, 11781, 0, "Compilation unit does not compile after method extraction.", 7, 133, 32, 32, 18, 14, 8, 0
+6294, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6096, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+11298, 11844, 0, "Compilation unit does not compile after method extraction.", 5, 13, 1, 1, 1, 0, 0, 0
+7586, 8140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+8250, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8103, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8146, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8412, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5754, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+7984, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8503, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+7552, 11264, 0, "Compilation unit does not compile after method extraction.", 14, 82, 24, 17, 11, 6, 7, 1
+9308, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+5887, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+7880, 9301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuilder serviceUrlBuilder RenderOptions renderOptions", 0, 0, 4, 2, 2, 0, 1, 2
+7586, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5987, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+8681, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8412, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6892, 11270, 0, "Compilation unit does not compile after method extraction.", 9, 99, 27, 27, 13, 14, 8, 0
+8199, 9667, 0, "Compilation unit does not compile after method extraction.", 6, 22, 9, 5, 5, 0, 2, 2
+6294, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+8412, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+6096, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+6482, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+8570, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6147, 11844, 0, "Compilation unit does not compile after method extraction.", 7, 135, 32, 32, 18, 14, 8, 0
+11298, 11909, 0, "Compilation unit does not compile after method extraction.", 5, 14, 1, 1, 1, 0, 0, 0
+7586, 8193, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+6218, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+5754, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+6257, 6397, 0, "Compilation unit does not compile after method extraction.", 1, 5, 1, 1, 1, 0, 0, 0
+8608, 9301, 0, "Compilation unit does not compile after method extraction.", 3, 10, 4, 2, 2, 0, 1, 2
+8250, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6639, 6857, 0, "Compilation unit does not compile after method extraction.", 2, 7, 3, 3, 3, 0, 0, 0
+11298, 11934, 0, "Compilation unit does not compile after method extraction.", 5, 16, 1, 1, 1, 0, 0, 0
+7586, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5987, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+7984, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8146, 9301, 0, "Compilation unit does not compile after method extraction.", 7, 17, 4, 2, 2, 0, 1, 2
+5887, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+6892, 11317, 0, "Compilation unit does not compile after method extraction.", 9, 101, 27, 27, 13, 14, 8, 0
+9308, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+9674, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+5754, 11781, 0, "Compilation unit does not compile after method extraction.", 3, 142, 32, 32, 18, 14, 8, 0
+7586, 8244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+6482, 11745, 0, "Compilation unit does not compile after method extraction.", 9, 122, 31, 31, 17, 14, 8, 0
+8681, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6639, 6887, 0, "Compilation unit does not compile after method extraction.", 2, 8, 3, 3, 3, 0, 0, 0
+6218, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+7586, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6257, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8503, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6147, 11909, 0, "Compilation unit does not compile after method extraction.", 7, 136, 32, 32, 18, 14, 8, 0
+5887, 11781, 0, "Compilation unit does not compile after method extraction.", 4, 140, 32, 32, 18, 14, 8, 0
+8721, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7984, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5987, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8250, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8570, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+7150, 7453, 0, "Compilation unit does not compile after method extraction.", 1, 5, 2, 1, 1, 0, 1, 1
+6551, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+5929, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+6482, 11781, 0, "Compilation unit does not compile after method extraction.", 10, 123, 31, 31, 17, 14, 8, 0
+7924, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8681, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6257, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8412, 9301, 0, "Compilation unit does not compile after method extraction.", 5, 13, 4, 2, 2, 0, 1, 2
+6147, 11934, 0, "Compilation unit does not compile after method extraction.", 7, 138, 32, 32, 18, 14, 8, 0
+6218, 11781, 0, "Compilation unit does not compile after method extraction.", 8, 132, 32, 32, 18, 14, 8, 0
+7586, 8292, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+6892, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ParametersDecoder decoder", 0, 0, 27, 27, 13, 14, 8, 0
+8024, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5754, 11844, 0, "Compilation unit does not compile after method extraction.", 3, 144, 32, 32, 18, 14, 8, 0
+7984, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9674, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+10093, 10452, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+9808, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+7085, 7453, 0, "Compilation unit does not compile after method extraction.", 1, 6, 2, 1, 1, 0, 1, 1
+7150, 7491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Integer docId", 0, 0, 2, 1, 1, 0, 1, 1
+9308, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+8681, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5887, 11844, 0, "Compilation unit does not compile after method extraction.", 4, 142, 32, 32, 18, 14, 8, 0
+5929, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8250, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8199, 9801, 0, "Compilation unit does not compile after method extraction.", 9, 24, 9, 5, 5, 0, 2, 2
+6551, 11745, 0, "Compilation unit does not compile after method extraction.", 10, 121, 31, 31, 17, 14, 8, 0
+6482, 11844, 0, "Compilation unit does not compile after method extraction.", 10, 125, 31, 31, 17, 14, 8, 0
+5987, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+7085, 7491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Integer docId", 0, 0, 2, 1, 1, 0, 1, 1
+7924, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8681, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+4899, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 22, 1, 1, 1, 0, 0, 0
+6218, 11844, 0, "Compilation unit does not compile after method extraction.", 8, 134, 32, 32, 18, 14, 8, 0
+9674, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+9308, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+10272, 11096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6257, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+10161, 10452, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+8024, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8250, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5017, 12221, 0, "Compilation unit does not compile after method extraction.", 1, 180, 34, 34, 20, 14, 8, 0
+5929, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8865, 9667, 0, "Compilation unit does not compile after method extraction.", 2, 12, 9, 5, 5, 0, 2, 2
+6551, 11781, 0, "Compilation unit does not compile after method extraction.", 11, 122, 31, 31, 17, 14, 8, 0
+7150, 7547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Integer docId Collection<String> roles", 0, 0, 2, 1, 1, 0, 1, 1
+9808, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+5754, 11909, 0, "Compilation unit does not compile after method extraction.", 3, 145, 32, 32, 18, 14, 8, 0
+4899, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+6955, 7453, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject String cockpitDocument String imageName", 0, 0, 2, 1, 1, 0, 1, 1
+11377, 11693, 0, "Compilation unit does not compile after method extraction.", 3, 7, 1, 1, 1, 0, 0, 0
+9308, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+9674, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+8932, 9667, 0, "Compilation unit does not compile after method extraction.", 3, 11, 9, 5, 5, 0, 2, 2
+10228, 10452, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+5887, 11909, 0, "Compilation unit does not compile after method extraction.", 4, 143, 32, 32, 18, 14, 8, 0
+5754, 11934, 0, "Compilation unit does not compile after method extraction.", 3, 147, 32, 32, 18, 14, 8, 0
+10093, 10543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+7085, 7547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject Integer docId Collection<String> roles", 0, 0, 2, 1, 1, 0, 1, 1
+8024, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7586, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 8, 0, 5, 2
+6257, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8721, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9808, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+9674, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 4, 4, 0, 3, 2
+7586, 8406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+6482, 11909, 0, "Compilation unit does not compile after method extraction.", 10, 126, 31, 31, 17, 14, 8, 0
+7924, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6955, 7491, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject String cockpitDocument String imageName Integer docId", 0, 0, 2, 1, 1, 0, 1, 1
+10272, 11160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6218, 11909, 0, "Compilation unit does not compile after method extraction.", 8, 135, 32, 32, 18, 14, 8, 0
+5887, 11934, 0, "Compilation unit does not compile after method extraction.", 4, 145, 32, 32, 18, 14, 8, 0
+5929, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+8681, 9301, 0, "Compilation unit does not compile after method extraction.", 3, 9, 4, 2, 2, 0, 1, 2
+6551, 11844, 0, "Compilation unit does not compile after method extraction.", 11, 124, 31, 31, 17, 14, 8, 0
+6482, 11934, 0, "Compilation unit does not compile after method extraction.", 10, 128, 31, 31, 17, 14, 8, 0
+11377, 11745, 0, "Compilation unit does not compile after method extraction.", 4, 8, 1, 1, 1, 0, 0, 0
+8024, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6218, 11934, 0, "Compilation unit does not compile after method extraction.", 8, 137, 32, 32, 18, 14, 8, 0
+6257, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+9808, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 4, 0, 3, 2
+10161, 10543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+5218, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 175, 34, 34, 20, 14, 8, 0
+8024, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+10272, 11206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+7924, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7984, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8199, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9808, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 4, 4, 0, 3, 2
+11377, 11781, 0, "Compilation unit does not compile after method extraction.", 5, 9, 1, 1, 1, 0, 0, 0
+6955, 7547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject String cockpitDocument String imageName Integer docId Collection<String> roles", 0, 0, 2, 1, 1, 0, 1, 1
+10228, 10543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+5929, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8721, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7232, 11264, 0, "Compilation unit does not compile after method extraction.", 12, 88, 26, 18, 12, 6, 8, 1
+5987, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+7924, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10272, 11246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6551, 11909, 0, "Compilation unit does not compile after method extraction.", 11, 125, 31, 31, 17, 14, 8, 0
+7586, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 8, 0, 5, 2
+8865, 9801, 0, "Compilation unit does not compile after method extraction.", 5, 14, 9, 5, 5, 0, 2, 2
+6714, 6857, 0, "Compilation unit does not compile after method extraction.", 1, 5, 3, 3, 3, 0, 0, 0
+7586, 8497, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+5672, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+6294, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+6450, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 3, 3, 3, 0, 0, 0
+7497, 11264, 0, "Compilation unit does not compile after method extraction.", 13, 83, 24, 17, 11, 6, 7, 1
+6096, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+10272, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 2, 2
+8250, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5929, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+9968, 10452, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Response images byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+8932, 9801, 0, "Compilation unit does not compile after method extraction.", 6, 13, 9, 5, 5, 0, 2, 2
+5169, 5623, 0, "Compilation unit does not compile after method extraction.", 1, 14, 1, 1, 1, 0, 0, 0
+6257, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+5987, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+6551, 11934, 0, "Compilation unit does not compile after method extraction.", 11, 127, 31, 31, 17, 14, 8, 0
+6714, 6887, 0, "Compilation unit does not compile after method extraction.", 2, 6, 3, 3, 3, 0, 0, 0
+11377, 11844, 0, "Compilation unit does not compile after method extraction.", 6, 11, 1, 1, 1, 0, 0, 0
+5805, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+6450, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 3, 3, 3, 0, 0, 0
+8721, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6639, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+8024, 9301, 0, "Compilation unit does not compile after method extraction.", 7, 19, 4, 2, 2, 0, 1, 2
+9308, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+7880, 9667, 0, "Compilation unit does not compile after method extraction.", 6, 29, 9, 5, 5, 0, 2, 2
+7984, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5672, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+5169, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+6294, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+7586, 8564, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+6096, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+5805, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8608, 9667, 0, "Compilation unit does not compile after method extraction.", 3, 16, 9, 5, 5, 0, 2, 2
+5672, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+6639, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+8298, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8721, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5929, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+11377, 11909, 0, "Compilation unit does not compile after method extraction.", 6, 12, 1, 1, 1, 0, 0, 0
+8250, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6294, 11781, 0, "Compilation unit does not compile after method extraction.", 9, 129, 32, 32, 18, 14, 8, 0
+6096, 11781, 0, "Compilation unit does not compile after method extraction.", 7, 135, 32, 32, 18, 14, 8, 0
+8146, 9667, 0, "Compilation unit does not compile after method extraction.", 7, 23, 9, 5, 5, 0, 2, 2
+7586, 8602, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+6892, 11693, 0, "Compilation unit does not compile after method extraction.", 9, 109, 28, 28, 14, 14, 8, 0
+5805, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+9968, 10543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Response images byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+8199, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+11377, 11934, 0, "Compilation unit does not compile after method extraction.", 6, 14, 1, 1, 1, 0, 0, 0
+8721, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9308, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+8865, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6639, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+7837, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7924, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8932, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8298, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6294, 11844, 0, "Compilation unit does not compile after method extraction.", 9, 131, 32, 32, 18, 14, 8, 0
+8412, 9667, 0, "Compilation unit does not compile after method extraction.", 5, 19, 9, 5, 5, 0, 2, 2
+5672, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+10303, 10452, 0, "Compilation unit does not compile after method extraction.", 2, 7, 3, 1, 1, 0, 1, 2
+6892, 11745, 0, "Compilation unit does not compile after method extraction.", 10, 110, 28, 28, 14, 14, 8, 0
+6096, 11844, 0, "Compilation unit does not compile after method extraction.", 7, 137, 32, 32, 18, 14, 8, 0
+6257, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+8199, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7586, 8675, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String docName StringBuilder serviceUrlBuilder", 0, 0, 3, 1, 1, 0, 1, 2
+7880, 9801, 0, "Compilation unit does not compile after method extraction.", 9, 31, 9, 5, 5, 0, 2, 2
+5805, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+11321, 11693, 0, "Compilation unit does not compile after method extraction.", 2, 8, 1, 1, 1, 0, 0, 0
+6257, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+8103, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6892, 11781, 0, "Compilation unit does not compile after method extraction.", 11, 111, 28, 28, 14, 14, 8, 0
+8298, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5672, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+7837, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7586, 8715, 0, "Compilation unit does not compile after method extraction.", 5, 22, 3, 1, 1, 0, 1, 2
+8608, 9801, 0, "Compilation unit does not compile after method extraction.", 6, 18, 9, 5, 5, 0, 2, 2
+6294, 11909, 0, "Compilation unit does not compile after method extraction.", 9, 132, 32, 32, 18, 14, 8, 0
+6096, 11909, 0, "Compilation unit does not compile after method extraction.", 7, 138, 32, 32, 18, 14, 8, 0
+5805, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8146, 9801, 0, "Compilation unit does not compile after method extraction.", 10, 25, 9, 5, 5, 0, 2, 2
+7924, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8298, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+10549, 11096, 0, "Compilation unit does not compile after method extraction.", 6, 13, 4, 2, 2, 0, 1, 2
+5929, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+5672, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+7837, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6294, 11934, 0, "Compilation unit does not compile after method extraction.", 9, 134, 32, 32, 18, 14, 8, 0
+6096, 11934, 0, "Compilation unit does not compile after method extraction.", 7, 140, 32, 32, 18, 14, 8, 0
+11321, 11745, 0, "Compilation unit does not compile after method extraction.", 3, 9, 1, 1, 1, 0, 0, 0
+8199, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10303, 10543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 3, 1, 1, 0, 1, 2
+8298, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8103, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6892, 11844, 0, "Compilation unit does not compile after method extraction.", 11, 113, 28, 28, 14, 14, 8, 0
+5805, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+5929, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+7232, 7453, 0, "Compilation unit does not compile after method extraction.", 2, 3, 2, 1, 1, 0, 1, 1
+8721, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8865, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+11321, 11781, 0, "Compilation unit does not compile after method extraction.", 4, 10, 1, 1, 1, 0, 0, 0
+8412, 9801, 0, "Compilation unit does not compile after method extraction.", 8, 21, 9, 5, 5, 0, 2, 2
+8199, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7837, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+4899, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 185, 34, 34, 20, 14, 8, 0
+7837, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8681, 9667, 0, "Compilation unit does not compile after method extraction.", 3, 15, 9, 5, 5, 0, 2, 2
+8932, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10549, 11160, 0, "Compilation unit does not compile after method extraction.", 7, 15, 4, 2, 2, 0, 1, 2
+8103, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8503, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5987, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+7232, 7491, 0, "Compilation unit does not compile after method extraction.", 2, 4, 2, 1, 1, 0, 1, 1
+7880, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5672, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6714, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+6450, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 30, 30, 16, 14, 8, 0
+8199, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6892, 11909, 0, "Compilation unit does not compile after method extraction.", 11, 114, 28, 28, 14, 14, 8, 0
+8570, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5627, 12221, 0, "Compilation unit does not compile after method extraction.", 1, 162, 33, 33, 19, 14, 8, 0
+8298, 9301, 0, "Compilation unit does not compile after method extraction.", 5, 14, 4, 2, 2, 0, 1, 2
+11321, 11844, 0, "Compilation unit does not compile after method extraction.", 5, 12, 1, 1, 1, 0, 0, 0
+5805, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8103, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8865, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5987, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6892, 11934, 0, "Compilation unit does not compile after method extraction.", 11, 116, 28, 28, 14, 14, 8, 0
+8103, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8608, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10549, 11206, 0, "Compilation unit does not compile after method extraction.", 7, 16, 4, 2, 2, 0, 1, 2
+7586, 8858, 0, "Compilation unit does not compile after method extraction.", 5, 23, 3, 1, 1, 0, 1, 2
+8721, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6714, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+7232, 7547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer docId Collection<String> roles", 0, 0, 2, 1, 1, 0, 1, 1
+4982, 5623, 0, "Compilation unit does not compile after method extraction.", 1, 19, 1, 1, 1, 0, 0, 0
+8932, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8146, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8503, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6450, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 30, 30, 16, 14, 8, 0
+6147, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+7837, 9301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuilder serviceUrlBuilder RenderOptions renderOptions", 0, 0, 4, 2, 2, 0, 1, 2
+8570, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+4982, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+10549, 11246, 0, "Compilation unit does not compile after method extraction.", 9, 17, 4, 2, 2, 0, 1, 2
+10549, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+5987, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+11321, 11909, 0, "Compilation unit does not compile after method extraction.", 5, 13, 1, 1, 1, 0, 0, 0
+8865, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8024, 9667, 0, "Compilation unit does not compile after method extraction.", 7, 25, 9, 5, 5, 0, 2, 2
+8412, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8503, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6714, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+7586, 8926, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuilder serviceUrlBuilder RenderOptions renderOptions", 0, 0, 3, 1, 1, 0, 1, 2
+6450, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+11321, 11934, 0, "Compilation unit does not compile after method extraction.", 5, 15, 1, 1, 1, 0, 0, 0
+6596, 6857, 0, "Compilation unit does not compile after method extraction.", 2, 8, 3, 3, 3, 0, 0, 0
+8681, 9801, 0, "Compilation unit does not compile after method extraction.", 6, 17, 9, 5, 5, 0, 2, 2
+10093, 11096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+8570, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8103, 9301, 0, "Compilation unit does not compile after method extraction.", 7, 18, 4, 2, 2, 0, 1, 2
+6147, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8932, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6639, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+8503, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8865, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5672, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+8503, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+7880, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6596, 6887, 0, "Compilation unit does not compile after method extraction.", 2, 9, 3, 3, 3, 0, 0, 0
+6147, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8199, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5169, 12221, 0, "Compilation unit does not compile after method extraction.", 1, 177, 34, 34, 20, 14, 8, 0
+8570, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8932, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6257, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+8865, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5805, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+5672, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String userUniqueIdentifier String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+8570, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+4788, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 26, 1, 1, 1, 0, 0, 0
+5754, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+10093, 11160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+8608, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10161, 11096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6639, 11745, 0, "Compilation unit does not compile after method extraction.", 11, 119, 31, 31, 17, 14, 8, 0
+8146, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8932, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5805, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+5887, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+7880, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10228, 11096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+4788, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+6257, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6401, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 3, 3, 3, 0, 0, 0
+8024, 9801, 0, "Compilation unit does not compile after method extraction.", 10, 27, 9, 5, 5, 0, 2, 2
+6147, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+6639, 11781, 0, "Compilation unit does not compile after method extraction.", 12, 120, 31, 31, 17, 14, 8, 0
+7586, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 10, 10, 0, 6, 2
+5754, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+6218, 6397, 0, "Compilation unit does not compile after method extraction.", 1, 6, 1, 1, 1, 0, 0, 0
+8503, 9301, 0, "Compilation unit does not compile after method extraction.", 4, 12, 4, 2, 2, 0, 1, 2
+5929, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+10093, 11206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6401, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 3, 3, 3, 0, 0, 0
+8412, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10161, 11160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+8199, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8681, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8608, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5887, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+5754, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8570, 9301, 0, "Compilation unit does not compile after method extraction.", 4, 11, 4, 2, 2, 0, 1, 2
+6147, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8146, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6257, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+10228, 11160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+7880, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6218, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+10093, 11246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+7984, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+10093, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 2, 2
+5887, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+5929, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+10161, 11206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+7586, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 10, 10, 0, 6, 2
+6639, 11844, 0, "Compilation unit does not compile after method extraction.", 12, 122, 31, 31, 17, 14, 8, 0
+6218, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+6147, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8412, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8608, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9674, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+7880, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8865, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+10228, 11206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+5754, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+8146, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10161, 11246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+8250, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+7586, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 10, 10, 0, 6, 2
+5929, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+7984, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+9968, 11096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Response images byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+10161, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 2, 2
+7880, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6639, 11909, 0, "Compilation unit does not compile after method extraction.", 12, 123, 31, 31, 17, 14, 8, 0
+8932, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5887, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+8024, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9308, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+10228, 11246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+8608, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+10228, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 2, 2
+5754, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+9808, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+6218, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+8146, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7586, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 10, 10, 0, 6, 2
+6147, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6639, 11934, 0, "Compilation unit does not compile after method extraction.", 12, 125, 31, 31, 17, 14, 8, 0
+7984, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8412, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7586, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 22, 10, 10, 0, 6, 2
+8250, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8681, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8298, 9667, 0, "Compilation unit does not compile after method extraction.", 5, 20, 9, 5, 5, 0, 2, 2
+8608, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5887, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+5987, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+8865, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8146, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9968, 11160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Response images byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+5754, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6218, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6714, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+9308, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8412, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7984, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6450, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 31, 31, 17, 14, 8, 0
+6596, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+7837, 9667, 0, "Compilation unit does not compile after method extraction.", 6, 31, 9, 5, 5, 0, 2, 2
+7984, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+8932, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8250, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5887, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+9968, 11206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Response images byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6861, 11270, 0, "Compilation unit does not compile after method extraction.", 10, 101, 27, 27, 13, 14, 8, 0
+8412, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+9674, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+5987, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+5672, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6218, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+7924, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8681, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6714, 11745, 0, "Compilation unit does not compile after method extraction.", 11, 117, 31, 31, 17, 14, 8, 0
+9308, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6596, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray", 0, 0, 30, 30, 16, 14, 8, 0
+8250, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+10501, 11096, 0, "Compilation unit does not compile after method extraction.", 5, 14, 4, 2, 2, 0, 1, 2
+6450, 11745, 0, "Compilation unit does not compile after method extraction.", 9, 124, 31, 31, 17, 14, 8, 0
+7586, 9301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuilder serviceUrlBuilder RenderOptions renderOptions", 0, 0, 7, 3, 3, 0, 2, 2
+5805, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+9968, 11246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Response images byte[] responseAsByteArray List<Object> list Iterator<Object> it boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+5754, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8103, 9667, 0, "Compilation unit does not compile after method extraction.", 7, 24, 9, 5, 5, 0, 2, 2
+10303, 11096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+5987, 11781, 0, "Compilation unit does not compile after method extraction.", 6, 137, 32, 32, 18, 14, 8, 0
+8250, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+4982, 12221, 0, "Compilation unit does not compile after method extraction.", 1, 182, 34, 34, 20, 14, 8, 0
+6861, 11317, 0, "Compilation unit does not compile after method extraction.", 10, 103, 27, 27, 13, 14, 8, 0
+5672, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+5129, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 15, 1, 1, 1, 0, 0, 0
+7880, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6714, 11781, 0, "Compilation unit does not compile after method extraction.", 12, 118, 31, 31, 17, 14, 8, 0
+9968, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 2, 2
+8024, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+4865, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 23, 1, 1, 1, 0, 0, 0
+5887, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6450, 11781, 0, "Compilation unit does not compile after method extraction.", 10, 125, 31, 31, 17, 14, 8, 0
+9308, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+9308, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 15, 7, 7, 0, 4, 2
+7458, 11264, 0, "Compilation unit does not compile after method extraction.", 12, 85, 24, 17, 11, 6, 7, 1
+9808, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+8681, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6147, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+8298, 9801, 0, "Compilation unit does not compile after method extraction.", 8, 22, 9, 5, 5, 0, 2, 2
+6401, 11270, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 30, 30, 16, 14, 8, 0
+7984, 9301, 0, "Compilation unit does not compile after method extraction.", 8, 20, 4, 2, 2, 0, 1, 2
+9674, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+7924, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6596, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+5805, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 31, 31, 17, 14, 8, 0
+6294, 6397, 0, "Compilation unit does not compile after method extraction.", 2, 3, 1, 1, 1, 0, 0, 0
+6096, 6397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 1, 1, 1, 0, 0, 0
+5129, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+6218, 6709, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+8608, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+10501, 11160, 0, "Compilation unit does not compile after method extraction.", 6, 16, 4, 2, 2, 0, 1, 2
+4865, 5652, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ProgressThreadManager progressThreadManager BIObject biObject", 0, 0, 1, 1, 1, 0, 0, 0
+10303, 11160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+5987, 11844, 0, "Compilation unit does not compile after method extraction.", 6, 139, 32, 32, 18, 14, 8, 0
+6861, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ParametersDecoder decoder", 0, 0, 27, 27, 13, 14, 8, 0
+5672, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+6147, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+8146, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+6714, 11844, 0, "Compilation unit does not compile after method extraction.", 12, 120, 31, 31, 17, 14, 8, 0
+7837, 9801, 0, "Compilation unit does not compile after method extraction.", 8, 33, 9, 5, 5, 0, 2, 2
+6450, 11844, 0, "Compilation unit does not compile after method extraction.", 10, 127, 31, 31, 17, 14, 8, 0
+7924, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8024, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+6401, 11317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 30, 30, 16, 14, 8, 0
+8681, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8250, 9301, 0, "Compilation unit does not compile after method extraction.", 6, 15, 4, 2, 2, 0, 1, 2
+6294, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+6096, 6446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+6257, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+9808, 10154, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+9674, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+5805, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 31, 31, 17, 14, 8, 0
+10501, 11206, 0, "Compilation unit does not compile after method extraction.", 6, 17, 4, 2, 2, 0, 1, 2
+8503, 9667, 0, "Compilation unit does not compile after method extraction.", 4, 18, 9, 5, 5, 0, 2, 2
+7880, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8721, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+10303, 11206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+8681, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+7924, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6294, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+6096, 6477, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray", 0, 0, 1, 1, 1, 0, 0, 0
+8412, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+5987, 11909, 0, "Compilation unit does not compile after method extraction.", 6, 140, 32, 32, 18, 14, 8, 0
+8103, 9801, 0, "Compilation unit does not compile after method extraction.", 10, 26, 9, 5, 5, 0, 2, 2
+7924, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+4788, 12221, 0, "Compilation unit does not compile after method extraction.", 0, 189, 34, 34, 20, 14, 8, 0
+6401, 11373, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject JSONArray jsonArray HashMap<String, String> paramMap ParametersDecoder decoder", 0, 0, 30, 30, 16, 14, 8, 0
+8570, 9667, 0, "Compilation unit does not compile after method extraction.", 4, 17, 9, 5, 5, 0, 2, 2
+6714, 11909, 0, "Compilation unit does not compile after method extraction.", 12, 121, 31, 31, 17, 14, 8, 0
+10501, 11246, 0, "Compilation unit does not compile after method extraction.", 8, 18, 4, 2, 2, 0, 1, 2
+5754, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+6257, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+10501, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 1, 2
+8024, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8608, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+9674, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+10303, 11246, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap boolean isZipped", 0, 0, 7, 3, 3, 0, 2, 2
+6450, 11909, 0, "Compilation unit does not compile after method extraction.", 10, 128, 31, 31, 17, 14, 8, 0
+10303, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 2, 2
+8146, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+9808, 10222, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+5987, 11934, 0, "Compilation unit does not compile after method extraction.", 6, 142, 32, 32, 18, 14, 8, 0
+6714, 11934, 0, "Compilation unit does not compile after method extraction.", 12, 123, 31, 31, 17, 14, 8, 0
+5929, 11693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray", 0, 0, 32, 32, 18, 14, 8, 0
+5887, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+5754, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dossierTemplateJson Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+8298, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8721, 11160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6450, 11934, 0, "Compilation unit does not compile after method extraction.", 10, 130, 31, 31, 17, 14, 8, 0
+9674, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+6257, 11781, 0, "Compilation unit does not compile after method extraction.", 8, 131, 32, 32, 18, 14, 8, 0
+6482, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 3, 3, 3, 0, 0, 0
+6294, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+8024, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5333, 5623, 0, "Compilation unit does not compile after method extraction.", 1, 10, 1, 1, 1, 0, 0, 0
+6218, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 4, 4, 4, 0, 0, 0
+6096, 6547, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap", 0, 0, 1, 1, 1, 0, 0, 0
+5887, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, String> imagesMap Set<String> executedDocuments String path ISbiDossierActivityDAO daoAct DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+9808, 10266, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+8412, 10543, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8721, 11206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+6482, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 3, 3, 3, 0, 0, 0
+7837, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5929, 11745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject biObject ISbiDossierActivityDAO daoAct DossierActivity activity", 0, 0, 32, 32, 18, 14, 8, 0
+6218, 6887, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity JSONArray jsonArray HashMap<String, String> paramMap", 0, 0, 4, 4, 4, 0, 0, 0
+7924, 9301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuilder serviceUrlBuilder RenderOptions renderOptions", 0, 0, 4, 2, 2, 0, 1, 2
+8024, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5333, 5652, 0, "Compilation unit does not compile after method extraction.", 1, 12, 1, 1, 1, 0, 0, 0
+6294, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+9808, 10297, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+6096, 6592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6257, 11844, 0, "Compilation unit does not compile after method extraction.", 8, 133, 32, 32, 18, 14, 8, 0
+8503, 9801, 0, "Compilation unit does not compile after method extraction.", 7, 20, 9, 5, 5, 0, 2, 2
+8721, 11246, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+5929, 11781, 0, "Compilation unit does not compile after method extraction.", 5, 138, 32, 32, 18, 14, 8, 0
+8103, 9937, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+8681, 10452, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 7, 0, 4, 2
+8721, 11258, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 19, 9, 9, 0, 5, 2
+6551, 6857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jsonArray JSONObject jsonObject", 0, 0, 3, 3, 3, 0, 0, 0
+8570, 9801, 0, "Compilation unit does not compile after method extraction.", 7, 19, 9, 5, 5, 0, 2, 2
+6294, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+6096, 6635, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ISbiDossierActivityDAO daoAct DossierActivity activity String dbArray HashMap<String, String> paramMap JSONObject jsonObject", 0, 0, 1, 1, 1, 0, 0, 0
+4940, 5623, 0, "Compilation unit does not compile after method extraction.", 0, 20, 1, 1, 1, 0, 0, 0
+6551, 6887, 0, "Compilation unit does not compile after method extraction.", 1, 10, 3, 3, 3, 0, 0, 0
+6257, 11909, 0, "Compilation unit does not compile after method extraction.", 8, 134, 32, 32, 18, 14, 8, 0
+8199, 11096, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 9, 9, 0, 5, 2
+8298, 10087, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 6, 6, 0, 3, 2
+5929, 11844, 0, "Compilation unit does not compile after method extraction.", 5, 140, 32, 32, 18, 14, 8, 0

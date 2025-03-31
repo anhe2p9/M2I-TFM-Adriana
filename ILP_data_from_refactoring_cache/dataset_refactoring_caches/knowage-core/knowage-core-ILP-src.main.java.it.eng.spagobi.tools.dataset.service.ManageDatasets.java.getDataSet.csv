@@ -1,0 +1,921 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+60799, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56319, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 116, 116, 59, 57, 32, 0
+68218, 69534, 1, "OK", 2, 27, 5, 3, 3, 0, 2, 1
+61487, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56389, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68297, 69136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+61685, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56590, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70292, 70784, 1, "OK", 1, 11, 2, 1, 1, 0, 1, 1
+56684, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+62304, 64425, 1, "OK", 11, 57, 27, 19, 13, 6, 8, 1
+59130, 60413, 1, "OK", 8, 31, 21, 11, 7, 4, 5, 2
+60718, 64430, 1, "OK", 4, 89, 30, 30, 15, 15, 9, 0
+57550, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+62451, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+69190, 70145, 1, "OK", 3, 20, 12, 8, 6, 2, 4, 1
+56851, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62834, 64425, 1, "OK", 8, 46, 27, 19, 13, 6, 8, 1
+57480, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+61777, 64425, 1, "OK", 14, 67, 29, 20, 14, 6, 9, 1
+61112, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69651, 70140, 1, "OK", 2, 10, 6, 2, 2, 0, 2, 2
+57550, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61777, 62370, 1, "OK", 7, 11, 2, 1, 1, 0, 1, 1
+57412, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+64434, 68065, 1, "OK", 4, 79, 23, 23, 14, 9, 5, 0
+56272, 67130, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 94, 94, 46, 48, 25, 0
+57338, 60709, 1, "OK", 10, 89, 41, 30, 17, 13, 11, 1
+68169, 68984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel String jsonQuery SpagoBICoreDatamartRetriever retriever", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+70229, 70666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet SQLDBCache cache", 0, 0, 2, 1, 1, 0, 1, 1
+68881, 69446, 1, "OK", 6, 14, 5, 3, 3, 0, 2, 1
+61632, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+57734, 60709, 1, "OK", 7, 81, 41, 30, 17, 13, 11, 1
+62571, 64425, 1, "OK", 8, 53, 27, 19, 13, 6, 8, 1
+68169, 69066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69662, 69892, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+56389, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70292, 70846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 2, 1, 1, 0, 1, 1
+64434, 70150, 1, "OK", 4, 126, 38, 38, 22, 16, 10, 0
+61487, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+68597, 70145, 1, "OK", 5, 35, 14, 9, 7, 2, 5, 1
+64711, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 40, 40, 23, 17, 11, 0
+66826, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 23, 23, 14, 9, 7, 0
+68881, 69534, 1, "OK", 6, 16, 5, 3, 3, 0, 2, 1
+61685, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56319, 71853, 1, "OK", 4, 365, 116, 116, 59, 57, 32, 0
+60928, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+56851, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61951, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+58868, 60413, 1, "OK", 6, 35, 21, 11, 7, 4, 5, 2
+60862, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61777, 62447, 1, "OK", 8, 12, 2, 1, 1, 0, 1, 1
+68218, 69568, 1, "OK", 2, 28, 5, 3, 3, 0, 2, 1
+56771, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57878, 60418, 1, "OK", 8, 69, 38, 28, 15, 13, 10, 1
+61632, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56590, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57480, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+70229, 70725, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet SQLDBCache cache", 0, 0, 2, 1, 1, 0, 1, 1
+56319, 71871, 1, "OK", 4, 366, 116, 116, 59, 57, 32, 0
+68297, 69186, 1, "OK", 3, 19, 2, 1, 1, 0, 1, 1
+57023, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+66826, 71853, 1, "OK", 3, 109, 23, 23, 14, 9, 7, 0
+64711, 71871, 1, "OK", 3, 156, 40, 40, 23, 17, 11, 0
+60862, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56851, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68169, 69136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60718, 64569, 1, "OK", 4, 93, 31, 31, 16, 15, 9, 0
+61388, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68754, 69446, 1, "OK", 4, 16, 5, 3, 3, 0, 2, 1
+56245, 68065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 97, 97, 48, 49, 26, 0
+66826, 71871, 1, "OK", 3, 110, 23, 23, 14, 9, 7, 0
+64711, 71853, 1, "OK", 3, 155, 40, 40, 23, 17, 11, 0
+62374, 64425, 1, "OK", 10, 56, 27, 19, 13, 6, 8, 1
+56452, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61951, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+59931, 60282, 1, "OK", 5, 10, 9, 3, 2, 1, 2, 3
+56518, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61777, 62508, 1, "OK", 9, 13, 2, 1, 1, 0, 1, 1
+68069, 70150, 1, "OK", 3, 46, 15, 15, 8, 7, 5, 0
+57805, 60709, 1, "OK", 8, 80, 41, 30, 17, 13, 11, 1
+68297, 69228, 1, "OK", 3, 20, 2, 1, 1, 0, 1, 1
+56590, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56245, 70150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 112, 112, 56, 56, 31, 0
+57550, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+63961, 64425, 1, "OK", 5, 11, 7, 5, 4, 1, 2, 1
+70229, 70784, 1, "OK", 0, 12, 2, 1, 1, 0, 1, 1
+68881, 69568, 1, "OK", 6, 17, 5, 3, 3, 0, 2, 1
+61112, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68834, 68984, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+60799, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69662, 69941, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+56389, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57878, 60469, 1, "OK", 8, 71, 38, 28, 15, 13, 10, 1
+57059, 57192, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+56851, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+59071, 60413, 1, "OK", 7, 32, 21, 11, 7, 4, 5, 2
+60928, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62949, 63068, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+68834, 69066, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+56518, 57623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70154, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 3, 3, 2, 1, 1, 0
+61112, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56684, 60709, 1, "OK", 6, 102, 43, 31, 18, 13, 12, 1
+65557, 66165, 1, "OK", 6, 14, 9, 5, 4, 1, 2, 2
+61112, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70229, 70846, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61777, 62567, 1, "OK", 10, 14, 2, 1, 1, 0, 1, 1
+69151, 69446, 1, "OK", 4, 6, 3, 2, 2, 0, 1, 1
+56590, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57550, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+69662, 70003, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+57059, 57252, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+68138, 70145, 1, "OK", 1, 42, 14, 9, 7, 2, 5, 1
+68169, 69186, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel", 0, 0, 2, 1, 1, 0, 1, 1
+56389, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+60928, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 64425, 1, "OK", 9, 76, 29, 20, 14, 6, 9, 1
+69151, 69534, 1, "OK", 4, 8, 3, 2, 2, 0, 1, 1
+60862, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61297, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61388, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60718, 64707, 1, "OK", 4, 97, 32, 32, 17, 15, 9, 0
+57023, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+63717, 63894, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+68754, 69568, 1, "OK", 4, 19, 5, 3, 3, 0, 2, 1
+68834, 69136, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+61561, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+64573, 68065, 1, "OK", 4, 75, 22, 22, 13, 9, 5, 0
+70292, 70995, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+62661, 63905, 1, "OK", 8, 36, 20, 14, 9, 5, 6, 1
+62512, 64425, 1, "OK", 9, 54, 27, 19, 13, 6, 8, 1
+56452, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68169, 69228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String dataSourceLabel", 0, 0, 2, 1, 1, 0, 1, 1
+56590, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56389, 57623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+66331, 66822, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+61009, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+68754, 69534, 1, "OK", 4, 18, 5, 3, 3, 0, 2, 1
+61777, 62624, 1, "OK", 11, 15, 2, 1, 1, 0, 1, 1
+57059, 57334, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+61112, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64573, 70150, 1, "OK", 4, 122, 37, 37, 21, 16, 10, 0
+56851, 57623, 1, "OK", 5, 14, 2, 1, 1, 0, 1, 1
+57412, 60709, 1, "OK", 9, 88, 41, 30, 17, 13, 11, 1
+62092, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+68834, 69186, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+57480, 60709, 1, "OK", 8, 87, 41, 30, 17, 13, 11, 1
+60718, 66822, 1, "OK", 4, 143, 49, 49, 26, 23, 13, 0
+61297, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56389, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61777, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61208, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+63335, 63499, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+56851, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+60799, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69151, 69568, 1, "OK", 4, 9, 3, 2, 2, 0, 1, 1
+70292, 71060, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+57059, 57408, 1, "OK", 5, 7, 2, 1, 1, 0, 1, 1
+61112, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+57628, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+62661, 63956, 1, "OK", 8, 38, 20, 14, 9, 5, 6, 1
+60862, 64425, 1, "OK", 3, 84, 29, 20, 14, 6, 9, 1
+60928, 64425, 1, "OK", 4, 83, 29, 20, 14, 6, 9, 1
+60862, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64434, 66327, 1, "OK", 4, 43, 18, 18, 10, 8, 4, 0
+61009, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61388, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70229, 70995, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56933, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68297, 69446, 1, "OK", 3, 24, 5, 3, 3, 0, 2, 1
+70229, 71060, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+56389, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70292, 71160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 2, 1, 1, 0, 1, 1
+62092, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+57878, 60709, 1, "OK", 8, 78, 41, 30, 17, 13, 11, 1
+56590, 57623, 1, "OK", 2, 18, 2, 1, 1, 0, 1, 1
+56851, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+65096, 66322, 1, "OK", 6, 28, 15, 11, 7, 4, 4, 1
+69070, 70145, 1, "OK", 4, 24, 12, 8, 6, 2, 4, 1
+61009, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68297, 69534, 1, "OK", 3, 26, 5, 3, 3, 0, 2, 1
+56319, 68065, 1, "OK", 4, 281, 97, 97, 48, 49, 26, 0
+61777, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+68381, 68984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String jsonQuery SpagoBICoreDatamartRetriever retriever", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+64711, 68065, 1, "OK", 3, 71, 21, 21, 12, 9, 5, 0
+61777, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68834, 69228, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+60928, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62714, 64425, 1, "OK", 8, 49, 27, 19, 13, 6, 8, 1
+60862, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+56590, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56319, 70150, 1, "OK", 4, 328, 112, 112, 56, 56, 31, 0
+61632, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+57628, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+58898, 59834, 1, "OK", 1, 16, 8, 4, 3, 1, 2, 2
+56452, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+56933, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+65295, 66322, 1, "OK", 6, 25, 15, 11, 7, 4, 4, 1
+61208, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57550, 60709, 1, "OK", 7, 86, 41, 30, 17, 13, 11, 1
+62451, 64425, 1, "OK", 9, 55, 27, 19, 13, 6, 8, 1
+56851, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 64425, 1, "OK", 2, 85, 29, 20, 14, 6, 9, 1
+56245, 66327, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 92, 92, 44, 48, 25, 0
+57059, 57476, 1, "OK", 6, 8, 2, 1, 1, 0, 1, 1
+60799, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+58965, 59834, 1, "OK", 2, 15, 8, 4, 3, 1, 2, 2
+61009, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+66826, 70150, 1, "OK", 3, 72, 19, 19, 11, 8, 6, 0
+61777, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+65364, 66322, 1, "OK", 5, 23, 15, 11, 7, 4, 4, 1
+56851, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+65430, 66317, 1, "OK", 5, 21, 12, 6, 5, 1, 3, 2
+56933, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56590, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+66826, 68065, 1, "OK", 3, 25, 4, 4, 3, 1, 1, 0
+56771, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+68297, 69568, 1, "OK", 3, 27, 5, 3, 3, 0, 2, 1
+56389, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+64711, 70150, 1, "OK", 3, 118, 36, 36, 20, 16, 10, 0
+61632, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+68169, 69446, 1, "OK", 2, 26, 5, 3, 3, 0, 2, 1
+61009, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57059, 57546, 1, "OK", 7, 9, 2, 1, 1, 0, 1, 1
+56389, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+68169, 69534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String sourceDatasetLabel", 0, 0, 5, 3, 3, 0, 2, 1
+57023, 60709, 1, "OK", 10, 96, 43, 31, 18, 13, 12, 1
+66331, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 23, 23, 14, 9, 7, 0
+64573, 66327, 1, "OK", 4, 39, 17, 17, 9, 8, 4, 0
+70229, 71160, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 2, 1, 1, 0, 1, 1
+56590, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56933, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68381, 69066, 1, "OK", 4, 14, 2, 1, 1, 0, 1, 1
+56389, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56851, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+57628, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+56245, 64430, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 74, 74, 34, 40, 21, 0
+69538, 70145, 1, "OK", 2, 13, 9, 6, 4, 2, 3, 1
+68834, 69446, 1, "OK", 5, 15, 5, 3, 3, 0, 2, 1
+57628, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+62166, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+60718, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 71, 71, 39, 32, 20, 0
+57059, 57623, 1, "OK", 8, 10, 2, 1, 1, 0, 1, 1
+60799, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+66331, 67130, 1, "OK", 3, 16, 2, 2, 2, 0, 0, 0
+61208, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57059, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56272, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 116, 116, 59, 57, 32, 0
+61388, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68381, 69136, 1, "OK", 4, 15, 2, 1, 1, 0, 1, 1
+62010, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+56590, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+68169, 69568, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  QbeDataSet qbeDataSet String sourceDatasetLabel", 0, 0, 5, 3, 3, 0, 2, 1
+56771, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+62629, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+60928, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61009, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62763, 63145, 1, "OK", 4, 10, 6, 4, 3, 1, 2, 1
+62629, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56272, 71853, 1, "OK", 3, 367, 116, 116, 59, 57, 32, 0
+61388, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62010, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+56771, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+60718, 67130, 1, "OK", 4, 150, 50, 50, 27, 23, 13, 0
+68381, 69228, 1, "OK", 4, 19, 2, 1, 1, 0, 1, 1
+61813, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+60799, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62166, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+64434, 64569, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 0
+60862, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56933, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+63910, 64425, 1, "OK", 5, 13, 7, 5, 4, 1, 2, 1
+68834, 69534, 1, "OK", 5, 17, 5, 3, 3, 0, 2, 1
+56590, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56319, 66327, 1, "OK", 4, 245, 92, 92, 44, 48, 25, 0
+57059, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68381, 69186, 1, "OK", 4, 18, 2, 1, 1, 0, 1, 1
+68218, 70145, 1, "OK", 2, 40, 14, 9, 7, 2, 5, 1
+60928, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56272, 71871, 1, "OK", 3, 368, 116, 116, 59, 57, 32, 0
+61112, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61009, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69232, 69446, 1, "OK", 2, 4, 3, 2, 2, 0, 1, 1
+62763, 63200, 1, "OK", 5, 12, 6, 4, 3, 1, 2, 1
+69232, 69534, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+62236, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61208, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56933, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61813, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+60799, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64711, 66327, 1, "OK", 3, 35, 16, 16, 8, 8, 4, 0
+68881, 70145, 1, "OK", 6, 29, 14, 9, 7, 2, 5, 1
+61009, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61813, 61946, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+60928, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56245, 64569, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 75, 75, 35, 40, 21, 0
+60799, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68834, 69568, 1, "OK", 5, 18, 5, 3, 3, 0, 2, 1
+63205, 63905, 1, "OK", 5, 20, 14, 10, 6, 4, 4, 1
+65589, 65783, 1, "OK", 1, 5, 5, 2, 2, 0, 1, 3
+60799, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56933, 57623, 1, "OK", 6, 13, 2, 1, 1, 0, 1, 1
+64434, 64707, 1, "OK", 4, 7, 2, 2, 2, 0, 0, 0
+61487, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+68525, 68984, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+56452, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56518, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61685, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+62304, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61208, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62236, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+57059, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61009, 64425, 1, "OK", 5, 81, 29, 20, 14, 6, 9, 1
+56684, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62834, 63145, 1, "OK", 5, 9, 6, 4, 3, 1, 2, 1
+61777, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+60862, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+69750, 69892, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+68458, 68984, 1, "OK", 5, 12, 2, 1, 1, 0, 1, 1
+56933, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61009, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69232, 69568, 1, "OK", 2, 7, 3, 2, 2, 0, 1, 1
+60928, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+57059, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+67431, 68061, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+64845, 66322, 1, "OK", 3, 31, 15, 11, 7, 4, 4, 1
+61813, 62006, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+56851, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+68458, 69066, 1, "OK", 5, 13, 2, 1, 1, 0, 1, 1
+62571, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+65589, 65849, 1, "OK", 1, 7, 5, 2, 2, 0, 1, 3
+64434, 66822, 1, "OK", 4, 53, 19, 19, 11, 8, 4, 0
+56319, 64430, 1, "OK", 4, 201, 74, 74, 34, 40, 21, 0
+57059, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+70154, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 4, 4, 3, 1, 1, 0
+63205, 63956, 1, "OK", 6, 22, 14, 10, 6, 4, 4, 1
+61208, 64425, 1, "OK", 7, 78, 29, 20, 14, 6, 9, 1
+68754, 70145, 1, "OK", 4, 31, 14, 9, 7, 2, 5, 1
+60799, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57628, 60709, 1, "OK", 6, 84, 41, 30, 17, 13, 11, 1
+61208, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61487, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+56452, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+62661, 64425, 1, "OK", 8, 50, 27, 19, 13, 6, 8, 1
+69750, 70003, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+61951, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61685, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+62304, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+68525, 69066, 1, "OK", 4, 12, 2, 1, 1, 0, 1, 1
+67134, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 21, 21, 12, 9, 7, 0
+56684, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61009, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69750, 69941, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+56933, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61951, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61813, 62088, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+61777, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+62834, 63200, 1, "OK", 6, 11, 6, 4, 3, 1, 2, 1
+56389, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61487, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56245, 64707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 76, 76, 36, 40, 21, 0
+61685, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64781, 66322, 1, "OK", 2, 32, 15, 11, 7, 4, 4, 1
+61208, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70154, 71853, 1, "OK", 3, 36, 4, 4, 3, 1, 1, 0
+57844, 58189, 1, "OK", 5, 10, 6, 4, 3, 1, 2, 1
+68458, 69136, 1, "OK", 5, 14, 2, 1, 1, 0, 1, 1
+62571, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56851, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+60799, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+70154, 71871, 1, "OK", 3, 37, 4, 4, 3, 1, 1, 0
+56771, 60709, 1, "OK", 7, 100, 43, 31, 18, 13, 12, 1
+62374, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61813, 62162, 1, "OK", 5, 7, 2, 1, 1, 0, 1, 1
+61009, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69151, 70145, 1, "OK", 4, 21, 12, 8, 6, 2, 4, 1
+56452, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+62374, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56518, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+56245, 66822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 93, 93, 45, 48, 25, 0
+68381, 69446, 1, "OK", 4, 23, 5, 3, 3, 0, 2, 1
+61487, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56389, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61685, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+65589, 65904, 1, "OK", 2, 8, 5, 2, 2, 0, 1, 3
+56319, 64569, 1, "OK", 4, 205, 75, 75, 35, 40, 21, 0
+68381, 69534, 1, "OK", 4, 25, 5, 3, 3, 0, 2, 1
+68597, 68984, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+61208, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56272, 68065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 97, 97, 48, 49, 26, 0
+56245, 60714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 44, 44, 19, 25, 12, 0
+57844, 58244, 1, "OK", 6, 12, 6, 4, 3, 1, 2, 1
+56684, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68525, 69186, 1, "OK", 4, 16, 2, 1, 1, 0, 1, 1
+58489, 58716, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3
+56590, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56933, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+61487, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68525, 69136, 1, "OK", 4, 13, 2, 1, 1, 0, 1, 1
+56452, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+61009, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61685, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56518, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+56272, 70150, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 112, 112, 56, 56, 31, 0
+56590, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+58898, 60413, 1, "OK", 6, 34, 21, 11, 7, 4, 5, 2
+60474, 60709, 1, "OK", 5, 6, 3, 2, 2, 0, 1, 1
+56933, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+64573, 64707, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 0
+68458, 69186, 1, "OK", 5, 17, 2, 1, 1, 0, 1, 1
+65589, 65971, 1, "OK", 3, 9, 5, 2, 2, 0, 1, 3
+61388, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+68525, 69228, 1, "OK", 5, 17, 2, 1, 1, 0, 1, 1
+56389, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+56851, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+61297, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61208, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56684, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+65589, 66054, 1, "OK", 4, 10, 5, 2, 2, 0, 1, 3
+56933, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+58965, 60413, 1, "OK", 7, 33, 21, 11, 7, 4, 5, 2
+61561, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+68597, 69066, 1, "OK", 3, 11, 2, 1, 1, 0, 1, 1
+61813, 62232, 1, "OK", 6, 8, 2, 1, 1, 0, 1, 1
+61685, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+58559, 58716, 1, "OK", 5, 4, 4, 1, 1, 0, 1, 3
+61561, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+68458, 69228, 1, "OK", 5, 18, 2, 1, 1, 0, 1, 1
+62512, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+68381, 69568, 1, "OK", 4, 26, 5, 3, 3, 0, 2, 1
+61009, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64573, 66822, 1, "OK", 4, 49, 18, 18, 10, 8, 4, 0
+68297, 70145, 1, "OK", 3, 39, 14, 9, 7, 2, 5, 1
+56684, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+59581, 59828, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+62092, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+56389, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+61388, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61009, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57192, 1, "OK", 0, 4, 2, 1, 1, 0, 1, 1
+64434, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 41, 41, 24, 17, 11, 0
+57844, 60418, 1, "OK", 8, 70, 38, 28, 15, 13, 10, 1
+61208, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61813, 62300, 1, "OK", 7, 9, 2, 1, 1, 0, 1, 1
+68069, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 18, 18, 10, 8, 6, 0
+56851, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+61297, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61487, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+66331, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 24, 24, 15, 9, 7, 0
+68597, 69136, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+64922, 66322, 1, "OK", 4, 30, 15, 11, 7, 4, 4, 1
+63150, 63905, 1, "OK", 7, 22, 14, 10, 6, 4, 4, 1
+56590, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+62010, 64425, 1, "OK", 15, 61, 27, 19, 13, 6, 8, 1
+68138, 68984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel String jsonQuery SpagoBICoreDatamartRetriever retriever", 0, 0, 2, 1, 1, 0, 1, 1
+62512, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+60862, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+60928, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61208, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61297, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57256, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56319, 64707, 1, "OK", 4, 209, 76, 76, 36, 40, 21, 0
+61561, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68138, 69066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56684, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57256, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61813, 64425, 1, "OK", 15, 66, 29, 20, 14, 6, 9, 1
+68597, 69186, 1, "OK", 3, 15, 2, 1, 1, 0, 1, 1
+57059, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61813, 62370, 1, "OK", 8, 10, 2, 1, 1, 0, 1, 1
+66331, 71853, 1, "OK", 3, 119, 24, 24, 15, 9, 7, 0
+61487, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64434, 67130, 1, "OK", 4, 60, 20, 20, 12, 8, 4, 0
+62092, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61685, 62232, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+61009, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57252, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+57844, 60469, 1, "OK", 8, 72, 38, 28, 15, 13, 10, 1
+67575, 68061, 1, "OK", 3, 10, 2, 1, 1, 0, 1, 1
+67509, 68061, 1, "OK", 4, 11, 2, 1, 1, 0, 1, 1
+61009, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62714, 63145, 1, "OK", 6, 12, 6, 4, 3, 1, 2, 1
+56245, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 115, 115, 58, 57, 32, 0
+56319, 66822, 1, "OK", 4, 255, 93, 93, 45, 48, 25, 0
+56590, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+68169, 70145, 1, "OK", 2, 41, 14, 9, 7, 2, 5, 1
+63150, 63956, 1, "OK", 7, 24, 14, 10, 6, 4, 4, 1
+58430, 58723, 1, "OK", 5, 9, 7, 3, 2, 1, 2, 2
+61297, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61632, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+60862, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+57023, 57334, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+61813, 62447, 1, "OK", 9, 11, 2, 1, 1, 0, 1, 1
+68138, 69136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+62451, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61632, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61487, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61685, 62300, 1, "OK", 5, 12, 2, 1, 1, 0, 1, 1
+56319, 60714, 1, "OK", 4, 111, 44, 44, 19, 25, 12, 0
+60718, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 72, 72, 40, 32, 20, 0
+57059, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+68525, 69446, 1, "OK", 5, 21, 5, 3, 3, 0, 2, 1
+59188, 59828, 1, "OK", 3, 10, 4, 1, 1, 0, 1, 3
+61009, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+66331, 71871, 1, "OK", 3, 120, 24, 24, 15, 9, 7, 0
+61297, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61632, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56684, 57623, 1, "OK", 3, 17, 2, 1, 1, 0, 1, 1
+56452, 60709, 1, "OK", 3, 106, 43, 31, 18, 13, 12, 1
+62714, 63200, 1, "OK", 6, 14, 6, 4, 3, 1, 2, 1
+68597, 69228, 1, "OK", 4, 16, 2, 1, 1, 0, 1, 1
+56518, 60709, 1, "OK", 4, 105, 43, 31, 18, 13, 12, 1
+68458, 69446, 1, "OK", 5, 22, 5, 3, 3, 0, 2, 1
+56245, 67130, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 94, 94, 46, 48, 25, 0
+64711, 66822, 1, "OK", 3, 45, 17, 17, 9, 8, 4, 0
+68834, 70145, 1, "OK", 5, 30, 14, 9, 7, 2, 5, 1
+61487, 64425, 1, "OK", 10, 74, 29, 20, 14, 6, 9, 1
+61813, 62508, 1, "OK", 10, 12, 2, 1, 1, 0, 1, 1
+57256, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+61208, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+61487, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61685, 64425, 1, "OK", 13, 69, 29, 20, 14, 6, 9, 1
+60718, 71871, 1, "OK", 4, 254, 72, 72, 40, 32, 20, 0
+61685, 62370, 1, "OK", 6, 13, 2, 1, 1, 0, 1, 1
+62451, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56272, 66327, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 92, 92, 44, 48, 25, 0
+68458, 69534, 1, "OK", 5, 24, 5, 3, 3, 0, 2, 1
+56684, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60718, 71853, 1, "OK", 4, 253, 72, 72, 40, 32, 20, 0
+60799, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsId String dsLabel String fileType Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61561, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56851, 60709, 1, "OK", 8, 99, 43, 31, 18, 13, 12, 1
+61632, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68988, 69446, 1, "OK", 5, 10, 3, 2, 2, 0, 1, 1
+68138, 69186, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String qbeDatamarts String dataSourceLabel", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57408, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+63205, 64425, 1, "OK", 7, 34, 21, 15, 10, 5, 6, 1
+64573, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 40, 40, 23, 17, 11, 0
+64573, 67130, 1, "OK", 4, 56, 19, 19, 11, 8, 4, 0
+68988, 69534, 1, "OK", 5, 12, 3, 2, 2, 0, 1, 1
+62629, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+65458, 66317, 1, "OK", 5, 20, 12, 6, 5, 1, 3, 2
+57993, 58112, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+61685, 62447, 1, "OK", 7, 14, 2, 1, 1, 0, 1, 1
+58249, 60418, 1, "OK", 7, 57, 32, 24, 12, 12, 8, 1
+56684, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61813, 62567, 1, "OK", 11, 13, 2, 1, 1, 0, 1, 1
+57660, 58189, 1, "OK", 5, 14, 6, 4, 3, 1, 2, 1
+56933, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+57256, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+62166, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61951, 64425, 1, "OK", 15, 62, 27, 19, 13, 6, 8, 1
+68525, 69568, 1, "OK", 5, 24, 5, 3, 3, 0, 2, 1
+56389, 60709, 1, "OK", 2, 107, 43, 31, 18, 13, 12, 1
+57197, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+57059, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+61297, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62166, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+68138, 69228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String dataSourceLabel", 0, 0, 2, 1, 1, 0, 1, 1
+57197, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+57059, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+57844, 60709, 1, "OK", 8, 79, 41, 30, 17, 13, 11, 1
+68525, 69534, 1, "OK", 5, 23, 5, 3, 3, 0, 2, 1
+69232, 70145, 1, "OK", 2, 19, 12, 8, 6, 2, 4, 1
+68458, 69568, 1, "OK", 5, 25, 5, 3, 3, 0, 2, 1
+57023, 57476, 1, "OK", 5, 9, 2, 1, 1, 0, 1, 1
+61487, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61487, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56590, 60709, 1, "OK", 5, 103, 43, 31, 18, 13, 12, 1
+56272, 64430, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 74, 74, 34, 40, 21, 0
+56319, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 115, 115, 58, 57, 32, 0
+56684, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+61685, 62508, 1, "OK", 8, 15, 2, 1, 1, 0, 1, 1
+67254, 68061, 1, "OK", 3, 15, 2, 1, 1, 0, 1, 1
+62763, 63905, 1, "OK", 7, 33, 20, 14, 9, 5, 6, 1
+62629, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+58249, 60469, 1, "OK", 7, 59, 32, 24, 12, 12, 8, 1
+61813, 62624, 1, "OK", 12, 14, 2, 1, 1, 0, 1, 1
+68597, 69446, 1, "OK", 5, 20, 5, 3, 3, 0, 2, 1
+57660, 58244, 1, "OK", 5, 16, 6, 4, 3, 1, 2, 1
+61297, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61632, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+67134, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 22, 22, 13, 9, 7, 0
+56933, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61561, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69190, 69446, 1, "OK", 3, 5, 3, 2, 2, 0, 1, 1
+60423, 60709, 1, "OK", 5, 8, 3, 2, 2, 0, 1, 1
+68988, 69568, 1, "OK", 5, 13, 3, 2, 2, 0, 1, 1
+61813, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57546, 1, "OK", 6, 10, 2, 1, 1, 0, 1, 1
+61112, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61112, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+56319, 67130, 1, "OK", 4, 262, 94, 94, 46, 48, 25, 0
+66331, 68065, 1, "OK", 3, 35, 5, 5, 4, 1, 1, 0
+61487, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64711, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 39, 39, 22, 17, 11, 0
+61632, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61685, 62567, 1, "OK", 9, 16, 2, 1, 1, 0, 1, 1
+67134, 71853, 1, "OK", 3, 102, 22, 22, 13, 9, 7, 0
+61297, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+66826, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 22, 22, 13, 9, 7, 0
+62763, 63956, 1, "OK", 7, 35, 20, 14, 9, 5, 6, 1
+62236, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61561, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+69190, 69568, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+56771, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+59130, 59834, 1, "OK", 3, 13, 8, 4, 3, 1, 2, 2
+56684, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+68218, 68984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String qbeDatamarts String dataSourceLabel String jsonQuery SpagoBICoreDatamartRetriever retriever", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57623, 1, "OK", 7, 11, 2, 1, 1, 0, 1, 1
+59840, 60413, 1, "OK", 6, 17, 13, 7, 4, 3, 3, 2
+56933, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+62236, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+57197, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+69190, 69534, 1, "OK", 3, 7, 3, 2, 2, 0, 1, 1
+56684, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+61813, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61297, 64425, 1, "OK", 8, 77, 29, 20, 14, 6, 9, 1
+65469, 66165, 1, "OK", 5, 15, 9, 5, 4, 1, 2, 2
+61632, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64711, 67130, 1, "OK", 3, 52, 18, 18, 10, 8, 4, 0
+61487, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61813, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68597, 69568, 1, "OK", 5, 23, 5, 3, 3, 0, 2, 1
+61297, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 64425, 1, "OK", 11, 72, 29, 20, 14, 6, 9, 1
+66826, 67130, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+61685, 62624, 1, "OK", 10, 17, 2, 1, 1, 0, 1, 1
+61561, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57660, 60418, 1, "OK", 7, 74, 38, 28, 15, 13, 10, 1
+58868, 59834, 1, "OK", 1, 17, 8, 4, 3, 1, 2, 2
+62304, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61112, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+67134, 71871, 1, "OK", 3, 103, 22, 22, 13, 9, 7, 0
+57256, 60709, 1, "OK", 11, 90, 41, 30, 17, 13, 11, 1
+61112, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61009, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+57660, 60469, 1, "OK", 7, 76, 38, 28, 15, 13, 10, 1
+60718, 68065, 1, "OK", 4, 169, 53, 53, 29, 24, 14, 0
+56933, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+62304, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+68597, 69534, 1, "OK", 5, 22, 5, 3, 3, 0, 2, 1
+66331, 70150, 1, "OK", 3, 82, 20, 20, 12, 8, 6, 0
+61487, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62834, 63905, 1, "OK", 8, 32, 20, 14, 9, 5, 6, 1
+61777, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+56272, 64569, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 75, 75, 35, 40, 21, 0
+57197, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+61685, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60044, 60275, 1, "OK", 4, 5, 5, 1, 1, 0, 1, 4
+68138, 69446, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet", 0, 0, 5, 3, 3, 0, 2, 1
+62092, 64425, 1, "OK", 14, 60, 27, 19, 13, 6, 8, 1
+61297, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61632, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60718, 70150, 1, "OK", 4, 216, 68, 68, 37, 31, 19, 0
+61813, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+57338, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61561, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62571, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+56771, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+57734, 58189, 1, "OK", 4, 12, 6, 4, 3, 1, 2, 1
+68138, 69534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String sourceDatasetLabel", 0, 0, 5, 3, 3, 0, 2, 1
+62661, 63145, 1, "OK", 6, 13, 6, 4, 3, 1, 2, 1
+69572, 70145, 1, "OK", 2, 12, 9, 6, 4, 2, 3, 1
+58249, 60709, 1, "OK", 7, 66, 35, 26, 14, 12, 9, 1
+62374, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+62661, 63200, 1, "OK", 6, 15, 6, 4, 3, 1, 2, 1
+63150, 64425, 1, "OK", 8, 36, 21, 15, 10, 5, 6, 1
+57734, 58244, 1, "OK", 5, 14, 6, 4, 3, 1, 2, 1
+68381, 70145, 1, "OK", 4, 38, 14, 9, 7, 2, 5, 1
+58379, 58723, 1, "OK", 5, 11, 7, 3, 2, 1, 2, 2
+68881, 68984, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+61009, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+63563, 63900, 1, "OK", 4, 9, 7, 3, 2, 1, 2, 2
+68218, 69066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String qbeDatamarts String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+71169, 71799, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+61487, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57059, 60709, 1, "OK", 11, 95, 43, 31, 18, 13, 12, 1
+61777, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61685, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62834, 63956, 1, "OK", 8, 34, 20, 14, 9, 5, 6, 1
+67392, 68061, 1, "OK", 4, 13, 2, 1, 1, 0, 1, 1
+59071, 59834, 1, "OK", 2, 14, 8, 4, 3, 1, 2, 2
+61297, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61487, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61685, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61208, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+61777, 61946, 1, "OK", 0, 4, 2, 1, 1, 0, 1, 1
+62571, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+57338, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+67329, 68061, 1, "OK", 4, 14, 2, 1, 1, 0, 1, 1
+70292, 70418, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+64209, 64420, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+58194, 60418, 1, "OK", 8, 59, 32, 24, 12, 12, 8, 1
+56272, 64707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 76, 76, 36, 40, 21, 0
+71169, 71853, 1, "OK", 3, 13, 1, 1, 1, 0, 0, 0
+70292, 70368, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+57023, 57801, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+62374, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61632, 64425, 1, "OK", 12, 71, 29, 20, 14, 6, 9, 1
+68138, 69568, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet QbeDataSet qbeDataSet String sourceDatasetLabel", 0, 0, 5, 3, 3, 0, 2, 1
+68218, 69136, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String qbeDatamarts String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+68881, 69066, 1, "OK", 3, 5, 2, 1, 1, 0, 1, 1
+71169, 71871, 1, "OK", 3, 14, 1, 1, 1, 0, 0, 0
+61632, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68881, 69136, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+61685, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 62162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68754, 68984, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+57023, 57840, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded File pathFile", 0, 0, 2, 1, 1, 0, 1, 1
+61297, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70292, 70459, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+70229, 70368, 1, "OK", 0, 4, 2, 1, 1, 0, 1, 1
+59983, 60282, 1, "OK", 5, 8, 9, 3, 2, 1, 2, 3
+61561, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68069, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 19, 19, 11, 8, 6, 0
+68218, 69228, 1, "OK", 2, 21, 2, 1, 1, 0, 1, 1
+61777, 62006, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+69070, 69446, 1, "OK", 4, 9, 3, 2, 2, 0, 1, 1
+64434, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 42, 42, 25, 17, 11, 0
+60115, 60275, 1, "OK", 5, 4, 5, 1, 1, 0, 1, 4
+57734, 60418, 1, "OK", 7, 72, 38, 28, 15, 13, 10, 1
+64434, 71853, 1, "OK", 4, 163, 42, 42, 25, 17, 11, 0
+68218, 69186, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String qbeDatamarts String dataSourceLabel", 0, 0, 2, 1, 1, 0, 1, 1
+56272, 66822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 93, 93, 45, 48, 25, 0
+61632, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57023, 57874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+67726, 68061, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+58194, 60469, 1, "OK", 8, 61, 32, 24, 12, 12, 8, 1
+56771, 57476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57805, 58189, 1, "OK", 5, 11, 6, 4, 3, 1, 2, 1
+61487, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+56272, 60714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 44, 44, 19, 25, 12, 0
+57197, 60709, 1, "OK", 11, 91, 41, 30, 17, 13, 11, 1
+67134, 68065, 1, "OK", 3, 18, 3, 3, 2, 1, 1, 0
+57805, 58244, 1, "OK", 6, 13, 6, 4, 3, 1, 2, 1
+61777, 62088, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+68069, 71853, 1, "OK", 3, 83, 19, 19, 11, 8, 6, 0
+61388, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61297, 62624, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+64434, 71871, 1, "OK", 4, 164, 42, 42, 25, 17, 11, 0
+57338, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+61561, 62624, 1, "OK", 8, 20, 2, 1, 1, 0, 1, 1
+68754, 69066, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+68069, 71871, 1, "OK", 3, 84, 19, 19, 11, 8, 6, 0
+68881, 69228, 1, "OK", 5, 10, 2, 1, 1, 0, 1, 1
+57338, 60469, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+57734, 60469, 1, "OK", 7, 74, 38, 28, 15, 13, 10, 1
+61297, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62512, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+70292, 70497, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+56771, 57546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61632, 62508, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68881, 69186, 1, "OK", 4, 9, 2, 1, 1, 0, 1, 1
+57660, 60709, 1, "OK", 7, 83, 41, 30, 17, 13, 11, 1
+61561, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56245, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 116, 116, 59, 57, 32, 0
+56518, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56684, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56933, 60709, 1, "OK", 9, 98, 43, 31, 18, 13, 12, 1
+61112, 62232, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+70229, 70418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id IDataSetDAO dao", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56245, 71853, 1, "OK", 2, 368, 116, 116, 59, 57, 32, 0
+56684, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56518, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62166, 64425, 1, "OK", 13, 59, 27, 19, 13, 6, 8, 1
+70229, 70497, 1, "OK", 0, 8, 2, 1, 1, 0, 1, 1
+69070, 69568, 1, "OK", 4, 12, 3, 2, 2, 0, 1, 1
+57412, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+61388, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+68754, 69136, 1, "OK", 1, 8, 2, 1, 1, 0, 1, 1
+70229, 70459, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer id IDataSetDAO dao", 0, 0, 2, 1, 1, 0, 1, 1
+67134, 70150, 1, "OK", 3, 65, 18, 18, 10, 8, 6, 0
+56851, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 57623, 1, "OK", 4, 15, 2, 1, 1, 0, 1, 1
+62010, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56245, 71871, 1, "OK", 2, 369, 116, 116, 59, 57, 32, 0
+69070, 69534, 1, "OK", 4, 11, 3, 2, 2, 0, 1, 1
+61388, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61632, 62567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60718, 66327, 1, "OK", 4, 133, 48, 48, 25, 23, 13, 0
+61112, 62300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+56452, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61297, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String ckanUrl Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+62512, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+62629, 64425, 1, "OK", 7, 51, 27, 19, 13, 6, 8, 1
+61777, 62162, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+60928, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+62763, 64425, 1, "OK", 7, 47, 27, 19, 13, 6, 8, 1
+64573, 71799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 41, 41, 24, 17, 11, 0
+60928, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileType String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+57805, 60418, 1, "OK", 8, 71, 38, 28, 15, 13, 10, 1
+60862, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+61297, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61813, 63145, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+56771, 57656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61561, 62758, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68754, 69186, 1, "OK", 2, 11, 2, 1, 1, 0, 1, 1
+68525, 70145, 1, "OK", 5, 36, 14, 9, 7, 2, 5, 1
+70292, 70666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet SQLDBCache cache", 0, 0, 2, 1, 1, 0, 1, 1
+67205, 68061, 1, "OK", 2, 16, 2, 1, 1, 0, 1, 1
+57480, 58189, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+57412, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+56389, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60862, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57480, 58244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+57878, 58189, 1, "OK", 5, 9, 6, 4, 3, 1, 2, 1
+60928, 61946, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56851, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+65213, 66322, 1, "OK", 6, 26, 15, 11, 7, 4, 4, 1
+56518, 57334, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 64425, 1, "OK", 6, 80, 29, 20, 14, 6, 9, 1
+68297, 68984, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dataSourceLabel String jsonQuery SpagoBICoreDatamartRetriever retriever", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 62370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61777, 62232, 1, "OK", 5, 9, 2, 1, 1, 0, 1, 1
+62714, 63905, 1, "OK", 8, 35, 20, 14, 9, 5, 6, 1
+62010, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 6, 4, 3, 1, 2, 1
+68458, 70145, 1, "OK", 5, 37, 14, 9, 7, 2, 5, 1
+61632, 62624, 1, "OK", 9, 19, 2, 1, 1, 0, 1, 1
+56590, 57192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61297, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+68297, 69066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dataSourceLabel String jsonQuery", 0, 0, 2, 1, 1, 0, 1, 1
+56771, 57729, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+65016, 66322, 1, "OK", 5, 29, 15, 11, 7, 4, 4, 1
+62714, 63956, 1, "OK", 8, 37, 20, 14, 9, 5, 6, 1
+58194, 60709, 1, "OK", 8, 68, 35, 26, 14, 12, 9, 1
+61561, 62830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 2, 1, 1, 0, 1, 1
+65148, 66322, 1, "OK", 6, 27, 15, 11, 7, 4, 4, 1
+56684, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 40, 29, 16, 13, 11, 1
+64573, 71853, 1, "OK", 4, 159, 41, 41, 24, 17, 11, 0
+62236, 64425, 1, "OK", 12, 58, 27, 19, 13, 6, 8, 1
+70292, 70725, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet SQLDBCache cache", 0, 0, 2, 1, 1, 0, 1, 1
+62451, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 20, 14, 9, 5, 6, 1
+61813, 63200, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded String fileName", 0, 0, 8, 5, 4, 1, 3, 1
+57805, 60469, 1, "OK", 8, 73, 38, 28, 15, 13, 10, 1
+56389, 57252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsId String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61632, 62657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 63905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+59411, 59828, 1, "OK", 2, 8, 4, 1, 1, 0, 1, 3
+56518, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61388, 62088, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+57412, 60418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String fileName", 0, 0, 38, 28, 15, 13, 10, 1
+60862, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+61112, 62447, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String ckanUrl String ckanId String scopeCd Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+56452, 57408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dsLabel String fileType String skipRows String limitRows String xslSheetNumber Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+68988, 70145, 1, "OK", 5, 25, 12, 8, 6, 2, 4, 1
+61632, 62710, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60928, 62006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String fileType String csvDelimiter String csvQuote String skipRows String limitRows String xslSheetNumber String ckanUrl String ckanId String scopeCd String ckanEncodig Boolean newFileUploaded", 0, 0, 2, 1, 1, 0, 1, 1
+60799, 63956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet String dsLabel String fileType String fileName", 0, 0, 22, 15, 10, 5, 7, 1
+68218, 69446, 1, "OK", 2, 25, 5, 3, 3, 0, 2, 1
+61777, 62300, 1, "OK", 6, 10, 2, 1, 1, 0, 1, 1
+57878, 58244, 1, "OK", 6, 11, 6, 4, 3, 1, 2, 1
+56272, 71165, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataSet JSONObject jsonDsConfig", 0, 0, 115, 115, 58, 57, 32, 0
+69451, 70145, 1, "OK", 1, 14, 9, 6, 4, 2, 3, 1
+68754, 69228, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+64573, 71871, 1, "OK", 4, 160, 41, 41, 24, 17, 11, 0

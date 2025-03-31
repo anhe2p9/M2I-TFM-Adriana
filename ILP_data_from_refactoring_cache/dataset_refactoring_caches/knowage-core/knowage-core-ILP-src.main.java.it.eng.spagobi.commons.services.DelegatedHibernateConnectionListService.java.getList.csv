@@ -1,0 +1,287 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3244, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+2753, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 3, 3, 3, 0, 0, 0
+2342, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+4943, 5045, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+3396, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+2578, 3095, 1, "OK", 2, 12, 4, 4, 4, 0, 0, 0
+2317, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 18, 18, 15, 3, 3, 0
+4339, 4828, 1, "OK", 3, 13, 5, 5, 4, 1, 1, 0
+4463, 5592, 1, "OK", 5, 29, 6, 6, 5, 1, 1, 0
+4365, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+4761, 5574, 1, "OK", 3, 19, 2, 2, 2, 0, 0, 0
+2753, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 9, 9, 7, 2, 2, 0
+3099, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+3432, 4796, 1, "OK", 6, 39, 11, 11, 8, 3, 3, 0
+2342, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+2342, 2747, 1, "OK", 1, 7, 3, 3, 3, 0, 0, 0
+2290, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 12, 12, 10, 2, 2, 0
+4365, 5574, 1, "OK", 5, 29, 7, 7, 6, 1, 1, 0
+3266, 4828, 1, "OK", 5, 43, 11, 11, 8, 3, 3, 0
+4943, 5574, 1, "OK", 4, 14, 2, 2, 2, 0, 0, 0
+2317, 5574, 1, "OK", 3, 79, 19, 19, 16, 3, 3, 0
+2342, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+3167, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 11, 11, 8, 3, 3, 0
+4761, 5592, 1, "OK", 3, 21, 2, 2, 2, 0, 0, 0
+2395, 3164, 1, "OK", 2, 15, 6, 6, 6, 0, 0, 0
+2317, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 6, 6, 6, 0, 0, 0
+4943, 5592, 1, "OK", 4, 16, 2, 2, 2, 0, 0, 0
+2753, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 9, 9, 7, 2, 2, 0
+2933, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 1, 1, 1, 0, 0, 0
+2317, 5592, 1, "OK", 3, 81, 19, 19, 16, 3, 3, 0
+3302, 4753, 1, "OK", 6, 39, 11, 11, 8, 3, 3, 0
+3266, 4336, 1, "OK", 5, 30, 6, 6, 4, 2, 2, 0
+4365, 5592, 1, "OK", 5, 31, 7, 7, 6, 1, 1, 0
+3167, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 4, 2, 2, 0
+3432, 4828, 1, "OK", 6, 40, 11, 11, 8, 3, 3, 0
+3544, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+2342, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+2933, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 12, 12, 9, 3, 3, 0
+4130, 4185, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+2342, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3266, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+3396, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+3432, 4336, 1, "OK", 5, 27, 6, 6, 4, 2, 2, 0
+2342, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 12, 12, 10, 2, 2, 0
+2578, 3164, 1, "OK", 3, 14, 4, 4, 4, 0, 0, 0
+3244, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+3167, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+2933, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 1, 1, 1, 0, 0, 0
+2290, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3099, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+3544, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+2933, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+3544, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+2395, 4753, 1, "OK", 5, 57, 17, 17, 14, 3, 3, 0
+3302, 4796, 1, "OK", 6, 41, 11, 11, 8, 3, 3, 0
+2933, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 8, 8, 6, 2, 2, 0
+2290, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 17, 17, 14, 3, 3, 0
+3244, 5574, 1, "OK", 6, 61, 13, 13, 10, 3, 3, 0
+2753, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 3, 3, 3, 0, 0, 0
+2317, 2575, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator String currentFieldOrder", 0, 0, 2, 2, 2, 0, 0, 0
+3432, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+2342, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 12, 12, 10, 2, 2, 0
+3396, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+3396, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+4259, 4332, 1, "OK", 1, 3, 3, 3, 2, 1, 1, 0
+2317, 3095, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator", 0, 0, 6, 6, 6, 0, 0, 0
+3244, 5592, 1, "OK", 6, 63, 13, 13, 10, 3, 3, 0
+2753, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 14, 14, 11, 3, 3, 0
+2395, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+3099, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+4130, 4241, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+3099, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+2290, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3302, 4828, 1, "OK", 6, 42, 11, 11, 8, 3, 3, 0
+4339, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 5, 5, 4, 1, 1, 0
+2290, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 17, 17, 14, 3, 3, 0
+2290, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 13, 13, 11, 2, 2, 0
+2290, 2928, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator String currentTypOrder", 0, 0, 5, 5, 5, 0, 0, 0
+2395, 2747, 1, "OK", 1, 6, 3, 3, 3, 0, 0, 0
+2578, 4753, 1, "OK", 6, 56, 15, 15, 12, 3, 3, 0
+2395, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+2395, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+2753, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 3, 3, 3, 0, 0, 0
+2753, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 14, 14, 11, 3, 3, 0
+3266, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+3302, 4336, 1, "OK", 6, 29, 6, 6, 4, 2, 2, 0
+2753, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 10, 10, 8, 2, 2, 0
+3167, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+2753, 2928, 1, "OK", 1, 1, 2, 2, 2, 0, 0, 0
+4339, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 5, 5, 4, 1, 1, 0
+4799, 5045, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+4339, 4460, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+2578, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 4, 4, 4, 0, 0, 0
+2342, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3544, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+2933, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 13, 13, 10, 3, 3, 0
+2395, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+3302, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+3432, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+2342, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 17, 17, 14, 3, 3, 0
+2395, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3266, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+2578, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 15, 15, 12, 3, 3, 0
+3167, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+3266, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+4799, 5574, 1, "OK", 4, 18, 2, 2, 2, 0, 0, 0
+2578, 2747, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+3544, 5574, 1, "OK", 7, 55, 13, 13, 10, 3, 3, 0
+2578, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 4, 4, 4, 0, 0, 0
+3167, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+2317, 3164, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer", 0, 0, 6, 6, 6, 0, 0, 0
+2933, 5574, 1, "OK", 6, 69, 14, 14, 11, 3, 3, 0
+3396, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+2395, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 12, 12, 10, 2, 2, 0
+4799, 5592, 1, "OK", 4, 20, 2, 2, 2, 0, 0, 0
+3099, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+2933, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 1, 1, 1, 0, 0, 0
+3544, 5592, 1, "OK", 7, 57, 13, 13, 10, 3, 3, 0
+2342, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+4463, 4753, 1, "OK", 4, 7, 4, 4, 3, 1, 1, 0
+4151, 4185, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+3396, 5574, 1, "OK", 8, 58, 13, 13, 10, 3, 3, 0
+3432, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+3432, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+2290, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 18, 18, 15, 3, 3, 0
+2342, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 17, 17, 14, 3, 3, 0
+2933, 5592, 1, "OK", 6, 71, 14, 14, 11, 3, 3, 0
+2342, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 13, 13, 11, 2, 2, 0
+2342, 2928, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator String currentTypOrder", 0, 0, 5, 5, 5, 0, 0, 0
+2578, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 15, 15, 12, 3, 3, 0
+3099, 5574, 1, "OK", 5, 63, 13, 13, 10, 3, 3, 0
+2395, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 12, 12, 10, 2, 2, 0
+2578, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 4, 4, 4, 0, 0, 0
+2290, 5574, 1, "OK", 2, 80, 19, 19, 16, 3, 3, 0
+2753, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 15, 15, 12, 3, 3, 0
+3396, 5592, 1, "OK", 8, 60, 13, 13, 10, 3, 3, 0
+2290, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 6, 6, 6, 0, 0, 0
+2578, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 10, 10, 8, 2, 2, 0
+3099, 5592, 1, "OK", 5, 65, 13, 13, 10, 3, 3, 0
+4339, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+2317, 4753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext", 0, 0, 17, 17, 14, 3, 3, 0
+2290, 5592, 1, "OK", 2, 82, 19, 19, 16, 3, 3, 0
+3302, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+2753, 5574, 1, "OK", 5, 70, 16, 16, 13, 3, 3, 0
+4365, 4753, 1, "OK", 4, 9, 5, 5, 4, 1, 1, 0
+4463, 4796, 1, "OK", 4, 9, 4, 4, 3, 1, 1, 0
+2753, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 3, 3, 3, 0, 0, 0
+3266, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+3167, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+4339, 5574, 1, "OK", 4, 30, 7, 7, 6, 1, 1, 0
+2578, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 10, 10, 8, 2, 2, 0
+2753, 5592, 1, "OK", 5, 72, 16, 16, 13, 3, 3, 0
+4151, 4241, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+2317, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+2933, 3095, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+3266, 5574, 1, "OK", 6, 60, 13, 13, 10, 3, 3, 0
+4339, 5592, 1, "OK", 4, 32, 7, 7, 6, 1, 1, 0
+3302, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+2395, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3302, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+3167, 5574, 1, "OK", 6, 62, 13, 13, 10, 3, 3, 0
+4463, 4828, 1, "OK", 4, 10, 4, 4, 3, 1, 1, 0
+2317, 2747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator", 0, 0, 3, 3, 3, 0, 0, 0
+3432, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+2317, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+2342, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 18, 18, 15, 3, 3, 0
+2317, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+4365, 4796, 1, "OK", 4, 11, 5, 5, 4, 1, 1, 0
+2395, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 17, 17, 14, 3, 3, 0
+3266, 5592, 1, "OK", 6, 62, 13, 13, 10, 3, 3, 0
+3167, 5592, 1, "OK", 6, 64, 13, 13, 10, 3, 3, 0
+3432, 5574, 1, "OK", 7, 57, 13, 13, 10, 3, 3, 0
+2290, 2575, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator String currentFieldOrder", 0, 0, 2, 2, 2, 0, 0, 0
+2342, 5574, 1, "OK", 4, 78, 19, 19, 16, 3, 3, 0
+2290, 3095, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator", 0, 0, 6, 6, 6, 0, 0, 0
+3244, 4753, 1, "OK", 5, 41, 11, 11, 8, 3, 3, 0
+2342, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 6, 6, 6, 0, 0, 0
+2395, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+2395, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 17, 17, 14, 3, 3, 0
+3432, 5592, 1, "OK", 7, 59, 13, 13, 10, 3, 3, 0
+2317, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+2578, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 4, 4, 4, 0, 0, 0
+2342, 5592, 1, "OK", 4, 80, 19, 19, 16, 3, 3, 0
+4365, 4828, 1, "OK", 4, 12, 5, 5, 4, 1, 1, 0
+2395, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 13, 13, 11, 2, 2, 0
+2317, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+2753, 3095, 1, "OK", 1, 6, 3, 3, 3, 0, 0, 0
+2395, 2928, 1, "OK", 1, 8, 5, 5, 5, 0, 0, 0
+2578, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 15, 15, 12, 3, 3, 0
+5134, 5574, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+2317, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 12, 12, 10, 2, 2, 0
+2933, 3164, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+5134, 5592, 1, "OK", 4, 11, 1, 1, 1, 0, 0, 0
+3244, 4796, 1, "OK", 5, 43, 11, 11, 8, 3, 3, 0
+3302, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 12, 12, 9, 3, 3, 0
+2578, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 4, 4, 4, 0, 0, 0
+2578, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 15, 15, 12, 3, 3, 0
+2578, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 11, 11, 9, 2, 2, 0
+2578, 2928, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+2317, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 12, 12, 10, 2, 2, 0
+3302, 5574, 1, "OK", 7, 59, 13, 13, 10, 3, 3, 0
+2290, 3164, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer", 0, 0, 6, 6, 6, 0, 0, 0
+2342, 2575, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator String currentFieldOrder", 0, 0, 2, 2, 2, 0, 0, 0
+3244, 4828, 1, "OK", 5, 44, 11, 11, 8, 3, 3, 0
+3302, 5592, 1, "OK", 7, 61, 13, 13, 10, 3, 3, 0
+2342, 3095, 1, "OK", 1, 14, 6, 6, 6, 0, 0, 0
+2395, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 18, 18, 15, 3, 3, 0
+3544, 4753, 1, "OK", 6, 35, 11, 11, 8, 3, 3, 0
+2933, 4753, 1, "OK", 6, 49, 12, 12, 9, 3, 3, 0
+4463, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 4, 4, 3, 1, 1, 0
+4856, 5045, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+2753, 3164, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+3244, 4336, 1, "OK", 5, 31, 6, 6, 4, 2, 2, 0
+4972, 5045, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+2395, 5574, 1, "OK", 5, 77, 19, 19, 16, 3, 3, 0
+4856, 5574, 1, "OK", 3, 15, 2, 2, 2, 0, 0, 0
+3396, 4753, 1, "OK", 7, 38, 11, 11, 8, 3, 3, 0
+2317, 3393, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext int pagedRows SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+2933, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 1, 1, 1, 0, 0, 0
+3099, 4753, 1, "OK", 4, 43, 11, 11, 8, 3, 3, 0
+2395, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 6, 6, 6, 0, 0, 0
+4463, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 4, 4, 3, 1, 1, 0
+4972, 5574, 1, "OK", 5, 13, 2, 2, 2, 0, 0, 0
+3244, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+2395, 5592, 1, "OK", 5, 79, 19, 19, 16, 3, 3, 0
+2290, 4753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext", 0, 0, 17, 17, 14, 3, 3, 0
+2317, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj", 0, 0, 17, 17, 14, 3, 3, 0
+4365, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 5, 5, 4, 1, 1, 0
+4856, 5592, 1, "OK", 3, 17, 2, 2, 2, 0, 0, 0
+3544, 4796, 1, "OK", 6, 37, 11, 11, 8, 3, 3, 0
+2578, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list String valuefilter", 0, 0, 16, 16, 13, 3, 3, 0
+2933, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 12, 12, 9, 3, 3, 0
+2933, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 1, 1, 1, 0, 0, 0
+4972, 5592, 1, "OK", 5, 15, 2, 2, 2, 0, 0, 0
+2753, 4753, 1, "OK", 5, 50, 14, 14, 11, 3, 3, 0
+2578, 5574, 1, "OK", 6, 76, 17, 17, 14, 3, 3, 0
+2342, 3164, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator InitializerIFace serviceInitializer", 0, 0, 6, 6, 6, 0, 0, 0
+4669, 4753, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+2317, 3429, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+3396, 4796, 1, "OK", 7, 40, 11, 11, 8, 3, 3, 0
+2290, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+2317, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list Object valuefilterObj String valuefilter", 0, 0, 17, 17, 14, 3, 3, 0
+4339, 4753, 1, "OK", 3, 10, 5, 5, 4, 1, 1, 0
+2578, 3536, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean SourceBean statement", 0, 0, 4, 4, 4, 0, 0, 0
+4365, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 5, 5, 4, 1, 1, 0
+2317, 4460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 13, 13, 11, 2, 2, 0
+4365, 4460, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+3099, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 11, 11, 8, 3, 3, 0
+3544, 4828, 1, "OK", 6, 38, 11, 11, 8, 3, 3, 0
+2317, 2928, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Transaction tx PaginatorIFace paginator String currentTypOrder", 0, 0, 5, 5, 5, 0, 0, 0
+2578, 5592, 1, "OK", 6, 78, 17, 17, 14, 3, 3, 0
+2753, 3241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 3, 3, 3, 0, 0, 0
+2933, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 12, 12, 9, 3, 3, 0
+2290, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+2290, 2747, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator", 0, 0, 3, 3, 3, 0, 0, 0
+4287, 4327, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+2933, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 1, 1, 1, 0, 0, 0
+2290, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 6, 6, 6, 0, 0, 0
+3266, 4753, 1, "OK", 5, 40, 11, 11, 8, 3, 3, 0
+3167, 4753, 1, "OK", 5, 42, 11, 11, 8, 3, 3, 0
+2395, 2575, 1, "OK", 1, 1, 2, 2, 2, 0, 0, 0
+3396, 4828, 1, "OK", 7, 41, 11, 11, 8, 3, 3, 0
+3544, 4336, 1, "OK", 5, 25, 6, 6, 4, 2, 2, 0
+2395, 3095, 1, "OK", 1, 13, 6, 6, 6, 0, 0, 0
+2753, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 14, 14, 11, 3, 3, 0
+2933, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 7, 7, 5, 2, 2, 0
+2753, 3263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext", 0, 0, 3, 3, 3, 0, 0, 0
+3244, 4940, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj", 0, 0, 11, 11, 8, 3, 3, 0
+3099, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 11, 11, 8, 3, 3, 0
+4463, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 5, 5, 4, 1, 1, 0
+4339, 4796, 1, "OK", 3, 12, 5, 5, 4, 1, 1, 0
+2290, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 17, 17, 14, 3, 3, 0
+3432, 4753, 1, "OK", 6, 37, 11, 11, 8, 3, 3, 0
+3396, 4336, 1, "OK", 7, 28, 6, 6, 4, 2, 2, 0
+2342, 4753, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext", 0, 0, 17, 17, 14, 3, 3, 0
+3544, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List rowsVector", 0, 0, 6, 6, 4, 2, 2, 0
+2290, 3299, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Session aSession Transaction tx PaginatorIFace paginator InitializerIFace serviceInitializer RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 6, 0, 0, 0
+2933, 4362, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean List rowsVector", 0, 0, 7, 7, 5, 2, 2, 0
+3099, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 6, 6, 4, 2, 2, 0
+3266, 4796, 1, "OK", 5, 42, 11, 11, 8, 3, 3, 0
+4463, 5574, 1, "OK", 5, 27, 6, 6, 5, 1, 1, 0
+2753, 4828, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 14, 14, 11, 3, 3, 0
+2290, 4336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator RequestContextIFace serviceRequestContext SourceBean rowsSourceBean", 0, 0, 12, 12, 10, 2, 2, 0
+3167, 4796, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  RequestContextIFace serviceRequestContext ListIFace list", 0, 0, 11, 11, 8, 3, 3, 0
+3244, 4969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list Object valuefilterObj String valuefilter", 0, 0, 11, 11, 8, 3, 3, 0
+4761, 5045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 1, 1, 1, 0, 0, 0

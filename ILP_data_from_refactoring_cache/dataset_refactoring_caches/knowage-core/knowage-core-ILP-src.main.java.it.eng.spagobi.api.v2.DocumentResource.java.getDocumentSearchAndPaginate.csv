@@ -1,0 +1,195 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+18409, 18705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 2, 2, 2, 0, 0, 0
+18511, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+19911, 20269, 1, "OK", 4, 9, 3, 3, 3, 0, 0, 0
+18945, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 7, 7, 6, 1, 1, 0
+20806, 21214, 1, "OK", 5, 12, 12, 12, 6, 6, 3, 0
+21181, 21358, 1, "OK", 4, 5, 1, 1, 1, 0, 0, 0
+20769, 21332, 1, "OK", 7, 15, 13, 13, 7, 6, 3, 0
+18945, 21577, 1, "OK", 12, 66, 25, 25, 18, 7, 4, 0
+18452, 18941, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 6, 6, 6, 0, 0, 0
+18588, 18821, 1, "OK", 3, 6, 4, 4, 4, 0, 0, 0
+20769, 21358, 1, "OK", 7, 17, 13, 13, 7, 6, 3, 0
+18338, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18274, 18821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 4, 4, 4, 0, 0, 0
+18338, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18409, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+18452, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+20806, 21239, 1, "OK", 5, 13, 12, 12, 6, 6, 3, 0
+20028, 20269, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+18945, 19031, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+18374, 18821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 4, 4, 4, 0, 0, 0
+19401, 20269, 1, "OK", 4, 22, 4, 4, 4, 0, 0, 0
+20875, 21166, 1, "OK", 5, 7, 9, 5, 4, 1, 2, 2
+18296, 18705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 2, 2, 2, 0, 0, 0
+18945, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18708, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18338, 18941, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 6, 6, 6, 0, 0, 0
+20145, 20269, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+20334, 21577, 1, "OK", 9, 31, 16, 16, 10, 6, 3, 0
+18588, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18588, 19397, 1, "OK", 6, 20, 11, 11, 10, 1, 1, 0
+19790, 20025, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+18511, 18705, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+18274, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18274, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18452, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18824, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18409, 18821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 4, 4, 4, 0, 0, 0
+19790, 21577, 1, "OK", 13, 45, 20, 20, 14, 6, 3, 0
+18374, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18511, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+18338, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+21218, 21332, 1, "OK", 5, 2, 1, 1, 1, 0, 0, 0
+18296, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+18452, 21577, 1, "OK", 13, 78, 31, 31, 24, 7, 4, 0
+20806, 21332, 1, "OK", 8, 14, 13, 13, 7, 6, 3, 0
+18945, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 8, 8, 7, 1, 1, 0
+20334, 20603, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+21218, 21358, 1, "OK", 5, 4, 1, 1, 1, 0, 0, 0
+18374, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18452, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+18338, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18274, 18941, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 6, 6, 6, 0, 0, 0
+19151, 19397, 1, "OK", 3, 6, 4, 4, 3, 1, 1, 0
+19151, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 5, 5, 4, 1, 1, 0
+18338, 21577, 1, "OK", 13, 81, 31, 31, 24, 7, 4, 0
+18452, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+20806, 21358, 1, "OK", 8, 16, 13, 13, 7, 6, 3, 0
+19790, 20603, 1, "OK", 7, 18, 6, 6, 6, 0, 0, 0
+20663, 21177, 1, "OK", 8, 13, 12, 12, 6, 6, 3, 0
+18588, 18941, 1, "OK", 4, 9, 6, 6, 6, 0, 0, 0
+18374, 18941, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 6, 6, 6, 0, 0, 0
+18409, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18409, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18274, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18708, 18821, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+18338, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+18588, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+20663, 21214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jarr JSONObject jo", 0, 0, 12, 12, 6, 6, 3, 0
+18374, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18296, 18821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 4, 4, 4, 0, 0, 0
+18274, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18452, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+18338, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+19401, 19908, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+18588, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+20615, 21177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO documentsDao JSONArray jarr", 0, 0, 12, 12, 6, 6, 3, 0
+18511, 18821, 1, "OK", 2, 7, 4, 4, 4, 0, 0, 0
+18274, 21577, 1, "OK", 12, 83, 31, 31, 24, 7, 4, 0
+18588, 21577, 1, "OK", 14, 76, 31, 31, 24, 7, 4, 0
+19790, 20142, 1, "OK", 4, 9, 3, 3, 3, 0, 0, 0
+20663, 21239, 1, "OK", 8, 15, 12, 12, 6, 6, 3, 0
+19151, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 4, 4, 3, 1, 1, 0
+20615, 21214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO documentsDao JSONArray jarr JSONObject jo", 0, 0, 12, 12, 6, 6, 3, 0
+18824, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 8, 8, 7, 1, 1, 0
+18588, 19031, 1, "OK", 5, 11, 7, 7, 7, 0, 0, 0
+18824, 19397, 1, "OK", 4, 14, 7, 7, 6, 1, 1, 0
+18708, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 10, 10, 9, 1, 1, 0
+18708, 19397, 1, "OK", 5, 17, 9, 9, 8, 1, 1, 0
+18409, 18941, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 6, 6, 6, 0, 0, 0
+18374, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18274, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+19151, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 6, 6, 5, 1, 1, 0
+18409, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18945, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 9, 9, 8, 1, 1, 0
+18296, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18338, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+18296, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18374, 21577, 1, "OK", 13, 80, 31, 31, 24, 7, 4, 0
+18274, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+19151, 21577, 1, "OK", 13, 62, 24, 24, 17, 7, 4, 0
+18374, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+19911, 20025, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+20615, 21239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO documentsDao JSONObject jo", 0, 0, 12, 12, 6, 6, 3, 0
+18511, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18511, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18708, 18941, 1, "OK", 3, 6, 4, 4, 4, 0, 0, 0
+18588, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+19911, 21577, 1, "OK", 12, 42, 19, 19, 13, 6, 3, 0
+20663, 21332, 1, "OK", 10, 16, 13, 13, 7, 6, 3, 0
+18708, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 9, 9, 8, 1, 1, 0
+18452, 18705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 2, 2, 2, 0, 0, 0
+18409, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18374, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+18824, 18941, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+18824, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 7, 7, 6, 1, 1, 0
+19151, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 10, 10, 9, 1, 1, 0
+18274, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+18409, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+18511, 18941, 1, "OK", 3, 10, 6, 6, 6, 0, 0, 0
+20606, 21577, 1, "OK", 9, 27, 14, 14, 8, 6, 3, 0
+20028, 21577, 1, "OK", 11, 39, 18, 18, 12, 6, 3, 0
+18409, 21577, 1, "OK", 13, 79, 31, 31, 24, 7, 4, 0
+18296, 18941, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 6, 6, 6, 0, 0, 0
+20663, 21358, 1, "OK", 10, 18, 13, 13, 7, 6, 3, 0
+18296, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18452, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+19401, 20025, 1, "OK", 2, 16, 2, 2, 2, 0, 0, 0
+18588, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+19911, 20603, 1, "OK", 6, 15, 5, 5, 5, 0, 0, 0
+18374, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+21001, 21138, 1, "OK", 3, 3, 5, 2, 2, 0, 1, 3
+20615, 21332, 1, "OK", 9, 18, 13, 13, 7, 6, 3, 0
+19401, 21577, 1, "OK", 12, 55, 20, 20, 14, 6, 3, 0
+19790, 20269, 1, "OK", 5, 12, 4, 4, 4, 0, 0, 0
+18511, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+18708, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 11, 11, 10, 1, 1, 0
+20145, 21577, 1, "OK", 10, 36, 17, 17, 11, 6, 3, 0
+21243, 21332, 1, "OK", 4, 1, 1, 1, 1, 0, 0, 0
+20952, 21138, 1, "OK", 2, 4, 5, 2, 2, 0, 1, 3
+20769, 21177, 1, "OK", 4, 12, 12, 12, 6, 6, 3, 0
+21001, 21159, 1, "OK", 4, 4, 5, 2, 2, 0, 1, 3
+18338, 18705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 2, 2, 2, 0, 0, 0
+20835, 21172, 1, "OK", 5, 9, 11, 8, 5, 3, 3, 1
+18409, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+18824, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 9, 9, 8, 1, 1, 0
+18708, 21577, 1, "OK", 14, 73, 29, 29, 22, 7, 4, 0
+19911, 20142, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+18511, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+20615, 21358, 1, "OK", 9, 20, 13, 13, 7, 6, 3, 0
+18338, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+19151, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 7, 7, 6, 1, 1, 0
+20028, 20603, 1, "OK", 5, 12, 4, 4, 4, 0, 0, 0
+18296, 20025, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+18824, 21577, 1, "OK", 13, 70, 27, 27, 20, 7, 4, 0
+18708, 19031, 1, "OK", 4, 8, 5, 5, 5, 0, 0, 0
+18511, 21577, 1, "OK", 13, 77, 31, 31, 24, 7, 4, 0
+20769, 21214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray jarr JSONObject jo", 0, 0, 12, 12, 6, 6, 3, 0
+18824, 19031, 1, "OK", 3, 5, 3, 3, 3, 0, 0, 0
+18296, 21577, 1, "OK", 12, 82, 31, 31, 24, 7, 4, 0
+19401, 20603, 1, "OK", 6, 28, 6, 6, 6, 0, 0, 0
+20952, 21159, 1, "OK", 3, 5, 5, 2, 2, 0, 1, 3
+21243, 21358, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 0
+18511, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+18708, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+20145, 20603, 1, "OK", 4, 9, 3, 3, 3, 0, 0, 0
+18296, 19031, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 7, 7, 7, 0, 0, 0
+18945, 19397, 1, "OK", 2, 10, 5, 5, 4, 1, 1, 0
+18945, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 6, 6, 5, 1, 1, 0
+18409, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0
+18274, 18705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 2, 2, 2, 0, 0, 0
+20028, 20142, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+18452, 18821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 4, 4, 4, 0, 0, 0
+18824, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 13, 13, 12, 1, 1, 0
+20769, 21239, 1, "OK", 4, 14, 12, 12, 6, 6, 3, 0
+18588, 18705, 1, "OK", 2, 3, 2, 2, 2, 0, 0, 0
+18274, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+18374, 18705, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 2, 2, 2, 0, 0, 0
+18511, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+18296, 20603, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 17, 17, 16, 1, 1, 0
+19401, 20142, 1, "OK", 3, 19, 3, 3, 3, 0, 0, 0
+18708, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18588, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+19211, 19393, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+18374, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 15, 15, 14, 1, 1, 0
+18338, 18821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer page Integer item_per_page List<CriteriaParameter> disjunctions", 0, 0, 4, 4, 4, 0, 0, 0
+18824, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 10, 10, 9, 1, 1, 0
+21181, 21332, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 0
+19151, 20269, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 8, 8, 7, 1, 1, 0
+18452, 19908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 12, 12, 11, 1, 1, 0
+18452, 19397, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter", 0, 0, 11, 11, 10, 1, 1, 0
+18945, 19474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String UserFilter List<CriteriaParameter> restritions", 0, 0, 5, 5, 4, 1, 1, 0
+19790, 19908, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+20806, 21177, 1, "OK", 5, 11, 12, 12, 6, 6, 3, 0
+18296, 20142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile Integer page Integer item_per_page List<CriteriaParameter> disjunctions String UserFilter List<CriteriaParameter> restritions", 0, 0, 14, 14, 13, 1, 1, 0

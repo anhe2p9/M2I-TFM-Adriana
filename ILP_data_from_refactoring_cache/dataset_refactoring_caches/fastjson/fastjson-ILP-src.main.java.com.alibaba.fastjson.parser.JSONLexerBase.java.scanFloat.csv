@@ -1,0 +1,142 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+83213, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+83092, 83330, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+84731, 85256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean exp", 0, 0, 16, 12, 8, 4, 4, 1
+85004, 85241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 9, 5, 4, 1, 2, 2
+83060, 83284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote", 0, 0, 1, 1, 1, 0, 0, 0
+83117, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 72, 72, 41, 31, 17, 0
+83340, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 17, 0
+83166, 83330, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+83166, 88213, 1, "OK", 3, 146, 74, 74, 43, 31, 17, 0
+83889, 85256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 16, 10, 8, 1
+85038, 85222, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 3, 3, 0, 1, 3
+83060, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 72, 72, 41, 31, 17, 0
+83501, 85256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+85875, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 8, 2, 4, 1
+83860, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 36, 24, 12, 12, 1
+83860, 85892, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 16, 10, 8, 1
+84872, 84986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 4, 2, 2, 0, 1, 2
+84872, 85241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 13, 7, 6, 1, 3, 2
+83543, 84715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 19, 12, 7, 6, 1
+83117, 83330, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+83296, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+83448, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 39, 31, 17, 0
+83117, 83284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote", 0, 0, 1, 1, 1, 0, 0, 0
+86860, 87830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal float value", 0, 0, 10, 7, 6, 1, 3, 1
+83936, 84778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 15, 9, 6, 4, 1
+84792, 85892, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 15, 11, 7, 4, 4, 1
+86860, 87053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal float value", 0, 0, 3, 2, 2, 0, 1, 1
+86910, 87807, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83092, 83284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote", 0, 0, 1, 1, 1, 0, 0, 0
+85906, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 8, 2, 4, 1
+83501, 83922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power boolean small", 0, 0, 7, 5, 4, 1, 2, 1
+83092, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 72, 72, 41, 31, 17, 0
+83889, 84715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 14, 8, 6, 4, 1
+84792, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 21, 15, 6, 8, 1
+86910, 87830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 10, 7, 6, 1, 3, 1
+83543, 83922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power boolean small", 0, 0, 7, 5, 4, 1, 2, 1
+83936, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+87069, 87771, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 5, 4, 1, 2, 1
+87930, 88213, 1, "OK", 4, 10, 2, 2, 2, 0, 0, 0
+83501, 84715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 19, 12, 7, 6, 1
+83166, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 72, 72, 41, 31, 17, 0
+86910, 87053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 3, 2, 2, 0, 1, 1
+83889, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+83573, 83829, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 3, 3, 0, 1, 2
+83060, 88213, 1, "OK", 1, 150, 74, 74, 43, 31, 17, 0
+84731, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 17, 12, 5, 6, 1
+83936, 85892, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 16, 10, 8, 1
+86393, 86526, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+83166, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+84211, 84557, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 1, 4
+86823, 87807, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83501, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 36, 24, 12, 12, 1
+83936, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 36, 24, 12, 12, 1
+83543, 84778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 20, 13, 7, 6, 1
+87097, 87756, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 3, 3, 0, 1, 2
+83117, 88213, 1, "OK", 2, 147, 74, 74, 43, 31, 17, 0
+83340, 88213, 1, "OK", 5, 140, 73, 73, 42, 31, 17, 0
+83060, 83330, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+83296, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+87069, 87807, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 5, 4, 1, 2, 1
+83092, 88213, 1, "OK", 1, 148, 74, 74, 43, 31, 17, 0
+83213, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+87600, 87732, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 1, 1, 1, 0, 0, 2
+87069, 87830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 7, 5, 4, 1, 2, 1
+83889, 84778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 15, 9, 6, 4, 1
+83448, 88213, 0, "Compilation unit does not compile after method extraction.", 6, 135, 72, 72, 41, 31, 17, 0
+83501, 84778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 20, 13, 7, 6, 1
+83966, 84700, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 10, 7, 3, 3, 2
+87097, 87732, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 1, 2
+84731, 84778, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 1
+83543, 85256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+86823, 87771, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83213, 83284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 1, 1, 1, 0, 0, 0
+85906, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 5, 4, 1, 2, 1
+84018, 84700, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 10, 7, 3, 3, 2
+84731, 85892, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean exp", 0, 0, 16, 12, 8, 4, 4, 1
+86958, 87771, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83625, 83829, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 3, 3, 0, 1, 2
+87347, 87732, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 2, 2, 0, 0, 2
+83117, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+83060, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+83340, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 1, 1, 1, 0, 0, 0
+85936, 86166, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+83501, 85892, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+83501, 83844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal", 0, 0, 7, 5, 4, 1, 2, 1
+86884, 87771, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83060, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+84271, 84557, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 7, 3, 3, 0, 1, 4
+83426, 88213, 1, "OK", 5, 136, 72, 72, 41, 31, 17, 0
+83860, 85256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 16, 10, 8, 1
+83889, 85892, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 16, 10, 8, 1
+84731, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 22, 16, 6, 8, 1
+83117, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+83340, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 1, 1, 1, 0, 0, 0
+83426, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 39, 31, 17, 0
+83092, 83414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+86348, 86673, 1, "OK", 6, 9, 7, 5, 4, 1, 2, 1
+86823, 87053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal float value", 0, 0, 3, 2, 2, 0, 1, 1
+83543, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 36, 24, 12, 12, 1
+85936, 86133, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+83860, 84715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 14, 8, 6, 4, 1
+83092, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+84792, 85256, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 15, 11, 7, 4, 4, 1
+83166, 83438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote boolean negative", 0, 0, 2, 2, 2, 0, 0, 0
+86823, 87830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal float value", 0, 0, 10, 7, 6, 1, 3, 1
+84079, 84580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power", 0, 0, 11, 5, 4, 1, 2, 3
+83936, 85256, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 26, 16, 10, 8, 1
+86884, 87053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 3, 2, 2, 0, 1, 1
+83213, 88213, 1, "OK", 4, 145, 74, 74, 43, 31, 17, 0
+83860, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+86455, 86526, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+85875, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 5, 4, 1, 2, 1
+86958, 87830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 10, 7, 6, 1, 3, 1
+83543, 83875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power", 0, 0, 7, 5, 4, 1, 2, 1
+86958, 87053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 3, 2, 2, 0, 1, 1
+84820, 84986, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 4, 2, 2, 0, 1, 2
+84820, 85241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 13, 7, 6, 1, 3, 2
+84140, 84580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power", 0, 0, 11, 5, 4, 1, 2, 3
+84173, 84580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power", 0, 0, 11, 5, 4, 1, 2, 3
+86884, 87830, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal", 0, 0, 10, 7, 6, 1, 3, 1
+83296, 88213, 1, "OK", 4, 141, 73, 73, 42, 31, 17, 0
+86860, 87807, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83166, 83284, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean quote", 0, 0, 1, 1, 1, 0, 0, 0
+83936, 84715, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 14, 8, 6, 4, 1
+83543, 85892, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 31, 20, 11, 10, 1
+83543, 83844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal", 0, 0, 7, 5, 4, 1, 2, 1
+83296, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 40, 31, 17, 0
+86690, 87918, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal float value", 0, 0, 13, 13, 9, 4, 3, 0
+83889, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 36, 24, 12, 12, 1
+83213, 87918, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 72, 72, 41, 31, 17, 0
+84792, 86332, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 16, 11, 5, 6, 1
+83501, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 41, 28, 13, 14, 1
+85936, 86216, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+83543, 86673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 41, 28, 13, 14, 1
+86910, 87771, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+86884, 87807, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+86958, 87807, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+86860, 87771, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 7, 6, 1, 3, 1
+83213, 83330, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal boolean negative", 0, 0, 1, 1, 1, 0, 0, 0
+83501, 83875, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal long intVal long power", 0, 0, 7, 5, 4, 1, 2, 1
+83860, 84778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 15, 9, 6, 4, 1

@@ -1,0 +1,57 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7643, 7867, 1, "OK", 3, 6, 11, 3, 2, 1, 2, 4
+6668, 8402, 1, "OK", 4, 48, 40, 31, 13, 18, 9, 1
+7875, 8104, 1, "OK", 5, 6, 6, 2, 2, 0, 1, 4
+7179, 8302, 1, "OK", 4, 31, 29, 11, 7, 4, 6, 3
+5545, 6483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject toReturn JSONObject configJSON Config dm", 0, 0, 2, 2, 2, 0, 0, 0
+5545, 8406, 1, "OK", 1, 75, 43, 43, 16, 27, 9, 0
+7138, 8302, 1, "OK", 3, 33, 29, 11, 7, 4, 6, 3
+7718, 7858, 1, "OK", 3, 4, 6, 1, 1, 0, 1, 5
+5916, 8430, 1, "OK", 3, 67, 43, 43, 16, 27, 9, 0
+7260, 8112, 1, "OK", 5, 23, 21, 9, 5, 4, 4, 3
+5599, 6483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject toReturn JSONObject configJSON Config dm", 0, 0, 2, 2, 2, 0, 0, 0
+5599, 8406, 1, "OK", 1, 73, 43, 43, 16, 27, 9, 0
+5945, 6256, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+5936, 8461, 1, "OK", 4, 68, 43, 43, 16, 27, 9, 0
+6487, 8406, 1, "OK", 4, 52, 41, 41, 14, 27, 9, 0
+5545, 8430, 1, "OK", 1, 77, 43, 43, 16, 27, 9, 0
+6508, 8402, 1, "OK", 4, 50, 40, 31, 13, 18, 9, 1
+7048, 8302, 1, "OK", 3, 34, 29, 11, 7, 4, 6, 3
+5991, 6256, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+5641, 6483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject configJSON Config dm", 0, 0, 2, 2, 2, 0, 0, 0
+5641, 8406, 1, "OK", 2, 72, 43, 43, 16, 27, 9, 0
+7609, 8068, 1, "OK", 3, 12, 17, 5, 4, 1, 3, 4
+5916, 8461, 1, "OK", 3, 69, 43, 43, 16, 27, 9, 0
+5599, 8430, 1, "OK", 1, 75, 43, 43, 16, 27, 9, 0
+7484, 8112, 1, "OK", 4, 16, 21, 9, 5, 4, 4, 3
+5567, 6483, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject toReturn JSONObject configJSON Config dm", 0, 0, 2, 2, 2, 0, 0, 0
+5567, 8406, 1, "OK", 1, 74, 43, 43, 16, 27, 9, 0
+6487, 8430, 1, "OK", 4, 54, 41, 41, 14, 27, 9, 0
+7765, 7858, 1, "OK", 3, 3, 6, 1, 1, 0, 1, 5
+7439, 8112, 1, "OK", 4, 18, 21, 9, 5, 4, 4, 3
+6128, 6256, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+5641, 8430, 1, "OK", 2, 74, 43, 43, 16, 27, 9, 0
+7402, 8112, 1, "OK", 4, 20, 21, 9, 5, 4, 4, 3
+7340, 8112, 1, "OK", 4, 21, 21, 9, 5, 4, 4, 3
+5545, 8461, 1, "OK", 1, 79, 43, 43, 16, 27, 9, 0
+6724, 8397, 1, "OK", 4, 46, 37, 21, 11, 10, 8, 2
+7643, 8068, 1, "OK", 4, 11, 17, 5, 4, 1, 3, 4
+6724, 6987, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+5599, 8461, 1, "OK", 1, 77, 43, 43, 16, 27, 9, 0
+5567, 8430, 1, "OK", 1, 76, 43, 43, 16, 27, 9, 0
+7609, 8104, 1, "OK", 4, 13, 17, 5, 4, 1, 3, 4
+6487, 8461, 1, "OK", 4, 56, 41, 41, 14, 27, 9, 0
+7192, 8112, 1, "OK", 4, 24, 21, 9, 5, 4, 4, 3
+6993, 8397, 1, "OK", 3, 39, 34, 20, 10, 10, 7, 2
+6551, 8402, 1, "OK", 4, 49, 40, 31, 13, 18, 9, 1
+7609, 7867, 1, "OK", 2, 7, 11, 3, 2, 1, 2, 4
+7875, 8068, 1, "OK", 4, 5, 6, 2, 2, 0, 1, 4
+5936, 8406, 1, "OK", 4, 64, 43, 43, 16, 27, 9, 0
+5936, 6483, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+5641, 8461, 1, "OK", 2, 76, 43, 43, 16, 27, 9, 0
+5567, 8461, 1, "OK", 1, 78, 43, 43, 16, 27, 9, 0
+7643, 8104, 1, "OK", 5, 12, 17, 5, 4, 1, 3, 4
+6039, 6256, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+5916, 8406, 1, "OK", 3, 65, 43, 43, 16, 27, 9, 0
+5916, 6483, 1, "OK", 0, 12, 2, 2, 2, 0, 0, 0
+5936, 8430, 1, "OK", 4, 66, 43, 43, 16, 27, 9, 0

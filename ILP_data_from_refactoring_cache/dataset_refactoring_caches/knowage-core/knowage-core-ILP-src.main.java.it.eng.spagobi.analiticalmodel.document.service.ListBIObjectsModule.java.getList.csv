@@ -1,0 +1,699 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2863, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4922, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 8, 8, 7, 1, 1, 0
+5595, 5820, 1, "OK", 2, 5, 3, 3, 3, 0, 0, 0
+2885, 6884, 1, "OK", 2, 88, 20, 20, 19, 1, 1, 0
+5469, 6655, 1, "OK", 3, 25, 7, 7, 6, 1, 1, 0
+4087, 4438, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+3374, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+4087, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 7, 7, 7, 0, 0, 0
+5595, 6846, 1, "OK", 5, 26, 7, 7, 6, 1, 1, 0
+3374, 4019, 1, "OK", 4, 14, 6, 6, 6, 0, 0, 0
+3462, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3109, 6097, 1, "OK", 3, 71, 19, 19, 18, 1, 1, 0
+4441, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 11, 11, 10, 1, 1, 0
+4485, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 4, 4, 4, 0, 0, 0
+4598, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+3029, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+5152, 5232, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+3977, 6846, 1, "OK", 3, 66, 14, 14, 13, 1, 1, 0
+4598, 6027, 1, "OK", 3, 38, 10, 10, 9, 1, 1, 0
+3977, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 10, 10, 10, 0, 0, 0
+5595, 6869, 1, "OK", 5, 27, 7, 7, 6, 1, 1, 0
+3029, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3802, 4083, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+2863, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4882, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+6030, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+4022, 4438, 1, "OK", 3, 9, 3, 3, 3, 0, 0, 0
+5522, 6065, 1, "OK", 3, 15, 6, 6, 5, 1, 1, 0
+3374, 6097, 1, "OK", 4, 67, 19, 19, 18, 1, 1, 0
+4022, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 7, 7, 7, 0, 0, 0
+2951, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+3284, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+4275, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 8, 8, 8, 0, 0, 0
+5595, 6884, 1, "OK", 5, 28, 7, 7, 6, 1, 1, 0
+2885, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+3284, 6846, 1, "OK", 3, 80, 20, 20, 19, 1, 1, 0
+3462, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3977, 4818, 1, "OK", 3, 18, 5, 5, 5, 0, 0, 0
+4976, 5592, 1, "OK", 1, 16, 2, 2, 2, 0, 0, 0
+5887, 6023, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+3109, 4083, 1, "OK", 3, 19, 6, 6, 6, 0, 0, 0
+4087, 4482, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+4275, 6846, 1, "OK", 4, 61, 12, 12, 11, 1, 1, 0
+3977, 6869, 1, "OK", 3, 67, 14, 14, 13, 1, 1, 0
+5469, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+2863, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4485, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 4, 4, 4, 0, 0, 0
+3609, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 8, 8, 8, 0, 0, 0
+3029, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4087, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+3284, 4818, 1, "OK", 3, 32, 11, 11, 11, 0, 0, 0
+3977, 6884, 1, "OK", 3, 68, 14, 14, 13, 1, 1, 0
+4598, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 10, 10, 9, 1, 1, 0
+4275, 6869, 1, "OK", 4, 62, 12, 12, 11, 1, 1, 0
+4275, 4818, 1, "OK", 3, 13, 3, 3, 3, 0, 0, 0
+5522, 6097, 1, "OK", 3, 16, 6, 6, 5, 1, 1, 0
+3284, 6869, 1, "OK", 3, 81, 20, 20, 19, 1, 1, 0
+4441, 6846, 1, "OK", 4, 56, 11, 11, 10, 1, 1, 0
+3284, 3799, 1, "OK", 2, 9, 5, 5, 5, 0, 0, 0
+4441, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 7, 7, 7, 0, 0, 0
+3374, 4083, 1, "OK", 4, 15, 6, 6, 6, 0, 0, 0
+3609, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 8, 8, 8, 0, 0, 0
+3029, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4996, 6027, 1, "OK", 3, 27, 8, 8, 7, 1, 1, 0
+2863, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4882, 5466, 1, "OK", 2, 17, 2, 2, 2, 0, 0, 0
+4022, 4482, 1, "OK", 3, 10, 3, 3, 3, 0, 0, 0
+3609, 3974, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+3284, 6884, 1, "OK", 3, 82, 20, 20, 19, 1, 1, 0
+3462, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4275, 6884, 1, "OK", 4, 63, 12, 12, 11, 1, 1, 0
+2951, 4918, 1, "OK", 3, 40, 11, 11, 11, 0, 0, 0
+3609, 6027, 1, "OK", 2, 59, 16, 16, 15, 1, 1, 0
+4976, 6655, 1, "OK", 3, 38, 9, 9, 8, 1, 1, 0
+2885, 4918, 1, "OK", 2, 41, 11, 11, 11, 0, 0, 0
+3462, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+4087, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+4022, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+4441, 4818, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+5393, 6027, 1, "OK", 3, 17, 6, 6, 5, 1, 1, 0
+4598, 6097, 1, "OK", 3, 40, 10, 10, 9, 1, 1, 0
+4441, 6869, 1, "OK", 4, 57, 11, 11, 10, 1, 1, 0
+3802, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 14, 14, 13, 1, 1, 0
+3029, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3977, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 5, 5, 5, 0, 0, 0
+4485, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+4087, 4543, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+3204, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+4996, 6065, 1, "OK", 3, 28, 8, 8, 7, 1, 1, 0
+4441, 6884, 1, "OK", 4, 58, 11, 11, 10, 1, 1, 0
+2863, 6655, 1, "OK", 2, 83, 20, 20, 19, 1, 1, 0
+6030, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+3109, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+4022, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+3609, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 16, 16, 15, 1, 1, 0
+4976, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+3609, 4019, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+5427, 6027, 1, "OK", 3, 16, 6, 6, 5, 1, 1, 0
+3462, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4882, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+3284, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+4275, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 3, 3, 3, 0, 0, 0
+4087, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+5393, 6065, 1, "OK", 3, 18, 6, 6, 5, 1, 1, 0
+4485, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+2863, 3605, 1, "OK", 1, 13, 3, 3, 3, 0, 0, 0
+2951, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+2885, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+3029, 6655, 1, "OK", 3, 80, 20, 20, 19, 1, 1, 0
+5469, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3462, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4022, 4543, 1, "OK", 3, 11, 3, 3, 3, 0, 0, 0
+4996, 6097, 1, "OK", 3, 29, 8, 8, 7, 1, 1, 0
+5824, 6027, 1, "OK", 2, 6, 3, 3, 2, 1, 1, 0
+6068, 6655, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+3374, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+3977, 4918, 1, "OK", 3, 21, 5, 5, 5, 0, 0, 0
+4441, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 2, 2, 2, 0, 0, 0
+3609, 6097, 1, "OK", 2, 61, 16, 16, 15, 1, 1, 0
+2863, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+2951, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+4882, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+2885, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+5427, 6065, 1, "OK", 3, 17, 6, 6, 5, 1, 1, 0
+3029, 3605, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+2951, 3974, 1, "OK", 3, 19, 6, 6, 6, 0, 0, 0
+4022, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+3284, 4918, 1, "OK", 3, 35, 11, 11, 11, 0, 0, 0
+2885, 3974, 1, "OK", 2, 20, 6, 6, 6, 0, 0, 0
+5393, 6097, 1, "OK", 3, 19, 6, 6, 5, 1, 1, 0
+2951, 6027, 1, "OK", 3, 71, 19, 19, 18, 1, 1, 0
+3462, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+2885, 6027, 1, "OK", 2, 72, 19, 19, 18, 1, 1, 0
+4275, 4918, 1, "OK", 3, 16, 3, 3, 3, 0, 0, 0
+5522, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+4087, 6655, 1, "OK", 3, 59, 14, 14, 13, 1, 1, 0
+5824, 6065, 1, "OK", 2, 7, 3, 3, 2, 1, 1, 0
+6030, 6846, 1, "OK", 3, 14, 1, 1, 1, 0, 0, 0
+3029, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+6068, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+4485, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+3609, 4083, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+3462, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4822, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+4441, 4918, 1, "OK", 3, 11, 2, 2, 2, 0, 0, 0
+5427, 6097, 1, "OK", 3, 18, 6, 6, 5, 1, 1, 0
+5469, 6846, 1, "OK", 4, 29, 7, 7, 6, 1, 1, 0
+5469, 5820, 1, "OK", 1, 8, 3, 3, 3, 0, 0, 0
+4598, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 10, 10, 9, 1, 1, 0
+3977, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 5, 5, 5, 0, 0, 0
+4882, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+4022, 6655, 1, "OK", 3, 61, 14, 14, 13, 1, 1, 0
+2951, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+3204, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+6030, 6869, 1, "OK", 3, 15, 1, 1, 1, 0, 0, 0
+2885, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+2951, 4019, 1, "OK", 3, 20, 6, 6, 6, 0, 0, 0
+2885, 4019, 1, "OK", 2, 21, 6, 6, 6, 0, 0, 0
+5824, 6097, 1, "OK", 2, 8, 3, 3, 2, 1, 1, 0
+4087, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 14, 14, 13, 1, 1, 0
+3462, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+5595, 6027, 1, "OK", 3, 12, 6, 6, 5, 1, 1, 0
+6030, 6884, 1, "OK", 3, 16, 1, 1, 1, 0, 0, 0
+3802, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 3, 3, 3, 0, 0, 0
+4922, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+4976, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+3284, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+3977, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 5, 5, 5, 0, 0, 0
+4275, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 3, 3, 3, 0, 0, 0
+4485, 6655, 1, "OK", 4, 51, 11, 11, 10, 1, 1, 0
+4822, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+5469, 6869, 1, "OK", 4, 30, 7, 7, 6, 1, 1, 0
+3977, 6027, 1, "OK", 3, 52, 13, 13, 12, 1, 1, 0
+2951, 6097, 1, "OK", 3, 73, 19, 19, 18, 1, 1, 0
+5469, 6884, 1, "OK", 4, 31, 7, 7, 6, 1, 1, 0
+2885, 6097, 1, "OK", 2, 74, 19, 19, 18, 1, 1, 0
+3204, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+4882, 6655, 1, "OK", 4, 42, 9, 9, 8, 1, 1, 0
+3109, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+4275, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 3, 3, 3, 0, 0, 0
+3284, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+3284, 3974, 1, "OK", 3, 14, 6, 6, 6, 0, 0, 0
+4922, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+5595, 6065, 1, "OK", 3, 13, 6, 6, 5, 1, 1, 0
+4022, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 14, 14, 13, 1, 1, 0
+4441, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 2, 2, 2, 0, 0, 0
+2863, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3284, 6027, 1, "OK", 3, 66, 19, 19, 18, 1, 1, 0
+4996, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 8, 8, 7, 1, 1, 0
+3462, 6655, 1, "OK", 4, 74, 20, 20, 19, 1, 1, 0
+4275, 6027, 1, "OK", 3, 47, 11, 11, 10, 1, 1, 0
+3374, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+3609, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 16, 16, 15, 1, 1, 0
+5927, 6023, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+4485, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 11, 11, 10, 1, 1, 0
+4822, 5466, 1, "OK", 1, 18, 2, 2, 2, 0, 0, 0
+3977, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 13, 13, 12, 1, 1, 0
+5393, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+4441, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+2951, 4083, 1, "OK", 3, 21, 6, 6, 6, 0, 0, 0
+4976, 6846, 1, "OK", 4, 42, 9, 9, 8, 1, 1, 0
+2885, 4083, 1, "OK", 2, 22, 6, 6, 6, 0, 0, 0
+4976, 5820, 1, "OK", 2, 21, 5, 5, 5, 0, 0, 0
+3029, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3462, 3605, 1, "OK", 2, 4, 3, 3, 3, 0, 0, 0
+4441, 6027, 1, "OK", 3, 42, 10, 10, 9, 1, 1, 0
+3204, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+6068, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+5595, 6097, 1, "OK", 3, 14, 6, 6, 5, 1, 1, 0
+3204, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+4882, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+4275, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 11, 11, 10, 1, 1, 0
+3284, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+3284, 4019, 1, "OK", 3, 15, 6, 6, 6, 0, 0, 0
+4922, 5466, 1, "OK", 0, 15, 2, 2, 2, 0, 0, 0
+4976, 6869, 1, "OK", 4, 43, 9, 9, 8, 1, 1, 0
+3462, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3977, 6097, 1, "OK", 3, 54, 13, 13, 12, 1, 1, 0
+5427, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+4087, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 14, 14, 13, 1, 1, 0
+2863, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+2863, 6846, 1, "OK", 2, 87, 20, 20, 19, 1, 1, 0
+3802, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 8, 8, 8, 0, 0, 0
+4976, 6884, 1, "OK", 4, 44, 9, 9, 8, 1, 1, 0
+4822, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+4441, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 10, 10, 9, 1, 1, 0
+4275, 6097, 1, "OK", 3, 49, 11, 11, 10, 1, 1, 0
+3204, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+5824, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 3, 3, 2, 1, 1, 0
+3284, 6097, 1, "OK", 3, 68, 19, 19, 18, 1, 1, 0
+6206, 6655, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+2863, 4818, 1, "OK", 2, 39, 11, 11, 11, 0, 0, 0
+2863, 6869, 1, "OK", 2, 88, 20, 20, 19, 1, 1, 0
+2863, 3799, 1, "OK", 1, 16, 5, 5, 5, 0, 0, 0
+3029, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+6068, 6846, 1, "OK", 4, 13, 1, 1, 1, 0, 0, 0
+3029, 6846, 1, "OK", 3, 84, 20, 20, 19, 1, 1, 0
+3109, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3204, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4022, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 14, 14, 13, 1, 1, 0
+2951, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+4922, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+2885, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+3802, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 8, 8, 8, 0, 0, 0
+2863, 6884, 1, "OK", 2, 89, 20, 20, 19, 1, 1, 0
+4822, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+4441, 6097, 1, "OK", 3, 44, 10, 10, 9, 1, 1, 0
+3029, 4818, 1, "OK", 3, 36, 11, 11, 11, 0, 0, 0
+3029, 6869, 1, "OK", 3, 85, 20, 20, 19, 1, 1, 0
+3374, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+6068, 6869, 1, "OK", 4, 14, 1, 1, 1, 0, 0, 0
+3284, 4083, 1, "OK", 3, 16, 6, 6, 6, 0, 0, 0
+3029, 3799, 1, "OK", 2, 13, 5, 5, 5, 0, 0, 0
+4485, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 11, 11, 10, 1, 1, 0
+4087, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 10, 10, 10, 0, 0, 0
+3204, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4087, 6846, 1, "OK", 3, 63, 14, 14, 13, 1, 1, 0
+3109, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+6206, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+3029, 6884, 1, "OK", 3, 86, 20, 20, 19, 1, 1, 0
+4882, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+4922, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+6068, 6884, 1, "OK", 4, 15, 1, 1, 1, 0, 0, 0
+3609, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 5, 5, 5, 0, 0, 0
+3802, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 4, 4, 4, 0, 0, 0
+3204, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4087, 6869, 1, "OK", 3, 64, 14, 14, 13, 1, 1, 0
+3462, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+4087, 4818, 1, "OK", 3, 15, 5, 5, 5, 0, 0, 0
+2863, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+3802, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 8, 8, 8, 0, 0, 0
+4822, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+3374, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+5595, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+4022, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 10, 10, 10, 0, 0, 0
+4022, 6846, 1, "OK", 3, 65, 14, 14, 13, 1, 1, 0
+4087, 6884, 1, "OK", 3, 65, 14, 14, 13, 1, 1, 0
+5469, 6027, 1, "OK", 2, 15, 6, 6, 5, 1, 1, 0
+3977, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 13, 13, 12, 1, 1, 0
+3109, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+3204, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3109, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+4485, 6846, 1, "OK", 4, 55, 11, 11, 10, 1, 1, 0
+3029, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+4485, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 7, 7, 7, 0, 0, 0
+4598, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 4, 4, 4, 0, 0, 0
+4022, 4818, 1, "OK", 3, 17, 5, 5, 5, 0, 0, 0
+4922, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 2, 2, 2, 0, 0, 0
+4022, 6869, 1, "OK", 3, 66, 14, 14, 13, 1, 1, 0
+3374, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+3802, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 4, 4, 4, 0, 0, 0
+4822, 6655, 1, "OK", 3, 43, 9, 9, 8, 1, 1, 0
+2863, 4918, 1, "OK", 2, 42, 11, 11, 11, 0, 0, 0
+3284, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+4882, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 5, 5, 5, 0, 0, 0
+4275, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 11, 11, 10, 1, 1, 0
+3374, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+4485, 4818, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+4022, 6884, 1, "OK", 3, 67, 14, 14, 13, 1, 1, 0
+4882, 6846, 1, "OK", 4, 46, 9, 9, 8, 1, 1, 0
+5549, 6655, 1, "OK", 4, 23, 7, 7, 6, 1, 1, 0
+4485, 6869, 1, "OK", 4, 56, 11, 11, 10, 1, 1, 0
+3462, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+3802, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 8, 8, 8, 0, 0, 0
+5469, 6065, 1, "OK", 2, 16, 6, 6, 5, 1, 1, 0
+3462, 6846, 1, "OK", 4, 78, 20, 20, 19, 1, 1, 0
+4598, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 4, 4, 4, 0, 0, 0
+4087, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 5, 5, 5, 0, 0, 0
+3204, 6655, 1, "OK", 3, 78, 20, 20, 19, 1, 1, 0
+3109, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4441, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 10, 10, 9, 1, 1, 0
+4485, 6884, 1, "OK", 4, 57, 11, 11, 10, 1, 1, 0
+3029, 4918, 1, "OK", 3, 39, 11, 11, 11, 0, 0, 0
+4922, 6655, 1, "OK", 2, 40, 9, 9, 8, 1, 1, 0
+6206, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+4882, 6869, 1, "OK", 4, 47, 9, 9, 8, 1, 1, 0
+4996, 5390, 1, "OK", 1, 10, 2, 2, 2, 0, 0, 0
+3109, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+2951, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+3462, 4818, 1, "OK", 4, 30, 11, 11, 11, 0, 0, 0
+2885, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+3802, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 8, 8, 8, 0, 0, 0
+3462, 6869, 1, "OK", 4, 79, 20, 20, 19, 1, 1, 0
+4882, 6884, 1, "OK", 4, 48, 9, 9, 8, 1, 1, 0
+3204, 3605, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+3462, 3799, 1, "OK", 3, 7, 5, 5, 5, 0, 0, 0
+3374, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4822, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+3609, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 10, 10, 10, 0, 0, 0
+5469, 6097, 1, "OK", 2, 17, 6, 6, 5, 1, 1, 0
+4022, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 5, 5, 5, 0, 0, 0
+3462, 6884, 1, "OK", 4, 80, 20, 20, 19, 1, 1, 0
+4976, 6027, 1, "OK", 2, 28, 8, 8, 7, 1, 1, 0
+2863, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+5549, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+4087, 4918, 1, "OK", 3, 18, 5, 5, 5, 0, 0, 0
+3374, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3109, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3204, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3802, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 4, 4, 4, 0, 0, 0
+4598, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 4, 4, 4, 0, 0, 0
+4485, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 2, 2, 2, 0, 0, 0
+4996, 5424, 1, "OK", 2, 11, 2, 2, 2, 0, 0, 0
+2863, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+4922, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+2863, 3974, 1, "OK", 2, 21, 6, 6, 6, 0, 0, 0
+3029, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+3609, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 10, 10, 10, 0, 0, 0
+3109, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+2863, 6027, 1, "OK", 2, 73, 19, 19, 18, 1, 1, 0
+3374, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3802, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 8, 8, 8, 0, 0, 0
+4022, 4918, 1, "OK", 3, 20, 5, 5, 5, 0, 0, 0
+4976, 6065, 1, "OK", 2, 29, 8, 8, 7, 1, 1, 0
+6206, 6846, 1, "OK", 4, 10, 1, 1, 1, 0, 0, 0
+5069, 5232, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+3977, 4272, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 0
+3462, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+3029, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+4485, 4918, 1, "OK", 3, 10, 2, 2, 2, 0, 0, 0
+3029, 3974, 1, "OK", 3, 18, 6, 6, 6, 0, 0, 0
+3374, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4087, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 5, 5, 5, 0, 0, 0
+3109, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4996, 5466, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+3029, 6027, 1, "OK", 3, 70, 19, 19, 18, 1, 1, 0
+4598, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+6206, 6869, 1, "OK", 4, 11, 1, 1, 1, 0, 0, 0
+3284, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+3609, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 6, 6, 6, 0, 0, 0
+4976, 6097, 1, "OK", 2, 30, 8, 8, 7, 1, 1, 0
+2863, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+3609, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 10, 10, 10, 0, 0, 0
+2863, 4019, 1, "OK", 2, 22, 6, 6, 6, 0, 0, 0
+6206, 6884, 1, "OK", 4, 12, 1, 1, 1, 0, 0, 0
+3802, 6655, 1, "OK", 3, 67, 15, 15, 14, 1, 1, 0
+2951, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+4087, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 5, 5, 5, 0, 0, 0
+3374, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+2885, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+4822, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+3462, 4918, 1, "OK", 4, 33, 11, 11, 11, 0, 0, 0
+4022, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 5, 5, 5, 0, 0, 0
+4087, 6027, 1, "OK", 3, 49, 13, 13, 12, 1, 1, 0
+4598, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+3109, 6655, 1, "OK", 3, 79, 20, 20, 19, 1, 1, 0
+5549, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3029, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+5469, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+3029, 4019, 1, "OK", 3, 19, 6, 6, 6, 0, 0, 0
+3204, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+2863, 6097, 1, "OK", 2, 75, 19, 19, 18, 1, 1, 0
+5005, 5232, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+4922, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+4485, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 2, 2, 2, 0, 0, 0
+2951, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3609, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 6, 6, 6, 0, 0, 0
+2885, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+4022, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 5, 5, 5, 0, 0, 0
+4996, 5519, 1, "OK", 2, 13, 2, 2, 2, 0, 0, 0
+3109, 3605, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+3802, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 15, 15, 14, 1, 1, 0
+3374, 6655, 1, "OK", 4, 75, 20, 20, 19, 1, 1, 0
+4022, 6027, 1, "OK", 3, 51, 13, 13, 12, 1, 1, 0
+3609, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 10, 10, 10, 0, 0, 0
+4087, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 13, 13, 12, 1, 1, 0
+3029, 6097, 1, "OK", 3, 72, 19, 19, 18, 1, 1, 0
+4485, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0
+4598, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+2863, 4083, 1, "OK", 2, 23, 6, 6, 6, 0, 0, 0
+3109, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+4485, 6027, 1, "OK", 3, 41, 10, 10, 9, 1, 1, 0
+4822, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 5, 5, 5, 0, 0, 0
+4996, 5546, 1, "OK", 2, 14, 2, 2, 2, 0, 0, 0
+3462, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+3977, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 7, 7, 7, 0, 0, 0
+3374, 3605, 1, "OK", 2, 5, 3, 3, 3, 0, 0, 0
+4822, 6846, 1, "OK", 3, 47, 9, 9, 8, 1, 1, 0
+5522, 6655, 1, "OK", 4, 24, 7, 7, 6, 1, 1, 0
+5549, 6846, 1, "OK", 5, 27, 7, 7, 6, 1, 1, 0
+2951, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+5549, 5820, 1, "OK", 2, 6, 3, 3, 3, 0, 0, 0
+2885, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+3609, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 10, 10, 10, 0, 0, 0
+2951, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+2885, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+3204, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+4882, 6027, 1, "OK", 3, 32, 8, 8, 7, 1, 1, 0
+4087, 6097, 1, "OK", 3, 51, 13, 13, 12, 1, 1, 0
+3204, 6846, 1, "OK", 3, 82, 20, 20, 19, 1, 1, 0
+3284, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3374, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3462, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+3029, 4083, 1, "OK", 3, 20, 6, 6, 6, 0, 0, 0
+4022, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 13, 13, 12, 1, 1, 0
+4275, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 5, 5, 5, 0, 0, 0
+3462, 3974, 1, "OK", 4, 12, 6, 6, 6, 0, 0, 0
+4922, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 5, 5, 5, 0, 0, 0
+4822, 6869, 1, "OK", 3, 48, 9, 9, 8, 1, 1, 0
+3609, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 6, 6, 6, 0, 0, 0
+3462, 6027, 1, "OK", 4, 64, 19, 19, 18, 1, 1, 0
+4922, 6846, 1, "OK", 3, 44, 9, 9, 8, 1, 1, 0
+4598, 6655, 1, "OK", 4, 48, 11, 11, 10, 1, 1, 0
+3977, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 7, 7, 7, 0, 0, 0
+5549, 6869, 1, "OK", 5, 28, 7, 7, 6, 1, 1, 0
+4822, 6884, 1, "OK", 3, 49, 9, 9, 8, 1, 1, 0
+3204, 4818, 1, "OK", 3, 34, 11, 11, 11, 0, 0, 0
+4976, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 8, 8, 7, 1, 1, 0
+4485, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 10, 10, 9, 1, 1, 0
+3204, 6869, 1, "OK", 3, 83, 20, 20, 19, 1, 1, 0
+4441, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 4, 4, 4, 0, 0, 0
+3204, 3799, 1, "OK", 2, 11, 5, 5, 5, 0, 0, 0
+4996, 5592, 1, "OK", 2, 15, 2, 2, 2, 0, 0, 0
+5522, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+5549, 6884, 1, "OK", 5, 29, 7, 7, 6, 1, 1, 0
+3284, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+4275, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 5, 5, 5, 0, 0, 0
+2951, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4022, 6097, 1, "OK", 3, 53, 13, 13, 12, 1, 1, 0
+4922, 6869, 1, "OK", 3, 45, 9, 9, 8, 1, 1, 0
+2885, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+3204, 6884, 1, "OK", 3, 84, 20, 20, 19, 1, 1, 0
+3609, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 10, 10, 10, 0, 0, 0
+4882, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 8, 8, 7, 1, 1, 0
+2951, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4922, 6884, 1, "OK", 3, 46, 9, 9, 8, 1, 1, 0
+2885, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3802, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 15, 15, 14, 1, 1, 0
+2863, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+3462, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+3462, 4019, 1, "OK", 4, 13, 6, 6, 6, 0, 0, 0
+3977, 4438, 1, "OK", 3, 10, 3, 3, 3, 0, 0, 0
+4485, 6097, 1, "OK", 3, 43, 10, 10, 9, 1, 1, 0
+3977, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 7, 7, 7, 0, 0, 0
+4598, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 11, 11, 10, 1, 1, 0
+4441, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 4, 4, 4, 0, 0, 0
+4996, 6655, 1, "OK", 4, 37, 9, 9, 8, 1, 1, 0
+3109, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3284, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4882, 6097, 1, "OK", 3, 34, 8, 8, 7, 1, 1, 0
+2951, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3029, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+3284, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+3609, 6655, 1, "OK", 2, 69, 17, 17, 16, 1, 1, 0
+4275, 4438, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+2885, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4275, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 5, 5, 5, 0, 0, 0
+3204, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+3462, 6097, 1, "OK", 4, 66, 19, 19, 18, 1, 1, 0
+5393, 6655, 1, "OK", 4, 27, 7, 7, 6, 1, 1, 0
+3374, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+2951, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+2885, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+3977, 4482, 1, "OK", 3, 11, 3, 3, 3, 0, 0, 0
+4441, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 4, 4, 4, 0, 0, 0
+3802, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 11, 11, 11, 0, 0, 0
+3802, 6846, 1, "OK", 3, 71, 15, 15, 14, 1, 1, 0
+4996, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+3977, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+4087, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 13, 13, 12, 1, 1, 0
+3284, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+3462, 4083, 1, "OK", 4, 14, 6, 6, 6, 0, 0, 0
+5427, 6655, 1, "OK", 4, 26, 7, 7, 6, 1, 1, 0
+3609, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 17, 17, 16, 1, 1, 0
+5522, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3204, 4918, 1, "OK", 3, 37, 11, 11, 11, 0, 0, 0
+4275, 4482, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+5976, 6023, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+2951, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+6121, 6655, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+2885, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3802, 4818, 1, "OK", 3, 23, 6, 6, 6, 0, 0, 0
+3109, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+3109, 6846, 1, "OK", 3, 83, 20, 20, 19, 1, 1, 0
+5393, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3284, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3802, 6869, 1, "OK", 3, 72, 15, 15, 14, 1, 1, 0
+4275, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 5, 5, 5, 0, 0, 0
+5824, 6655, 1, "OK", 3, 16, 4, 4, 3, 1, 1, 0
+3977, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+4022, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 13, 13, 12, 1, 1, 0
+3802, 6884, 1, "OK", 3, 73, 15, 15, 14, 1, 1, 0
+4598, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 11, 11, 10, 1, 1, 0
+3374, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+3109, 4818, 1, "OK", 3, 35, 11, 11, 11, 0, 0, 0
+3109, 6869, 1, "OK", 3, 84, 20, 20, 19, 1, 1, 0
+3374, 6846, 1, "OK", 4, 79, 20, 20, 19, 1, 1, 0
+3109, 3799, 1, "OK", 2, 12, 5, 5, 5, 0, 0, 0
+4441, 5519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+4485, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 10, 10, 9, 1, 1, 0
+5427, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3284, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+3977, 4543, 1, "OK", 3, 12, 3, 3, 3, 0, 0, 0
+2951, 6655, 1, "OK", 3, 81, 20, 20, 19, 1, 1, 0
+2885, 6655, 1, "OK", 2, 82, 20, 20, 19, 1, 1, 0
+4275, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 5, 5, 5, 0, 0, 0
+3109, 6884, 1, "OK", 3, 85, 20, 20, 19, 1, 1, 0
+6121, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+2863, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+3374, 4818, 1, "OK", 4, 31, 11, 11, 11, 0, 0, 0
+3204, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+4882, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 8, 8, 7, 1, 1, 0
+5824, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 4, 4, 3, 1, 1, 0
+3374, 6869, 1, "OK", 4, 80, 20, 20, 19, 1, 1, 0
+5522, 5820, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+3374, 3799, 1, "OK", 3, 8, 5, 5, 5, 0, 0, 0
+3284, 4543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+2951, 3605, 1, "OK", 2, 11, 3, 3, 3, 0, 0, 0
+4275, 4543, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+5522, 6846, 1, "OK", 5, 28, 7, 7, 6, 1, 1, 0
+2885, 3605, 1, "OK", 1, 12, 3, 3, 3, 0, 0, 0
+4441, 5546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+3977, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 7, 7, 7, 0, 0, 0
+4822, 6027, 1, "OK", 2, 33, 8, 8, 7, 1, 1, 0
+3374, 6884, 1, "OK", 4, 81, 20, 20, 19, 1, 1, 0
+3462, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+3802, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 6, 6, 6, 0, 0, 0
+3029, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+5549, 6027, 1, "OK", 3, 13, 6, 6, 5, 1, 1, 0
+3204, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+2951, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3204, 3974, 1, "OK", 3, 16, 6, 6, 6, 0, 0, 0
+4996, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 9, 9, 8, 1, 1, 0
+2885, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+3284, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 13, 13, 13, 0, 0, 0
+4275, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 5, 5, 5, 0, 0, 0
+4598, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 7, 7, 7, 0, 0, 0
+5522, 6869, 1, "OK", 5, 29, 7, 7, 6, 1, 1, 0
+5595, 6655, 1, "OK", 4, 22, 7, 7, 6, 1, 1, 0
+3204, 6027, 1, "OK", 3, 68, 19, 19, 18, 1, 1, 0
+3109, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+4598, 6846, 1, "OK", 4, 52, 11, 11, 10, 1, 1, 0
+3609, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 17, 17, 16, 1, 1, 0
+4922, 6027, 1, "OK", 1, 30, 8, 8, 7, 1, 1, 0
+5522, 6884, 1, "OK", 5, 30, 7, 7, 6, 1, 1, 0
+3977, 6655, 1, "OK", 3, 62, 14, 14, 13, 1, 1, 0
+5393, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+4087, 4272, 1, "OK", 1, 2, 2, 2, 2, 0, 0, 0
+3802, 4918, 1, "OK", 3, 26, 6, 6, 6, 0, 0, 0
+4976, 5390, 1, "OK", 0, 11, 2, 2, 2, 0, 0, 0
+4822, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 8, 8, 7, 1, 1, 0
+4598, 4818, 1, "OK", 2, 4, 2, 2, 2, 0, 0, 0
+4441, 5592, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator IBIObjectDAO objDAO", 0, 0, 4, 4, 4, 0, 0, 0
+4598, 6869, 1, "OK", 4, 53, 11, 11, 10, 1, 1, 0
+3374, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 11, 11, 11, 0, 0, 0
+5549, 6065, 1, "OK", 3, 14, 6, 6, 5, 1, 1, 0
+3284, 6655, 1, "OK", 3, 76, 20, 20, 19, 1, 1, 0
+4598, 6884, 1, "OK", 4, 54, 11, 11, 10, 1, 1, 0
+5595, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3204, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+4275, 6655, 1, "OK", 4, 57, 12, 12, 11, 1, 1, 0
+5427, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+3204, 4019, 1, "OK", 3, 17, 6, 6, 6, 0, 0, 0
+3109, 4918, 1, "OK", 3, 38, 11, 11, 11, 0, 0, 0
+4996, 6846, 1, "OK", 5, 41, 9, 9, 8, 1, 1, 0
+4022, 4272, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+4922, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 8, 8, 7, 1, 1, 0
+4996, 5820, 1, "OK", 3, 20, 5, 5, 5, 0, 0, 0
+4822, 6097, 1, "OK", 2, 35, 8, 8, 7, 1, 1, 0
+6121, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 1, 1, 1, 0, 0, 0
+3977, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 14, 14, 13, 1, 1, 0
+2863, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3284, 3605, 1, "OK", 1, 6, 3, 3, 3, 0, 0, 0
+4976, 5424, 1, "OK", 1, 12, 2, 2, 2, 0, 0, 0
+3609, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 13, 13, 13, 0, 0, 0
+4441, 6655, 1, "OK", 4, 52, 11, 11, 10, 1, 1, 0
+3609, 6846, 1, "OK", 2, 73, 17, 17, 16, 1, 1, 0
+5549, 6097, 1, "OK", 3, 15, 6, 6, 5, 1, 1, 0
+5824, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 4, 4, 3, 1, 1, 0
+3374, 4918, 1, "OK", 4, 34, 11, 11, 11, 0, 0, 0
+5393, 6846, 1, "OK", 5, 31, 7, 7, 6, 1, 1, 0
+5393, 5820, 1, "OK", 3, 10, 3, 3, 3, 0, 0, 0
+3204, 6097, 1, "OK", 3, 70, 19, 19, 18, 1, 1, 0
+4996, 6869, 1, "OK", 5, 42, 9, 9, 8, 1, 1, 0
+3802, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 6, 6, 6, 0, 0, 0
+4275, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 12, 12, 11, 1, 1, 0
+3284, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+4598, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 2, 2, 2, 0, 0, 0
+4922, 6097, 1, "OK", 1, 32, 8, 8, 7, 1, 1, 0
+3029, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+3609, 4818, 1, "OK", 2, 25, 8, 8, 8, 0, 0, 0
+3609, 6869, 1, "OK", 2, 74, 17, 17, 16, 1, 1, 0
+3609, 3799, 1, "OK", 1, 2, 2, 2, 2, 0, 0, 0
+2951, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+2885, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+2863, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+4996, 6884, 1, "OK", 5, 43, 9, 9, 8, 1, 1, 0
+5393, 6869, 1, "OK", 5, 32, 7, 7, 6, 1, 1, 0
+5427, 5820, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+3109, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+3802, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 6, 6, 6, 0, 0, 0
+4976, 5466, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+3462, 4272, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 8, 8, 8, 0, 0, 0
+3802, 3974, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+3609, 6884, 1, "OK", 2, 75, 17, 17, 16, 1, 1, 0
+5427, 6846, 1, "OK", 5, 30, 7, 7, 6, 1, 1, 0
+3204, 4083, 1, "OK", 3, 18, 6, 6, 6, 0, 0, 0
+3802, 6027, 1, "OK", 3, 57, 14, 14, 13, 1, 1, 0
+4441, 6697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 11, 11, 10, 1, 1, 0
+6121, 6846, 1, "OK", 3, 11, 1, 1, 1, 0, 0, 0
+5393, 6884, 1, "OK", 5, 33, 7, 7, 6, 1, 1, 0
+4087, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 7, 7, 7, 0, 0, 0
+3109, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+3029, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 13, 13, 13, 0, 0, 0
+5824, 6846, 1, "OK", 4, 20, 4, 4, 3, 1, 1, 0
+3374, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 11, 11, 11, 0, 0, 0
+5427, 6869, 1, "OK", 5, 31, 7, 7, 6, 1, 1, 0
+3109, 3974, 1, "OK", 3, 17, 6, 6, 6, 0, 0, 0
+4598, 4918, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+3109, 6027, 1, "OK", 3, 69, 19, 19, 18, 1, 1, 0
+5595, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 7, 7, 6, 1, 1, 0
+2863, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+2863, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+6121, 6869, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+5427, 6884, 1, "OK", 5, 32, 7, 7, 6, 1, 1, 0
+5824, 6869, 1, "OK", 4, 21, 4, 4, 3, 1, 1, 0
+3374, 4993, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 11, 11, 11, 0, 0, 0
+3609, 4879, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder SourceBean moduleConfig", 0, 0, 8, 8, 8, 0, 0, 0
+2951, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+3374, 3974, 1, "OK", 4, 13, 6, 6, 6, 0, 0, 0
+4022, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 7, 7, 7, 0, 0, 0
+4087, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 7, 7, 7, 0, 0, 0
+2885, 5820, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator List objectsList", 0, 0, 16, 16, 16, 0, 0, 0
+2951, 6846, 1, "OK", 3, 85, 20, 20, 19, 1, 1, 0
+3802, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 14, 14, 13, 1, 1, 0
+2885, 6846, 1, "OK", 2, 86, 20, 20, 19, 1, 1, 0
+3802, 4019, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+3977, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 14, 14, 13, 1, 1, 0
+3374, 6027, 1, "OK", 4, 65, 19, 19, 18, 1, 1, 0
+6121, 6884, 1, "OK", 3, 13, 1, 1, 1, 0, 0, 0
+4976, 5519, 1, "OK", 1, 14, 2, 2, 2, 0, 0, 0
+3029, 4438, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4822, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 8, 8, 7, 1, 1, 0
+3029, 5466, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 13, 13, 13, 0, 0, 0
+5824, 6884, 1, "OK", 4, 22, 4, 4, 3, 1, 1, 0
+4485, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 4, 4, 4, 0, 0, 0
+3109, 6065, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator ListIFace list", 0, 0, 19, 19, 18, 1, 1, 0
+2951, 4818, 1, "OK", 3, 37, 11, 11, 11, 0, 0, 0
+5549, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 6, 6, 5, 1, 1, 0
+2951, 6869, 1, "OK", 3, 86, 20, 20, 19, 1, 1, 0
+3109, 4019, 1, "OK", 3, 18, 6, 6, 6, 0, 0, 0
+2885, 4818, 1, "OK", 2, 38, 11, 11, 11, 0, 0, 0
+2885, 6869, 1, "OK", 2, 87, 20, 20, 19, 1, 1, 0
+2951, 3799, 1, "OK", 2, 14, 5, 5, 5, 0, 0, 0
+3284, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 20, 20, 19, 1, 1, 0
+4275, 6788, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list HashMap parametersMap", 0, 0, 12, 12, 11, 1, 1, 0
+6030, 6655, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+2885, 3799, 1, "OK", 1, 15, 5, 5, 5, 0, 0, 0
+2863, 4482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder String currentTypOrder", 0, 0, 9, 9, 9, 0, 0, 0
+4598, 4972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator", 0, 0, 2, 2, 2, 0, 0, 0
+5522, 6027, 1, "OK", 3, 14, 6, 6, 5, 1, 1, 0
+3204, 6203, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ListIFace list String valuefilter", 0, 0, 19, 19, 18, 1, 1, 0
+3802, 6097, 1, "OK", 3, 59, 14, 14, 13, 1, 1, 0
+4976, 5546, 1, "OK", 1, 15, 2, 2, 2, 0, 0, 0
+4022, 5424, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String currentFieldOrder PaginatorIFace paginator int numRows", 0, 0, 7, 7, 7, 0, 0, 0
+2951, 6884, 1, "OK", 3, 87, 20, 20, 19, 1, 1, 0
+3609, 4918, 1, "OK", 2, 28, 8, 8, 8, 0, 0, 0
+4882, 5390, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  PaginatorIFace paginator int numRows", 0, 0, 2, 2, 2, 0, 0, 0

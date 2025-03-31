@@ -1,0 +1,50 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+17957, 18252, 1, "OK", 2, 6, 12, 6, 6, 0, 3, 2
+18165, 18716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 16, 8, 8, 0, 4, 2
+17605, 19182, 1, "OK", 2, 40, 35, 35, 19, 16, 9, 0
+17729, 19182, 1, "OK", 4, 36, 35, 35, 19, 16, 9, 0
+17685, 18740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 27, 27, 14, 13, 7, 0
+17652, 18740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 27, 27, 14, 13, 7, 0
+17685, 19125, 1, "OK", 3, 36, 35, 35, 19, 16, 9, 0
+17652, 19125, 1, "OK", 2, 37, 35, 35, 19, 16, 9, 0
+17890, 18148, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors ClassViewer cv", 0, 0, 8, 4, 4, 0, 2, 2
+17830, 18730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 26, 19, 13, 6, 7, 1
+18286, 18418, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+18286, 18567, 1, "OK", 2, 4, 8, 4, 4, 0, 2, 2
+17890, 18044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors ClassViewer cv", 0, 0, 4, 2, 2, 0, 1, 2
+17605, 19203, 1, "OK", 2, 41, 35, 35, 19, 16, 9, 0
+17890, 18418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried ClassViewer cv", 0, 0, 16, 8, 8, 0, 4, 2
+18754, 19182, 1, "OK", 4, 14, 8, 8, 5, 3, 2, 0
+17957, 18418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 16, 8, 8, 0, 4, 2
+18286, 18716, 1, "OK", 2, 6, 12, 6, 6, 0, 3, 2
+17957, 18148, 1, "OK", 2, 4, 8, 4, 4, 0, 2, 2
+18061, 18252, 1, "OK", 2, 4, 8, 4, 4, 0, 2, 2
+17729, 19203, 1, "OK", 4, 37, 35, 35, 19, 16, 9, 0
+18435, 18567, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+17890, 18567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried ClassViewer cv", 0, 0, 20, 10, 10, 0, 5, 2
+18789, 19115, 1, "OK", 3, 9, 7, 5, 4, 1, 2, 1
+17957, 18044, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+18061, 18148, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+18165, 18252, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+17685, 19182, 1, "OK", 3, 38, 35, 35, 19, 16, 9, 0
+17652, 19182, 1, "OK", 2, 39, 35, 35, 19, 16, 9, 0
+17890, 18716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 24, 12, 12, 0, 6, 2
+18435, 18716, 1, "OK", 2, 4, 8, 4, 4, 0, 2, 2
+17685, 19203, 1, "OK", 3, 39, 35, 35, 19, 16, 9, 0
+18754, 19203, 1, "OK", 4, 15, 8, 8, 5, 3, 2, 0
+17957, 18567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 20, 10, 10, 0, 5, 2
+18584, 18716, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+18061, 18418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 12, 6, 6, 0, 3, 2
+17957, 18716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 24, 12, 12, 0, 6, 2
+18061, 18567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 16, 8, 8, 0, 4, 2
+18165, 18418, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 8, 4, 4, 0, 2, 2
+17605, 18740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 27, 27, 14, 13, 7, 0
+17652, 19203, 1, "OK", 2, 40, 35, 35, 19, 16, 9, 0
+17605, 19125, 1, "OK", 2, 38, 35, 35, 19, 16, 9, 0
+17729, 18740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 27, 27, 14, 13, 7, 0
+17729, 19125, 1, "OK", 4, 34, 35, 35, 19, 16, 9, 0
+18838, 18941, 1, "OK", 2, 2, 4, 2, 2, 0, 1, 2
+17890, 18252, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors ClassViewer cv", 0, 0, 12, 6, 6, 0, 3, 2
+18061, 18716, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 20, 10, 10, 0, 5, 2
+18165, 18567, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean noErrors boolean actuallyTried", 0, 0, 12, 6, 6, 0, 3, 2
+18754, 19125, 1, "OK", 4, 12, 8, 8, 5, 3, 2, 0

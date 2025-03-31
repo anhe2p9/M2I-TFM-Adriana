@@ -1,0 +1,291 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+64884, 66893, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+64173, 64357, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+65005, 65185, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+67356, 67589, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+66955, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+64843, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+65253, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+64092, 64297, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+65224, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 24, 15, 9, 10, 1
+68299, 68572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 3, 2, 2, 0, 1, 1
+64843, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+64311, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+68167, 68572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+66870, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+65224, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+68167, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 6, 6, 0, 4, 1
+66870, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+64843, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+65224, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+67289, 68097, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+64311, 64715, 1, "OK", 2, 14, 5, 3, 2, 1, 2, 1
+68205, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 5, 5, 0, 3, 1
+65291, 65566, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+65253, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 25, 16, 9, 11, 1
+67190, 68097, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+64843, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+65224, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 24, 15, 9, 10, 1
+66334, 66479, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+66010, 66286, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+64092, 64323, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+64931, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 33, 23, 10, 16, 1
+64931, 66983, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+67003, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+66911, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+66839, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+66870, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 15, 11, 4, 7, 1
+68167, 68617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+65224, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+67113, 68012, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+64931, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+68687, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+64038, 69112, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 58, 28, 30, 19, 0
+65224, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 24, 15, 9, 10, 1
+64173, 64407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String msg JSONArray array", 0, 0, 2, 1, 1, 0, 1, 1
+68136, 68572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+64092, 64357, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+66911, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+66839, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+64884, 66935, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+67003, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 15, 11, 4, 7, 1
+66911, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+65253, 66819, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+66839, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+68136, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 6, 6, 0, 4, 1
+64092, 64407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String msg JSONArray array", 0, 0, 2, 1, 1, 0, 1, 1
+67289, 67647, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+64173, 64450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String msg JSONArray array", 0, 0, 2, 1, 1, 0, 1, 1
+67190, 67647, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+67671, 68097, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 4, 2, 2, 0, 1, 2
+64884, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 33, 23, 10, 16, 1
+64884, 66983, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+66911, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+66955, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+67356, 67624, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+68356, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 4, 0, 2, 1
+65253, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 25, 16, 9, 11, 1
+64843, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+66911, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+67003, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+66334, 66547, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+65847, 66286, 1, "OK", 0, 10, 6, 2, 2, 0, 2, 2
+68637, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+68299, 68617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 3, 2, 2, 0, 1, 1
+66839, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 15, 11, 4, 7, 1
+67190, 67735, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+68136, 68617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+66911, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+66955, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 15, 11, 4, 7, 1
+64931, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+65253, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 42, 29, 20, 9, 13, 1
+65224, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+66334, 66638, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char ch String key", 0, 0, 3, 1, 1, 0, 1, 2
+64843, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 28, 18, 10, 13, 1
+64843, 65204, 1, "OK", 0, 9, 5, 3, 2, 1, 2, 1
+64931, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+68299, 68707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 3, 2, 2, 0, 1, 1
+67113, 68097, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+68167, 68707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+66334, 66592, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+64931, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+66955, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+64803, 69046, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 24, 26, 16, 0
+64931, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+65224, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 25, 16, 9, 11, 1
+68299, 68669, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 3, 2, 2, 0, 1, 1
+64784, 69112, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 24, 26, 16, 0
+64843, 65235, 0, "Compilation unit does not compile after method extraction.", 0, 11, 5, 3, 2, 1, 2, 1
+64884, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+68167, 68669, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+64092, 64450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String msg JSONArray array", 0, 0, 2, 1, 1, 0, 1, 1
+68205, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 6, 6, 0, 4, 1
+66911, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+65253, 66852, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+67289, 67735, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+67759, 68012, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+68356, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 5, 5, 0, 3, 1
+65445, 65566, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+64843, 66819, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+68592, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+64931, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+64884, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+68299, 68757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType int tok", 0, 0, 3, 2, 2, 0, 1, 1
+68637, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+68167, 68757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType int tok", 0, 0, 5, 3, 3, 0, 2, 1
+64466, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+66870, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 16, 12, 4, 8, 1
+67759, 68097, 1, "OK", 4, 9, 4, 2, 2, 0, 1, 2
+65253, 66893, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+67113, 67647, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+68687, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+64843, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 28, 18, 10, 13, 1
+66911, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+68205, 68617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+68136, 68707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+65224, 66819, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+64466, 64715, 1, "OK", 2, 8, 5, 3, 2, 1, 2, 1
+64843, 66852, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+65253, 66935, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+66660, 66800, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+68205, 68572, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+64843, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 47, 32, 22, 10, 15, 1
+65224, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 25, 16, 9, 11, 1
+66911, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68136, 68669, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+67289, 67792, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+67893, 68012, 1, "OK", 2, 3, 4, 2, 2, 0, 1, 2
+66165, 66286, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+67190, 67792, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+64884, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+64931, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+65224, 66852, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+67289, 67869, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+66870, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+64738, 69112, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 24, 26, 16, 0
+67190, 67869, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+64931, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+65847, 65986, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+67893, 68097, 1, "OK", 4, 5, 4, 2, 2, 0, 1, 2
+68136, 68757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType int tok", 0, 0, 5, 3, 3, 0, 2, 1
+65224, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 42, 29, 20, 9, 13, 1
+68205, 68669, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+66839, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 16, 12, 4, 8, 1
+66911, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 11, 7, 4, 5, 1
+64884, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+66614, 66800, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+64884, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+66955, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 16, 12, 4, 8, 1
+64931, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 28, 18, 10, 13, 1
+64931, 65204, 1, "OK", 1, 7, 5, 3, 2, 1, 2, 1
+67003, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 16, 12, 4, 8, 1
+64038, 64726, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 4, 4, 3, 0
+64884, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+68167, 68279, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+64337, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+68775, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+68356, 68572, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+64884, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+64843, 66893, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+65253, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 30, 21, 9, 14, 1
+65253, 66983, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+64337, 64715, 1, "OK", 2, 13, 5, 3, 2, 1, 2, 1
+64421, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+66839, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+65253, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+64173, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 3, 1, 3, 1
+68299, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 4, 0, 2, 1
+65591, 66819, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 11, 7, 4, 4, 1
+64931, 65235, 0, "Compilation unit does not compile after method extraction.", 1, 9, 5, 3, 2, 1, 2, 1
+65847, 66052, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+67003, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68167, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 5, 5, 0, 3, 1
+64843, 66935, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+66955, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+67415, 67624, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+65399, 65566, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+65224, 66893, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+68592, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+67003, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+68356, 68669, 1, "OK", 4, 10, 3, 2, 2, 0, 1, 1
+68906, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+64173, 64715, 1, "OK", 2, 18, 7, 4, 3, 1, 3, 1
+68727, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+64843, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 33, 23, 10, 16, 1
+64843, 66983, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+67003, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68356, 68617, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+66119, 66286, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+68167, 68336, 1, "OK", 4, 7, 2, 1, 1, 0, 1, 1
+65224, 66935, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+67113, 67735, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+67415, 67589, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+64931, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 28, 18, 10, 13, 1
+68136, 68279, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+66334, 66800, 1, "OK", 0, 10, 6, 2, 2, 0, 2, 2
+66870, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68205, 68707, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType", 0, 0, 5, 3, 3, 0, 2, 1
+66911, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 15, 11, 4, 7, 1
+64554, 64655, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+64884, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+64038, 64774, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 4, 4, 3, 0
+66870, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+68775, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+68356, 68707, 1, "OK", 4, 11, 3, 2, 2, 0, 1, 1
+67003, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+66870, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+66955, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+68205, 68279, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+64931, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 47, 32, 22, 10, 15, 1
+66870, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68136, 68886, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 5, 5, 0, 3, 1
+65253, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 24, 15, 9, 10, 1
+65808, 66819, 1, "OK", 1, 23, 14, 10, 6, 4, 4, 1
+67289, 68012, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+64373, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+67190, 68012, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+64421, 64715, 1, "OK", 3, 10, 5, 3, 2, 1, 2, 1
+65253, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+64884, 68279, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 28, 18, 10, 13, 1
+64092, 64670, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 3, 1, 3, 1
+64884, 65204, 1, "OK", 0, 8, 5, 3, 2, 1, 2, 1
+64931, 66819, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+66839, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+67003, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+66870, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+64884, 68336, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 28, 18, 10, 13, 1
+67816, 68012, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+65253, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+64373, 64715, 1, "OK", 2, 11, 5, 3, 2, 1, 2, 1
+66870, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68136, 68336, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+68205, 68757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value Type valueType int tok", 0, 0, 5, 3, 3, 0, 2, 1
+67113, 67792, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+64843, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+65253, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 24, 15, 9, 10, 1
+64092, 64715, 1, "OK", 1, 19, 7, 4, 3, 1, 3, 1
+66839, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+67003, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+65847, 66097, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+64931, 66852, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+66839, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+64884, 65235, 0, "Compilation unit does not compile after method extraction.", 0, 10, 5, 3, 2, 1, 2, 1
+65224, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 30, 21, 9, 14, 1
+65224, 66983, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 14, 9, 5, 6, 1
+66955, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+64843, 68617, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 44, 30, 20, 10, 14, 1
+65253, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+66870, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+64173, 64297, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+66839, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+68205, 68336, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+66911, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 16, 12, 4, 8, 1
+65224, 68572, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 18, 9, 12, 1
+65253, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 24, 15, 9, 10, 1
+65354, 65566, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+64508, 64655, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+66839, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+64884, 66819, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+66955, 68185, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+64931, 66893, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+67671, 68012, 1, "OK", 3, 9, 4, 2, 2, 0, 1, 2
+66955, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+67003, 68757, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68299, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 5, 5, 0, 3, 1
+66839, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+64173, 64323, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+66569, 66800, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+67003, 68707, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+65847, 66143, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char ch String key", 0, 0, 3, 1, 1, 0, 1, 2
+64931, 66935, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+66503, 66800, 1, "OK", 0, 6, 3, 1, 1, 0, 1, 2
+66955, 68149, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 10, 6, 4, 4, 1
+64884, 66852, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 17, 11, 6, 8, 1
+68727, 69031, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+66955, 68669, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 13, 9, 4, 6, 1
+68356, 68757, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value int tok", 0, 0, 3, 2, 2, 0, 1, 1
+64843, 68116, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 39, 27, 17, 10, 12, 1
+66074, 66286, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+67113, 67869, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 3, 2, 1, 2, 2
+67816, 68097, 1, "OK", 4, 7, 4, 2, 2, 0, 1, 2
+64884, 68886, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 47, 32, 22, 10, 15, 1

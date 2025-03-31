@@ -1,0 +1,95 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+28189, 28617, 1, "OK", 1, 11, 7, 5, 4, 1, 2, 1
+28655, 28893, 1, "OK", 3, 11, 6, 4, 4, 0, 2, 1
+27731, 28993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 11, 6, 5, 0
+28623, 28988, 1, "OK", 4, 15, 6, 4, 4, 0, 2, 1
+28623, 28732, 1, "OK", 1, 4, 3, 2, 2, 0, 1, 1
+27801, 28993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 11, 6, 5, 0
+28014, 28278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type boolean hasVal", 0, 0, 3, 2, 2, 0, 1, 1
+27918, 28952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 15, 10, 9, 1, 5, 1
+28038, 28303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type boolean hasVal String tempVal", 0, 0, 3, 2, 2, 0, 1, 1
+28308, 28893, 1, "OK", 4, 22, 12, 8, 7, 1, 4, 1
+28655, 28756, 1, "OK", 2, 5, 3, 2, 2, 0, 1, 1
+27973, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28308, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28189, 28988, 1, "OK", 4, 27, 13, 9, 8, 1, 4, 1
+28189, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 10, 7, 6, 1, 3, 1
+28283, 28893, 1, "OK", 3, 23, 12, 8, 7, 1, 4, 1
+28449, 28611, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+27918, 28303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject obj String name String type boolean hasVal String tempVal", 0, 0, 3, 2, 2, 0, 1, 1
+28738, 28893, 1, "OK", 3, 7, 3, 2, 2, 0, 1, 1
+28189, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 10, 7, 6, 1, 3, 1
+27801, 27859, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+28308, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 6, 4, 3, 1, 2, 1
+28283, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 6, 4, 3, 1, 2, 1
+28038, 28952, 1, "OK", 3, 32, 15, 10, 9, 1, 5, 1
+27686, 29239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 13, 7, 6, 0
+27973, 28278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type boolean hasVal", 0, 0, 3, 2, 2, 0, 1, 1
+27918, 28988, 1, "OK", 3, 36, 15, 10, 9, 1, 5, 1
+27918, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28623, 28893, 1, "OK", 2, 12, 6, 4, 4, 0, 2, 1
+28189, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 7, 5, 4, 1, 2, 1
+27973, 28303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type boolean hasVal String tempVal", 0, 0, 3, 2, 2, 0, 1, 1
+28014, 28952, 1, "OK", 2, 33, 15, 10, 9, 1, 5, 1
+27686, 29263, 1, "OK", 2, 52, 20, 20, 13, 7, 6, 0
+27864, 28993, 1, "OK", 2, 38, 16, 16, 10, 6, 5, 0
+28623, 28756, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+27731, 27859, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+28189, 28893, 1, "OK", 2, 24, 13, 9, 8, 1, 4, 1
+28388, 28611, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+27637, 29239, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 13, 7, 6, 0
+28761, 28952, 1, "OK", 4, 8, 3, 2, 2, 0, 1, 1
+28014, 28303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type boolean hasVal String tempVal", 0, 0, 3, 2, 2, 0, 1, 1
+27918, 28617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal", 0, 0, 9, 6, 5, 1, 3, 1
+28283, 28952, 1, "OK", 4, 25, 12, 8, 7, 1, 4, 1
+27918, 28101, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject obj String name String type", 0, 0, 2, 1, 1, 0, 1, 1
+27637, 29263, 1, "OK", 1, 54, 20, 20, 13, 7, 6, 0
+28189, 28278, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 1
+27973, 28952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 15, 10, 9, 1, 5, 1
+28038, 28988, 1, "OK", 4, 33, 15, 10, 9, 1, 5, 1
+28038, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+27695, 28993, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 11, 6, 5, 0
+28014, 28988, 1, "OK", 3, 34, 15, 10, 9, 1, 5, 1
+28014, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28038, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28655, 28952, 1, "OK", 4, 13, 6, 4, 4, 0, 2, 1
+27695, 27859, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+28308, 28952, 1, "OK", 5, 24, 12, 8, 7, 1, 4, 1
+28038, 28617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal", 0, 0, 9, 6, 5, 1, 3, 1
+27918, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28761, 28988, 1, "OK", 5, 9, 3, 2, 2, 0, 1, 1
+28038, 28101, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+27918, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28014, 28617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal", 0, 0, 9, 6, 5, 1, 3, 1
+28189, 28952, 1, "OK", 3, 26, 13, 9, 8, 1, 4, 1
+27973, 28988, 1, "OK", 2, 35, 15, 10, 9, 1, 5, 1
+27973, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28014, 28101, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+28038, 28893, 1, "OK", 2, 30, 15, 10, 9, 1, 5, 1
+28738, 28952, 1, "OK", 4, 9, 3, 2, 2, 0, 1, 1
+27918, 28893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 15, 10, 9, 1, 5, 1
+28189, 28303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean hasVal String tempVal", 0, 0, 1, 1, 1, 0, 0, 1
+28655, 28988, 1, "OK", 5, 14, 6, 4, 4, 0, 2, 1
+28655, 28732, 1, "OK", 2, 3, 3, 2, 2, 0, 1, 1
+28283, 28617, 1, "OK", 2, 10, 6, 4, 3, 1, 2, 1
+27918, 28278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject obj String name String type boolean hasVal", 0, 0, 3, 2, 2, 0, 1, 1
+28308, 28988, 1, "OK", 6, 25, 12, 8, 7, 1, 4, 1
+28308, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28623, 28952, 1, "OK", 3, 14, 6, 4, 4, 0, 2, 1
+27973, 28617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal", 0, 0, 9, 6, 5, 1, 3, 1
+28038, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28014, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28761, 28893, 1, "OK", 3, 6, 3, 2, 2, 0, 1, 1
+27973, 28101, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type", 0, 0, 2, 1, 1, 0, 1, 1
+28283, 28988, 1, "OK", 5, 26, 12, 8, 7, 1, 4, 1
+28283, 28732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28014, 28650, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+27973, 28893, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 15, 10, 9, 1, 5, 1
+28738, 28988, 1, "OK", 5, 10, 3, 2, 2, 0, 1, 1
+29023, 29110, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+28283, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String tempVal boolean multivalue", 0, 0, 9, 6, 5, 1, 3, 1
+28308, 28617, 1, "OK", 3, 9, 6, 4, 3, 1, 2, 1
+29023, 29235, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+28038, 28278, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String type boolean hasVal", 0, 0, 3, 2, 2, 0, 1, 1
+27973, 28756, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String type String tempVal boolean multivalue", 0, 0, 12, 8, 7, 1, 4, 1
+28014, 28893, 1, "OK", 1, 31, 15, 10, 9, 1, 5, 1

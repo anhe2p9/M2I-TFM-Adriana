@@ -1,0 +1,41 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3193, 6747, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 29, 19, 13, 6, 10, 1
+3218, 3540, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 3, 3, 0, 3, 1
+6438, 6566, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+3218, 3411, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+3672, 6747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 14, 8, 6, 6, 1
+3427, 3656, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+3218, 6747, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 29, 19, 13, 6, 10, 1
+3838, 4039, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+3324, 3656, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+3556, 3759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 3, 0, 2, 1
+6138, 6732, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 7, 5, 2, 3, 2
+6185, 6298, 1, "OK", 0, 3, 4, 1, 1, 0, 1, 3
+3427, 3540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+6438, 6645, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+3193, 3308, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3193, 3759, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 6, 0, 5, 1
+3150, 6758, 1, "OK", 0, 125, 30, 30, 14, 16, 10, 0
+3324, 3540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+3427, 6747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 17, 11, 6, 8, 1
+3324, 3411, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+3672, 3759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+3218, 3308, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3838, 3993, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+3218, 3759, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 6, 6, 0, 5, 1
+3324, 6747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 18, 12, 6, 9, 1
+3556, 3656, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 2, 2, 0, 1, 1
+6185, 6382, 1, "OK", 0, 6, 4, 1, 1, 0, 1, 3
+3838, 4068, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+3169, 6758, 1, "OK", 0, 123, 30, 30, 14, 16, 10, 0
+3427, 3759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 4, 4, 0, 3, 1
+3193, 3656, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 5, 0, 4, 1
+6438, 6678, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+3324, 3759, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 5, 5, 0, 4, 1
+3218, 3656, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 5, 0, 4, 1
+6138, 6701, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 7, 5, 2, 3, 2
+3556, 6747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 10, 6, 7, 1
+6185, 6338, 1, "OK", 0, 5, 4, 1, 1, 0, 1, 3
+3193, 3411, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 2, 1
+3775, 6747, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 7, 6, 5, 1
+3193, 3540, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 3, 3, 0, 3, 1

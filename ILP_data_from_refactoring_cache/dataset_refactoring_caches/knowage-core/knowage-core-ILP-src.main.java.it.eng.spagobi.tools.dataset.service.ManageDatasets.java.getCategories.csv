@@ -1,0 +1,23 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+30961, 31519, 1, "OK", 4, 14, 14, 10, 4, 6, 4, 1
+30753, 31661, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 17, 17, 7, 10, 4, 0
+30552, 31876, 1, "OK", 0, 31, 18, 18, 8, 10, 4, 0
+30961, 31545, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 10, 4, 6, 4, 1
+31217, 31513, 1, "OK", 2, 8, 12, 6, 3, 3, 3, 2
+30904, 31519, 1, "OK", 4, 15, 14, 10, 4, 6, 4, 1
+31125, 31513, 1, "OK", 3, 9, 12, 6, 3, 3, 3, 2
+31374, 31506, 1, "OK", 3, 5, 9, 3, 2, 1, 2, 3
+30904, 31545, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 10, 4, 6, 4, 1
+31010, 31519, 1, "OK", 4, 13, 14, 10, 4, 6, 4, 1
+30852, 31519, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Role role List<Domain> categoriesDev", 0, 0, 14, 10, 4, 6, 4, 1
+31408, 31498, 1, "OK", 3, 3, 5, 1, 1, 0, 1, 4
+30677, 31661, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 17, 17, 7, 10, 4, 0
+31010, 31545, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 10, 4, 6, 4, 1
+31043, 31513, 1, "OK", 3, 11, 12, 6, 3, 3, 3, 2
+31331, 31513, 1, "OK", 3, 7, 12, 6, 3, 3, 3, 2
+30606, 31876, 1, "OK", 1, 29, 18, 18, 8, 10, 4, 0
+30615, 31661, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 17, 17, 7, 10, 4, 0
+30852, 31545, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 14, 10, 4, 6, 4, 1
+30716, 31661, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 17, 17, 7, 10, 4, 0
+30580, 31876, 1, "OK", 0, 30, 18, 18, 8, 10, 4, 0
+31082, 31513, 1, "OK", 3, 10, 12, 6, 3, 3, 3, 2

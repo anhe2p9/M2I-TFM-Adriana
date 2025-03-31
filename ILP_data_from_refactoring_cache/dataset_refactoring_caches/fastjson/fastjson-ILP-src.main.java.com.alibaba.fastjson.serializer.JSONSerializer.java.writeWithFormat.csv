@@ -1,0 +1,65 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+11732, 12696, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 9, 6, 3, 4, 1
+14003, 14360, 1, "OK", 2, 10, 5, 3, 2, 1, 2, 1
+13945, 14360, 1, "OK", 2, 11, 5, 3, 2, 1, 2, 1
+13103, 13327, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+14151, 14268, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+14199, 14316, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+11877, 12696, 1, "OK", 2, 16, 11, 8, 5, 3, 3, 1
+12776, 13884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 13, 8, 5, 3, 0
+13945, 14381, 1, "OK", 2, 12, 5, 3, 2, 1, 2, 1
+13021, 13327, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GZIPOutputStream gzipOut ByteArrayOutputStream byteOut", 0, 0, 4, 2, 2, 0, 1, 2
+13103, 13473, 1, "OK", 2, 8, 4, 2, 2, 0, 1, 2
+13706, 13852, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 1
+12776, 14392, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 11, 8, 5, 0
+11488, 13884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 16, 13, 8, 0
+11488, 14392, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 19, 16, 10, 0
+14003, 14381, 1, "OK", 2, 11, 5, 3, 2, 1, 2, 1
+12944, 13685, 1, "OK", 1, 16, 7, 3, 3, 0, 2, 2
+13021, 13473, 1, "OK", 1, 9, 4, 2, 2, 0, 1, 2
+11979, 12620, 1, "OK", 1, 12, 9, 5, 4, 1, 2, 2
+12351, 12620, 1, "OK", 0, 5, 2, 2, 2, 0, 0, 2
+13103, 13370, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+11531, 12696, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 10, 7, 3, 5, 1
+11732, 12732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 9, 6, 3, 4, 1
+11531, 11922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12776, 14416, 1, "OK", 2, 42, 19, 19, 11, 8, 5, 0
+12994, 13685, 1, "OK", 2, 15, 7, 3, 3, 0, 2, 2
+14088, 14331, 1, "OK", 3, 7, 5, 3, 2, 1, 2, 1
+11488, 14416, 1, "OK", 2, 74, 35, 35, 19, 16, 10, 0
+12022, 12326, 1, "OK", 1, 6, 4, 1, 1, 0, 1, 3
+13896, 14392, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 3, 3, 2, 0
+14059, 14331, 1, "OK", 3, 8, 5, 3, 2, 1, 2, 1
+11488, 12764, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 8, 8, 5, 0
+13021, 13370, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GZIPOutputStream gzipOut ByteArrayOutputStream byteOut", 0, 0, 4, 2, 2, 0, 1, 2
+11732, 12753, 1, "OK", 2, 23, 13, 9, 6, 3, 4, 1
+11936, 12696, 1, "OK", 3, 15, 11, 8, 5, 3, 3, 1
+11877, 12732, 1, "OK", 2, 17, 11, 8, 5, 3, 3, 1
+14151, 14316, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+11732, 11861, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+11877, 12753, 1, "OK", 2, 18, 11, 8, 5, 3, 3, 1
+14059, 14360, 1, "OK", 3, 9, 5, 3, 2, 1, 2, 1
+11732, 12635, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 9, 6, 3, 4, 1
+13896, 14416, 1, "OK", 2, 15, 6, 6, 3, 3, 2, 0
+11877, 12635, 1, "OK", 1, 15, 11, 8, 5, 3, 3, 1
+13103, 13409, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+11531, 12732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 10, 7, 3, 5, 1
+14088, 14360, 1, "OK", 3, 8, 5, 3, 2, 1, 2, 1
+11936, 12732, 1, "OK", 3, 16, 11, 8, 5, 3, 3, 1
+12866, 13852, 1, "OK", 2, 22, 12, 9, 7, 2, 3, 1
+11531, 11716, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+14088, 14381, 1, "OK", 3, 9, 5, 3, 2, 1, 2, 1
+14199, 14268, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+11531, 12753, 1, "OK", 2, 29, 15, 10, 7, 3, 5, 1
+13021, 13409, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GZIPOutputStream gzipOut ByteArrayOutputStream byteOut", 0, 0, 4, 2, 2, 0, 1, 2
+13945, 14331, 1, "OK", 2, 10, 5, 3, 2, 1, 2, 1
+14059, 14381, 1, "OK", 3, 10, 5, 3, 2, 1, 2, 1
+11531, 11861, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 2, 1
+12821, 13852, 1, "OK", 2, 23, 12, 9, 7, 2, 3, 1
+14003, 14331, 1, "OK", 2, 9, 5, 3, 2, 1, 2, 1
+11531, 12635, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 10, 7, 3, 5, 1
+12866, 13873, 1, "OK", 2, 23, 12, 9, 7, 2, 3, 1
+11936, 12753, 1, "OK", 3, 17, 11, 8, 5, 3, 3, 1
+11936, 12635, 1, "OK", 2, 14, 11, 8, 5, 3, 3, 1
+11732, 11922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+12821, 13873, 1, "OK", 2, 24, 12, 9, 7, 2, 3, 1

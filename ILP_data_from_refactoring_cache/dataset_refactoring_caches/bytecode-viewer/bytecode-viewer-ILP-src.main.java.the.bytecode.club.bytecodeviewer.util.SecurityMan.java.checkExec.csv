@@ -1,0 +1,66 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5735, 5960, 1, "OK", 0, 5, 2, 1, 1, 0, 1, 1
+3812, 4006, 0, "Compilation unit does not compile after method extraction.", 2, 8, 1, 1, 1, 0, 0, 0
+5103, 5970, 1, "OK", 0, 21, 7, 7, 6, 1, 1, 0
+3775, 4006, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+4573, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 5, 5, 4, 1, 1, 0
+5159, 6297, 1, "OK", 4, 27, 12, 12, 10, 2, 2, 0
+4599, 4711, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+3703, 4458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 4, 4, 4, 0, 0, 0
+3637, 4458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked String normalizedPath", 0, 0, 4, 4, 4, 0, 0, 0
+3812, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 9, 9, 8, 1, 1, 0
+6018, 6297, 1, "OK", 4, 6, 5, 5, 4, 1, 1, 0
+3775, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 9, 9, 8, 1, 1, 0
+4573, 6297, 1, "OK", 5, 50, 17, 17, 14, 3, 3, 0
+5302, 5970, 1, "OK", 1, 16, 6, 6, 5, 1, 1, 0
+4861, 5052, 1, "OK", 3, 8, 3, 3, 2, 1, 1, 0
+5587, 5970, 1, "OK", 1, 10, 4, 4, 3, 1, 1, 0
+3405, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 9, 9, 8, 1, 1, 0
+4078, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 8, 8, 7, 1, 1, 0
+4356, 4458, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+3405, 6297, 1, "OK", 1, 88, 21, 21, 18, 3, 3, 0
+3812, 4815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 6, 6, 6, 0, 0, 0
+3812, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 16, 16, 14, 2, 2, 0
+4078, 6297, 1, "OK", 5, 62, 20, 20, 17, 3, 3, 0
+3775, 4815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 6, 6, 6, 0, 0, 0
+4861, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean validClassCall", 0, 0, 10, 10, 8, 2, 2, 0
+3775, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 16, 16, 14, 2, 2, 0
+6081, 6167, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+3703, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 9, 9, 8, 1, 1, 0
+3405, 4006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] execWhitelist boolean allow boolean blocked String normalizedPath", 0, 0, 1, 1, 1, 0, 0, 0
+3637, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 9, 9, 8, 1, 1, 0
+3703, 6297, 1, "OK", 3, 76, 21, 21, 18, 3, 3, 0
+4573, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 5, 5, 4, 1, 1, 0
+3637, 6297, 1, "OK", 2, 78, 21, 21, 18, 3, 3, 0
+5762, 5960, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+3812, 4458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 4, 4, 4, 0, 0, 0
+5103, 6297, 1, "OK", 3, 29, 12, 12, 10, 2, 2, 0
+4221, 4458, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+3775, 4458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 4, 4, 4, 0, 0, 0
+4078, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 8, 8, 7, 1, 1, 0
+5444, 5970, 1, "OK", 1, 13, 5, 5, 4, 1, 1, 0
+5159, 5970, 1, "OK", 1, 19, 7, 7, 6, 1, 1, 0
+3405, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 9, 9, 8, 1, 1, 0
+3703, 4006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 1, 1, 1, 0, 0, 0
+4573, 4815, 1, "OK", 2, 9, 2, 2, 2, 0, 0, 0
+3637, 4006, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked String normalizedPath", 0, 0, 1, 1, 1, 0, 0, 0
+4573, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 12, 12, 10, 2, 2, 0
+4078, 4815, 1, "OK", 2, 21, 5, 5, 5, 0, 0, 0
+3405, 4815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] execWhitelist boolean allow boolean blocked String normalizedPath", 0, 0, 6, 6, 6, 0, 0, 0
+3405, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 16, 16, 14, 2, 2, 0
+3703, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 9, 9, 8, 1, 1, 0
+4078, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 15, 15, 13, 2, 2, 0
+3637, 5052, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked", 0, 0, 9, 9, 8, 1, 1, 0
+3812, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 9, 9, 8, 1, 1, 0
+4861, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean validClassCall", 0, 0, 3, 3, 2, 1, 1, 0
+3775, 5134, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 9, 9, 8, 1, 1, 0
+3812, 6297, 0, "Compilation unit does not compile after method extraction.", 5, 72, 21, 21, 18, 3, 3, 0
+3703, 4815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean blocked String normalizedPath", 0, 0, 6, 6, 6, 0, 0, 0
+3637, 4815, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked String normalizedPath", 0, 0, 6, 6, 6, 0, 0, 0
+3775, 6297, 1, "OK", 4, 73, 21, 21, 18, 3, 3, 0
+4922, 5042, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 2, 1, 1, 0, 1, 1
+3703, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 16, 16, 14, 2, 2, 0
+3405, 4458, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String[] execWhitelist boolean allow boolean blocked String normalizedPath", 0, 0, 4, 4, 4, 0, 0, 0
+3637, 5970, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean allow boolean blocked boolean validClassCall", 0, 0, 16, 16, 14, 2, 2, 0
+4078, 4458, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+4861, 6297, 1, "OK", 5, 39, 15, 15, 12, 3, 3, 0

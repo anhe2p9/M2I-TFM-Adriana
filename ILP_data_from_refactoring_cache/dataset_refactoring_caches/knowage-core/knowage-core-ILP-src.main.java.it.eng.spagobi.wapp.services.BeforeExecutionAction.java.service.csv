@@ -1,0 +1,107 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+1765, 3205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory", 0, 0, 5, 3, 3, 0, 2, 1
+1945, 3514, 1, "OK", 3, 29, 11, 7, 7, 0, 4, 1
+1765, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameters String labelSubObject String snapName Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+1646, 4086, 1, "OK", 2, 53, 17, 17, 12, 5, 5, 0
+3374, 3514, 1, "OK", 2, 3, 3, 2, 2, 0, 1, 1
+2261, 3205, 1, "OK", 3, 17, 5, 3, 3, 0, 2, 1
+2957, 3645, 1, "OK", 6, 13, 11, 7, 7, 0, 4, 1
+1995, 3514, 1, "OK", 4, 28, 11, 7, 7, 0, 4, 1
+2261, 2952, 1, "OK", 2, 13, 2, 1, 1, 0, 1, 1
+2096, 3205, 1, "OK", 4, 20, 5, 3, 3, 0, 2, 1
+2096, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2314, 2851, 1, "OK", 2, 11, 2, 1, 1, 0, 1, 1
+2476, 3205, 1, "OK", 5, 13, 5, 3, 3, 0, 2, 1
+2476, 2952, 1, "OK", 3, 9, 2, 1, 1, 0, 1, 1
+2149, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+3519, 3645, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+1893, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2856, 3205, 1, "OK", 4, 5, 3, 2, 2, 0, 1, 1
+2202, 3514, 1, "OK", 6, 24, 11, 7, 7, 0, 4, 1
+2314, 3369, 1, "OK", 5, 19, 8, 5, 5, 0, 3, 1
+2050, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2149, 3369, 1, "OK", 4, 22, 8, 5, 5, 0, 3, 1
+1893, 3369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 8, 5, 5, 0, 3, 1
+2050, 3369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 8, 5, 5, 0, 3, 1
+1844, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameters String labelSubObject String snapName Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+3210, 3514, 1, "OK", 3, 6, 6, 4, 4, 0, 2, 1
+1945, 3053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory", 0, 0, 2, 1, 1, 0, 1, 1
+2314, 3645, 1, "OK", 7, 25, 13, 8, 8, 0, 5, 1
+1765, 3514, 1, "OK", 2, 32, 11, 7, 7, 0, 4, 1
+1844, 3369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 8, 5, 5, 0, 3, 1
+2149, 3645, 1, "OK", 5, 28, 13, 8, 8, 0, 5, 1
+1893, 3645, 1, "OK", 3, 33, 13, 8, 8, 0, 5, 1
+3058, 3369, 1, "OK", 3, 6, 6, 4, 4, 0, 2, 1
+2050, 3645, 1, "OK", 4, 30, 13, 8, 8, 0, 5, 1
+1995, 3053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 2, 1, 1, 0, 1, 1
+2261, 3514, 1, "OK", 5, 23, 11, 7, 7, 0, 4, 1
+1844, 3645, 1, "OK", 2, 34, 13, 8, 8, 0, 5, 1
+2096, 3514, 1, "OK", 5, 26, 11, 7, 7, 0, 4, 1
+3058, 3645, 1, "OK", 5, 12, 11, 7, 7, 0, 4, 1
+2476, 3514, 1, "OK", 7, 19, 11, 7, 7, 0, 4, 1
+2856, 3514, 1, "OK", 6, 11, 9, 6, 6, 0, 3, 1
+2202, 3053, 1, "OK", 3, 15, 2, 1, 1, 0, 1, 1
+2957, 3205, 1, "OK", 3, 4, 3, 2, 2, 0, 1, 1
+1677, 3727, 1, "OK", 2, 41, 15, 15, 10, 5, 5, 0
+1765, 3053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameters String labelSubObject String snapName Integer snapHistory", 0, 0, 2, 1, 1, 0, 1, 1
+1945, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+1945, 3369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 8, 5, 5, 0, 3, 1
+1995, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2261, 3053, 1, "OK", 2, 14, 2, 1, 1, 0, 1, 1
+2314, 3205, 1, "OK", 4, 16, 5, 3, 3, 0, 2, 1
+1995, 3369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 8, 5, 5, 0, 3, 1
+2314, 2952, 1, "OK", 3, 12, 2, 1, 1, 0, 1, 1
+2096, 3053, 1, "OK", 3, 17, 2, 1, 1, 0, 1, 1
+2149, 3205, 1, "OK", 3, 19, 5, 3, 3, 0, 2, 1
+1893, 3205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory", 0, 0, 5, 3, 3, 0, 2, 1
+2476, 3053, 1, "OK", 4, 10, 2, 1, 1, 0, 1, 1
+1893, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+1945, 3645, 1, "OK", 3, 32, 13, 8, 8, 0, 5, 1
+2050, 3205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 5, 3, 3, 0, 2, 1
+2149, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2050, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2202, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2957, 3514, 1, "OK", 5, 10, 9, 6, 6, 0, 3, 1
+2202, 3369, 1, "OK", 5, 21, 8, 5, 5, 0, 3, 1
+3374, 3645, 1, "OK", 3, 6, 5, 3, 3, 0, 2, 1
+1844, 3205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory", 0, 0, 5, 3, 3, 0, 2, 1
+1995, 3645, 1, "OK", 4, 31, 13, 8, 8, 0, 5, 1
+1844, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameters String labelSubObject String snapName Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+3058, 3205, 1, "OK", 2, 3, 3, 2, 2, 0, 1, 1
+1765, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameters String labelSubObject String snapName Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+3210, 3369, 1, "OK", 2, 3, 3, 2, 2, 0, 1, 1
+1765, 3369, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 8, 5, 5, 0, 3, 1
+2202, 3645, 1, "OK", 6, 27, 13, 8, 8, 0, 5, 1
+2261, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2314, 3514, 1, "OK", 6, 22, 11, 7, 7, 0, 4, 1
+1668, 4086, 1, "OK", 2, 52, 17, 17, 12, 5, 5, 0
+2261, 3369, 1, "OK", 4, 20, 8, 5, 5, 0, 3, 1
+2096, 2851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer snapHistory boolean displayToolbar boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+3210, 3645, 1, "OK", 4, 9, 8, 5, 5, 0, 3, 1
+1893, 3514, 1, "OK", 3, 30, 11, 7, 7, 0, 4, 1
+2149, 3514, 1, "OK", 5, 25, 11, 7, 7, 0, 4, 1
+2050, 3514, 1, "OK", 4, 27, 11, 7, 7, 0, 4, 1
+1765, 3645, 1, "OK", 2, 35, 13, 8, 8, 0, 5, 1
+2476, 2851, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+2096, 3369, 1, "OK", 5, 23, 8, 5, 5, 0, 3, 1
+2476, 3369, 1, "OK", 6, 16, 8, 5, 5, 0, 3, 1
+2856, 3369, 1, "OK", 5, 8, 6, 4, 4, 0, 2, 1
+1738, 3727, 1, "OK", 2, 40, 15, 15, 10, 5, 5, 0
+1844, 3514, 1, "OK", 2, 31, 11, 7, 7, 0, 4, 1
+2261, 3645, 1, "OK", 6, 26, 13, 8, 8, 0, 5, 1
+3058, 3514, 1, "OK", 4, 9, 9, 6, 6, 0, 3, 1
+1945, 3205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory", 0, 0, 5, 3, 3, 0, 2, 1
+2096, 3645, 1, "OK", 5, 29, 13, 8, 8, 0, 5, 1
+1945, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2476, 3645, 1, "OK", 8, 22, 13, 8, 8, 0, 5, 1
+2856, 3645, 1, "OK", 7, 14, 11, 7, 7, 0, 4, 1
+1995, 3205, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 5, 3, 3, 0, 2, 1
+1995, 2952, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory boolean displaySliders", 0, 0, 2, 1, 1, 0, 1, 1
+2314, 3053, 1, "OK", 3, 13, 2, 1, 1, 0, 1, 1
+2149, 3053, 1, "OK", 2, 16, 2, 1, 1, 0, 1, 1
+1893, 3053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String labelSubObject String snapName Integer snapHistory", 0, 0, 2, 1, 1, 0, 1, 1
+2050, 3053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String snapName Integer snapHistory", 0, 0, 2, 1, 1, 0, 1, 1
+2202, 3205, 1, "OK", 4, 18, 5, 3, 3, 0, 2, 1
+2202, 2952, 1, "OK", 3, 14, 2, 1, 1, 0, 1, 1
+1844, 3053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parameters String labelSubObject String snapName Integer snapHistory", 0, 0, 2, 1, 1, 0, 1, 1
+2957, 3369, 1, "OK", 4, 7, 6, 4, 4, 0, 2, 1

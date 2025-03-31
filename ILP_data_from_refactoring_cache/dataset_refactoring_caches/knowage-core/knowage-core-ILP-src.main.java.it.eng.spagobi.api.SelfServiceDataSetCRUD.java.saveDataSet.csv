@@ -1,0 +1,225 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+16410, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16610, 19172, 1, "OK", 10, 63, 13, 13, 11, 2, 2, 0
+17054, 17185, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+17446, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 10, 10, 8, 2, 2, 0
+16920, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16807, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+20059, 20308, 1, "OK", 0, 6, 2, 1, 1, 0, 1, 1
+16610, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16485, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16755, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+18383, 19018, 1, "OK", 4, 14, 4, 3, 3, 0, 1, 1
+16186, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16689, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16973, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+17485, 18173, 1, "OK", 7, 17, 4, 4, 3, 1, 1, 0
+16276, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16533, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+19528, 19867, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+17446, 19401, 1, "OK", 9, 49, 10, 10, 8, 2, 2, 0
+16843, 19172, 1, "OK", 10, 59, 13, 13, 11, 2, 2, 0
+18469, 18945, 1, "OK", 4, 10, 4, 3, 3, 0, 1, 1
+17446, 19427, 1, "OK", 9, 51, 10, 10, 8, 2, 2, 0
+17117, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16973, 17185, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+17117, 19401, 1, "OK", 10, 60, 13, 13, 11, 2, 2, 0
+16610, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16485, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+17582, 17797, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+16276, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16332, 19172, 1, "OK", 7, 69, 13, 13, 11, 2, 2, 0
+16755, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+17267, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 12, 12, 10, 2, 2, 0
+16689, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+18383, 19082, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset IPersistedManager ptm", 0, 0, 4, 3, 3, 0, 1, 1
+16134, 19172, 1, "OK", 4, 73, 13, 13, 11, 2, 2, 0
+17054, 17263, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+16843, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16920, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16410, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16807, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+17218, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 12, 12, 10, 2, 2, 0
+17117, 19427, 1, "OK", 10, 62, 13, 13, 11, 2, 2, 0
+16689, 19401, 1, "OK", 10, 70, 13, 13, 11, 2, 2, 0
+18383, 19115, 1, "OK", 5, 16, 4, 3, 3, 0, 1, 1
+16102, 19172, 1, "OK", 4, 74, 13, 13, 11, 2, 2, 0
+16332, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTablePrefix String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16920, 19401, 1, "OK", 9, 65, 13, 13, 11, 2, 2, 0
+16276, 19401, 1, "OK", 6, 78, 13, 13, 11, 2, 2, 0
+16134, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16755, 19401, 1, "OK", 11, 69, 13, 13, 11, 2, 2, 0
+16843, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+17267, 19401, 1, "OK", 9, 54, 12, 12, 10, 2, 2, 0
+17218, 19401, 1, "OK", 9, 55, 12, 12, 10, 2, 2, 0
+16920, 19427, 1, "OK", 9, 67, 13, 13, 11, 2, 2, 0
+16610, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+17054, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16973, 17263, 1, "OK", 4, 10, 1, 1, 1, 0, 0, 0
+17582, 17840, 1, "OK", 4, 5, 2, 1, 1, 0, 1, 1
+18469, 19018, 1, "OK", 4, 12, 4, 3, 3, 0, 1, 1
+18316, 19172, 1, "OK", 6, 19, 6, 6, 5, 1, 1, 0
+19898, 20308, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+16053, 19172, 1, "OK", 3, 75, 13, 13, 11, 2, 2, 0
+16276, 19427, 1, "OK", 6, 80, 13, 13, 11, 2, 2, 0
+16755, 19427, 1, "OK", 11, 71, 13, 13, 11, 2, 2, 0
+17267, 19427, 1, "OK", 9, 56, 12, 12, 10, 2, 2, 0
+16134, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16410, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16689, 19427, 1, "OK", 10, 72, 13, 13, 11, 2, 2, 0
+16332, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16102, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+17054, 19401, 1, "OK", 10, 61, 13, 13, 11, 2, 2, 0
+17218, 19427, 1, "OK", 9, 57, 12, 12, 10, 2, 2, 0
+16186, 19172, 1, "OK", 5, 72, 13, 13, 11, 2, 2, 0
+17117, 17441, 1, "OK", 5, 10, 3, 3, 3, 0, 0, 0
+15984, 20312, 1, "OK", 2, 110, 19, 19, 15, 4, 4, 0
+16053, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16807, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16410, 19401, 1, "OK", 8, 76, 13, 13, 11, 2, 2, 0
+16533, 19172, 1, "OK", 9, 65, 13, 13, 11, 2, 2, 0
+18383, 19167, 1, "OK", 5, 17, 4, 3, 3, 0, 1, 1
+16102, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16533, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16410, 19427, 1, "OK", 8, 78, 13, 13, 11, 2, 2, 0
+16920, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16186, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16610, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+17117, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16755, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+17267, 17441, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+16973, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+17485, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 10, 10, 8, 2, 2, 0
+16276, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16053, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dao String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16807, 19401, 1, "OK", 10, 68, 13, 13, 11, 2, 2, 0
+18589, 18945, 1, "OK", 4, 8, 4, 3, 3, 0, 1, 1
+16843, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+17054, 19427, 1, "OK", 10, 63, 13, 13, 11, 2, 2, 0
+17582, 17907, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+18469, 19082, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset IPersistedManager ptm", 0, 0, 4, 3, 3, 0, 1, 1
+16807, 19427, 1, "OK", 10, 70, 13, 13, 11, 2, 2, 0
+16973, 19401, 1, "OK", 10, 64, 13, 13, 11, 2, 2, 0
+17485, 19401, 1, "OK", 10, 48, 10, 10, 8, 2, 2, 0
+16689, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16610, 19401, 1, "OK", 10, 71, 13, 13, 11, 2, 2, 0
+16533, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16485, 19172, 1, "OK", 9, 66, 13, 13, 11, 2, 2, 0
+17218, 17441, 1, "OK", 4, 5, 2, 2, 2, 0, 0, 0
+16332, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+18557, 18945, 1, "OK", 4, 9, 4, 3, 3, 0, 1, 1
+16134, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+18469, 19115, 1, "OK", 5, 14, 4, 3, 3, 0, 1, 1
+16186, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16276, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16485, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16689, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16920, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16755, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16973, 19427, 1, "OK", 10, 66, 13, 13, 11, 2, 2, 0
+17267, 17481, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+17485, 19427, 1, "OK", 10, 50, 10, 10, 8, 2, 2, 0
+16410, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+17218, 17481, 1, "OK", 4, 7, 2, 2, 2, 0, 0, 0
+18589, 19018, 1, "OK", 4, 10, 4, 3, 3, 0, 1, 1
+16610, 19427, 1, "OK", 10, 73, 13, 13, 11, 2, 2, 0
+16843, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+17054, 17441, 1, "OK", 5, 11, 3, 3, 3, 0, 0, 0
+16102, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+20017, 20308, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+18469, 19167, 1, "OK", 5, 15, 4, 3, 3, 0, 1, 1
+16807, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16485, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16843, 19401, 1, "OK", 10, 67, 13, 13, 11, 2, 2, 0
+16053, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dao String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16134, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+17054, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+18557, 19018, 1, "OK", 4, 11, 4, 3, 3, 0, 1, 1
+16332, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16186, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16843, 19427, 1, "OK", 10, 69, 13, 13, 11, 2, 2, 0
+16533, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16332, 19401, 1, "OK", 7, 77, 13, 13, 11, 2, 2, 0
+17446, 19172, 1, "OK", 9, 41, 10, 10, 8, 2, 2, 0
+16410, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16973, 17441, 1, "OK", 6, 14, 3, 3, 3, 0, 0, 0
+16102, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+15923, 20312, 1, "OK", 1, 111, 19, 19, 15, 4, 4, 0
+16134, 19401, 1, "OK", 4, 81, 13, 13, 11, 2, 2, 0
+18589, 19082, 1, "OK", 5, 11, 4, 3, 3, 0, 1, 1
+16610, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16807, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+19953, 20308, 1, "OK", 1, 8, 2, 1, 1, 0, 1, 1
+16332, 19427, 1, "OK", 7, 79, 13, 13, 11, 2, 2, 0
+17446, 18173, 1, "OK", 6, 18, 4, 4, 3, 1, 1, 0
+16973, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16134, 19427, 1, "OK", 4, 83, 13, 13, 11, 2, 2, 0
+16053, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16610, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+17117, 19172, 1, "OK", 10, 52, 13, 13, 11, 2, 2, 0
+19473, 19867, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+16102, 19401, 1, "OK", 4, 82, 13, 13, 11, 2, 2, 0
+16485, 17263, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+18589, 19115, 1, "OK", 5, 12, 4, 3, 3, 0, 1, 1
+18557, 19082, 1, "OK", 5, 12, 4, 3, 3, 0, 1, 1
+18316, 19372, 1, "OK", 6, 26, 6, 6, 5, 1, 1, 0
+16533, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16053, 19401, 1, "OK", 3, 83, 13, 13, 11, 2, 2, 0
+16186, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+18316, 19401, 1, "OK", 7, 27, 6, 6, 5, 1, 1, 0
+16102, 19427, 1, "OK", 4, 84, 13, 13, 11, 2, 2, 0
+16843, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16920, 19172, 1, "OK", 9, 57, 13, 13, 11, 2, 2, 0
+18557, 19115, 1, "OK", 5, 13, 4, 3, 3, 0, 1, 1
+16053, 19427, 1, "OK", 3, 85, 13, 13, 11, 2, 2, 0
+17117, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+18316, 19427, 1, "OK", 7, 29, 6, 6, 5, 1, 1, 0
+16186, 19401, 1, "OK", 5, 80, 13, 13, 11, 2, 2, 0
+16843, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16276, 19172, 1, "OK", 6, 70, 13, 13, 11, 2, 2, 0
+16755, 19172, 1, "OK", 11, 61, 13, 13, 11, 2, 2, 0
+17267, 19172, 1, "OK", 9, 46, 12, 12, 10, 2, 2, 0
+16134, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16689, 19172, 1, "OK", 10, 62, 13, 13, 11, 2, 2, 0
+16533, 19401, 1, "OK", 9, 73, 13, 13, 11, 2, 2, 0
+16332, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16485, 19372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Integer toReturnId JSONObject jo", 0, 0, 13, 13, 11, 2, 2, 0
+16755, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+17267, 18173, 1, "OK", 8, 23, 6, 6, 5, 1, 1, 0
+16689, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16533, 19427, 1, "OK", 9, 75, 13, 13, 11, 2, 2, 0
+18589, 19167, 1, "OK", 5, 13, 4, 3, 3, 0, 1, 1
+17218, 19172, 1, "OK", 9, 47, 12, 12, 10, 2, 2, 0
+16186, 19427, 1, "OK", 5, 82, 13, 13, 11, 2, 2, 0
+16276, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+17117, 17185, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+16920, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+17218, 18173, 1, "OK", 9, 24, 6, 6, 5, 1, 1, 0
+16332, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16102, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16920, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16134, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16410, 19172, 1, "OK", 8, 68, 13, 13, 11, 2, 2, 0
+16755, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16043, 20312, 1, "OK", 3, 109, 19, 19, 15, 4, 4, 0
+16276, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+16053, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dao String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+18557, 19167, 1, "OK", 5, 14, 4, 3, 3, 0, 1, 1
+16485, 19401, 1, "OK", 9, 74, 13, 13, 11, 2, 2, 0
+17054, 19172, 1, "OK", 10, 53, 13, 13, 11, 2, 2, 0
+16807, 19172, 1, "OK", 10, 60, 13, 13, 11, 2, 2, 0
+16485, 19427, 1, "OK", 9, 76, 13, 13, 11, 2, 2, 0
+16689, 17185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 1, 1, 1, 0, 0, 0
+18383, 18945, 1, "OK", 4, 12, 4, 3, 3, 0, 1, 1
+19592, 19867, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+16102, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+16533, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+17054, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16410, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persistTableName IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0
+16186, 17441, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam", 0, 0, 3, 3, 3, 0, 0, 0
+16973, 19172, 1, "OK", 10, 56, 13, 13, 11, 2, 2, 0
+17485, 19172, 1, "OK", 10, 40, 10, 10, 8, 2, 2, 0
+16053, 17481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSetDAO dao String persist String persistTablePrefix String persistTableName IDataSet ds IDataSet dsNew HashMap<String, String> logParam Integer toReturnId", 0, 0, 3, 3, 3, 0, 0, 0
+17117, 17263, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+19626, 19867, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+16807, 18173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dsNew Integer toReturnId", 0, 0, 7, 7, 6, 1, 1, 0

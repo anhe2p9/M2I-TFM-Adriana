@@ -1,0 +1,54 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12875, 13104, 0, "Compilation unit does not compile after method extraction.", 2, 4, 2, 1, 1, 0, 1, 1
+14669, 15219, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+15318, 15451, 0, "Compilation unit does not compile after method extraction.", 1, 3, 3, 1, 1, 0, 1, 2
+13303, 15451, 0, "Compilation unit does not compile after method extraction.", 7, 49, 41, 25, 11, 14, 8, 2
+13280, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String value String paramName", 0, 0, 38, 24, 10, 14, 7, 2
+13138, 15456, 0, "Compilation unit does not compile after method extraction.", 4, 55, 43, 34, 12, 22, 9, 1
+14714, 14980, 0, "Compilation unit does not compile after method extraction.", 1, 6, 6, 1, 1, 0, 1, 5
+12790, 15499, 0, "Compilation unit does not compile after method extraction.", 4, 64, 46, 46, 14, 32, 10, 0
+12849, 15460, 0, "Compilation unit does not compile after method extraction.", 4, 62, 46, 46, 14, 32, 10, 0
+14714, 15241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+13653, 14355, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 3, 3, 0, 2, 5
+14714, 15255, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5
+13330, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String value String paramName", 0, 0, 38, 24, 10, 14, 7, 2
+14669, 15241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String value String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+14669, 14980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+14765, 15219, 0, "Compilation unit does not compile after method extraction.", 3, 8, 6, 1, 1, 0, 1, 5
+12875, 13134, 0, "Compilation unit does not compile after method extraction.", 2, 5, 2, 1, 1, 0, 1, 1
+12935, 13190, 0, "Compilation unit does not compile after method extraction.", 2, 5, 2, 1, 1, 0, 1, 1
+13384, 15271, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 35, 17, 9, 8, 6, 3
+13608, 14355, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 3, 3, 0, 2, 5
+14669, 15255, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5
+15282, 15451, 0, "Compilation unit does not compile after method extraction.", 4, 4, 3, 1, 1, 0, 1, 2
+12875, 15456, 0, "Compilation unit does not compile after method extraction.", 4, 60, 45, 35, 13, 22, 10, 1
+13280, 15313, 0, "Compilation unit does not compile after method extraction.", 6, 47, 38, 24, 10, 14, 7, 2
+14384, 15264, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 3, 2, 1, 2, 4
+13280, 15451, 0, "Compilation unit does not compile after method extraction.", 6, 50, 41, 25, 11, 14, 8, 2
+14765, 15241, 0, "Compilation unit does not compile after method extraction.", 3, 10, 6, 1, 1, 0, 1, 5
+12849, 15499, 0, "Compilation unit does not compile after method extraction.", 4, 63, 46, 46, 14, 32, 10, 0
+14765, 14980, 0, "Compilation unit does not compile after method extraction.", 1, 5, 6, 1, 1, 0, 1, 5
+14477, 15219, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+13330, 15313, 0, "Compilation unit does not compile after method extraction.", 8, 45, 38, 24, 10, 14, 7, 2
+13653, 13749, 0, "Compilation unit does not compile after method extraction.", 2, 2, 7, 2, 2, 0, 1, 5
+13608, 13749, 0, "Compilation unit does not compile after method extraction.", 2, 3, 7, 2, 2, 0, 1, 5
+12935, 13104, 0, "Compilation unit does not compile after method extraction.", 2, 3, 2, 1, 1, 0, 1, 1
+13330, 15451, 0, "Compilation unit does not compile after method extraction.", 8, 48, 41, 25, 11, 14, 8, 2
+14765, 15255, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5
+13253, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String value String paramName", 0, 0, 38, 24, 10, 14, 7, 2
+13758, 14355, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5
+13303, 15277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String value String paramName", 0, 0, 38, 24, 10, 14, 7, 2
+12875, 13190, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Parameter> parameter ParametersDecoder decoder", 0, 0, 2, 1, 1, 0, 1, 1
+14477, 15241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean found String value String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+13444, 14363, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 19, 7, 5, 2, 3, 4
+14477, 14980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value String paramName", 0, 0, 6, 1, 1, 0, 1, 5
+12790, 15460, 0, "Compilation unit does not compile after method extraction.", 4, 63, 46, 46, 14, 32, 10, 0
+13108, 15456, 0, "Compilation unit does not compile after method extraction.", 4, 56, 43, 34, 12, 22, 9, 1
+13253, 15313, 0, "Compilation unit does not compile after method extraction.", 5, 48, 38, 24, 10, 14, 7, 2
+14477, 15255, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 1, 1, 0, 1, 5
+12935, 13134, 0, "Compilation unit does not compile after method extraction.", 2, 4, 2, 1, 1, 0, 1, 1
+13195, 15456, 0, "Compilation unit does not compile after method extraction.", 5, 53, 43, 34, 12, 22, 9, 1
+13253, 15451, 0, "Compilation unit does not compile after method extraction.", 5, 51, 41, 25, 11, 14, 8, 2
+12935, 15456, 0, "Compilation unit does not compile after method extraction.", 4, 59, 45, 35, 13, 22, 10, 1
+13303, 15313, 0, "Compilation unit does not compile after method extraction.", 7, 46, 38, 24, 10, 14, 7, 2
+14714, 15219, 0, "Compilation unit does not compile after method extraction.", 3, 9, 6, 1, 1, 0, 1, 5

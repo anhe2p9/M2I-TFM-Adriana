@@ -1,0 +1,103 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+37567, 37679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37793, 38100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 1, 1, 1, 0, 0, 0
+37957, 38910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+39339, 40098, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 5, 5, 0, 1, 1
+38114, 38910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+37286, 40231, 1, "OK", 1, 89, 26, 26, 17, 9, 5, 0
+37286, 37415, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37516, 39244, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 9, 8, 4, 0
+39085, 39244, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37476, 40231, 1, "OK", 1, 82, 25, 25, 16, 9, 5, 0
+37516, 37711, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+38034, 39062, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 14, 14, 6, 8, 4, 0
+37286, 37679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+37254, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 17, 9, 5, 0
+37567, 40231, 1, "OK", 3, 79, 25, 25, 16, 9, 5, 0
+38168, 38752, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex int chars_len", 0, 0, 13, 9, 5, 4, 4, 1
+37847, 38981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+37476, 37679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37691, 40231, 1, "OK", 2, 73, 24, 24, 15, 9, 5, 0
+37691, 39244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 16, 16, 8, 8, 4, 0
+37567, 37711, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+39498, 40068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 1
+37847, 38001, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+39820, 40068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 1
+37793, 38910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+37847, 39029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+37254, 40231, 1, "OK", 1, 91, 26, 26, 17, 9, 5, 0
+37254, 37415, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37286, 39244, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 10, 8, 4, 0
+37254, 37679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+37286, 37711, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+39291, 40068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 5, 5, 0, 1, 1
+37476, 39244, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 9, 8, 4, 0
+37721, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 15, 15, 7, 8, 4, 0
+37567, 39244, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 9, 8, 4, 0
+37476, 37711, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37736, 38100, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 1, 1, 1, 0, 0, 0
+37516, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 16, 16, 8, 8, 4, 0
+37736, 38910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+38168, 38834, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex int chars_len char[] chars", 0, 0, 13, 9, 5, 4, 4, 1
+37286, 37506, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+38241, 38598, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+37254, 39244, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 10, 8, 4, 0
+37254, 37711, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+39291, 40098, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 5, 5, 0, 1, 1
+38200, 38598, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+39256, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 7, 1, 1, 0
+37793, 37941, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+37476, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 16, 16, 8, 8, 4, 0
+37286, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 17, 17, 9, 8, 4, 0
+37254, 37506, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37847, 39062, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 15, 15, 7, 8, 4, 0
+37957, 38981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+38114, 38981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+38034, 38910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+39256, 40231, 1, "OK", 3, 29, 8, 8, 7, 1, 1, 0
+37957, 39029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+38114, 39029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+37721, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 15, 9, 5, 0
+38168, 38895, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 13, 9, 5, 4, 4, 1
+37736, 38981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+37847, 38100, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+37254, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 17, 17, 9, 8, 4, 0
+38241, 38658, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 5, 4, 1, 3, 2
+37567, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 16, 16, 8, 8, 4, 0
+37691, 39073, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 15, 15, 7, 8, 4, 0
+37793, 38981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+38200, 38658, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 5, 4, 1, 3, 2
+37286, 37555, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37736, 37941, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+37957, 39062, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 14, 14, 6, 8, 4, 0
+38517, 38598, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+37793, 38001, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex int startIndex2", 0, 0, 1, 1, 1, 0, 0, 0
+38034, 38981, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+37793, 39029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+38114, 39062, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 14, 14, 6, 8, 4, 0
+38168, 38677, 1, "OK", 1, 14, 13, 9, 5, 4, 4, 1
+37254, 37555, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+37721, 40231, 1, "OK", 2, 72, 24, 24, 15, 9, 5, 0
+37793, 39062, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 15, 15, 7, 8, 4, 0
+37721, 39244, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 16, 16, 8, 8, 4, 0
+39085, 40231, 1, "OK", 3, 36, 9, 9, 8, 1, 1, 0
+39660, 40068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 1
+38241, 38495, 1, "OK", 2, 7, 8, 4, 3, 1, 2, 2
+37516, 40231, 1, "OK", 2, 81, 25, 25, 16, 9, 5, 0
+37516, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 16, 9, 5, 0
+39085, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 9, 9, 8, 1, 1, 0
+37736, 38001, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex int startIndex2", 0, 0, 1, 1, 1, 0, 0, 0
+37847, 38910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int endIndex String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+37736, 39029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String stringVal", 0, 0, 15, 15, 7, 8, 4, 0
+37691, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 15, 9, 5, 0
+39339, 40068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 5, 5, 0, 1, 1
+37847, 37941, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+37516, 37679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+38034, 39029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String stringVal", 0, 0, 14, 14, 6, 8, 4, 0
+38308, 38472, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 2, 2, 0, 1, 3
+37476, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 16, 9, 5, 0
+37286, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 17, 9, 5, 0
+38200, 38495, 1, "OK", 1, 8, 8, 4, 3, 1, 2, 2
+38517, 38658, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+37567, 40205, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 16, 9, 5, 0
+37736, 39062, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int offset char chLocal String strVal", 0, 0, 15, 15, 7, 8, 4, 0

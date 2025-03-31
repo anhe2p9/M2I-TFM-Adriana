@@ -1,0 +1,30 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+4315, 4349, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+3587, 4454, 1, "OK", 7, 35, 22, 22, 11, 11, 6, 0
+3928, 3997, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+3274, 3476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean searchBoxPane boolean isContainerSelected", 0, 0, 1, 1, 1, 0, 0, 0
+3345, 3514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isContainerSelected boolean isResourceSelected", 0, 0, 1, 1, 1, 0, 0, 0
+4315, 4361, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+3871, 4366, 1, "OK", 4, 23, 20, 14, 9, 5, 6, 1
+4022, 4101, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+3274, 3803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean searchBoxPane boolean isContainerSelected boolean isResourceSelected", 0, 0, 2, 2, 2, 0, 0, 0
+3297, 3476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean searchBoxPane boolean isContainerSelected", 0, 0, 1, 1, 1, 0, 0, 0
+3297, 3803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean searchBoxPane boolean isContainerSelected boolean isResourceSelected", 0, 0, 2, 2, 2, 0, 0, 0
+4139, 4194, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+3274, 4454, 1, "OK", 4, 42, 23, 23, 12, 11, 6, 0
+4022, 4113, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+4236, 4269, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+3479, 3803, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+3345, 3476, 1, "OK", 2, 1, 1, 1, 1, 0, 0, 0
+3871, 4450, 1, "OK", 8, 25, 20, 14, 9, 5, 6, 1
+4139, 4206, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+3297, 4454, 1, "OK", 4, 40, 23, 23, 12, 11, 6, 0
+3809, 4454, 1, "OK", 7, 28, 21, 21, 10, 11, 6, 0
+3345, 3803, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isContainerSelected boolean isResourceSelected", 0, 0, 2, 2, 2, 0, 0, 0
+4236, 4281, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+3274, 3514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean searchBoxPane boolean isContainerSelected boolean isResourceSelected", 0, 0, 1, 1, 1, 0, 0, 0
+3479, 4454, 1, "OK", 6, 38, 22, 22, 11, 11, 6, 0
+3345, 4454, 1, "OK", 5, 39, 23, 23, 12, 11, 6, 0
+3587, 3803, 1, "OK", 4, 6, 1, 1, 1, 0, 0, 0
+3297, 3514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean searchBoxPane boolean isContainerSelected boolean isResourceSelected", 0, 0, 1, 1, 1, 0, 0, 0
+3928, 3985, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2

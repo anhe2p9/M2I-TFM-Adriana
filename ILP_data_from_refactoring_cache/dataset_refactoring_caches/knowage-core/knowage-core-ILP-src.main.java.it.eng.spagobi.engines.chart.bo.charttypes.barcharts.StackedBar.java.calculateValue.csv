@@ -1,0 +1,238 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5152, 5218, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+7282, 9336, 1, "OK", 6, 60, 33, 23, 10, 13, 10, 1
+8480, 8558, 1, "OK", 4, 1, 4, 1, 1, 0, 1, 3
+8034, 8558, 1, "OK", 4, 18, 8, 2, 2, 0, 2, 3
+5397, 7365, 1, "OK", 8, 62, 39, 30, 17, 13, 9, 1
+8034, 9080, 1, "OK", 6, 32, 20, 5, 5, 0, 5, 3
+5000, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+4161, 9343, 1, "OK", 0, 170, 81, 81, 32, 49, 21, 0
+8480, 9080, 1, "OK", 6, 15, 16, 4, 4, 0, 4, 3
+5053, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+4258, 9406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 81, 81, 32, 49, 21, 0
+8629, 9080, 1, "OK", 3, 13, 8, 2, 2, 0, 2, 3
+5094, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+7931, 8699, 1, "OK", 5, 23, 20, 5, 5, 0, 5, 3
+5825, 6920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String cat_group_name int contSer", 0, 0, 26, 18, 11, 7, 4, 2
+4161, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+4820, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+4957, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+4924, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+5023, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+5417, 9336, 1, "OK", 9, 118, 70, 52, 26, 26, 18, 1
+4161, 9366, 1, "OK", 0, 171, 81, 81, 32, 49, 21, 0
+4610, 4668, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+5073, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+8564, 9080, 1, "OK", 5, 14, 12, 3, 3, 0, 3, 3
+4258, 9442, 1, "OK", 1, 172, 81, 81, 32, 49, 21, 0
+5000, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+4875, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+5137, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+5562, 6920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue String cat_group_name int contSer", 0, 0, 29, 19, 12, 7, 5, 2
+8034, 8623, 1, "OK", 5, 19, 12, 3, 3, 0, 3, 3
+4820, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+7931, 8230, 1, "OK", 2, 9, 8, 2, 2, 0, 2, 3
+6973, 7214, 1, "OK", 2, 6, 6, 4, 3, 1, 2, 1
+8480, 8623, 1, "OK", 5, 2, 8, 2, 2, 0, 2, 3
+4258, 9461, 1, "OK", 1, 173, 81, 81, 32, 49, 21, 0
+5985, 6100, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+7282, 7365, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+5397, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue String cat_group_name", 0, 0, 31, 25, 13, 12, 6, 1
+7122, 7209, 1, "OK", 1, 2, 3, 1, 1, 0, 1, 2
+4161, 9406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 81, 81, 32, 49, 21, 0
+5000, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5152, 5322, 1, "OK", 1, 6, 7, 3, 3, 0, 2, 2
+5053, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+4820, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+5023, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+8564, 8623, 1, "OK", 2, 1, 4, 1, 1, 0, 1, 3
+4610, 9343, 1, "OK", 3, 155, 81, 81, 32, 49, 21, 0
+4957, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+5152, 5339, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+4924, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+5417, 7365, 1, "OK", 9, 61, 39, 30, 17, 13, 9, 1
+4161, 9442, 1, "OK", 0, 173, 81, 81, 32, 49, 21, 0
+5053, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+4726, 9343, 1, "OK", 3, 150, 80, 80, 31, 49, 21, 0
+6578, 6716, 1, "OK", 2, 3, 6, 2, 2, 0, 1, 4
+4530, 4668, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+4610, 4745, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+5073, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+4875, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+5915, 6793, 1, "OK", 6, 26, 24, 12, 9, 3, 4, 3
+4820, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4161, 9461, 1, "OK", 0, 174, 81, 81, 32, 49, 21, 0
+4610, 9366, 1, "OK", 3, 156, 81, 81, 32, 49, 21, 0
+5137, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 48, 36, 21, 15, 12, 1
+8480, 8699, 1, "OK", 5, 5, 12, 3, 3, 0, 3, 3
+8034, 8699, 1, "OK", 5, 22, 16, 4, 4, 0, 4, 3
+4580, 4668, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+6973, 9336, 1, "OK", 7, 69, 39, 27, 13, 14, 12, 1
+4726, 9366, 1, "OK", 3, 151, 80, 80, 31, 49, 21, 0
+8629, 8699, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+6546, 6716, 1, "OK", 1, 4, 6, 2, 2, 0, 1, 4
+6578, 6752, 1, "OK", 4, 4, 6, 2, 2, 0, 1, 4
+5949, 6793, 1, "OK", 6, 25, 24, 12, 9, 3, 4, 3
+5137, 5344, 1, "OK", 2, 9, 9, 6, 4, 2, 3, 1
+5053, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+5000, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+4610, 9406, 1, "OK", 3, 157, 81, 81, 32, 49, 21, 0
+7767, 9336, 1, "OK", 6, 46, 31, 22, 9, 13, 9, 1
+5023, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+8034, 8230, 1, "OK", 1, 8, 4, 1, 1, 0, 1, 3
+5417, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue String cat_group_name", 0, 0, 31, 25, 13, 12, 6, 1
+4924, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+4726, 9406, 1, "OK", 3, 152, 80, 80, 31, 49, 21, 0
+4957, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+5053, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5094, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+4530, 9343, 1, "OK", 3, 158, 81, 81, 32, 49, 21, 0
+6546, 6752, 1, "OK", 3, 5, 6, 2, 2, 0, 1, 4
+8564, 8699, 1, "OK", 3, 4, 8, 2, 2, 0, 2, 3
+7891, 9087, 1, "OK", 6, 36, 27, 13, 7, 6, 7, 2
+8750, 9080, 1, "OK", 3, 9, 4, 1, 1, 0, 1, 3
+6578, 6786, 1, "OK", 5, 5, 6, 2, 2, 0, 1, 4
+5397, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue String catValue", 0, 0, 68, 51, 25, 26, 17, 1
+5073, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+4875, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+4530, 4745, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+4318, 4668, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset List listAtts", 0, 0, 1, 1, 1, 0, 0, 0
+4580, 9343, 1, "OK", 3, 156, 81, 81, 32, 49, 21, 0
+4384, 4668, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+5137, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name", 0, 0, 40, 31, 17, 14, 9, 1
+5023, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String cat_group_name ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+4610, 9442, 1, "OK", 3, 158, 81, 81, 32, 49, 21, 0
+4580, 4745, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+4957, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+7077, 7209, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+4530, 9366, 1, "OK", 3, 159, 81, 81, 32, 49, 21, 0
+4924, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+6496, 6793, 1, "OK", 4, 8, 7, 4, 3, 1, 1, 3
+6973, 7365, 1, "OK", 4, 12, 8, 5, 4, 1, 3, 1
+4726, 9442, 1, "OK", 3, 153, 80, 80, 31, 49, 21, 0
+4820, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first HashMap additionalValues String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+4580, 9366, 1, "OK", 3, 157, 81, 81, 32, 49, 21, 0
+5073, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+6546, 6786, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4
+4875, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+5650, 6920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue String cat_group_name int contSer", 0, 0, 29, 19, 12, 7, 5, 2
+4610, 9461, 1, "OK", 3, 159, 81, 81, 32, 49, 21, 0
+5137, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4726, 9461, 1, "OK", 3, 154, 80, 80, 31, 49, 21, 0
+5223, 5322, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+4435, 4668, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+6246, 6384, 1, "OK", 2, 3, 6, 2, 2, 0, 1, 4
+5601, 6920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue String cat_group_name int contSer", 0, 0, 29, 19, 12, 7, 5, 2
+5023, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+4530, 9406, 1, "OK", 3, 160, 81, 81, 32, 49, 21, 0
+4924, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+5094, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+4957, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+7282, 9093, 1, "OK", 6, 54, 31, 22, 9, 13, 9, 1
+5223, 5339, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+8059, 8558, 1, "OK", 4, 17, 8, 2, 2, 0, 2, 3
+4580, 9406, 1, "OK", 3, 158, 81, 81, 32, 49, 21, 0
+4287, 4668, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts", 0, 0, 1, 1, 1, 0, 0, 0
+8059, 9080, 1, "OK", 6, 31, 20, 5, 5, 0, 5, 3
+5073, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+4318, 9343, 1, "OK", 2, 165, 81, 81, 32, 49, 21, 0
+4875, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+4384, 9343, 1, "OK", 3, 163, 81, 81, 32, 49, 21, 0
+5023, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String cat_group_name ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+6118, 6793, 1, "OK", 5, 19, 15, 9, 7, 2, 2, 3
+4384, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+4924, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+6214, 6384, 1, "OK", 1, 4, 6, 2, 2, 0, 1, 4
+4957, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+5053, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+6246, 6420, 1, "OK", 4, 4, 6, 2, 2, 0, 1, 4
+4318, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+4139, 4668, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts", 0, 0, 1, 1, 1, 0, 0, 0
+4530, 9442, 1, "OK", 3, 161, 81, 81, 32, 49, 21, 0
+4384, 9366, 1, "OK", 3, 164, 81, 81, 32, 49, 21, 0
+4748, 9343, 1, "OK", 4, 149, 80, 80, 31, 49, 21, 0
+4552, 4668, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+5073, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+7845, 9087, 1, "OK", 6, 37, 27, 13, 7, 6, 7, 2
+4875, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first List atts HashMap series HashMap additionalValues String catValue String cat_group_name ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4318, 9366, 1, "OK", 2, 166, 81, 81, 32, 49, 21, 0
+4580, 9442, 1, "OK", 3, 159, 81, 81, 32, 49, 21, 0
+5417, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue String catValue", 0, 0, 68, 51, 25, 26, 17, 1
+4530, 9461, 1, "OK", 3, 162, 81, 81, 32, 49, 21, 0
+9142, 9336, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+4748, 9366, 1, "OK", 4, 150, 80, 80, 31, 49, 21, 0
+6214, 6420, 1, "OK", 3, 5, 6, 2, 2, 0, 1, 4
+4435, 9343, 1, "OK", 3, 162, 81, 81, 32, 49, 21, 0
+4580, 9461, 1, "OK", 3, 160, 81, 81, 32, 49, 21, 0
+6246, 6454, 1, "OK", 5, 5, 6, 2, 2, 0, 1, 4
+4435, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+8059, 8623, 1, "OK", 5, 18, 12, 3, 3, 0, 3, 3
+5137, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+5488, 6920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String catValue String cat_group_name int contSer", 0, 0, 29, 19, 12, 7, 5, 2
+4384, 9406, 1, "OK", 3, 165, 81, 81, 32, 49, 21, 0
+6246, 6471, 1, "OK", 6, 6, 6, 2, 2, 0, 1, 4
+5094, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+4287, 9343, 1, "OK", 1, 167, 81, 81, 32, 49, 21, 0
+4318, 9406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 81, 81, 32, 49, 21, 0
+5000, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+4435, 9366, 1, "OK", 3, 163, 81, 81, 32, 49, 21, 0
+4287, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+4748, 9406, 1, "OK", 4, 151, 80, 80, 31, 49, 21, 0
+6214, 6454, 1, "OK", 4, 6, 6, 2, 2, 0, 1, 4
+4139, 9343, 1, "OK", 0, 171, 81, 81, 32, 49, 21, 0
+5397, 7214, 1, "OK", 6, 56, 37, 29, 16, 13, 8, 1
+5094, 5344, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first ArrayList orderSeries", 0, 0, 9, 6, 4, 2, 3, 1
+4287, 9366, 1, "OK", 1, 168, 81, 81, 32, 49, 21, 0
+4552, 9343, 1, "OK", 3, 157, 81, 81, 32, 49, 21, 0
+4139, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+4552, 4745, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+4384, 9442, 1, "OK", 3, 166, 81, 81, 32, 49, 21, 0
+6214, 6471, 1, "OK", 5, 7, 6, 2, 2, 0, 1, 4
+7931, 8028, 1, "OK", 2, 1, 4, 1, 1, 0, 1, 3
+5023, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+4318, 9442, 1, "OK", 2, 168, 81, 81, 32, 49, 21, 0
+4924, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first HashMap additionalValues String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+4957, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first HashMap additionalValues String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+4552, 9366, 1, "OK", 3, 158, 81, 81, 32, 49, 21, 0
+4139, 9366, 1, "OK", 0, 172, 81, 81, 32, 49, 21, 0
+4435, 9406, 1, "OK", 3, 164, 81, 81, 32, 49, 21, 0
+4384, 9461, 1, "OK", 3, 167, 81, 81, 32, 49, 21, 0
+4748, 9442, 1, "OK", 4, 152, 80, 80, 31, 49, 21, 0
+5073, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+7931, 8558, 1, "OK", 4, 19, 12, 3, 3, 0, 3, 3
+7931, 8053, 1, "OK", 2, 2, 4, 1, 1, 0, 1, 3
+4258, 4668, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts", 0, 0, 1, 1, 1, 0, 0, 0
+4820, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first HashMap series HashMap additionalValues String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+4875, 9093, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first HashMap additionalValues String catValue", 0, 0, 77, 57, 29, 28, 20, 1
+4318, 9461, 1, "OK", 2, 169, 81, 81, 32, 49, 21, 0
+7931, 9080, 1, "OK", 6, 33, 24, 6, 6, 0, 6, 3
+4287, 9406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 81, 81, 32, 49, 21, 0
+8059, 8699, 1, "OK", 5, 21, 16, 4, 4, 0, 4, 3
+4748, 9461, 1, "OK", 4, 153, 80, 80, 31, 49, 21, 0
+5094, 6925, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue String cat_group_name ArrayList orderSeries", 0, 0, 40, 31, 17, 14, 9, 1
+6973, 9093, 1, "OK", 7, 63, 37, 26, 12, 14, 11, 1
+4435, 9442, 1, "OK", 3, 165, 81, 81, 32, 49, 21, 0
+5000, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+4552, 9406, 1, "OK", 3, 159, 81, 81, 32, 49, 21, 0
+4139, 9406, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  DefaultCategoryDataset dataset DatasetMap datasets", 0, 0, 81, 81, 32, 49, 21, 0
+4435, 9461, 1, "OK", 3, 166, 81, 81, 32, 49, 21, 0
+5094, 5413, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first ArrayList orderSeries int contSer", 0, 0, 9, 6, 4, 2, 3, 1
+4287, 9442, 1, "OK", 1, 170, 81, 81, 32, 49, 21, 0
+5397, 9336, 1, "OK", 8, 119, 70, 52, 26, 26, 18, 1
+7767, 9093, 1, "OK", 6, 40, 29, 21, 8, 13, 8, 1
+8059, 8230, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+5053, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 46, 35, 20, 15, 11, 1
+4287, 9461, 1, "OK", 1, 171, 81, 81, 32, 49, 21, 0
+7931, 8623, 1, "OK", 5, 20, 16, 4, 4, 0, 4, 3
+4552, 9442, 1, "OK", 3, 160, 81, 81, 32, 49, 21, 0
+4139, 9442, 1, "OK", 0, 174, 81, 81, 32, 49, 21, 0
+4258, 9343, 1, "OK", 1, 169, 81, 81, 32, 49, 21, 0
+4161, 4668, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts", 0, 0, 1, 1, 1, 0, 0, 0
+5417, 7214, 1, "OK", 7, 55, 37, 29, 16, 13, 8, 1
+4820, 9336, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue boolean first", 0, 0, 79, 58, 30, 28, 21, 1
+4139, 9461, 1, "OK", 0, 175, 81, 81, 32, 49, 21, 0
+4258, 4745, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double cumulativeValue DefaultCategoryDataset dataset List listAtts boolean first", 0, 0, 1, 1, 1, 0, 0, 0
+4552, 9461, 1, "OK", 3, 161, 81, 81, 32, 49, 21, 0
+4258, 9366, 1, "OK", 1, 170, 81, 81, 32, 49, 21, 0
+5000, 7365, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue ArrayList orderSeries", 0, 0, 48, 36, 21, 15, 12, 1
+5137, 7214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean first String catValue", 0, 0, 46, 35, 20, 15, 11, 1

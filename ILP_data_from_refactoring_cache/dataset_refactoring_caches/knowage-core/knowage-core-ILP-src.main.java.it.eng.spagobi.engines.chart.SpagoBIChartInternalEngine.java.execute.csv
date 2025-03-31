@@ -1,0 +1,192 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+10825, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+10497, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+12305, 12853, 1, "OK", 4, 6, 6, 3, 3, 0, 3, 1
+11799, 12407, 1, "OK", 3, 6, 10, 5, 5, 0, 5, 1
+11963, 12187, 1, "OK", 2, 2, 4, 2, 2, 0, 2, 1
+11799, 12926, 1, "OK", 5, 12, 14, 7, 7, 0, 7, 1
+10621, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+11560, 12657, 1, "OK", 4, 13, 12, 6, 6, 0, 6, 1
+12722, 12986, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+11513, 12076, 1, "OK", 3, 8, 4, 2, 2, 0, 2, 1
+11848, 12187, 1, "OK", 2, 3, 6, 3, 3, 0, 3, 1
+11560, 12926, 1, "OK", 4, 16, 14, 7, 7, 0, 7, 1
+12477, 12657, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+11560, 12407, 1, "OK", 3, 10, 10, 5, 5, 0, 5, 1
+11963, 12717, 1, "OK", 4, 8, 10, 5, 5, 0, 5, 1
+11513, 12853, 1, "OK", 4, 16, 14, 7, 7, 0, 7, 1
+11963, 12472, 1, "OK", 3, 5, 8, 4, 4, 0, 4, 1
+11799, 12187, 1, "OK", 3, 4, 6, 3, 3, 0, 3, 1
+12081, 12407, 1, "OK", 2, 3, 6, 3, 3, 0, 3, 1
+11404, 12657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 12, 6, 6, 0, 6, 1
+11848, 12717, 1, "OK", 4, 9, 12, 6, 6, 0, 6, 1
+12081, 12657, 1, "OK", 3, 6, 8, 4, 4, 0, 4, 1
+12477, 12926, 1, "OK", 3, 5, 4, 2, 2, 0, 2, 1
+11963, 12986, 1, "OK", 5, 11, 12, 6, 6, 0, 6, 1
+12192, 12543, 1, "OK", 3, 4, 4, 2, 2, 0, 2, 1
+10367, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+12192, 12300, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+11404, 12407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 10, 5, 5, 0, 5, 1
+11441, 12543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 10, 5, 5, 0, 5, 1
+11848, 11958, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+12081, 12926, 1, "OK", 4, 9, 10, 5, 5, 0, 5, 1
+10722, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+12412, 12657, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+11560, 12187, 1, "OK", 3, 8, 6, 3, 3, 0, 3, 1
+11799, 12717, 1, "OK", 5, 10, 12, 6, 6, 0, 6, 1
+10825, 10910, 1, "OK", 3, 3, 2, 2, 2, 0, 0, 0
+11278, 13251, 1, "OK", 7, 31, 18, 18, 11, 7, 7, 0
+11848, 12472, 1, "OK", 3, 6, 10, 5, 5, 0, 5, 1
+11664, 12543, 1, "OK", 5, 10, 10, 5, 5, 0, 5, 1
+10298, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+11404, 12926, 1, "OK", 3, 20, 14, 7, 7, 0, 7, 1
+11848, 12986, 1, "OK", 5, 12, 14, 7, 7, 0, 7, 1
+11664, 12300, 1, "OK", 4, 7, 8, 4, 4, 0, 4, 1
+11441, 12300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 8, 4, 4, 0, 4, 1
+10825, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+10722, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+11799, 12986, 1, "OK", 6, 13, 14, 7, 7, 0, 7, 1
+12305, 12407, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+10566, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+11560, 12717, 1, "OK", 4, 14, 12, 6, 6, 0, 6, 1
+11799, 11958, 1, "OK", 3, 2, 2, 1, 1, 0, 1, 1
+12412, 12926, 1, "OK", 3, 6, 4, 2, 2, 0, 2, 1
+12662, 12853, 1, "OK", 3, 2, 2, 1, 1, 0, 1, 1
+11799, 12472, 1, "OK", 4, 7, 10, 5, 5, 0, 5, 1
+12305, 12657, 1, "OK", 3, 4, 4, 2, 2, 0, 2, 1
+12305, 12926, 1, "OK", 4, 7, 6, 3, 3, 0, 3, 1
+10497, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+11560, 11958, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+10367, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+12081, 12187, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+12192, 12853, 1, "OK", 4, 7, 8, 4, 4, 0, 4, 1
+11560, 12472, 1, "OK", 4, 11, 10, 5, 5, 0, 5, 1
+10621, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+11404, 12187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 6, 3, 3, 0, 3, 1
+11560, 12986, 1, "OK", 4, 17, 14, 7, 7, 0, 7, 1
+12477, 12717, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+11664, 12076, 1, "OK", 4, 5, 4, 2, 2, 0, 2, 1
+12081, 12717, 1, "OK", 4, 7, 8, 4, 4, 0, 4, 1
+12477, 12986, 1, "OK", 4, 6, 4, 2, 2, 0, 2, 1
+11441, 12076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 4, 2, 2, 0, 2, 1
+11513, 12407, 1, "OK", 3, 11, 10, 5, 5, 0, 5, 1
+11513, 12657, 1, "OK", 4, 14, 12, 6, 6, 0, 6, 1
+10825, 13251, 1, "OK", 7, 40, 20, 20, 13, 7, 7, 0
+10298, 10910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale", 0, 0, 2, 2, 2, 0, 0, 0
+11441, 12853, 1, "OK", 4, 18, 14, 7, 7, 0, 7, 1
+11963, 12543, 1, "OK", 3, 6, 8, 4, 4, 0, 4, 1
+11513, 12926, 1, "OK", 4, 17, 14, 7, 7, 0, 7, 1
+11664, 12853, 1, "OK", 5, 13, 14, 7, 7, 0, 7, 1
+10566, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+11404, 12717, 1, "OK", 3, 18, 12, 6, 6, 0, 6, 1
+11404, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 10, 5, 5, 0, 5, 1
+11404, 12986, 1, "OK", 3, 21, 14, 7, 7, 0, 7, 1
+10298, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+12081, 12472, 1, "OK", 3, 4, 6, 3, 3, 0, 3, 1
+11404, 11958, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 2, 1, 1, 0, 1, 1
+12081, 12986, 1, "OK", 5, 10, 10, 5, 5, 0, 5, 1
+12412, 12717, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+12548, 12853, 1, "OK", 3, 3, 4, 2, 2, 0, 2, 1
+11963, 12300, 1, "OK", 2, 3, 6, 3, 3, 0, 3, 1
+12412, 12986, 1, "OK", 4, 7, 4, 2, 2, 0, 2, 1
+10497, 10910, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+12305, 12717, 1, "OK", 4, 5, 4, 2, 2, 0, 2, 1
+11848, 12543, 1, "OK", 3, 7, 10, 5, 5, 0, 5, 1
+11049, 13251, 1, "OK", 6, 35, 18, 18, 11, 7, 7, 0
+11848, 12300, 1, "OK", 2, 4, 8, 4, 4, 0, 4, 1
+12722, 12853, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+10621, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+11513, 12187, 1, "OK", 3, 9, 6, 3, 3, 0, 3, 1
+10497, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+10621, 10910, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+10967, 13251, 1, "OK", 5, 36, 18, 18, 11, 7, 7, 0
+10367, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+11799, 12543, 1, "OK", 4, 8, 10, 5, 5, 0, 5, 1
+12305, 12986, 1, "OK", 5, 8, 6, 3, 3, 0, 3, 1
+10722, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+12305, 12472, 1, "OK", 3, 2, 2, 1, 1, 0, 1, 1
+10298, 13251, 1, "OK", 3, 47, 20, 20, 13, 7, 7, 0
+12662, 12926, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+11513, 12717, 1, "OK", 4, 15, 12, 6, 6, 0, 6, 1
+11799, 12300, 1, "OK", 3, 5, 8, 4, 4, 0, 4, 1
+11963, 12076, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+12192, 12657, 1, "OK", 3, 5, 6, 3, 3, 0, 3, 1
+11287, 13075, 1, "OK", 7, 26, 17, 17, 10, 7, 7, 0
+12192, 12926, 1, "OK", 4, 8, 8, 4, 4, 0, 4, 1
+11513, 11958, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+11560, 12543, 1, "OK", 4, 12, 10, 5, 5, 0, 5, 1
+12192, 12407, 1, "OK", 2, 2, 4, 2, 2, 0, 2, 1
+11963, 12853, 1, "OK", 4, 9, 12, 6, 6, 0, 6, 1
+11560, 12300, 1, "OK", 3, 9, 8, 4, 4, 0, 4, 1
+11848, 12076, 1, "OK", 2, 2, 4, 2, 2, 0, 2, 1
+10566, 11116, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale EMFErrorHandler errorHandler", 0, 0, 2, 2, 2, 0, 0, 0
+10621, 13251, 1, "OK", 6, 42, 20, 20, 13, 7, 7, 0
+11441, 12407, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 10, 5, 5, 0, 5, 1
+11441, 12657, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 12, 6, 6, 0, 6, 1
+11513, 12472, 1, "OK", 4, 12, 10, 5, 5, 0, 5, 1
+10497, 13251, 1, "OK", 5, 45, 20, 20, 13, 7, 7, 0
+10825, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+11513, 12986, 1, "OK", 4, 18, 14, 7, 7, 0, 7, 1
+11664, 12657, 1, "OK", 5, 11, 12, 6, 6, 0, 6, 1
+12548, 12657, 1, "OK", 2, 1, 2, 1, 1, 0, 1, 1
+11664, 12926, 1, "OK", 5, 14, 14, 7, 7, 0, 7, 1
+12081, 12543, 1, "OK", 3, 5, 6, 3, 3, 0, 3, 1
+11441, 12926, 1, "OK", 4, 19, 14, 7, 7, 0, 7, 1
+11848, 12853, 1, "OK", 4, 10, 14, 7, 7, 0, 7, 1
+11664, 12407, 1, "OK", 4, 8, 10, 5, 5, 0, 5, 1
+11404, 12543, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 10, 5, 5, 0, 5, 1
+11799, 12076, 1, "OK", 3, 3, 4, 2, 2, 0, 2, 1
+10722, 10910, 1, "OK", 3, 4, 2, 2, 2, 0, 0, 0
+12081, 12300, 1, "OK", 2, 2, 4, 2, 2, 0, 2, 1
+11799, 12853, 1, "OK", 5, 11, 14, 7, 7, 0, 7, 1
+10825, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+12548, 12926, 1, "OK", 3, 4, 4, 2, 2, 0, 2, 1
+11560, 12076, 1, "OK", 3, 7, 4, 2, 2, 0, 2, 1
+10367, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+12662, 12986, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+10722, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+11404, 12300, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 8, 4, 4, 0, 4, 1
+10367, 10910, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale", 0, 0, 2, 2, 2, 0, 0, 0
+11664, 12187, 1, "OK", 4, 6, 6, 3, 3, 0, 3, 1
+12305, 12543, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+11560, 12853, 1, "OK", 4, 15, 14, 7, 7, 0, 7, 1
+12192, 12717, 1, "OK", 4, 6, 6, 3, 3, 0, 3, 1
+12722, 12926, 1, "OK", 2, 2, 2, 1, 1, 0, 1, 1
+11441, 12187, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 6, 3, 3, 0, 3, 1
+11963, 12657, 1, "OK", 3, 7, 10, 5, 5, 0, 5, 1
+10298, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+10566, 11170, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType", 0, 0, 2, 2, 2, 0, 0, 0
+11441, 12717, 1, "OK", 4, 17, 12, 6, 6, 0, 6, 1
+11963, 12407, 1, "OK", 2, 4, 8, 4, 4, 0, 4, 1
+11664, 12717, 1, "OK", 5, 12, 12, 6, 6, 0, 6, 1
+10566, 10910, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+12192, 12472, 1, "OK", 3, 3, 4, 2, 2, 0, 2, 1
+12192, 12986, 1, "OK", 5, 9, 8, 4, 4, 0, 4, 1
+12477, 12853, 1, "OK", 3, 4, 4, 2, 2, 0, 2, 1
+10367, 13251, 1, "OK", 4, 46, 20, 20, 13, 7, 7, 0
+12081, 12853, 1, "OK", 4, 8, 10, 5, 5, 0, 5, 1
+11963, 12926, 1, "OK", 4, 10, 12, 6, 6, 0, 6, 1
+11513, 12543, 1, "OK", 4, 13, 10, 5, 5, 0, 5, 1
+11664, 11958, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+11441, 11958, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 2, 1, 1, 0, 1, 1
+11404, 12076, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 4, 2, 2, 0, 2, 1
+10722, 13251, 1, "OK", 7, 41, 20, 20, 13, 7, 7, 0
+10298, 11046, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IEngUserProfile userProfile Locale locale ResponseContainer responseContainer", 0, 0, 2, 2, 2, 0, 0, 0
+10621, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+11664, 12472, 1, "OK", 5, 9, 10, 5, 5, 0, 5, 1
+12548, 12717, 1, "OK", 3, 2, 2, 1, 1, 0, 1, 1
+11441, 12472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataSet dataset JSONArray parsJSON", 0, 0, 10, 5, 5, 0, 5, 1
+10497, 11275, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Locale locale String chartType JSONTemplateUtils templateUtil", 0, 0, 2, 2, 2, 0, 0, 0
+11664, 12986, 1, "OK", 5, 15, 14, 7, 7, 0, 7, 1
+11404, 12853, 1, "OK", 3, 19, 14, 7, 7, 0, 7, 1
+11441, 12986, 1, "OK", 4, 20, 14, 7, 7, 0, 7, 1
+11848, 12657, 1, "OK", 3, 8, 12, 6, 6, 0, 6, 1
+11119, 13251, 1, "OK", 6, 34, 18, 18, 11, 7, 7, 0
+11513, 12300, 1, "OK", 3, 10, 8, 4, 4, 0, 4, 1
+12548, 12986, 1, "OK", 4, 5, 4, 2, 2, 0, 2, 1
+11848, 12926, 1, "OK", 4, 11, 14, 7, 7, 0, 7, 1
+11848, 12407, 1, "OK", 2, 5, 10, 5, 5, 0, 5, 1
+11218, 13251, 1, "OK", 6, 32, 18, 18, 11, 7, 7, 0
+10566, 13251, 1, "OK", 5, 43, 20, 20, 13, 7, 7, 0
+12412, 12853, 1, "OK", 3, 5, 4, 2, 2, 0, 2, 1
+11799, 12657, 1, "OK", 4, 9, 12, 6, 6, 0, 6, 1

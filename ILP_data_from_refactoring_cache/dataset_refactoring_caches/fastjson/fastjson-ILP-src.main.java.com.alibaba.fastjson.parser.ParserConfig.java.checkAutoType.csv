@@ -1,0 +1,642 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+51852, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+50984, 51842, 1, "OK", 1, 20, 6, 6, 5, 1, 1, 0
+50512, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 53, 33, 19, 0
+51932, 52152, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+52358, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 75, 75, 43, 32, 18, 0
+50088, 50935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+51932, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 76, 44, 32, 18, 0
+50673, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 86, 86, 53, 33, 19, 0
+50945, 52019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 6, 6, 5, 1, 1, 0
+52162, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 7, 7, 4, 3, 2, 0
+50456, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+52688, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 75, 75, 43, 32, 18, 0
+52788, 54268, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 27, 27, 13, 14, 7, 0
+55925, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 24, 18, 6, 5, 0
+54183, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 21, 12, 6, 0
+50512, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 38, 38, 23, 15, 8, 0
+50156, 51898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+52028, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 29, 29, 15, 14, 7, 0
+51932, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+50456, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 29, 16, 9, 0
+50984, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 32, 27, 14, 0
+53216, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 69, 69, 40, 29, 16, 0
+50456, 50782, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+50088, 50975, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 11, 8, 3, 2, 0
+51932, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 8, 8, 5, 3, 2, 0
+52162, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+56283, 56563, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+54125, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 6, 0
+57152, 57266, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+52788, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 75, 75, 43, 32, 18, 0
+50456, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+54885, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 12, 11, 5, 0
+56686, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 20, 14, 6, 5, 0
+53216, 54355, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 5, 0
+55956, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 25, 19, 6, 5, 0
+50512, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 11, 11, 10, 1, 1, 0
+52028, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 77, 77, 45, 32, 18, 0
+51150, 51832, 1, "OK", 1, 15, 4, 3, 3, 0, 1, 1
+50456, 51842, 1, "OK", 3, 33, 10, 10, 9, 1, 1, 0
+54125, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 18, 12, 6, 0
+50088, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 78, 78, 48, 30, 16, 0
+57119, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 15, 9, 6, 5, 0
+50792, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash", 0, 0, 10, 10, 9, 1, 1, 0
+57152, 58273, 0, "Compilation unit does not compile after method extraction.", 5, 25, 14, 9, 8, 1, 5, 1
+50984, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 32, 27, 14, 0
+54278, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 29, 18, 11, 0
+50156, 51922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+52028, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 30, 30, 16, 14, 7, 0
+52633, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 33, 26, 13, 0
+53216, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 70, 70, 41, 29, 16, 0
+51852, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+50984, 51898, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 6, 6, 5, 1, 1, 0
+53634, 53714, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+50205, 50436, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+50088, 52019, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+50156, 50935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+54125, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 6, 1, 1, 0
+52358, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+55891, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 25, 19, 6, 5, 0
+55956, 58517, 1, "OK", 7, 66, 25, 25, 19, 6, 5, 0
+50673, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 39, 39, 24, 15, 8, 0
+50945, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 boolean internalWhite", 0, 0, 34, 34, 19, 15, 8, 0
+51852, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className long h3", 0, 0, 2, 2, 2, 0, 0, 0
+52688, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+54482, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 18, 12, 6, 0
+50512, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 18, 18, 14, 4, 3, 0
+54885, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 7, 11, 5, 0
+52358, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 76, 76, 44, 32, 18, 0
+50456, 51922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 10, 10, 9, 1, 1, 0
+50088, 54115, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 27, 18, 10, 0
+50945, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 34, 34, 19, 15, 8, 0
+51852, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className long h3 long fullHash", 0, 0, 2, 2, 2, 0, 0, 0
+54125, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 6, 0
+51907, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 35, 26, 13, 0
+50156, 50975, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 7, 3, 2, 0
+53216, 58517, 1, "OK", 8, 142, 70, 70, 41, 29, 16, 0
+55925, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 25, 25, 19, 6, 5, 0
+50156, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 77, 77, 47, 30, 16, 0
+54365, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 15, 12, 6, 0
+54885, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 7, 11, 5, 0
+50984, 51922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 6, 6, 5, 1, 1, 0
+50673, 52348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 11, 11, 10, 1, 1, 0
+53292, 54105, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 12, 6, 6, 5, 1
+50512, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 39, 39, 24, 15, 8, 0
+50673, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 87, 87, 54, 33, 19, 0
+52688, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 76, 76, 44, 32, 18, 0
+51932, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 29, 29, 15, 14, 7, 0
+55891, 58517, 1, "OK", 5, 68, 25, 25, 19, 6, 5, 0
+52788, 54355, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 28, 28, 14, 14, 7, 0
+54125, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 6, 0
+50456, 51898, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 10, 10, 9, 1, 1, 0
+52162, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 76, 76, 44, 32, 18, 0
+55085, 55857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long hash", 0, 0, 15, 7, 5, 2, 4, 2
+50945, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 7, 7, 6, 1, 1, 0
+52028, 58517, 1, "OK", 6, 171, 78, 78, 46, 32, 18, 0
+54278, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 48, 48, 30, 18, 11, 0
+52358, 58517, 1, "OK", 5, 163, 76, 76, 44, 32, 18, 0
+56686, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 21, 21, 15, 6, 5, 0
+52162, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 29, 29, 15, 14, 7, 0
+50512, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 87, 87, 54, 33, 19, 0
+50792, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 66, 66, 39, 27, 14, 0
+54921, 55871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 12, 6, 6, 5, 1
+50156, 52019, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+51932, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 77, 77, 45, 32, 18, 0
+50945, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 82, 82, 49, 33, 19, 0
+52788, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 76, 76, 44, 32, 18, 0
+52028, 52348, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+52028, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 78, 78, 46, 32, 18, 0
+55925, 58517, 1, "OK", 6, 67, 25, 25, 19, 6, 5, 0
+50792, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 10, 10, 9, 1, 1, 0
+50673, 58517, 1, "OK", 4, 205, 87, 87, 54, 33, 19, 0
+54885, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 7, 11, 5, 0
+52688, 58517, 1, "OK", 7, 155, 76, 76, 44, 32, 18, 0
+50156, 54115, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 26, 18, 10, 0
+50673, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3", 0, 0, 40, 40, 25, 15, 8, 0
+52688, 54472, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 29, 29, 15, 14, 7, 0
+51932, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 30, 30, 16, 14, 7, 0
+52162, 52348, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 0
+52162, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 77, 77, 45, 32, 18, 0
+50456, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 44, 27, 14, 0
+52928, 53182, 1, "OK", 4, 5, 3, 1, 1, 0, 1, 2
+50792, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 43, 27, 16, 9, 0
+50088, 54173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 27, 18, 10, 0
+50945, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 14, 14, 10, 4, 3, 0
+52633, 54115, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 26, 26, 12, 14, 7, 0
+53216, 54472, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 12, 11, 5, 0
+56686, 58517, 1, "OK", 6, 47, 21, 21, 15, 6, 5, 0
+50984, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+50456, 50935, 1, "OK", 2, 11, 4, 4, 4, 0, 0, 0
+50792, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 34, 27, 14, 0
+54365, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 15, 12, 6, 0
+52788, 58517, 1, "OK", 8, 153, 76, 76, 44, 32, 18, 0
+57119, 58403, 0, "Compilation unit does not compile after method extraction.", 5, 31, 16, 16, 10, 6, 5, 0
+54183, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 30, 18, 11, 0
+54482, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 27, 18, 11, 0
+53428, 54091, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 7, 5, 2, 4, 2
+50792, 51842, 1, "OK", 2, 25, 8, 8, 7, 1, 1, 0
+50456, 52019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 10, 10, 9, 1, 1, 0
+50945, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 35, 35, 20, 15, 8, 0
+51852, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className long h3 long fullHash boolean internalWhite", 0, 0, 2, 2, 2, 0, 0, 0
+50088, 52152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+56967, 57016, 1, "OK", 2, 1, 1, 1, 1, 0, 0, 1
+50276, 50422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+52788, 54472, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 29, 29, 15, 14, 7, 0
+52162, 58517, 1, "OK", 6, 167, 77, 77, 45, 32, 18, 0
+50456, 50975, 1, "OK", 2, 13, 4, 4, 4, 0, 0, 0
+50984, 52019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 6, 6, 5, 1, 1, 0
+52028, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3", 0, 0, 31, 31, 17, 14, 7, 0
+54278, 54355, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+51907, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+52358, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3", 0, 0, 29, 29, 15, 14, 7, 0
+50088, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 57, 36, 21, 0
+50512, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 40, 40, 25, 15, 8, 0
+50792, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 34, 27, 14, 0
+58117, 58273, 1, "OK", 3, 3, 3, 2, 2, 0, 1, 1
+51907, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+50088, 50146, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+51932, 58517, 1, "OK", 5, 172, 78, 78, 46, 32, 18, 0
+54278, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 49, 49, 31, 18, 11, 0
+50984, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 boolean internalWhite", 0, 0, 34, 34, 19, 15, 8, 0
+51852, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+51852, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 58, 32, 26, 13, 0
+50156, 54173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 26, 18, 10, 0
+52633, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 42, 32, 18, 0
+54183, 54268, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+56741, 56891, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+50512, 52348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 12, 12, 11, 1, 1, 0
+50088, 53206, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 18, 7, 5, 0
+50512, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 88, 88, 55, 33, 19, 0
+51932, 52348, 1, "OK", 2, 8, 2, 2, 2, 0, 0, 0
+51932, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 78, 78, 46, 32, 18, 0
+50792, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 34, 27, 14, 0
+52633, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean internalWhite", 0, 0, 26, 26, 12, 14, 7, 0
+52633, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long fullHash boolean internalWhite", 0, 0, 6, 6, 3, 3, 2, 0
+54183, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 49, 49, 31, 18, 11, 0
+51852, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 20, 15, 8, 0
+54278, 58517, 1, "OK", 8, 115, 49, 49, 31, 18, 11, 0
+55956, 56676, 1, "OK", 3, 18, 4, 4, 4, 0, 0, 0
+50792, 51898, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 8, 8, 7, 1, 1, 0
+54885, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 15, 11, 5, 0
+57119, 58517, 1, "OK", 5, 37, 17, 17, 11, 6, 5, 0
+55496, 55582, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+50088, 54268, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 28, 18, 10, 0
+51907, 52152, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+51907, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 76, 44, 32, 18, 0
+54125, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 21, 12, 6, 0
+50456, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 boolean internalWhite", 0, 0, 38, 38, 23, 15, 8, 0
+50156, 52152, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+50156, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 92, 92, 56, 36, 21, 0
+53474, 53732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 2, 1, 2, 2
+50945, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 83, 83, 50, 33, 19, 0
+57119, 58494, 0, "Compilation unit does not compile after method extraction.", 5, 35, 17, 17, 11, 6, 5, 0
+50512, 58517, 1, "OK", 4, 208, 88, 88, 55, 33, 19, 0
+52162, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3", 0, 0, 30, 30, 16, 14, 7, 0
+50512, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3", 0, 0, 41, 41, 26, 15, 8, 0
+50088, 58403, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 58, 36, 21, 0
+54365, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 16, 12, 6, 0
+57665, 58009, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 3, 1, 2, 1
+55891, 56676, 1, "OK", 1, 20, 4, 4, 4, 0, 0, 0
+56901, 57109, 1, "OK", 5, 4, 3, 3, 3, 0, 0, 0
+50945, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 36, 36, 21, 15, 8, 0
+51907, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 8, 8, 5, 3, 2, 0
+50984, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 34, 34, 19, 15, 8, 0
+57280, 57651, 1, "OK", 2, 6, 3, 2, 2, 0, 1, 1
+50156, 53206, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 17, 7, 5, 0
+50792, 51922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 8, 8, 7, 1, 1, 0
+51932, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3", 0, 0, 31, 31, 17, 14, 7, 0
+52865, 53196, 1, "OK", 3, 7, 5, 3, 2, 1, 2, 1
+51852, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+55058, 55857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long hash", 0, 0, 15, 7, 5, 2, 4, 2
+56967, 57099, 1, "OK", 3, 2, 1, 1, 1, 0, 0, 1
+51907, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 29, 29, 15, 14, 7, 0
+50945, 52348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 8, 8, 7, 1, 1, 0
+54365, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+52358, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+50945, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 84, 84, 51, 33, 19, 0
+50792, 50935, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+54482, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 46, 46, 28, 18, 11, 0
+50156, 54268, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 27, 18, 10, 0
+50984, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 7, 7, 6, 1, 1, 0
+55925, 56676, 1, "OK", 2, 19, 4, 4, 4, 0, 0, 0
+50456, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 86, 86, 53, 33, 19, 0
+50673, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 66, 66, 39, 27, 14, 0
+52688, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+55012, 55287, 1, "OK", 4, 7, 3, 1, 1, 0, 1, 2
+55956, 56732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType int mask", 0, 0, 4, 4, 4, 0, 0, 0
+54183, 54355, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+54365, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 11, 12, 6, 0
+51852, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+54278, 54472, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+50984, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 82, 82, 49, 33, 19, 0
+52633, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean internalWhite", 0, 0, 27, 27, 13, 14, 7, 0
+50456, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 38, 38, 23, 15, 8, 0
+53216, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 26, 23, 11, 0
+50156, 58403, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 93, 93, 57, 36, 21, 0
+50792, 50975, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+54183, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 50, 50, 32, 18, 11, 0
+50456, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 18, 18, 14, 4, 3, 0
+50673, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3", 0, 0, 11, 11, 10, 1, 1, 0
+53216, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 49, 26, 23, 11, 0
+52788, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+54365, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 11, 12, 6, 0
+50945, 58517, 1, "OK", 3, 197, 84, 84, 51, 33, 19, 0
+52028, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+55891, 56732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType int mask", 0, 0, 4, 4, 4, 0, 0, 0
+52633, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 75, 75, 43, 32, 18, 0
+50088, 54355, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 29, 18, 10, 0
+50792, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 42, 27, 14, 0
+50984, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 14, 14, 10, 4, 3, 0
+50456, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 11, 11, 10, 1, 1, 0
+52633, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+57665, 58104, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 4, 3, 1, 2, 1
+54125, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 30, 18, 11, 0
+58023, 58273, 1, "OK", 3, 4, 3, 2, 2, 0, 1, 1
+50088, 52348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 15, 4, 3, 0
+50984, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 35, 35, 20, 15, 8, 0
+52028, 52623, 1, "OK", 3, 14, 2, 2, 2, 0, 0, 0
+52358, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+50088, 58494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 95, 95, 59, 36, 21, 0
+55925, 56732, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType int mask", 0, 0, 4, 4, 4, 0, 0, 0
+50673, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 66, 66, 39, 27, 14, 0
+50792, 52019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 8, 8, 7, 1, 1, 0
+52688, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+54183, 58517, 1, "OK", 8, 119, 50, 50, 32, 18, 11, 0
+54365, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 11, 12, 6, 0
+51907, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 77, 77, 45, 32, 18, 0
+50792, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 boolean internalWhite", 0, 0, 36, 36, 21, 15, 8, 0
+50984, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 83, 83, 50, 33, 19, 0
+51907, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 30, 30, 16, 14, 7, 0
+58413, 58494, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+50673, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash", 0, 0, 11, 11, 10, 1, 1, 0
+57152, 57651, 0, "Compilation unit does not compile after method extraction.", 3, 11, 5, 3, 3, 0, 2, 1
+50156, 54355, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 28, 18, 10, 0
+50945, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3", 0, 0, 37, 37, 22, 15, 8, 0
+52788, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+55974, 56270, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+50088, 58517, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 95, 95, 59, 36, 21, 0
+54482, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 47, 47, 29, 18, 11, 0
+52028, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+52162, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 30, 26, 13, 0
+50456, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 39, 39, 24, 15, 8, 0
+54885, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 24, 17, 10, 0
+52162, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 30, 26, 13, 0
+51907, 52348, 1, "OK", 2, 10, 2, 2, 2, 0, 0, 0
+52633, 58517, 1, "OK", 6, 156, 76, 76, 44, 32, 18, 0
+51907, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 78, 78, 46, 32, 18, 0
+54278, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 16, 12, 6, 0
+50156, 52348, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+56741, 57109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean autoTypeSupport", 0, 0, 4, 4, 4, 0, 0, 0
+50156, 58494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 58, 36, 21, 0
+50512, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+51932, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+52837, 53196, 1, "OK", 3, 8, 5, 3, 2, 1, 2, 1
+51852, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 35, 26, 13, 0
+50456, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 87, 87, 54, 33, 19, 0
+52028, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash", 0, 0, 2, 2, 2, 0, 0, 0
+58413, 58517, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+52162, 52623, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+54183, 54472, 1, "OK", 3, 11, 3, 3, 3, 0, 0, 0
+56901, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 12, 6, 5, 0
+54482, 58517, 1, "OK", 7, 107, 47, 47, 29, 18, 11, 0
+52633, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 76, 76, 44, 32, 18, 0
+50456, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 40, 40, 25, 15, 8, 0
+53383, 53732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 2, 1, 2, 2
+51907, 58517, 1, "OK", 5, 174, 78, 78, 46, 32, 18, 0
+54125, 54268, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+51932, 52623, 1, "OK", 2, 15, 2, 2, 2, 0, 0, 0
+50792, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 36, 36, 21, 15, 8, 0
+55496, 55804, 0, "Compilation unit does not compile after method extraction.", 3, 7, 9, 3, 3, 0, 2, 3
+50156, 58517, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 94, 58, 36, 21, 0
+55956, 56891, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType boolean autoTypeSupport", 0, 0, 5, 5, 5, 0, 0, 0
+50984, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 36, 36, 21, 15, 8, 0
+50088, 54472, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 30, 18, 10, 0
+51852, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+50673, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 11, 11, 10, 1, 1, 0
+54365, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 19, 12, 6, 0
+55496, 55839, 1, "OK", 3, 9, 9, 3, 3, 0, 2, 3
+50156, 54472, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 47, 29, 18, 10, 0
+54885, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 42, 42, 25, 17, 10, 0
+53216, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 50, 27, 23, 11, 0
+50792, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 9, 9, 8, 1, 1, 0
+52633, 54472, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 29, 29, 15, 14, 7, 0
+55132, 55857, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 7, 5, 2, 4, 2
+50984, 52348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 8, 8, 7, 1, 1, 0
+54125, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 49, 49, 31, 18, 11, 0
+54278, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 16, 12, 6, 0
+50984, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 84, 84, 51, 33, 19, 0
+55891, 56891, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType boolean autoTypeSupport", 0, 0, 5, 5, 5, 0, 0, 0
+50512, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+50512, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3", 0, 0, 12, 12, 11, 1, 1, 0
+51932, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+50792, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 84, 84, 51, 33, 19, 0
+53549, 53714, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+52162, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash", 0, 0, 1, 1, 1, 0, 0, 0
+50352, 50422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+56043, 56270, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+50512, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash", 0, 0, 12, 12, 11, 1, 1, 0
+50673, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 35, 27, 14, 0
+52688, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+56901, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 19, 19, 13, 6, 5, 0
+50456, 58517, 1, "OK", 3, 209, 88, 88, 55, 33, 19, 0
+53216, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 15, 12, 6, 0
+52973, 53182, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+52358, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 30, 26, 13, 0
+53216, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 22, 23, 11, 0
+55085, 55287, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+50673, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+51932, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash", 0, 0, 2, 2, 2, 0, 0, 0
+52688, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 30, 26, 13, 0
+52028, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 2, 2, 2, 0, 0, 0
+50792, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 16, 16, 12, 4, 3, 0
+50984, 58517, 1, "OK", 3, 196, 84, 84, 51, 33, 19, 0
+55925, 56891, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType boolean autoTypeSupport", 0, 0, 5, 5, 5, 0, 0, 0
+50456, 52348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 12, 12, 11, 1, 1, 0
+50088, 50446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 4, 3, 2, 0
+50456, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 88, 88, 55, 33, 19, 0
+51907, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3", 0, 0, 31, 31, 17, 14, 7, 0
+50512, 50664, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+50673, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 35, 27, 14, 0
+52688, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+54183, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 17, 12, 6, 0
+53873, 53987, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+51852, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+50792, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 37, 37, 22, 15, 8, 0
+52358, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 18, 15, 8, 0
+52788, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+52788, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 30, 26, 13, 0
+50673, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 44, 44, 28, 16, 9, 0
+52688, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 18, 15, 8, 0
+56686, 56891, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+50673, 50782, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+52028, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+53216, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 22, 23, 11, 0
+52028, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 58, 32, 26, 13, 0
+50945, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+52358, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+54125, 54355, 1, "OK", 1, 9, 2, 2, 2, 0, 0, 0
+57665, 58273, 0, "Compilation unit does not compile after method extraction.", 4, 13, 9, 6, 5, 1, 3, 1
+52788, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+54885, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 43, 43, 26, 17, 10, 0
+50673, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 62, 62, 35, 27, 14, 0
+52162, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+50792, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 85, 85, 52, 33, 19, 0
+50945, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+50088, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 44, 30, 16, 0
+52688, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+52028, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+54125, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 50, 50, 32, 18, 11, 0
+50456, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3", 0, 0, 41, 41, 26, 15, 8, 0
+50673, 51842, 1, "OK", 3, 29, 9, 9, 8, 1, 1, 0
+52162, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 1, 1, 1, 0, 0, 0
+53474, 54091, 0, "Compilation unit does not compile after method extraction.", 3, 13, 15, 7, 5, 2, 4, 2
+52788, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 18, 15, 8, 0
+51852, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className long h1", 0, 0, 1, 1, 1, 0, 0, 0
+53216, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 22, 23, 11, 0
+50945, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3", 0, 0, 8, 8, 7, 1, 1, 0
+50088, 50503, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 4, 3, 2, 0
+50984, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3", 0, 0, 37, 37, 22, 15, 8, 0
+51852, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 76, 44, 32, 18, 0
+52028, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 20, 15, 8, 0
+50156, 50446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 3, 3, 2, 0
+56741, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+57708, 57995, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+52358, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+52788, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+56901, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 20, 14, 6, 5, 0
+57280, 58009, 0, "Compilation unit does not compile after method extraction.", 3, 15, 9, 6, 5, 1, 3, 1
+50512, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 12, 12, 11, 1, 1, 0
+52162, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 19, 15, 8, 0
+50156, 50503, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 3, 3, 2, 0
+52028, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+54482, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 14, 12, 6, 0
+54885, 58517, 1, "OK", 7, 96, 43, 43, 26, 17, 10, 0
+54183, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 17, 12, 6, 0
+52162, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 26, 26, 13, 0
+51852, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className long h3 long fullHash boolean internalWhite", 0, 0, 8, 8, 5, 3, 2, 0
+54125, 58517, 1, "OK", 7, 121, 50, 50, 32, 18, 11, 0
+51932, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 2, 2, 2, 0, 0, 0
+52358, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+50156, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 73, 73, 43, 30, 16, 0
+50512, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+54125, 54472, 1, "OK", 2, 13, 3, 3, 3, 0, 0, 0
+51852, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 29, 29, 15, 14, 7, 0
+56901, 58517, 1, "OK", 6, 42, 20, 20, 14, 6, 5, 0
+54278, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 17, 12, 6, 0
+50088, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 44, 30, 16, 0
+50088, 52623, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 15, 4, 3, 0
+55335, 55857, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 6, 4, 2, 3, 2
+50673, 51898, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 9, 9, 8, 1, 1, 0
+52162, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 26, 26, 13, 0
+53873, 54073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+50512, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 41, 27, 14, 0
+50792, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 38, 38, 23, 15, 8, 0
+52633, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+54365, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 46, 46, 28, 18, 11, 0
+55410, 55582, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+51932, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+51932, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 58, 32, 26, 13, 0
+50945, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash", 0, 0, 8, 8, 7, 1, 1, 0
+51852, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 77, 77, 45, 32, 18, 0
+56741, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 20, 20, 14, 6, 5, 0
+50512, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+51932, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+54278, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 5, 1, 1, 0
+50792, 52348, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 10, 10, 9, 1, 1, 0
+50792, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 86, 86, 53, 33, 19, 0
+54482, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 26, 14, 12, 6, 0
+52162, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 26, 26, 13, 0
+58293, 58403, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+50512, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 29, 16, 9, 0
+55974, 56563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType InputStream is", 0, 0, 3, 3, 3, 0, 0, 0
+50512, 50782, 1, "OK", 3, 6, 2, 2, 2, 0, 0, 0
+51932, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 20, 15, 8, 0
+55956, 57109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean jsonType boolean autoTypeSupport", 0, 0, 8, 8, 8, 0, 0, 0
+50673, 51922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 9, 9, 8, 1, 1, 0
+51907, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+54278, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 12, 12, 6, 0
+57280, 58104, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 6, 5, 1, 3, 1
+51907, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 57, 57, 31, 26, 13, 0
+50512, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+50984, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+50156, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 73, 73, 43, 30, 16, 0
+51932, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+50512, 51842, 1, "OK", 4, 32, 10, 10, 9, 1, 1, 0
+53216, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 30, 23, 11, 0
+51907, 52623, 1, "OK", 2, 17, 2, 2, 2, 0, 0, 0
+50792, 58517, 1, "OK", 3, 201, 86, 86, 53, 33, 19, 0
+50088, 52679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 15, 4, 3, 0
+55891, 57109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean jsonType boolean autoTypeSupport", 0, 0, 8, 8, 8, 0, 0, 0
+50156, 52623, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+55058, 55287, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+52633, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 55, 55, 29, 26, 13, 0
+54278, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 12, 12, 6, 0
+50673, 50935, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 0
+57152, 58009, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 7, 6, 1, 4, 1
+50945, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 64, 64, 37, 27, 14, 0
+52028, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 35, 26, 13, 0
+50156, 52679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+52358, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 33, 26, 13, 0
+51852, 54355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 30, 30, 16, 14, 7, 0
+50945, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 8, 8, 7, 1, 1, 0
+55604, 55804, 1, "OK", 3, 3, 5, 2, 2, 0, 1, 3
+50456, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+50673, 50975, 1, "OK", 2, 9, 3, 3, 3, 0, 0, 0
+50088, 50664, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 8, 5, 3, 2, 0
+55925, 57109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean jsonType boolean autoTypeSupport", 0, 0, 8, 8, 8, 0, 0, 0
+54278, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 12, 12, 6, 0
+50673, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 43, 27, 14, 0
+52688, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 33, 26, 13, 0
+50456, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3", 0, 0, 12, 12, 11, 1, 1, 0
+56741, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 21, 21, 15, 6, 5, 0
+50945, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 25, 16, 9, 0
+50156, 50664, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 4, 3, 2, 0
+51852, 52348, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+51852, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 78, 78, 46, 32, 18, 0
+50984, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+54183, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 18, 12, 6, 0
+50984, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3", 0, 0, 8, 8, 7, 1, 1, 0
+50945, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 32, 27, 14, 0
+56043, 56563, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean jsonType InputStream is", 0, 0, 3, 3, 3, 0, 0, 0
+50512, 51898, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 10, 10, 9, 1, 1, 0
+56686, 57109, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean autoTypeSupport", 0, 0, 4, 4, 4, 0, 0, 0
+58293, 58494, 1, "OK", 3, 7, 2, 2, 2, 0, 0, 0
+55604, 55839, 1, "OK", 3, 5, 5, 2, 2, 0, 1, 3
+50792, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3", 0, 0, 39, 39, 24, 15, 8, 0
+50673, 52019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 9, 9, 8, 1, 1, 0
+52788, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 33, 26, 13, 0
+51907, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash", 0, 0, 2, 2, 2, 0, 0, 0
+54365, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 47, 47, 29, 18, 11, 0
+54125, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 17, 12, 6, 0
+55956, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+52358, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 boolean internalWhite", 0, 0, 26, 26, 12, 14, 7, 0
+56741, 58517, 1, "OK", 7, 46, 21, 21, 15, 6, 5, 0
+50673, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 boolean internalWhite", 0, 0, 37, 37, 22, 15, 8, 0
+50088, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 45, 30, 16, 0
+51077, 51832, 1, "OK", 1, 16, 4, 3, 3, 0, 1, 1
+52162, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 34, 26, 13, 0
+52688, 54115, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 26, 26, 12, 14, 7, 0
+54183, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 6, 1, 1, 0
+51852, 58517, 1, "OK", 4, 175, 78, 78, 46, 32, 18, 0
+50945, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 32, 27, 14, 0
+54183, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 6, 0
+50088, 52778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 15, 4, 3, 0
+50512, 51922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 10, 10, 9, 1, 1, 0
+50456, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+58293, 58517, 1, "OK", 3, 9, 2, 2, 2, 0, 0, 0
+53216, 54115, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 9, 11, 5, 0
+54482, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 10, 12, 6, 0
+55891, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+57152, 58104, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 7, 6, 1, 4, 1
+51932, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 35, 26, 13, 0
+51852, 54472, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String className Class<?> clazz long h3", 0, 0, 31, 31, 17, 14, 7, 0
+53216, 54173, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 20, 9, 11, 5, 0
+54515, 54865, 1, "OK", 3, 8, 3, 2, 2, 0, 1, 1
+50156, 52778, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 18, 14, 4, 3, 0
+50456, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash", 0, 0, 12, 12, 11, 1, 1, 0
+52788, 54115, 0, "Compilation unit does not compile after method extraction.", 6, 31, 26, 26, 12, 14, 7, 0
+53428, 53732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 2, 1, 2, 2
+50088, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 52, 33, 19, 11, 0
+50088, 50782, 0, "Compilation unit does not compile after method extraction.", 3, 20, 9, 9, 6, 3, 2, 0
+50512, 50935, 1, "OK", 3, 10, 4, 4, 4, 0, 0, 0
+54482, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 15, 12, 6, 0
+52028, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+50945, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 32, 27, 14, 0
+50984, 52679, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash", 0, 0, 8, 8, 7, 1, 1, 0
+50088, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 40, 30, 16, 0
+50945, 51842, 1, "OK", 1, 21, 6, 6, 5, 1, 1, 0
+54885, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 5, 0
+54183, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 6, 0
+54515, 54838, 1, "OK", 3, 6, 3, 2, 2, 0, 1, 1
+53383, 54091, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 15, 7, 5, 2, 4, 2
+51907, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 58, 32, 26, 13, 0
+52358, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 26, 26, 12, 14, 7, 0
+54482, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 10, 12, 6, 0
+50945, 51898, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 6, 6, 5, 1, 1, 0
+54885, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 11, 11, 5, 0
+50088, 51842, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+50673, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 85, 85, 52, 33, 19, 0
+54365, 58517, 1, "OK", 8, 111, 48, 48, 30, 18, 11, 0
+52688, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 42, 32, 18, 0
+50156, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 39, 30, 16, 0
+50156, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 44, 30, 16, 0
+50512, 50975, 1, "OK", 3, 12, 4, 4, 4, 0, 0, 0
+52633, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+50456, 50664, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+54125, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 29, 17, 12, 6, 0
+54278, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 32, 32, 20, 12, 6, 0
+55925, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 23, 17, 6, 5, 0
+54482, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 3, 1, 1, 0
+55410, 55804, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 3, 3, 0, 2, 3
+51907, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 2, 2, 2, 0, 0, 0
+55012, 55857, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long hash", 0, 0, 15, 7, 5, 2, 4, 2
+50673, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 37, 37, 22, 15, 8, 0
+53216, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 39, 29, 16, 0
+52688, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean internalWhite", 0, 0, 26, 26, 12, 14, 7, 0
+54365, 58494, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 48, 48, 30, 18, 11, 0
+52633, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 56, 30, 26, 13, 0
+50088, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 40, 30, 16, 0
+50512, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 71, 71, 44, 27, 14, 0
+54183, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 25, 13, 12, 6, 0
+51907, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 20, 15, 8, 0
+54482, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 10, 12, 6, 0
+52788, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 42, 32, 18, 0
+52028, 52152, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+50792, 56676, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 65, 65, 38, 27, 14, 0
+56686, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 13, 6, 5, 0
+50156, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 32, 19, 11, 0
+52028, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 76, 76, 44, 32, 18, 0
+50945, 51922, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className", 0, 0, 6, 6, 5, 1, 1, 0
+50156, 50782, 0, "Compilation unit does not compile after method extraction.", 3, 16, 8, 8, 5, 3, 2, 0
+52633, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+53749, 54091, 1, "OK", 3, 7, 8, 4, 3, 1, 2, 2
+50673, 52152, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 10, 10, 9, 1, 1, 0
+52788, 54173, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 26, 26, 12, 14, 7, 0
+55410, 55839, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 3, 3, 0, 2, 3
+57280, 58273, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 8, 7, 1, 4, 1
+52633, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 18, 15, 8, 0
+52028, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+52162, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 boolean internalWhite", 0, 0, 27, 27, 13, 14, 7, 0
+50088, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 70, 70, 40, 30, 16, 0
+50512, 52019, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h1", 0, 0, 10, 10, 9, 1, 1, 0
+51907, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+52358, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 74, 42, 32, 18, 0
+52028, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 8, 8, 5, 3, 2, 0
+52162, 54173, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 27, 27, 13, 14, 7, 0
+55132, 55287, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+53216, 54268, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 21, 10, 11, 5, 0
+52358, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 long fullHash boolean internalWhite", 0, 0, 6, 6, 3, 3, 2, 0
+53320, 54105, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 12, 6, 6, 5, 1
+52633, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 51, 25, 26, 13, 0
+50088, 51898, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+50456, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 12, 12, 11, 1, 1, 0
+55956, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 24, 18, 6, 5, 0
+50512, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 boolean internalWhite", 0, 0, 38, 38, 23, 15, 8, 0
+50984, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 64, 64, 37, 27, 14, 0
+50156, 51842, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 16, 12, 4, 3, 0
+51932, 54115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long h3 boolean internalWhite", 0, 0, 28, 28, 14, 14, 7, 0
+51907, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+54365, 54472, 1, "OK", 3, 3, 1, 1, 1, 0, 0, 0
+50156, 55916, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 39, 30, 16, 0
+50984, 52778, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 8, 8, 7, 1, 1, 0
+53019, 53182, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+50673, 53206, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3 long fullHash boolean internalWhite", 0, 0, 17, 17, 13, 4, 3, 0
+52688, 53206, 1, "OK", 4, 12, 6, 6, 3, 3, 2, 0
+54949, 55871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 12, 6, 6, 5, 1
+50456, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 63, 63, 36, 27, 14, 0
+55891, 58403, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 24, 24, 18, 6, 5, 0
+50984, 54875, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 41, 41, 25, 16, 9, 0
+50792, 56732, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 65, 65, 38, 27, 14, 0
+50945, 57109, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 67, 67, 40, 27, 14, 0
+52358, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz long h3 boolean internalWhite", 0, 0, 27, 27, 13, 14, 7, 0
+50792, 52623, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className long h3", 0, 0, 10, 10, 9, 1, 1, 0
+51907, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 53, 53, 27, 26, 13, 0
+50088, 51922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 17, 13, 4, 3, 0
+52162, 58283, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 75, 75, 43, 32, 18, 0
+50673, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean expectClassFlag String className Class<?> clazz long h3 boolean internalWhite", 0, 0, 38, 38, 23, 15, 8, 0
+52688, 54268, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> clazz boolean internalWhite", 0, 0, 27, 27, 13, 14, 7, 0
+50156, 55947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 69, 69, 39, 30, 16, 0
+50984, 55881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 59, 32, 27, 14, 0
+52788, 53206, 1, "OK", 3, 10, 6, 6, 3, 3, 2, 0
+50456, 56891, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 68, 68, 41, 27, 14, 0

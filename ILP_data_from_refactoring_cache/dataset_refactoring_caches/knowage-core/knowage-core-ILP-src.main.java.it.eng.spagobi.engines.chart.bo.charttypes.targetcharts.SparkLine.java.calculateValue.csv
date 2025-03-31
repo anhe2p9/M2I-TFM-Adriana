@@ -1,0 +1,49 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2654, 2845, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2725, 3911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+2849, 3971, 1, "OK", 1, 35, 17, 17, 10, 7, 4, 0
+2677, 3990, 1, "OK", 0, 42, 19, 19, 12, 7, 4, 0
+2911, 3971, 1, "OK", 2, 34, 17, 17, 10, 7, 4, 0
+3136, 3907, 1, "OK", 1, 23, 14, 10, 7, 3, 4, 1
+3483, 3902, 1, "OK", 1, 11, 9, 5, 4, 1, 2, 2
+2677, 2907, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2849, 3911, 1, "OK", 1, 32, 17, 17, 10, 7, 4, 0
+2677, 2845, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2911, 3911, 1, "OK", 2, 31, 17, 17, 10, 7, 4, 0
+3136, 3402, 1, "OK", 1, 10, 3, 2, 2, 0, 1, 1
+2654, 3947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+3535, 3902, 1, "OK", 1, 10, 9, 5, 4, 1, 2, 2
+3657, 3896, 1, "OK", 2, 6, 6, 3, 3, 0, 1, 3
+3136, 3346, 1, "OK", 1, 7, 3, 2, 2, 0, 1, 1
+2725, 3990, 1, "OK", 1, 41, 19, 19, 12, 7, 4, 0
+3215, 3907, 1, "OK", 0, 20, 14, 10, 7, 3, 4, 1
+2677, 3947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+2725, 2907, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+2849, 3990, 1, "OK", 1, 36, 17, 17, 10, 7, 4, 0
+2725, 2845, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3019, 3907, 1, "OK", 1, 25, 14, 10, 7, 3, 4, 1
+3622, 3902, 1, "OK", 1, 8, 9, 5, 4, 1, 2, 2
+2911, 3990, 1, "OK", 2, 35, 17, 17, 10, 7, 4, 0
+3242, 3907, 1, "OK", 0, 19, 14, 10, 7, 3, 4, 1
+3271, 3907, 1, "OK", 0, 18, 14, 10, 7, 3, 4, 1
+3215, 3402, 1, "OK", 0, 7, 3, 2, 2, 0, 1, 1
+3242, 3402, 1, "OK", 0, 6, 3, 2, 2, 0, 1, 1
+3019, 3402, 1, "OK", 1, 12, 3, 2, 2, 0, 1, 1
+3215, 3346, 1, "OK", 0, 4, 3, 2, 2, 0, 1, 1
+3271, 3402, 1, "OK", 0, 5, 3, 2, 2, 0, 1, 1
+2725, 3947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+2654, 3971, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+3242, 3346, 1, "OK", 0, 3, 3, 2, 2, 0, 1, 1
+3019, 3346, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+2849, 3947, 1, "OK", 1, 33, 17, 17, 10, 7, 4, 0
+2654, 3911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+2911, 3947, 1, "OK", 2, 32, 17, 17, 10, 7, 4, 0
+3383, 3907, 1, "OK", 0, 14, 11, 8, 5, 3, 3, 1
+3271, 3346, 1, "OK", 0, 2, 3, 2, 2, 0, 1, 1
+2677, 3971, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+2677, 3911, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+3406, 3907, 1, "OK", 0, 13, 11, 8, 5, 3, 3, 1
+2654, 3990, 1, "OK", 0, 44, 19, 19, 12, 7, 4, 0
+2725, 3971, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 19, 12, 7, 4, 0
+2654, 2907, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+3739, 3896, 1, "OK", 2, 5, 6, 3, 3, 0, 1, 3

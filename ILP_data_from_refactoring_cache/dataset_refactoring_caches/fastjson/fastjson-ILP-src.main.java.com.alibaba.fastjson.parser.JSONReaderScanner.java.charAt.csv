@@ -1,0 +1,46 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2661, 2821, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+3372, 3883, 1, "OK", 0, 14, 9, 3, 3, 0, 3, 2
+3760, 4015, 0, "Compilation unit does not compile after method extraction.", 1, 9, 6, 2, 2, 0, 2, 2
+3532, 4045, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 3, 3, 0, 3, 2
+3416, 3740, 1, "OK", 1, 9, 6, 2, 2, 0, 2, 2
+3372, 4015, 0, "Compilation unit does not compile after method extraction.", 0, 20, 12, 4, 4, 0, 4, 2
+3006, 3332, 1, "OK", 1, 8, 3, 1, 1, 0, 1, 2
+2701, 2806, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+3903, 4072, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+2936, 3332, 1, "OK", 1, 10, 3, 1, 1, 0, 1, 2
+3372, 3512, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+2661, 4112, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 15, 9, 6, 8, 1
+3416, 4072, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+3532, 3740, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+3903, 4015, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3058, 3332, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+3760, 4097, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 6, 2, 2, 0, 2, 2
+3416, 3883, 1, "OK", 1, 13, 9, 3, 3, 0, 3, 2
+3372, 4097, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+3416, 4015, 0, "Compilation unit does not compile after method extraction.", 1, 19, 12, 4, 4, 0, 4, 2
+3760, 3977, 0, "Compilation unit does not compile after method extraction.", 0, 7, 6, 2, 2, 0, 2, 2
+3532, 4072, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 3, 3, 0, 3, 2
+2837, 4112, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 12, 7, 5, 6, 1
+2622, 4123, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 10, 14, 8, 0
+3372, 3977, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+3760, 4045, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 6, 2, 2, 0, 2, 2
+3416, 3512, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+3532, 3883, 1, "OK", 1, 9, 6, 2, 2, 0, 2, 2
+3903, 4097, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3372, 4045, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+3532, 4015, 0, "Compilation unit does not compile after method extraction.", 1, 15, 9, 3, 3, 0, 3, 2
+3903, 3977, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3416, 4097, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+2701, 2777, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3903, 4045, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3372, 3740, 1, "OK", 0, 10, 6, 2, 2, 0, 2, 2
+2869, 3332, 1, "OK", 0, 11, 3, 1, 1, 0, 1, 2
+3416, 3977, 0, "Compilation unit does not compile after method extraction.", 1, 17, 12, 4, 4, 0, 4, 2
+3416, 4045, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+3532, 4097, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 9, 3, 3, 0, 3, 2
+3760, 4072, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 6, 2, 2, 0, 2, 2
+3372, 4072, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 12, 4, 4, 0, 4, 2
+2622, 4153, 1, "OK", 1, 48, 24, 24, 10, 14, 8, 0
+3760, 3883, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+3532, 3977, 0, "Compilation unit does not compile after method extraction.", 1, 13, 9, 3, 3, 0, 3, 2

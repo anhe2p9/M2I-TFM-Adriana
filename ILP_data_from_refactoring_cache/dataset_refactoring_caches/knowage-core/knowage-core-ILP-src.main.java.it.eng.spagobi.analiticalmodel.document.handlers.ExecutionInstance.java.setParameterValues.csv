@@ -1,0 +1,93 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+18701, 19126, 1, "OK", 3, 11, 5, 3, 3, 0, 1, 2
+17729, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 12, 11, 1, 7, 2
+17729, 18158, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+18120, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+18003, 18356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+18003, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 10, 9, 1, 6, 2
+17669, 17963, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+17968, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 6, 1, 5, 2
+18078, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+17304, 19185, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 21, 13, 8, 9, 1
+18163, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 18, 8, 7, 1, 5, 2
+17238, 19185, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 21, 13, 8, 9, 1
+18638, 19180, 1, "OK", 5, 15, 8, 4, 4, 0, 2, 2
+17669, 18115, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+17669, 18356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 6, 1, 4, 2
+18003, 18115, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+17669, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 26, 12, 11, 1, 7, 2
+18003, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 6, 5, 1, 4, 2
+18361, 19180, 0, "Compilation unit does not compile after method extraction.", 5, 21, 11, 5, 5, 0, 3, 2
+18612, 18696, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+18003, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 6, 5, 1, 4, 2
+18078, 18356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biparameter Iterator it", 0, 0, 7, 3, 2, 1, 2, 2
+17729, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 6, 2
+17669, 17998, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+17968, 18073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+18078, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+18120, 18356, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObjectParameter biparameter Iterator it", 0, 0, 7, 3, 2, 1, 2, 2
+18120, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+17669, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+17304, 17528, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+17172, 19189, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 14, 17, 9, 0
+17238, 17528, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+18252, 18350, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+17453, 19185, 1, "OK", 4, 43, 28, 20, 12, 8, 8, 1
+17669, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+17348, 17449, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+18078, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+17172, 19212, 1, "OK", 2, 53, 31, 31, 14, 17, 9, 0
+17729, 18073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+18003, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 22, 10, 9, 1, 6, 2
+18638, 18696, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+18003, 18158, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+18120, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+18361, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 2, 2
+17532, 19185, 1, "OK", 4, 42, 28, 20, 12, 8, 8, 1
+18163, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+17669, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 12, 11, 1, 7, 2
+17669, 18158, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+17607, 19185, 1, "OK", 4, 41, 28, 20, 12, 8, 8, 1
+17729, 17963, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+17194, 19189, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 31, 14, 17, 9, 0
+18078, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 18, 8, 7, 1, 5, 2
+17348, 17603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+18191, 18350, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+18701, 19180, 1, "OK", 4, 12, 5, 3, 3, 0, 1, 2
+18120, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+18612, 19126, 1, "OK", 3, 15, 8, 4, 4, 0, 2, 2
+17968, 18356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 4, 1, 3, 2
+17968, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 22, 10, 9, 1, 6, 2
+17968, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 6, 5, 1, 4, 2
+18361, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 5, 5, 0, 3, 2
+17304, 17449, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+17238, 17449, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+17729, 18356, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 7, 6, 1, 4, 2
+17968, 18115, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+17968, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 14, 6, 5, 1, 4, 2
+17729, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 26, 12, 11, 1, 7, 2
+18003, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 7, 6, 1, 5, 2
+18638, 19126, 1, "OK", 4, 14, 8, 4, 4, 0, 2, 2
+17729, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+18078, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 4, 2
+17304, 17603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+18361, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+17238, 17603, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+17348, 19185, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 21, 13, 8, 9, 1
+17729, 17998, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+18163, 18356, 1, "OK", 3, 7, 7, 3, 2, 1, 2, 2
+17194, 19212, 1, "OK", 2, 52, 31, 31, 14, 17, 9, 0
+17729, 18115, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+17669, 18696, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 9, 8, 1, 6, 2
+17729, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+18163, 19126, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 8, 7, 1, 5, 2
+18120, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 18, 8, 7, 1, 5, 2
+18003, 18073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+18612, 19180, 1, "OK", 4, 16, 8, 4, 4, 0, 2, 2
+17968, 19180, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 22, 10, 9, 1, 6, 2
+17968, 18158, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+18361, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+18163, 18500, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2
+17348, 17528, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+17669, 18073, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 4, 0, 2, 2
+18163, 18633, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 4, 3, 1, 3, 2

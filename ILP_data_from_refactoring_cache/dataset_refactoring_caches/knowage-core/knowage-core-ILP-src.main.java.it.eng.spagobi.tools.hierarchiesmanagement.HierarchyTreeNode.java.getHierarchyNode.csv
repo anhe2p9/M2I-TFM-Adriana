@@ -1,0 +1,32 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+6105, 7421, 1, "OK", 6, 40, 25, 25, 9, 16, 6, 0
+6624, 7402, 1, "OK", 7, 28, 24, 24, 8, 16, 6, 0
+6172, 7402, 1, "OK", 8, 36, 25, 25, 9, 16, 6, 0
+6415, 7421, 1, "OK", 6, 32, 24, 24, 8, 16, 6, 0
+6105, 6597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HierarchyTreeNode toReturn String recordCdLev Iterator<HierarchyTreeNode> treeIterator", 0, 0, 1, 1, 1, 0, 0, 0
+6143, 7402, 1, "OK", 7, 37, 25, 25, 9, 16, 6, 0
+6105, 6411, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HierarchyTreeNode toReturn String recordCdLev", 0, 0, 1, 1, 1, 0, 0, 0
+6105, 6474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  HierarchyTreeNode toReturn String recordCdLev Iterator<HierarchyTreeNode> treeIterator", 0, 0, 1, 1, 1, 0, 0, 0
+6736, 7393, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 21, 11, 6, 5, 5, 2
+6894, 7295, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+6835, 6887, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+7335, 7387, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+6143, 7421, 1, "OK", 7, 38, 25, 25, 9, 16, 6, 0
+6624, 7421, 1, "OK", 7, 29, 24, 24, 8, 16, 6, 0
+6660, 7398, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 23, 17, 7, 10, 6, 1
+6172, 7421, 1, "OK", 8, 37, 25, 25, 9, 16, 6, 0
+6695, 7398, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 23, 17, 7, 10, 6, 1
+6143, 6597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String recordCdLev Iterator<HierarchyTreeNode> treeIterator", 0, 0, 1, 1, 1, 0, 0, 0
+6172, 6597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String recordCdLev Iterator<HierarchyTreeNode> treeIterator", 0, 0, 1, 1, 1, 0, 0, 0
+6563, 7402, 1, "OK", 7, 29, 24, 24, 8, 16, 6, 0
+6172, 6474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String recordCdLev Iterator<HierarchyTreeNode> treeIterator", 0, 0, 1, 1, 1, 0, 0, 0
+6143, 6411, 1, "OK", 4, 5, 1, 1, 1, 0, 0, 0
+6835, 7295, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 4, 3, 1, 3, 3
+6143, 6474, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String recordCdLev Iterator<HierarchyTreeNode> treeIterator", 0, 0, 1, 1, 1, 0, 0, 0
+6105, 7402, 1, "OK", 6, 39, 25, 25, 9, 16, 6, 0
+6172, 6411, 1, "OK", 5, 4, 1, 1, 1, 0, 0, 0
+6563, 7421, 1, "OK", 7, 30, 24, 24, 8, 16, 6, 0
+7197, 7287, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+7361, 7387, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+7038, 7287, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+6415, 7402, 1, "OK", 6, 31, 24, 24, 8, 16, 6, 0

@@ -1,0 +1,204 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+11103, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+10816, 11403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data", 0, 0, 8, 8, 5, 3, 2, 0
+11039, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+12692, 13149, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+10816, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11977, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 20, 20, 15, 5, 5, 0
+14260, 14725, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+10625, 15280, 1, "OK", 6, 110, 35, 35, 26, 9, 8, 0
+11538, 15139, 1, "OK", 8, 75, 24, 24, 18, 6, 6, 0
+10990, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+12625, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 16, 16, 12, 4, 4, 0
+11867, 15188, 1, "OK", 8, 67, 20, 20, 15, 5, 5, 0
+14194, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 4, 4, 3, 1, 1, 0
+11408, 15092, 1, "OK", 9, 78, 26, 26, 20, 6, 6, 0
+10929, 15092, 1, "OK", 8, 93, 34, 34, 25, 9, 8, 0
+10769, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11915, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+10769, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10873, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+10676, 15261, 1, "OK", 7, 107, 35, 35, 26, 9, 8, 0
+10816, 15025, 1, "OK", 8, 94, 34, 34, 25, 9, 8, 0
+10676, 15280, 1, "OK", 7, 108, 35, 35, 26, 9, 8, 0
+11408, 11534, 1, "OK", 2, 4, 2, 2, 2, 0, 0, 0
+10929, 11534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 10, 10, 7, 3, 2, 0
+11103, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+10816, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11039, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+11827, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+13734, 14183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+11538, 15188, 1, "OK", 8, 76, 24, 24, 18, 6, 6, 0
+11165, 11398, 1, "OK", 3, 8, 6, 4, 3, 1, 2, 1
+10314, 15261, 1, "OK", 1, 116, 35, 35, 26, 9, 8, 0
+11408, 15139, 1, "OK", 9, 79, 26, 26, 20, 6, 6, 0
+10769, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10760, 15261, 1, "OK", 8, 103, 35, 35, 26, 9, 8, 0
+10990, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+11867, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+10929, 15139, 1, "OK", 8, 94, 34, 34, 25, 9, 8, 0
+13801, 14183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+11915, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 20, 20, 15, 5, 5, 0
+10769, 11403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 8, 8, 5, 3, 2, 0
+10873, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+13668, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 8, 8, 6, 2, 2, 0
+10314, 15280, 1, "OK", 1, 117, 35, 35, 26, 9, 8, 0
+10232, 15261, 1, "OK", 1, 118, 35, 35, 26, 9, 8, 0
+10760, 15280, 1, "OK", 8, 104, 35, 35, 26, 9, 8, 0
+10816, 15092, 1, "OK", 8, 95, 34, 34, 25, 9, 8, 0
+11977, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+11103, 11822, 1, "OK", 5, 23, 14, 14, 10, 4, 3, 0
+11039, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+10232, 15280, 1, "OK", 1, 119, 35, 35, 26, 9, 8, 0
+11538, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 24, 24, 18, 6, 6, 0
+11408, 15188, 1, "OK", 9, 80, 26, 26, 20, 6, 6, 0
+10929, 15188, 1, "OK", 8, 95, 34, 34, 25, 9, 8, 0
+10769, 15025, 1, "OK", 7, 95, 34, 34, 25, 9, 8, 0
+10514, 15261, 1, "OK", 4, 112, 35, 35, 26, 9, 8, 0
+10816, 11534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 10, 10, 7, 3, 2, 0
+10990, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+11867, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 20, 20, 15, 5, 5, 0
+10769, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10873, 11822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+13225, 13656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+11915, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 20, 20, 15, 5, 5, 0
+10514, 15280, 1, "OK", 4, 113, 35, 35, 26, 9, 8, 0
+11827, 15025, 1, "OK", 7, 65, 20, 20, 15, 5, 5, 0
+11103, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11103, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10816, 15139, 1, "OK", 8, 96, 34, 34, 25, 9, 8, 0
+12763, 13149, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+11039, 11822, 1, "OK", 5, 24, 14, 14, 10, 4, 3, 0
+11538, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 24, 24, 18, 6, 6, 0
+10873, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10400, 15261, 1, "OK", 2, 114, 35, 35, 26, 9, 8, 0
+11408, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 26, 26, 20, 6, 6, 0
+10929, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10769, 15092, 1, "OK", 7, 96, 34, 34, 25, 9, 8, 0
+10873, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10990, 11822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject data IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11867, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 20, 20, 15, 5, 5, 0
+11103, 11403, 1, "OK", 3, 11, 8, 8, 5, 3, 2, 0
+11103, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11977, 15025, 1, "OK", 8, 61, 20, 20, 15, 5, 5, 0
+10816, 15188, 1, "OK", 8, 97, 34, 34, 25, 9, 8, 0
+10400, 15280, 1, "OK", 2, 115, 35, 35, 26, 9, 8, 0
+10769, 11534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 10, 10, 7, 3, 2, 0
+11039, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11039, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+13160, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 12, 12, 9, 3, 3, 0
+11827, 15092, 1, "OK", 7, 66, 20, 20, 15, 5, 5, 0
+11220, 11392, 1, "OK", 4, 6, 4, 2, 2, 0, 1, 2
+12122, 12614, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+10990, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10873, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11915, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+10550, 15261, 1, "OK", 5, 111, 35, 35, 26, 9, 8, 0
+11538, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 24, 24, 18, 6, 6, 0
+10990, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject data String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11408, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 26, 26, 20, 6, 6, 0
+10769, 15139, 1, "OK", 7, 97, 34, 34, 25, 9, 8, 0
+10873, 11403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data", 0, 0, 8, 8, 5, 3, 2, 0
+10929, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+11103, 15025, 1, "OK", 10, 89, 34, 34, 25, 9, 8, 0
+10550, 15280, 1, "OK", 5, 112, 35, 35, 26, 9, 8, 0
+11103, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11039, 11403, 1, "OK", 3, 12, 8, 8, 5, 3, 2, 0
+11977, 15092, 1, "OK", 8, 62, 20, 20, 15, 5, 5, 0
+11039, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10816, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10601, 15261, 1, "OK", 6, 110, 35, 35, 26, 9, 8, 0
+11827, 15139, 1, "OK", 7, 67, 20, 20, 15, 5, 5, 0
+11538, 11822, 1, "OK", 2, 7, 4, 4, 3, 1, 1, 0
+11867, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+10990, 11403, 1, "OK", 3, 13, 8, 8, 5, 3, 2, 0
+10873, 15025, 1, "OK", 8, 93, 34, 34, 25, 9, 8, 0
+10990, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+14335, 14725, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+10769, 15188, 1, "OK", 7, 98, 34, 34, 25, 9, 8, 0
+10651, 15261, 1, "OK", 7, 108, 35, 35, 26, 9, 8, 0
+11408, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 26, 26, 20, 6, 6, 0
+10873, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10929, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+10601, 15280, 1, "OK", 6, 111, 35, 35, 26, 9, 8, 0
+10651, 15280, 1, "OK", 7, 109, 35, 35, 26, 9, 8, 0
+11103, 15092, 1, "OK", 10, 90, 34, 34, 25, 9, 8, 0
+11039, 15025, 1, "OK", 10, 90, 34, 34, 25, 9, 8, 0
+11977, 15139, 1, "OK", 8, 63, 20, 20, 15, 5, 5, 0
+13280, 13656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+10816, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+10990, 15025, 1, "OK", 9, 91, 34, 34, 25, 9, 8, 0
+11915, 15025, 1, "OK", 8, 63, 20, 20, 15, 5, 5, 0
+11039, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11538, 11863, 1, "OK", 3, 9, 4, 4, 3, 1, 1, 0
+11827, 15188, 1, "OK", 7, 68, 20, 20, 15, 5, 5, 0
+11538, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 24, 24, 18, 6, 6, 0
+10990, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11103, 11534, 1, "OK", 4, 16, 10, 10, 7, 3, 2, 0
+10873, 15092, 1, "OK", 8, 94, 34, 34, 25, 9, 8, 0
+11408, 11822, 1, "OK", 4, 11, 6, 6, 5, 1, 1, 0
+10929, 11822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11273, 11392, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+10769, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+11103, 15139, 1, "OK", 10, 91, 34, 34, 25, 9, 8, 0
+11977, 15188, 1, "OK", 8, 64, 20, 20, 15, 5, 5, 0
+11867, 15025, 1, "OK", 8, 64, 20, 20, 15, 5, 5, 0
+10873, 11534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 10, 10, 7, 3, 2, 0
+11039, 15092, 1, "OK", 10, 91, 34, 34, 25, 9, 8, 0
+11538, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider", 0, 0, 4, 4, 3, 1, 1, 0
+10816, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+11827, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+10929, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10990, 15092, 1, "OK", 9, 92, 34, 34, 25, 9, 8, 0
+10929, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+11408, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov IEngUserProfile profile", 0, 0, 6, 6, 5, 1, 1, 0
+10873, 15139, 1, "OK", 8, 95, 34, 34, 25, 9, 8, 0
+11408, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 26, 26, 20, 6, 6, 0
+11915, 15092, 1, "OK", 8, 64, 20, 20, 15, 5, 5, 0
+10440, 15261, 1, "OK", 3, 113, 35, 35, 26, 9, 8, 0
+11103, 15188, 1, "OK", 10, 92, 34, 34, 25, 9, 8, 0
+11039, 11534, 1, "OK", 4, 17, 10, 10, 7, 3, 2, 0
+10769, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 34, 34, 25, 9, 8, 0
+10209, 15261, 1, "OK", 1, 120, 35, 35, 26, 9, 8, 0
+11039, 15139, 1, "OK", 10, 92, 34, 34, 25, 9, 8, 0
+10990, 11534, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject data IEngUserProfile profile", 0, 0, 10, 10, 7, 3, 2, 0
+11538, 15025, 1, "OK", 8, 73, 24, 24, 18, 6, 6, 0
+11977, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 20, 20, 15, 5, 5, 0
+10816, 11822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10440, 15280, 1, "OK", 3, 114, 35, 35, 26, 9, 8, 0
+10358, 15261, 1, "OK", 1, 115, 35, 35, 26, 9, 8, 0
+10929, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10990, 15139, 1, "OK", 9, 93, 34, 34, 25, 9, 8, 0
+11827, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 20, 20, 15, 5, 5, 0
+10209, 15280, 1, "OK", 1, 121, 35, 35, 26, 9, 8, 0
+11538, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider", 0, 0, 4, 4, 3, 1, 1, 0
+10873, 15188, 1, "OK", 8, 96, 34, 34, 25, 9, 8, 0
+11915, 15139, 1, "OK", 8, 65, 20, 20, 15, 5, 5, 0
+12046, 12614, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 2, 1, 1, 0, 1, 1
+11408, 11911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 6, 6, 5, 1, 1, 0
+10358, 15280, 1, "OK", 1, 116, 35, 35, 26, 9, 8, 0
+10929, 11403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data", 0, 0, 8, 8, 5, 3, 2, 0
+10276, 15261, 1, "OK", 1, 117, 35, 35, 26, 9, 8, 0
+11867, 15092, 1, "OK", 8, 65, 20, 20, 15, 5, 5, 0
+10276, 15280, 1, "OK", 1, 118, 35, 35, 26, 9, 8, 0
+10706, 15261, 1, "OK", 7, 105, 35, 35, 26, 9, 8, 0
+10769, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 34, 34, 25, 9, 8, 0
+11103, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+11039, 15188, 1, "OK", 10, 93, 34, 34, 25, 9, 8, 0
+10706, 15280, 1, "OK", 7, 106, 35, 35, 26, 9, 8, 0
+10816, 11863, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data String typeLov IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+11977, 14787, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start", 0, 0, 20, 20, 15, 5, 5, 0
+10816, 14937, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10990, 15188, 1, "OK", 9, 94, 34, 34, 25, 9, 8, 0
+10929, 15025, 1, "OK", 8, 92, 34, 34, 25, 9, 8, 0
+11538, 15092, 1, "OK", 8, 74, 24, 24, 18, 6, 6, 0
+11408, 15025, 1, "OK", 9, 77, 26, 26, 20, 6, 6, 0
+11867, 15139, 1, "OK", 8, 66, 20, 20, 15, 5, 5, 0
+11827, 14844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  SourceBean rowsSourceBean List<String> colNames Integer start Integer limit", 0, 0, 20, 20, 15, 5, 5, 0
+11915, 15188, 1, "OK", 8, 66, 20, 20, 15, 5, 5, 0
+11408, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeLov String lovProvider IEngUserProfile profile", 0, 0, 6, 6, 5, 1, 1, 0
+10929, 11972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination String typeLov String lovProvider IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0
+10873, 14730, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination SourceBean rowsSourceBean List<String> colNames", 0, 0, 34, 34, 25, 9, 8, 0
+10625, 15261, 1, "OK", 6, 109, 35, 35, 26, 9, 8, 0
+11595, 11817, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+10769, 11822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject pagination JSONObject data IEngUserProfile profile", 0, 0, 14, 14, 10, 4, 3, 0

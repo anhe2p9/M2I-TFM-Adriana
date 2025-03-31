@@ -1,0 +1,77 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2558, 3198, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[][] dominanceChecks int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 6, 6, 3, 3, 2, 0
+2558, 3069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[][] dominanceChecks int[] dominatedCounts", 0, 0, 6, 6, 3, 3, 2, 0
+2483, 3733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront int rank", 0, 0, 19, 19, 9, 10, 6, 0
+4224, 4287, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+3835, 4444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> currentFront int rank", 0, 0, 9, 6, 3, 3, 3, 1
+3892, 4343, 1, "OK", 7, 15, 9, 6, 3, 3, 3, 1
+3034, 4449, 1, "OK", 3, 55, 23, 23, 10, 13, 7, 0
+3779, 4394, 1, "OK", 5, 20, 9, 6, 3, 3, 3, 1
+3550, 3688, 1, "OK", 6, 6, 2, 1, 1, 0, 1, 1
+4121, 4294, 1, "OK", 5, 7, 7, 3, 2, 1, 2, 2
+3210, 3733, 1, "OK", 5, 24, 13, 13, 6, 7, 4, 0
+3144, 3733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> currentFront int rank", 0, 0, 13, 13, 6, 7, 4, 0
+3034, 3693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 13, 13, 6, 7, 4, 0
+2606, 3140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList", 0, 0, 6, 6, 3, 3, 2, 0
+2558, 3733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront int rank", 0, 0, 19, 19, 9, 10, 6, 0
+3333, 3647, 1, "OK", 7, 15, 12, 8, 5, 3, 4, 1
+3720, 4449, 1, "OK", 4, 27, 10, 10, 4, 6, 3, 0
+3835, 4343, 1, "OK", 6, 17, 9, 6, 3, 3, 3, 1
+3300, 3647, 1, "OK", 6, 17, 12, 8, 5, 3, 4, 1
+3779, 4414, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int rank List<Integer> nextFront", 0, 0, 9, 6, 3, 3, 3, 1
+3741, 4449, 1, "OK", 5, 25, 10, 10, 4, 6, 3, 0
+3244, 3608, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> dominates int dominatedCount", 0, 0, 12, 8, 5, 3, 4, 1
+2606, 2908, 1, "OK", 3, 12, 6, 6, 3, 3, 2, 0
+3300, 3540, 1, "OK", 4, 11, 10, 7, 4, 3, 3, 1
+3333, 3540, 1, "OK", 5, 9, 10, 7, 4, 3, 3, 1
+2483, 3140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int N int[][] dominanceChecks int[] dominatedCounts List<List<Integer>> dominatesList", 0, 0, 6, 6, 3, 3, 2, 0
+2606, 4449, 1, "OK", 3, 70, 29, 29, 13, 16, 9, 0
+3892, 4394, 1, "OK", 7, 17, 9, 6, 3, 3, 3, 1
+3550, 3608, 1, "OK", 3, 3, 2, 1, 1, 0, 1, 1
+3779, 4444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> currentFront int rank", 0, 0, 9, 6, 3, 3, 3, 1
+4121, 4337, 1, "OK", 7, 9, 7, 3, 2, 1, 2, 2
+3034, 3733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront int rank", 0, 0, 13, 13, 6, 7, 4, 0
+3945, 4294, 1, "OK", 7, 11, 7, 3, 2, 1, 2, 2
+3073, 4449, 1, "OK", 4, 54, 23, 23, 10, 13, 7, 0
+2606, 3693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 19, 19, 9, 10, 6, 0
+4007, 4294, 1, "OK", 7, 10, 7, 3, 2, 1, 2, 2
+3300, 3688, 1, "OK", 7, 18, 12, 8, 5, 3, 4, 1
+3333, 3688, 1, "OK", 8, 16, 12, 8, 5, 3, 4, 1
+2558, 3140, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[][] dominanceChecks int[] dominatedCounts List<List<Integer>> dominatesList", 0, 0, 6, 6, 3, 3, 2, 0
+2640, 2903, 1, "OK", 4, 10, 5, 3, 2, 1, 2, 1
+3892, 4414, 1, "OK", 7, 19, 9, 6, 3, 3, 3, 1
+2483, 2908, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int N int[][] dominanceChecks", 0, 0, 6, 6, 3, 3, 2, 0
+3073, 3693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 13, 13, 6, 7, 4, 0
+3388, 3527, 1, "OK", 5, 5, 5, 2, 2, 0, 1, 3
+2483, 4449, 1, "OK", 1, 75, 29, 29, 13, 16, 9, 0
+2606, 3198, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 6, 6, 3, 3, 2, 0
+2606, 3069, 1, "OK", 3, 16, 6, 6, 3, 3, 2, 0
+3835, 4394, 1, "OK", 6, 19, 9, 6, 3, 3, 3, 1
+2719, 2897, 1, "OK", 5, 6, 3, 1, 1, 0, 1, 2
+3779, 4343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> nextFront Population solutionsInFront", 0, 0, 9, 6, 3, 3, 3, 1
+3244, 3647, 1, "OK", 5, 18, 12, 8, 5, 3, 4, 1
+3210, 4449, 1, "OK", 6, 50, 23, 23, 10, 13, 7, 0
+2483, 3693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 19, 19, 9, 10, 6, 0
+3144, 4449, 1, "OK", 5, 53, 23, 23, 10, 13, 7, 0
+2558, 2908, 1, "OK", 2, 14, 6, 6, 3, 3, 2, 0
+2682, 2903, 1, "OK", 5, 8, 5, 3, 2, 1, 2, 1
+3550, 3647, 1, "OK", 5, 5, 2, 1, 1, 0, 1, 1
+3459, 3527, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 3
+4186, 4287, 1, "OK", 3, 5, 4, 1, 1, 0, 1, 3
+2558, 4449, 1, "OK", 2, 72, 29, 29, 13, 16, 9, 0
+3210, 3693, 1, "OK", 5, 21, 13, 13, 6, 7, 4, 0
+3835, 4414, 1, "OK", 6, 21, 9, 6, 3, 3, 3, 1
+3368, 3534, 1, "OK", 5, 7, 8, 4, 3, 1, 2, 2
+3144, 3693, 1, "OK", 4, 24, 13, 13, 6, 7, 4, 0
+3244, 3540, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> dominates int dominatedCount", 0, 0, 10, 7, 4, 3, 3, 1
+3892, 4444, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Integer> currentFront int rank", 0, 0, 9, 6, 3, 3, 3, 1
+3945, 4337, 1, "OK", 8, 13, 7, 3, 2, 1, 2, 2
+2606, 3733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront int rank", 0, 0, 19, 19, 9, 10, 6, 0
+2483, 3069, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int N int[][] dominanceChecks int[] dominatedCounts", 0, 0, 6, 6, 3, 3, 2, 0
+4007, 4337, 1, "OK", 8, 12, 7, 3, 2, 1, 2, 2
+2483, 3198, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int N int[][] dominanceChecks int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 6, 6, 3, 3, 2, 0
+2558, 3693, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int[] dominatedCounts List<List<Integer>> dominatesList List<Integer> currentFront", 0, 0, 19, 19, 9, 10, 6, 0
+3073, 3733, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<List<Integer>> dominatesList List<Integer> currentFront int rank", 0, 0, 13, 13, 6, 7, 4, 0
+3300, 3608, 1, "OK", 5, 15, 12, 8, 5, 3, 4, 1
+3333, 3608, 1, "OK", 6, 13, 12, 8, 5, 3, 4, 1
+3244, 3688, 1, "OK", 6, 19, 12, 8, 5, 3, 4, 1

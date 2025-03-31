@@ -1,0 +1,98 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7868, 8059, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+8157, 8317, 1, "OK", 1, 3, 3, 2, 2, 0, 1, 1
+9500, 9705, 1, "OK", 3, 4, 4, 1, 1, 0, 1, 3
+7711, 10890, 0, "Compilation unit does not compile after method extraction.", 3, 74, 41, 41, 25, 16, 10, 0
+7558, 7702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8157, 9875, 1, "OK", 2, 37, 19, 14, 11, 3, 5, 1
+8097, 8665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParseContext context String typeName int lastIndex", 0, 0, 6, 4, 4, 0, 2, 1
+8157, 8854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj String parentName", 0, 0, 6, 4, 4, 0, 2, 1
+8157, 8599, 1, "OK", 2, 10, 6, 4, 4, 0, 2, 1
+9893, 10089, 1, "OK", 1, 3, 4, 3, 3, 0, 1, 1
+8157, 10147, 1, "OK", 3, 43, 23, 17, 14, 3, 6, 1
+8909, 9875, 1, "OK", 5, 19, 13, 10, 7, 3, 3, 1
+8374, 8789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj", 0, 0, 3, 2, 2, 0, 1, 1
+7688, 10866, 1, "OK", 2, 73, 41, 41, 25, 16, 10, 0
+7688, 10351, 1, "OK", 2, 60, 30, 30, 20, 10, 7, 0
+8157, 8357, 0, "Compilation unit does not compile after method extraction.", 1, 5, 3, 2, 2, 0, 1, 1
+8374, 10089, 0, "Compilation unit does not compile after method extraction.", 3, 36, 20, 15, 12, 3, 5, 1
+8335, 8740, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+8909, 10147, 1, "OK", 6, 25, 17, 13, 10, 3, 4, 1
+7688, 10890, 1, "OK", 2, 75, 41, 41, 25, 16, 10, 0
+7020, 10866, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 48, 48, 31, 17, 11, 0
+8157, 8892, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj String parentName Object param", 0, 0, 6, 4, 4, 0, 2, 1
+7020, 10351, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 26, 11, 8, 0
+7437, 7678, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+7020, 7548, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 4, 1, 1, 0
+8157, 8665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeName int lastIndex", 0, 0, 6, 4, 4, 0, 2, 1
+8374, 9875, 0, "Compilation unit does not compile after method extraction.", 3, 32, 16, 12, 9, 3, 4, 1
+9893, 10147, 1, "OK", 2, 5, 4, 3, 3, 0, 1, 1
+7020, 10890, 1, "OK", 2, 93, 48, 48, 31, 17, 11, 0
+9037, 9796, 1, "OK", 5, 14, 10, 6, 5, 1, 2, 2
+7729, 10161, 1, "OK", 2, 53, 28, 28, 18, 10, 7, 0
+8335, 8789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj", 0, 0, 3, 2, 2, 0, 1, 1
+8374, 8854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj String parentName", 0, 0, 3, 2, 2, 0, 1, 1
+10473, 10856, 1, "OK", 1, 9, 9, 6, 3, 3, 3, 1
+8374, 8599, 0, "Compilation unit does not compile after method extraction.", 2, 5, 3, 2, 2, 0, 1, 1
+8097, 8740, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParseContext context String parentClassName", 0, 0, 6, 4, 4, 0, 2, 1
+7437, 7702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+7558, 10351, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 32, 32, 22, 10, 7, 0
+8374, 10147, 0, "Compilation unit does not compile after method extraction.", 4, 38, 20, 15, 12, 3, 5, 1
+7558, 10866, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 43, 27, 16, 10, 0
+8972, 9796, 1, "OK", 5, 15, 10, 6, 5, 1, 2, 2
+8335, 10089, 1, "OK", 2, 37, 20, 15, 12, 3, 5, 1
+8806, 10089, 1, "OK", 3, 26, 17, 13, 10, 3, 4, 1
+8374, 8892, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj String parentName Object param", 0, 0, 3, 2, 2, 0, 1, 1
+8682, 10089, 1, "OK", 3, 29, 17, 13, 10, 3, 4, 1
+7558, 10890, 1, "OK", 2, 79, 43, 43, 27, 16, 10, 0
+8872, 10089, 1, "OK", 4, 24, 17, 13, 10, 3, 4, 1
+10599, 10824, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+8097, 8789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParseContext context String parentClassName Object ctxObj", 0, 0, 6, 4, 4, 0, 2, 1
+8374, 8665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeName int lastIndex", 0, 0, 3, 2, 2, 0, 1, 1
+8335, 9875, 1, "OK", 2, 33, 16, 12, 9, 3, 4, 1
+8617, 10089, 1, "OK", 2, 30, 17, 13, 10, 3, 4, 1
+8872, 9875, 1, "OK", 4, 20, 13, 10, 7, 3, 3, 1
+8097, 10089, 1, "OK", 2, 42, 23, 17, 14, 3, 6, 1
+8806, 9875, 1, "OK", 3, 22, 13, 10, 7, 3, 3, 1
+8157, 8740, 1, "OK", 2, 13, 6, 4, 4, 0, 2, 1
+8335, 8854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj String parentName", 0, 0, 3, 2, 2, 0, 1, 1
+8335, 8599, 1, "OK", 1, 6, 3, 2, 2, 0, 1, 1
+8682, 9875, 1, "OK", 3, 25, 13, 10, 7, 3, 3, 1
+8758, 10089, 1, "OK", 2, 27, 17, 13, 10, 3, 4, 1
+8335, 10147, 1, "OK", 3, 39, 20, 15, 12, 3, 5, 1
+8872, 10147, 1, "OK", 5, 26, 17, 13, 10, 3, 4, 1
+8806, 10147, 1, "OK", 4, 28, 17, 13, 10, 3, 4, 1
+9580, 9705, 1, "OK", 4, 3, 4, 1, 1, 0, 1, 3
+8097, 8317, 1, "OK", 1, 4, 3, 2, 2, 0, 1, 1
+8682, 10147, 1, "OK", 4, 31, 17, 13, 10, 3, 4, 1
+7437, 10351, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 24, 10, 7, 0
+7437, 10866, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 45, 45, 29, 16, 10, 0
+7061, 7417, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 1, 1, 0, 1, 1
+8335, 8892, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj String parentName Object param", 0, 0, 3, 2, 2, 0, 1, 1
+8617, 9875, 1, "OK", 2, 26, 13, 10, 7, 3, 3, 1
+7020, 7678, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 6, 1, 1, 0
+8097, 9875, 1, "OK", 2, 38, 19, 14, 11, 3, 5, 1
+10535, 10842, 1, "OK", 2, 7, 7, 3, 2, 1, 2, 2
+7437, 7548, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8097, 8599, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParseContext context String typeName", 0, 0, 6, 4, 4, 0, 2, 1
+8097, 8854, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParseContext context String parentClassName Object ctxObj String parentName", 0, 0, 6, 4, 4, 0, 2, 1
+7799, 10161, 1, "OK", 3, 52, 28, 28, 18, 10, 7, 0
+8758, 9875, 1, "OK", 2, 23, 13, 10, 7, 3, 3, 1
+7020, 7427, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 2, 1, 1, 0
+7437, 10890, 1, "OK", 2, 83, 45, 45, 29, 16, 10, 0
+8157, 8789, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String parentClassName Object ctxObj", 0, 0, 6, 4, 4, 0, 2, 1
+10361, 10866, 1, "OK", 2, 12, 11, 11, 5, 6, 3, 0
+8617, 10147, 1, "OK", 3, 32, 17, 13, 10, 3, 4, 1
+8097, 10147, 1, "OK", 3, 44, 23, 17, 14, 3, 6, 1
+8097, 8357, 0, "Compilation unit does not compile after method extraction.", 1, 6, 3, 2, 2, 0, 1, 1
+7020, 7702, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 7, 6, 1, 1, 0
+8157, 10089, 1, "OK", 2, 41, 23, 17, 14, 3, 6, 1
+8758, 10147, 1, "OK", 3, 29, 17, 13, 10, 3, 4, 1
+8374, 8740, 0, "Compilation unit does not compile after method extraction.", 2, 8, 3, 2, 2, 0, 1, 1
+8335, 8665, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String typeName int lastIndex", 0, 0, 3, 2, 2, 0, 1, 1
+7711, 10351, 0, "Compilation unit does not compile after method extraction.", 3, 59, 30, 30, 20, 10, 7, 0
+7711, 10866, 0, "Compilation unit does not compile after method extraction.", 3, 72, 41, 41, 25, 16, 10, 0
+10361, 10890, 1, "OK", 2, 14, 11, 11, 5, 6, 3, 0
+8909, 10089, 1, "OK", 5, 23, 17, 13, 10, 3, 4, 1
+7558, 7678, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+8097, 8892, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ParseContext context String parentClassName Object ctxObj String parentName Object param", 0, 0, 6, 4, 4, 0, 2, 1

@@ -1,0 +1,69 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+158997, 163456, 1, "OK", 0, 128, 40, 40, 23, 17, 10, 0
+159193, 159300, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+159044, 163410, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 39, 29, 22, 7, 10, 1
+159077, 163410, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 39, 29, 22, 7, 10, 1
+162043, 162726, 1, "OK", 0, 14, 15, 12, 12, 0, 1, 3
+158968, 163456, 1, "OK", 0, 129, 40, 40, 23, 17, 10, 0
+162131, 162293, 1, "OK", 1, 3, 5, 5, 5, 0, 0, 3
+162319, 162481, 1, "OK", 1, 3, 5, 5, 5, 0, 0, 3
+158968, 163478, 1, "OK", 0, 130, 40, 40, 23, 17, 10, 0
+162319, 162758, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 7, 7, 0, 1, 3
+159044, 163160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 19, 7, 8, 1
+159445, 163145, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 25, 17, 15, 2, 4, 2
+162043, 162481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char x1 char x2 boolean hex1 boolean hex2", 0, 0, 10, 10, 10, 0, 0, 3
+159077, 163160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 19, 7, 8, 1
+162086, 162293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char x2 boolean hex1", 0, 0, 5, 5, 5, 0, 0, 3
+159154, 159389, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 2, 1, 2, 1
+159405, 163259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 29, 23, 17, 6, 6, 1
+162319, 162651, 1, "OK", 3, 6, 10, 7, 7, 0, 1, 3
+162043, 162758, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 12, 12, 0, 1, 3
+159485, 159877, 1, "OK", 0, 10, 4, 1, 1, 0, 1, 3
+159445, 159964, 1, "OK", 0, 13, 7, 3, 2, 1, 2, 2
+159485, 159751, 1, "OK", 0, 7, 4, 1, 1, 0, 1, 3
+158997, 163478, 1, "OK", 0, 129, 40, 40, 23, 17, 10, 0
+162131, 162481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean hex1 boolean hex2", 0, 0, 10, 10, 10, 0, 0, 3
+159984, 163118, 1, "OK", 0, 81, 18, 14, 13, 1, 2, 2
+159527, 159877, 1, "OK", 0, 8, 4, 1, 1, 0, 1, 3
+162507, 162726, 1, "OK", 4, 5, 5, 2, 2, 0, 1, 3
+160021, 163118, 1, "OK", 1, 79, 18, 14, 13, 1, 2, 2
+158950, 163421, 1, "OK", 0, 128, 40, 40, 23, 17, 10, 0
+162131, 162726, 1, "OK", 2, 11, 15, 12, 12, 0, 1, 3
+159020, 163421, 1, "OK", 0, 125, 40, 40, 23, 17, 10, 0
+159445, 160001, 1, "OK", 0, 15, 7, 3, 2, 1, 2, 2
+159405, 163160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 27, 22, 16, 6, 5, 1
+162086, 162481, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char x2 boolean hex1 boolean hex2", 0, 0, 10, 10, 10, 0, 0, 3
+159154, 163259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 34, 26, 19, 7, 8, 1
+159405, 163410, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 32, 25, 19, 6, 7, 1
+159527, 159751, 1, "OK", 0, 5, 4, 1, 1, 0, 1, 3
+162043, 162651, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char x1 char x2", 0, 0, 15, 12, 12, 0, 1, 3
+162086, 162726, 1, "OK", 1, 13, 15, 12, 12, 0, 1, 3
+159044, 159138, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+159077, 159138, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+162507, 162758, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+159077, 159389, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+159984, 163145, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 14, 13, 1, 2, 2
+162043, 162293, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char x1 char x2 boolean hex1", 0, 0, 5, 5, 5, 0, 0, 3
+158950, 163456, 1, "OK", 0, 130, 40, 40, 23, 17, 10, 0
+159044, 159389, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 4, 3, 1, 3, 1
+159020, 163456, 1, "OK", 0, 127, 40, 40, 23, 17, 10, 0
+163176, 163259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+159193, 159374, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+160021, 163145, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 14, 13, 1, 2, 2
+162131, 162758, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 12, 12, 0, 1, 3
+158997, 163421, 1, "OK", 0, 126, 40, 40, 23, 17, 10, 0
+163176, 163410, 1, "OK", 1, 10, 5, 3, 3, 0, 2, 1
+159020, 163478, 1, "OK", 0, 128, 40, 40, 23, 17, 10, 0
+162131, 162651, 1, "OK", 2, 9, 15, 12, 12, 0, 1, 3
+163275, 163410, 1, "OK", 1, 5, 3, 2, 2, 0, 1, 1
+159154, 163160, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 32, 25, 18, 7, 7, 1
+158968, 163421, 1, "OK", 0, 127, 40, 40, 23, 17, 10, 0
+159154, 163410, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 37, 28, 21, 7, 9, 1
+162086, 162758, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 12, 12, 0, 1, 3
+159044, 163259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 27, 20, 7, 9, 1
+159445, 163118, 1, "OK", 0, 95, 25, 17, 15, 2, 4, 2
+162319, 162726, 1, "OK", 3, 8, 10, 7, 7, 0, 1, 3
+162086, 162651, 1, "OK", 1, 11, 15, 12, 12, 0, 1, 3
+159077, 163259, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 27, 20, 7, 9, 1
+158950, 163478, 1, "OK", 0, 131, 40, 40, 23, 17, 10, 0
+162507, 162651, 1, "OK", 4, 3, 5, 2, 2, 0, 1, 3

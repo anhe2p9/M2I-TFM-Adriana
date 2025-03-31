@@ -1,0 +1,72 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5862, 6119, 1, "OK", 3, 11, 4, 2, 2, 0, 2, 1
+5570, 5704, 1, "OK", 4, 4, 2, 1, 1, 0, 1, 1
+4773, 4936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4714, 4980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4984, 6208, 1, "OK", 4, 48, 15, 15, 9, 6, 6, 0
+4838, 4980, 1, "OK", 3, 6, 1, 1, 1, 0, 0, 0
+5528, 5731, 1, "OK", 4, 8, 2, 1, 1, 0, 1, 1
+5862, 6006, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+5457, 6151, 1, "OK", 4, 28, 10, 10, 6, 4, 4, 0
+4773, 6232, 1, "OK", 5, 57, 16, 16, 10, 6, 6, 0
+5100, 6208, 1, "OK", 4, 44, 15, 15, 9, 6, 6, 0
+5904, 6119, 1, "OK", 3, 9, 4, 2, 2, 0, 2, 1
+4714, 6151, 1, "OK", 4, 55, 16, 16, 10, 6, 6, 0
+5862, 6146, 1, "OK", 3, 13, 4, 2, 2, 0, 2, 1
+4838, 6151, 1, "OK", 5, 52, 16, 16, 10, 6, 6, 0
+5570, 5731, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+4773, 5092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4984, 6232, 1, "OK", 4, 49, 15, 15, 9, 6, 6, 0
+5057, 6151, 1, "OK", 4, 44, 15, 15, 9, 6, 6, 0
+5904, 6006, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+4714, 4884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+6016, 6119, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+5748, 5852, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+4714, 5016, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4838, 4884, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+4892, 6151, 1, "OK", 4, 48, 15, 15, 9, 6, 6, 0
+5020, 6151, 1, "OK", 4, 45, 15, 15, 9, 6, 6, 0
+5100, 6232, 1, "OK", 4, 45, 15, 15, 9, 6, 6, 0
+5151, 5419, 1, "OK", 4, 11, 4, 2, 2, 0, 2, 1
+4838, 5016, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+5904, 6146, 1, "OK", 3, 11, 4, 2, 2, 0, 2, 1
+4773, 4980, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+5151, 5295, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+5748, 6119, 1, "OK", 4, 15, 6, 3, 3, 0, 3, 1
+4940, 6208, 1, "OK", 4, 49, 15, 15, 9, 6, 6, 0
+4773, 6151, 1, "OK", 5, 54, 16, 16, 10, 6, 6, 0
+5193, 5419, 1, "OK", 4, 9, 4, 2, 2, 0, 2, 1
+5748, 6006, 1, "OK", 3, 10, 4, 2, 2, 0, 2, 1
+6016, 6146, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+5193, 5295, 1, "OK", 2, 4, 2, 1, 1, 0, 1, 1
+5151, 5446, 1, "OK", 4, 13, 4, 2, 2, 0, 2, 1
+5748, 6146, 1, "OK", 4, 17, 6, 3, 3, 0, 3, 1
+4940, 6232, 1, "OK", 4, 50, 15, 15, 9, 6, 6, 0
+5305, 5419, 1, "OK", 3, 4, 2, 1, 1, 0, 1, 1
+5748, 5894, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+4773, 4884, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4984, 6151, 1, "OK", 4, 46, 15, 15, 9, 6, 6, 0
+4714, 6208, 1, "OK", 4, 57, 16, 16, 10, 6, 6, 0
+4714, 5053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4773, 5016, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4838, 6208, 1, "OK", 5, 54, 16, 16, 10, 6, 6, 0
+4838, 5053, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+5193, 5446, 1, "OK", 4, 11, 4, 2, 2, 0, 2, 1
+4714, 4936, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+5100, 6151, 1, "OK", 4, 42, 15, 15, 9, 6, 6, 0
+4838, 4936, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+5057, 6208, 1, "OK", 4, 46, 15, 15, 9, 6, 6, 0
+4892, 6208, 1, "OK", 4, 50, 15, 15, 9, 6, 6, 0
+5020, 6208, 1, "OK", 4, 47, 15, 15, 9, 6, 6, 0
+5305, 5446, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+4714, 6232, 1, "OK", 4, 58, 16, 16, 10, 6, 6, 0
+4838, 6232, 1, "OK", 5, 55, 16, 16, 10, 6, 6, 0
+5528, 5704, 1, "OK", 4, 6, 2, 1, 1, 0, 1, 1
+4714, 5092, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+5057, 6232, 1, "OK", 4, 47, 15, 15, 9, 6, 6, 0
+4773, 5053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int numberOfVariables int numberOfObjectives", 0, 0, 1, 1, 1, 0, 0, 0
+4838, 5092, 1, "OK", 4, 9, 1, 1, 1, 0, 0, 0
+4773, 6208, 1, "OK", 5, 56, 16, 16, 10, 6, 6, 0
+4940, 6151, 1, "OK", 4, 47, 15, 15, 9, 6, 6, 0
+4892, 6232, 1, "OK", 4, 51, 15, 15, 9, 6, 6, 0
+5020, 6232, 1, "OK", 4, 48, 15, 15, 9, 6, 6, 0

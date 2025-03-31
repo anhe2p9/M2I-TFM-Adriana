@@ -1,0 +1,62 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+18379, 18610, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+16291, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1
+16017, 18610, 1, "OK", 6, 68, 24, 24, 12, 12, 6, 0
+17844, 18176, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject valueJSON boolean notNullNode", 0, 0, 1, 1, 1, 0, 0, 2
+16345, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1
+16244, 18369, 1, "OK", 10, 54, 22, 16, 10, 6, 6, 1
+16324, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1
+17413, 17831, 1, "OK", 5, 11, 4, 1, 1, 0, 1, 3
+16137, 18610, 1, "OK", 8, 65, 24, 24, 12, 12, 6, 0
+15381, 18749, 1, "OK", 4, 89, 27, 27, 15, 12, 6, 0
+15431, 18749, 1, "OK", 5, 87, 27, 27, 15, 12, 6, 0
+16017, 18374, 1, "OK", 6, 61, 23, 23, 11, 12, 6, 0
+16428, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1
+16087, 18374, 1, "OK", 7, 59, 23, 23, 11, 12, 6, 0
+16137, 18374, 1, "OK", 8, 58, 23, 23, 11, 12, 6, 0
+18432, 18642, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+16087, 18642, 1, "OK", 7, 68, 24, 24, 12, 12, 6, 0
+18379, 18642, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+15353, 18749, 1, "OK", 4, 90, 27, 27, 15, 12, 6, 0
+15479, 18427, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<JSONObject> valuesDataJSON JSONArray valuesDataJSONArray", 0, 0, 25, 25, 13, 12, 6, 0
+16017, 18642, 1, "OK", 6, 70, 24, 24, 12, 12, 6, 0
+16563, 18369, 1, "OK", 12, 46, 22, 16, 10, 6, 6, 1
+15479, 16133, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int treeLovNodeLevel String valueColumn String treeLovNodeName String treeLovParentNodeName Set<JSONObject> valuesDataJSON", 0, 0, 2, 2, 2, 0, 0, 0
+16200, 18610, 1, "OK", 9, 63, 24, 24, 12, 12, 6, 0
+16137, 18642, 1, "OK", 8, 67, 24, 24, 12, 12, 6, 0
+16394, 18369, 1, "OK", 10, 50, 22, 16, 10, 6, 6, 1
+15479, 16012, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int treeLovNodeLevel String treeLovNodeName String treeLovParentNodeName", 0, 0, 2, 2, 2, 0, 0, 0
+17090, 17406, 1, "OK", 4, 9, 4, 1, 1, 0, 1, 3
+15469, 18749, 1, "OK", 6, 85, 27, 27, 15, 12, 6, 0
+16324, 18369, 1, "OK", 9, 52, 22, 16, 10, 6, 6, 1
+16611, 18176, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 17, 9, 7, 2, 4, 2
+16291, 18369, 1, "OK", 9, 53, 22, 16, 10, 6, 6, 1
+16200, 18374, 1, "OK", 9, 56, 23, 23, 11, 12, 6, 0
+18298, 18369, 1, "OK", 4, 3, 3, 2, 2, 0, 1, 1
+16345, 18369, 1, "OK", 10, 51, 22, 16, 10, 6, 6, 1
+16087, 18427, 1, "OK", 7, 61, 23, 23, 11, 12, 6, 0
+16611, 16911, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode SourceBeanAttribute attribute", 0, 0, 5, 3, 3, 0, 1, 2
+17012, 18176, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject valueJSON boolean notNullNode", 0, 0, 12, 6, 4, 2, 3, 2
+17090, 17796, 1, "OK", 6, 19, 8, 2, 2, 0, 2, 3
+16017, 18427, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Set<JSONObject> valuesDataJSON JSONArray valuesDataJSONArray", 0, 0, 23, 23, 11, 12, 6, 0
+16200, 18642, 1, "OK", 9, 65, 24, 24, 12, 12, 6, 0
+15400, 18749, 1, "OK", 4, 88, 27, 27, 15, 12, 6, 0
+16137, 18427, 1, "OK", 8, 60, 23, 23, 11, 12, 6, 0
+16244, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1
+15479, 18610, 1, "OK", 6, 78, 26, 26, 14, 12, 6, 0
+16686, 18176, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 17, 9, 7, 2, 4, 2
+16428, 18369, 1, "OK", 11, 49, 22, 16, 10, 6, 6, 1
+17413, 17796, 1, "OK", 5, 10, 4, 1, 1, 0, 1, 3
+15679, 16012, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String treeLovNodeName String treeLovParentNodeName", 0, 0, 1, 1, 1, 0, 0, 0
+15479, 16195, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int treeLovNodeLevel String valueColumn String descriptionColumn String treeLovNodeName String treeLovParentNodeName Set<JSONObject> valuesDataJSON", 0, 0, 2, 2, 2, 0, 0, 0
+16686, 16911, 1, "OK", 4, 5, 5, 3, 3, 0, 1, 2
+17090, 17831, 1, "OK", 6, 20, 8, 2, 2, 0, 2, 3
+16200, 18427, 1, "OK", 9, 58, 23, 23, 11, 12, 6, 0
+16394, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1
+15479, 18374, 1, "OK", 6, 71, 25, 25, 13, 12, 6, 0
+18432, 18610, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+15479, 18642, 1, "OK", 6, 80, 26, 26, 14, 12, 6, 0
+15479, 16082, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int treeLovNodeLevel String treeLovNodeName String treeLovParentNodeName Set<JSONObject> valuesDataJSON", 0, 0, 2, 2, 2, 0, 0, 0
+16087, 18610, 1, "OK", 7, 66, 24, 24, 12, 12, 6, 0
+15331, 18749, 1, "OK", 4, 91, 27, 27, 15, 12, 6, 0
+16563, 18182, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean addNode JSONObject valueJSON boolean notNullNode", 0, 0, 19, 14, 8, 6, 5, 1

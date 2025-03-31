@@ -1,0 +1,56 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2033, 2192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName", 0, 0, 1, 1, 1, 0, 0, 0
+2556, 3906, 1, "OK", 9, 31, 51, 41, 18, 23, 10, 1
+2799, 2901, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+2275, 2376, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+2275, 3916, 1, "OK", 7, 41, 53, 53, 20, 33, 10, 0
+3000, 3332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 6, 0, 3, 4
+2706, 3874, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 46, 22, 16, 6, 8, 3
+2201, 2376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchName String searchDesc", 0, 0, 2, 2, 2, 0, 0, 0
+2201, 3916, 1, "OK", 7, 44, 54, 54, 21, 33, 10, 0
+3000, 3214, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 4, 4, 0, 2, 4
+2201, 2257, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+2156, 2376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchName String searchDesc", 0, 0, 2, 2, 2, 0, 0, 0
+3000, 3093, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+2156, 3916, 1, "OK", 6, 45, 54, 54, 21, 33, 10, 0
+1954, 2376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Iterator<MethodNode> methods String searchOwner String searchName String searchDesc", 0, 0, 3, 3, 3, 0, 0, 0
+2156, 2257, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+2080, 2311, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName String searchDesc", 0, 0, 2, 2, 2, 0, 0, 0
+1954, 3916, 1, "OK", 4, 51, 55, 55, 22, 33, 10, 0
+1954, 2257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Iterator<MethodNode> methods String searchOwner String searchName", 0, 0, 2, 2, 2, 0, 0, 0
+2080, 2192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName", 0, 0, 1, 1, 1, 0, 0, 0
+2442, 3906, 1, "OK", 8, 34, 51, 41, 18, 23, 10, 1
+2706, 3786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 46, 22, 16, 6, 8, 3
+1954, 2138, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Iterator<MethodNode> methods String searchOwner", 0, 0, 1, 1, 1, 0, 0, 0
+2033, 2376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName String searchDesc", 0, 0, 3, 3, 3, 0, 0, 0
+2033, 3916, 1, "OK", 5, 49, 55, 55, 22, 33, 10, 0
+2033, 2257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName", 0, 0, 2, 2, 2, 0, 0, 0
+3669, 3764, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+2706, 2901, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+2943, 3874, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 20, 14, 6, 7, 3
+2033, 2138, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+2201, 2311, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchName String searchDesc", 0, 0, 1, 1, 1, 0, 0, 0
+2629, 3892, 1, "OK", 9, 28, 49, 31, 17, 14, 9, 2
+3426, 3764, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 18, 6, 6, 0, 3, 4
+2799, 3874, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 46, 22, 16, 6, 8, 3
+3118, 3332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 4, 4, 0, 2, 4
+3426, 3644, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 4, 4, 0, 2, 4
+3546, 3764, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 4, 4, 0, 2, 4
+2156, 2311, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchName String searchDesc", 0, 0, 1, 1, 1, 0, 0, 0
+3118, 3214, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+3426, 3521, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+3546, 3644, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+2497, 3906, 1, "OK", 8, 32, 51, 41, 18, 23, 10, 1
+1954, 2311, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Iterator<MethodNode> methods String searchOwner String searchName String searchDesc", 0, 0, 2, 2, 2, 0, 0, 0
+2080, 2376, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName String searchDesc", 0, 0, 3, 3, 3, 0, 0, 0
+2080, 3916, 1, "OK", 6, 48, 55, 55, 22, 33, 10, 0
+2943, 3786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 41, 20, 14, 6, 7, 3
+1954, 2192, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Iterator<MethodNode> methods String searchOwner String searchName", 0, 0, 1, 1, 1, 0, 0, 0
+2394, 3916, 1, "OK", 8, 37, 52, 52, 19, 33, 10, 0
+2080, 2257, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName", 0, 0, 2, 2, 2, 0, 0, 0
+2033, 2311, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String searchOwner String searchName String searchDesc", 0, 0, 2, 2, 2, 0, 0, 0
+2320, 2376, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+2080, 2138, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+2320, 3916, 1, "OK", 8, 40, 53, 53, 20, 33, 10, 0
+2799, 3786, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 46, 22, 16, 6, 8, 3
+3239, 3332, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4

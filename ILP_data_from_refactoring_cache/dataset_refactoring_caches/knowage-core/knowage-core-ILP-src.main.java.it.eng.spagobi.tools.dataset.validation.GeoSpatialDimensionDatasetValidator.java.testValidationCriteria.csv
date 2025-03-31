@@ -1,0 +1,43 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+8606, 9249, 1, "OK", 2, 20, 11, 11, 5, 6, 3, 0
+10049, 10468, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 3, 2, 1, 2, 4
+8712, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 12, 21, 8, 0
+9554, 10579, 1, "OK", 5, 27, 22, 22, 7, 15, 5, 0
+8924, 9245, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 7, 4, 3, 3, 1
+8712, 10579, 1, "OK", 6, 50, 33, 33, 12, 21, 8, 0
+8881, 9245, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 7, 4, 3, 3, 1
+8712, 9551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue Set<String> admissibleValues", 0, 0, 11, 11, 5, 6, 3, 0
+9093, 9197, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+10293, 10460, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 1, 1, 0, 1, 5
+8712, 9426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue IDataStore dataStoreLevel", 0, 0, 11, 11, 5, 6, 3, 0
+8851, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 12, 21, 8, 0
+9143, 9197, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+9762, 10481, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 10, 4, 6, 4, 2
+8760, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 12, 21, 8, 0
+8760, 10579, 1, "OK", 7, 49, 33, 33, 12, 21, 8, 0
+8851, 9551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue Set<String> admissibleValues", 0, 0, 11, 11, 5, 6, 3, 0
+8760, 9551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue Set<String> admissibleValues", 0, 0, 11, 11, 5, 6, 3, 0
+9876, 10475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 6, 3, 3, 3, 3
+8712, 9249, 1, "OK", 3, 17, 11, 11, 5, 6, 3, 0
+8760, 9426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue IDataStore dataStoreLevel", 0, 0, 11, 11, 5, 6, 3, 0
+9018, 9245, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 7, 4, 3, 3, 1
+8851, 9426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue IDataStore dataStoreLevel", 0, 0, 11, 11, 5, 6, 3, 0
+8851, 10579, 1, "OK", 6, 48, 33, 33, 12, 21, 8, 0
+8606, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 33, 33, 12, 21, 8, 0
+8977, 9245, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 10, 7, 4, 3, 3, 1
+8851, 9249, 1, "OK", 3, 15, 11, 11, 5, 6, 3, 0
+8760, 9249, 1, "OK", 4, 16, 11, 11, 5, 6, 3, 0
+10195, 10460, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 1, 1, 0, 1, 5
+9471, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 7, 15, 5, 0
+9366, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 7, 15, 5, 0
+8606, 9426, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue IDataStore dataStoreLevel", 0, 0, 11, 11, 5, 6, 3, 0
+9471, 10579, 1, "OK", 5, 28, 22, 22, 7, 15, 5, 0
+8606, 10579, 1, "OK", 5, 53, 33, 33, 12, 21, 8, 0
+9583, 10501, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 21, 16, 6, 10, 5, 1
+10005, 10475, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 6, 3, 3, 3, 3
+8606, 9551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object fieldValue Set<String> admissibleValues", 0, 0, 11, 11, 5, 6, 3, 0
+9050, 9237, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 3, 1, 2, 2
+9366, 10579, 1, "OK", 4, 29, 22, 22, 7, 15, 5, 0
+9844, 10481, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 10, 4, 6, 4, 2
+10111, 10460, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 1, 1, 0, 1, 5
+9554, 10505, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 7, 15, 5, 0

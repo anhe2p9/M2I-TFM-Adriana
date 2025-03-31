@@ -1,0 +1,17 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+2617, 3258, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+4002, 4643, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+1227, 4657, 1, "OK", 3, 58, 16, 16, 11, 5, 5, 0
+1918, 2597, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+1179, 4679, 1, "OK", 2, 63, 16, 16, 11, 5, 5, 0
+2617, 3268, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+3290, 3973, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+4002, 4653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+1206, 4679, 1, "OK", 2, 61, 16, 16, 11, 5, 5, 0
+1260, 1887, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1
+1179, 4657, 1, "OK", 2, 61, 16, 16, 11, 5, 5, 0
+3290, 3983, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+1206, 4657, 1, "OK", 2, 59, 16, 16, 11, 5, 5, 0
+1227, 4679, 1, "OK", 3, 60, 16, 16, 11, 5, 5, 0
+1260, 1897, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+1918, 2587, 1, "OK", 1, 9, 3, 2, 2, 0, 1, 1

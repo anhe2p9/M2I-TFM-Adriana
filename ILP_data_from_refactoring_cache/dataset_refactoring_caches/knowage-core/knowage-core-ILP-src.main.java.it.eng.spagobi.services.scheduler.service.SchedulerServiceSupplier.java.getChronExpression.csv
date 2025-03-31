@@ -1,0 +1,273 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+24571, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+24109, 24277, 1, "OK", 3, 3, 3, 2, 2, 0, 1, 1
+25137, 25183, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+24514, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+24670, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+24622, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+25757, 25920, 1, "OK", 1, 5, 5, 3, 2, 1, 2, 1
+22939, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22939, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+22830, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+22915, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+23501, 26751, 1, "OK", 6, 74, 56, 56, 26, 30, 18, 0
+23501, 23679, 1, "OK", 4, 5, 1, 1, 1, 0, 0, 0
+24597, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+24622, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+25086, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selmonths String dayRep String weeks", 0, 0, 9, 3, 3, 0, 3, 2
+24514, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+22965, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+22691, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+25560, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String daycron String dayinweekcron", 0, 0, 11, 7, 5, 2, 4, 1
+25333, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 12, 8, 6, 2, 4, 1
+24857, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String value", 0, 0, 12, 4, 4, 0, 4, 2
+22874, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22874, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+24209, 24277, 1, "OK", 1, 1, 3, 2, 2, 0, 1, 1
+25086, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selmonths String dayRep String weeks String days", 0, 0, 12, 4, 4, 0, 4, 2
+24487, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+25137, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks", 0, 0, 6, 2, 2, 0, 2, 2
+26016, 26141, 1, "OK", 2, 2, 5, 2, 2, 0, 1, 3
+24597, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+24622, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+22754, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+24157, 24366, 1, "OK", 2, 3, 5, 3, 3, 0, 2, 1
+22939, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+24760, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String key String value", 0, 0, 9, 3, 3, 0, 3, 2
+25798, 26743, 1, "OK", 7, 17, 15, 10, 6, 4, 5, 1
+25978, 26283, 1, "OK", 2, 5, 8, 4, 3, 1, 2, 2
+22710, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22710, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+23910, 24366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 5, 3, 3, 0, 2, 1
+24514, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+24930, 25022, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+22874, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+24544, 26743, 1, "OK", 6, 49, 47, 31, 19, 12, 16, 1
+22754, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+24857, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String value", 0, 0, 15, 5, 5, 0, 5, 2
+22793, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22793, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+25297, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 17, 11, 8, 3, 6, 1
+25934, 26653, 1, "OK", 2, 12, 10, 7, 4, 3, 3, 1
+23993, 24366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 5, 3, 3, 0, 2, 1
+24760, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String key String value", 0, 0, 12, 4, 4, 0, 4, 2
+24597, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+25137, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days", 0, 0, 9, 3, 3, 0, 3, 2
+24109, 24366, 1, "OK", 3, 4, 5, 3, 3, 0, 2, 1
+24571, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+25595, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String daycron String dayinweekcron", 0, 0, 11, 7, 5, 2, 4, 1
+22915, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+24670, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+23686, 26751, 1, "OK", 6, 69, 55, 55, 25, 30, 18, 0
+24157, 24438, 1, "OK", 5, 4, 5, 3, 3, 0, 2, 1
+24209, 24366, 1, "OK", 1, 2, 5, 3, 3, 0, 2, 1
+25978, 26354, 1, "OK", 2, 6, 8, 4, 3, 1, 2, 2
+22710, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+22965, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+24544, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+22793, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+23224, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 58, 58, 28, 30, 18, 0
+23224, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+24816, 25022, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String key String value", 0, 0, 3, 1, 1, 0, 1, 2
+24047, 24277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 3, 2, 2, 0, 1, 1
+24857, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 18, 6, 6, 0, 6, 2
+23323, 26751, 1, "OK", 6, 79, 57, 57, 27, 30, 18, 0
+23323, 23679, 1, "OK", 4, 10, 2, 2, 2, 0, 0, 0
+22939, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+23877, 24446, 1, "OK", 5, 11, 6, 6, 4, 2, 2, 0
+23993, 24438, 1, "OK", 5, 7, 5, 3, 3, 0, 2, 1
+24544, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+22754, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+24930, 25077, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String value", 0, 0, 6, 2, 2, 0, 2, 2
+22691, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+23910, 24438, 1, "OK", 3, 9, 5, 3, 3, 0, 2, 1
+24760, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String key String value", 0, 0, 15, 5, 5, 0, 5, 2
+24622, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+25333, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 17, 11, 8, 3, 6, 1
+24109, 24438, 1, "OK", 5, 5, 5, 3, 3, 0, 2, 1
+22657, 26958, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 31, 30, 18, 0
+25934, 26743, 1, "OK", 6, 13, 10, 7, 4, 3, 3, 1
+24544, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+25238, 25273, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+22874, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+22691, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+24900, 25022, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+24514, 26743, 1, "OK", 5, 50, 47, 31, 19, 12, 16, 1
+24514, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+23950, 24277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 3, 2, 2, 0, 1, 1
+25031, 25077, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+24544, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+22657, 26977, 1, "OK", 3, 104, 61, 61, 31, 30, 18, 0
+24816, 25077, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String key String value", 0, 0, 6, 2, 2, 0, 2, 2
+24930, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String value", 0, 0, 9, 3, 3, 0, 3, 2
+25978, 26425, 1, "OK", 2, 7, 8, 4, 3, 1, 2, 2
+24209, 24438, 1, "OK", 4, 3, 5, 3, 3, 0, 2, 1
+24760, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 18, 6, 6, 0, 6, 2
+22939, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+24487, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+24597, 26743, 1, "OK", 8, 47, 47, 31, 19, 12, 16, 1
+22710, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+25297, 25546, 1, "OK", 3, 7, 6, 4, 3, 1, 2, 1
+24597, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+22830, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22830, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+23501, 23870, 1, "OK", 5, 10, 2, 2, 2, 0, 0, 0
+24719, 25022, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String key String value", 0, 0, 3, 1, 1, 0, 1, 2
+24670, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+22793, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+25192, 25229, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+24047, 24366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 5, 3, 3, 0, 2, 1
+24487, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+25757, 26653, 1, "OK", 2, 17, 15, 10, 6, 4, 5, 1
+22754, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+22874, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+25297, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron", 0, 0, 6, 4, 3, 1, 2, 1
+24930, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String value", 0, 0, 12, 4, 4, 0, 4, 2
+24816, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String key String value", 0, 0, 9, 3, 3, 0, 3, 2
+22691, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+25798, 25920, 1, "OK", 2, 4, 5, 3, 2, 1, 2, 1
+24514, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+24571, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+24900, 25077, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String value", 0, 0, 6, 2, 2, 0, 2, 2
+22710, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+24597, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+24597, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+24514, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+25560, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String daycron String dayinweekcron", 0, 0, 21, 14, 9, 5, 7, 1
+24719, 25077, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String key String value", 0, 0, 6, 2, 2, 0, 2, 2
+25978, 26496, 1, "OK", 2, 8, 8, 4, 3, 1, 2, 2
+25031, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths", 0, 0, 6, 2, 2, 0, 2, 2
+22830, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+22939, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+24622, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+22915, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22915, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+23224, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 1, 1, 1, 0, 0, 0
+23501, 24446, 1, "OK", 5, 21, 8, 8, 6, 2, 2, 0
+24487, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+24670, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+22793, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+25192, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days", 0, 0, 6, 2, 2, 0, 2, 2
+24571, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+22965, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22965, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+24930, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String value", 0, 0, 15, 5, 5, 0, 5, 2
+25297, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 27, 18, 12, 6, 9, 1
+24047, 24438, 1, "OK", 6, 6, 5, 3, 3, 0, 2, 1
+24900, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String value", 0, 0, 9, 3, 3, 0, 3, 2
+23950, 24366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 5, 3, 3, 0, 2, 1
+24514, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+24544, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+22874, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+23686, 23870, 1, "OK", 5, 5, 1, 1, 1, 0, 0, 0
+25031, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep", 0, 0, 9, 3, 3, 0, 3, 2
+24719, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String key String value", 0, 0, 9, 3, 3, 0, 3, 2
+25757, 26743, 1, "OK", 6, 18, 15, 10, 6, 4, 5, 1
+25333, 25546, 1, "OK", 3, 6, 6, 4, 3, 1, 2, 1
+24816, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String key String value", 0, 0, 12, 4, 4, 0, 4, 2
+24597, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+22710, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+25978, 26567, 1, "OK", 2, 9, 8, 4, 3, 1, 2, 2
+22915, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+22939, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+23224, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+24622, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+24670, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+22691, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+23323, 23870, 1, "OK", 5, 15, 3, 3, 3, 0, 0, 0
+24571, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+25595, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String daycron String dayinweekcron", 0, 0, 21, 14, 9, 5, 7, 1
+24453, 26751, 1, "OK", 6, 53, 48, 48, 20, 28, 16, 0
+24900, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String value", 0, 0, 12, 4, 4, 0, 4, 2
+24816, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String key String value", 0, 0, 15, 5, 5, 0, 5, 2
+24930, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 18, 6, 6, 0, 6, 2
+25333, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron", 0, 0, 6, 4, 3, 1, 2, 1
+22965, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+22793, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+23950, 24438, 1, "OK", 4, 8, 5, 3, 3, 0, 2, 1
+22874, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+25660, 25696, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+25031, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks", 0, 0, 12, 4, 4, 0, 4, 2
+22830, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+25560, 26743, 1, "OK", 6, 23, 21, 14, 9, 5, 7, 1
+23686, 24446, 1, "OK", 5, 16, 7, 7, 5, 2, 2, 0
+24514, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+25560, 25743, 1, "OK", 3, 5, 6, 4, 3, 1, 2, 1
+24622, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+24487, 26743, 1, "OK", 4, 51, 47, 31, 19, 12, 16, 1
+24719, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String key String value", 0, 0, 12, 4, 4, 0, 4, 2
+24597, 25920, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String monthcron String daycron String dayinweekcron", 0, 0, 37, 24, 15, 9, 13, 1
+24487, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+25333, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 27, 18, 12, 6, 9, 1
+24816, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 18, 6, 6, 0, 6, 2
+24900, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String value", 0, 0, 15, 5, 5, 0, 5, 2
+25453, 25494, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+25660, 25728, 1, "OK", 1, 2, 3, 1, 1, 0, 1, 2
+24857, 25022, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+25297, 26743, 1, "OK", 8, 30, 27, 18, 12, 6, 9, 1
+23224, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 8, 2, 2, 0
+23323, 24446, 1, "OK", 5, 26, 9, 9, 7, 2, 2, 0
+23877, 26751, 1, "OK", 6, 64, 54, 54, 24, 30, 18, 0
+24571, 26743, 1, "OK", 7, 48, 47, 31, 19, 12, 16, 1
+25595, 26743, 1, "OK", 7, 22, 21, 14, 9, 5, 7, 1
+25297, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron", 0, 0, 12, 8, 6, 2, 4, 1
+24719, 25229, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String key String value", 0, 0, 15, 5, 5, 0, 5, 2
+22754, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22754, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+22793, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+24670, 26743, 1, "OK", 9, 45, 47, 31, 19, 12, 16, 1
+25978, 26638, 1, "OK", 2, 10, 8, 4, 3, 1, 2, 2
+22710, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 4, 4, 0, 0, 0
+22830, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+25031, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 15, 5, 5, 0, 5, 2
+25453, 25531, 1, "OK", 1, 2, 3, 1, 1, 0, 1, 2
+24544, 25546, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron", 0, 0, 26, 17, 10, 7, 9, 1
+25086, 25128, 1, "OK", 3, 1, 3, 1, 1, 0, 1, 2
+25978, 26141, 1, "OK", 2, 3, 8, 4, 3, 1, 2, 2
+25838, 25869, 1, "OK", 1, 1, 3, 1, 1, 0, 1, 2
+25560, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String daycron String dayinweekcron", 0, 0, 6, 4, 3, 1, 2, 1
+24857, 25077, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String value", 0, 0, 6, 2, 2, 0, 2, 2
+24487, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+22915, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+24285, 24366, 1, "OK", 1, 1, 2, 1, 1, 0, 1, 1
+24487, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+24571, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+25595, 25743, 1, "OK", 4, 4, 6, 4, 3, 1, 2, 1
+24900, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 18, 6, 6, 0, 6, 2
+24670, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+24544, 25581, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String dayRep String weeks String days String monthcron String daycron", 0, 0, 26, 17, 10, 7, 9, 1
+23224, 23494, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+25297, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 12, 8, 6, 2, 4, 1
+24622, 26743, 1, "OK", 9, 46, 47, 31, 19, 12, 16, 1
+23323, 23494, 1, "OK", 3, 5, 1, 1, 1, 0, 0, 0
+24719, 25273, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 18, 6, 6, 0, 6, 2
+25838, 25905, 1, "OK", 1, 2, 3, 1, 1, 0, 1, 2
+22965, 23316, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 3, 3, 0, 0, 0
+24760, 25022, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String key String value", 0, 0, 3, 1, 1, 0, 1, 2
+24157, 24277, 1, "OK", 2, 2, 3, 2, 2, 0, 1, 1
+24571, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+25595, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String daycron String dayinweekcron", 0, 0, 6, 4, 3, 1, 2, 1
+25798, 26653, 1, "OK", 3, 16, 15, 10, 6, 4, 5, 1
+22915, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+24670, 25784, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron String dayinweekcron", 0, 0, 32, 21, 13, 8, 11, 1
+22830, 24446, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 10, 2, 2, 0
+22754, 23217, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 2, 2, 2, 0, 0, 0
+22683, 26958, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 61, 61, 31, 30, 18, 0
+22965, 23870, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 6, 6, 6, 0, 0, 0
+24571, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+25978, 26212, 1, "OK", 2, 4, 8, 4, 3, 1, 2, 2
+24487, 25319, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+24670, 25283, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String dayRep String weeks String days", 0, 0, 20, 13, 7, 6, 7, 1
+22683, 26977, 1, "OK", 4, 103, 61, 61, 31, 30, 18, 0
+24622, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String weeks String days String monthcron String daycron", 0, 0, 32, 21, 13, 8, 11, 1
+25086, 25183, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String selmonths String dayRep", 0, 0, 6, 2, 2, 0, 2, 2
+25333, 26743, 1, "OK", 8, 29, 27, 18, 12, 6, 9, 1
+24285, 24438, 1, "OK", 4, 2, 2, 1, 1, 0, 1, 1
+24544, 26653, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron String dayinweekcron", 0, 0, 47, 31, 19, 12, 16, 1
+24760, 25077, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String key String value", 0, 0, 6, 2, 2, 0, 2, 2
+22691, 26751, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 18, 0
+22691, 23679, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 5, 5, 0, 0, 0
+23993, 24277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 3, 2, 2, 0, 1, 1
+25333, 25743, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String monthcron String daycron", 0, 0, 12, 8, 6, 2, 4, 1
+23910, 24277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numrep String daysstr", 0, 0, 3, 2, 2, 0, 1, 1
+24857, 25128, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String numRep String selmonths String value", 0, 0, 9, 3, 3, 0, 3, 2

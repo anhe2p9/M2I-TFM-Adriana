@@ -1,0 +1,1038 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+45332, 45801, 1, "OK", 5, 14, 13, 4, 4, 0, 3, 3
+41751, 42120, 1, "OK", 2, 12, 13, 4, 4, 0, 3, 3
+42507, 43260, 1, "OK", 6, 20, 26, 6, 6, 0, 5, 4
+52183, 52564, 1, "OK", 4, 14, 10, 4, 4, 0, 3, 2
+44892, 45112, 1, "OK", 2, 7, 10, 2, 2, 0, 2, 4
+40587, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 23, 13, 8, 5, 5, 2
+36571, 36822, 1, "OK", 0, 9, 2, 1, 1, 0, 1, 1
+57300, 57765, 1, "OK", 2, 14, 19, 7, 5, 2, 4, 3
+50844, 51043, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+56764, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 32, 25, 10, 15, 7, 1
+48025, 48315, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 6, 2, 2, 0, 1, 4
+44701, 44863, 1, "OK", 1, 5, 6, 2, 2, 0, 1, 4
+46424, 46743, 1, "OK", 4, 9, 9, 3, 3, 0, 2, 3
+39954, 40476, 1, "OK", 1, 17, 7, 3, 2, 1, 2, 2
+44271, 45914, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 17, 12, 5, 10, 3
+53403, 53627, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+47614, 50822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 54, 38, 19, 19, 8, 2
+42585, 42925, 1, "OK", 4, 8, 11, 3, 3, 0, 2, 4
+44271, 45954, 1, "OK", 6, 49, 47, 17, 12, 5, 10, 3
+47219, 50822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 58, 40, 21, 19, 9, 2
+42317, 47132, 1, "OK", 9, 136, 133, 73, 35, 38, 30, 2
+36894, 37074, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+56967, 57881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 10, 8, 2, 6, 3
+38517, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 340, 261, 114, 147, 79, 1
+52449, 52528, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+38593, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 7, 3, 4, 1
+39954, 40521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj", 0, 0, 7, 3, 2, 1, 2, 2
+56410, 56718, 1, "OK", 2, 10, 8, 2, 2, 0, 2, 3
+40455, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 23, 13, 8, 5, 5, 2
+46424, 46781, 1, "OK", 4, 11, 9, 3, 3, 0, 2, 3
+46106, 46398, 1, "OK", 2, 6, 9, 3, 2, 1, 2, 3
+58142, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 22, 13, 9, 0
+42354, 43922, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 16, 11, 5, 9, 3
+58719, 58857, 1, "OK", 0, 5, 4, 3, 3, 0, 1, 1
+51659, 52427, 1, "OK", 7, 23, 18, 8, 8, 0, 5, 2
+56920, 57274, 1, "OK", 3, 7, 5, 2, 2, 0, 1, 3
+52588, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 25, 12, 13, 9, 1
+51476, 52011, 1, "OK", 5, 16, 10, 4, 4, 0, 3, 2
+58630, 59613, 1, "OK", 2, 29, 18, 18, 11, 7, 4, 0
+36009, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 519, 519, 189, 330, 124, 0
+48986, 49321, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String endsWithValue String[] containsValues", 0, 0, 7, 1, 1, 0, 1, 6
+36754, 37354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 9, 6, 3, 4, 1
+42585, 42967, 1, "OK", 4, 10, 11, 3, 3, 0, 2, 4
+42146, 42233, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+39892, 40433, 1, "OK", 0, 16, 7, 3, 2, 1, 2, 2
+47272, 51265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 71, 45, 26, 19, 13, 2
+52449, 52564, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+38253, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 342, 262, 115, 147, 80, 1
+38329, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 11, 8, 3, 5, 1
+51938, 52011, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+46038, 46498, 1, "OK", 4, 9, 9, 3, 2, 1, 2, 3
+44892, 45156, 1, "OK", 3, 9, 10, 2, 2, 0, 2, 4
+55691, 56497, 1, "OK", 4, 21, 24, 9, 7, 2, 5, 3
+53192, 54094, 1, "OK", 3, 23, 17, 9, 5, 4, 4, 2
+58609, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 17, 11, 7, 0
+55010, 55130, 1, "OK", 1, 3, 6, 2, 2, 0, 1, 4
+36009, 60476, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 519, 519, 189, 330, 124, 0
+36571, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 246, 185, 80, 105, 61, 1
+39723, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 423, 326, 137, 189, 97, 1
+41495, 41970, 1, "OK", 3, 13, 14, 5, 5, 0, 3, 3
+47272, 51301, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 71, 45, 26, 19, 13, 2
+45208, 45651, 1, "OK", 4, 12, 9, 3, 3, 0, 2, 3
+44701, 44987, 1, "OK", 2, 8, 11, 3, 3, 0, 2, 4
+56967, 57949, 1, "OK", 5, 26, 28, 10, 8, 2, 6, 3
+38744, 39162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object startValue Object endValue", 0, 0, 7, 3, 3, 0, 2, 2
+40497, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 103, 57, 31, 26, 23, 2
+36129, 36260, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+50844, 51144, 1, "OK", 2, 11, 10, 4, 4, 0, 3, 2
+39954, 40566, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 7, 3, 2, 1, 2, 2
+55691, 56534, 1, "OK", 4, 22, 24, 9, 7, 2, 5, 3
+36326, 58871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 492, 492, 173, 319, 117, 0
+46424, 46893, 1, "OK", 5, 14, 13, 4, 4, 0, 3, 3
+55332, 55422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+58142, 60476, 1, "OK", 3, 72, 37, 37, 24, 13, 9, 0
+47219, 50917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 61, 41, 22, 19, 10, 2
+40164, 40249, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+42354, 44034, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 47, 17, 12, 5, 10, 3
+45539, 45651, 1, "OK", 1, 3, 5, 2, 2, 0, 1, 3
+54116, 54195, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+35889, 58095, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 483, 483, 166, 317, 115, 0
+48620, 50482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 36, 16, 11, 5, 5, 4
+45332, 45914, 1, "OK", 6, 18, 17, 5, 5, 0, 4, 3
+46176, 46372, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+42146, 42273, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+41751, 42233, 1, "OK", 3, 16, 17, 5, 5, 0, 4, 3
+39892, 40476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt", 0, 0, 7, 3, 2, 1, 2, 2
+57300, 57881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 8, 6, 2, 5, 3
+36129, 36298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 2, 1, 1, 0, 1, 1
+58142, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 24, 13, 9, 0
+46106, 46498, 1, "OK", 5, 8, 9, 3, 2, 1, 2, 3
+51659, 52528, 1, "OK", 8, 27, 21, 9, 9, 0, 6, 2
+36894, 37200, 1, "OK", 1, 10, 7, 3, 3, 0, 2, 2
+45539, 45689, 1, "OK", 1, 5, 5, 2, 2, 0, 1, 3
+57123, 57274, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 3
+39723, 58049, 1, "OK", 6, 488, 423, 326, 137, 189, 97, 1
+39892, 40521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt boolean isIntObj", 0, 0, 7, 3, 2, 1, 2, 2
+59298, 59483, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+40164, 40285, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+58609, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 17, 11, 7, 0
+46038, 46605, 1, "OK", 4, 13, 13, 4, 3, 1, 3, 3
+54405, 55512, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 9, 8, 7, 2
+36571, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 320, 245, 108, 137, 75, 1
+58897, 59613, 1, "OK", 2, 19, 12, 12, 6, 6, 3, 0
+51659, 52564, 1, "OK", 8, 29, 21, 9, 9, 0, 6, 2
+45208, 45689, 1, "OK", 4, 14, 9, 3, 3, 0, 2, 3
+41495, 42008, 1, "OK", 3, 15, 14, 5, 5, 0, 3, 3
+53192, 54195, 1, "OK", 4, 27, 20, 10, 6, 4, 5, 2
+45332, 45954, 1, "OK", 6, 20, 17, 5, 5, 0, 4, 3
+54548, 55156, 1, "OK", 4, 15, 20, 8, 6, 2, 4, 3
+45280, 45513, 1, "OK", 5, 7, 4, 1, 1, 0, 1, 3
+51337, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 43, 23, 20, 17, 1
+41751, 42273, 1, "OK", 3, 18, 17, 5, 5, 0, 4, 3
+37222, 37301, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+55332, 55490, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+36326, 58938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 492, 492, 173, 319, 117, 0
+42585, 43091, 1, "OK", 5, 13, 16, 4, 4, 0, 3, 4
+44582, 44671, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+35889, 58129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 483, 483, 166, 317, 115, 0
+38798, 39631, 0, "Compilation unit does not compile after method extraction.", 4, 20, 11, 5, 5, 0, 3, 2
+57300, 57949, 1, "OK", 2, 20, 23, 8, 6, 2, 5, 3
+40928, 41193, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj", 0, 0, 6, 3, 3, 0, 1, 3
+37222, 37336, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+46106, 46605, 1, "OK", 5, 12, 13, 4, 3, 1, 3, 3
+36754, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 475, 362, 160, 202, 113, 1
+38798, 39687, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 5, 5, 0, 3, 2
+44701, 45112, 1, "OK", 3, 12, 16, 4, 4, 0, 3, 4
+40542, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 182, 100, 52, 48, 41, 2
+54116, 54296, 1, "OK", 2, 7, 6, 2, 2, 0, 2, 2
+39892, 40566, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt boolean isIntObj boolean isString", 0, 0, 7, 3, 2, 1, 2, 2
+35889, 58160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 483, 483, 166, 317, 115, 0
+40497, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 27, 17, 10, 11, 2
+46245, 46372, 1, "OK", 3, 3, 5, 1, 1, 0, 1, 4
+51476, 52161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 14, 6, 6, 0, 4, 2
+36805, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 378, 287, 130, 157, 91, 1
+51938, 52161, 1, "OK", 1, 8, 7, 3, 3, 0, 2, 2
+55691, 56650, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 10, 8, 2, 6, 3
+47692, 50678, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 51, 27, 16, 11, 8, 3
+50844, 51265, 1, "OK", 3, 15, 13, 5, 5, 0, 4, 2
+40164, 40335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+38558, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 206, 158, 63, 95, 48, 1
+54116, 54332, 1, "OK", 3, 9, 6, 2, 2, 0, 2, 2
+45208, 45801, 1, "OK", 5, 17, 13, 4, 4, 0, 3, 3
+41495, 42120, 1, "OK", 4, 18, 18, 6, 6, 0, 4, 3
+47219, 51043, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 65, 43, 24, 19, 11, 2
+46631, 46743, 1, "OK", 1, 3, 5, 2, 2, 0, 1, 3
+54548, 55269, 1, "OK", 5, 19, 24, 9, 7, 2, 5, 3
+36894, 37301, 1, "OK", 2, 14, 10, 4, 4, 0, 3, 2
+37670, 37821, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+53192, 54296, 1, "OK", 5, 31, 23, 11, 7, 4, 6, 2
+40164, 40385, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+46424, 47006, 1, "OK", 6, 18, 17, 5, 5, 0, 4, 3
+50844, 51301, 1, "OK", 3, 17, 13, 5, 5, 0, 4, 2
+58609, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 19, 11, 7, 0
+36840, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 244, 184, 79, 105, 60, 1
+42354, 44147, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 51, 18, 13, 5, 11, 3
+58173, 59613, 1, "OK", 4, 45, 25, 25, 16, 9, 6, 0
+36009, 58583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 489, 489, 170, 319, 117, 0
+36009, 58617, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 489, 489, 170, 319, 117, 0
+46631, 46781, 1, "OK", 1, 5, 5, 2, 2, 0, 1, 3
+36043, 59613, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 507, 507, 181, 326, 121, 0
+36754, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 475, 362, 160, 202, 113, 1
+45280, 45651, 1, "OK", 5, 11, 9, 3, 3, 0, 2, 3
+57641, 57728, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+58142, 58583, 1, "OK", 1, 15, 7, 7, 5, 2, 2, 0
+48620, 50652, 1, "OK", 9, 33, 36, 16, 11, 5, 5, 4
+36894, 37336, 1, "OK", 2, 15, 10, 4, 4, 0, 3, 2
+38295, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 208, 159, 64, 95, 49, 1
+35889, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 518, 518, 188, 330, 124, 0
+40542, 47132, 1, "OK", 8, 185, 182, 100, 52, 48, 41, 2
+44328, 44448, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String value Operator intOp", 0, 0, 5, 1, 1, 0, 1, 4
+54548, 55306, 1, "OK", 5, 20, 24, 9, 7, 2, 5, 3
+40032, 40411, 1, "OK", 2, 12, 7, 3, 2, 1, 2, 2
+53192, 54332, 1, "OK", 5, 33, 23, 11, 7, 4, 6, 2
+58609, 60476, 1, "OK", 4, 56, 30, 30, 19, 11, 7, 0
+45539, 45801, 1, "OK", 2, 8, 9, 3, 3, 0, 2, 3
+46424, 47046, 1, "OK", 6, 20, 17, 5, 5, 0, 4, 3
+37096, 37200, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+36609, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 380, 288, 131, 157, 92, 1
+44701, 45156, 1, "OK", 3, 14, 16, 4, 4, 0, 3, 4
+42354, 44187, 1, "OK", 6, 49, 51, 18, 13, 5, 11, 3
+55691, 56718, 1, "OK", 4, 28, 28, 10, 8, 2, 6, 3
+58142, 58617, 1, "OK", 1, 17, 7, 7, 5, 2, 2, 0
+40928, 41331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 11, 5, 5, 0, 2, 3
+57641, 57765, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+36840, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 318, 244, 107, 137, 74, 1
+51938, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 11, 5, 5, 0, 3, 2
+38558, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 280, 218, 91, 127, 62, 1
+42585, 43216, 1, "OK", 6, 17, 21, 5, 5, 0, 4, 4
+45280, 45689, 1, "OK", 5, 13, 9, 3, 3, 0, 2, 3
+51431, 51601, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+46038, 46743, 1, "OK", 4, 17, 18, 6, 5, 1, 4, 3
+48560, 50482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 36, 16, 11, 5, 5, 4
+36357, 58095, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 479, 479, 163, 316, 114, 0
+58109, 59613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char startCh String text", 0, 0, 25, 25, 16, 9, 6, 0
+54891, 54980, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+37372, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 231, 175, 73, 102, 56, 1
+47219, 51144, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 68, 44, 25, 19, 12, 2
+56920, 57615, 1, "OK", 3, 17, 20, 8, 6, 2, 4, 3
+38329, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 342, 262, 115, 147, 80, 1
+44582, 44821, 1, "OK", 1, 7, 11, 3, 3, 0, 2, 4
+35889, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 518, 518, 188, 330, 124, 0
+46106, 46743, 1, "OK", 5, 16, 18, 6, 5, 1, 4, 3
+43947, 44034, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+52778, 52893, 1, "OK", 0, 4, 3, 1, 1, 0, 1, 2
+51476, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 18, 8, 8, 0, 5, 2
+51431, 51637, 1, "OK", 1, 7, 3, 1, 1, 0, 1, 2
+38593, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 340, 261, 114, 147, 79, 1
+46038, 46781, 1, "OK", 4, 19, 18, 6, 5, 1, 4, 3
+36357, 58129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 479, 479, 163, 316, 114, 0
+37670, 37947, 1, "OK", 1, 8, 7, 3, 3, 0, 2, 2
+38673, 39631, 0, "Compilation unit does not compile after method extraction.", 3, 24, 11, 5, 5, 0, 3, 2
+41375, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 130, 72, 36, 36, 29, 2
+45539, 45914, 1, "OK", 3, 12, 13, 4, 4, 0, 3, 3
+44582, 44863, 1, "OK", 1, 9, 11, 3, 3, 0, 2, 4
+42585, 43260, 1, "OK", 6, 19, 21, 5, 5, 0, 4, 4
+38295, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 282, 219, 92, 127, 63, 1
+45208, 45914, 1, "OK", 6, 21, 17, 5, 5, 0, 4, 3
+41495, 42233, 1, "OK", 5, 22, 22, 7, 7, 0, 5, 3
+36754, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 36, 23, 13, 16, 1
+37096, 37301, 1, "OK", 2, 7, 7, 3, 3, 0, 2, 2
+36357, 58160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 479, 479, 163, 316, 114, 0
+54502, 54815, 1, "OK", 3, 6, 5, 2, 2, 0, 1, 3
+37096, 37336, 1, "OK", 2, 8, 7, 3, 3, 0, 2, 2
+42411, 42556, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long value Operator intOp", 0, 0, 5, 1, 1, 0, 1, 4
+37670, 37981, 1, "OK", 1, 10, 7, 3, 3, 0, 2, 2
+37372, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 305, 235, 101, 134, 70, 1
+46631, 46893, 1, "OK", 2, 8, 9, 3, 3, 0, 2, 3
+54548, 55422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 10, 8, 2, 6, 3
+46106, 46781, 1, "OK", 5, 18, 18, 6, 5, 1, 4, 3
+44328, 44552, 1, "OK", 4, 4, 5, 1, 1, 0, 1, 4
+49063, 49321, 1, "OK", 2, 4, 7, 1, 1, 0, 1, 6
+45208, 45954, 1, "OK", 6, 23, 17, 5, 5, 0, 4, 3
+41495, 42273, 1, "OK", 5, 24, 22, 7, 7, 0, 5, 3
+52778, 52994, 1, "OK", 1, 8, 6, 2, 2, 0, 2, 2
+38673, 39687, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 5, 5, 0, 3, 2
+48667, 49355, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String endsWithValue String[] containsValues", 0, 0, 14, 4, 3, 1, 2, 5
+44399, 44448, 1, "OK", 1, 1, 5, 1, 1, 0, 1, 4
+45677, 45801, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+57641, 57881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 2, 2, 0, 2, 3
+46038, 46893, 1, "OK", 5, 22, 22, 7, 6, 1, 5, 3
+45539, 45954, 1, "OK", 3, 14, 13, 4, 4, 0, 3, 3
+40870, 41193, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj Class<?> clazz", 0, 0, 6, 3, 3, 0, 1, 3
+39954, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 189, 103, 54, 49, 43, 2
+45280, 45801, 1, "OK", 6, 16, 13, 4, 4, 0, 3, 3
+35889, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 520, 520, 190, 330, 124, 0
+51623, 51916, 1, "OK", 5, 7, 4, 2, 2, 0, 1, 2
+51476, 52427, 1, "OK", 7, 30, 21, 9, 9, 0, 6, 2
+56238, 56358, 1, "OK", 1, 3, 6, 2, 2, 0, 1, 4
+35966, 58095, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+36805, 38235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+36076, 36260, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+53929, 54195, 1, "OK", 6, 6, 3, 1, 1, 0, 1, 2
+56920, 57728, 1, "OK", 4, 21, 24, 9, 7, 2, 5, 3
+51938, 52427, 1, "OK", 3, 17, 14, 6, 6, 0, 4, 2
+39858, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 160, 88, 46, 42, 36, 2
+54548, 55490, 1, "OK", 5, 26, 28, 10, 8, 2, 6, 3
+47219, 51265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 71, 45, 26, 19, 13, 2
+48560, 50652, 1, "OK", 8, 34, 36, 16, 11, 5, 5, 4
+36357, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 514, 514, 185, 329, 123, 0
+43947, 44147, 1, "OK", 2, 7, 8, 2, 2, 0, 2, 3
+35889, 60476, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 520, 520, 190, 330, 124, 0
+56560, 56650, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+36009, 36312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 3, 3, 2, 1, 1, 0
+46106, 46893, 1, "OK", 6, 21, 22, 7, 6, 1, 5, 3
+42411, 42657, 1, "OK", 4, 3, 5, 1, 1, 0, 1, 4
+44582, 44987, 1, "OK", 2, 12, 16, 4, 4, 0, 3, 4
+43947, 44187, 1, "OK", 3, 9, 8, 2, 2, 0, 2, 3
+47219, 51301, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 71, 45, 26, 19, 13, 2
+35966, 58129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+57641, 57949, 1, "OK", 2, 10, 8, 2, 2, 0, 2, 3
+54891, 55130, 1, "OK", 1, 7, 11, 3, 3, 0, 2, 4
+44328, 44671, 1, "OK", 4, 8, 10, 2, 2, 0, 2, 4
+36076, 36298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 2, 1, 1, 0, 1, 1
+37670, 38081, 1, "OK", 2, 13, 10, 4, 4, 0, 3, 2
+46631, 47006, 1, "OK", 3, 12, 13, 4, 4, 0, 3, 3
+56920, 57765, 1, "OK", 4, 22, 24, 9, 7, 2, 5, 3
+39954, 47132, 1, "OK", 6, 203, 189, 103, 54, 49, 43, 2
+58952, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 12, 10, 6, 0
+39793, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 160, 88, 46, 42, 36, 2
+36571, 37354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 10, 7, 3, 5, 1
+40455, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 153, 85, 44, 41, 34, 2
+35966, 58160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+58952, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 12, 10, 6, 0
+52778, 53095, 1, "OK", 2, 12, 9, 3, 3, 0, 3, 2
+36609, 38235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+38744, 39631, 0, "Compilation unit does not compile after method extraction.", 3, 22, 11, 5, 5, 0, 3, 2
+42033, 42120, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+59244, 59483, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 2, 2, 0, 1, 3
+45280, 45914, 1, "OK", 7, 20, 17, 5, 5, 0, 4, 3
+44399, 44552, 1, "OK", 4, 2, 5, 1, 1, 0, 1, 4
+36357, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 514, 514, 185, 329, 123, 0
+36805, 38278, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+35889, 35952, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+59177, 59505, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 2, 2
+51623, 52011, 1, "OK", 5, 11, 7, 3, 3, 0, 2, 2
+40587, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 153, 85, 44, 41, 34, 2
+36009, 58871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 495, 495, 175, 320, 118, 0
+36009, 36343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 3, 3, 2, 1, 1, 0
+38002, 38081, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+51476, 52528, 1, "OK", 8, 34, 24, 10, 10, 0, 7, 2
+56560, 56718, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+58482, 58569, 1, "OK", 0, 4, 2, 1, 1, 0, 1, 1
+38253, 38499, 1, "OK", 0, 8, 2, 1, 1, 0, 1, 1
+58142, 58871, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char startCh int end", 0, 0, 13, 13, 10, 3, 3, 0
+51186, 51265, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+53929, 54296, 1, "OK", 7, 10, 6, 2, 2, 0, 2, 2
+46769, 46893, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+48503, 50482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 36, 16, 11, 5, 5, 4
+59177, 59542, 1, "OK", 4, 10, 9, 5, 4, 1, 2, 2
+43121, 43216, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+36805, 38312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+46631, 47046, 1, "OK", 3, 14, 13, 4, 4, 0, 3, 3
+51938, 52528, 1, "OK", 4, 21, 17, 7, 7, 0, 5, 2
+39723, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 326, 251, 107, 144, 75, 1
+45677, 45914, 1, "OK", 2, 8, 8, 2, 2, 0, 2, 3
+39892, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 189, 103, 54, 49, 43, 2
+58482, 58545, 1, "OK", 0, 3, 2, 1, 1, 0, 1, 1
+35889, 35996, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+40870, 41331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString Class<?> clazz", 0, 0, 11, 5, 5, 0, 2, 3
+46038, 47006, 1, "OK", 6, 26, 26, 8, 7, 1, 6, 3
+45677, 45954, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+38744, 39687, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 5, 5, 0, 3, 2
+36009, 58938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 495, 495, 175, 320, 118, 0
+43568, 43746, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3
+46038, 47046, 1, "OK", 6, 28, 26, 8, 7, 1, 6, 3
+36357, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 516, 516, 187, 329, 123, 0
+40691, 40780, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+52915, 52994, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+51938, 52564, 1, "OK", 4, 23, 17, 7, 7, 0, 5, 2
+51186, 51301, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+53929, 54332, 1, "OK", 7, 12, 6, 2, 2, 0, 2, 2
+45280, 45954, 1, "OK", 7, 22, 17, 5, 5, 0, 4, 3
+53679, 53885, 1, "OK", 1, 6, 5, 2, 2, 0, 1, 3
+36609, 38278, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+43121, 43260, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+52778, 53131, 1, "OK", 3, 14, 9, 3, 3, 0, 3, 2
+35889, 36029, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 1, 1, 1, 0, 0, 0
+35966, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 517, 517, 187, 330, 124, 0
+58142, 58938, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char startCh String text", 0, 0, 13, 13, 10, 3, 3, 0
+58952, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 14, 10, 6, 0
+44582, 45112, 1, "OK", 3, 16, 21, 5, 5, 0, 4, 4
+36357, 60476, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 516, 516, 187, 329, 123, 0
+38253, 38540, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean function Operator op", 0, 0, 2, 1, 1, 0, 1, 1
+37670, 38182, 1, "OK", 3, 17, 13, 5, 5, 0, 4, 2
+46106, 47006, 1, "OK", 7, 25, 26, 8, 7, 1, 6, 3
+35889, 58583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 490, 490, 171, 319, 117, 0
+37748, 37821, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+51476, 52564, 1, "OK", 8, 36, 24, 10, 10, 0, 7, 2
+36609, 38312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+42411, 42775, 1, "OK", 4, 6, 10, 2, 2, 0, 2, 4
+56920, 57881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 10, 8, 2, 6, 3
+39892, 47132, 1, "OK", 5, 204, 189, 103, 54, 49, 43, 2
+59688, 60136, 1, "OK", 2, 9, 7, 5, 4, 1, 2, 1
+51431, 51916, 1, "OK", 4, 13, 7, 3, 3, 0, 2, 2
+51623, 52161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 11, 5, 5, 0, 3, 2
+44399, 44671, 1, "OK", 4, 6, 10, 2, 2, 0, 2, 4
+38002, 38182, 1, "OK", 2, 7, 6, 2, 2, 0, 2, 2
+41375, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 80, 44, 23, 21, 18, 2
+58952, 60476, 1, "OK", 4, 43, 24, 24, 14, 10, 6, 0
+44582, 45156, 1, "OK", 3, 18, 21, 5, 5, 0, 4, 4
+36754, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 378, 287, 130, 157, 91, 1
+38253, 38575, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean function Operator op", 0, 0, 2, 1, 1, 0, 1, 1
+43312, 43542, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+53358, 53653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+40691, 40818, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+42996, 43091, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+37670, 38217, 1, "OK", 3, 18, 13, 5, 5, 0, 4, 2
+35889, 58617, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 490, 490, 171, 319, 117, 0
+44328, 44821, 1, "OK", 4, 12, 16, 4, 4, 0, 3, 4
+46106, 47046, 1, "OK", 7, 27, 26, 8, 7, 1, 6, 3
+44851, 44987, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+42033, 42233, 1, "OK", 2, 7, 8, 2, 2, 0, 2, 3
+40542, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 23, 13, 8, 5, 5, 2
+42033, 42273, 1, "OK", 3, 9, 8, 2, 2, 0, 2, 3
+59688, 60225, 1, "OK", 3, 13, 9, 6, 5, 1, 3, 1
+38002, 38217, 1, "OK", 3, 8, 6, 2, 2, 0, 2, 2
+52915, 53095, 1, "OK", 2, 7, 6, 2, 2, 0, 2, 2
+42805, 42925, 1, "OK", 1, 3, 6, 2, 2, 0, 1, 4
+44328, 44863, 1, "OK", 4, 14, 16, 4, 4, 0, 3, 4
+36840, 37354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 9, 6, 3, 4, 1
+37426, 37620, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 2, 1, 2, 2
+35966, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 517, 517, 187, 330, 124, 0
+46769, 47006, 1, "OK", 2, 8, 8, 2, 2, 0, 2, 3
+36571, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 477, 363, 161, 202, 114, 1
+41456, 41725, 1, "OK", 3, 6, 5, 2, 2, 0, 1, 3
+56920, 57949, 1, "OK", 4, 28, 28, 10, 8, 2, 6, 3
+46769, 47046, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+52915, 53131, 1, "OK", 3, 9, 6, 2, 2, 0, 2, 2
+56119, 56208, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+39980, 40411, 1, "OK", 1, 13, 7, 3, 2, 1, 2, 2
+43568, 43884, 1, "OK", 4, 9, 9, 3, 3, 0, 2, 3
+55573, 56740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 9, 8, 7, 2
+36805, 38499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+37426, 37649, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 2, 1, 2, 2
+43380, 43542, 1, "OK", 2, 3, 4, 1, 1, 0, 1, 3
+58609, 58871, 1, "OK", 1, 10, 6, 6, 5, 1, 1, 0
+51431, 52011, 1, "OK", 4, 17, 10, 4, 4, 0, 3, 2
+45432, 45513, 1, "OK", 0, 3, 4, 1, 1, 0, 1, 3
+59688, 60287, 1, "OK", 3, 15, 9, 6, 5, 1, 3, 1
+42996, 43216, 1, "OK", 2, 7, 10, 2, 2, 0, 2, 4
+48377, 50482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 36, 16, 11, 5, 5, 4
+48503, 50652, 1, "OK", 7, 35, 36, 16, 11, 5, 5, 4
+39858, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 60, 33, 27, 25, 2
+58630, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 17, 11, 7, 0
+49897, 50452, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 2, 2, 2, 0, 0, 5
+36571, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 477, 363, 161, 202, 114, 1
+54502, 55156, 1, "OK", 3, 16, 20, 8, 6, 2, 4, 3
+55640, 56740, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 9, 8, 7, 2
+40118, 40249, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+42805, 42967, 1, "OK", 1, 5, 6, 2, 2, 0, 1, 4
+37748, 37947, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+43312, 43639, 1, "OK", 4, 6, 4, 1, 1, 0, 1, 3
+48444, 50482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 36, 16, 11, 5, 5, 4
+51623, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 15, 7, 7, 0, 4, 2
+36357, 58583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 486, 486, 168, 318, 116, 0
+51381, 51601, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long value double doubleValue", 0, 0, 3, 1, 1, 0, 1, 2
+51065, 51144, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+41375, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 14, 9, 5, 6, 2
+41456, 41832, 1, "OK", 3, 10, 9, 3, 3, 0, 2, 3
+35966, 60476, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 519, 519, 189, 330, 124, 0
+39793, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 60, 33, 27, 25, 2
+35966, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 519, 519, 189, 330, 124, 0
+44851, 45112, 1, "OK", 2, 8, 10, 2, 2, 0, 2, 4
+58609, 58938, 1, "OK", 2, 12, 6, 6, 5, 1, 1, 0
+43568, 43922, 1, "OK", 4, 11, 9, 3, 3, 0, 2, 3
+42411, 42925, 1, "OK", 4, 10, 16, 4, 4, 0, 3, 4
+37748, 37981, 1, "OK", 1, 9, 7, 3, 3, 0, 2, 2
+36805, 38540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+40118, 40285, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+37426, 37727, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 2, 1, 2, 2
+58897, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 12, 10, 6, 0
+44328, 44987, 1, "OK", 5, 17, 21, 5, 5, 0, 4, 4
+36357, 58617, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 486, 486, 168, 318, 116, 0
+44851, 45156, 1, "OK", 3, 10, 10, 2, 2, 0, 2, 4
+40118, 40335, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+36840, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 475, 362, 160, 202, 113, 1
+55536, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 64, 50, 20, 30, 14, 1
+36571, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 37, 24, 13, 17, 1
+43380, 43639, 1, "OK", 5, 5, 4, 1, 1, 0, 1, 3
+36609, 38499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 17, 10, 13, 1
+44399, 44821, 1, "OK", 4, 10, 16, 4, 4, 0, 3, 4
+36043, 58095, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+40587, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 103, 57, 31, 26, 23, 2
+60154, 60225, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+40455, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 103, 57, 31, 26, 23, 2
+36805, 38575, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+42411, 42967, 1, "OK", 4, 12, 16, 4, 4, 0, 3, 4
+42996, 43260, 1, "OK", 3, 9, 10, 2, 2, 0, 2, 4
+58630, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 28, 17, 11, 7, 0
+51431, 52161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 14, 6, 6, 0, 4, 2
+44399, 44863, 1, "OK", 4, 12, 16, 4, 4, 0, 3, 4
+43312, 43746, 1, "OK", 4, 10, 8, 2, 2, 0, 2, 3
+44231, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 50, 28, 13, 15, 11, 2
+36326, 59613, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 504, 504, 179, 325, 120, 0
+39954, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 30, 16, 10, 6, 7, 2
+42805, 43091, 1, "OK", 2, 8, 11, 3, 3, 0, 2, 4
+36043, 58129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+51381, 51637, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  long value double doubleValue", 0, 0, 3, 1, 1, 0, 1, 2
+38558, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 437, 336, 144, 192, 101, 1
+36609, 38540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 17, 10, 13, 1
+46524, 46605, 1, "OK", 0, 3, 4, 1, 1, 0, 1, 3
+58630, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 30, 19, 11, 7, 0
+43568, 44034, 1, "OK", 5, 14, 13, 4, 4, 0, 3, 3
+36840, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 475, 362, 160, 202, 113, 1
+58897, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 22, 22, 12, 10, 6, 0
+45432, 45651, 1, "OK", 1, 7, 9, 3, 3, 0, 2, 3
+53358, 53885, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 14, 5, 4, 1, 3, 3
+56119, 56358, 1, "OK", 1, 7, 11, 3, 3, 0, 2, 4
+50939, 51043, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+53291, 53907, 1, "OK", 2, 18, 17, 9, 5, 4, 4, 2
+49769, 50452, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 8, 3, 3, 0, 1, 5
+39858, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 30, 19, 11, 13, 2
+36043, 58160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+35889, 36312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 4, 4, 3, 1, 1, 0
+38329, 38499, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+54502, 55269, 1, "OK", 4, 20, 24, 9, 7, 2, 5, 3
+60154, 60287, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+38295, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 439, 337, 145, 192, 102, 1
+37748, 38081, 1, "OK", 2, 12, 10, 4, 4, 0, 3, 2
+36609, 38575, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 17, 10, 13, 1
+37426, 37821, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 3, 1, 3, 2
+40497, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 182, 100, 52, 48, 41, 2
+40118, 40385, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 1, 1, 0, 1, 3
+54010, 54195, 1, "OK", 5, 5, 3, 1, 1, 0, 1, 2
+47314, 50822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 58, 40, 21, 19, 9, 2
+43772, 43884, 1, "OK", 1, 3, 5, 2, 2, 0, 1, 3
+38329, 38540, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean function Operator op", 0, 0, 2, 1, 1, 0, 1, 1
+36923, 37074, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+58630, 60476, 1, "OK", 4, 55, 30, 30, 19, 11, 7, 0
+39036, 39162, 1, "OK", 2, 3, 4, 2, 2, 0, 1, 2
+58173, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 22, 13, 9, 0
+51065, 51265, 1, "OK", 2, 7, 6, 2, 2, 0, 2, 2
+39793, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 30, 19, 11, 13, 2
+35889, 58871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 496, 496, 176, 320, 118, 0
+35889, 36343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 4, 4, 3, 1, 1, 0
+38558, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 437, 336, 144, 192, 101, 1
+42317, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 104, 58, 27, 31, 23, 2
+43380, 43746, 1, "OK", 5, 9, 8, 2, 2, 0, 2, 3
+54502, 55306, 1, "OK", 4, 21, 24, 9, 7, 2, 5, 3
+53291, 53989, 1, "OK", 2, 20, 17, 9, 5, 4, 4, 2
+40455, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 27, 17, 10, 11, 2
+43772, 43922, 1, "OK", 1, 5, 5, 2, 2, 0, 1, 3
+38845, 38962, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+44328, 45112, 1, "OK", 6, 21, 26, 6, 6, 0, 5, 4
+38329, 38575, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean function Operator op", 0, 0, 2, 1, 1, 0, 1, 1
+57469, 57589, 1, "OK", 1, 3, 6, 2, 2, 0, 1, 4
+35966, 58583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 489, 489, 170, 319, 117, 0
+58234, 58448, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 2, 2, 0, 1, 1
+42686, 42775, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+48377, 50652, 1, "OK", 5, 38, 36, 16, 11, 5, 5, 4
+53227, 53907, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int flags StringBuilder regBuf", 0, 0, 17, 9, 5, 4, 4, 2
+45432, 45689, 1, "OK", 1, 9, 9, 3, 3, 0, 2, 3
+51065, 51301, 1, "OK", 3, 9, 6, 2, 2, 0, 2, 2
+41456, 41970, 1, "OK", 3, 14, 14, 5, 5, 0, 3, 3
+37372, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 462, 353, 154, 199, 109, 1
+38295, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 439, 337, 145, 192, 102, 1
+36754, 38235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+51623, 52427, 1, "OK", 7, 25, 18, 8, 8, 0, 5, 2
+42411, 43091, 1, "OK", 5, 15, 21, 5, 5, 0, 4, 4
+40587, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 27, 17, 10, 11, 2
+40497, 47132, 1, "OK", 7, 186, 182, 100, 52, 48, 41, 2
+36840, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 36, 23, 13, 16, 1
+51431, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 18, 8, 8, 0, 5, 2
+37748, 38182, 1, "OK", 3, 16, 13, 5, 5, 0, 4, 2
+36754, 38278, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+39892, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt boolean isIntObj boolean isString", 0, 0, 30, 16, 10, 6, 7, 2
+57791, 57881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+43312, 43884, 1, "OK", 4, 14, 13, 4, 4, 0, 3, 3
+42805, 43216, 1, "OK", 3, 12, 16, 4, 4, 0, 3, 4
+44328, 45156, 1, "OK", 6, 23, 26, 6, 6, 0, 5, 4
+35966, 58617, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 489, 489, 170, 319, 117, 0
+58109, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 22, 13, 9, 0
+38558, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 7, 3, 4, 1
+47168, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 74, 60, 28, 32, 14, 1
+36043, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 517, 517, 187, 330, 124, 0
+58897, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 24, 14, 10, 6, 0
+58173, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 22, 13, 9, 0
+50939, 51144, 1, "OK", 2, 7, 7, 3, 3, 0, 2, 2
+48444, 50652, 1, "OK", 6, 36, 36, 16, 11, 5, 5, 4
+44399, 44987, 1, "OK", 5, 15, 21, 5, 5, 0, 4, 4
+35889, 58938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 496, 496, 176, 320, 118, 0
+41456, 42008, 1, "OK", 3, 16, 14, 5, 5, 0, 3, 3
+47981, 50678, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 47, 26, 15, 11, 7, 3
+53227, 53989, 1, "OK", 1, 21, 17, 9, 5, 4, 4, 2
+47314, 50917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 61, 41, 22, 19, 10, 2
+54502, 55422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 10, 8, 2, 6, 3
+37748, 38217, 1, "OK", 3, 17, 13, 5, 5, 0, 4, 2
+54010, 54296, 1, "OK", 6, 9, 6, 2, 2, 0, 2, 2
+36754, 38312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+54841, 55156, 1, "OK", 1, 9, 15, 6, 4, 2, 3, 3
+38517, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 206, 158, 63, 95, 48, 1
+46524, 46743, 1, "OK", 1, 7, 9, 3, 3, 0, 2, 3
+36043, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 517, 517, 187, 330, 124, 0
+58897, 60476, 1, "OK", 5, 45, 24, 24, 14, 10, 6, 0
+43568, 44147, 1, "OK", 6, 18, 17, 5, 5, 0, 4, 3
+37372, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 462, 353, 154, 199, 109, 1
+37426, 37947, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 6, 5, 1, 4, 2
+38845, 39014, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+55294, 55422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+53439, 53592, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+57791, 57949, 1, "OK", 1, 5, 4, 1, 1, 0, 1, 3
+36923, 37200, 1, "OK", 1, 8, 7, 3, 3, 0, 2, 2
+45432, 45801, 1, "OK", 2, 12, 13, 4, 4, 0, 3, 3
+58234, 58545, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 3, 3, 0, 2, 1
+55738, 56043, 1, "OK", 4, 5, 5, 2, 2, 0, 1, 3
+43380, 43884, 1, "OK", 5, 13, 13, 4, 4, 0, 3, 3
+38253, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 208, 159, 64, 95, 49, 1
+38295, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 11, 8, 3, 5, 1
+51623, 52528, 1, "OK", 8, 29, 21, 9, 9, 0, 6, 2
+36160, 36260, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+58109, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 22, 13, 9, 0
+43312, 43922, 1, "OK", 4, 16, 13, 4, 4, 0, 3, 3
+44477, 44671, 1, "OK", 4, 5, 5, 1, 1, 0, 1, 4
+43568, 44187, 1, "OK", 6, 20, 17, 5, 5, 0, 4, 3
+42805, 43260, 1, "OK", 3, 14, 16, 4, 4, 0, 3, 4
+37426, 37981, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 6, 5, 1, 4, 2
+36357, 58871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 492, 492, 173, 319, 117, 0
+53439, 53627, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+54502, 55490, 1, "OK", 4, 27, 28, 10, 8, 2, 6, 3
+43380, 43922, 1, "OK", 5, 15, 13, 4, 4, 0, 3, 3
+37372, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 39, 27, 17, 10, 12, 1
+58234, 58569, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 5, 3, 3, 0, 2, 1
+41456, 42120, 1, "OK", 4, 19, 18, 6, 6, 0, 4, 3
+43772, 44034, 1, "OK", 2, 8, 9, 3, 3, 0, 2, 3
+42411, 43216, 1, "OK", 6, 19, 26, 6, 6, 0, 5, 4
+39858, 40433, 1, "OK", 0, 18, 7, 3, 2, 1, 2, 2
+46524, 46781, 1, "OK", 1, 9, 9, 3, 3, 0, 2, 3
+51623, 52564, 1, "OK", 8, 31, 21, 9, 9, 0, 6, 2
+54010, 54332, 1, "OK", 6, 11, 6, 2, 2, 0, 2, 2
+36160, 36298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 2, 1, 1, 0, 1, 1
+53291, 54094, 1, "OK", 5, 21, 17, 9, 5, 4, 4, 2
+55294, 55490, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+58173, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 24, 13, 9, 0
+51381, 51916, 1, "OK", 3, 14, 7, 3, 3, 0, 2, 2
+36043, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 519, 519, 189, 330, 124, 0
+42686, 42925, 1, "OK", 1, 7, 11, 3, 3, 0, 2, 4
+41858, 41970, 1, "OK", 1, 3, 5, 2, 2, 0, 1, 3
+42411, 43260, 1, "OK", 6, 21, 26, 6, 6, 0, 5, 4
+56801, 57971, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 9, 8, 7, 2
+45827, 45914, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+36609, 36737, 1, "OK", 0, 5, 2, 1, 1, 0, 1, 1
+38517, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 280, 218, 91, 127, 62, 1
+39793, 40433, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not List<Object> valueList", 0, 0, 7, 3, 2, 1, 2, 2
+39858, 40476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt", 0, 0, 7, 3, 2, 1, 2, 2
+52033, 52161, 1, "OK", 1, 4, 4, 2, 2, 0, 1, 2
+38253, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 282, 219, 92, 127, 63, 1
+58173, 60476, 1, "OK", 4, 71, 37, 37, 24, 13, 9, 0
+47853, 50678, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 47, 26, 15, 11, 7, 3
+44399, 45112, 1, "OK", 6, 19, 26, 6, 6, 0, 5, 4
+50939, 51265, 1, "OK", 3, 11, 10, 4, 4, 0, 3, 2
+36609, 36787, 1, "OK", 0, 6, 2, 1, 1, 0, 1, 1
+37426, 38081, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 17, 7, 6, 1, 5, 2
+36043, 60476, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 519, 519, 189, 330, 124, 0
+41858, 42008, 1, "OK", 1, 5, 5, 2, 2, 0, 1, 3
+44399, 45156, 1, "OK", 6, 21, 26, 6, 6, 0, 5, 4
+36357, 58938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 492, 492, 173, 319, 117, 0
+41219, 41331, 1, "OK", 2, 3, 5, 2, 2, 0, 1, 3
+47314, 51043, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 65, 43, 24, 19, 11, 2
+36571, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 380, 288, 131, 157, 92, 1
+43312, 44034, 1, "OK", 5, 19, 17, 5, 5, 0, 4, 3
+36923, 37301, 1, "OK", 2, 12, 10, 4, 4, 0, 3, 2
+39858, 40521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt boolean isIntObj", 0, 0, 7, 3, 2, 1, 2, 2
+56868, 57971, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 9, 8, 7, 2
+59131, 59505, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 2, 2
+38845, 39162, 1, "OK", 2, 9, 7, 3, 3, 0, 2, 2
+42686, 42967, 1, "OK", 1, 9, 11, 3, 3, 0, 2, 4
+50939, 51301, 1, "OK", 3, 13, 10, 4, 4, 0, 3, 2
+54841, 55269, 1, "OK", 2, 13, 19, 7, 5, 2, 4, 3
+51431, 52427, 1, "OK", 6, 31, 21, 9, 9, 0, 6, 2
+53227, 54094, 1, "OK", 4, 22, 17, 9, 5, 4, 4, 2
+58109, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 37, 37, 24, 13, 9, 0
+39793, 40476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not List<Object> valueList boolean isInt", 0, 0, 7, 3, 2, 1, 2, 2
+59131, 59542, 1, "OK", 3, 11, 9, 5, 4, 1, 2, 2
+46524, 46893, 1, "OK", 2, 12, 13, 4, 4, 0, 3, 3
+36609, 36822, 1, "OK", 0, 8, 2, 1, 1, 0, 1, 1
+40542, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 153, 85, 44, 41, 34, 2
+54841, 55306, 1, "OK", 2, 14, 19, 7, 5, 2, 4, 3
+39793, 40521, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not List<Object> valueList boolean isInt boolean isIntObj", 0, 0, 7, 3, 2, 1, 2, 2
+36923, 37336, 1, "OK", 2, 13, 10, 4, 4, 0, 3, 2
+44477, 44821, 1, "OK", 4, 9, 11, 3, 3, 0, 2, 4
+43772, 44147, 1, "OK", 3, 12, 13, 4, 4, 0, 3, 3
+53291, 54195, 1, "OK", 6, 25, 20, 10, 6, 4, 5, 2
+45432, 45914, 1, "OK", 3, 16, 17, 5, 5, 0, 4, 3
+45827, 45954, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+58109, 60476, 1, "OK", 2, 73, 37, 37, 24, 13, 9, 0
+36754, 38499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+52033, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 8, 4, 4, 0, 2, 2
+57350, 57439, 1, "OK", 0, 3, 5, 1, 1, 0, 1, 4
+35966, 36312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 3, 3, 2, 1, 1, 0
+51381, 52011, 1, "OK", 3, 18, 10, 4, 4, 0, 3, 2
+58999, 59560, 1, "OK", 1, 14, 11, 8, 5, 3, 3, 1
+42317, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 30, 14, 16, 12, 2
+53155, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 18, 8, 10, 6, 1
+39858, 40566, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt boolean isIntObj boolean isString", 0, 0, 7, 3, 2, 1, 2, 2
+36805, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 244, 184, 79, 105, 60, 1
+43380, 44034, 1, "OK", 6, 18, 17, 5, 5, 0, 4, 3
+45432, 45954, 1, "OK", 3, 18, 17, 5, 5, 0, 4, 3
+41456, 42233, 1, "OK", 5, 23, 22, 7, 7, 0, 5, 3
+47314, 51144, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 68, 44, 25, 19, 12, 2
+58999, 59599, 1, "OK", 1, 15, 11, 8, 5, 3, 3, 1
+41456, 42273, 1, "OK", 5, 25, 22, 7, 7, 0, 5, 3
+58173, 58583, 1, "OK", 2, 14, 7, 7, 5, 2, 2, 0
+37426, 38182, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 20, 8, 7, 1, 6, 2
+43910, 44034, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+36754, 38540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+35966, 58871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 495, 495, 175, 320, 118, 0
+35966, 36343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 3, 3, 2, 1, 1, 0
+46919, 47006, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+36100, 36260, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+51431, 52528, 1, "OK", 7, 35, 24, 10, 10, 0, 7, 2
+53227, 54195, 1, "OK", 5, 26, 20, 10, 6, 4, 5, 2
+39793, 40566, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not List<Object> valueList boolean isInt boolean isIntObj boolean isString", 0, 0, 7, 3, 2, 1, 2, 2
+43772, 44187, 1, "OK", 3, 14, 13, 4, 4, 0, 3, 3
+44477, 44863, 1, "OK", 4, 11, 11, 3, 3, 0, 2, 4
+40643, 40844, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+58173, 58617, 1, "OK", 2, 16, 7, 7, 5, 2, 2, 0
+36805, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 318, 244, 107, 137, 74, 1
+42686, 43091, 1, "OK", 2, 12, 16, 4, 4, 0, 3, 4
+36009, 59613, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 507, 507, 181, 326, 121, 0
+37426, 38217, 1, "OK", 3, 25, 20, 8, 7, 1, 6, 2
+36754, 38575, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+43312, 44147, 1, "OK", 6, 23, 21, 6, 6, 0, 5, 3
+41858, 42120, 1, "OK", 2, 8, 9, 3, 3, 0, 2, 3
+53291, 54296, 1, "OK", 7, 29, 23, 11, 7, 4, 6, 2
+36100, 36298, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 2, 1, 1, 0, 1, 1
+51431, 52564, 1, "OK", 7, 37, 24, 10, 10, 0, 7, 2
+36609, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 246, 185, 80, 105, 61, 1
+38558, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 340, 261, 114, 147, 79, 1
+44271, 45182, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 12, 7, 5, 6, 3
+58109, 58583, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int start char startCh", 0, 0, 7, 7, 5, 2, 2, 0
+53291, 54332, 1, "OK", 7, 31, 23, 11, 7, 4, 6, 2
+59639, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 6, 4, 3, 0
+40497, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString", 0, 0, 23, 13, 8, 5, 5, 2
+54217, 54296, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+35966, 58938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 495, 495, 175, 320, 118, 0
+36840, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 378, 287, 130, 157, 91, 1
+46524, 47006, 1, "OK", 3, 16, 17, 5, 5, 0, 4, 3
+47925, 50678, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 47, 26, 15, 11, 7, 3
+40643, 40903, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+46919, 47046, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+37001, 37074, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+49476, 49699, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String[] containsValues", 0, 0, 7, 2, 2, 0, 1, 5
+43312, 44187, 1, "OK", 6, 25, 21, 6, 6, 0, 5, 3
+36043, 58583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 489, 489, 170, 319, 117, 0
+54841, 55422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 8, 6, 2, 5, 3
+58109, 58617, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int start char startCh", 0, 0, 7, 7, 5, 2, 2, 0
+38329, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 208, 159, 64, 95, 49, 1
+36609, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 320, 245, 108, 137, 75, 1
+42507, 42556, 1, "OK", 1, 1, 5, 1, 1, 0, 1, 4
+38295, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 342, 262, 115, 147, 80, 1
+44477, 44987, 1, "OK", 5, 14, 16, 4, 4, 0, 3, 4
+54217, 54332, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+59069, 59560, 1, "OK", 2, 13, 11, 8, 5, 3, 3, 1
+53227, 54296, 1, "OK", 6, 30, 23, 11, 7, 4, 6, 2
+43380, 44147, 1, "OK", 7, 22, 21, 6, 6, 0, 5, 3
+58142, 59613, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char startCh String text", 0, 0, 25, 25, 16, 9, 6, 0
+38593, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 206, 158, 63, 95, 48, 1
+46524, 47046, 1, "OK", 3, 18, 17, 5, 5, 0, 4, 3
+36043, 58617, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 489, 489, 170, 319, 117, 0
+38984, 39162, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+47314, 51265, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 71, 45, 26, 19, 13, 2
+53227, 54332, 1, "OK", 6, 32, 23, 11, 7, 4, 6, 2
+41858, 42233, 1, "OK", 3, 12, 13, 4, 4, 0, 3, 3
+44271, 45255, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 12, 7, 5, 6, 3
+57350, 57589, 1, "OK", 1, 7, 11, 3, 3, 0, 2, 4
+59639, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 10, 6, 4, 3, 0
+58630, 58871, 1, "OK", 1, 9, 6, 6, 5, 1, 1, 0
+52679, 52893, 1, "OK", 4, 5, 3, 1, 1, 0, 1, 2
+59069, 59599, 1, "OK", 2, 14, 11, 8, 5, 3, 3, 1
+54841, 55490, 1, "OK", 2, 20, 23, 8, 6, 2, 5, 3
+52033, 52427, 1, "OK", 3, 13, 11, 5, 5, 0, 3, 2
+51381, 52161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 14, 6, 6, 0, 4, 2
+43910, 44147, 1, "OK", 2, 8, 8, 2, 2, 0, 2, 3
+43380, 44187, 1, "OK", 7, 24, 21, 6, 6, 0, 5, 3
+37372, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 365, 278, 124, 154, 87, 1
+43910, 44187, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+47314, 51301, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 71, 45, 26, 19, 13, 2
+38593, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 280, 218, 91, 127, 62, 1
+39036, 39631, 0, "Compilation unit does not compile after method extraction.", 5, 12, 8, 4, 4, 0, 2, 2
+42686, 43216, 1, "OK", 3, 16, 21, 5, 5, 0, 4, 4
+56069, 56384, 1, "OK", 1, 9, 15, 6, 4, 2, 3, 3
+38329, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 282, 219, 92, 127, 63, 1
+39954, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 160, 88, 46, 42, 36, 2
+36326, 58095, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 479, 479, 163, 316, 114, 0
+56522, 56650, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+55738, 56384, 1, "OK", 4, 15, 20, 8, 6, 2, 4, 3
+42507, 42657, 1, "OK", 4, 2, 5, 1, 1, 0, 1, 4
+37642, 37821, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+58630, 58938, 1, "OK", 2, 11, 6, 6, 5, 1, 1, 0
+41996, 42120, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+42686, 43260, 1, "OK", 3, 18, 21, 5, 5, 0, 4, 4
+36571, 38235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+42354, 43286, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 12, 7, 5, 6, 3
+41858, 42273, 1, "OK", 3, 14, 13, 4, 4, 0, 3, 3
+47462, 50822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 55, 39, 20, 19, 8, 2
+45998, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 29, 15, 8, 7, 7, 2
+44271, 45306, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 12, 7, 5, 6, 3
+37001, 37200, 1, "OK", 1, 7, 7, 3, 3, 0, 2, 2
+42955, 43091, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+36326, 58129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 479, 479, 163, 316, 114, 0
+55182, 55269, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+52679, 52994, 1, "OK", 5, 9, 6, 2, 2, 0, 2, 2
+40542, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 103, 57, 31, 26, 23, 2
+44477, 45112, 1, "OK", 6, 18, 21, 5, 5, 0, 4, 4
+52033, 52528, 1, "OK", 4, 17, 14, 6, 6, 0, 4, 2
+41375, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 159, 87, 44, 43, 36, 2
+56967, 57274, 1, "OK", 4, 5, 5, 2, 2, 0, 1, 3
+58609, 59613, 1, "OK", 2, 30, 18, 18, 11, 7, 4, 0
+59639, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 12, 12, 8, 4, 3, 0
+36326, 58160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 479, 479, 163, 316, 114, 0
+36571, 38278, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+56522, 56718, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+39036, 39687, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 4, 4, 0, 2, 2
+47692, 47827, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+55738, 56497, 1, "OK", 5, 19, 24, 9, 7, 2, 5, 3
+55182, 55306, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+52033, 52564, 1, "OK", 4, 19, 14, 6, 6, 0, 4, 2
+51381, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 18, 8, 8, 0, 5, 2
+45998, 47132, 1, "OK", 7, 32, 29, 15, 8, 7, 7, 2
+59639, 60476, 1, "OK", 4, 25, 12, 12, 8, 4, 3, 0
+54368, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 97, 75, 30, 45, 22, 1
+49391, 50482, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String startsWithValue String endsWithValue String[] containsValues", 0, 0, 17, 9, 7, 2, 2, 4
+42354, 43355, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 12, 7, 5, 6, 3
+36571, 38312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+44271, 45406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 30, 12, 7, 5, 6, 3
+55738, 56534, 1, "OK", 5, 20, 24, 9, 7, 2, 5, 3
+58173, 58871, 1, "OK", 3, 25, 13, 13, 10, 3, 3, 0
+47692, 47899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String strValue boolean not", 0, 0, 4, 1, 1, 0, 1, 3
+41375, 47132, 1, "OK", 9, 164, 159, 87, 44, 43, 36, 2
+47168, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 231, 178, 81, 97, 53, 1
+39892, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 160, 88, 46, 42, 36, 2
+56069, 56497, 1, "OK", 2, 13, 19, 7, 5, 2, 4, 3
+44477, 45156, 1, "OK", 6, 20, 21, 5, 5, 0, 4, 4
+37001, 37301, 1, "OK", 2, 11, 10, 4, 4, 0, 3, 2
+37642, 37947, 1, "OK", 1, 9, 7, 3, 3, 0, 2, 2
+37001, 37336, 1, "OK", 2, 12, 10, 4, 4, 0, 3, 2
+36840, 38235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+43665, 43746, 1, "OK", 0, 3, 4, 1, 1, 0, 1, 3
+56069, 56534, 1, "OK", 2, 14, 19, 7, 5, 2, 4, 3
+42955, 43216, 1, "OK", 2, 8, 10, 2, 2, 0, 2, 4
+39723, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 192, 148, 56, 92, 44, 1
+38798, 38962, 1, "OK", 0, 5, 3, 1, 1, 0, 1, 2
+54368, 58049, 1, "OK", 4, 100, 97, 75, 30, 45, 22, 1
+39858, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 189, 103, 54, 49, 43, 2
+42507, 42775, 1, "OK", 4, 5, 10, 2, 2, 0, 2, 4
+36326, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 514, 514, 185, 329, 123, 0
+41996, 42233, 1, "OK", 2, 8, 8, 2, 2, 0, 2, 3
+51659, 51916, 1, "OK", 5, 5, 4, 2, 2, 0, 1, 2
+36043, 36312, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 3, 3, 2, 1, 1, 0
+58173, 58938, 1, "OK", 4, 27, 13, 13, 10, 3, 3, 0
+41996, 42273, 1, "OK", 3, 10, 8, 2, 2, 0, 2, 3
+37969, 38081, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+37642, 37981, 1, "OK", 1, 11, 7, 3, 3, 0, 2, 2
+42955, 43260, 1, "OK", 3, 10, 10, 2, 2, 0, 2, 4
+58109, 58871, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int start char startCh int end", 0, 0, 13, 13, 10, 3, 3, 0
+40542, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 49, 27, 17, 10, 11, 2
+38798, 39014, 1, "OK", 0, 7, 3, 1, 1, 0, 1, 2
+36840, 38278, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+45714, 45801, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+40643, 41193, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 6, 5, 1, 3, 3
+47168, 58049, 1, "OK", 6, 278, 231, 178, 81, 97, 53, 1
+52679, 53095, 1, "OK", 6, 13, 9, 3, 3, 0, 3, 2
+36043, 58871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 495, 495, 175, 320, 118, 0
+36043, 36343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean predicateFlag int lparanCount", 0, 0, 3, 3, 2, 1, 1, 0
+54451, 55512, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 17, 9, 8, 7, 2
+47692, 47956, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String strValue boolean not int p0", 0, 0, 4, 1, 1, 0, 1, 3
+39793, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 189, 103, 54, 49, 43, 2
+38845, 39631, 0, "Compilation unit does not compile after method extraction.", 5, 18, 11, 5, 5, 0, 3, 2
+40587, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 182, 100, 52, 48, 41, 2
+38517, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 437, 336, 144, 192, 101, 1
+40455, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 182, 100, 52, 48, 41, 2
+38253, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 439, 337, 145, 192, 102, 1
+55182, 55422, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 2, 2, 0, 2, 3
+44271, 45513, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 13, 8, 5, 7, 3
+51381, 52427, 1, "OK", 5, 32, 21, 9, 9, 0, 6, 2
+36326, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 514, 514, 185, 329, 123, 0
+39858, 47132, 1, "OK", 5, 206, 189, 103, 54, 49, 43, 2
+52679, 53131, 1, "OK", 6, 15, 9, 3, 3, 0, 3, 2
+39723, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 266, 208, 84, 124, 58, 1
+36043, 58938, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 495, 495, 175, 320, 118, 0
+58109, 58938, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  char startCh String text", 0, 0, 13, 13, 10, 3, 3, 0
+47272, 50822, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 58, 40, 21, 19, 9, 2
+55738, 56650, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 28, 10, 8, 2, 6, 3
+36754, 47150, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 244, 184, 79, 105, 60, 1
+60372, 60447, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+36840, 38312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 36, 25, 15, 10, 11, 1
+52820, 52893, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+36805, 37354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 13, 9, 6, 3, 4, 1
+51659, 52011, 1, "OK", 5, 9, 7, 3, 3, 0, 2, 2
+55691, 56043, 1, "OK", 3, 7, 5, 2, 2, 0, 1, 3
+37843, 37947, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+35889, 59613, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 508, 508, 182, 326, 121, 0
+59721, 60136, 1, "OK", 2, 8, 7, 5, 4, 1, 2, 1
+39793, 47132, 1, "OK", 5, 207, 189, 103, 54, 49, 43, 2
+40587, 47132, 1, "OK", 9, 184, 182, 100, 52, 48, 41, 2
+37969, 38182, 1, "OK", 2, 8, 6, 2, 2, 0, 2, 2
+40455, 47132, 1, "OK", 6, 187, 182, 100, 52, 48, 41, 2
+38253, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 439, 337, 145, 192, 102, 1
+51476, 51601, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+36326, 60447, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 516, 516, 187, 329, 123, 0
+43665, 43884, 1, "OK", 1, 7, 9, 3, 3, 0, 2, 3
+37642, 38081, 1, "OK", 2, 14, 10, 4, 4, 0, 3, 2
+55182, 55490, 1, "OK", 2, 10, 8, 2, 2, 0, 2, 3
+42354, 43542, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 13, 8, 5, 7, 3
+37372, 38235, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 9, 7, 7, 1
+39954, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 60, 33, 27, 25, 2
+60372, 60476, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+36571, 38499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 17, 10, 13, 1
+37843, 37981, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+38845, 39687, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 11, 5, 5, 0, 3, 2
+56069, 56650, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 8, 6, 2, 5, 3
+38517, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 437, 336, 144, 192, 101, 1
+40643, 41331, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean isInt boolean isIntObj boolean isString Class<?> clazz", 0, 0, 20, 8, 7, 1, 4, 3
+36571, 38540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 17, 10, 13, 1
+51337, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 157, 118, 53, 65, 39, 1
+59721, 60225, 1, "OK", 3, 12, 9, 6, 5, 1, 3, 1
+36326, 60476, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 516, 516, 187, 329, 123, 0
+51381, 52528, 1, "OK", 6, 36, 24, 10, 10, 0, 7, 2
+37969, 38217, 1, "OK", 3, 9, 6, 2, 2, 0, 2, 2
+46806, 46893, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+52309, 52427, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+55738, 56718, 1, "OK", 5, 26, 28, 10, 8, 2, 6, 3
+53326, 53653, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 3, 2, 1, 2, 3
+42507, 42925, 1, "OK", 4, 9, 16, 4, 4, 0, 3, 4
+37372, 38278, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 9, 7, 7, 1
+36609, 37354, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 15, 10, 7, 3, 5, 1
+45714, 45914, 1, "OK", 2, 7, 8, 2, 2, 0, 2, 3
+45332, 45513, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3
+38103, 38182, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+36571, 38575, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 40, 27, 17, 10, 13, 1
+41751, 41832, 1, "OK", 0, 3, 4, 1, 1, 0, 1, 3
+45714, 45954, 1, "OK", 3, 9, 8, 2, 2, 0, 2, 3
+47272, 50917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 61, 41, 22, 19, 10, 2
+55893, 56043, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 3
+56069, 56718, 1, "OK", 2, 20, 23, 8, 6, 2, 5, 3
+36754, 51319, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 318, 244, 107, 137, 74, 1
+52625, 52893, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+52820, 52994, 1, "OK", 1, 7, 6, 2, 2, 0, 2, 2
+43665, 43922, 1, "OK", 1, 9, 9, 3, 3, 0, 2, 3
+42507, 42967, 1, "OK", 4, 11, 16, 4, 4, 0, 3, 4
+51476, 51637, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+40079, 40411, 1, "OK", 2, 10, 7, 3, 2, 1, 2, 2
+37372, 38312, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 9, 7, 7, 1
+38798, 39162, 1, "OK", 1, 11, 7, 3, 3, 0, 2, 2
+51337, 58049, 1, "OK", 6, 192, 157, 118, 53, 65, 39, 1
+38103, 38217, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+53016, 53095, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+59721, 60287, 1, "OK", 3, 14, 9, 6, 5, 1, 3, 1
+39892, 44209, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 110, 60, 33, 27, 25, 2
+51659, 52161, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 11, 5, 5, 0, 3, 2
+37642, 38182, 1, "OK", 3, 18, 13, 5, 5, 0, 4, 2
+38673, 38962, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not Object startValue", 0, 0, 3, 1, 1, 0, 1, 2
+44271, 45651, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 39, 15, 10, 5, 8, 3
+52183, 52287, 1, "OK", 1, 3, 4, 2, 2, 0, 1, 2
+42354, 43639, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 13, 8, 5, 7, 3
+38517, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 14, 10, 7, 3, 4, 1
+51381, 52564, 1, "OK", 6, 38, 24, 10, 10, 0, 7, 2
+59990, 60118, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+37843, 38081, 1, "OK", 2, 8, 7, 3, 3, 0, 2, 2
+59924, 60118, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+38253, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 16, 11, 8, 3, 5, 1
+38673, 39014, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not Object startValue Object endValue", 0, 0, 3, 1, 1, 0, 1, 2
+52309, 52528, 1, "OK", 3, 8, 6, 2, 2, 0, 2, 2
+36357, 59613, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 504, 504, 179, 325, 120, 0
+53016, 53131, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+36840, 38499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+56967, 57615, 1, "OK", 4, 15, 20, 8, 6, 2, 4, 3
+36805, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 475, 362, 160, 202, 113, 1
+39954, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 30, 19, 11, 13, 2
+36009, 58095, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+44271, 45689, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 39, 15, 10, 5, 8, 3
+56410, 56497, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+43665, 44034, 1, "OK", 2, 12, 13, 4, 4, 0, 3, 3
+58952, 59613, 1, "OK", 1, 17, 12, 12, 6, 6, 3, 0
+52625, 52994, 1, "OK", 4, 10, 6, 2, 2, 0, 2, 2
+52820, 53095, 1, "OK", 2, 11, 9, 3, 3, 0, 3, 2
+36805, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 475, 362, 160, 202, 113, 1
+37642, 38217, 1, "OK", 3, 19, 13, 5, 5, 0, 4, 2
+45017, 45112, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+54548, 54815, 1, "OK", 4, 5, 5, 2, 2, 0, 1, 3
+36009, 58129, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+38984, 39631, 0, "Compilation unit does not compile after method extraction.", 4, 14, 8, 4, 4, 0, 2, 2
+40497, 45976, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 153, 85, 44, 41, 34, 2
+46806, 47006, 1, "OK", 2, 7, 8, 2, 2, 0, 2, 3
+36326, 58583, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 486, 486, 168, 318, 116, 0
+46424, 46605, 1, "OK", 4, 5, 4, 1, 1, 0, 1, 3
+52820, 53131, 1, "OK", 3, 13, 9, 3, 3, 0, 3, 2
+42354, 43746, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 14, 9, 5, 8, 3
+37843, 38182, 1, "OK", 3, 12, 10, 4, 4, 0, 3, 2
+56410, 56534, 1, "OK", 1, 4, 4, 1, 1, 0, 1, 3
+46806, 47046, 1, "OK", 3, 9, 8, 2, 2, 0, 2, 3
+57300, 57615, 1, "OK", 1, 9, 15, 6, 4, 2, 3, 3
+41751, 41970, 1, "OK", 1, 7, 9, 3, 3, 0, 2, 3
+47272, 51043, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 65, 43, 24, 19, 11, 2
+37465, 37598, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+36609, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 477, 363, 161, 202, 114, 1
+36840, 38540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+36009, 58160, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 482, 482, 165, 317, 115, 0
+45017, 45156, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+52309, 52564, 1, "OK", 4, 10, 6, 2, 2, 0, 2, 2
+42507, 43091, 1, "OK", 5, 14, 21, 5, 5, 0, 4, 4
+57753, 57881, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 1, 1, 0, 1, 3
+38295, 38499, 1, "OK", 1, 7, 2, 1, 1, 0, 1, 1
+56967, 57728, 1, "OK", 5, 19, 24, 9, 7, 2, 5, 3
+38295, 38540, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean function Operator op", 0, 0, 2, 1, 1, 0, 1, 1
+37843, 38217, 1, "OK", 3, 13, 10, 4, 4, 0, 3, 2
+36326, 58617, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 486, 486, 168, 318, 116, 0
+38744, 38962, 1, "OK", 0, 7, 3, 1, 1, 0, 1, 2
+42585, 42775, 1, "OK", 4, 4, 5, 1, 1, 0, 1, 4
+51659, 52287, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int lparanCount Filter filter", 0, 0, 15, 7, 7, 0, 4, 2
+52183, 52427, 1, "OK", 3, 8, 7, 3, 3, 0, 2, 2
+44060, 44147, 1, "OK", 1, 3, 4, 1, 1, 0, 1, 3
+44271, 45801, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 16, 11, 5, 9, 3
+50844, 50917, 1, "OK", 0, 3, 3, 1, 1, 0, 1, 2
+38984, 39687, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 4, 4, 0, 2, 2
+39184, 39631, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 4, 2, 2, 0, 1, 2
+41495, 41725, 1, "OK", 3, 5, 5, 2, 2, 0, 1, 3
+53192, 53907, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int flags StringBuilder regBuf", 0, 0, 17, 9, 5, 4, 4, 2
+45332, 45651, 1, "OK", 4, 9, 9, 3, 3, 0, 2, 3
+36840, 38575, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 38, 26, 16, 10, 12, 1
+44231, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 79, 43, 21, 22, 18, 2
+56967, 57765, 1, "OK", 5, 20, 24, 9, 7, 2, 5, 3
+36805, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 52, 36, 23, 13, 16, 1
+53326, 53885, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 14, 5, 4, 1, 3, 3
+38295, 38575, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean function Operator op", 0, 0, 2, 1, 1, 0, 1, 1
+39184, 39687, 1, "OK", 5, 10, 4, 2, 2, 0, 1, 2
+52625, 53095, 1, "OK", 5, 14, 9, 3, 3, 0, 3, 2
+45332, 45689, 1, "OK", 4, 11, 9, 3, 3, 0, 2, 3
+36609, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 477, 363, 161, 202, 114, 1
+44892, 44987, 1, "OK", 1, 3, 5, 1, 1, 0, 1, 4
+48025, 48218, 1, "OK", 1, 5, 6, 2, 2, 0, 1, 4
+38593, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 437, 336, 144, 192, 101, 1
+41751, 42008, 1, "OK", 1, 9, 9, 3, 3, 0, 2, 3
+39892, 42295, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 56, 30, 19, 11, 13, 2
+60315, 60447, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+57753, 57949, 1, "OK", 1, 7, 4, 1, 1, 0, 1, 3
+37372, 38499, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 17, 10, 7, 8, 1
+38329, 57989, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 439, 337, 145, 192, 102, 1
+54683, 54815, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 3
+52625, 53131, 1, "OK", 5, 16, 9, 3, 3, 0, 3, 2
+37372, 38540, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 17, 10, 7, 8, 1
+53403, 53592, 1, "OK", 1, 5, 5, 1, 1, 0, 1, 4
+53192, 53989, 1, "OK", 0, 22, 17, 9, 5, 4, 4, 2
+39858, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Object> valueList boolean isInt boolean isIntObj boolean isString", 0, 0, 30, 16, 10, 6, 7, 2
+44701, 44821, 1, "OK", 1, 3, 6, 2, 2, 0, 1, 4
+55691, 56384, 1, "OK", 3, 17, 20, 8, 6, 2, 4, 3
+36009, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 517, 517, 187, 330, 124, 0
+44060, 44187, 1, "OK", 2, 5, 4, 1, 1, 0, 1, 3
+36571, 36737, 1, "OK", 0, 6, 2, 1, 1, 0, 1, 1
+43665, 44147, 1, "OK", 3, 16, 17, 5, 5, 0, 4, 3
+47168, 54350, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 134, 103, 51, 52, 31, 1
+38673, 39162, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not Object startValue Object endValue", 0, 0, 7, 3, 3, 0, 2, 2
+38744, 39014, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object startValue Object endValue", 0, 0, 3, 1, 1, 0, 1, 2
+60315, 60476, 1, "OK", 2, 7, 2, 2, 2, 0, 0, 0
+51476, 51916, 1, "OK", 5, 12, 7, 3, 3, 0, 2, 2
+44231, 47132, 1, "OK", 8, 84, 79, 43, 21, 22, 18, 2
+52183, 52528, 1, "OK", 4, 12, 10, 4, 4, 0, 3, 2
+42317, 47068, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 133, 73, 35, 38, 30, 2
+45208, 45513, 1, "OK", 4, 8, 4, 1, 1, 0, 1, 3
+37372, 38575, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 25, 17, 10, 7, 8, 1
+41495, 41832, 1, "OK", 3, 9, 9, 3, 3, 0, 2, 3
+36571, 36787, 1, "OK", 0, 7, 2, 1, 1, 0, 1, 1
+36609, 39705, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 54, 37, 24, 13, 17, 1
+39793, 41353, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean not List<Object> valueList boolean isInt boolean isIntObj boolean isString", 0, 0, 30, 16, 10, 6, 7, 2
+56410, 56650, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 8, 2, 2, 0, 2, 3
+58142, 60301, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 35, 35, 22, 13, 9, 0
+36009, 60358, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 517, 517, 187, 330, 124, 0
+42354, 43884, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 43, 16, 11, 5, 9, 3
+35966, 59613, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 507, 507, 181, 326, 121, 0
+38593, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 437, 336, 144, 192, 101, 1
+42507, 43216, 1, "OK", 6, 18, 26, 6, 6, 0, 5, 4
+39954, 40433, 1, "OK", 1, 15, 7, 3, 2, 1, 2, 2
+47272, 51144, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Operator op Filter filter", 0, 0, 68, 44, 25, 19, 12, 2
+57300, 57728, 1, "OK", 2, 13, 19, 7, 5, 2, 4, 3
+38329, 58049, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 439, 337, 145, 192, 102, 1
+43665, 44187, 1, "OK", 3, 18, 17, 5, 5, 0, 4, 3
+46038, 46398, 1, "OK", 1, 7, 9, 3, 2, 1, 2, 3

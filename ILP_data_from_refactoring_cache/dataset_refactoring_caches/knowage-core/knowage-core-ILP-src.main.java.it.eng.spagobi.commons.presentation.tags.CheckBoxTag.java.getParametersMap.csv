@@ -1,0 +1,26 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+37748, 39174, 1, "OK", 3, 31, 26, 26, 10, 16, 6, 0
+37748, 39110, 1, "OK", 3, 30, 26, 26, 10, 16, 6, 0
+38153, 38904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 20, 12, 7, 5, 4, 2
+38189, 39004, 1, "OK", 4, 15, 23, 13, 8, 5, 5, 2
+38317, 38556, 1, "OK", 1, 4, 5, 1, 1, 0, 1, 4
+37878, 39049, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 25, 19, 9, 10, 6, 1
+38583, 38698, 1, "OK", 2, 3, 5, 1, 1, 0, 1, 4
+37959, 39102, 1, "OK", 6, 25, 25, 19, 9, 10, 6, 1
+38317, 38628, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+37705, 39174, 1, "OK", 2, 33, 26, 26, 10, 16, 6, 0
+37705, 39110, 1, "OK", 2, 32, 26, 26, 10, 16, 6, 0
+38317, 38698, 1, "OK", 2, 7, 10, 2, 2, 0, 2, 4
+37797, 39049, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 25, 19, 9, 10, 6, 1
+38969, 39004, 1, "OK", 1, 2, 3, 1, 1, 0, 1, 2
+37878, 39102, 1, "OK", 5, 26, 25, 19, 9, 10, 6, 1
+38042, 39049, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 25, 19, 9, 10, 6, 1
+38153, 39004, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 23, 13, 8, 5, 5, 2
+37797, 39102, 1, "OK", 4, 27, 25, 19, 9, 10, 6, 1
+38129, 39049, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 25, 19, 9, 10, 6, 1
+37959, 39049, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String name String value", 0, 0, 25, 19, 9, 10, 6, 1
+38635, 38698, 1, "OK", 2, 2, 5, 1, 1, 0, 1, 4
+38253, 38898, 1, "OK", 3, 11, 16, 7, 5, 2, 3, 3
+38042, 39102, 1, "OK", 7, 24, 25, 19, 9, 10, 6, 1
+38129, 39102, 1, "OK", 6, 22, 25, 19, 9, 10, 6, 1
+38189, 38904, 1, "OK", 4, 13, 20, 12, 7, 5, 4, 2

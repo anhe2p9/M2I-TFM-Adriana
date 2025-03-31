@@ -1,0 +1,57 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+5543, 5646, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5
+2781, 5898, 1, "OK", 5, 70, 50, 32, 26, 6, 6, 3
+5246, 5898, 1, "OK", 5, 21, 13, 7, 4, 3, 2, 3
+5458, 5735, 1, "OK", 3, 9, 11, 3, 2, 1, 2, 4
+2629, 6266, 1, "OK", 3, 84, 57, 41, 28, 13, 8, 2
+2876, 2963, 1, "OK", 2, 3, 6, 2, 2, 0, 1, 4
+2592, 6266, 1, "OK", 2, 85, 57, 41, 28, 13, 8, 2
+4140, 5898, 1, "OK", 5, 44, 30, 18, 13, 5, 4, 3
+4612, 4834, 1, "OK", 4, 6, 5, 1, 1, 0, 1, 4
+5289, 5735, 1, "OK", 4, 13, 11, 3, 2, 1, 2, 4
+2718, 6203, 1, "OK", 4, 80, 57, 41, 28, 13, 8, 2
+3306, 5898, 1, "OK", 5, 58, 37, 25, 20, 5, 4, 3
+2629, 6148, 1, "OK", 3, 81, 57, 41, 28, 13, 8, 2
+2718, 6080, 1, "OK", 4, 78, 57, 41, 28, 13, 8, 2
+5351, 5735, 1, "OK", 5, 12, 11, 3, 2, 1, 2, 4
+2592, 6148, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GeoLayer layer JSONObject filebody", 0, 0, 57, 41, 28, 13, 8, 2
+5508, 5735, 1, "OK", 4, 8, 11, 3, 2, 1, 2, 4
+3554, 5898, 1, "OK", 5, 54, 35, 23, 18, 5, 4, 3
+2673, 6203, 1, "OK", 4, 81, 57, 41, 28, 13, 8, 2
+4930, 5231, 1, "OK", 4, 6, 7, 3, 3, 0, 1, 4
+2673, 6080, 1, "OK", 4, 79, 57, 41, 28, 13, 8, 2
+5543, 5692, 1, "OK", 3, 4, 6, 1, 1, 0, 1, 5
+2475, 6343, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 9, 0
+3084, 5898, 1, "OK", 5, 62, 39, 27, 22, 5, 4, 3
+3786, 5898, 1, "OK", 5, 50, 33, 21, 16, 5, 4, 3
+4675, 4834, 1, "OK", 2, 5, 5, 1, 1, 0, 1, 4
+4612, 4868, 1, "OK", 5, 7, 5, 1, 1, 0, 1, 4
+2769, 6073, 1, "OK", 5, 75, 54, 33, 27, 6, 7, 3
+4513, 5898, 1, "OK", 5, 38, 27, 15, 10, 5, 4, 3
+3902, 5898, 1, "OK", 5, 48, 32, 20, 15, 5, 4, 3
+2475, 6358, 1, "OK", 1, 93, 60, 60, 30, 30, 9, 0
+2820, 2963, 1, "OK", 4, 4, 6, 2, 2, 0, 1, 4
+4560, 4834, 1, "OK", 3, 7, 5, 1, 1, 0, 1, 4
+3192, 5898, 1, "OK", 5, 60, 38, 26, 21, 5, 4, 3
+4026, 5898, 1, "OK", 5, 46, 31, 19, 14, 5, 4, 3
+5394, 5735, 1, "OK", 5, 10, 11, 3, 2, 1, 2, 4
+2629, 6203, 1, "OK", 3, 82, 57, 41, 28, 13, 8, 2
+5543, 5726, 1, "OK", 4, 5, 6, 1, 1, 0, 1, 5
+2718, 6266, 1, "OK", 4, 82, 57, 41, 28, 13, 8, 2
+2592, 6203, 1, "OK", 2, 83, 57, 41, 28, 13, 8, 2
+2629, 6080, 1, "OK", 3, 80, 57, 41, 28, 13, 8, 2
+2592, 6080, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  GeoLayer layer JSONObject filebody", 0, 0, 57, 41, 28, 13, 8, 2
+4675, 4868, 1, "OK", 3, 6, 5, 1, 1, 0, 1, 4
+2718, 6148, 1, "OK", 4, 79, 57, 41, 28, 13, 8, 2
+4262, 5898, 1, "OK", 5, 42, 29, 17, 12, 5, 4, 3
+2978, 5898, 1, "OK", 5, 64, 40, 28, 23, 5, 4, 3
+2673, 6266, 1, "OK", 4, 83, 57, 41, 28, 13, 8, 2
+4382, 5898, 1, "OK", 5, 40, 28, 16, 11, 5, 4, 3
+2673, 6148, 1, "OK", 4, 80, 57, 41, 28, 13, 8, 2
+3412, 5898, 1, "OK", 5, 56, 36, 24, 19, 5, 4, 3
+3668, 5898, 1, "OK", 5, 52, 34, 22, 17, 5, 4, 3
+4560, 4868, 1, "OK", 4, 8, 5, 1, 1, 0, 1, 4
+2475, 6275, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 60, 60, 30, 30, 9, 0
+2504, 6271, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 50, 29, 21, 9, 1
+4882, 5898, 1, "OK", 5, 29, 21, 12, 8, 4, 3, 3
+2562, 6271, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 59, 50, 29, 21, 9, 1

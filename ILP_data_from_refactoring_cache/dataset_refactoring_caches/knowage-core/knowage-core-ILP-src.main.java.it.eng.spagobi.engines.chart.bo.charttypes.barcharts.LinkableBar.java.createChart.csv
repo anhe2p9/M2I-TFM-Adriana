@@ -1,0 +1,1118 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+7044, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5407, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+5662, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6821, 8776, 1, "OK", 1, 51, 9, 9, 8, 1, 1, 0
+10778, 11045, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+4970, 6769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+6529, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6454, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+6821, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+7557, 10544, 1, "OK", 3, 84, 19, 19, 12, 7, 5, 0
+5294, 11069, 1, "OK", 3, 158, 26, 26, 19, 7, 5, 0
+4992, 6096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+6100, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+6100, 6568, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+5184, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5294, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6992, 7597, 1, "OK", 2, 19, 2, 2, 2, 0, 0, 0
+6304, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+10778, 11069, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+5294, 11085, 1, "OK", 3, 159, 26, 26, 19, 7, 5, 0
+5662, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 12, 12, 11, 1, 1, 0
+5407, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+9927, 10832, 1, "OK", 4, 27, 13, 13, 7, 6, 4, 0
+8870, 10832, 1, "OK", 3, 60, 13, 13, 7, 6, 4, 0
+4992, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6233, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+10778, 11085, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+5069, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+8008, 10945, 1, "OK", 5, 81, 19, 19, 12, 7, 5, 0
+4992, 6135, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 6818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+6411, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5132, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+8008, 8904, 1, "OK", 4, 21, 6, 6, 5, 1, 1, 0
+6529, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6498, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6671, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6304, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5294, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 4, 4, 4, 0, 0, 0
+5069, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 13, 13, 12, 1, 1, 0
+6992, 7658, 1, "OK", 2, 21, 2, 2, 2, 0, 0, 0
+7952, 10666, 1, "OK", 5, 79, 19, 19, 12, 7, 5, 0
+4992, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+4970, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5184, 6359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6454, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+7844, 9921, 1, "OK", 5, 54, 6, 6, 5, 1, 1, 0
+6011, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6138, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6362, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+5407, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 6, 6, 6, 0, 0, 0
+5294, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+7044, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5662, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6362, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+8008, 11006, 1, "OK", 5, 82, 19, 19, 12, 7, 5, 0
+5132, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7069, 7351, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+6821, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5184, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 26, 26, 19, 7, 5, 0
+7557, 10666, 1, "OK", 3, 87, 19, 19, 12, 7, 5, 0
+6100, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+6821, 8904, 1, "OK", 2, 55, 9, 9, 8, 1, 1, 0
+4970, 6899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot", 0, 0, 5, 5, 5, 0, 0, 0
+6138, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5184, 6408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6454, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 11006, 1, "OK", 1, 163, 26, 26, 19, 7, 5, 0
+4992, 6228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 4, 4, 4, 0, 0, 0
+8870, 10945, 1, "OK", 3, 61, 13, 13, 7, 6, 4, 0
+8224, 10492, 1, "OK", 3, 66, 19, 19, 12, 7, 5, 0
+6233, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+8008, 11045, 1, "OK", 6, 84, 20, 20, 13, 7, 5, 0
+9927, 10945, 1, "OK", 4, 28, 13, 13, 7, 6, 4, 0
+5069, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7714, 9921, 1, "OK", 4, 56, 6, 6, 5, 1, 1, 0
+6903, 10492, 1, "OK", 3, 101, 21, 21, 14, 7, 5, 0
+5662, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+5132, 6004, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer", 0, 0, 2, 2, 2, 0, 0, 0
+6821, 6899, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+7044, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5184, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6498, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+8008, 11069, 1, "OK", 6, 86, 20, 20, 13, 7, 5, 0
+5184, 6451, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6100, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 10, 10, 9, 1, 1, 0
+6138, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6529, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6821, 11006, 1, "OK", 3, 116, 22, 22, 15, 7, 5, 0
+4970, 11045, 1, "OK", 1, 165, 27, 27, 20, 7, 5, 0
+6100, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+8008, 11085, 1, "OK", 6, 87, 20, 20, 13, 7, 5, 0
+7517, 9921, 1, "OK", 3, 62, 6, 6, 5, 1, 1, 0
+6304, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6992, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+7319, 9921, 1, "OK", 4, 67, 6, 6, 5, 1, 1, 0
+6772, 10492, 1, "OK", 3, 107, 22, 22, 15, 7, 5, 0
+7952, 10775, 1, "OK", 5, 80, 19, 19, 12, 7, 5, 0
+6411, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6233, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+7044, 8218, 1, "OK", 3, 29, 2, 2, 2, 0, 0, 0
+5662, 6004, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+8224, 10544, 1, "OK", 3, 69, 19, 19, 12, 7, 5, 0
+4970, 11069, 1, "OK", 1, 167, 27, 27, 20, 7, 5, 0
+6903, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 21, 21, 14, 7, 5, 0
+5069, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6233, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+4992, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+9927, 11006, 1, "OK", 4, 29, 13, 13, 7, 6, 4, 0
+6100, 6769, 1, "OK", 4, 19, 1, 1, 1, 0, 0, 0
+8870, 11006, 1, "OK", 3, 62, 13, 13, 7, 6, 4, 0
+5407, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+4970, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+5184, 6495, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6821, 11045, 1, "OK", 3, 118, 23, 23, 16, 7, 5, 0
+6498, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+4970, 11085, 1, "OK", 1, 168, 27, 27, 20, 7, 5, 0
+5132, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6362, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6362, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6498, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6671, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7557, 10775, 1, "OK", 3, 88, 19, 19, 12, 7, 5, 0
+6138, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 4, 4, 4, 0, 0, 0
+6821, 11069, 1, "OK", 3, 120, 23, 23, 16, 7, 5, 0
+7952, 8776, 1, "OK", 3, 18, 6, 6, 5, 1, 1, 0
+9927, 11045, 1, "OK", 5, 31, 14, 14, 8, 6, 4, 0
+5184, 6525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5294, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+6772, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6011, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6529, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7952, 10832, 1, "OK", 5, 81, 19, 19, 12, 7, 5, 0
+6454, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8870, 11045, 1, "OK", 4, 64, 14, 14, 8, 6, 4, 0
+5132, 6096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+5069, 6004, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 2, 2, 2, 0, 0, 0
+6821, 11085, 1, "OK", 3, 121, 23, 23, 16, 7, 5, 0
+8180, 9921, 1, "OK", 5, 50, 6, 6, 5, 1, 1, 0
+6821, 6988, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+6100, 6818, 1, "OK", 4, 20, 1, 1, 1, 0, 0, 0
+6992, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+9927, 11069, 1, "OK", 5, 33, 14, 14, 8, 6, 4, 0
+6671, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 6899, 1, "OK", 5, 18, 1, 1, 1, 0, 0, 0
+4970, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 5, 5, 5, 0, 0, 0
+4992, 6359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+8870, 11069, 1, "OK", 4, 66, 14, 14, 8, 6, 4, 0
+7069, 7514, 1, "OK", 2, 15, 2, 2, 2, 0, 0, 0
+5407, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6529, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+9927, 11085, 1, "OK", 5, 34, 14, 14, 8, 6, 4, 0
+5132, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6362, 11006, 1, "OK", 5, 130, 22, 22, 15, 7, 5, 0
+7557, 8776, 1, "OK", 1, 26, 6, 6, 5, 1, 1, 0
+5184, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6011, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+5184, 6568, 1, "OK", 1, 34, 4, 4, 4, 0, 0, 0
+8870, 11085, 1, "OK", 4, 67, 14, 14, 8, 6, 4, 0
+6100, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+5132, 6135, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 3, 3, 3, 0, 0, 0
+7557, 10832, 1, "OK", 3, 89, 19, 19, 12, 7, 5, 0
+5662, 6096, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+6992, 9921, 1, "OK", 4, 79, 8, 8, 7, 1, 1, 0
+4970, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6100, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 10, 10, 9, 1, 1, 0
+6304, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6671, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6821, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+4992, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 26, 26, 19, 7, 5, 0
+6454, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5407, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 12, 12, 11, 1, 1, 0
+7069, 7554, 1, "OK", 2, 16, 2, 2, 2, 0, 0, 0
+6233, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+4992, 6408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5069, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5132, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6362, 11045, 1, "OK", 5, 132, 23, 23, 16, 7, 5, 0
+8224, 10666, 1, "OK", 3, 72, 19, 19, 12, 7, 5, 0
+6011, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6233, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6821, 7066, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+5662, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6903, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 21, 21, 14, 7, 5, 0
+5662, 6135, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+6138, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6100, 6899, 1, "OK", 4, 24, 2, 2, 2, 0, 0, 0
+6498, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6498, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+5069, 6096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+6454, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 11069, 1, "OK", 5, 134, 23, 23, 16, 7, 5, 0
+6100, 11006, 1, "OK", 4, 136, 23, 23, 16, 7, 5, 0
+6304, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6529, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+7952, 10945, 1, "OK", 5, 82, 19, 19, 12, 7, 5, 0
+6304, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+7069, 7597, 1, "OK", 2, 17, 2, 2, 2, 0, 0, 0
+4992, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6411, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6772, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+4992, 6451, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6362, 11085, 1, "OK", 5, 135, 23, 23, 16, 7, 5, 0
+6233, 6899, 1, "OK", 5, 20, 1, 1, 1, 0, 0, 0
+7952, 8904, 1, "OK", 4, 22, 6, 6, 5, 1, 1, 0
+6992, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5662, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+6671, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6233, 11006, 1, "OK", 5, 132, 22, 22, 15, 7, 5, 0
+5069, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5294, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+5069, 6135, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 3, 3, 3, 0, 0, 0
+5132, 6228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 4, 4, 4, 0, 0, 0
+5407, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6100, 11045, 1, "OK", 4, 138, 24, 24, 17, 7, 5, 0
+6498, 6899, 1, "OK", 5, 15, 1, 1, 1, 0, 0, 0
+6011, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 5, 5, 5, 0, 0, 0
+5184, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6411, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6498, 11006, 1, "OK", 5, 127, 22, 22, 15, 7, 5, 0
+7557, 10945, 1, "OK", 3, 90, 19, 19, 12, 7, 5, 0
+4992, 6495, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6529, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7557, 8904, 1, "OK", 2, 30, 6, 6, 5, 1, 1, 0
+6100, 11069, 1, "OK", 4, 140, 24, 24, 17, 7, 5, 0
+6138, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6362, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+5069, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+7952, 11006, 1, "OK", 5, 83, 19, 19, 12, 7, 5, 0
+7069, 7658, 1, "OK", 2, 19, 2, 2, 2, 0, 0, 0
+6233, 11045, 1, "OK", 5, 134, 23, 23, 16, 7, 5, 0
+5662, 6228, 1, "OK", 1, 14, 3, 3, 3, 0, 0, 0
+6992, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+10281, 10488, 1, "OK", 3, 7, 5, 3, 2, 1, 2, 1
+6100, 11085, 1, "OK", 4, 141, 24, 24, 17, 7, 5, 0
+6100, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 2, 2, 2, 0, 0, 0
+7044, 10492, 1, "OK", 5, 98, 21, 21, 14, 7, 5, 0
+4992, 6525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+8224, 10775, 1, "OK", 3, 73, 19, 19, 12, 7, 5, 0
+6411, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6362, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+6903, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 21, 21, 14, 7, 5, 0
+5407, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6233, 11069, 1, "OK", 5, 136, 23, 23, 16, 7, 5, 0
+6498, 11045, 1, "OK", 5, 129, 23, 23, 16, 7, 5, 0
+5184, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+6138, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 10, 10, 9, 1, 1, 0
+8120, 9921, 1, "OK", 5, 51, 6, 6, 5, 1, 1, 0
+5132, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5184, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+7952, 11045, 1, "OK", 6, 85, 20, 20, 13, 7, 5, 0
+6233, 11085, 1, "OK", 5, 137, 23, 23, 16, 7, 5, 0
+6233, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+7557, 11006, 1, "OK", 3, 91, 19, 19, 12, 7, 5, 0
+6498, 11069, 1, "OK", 5, 131, 23, 23, 16, 7, 5, 0
+6304, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6821, 7209, 1, "OK", 1, 13, 3, 3, 3, 0, 0, 0
+6772, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6498, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+4992, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5069, 6228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 4, 4, 4, 0, 0, 0
+6304, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+4992, 6568, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 4, 4, 4, 0, 0, 0
+6100, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 2, 2, 2, 0, 0, 0
+7952, 11069, 1, "OK", 6, 87, 20, 20, 13, 7, 5, 0
+8224, 8776, 1, "OK", 1, 11, 6, 6, 5, 1, 1, 0
+7044, 10544, 1, "OK", 5, 101, 21, 21, 14, 7, 5, 0
+6498, 11085, 1, "OK", 5, 132, 23, 23, 16, 7, 5, 0
+6671, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5184, 6769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+6903, 8776, 1, "OK", 1, 46, 8, 8, 7, 1, 1, 0
+5407, 6004, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+8224, 10832, 1, "OK", 3, 74, 19, 19, 12, 7, 5, 0
+6903, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 21, 21, 14, 7, 5, 0
+9887, 10492, 1, "OK", 2, 21, 13, 13, 7, 6, 4, 0
+7952, 11085, 1, "OK", 6, 88, 20, 20, 13, 7, 5, 0
+5662, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+6011, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 5, 5, 5, 0, 0, 0
+7557, 11045, 1, "OK", 4, 93, 20, 20, 13, 7, 5, 0
+6411, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+7773, 10492, 1, "OK", 5, 75, 19, 19, 12, 7, 5, 0
+6100, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 2, 2, 2, 0, 0, 0
+6233, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+5132, 6359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6529, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6772, 8776, 1, "OK", 1, 52, 9, 9, 8, 1, 1, 0
+6138, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6304, 6899, 1, "OK", 6, 19, 1, 1, 1, 0, 0, 0
+7557, 11069, 1, "OK", 4, 95, 20, 20, 13, 7, 5, 0
+6304, 11006, 1, "OK", 6, 131, 22, 22, 15, 7, 5, 0
+7069, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+6772, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5184, 6818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+6233, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+6498, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+6992, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+7557, 11085, 1, "OK", 4, 96, 20, 20, 13, 7, 5, 0
+5294, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+6671, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5069, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5132, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 26, 26, 19, 7, 5, 0
+5407, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+9887, 10544, 1, "OK", 3, 24, 13, 13, 7, 6, 4, 0
+7773, 10544, 1, "OK", 5, 78, 19, 19, 12, 7, 5, 0
+5662, 6359, 1, "OK", 1, 18, 3, 3, 3, 0, 0, 0
+6498, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+5132, 6408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5184, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+4970, 5290, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis", 0, 0, 1, 1, 1, 0, 0, 0
+6454, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+6011, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 5, 5, 5, 0, 0, 0
+6304, 11045, 1, "OK", 6, 133, 23, 23, 16, 7, 5, 0
+5184, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+4970, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6138, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+5407, 6096, 1, "OK", 1, 15, 2, 2, 2, 0, 0, 0
+6671, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+6529, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5294, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+4992, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5662, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 25, 25, 18, 7, 5, 0
+6304, 11069, 1, "OK", 6, 135, 23, 23, 16, 7, 5, 0
+6992, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+6011, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 11, 11, 10, 1, 1, 0
+7044, 10666, 1, "OK", 5, 104, 21, 21, 14, 7, 5, 0
+7069, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+8224, 10945, 1, "OK", 3, 75, 19, 19, 12, 7, 5, 0
+5132, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6903, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 21, 21, 14, 7, 5, 0
+5069, 6359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 6408, 1, "OK", 1, 19, 3, 3, 3, 0, 0, 0
+5132, 6451, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6304, 11085, 1, "OK", 6, 136, 23, 23, 16, 7, 5, 0
+8224, 8904, 1, "OK", 2, 15, 6, 6, 5, 1, 1, 0
+6304, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+6821, 7351, 1, "OK", 1, 20, 3, 3, 3, 0, 0, 0
+5407, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+6903, 8904, 1, "OK", 2, 50, 8, 8, 7, 1, 1, 0
+6411, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5184, 6899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 5, 5, 5, 0, 0, 0
+6454, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6529, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+10420, 10482, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+5407, 6135, 1, "OK", 1, 17, 2, 2, 2, 0, 0, 0
+5184, 11006, 1, "OK", 3, 158, 26, 26, 19, 7, 5, 0
+5294, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+7069, 9921, 1, "OK", 4, 77, 8, 8, 7, 1, 1, 0
+6992, 8218, 1, "OK", 2, 30, 2, 2, 2, 0, 0, 0
+4992, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+6772, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5662, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+5069, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 26, 26, 19, 7, 5, 0
+4992, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5662, 6451, 1, "OK", 1, 20, 3, 3, 3, 0, 0, 0
+6100, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5132, 6495, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6772, 8904, 1, "OK", 2, 56, 9, 9, 8, 1, 1, 0
+7844, 10492, 1, "OK", 5, 74, 19, 19, 12, 7, 5, 0
+8224, 11006, 1, "OK", 3, 76, 19, 19, 12, 7, 5, 0
+6671, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5069, 6408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5407, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+6304, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+5184, 11045, 1, "OK", 3, 160, 27, 27, 20, 7, 5, 0
+9887, 10666, 1, "OK", 3, 27, 13, 13, 7, 6, 4, 0
+6903, 11006, 1, "OK", 3, 111, 21, 21, 14, 7, 5, 0
+7773, 10666, 1, "OK", 5, 81, 19, 19, 12, 7, 5, 0
+4970, 5403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+4992, 6769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+5132, 6525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6011, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 5, 5, 5, 0, 0, 0
+6233, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6411, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6304, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+5184, 11069, 1, "OK", 3, 162, 27, 27, 20, 7, 5, 0
+5294, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 6, 6, 6, 0, 0, 0
+6138, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 6495, 1, "OK", 1, 21, 3, 3, 3, 0, 0, 0
+8224, 11045, 1, "OK", 4, 78, 20, 20, 13, 7, 5, 0
+6772, 6899, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+5069, 6451, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5069, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6772, 11006, 1, "OK", 3, 117, 22, 22, 15, 7, 5, 0
+6498, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5184, 11085, 1, "OK", 3, 163, 27, 27, 20, 7, 5, 0
+6903, 11045, 1, "OK", 3, 113, 22, 22, 15, 7, 5, 0
+7844, 10544, 1, "OK", 5, 77, 19, 19, 12, 7, 5, 0
+5184, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+7069, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5407, 6228, 1, "OK", 1, 18, 3, 3, 3, 0, 0, 0
+6411, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+6671, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7044, 10775, 1, "OK", 5, 105, 21, 21, 14, 7, 5, 0
+7714, 10492, 1, "OK", 4, 76, 19, 19, 12, 7, 5, 0
+8224, 11069, 1, "OK", 4, 80, 20, 20, 13, 7, 5, 0
+10669, 11045, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+5132, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6362, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5132, 6568, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer", 0, 0, 4, 4, 4, 0, 0, 0
+4992, 6818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 6525, 1, "OK", 1, 22, 3, 3, 3, 0, 0, 0
+6903, 11069, 1, "OK", 3, 115, 22, 22, 15, 7, 5, 0
+6011, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 5, 5, 5, 0, 0, 0
+8224, 11085, 1, "OK", 4, 81, 20, 20, 13, 7, 5, 0
+5069, 6495, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6772, 11045, 1, "OK", 3, 119, 23, 23, 16, 7, 5, 0
+7601, 9921, 1, "OK", 3, 59, 6, 6, 5, 1, 1, 0
+4970, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6903, 11085, 1, "OK", 3, 116, 22, 22, 15, 7, 5, 0
+10669, 11069, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+6454, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+4970, 5476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+6138, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+4992, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5184, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 5, 5, 5, 0, 0, 0
+7517, 10492, 1, "OK", 3, 82, 19, 19, 12, 7, 5, 0
+10669, 11085, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+7319, 10492, 1, "OK", 4, 87, 19, 19, 12, 7, 5, 0
+7044, 8776, 1, "OK", 3, 43, 8, 8, 7, 1, 1, 0
+5662, 6568, 1, "OK", 1, 24, 3, 3, 3, 0, 0, 0
+6772, 11069, 1, "OK", 3, 121, 23, 23, 16, 7, 5, 0
+7069, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+4992, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+7714, 10544, 1, "OK", 4, 79, 19, 19, 12, 7, 5, 0
+7044, 10832, 1, "OK", 5, 106, 21, 21, 14, 7, 5, 0
+5662, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+5069, 6525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6821, 7514, 1, "OK", 1, 24, 3, 3, 3, 0, 0, 0
+7773, 10775, 1, "OK", 5, 82, 19, 19, 12, 7, 5, 0
+5184, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6772, 11085, 1, "OK", 3, 122, 23, 23, 16, 7, 5, 0
+6772, 6988, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+4970, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+5407, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+9887, 10775, 1, "OK", 3, 28, 13, 13, 7, 6, 4, 0
+6411, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6100, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5294, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+4992, 6899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot", 0, 0, 5, 5, 5, 0, 0, 0
+7517, 10544, 1, "OK", 3, 85, 19, 19, 12, 7, 5, 0
+7319, 10544, 1, "OK", 4, 90, 19, 19, 12, 7, 5, 0
+5069, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6233, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+4992, 11006, 1, "OK", 1, 162, 26, 26, 19, 7, 5, 0
+6821, 7554, 1, "OK", 1, 25, 3, 3, 3, 0, 0, 0
+5069, 6568, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 4, 4, 4, 0, 0, 0
+6671, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7844, 10666, 1, "OK", 5, 80, 19, 19, 12, 7, 5, 0
+4970, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6304, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6772, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+8180, 10492, 1, "OK", 5, 70, 19, 19, 12, 7, 5, 0
+5132, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+7773, 8776, 1, "OK", 3, 20, 6, 6, 5, 1, 1, 0
+6498, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+9887, 10832, 1, "OK", 3, 29, 13, 13, 7, 6, 4, 0
+7773, 10832, 1, "OK", 5, 83, 19, 19, 12, 7, 5, 0
+6138, 6228, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+6411, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6011, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 5, 5, 5, 0, 0, 0
+5407, 6359, 1, "OK", 1, 22, 3, 3, 3, 0, 0, 0
+6529, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+6454, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+4992, 11045, 1, "OK", 1, 164, 27, 27, 20, 7, 5, 0
+6772, 7066, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+6821, 7597, 1, "OK", 1, 26, 3, 3, 3, 0, 0, 0
+6992, 10492, 1, "OK", 4, 99, 21, 21, 14, 7, 5, 0
+7473, 9921, 1, "OK", 3, 63, 6, 6, 5, 1, 1, 0
+6011, 6096, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+5294, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+5662, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+8180, 10544, 1, "OK", 5, 73, 19, 19, 12, 7, 5, 0
+7069, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+4992, 11069, 1, "OK", 1, 166, 27, 27, 20, 7, 5, 0
+5407, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 25, 25, 18, 7, 5, 0
+7044, 10945, 1, "OK", 5, 107, 21, 21, 14, 7, 5, 0
+5132, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+6671, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 7, 7, 7, 0, 0, 0
+7044, 8904, 1, "OK", 4, 47, 8, 8, 7, 1, 1, 0
+5132, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5407, 6408, 1, "OK", 1, 23, 3, 3, 3, 0, 0, 0
+7714, 10666, 1, "OK", 4, 82, 19, 19, 12, 7, 5, 0
+4992, 11085, 1, "OK", 1, 167, 27, 27, 20, 7, 5, 0
+4992, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6454, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6529, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6011, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 5, 5, 5, 0, 0, 0
+5294, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 12, 12, 11, 1, 1, 0
+6454, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+10107, 10233, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+6011, 6135, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+6992, 10544, 1, "OK", 4, 102, 21, 21, 14, 7, 5, 0
+5132, 6769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+6821, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 1, 1, 1, 0, 0, 0
+5184, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+5069, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5662, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 12, 12, 11, 1, 1, 0
+6362, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7517, 10666, 1, "OK", 3, 88, 19, 19, 12, 7, 5, 0
+6671, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5407, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+5662, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+7069, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5407, 6451, 1, "OK", 1, 24, 3, 3, 3, 0, 0, 0
+7319, 10666, 1, "OK", 4, 93, 19, 19, 12, 7, 5, 0
+7844, 10775, 1, "OK", 5, 81, 19, 19, 12, 7, 5, 0
+7044, 11006, 1, "OK", 5, 108, 21, 21, 14, 7, 5, 0
+4992, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 5, 5, 5, 0, 0, 0
+6011, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6100, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+7773, 10945, 1, "OK", 5, 84, 19, 19, 12, 7, 5, 0
+9887, 10945, 1, "OK", 3, 30, 13, 13, 7, 6, 4, 0
+6411, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7773, 8904, 1, "OK", 4, 24, 6, 6, 5, 1, 1, 0
+6903, 7209, 1, "OK", 1, 8, 2, 2, 2, 0, 0, 0
+5132, 6818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 6769, 1, "OK", 4, 31, 3, 3, 3, 0, 0, 0
+6362, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+4992, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6304, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 6359, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+7069, 8218, 1, "OK", 2, 28, 2, 2, 2, 0, 0, 0
+5069, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+6233, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7044, 11045, 1, "OK", 5, 110, 22, 22, 15, 7, 5, 0
+5294, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+5407, 6495, 1, "OK", 1, 25, 3, 3, 3, 0, 0, 0
+5069, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+7844, 8776, 1, "OK", 3, 19, 6, 6, 5, 1, 1, 0
+6100, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+7844, 10832, 1, "OK", 5, 82, 19, 19, 12, 7, 5, 0
+4970, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+8180, 10666, 1, "OK", 5, 76, 19, 19, 12, 7, 5, 0
+5132, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6772, 7209, 1, "OK", 1, 14, 3, 3, 3, 0, 0, 0
+7714, 10775, 1, "OK", 4, 83, 19, 19, 12, 7, 5, 0
+6011, 6228, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+7044, 11069, 1, "OK", 5, 112, 22, 22, 15, 7, 5, 0
+6498, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5407, 6525, 1, "OK", 1, 26, 3, 3, 3, 0, 0, 0
+5132, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+6138, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 23, 23, 16, 7, 5, 0
+7773, 11006, 1, "OK", 5, 85, 19, 19, 12, 7, 5, 0
+8120, 10492, 1, "OK", 5, 71, 19, 19, 12, 7, 5, 0
+6411, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+9887, 11006, 1, "OK", 3, 31, 13, 13, 7, 6, 4, 0
+5069, 6769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 6818, 1, "OK", 4, 32, 3, 3, 3, 0, 0, 0
+6233, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6529, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+7044, 11085, 1, "OK", 5, 113, 22, 22, 15, 7, 5, 0
+6138, 6408, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+6454, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6454, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6362, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6821, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+10547, 11045, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+6992, 10666, 1, "OK", 4, 105, 21, 21, 14, 7, 5, 0
+7517, 10775, 1, "OK", 3, 89, 19, 19, 12, 7, 5, 0
+6100, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5294, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+11010, 11045, 1, "OK", 1, 1, 1, 1, 1, 0, 0, 0
+6498, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7319, 10775, 1, "OK", 4, 94, 19, 19, 12, 7, 5, 0
+9887, 11045, 1, "OK", 4, 33, 14, 14, 8, 6, 4, 0
+7714, 8776, 1, "OK", 2, 21, 6, 6, 5, 1, 1, 0
+5662, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+5407, 6568, 1, "OK", 1, 28, 3, 3, 3, 0, 0, 0
+5184, 5290, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+5662, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 12, 12, 11, 1, 1, 0
+5132, 6899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 5, 5, 5, 0, 0, 0
+7773, 11045, 1, "OK", 6, 87, 20, 20, 13, 7, 5, 0
+7714, 10832, 1, "OK", 4, 84, 19, 19, 12, 7, 5, 0
+5407, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+10547, 11069, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+5132, 11006, 1, "OK", 2, 159, 26, 26, 19, 7, 5, 0
+6411, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5069, 6818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+6138, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+6233, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 6451, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+8008, 9921, 1, "OK", 5, 52, 6, 6, 5, 1, 1, 0
+11010, 11069, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+4970, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5184, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+9887, 11069, 1, "OK", 4, 35, 14, 14, 8, 6, 4, 0
+6454, 6899, 1, "OK", 5, 16, 1, 1, 1, 0, 0, 0
+8120, 10544, 1, "OK", 5, 74, 19, 19, 12, 7, 5, 0
+10547, 11085, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+6011, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 2, 2, 2, 0, 0, 0
+7773, 11069, 1, "OK", 6, 89, 20, 20, 13, 7, 5, 0
+5294, 6004, 1, "OK", 0, 12, 1, 1, 1, 0, 0, 0
+11010, 11085, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+6454, 11006, 1, "OK", 5, 128, 22, 22, 15, 7, 5, 0
+9887, 11085, 1, "OK", 4, 36, 14, 14, 8, 6, 4, 0
+6498, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7517, 8776, 1, "OK", 1, 27, 6, 6, 5, 1, 1, 0
+7319, 8776, 1, "OK", 2, 32, 6, 6, 5, 1, 1, 0
+7773, 11085, 1, "OK", 6, 90, 20, 20, 13, 7, 5, 0
+5662, 6899, 1, "OK", 4, 36, 4, 4, 4, 0, 0, 0
+6100, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 4, 4, 4, 0, 0, 0
+5069, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+7517, 10832, 1, "OK", 3, 90, 19, 19, 12, 7, 5, 0
+5132, 11045, 1, "OK", 2, 161, 27, 27, 20, 7, 5, 0
+7319, 10832, 1, "OK", 4, 95, 19, 19, 12, 7, 5, 0
+4970, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 13, 13, 12, 1, 1, 0
+7844, 10945, 1, "OK", 5, 83, 19, 19, 12, 7, 5, 0
+5069, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+6821, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8180, 10775, 1, "OK", 5, 77, 19, 19, 12, 7, 5, 0
+6903, 7351, 1, "OK", 1, 15, 2, 2, 2, 0, 0, 0
+5662, 11006, 1, "OK", 4, 148, 25, 25, 18, 7, 5, 0
+6138, 6495, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+7844, 8904, 1, "OK", 4, 23, 6, 6, 5, 1, 1, 0
+4992, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+5132, 11069, 1, "OK", 2, 163, 27, 27, 20, 7, 5, 0
+6233, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6454, 11045, 1, "OK", 5, 130, 23, 23, 16, 7, 5, 0
+6529, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6304, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6821, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+6011, 6359, 1, "OK", 1, 10, 2, 2, 2, 0, 0, 0
+5132, 11085, 1, "OK", 2, 164, 27, 27, 20, 7, 5, 0
+6362, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5132, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+5069, 6899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 5, 5, 5, 0, 0, 0
+6138, 6525, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+6772, 7351, 1, "OK", 1, 21, 3, 3, 3, 0, 0, 0
+5294, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+5662, 11045, 1, "OK", 4, 150, 26, 26, 19, 7, 5, 0
+6498, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6454, 11069, 1, "OK", 5, 132, 23, 23, 16, 7, 5, 0
+6992, 10775, 1, "OK", 4, 106, 21, 21, 14, 7, 5, 0
+6671, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+5069, 11006, 1, "OK", 1, 160, 26, 26, 19, 7, 5, 0
+8180, 8776, 1, "OK", 3, 15, 6, 6, 5, 1, 1, 0
+6454, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+7844, 11006, 1, "OK", 5, 84, 19, 19, 12, 7, 5, 0
+8180, 10832, 1, "OK", 5, 78, 19, 19, 12, 7, 5, 0
+5407, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+6454, 11085, 1, "OK", 5, 133, 23, 23, 16, 7, 5, 0
+5184, 5403, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+6304, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+5294, 6096, 1, "OK", 0, 17, 2, 2, 2, 0, 0, 0
+6011, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 24, 24, 17, 7, 5, 0
+5662, 11069, 1, "OK", 4, 152, 26, 26, 19, 7, 5, 0
+7714, 10945, 1, "OK", 4, 85, 19, 19, 12, 7, 5, 0
+7714, 8904, 1, "OK", 3, 25, 6, 6, 5, 1, 1, 0
+4970, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+10948, 11045, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+10372, 10482, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+6529, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6011, 6408, 1, "OK", 1, 11, 2, 2, 2, 0, 0, 0
+6138, 6568, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+5662, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5662, 11085, 1, "OK", 4, 153, 26, 26, 19, 7, 5, 0
+6138, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+6529, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5132, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 5, 5, 5, 0, 0, 0
+8120, 10666, 1, "OK", 5, 77, 19, 19, 12, 7, 5, 0
+6992, 8776, 1, "OK", 2, 44, 8, 8, 7, 1, 1, 0
+5069, 11045, 1, "OK", 1, 162, 27, 27, 20, 7, 5, 0
+10948, 11069, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+6671, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+7844, 11045, 1, "OK", 6, 86, 20, 20, 13, 7, 5, 0
+6992, 10832, 1, "OK", 4, 107, 21, 21, 14, 7, 5, 0
+7069, 10492, 1, "OK", 4, 97, 21, 21, 14, 7, 5, 0
+6100, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+5294, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+7517, 10945, 1, "OK", 3, 91, 19, 19, 12, 7, 5, 0
+5294, 6135, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer boolean document_composition", 0, 0, 2, 2, 2, 0, 0, 0
+5407, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 12, 12, 11, 1, 1, 0
+7319, 10945, 1, "OK", 4, 96, 19, 19, 12, 7, 5, 0
+6821, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6362, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5132, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6304, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6454, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+7517, 8904, 1, "OK", 2, 31, 6, 6, 5, 1, 1, 0
+10948, 11085, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+5407, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+7319, 8904, 1, "OK", 3, 36, 6, 6, 5, 1, 1, 0
+5069, 11069, 1, "OK", 1, 164, 27, 27, 20, 7, 5, 0
+6011, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 24, 24, 17, 7, 5, 0
+5184, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+7844, 11069, 1, "OK", 6, 88, 20, 20, 13, 7, 5, 0
+6011, 6451, 1, "OK", 1, 12, 2, 2, 2, 0, 0, 0
+4970, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7714, 11006, 1, "OK", 4, 86, 19, 19, 12, 7, 5, 0
+6233, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5069, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+5069, 11085, 1, "OK", 1, 165, 27, 27, 20, 7, 5, 0
+7044, 7209, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 0
+5662, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 4, 4, 4, 0, 0, 0
+6454, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+5184, 5476, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+4992, 5290, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis", 0, 0, 1, 1, 1, 0, 0, 0
+7844, 11085, 1, "OK", 6, 89, 20, 20, 13, 7, 5, 0
+6362, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+5294, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+5407, 6769, 1, "OK", 4, 35, 3, 3, 3, 0, 0, 0
+7069, 10544, 1, "OK", 4, 100, 21, 21, 14, 7, 5, 0
+4992, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6498, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5662, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5184, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+7517, 11006, 1, "OK", 3, 92, 19, 19, 12, 7, 5, 0
+6821, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6011, 6495, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+6903, 7514, 1, "OK", 1, 19, 2, 2, 2, 0, 0, 0
+7714, 11045, 1, "OK", 5, 88, 20, 20, 13, 7, 5, 0
+6304, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 6004, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 2, 2, 2, 0, 0, 0
+8180, 10945, 1, "OK", 5, 79, 19, 19, 12, 7, 5, 0
+7319, 11006, 1, "OK", 4, 97, 19, 19, 12, 7, 5, 0
+6100, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6411, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+8180, 8904, 1, "OK", 4, 19, 6, 6, 5, 1, 1, 0
+5069, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 5, 5, 5, 0, 0, 0
+6138, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+7714, 11069, 1, "OK", 5, 90, 20, 20, 13, 7, 5, 0
+6011, 6525, 1, "OK", 1, 14, 2, 2, 2, 0, 0, 0
+6529, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6772, 7514, 1, "OK", 1, 25, 3, 3, 3, 0, 0, 0
+8120, 10775, 1, "OK", 5, 78, 19, 19, 12, 7, 5, 0
+5294, 6228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer boolean document_composition", 0, 0, 3, 3, 3, 0, 0, 0
+5407, 6818, 1, "OK", 4, 36, 3, 3, 3, 0, 0, 0
+6233, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7517, 11045, 1, "OK", 4, 94, 20, 20, 13, 7, 5, 0
+6529, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+5069, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+5184, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+7319, 11045, 1, "OK", 4, 99, 20, 20, 13, 7, 5, 0
+6100, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 10, 10, 9, 1, 1, 0
+6903, 7554, 1, "OK", 1, 20, 2, 2, 2, 0, 0, 0
+7601, 10492, 1, "OK", 3, 79, 19, 19, 12, 7, 5, 0
+7714, 11085, 1, "OK", 5, 91, 20, 20, 13, 7, 5, 0
+6992, 10945, 1, "OK", 4, 108, 21, 21, 14, 7, 5, 0
+6362, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6992, 8904, 1, "OK", 3, 48, 8, 8, 7, 1, 1, 0
+6671, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5407, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+7517, 11069, 1, "OK", 4, 96, 20, 20, 13, 7, 5, 0
+6498, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7319, 11069, 1, "OK", 4, 101, 20, 20, 13, 7, 5, 0
+6411, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5407, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 12, 12, 11, 1, 1, 0
+6233, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+6011, 6568, 1, "OK", 1, 16, 2, 2, 2, 0, 0, 0
+6138, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 10, 10, 9, 1, 1, 0
+6772, 7554, 1, "OK", 1, 26, 3, 3, 3, 0, 0, 0
+4970, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+8180, 11006, 1, "OK", 5, 80, 19, 19, 12, 7, 5, 0
+6529, 6899, 1, "OK", 5, 13, 1, 1, 1, 0, 0, 0
+7517, 11085, 1, "OK", 4, 97, 20, 20, 13, 7, 5, 0
+8120, 8776, 1, "OK", 3, 16, 6, 6, 5, 1, 1, 0
+6011, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 24, 24, 17, 7, 5, 0
+6138, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+6903, 7597, 1, "OK", 1, 21, 2, 2, 2, 0, 0, 0
+7319, 11085, 1, "OK", 4, 102, 20, 20, 13, 7, 5, 0
+9989, 10240, 1, "OK", 2, 7, 5, 3, 2, 1, 2, 1
+5132, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6529, 11006, 1, "OK", 5, 125, 22, 22, 15, 7, 5, 0
+8120, 10832, 1, "OK", 5, 79, 19, 19, 12, 7, 5, 0
+4992, 5403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+6498, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+7601, 10544, 1, "OK", 3, 82, 19, 19, 12, 7, 5, 0
+4970, 6096, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 3, 3, 3, 0, 0, 0
+5184, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 7, 7, 7, 0, 0, 0
+6992, 11006, 1, "OK", 4, 109, 21, 21, 14, 7, 5, 0
+7069, 10666, 1, "OK", 4, 103, 21, 21, 14, 7, 5, 0
+6362, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7952, 9921, 1, "OK", 5, 53, 6, 6, 5, 1, 1, 0
+5294, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+6821, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8180, 11045, 1, "OK", 6, 82, 20, 20, 13, 7, 5, 0
+5407, 6899, 1, "OK", 4, 40, 4, 4, 4, 0, 0, 0
+6454, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7044, 7351, 1, "OK", 2, 12, 2, 2, 2, 0, 0, 0
+6304, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6100, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6772, 7597, 1, "OK", 1, 27, 3, 3, 3, 0, 0, 0
+6138, 6769, 1, "OK", 5, 18, 1, 1, 1, 0, 0, 0
+5407, 11006, 1, "OK", 4, 152, 25, 25, 18, 7, 5, 0
+6529, 11045, 1, "OK", 5, 127, 23, 23, 16, 7, 5, 0
+4970, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+4970, 6135, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 3, 3, 3, 0, 0, 0
+5662, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+8180, 11069, 1, "OK", 6, 84, 20, 20, 13, 7, 5, 0
+6992, 11045, 1, "OK", 4, 111, 22, 22, 15, 7, 5, 0
+6233, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6903, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf", 0, 0, 2, 2, 2, 0, 0, 0
+4992, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6529, 11069, 1, "OK", 5, 129, 23, 23, 16, 7, 5, 0
+7557, 9921, 1, "OK", 3, 61, 6, 6, 5, 1, 1, 0
+8180, 11085, 1, "OK", 6, 85, 20, 20, 13, 7, 5, 0
+5407, 11045, 1, "OK", 4, 154, 26, 26, 19, 7, 5, 0
+4992, 5476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+5294, 6359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 6818, 1, "OK", 5, 19, 1, 1, 1, 0, 0, 0
+6671, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6992, 11069, 1, "OK", 4, 113, 22, 22, 15, 7, 5, 0
+6529, 11085, 1, "OK", 5, 130, 23, 23, 16, 7, 5, 0
+6821, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6498, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6529, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+7473, 10492, 1, "OK", 3, 83, 19, 19, 12, 7, 5, 0
+6100, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+4970, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6772, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+5407, 11069, 1, "OK", 4, 156, 26, 26, 19, 7, 5, 0
+6992, 11085, 1, "OK", 4, 114, 22, 22, 15, 7, 5, 0
+8652, 8772, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 1
+6011, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 24, 24, 17, 7, 5, 0
+5069, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+4992, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6304, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6411, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6138, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+5407, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6138, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 10, 10, 9, 1, 1, 0
+5294, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 25, 25, 18, 7, 5, 0
+5407, 11085, 1, "OK", 4, 157, 26, 26, 19, 7, 5, 0
+6233, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8120, 10945, 1, "OK", 5, 80, 19, 19, 12, 7, 5, 0
+8120, 8904, 1, "OK", 4, 20, 6, 6, 5, 1, 1, 0
+6821, 8218, 1, "OK", 1, 37, 3, 3, 3, 0, 0, 0
+7069, 10775, 1, "OK", 4, 104, 21, 21, 14, 7, 5, 0
+5184, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5294, 6408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+6671, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+7601, 10666, 1, "OK", 3, 85, 19, 19, 12, 7, 5, 0
+5132, 5290, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+6362, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6304, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+6671, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6529, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+7473, 10544, 1, "OK", 3, 86, 19, 19, 12, 7, 5, 0
+6498, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 6228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition", 0, 0, 4, 4, 4, 0, 0, 0
+4992, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6011, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 11, 11, 10, 1, 1, 0
+5132, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6011, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 24, 24, 17, 7, 5, 0
+6138, 6899, 1, "OK", 5, 23, 2, 2, 2, 0, 0, 0
+6529, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+10497, 11045, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+5294, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+5407, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 4, 4, 4, 0, 0, 0
+6454, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+8120, 11006, 1, "OK", 5, 81, 19, 19, 12, 7, 5, 0
+5294, 6451, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 11006, 1, "OK", 5, 135, 23, 23, 16, 7, 5, 0
+6903, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+7069, 8776, 1, "OK", 2, 42, 8, 8, 7, 1, 1, 0
+7044, 7514, 1, "OK", 3, 16, 2, 2, 2, 0, 0, 0
+6011, 6769, 1, "OK", 4, 23, 2, 2, 2, 0, 0, 0
+7069, 10832, 1, "OK", 4, 105, 21, 21, 14, 7, 5, 0
+5662, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+10497, 11069, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+8391, 8772, 1, "OK", 1, 7, 3, 3, 3, 0, 0, 1
+6362, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5407, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5184, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6100, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6772, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8259, 8772, 1, "OK", 1, 9, 5, 4, 4, 0, 1, 1
+10497, 11085, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+4992, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 7, 7, 7, 0, 0, 0
+8120, 11045, 1, "OK", 6, 83, 20, 20, 13, 7, 5, 0
+6304, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6411, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6138, 11045, 1, "OK", 5, 137, 24, 24, 17, 7, 5, 0
+5294, 6495, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+5069, 5290, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis", 0, 0, 1, 1, 1, 0, 0, 0
+7044, 7554, 1, "OK", 3, 17, 2, 2, 2, 0, 0, 0
+8524, 8772, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 1
+6233, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5184, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 13, 13, 12, 1, 1, 0
+6362, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+8120, 11069, 1, "OK", 6, 85, 20, 20, 13, 7, 5, 0
+7601, 10775, 1, "OK", 3, 86, 19, 19, 12, 7, 5, 0
+6138, 11069, 1, "OK", 5, 139, 24, 24, 17, 7, 5, 0
+6903, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5069, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6011, 6818, 1, "OK", 4, 24, 2, 2, 2, 0, 0, 0
+6138, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 2, 2, 2, 0, 0, 0
+6671, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5132, 5403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+5294, 6525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 3, 3, 3, 0, 0, 0
+8120, 11085, 1, "OK", 6, 86, 20, 20, 13, 7, 5, 0
+6138, 11085, 1, "OK", 5, 140, 24, 24, 17, 7, 5, 0
+6498, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6671, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+7473, 10666, 1, "OK", 3, 89, 19, 19, 12, 7, 5, 0
+6100, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 4, 4, 4, 0, 0, 0
+6411, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6011, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 24, 24, 17, 7, 5, 0
+6304, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6411, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+8224, 9921, 1, "OK", 3, 46, 6, 6, 5, 1, 1, 0
+6903, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart int seriesN", 0, 0, 8, 8, 7, 1, 1, 0
+7044, 7597, 1, "OK", 3, 18, 2, 2, 2, 0, 0, 0
+4970, 6359, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6011, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 11, 11, 10, 1, 1, 0
+6772, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8008, 10492, 1, "OK", 5, 72, 19, 19, 12, 7, 5, 0
+5294, 6568, 1, "OK", 0, 30, 3, 3, 3, 0, 0, 0
+6233, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+7601, 8776, 1, "OK", 1, 24, 6, 6, 5, 1, 1, 0
+5294, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+7601, 10832, 1, "OK", 3, 87, 19, 19, 12, 7, 5, 0
+6100, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6671, 6899, 1, "OK", 4, 6, 1, 1, 1, 0, 0, 0
+7069, 10945, 1, "OK", 4, 106, 21, 21, 14, 7, 5, 0
+10321, 10482, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+6529, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 2, 2, 2, 0, 0, 0
+5184, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5132, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6772, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart int seriesN", 0, 0, 9, 9, 8, 1, 1, 0
+7069, 8904, 1, "OK", 3, 46, 8, 8, 7, 1, 1, 0
+4970, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 26, 26, 19, 7, 5, 0
+6498, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6671, 11006, 1, "OK", 4, 118, 22, 22, 15, 7, 5, 0
+4992, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6992, 7209, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+5132, 5476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+6011, 6899, 1, "OK", 4, 28, 3, 3, 3, 0, 0, 0
+4970, 6408, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6233, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6138, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 2, 2, 2, 0, 0, 0
+7044, 7658, 1, "OK", 3, 20, 2, 2, 2, 0, 0, 0
+6454, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6011, 11006, 1, "OK", 4, 140, 24, 24, 17, 7, 5, 0
+5407, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+8008, 10544, 1, "OK", 5, 75, 19, 19, 12, 7, 5, 0
+5069, 5403, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+6671, 11045, 1, "OK", 4, 120, 23, 23, 16, 7, 5, 0
+6903, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5132, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6498, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6821, 10492, 1, "OK", 3, 106, 22, 22, 15, 7, 5, 0
+5662, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+7069, 11006, 1, "OK", 4, 107, 21, 21, 14, 7, 5, 0
+6100, 6228, 1, "OK", 0, 2, 1, 1, 1, 0, 0, 0
+5184, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7473, 10775, 1, "OK", 3, 90, 19, 19, 12, 7, 5, 0
+4970, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+4970, 6451, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6011, 11045, 1, "OK", 4, 142, 25, 25, 18, 7, 5, 0
+10067, 10240, 1, "OK", 2, 6, 5, 3, 2, 1, 2, 1
+6671, 11069, 1, "OK", 4, 122, 23, 23, 16, 7, 5, 0
+6454, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+9927, 10492, 1, "OK", 3, 19, 13, 13, 7, 6, 4, 0
+8870, 10492, 1, "OK", 2, 52, 13, 13, 7, 6, 4, 0
+6411, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6304, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6772, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6671, 11085, 1, "OK", 4, 123, 23, 23, 16, 7, 5, 0
+6411, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 9, 9, 8, 1, 1, 0
+6671, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+4992, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5132, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6011, 11069, 1, "OK", 4, 144, 25, 25, 18, 7, 5, 0
+5662, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+5294, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+7069, 11045, 1, "OK", 4, 109, 22, 22, 15, 7, 5, 0
+5069, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6903, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+10258, 10492, 1, "OK", 3, 9, 6, 6, 3, 3, 2, 0
+6821, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6011, 11085, 1, "OK", 4, 145, 25, 25, 18, 7, 5, 0
+6011, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7601, 10945, 1, "OK", 3, 88, 19, 19, 12, 7, 5, 0
+4970, 6495, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+10835, 11045, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+5184, 6004, 1, "OK", 1, 16, 2, 2, 2, 0, 0, 0
+5069, 5476, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 1, 1, 1, 0, 0, 0
+6454, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7473, 8776, 1, "OK", 1, 28, 6, 6, 5, 1, 1, 0
+7601, 8904, 1, "OK", 2, 28, 6, 6, 5, 1, 1, 0
+4992, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 13, 13, 12, 1, 1, 0
+7069, 11069, 1, "OK", 4, 111, 22, 22, 15, 7, 5, 0
+7473, 10832, 1, "OK", 3, 91, 19, 19, 12, 7, 5, 0
+6100, 6301, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean document_composition MyCategoryUrlGenerator mycatUrl", 0, 0, 1, 1, 1, 0, 0, 0
+6411, 6899, 1, "OK", 5, 17, 1, 1, 1, 0, 0, 0
+9927, 10544, 1, "OK", 4, 22, 13, 13, 7, 6, 4, 0
+10835, 11069, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+8870, 10544, 1, "OK", 3, 55, 13, 13, 7, 6, 4, 0
+6671, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+6304, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6772, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5662, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+7069, 11085, 1, "OK", 4, 112, 22, 22, 15, 7, 5, 0
+5069, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+6529, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7044, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+4970, 6525, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer MyCategoryUrlGenerator mycatUrl", 0, 0, 4, 4, 4, 0, 0, 0
+6411, 11006, 1, "OK", 5, 129, 22, 22, 15, 7, 5, 0
+5294, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 12, 12, 11, 1, 1, 0
+5132, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 7, 7, 7, 0, 0, 0
+10835, 11085, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+6362, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+8008, 10666, 1, "OK", 5, 78, 19, 19, 12, 7, 5, 0
+5294, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+6011, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 3, 3, 3, 0, 0, 0
+6992, 7351, 1, "OK", 1, 13, 2, 2, 2, 0, 0, 0
+7601, 11006, 1, "OK", 3, 89, 19, 19, 12, 7, 5, 0
+6671, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+6138, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+5184, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6454, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 3, 3, 3, 0, 0, 0
+6304, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6411, 11045, 1, "OK", 5, 131, 23, 23, 16, 7, 5, 0
+5407, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+4970, 6568, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 4, 4, 4, 0, 0, 0
+6011, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+5069, 7597, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+5294, 6769, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 3, 3, 3, 0, 0, 0
+6100, 6359, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+4992, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5662, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 6, 6, 6, 0, 0, 0
+6411, 11069, 1, "OK", 5, 133, 23, 23, 16, 7, 5, 0
+5184, 6096, 1, "OK", 1, 21, 3, 3, 3, 0, 0, 0
+6362, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+7601, 11045, 1, "OK", 4, 91, 20, 20, 13, 7, 5, 0
+6903, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+7044, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+6411, 11085, 1, "OK", 5, 134, 23, 23, 16, 7, 5, 0
+6411, 6988, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+6821, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6100, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 23, 23, 16, 7, 5, 0
+7601, 11069, 1, "OK", 4, 93, 20, 20, 13, 7, 5, 0
+5184, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7473, 10945, 1, "OK", 3, 92, 19, 19, 12, 7, 5, 0
+5294, 6818, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 3, 3, 3, 0, 0, 0
+6100, 6408, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+5184, 6135, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer boolean document_composition", 0, 0, 3, 3, 3, 0, 0, 0
+7473, 8904, 1, "OK", 2, 32, 6, 6, 5, 1, 1, 0
+5069, 7658, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf", 0, 0, 7, 7, 7, 0, 0, 0
+7044, 9921, 1, "OK", 5, 78, 8, 8, 7, 1, 1, 0
+7601, 11085, 1, "OK", 4, 94, 20, 20, 13, 7, 5, 0
+9927, 10666, 1, "OK", 4, 25, 13, 13, 7, 6, 4, 0
+6772, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+8870, 10666, 1, "OK", 3, 58, 13, 13, 7, 6, 4, 0
+4992, 8005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+6233, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+5132, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+8008, 10775, 1, "OK", 5, 79, 19, 19, 12, 7, 5, 0
+6411, 7041, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart TextTitle title", 0, 0, 1, 1, 1, 0, 0, 0
+5294, 10945, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 25, 25, 18, 7, 5, 0
+6498, 10492, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 22, 22, 15, 7, 5, 0
+6903, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+5184, 8218, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 7, 7, 7, 0, 0, 0
+5294, 8904, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 12, 12, 11, 1, 1, 0
+6100, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 23, 23, 16, 7, 5, 0
+6100, 6451, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+6454, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+4970, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+7473, 11006, 1, "OK", 3, 93, 19, 19, 12, 7, 5, 0
+7952, 10492, 1, "OK", 5, 73, 19, 19, 12, 7, 5, 0
+6411, 7066, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 1, 1, 1, 0, 0, 0
+4992, 6004, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset CategoryAxis categoryAxis ValueAxis valueAxis BarRenderer renderer", 0, 0, 2, 2, 2, 0, 0, 0
+6671, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6529, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+6233, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6138, 7351, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 4, 4, 4, 0, 0, 0
+6772, 8177, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+5662, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 6, 6, 6, 0, 0, 0
+8008, 8776, 1, "OK", 3, 17, 6, 6, 5, 1, 1, 0
+5294, 6899, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot", 0, 0, 4, 4, 4, 0, 0, 0
+7773, 9921, 1, "OK", 5, 55, 6, 6, 5, 1, 1, 0
+6903, 8218, 1, "OK", 1, 32, 2, 2, 2, 0, 0, 0
+6992, 7514, 1, "OK", 2, 17, 2, 2, 2, 0, 0, 0
+7044, 7949, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  NumberFormat nf NumberAxis rangeAxis", 0, 0, 2, 2, 2, 0, 0, 0
+8008, 10832, 1, "OK", 5, 80, 19, 19, 12, 7, 5, 0
+6498, 10544, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6011, 7209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 5, 5, 5, 0, 0, 0
+6100, 6495, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+6821, 10775, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+6362, 10666, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 22, 22, 15, 7, 5, 0
+5294, 11006, 1, "OK", 3, 154, 25, 25, 18, 7, 5, 0
+5132, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7473, 11045, 1, "OK", 4, 95, 20, 20, 13, 7, 5, 0
+5184, 6228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer boolean document_composition", 0, 0, 4, 4, 4, 0, 0, 0
+7557, 10492, 1, "OK", 3, 81, 19, 19, 12, 7, 5, 0
+4970, 8776, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart", 0, 0, 13, 13, 12, 1, 1, 0
+5407, 7514, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 6, 6, 6, 0, 0, 0
+6529, 7554, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart", 0, 0, 3, 3, 3, 0, 0, 0
+7952, 10544, 1, "OK", 5, 76, 19, 19, 12, 7, 5, 0
+6772, 8218, 1, "OK", 1, 38, 3, 3, 3, 0, 0, 0
+4970, 10832, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JFreeChart chart CategoryAxis domainAxis", 0, 0, 26, 26, 19, 7, 5, 0
+6100, 6525, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+5069, 7770, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+7069, 7209, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+7473, 11069, 1, "OK", 4, 97, 20, 20, 13, 7, 5, 0
+6454, 7841, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 3, 3, 3, 0, 0, 0
+6992, 7554, 1, "OK", 2, 18, 2, 2, 2, 0, 0, 0
+4992, 8117, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  CategoryDataset dataset BarRenderer renderer CategoryPlot plot JFreeChart chart NumberFormat nf NumberAxis rangeAxis", 0, 0, 7, 7, 7, 0, 0, 0
+5132, 9921, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BarRenderer renderer CategoryPlot plot JFreeChart chart int seriesN", 0, 0, 13, 13, 12, 1, 1, 0
+9927, 10775, 1, "OK", 4, 26, 13, 13, 7, 6, 4, 0
+8870, 10775, 1, "OK", 3, 59, 13, 13, 7, 6, 4, 0
+5294, 11045, 1, "OK", 3, 156, 26, 26, 19, 7, 5, 0
+7473, 11085, 1, "OK", 4, 98, 20, 20, 13, 7, 5, 0

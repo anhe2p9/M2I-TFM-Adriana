@@ -1,0 +1,70 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+45878, 46410, 1, "OK", 3, 13, 3, 3, 3, 0, 0, 0
+46769, 49893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 14, 9, 5, 5, 1
+46481, 49856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 17, 11, 6, 7, 1
+48871, 49123, 1, "OK", 3, 6, 4, 2, 2, 0, 1, 2
+45747, 46127, 1, "OK", 2, 8, 3, 3, 3, 0, 0, 0
+45747, 45866, 1, "OK", 1, 3, 2, 2, 2, 0, 0, 0
+45700, 46410, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer ParseContext context", 0, 0, 5, 5, 5, 0, 0, 0
+46139, 46366, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+46439, 50123, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 27, 27, 13, 14, 8, 0
+47045, 47337, 1, "OK", 1, 6, 4, 2, 2, 0, 1, 2
+46193, 46366, 1, "OK", 0, 5, 2, 2, 2, 0, 0, 0
+46376, 50293, 1, "OK", 4, 93, 28, 28, 14, 14, 8, 0
+45747, 46366, 1, "OK", 2, 16, 5, 5, 5, 0, 0, 0
+46481, 50108, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 26, 18, 12, 6, 8, 1
+47737, 48036, 1, "OK", 2, 6, 5, 2, 2, 0, 1, 3
+49955, 50108, 1, "OK", 1, 4, 2, 1, 1, 0, 1, 1
+46481, 49893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 17, 11, 6, 7, 1
+45700, 50293, 0, "Compilation unit does not compile after method extraction.", 2, 111, 33, 33, 19, 14, 8, 0
+45878, 46181, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+46139, 46410, 1, "OK", 3, 8, 2, 2, 2, 0, 0, 0
+47649, 47985, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value JSONScanner iso8601Lexer", 0, 0, 5, 2, 2, 0, 1, 3
+46555, 46699, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+46769, 49935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 14, 9, 5, 5, 1
+48871, 49155, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+46193, 46410, 1, "OK", 2, 6, 2, 2, 2, 0, 0, 0
+48810, 49123, 1, "OK", 2, 7, 4, 2, 2, 0, 1, 2
+45747, 46410, 1, "OK", 3, 17, 5, 5, 5, 0, 0, 0
+45878, 46318, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+49876, 50108, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+47045, 47369, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+45700, 46181, 1, "OK", 1, 12, 3, 3, 3, 0, 0, 0
+46738, 49856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 14, 9, 5, 5, 1
+45700, 46318, 1, "OK", 1, 16, 5, 5, 5, 0, 0, 0
+46738, 50108, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 21, 15, 10, 5, 6, 1
+47437, 48149, 1, "OK", 1, 14, 9, 5, 4, 1, 2, 2
+47565, 48149, 1, "OK", 2, 11, 9, 5, 4, 1, 2, 2
+46139, 46318, 1, "OK", 1, 5, 2, 2, 2, 0, 0, 0
+46738, 49893, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 14, 9, 5, 5, 1
+45747, 46181, 1, "OK", 2, 10, 3, 3, 3, 0, 0, 0
+46193, 46318, 1, "OK", 0, 3, 2, 2, 2, 0, 0, 0
+46481, 49935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 24, 17, 11, 6, 7, 1
+45747, 46318, 1, "OK", 2, 14, 5, 5, 5, 0, 0, 0
+45700, 46366, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONLexer lexer ParseContext context", 0, 0, 5, 5, 5, 0, 0, 0
+46139, 50293, 0, "Compilation unit does not compile after method extraction.", 3, 100, 30, 30, 16, 14, 8, 0
+48810, 49155, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+47737, 47985, 1, "OK", 2, 5, 5, 2, 2, 0, 1, 3
+47504, 48149, 1, "OK", 2, 13, 9, 5, 4, 1, 2, 2
+45878, 50293, 0, "Compilation unit does not compile after method extraction.", 3, 105, 31, 31, 17, 14, 8, 0
+46481, 46718, 1, "OK", 1, 6, 5, 3, 2, 1, 2, 1
+48918, 49123, 1, "OK", 2, 5, 4, 2, 2, 0, 1, 2
+47045, 47278, 1, "OK", 1, 5, 4, 2, 2, 0, 1, 2
+47437, 48183, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 2, 2
+47565, 48183, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 2, 2
+46769, 49856, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 14, 9, 5, 5, 1
+46738, 49935, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 19, 14, 9, 5, 5, 1
+46330, 50293, 1, "OK", 3, 94, 28, 28, 14, 14, 8, 0
+45878, 46127, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+45700, 45866, 1, "OK", 0, 5, 2, 2, 2, 0, 0, 0
+46193, 50293, 0, "Compilation unit does not compile after method extraction.", 3, 98, 30, 30, 16, 14, 8, 0
+47649, 48036, 1, "OK", 1, 7, 5, 2, 2, 0, 1, 3
+46420, 50293, 1, "OK", 3, 92, 28, 28, 14, 14, 8, 0
+45747, 50293, 0, "Compilation unit does not compile after method extraction.", 3, 109, 33, 33, 19, 14, 8, 0
+46481, 46751, 0, "Compilation unit does not compile after method extraction.", 1, 8, 5, 3, 2, 1, 2, 1
+48918, 49155, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 2, 2, 0, 1, 2
+45700, 46127, 1, "OK", 1, 10, 3, 3, 3, 0, 0, 0
+46769, 50108, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 21, 15, 10, 5, 6, 1
+49911, 50108, 1, "OK", 2, 6, 2, 1, 1, 0, 1, 1
+45878, 46366, 1, "OK", 2, 12, 3, 3, 3, 0, 0, 0
+47504, 48183, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 9, 5, 4, 1, 2, 2

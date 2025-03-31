@@ -1,0 +1,230 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+62989, 68810, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+64990, 65142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+68819, 72923, 1, "OK", 6, 95, 70, 70, 33, 37, 17, 0
+63742, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+69396, 69884, 1, "OK", 2, 11, 5, 5, 5, 0, 0, 2
+66485, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 16, 10, 7, 3, 2, 3
+63028, 70651, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 122, 122, 56, 66, 24, 0
+71104, 71225, 1, "OK", 2, 3, 6, 1, 1, 0, 1, 5
+70281, 70627, 1, "OK", 4, 9, 7, 3, 2, 1, 2, 2
+63503, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 84, 56, 35, 21, 14, 2
+64055, 64408, 1, "OK", 1, 9, 6, 3, 3, 0, 1, 3
+63569, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 84, 56, 35, 21, 14, 2
+66041, 66328, 1, "OK", 1, 6, 7, 2, 2, 0, 1, 5
+64628, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+69114, 69884, 1, "OK", 2, 17, 10, 8, 8, 0, 1, 2
+69901, 70060, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+63253, 63725, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63503, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldInfo fieldInfo Field field Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 84, 56, 35, 21, 14, 2
+63569, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Field field Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 84, 56, 35, 21, 14, 2
+70395, 70627, 1, "OK", 4, 6, 7, 3, 2, 1, 2, 2
+71803, 72034, 1, "OK", 3, 4, 5, 2, 2, 0, 1, 3
+62989, 72923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 166, 166, 74, 92, 35, 0
+69709, 69884, 1, "OK", 2, 5, 2, 2, 2, 0, 0, 2
+63627, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+68867, 72955, 1, "OK", 7, 96, 70, 70, 33, 37, 17, 0
+65922, 66457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 3, 1, 1, 4
+63412, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+64089, 64408, 1, "OK", 1, 8, 6, 3, 3, 0, 1, 3
+63627, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+66041, 66431, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+70900, 71454, 1, "OK", 5, 10, 17, 8, 5, 3, 3, 3
+63412, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+68912, 70105, 1, "OK", 5, 28, 15, 12, 10, 2, 3, 1
+64752, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 56, 29, 19, 10, 9, 3
+70125, 72955, 1, "OK", 5, 65, 54, 54, 22, 32, 14, 0
+63298, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+64055, 64486, 1, "OK", 1, 11, 6, 3, 3, 0, 1, 3
+62989, 68858, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+62989, 72955, 1, "OK", 2, 231, 166, 166, 74, 92, 35, 0
+64810, 65142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 2, 2, 0, 2, 4
+63742, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+66894, 67140, 1, "OK", 1, 5, 7, 2, 2, 0, 1, 5
+68681, 70115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object[] params Map<String, Integer> missFields", 0, 0, 16, 16, 11, 5, 3, 0
+63028, 68662, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+63253, 63794, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+66041, 66393, 1, "OK", 3, 8, 7, 2, 2, 0, 1, 5
+70716, 71486, 1, "OK", 2, 16, 22, 17, 7, 10, 5, 1
+68819, 72955, 1, "OK", 6, 97, 70, 70, 33, 37, 17, 0
+68912, 70074, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 15, 12, 10, 2, 3, 1
+70331, 70627, 1, "OK", 4, 7, 7, 3, 2, 1, 2, 2
+64628, 68262, 0, "Compilation unit does not compile after method extraction.", 7, 74, 72, 48, 28, 20, 12, 2
+70125, 72923, 1, "OK", 5, 63, 54, 54, 22, 32, 14, 0
+69199, 69884, 1, "OK", 2, 15, 7, 7, 7, 0, 0, 2
+64089, 64486, 1, "OK", 1, 10, 6, 3, 3, 0, 1, 3
+71279, 71454, 1, "OK", 4, 3, 1, 1, 1, 0, 0, 3
+66542, 67271, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 2, 4
+63348, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+64055, 64562, 1, "OK", 4, 12, 6, 3, 3, 0, 1, 3
+70716, 72609, 1, "OK", 3, 40, 40, 30, 15, 15, 10, 1
+66846, 67140, 1, "OK", 1, 6, 7, 2, 2, 0, 1, 5
+63348, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+63812, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+69114, 70060, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 13, 9, 9, 0, 2, 2
+63412, 63485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+68964, 70105, 1, "OK", 5, 27, 15, 12, 10, 2, 3, 1
+63298, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+66894, 67207, 1, "OK", 3, 7, 7, 2, 2, 0, 1, 5
+69797, 69884, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 2
+63180, 68624, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 76, 39, 37, 18, 1
+63028, 68725, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+65981, 66328, 1, "OK", 1, 7, 7, 2, 2, 0, 1, 5
+70753, 71486, 1, "OK", 3, 15, 22, 17, 7, 10, 5, 1
+69054, 69884, 1, "OK", 2, 18, 10, 8, 8, 0, 1, 2
+69114, 70009, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 13, 9, 9, 0, 2, 2
+63298, 63485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+64055, 64592, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 3, 3, 0, 1, 3
+64089, 64562, 1, "OK", 4, 11, 6, 3, 3, 0, 1, 3
+68681, 70651, 1, "OK", 1, 49, 26, 26, 15, 11, 6, 0
+63028, 68766, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+68964, 70074, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 15, 12, 10, 2, 3, 1
+63180, 68652, 1, "OK", 3, 123, 94, 76, 39, 37, 18, 1
+66894, 67245, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+68734, 70115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object[] params Map<String, Integer> missFields", 0, 0, 16, 16, 11, 5, 3, 0
+64089, 64592, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 3, 3, 0, 1, 3
+63028, 68810, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+66846, 67207, 1, "OK", 3, 8, 7, 2, 2, 0, 1, 5
+63682, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+63412, 63552, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+68775, 72955, 1, "OK", 5, 98, 70, 70, 33, 37, 17, 0
+63348, 63485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63812, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+65981, 66393, 1, "OK", 3, 9, 7, 2, 2, 0, 1, 5
+68734, 70651, 1, "OK", 2, 48, 26, 26, 15, 11, 6, 0
+67299, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 2, 2, 0, 0, 3
+63298, 63552, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63412, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 87, 57, 36, 21, 15, 2
+66727, 67271, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 8, 4, 3, 1, 1, 4
+72303, 72595, 1, "OK", 2, 6, 3, 1, 1, 0, 1, 2
+63627, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 7, 1, 2, 2
+70236, 70627, 1, "OK", 3, 10, 7, 3, 2, 1, 2, 2
+63742, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 84, 56, 35, 21, 14, 2
+65170, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 42, 24, 16, 8, 6, 3
+63412, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 8, 1, 3, 2
+68775, 72923, 1, "OK", 5, 96, 70, 70, 33, 37, 17, 0
+63028, 72923, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 166, 166, 74, 92, 35, 0
+69286, 69884, 1, "OK", 2, 13, 6, 6, 6, 0, 0, 2
+63117, 68624, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 94, 76, 39, 37, 18, 1
+63742, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 7, 1, 2, 2
+70854, 71454, 1, "OK", 4, 11, 17, 8, 5, 3, 3, 3
+63253, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+69017, 70105, 1, "OK", 5, 25, 15, 12, 10, 2, 3, 1
+65981, 66431, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+70753, 72609, 1, "OK", 4, 39, 40, 30, 15, 15, 10, 1
+63253, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 75, 49, 29, 20, 13, 2
+68819, 70115, 1, "OK", 4, 31, 16, 16, 11, 5, 3, 0
+63348, 63552, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+70661, 72923, 1, "OK", 3, 48, 44, 44, 18, 26, 11, 0
+63028, 72955, 1, "OK", 3, 229, 166, 166, 74, 92, 35, 0
+63627, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 84, 56, 35, 21, 14, 2
+63028, 68858, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+63412, 63610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63682, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+69054, 70009, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 13, 9, 9, 0, 2, 2
+63117, 68652, 0, "Ambiguous return value: Expression, access to local or return statement extracted.", 0, 0, 94, 76, 39, 37, 18, 1
+68867, 70115, 1, "OK", 5, 30, 16, 16, 11, 5, 3, 0
+63348, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 87, 57, 36, 21, 15, 2
+63412, 63664, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63627, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 84, 56, 35, 21, 14, 2
+69017, 70074, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 15, 12, 10, 2, 3, 1
+63298, 63610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+72625, 72923, 1, "OK", 2, 7, 3, 3, 2, 1, 1, 0
+62989, 70115, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 52, 60, 21, 0
+63412, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldInfo fieldInfo Field field Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 87, 57, 36, 21, 15, 2
+72675, 72913, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+63298, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 87, 57, 36, 21, 15, 2
+65683, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 30, 18, 12, 6, 4, 3
+66846, 67245, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+63348, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 8, 1, 3, 2
+70945, 71251, 1, "OK", 2, 6, 12, 4, 3, 1, 2, 4
+63742, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONField fieldAnnation String format", 0, 0, 84, 56, 35, 21, 14, 2
+63180, 68276, 1, "OK", 3, 110, 89, 73, 37, 36, 16, 1
+68867, 70651, 1, "OK", 5, 45, 26, 26, 15, 11, 6, 0
+70520, 70609, 1, "OK", 3, 3, 4, 1, 1, 0, 1, 3
+63503, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+63569, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+63298, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 8, 1, 3, 2
+69503, 69884, 1, "OK", 2, 9, 4, 4, 4, 0, 0, 2
+63812, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 7, 1, 2, 2
+66786, 67140, 1, "OK", 1, 7, 7, 2, 2, 0, 1, 5
+63503, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+63569, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 72, 48, 28, 20, 12, 2
+68290, 68652, 1, "OK", 1, 12, 5, 3, 2, 1, 2, 1
+68342, 68576, 1, "OK", 1, 6, 3, 1, 1, 0, 1, 2
+68375, 68576, 0, "Compilation unit does not compile after method extraction.", 2, 5, 3, 1, 1, 0, 1, 2
+70792, 71472, 1, "OK", 3, 13, 20, 12, 6, 6, 4, 2
+70125, 70651, 1, "OK", 3, 14, 10, 10, 4, 6, 3, 0
+69054, 70060, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, Integer> missFields Object param", 0, 0, 13, 9, 9, 0, 2, 2
+71576, 72265, 1, "OK", 2, 14, 11, 5, 4, 1, 3, 2
+62989, 70651, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 122, 122, 56, 66, 24, 0
+68681, 72923, 1, "OK", 3, 98, 70, 70, 33, 37, 17, 0
+63253, 63485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63348, 63610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+69605, 69884, 1, "OK", 2, 7, 3, 3, 3, 0, 0, 2
+63348, 63664, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+71747, 72034, 1, "OK", 3, 5, 5, 2, 2, 0, 1, 3
+63412, 63725, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+68819, 70651, 1, "OK", 4, 46, 26, 26, 15, 11, 6, 0
+63348, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldInfo fieldInfo Field field Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 87, 57, 36, 21, 15, 2
+67494, 68209, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object value String format", 0, 0, 12, 8, 7, 1, 2, 2
+68290, 68624, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 5, 3, 2, 1, 2, 1
+65480, 65655, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+63298, 63664, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63812, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 84, 56, 35, 21, 14, 2
+65224, 65397, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+70661, 72955, 1, "OK", 3, 50, 44, 44, 18, 26, 11, 0
+63298, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldInfo fieldInfo Field field Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 87, 57, 36, 21, 15, 2
+67544, 68209, 1, "OK", 4, 11, 12, 8, 7, 1, 2, 2
+71681, 72056, 1, "OK", 2, 7, 8, 4, 3, 1, 2, 2
+64628, 67476, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 60, 40, 21, 19, 10, 2
+64810, 64964, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 5, 1, 1, 0, 1, 4
+66786, 67207, 1, "OK", 3, 9, 7, 2, 2, 0, 1, 5
+67927, 68191, 1, "OK", 3, 5, 5, 2, 2, 0, 1, 3
+64628, 67527, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 60, 40, 21, 19, 10, 2
+63253, 63552, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+62989, 68662, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+63117, 68276, 1, "OK", 2, 112, 89, 73, 37, 36, 16, 1
+63412, 63794, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+67494, 68262, 1, "OK", 6, 14, 12, 8, 7, 1, 2, 2
+63253, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 87, 57, 36, 21, 15, 2
+63348, 63725, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+70441, 70609, 1, "OK", 4, 4, 4, 1, 1, 0, 1, 3
+68342, 68610, 1, "OK", 1, 8, 3, 1, 1, 0, 1, 2
+68375, 68610, 0, "Compilation unit does not compile after method extraction.", 2, 7, 3, 1, 1, 0, 1, 2
+67544, 68262, 1, "OK", 6, 13, 12, 8, 7, 1, 2, 2
+63682, 68209, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 84, 56, 35, 21, 14, 2
+63253, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 15, 9, 8, 1, 3, 2
+68681, 72955, 1, "OK", 3, 100, 70, 70, 33, 37, 17, 0
+63298, 63725, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+66087, 66328, 1, "OK", 1, 5, 7, 2, 2, 0, 1, 5
+71500, 72609, 1, "OK", 3, 23, 18, 13, 8, 5, 5, 1
+64697, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 56, 29, 19, 10, 9, 3
+63812, 68262, 0, "Compilation unit does not compile after method extraction.", 9, 93, 84, 56, 35, 21, 14, 2
+63682, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 7, 1, 2, 2
+65425, 67458, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 36, 21, 14, 7, 5, 3
+65739, 66457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 13, 5, 4, 1, 2, 4
+67681, 68209, 1, "OK", 4, 9, 8, 6, 5, 1, 1, 2
+68775, 70651, 1, "OK", 3, 47, 26, 26, 15, 11, 6, 0
+62989, 68725, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+68867, 72923, 1, "OK", 7, 94, 70, 70, 33, 37, 17, 0
+63253, 63610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+66087, 66431, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+70163, 70641, 1, "OK", 3, 12, 9, 6, 3, 3, 3, 1
+68734, 72955, 1, "OK", 4, 99, 70, 70, 33, 37, 17, 0
+63348, 63794, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+63253, 63664, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+71034, 71225, 1, "OK", 2, 4, 6, 1, 1, 0, 1, 5
+71602, 72056, 1, "OK", 1, 9, 8, 4, 3, 1, 2, 2
+63503, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 7, 1, 2, 2
+62989, 68766, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 96, 96, 41, 55, 18, 0
+63253, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  FieldInfo fieldInfo Field field Type paramType Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 87, 57, 36, 21, 15, 2
+66786, 67245, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 7, 2, 2, 0, 1, 5
+63569, 64610, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 12, 8, 7, 1, 2, 2
+63028, 70115, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 112, 112, 52, 60, 21, 0
+63298, 63794, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 3, 1, 1, 0, 1, 2
+69901, 70009, 1, "OK", 1, 3, 3, 1, 1, 0, 1, 2
+66087, 66393, 1, "OK", 3, 7, 7, 2, 2, 0, 1, 5
+63682, 68262, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Class<?> fieldClass JSONField fieldAnnation String format", 0, 0, 84, 56, 35, 21, 14, 2
+68775, 70115, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Object[] params Map<String, Integer> missFields", 0, 0, 16, 16, 11, 5, 3, 0
+68734, 72923, 1, "OK", 4, 97, 70, 70, 33, 37, 17, 0

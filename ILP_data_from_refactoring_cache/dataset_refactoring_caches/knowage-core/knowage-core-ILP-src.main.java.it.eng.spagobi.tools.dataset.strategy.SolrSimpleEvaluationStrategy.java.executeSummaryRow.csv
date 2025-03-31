@@ -1,0 +1,53 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3321, 5147, 1, "OK", 3, 41, 16, 16, 7, 9, 4, 0
+3595, 3951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, FieldStatsInfo> fieldStatsInfo IRecord summaryRow", 0, 0, 1, 1, 1, 0, 0, 0
+3372, 3951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, FieldStatsInfo> fieldStatsInfo IRecord summaryRow", 0, 0, 1, 1, 1, 0, 0, 0
+3697, 5147, 1, "OK", 4, 36, 16, 16, 7, 9, 4, 0
+3321, 5168, 1, "OK", 3, 43, 16, 16, 7, 9, 4, 0
+3908, 5147, 1, "OK", 3, 30, 15, 15, 6, 9, 4, 0
+4159, 5047, 1, "OK", 6, 23, 14, 10, 5, 5, 4, 1
+3743, 5147, 0, "Compilation unit does not compile after method extraction.", 5, 35, 16, 16, 7, 9, 4, 0
+3697, 5168, 1, "OK", 4, 38, 16, 16, 7, 9, 4, 0
+3321, 5051, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore IRecord summaryRow", 0, 0, 16, 16, 7, 9, 4, 0
+4647, 5036, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+3446, 5147, 1, "OK", 4, 38, 16, 16, 7, 9, 4, 0
+3321, 3905, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore Map<String, FieldStatsInfo> fieldStatsInfo", 0, 0, 1, 1, 1, 0, 0, 0
+3697, 5051, 1, "OK", 4, 34, 16, 16, 7, 9, 4, 0
+3954, 5147, 1, "OK", 4, 29, 15, 15, 6, 9, 4, 0
+3908, 5168, 1, "OK", 3, 32, 15, 15, 6, 9, 4, 0
+3595, 5147, 1, "OK", 4, 37, 16, 16, 7, 9, 4, 0
+3697, 3905, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+3372, 5147, 1, "OK", 3, 39, 16, 16, 7, 9, 4, 0
+3743, 5168, 0, "Compilation unit does not compile after method extraction.", 5, 37, 16, 16, 7, 9, 4, 0
+4310, 4623, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+3908, 5051, 1, "OK", 3, 28, 15, 15, 6, 9, 4, 0
+3446, 5168, 1, "OK", 4, 40, 16, 16, 7, 9, 4, 0
+3743, 5051, 0, "Compilation unit does not compile after method extraction.", 5, 33, 16, 16, 7, 9, 4, 0
+3954, 5168, 1, "OK", 4, 31, 15, 15, 6, 9, 4, 0
+3743, 3905, 0, "Compilation unit does not compile after method extraction.", 3, 5, 1, 1, 1, 0, 0, 0
+3372, 5168, 1, "OK", 3, 41, 16, 16, 7, 9, 4, 0
+3446, 5051, 1, "OK", 4, 36, 16, 16, 7, 9, 4, 0
+3595, 5168, 1, "OK", 4, 39, 16, 16, 7, 9, 4, 0
+3321, 5089, 1, "OK", 3, 40, 16, 16, 7, 9, 4, 0
+3954, 5051, 1, "OK", 4, 27, 15, 15, 6, 9, 4, 0
+3446, 3905, 1, "OK", 3, 8, 1, 1, 1, 0, 0, 0
+3595, 5051, 1, "OK", 4, 35, 16, 16, 7, 9, 4, 0
+3697, 5089, 1, "OK", 4, 35, 16, 16, 7, 9, 4, 0
+3372, 5051, 1, "OK", 3, 37, 16, 16, 7, 9, 4, 0
+3321, 3951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IDataStore dataStore Map<String, FieldStatsInfo> fieldStatsInfo IRecord summaryRow", 0, 0, 1, 1, 1, 0, 0, 0
+3595, 3905, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+4223, 5042, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 12, 6, 4, 2, 3, 2
+3372, 3905, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+4723, 5036, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+3697, 3951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, FieldStatsInfo> fieldStatsInfo IRecord summaryRow", 0, 0, 1, 1, 1, 0, 0, 0
+4025, 5047, 1, "OK", 5, 25, 14, 10, 5, 5, 4, 1
+3908, 5089, 1, "OK", 3, 29, 15, 15, 6, 9, 4, 0
+3743, 5089, 0, "Compilation unit does not compile after method extraction.", 5, 34, 16, 16, 7, 9, 4, 0
+4262, 4623, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 4, 1, 1, 0, 1, 3
+3446, 5089, 1, "OK", 4, 37, 16, 16, 7, 9, 4, 0
+3743, 3951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, FieldStatsInfo> fieldStatsInfo IRecord summaryRow", 0, 0, 1, 1, 1, 0, 0, 0
+3954, 5089, 1, "OK", 4, 28, 15, 15, 6, 9, 4, 0
+3595, 5089, 1, "OK", 4, 36, 16, 16, 7, 9, 4, 0
+3372, 5089, 1, "OK", 3, 38, 16, 16, 7, 9, 4, 0
+4096, 5047, 1, "OK", 5, 24, 14, 10, 5, 5, 4, 1
+3446, 3951, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  Map<String, FieldStatsInfo> fieldStatsInfo IRecord summaryRow", 0, 0, 1, 1, 1, 0, 0, 0

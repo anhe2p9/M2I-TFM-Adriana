@@ -1,0 +1,764 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+12010, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12489, 15343, 1, "OK", 3, 59, 15, 15, 9, 6, 4, 0
+11731, 15289, 1, "OK", 4, 73, 16, 16, 10, 6, 4, 0
+11731, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 14985, 1, "OK", 3, 58, 16, 16, 10, 6, 4, 0
+11778, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11897, 15258, 1, "OK", 2, 68, 16, 16, 10, 6, 4, 0
+11960, 15364, 1, "OK", 2, 71, 16, 16, 10, 6, 4, 0
+12218, 12486, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+11676, 14948, 1, "OK", 3, 66, 16, 16, 10, 6, 4, 0
+12137, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+11610, 14948, 1, "OK", 3, 68, 16, 16, 10, 6, 4, 0
+13751, 14110, 1, "OK", 4, 8, 1, 1, 1, 0, 0, 0
+11960, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13285, 15258, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+13316, 15320, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+11872, 15024, 1, "OK", 3, 64, 16, 16, 10, 6, 4, 0
+12218, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 15091, 1, "OK", 2, 62, 16, 16, 10, 6, 4, 0
+13388, 14110, 1, "OK", 3, 14, 1, 1, 1, 0, 0, 0
+12068, 14070, 1, "OK", 0, 36, 2, 2, 2, 0, 0, 0
+12489, 15364, 1, "OK", 3, 60, 15, 15, 9, 6, 4, 0
+13100, 13827, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+12010, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11731, 15320, 1, "OK", 4, 74, 16, 16, 10, 6, 4, 0
+11897, 15289, 1, "OK", 2, 69, 16, 16, 10, 6, 4, 0
+11897, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11610, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12441, 14822, 1, "OK", 2, 48, 15, 15, 9, 6, 4, 0
+11778, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13316, 15343, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+11676, 14985, 1, "OK", 3, 67, 16, 16, 10, 6, 4, 0
+11815, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11960, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 15024, 1, "OK", 3, 59, 16, 16, 10, 6, 4, 0
+11676, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+12272, 14948, 1, "OK", 3, 54, 16, 16, 10, 6, 4, 0
+13285, 15289, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+11610, 14985, 1, "OK", 3, 69, 16, 16, 10, 6, 4, 0
+11731, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 15055, 1, "OK", 3, 65, 16, 16, 10, 6, 4, 0
+11731, 15343, 1, "OK", 4, 75, 16, 16, 10, 6, 4, 0
+12937, 14822, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+11960, 12342, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+11610, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+12068, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12010, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12692, 15258, 1, "OK", 3, 53, 15, 15, 9, 6, 4, 0
+12137, 15055, 1, "OK", 3, 60, 16, 16, 10, 6, 4, 0
+12068, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13100, 13869, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+11897, 15320, 1, "OK", 2, 70, 16, 16, 10, 6, 4, 0
+13316, 15364, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+11731, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13518, 15258, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+12441, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 15024, 1, "OK", 3, 68, 16, 16, 10, 6, 4, 0
+11872, 15091, 1, "OK", 3, 66, 16, 16, 10, 6, 4, 0
+12272, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13188, 15258, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+11610, 15024, 1, "OK", 3, 70, 16, 16, 10, 6, 4, 0
+11872, 14070, 1, "OK", 1, 40, 2, 2, 2, 0, 0, 0
+11897, 15343, 1, "OK", 2, 71, 16, 16, 10, 6, 4, 0
+13285, 15320, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+12218, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 15364, 1, "OK", 4, 76, 16, 16, 10, 6, 4, 0
+11960, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 14985, 1, "OK", 3, 55, 16, 16, 10, 6, 4, 0
+14113, 15258, 1, "OK", 3, 28, 14, 14, 8, 6, 4, 0
+12937, 13827, 1, "OK", 1, 18, 1, 1, 1, 0, 0, 0
+12692, 15289, 1, "OK", 3, 54, 15, 15, 9, 6, 4, 0
+12272, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+11815, 14822, 1, "OK", 3, 61, 16, 16, 10, 6, 4, 0
+11778, 14948, 1, "OK", 4, 64, 16, 16, 10, 6, 4, 0
+13830, 14822, 1, "OK", 5, 24, 14, 14, 8, 6, 4, 0
+11731, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 15364, 1, "OK", 2, 72, 16, 16, 10, 6, 4, 0
+13518, 15289, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+12137, 14070, 1, "OK", 1, 35, 2, 2, 2, 0, 0, 0
+11897, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13285, 15343, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+12137, 15091, 1, "OK", 3, 61, 16, 16, 10, 6, 4, 0
+13188, 15289, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+11676, 15055, 1, "OK", 3, 69, 16, 16, 10, 6, 4, 0
+11610, 15055, 1, "OK", 3, 71, 16, 16, 10, 6, 4, 0
+12441, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11872, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12010, 14948, 1, "OK", 2, 59, 16, 16, 10, 6, 4, 0
+13100, 14948, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+14113, 15289, 1, "OK", 3, 29, 14, 14, 8, 6, 4, 0
+11778, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 12342, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+11897, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13751, 15258, 1, "OK", 5, 36, 15, 15, 9, 6, 4, 0
+12692, 15320, 1, "OK", 3, 55, 15, 15, 9, 6, 4, 0
+12937, 13869, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+13285, 15364, 1, "OK", 4, 49, 15, 15, 9, 6, 4, 0
+12272, 15024, 1, "OK", 3, 56, 16, 16, 10, 6, 4, 0
+13388, 15258, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+11778, 14985, 1, "OK", 4, 65, 16, 16, 10, 6, 4, 0
+13518, 15320, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+11872, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+13188, 15320, 1, "OK", 4, 49, 15, 15, 9, 6, 4, 0
+11778, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+11610, 14070, 1, "OK", 1, 46, 2, 2, 2, 0, 0, 0
+12010, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13100, 14985, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+11960, 12438, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+12692, 15343, 1, "OK", 3, 56, 15, 15, 9, 6, 4, 0
+11897, 12342, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+12068, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+14658, 14813, 1, "OK", 2, 4, 4, 2, 2, 0, 1, 2
+11676, 15091, 1, "OK", 3, 70, 16, 16, 10, 6, 4, 0
+11676, 14070, 1, "OK", 1, 44, 2, 2, 2, 0, 0, 0
+14113, 15320, 1, "OK", 3, 30, 14, 14, 8, 6, 4, 0
+11610, 15091, 1, "OK", 3, 72, 16, 16, 10, 6, 4, 0
+13100, 13969, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+11815, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12137, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13518, 15343, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+12010, 14985, 1, "OK", 2, 60, 16, 16, 10, 6, 4, 0
+13751, 15289, 1, "OK", 5, 37, 15, 15, 9, 6, 4, 0
+12272, 15055, 1, "OK", 3, 57, 16, 16, 10, 6, 4, 0
+13388, 15289, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+14113, 15343, 1, "OK", 3, 31, 14, 14, 8, 6, 4, 0
+11778, 15024, 1, "OK", 4, 66, 16, 16, 10, 6, 4, 0
+12218, 12648, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+12441, 14948, 1, "OK", 2, 50, 15, 15, 9, 6, 4, 0
+13188, 15343, 1, "OK", 4, 50, 15, 15, 9, 6, 4, 0
+12346, 14822, 1, "OK", 3, 49, 15, 15, 9, 6, 4, 0
+12010, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+13518, 15364, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+11872, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 15258, 1, "OK", 2, 65, 16, 16, 10, 6, 4, 0
+11897, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12692, 15364, 1, "OK", 3, 57, 15, 15, 9, 6, 4, 0
+12937, 14948, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+11610, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12272, 14070, 1, "OK", 1, 32, 2, 2, 2, 0, 0, 0
+12010, 15024, 1, "OK", 2, 61, 16, 16, 10, 6, 4, 0
+12272, 15091, 1, "OK", 3, 58, 16, 16, 10, 6, 4, 0
+14113, 15364, 1, "OK", 3, 32, 14, 14, 8, 6, 4, 0
+13100, 15024, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+13751, 15320, 1, "OK", 5, 38, 15, 15, 9, 6, 4, 0
+11676, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+13188, 15364, 1, "OK", 4, 51, 15, 15, 9, 6, 4, 0
+11960, 12486, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+11676, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 15055, 1, "OK", 4, 67, 16, 16, 10, 6, 4, 0
+12137, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13388, 15320, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+12346, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11960, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 15289, 1, "OK", 2, 66, 16, 16, 10, 6, 4, 0
+11610, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12441, 14985, 1, "OK", 2, 51, 15, 15, 9, 6, 4, 0
+13830, 14948, 1, "OK", 5, 26, 14, 14, 8, 6, 4, 0
+11815, 14948, 1, "OK", 3, 63, 16, 16, 10, 6, 4, 0
+12441, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13751, 15343, 1, "OK", 5, 39, 15, 15, 9, 6, 4, 0
+11731, 12438, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+13100, 15055, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+13388, 15343, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+12010, 15055, 1, "OK", 2, 62, 16, 16, 10, 6, 4, 0
+11872, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12937, 14985, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+13702, 14822, 1, "OK", 4, 28, 15, 15, 9, 6, 4, 0
+13751, 15364, 1, "OK", 5, 40, 15, 15, 9, 6, 4, 0
+12272, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+14468, 14641, 1, "OK", 3, 4, 4, 2, 2, 0, 1, 2
+14198, 14818, 1, "OK", 3, 16, 13, 9, 7, 2, 4, 1
+12937, 13969, 1, "OK", 1, 21, 1, 1, 1, 0, 0, 0
+11778, 14070, 1, "OK", 2, 42, 2, 2, 2, 0, 0, 0
+12068, 15320, 1, "OK", 2, 67, 16, 16, 10, 6, 4, 0
+12346, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 15091, 1, "OK", 4, 68, 16, 16, 10, 6, 4, 0
+11610, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13702, 13827, 1, "OK", 0, 4, 1, 1, 1, 0, 0, 0
+12068, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 12438, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+12137, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 15258, 1, "OK", 3, 69, 16, 16, 10, 6, 4, 0
+12441, 15024, 1, "OK", 2, 52, 15, 15, 9, 6, 4, 0
+13388, 15364, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+13830, 14985, 1, "OK", 5, 27, 14, 14, 8, 6, 4, 0
+11815, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 14985, 1, "OK", 3, 64, 16, 16, 10, 6, 4, 0
+12010, 14070, 1, "OK", 0, 37, 2, 2, 2, 0, 0, 0
+12068, 15343, 1, "OK", 2, 68, 16, 16, 10, 6, 4, 0
+13100, 14070, 1, "OK", 2, 20, 1, 1, 1, 0, 0, 0
+11815, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+12937, 15024, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+13100, 15091, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+12010, 15091, 1, "OK", 2, 63, 16, 16, 10, 6, 4, 0
+11960, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 12486, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+12441, 15055, 1, "OK", 2, 53, 15, 15, 9, 6, 4, 0
+12137, 15258, 1, "OK", 3, 64, 16, 16, 10, 6, 4, 0
+11778, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12068, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 15289, 1, "OK", 3, 70, 16, 16, 10, 6, 4, 0
+12272, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12937, 15055, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+11676, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 15364, 1, "OK", 2, 69, 16, 16, 10, 6, 4, 0
+11897, 12486, 1, "OK", 0, 12, 1, 1, 1, 0, 0, 0
+12218, 14822, 1, "OK", 3, 53, 16, 16, 10, 6, 4, 0
+11610, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12346, 14948, 1, "OK", 3, 51, 15, 15, 9, 6, 4, 0
+13830, 15024, 1, "OK", 5, 28, 14, 14, 8, 6, 4, 0
+13702, 13869, 1, "OK", 0, 5, 1, 1, 1, 0, 0, 0
+11815, 15024, 1, "OK", 3, 65, 16, 16, 10, 6, 4, 0
+12010, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12218, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 15289, 1, "OK", 3, 65, 16, 16, 10, 6, 4, 0
+12137, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13100, 14110, 1, "OK", 3, 21, 1, 1, 1, 0, 0, 0
+11897, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12441, 14070, 1, "OK", 0, 28, 1, 1, 1, 0, 0, 0
+12068, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 15258, 1, "OK", 3, 73, 16, 16, 10, 6, 4, 0
+11872, 15320, 1, "OK", 3, 71, 16, 16, 10, 6, 4, 0
+12441, 15091, 1, "OK", 2, 54, 15, 15, 9, 6, 4, 0
+11610, 15258, 1, "OK", 3, 75, 16, 16, 10, 6, 4, 0
+12010, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12937, 14070, 1, "OK", 2, 22, 1, 1, 1, 0, 0, 0
+13243, 14822, 1, "OK", 4, 37, 15, 15, 9, 6, 4, 0
+11815, 15055, 1, "OK", 3, 66, 16, 16, 10, 6, 4, 0
+12218, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13830, 15055, 1, "OK", 5, 29, 14, 14, 8, 6, 4, 0
+12937, 15091, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+11778, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 15343, 1, "OK", 3, 72, 16, 16, 10, 6, 4, 0
+12137, 15320, 1, "OK", 3, 66, 16, 16, 10, 6, 4, 0
+12068, 12342, 1, "OK", 0, 6, 1, 1, 1, 0, 0, 0
+12346, 14985, 1, "OK", 3, 52, 15, 15, 9, 6, 4, 0
+11676, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13702, 14948, 1, "OK", 4, 30, 15, 15, 9, 6, 4, 0
+11610, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 15289, 1, "OK", 3, 74, 16, 16, 10, 6, 4, 0
+12346, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 15364, 1, "OK", 3, 73, 16, 16, 10, 6, 4, 0
+12441, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 15343, 1, "OK", 3, 67, 16, 16, 10, 6, 4, 0
+12068, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11610, 15289, 1, "OK", 3, 76, 16, 16, 10, 6, 4, 0
+11872, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 15091, 1, "OK", 3, 67, 16, 16, 10, 6, 4, 0
+12010, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13145, 14822, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+13830, 15091, 1, "OK", 5, 30, 14, 14, 8, 6, 4, 0
+12272, 15258, 1, "OK", 3, 61, 16, 16, 10, 6, 4, 0
+13243, 13827, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+12937, 14110, 1, "OK", 3, 23, 1, 1, 1, 0, 0, 0
+11897, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12346, 15024, 1, "OK", 3, 53, 15, 15, 9, 6, 4, 0
+12218, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11960, 12648, 1, "OK", 0, 13, 1, 1, 1, 0, 0, 0
+11815, 14070, 1, "OK", 1, 41, 2, 2, 2, 0, 0, 0
+11676, 15320, 1, "OK", 3, 75, 16, 16, 10, 6, 4, 0
+12137, 15364, 1, "OK", 3, 68, 16, 16, 10, 6, 4, 0
+11610, 15320, 1, "OK", 3, 77, 16, 16, 10, 6, 4, 0
+12137, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13702, 14985, 1, "OK", 4, 31, 15, 15, 9, 6, 4, 0
+11778, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13702, 13969, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+11610, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 15289, 1, "OK", 3, 62, 16, 16, 10, 6, 4, 0
+13145, 13827, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+12272, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12346, 15055, 1, "OK", 3, 54, 15, 15, 9, 6, 4, 0
+13873, 14822, 1, "OK", 5, 22, 14, 14, 8, 6, 4, 0
+11676, 15343, 1, "OK", 3, 76, 16, 16, 10, 6, 4, 0
+11872, 12342, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+12137, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11610, 15343, 1, "OK", 3, 78, 16, 16, 10, 6, 4, 0
+13243, 13869, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+13972, 14822, 1, "OK", 4, 21, 14, 14, 8, 6, 4, 0
+11778, 15258, 1, "OK", 4, 71, 16, 16, 10, 6, 4, 0
+11815, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12010, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13100, 15258, 1, "OK", 4, 49, 15, 15, 9, 6, 4, 0
+12137, 12342, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+11676, 15364, 1, "OK", 3, 77, 16, 16, 10, 6, 4, 0
+11610, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 14948, 1, "OK", 3, 55, 16, 16, 10, 6, 4, 0
+13702, 15024, 1, "OK", 4, 32, 15, 15, 9, 6, 4, 0
+11610, 15364, 1, "OK", 3, 79, 16, 16, 10, 6, 4, 0
+11872, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 15320, 1, "OK", 3, 63, 16, 16, 10, 6, 4, 0
+11778, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 12648, 1, "OK", 2, 18, 1, 1, 1, 0, 0, 0
+13145, 13869, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+12010, 15258, 1, "OK", 2, 66, 16, 16, 10, 6, 4, 0
+12272, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 12438, 1, "OK", 0, 8, 1, 1, 1, 0, 0, 0
+11960, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+12346, 14070, 1, "OK", 1, 29, 1, 1, 1, 0, 0, 0
+12346, 15091, 1, "OK", 3, 55, 15, 15, 9, 6, 4, 0
+11778, 15289, 1, "OK", 4, 72, 16, 16, 10, 6, 4, 0
+11676, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11610, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13346, 14822, 1, "OK", 4, 34, 15, 15, 9, 6, 4, 0
+12137, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 15343, 1, "OK", 3, 64, 16, 16, 10, 6, 4, 0
+12218, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13100, 15289, 1, "OK", 4, 50, 15, 15, 9, 6, 4, 0
+14073, 14822, 1, "OK", 3, 20, 14, 14, 8, 6, 4, 0
+12010, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13243, 14948, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+13702, 15055, 1, "OK", 4, 33, 15, 15, 9, 6, 4, 0
+14139, 14818, 1, "OK", 3, 17, 13, 9, 7, 2, 4, 1
+12785, 14822, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+11778, 15320, 1, "OK", 4, 73, 16, 16, 10, 6, 4, 0
+12272, 15364, 1, "OK", 3, 65, 16, 16, 10, 6, 4, 0
+12272, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 12648, 1, "OK", 0, 14, 1, 1, 1, 0, 0, 0
+12010, 15289, 1, "OK", 2, 67, 16, 16, 10, 6, 4, 0
+12218, 14985, 1, "OK", 3, 56, 16, 16, 10, 6, 4, 0
+11610, 12342, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+14437, 14818, 1, "OK", 3, 11, 11, 8, 6, 2, 3, 1
+11676, 12342, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+12218, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+12346, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12441, 15258, 1, "OK", 2, 57, 15, 15, 9, 6, 4, 0
+13346, 13827, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+12068, 12486, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+13702, 15091, 1, "OK", 4, 34, 15, 15, 9, 6, 4, 0
+13243, 14985, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0
+11960, 14822, 1, "OK", 2, 58, 16, 16, 10, 6, 4, 0
+12010, 15320, 1, "OK", 2, 68, 16, 16, 10, 6, 4, 0
+13145, 14948, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+11676, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 15343, 1, "OK", 4, 74, 16, 16, 10, 6, 4, 0
+13100, 15320, 1, "OK", 4, 51, 15, 15, 9, 6, 4, 0
+12068, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 15024, 1, "OK", 3, 57, 16, 16, 10, 6, 4, 0
+13243, 13969, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+11872, 12438, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+11960, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12937, 15258, 1, "OK", 4, 51, 15, 15, 9, 6, 4, 0
+11610, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12785, 13827, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+12272, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13702, 14070, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+12489, 14822, 1, "OK", 3, 47, 15, 15, 9, 6, 4, 0
+12010, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12272, 12342, 1, "OK", 0, 2, 1, 1, 1, 0, 0, 0
+13100, 15343, 1, "OK", 4, 52, 15, 15, 9, 6, 4, 0
+12010, 15343, 1, "OK", 2, 69, 16, 16, 10, 6, 4, 0
+11778, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 15364, 1, "OK", 4, 75, 16, 16, 10, 6, 4, 0
+11731, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+12441, 15289, 1, "OK", 2, 58, 15, 15, 9, 6, 4, 0
+11960, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13346, 13869, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+12137, 12438, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+12218, 15055, 1, "OK", 3, 58, 16, 16, 10, 6, 4, 0
+13243, 15024, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+11815, 15258, 1, "OK", 3, 70, 16, 16, 10, 6, 4, 0
+13873, 14948, 1, "OK", 5, 24, 14, 14, 8, 6, 4, 0
+13830, 15258, 1, "OK", 5, 33, 14, 14, 8, 6, 4, 0
+12937, 15289, 1, "OK", 4, 52, 15, 15, 9, 6, 4, 0
+13145, 14985, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+13972, 14948, 1, "OK", 4, 23, 14, 14, 8, 6, 4, 0
+11897, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12785, 13869, 1, "OK", 1, 20, 1, 1, 1, 0, 0, 0
+12272, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12010, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12489, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+12010, 15364, 1, "OK", 2, 70, 16, 16, 10, 6, 4, 0
+13100, 15364, 1, "OK", 4, 53, 15, 15, 9, 6, 4, 0
+13145, 13969, 1, "OK", 1, 18, 1, 1, 1, 0, 0, 0
+13702, 14110, 1, "OK", 3, 9, 1, 1, 1, 0, 0, 0
+11872, 12486, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+13316, 14822, 1, "OK", 4, 35, 15, 15, 9, 6, 4, 0
+12441, 15320, 1, "OK", 2, 59, 15, 15, 9, 6, 4, 0
+11872, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 12342, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+13972, 14985, 1, "OK", 4, 24, 14, 14, 8, 6, 4, 0
+11731, 14822, 1, "OK", 4, 63, 16, 16, 10, 6, 4, 0
+12441, 15343, 1, "OK", 2, 60, 15, 15, 9, 6, 4, 0
+13830, 15289, 1, "OK", 5, 34, 14, 14, 8, 6, 4, 0
+11960, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12010, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13243, 15055, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+11815, 15289, 1, "OK", 3, 71, 16, 16, 10, 6, 4, 0
+12937, 15320, 1, "OK", 4, 53, 15, 15, 9, 6, 4, 0
+11815, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11610, 12438, 1, "OK", 1, 18, 1, 1, 1, 0, 0, 0
+11731, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12137, 12486, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+12218, 14070, 1, "OK", 1, 33, 2, 2, 2, 0, 0, 0
+12218, 15091, 1, "OK", 3, 59, 16, 16, 10, 6, 4, 0
+11676, 12438, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+13145, 15024, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+13873, 14985, 1, "OK", 5, 25, 14, 14, 8, 6, 4, 0
+12937, 15343, 1, "OK", 4, 54, 15, 15, 9, 6, 4, 0
+12489, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13346, 14948, 1, "OK", 4, 36, 15, 15, 9, 6, 4, 0
+12137, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13316, 13827, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+12010, 12342, 1, "OK", 0, 7, 1, 1, 1, 0, 0, 0
+12441, 15364, 1, "OK", 2, 61, 15, 15, 9, 6, 4, 0
+14073, 14948, 1, "OK", 3, 22, 14, 14, 8, 6, 4, 0
+11897, 14822, 1, "OK", 2, 59, 16, 16, 10, 6, 4, 0
+11778, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13145, 15055, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+12785, 14948, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+11897, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13830, 15320, 1, "OK", 5, 35, 14, 14, 8, 6, 4, 0
+11815, 15320, 1, "OK", 3, 72, 16, 16, 10, 6, 4, 0
+11815, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12937, 15364, 1, "OK", 4, 55, 15, 15, 9, 6, 4, 0
+13243, 14070, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+13972, 15024, 1, "OK", 4, 25, 14, 14, 8, 6, 4, 0
+13243, 15091, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+12272, 12438, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+12218, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+13285, 14822, 1, "OK", 4, 36, 15, 15, 9, 6, 4, 0
+12010, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13873, 15024, 1, "OK", 5, 26, 14, 14, 8, 6, 4, 0
+12346, 15258, 1, "OK", 3, 58, 15, 15, 9, 6, 4, 0
+11610, 12486, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+11872, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11960, 14948, 1, "OK", 2, 60, 16, 16, 10, 6, 4, 0
+11815, 15343, 1, "OK", 3, 73, 16, 16, 10, 6, 4, 0
+13316, 13869, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+13830, 15343, 1, "OK", 5, 36, 14, 14, 8, 6, 4, 0
+11676, 12486, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+11897, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13346, 14985, 1, "OK", 4, 37, 15, 15, 9, 6, 4, 0
+11676, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13346, 13969, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+11610, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+14073, 14985, 1, "OK", 3, 23, 14, 14, 8, 6, 4, 0
+13145, 14070, 1, "OK", 2, 19, 1, 1, 1, 0, 0, 0
+13285, 13827, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+13830, 15364, 1, "OK", 5, 37, 14, 14, 8, 6, 4, 0
+13873, 15055, 1, "OK", 5, 27, 14, 14, 8, 6, 4, 0
+12489, 14948, 1, "OK", 3, 49, 15, 15, 9, 6, 4, 0
+13972, 15055, 1, "OK", 4, 26, 14, 14, 8, 6, 4, 0
+11815, 15364, 1, "OK", 3, 74, 16, 16, 10, 6, 4, 0
+13145, 15091, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+11731, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11815, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12785, 14985, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+12068, 12648, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+12137, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13243, 14110, 1, "OK", 3, 18, 1, 1, 1, 0, 0, 0
+12346, 15289, 1, "OK", 3, 59, 15, 15, 9, 6, 4, 0
+12785, 13969, 1, "OK", 1, 22, 1, 1, 1, 0, 0, 0
+13346, 15024, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+11960, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11778, 12438, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+11897, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12272, 12486, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+13702, 15258, 1, "OK", 4, 37, 15, 15, 9, 6, 4, 0
+12692, 14822, 1, "OK", 3, 44, 15, 15, 9, 6, 4, 0
+11960, 14985, 1, "OK", 2, 61, 16, 16, 10, 6, 4, 0
+12218, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12346, 15320, 1, "OK", 3, 60, 15, 15, 9, 6, 4, 0
+12272, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+14073, 15024, 1, "OK", 3, 24, 14, 14, 8, 6, 4, 0
+11960, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+13518, 14822, 1, "OK", 4, 32, 15, 15, 9, 6, 4, 0
+13145, 14110, 1, "OK", 3, 20, 1, 1, 1, 0, 0, 0
+14113, 14822, 1, "OK", 3, 19, 14, 14, 8, 6, 4, 0
+13188, 14822, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+13873, 15091, 1, "OK", 5, 28, 14, 14, 8, 6, 4, 0
+12785, 15024, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+13972, 15091, 1, "OK", 4, 27, 14, 14, 8, 6, 4, 0
+12489, 14985, 1, "OK", 3, 50, 15, 15, 9, 6, 4, 0
+13316, 14948, 1, "OK", 4, 37, 15, 15, 9, 6, 4, 0
+12010, 12438, 1, "OK", 0, 9, 1, 1, 1, 0, 0, 0
+13346, 15055, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+12489, 13969, 1, "OK", 1, 26, 1, 1, 1, 0, 0, 0
+13285, 13869, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+12346, 15343, 1, "OK", 3, 61, 15, 15, 9, 6, 4, 0
+13518, 13827, 1, "OK", 1, 8, 1, 1, 1, 0, 0, 0
+14073, 15055, 1, "OK", 3, 25, 14, 14, 8, 6, 4, 0
+13702, 15289, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+11676, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11815, 12342, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+11610, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12692, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 14948, 1, "OK", 4, 65, 16, 16, 10, 6, 4, 0
+12785, 15055, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+11960, 15024, 1, "OK", 2, 62, 16, 16, 10, 6, 4, 0
+11778, 12486, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+13316, 14985, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+11815, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13188, 13827, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+13316, 13969, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+11897, 14948, 1, "OK", 2, 61, 16, 16, 10, 6, 4, 0
+11872, 12648, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+12218, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12346, 15364, 1, "OK", 3, 62, 15, 15, 9, 6, 4, 0
+12489, 15024, 1, "OK", 3, 51, 15, 15, 9, 6, 4, 0
+11778, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 14985, 1, "OK", 4, 66, 16, 16, 10, 6, 4, 0
+13346, 14070, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+14198, 14282, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+12068, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13346, 15091, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0
+13702, 15320, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+13751, 14822, 1, "OK", 5, 27, 15, 15, 9, 6, 4, 0
+12010, 12486, 1, "OK", 0, 10, 1, 1, 1, 0, 0, 0
+11731, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+12272, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12692, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11960, 15055, 1, "OK", 2, 63, 16, 16, 10, 6, 4, 0
+13388, 14822, 1, "OK", 4, 33, 15, 15, 9, 6, 4, 0
+14073, 15091, 1, "OK", 3, 26, 14, 14, 8, 6, 4, 0
+12785, 14070, 1, "OK", 2, 23, 1, 1, 1, 0, 0, 0
+12489, 15055, 1, "OK", 3, 52, 15, 15, 9, 6, 4, 0
+12137, 12648, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+12785, 15091, 1, "OK", 4, 49, 15, 15, 9, 6, 4, 0
+13285, 14948, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+13518, 13869, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+12010, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 15258, 1, "OK", 3, 62, 16, 16, 10, 6, 4, 0
+11897, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13316, 15024, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+13751, 13827, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+13188, 13869, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+13702, 15343, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0
+11897, 14985, 1, "OK", 2, 62, 16, 16, 10, 6, 4, 0
+11960, 15091, 1, "OK", 2, 64, 16, 16, 10, 6, 4, 0
+13702, 15364, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+11960, 14070, 1, "OK", 0, 38, 2, 2, 2, 0, 0, 0
+12218, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 15024, 1, "OK", 4, 67, 16, 16, 10, 6, 4, 0
+13346, 14110, 1, "OK", 3, 15, 1, 1, 1, 0, 0, 0
+11897, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+13388, 13827, 1, "OK", 1, 9, 1, 1, 1, 0, 0, 0
+13285, 14985, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+12068, 14822, 1, "OK", 2, 56, 16, 16, 10, 6, 4, 0
+12218, 15289, 1, "OK", 3, 63, 16, 16, 10, 6, 4, 0
+13243, 15258, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+11676, 12648, 1, "OK", 1, 19, 1, 1, 1, 0, 0, 0
+12489, 14070, 1, "OK", 1, 27, 1, 1, 1, 0, 0, 0
+12785, 14110, 1, "OK", 3, 24, 1, 1, 1, 0, 0, 0
+11610, 12648, 1, "OK", 1, 21, 1, 1, 1, 0, 0, 0
+13316, 15055, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0
+13285, 13969, 1, "OK", 1, 15, 1, 1, 1, 0, 0, 0
+12489, 15091, 1, "OK", 3, 53, 15, 15, 9, 6, 4, 0
+11778, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11872, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13518, 14948, 1, "OK", 4, 34, 15, 15, 9, 6, 4, 0
+13751, 13869, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+11815, 12438, 1, "OK", 1, 13, 1, 1, 1, 0, 0, 0
+12692, 14948, 1, "OK", 3, 46, 15, 15, 9, 6, 4, 0
+11731, 15055, 1, "OK", 4, 68, 16, 16, 10, 6, 4, 0
+12218, 15320, 1, "OK", 3, 64, 16, 16, 10, 6, 4, 0
+13243, 15289, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+11897, 15024, 1, "OK", 2, 63, 16, 16, 10, 6, 4, 0
+11960, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+14113, 14948, 1, "OK", 3, 21, 14, 14, 8, 6, 4, 0
+13145, 15258, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+13388, 13869, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+12068, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12010, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13188, 14948, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0
+12137, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13285, 15024, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0
+12218, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 15343, 1, "OK", 3, 65, 16, 16, 10, 6, 4, 0
+12489, 14110, 1, "OK", 2, 28, 1, 1, 1, 0, 0, 0
+12692, 14985, 1, "OK", 3, 47, 15, 15, 9, 6, 4, 0
+11897, 15055, 1, "OK", 2, 64, 16, 16, 10, 6, 4, 0
+13316, 14070, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+13316, 15091, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+11960, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12692, 13969, 1, "OK", 1, 23, 1, 1, 1, 0, 0, 0
+13243, 15320, 1, "OK", 4, 48, 15, 15, 9, 6, 4, 0
+13518, 14985, 1, "OK", 4, 35, 15, 15, 9, 6, 4, 0
+12272, 12648, 1, "OK", 1, 7, 1, 1, 1, 0, 0, 0
+11815, 13515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13188, 14985, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+11731, 14070, 1, "OK", 2, 43, 2, 2, 2, 0, 0, 0
+13972, 15258, 1, "OK", 4, 30, 14, 14, 8, 6, 4, 0
+11872, 14822, 1, "OK", 3, 60, 16, 16, 10, 6, 4, 0
+13518, 13969, 1, "OK", 1, 11, 1, 1, 1, 0, 0, 0
+11731, 15091, 1, "OK", 4, 69, 16, 16, 10, 6, 4, 0
+11815, 12486, 1, "OK", 1, 14, 1, 1, 1, 0, 0, 0
+13145, 15289, 1, "OK", 4, 49, 15, 15, 9, 6, 4, 0
+13188, 13969, 1, "OK", 1, 17, 1, 1, 1, 0, 0, 0
+13751, 14948, 1, "OK", 5, 29, 15, 15, 9, 6, 4, 0
+11872, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13873, 15258, 1, "OK", 5, 31, 14, 14, 8, 6, 4, 0
+12218, 15364, 1, "OK", 3, 66, 16, 16, 10, 6, 4, 0
+12218, 13313, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13285, 15055, 1, "OK", 4, 41, 15, 15, 9, 6, 4, 0
+12068, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+14113, 14985, 1, "OK", 3, 22, 14, 14, 8, 6, 4, 0
+13243, 15343, 1, "OK", 4, 49, 15, 15, 9, 6, 4, 0
+11960, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 14070, 1, "OK", 0, 39, 2, 2, 2, 0, 0, 0
+12137, 14822, 1, "OK", 3, 55, 16, 16, 10, 6, 4, 0
+12692, 15024, 1, "OK", 3, 48, 15, 15, 9, 6, 4, 0
+11676, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13316, 14110, 1, "OK", 3, 16, 1, 1, 1, 0, 0, 0
+11610, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 15091, 1, "OK", 2, 65, 16, 16, 10, 6, 4, 0
+13388, 14948, 1, "OK", 4, 35, 15, 15, 9, 6, 4, 0
+13972, 15289, 1, "OK", 4, 31, 14, 14, 8, 6, 4, 0
+11872, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11778, 12648, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+12137, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 13343, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13518, 15024, 1, "OK", 4, 36, 15, 15, 9, 6, 4, 0
+13145, 15320, 1, "OK", 4, 50, 15, 15, 9, 6, 4, 0
+11731, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+13285, 15091, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+13188, 15024, 1, "OK", 4, 42, 15, 15, 9, 6, 4, 0
+13243, 15364, 1, "OK", 4, 50, 15, 15, 9, 6, 4, 0
+13873, 15289, 1, "OK", 5, 32, 14, 14, 8, 6, 4, 0
+13145, 15343, 1, "OK", 4, 51, 15, 15, 9, 6, 4, 0
+11731, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13285, 14070, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+13751, 14985, 1, "OK", 5, 30, 15, 15, 9, 6, 4, 0
+14113, 15024, 1, "OK", 3, 23, 14, 14, 8, 6, 4, 0
+12218, 12342, 1, "OK", 0, 3, 1, 1, 1, 0, 0, 0
+13388, 14985, 1, "OK", 4, 36, 15, 15, 9, 6, 4, 0
+12010, 12648, 1, "OK", 0, 12, 1, 1, 1, 0, 0, 0
+12692, 15055, 1, "OK", 3, 49, 15, 15, 9, 6, 4, 0
+13751, 13969, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+12137, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13346, 15258, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+13388, 13969, 1, "OK", 1, 12, 1, 1, 1, 0, 0, 0
+11815, 13580, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 14110, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream Iterator it", 0, 0, 2, 2, 2, 0, 0, 0
+12272, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13972, 15320, 1, "OK", 4, 32, 14, 14, 8, 6, 4, 0
+12068, 14948, 1, "OK", 2, 58, 16, 16, 10, 6, 4, 0
+13518, 15055, 1, "OK", 4, 37, 15, 15, 9, 6, 4, 0
+14073, 15258, 1, "OK", 3, 29, 14, 14, 8, 6, 4, 0
+11610, 14822, 1, "OK", 3, 66, 16, 16, 10, 6, 4, 0
+14113, 15055, 1, "OK", 3, 24, 14, 14, 8, 6, 4, 0
+13145, 15364, 1, "OK", 4, 52, 15, 15, 9, 6, 4, 0
+13188, 15055, 1, "OK", 4, 43, 15, 15, 9, 6, 4, 0
+11872, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12785, 15258, 1, "OK", 4, 52, 15, 15, 9, 6, 4, 0
+11676, 14822, 1, "OK", 3, 64, 16, 16, 10, 6, 4, 0
+13873, 15320, 1, "OK", 5, 33, 14, 14, 8, 6, 4, 0
+11960, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11610, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 13097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12218, 13385, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11676, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13873, 15343, 1, "OK", 5, 34, 14, 14, 8, 6, 4, 0
+13972, 15343, 1, "OK", 4, 33, 14, 14, 8, 6, 4, 0
+13285, 14110, 1, "OK", 3, 17, 1, 1, 1, 0, 0, 0
+13751, 15024, 1, "OK", 5, 31, 15, 15, 9, 6, 4, 0
+13346, 15289, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+12137, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13518, 15091, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+11731, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 14985, 1, "OK", 2, 59, 16, 16, 10, 6, 4, 0
+13388, 15024, 1, "OK", 4, 37, 15, 15, 9, 6, 4, 0
+12692, 14070, 1, "OK", 1, 24, 1, 1, 1, 0, 0, 0
+11960, 15258, 1, "OK", 2, 67, 16, 16, 10, 6, 4, 0
+12068, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12692, 15091, 1, "OK", 3, 50, 15, 15, 9, 6, 4, 0
+14073, 15289, 1, "OK", 3, 30, 14, 14, 8, 6, 4, 0
+12068, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+11676, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11610, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12785, 15289, 1, "OK", 4, 53, 15, 15, 9, 6, 4, 0
+13518, 14070, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+12272, 14822, 1, "OK", 3, 52, 16, 16, 10, 6, 4, 0
+13346, 15320, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+13873, 15364, 1, "OK", 5, 35, 14, 14, 8, 6, 4, 0
+12489, 15258, 1, "OK", 3, 56, 15, 15, 9, 6, 4, 0
+13188, 14070, 1, "OK", 2, 18, 1, 1, 1, 0, 0, 0
+14113, 15091, 1, "OK", 3, 25, 14, 14, 8, 6, 4, 0
+11778, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+13188, 15091, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+14139, 14282, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+13972, 15364, 1, "OK", 4, 34, 14, 14, 8, 6, 4, 0
+12272, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11897, 13142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13751, 15055, 1, "OK", 5, 32, 15, 15, 9, 6, 4, 0
+11872, 14948, 1, "OK", 3, 62, 16, 16, 10, 6, 4, 0
+13388, 15055, 1, "OK", 4, 38, 15, 15, 9, 6, 4, 0
+11960, 13240, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+14073, 15320, 1, "OK", 3, 31, 14, 14, 8, 6, 4, 0
+11960, 15289, 1, "OK", 2, 68, 16, 16, 10, 6, 4, 0
+12068, 15024, 1, "OK", 2, 60, 16, 16, 10, 6, 4, 0
+13346, 15343, 1, "OK", 4, 46, 15, 15, 9, 6, 4, 0
+11731, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12692, 14110, 1, "OK", 2, 25, 1, 1, 1, 0, 0, 0
+12010, 13748, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 1, 1, 1, 0, 0, 0
+12785, 15320, 1, "OK", 4, 54, 15, 15, 9, 6, 4, 0
+11610, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+13316, 15258, 1, "OK", 4, 44, 15, 15, 9, 6, 4, 0
+14073, 15343, 1, "OK", 3, 32, 14, 14, 8, 6, 4, 0
+12272, 13827, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+11676, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12489, 15289, 1, "OK", 3, 57, 15, 15, 9, 6, 4, 0
+13518, 14110, 1, "OK", 3, 13, 1, 1, 1, 0, 0, 0
+12218, 12438, 1, "OK", 1, 5, 1, 1, 1, 0, 0, 0
+12137, 14948, 1, "OK", 3, 57, 16, 16, 10, 6, 4, 0
+12785, 15343, 1, "OK", 4, 55, 15, 15, 9, 6, 4, 0
+13751, 15091, 1, "OK", 5, 33, 15, 15, 9, 6, 4, 0
+13188, 14110, 1, "OK", 3, 19, 1, 1, 1, 0, 0, 0
+11778, 14822, 1, "OK", 4, 62, 16, 16, 10, 6, 4, 0
+11872, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11960, 15320, 1, "OK", 2, 69, 16, 16, 10, 6, 4, 0
+13346, 15364, 1, "OK", 4, 47, 15, 15, 9, 6, 4, 0
+13751, 14070, 1, "OK", 3, 7, 1, 1, 1, 0, 0, 0
+11815, 12648, 1, "OK", 1, 16, 1, 1, 1, 0, 0, 0
+11778, 12782, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+12068, 15055, 1, "OK", 2, 61, 16, 16, 10, 6, 4, 0
+14073, 15364, 1, "OK", 3, 33, 14, 14, 8, 6, 4, 0
+11897, 13185, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11731, 15258, 1, "OK", 4, 72, 16, 16, 10, 6, 4, 0
+13388, 14070, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+11960, 13282, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+13388, 15091, 1, "OK", 4, 39, 15, 15, 9, 6, 4, 0
+11872, 14985, 1, "OK", 3, 63, 16, 16, 10, 6, 4, 0
+13316, 15289, 1, "OK", 4, 45, 15, 15, 9, 6, 4, 0
+12785, 15364, 1, "OK", 4, 56, 15, 15, 9, 6, 4, 0
+12489, 15320, 1, "OK", 3, 58, 15, 15, 9, 6, 4, 0
+11872, 13969, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 2, 2, 2, 0, 0, 0
+12010, 14822, 1, "OK", 2, 57, 16, 16, 10, 6, 4, 0
+12272, 13869, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree String context", 0, 0, 2, 2, 2, 0, 0, 0
+12137, 12934, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  StringBuffer htmlStream String nameTree", 0, 0, 1, 1, 1, 0, 0, 0
+11960, 15343, 1, "OK", 2, 70, 16, 16, 10, 6, 4, 0
+13100, 14822, 1, "OK", 4, 40, 15, 15, 9, 6, 4, 0

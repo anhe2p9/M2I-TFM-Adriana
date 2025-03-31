@@ -1,0 +1,804 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+21507, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+23523, 25551, 1, "OK", 1, 33, 2, 2, 2, 0, 0, 0
+21544, 25450, 1, "OK", 3, 70, 3, 3, 3, 0, 0, 0
+21223, 23111, 1, "OK", 3, 44, 3, 3, 3, 0, 0, 0
+21112, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 22402, 1, "OK", 2, 18, 1, 1, 1, 0, 0, 0
+22244, 28347, 1, "OK", 4, 116, 12, 12, 9, 3, 3, 0
+22047, 28311, 1, "OK", 4, 120, 12, 12, 9, 3, 3, 0
+21982, 28271, 1, "OK", 4, 118, 12, 12, 9, 3, 3, 0
+21544, 23415, 1, "OK", 3, 35, 1, 1, 1, 0, 0, 0
+21200, 23844, 1, "OK", 2, 58, 3, 3, 3, 0, 0, 0
+21544, 23445, 1, "OK", 3, 36, 1, 1, 1, 0, 0, 0
+20867, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21200, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21112, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21982, 28311, 1, "OK", 4, 121, 12, 12, 9, 3, 3, 0
+26740, 28271, 1, "OK", 2, 25, 2, 2, 2, 0, 0, 0
+20845, 26697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 14, 14, 11, 3, 3, 0
+21678, 25450, 1, "OK", 4, 64, 2, 2, 2, 0, 0, 0
+22047, 28347, 1, "OK", 4, 121, 12, 12, 9, 3, 3, 0
+21474, 25619, 1, "OK", 2, 77, 4, 4, 4, 0, 0, 0
+22100, 26697, 1, "OK", 4, 88, 10, 10, 7, 3, 3, 0
+25736, 26645, 1, "OK", 0, 18, 6, 3, 3, 0, 3, 1
+21544, 23475, 1, "OK", 3, 37, 1, 1, 1, 0, 0, 0
+20759, 23228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 21541, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+22629, 26697, 1, "OK", 3, 77, 10, 10, 7, 3, 3, 0
+25760, 25917, 1, "OK", 0, 3, 2, 1, 1, 0, 1, 1
+23026, 26697, 1, "OK", 2, 71, 10, 10, 7, 3, 3, 0
+21982, 28347, 1, "OK", 4, 122, 12, 12, 9, 3, 3, 0
+23261, 25551, 1, "OK", 1, 40, 2, 2, 2, 0, 0, 0
+23523, 25619, 1, "OK", 1, 34, 2, 2, 2, 0, 0, 0
+20845, 22626, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 23607, 1, "OK", 2, 44, 2, 2, 2, 0, 0, 0
+20759, 21197, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+21577, 22460, 1, "OK", 2, 20, 1, 1, 1, 0, 0, 0
+21544, 25551, 1, "OK", 3, 73, 3, 3, 3, 0, 0, 0
+20759, 21220, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+21639, 26697, 1, "OK", 4, 96, 10, 10, 7, 3, 3, 0
+26740, 28311, 1, "OK", 2, 28, 2, 2, 2, 0, 0, 0
+21507, 26697, 1, "OK", 3, 102, 12, 12, 9, 3, 3, 0
+20759, 23258, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 1, 1, 1, 0, 0, 0
+20867, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21200, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25736, 26689, 1, "OK", 0, 19, 6, 3, 3, 0, 3, 1
+21223, 23228, 1, "OK", 3, 45, 3, 3, 3, 0, 0, 0
+20845, 22656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 23515, 1, "OK", 3, 39, 1, 1, 1, 0, 0, 0
+21577, 22513, 1, "OK", 2, 21, 1, 1, 1, 0, 0, 0
+26740, 28347, 1, "OK", 2, 29, 2, 2, 2, 0, 0, 0
+21507, 22626, 1, "OK", 3, 25, 2, 2, 2, 0, 0, 0
+25554, 28271, 1, "OK", 2, 55, 10, 10, 7, 3, 3, 0
+21905, 26697, 1, "OK", 4, 91, 10, 10, 7, 3, 3, 0
+21474, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21507, 22656, 1, "OK", 3, 26, 2, 2, 2, 0, 0, 0
+20759, 23317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21112, 26697, 1, "OK", 1, 115, 13, 13, 10, 3, 3, 0
+25760, 25972, 1, "OK", 0, 6, 4, 2, 2, 0, 2, 1
+23261, 25619, 1, "OK", 1, 41, 2, 2, 2, 0, 0, 0
+21223, 23258, 1, "OK", 3, 46, 3, 3, 3, 0, 0, 0
+21112, 22626, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20845, 22714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 25619, 1, "OK", 3, 74, 3, 3, 3, 0, 0, 0
+21678, 25551, 1, "OK", 4, 67, 2, 2, 2, 0, 0, 0
+22408, 25450, 1, "OK", 4, 50, 2, 2, 2, 0, 0, 0
+25671, 26697, 1, "OK", 0, 22, 8, 8, 5, 3, 3, 0
+20867, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 23706, 1, "OK", 2, 45, 2, 2, 2, 0, 0, 0
+25489, 28271, 1, "OK", 2, 56, 10, 10, 7, 3, 3, 0
+22516, 28271, 1, "OK", 4, 106, 12, 12, 9, 3, 3, 0
+22912, 28271, 1, "OK", 3, 100, 12, 12, 9, 3, 3, 0
+21814, 25450, 1, "OK", 4, 62, 2, 2, 2, 0, 0, 0
+21112, 22656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21223, 23317, 1, "OK", 3, 47, 3, 3, 3, 0, 0, 0
+21200, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25554, 28311, 1, "OK", 2, 58, 10, 10, 7, 3, 3, 0
+21474, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21474, 23739, 1, "OK", 2, 46, 2, 2, 2, 0, 0, 0
+21507, 22714, 1, "OK", 3, 27, 2, 2, 2, 0, 0, 0
+25760, 26045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+22912, 28311, 1, "OK", 3, 103, 12, 12, 9, 3, 3, 0
+21544, 23607, 1, "OK", 3, 41, 1, 1, 1, 0, 0, 0
+20867, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+25554, 28347, 1, "OK", 2, 59, 10, 10, 7, 3, 3, 0
+21577, 26697, 1, "OK", 4, 99, 11, 11, 8, 3, 3, 0
+25489, 28311, 1, "OK", 2, 59, 10, 10, 7, 3, 3, 0
+21678, 25619, 1, "OK", 4, 68, 2, 2, 2, 0, 0, 0
+22516, 28311, 1, "OK", 4, 109, 12, 12, 9, 3, 3, 0
+21577, 22626, 1, "OK", 3, 22, 1, 1, 1, 0, 0, 0
+21474, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22912, 28347, 1, "OK", 3, 104, 12, 12, 9, 3, 3, 0
+25831, 25917, 1, "OK", 1, 2, 2, 1, 1, 0, 1, 1
+20759, 25450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+22305, 26697, 1, "OK", 4, 83, 10, 10, 7, 3, 3, 0
+22408, 25551, 1, "OK", 4, 53, 2, 2, 2, 0, 0, 0
+22516, 28347, 1, "OK", 4, 110, 12, 12, 9, 3, 3, 0
+20867, 28271, 1, "OK", 2, 152, 16, 16, 13, 3, 3, 0
+20867, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21200, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25489, 28347, 1, "OK", 2, 60, 10, 10, 7, 3, 3, 0
+21112, 22714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20759, 23415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21814, 25551, 1, "OK", 4, 65, 2, 2, 2, 0, 0, 0
+21544, 21631, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+21577, 22656, 1, "OK", 3, 23, 1, 1, 1, 0, 0, 0
+20845, 22821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20759, 23445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22717, 28271, 1, "OK", 3, 103, 12, 12, 9, 3, 3, 0
+25760, 26098, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+23231, 26697, 1, "OK", 1, 68, 10, 10, 7, 3, 3, 0
+25831, 25972, 1, "OK", 1, 5, 4, 2, 2, 0, 2, 1
+20867, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23114, 28271, 1, "OK", 2, 97, 12, 12, 9, 3, 3, 0
+21223, 25450, 1, "OK", 3, 83, 5, 5, 5, 0, 0, 0
+22214, 25450, 1, "OK", 4, 55, 2, 2, 2, 0, 0, 0
+22717, 28311, 1, "OK", 3, 106, 12, 12, 9, 3, 3, 0
+20759, 23475, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+23709, 28271, 1, "OK", 2, 86, 12, 12, 9, 3, 3, 0
+21544, 23706, 1, "OK", 3, 42, 1, 1, 1, 0, 0, 0
+21223, 23415, 1, "OK", 3, 48, 3, 3, 3, 0, 0, 0
+20845, 22851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 28311, 1, "OK", 2, 155, 16, 16, 13, 3, 3, 0
+21223, 23445, 1, "OK", 3, 49, 3, 3, 3, 0, 0, 0
+23114, 28311, 1, "OK", 2, 100, 12, 12, 9, 3, 3, 0
+22408, 25619, 1, "OK", 4, 54, 2, 2, 2, 0, 0, 0
+21200, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21474, 23844, 1, "OK", 2, 47, 2, 2, 2, 0, 0, 0
+21507, 22821, 1, "OK", 3, 28, 2, 2, 2, 0, 0, 0
+21544, 21672, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+23709, 28311, 1, "OK", 2, 89, 12, 12, 9, 3, 3, 0
+20759, 25551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+20867, 28347, 1, "OK", 2, 156, 16, 16, 13, 3, 3, 0
+21814, 25619, 1, "OK", 4, 66, 2, 2, 2, 0, 0, 0
+22717, 28347, 1, "OK", 3, 107, 12, 12, 9, 3, 3, 0
+21474, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21577, 22714, 1, "OK", 3, 24, 1, 1, 1, 0, 0, 0
+21544, 23739, 1, "OK", 3, 43, 1, 1, 1, 0, 0, 0
+21112, 22821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21729, 28271, 1, "OK", 4, 121, 12, 12, 9, 3, 3, 0
+21223, 23475, 1, "OK", 3, 50, 3, 3, 3, 0, 0, 0
+21200, 28271, 1, "OK", 2, 142, 15, 15, 12, 3, 3, 0
+21200, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20867, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21507, 22851, 1, "OK", 3, 29, 2, 2, 2, 0, 0, 0
+20759, 23515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+20759, 21467, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+23709, 28347, 1, "OK", 2, 90, 12, 12, 9, 3, 3, 0
+20867, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23114, 28347, 1, "OK", 2, 101, 12, 12, 9, 3, 3, 0
+20845, 22909, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+25831, 26045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+25760, 26191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked String label", 0, 0, 6, 3, 3, 0, 3, 1
+21544, 21726, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+20759, 21504, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+22214, 25551, 1, "OK", 4, 58, 2, 2, 2, 0, 0, 0
+21200, 28311, 1, "OK", 2, 145, 15, 15, 12, 3, 3, 0
+21223, 25551, 1, "OK", 3, 86, 5, 5, 5, 0, 0, 0
+21112, 22851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22375, 26697, 1, "OK", 4, 82, 10, 10, 7, 3, 3, 0
+21200, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 22909, 1, "OK", 3, 30, 2, 2, 2, 0, 0, 0
+23448, 28271, 1, "OK", 2, 92, 12, 12, 9, 3, 3, 0
+20759, 25619, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+21729, 28311, 1, "OK", 4, 124, 12, 12, 9, 3, 3, 0
+21223, 23515, 1, "OK", 3, 52, 3, 3, 3, 0, 0, 0
+21223, 21467, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+25831, 26098, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+22854, 28271, 1, "OK", 3, 101, 12, 12, 9, 3, 3, 0
+20759, 21541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 28347, 1, "OK", 2, 146, 15, 15, 12, 3, 3, 0
+21474, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22244, 26697, 1, "OK", 4, 84, 10, 10, 7, 3, 3, 0
+25760, 26239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+21223, 21504, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+21729, 28347, 1, "OK", 4, 125, 12, 12, 9, 3, 3, 0
+20867, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 23844, 1, "OK", 3, 44, 1, 1, 1, 0, 0, 0
+21577, 22821, 1, "OK", 3, 25, 1, 1, 1, 0, 0, 0
+21200, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22047, 26697, 1, "OK", 4, 89, 10, 10, 7, 3, 3, 0
+22214, 25619, 1, "OK", 4, 59, 2, 2, 2, 0, 0, 0
+21544, 21811, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+21223, 25619, 1, "OK", 3, 87, 5, 5, 5, 0, 0, 0
+20759, 23607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+23448, 28311, 1, "OK", 2, 95, 12, 12, 9, 3, 3, 0
+21112, 22909, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 22851, 1, "OK", 3, 26, 1, 1, 1, 0, 0, 0
+21223, 21541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+21200, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22854, 28311, 1, "OK", 3, 104, 12, 12, 9, 3, 3, 0
+20759, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21982, 26697, 1, "OK", 4, 90, 10, 10, 7, 3, 3, 0
+20845, 23023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+25760, 26308, 1, "OK", 1, 14, 6, 3, 3, 0, 3, 1
+23448, 28347, 1, "OK", 2, 96, 12, 12, 9, 3, 3, 0
+21474, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22130, 28271, 1, "OK", 4, 115, 12, 12, 9, 3, 3, 0
+21223, 23607, 1, "OK", 3, 54, 3, 3, 3, 0, 0, 0
+22854, 28347, 1, "OK", 3, 105, 12, 12, 9, 3, 3, 0
+20759, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23848, 28271, 1, "OK", 2, 83, 12, 12, 9, 3, 3, 0
+21200, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25831, 26191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked String label", 0, 0, 6, 3, 3, 0, 3, 1
+22659, 28271, 1, "OK", 3, 104, 12, 12, 9, 3, 3, 0
+21507, 23023, 1, "OK", 3, 31, 2, 2, 2, 0, 0, 0
+20867, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21223, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20845, 23053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+23320, 28271, 1, "OK", 2, 94, 12, 12, 9, 3, 3, 0
+21577, 22909, 1, "OK", 3, 27, 1, 1, 1, 0, 0, 0
+21507, 23053, 1, "OK", 3, 32, 2, 2, 2, 0, 0, 0
+23742, 25450, 1, "OK", 1, 27, 2, 2, 2, 0, 0, 0
+20867, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23056, 28271, 1, "OK", 2, 98, 12, 12, 9, 3, 3, 0
+22130, 28311, 1, "OK", 4, 118, 12, 12, 9, 3, 3, 0
+21544, 21902, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+20759, 23706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 23111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21112, 23023, 1, "OK", 1, 44, 3, 3, 3, 0, 0, 0
+21223, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25831, 26239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+20759, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23610, 25450, 1, "OK", 1, 29, 2, 2, 2, 0, 0, 0
+23848, 28311, 1, "OK", 2, 86, 12, 12, 9, 3, 3, 0
+22659, 28311, 1, "OK", 3, 107, 12, 12, 9, 3, 3, 0
+22130, 28347, 1, "OK", 4, 119, 12, 12, 9, 3, 3, 0
+23056, 28311, 1, "OK", 2, 101, 12, 12, 9, 3, 3, 0
+23320, 28311, 1, "OK", 2, 97, 12, 12, 9, 3, 3, 0
+20759, 23739, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+25760, 26428, 1, "OK", 1, 15, 6, 3, 3, 0, 3, 1
+22659, 28347, 1, "OK", 3, 108, 12, 12, 9, 3, 3, 0
+22463, 28271, 1, "OK", 4, 107, 12, 12, 9, 3, 3, 0
+21112, 23053, 1, "OK", 1, 45, 3, 3, 3, 0, 0, 0
+21223, 23706, 1, "OK", 3, 55, 3, 3, 3, 0, 0, 0
+21200, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23848, 28347, 1, "OK", 2, 87, 12, 12, 9, 3, 3, 0
+20759, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 21108, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+23056, 28347, 1, "OK", 2, 102, 12, 12, 9, 3, 3, 0
+21223, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 23111, 1, "OK", 3, 33, 2, 2, 2, 0, 0, 0
+23320, 28347, 1, "OK", 2, 98, 12, 12, 9, 3, 3, 0
+22463, 28311, 1, "OK", 4, 110, 12, 12, 9, 3, 3, 0
+25831, 26308, 1, "OK", 2, 13, 6, 3, 3, 0, 3, 1
+25554, 26697, 1, "OK", 0, 27, 8, 8, 5, 3, 3, 0
+21200, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21474, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21544, 21979, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+21223, 23739, 1, "OK", 3, 56, 3, 3, 3, 0, 0, 0
+22912, 26697, 1, "OK", 3, 72, 10, 10, 7, 3, 3, 0
+21474, 28271, 1, "OK", 2, 131, 14, 14, 11, 3, 3, 0
+21474, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 23023, 1, "OK", 3, 28, 1, 1, 1, 0, 0, 0
+21223, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25489, 26697, 1, "OK", 0, 28, 8, 8, 5, 3, 3, 0
+22463, 28347, 1, "OK", 4, 111, 12, 12, 9, 3, 3, 0
+23481, 25450, 1, "OK", 1, 32, 2, 2, 2, 0, 0, 0
+23742, 25551, 1, "OK", 1, 30, 2, 2, 2, 0, 0, 0
+21112, 23111, 1, "OK", 1, 46, 3, 3, 3, 0, 0, 0
+22516, 26697, 1, "OK", 4, 78, 10, 10, 7, 3, 3, 0
+23610, 25551, 1, "OK", 1, 32, 2, 2, 2, 0, 0, 0
+20759, 23844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+23523, 28271, 1, "OK", 2, 88, 12, 12, 9, 3, 3, 0
+21200, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 23053, 1, "OK", 3, 29, 1, 1, 1, 0, 0, 0
+20759, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 23228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 28311, 1, "OK", 2, 134, 14, 14, 11, 3, 3, 0
+21544, 22044, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+20845, 23258, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+25760, 26532, 1, "OK", 1, 16, 6, 3, 3, 0, 3, 1
+20845, 21197, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+21474, 28347, 1, "OK", 2, 135, 14, 14, 11, 3, 3, 0
+21507, 23228, 1, "OK", 3, 34, 2, 2, 2, 0, 0, 0
+23610, 25619, 1, "OK", 1, 33, 2, 2, 2, 0, 0, 0
+20845, 21220, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+22162, 25450, 1, "OK", 4, 56, 2, 2, 2, 0, 0, 0
+21223, 23844, 1, "OK", 3, 57, 3, 3, 3, 0, 0, 0
+21577, 23111, 1, "OK", 3, 30, 1, 1, 1, 0, 0, 0
+23742, 25619, 1, "OK", 1, 31, 2, 2, 2, 0, 0, 0
+23523, 28311, 1, "OK", 2, 91, 12, 12, 9, 3, 3, 0
+21544, 22097, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+22717, 26697, 1, "OK", 3, 75, 10, 10, 7, 3, 3, 0
+21223, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21474, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 26697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 14, 14, 11, 3, 3, 0
+21507, 23258, 1, "OK", 3, 35, 2, 2, 2, 0, 0, 0
+23523, 28347, 1, "OK", 2, 92, 12, 12, 9, 3, 3, 0
+23261, 28271, 1, "OK", 2, 95, 12, 12, 9, 3, 3, 0
+23418, 25450, 1, "OK", 1, 35, 2, 2, 2, 0, 0, 0
+25831, 26428, 1, "OK", 2, 14, 6, 3, 3, 0, 3, 1
+23481, 25551, 1, "OK", 1, 35, 2, 2, 2, 0, 0, 0
+21544, 28271, 1, "OK", 3, 128, 13, 13, 10, 3, 3, 0
+21544, 22127, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+20845, 23317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+23709, 26697, 1, "OK", 1, 58, 10, 10, 7, 3, 3, 0
+22824, 25450, 1, "OK", 3, 44, 2, 2, 2, 0, 0, 0
+20867, 22626, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+25976, 26045, 1, "OK", 2, 3, 2, 1, 1, 0, 1, 1
+23114, 26697, 1, "OK", 2, 69, 10, 10, 7, 3, 3, 0
+21112, 23228, 1, "OK", 1, 47, 3, 3, 3, 0, 0, 0
+23261, 28311, 1, "OK", 2, 98, 12, 12, 9, 3, 3, 0
+20759, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 22656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 22159, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+21112, 23258, 1, "OK", 1, 48, 3, 3, 3, 0, 0, 0
+21200, 26697, 1, "OK", 2, 114, 13, 13, 10, 3, 3, 0
+23481, 25619, 1, "OK", 1, 36, 2, 2, 2, 0, 0, 0
+22162, 25551, 1, "OK", 4, 59, 2, 2, 2, 0, 0, 0
+23261, 28347, 1, "OK", 2, 99, 12, 12, 9, 3, 3, 0
+21474, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+25976, 26098, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+21507, 23317, 1, "OK", 3, 36, 2, 2, 2, 0, 0, 0
+21544, 28311, 1, "OK", 3, 131, 13, 13, 10, 3, 3, 0
+25760, 26645, 1, "OK", 1, 17, 6, 3, 3, 0, 3, 1
+21223, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21729, 26697, 1, "OK", 4, 93, 10, 10, 7, 3, 3, 0
+21678, 28271, 1, "OK", 4, 122, 12, 12, 9, 3, 3, 0
+20867, 22714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+25831, 26532, 1, "OK", 2, 15, 6, 3, 3, 0, 3, 1
+20845, 25450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+21112, 23317, 1, "OK", 1, 49, 3, 3, 3, 0, 0, 0
+21544, 22211, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+21200, 22626, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22100, 25450, 1, "OK", 4, 58, 2, 2, 2, 0, 0, 0
+23418, 25551, 1, "OK", 1, 38, 2, 2, 2, 0, 0, 0
+21544, 28347, 1, "OK", 3, 132, 13, 13, 10, 3, 3, 0
+21577, 23228, 1, "OK", 3, 31, 1, 1, 1, 0, 0, 0
+21678, 28311, 1, "OK", 4, 125, 12, 12, 9, 3, 3, 0
+20845, 23415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22824, 25551, 1, "OK", 3, 47, 2, 2, 2, 0, 0, 0
+22629, 25450, 1, "OK", 3, 47, 2, 2, 2, 0, 0, 0
+25760, 26689, 1, "OK", 1, 18, 6, 3, 3, 0, 3, 1
+20759, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 22241, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+23026, 25450, 1, "OK", 2, 41, 2, 2, 2, 0, 0, 0
+21577, 23258, 1, "OK", 3, 32, 1, 1, 1, 0, 0, 0
+23448, 26697, 1, "OK", 1, 64, 10, 10, 7, 3, 3, 0
+21200, 22656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 25450, 1, "OK", 3, 72, 4, 4, 4, 0, 0, 0
+20845, 23445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21678, 28347, 1, "OK", 4, 126, 12, 12, 9, 3, 3, 0
+22162, 25619, 1, "OK", 4, 60, 2, 2, 2, 0, 0, 0
+21474, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21639, 25450, 1, "OK", 4, 66, 2, 2, 2, 0, 0, 0
+22854, 26697, 1, "OK", 3, 73, 10, 10, 7, 3, 3, 0
+23418, 25619, 1, "OK", 1, 39, 2, 2, 2, 0, 0, 0
+25976, 26191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String label", 0, 0, 2, 1, 1, 0, 1, 1
+21223, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 23415, 1, "OK", 3, 37, 2, 2, 2, 0, 0, 0
+21200, 22714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22408, 28271, 1, "OK", 4, 108, 12, 12, 9, 3, 3, 0
+21577, 23317, 1, "OK", 3, 33, 1, 1, 1, 0, 0, 0
+22824, 25619, 1, "OK", 3, 48, 2, 2, 2, 0, 0, 0
+21474, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20759, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 23475, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21814, 28271, 1, "OK", 4, 120, 12, 12, 9, 3, 3, 0
+21905, 25450, 1, "OK", 4, 61, 2, 2, 2, 0, 0, 0
+22100, 25551, 1, "OK", 4, 61, 2, 2, 2, 0, 0, 0
+21112, 25450, 1, "OK", 1, 85, 5, 5, 5, 0, 0, 0
+21507, 23445, 1, "OK", 3, 38, 2, 2, 2, 0, 0, 0
+21544, 22302, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+22629, 25551, 1, "OK", 3, 50, 2, 2, 2, 0, 0, 0
+25831, 26645, 1, "OK", 2, 16, 6, 3, 3, 0, 3, 1
+25976, 26239, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+20845, 23515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 21467, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+20845, 25551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+20867, 22821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21112, 23415, 1, "OK", 1, 50, 3, 3, 3, 0, 0, 0
+20759, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22130, 26697, 1, "OK", 4, 87, 10, 10, 7, 3, 3, 0
+21112, 23445, 1, "OK", 1, 51, 3, 3, 3, 0, 0, 0
+23026, 25551, 1, "OK", 2, 44, 2, 2, 2, 0, 0, 0
+21507, 23475, 1, "OK", 3, 39, 2, 2, 2, 0, 0, 0
+22408, 28311, 1, "OK", 4, 111, 12, 12, 9, 3, 3, 0
+21223, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21639, 25551, 1, "OK", 4, 69, 2, 2, 2, 0, 0, 0
+21507, 25551, 1, "OK", 3, 75, 4, 4, 4, 0, 0, 0
+21814, 28311, 1, "OK", 4, 123, 12, 12, 9, 3, 3, 0
+23848, 26697, 1, "OK", 1, 55, 10, 10, 7, 3, 3, 0
+20867, 22851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+22659, 26697, 1, "OK", 3, 76, 10, 10, 7, 3, 3, 0
+23056, 26697, 1, "OK", 2, 70, 10, 10, 7, 3, 3, 0
+20759, 28271, 1, "OK", 0, 154, 16, 16, 13, 3, 3, 0
+20759, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21507, 23515, 1, "OK", 3, 41, 2, 2, 2, 0, 0, 0
+21112, 23475, 1, "OK", 1, 52, 3, 3, 3, 0, 0, 0
+21544, 22372, 1, "OK", 2, 18, 1, 1, 1, 0, 0, 0
+25831, 26689, 1, "OK", 2, 17, 6, 3, 3, 0, 3, 1
+23320, 26697, 1, "OK", 1, 66, 10, 10, 7, 3, 3, 0
+20845, 21504, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+22408, 28347, 1, "OK", 4, 112, 12, 12, 9, 3, 3, 0
+21223, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25976, 26308, 1, "OK", 2, 8, 2, 1, 1, 0, 1, 1
+22629, 25619, 1, "OK", 3, 51, 2, 2, 2, 0, 0, 0
+21577, 23415, 1, "OK", 3, 34, 1, 1, 1, 0, 0, 0
+21577, 25450, 1, "OK", 4, 69, 3, 3, 3, 0, 0, 0
+22100, 25619, 1, "OK", 4, 62, 2, 2, 2, 0, 0, 0
+21814, 28347, 1, "OK", 4, 124, 12, 12, 9, 3, 3, 0
+20845, 25619, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+20867, 22909, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 22402, 1, "OK", 2, 19, 1, 1, 1, 0, 0, 0
+21112, 25551, 1, "OK", 1, 88, 5, 5, 5, 0, 0, 0
+20759, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 21541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+21905, 25551, 1, "OK", 4, 64, 2, 2, 2, 0, 0, 0
+25921, 25972, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+21474, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21200, 22821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22214, 28271, 1, "OK", 4, 113, 12, 12, 9, 3, 3, 0
+22305, 25450, 1, "OK", 4, 53, 2, 2, 2, 0, 0, 0
+22463, 26697, 1, "OK", 4, 79, 10, 10, 7, 3, 3, 0
+20845, 23607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21223, 28271, 1, "OK", 3, 141, 15, 15, 12, 3, 3, 0
+21223, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 23445, 1, "OK", 3, 35, 1, 1, 1, 0, 0, 0
+21639, 25619, 1, "OK", 4, 70, 2, 2, 2, 0, 0, 0
+23026, 25619, 1, "OK", 2, 45, 2, 2, 2, 0, 0, 0
+20759, 28311, 1, "OK", 0, 157, 16, 16, 13, 3, 3, 0
+21112, 23515, 1, "OK", 1, 54, 3, 3, 3, 0, 0, 0
+21112, 21467, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+20845, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 25619, 1, "OK", 3, 76, 4, 4, 4, 0, 0, 0
+21200, 22851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 23475, 1, "OK", 3, 36, 1, 1, 1, 0, 0, 0
+21112, 21504, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+21223, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20759, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23231, 25450, 1, "OK", 1, 38, 2, 2, 2, 0, 0, 0
+21507, 21541, 1, "OK", 1, 2, 1, 1, 1, 0, 0, 0
+20759, 28347, 1, "OK", 0, 158, 16, 16, 13, 3, 3, 0
+25921, 26045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 4, 2, 2, 0, 2, 1
+21112, 25619, 1, "OK", 1, 89, 5, 5, 5, 0, 0, 0
+22214, 28311, 1, "OK", 4, 116, 12, 12, 9, 3, 3, 0
+21223, 28311, 1, "OK", 3, 144, 15, 15, 12, 3, 3, 0
+21507, 23607, 1, "OK", 3, 43, 2, 2, 2, 0, 0, 0
+21544, 22460, 1, "OK", 2, 21, 1, 1, 1, 0, 0, 0
+20759, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 26697, 1, "OK", 2, 103, 12, 12, 9, 3, 3, 0
+21112, 21541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+21200, 22909, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21905, 25619, 1, "OK", 4, 65, 2, 2, 2, 0, 0, 0
+21577, 25551, 1, "OK", 4, 72, 3, 3, 3, 0, 0, 0
+21507, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 1, 1, 1, 0, 0, 0
+21223, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20845, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 23515, 1, "OK", 3, 38, 1, 1, 1, 0, 0, 0
+22214, 28347, 1, "OK", 4, 117, 12, 12, 9, 3, 3, 0
+21223, 28347, 1, "OK", 3, 145, 15, 15, 12, 3, 3, 0
+21544, 22513, 1, "OK", 2, 22, 1, 1, 1, 0, 0, 0
+20845, 23706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21112, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22305, 25551, 1, "OK", 4, 56, 2, 2, 2, 0, 0, 0
+20867, 23023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+25976, 26428, 1, "OK", 2, 9, 2, 1, 1, 0, 1, 1
+21112, 23607, 1, "OK", 1, 56, 3, 3, 3, 0, 0, 0
+21474, 22626, 1, "OK", 2, 26, 2, 2, 2, 0, 0, 0
+23523, 26697, 1, "OK", 1, 60, 10, 10, 7, 3, 3, 0
+21223, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21474, 22656, 1, "OK", 2, 27, 2, 2, 2, 0, 0, 0
+20845, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21507, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+25921, 26098, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 4, 2, 2, 0, 2, 1
+20867, 23053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 25619, 1, "OK", 4, 73, 3, 3, 3, 0, 0, 0
+20759, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 23739, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22375, 25450, 1, "OK", 4, 52, 2, 2, 2, 0, 0, 0
+21507, 23706, 1, "OK", 3, 44, 2, 2, 2, 0, 0, 0
+23231, 25551, 1, "OK", 1, 41, 2, 2, 2, 0, 0, 0
+21112, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 23607, 1, "OK", 3, 40, 1, 1, 1, 0, 0, 0
+23261, 26697, 1, "OK", 1, 67, 10, 10, 7, 3, 3, 0
+21507, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22244, 25450, 1, "OK", 4, 54, 2, 2, 2, 0, 0, 0
+21223, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21474, 22714, 1, "OK", 2, 28, 2, 2, 2, 0, 0, 0
+21507, 23739, 1, "OK", 3, 45, 2, 2, 2, 0, 0, 0
+20845, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+22305, 25619, 1, "OK", 4, 57, 2, 2, 2, 0, 0, 0
+25976, 26532, 1, "OK", 2, 10, 2, 1, 1, 0, 1, 1
+25921, 26191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked String label", 0, 0, 4, 2, 2, 0, 2, 1
+20759, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+22047, 25450, 1, "OK", 4, 59, 2, 2, 2, 0, 0, 0
+21544, 26697, 1, "OK", 3, 100, 11, 11, 8, 3, 3, 0
+21112, 23706, 1, "OK", 1, 57, 3, 3, 3, 0, 0, 0
+21200, 23023, 1, "OK", 2, 43, 3, 3, 3, 0, 0, 0
+20867, 23111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 22626, 1, "OK", 3, 23, 1, 1, 1, 0, 0, 0
+21200, 23053, 1, "OK", 2, 44, 3, 3, 3, 0, 0, 0
+21507, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21112, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23231, 25619, 1, "OK", 1, 42, 2, 2, 2, 0, 0, 0
+22375, 25551, 1, "OK", 4, 55, 2, 2, 2, 0, 0, 0
+20759, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21982, 25450, 1, "OK", 4, 60, 2, 2, 2, 0, 0, 0
+21112, 23739, 1, "OK", 1, 58, 3, 3, 3, 0, 0, 0
+20845, 23844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 22656, 1, "OK", 3, 24, 1, 1, 1, 0, 0, 0
+25921, 26239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 4, 2, 2, 0, 2, 1
+21223, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21678, 26697, 1, "OK", 4, 94, 10, 10, 7, 3, 3, 0
+20867, 21108, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+21577, 21631, 1, "OK", 2, 2, 1, 1, 1, 0, 0, 0
+22244, 25551, 1, "OK", 4, 57, 2, 2, 2, 0, 0, 0
+20845, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21112, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 23111, 1, "OK", 2, 45, 3, 3, 3, 0, 0, 0
+21223, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 23706, 1, "OK", 3, 41, 1, 1, 1, 0, 0, 0
+23742, 28271, 1, "OK", 2, 85, 12, 12, 9, 3, 3, 0
+23610, 28271, 1, "OK", 2, 87, 12, 12, 9, 3, 3, 0
+22375, 25619, 1, "OK", 4, 56, 2, 2, 2, 0, 0, 0
+21507, 23844, 1, "OK", 3, 46, 2, 2, 2, 0, 0, 0
+21577, 21672, 1, "OK", 2, 4, 1, 1, 1, 0, 0, 0
+20759, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 22821, 1, "OK", 2, 29, 2, 2, 2, 0, 0, 0
+20867, 23228, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+23742, 28311, 1, "OK", 2, 88, 12, 12, 9, 3, 3, 0
+25976, 26645, 1, "OK", 2, 11, 2, 1, 1, 0, 1, 1
+23610, 28311, 1, "OK", 2, 90, 12, 12, 9, 3, 3, 0
+21544, 22714, 1, "OK", 3, 25, 1, 1, 1, 0, 0, 0
+21577, 23739, 1, "OK", 3, 42, 1, 1, 1, 0, 0, 0
+21507, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22047, 25551, 1, "OK", 4, 62, 2, 2, 2, 0, 0, 0
+20867, 21197, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString", 0, 0, 1, 1, 1, 0, 0, 0
+21112, 23844, 1, "OK", 1, 59, 3, 3, 3, 0, 0, 0
+21474, 22851, 1, "OK", 2, 30, 2, 2, 2, 0, 0, 0
+25921, 26308, 1, "OK", 2, 11, 4, 2, 2, 0, 2, 1
+20759, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 23258, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+23742, 28347, 1, "OK", 2, 89, 12, 12, 9, 3, 3, 0
+21112, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21982, 25551, 1, "OK", 4, 63, 2, 2, 2, 0, 0, 0
+22244, 25619, 1, "OK", 4, 58, 2, 2, 2, 0, 0, 0
+25736, 25917, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 2, 1, 1, 0, 1, 1
+21223, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21577, 21726, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+25976, 26689, 1, "OK", 2, 12, 2, 1, 1, 0, 1, 1
+20845, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 21220, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber String pagesNumberString int pagesNumber", 0, 0, 1, 1, 1, 0, 0, 0
+22408, 26697, 1, "OK", 4, 80, 10, 10, 7, 3, 3, 0
+23610, 28347, 1, "OK", 2, 91, 12, 12, 9, 3, 3, 0
+21474, 22909, 1, "OK", 2, 31, 2, 2, 2, 0, 0, 0
+23481, 28271, 1, "OK", 2, 90, 12, 12, 9, 3, 3, 0
+21814, 26697, 1, "OK", 4, 92, 10, 10, 7, 3, 3, 0
+22047, 25619, 1, "OK", 4, 63, 2, 2, 2, 0, 0, 0
+22912, 25450, 1, "OK", 3, 42, 2, 2, 2, 0, 0, 0
+21223, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25736, 25972, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 4, 2, 2, 0, 2, 1
+21507, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21200, 23228, 1, "OK", 2, 46, 3, 3, 3, 0, 0, 0
+21544, 22821, 1, "OK", 3, 26, 1, 1, 1, 0, 0, 0
+23481, 28311, 1, "OK", 2, 93, 12, 12, 9, 3, 3, 0
+21577, 23844, 1, "OK", 3, 43, 1, 1, 1, 0, 0, 0
+20867, 23317, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21982, 25619, 1, "OK", 4, 64, 2, 2, 2, 0, 0, 0
+22516, 25450, 1, "OK", 4, 48, 2, 2, 2, 0, 0, 0
+21200, 23258, 1, "OK", 2, 47, 3, 3, 3, 0, 0, 0
+21577, 21811, 1, "OK", 2, 7, 1, 1, 1, 0, 0, 0
+20845, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+25921, 26428, 1, "OK", 2, 12, 4, 2, 2, 0, 2, 1
+22162, 28271, 1, "OK", 4, 114, 12, 12, 9, 3, 3, 0
+21544, 22851, 1, "OK", 3, 27, 1, 1, 1, 0, 0, 0
+20759, 26697, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 14, 14, 11, 3, 3, 0
+21112, 21902, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20759, 22626, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23481, 28347, 1, "OK", 2, 94, 12, 12, 9, 3, 3, 0
+21507, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+25736, 26045, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+23418, 28271, 1, "OK", 2, 93, 12, 12, 9, 3, 3, 0
+20759, 22656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 25450, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+22824, 28271, 1, "OK", 3, 102, 12, 12, 9, 3, 3, 0
+21474, 23023, 1, "OK", 2, 32, 2, 2, 2, 0, 0, 0
+22717, 25450, 1, "OK", 3, 45, 2, 2, 2, 0, 0, 0
+21223, 26697, 1, "OK", 3, 113, 13, 13, 10, 3, 3, 0
+21200, 23317, 1, "OK", 2, 48, 3, 3, 3, 0, 0, 0
+22162, 28311, 1, "OK", 4, 117, 12, 12, 9, 3, 3, 0
+22214, 26697, 1, "OK", 4, 85, 10, 10, 7, 3, 3, 0
+23418, 28311, 1, "OK", 2, 96, 12, 12, 9, 3, 3, 0
+21223, 22626, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22516, 25551, 1, "OK", 4, 51, 2, 2, 2, 0, 0, 0
+20845, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+22912, 25551, 1, "OK", 3, 45, 2, 2, 2, 0, 0, 0
+21544, 22909, 1, "OK", 3, 28, 1, 1, 1, 0, 0, 0
+20867, 23415, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22162, 28347, 1, "OK", 4, 118, 12, 12, 9, 3, 3, 0
+23709, 25450, 1, "OK", 1, 28, 2, 2, 2, 0, 0, 0
+21474, 23053, 1, "OK", 2, 33, 2, 2, 2, 0, 0, 0
+25736, 26098, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+23114, 25450, 1, "OK", 2, 39, 2, 2, 2, 0, 0, 0
+21577, 21902, 1, "OK", 2, 8, 1, 1, 1, 0, 0, 0
+21112, 21979, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21223, 22656, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 23445, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22824, 28311, 1, "OK", 3, 105, 12, 12, 9, 3, 3, 0
+25921, 26532, 1, "OK", 2, 13, 4, 2, 2, 0, 2, 1
+23418, 28347, 1, "OK", 2, 97, 12, 12, 9, 3, 3, 0
+20759, 22714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21200, 25450, 1, "OK", 2, 84, 5, 5, 5, 0, 0, 0
+22100, 28271, 1, "OK", 4, 116, 12, 12, 9, 3, 3, 0
+20867, 23475, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22824, 28347, 1, "OK", 3, 106, 12, 12, 9, 3, 3, 0
+22912, 25619, 1, "OK", 3, 46, 2, 2, 2, 0, 0, 0
+21729, 25450, 1, "OK", 4, 63, 2, 2, 2, 0, 0, 0
+22629, 28271, 1, "OK", 3, 105, 12, 12, 9, 3, 3, 0
+21200, 23415, 1, "OK", 2, 49, 3, 3, 3, 0, 0, 0
+21507, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20867, 25551, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+20845, 28271, 1, "OK", 1, 153, 16, 16, 13, 3, 3, 0
+20845, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+22516, 25619, 1, "OK", 4, 52, 2, 2, 2, 0, 0, 0
+21474, 23111, 1, "OK", 2, 34, 2, 2, 2, 0, 0, 0
+21112, 22044, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20867, 23515, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 21467, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 2, 2, 2, 0, 0, 0
+23026, 28271, 1, "OK", 2, 99, 12, 12, 9, 3, 3, 0
+22717, 25551, 1, "OK", 3, 48, 2, 2, 2, 0, 0, 0
+21577, 21979, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+21223, 22714, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20845, 28311, 1, "OK", 1, 156, 16, 16, 13, 3, 3, 0
+21544, 23023, 1, "OK", 3, 29, 1, 1, 1, 0, 0, 0
+21639, 28271, 1, "OK", 4, 124, 12, 12, 9, 3, 3, 0
+25736, 26191, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked String label", 0, 0, 6, 3, 3, 0, 3, 1
+21507, 28271, 1, "OK", 3, 130, 14, 14, 11, 3, 3, 0
+21507, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+20845, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21200, 23445, 1, "OK", 2, 50, 3, 3, 3, 0, 0, 0
+23114, 25551, 1, "OK", 2, 42, 2, 2, 2, 0, 0, 0
+22100, 28311, 1, "OK", 4, 119, 12, 12, 9, 3, 3, 0
+21112, 22097, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+20867, 21504, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+22629, 28311, 1, "OK", 3, 108, 12, 12, 9, 3, 3, 0
+23448, 25450, 1, "OK", 1, 34, 2, 2, 2, 0, 0, 0
+23709, 25551, 1, "OK", 1, 31, 2, 2, 2, 0, 0, 0
+22100, 28347, 1, "OK", 4, 120, 12, 12, 9, 3, 3, 0
+20759, 22821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 28347, 1, "OK", 1, 157, 16, 16, 13, 3, 3, 0
+21507, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21544, 23053, 1, "OK", 3, 30, 1, 1, 1, 0, 0, 0
+23026, 28311, 1, "OK", 2, 102, 12, 12, 9, 3, 3, 0
+21200, 23475, 1, "OK", 2, 51, 3, 3, 3, 0, 0, 0
+22854, 25450, 1, "OK", 3, 43, 2, 2, 2, 0, 0, 0
+21112, 28271, 1, "OK", 1, 143, 15, 15, 12, 3, 3, 0
+21112, 22127, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25736, 26239, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String checked String isChecked", 0, 0, 6, 3, 3, 0, 3, 1
+21905, 28271, 1, "OK", 4, 119, 12, 12, 9, 3, 3, 0
+25921, 26645, 1, "OK", 2, 14, 4, 2, 2, 0, 2, 1
+20867, 25619, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 6, 6, 6, 0, 0, 0
+21639, 28311, 1, "OK", 4, 127, 12, 12, 9, 3, 3, 0
+22629, 28347, 1, "OK", 3, 109, 12, 12, 9, 3, 3, 0
+22717, 25619, 1, "OK", 3, 49, 2, 2, 2, 0, 0, 0
+20845, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 22044, 1, "OK", 2, 10, 1, 1, 1, 0, 0, 0
+21507, 28311, 1, "OK", 3, 133, 14, 14, 11, 3, 3, 0
+23026, 28347, 1, "OK", 2, 103, 12, 12, 9, 3, 3, 0
+23114, 25619, 1, "OK", 2, 43, 2, 2, 2, 0, 0, 0
+21729, 25551, 1, "OK", 4, 66, 2, 2, 2, 0, 0, 0
+25671, 28271, 1, "OK", 2, 50, 10, 10, 7, 3, 3, 0
+21200, 23515, 1, "OK", 2, 53, 3, 3, 3, 0, 0, 0
+21200, 21467, 1, "OK", 1, 10, 1, 1, 1, 0, 0, 0
+20759, 22851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 21541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 25551, 1, "OK", 2, 87, 5, 5, 5, 0, 0, 0
+21474, 23228, 1, "OK", 2, 35, 2, 2, 2, 0, 0, 0
+21112, 22159, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21507, 28347, 1, "OK", 3, 134, 14, 14, 11, 3, 3, 0
+21223, 22821, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23709, 25619, 1, "OK", 1, 32, 2, 2, 2, 0, 0, 0
+20845, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 23607, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21639, 28347, 1, "OK", 4, 128, 12, 12, 9, 3, 3, 0
+21577, 22097, 1, "OK", 2, 11, 1, 1, 1, 0, 0, 0
+21112, 28311, 1, "OK", 1, 146, 15, 15, 12, 3, 3, 0
+21544, 23111, 1, "OK", 3, 31, 1, 1, 1, 0, 0, 0
+21507, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21905, 28311, 1, "OK", 4, 122, 12, 12, 9, 3, 3, 0
+25921, 26689, 1, "OK", 2, 15, 4, 2, 2, 0, 2, 1
+20867, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+25736, 26308, 1, "OK", 0, 15, 6, 3, 3, 0, 3, 1
+21474, 23258, 1, "OK", 2, 36, 2, 2, 2, 0, 0, 0
+22130, 25450, 1, "OK", 4, 57, 2, 2, 2, 0, 0, 0
+23448, 25551, 1, "OK", 1, 37, 2, 2, 2, 0, 0, 0
+21507, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21223, 22851, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 21504, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 1, 1, 1, 0, 0, 0
+25671, 28311, 1, "OK", 2, 53, 10, 10, 7, 3, 3, 0
+21905, 28347, 1, "OK", 4, 123, 12, 12, 9, 3, 3, 0
+22854, 25551, 1, "OK", 3, 46, 2, 2, 2, 0, 0, 0
+22659, 25450, 1, "OK", 3, 46, 2, 2, 2, 0, 0, 0
+21112, 22211, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23742, 26697, 1, "OK", 1, 57, 10, 10, 7, 3, 3, 0
+23848, 25450, 1, "OK", 1, 25, 2, 2, 2, 0, 0, 0
+20759, 22909, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 28271, 1, "OK", 4, 127, 13, 13, 10, 3, 3, 0
+21577, 22127, 1, "OK", 2, 12, 1, 1, 1, 0, 0, 0
+21112, 28347, 1, "OK", 1, 147, 15, 15, 12, 3, 3, 0
+21200, 25619, 1, "OK", 2, 88, 5, 5, 5, 0, 0, 0
+23056, 25450, 1, "OK", 2, 40, 2, 2, 2, 0, 0, 0
+20867, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20845, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23320, 25450, 1, "OK", 1, 36, 2, 2, 2, 0, 0, 0
+21729, 25619, 1, "OK", 4, 67, 2, 2, 2, 0, 0, 0
+25671, 28347, 1, "OK", 2, 54, 10, 10, 7, 3, 3, 0
+23610, 26697, 1, "OK", 1, 59, 10, 10, 7, 3, 3, 0
+21200, 21541, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage", 0, 0, 2, 2, 2, 0, 0, 0
+21112, 22241, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 23607, 1, "OK", 2, 55, 3, 3, 3, 0, 0, 0
+21577, 28311, 1, "OK", 4, 130, 13, 13, 10, 3, 3, 0
+22305, 28271, 1, "OK", 4, 111, 12, 12, 9, 3, 3, 0
+21577, 22159, 1, "OK", 2, 13, 1, 1, 1, 0, 0, 0
+20867, 23706, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21507, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+23448, 25619, 1, "OK", 1, 38, 2, 2, 2, 0, 0, 0
+21200, 21574, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+21223, 22909, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21474, 23317, 1, "OK", 2, 37, 2, 2, 2, 0, 0, 0
+22854, 25619, 1, "OK", 3, 47, 2, 2, 2, 0, 0, 0
+22463, 25450, 1, "OK", 4, 49, 2, 2, 2, 0, 0, 0
+20867, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 22211, 1, "OK", 2, 14, 1, 1, 1, 0, 0, 0
+20845, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 23739, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22130, 25551, 1, "OK", 4, 60, 2, 2, 2, 0, 0, 0
+21577, 28347, 1, "OK", 4, 131, 13, 13, 10, 3, 3, 0
+23231, 28271, 1, "OK", 2, 96, 12, 12, 9, 3, 3, 0
+22305, 28311, 1, "OK", 4, 114, 12, 12, 9, 3, 3, 0
+21544, 23228, 1, "OK", 3, 32, 1, 1, 1, 0, 0, 0
+23848, 25551, 1, "OK", 1, 28, 2, 2, 2, 0, 0, 0
+22659, 25551, 1, "OK", 3, 49, 2, 2, 2, 0, 0, 0
+21112, 22302, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22305, 28347, 1, "OK", 4, 115, 12, 12, 9, 3, 3, 0
+23231, 28311, 1, "OK", 2, 99, 12, 12, 9, 3, 3, 0
+20759, 23023, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21577, 22241, 1, "OK", 2, 15, 1, 1, 1, 0, 0, 0
+23320, 25551, 1, "OK", 1, 39, 2, 2, 2, 0, 0, 0
+20867, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21544, 23258, 1, "OK", 3, 33, 1, 1, 1, 0, 0, 0
+25736, 26428, 1, "OK", 0, 16, 6, 3, 3, 0, 3, 1
+21200, 21631, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23481, 26697, 1, "OK", 1, 62, 10, 10, 7, 3, 3, 0
+20845, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21200, 23706, 1, "OK", 2, 56, 3, 3, 3, 0, 0, 0
+21474, 25450, 1, "OK", 2, 73, 4, 4, 4, 0, 0, 0
+21507, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+23056, 25551, 1, "OK", 2, 43, 2, 2, 2, 0, 0, 0
+21200, 21672, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23231, 28347, 1, "OK", 2, 100, 12, 12, 9, 3, 3, 0
+21474, 23415, 1, "OK", 2, 38, 2, 2, 2, 0, 0, 0
+20759, 23053, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+22375, 28271, 1, "OK", 4, 110, 12, 12, 9, 3, 3, 0
+21223, 23023, 1, "OK", 3, 42, 3, 3, 3, 0, 0, 0
+23523, 25450, 1, "OK", 1, 30, 2, 2, 2, 0, 0, 0
+21544, 23317, 1, "OK", 3, 34, 1, 1, 1, 0, 0, 0
+21200, 23739, 1, "OK", 2, 57, 3, 3, 3, 0, 0, 0
+21112, 22372, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+23848, 25619, 1, "OK", 1, 29, 2, 2, 2, 0, 0, 0
+22130, 25619, 1, "OK", 4, 61, 2, 2, 2, 0, 0, 0
+21507, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+22162, 26697, 1, "OK", 4, 86, 10, 10, 7, 3, 3, 0
+23320, 25619, 1, "OK", 1, 40, 2, 2, 2, 0, 0, 0
+20845, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+22463, 25551, 1, "OK", 4, 52, 2, 2, 2, 0, 0, 0
+22659, 25619, 1, "OK", 3, 50, 2, 2, 2, 0, 0, 0
+21577, 22302, 1, "OK", 2, 16, 1, 1, 1, 0, 0, 0
+21474, 23445, 1, "OK", 2, 39, 2, 2, 2, 0, 0, 0
+21112, 22402, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+21200, 21726, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pagesNumber int prevPage int nextPage", 0, 0, 3, 3, 3, 0, 0, 0
+22244, 28271, 1, "OK", 4, 112, 12, 12, 9, 3, 3, 0
+20867, 23844, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+21223, 23053, 1, "OK", 3, 43, 3, 3, 3, 0, 0, 0
+23056, 25619, 1, "OK", 2, 44, 2, 2, 2, 0, 0, 0
+21507, 22460, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int prevPage int nextPage", 0, 0, 2, 2, 2, 0, 0, 0
+25736, 26532, 1, "OK", 0, 17, 6, 3, 3, 0, 3, 1
+21474, 23475, 1, "OK", 2, 40, 2, 2, 2, 0, 0, 0
+22375, 28311, 1, "OK", 4, 113, 12, 12, 9, 3, 3, 0
+20759, 23111, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber", 0, 0, 4, 4, 4, 0, 0, 0
+20867, 21811, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+23418, 26697, 1, "OK", 1, 65, 10, 10, 7, 3, 3, 0
+21474, 25551, 1, "OK", 2, 76, 4, 4, 4, 0, 0, 0
+23261, 25450, 1, "OK", 1, 37, 2, 2, 2, 0, 0, 0
+22824, 26697, 1, "OK", 3, 74, 10, 10, 7, 3, 3, 0
+20845, 22513, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  int pageNumber int pagesNumber int prevPage int nextPage", 0, 0, 4, 4, 4, 0, 0, 0
+21474, 23515, 1, "OK", 2, 42, 2, 2, 2, 0, 0, 0
+20759, 21108, 1, "OK", 0, 11, 1, 1, 1, 0, 0, 0
+21577, 22372, 1, "OK", 2, 17, 1, 1, 1, 0, 0, 0
+22047, 28271, 1, "OK", 4, 117, 12, 12, 9, 3, 3, 0
+22244, 28311, 1, "OK", 4, 115, 12, 12, 9, 3, 3, 0
+22375, 28347, 1, "OK", 4, 114, 12, 12, 9, 3, 3, 0
+22463, 25619, 1, "OK", 4, 53, 2, 2, 2, 0, 0, 0

@@ -1,0 +1,33 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+25256, 26804, 1, "OK", 3, 32, 32, 20, 14, 6, 6, 2
+24984, 25765, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects", 0, 0, 16, 8, 5, 3, 4, 2
+25888, 26798, 1, "OK", 3, 17, 15, 9, 8, 1, 2, 3
+26272, 26798, 1, "OK", 3, 9, 4, 4, 4, 0, 0, 3
+25308, 25765, 1, "OK", 4, 9, 13, 7, 4, 3, 3, 2
+24984, 25250, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+24762, 26813, 1, "OK", 6, 45, 39, 39, 18, 21, 8, 0
+24984, 25303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects", 0, 0, 3, 1, 1, 0, 1, 2
+24731, 26813, 1, "OK", 5, 47, 39, 39, 18, 21, 8, 0
+25074, 26804, 1, "OK", 4, 37, 35, 21, 15, 6, 7, 2
+25430, 25752, 1, "OK", 4, 5, 5, 1, 1, 0, 1, 4
+25942, 26136, 1, "OK", 2, 5, 6, 2, 2, 0, 1, 4
+24984, 26804, 1, "OK", 5, 39, 35, 21, 15, 6, 7, 2
+25146, 25303, 1, "OK", 3, 5, 3, 1, 1, 0, 1, 2
+25308, 26804, 1, "OK", 4, 31, 32, 20, 14, 6, 6, 2
+25536, 25752, 1, "OK", 3, 4, 5, 1, 1, 0, 1, 4
+24731, 26830, 1, "OK", 5, 48, 39, 39, 18, 21, 8, 0
+24762, 26830, 1, "OK", 6, 46, 39, 39, 18, 21, 8, 0
+25146, 25765, 1, "OK", 5, 14, 16, 8, 5, 3, 4, 2
+25146, 25250, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+25771, 26804, 1, "OK", 3, 21, 19, 13, 10, 3, 3, 2
+26149, 26798, 1, "OK", 3, 11, 5, 5, 5, 0, 0, 3
+25371, 25759, 1, "OK", 3, 7, 9, 3, 2, 1, 2, 3
+26442, 26798, 1, "OK", 3, 7, 3, 3, 3, 0, 0, 3
+26603, 26798, 1, "OK", 3, 5, 2, 2, 2, 0, 0, 3
+25074, 25303, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects", 0, 0, 3, 1, 1, 0, 1, 2
+24892, 26809, 1, "OK", 6, 41, 38, 30, 17, 13, 8, 1
+25256, 25765, 1, "OK", 3, 10, 13, 7, 4, 3, 3, 2
+24795, 26809, 1, "OK", 6, 43, 38, 30, 17, 13, 8, 1
+25146, 26804, 1, "OK", 5, 36, 35, 21, 15, 6, 7, 2
+25074, 25765, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  List<Projection> projections List<Object> valueObjects", 0, 0, 16, 8, 5, 3, 4, 2
+25074, 25250, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2

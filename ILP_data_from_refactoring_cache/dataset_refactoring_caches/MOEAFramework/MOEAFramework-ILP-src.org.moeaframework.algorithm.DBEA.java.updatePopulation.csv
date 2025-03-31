@@ -1,0 +1,63 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+14547, 14777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps_con boolean success", 0, 0, 2, 2, 2, 0, 0, 0
+14665, 14973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] f2 int[] order", 0, 0, 5, 5, 4, 1, 1, 0
+14826, 14973, 1, "OK", 0, 7, 3, 3, 2, 1, 1, 0
+14547, 15813, 1, "OK", 2, 46, 17, 17, 11, 6, 5, 0
+15403, 15771, 1, "OK", 10, 13, 9, 6, 5, 1, 3, 1
+14509, 14823, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps double eps_con boolean success double[] f2", 0, 0, 2, 2, 2, 0, 0, 0
+14598, 14877, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double[] f2 int[] order", 0, 0, 2, 2, 2, 0, 0, 0
+15288, 15771, 1, "OK", 9, 15, 9, 6, 5, 1, 3, 1
+14781, 14973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] f2 int[] order", 0, 0, 3, 3, 2, 1, 1, 0
+15086, 15771, 1, "OK", 7, 20, 9, 6, 5, 1, 3, 1
+15028, 15771, 1, "OK", 7, 22, 9, 6, 5, 1, 3, 1
+15403, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15685, 15771, 1, "OK", 5, 4, 2, 1, 1, 0, 1, 1
+15462, 15771, 1, "OK", 11, 11, 9, 6, 5, 1, 3, 1
+14547, 14823, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps_con boolean success double[] f2", 0, 0, 2, 2, 2, 0, 0, 0
+14665, 14877, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double[] f2 int[] order", 0, 0, 2, 2, 2, 0, 0, 0
+15239, 15771, 1, "OK", 9, 16, 9, 6, 5, 1, 3, 1
+14598, 14777, 1, "OK", 1, 7, 2, 2, 2, 0, 0, 0
+15049, 15771, 1, "OK", 6, 21, 9, 6, 5, 1, 3, 1
+15403, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+14509, 14973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps double eps_con boolean success double[] f2 int[] order", 0, 0, 5, 5, 4, 1, 1, 0
+15148, 15771, 1, "OK", 8, 18, 9, 6, 5, 1, 3, 1
+15779, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 2, 1, 1, 0, 1, 1
+15288, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+14883, 15813, 1, "OK", 6, 34, 15, 15, 9, 6, 5, 0
+15194, 15771, 1, "OK", 9, 17, 9, 6, 5, 1, 3, 1
+14598, 15813, 1, "OK", 3, 45, 17, 17, 11, 6, 5, 0
+14906, 14969, 1, "OK", 1, 3, 2, 1, 1, 0, 1, 1
+15028, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+14547, 14973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps_con boolean success double[] f2 int[] order", 0, 0, 5, 5, 4, 1, 1, 0
+15028, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success int j double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+15288, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15239, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+15148, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15049, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+15335, 15771, 1, "OK", 9, 14, 9, 6, 5, 1, 3, 1
+15086, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15148, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+14509, 14877, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps double eps_con boolean success double[] f2 int[] order", 0, 0, 2, 2, 2, 0, 0, 0
+14665, 14777, 1, "OK", 1, 4, 2, 2, 2, 0, 0, 0
+15086, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+14665, 15813, 1, "OK", 4, 42, 17, 17, 11, 6, 5, 0
+15685, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 4, 2, 2, 0, 2, 1
+14826, 15813, 1, "OK", 5, 36, 15, 15, 9, 6, 5, 0
+15462, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15239, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15049, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15462, 15677, 1, "OK", 11, 6, 7, 5, 4, 1, 2, 1
+15194, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+15541, 15672, 1, "OK", 8, 4, 3, 1, 1, 0, 1, 2
+14979, 15813, 1, "OK", 6, 28, 12, 12, 7, 5, 4, 0
+14598, 14823, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double[] f2", 0, 0, 2, 2, 2, 0, 0, 0
+14509, 14777, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps double eps_con boolean success", 0, 0, 2, 2, 2, 0, 0, 0
+14547, 14877, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  double eps_con boolean success double[] f2 int[] order", 0, 0, 2, 2, 2, 0, 0, 0
+14781, 15813, 1, "OK", 4, 37, 15, 15, 9, 6, 5, 0
+15194, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+15335, 15677, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double cv_parent double cv_child", 0, 0, 7, 5, 4, 1, 2, 1
+14665, 14823, 1, "OK", 1, 6, 2, 2, 2, 0, 0, 0
+14883, 14973, 1, "OK", 1, 5, 3, 3, 2, 1, 1, 0
+15335, 15809, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 11, 7, 6, 1, 4, 1
+14509, 15813, 1, "OK", 1, 47, 17, 17, 11, 6, 5, 0
+14598, 14973, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  boolean success double[] f2 int[] order", 0, 0, 5, 5, 4, 1, 1, 0

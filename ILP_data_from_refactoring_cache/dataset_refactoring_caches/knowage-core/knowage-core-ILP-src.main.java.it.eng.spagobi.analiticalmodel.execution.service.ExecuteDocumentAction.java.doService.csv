@@ -1,0 +1,73 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3061, 3221, 1, "OK", 1, 4, 3, 1, 1, 0, 1, 2
+3732, 4567, 1, "OK", 4, 15, 11, 5, 4, 1, 2, 3
+3152, 3221, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+1872, 2329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile BIObject obj HashMap<String, String> logParam", 0, 0, 3, 3, 2, 1, 1, 0
+3397, 3695, 1, "OK", 2, 7, 5, 3, 3, 0, 1, 2
+3790, 4567, 1, "OK", 4, 14, 11, 5, 4, 1, 2, 3
+1872, 5403, 1, "OK", 0, 87, 39, 39, 20, 19, 10, 0
+3331, 3695, 1, "OK", 1, 8, 5, 3, 3, 0, 1, 2
+1957, 5204, 1, "OK", 2, 78, 38, 38, 19, 19, 10, 0
+2481, 4580, 1, "OK", 4, 45, 28, 21, 12, 9, 7, 1
+2027, 2273, 1, "OK", 2, 7, 2, 1, 1, 0, 1, 1
+1850, 5204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile HashMap<String, String> logParam", 0, 0, 38, 38, 19, 19, 10, 0
+2501, 2686, 1, "OK", 2, 5, 3, 1, 1, 0, 1, 2
+1957, 2277, 1, "OK", 2, 11, 3, 3, 2, 1, 1, 0
+2341, 4585, 1, "OK", 3, 49, 29, 29, 13, 16, 7, 0
+2501, 2953, 1, "OK", 3, 9, 3, 1, 1, 0, 1, 2
+2501, 2825, 1, "OK", 3, 6, 3, 1, 1, 0, 1, 2
+3061, 3640, 1, "OK", 1, 13, 8, 4, 4, 0, 2, 2
+2332, 5380, 1, "OK", 3, 71, 36, 36, 18, 18, 9, 0
+3152, 3640, 1, "OK", 2, 12, 8, 4, 4, 0, 2, 2
+1933, 5204, 1, "OK", 1, 80, 38, 38, 19, 19, 10, 0
+3061, 3391, 1, "OK", 1, 8, 3, 1, 1, 0, 1, 2
+4968, 5200, 1, "OK", 3, 6, 2, 1, 1, 0, 1, 1
+1850, 2277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile BIObject obj", 0, 0, 3, 3, 2, 1, 1, 0
+2280, 5204, 1, "OK", 2, 67, 35, 35, 17, 18, 9, 0
+3152, 3391, 1, "OK", 2, 7, 3, 1, 1, 0, 1, 2
+4622, 4800, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+2416, 4580, 1, "OK", 3, 46, 28, 21, 12, 9, 7, 1
+4622, 4930, 1, "OK", 3, 7, 2, 1, 1, 0, 1, 1
+1933, 2277, 1, "OK", 1, 13, 3, 3, 2, 1, 1, 0
+4209, 4559, 1, "OK", 4, 7, 5, 1, 1, 0, 1, 4
+4209, 4431, 1, "OK", 2, 6, 5, 1, 1, 0, 1, 4
+3227, 3640, 1, "OK", 1, 9, 5, 3, 3, 0, 1, 2
+1957, 5380, 1, "OK", 2, 83, 39, 39, 20, 19, 10, 0
+2332, 5403, 1, "OK", 3, 72, 36, 36, 18, 18, 9, 0
+3647, 4574, 1, "OK", 3, 18, 14, 8, 5, 3, 3, 2
+2501, 2855, 1, "OK", 3, 7, 3, 1, 1, 0, 1, 2
+1872, 5204, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile HashMap<String, String> logParam", 0, 0, 38, 38, 19, 19, 10, 0
+1850, 5380, 1, "OK", 0, 87, 39, 39, 20, 19, 10, 0
+3061, 4574, 1, "OK", 3, 32, 22, 12, 9, 3, 5, 2
+3701, 4574, 1, "OK", 4, 17, 14, 8, 5, 3, 3, 2
+5207, 5380, 1, "OK", 2, 5, 1, 1, 1, 0, 0, 0
+3061, 3296, 1, "OK", 1, 5, 3, 1, 1, 0, 1, 2
+3152, 4574, 1, "OK", 4, 31, 22, 12, 9, 3, 5, 2
+3152, 3296, 1, "OK", 2, 4, 3, 1, 1, 0, 1, 2
+1957, 2329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj HashMap<String, String> logParam", 0, 0, 3, 3, 2, 1, 1, 0
+3397, 3640, 1, "OK", 1, 5, 5, 3, 3, 0, 1, 2
+1872, 2277, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile BIObject obj", 0, 0, 3, 3, 2, 1, 1, 0
+1957, 5403, 1, "OK", 2, 84, 39, 39, 20, 19, 10, 0
+3331, 3640, 1, "OK", 0, 6, 5, 3, 3, 0, 1, 2
+1933, 5380, 1, "OK", 1, 85, 39, 39, 20, 19, 10, 0
+3061, 3695, 1, "OK", 1, 15, 8, 4, 4, 0, 2, 2
+2280, 5380, 1, "OK", 2, 72, 36, 36, 18, 18, 9, 0
+2501, 2883, 1, "OK", 3, 8, 3, 1, 1, 0, 1, 2
+1850, 2329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  UserProfile profile BIObject obj HashMap<String, String> logParam", 0, 0, 3, 3, 2, 1, 1, 0
+3152, 3695, 1, "OK", 2, 14, 8, 4, 4, 0, 2, 2
+1850, 5403, 1, "OK", 0, 88, 39, 39, 20, 19, 10, 0
+3227, 4574, 1, "OK", 3, 28, 19, 11, 8, 3, 4, 2
+5207, 5403, 1, "OK", 2, 6, 1, 1, 1, 0, 0, 0
+2027, 2227, 1, "OK", 1, 6, 2, 1, 1, 0, 1, 1
+2364, 4580, 1, "OK", 3, 47, 28, 21, 12, 9, 7, 1
+1933, 2329, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject obj HashMap<String, String> logParam", 0, 0, 3, 3, 2, 1, 1, 0
+1933, 5403, 1, "OK", 1, 86, 39, 39, 20, 19, 10, 0
+4968, 5146, 1, "OK", 2, 5, 2, 1, 1, 0, 1, 1
+3227, 3695, 1, "OK", 1, 11, 5, 3, 3, 0, 1, 2
+1872, 5380, 1, "OK", 0, 86, 39, 39, 20, 19, 10, 0
+2280, 5403, 1, "OK", 2, 73, 36, 36, 18, 18, 9, 0
+2332, 5204, 1, "OK", 3, 66, 35, 35, 17, 18, 9, 0
+3397, 4574, 1, "OK", 4, 24, 19, 11, 8, 3, 4, 2
+3331, 4574, 1, "OK", 3, 25, 19, 11, 8, 3, 4, 2
+4083, 4559, 1, "OK", 4, 9, 5, 1, 1, 0, 1, 4
+4083, 4431, 1, "OK", 3, 8, 5, 1, 1, 0, 1, 4

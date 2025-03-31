@@ -1,0 +1,281 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+3041, 3586, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3129, 3930, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+6698, 6964, 1, "OK", 3, 7, 5, 3, 3, 0, 1, 2
+5544, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3462, 4367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles byte[] returnByteArray", 0, 0, 8, 5, 3, 2, 3, 1
+3279, 6970, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+2885, 7411, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+8106, 8374, 1, "OK", 2, 14, 6, 6, 4, 2, 2, 0
+5490, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3007, 4142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3592, 3930, 1, "OK", 4, 10, 8, 5, 3, 2, 3, 1
+3354, 4142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao BIObject objectID BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+5925, 6363, 1, "OK", 2, 14, 7, 3, 3, 0, 2, 2
+3211, 3457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+4372, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 11, 5, 7, 1
+3279, 3401, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3406, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject objectID BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+5182, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+5253, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+5490, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5397, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+3129, 3457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+4337, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+2927, 7673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3279, 3930, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3041, 4142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5182, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3211, 3485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3462, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+5650, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+6438, 6880, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String output ExecutionProxy proxy", 0, 0, 5, 3, 3, 0, 1, 2
+5397, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3508, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+4494, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3537, 4142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+5774, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3129, 3485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3211, 7086, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+3279, 3457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3462, 3930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+2823, 8378, 1, "OK", 9, 164, 44, 44, 23, 21, 14, 0
+2885, 7482, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3129, 7086, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+3406, 4142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject objectID BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+4077, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 11, 5, 7, 1
+3892, 3924, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 3, 1, 1, 0, 1, 2
+8241, 8374, 1, "OK", 1, 7, 3, 3, 2, 1, 1, 0
+3211, 3532, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+6043, 6363, 1, "OK", 3, 8, 7, 3, 3, 0, 2, 2
+4372, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+5544, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3592, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+3279, 3485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5774, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3508, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+3129, 3532, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5317, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+5999, 6214, 1, "OK", 2, 6, 4, 2, 2, 0, 1, 2
+5152, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+5355, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3211, 4072, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3279, 7086, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+2885, 7527, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+5774, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+6421, 6970, 1, "OK", 3, 18, 6, 5, 4, 1, 1, 1
+5317, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+6438, 6964, 1, "OK", 2, 16, 5, 3, 3, 0, 1, 2
+4426, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+3129, 4072, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5152, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+2927, 7776, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+5182, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5544, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5397, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3211, 3586, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+8276, 8369, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+4337, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+5736, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3088, 7406, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+3279, 3532, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3592, 4072, 1, "OK", 4, 14, 8, 5, 3, 2, 3, 1
+2710, 8378, 1, "OK", 6, 167, 44, 44, 23, 21, 14, 0
+4426, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+2927, 7797, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+7971, 8102, 1, "OK", 1, 7, 3, 3, 2, 1, 1, 0
+2885, 7565, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3462, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+3129, 3586, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3088, 3324, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+4077, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+5544, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5253, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+2927, 7817, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3508, 4142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+3279, 4072, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+8005, 8097, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+3665, 3886, 1, "OK", 4, 6, 3, 1, 1, 0, 1, 2
+3088, 4367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5182, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+6657, 6880, 1, "OK", 1, 7, 5, 3, 3, 0, 1, 2
+3211, 4142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5397, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5650, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+5253, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4494, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+3007, 7406, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+4031, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 11, 5, 7, 1
+3354, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 21, 14, 7, 10, 1
+2927, 7842, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3279, 3586, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5182, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3129, 4142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5490, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+4372, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+5650, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3007, 3324, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+4494, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+2885, 7620, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3462, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+5397, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3665, 3924, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 2, 2, 0, 2, 2
+3592, 4142, 1, "OK", 6, 15, 8, 5, 3, 2, 3, 1
+5317, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+2927, 7862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InputStream svgInputStream InputStream pngInputStream OutputStream svgOutputStream", 0, 0, 34, 34, 16, 18, 11, 0
+3088, 6970, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+5152, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3041, 7406, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+3007, 4367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3354, 4367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao BIObject objectID BIObject object Collection roles byte[] returnByteArray", 0, 0, 8, 5, 3, 2, 3, 1
+3088, 3401, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3041, 3324, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3537, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 21, 14, 7, 10, 1
+3279, 4142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+6020, 6214, 1, "OK", 3, 5, 4, 2, 2, 0, 1, 2
+4426, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3088, 3930, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+7127, 7230, 1, "OK", 2, 2, 3, 1, 1, 0, 1, 2
+3041, 4367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5999, 6363, 1, "OK", 2, 11, 7, 3, 3, 0, 2, 2
+2664, 8378, 1, "OK", 6, 169, 44, 44, 23, 21, 14, 0
+5355, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+2885, 7673, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+6657, 6964, 1, "OK", 3, 8, 5, 3, 3, 0, 1, 2
+5317, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3007, 6970, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+5152, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3537, 4367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles byte[] returnByteArray", 0, 0, 8, 5, 3, 2, 3, 1
+4031, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+3354, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+3406, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 21, 14, 7, 10, 1
+4077, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+2747, 8378, 1, "OK", 7, 166, 44, 44, 23, 21, 14, 0
+2927, 7411, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+5355, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3462, 4142, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+5253, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7971, 8237, 1, "OK", 2, 14, 6, 6, 4, 2, 2, 0
+3007, 3401, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5317, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3088, 3457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5736, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+4426, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5152, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3702, 3886, 1, "OK", 4, 5, 3, 1, 1, 0, 1, 2
+3041, 6970, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+5774, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3007, 3930, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5650, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7127, 7282, 1, "OK", 3, 3, 3, 1, 1, 0, 1, 2
+3354, 3930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao BIObject objectID BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+3406, 4367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject objectID BIObject object Collection roles byte[] returnByteArray", 0, 0, 8, 5, 3, 2, 3, 1
+4494, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3041, 3401, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+4426, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5736, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3537, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+3088, 3485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5253, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3041, 3930, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5544, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3088, 7086, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+3702, 3924, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 6, 2, 2, 0, 2, 2
+7091, 7406, 1, "OK", 4, 7, 5, 3, 2, 1, 2, 1
+3007, 3457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5490, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+3537, 3930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+3406, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+6514, 6880, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  String output ExecutionProxy proxy", 0, 0, 5, 3, 3, 0, 1, 2
+2927, 7482, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+5650, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7127, 7330, 1, "OK", 3, 4, 3, 1, 1, 0, 1, 2
+5253, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4494, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3508, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 21, 14, 7, 10, 1
+3088, 3532, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5490, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+2885, 7776, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3007, 3485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+7026, 7406, 1, "OK", 4, 8, 5, 3, 2, 1, 2, 1
+3041, 3457, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5925, 6214, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  byte[] returnByteArray int offset", 0, 0, 4, 2, 2, 0, 1, 2
+5650, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3211, 7406, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+4494, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+5355, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+8106, 8237, 1, "OK", 1, 7, 3, 3, 2, 1, 1, 0
+5182, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3406, 3930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject objectID BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+2885, 7797, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+5397, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3007, 7086, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+4031, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 18, 13, 9, 4, 5, 1
+3211, 3324, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3354, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+3129, 7406, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+2927, 7527, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3088, 4072, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+2784, 8378, 1, "OK", 8, 165, 44, 44, 23, 21, 14, 0
+6020, 6363, 1, "OK", 3, 10, 7, 3, 3, 0, 2, 2
+3041, 3485, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3508, 4367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles byte[] returnByteArray", 0, 0, 8, 5, 3, 2, 3, 1
+8140, 8232, 1, "OK", 1, 5, 2, 1, 1, 0, 1, 1
+6565, 6880, 1, "OK", 2, 10, 5, 3, 3, 0, 1, 2
+6268, 6363, 1, "OK", 2, 3, 3, 1, 1, 0, 1, 2
+2885, 7817, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3211, 4367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3129, 3324, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5736, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+6747, 6880, 1, "OK", 1, 5, 5, 3, 3, 0, 1, 2
+3592, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 21, 14, 7, 10, 1
+3007, 3532, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3041, 7086, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+7127, 7400, 1, "OK", 4, 5, 3, 1, 1, 0, 1, 2
+3088, 3586, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+6698, 6880, 1, "OK", 1, 6, 5, 3, 3, 0, 1, 2
+3129, 4367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5355, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+7971, 8374, 1, "OK", 3, 21, 9, 9, 6, 3, 3, 0
+2686, 8378, 1, "OK", 6, 168, 44, 44, 23, 21, 14, 0
+2927, 7565, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+2885, 7842, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3537, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+6514, 6964, 1, "OK", 2, 13, 5, 3, 3, 0, 1, 2
+3279, 7406, 0, "Section contains break statement but not the parent statement it belongs to.", 0, 0, 33, 22, 15, 7, 11, 1
+3508, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+5355, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3592, 4367, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object byte[] returnByteArray", 0, 0, 8, 5, 3, 2, 3, 1
+3007, 4072, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5774, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+3041, 3532, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3354, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  IBIObjectDAO dao BIObject objectID BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+6043, 6214, 1, "OK", 3, 3, 4, 2, 2, 0, 1, 2
+3279, 3324, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3211, 6970, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+2885, 7862, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  InputStream svgInputStream InputStream pngInputStream OutputStream svgOutputStream", 0, 0, 34, 34, 16, 18, 11, 0
+5736, 6014, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+4337, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 23, 16, 11, 5, 7, 1
+3088, 4142, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3211, 3401, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5490, 5966, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3279, 4367, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3406, 7086, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+5317, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+5774, 5871, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3129, 6970, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 28, 19, 13, 6, 9, 1
+3007, 3586, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+5152, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2
+3508, 3930, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+3462, 7406, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 31, 21, 14, 7, 10, 1
+3041, 4072, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+5736, 6036, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 3, 1, 1, 0, 1, 2
+3129, 3401, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 2, 1, 1, 0, 1, 1
+3211, 3930, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 10, 6, 4, 2, 4, 1
+3592, 6970, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 26, 18, 12, 6, 8, 1
+6565, 6964, 1, "OK", 3, 11, 5, 3, 3, 0, 1, 2
+5544, 6363, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 10, 4, 4, 0, 3, 2
+2927, 7620, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 34, 34, 16, 18, 11, 0
+3537, 4072, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  BIObject object Collection roles", 0, 0, 8, 5, 3, 2, 3, 1
+6747, 6964, 1, "OK", 3, 6, 5, 3, 3, 0, 1, 2
+4426, 6214, 0, "Selected statements contain a return statement but not all possible execution flows end in a return. Semantics may not be preserved if you proceed.", 0, 0, 7, 3, 3, 0, 2, 2

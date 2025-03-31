@@ -1,0 +1,157 @@
+A, B, feasible, reason, parameters, extractedLOC, reductionCC, extractedMethodCC, accumulatedInherentComponent, accumulatedNestingComponent, numberNestingContributors, nesting
+9520, 12662, 1, "OK", 8, 85, 53, 43, 18, 25, 10, 1
+10611, 11096, 1, "OK", 4, 14, 14, 6, 5, 1, 2, 4
+11173, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+10070, 10454, 1, "OK", 6, 9, 5, 1, 1, 0, 1, 4
+9001, 12874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu JSONArray fixedMenuPart", 0, 0, 56, 56, 21, 35, 10, 0
+11140, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+12672, 13005, 1, "OK", 2, 9, 1, 1, 1, 0, 0, 0
+10636, 11096, 1, "OK", 4, 13, 14, 6, 5, 1, 2, 4
+8946, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10611, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+8909, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu", 0, 0, 55, 55, 20, 35, 10, 0
+11202, 11727, 1, "OK", 3, 9, 7, 3, 3, 0, 1, 4
+12478, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+8909, 12919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu JSONArray fixedMenuPart JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8946, 13061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10536, 11132, 1, "OK", 4, 19, 14, 6, 5, 1, 2, 4
+11104, 12470, 1, "OK", 6, 31, 18, 6, 6, 0, 3, 4
+10636, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+11104, 12220, 1, "OK", 4, 25, 13, 5, 5, 0, 2, 4
+11173, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+9240, 12662, 1, "OK", 6, 92, 53, 43, 18, 25, 10, 1
+10560, 11165, 1, "OK", 4, 18, 14, 6, 5, 1, 2, 4
+11140, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+9405, 12662, 1, "OK", 8, 88, 53, 43, 18, 25, 10, 1
+9042, 12919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu JSONArray fixedMenuPart JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+12478, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 6, 2, 2, 0, 1, 4
+9141, 12662, 1, "OK", 4, 95, 53, 43, 18, 25, 10, 1
+11331, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+8644, 13222, 1, "OK", 2, 128, 58, 58, 23, 35, 10, 0
+8900, 13222, 1, "OK", 3, 121, 57, 57, 22, 35, 10, 0
+8946, 13085, 1, "OK", 2, 114, 56, 56, 21, 35, 10, 0
+9001, 12919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu JSONArray fixedMenuPart JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+9042, 12667, 1, "OK", 5, 99, 55, 55, 20, 35, 10, 0
+10611, 11132, 1, "OK", 4, 15, 14, 6, 5, 1, 2, 4
+8644, 13239, 1, "OK", 2, 129, 58, 58, 23, 35, 10, 0
+8900, 13239, 1, "OK", 3, 122, 57, 57, 22, 35, 10, 0
+10560, 12470, 1, "OK", 6, 47, 32, 12, 11, 1, 5, 4
+11072, 12470, 1, "OK", 6, 32, 18, 6, 6, 0, 3, 4
+10536, 11165, 1, "OK", 4, 20, 14, 6, 5, 1, 2, 4
+10636, 11132, 1, "OK", 4, 14, 14, 6, 5, 1, 2, 4
+11104, 11727, 1, "OK", 4, 12, 7, 3, 3, 0, 1, 4
+9001, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu", 0, 0, 55, 55, 20, 35, 10, 0
+10560, 12220, 1, "OK", 5, 41, 27, 11, 10, 1, 4, 4
+11072, 12220, 1, "OK", 4, 26, 13, 5, 5, 0, 2, 4
+8644, 8896, 1, "OK", 1, 6, 1, 1, 1, 0, 0, 0
+11331, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+9778, 12656, 1, "OK", 7, 77, 51, 33, 17, 16, 9, 2
+8909, 12965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10560, 11194, 1, "OK", 5, 19, 14, 6, 5, 1, 2, 4
+12672, 13061, 1, "OK", 3, 10, 1, 1, 1, 0, 0, 0
+12672, 12799, 1, "OK", 2, 3, 1, 1, 1, 0, 0, 0
+9109, 12662, 1, "OK", 4, 97, 53, 43, 18, 25, 10, 1
+9291, 12662, 1, "OK", 7, 90, 53, 43, 18, 25, 10, 1
+9861, 12656, 1, "OK", 8, 75, 51, 33, 17, 16, 9, 2
+10536, 12470, 1, "OK", 6, 49, 32, 12, 11, 1, 5, 4
+10611, 11165, 1, "OK", 4, 16, 14, 6, 5, 1, 2, 4
+9042, 12965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10536, 12220, 1, "OK", 5, 43, 27, 11, 10, 1, 4, 4
+10560, 11727, 1, "OK", 5, 28, 21, 9, 8, 1, 3, 4
+11072, 11727, 1, "OK", 4, 13, 7, 3, 3, 0, 1, 4
+10536, 11194, 1, "OK", 5, 21, 14, 6, 5, 1, 2, 4
+9911, 12649, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 48, 24, 16, 8, 8, 3
+10636, 11165, 1, "OK", 4, 15, 14, 6, 5, 1, 2, 4
+12229, 12470, 1, "OK", 4, 5, 5, 1, 1, 0, 1, 4
+12672, 13085, 1, "OK", 3, 12, 1, 1, 1, 0, 0, 0
+10560, 11228, 1, "OK", 5, 20, 14, 6, 5, 1, 2, 4
+9001, 12965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8946, 12874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu JSONArray fixedMenuPart", 0, 0, 56, 56, 21, 35, 10, 0
+11886, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 5, 5, 0, 3, 4
+9597, 12662, 1, "OK", 7, 82, 53, 43, 18, 25, 10, 1
+10611, 12470, 1, "OK", 6, 45, 32, 12, 11, 1, 5, 4
+8737, 13222, 1, "OK", 3, 125, 58, 58, 23, 35, 10, 0
+8909, 13005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+9366, 12662, 1, "OK", 8, 89, 53, 43, 18, 25, 10, 1
+9449, 12662, 1, "OK", 8, 87, 53, 43, 18, 25, 10, 1
+10636, 11194, 1, "OK", 5, 16, 14, 6, 5, 1, 2, 4
+10536, 11727, 1, "OK", 5, 30, 21, 9, 8, 1, 3, 4
+10611, 11194, 1, "OK", 5, 17, 14, 6, 5, 1, 2, 4
+10636, 12470, 1, "OK", 6, 44, 32, 12, 11, 1, 5, 4
+10611, 12220, 1, "OK", 5, 39, 27, 11, 10, 1, 4, 4
+10536, 11228, 1, "OK", 5, 22, 14, 6, 5, 1, 2, 4
+11886, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 17, 5, 5, 0, 3, 4
+8737, 13239, 1, "OK", 3, 126, 58, 58, 23, 35, 10, 0
+9639, 12662, 1, "OK", 6, 81, 53, 43, 18, 25, 10, 1
+10636, 12220, 1, "OK", 5, 38, 27, 11, 10, 1, 4, 4
+11140, 12470, 1, "OK", 6, 30, 18, 6, 6, 0, 3, 4
+11173, 12470, 1, "OK", 6, 29, 18, 6, 6, 0, 3, 4
+9042, 13005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10611, 11727, 1, "OK", 5, 26, 21, 9, 8, 1, 3, 4
+11140, 12220, 1, "OK", 4, 24, 13, 5, 5, 0, 2, 4
+11173, 12220, 1, "OK", 4, 23, 13, 5, 5, 0, 2, 4
+9001, 13005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10636, 11727, 1, "OK", 5, 25, 21, 9, 8, 1, 3, 4
+11202, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+8946, 12919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu JSONArray fixedMenuPart JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8737, 8896, 1, "OK", 1, 3, 1, 1, 1, 0, 0, 0
+11140, 11727, 1, "OK", 4, 11, 7, 3, 3, 0, 1, 4
+9954, 12649, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 48, 24, 16, 8, 8, 3
+12672, 12874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray userMenu JSONArray fixedMenuPart", 0, 0, 1, 1, 1, 0, 0, 0
+8946, 12667, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu", 0, 0, 55, 55, 20, 35, 10, 0
+11173, 11727, 1, "OK", 4, 10, 7, 3, 3, 0, 1, 4
+10611, 11228, 1, "OK", 5, 18, 14, 6, 5, 1, 2, 4
+11331, 12470, 1, "OK", 5, 25, 18, 6, 6, 0, 3, 4
+10636, 11228, 1, "OK", 5, 17, 14, 6, 5, 1, 2, 4
+8909, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8909, 13061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+11331, 12220, 1, "OK", 3, 19, 13, 5, 5, 0, 2, 4
+8673, 13222, 1, "OK", 3, 126, 58, 58, 23, 35, 10, 0
+11104, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+11202, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+11331, 11727, 1, "OK", 3, 6, 7, 3, 3, 0, 1, 4
+9042, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8946, 12965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+9042, 13061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+9187, 12662, 1, "OK", 5, 94, 53, 43, 18, 25, 10, 1
+8673, 13239, 1, "OK", 3, 127, 58, 58, 23, 35, 10, 0
+9001, 12799, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8909, 13085, 1, "OK", 2, 115, 56, 56, 21, 35, 10, 0
+9001, 13061, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+10560, 11064, 1, "OK", 4, 15, 14, 6, 5, 1, 2, 4
+12672, 12919, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray userMenu JSONArray fixedMenuPart JSONObject wholeMenu", 0, 0, 1, 1, 1, 0, 0, 0
+10560, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+11072, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+8673, 8896, 1, "OK", 1, 4, 1, 1, 1, 0, 0, 0
+11104, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+9042, 13085, 1, "OK", 4, 112, 56, 56, 21, 35, 10, 0
+11886, 12220, 1, "OK", 3, 7, 6, 2, 2, 0, 1, 4
+11886, 12470, 1, "OK", 5, 13, 11, 3, 3, 0, 2, 4
+9725, 12656, 1, "OK", 7, 78, 51, 33, 17, 16, 9, 2
+9001, 13085, 1, "OK", 3, 113, 56, 56, 21, 35, 10, 0
+10536, 11064, 1, "OK", 4, 17, 14, 6, 5, 1, 2, 4
+8946, 13005, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONObject wholeMenu", 0, 0, 56, 56, 21, 35, 10, 0
+8909, 12874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray tempFirstLevelMenuList JSONArray userMenu JSONArray fixedMenuPart", 0, 0, 56, 56, 21, 35, 10, 0
+10168, 10454, 1, "OK", 6, 8, 5, 1, 1, 0, 1, 4
+10536, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+10834, 11055, 1, "OK", 3, 6, 7, 2, 2, 0, 1, 5
+10560, 11096, 1, "OK", 4, 16, 14, 6, 5, 1, 2, 4
+12672, 12965, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONArray userMenu JSONObject wholeMenu", 0, 0, 1, 1, 1, 0, 0, 0
+10611, 11064, 1, "OK", 3, 13, 14, 6, 5, 1, 2, 4
+12229, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 3, 3, 0, 2, 4
+10560, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+11072, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 24, 8, 8, 0, 4, 4
+10636, 11064, 1, "OK", 3, 12, 14, 6, 5, 1, 2, 4
+9486, 12662, 1, "OK", 8, 86, 53, 43, 18, 25, 10, 1
+10210, 10454, 1, "OK", 4, 6, 5, 1, 1, 0, 1, 4
+11202, 12470, 1, "OK", 5, 28, 18, 6, 6, 0, 3, 4
+10536, 11096, 1, "OK", 4, 18, 14, 6, 5, 1, 2, 4
+10611, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+9668, 12662, 1, "OK", 6, 80, 53, 43, 18, 25, 10, 1
+10560, 11132, 1, "OK", 4, 17, 14, 6, 5, 1, 2, 4
+12229, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 11, 3, 3, 0, 2, 4
+9561, 12662, 1, "OK", 7, 84, 53, 43, 18, 25, 10, 1
+9042, 12874, 0, "Ambiguous return value: Selected block modifies more than one local variable used in subsequent code. Affected variables are:  JSONObject result JSONArray userMenu JSONArray fixedMenuPart", 0, 0, 56, 56, 21, 35, 10, 0
+11202, 12220, 1, "OK", 3, 22, 13, 5, 5, 0, 2, 4
+10536, 12641, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4
+10636, 12613, 0, "Selection contains branch statement but corresponding branch target (or the complete loop body) is not selected.", 0, 0, 38, 14, 13, 1, 6, 4

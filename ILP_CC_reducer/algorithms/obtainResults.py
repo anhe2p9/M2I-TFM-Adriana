@@ -6,6 +6,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 # from typing import Any
 import numpy as np
 import pandas as pd
+
 #
 # import csv
 # import os
@@ -52,6 +53,7 @@ class obtainResultsAlgorithm(Algorithm):
             solver.options["timelimit"] = 3600 # time limit for solver
             results = solver.solve(concrete)
             
+            
             # Guardar el modelo en un archivo .lp antes de resolverlo
             concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp', io_options={'symbolic_solver_labels': True})
         
@@ -59,11 +61,15 @@ class obtainResultsAlgorithm(Algorithm):
             num_sequences = len([s for s in concrete.S])
             print(f"There are {num_sequences} x[i] variables")
             data_row.append(num_sequences)
-        
-            num_variables = sum(1 for variable in concrete.component_objects(pyo.Var, active=True) for index in variable if variable[index].value is not None)
-            print(f"There are {num_variables} variables")
-            data_row.append(num_variables)
             
+            
+            # num_variables = sum(1 for v in concrete.component_data_objects(pyo.Var, active=True) if v.active)
+            # print(f"There are {num_variables} variables")
+            # data_row.append(num_variables)
+            
+            
+            num_vars_utilizadas = results.Problem[0].number_of_variables
+            data_row.append(num_vars_utilizadas)
             
             num_constraints = sum(len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
             print(f"There are {num_constraints} constraints")

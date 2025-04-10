@@ -1,8 +1,10 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-from typing import Any
 import sys
+
+import csv
+import os
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -175,6 +177,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             print('===============================================================================')
             
             
+            csv_data = []
+            newrow = [sequences_sum +1, obj2_dif]
+            csv_data.append(newrow)
+            
             
             while results.solver.status == 'ok' and f1z <= concrete.epsilon.value: # NO SÉ CÓMO PONER f1(x), ¿se podría poner f1(x) = 1? porque máximo va a ser 1
                 
@@ -227,3 +233,19 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     for s in concrete.S:
                         print(f"x[{s}] = {concrete.x[s].value}")
                 print('===============================================================================')
+                
+                newrow = [sequences_sum +1, obj2_dif]
+                csv_data.append(newrow)
+                
+            
+            
+            # Write data in a CSV file.
+            filename = "output/epsilon_constr_2obj_output.csv"
+            
+            if os.path.exists(filename):
+                os.remove(filename)
+                    
+            with open(filename, mode="w", newline="", encoding="utf-8") as file:
+                writer = csv.writer(file)
+                writer.writerows(csv_data)
+                print("CSV file correctly created.")

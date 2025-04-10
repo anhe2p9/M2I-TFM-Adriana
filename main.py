@@ -230,6 +230,7 @@ if __name__ == '__main__':
     if model_instance:
         model_instance = Path(model_instance)
         instance_path = "original_code_data" / model_instance
+        print(f"INSTANCE PATH: {instance_path}")
         if not instance_path.is_dir():
             sys.exit(f'The model instance must be a folder with three CSV files.')
             

@@ -43,7 +43,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
             sys.exit(f'The Weighted Sum Algorithm parameters for two objectives must be a number of subdivisions s and the second objective.')
             
         # Write data in a CSV file.
-        filename = "output/output.csv"
+        filename = "output/wheigthed_sum_output.csv"
         
         if os.path.exists(filename):
             os.remove(filename)

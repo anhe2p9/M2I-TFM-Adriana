@@ -101,7 +101,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    model_engine.apply_algorithm(algorithm, ilp_model, instance, tau, subdivisions, weights, second_obj)
+    model_engine.apply_algorithm(algorithm, ilp_model, instance['data'], tau, subdivisions, weights, second_obj)
 
 
 

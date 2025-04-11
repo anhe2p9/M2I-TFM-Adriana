@@ -245,7 +245,7 @@ if __name__ == '__main__':
         else:
             main_one_obj(ilp_algorithm, threshold)
     elif model_type == 'multiobjective':
-        main_multiobjective(ilp_algorithm, instance_path, threshold, subdivisions, weights, second_obj)
+        main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, second_obj)
     else:
         sys.exit("No adequate number of parameters have been provided. Run python main.py -h for help.")
 

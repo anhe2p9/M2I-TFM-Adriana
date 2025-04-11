@@ -53,15 +53,12 @@ class ILPEngine():
         
         
 
-    def apply_algorithm(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: str, *args) -> Any:
+    def apply_algorithm(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> Any:
         """Apply the given algorithm to the given model instance."""
-        
-        if not hasattr(ILPm, 'tau'):
-            ILPm.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
             
         args_list = tuple(item for item in args if item)
         
-        return algorithm.execute(ILPm, instance, *args_list)
+        return algorithm.execute(instance, tau, *args_list)
     
     def apply_algorithms(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> None:
         """Apply the given algorithm to all model instances."""

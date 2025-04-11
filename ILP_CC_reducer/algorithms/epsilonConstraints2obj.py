@@ -174,9 +174,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             f1 = lambda m: multiobj_model.sequencesObjective(m)
             
-            print(f"Valores de f1: {[pyo.value(f1(concrete)) for i in concrete.S]}")
+            print(f"Valores de f1: {[pyo.value(concrete.x[i]) for i in concrete.S]}")
             
-            while result.solver.status == 'ok' and any(pyo.value(f1(concrete)) <= concrete.epsilon.value for i in concrete.S): # NO SÉ CÓMO PONER f1(x)
+            while result.solver.status == 'ok' and sum(pyo.value(multiobj_model.model.x[i]) for i in concrete.S) <= concrete.epsilon.value: # NO SÉ CÓMO PONER f1(x)
                 
                 
                 

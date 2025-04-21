@@ -81,7 +81,7 @@ class MultiobjectiveILPmodel():
             missing_file.append("nested")
         
         total_data = {"missingFiles": missing_file, "emptyFiles": empty_file, "data": data, "offsets": Offsets_filename}
-        print(f"DATA: {total_data}")
+        # print(f"DATA: {total_data}")
         return total_data
     
     

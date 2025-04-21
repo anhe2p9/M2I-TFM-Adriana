@@ -31,7 +31,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         second_objective = multiobj_model.LOCdifferenceObjective if obj2 == 'LOC' else multiobj_model.CCdifferenceObjective
 
         # Solve {min f2}
-        multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m) + 0.00001*multiobj_model.sequencesObjective(m)) # AQUÍ TENGO QUE PONER LA SUMA PONDERADA ENTRE EL PRIMER Y SEGUNDO OBJETIVO PERO DARLE UN PESO MUY MUY PEQUEÑO EN F1
+        multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
 
         concrete = multiobj_model.model.create_instance(data)
         solver=pyo.SolverFactory('cplex')
@@ -48,9 +48,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             f2 = pyo.value(concrete.obj)
             print(f"f2: {f2}")
             if obj2 == 'LOC':
-                print(f"tmax: {concrete.cmax.value}, tmin: {concrete.cmin.value}")
+                print(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}")
             else:
-                print(f"cmax: {concrete.tmax.value}, cmin: {concrete.tmin.value}")
+                print(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}")
             
             # new static variable to implement new constraint f2(x) <= f2(z)
             multiobj_model.model.f2 = pyo.Param(within=pyo.NonNegativeReals, initialize=f2)
@@ -59,14 +59,16 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2))
             
             # new objective min f1(x)
-            multiobj_model.model.obj = pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
+            if hasattr(multiobj_model.model, 'obj'):
+                multiobj_model.model.del_component('obj')
+            multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
             
             concrete = multiobj_model.model.create_instance(data)
             solver=pyo.SolverFactory('cplex')
             result = solver.solve(concrete)
             
             # concrete.pprint()
-                        
+            
             
             """ z <- solve {min f1(x) subject to f2(x) <= f2(z)} """
             # z
@@ -115,7 +117,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             
             # l = epsilon - f1(x)
-            multiobj_model.model.l = pyo.Var(initialize = multiobj_model.model.epsilon - f1z)
+            multiobj_model.model.l = pyo.Param(initialize = multiobj_model.model.epsilon - f1z, mutable=True)
             
             
             
@@ -132,34 +134,14 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             print(f"l param: {concrete.l.value}")
             
             
-            sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
             
-            if obj2 == 'LOC':
-                xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
-                zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-                
-                max_selected = abs(max(xLOC) - max(zLOC))
-                min_selected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
-            
-            elif obj2 == 'CC':
-        
-                xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
-                zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-                
-                
-                max_selected = abs(max(xCC) - max(zCC))
-                min_selected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
-                
-            else:
-                sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
-                
-            obj2_dif = abs(max_selected - min_selected)
+            sequences_sum, obj2_dif = calculate_results(concrete, obj2)
             
             
             
             print('===============================================================================')
             if (result.solver.status == 'ok'):
-                print('Objective SEQUENCES: ', sequences_sum +1)
+                print('Objective SEQUENCES: ', sequences_sum)
                 print(f'Second objective value ({obj2}): {obj2_dif}')
                 print('Sequences selected:')
                 for s in concrete.S:
@@ -172,24 +154,29 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             csv_data.append(newrow)
             
             
-            f1 = lambda m: multiobj_model.sequencesObjective(m)
             
-            print(f"Valores de f1: {[pyo.value(concrete.x[i]) for i in concrete.S]}")
             
-            while result.solver.status == 'ok' and sum(pyo.value(multiobj_model.model.x[i]) for i in concrete.S) <= concrete.epsilon.value: # NO SÉ CÓMO PONER f1(x)
-                
-                
-                
-                
+            """epsilon = f1(z) - 1"""
+            f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
+            multiobj_model.model.epsilon = f1z - 1
+            
+            
+            f1_found = True # while loop control
+            
+            while result.solver.status == 'ok' and f1_found: # NO SÉ CÓMO PONER f1(x)
                 # estimate a lambda value > 0
                 lambd = 1/(f1z - u1)
                 
                 """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 # min f2(x) - lambda * l
-                multiobj_model.model.obj = pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2))
+                if hasattr(multiobj_model.model, 'obj'):
+                    multiobj_model.model.del_component('obj')
+                multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
 
                 # subject to f1(x) + l = epsilon
-                multiobj_model.model.epsilonConstraint = pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ'))
+                if hasattr(multiobj_model.model, 'epsilonConstraint'):
+                    multiobj_model.model.del_component('epsilonConstraint')
+                multiobj_model.model.add_component('epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
                 
                 
                 concrete = multiobj_model.model.create_instance(data)
@@ -201,27 +188,29 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 fp2 = pyo.value(multiobj_model.epsilonObjective(concrete, lambd, obj2))
                 """ PF = PF U {z} """
-                pareto_front.append(fp2)
+                z = pyo.value(concrete.obj)
+                # FP <- PF U {z} (add z to Pareto front)
+                pareto_front.append(z)
+                
+                """epsilon = f1(z) - 1"""
+                f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
+                multiobj_model.model.epsilon = f1z - 1
                 
                 
-                concrete.epsilon = f1z - 1
-                
-                #
-                # f1_x_max = max(concrete.x[s].value for s in concrete.S)
-                # print(f"f1_x_max: {f1_x_max}")
+                sequences_sum, obj2_dif = calculate_results(concrete, obj2)
                 
                 print(f"f1z: {f1z}")
                 print(f"fp2: {fp2}")
-                print(f"epsilon: {multiobj_model.epsilon}")
+                print(f"epsilon: {concrete.epsilon.value}")
                 print(f"u1: {u1}")
                 print(f"lambda: {lambd}")
                     
                 
-                print(f"comprobacion: {f1z} <= {multiobj_model.epsilon}")
+                print(f"comprobacion: {f1z} <= {concrete.epsilon.value}")
                 
-                print('===============================================================================')
+                # print('===============================================================================')
                 if (result.solver.status == 'ok'):
-                    print('Objective SEQUENCES: ', sequences_sum +1)
+                    print('Objective SEQUENCES: ', sequences_sum)
                     print(f'Second objective value ({obj2}): {obj2_dif}')
                     print('Sequences selected:')
                     for s in concrete.S:
@@ -243,3 +232,36 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 writer = csv.writer(file)
                 writer.writerows(csv_data)
                 print("CSV file correctly created.")
+
+
+
+
+
+
+
+                
+def calculate_results(concrete_model: pyo.ConcreteModel, second_obj_str: str):
+    sequences_sum = sum(concrete_model.x[i].value for i in concrete_model.S)
+            
+    if second_obj_str == 'LOC':
+        xLOC = [concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1]
+        zLOC = [concrete_model.loc[j] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1]
+        
+        max_selected = abs(max(xLOC) - max(zLOC))
+        min_selected = min(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+    
+    elif second_obj_str == 'CC':
+
+        xCC = [concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1]
+        zCC = [concrete_model.ccr[j,ii] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1]
+        
+        
+        max_selected = abs(max(xCC) - max(zCC))
+        min_selected = min(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+        
+    else:
+        sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
+        
+    obj2_dif = abs(max_selected - min_selected)
+    
+    return sequences_sum, obj2_dif

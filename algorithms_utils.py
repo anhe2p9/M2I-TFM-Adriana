@@ -124,17 +124,18 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
 
 
 
-def process_weighted_model_2obj(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, obj_selected):
+def process_weighted_model_2obj(data: dp.DataPortal, tau : int, w1 ,w2, obj_selected):
     
     multiobj_model = MultiobjectiveILPmodel()
+    multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
     
-    if hasattr(model, 'obj'):
-        model.del_component('obj')
-    model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum2obj(m, w1, w2, obj_selected)))
+    if hasattr(multiobj_model.model, 'obj'):
+        multiobj_model.model.del_component('obj')
+    multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum2obj(m, w1, w2, obj_selected)))
     
     
     
-    concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
+    concrete = multiobj_model.model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
     solver = pyo.SolverFactory('cplex')
     results = solver.solve(concrete)
     # solver.solve(concrete)

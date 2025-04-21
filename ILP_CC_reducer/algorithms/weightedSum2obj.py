@@ -21,7 +21,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dp.DataPortal, subs, second_obj) -> None:
+    def execute(data: dp.DataPortal, tau: int, subs, second_obj) -> None:
         
         csv_data = [["Weight1","Weight2 (CCdiff)","Num.sequences","CCdif"]]
         
@@ -33,7 +33,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
             for i in range(subs+1):
                 w1, w2 = algorithms_utils.generate_weights_2obj(subs, i)
                 
-                _, newrow = algorithms_utils.process_weighted_model_2obj(model, data, w1 ,w2, second_obj)
+                _, newrow = algorithms_utils.process_weighted_model_2obj(data, tau, w1 ,w2, second_obj)
                 
                 csv_data.append(newrow)
             

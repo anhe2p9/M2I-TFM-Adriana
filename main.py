@@ -93,7 +93,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     model = MultiobjectiveILPmodel()
         
     # Process ilp model
-    ilp_model = model.define_model_without_obj()
+    # ilp_model = model.define_model_without_obj()
     
     # Process algorithm
     algorithm = model_engine.get_algorithm_from_name(alg_name)
@@ -101,7 +101,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    model_engine.apply_algorithm(algorithm, ilp_model, instance['data'], tau, subdivisions, weights, second_obj)
+    model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, second_obj)
 
 
 

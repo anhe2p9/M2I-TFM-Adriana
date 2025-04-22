@@ -24,6 +24,8 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
     @staticmethod
     def execute(data: dp.DataPortal, tau: int, obj2: str) -> None:
         
+        csv_data = [["Num.sequences","CCdif"]]
+        
         multiobj_model = MultiobjectiveILPmodel()
         
         multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
@@ -32,20 +34,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
         # Solve {min f2}
         multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
-
-        concrete = multiobj_model.model.create_instance(data)
-        
-        # Guardar el modelo en un archivo .lp antes de resolverlo
-        concrete.write(f'output/Econstraint_paso1.lp', io_options={'symbolic_solver_labels': True})
-        
-        solver=pyo.SolverFactory('cplex')
-        result = solver.solve(concrete)
-        
-        # concrete.pprint()
+        concrete, result = concrete_and_solve_model(multiobj_model, data)
         
         
-        
-        if result.solver.status == 'ok':
+        if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
             
             """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
             # f2(z) = f2
@@ -63,20 +55,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2))
             
             # new objective: min f1(x)
-            if hasattr(multiobj_model.model, 'obj'):
-                multiobj_model.model.del_component('obj')
-            multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
+            modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
             
-            concrete = multiobj_model.model.create_instance(data)
-            
-            # Guardar el modelo en un archivo .lp antes de resolverlo
-            concrete.write(f'output/Econstraint_paso2.lp', io_options={'symbolic_solver_labels': True})
-            
-            solver=pyo.SolverFactory('cplex')
-            result = solver.solve(concrete)
-            
-            # concrete.pprint()
-            
+            # Solve
+            concrete, result = concrete_and_solve_model(multiobj_model, data)
             
             """ z <- solve {min f1(x) subject to f2(x) <= f2(z)} """
             # z
@@ -97,79 +79,11 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
             
             # lower bound for f1(x)
-            # f1 = pyo.value(multiobj_model.sequencesObjective(concrete))
             u1 = f1z - 1
-            
-             
-            
-            # f1(x)
-            # f1_x = f1 # FUNCIÓN F1(X) QUE SUME TODOS LOS VALORES DE F1 PARA CUALQUIER X
-            # [1,0,0,0,0,0,0,0,0,0,0] = 1
-            # [0,1,0,0,0,0,0,0,0,0,0] = 1
-            # [0,0,1,0,0,0,0,0,0,0,0] = 1
-            # [0,0,0,1,0,0,0,0,0,0,0] = 1
-            # [0,0,0,0,1,0,0,0,0,0,0] = 1
-            # [0,0,0,0,0,1,0,0,0,0,0] = 1
-            # [0,0,0,0,0,0,1,0,0,0,0] = 1
-            # [0,0,0,0,0,0,0,1,0,0,0] = 1
-            # [0,0,0,0,0,0,0,0,1,0,0] = 1
-            # [0,0,0,0,0,0,0,0,0,1,0] = 1
-            # [0,0,0,0,0,0,0,0,0,0,1] = 1
-            # [1,1,0,0,0,0,0,0,0,0,0] = 2
-            # [1,0,1,0,0,0,0,0,0,0,0] = 2
-            # [1,0,0,1,0,0,0,0,0,0,0] = 2
-            # [1,0,0,0,1,0,0,0,0,0,0] = 2
-            # [1,0,0,0,0,1,0,0,0,0,0] = 2
-            #          ...             ...
-            
             
             
             # l = epsilon - f1(x)
             multiobj_model.model.l = pyo.Var(within=pyo.NonNegativeReals)
-            # pyo.Param(initialize = multiobj_model.model.epsilon - multiobj_model.sequencesObjective(concrete), mutable=True)
-            
-            
-            # concrete = multiobj_model.model.create_instance(data)
-            #
-            #
-            # solver=pyo.SolverFactory('cplex')
-            # result = solver.solve(concrete)
-            #
-            # print(f"epsilon: {concrete.epsilon.value}")
-            #
-            #
-            # print(f"f1z: {f1z}")
-            # print(f"u1: {u1}")
-            #
-            # print(f"l param: {concrete.l.value}")
-            #
-            #
-            #
-            # sequences_sum, obj2_dif = calculate_results(concrete, obj2)
-            #
-            #
-            #
-            # print('===============================================================================')
-            # if (result.solver.status == 'ok'):
-            #     print('Objective SEQUENCES: ', sequences_sum)
-            #     print(f'Second objective value ({obj2}): {obj2_dif}')
-            #     print('Sequences selected:')
-            #     for s in concrete.S:
-            #         print(f"x[{s}] = {concrete.x[s].value}")
-            # print('===============================================================================')
-            #
-            #
-            csv_data = [["Num.sequences","CCdif"]]
-            # newrow = [sequences_sum +1, obj2_dif]
-            # csv_data.append(newrow)
-            #
-            #
-            #
-            #
-            # """epsilon = f1(z) - 1"""
-            # f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
-            # multiobj_model.model.epsilon = f1z - 1
-            #
 
             
             f2_found = True # while loop control
@@ -181,28 +95,18 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 
                 """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 # min f2(x) - lambda * l
-                if hasattr(multiobj_model.model, 'obj'):
-                    multiobj_model.model.del_component('obj')
-                multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
+                modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
 
                 # subject to f1(x) + l = epsilon
-                if hasattr(multiobj_model.model, 'epsilonConstraint'):
-                    multiobj_model.model.del_component('epsilonConstraint')
-                multiobj_model.model.add_component('epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
+                modify_component(multiobj_model, 'epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
                 
-                
-                concrete = multiobj_model.model.create_instance(data)
-                
-                # Guardar el modelo en un archivo .lp antes de resolverlo
-                concrete.write(f'output/Econstraint_paso3.lp', io_options={'symbolic_solver_labels': True})
-                
-                solver=pyo.SolverFactory('cplex')
-                result = solver.solve(concrete)
+                # Solve
+                concrete, result = concrete_and_solve_model(multiobj_model, data)
                 
                 print(f"variable l value: {concrete.l.value}")
                 
-                # concrete.pprint()
                 
+                """ While exists x in X that makes f1(x) < epsilon do """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
                     
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
@@ -217,23 +121,18 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     """ epsilon = f1(z) - 1 """
                     f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
                     
-                    
-                    
-                    if hasattr(multiobj_model.model, 'epsilon'):
-                        multiobj_model.model.del_component('epsilon')
-                    multiobj_model.model.add_component('epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
+                    # New epsilon value
+                    modify_component(multiobj_model, 'epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
                     
                     
                     
                     print(f"f1z: {f1z}")
                     
-                    # multiobj_model.model.epsilon.set_value(f1z - 1)
                     
-                    
-                    
+                    # lower bound for f1(x) (it has to decrease with f1z)
                     u1 = f1z - 1
                     
-                    
+                    # Calculate results for CSV file
                     sequences_sum, obj2_dif = calculate_results(concrete, obj2)
                     
                     
@@ -245,7 +144,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     
                     print(f"comprobacion: {f1z} <= {concrete.epsilon.value}")
                     
-                    # print('===============================================================================')
+                    print('-------------------------------------------------------------------------------')
                     if (result.solver.status == 'ok'):
                         print('Objective SEQUENCES: ', sequences_sum)
                         print(f'Second objective value ({obj2}): {obj2_dif}')
@@ -262,22 +161,25 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 
             
             
-            # Write data in a CSV file.
-            filename = "output/epsilon_constr_2obj_output.csv"
+            # Save model in a LP file
+            concrete.write(f'output/Econstraint_FALTA_PONER_EL_NOMBRE_DEL_METODO.lp', io_options={'symbolic_solver_labels': True})
             
-            if os.path.exists(filename):
-                os.remove(filename)
-                    
-            with open(filename, mode="w", newline="", encoding="utf-8") as file:
-                writer = csv.writer(file)
-                writer.writerows(csv_data)
-                print("CSV file correctly created.")
+            # Write data in a CSV file.
+            write_file(csv_data)
 
 
 
+def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any):
+    if hasattr(mobj_model.model, component):
+        mobj_model.model.del_component(component)
+    mobj_model.model.add_component(component, new_value)
 
 
-
+def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
+    concrete = mobj_model.model.create_instance(instance)
+    solver = pyo.SolverFactory('cplex')
+    result = solver.solve(concrete)
+    return concrete, result
 
                 
 def calculate_results(concrete_model: pyo.ConcreteModel, second_obj_str: str):
@@ -305,3 +207,15 @@ def calculate_results(concrete_model: pyo.ConcreteModel, second_obj_str: str):
     obj2_dif = abs(max_selected - min_selected)
     
     return sequences_sum, obj2_dif
+
+
+def write_file(csv_info: list):
+    filename = "output/epsilon_constr_2obj_output.csv"
+            
+    if os.path.exists(filename):
+        os.remove(filename)
+            
+    with open(filename, mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerows(csv_info)
+        print("CSV file correctly created.")

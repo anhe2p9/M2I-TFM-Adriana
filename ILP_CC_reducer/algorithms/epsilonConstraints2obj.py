@@ -34,6 +34,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
 
         concrete = multiobj_model.model.create_instance(data)
+        
+        # Guardar el modelo en un archivo .lp antes de resolverlo
+        concrete.write(f'output/Econstraint_paso1.lp', io_options={'symbolic_solver_labels': True})
+        
         solver=pyo.SolverFactory('cplex')
         result = solver.solve(concrete)
         
@@ -45,25 +49,29 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
             # f2(z) = f2
-            f2 = pyo.value(concrete.obj)
-            print(f"f2: {f2}")
+            f2z = pyo.value(concrete.obj)
+            print(f"f2z: {f2z}")
             if obj2 == 'LOC':
                 print(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}")
             else:
                 print(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}")
             
-            # new static variable to implement new constraint f2(x) <= f2(z)
-            multiobj_model.model.f2 = pyo.Param(within=pyo.NonNegativeReals, initialize=f2)
+            # new parameter to implement new constraint f2(x) <= f2(z)
+            multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
             
             # new constraint f2(x) <= f2(z)
             multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2))
             
-            # new objective min f1(x)
+            # new objective: min f1(x)
             if hasattr(multiobj_model.model, 'obj'):
                 multiobj_model.model.del_component('obj')
             multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
             
             concrete = multiobj_model.model.create_instance(data)
+            
+            # Guardar el modelo en un archivo .lp antes de resolverlo
+            concrete.write(f'output/Econstraint_paso2.lp', io_options={'symbolic_solver_labels': True})
+            
             solver=pyo.SolverFactory('cplex')
             result = solver.solve(concrete)
             
@@ -77,7 +85,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # FP <- {z} (add z to Pareto front)
             pareto_front = [z]
             
-            print(f"f2 param: {concrete.f2.value}")
+            print(f"f2 param: {concrete.f2z.value}")
             print(f"f2 constraint: {second_objective(concrete)}")
             
             print(f"new objective (step 2): {pyo.value(concrete.obj)}")
@@ -117,53 +125,57 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             
             # l = epsilon - f1(x)
-            multiobj_model.model.l = pyo.Param(initialize = multiobj_model.model.epsilon - f1z, mutable=True)
+            multiobj_model.model.l = pyo.Var(within=pyo.NonNegativeReals)
+            # pyo.Param(initialize = multiobj_model.model.epsilon - multiobj_model.sequencesObjective(concrete), mutable=True)
             
             
-            
-            concrete = multiobj_model.model.create_instance(data)
-            solver=pyo.SolverFactory('cplex')
-            result = solver.solve(concrete)
-            
-            print(f"epsilon: {concrete.epsilon.value}")
-            
-            
-            print(f"f1z: {f1z}")
-            print(f"u1: {u1}")
-            
-            print(f"l param: {concrete.l.value}")
-            
-            
-            
-            sequences_sum, obj2_dif = calculate_results(concrete, obj2)
-            
-            
-            
-            print('===============================================================================')
-            if (result.solver.status == 'ok'):
-                print('Objective SEQUENCES: ', sequences_sum)
-                print(f'Second objective value ({obj2}): {obj2_dif}')
-                print('Sequences selected:')
-                for s in concrete.S:
-                    print(f"x[{s}] = {concrete.x[s].value}")
-            print('===============================================================================')
-            
-            
+            # concrete = multiobj_model.model.create_instance(data)
+            #
+            #
+            # solver=pyo.SolverFactory('cplex')
+            # result = solver.solve(concrete)
+            #
+            # print(f"epsilon: {concrete.epsilon.value}")
+            #
+            #
+            # print(f"f1z: {f1z}")
+            # print(f"u1: {u1}")
+            #
+            # print(f"l param: {concrete.l.value}")
+            #
+            #
+            #
+            # sequences_sum, obj2_dif = calculate_results(concrete, obj2)
+            #
+            #
+            #
+            # print('===============================================================================')
+            # if (result.solver.status == 'ok'):
+            #     print('Objective SEQUENCES: ', sequences_sum)
+            #     print(f'Second objective value ({obj2}): {obj2_dif}')
+            #     print('Sequences selected:')
+            #     for s in concrete.S:
+            #         print(f"x[{s}] = {concrete.x[s].value}")
+            # print('===============================================================================')
+            #
+            #
             csv_data = [["Num.sequences","CCdif"]]
-            newrow = [sequences_sum +1, obj2_dif]
-            csv_data.append(newrow)
+            # newrow = [sequences_sum +1, obj2_dif]
+            # csv_data.append(newrow)
+            #
+            #
+            #
+            #
+            # """epsilon = f1(z) - 1"""
+            # f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
+            # multiobj_model.model.epsilon = f1z - 1
+            #
+
             
+            f2_found = True # while loop control
+            multiobj_model.model.del_component('f2Constraint') # delete f2(x) <= f2(z) constraint
             
-            
-            
-            """epsilon = f1(z) - 1"""
-            f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
-            multiobj_model.model.epsilon = f1z - 1
-            
-            
-            f1_found = True # while loop control
-            
-            while result.solver.status == 'ok' and f1_found: # NO SÉ CÓMO PONER f1(x)
+            while f2_found: # NO SÉ CÓMO PONER f1(x)
                 # estimate a lambda value > 0
                 lambd = 1/(f1z - u1)
                 
@@ -180,45 +192,73 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 
                 
                 concrete = multiobj_model.model.create_instance(data)
+                
+                # Guardar el modelo en un archivo .lp antes de resolverlo
+                concrete.write(f'output/Econstraint_paso3.lp', io_options={'symbolic_solver_labels': True})
+                
                 solver=pyo.SolverFactory('cplex')
                 result = solver.solve(concrete)
                 
+                print(f"variable l value: {concrete.l.value}")
+                
                 # concrete.pprint()
                 
-                """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
-                fp2 = pyo.value(multiobj_model.epsilonObjective(concrete, lambd, obj2))
-                """ PF = PF U {z} """
-                z = pyo.value(concrete.obj)
-                # FP <- PF U {z} (add z to Pareto front)
-                pareto_front.append(z)
-                
-                """epsilon = f1(z) - 1"""
-                f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
-                multiobj_model.model.epsilon = f1z - 1
-                
-                
-                sequences_sum, obj2_dif = calculate_results(concrete, obj2)
-                
-                print(f"f1z: {f1z}")
-                print(f"fp2: {fp2}")
-                print(f"epsilon: {concrete.epsilon.value}")
-                print(f"u1: {u1}")
-                print(f"lambda: {lambd}")
+                if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
                     
-                
-                print(f"comprobacion: {f1z} <= {concrete.epsilon.value}")
-                
-                # print('===============================================================================')
-                if (result.solver.status == 'ok'):
-                    print('Objective SEQUENCES: ', sequences_sum)
-                    print(f'Second objective value ({obj2}): {obj2_dif}')
-                    print('Sequences selected:')
-                    for s in concrete.S:
-                        print(f"x[{s}] = {concrete.x[s].value}")
-                print('===============================================================================')
-                
-                newrow = [sequences_sum +1, obj2_dif]
-                csv_data.append(newrow)
+                    # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
+                    fp2 = pyo.value(multiobj_model.epsilonObjective(concrete, lambd, obj2))
+                    
+                    
+                    """ PF = PF U {z} """
+                    z = pyo.value(concrete.obj)
+                    # FP <- PF U {z} (add z to Pareto front)
+                    pareto_front.append(z)
+                    
+                    """ epsilon = f1(z) - 1 """
+                    f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
+                    
+                    
+                    
+                    if hasattr(multiobj_model.model, 'epsilon'):
+                        multiobj_model.model.del_component('epsilon')
+                    multiobj_model.model.add_component('epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
+                    
+                    
+                    
+                    print(f"f1z: {f1z}")
+                    
+                    # multiobj_model.model.epsilon.set_value(f1z - 1)
+                    
+                    
+                    
+                    u1 = f1z - 1
+                    
+                    
+                    sequences_sum, obj2_dif = calculate_results(concrete, obj2)
+                    
+                    
+                    print(f"fp2: {fp2}")
+                    print(f"epsilon: {concrete.epsilon.value}")
+                    print(f"u1: {u1}")
+                    print(f"lambda: {lambd}")
+                        
+                    
+                    print(f"comprobacion: {f1z} <= {concrete.epsilon.value}")
+                    
+                    # print('===============================================================================')
+                    if (result.solver.status == 'ok'):
+                        print('Objective SEQUENCES: ', sequences_sum)
+                        print(f'Second objective value ({obj2}): {obj2_dif}')
+                        print('Sequences selected:')
+                        for s in concrete.S:
+                            print(f"x[{s}] = {concrete.x[s].value}")
+                    print('===============================================================================')
+                    
+                    newrow = [sequences_sum, obj2_dif]
+                    csv_data.append(newrow)
+                    
+                else:
+                    f2_found = False
                 
             
             

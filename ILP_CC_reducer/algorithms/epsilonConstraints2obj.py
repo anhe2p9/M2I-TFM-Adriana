@@ -45,16 +45,16 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # f2(z) := f2z
             f2z = pyo.value(concrete.obj)
             
-            f.write("=====================================================================================================================================")
+            f.write("=====================================================================================================================================\n")
             if obj2 == 'LOC':
-                f.write(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}")
+                f.write(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}\n")
             else:
-                f.write(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}")
-            f.write(f"min f2(x), {obj2}, subject to x in X: {f2z}")
+                f.write(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}\n")
+            f.write(f"min f2(x), {obj2}, subject to x in X: {f2z}\n")
             
             
             
-            f.write(f"Valores en el primer paso: {calculate_results(concrete, obj2)}")
+            f.write(f"Valores en el primer paso: {calculate_results(concrete, obj2)}\n")
             
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
@@ -72,18 +72,18 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             newrow = calculate_results(concrete, obj2) # Calculate results for CSV file
             csv_data.append(newrow)
             
-            f.write('-------------------------------------------------------------------------------')
+            f.write('-------------------------------------------------------------------------------\n')
             if (result.solver.status == 'ok'):
-                f.write(f'Objective SEQUENCES: {newrow[0]}')
-                f.write(f'Second objective value ({obj2}): {newrow[1]}')
-                f.write('Sequences selected:')
+                f.write(f'Objective SEQUENCES: {newrow[0]}\n')
+                f.write(f'Second objective value ({obj2}): {newrow[1]}\n')
+                f.write('Sequences selected:\n')
                 for s in concrete.S:
-                    f.write(f"x[{s}] = {concrete.x[s].value}")
-            f.write('===============================================================================')
+                    f.write(f"x[{s}] = {concrete.x[s].value}\n")
+            f.write('===============================================================================\n')
             
             
             
-            f.write(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}")
+            f.write(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
             
             
             # epsilon <- f1(z) - 1
@@ -114,7 +114,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 """ While exists x in X that makes f1(x) < epsilon do """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
                     
-                    f.write(f"slack variable l value: {concrete.l.value}")
+                    f.write(f"slack variable l value: {concrete.l.value}\n")
                     
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
                     
@@ -130,7 +130,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     modify_component(multiobj_model, 'epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
                     
                     
-                    f.write(f"f1z: {f1z}")
+                    f.write(f"f1z: {f1z}\n")
                     
                     
                     # lower bound for f1(x) (it has to decrease with f1z)
@@ -138,21 +138,21 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     
                     
                     
-                    f.write(f"epsilon: {concrete.epsilon.value}")
-                    f.write(f"u1: {u1}")
-                    f.write(f"lambda: {lambd}")
+                    f.write(f"epsilon: {concrete.epsilon.value}\n")
+                    f.write(f"u1: {u1}\n")
+                    f.write(f"lambda: {lambd}\n")
                         
                     
-                    f.write(f"comprobacion: {f1z} <= {concrete.epsilon.value}")
+                    f.write(f"comprobacion: {f1z} <= {concrete.epsilon.value}\n")
                     
-                    f.write('-------------------------------------------------------------------------------')
+                    f.write('-------------------------------------------------------------------------------\n')
                     if (result.solver.status == 'ok'):
-                        f.write(f'Objective SEQUENCES: {newrow[0]}')
-                        f.write(f'Second objective value ({obj2}): {newrow[1]}')
-                        f.write('Sequences selected:')
+                        f.write(f'Objective SEQUENCES: {newrow[0]}\n')
+                        f.write(f'Second objective value ({obj2}): {newrow[1]}\n')
+                        f.write('Sequences selected:\n')
                         for s in concrete.S:
-                            f.write(f"x[{s}] = {concrete.x[s].value}")
-                    f.write('===============================================================================')
+                            f.write(f"x[{s}] = {concrete.x[s].value}\n")
+                    f.write('===============================================================================\n')
                     
                     
                 else:

@@ -14,6 +14,77 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 
 
+def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any):
+    if hasattr(mobj_model.model, component):
+        mobj_model.model.del_component(component)
+    mobj_model.model.add_component(component, new_value)
+
+def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
+    concrete = mobj_model.model.create_instance(instance)
+    solver = pyo.SolverFactory('cplex')
+    result = solver.solve(concrete)
+    return concrete, result
+
+
+
+def calculate_results(concrete_model: pyo.ConcreteModel, obj: str): # TODO: esto hay que generalizarlo para que sirva para cualquiera de los tres objetivos, o para dos en caso de que sean dos
+    sequences_sum = sum(concrete_model.x[i].value for i in concrete_model.S)
+            
+    if obj == 'LOC':
+        max_xLOC = max(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+        max_zLOC = max(concrete_model.loc[j] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
+        
+        max_selected = abs(max_xLOC - max_zLOC)
+        min_selected = min(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+    
+    elif obj == 'CC':
+
+        max_xCC = max(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+        max_zCC = max(concrete_model.ccr[j,ii] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
+        
+        
+        max_selected = abs(max_xCC - max_zCC)
+        min_selected = min(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+        
+    else:
+        sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
+        
+    obj2_dif = abs(max_selected - min_selected)
+    
+    newrow = [sequences_sum, obj2_dif]
+    
+    return newrow
+
+
+def print_result_and_sequences(solver_status: str, newrow: list, obj2: str, concrete: pyo.ConcreteModel):
+    print('===============================================================================')
+    if (solver_status == 'ok'):
+        print(f'Objective SEQUENCES: {newrow[0]}')
+        print(f'Objective {obj2}: {newrow[1]}')
+        print('Sequences selected:')
+        for s in concrete.S:
+            print(f"x[{s}] = {concrete.x[s].value}")
+    print('===============================================================================')
+
+
+def write_results_and_sequences_to_file(file: str, solver_status: str, newrow: list, obj2: str, concrete: pyo.ConcreteModel):
+    file.write('-------------------------------------------------------------------------------\n')
+    if (solver_status == 'ok'):
+        file.write(f'Objective SEQUENCES: {newrow[0]}\n')
+        file.write(f'Second objective value ({obj2}): {newrow[1]}\n')
+        file.write('Sequences selected:\n')
+        for s in concrete.S:
+            file.write(f"x[{s}] = {concrete.x[s].value}\n")
+    file.write('===============================================================================\n')
+    
+
+
+
+
+
+
+
+
 def extract_optimal_tuples(file_path):
     sheets = ["General", "MaxTimeSOLVED"]
     result_set = set()
@@ -121,66 +192,6 @@ def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2
     # TODO: añadir generación de CSVs con los resultados (hay algún método ya hecho creo que sería solo llamarlo)
     
     return concrete, newrow, results
-
-
-
-def process_weighted_model_2obj(data: dp.DataPortal, tau : int, w1 ,w2, obj_selected):
-    
-    multiobj_model = MultiobjectiveILPmodel()
-    multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
-    
-    if hasattr(multiobj_model.model, 'obj'):
-        multiobj_model.model.del_component('obj')
-    multiobj_model.model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum2obj(m, w1, w2, obj_selected)))
-    
-    
-    
-    concrete = multiobj_model.model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
-    solver = pyo.SolverFactory('cplex')
-    results = solver.solve(concrete)
-    # solver.solve(concrete)
-    
-    # print(results)
-    # num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
-    # print(f"There are {num_variables} variables\n")
-    # print("==========================================================================================================\n")
-
-
-    sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
-    
-    if obj_selected == 'LOC':
-        xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
-        zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-        
-        max_selected = abs(max(xLOC) - max(zLOC))
-        min_selected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
-    
-    elif obj_selected == 'CC':
-
-        xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
-        zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-        
-        
-        max_selected = abs(max(xCC) - max(zCC))
-        min_selected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
-        
-    else:
-        sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
-        
-    obj2_dif = abs(max_selected - min_selected)
-    
-    newrow = [round(w1,2),round(w2,2),sequences_sum,obj2_dif]
-    
-    print('===============================================================================')
-    if (results.solver.status == 'ok'):
-        print('Objective SEQUENCES: ', sequences_sum +1)
-        print(f'Objective {obj_selected}: {obj2_dif}')
-        print('Sequences selected:')
-        for s in concrete.S:
-            print(f"x[{s}] = {concrete.x[s].value}")
-    print('===============================================================================')
-    
-    return concrete, newrow
 
 
 

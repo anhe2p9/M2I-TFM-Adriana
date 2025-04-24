@@ -1,13 +1,15 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-import sys
+# import sys
 
 import csv
 import os
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
+
+import algorithms_utils
 
 
 
@@ -24,19 +26,20 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
     @staticmethod
     def execute(data: dp.DataPortal, tau: int, obj2: str) -> None:
         
-        f = open('output/eConstraint_output.txt', 'w')
-        
-        csv_data = [["Num.sequences","CCdif"]]
-        
         multiobj_model = MultiobjectiveILPmodel()
         
-        multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+        f = open('output/eConstraint_output.txt', 'w')
         
+        csv_data = [["Num.sequences", f"{obj2}dif"]]
+        
+        # Define threshold
+        multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+        # Define the objective selected by user
         second_objective = multiobj_model.LOCdifferenceObjective if obj2 == 'LOC' else multiobj_model.CCdifferenceObjective
 
         # Solve {min f2}
         multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
-        concrete, result = concrete_and_solve_model(multiobj_model, data)
+        concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
         
         
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
@@ -54,37 +57,27 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             
             
-            f.write(f"Valores en el primer paso: {calculate_results(concrete, obj2)}\n")
+            f.write(f"Valores en el primer paso: {algorithms_utils.calculate_results(concrete, obj2)}\n")
             
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
             # new constraint f2(x) <= f2(z)
             multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2))
             # new objective: min f1(x)
-            modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
+            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
             # Solve model
-            concrete, result = concrete_and_solve_model(multiobj_model, data)
+            concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
             # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
             f1z = pyo.value(concrete.obj)
+            
+            f.write(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
 
 
             """ FP <- {z} (add z to Pareto front) """
-            newrow = calculate_results(concrete, obj2) # Calculate results for CSV file
+            newrow = algorithms_utils.calculate_results(concrete, obj2) # Calculate results for CSV file
             csv_data.append(newrow)
             
-            f.write('-------------------------------------------------------------------------------\n')
-            if (result.solver.status == 'ok'):
-                f.write(f'Objective SEQUENCES: {newrow[0]}\n')
-                f.write(f'Second objective value ({obj2}): {newrow[1]}\n')
-                f.write('Sequences selected:\n')
-                for s in concrete.S:
-                    f.write(f"x[{s}] = {concrete.x[s].value}\n")
-            f.write('===============================================================================\n')
-            
-            
-            
-            f.write(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
-            
+            algorithms_utils.write_results_and_sequences_to_file(f, result.solver.status, newrow, obj2, concrete)            
             
             # epsilon <- f1(z) - 1
             multiobj_model.model.epsilon = pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True)
@@ -99,17 +92,18 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             solution_found = True # while loop control
             multiobj_model.model.del_component('f2Constraint') # delete f2(x) <= f2(z) constraint
             
-            while solution_found: # NO SÉ CÓMO PONER f1(x)
+            while solution_found:
+                                
                 # estimate a lambda value > 0
                 lambd = 1/(f1z - u1)
                 
                 """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 # min f2(x) - lambda * l
-                modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
+                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
                 # subject to f1(x) + l = epsilon
-                modify_component(multiobj_model, 'epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
+                algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
                 # Solve
-                concrete, result = concrete_and_solve_model(multiobj_model, data)
+                concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
                 
                 """ While exists x in X that makes f1(x) < epsilon do """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
@@ -119,7 +113,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
                     
                     """ PF = PF U {z} """
-                    newrow = calculate_results(concrete, obj2) # Calculate results for CSV file
+                    newrow = algorithms_utils.calculate_results(concrete, obj2) # Calculate results for CSV file
                     csv_data.append(newrow)
                     
                     
@@ -127,7 +121,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
                     
                     # New epsilon value
-                    modify_component(multiobj_model, 'epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
+                    algorithms_utils.modify_component(multiobj_model, 'epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
                     
                     
                     f.write(f"f1z: {f1z}\n")
@@ -141,19 +135,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     f.write(f"epsilon: {concrete.epsilon.value}\n")
                     f.write(f"u1: {u1}\n")
                     f.write(f"lambda: {lambd}\n")
-                        
-                    
                     f.write(f"comprobacion: {f1z} <= {concrete.epsilon.value}\n")
                     
-                    f.write('-------------------------------------------------------------------------------\n')
-                    if (result.solver.status == 'ok'):
-                        f.write(f'Objective SEQUENCES: {newrow[0]}\n')
-                        f.write(f'Second objective value ({obj2}): {newrow[1]}\n')
-                        f.write('Sequences selected:\n')
-                        for s in concrete.S:
-                            f.write(f"x[{s}] = {concrete.x[s].value}\n")
-                    f.write('===============================================================================\n')
-                    
+                    algorithms_utils.write_results_and_sequences_to_file(f, result.solver.status, newrow, obj2, concrete)
                     
                 else:
                     solution_found = False
@@ -165,50 +149,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             # Write data in a CSV file.
             write_file(csv_data)
-            
 
-
-
-def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any):
-    if hasattr(mobj_model.model, component):
-        mobj_model.model.del_component(component)
-    mobj_model.model.add_component(component, new_value)
-
-
-def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
-    concrete = mobj_model.model.create_instance(instance)
-    solver = pyo.SolverFactory('cplex')
-    result = solver.solve(concrete)
-    return concrete, result
 
                 
-def calculate_results(concrete_model: pyo.ConcreteModel, second_obj_str: str):
-    sequences_sum = sum(concrete_model.x[i].value for i in concrete_model.S)
-            
-    if second_obj_str == 'LOC':
-        max_xLOC = max(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-        max_zLOC = max(concrete_model.loc[j] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
-        
-        max_selected = abs(max_xLOC - max_zLOC)
-        min_selected = min(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-    
-    elif second_obj_str == 'CC':
 
-        max_xCC = max(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-        max_zCC = max(concrete_model.ccr[j,ii] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
-        
-        
-        max_selected = abs(max_xCC - max_zCC)
-        min_selected = min(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-        
-    else:
-        sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
-        
-    obj2_dif = abs(max_selected - min_selected)
-    
-    newrow = [sequences_sum, obj2_dif]
-    
-    return newrow
 
 
 def write_file(csv_info: list):

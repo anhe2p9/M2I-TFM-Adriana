@@ -77,7 +77,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             newrow = algorithms_utils.calculate_results(concrete, obj2) # Calculate results for CSV file
             csv_data.append(newrow)
             
-            algorithms_utils.write_results_and_sequences_to_file(f, result.solver.status, newrow, obj2, concrete)            
+            algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)            
             
             # epsilon <- f1(z) - 1
             multiobj_model.model.epsilon = pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True)
@@ -99,9 +99,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 
                 """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 # min f2(x) - lambda * l
-                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m, lambd, obj2)))
+                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective_2obj(m, lambd, obj2)))
                 # subject to f1(x) + l = epsilon
-                algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
+                algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint_2obj(m, 'SEQ')))
                 # Solve
                 concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
                 
@@ -137,7 +137,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     f.write(f"lambda: {lambd}\n")
                     f.write(f"comprobacion: {f1z} <= {concrete.epsilon.value}\n")
                     
-                    algorithms_utils.write_results_and_sequences_to_file(f, result.solver.status, newrow, obj2, concrete)
+                    algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)
                     
                 else:
                     solution_found = False

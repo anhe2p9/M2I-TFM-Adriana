@@ -44,7 +44,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
                 
                 newrow = algorithms_utils.calculate_results(concrete, obj2)
                             
-                algorithms_utils.print_result_and_sequences(results.solver.status, newrow, obj2, concrete)
+                algorithms_utils.print_result_and_sequences(concrete, results.solver.status, newrow, obj2)
                 
                 
                 

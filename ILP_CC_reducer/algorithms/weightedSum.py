@@ -8,6 +8,7 @@ import csv
 import os
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.models import MultiobjectiveILPmodel
 
 
 class WeightedSumAlgorithm(Algorithm):
@@ -21,13 +22,18 @@ class WeightedSumAlgorithm(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(model: pyo.AbstractModel, data: dict, args) -> None:
+    def execute(data: dp.DataPortal, tau: int, args) -> None:
         
-        csv_data = [["Weight1","Weight2","Weight3","Num.sequences","LOCdif","CCdif"]]
+        multiobj_model = MultiobjectiveILPmodel()
+    
+        # Define threshold
+        multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+        
+        csv_data = [["Weight1","Weight2","Weight3","Num.sequences","CCdif","LOCdif"]]
         
         print(f"ARGS WEIGHTS: {args}")
         
- 
+        """ Weighted model for all generated weights given a number of subdivisions """
         if isinstance(args, int):
             print(f"Proccessing all ILP results with {args} subdivisions")
     
@@ -35,7 +41,7 @@ class WeightedSumAlgorithm(Algorithm):
                 for j in range(args+1):
                     w1, w2, w3 = algorithms_utils.generate_weights(args, i, j)
                     
-                    _, newrow, _ = algorithms_utils.process_weighted_model(model, data["data"], w1 ,w2, w3)
+                    _, newrow, _ = process_weighted_model(multiobj_model, data, w1 ,w2, w3)
                     
                     csv_data.append(newrow)
                 
@@ -43,24 +49,19 @@ class WeightedSumAlgorithm(Algorithm):
                         break
             
             
-            
+            """ Weighted model just for a specific given weights """
         elif all(isinstance(arg, float) for arg in args):
             print(f"Proccessing the optimal ILP solution with weights: {args}")
                         
             w1, w2, w3 = args
             
-            concrete, newrow, results = algorithms_utils.process_weighted_model(model, data["data"], w1 ,w2, w3)
+            concrete, newrow, results = process_weighted_model(multiobj_model, data, w1 ,w2, w3)
                   
             csv_data.append(newrow)
             
             concrete.pprint()
             
-            print('===============================================================================')
-            if (results.solver.status == 'ok'):
-                print('Sequences selected:')
-                for s in concrete.S:
-                    print(f"x[{s}] = {concrete.x[s].value}")
-            print('===============================================================================')
+            algorithms_utils.print_result_and_sequences(concrete, results.solver.status)
             print(results)
             
         else:
@@ -79,7 +80,21 @@ class WeightedSumAlgorithm(Algorithm):
             print(f"CSV file correctly created in {filename}.")
     
 
+
+
+def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3):
     
+    algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weightedSum(m, w1, w2, w3)))
+    concrete, results = algorithms_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
+    
+    newrow_values = algorithms_utils.calculate_results(concrete) # Calculate results for CSV file
+    newrow = [round(w1,2),round(w2,2),round(w3,2)] + newrow_values
+    
+    # TODO: añadir generación de CSVs con los resultados (hay algún método ya hecho creo que sería solo llamarlo)
+    
+    return concrete, newrow, results
+
+
 
 
 

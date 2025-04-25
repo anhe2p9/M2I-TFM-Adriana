@@ -1,25 +1,28 @@
 import numpy as np
 import math
 
-import sys
+# import sys
 import os
 from typing import Any
 import csv
 from pathlib import Path
-import pandas as pd
 
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
+# from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 
 
 def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any):
+    """ Modify a given component of a model to avoid construct warnings """
+    
     if hasattr(mobj_model.model, component):
         mobj_model.model.del_component(component)
     mobj_model.model.add_component(component, new_value)
 
 def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
+    """ Generate a Concrete Model for a given model instance and solve it using CPLEX solver """
+    
     concrete = mobj_model.model.create_instance(instance)
     solver = pyo.SolverFactory('cplex')
     result = solver.solve(concrete)
@@ -27,82 +30,78 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
 
 
 
-def calculate_results(concrete_model: pyo.ConcreteModel, obj: str): # TODO: esto hay que generalizarlo para que sirva para cualquiera de los tres objetivos, o para dos en caso de que sean dos
+def calculate_results(concrete_model: pyo.ConcreteModel, obj_selected: str = None):
+    """ Calculate sequences selected, and the selected second objective difference """
     sequences_sum = sum(concrete_model.x[i].value for i in concrete_model.S)
             
-    if obj == 'LOC':
-        max_xLOC = max(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-        max_zLOC = max(concrete_model.loc[j] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
-        
-        max_selected = abs(max_xLOC - max_zLOC)
-        min_selected = min(concrete_model.loc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-    
-    elif obj == 'CC':
-
-        max_xCC = max(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-        max_zCC = max(concrete_model.ccr[j,ii] for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
-        
-        
-        max_selected = abs(max_xCC - max_zCC)
-        min_selected = min(concrete_model.nmcc[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-        
+    if obj_selected is not None:
+        obj_diff = obtain_obj_diff(concrete_model, obj_selected)
+        newrow = [sequences_sum, obj_diff]
     else:
-        sys.exit("Second objective parameter must be one between 'LOC' and 'CC'.")
-        
-    obj2_dif = abs(max_selected - min_selected)
-    
-    newrow = [sequences_sum, obj2_dif]
-    
+        cc_diff = obtain_obj_diff(concrete_model, 'CC')
+        loc_diff = obtain_obj_diff(concrete_model, 'LOC')
+        newrow = [sequences_sum, cc_diff, loc_diff]   
     return newrow
 
 
-def print_result_and_sequences(solver_status: str, newrow: list, obj2: str, concrete: pyo.ConcreteModel):
+def obtain_obj_diff(concrete_model: pyo.ConcreteModel, obj: str):
+    """ Obtain LOC diff in case that objective is selected, or CC diff in case that objective is selected. """
+    
+    # Define parameters
+    paremeter_selected_x = concrete_model.loc if obj == 'LOC' else concrete_model.nmcc
+    paremeter_selected_z = concrete_model.loc if obj == 'LOC' else concrete_model.ccr
+    
+    # Select Z index depending on the objective
+    get_z_index = (lambda j, ii: paremeter_selected_z[j]) if obj == 'LOC' else (lambda j, ii: paremeter_selected_z[j, ii])
+    
+    # Obtain max
+    max_xLOC = max(paremeter_selected_x[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+    max_zLOC = max(get_z_index(j,ii) for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
+    max_selected = abs(max_xLOC - max_zLOC) # Obtain the max extracted property
+    
+    # Obtain min
+    min_selected = min(paremeter_selected_x[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
+    
+    # Obtain diff between max and min
+    obj_diff = abs(max_selected - min_selected)
+    
+    return obj_diff
+
+
+def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list, obj2: str=None):
+    """ Print results and a vertical list of sequences selected """
+    
     print('===============================================================================')
     if (solver_status == 'ok'):
-        print(f'Objective SEQUENCES: {newrow[0]}')
-        print(f'Objective {obj2}: {newrow[1]}')
+        if obj2:
+            print(f'Objective SEQUENCES: {newrow[0]}')
+            print(f'Objective {obj2}: {newrow[1]}')
+        else:
+            print(f'Objective SEQUENCES: {newrow[0]}')
+            print(f'Objective CC_diff: {newrow[1]}')
+            print(f'Objective LOC_diff: {newrow[2]}')
         print('Sequences selected:')
         for s in concrete.S:
             print(f"x[{s}] = {concrete.x[s].value}")
     print('===============================================================================')
 
 
-def write_results_and_sequences_to_file(file: str, solver_status: str, newrow: list, obj2: str, concrete: pyo.ConcreteModel):
+def write_results_and_sequences_to_file(concrete: pyo.ConcreteModel, file: str, solver_status: str, newrow: list, obj2: str=None):
+    """ Write results and a vertical list of selected sequences in a given file """
+    
     file.write('-------------------------------------------------------------------------------\n')
     if (solver_status == 'ok'):
-        file.write(f'Objective SEQUENCES: {newrow[0]}\n')
-        file.write(f'Second objective value ({obj2}): {newrow[1]}\n')
+        if obj2:
+            file.write(f'Objective SEQUENCES: {newrow[0]}\n')
+            file.write(f'Objective {obj2}: {newrow[1]}\n')
+        else:
+            file.write(f'Objective SEQUENCES: {newrow[0]}\n')
+            file.write(f'Objective CC_diff: {newrow[1]}\n')
+            file.write(f'Objective LOC_diff: {newrow[2]}\n')
         file.write('Sequences selected:\n')
         for s in concrete.S:
             file.write(f"x[{s}] = {concrete.x[s].value}\n")
     file.write('===============================================================================\n')
-    
-
-
-
-
-
-
-
-
-def extract_optimal_tuples(file_path):
-    sheets = ["General", "MaxTimeSOLVED"]
-    result_set = set()
-    
-    for sheet in sheets:
-        df = pd.read_excel(file_path, sheet_name=sheet, engine='openpyxl')
-        
-        if df.shape[1] < 33:  # Verifica que haya al menos 33 columnas (AG es la columna 33)
-            print(f"Advertencia: La hoja '{sheet}' no tiene suficientes columnas.")
-            continue
-        
-        df = df.dropna(subset=['terminationCondition'])  # Elimina filas donde 'AG' es NaN
-        
-        for _, row in df.iterrows():
-            if str(row['terminationCondition']).strip().lower() == 'optimal':
-                result_set.add((row.iloc[0], row.iloc[1], row.iloc[2]))
-    
-    return result_set
 
 
 
@@ -146,52 +145,6 @@ def generate_weights_2obj(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
     
     return w1, w2
 
-
-
-def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3):
-    
-    multiobj_model = MultiobjectiveILPmodel()
-    
-    if hasattr(model, 'obj'):
-        model.del_component('obj')
-    model.add_component('obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum(m, w1, w2, w3)))
-    
-    
-    
-    concrete = model.create_instance(data) # para crear una instancia de modelo y hacerlo concreto
-    solver = pyo.SolverFactory('cplex')
-    results = solver.solve(concrete)
-    # solver.solve(concrete)
-    
-    # print(results)
-    # num_variables = sum(len(variable) for variable in concrete.component_objects(pyo.Var, active=True))
-    # print(f"There are {num_variables} variables\n")
-    # print("==========================================================================================================\n")
-
-    # print(f"Sequences values: {[concrete.x[i].value for i in concrete.S if i != 0]}")
-    sequences_sum = sum(concrete.x[i].value for i in concrete.S if i != 0)
-    
-    xLOC = [concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1]
-    zLOC = [concrete.loc[j] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-    
-    maxLOCselected = abs(max(xLOC) - max(zLOC))
-    minLOCselected = min(concrete.loc[i] for i in concrete.S if concrete.x[i].value == 1)
-    LOCdif = abs(maxLOCselected - minLOCselected)
-    
-    xCC = [concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1]
-    zCC = [concrete.ccr[j,ii] for j,ii in concrete.N if concrete.z[j,ii].value == 1]
-    
-    
-    maxCCselected = abs(max(xCC) - max(zCC))
-    minCCselected = min(concrete.nmcc[i] for i in concrete.S if concrete.x[i].value == 1)
-    CCdif = abs(maxCCselected - minCCselected)
-    
-    
-    newrow = [round(w1,2),round(w2,2),round(w3,2),sequences_sum,LOCdif,CCdif]
-    
-    # TODO: añadir generación de CSVs con los resultados (hay algún método ya hecho creo que sería solo llamarlo)
-    
-    return concrete, newrow, results
 
 
 

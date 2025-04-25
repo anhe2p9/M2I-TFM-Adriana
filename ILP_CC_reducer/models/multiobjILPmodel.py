@@ -109,9 +109,20 @@ class MultiobjectiveILPmodel():
         else:
             return (sequencesWeight * self.sequencesObjective(m) +
                     obj2_Weight * self.CCdifferenceObjective(m))
-            
     
-    def epsilonObjective(self, m, lambd, obj):
+    
+    def epsilonObjective(self, m):
+        return self.LOCdifferenceObjective(m) - (m.lambd1 * m.l1 + m.lambd2 * m.l2)
+    
+    def epsilonConstraint(self, m, obj): # TODO: adaptarlo para poner el que sea necesario
+        if obj == 'SEQ':
+            return self.sequencesObjective(m) + m.l1 == m.epsilon1
+        else:
+            return self.CCdifferenceObjective(m) + m.l2 == m.epsilon2
+    
+    
+    
+    def epsilonObjective_2obj(self, m, lambd, obj):
         if obj == 'SEQ':
             return self.sequencesObjective(m) - lambd * m.l
         elif obj == 'LOC':
@@ -120,7 +131,7 @@ class MultiobjectiveILPmodel():
             return self.CCdifferenceObjective(m) - lambd * m.l
     
 
-    def epsilonConstraint(self, m, obj):
+    def epsilonConstraint_2obj(self, m, obj):
         if obj == 'SEQ':
             return self.sequencesObjective(m) + m.l == m.epsilon
         elif obj == 'LOC':

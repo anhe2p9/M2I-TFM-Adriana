@@ -4,8 +4,8 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 # from typing import Any
 # import sys
 
-import os
-import csv
+# import os
+# import csv
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -192,24 +192,4 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 
                 # f.close()
                 
-                # Save model in a LP file
-                concrete.write(f'output/Econstraint_FALTA_PONER_EL_NOMBRE_DEL_METODO.lp', io_options={'symbolic_solver_labels': True})
-                
-                # Write data in a CSV file.
-                write_file(csv_data)
-
-
-                
-
-
-
-def write_file(csv_info: list):
-    filename = "output/epsilon_constr_2obj_output.csv"
-            
-    if os.path.exists(filename):
-        os.remove(filename)
-            
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(csv_info)
-        print("CSV file correctly created.")
+                return csv_data, concrete

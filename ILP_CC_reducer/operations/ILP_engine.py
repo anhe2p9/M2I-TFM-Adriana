@@ -67,16 +67,16 @@ class ILPEngine():
     #     # y sacar el frente de pareto o algo así
     #     pass
     
-    # def apply_rsain_model(self, algorithm: Algorithm, model: pyo.ConcreteModel, data: dp.DataPortal, tau: str, csv_data: list[str], folders_data: dict) -> None:
-    #     """Creates a csv with the results data."""
-    #     if hasattr(model, 'tau'):
-    #         model.del_component('tau')
-    #         model.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
-    #     else:
-    #         model.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
-    #
-    #
-    #     return algorithm.execute(model, data, csv_data, folders_data)
+    def apply_rsain_model(self, algorithm: Algorithm, model: pyo.ConcreteModel, data: dp.DataPortal, tau: str, csv_data: list[str], folders_data: dict) -> None:
+        """Creates a csv with the results data."""
+        if hasattr(model, 'tau'):
+            model.del_component('tau')
+            model.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
+        else:
+            model.add_component('tau', pyo.Param(within=pyo.NonNegativeReals, initialize=int(tau), mutable=False)) # Threshold
+    
+    
+        return algorithm.execute(model, data, csv_data, folders_data)
 
     
     

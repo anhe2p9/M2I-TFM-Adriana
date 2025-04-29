@@ -11,6 +11,7 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
+import algorithms_utils
 
 # import algorithms_utils
     
@@ -101,7 +102,9 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, second_obj)
+    csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, second_obj)
+    
+    algorithms_utils.write_output_to_files(csv_data, concrete_model, os.path.basename(instance_folder), alg_name, output_data)
 
 
 

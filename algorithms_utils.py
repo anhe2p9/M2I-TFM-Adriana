@@ -28,6 +28,26 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     result = solver.solve(concrete)
     return concrete, result
 
+def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_name: str, algorithm: str, output_data: list):
+    # Save model in a LP file
+    concrete.write(f'output/{algorithm}_{method_name}.lp', io_options={'symbolic_solver_labels': True})
+
+    # Save data in a CSV file
+    filename = f"output/{algorithm}_{method_name}_results.csv"
+            
+    if os.path.exists(filename):
+        os.remove(filename)
+            
+    with open(filename, mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerows(csv_info)
+        print("CSV file correctly created.")
+    
+    # Save output in a TXT file
+    with open(f"output/{algorithm}_{method_name}_output.txt", "w") as f:
+        for linea in output_data:
+            f.write(linea + "\n")
+
 
 
 def calculate_results(concrete_model: pyo.ConcreteModel, obj_selected: str = None):

@@ -4,8 +4,8 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 import sys
 import algorithms_utils
 
-import csv
-import os
+# import csv
+# import os
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -68,16 +68,7 @@ class WeightedSumAlgorithm(Algorithm):
             sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
         
         
-        # Write data in a CSV file.
-        filename = "output/output.csv"
-        
-        if os.path.exists(filename):
-            os.remove(filename)
-                
-        with open(filename, mode="w", newline="", encoding="utf-8") as file:
-            writer = csv.writer(file)
-            writer.writerows(csv_data)
-            print(f"CSV file correctly created in {filename}.")
+        return csv_data, concrete
     
 
 

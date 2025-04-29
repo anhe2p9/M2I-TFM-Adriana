@@ -2,9 +2,8 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 # import sys
-
-import csv
-import os
+# import csv
+# import os
 
 from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -28,7 +27,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         
         multiobj_model = MultiobjectiveILPmodel()
         
-        f = open('output/eConstraint_output.txt', 'w')
+        output_data = []
         
         csv_data = [["Num.sequences", f"{obj2}dif"]]
         
@@ -48,16 +47,16 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # f2(z) := f2z
             f2z = pyo.value(concrete.obj)
             
-            f.write("=====================================================================================================================================\n")
+            output_data.append("=====================================================================================================================================\n")
             if obj2 == 'LOC':
-                f.write(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}\n")
+                output_data.append(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}\n")
             else:
-                f.write(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}\n")
-            f.write(f"min f2(x), {obj2}, subject to x in X: {f2z}\n")
+                output_data.append(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}\n")
+            output_data.append(f"min f2(x), {obj2}, subject to x in X: {f2z}\n")
             
             
             
-            f.write(f"Valores en el primer paso: {algorithms_utils.calculate_results(concrete, obj2)}\n")
+            output_data.append(f"Valores en el primer paso: {algorithms_utils.calculate_results(concrete, obj2)}\n")
             
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
@@ -70,14 +69,23 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
             f1z = pyo.value(concrete.obj)
             
-            f.write(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
+            output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
 
 
             """ FP <- {z} (add z to Pareto front) """
             newrow = algorithms_utils.calculate_results(concrete, obj2) # Calculate results for CSV file
             csv_data.append(newrow)
             
-            algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)            
+            # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)
+            
+            output_data.append('===============================================================================')
+            if (result.solver.status == 'ok'):
+                output_data.append(f'Objective SEQUENCES: {newrow[0]}')
+                output_data.append(f'Objective {obj2}: {newrow[1]}')
+                output_data.append('Sequences selected:')
+                for s in concrete.S:
+                    output_data.append(f"x[{s}] = {concrete.x[s].value}")
+            output_data.append('===============================================================================')
             
             # epsilon <- f1(z) - 1
             multiobj_model.model.epsilon = pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True)
@@ -108,7 +116,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 """ While exists x in X that makes f1(x) < epsilon do """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
                     
-                    f.write(f"slack variable l value: {concrete.l.value}\n")
+                    output_data.append(f"slack variable l value: {concrete.l.value}\n")
                     
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
                     
@@ -124,7 +132,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     algorithms_utils.modify_component(multiobj_model, 'epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
                     
                     
-                    f.write(f"f1z: {f1z}\n")
+                    output_data.append(f"f1z: {f1z}\n")
                     
                     
                     # lower bound for f1(x) (it has to decrease with f1z)
@@ -132,36 +140,29 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     
                     
                     
-                    f.write(f"epsilon: {concrete.epsilon.value}\n")
-                    f.write(f"u1: {u1}\n")
-                    f.write(f"lambda: {lambd}\n")
-                    f.write(f"comprobacion: {f1z} <= {concrete.epsilon.value}\n")
+                    output_data.append(f"epsilon: {concrete.epsilon.value}\n")
+                    output_data.append(f"u1: {u1}\n")
+                    output_data.append(f"lambda: {lambd}\n")
+                    output_data.append(f"comprobacion: {f1z} <= {concrete.epsilon.value}\n")
                     
-                    algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)
+                    # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)
+                    
+                    output_data.append('===============================================================================')
+                    if (result.solver.status == 'ok'):
+                        output_data.append(f'Objective SEQUENCES: {newrow[0]}')
+                        output_data.append(f'Objective {obj2}: {newrow[1]}')
+                        output_data.append('Sequences selected:')
+                        for s in concrete.S:
+                            output_data.append(f"x[{s}] = {concrete.x[s].value}")
+                    output_data.append('===============================================================================')
                     
                 else:
-                    solution_found = False
-                
-            f.close()
+                    solution_found = False            
             
-            # Save model in a LP file
-            concrete.write(f'output/Econstraint_FALTA_PONER_EL_NOMBRE_DEL_METODO.lp', io_options={'symbolic_solver_labels': True})
-            
-            # Write data in a CSV file.
-            write_file(csv_data)
+            return csv_data, concrete, output_data
 
 
                 
 
 
 
-def write_file(csv_info: list):
-    filename = "output/epsilon_constr_2obj_output.csv"
-            
-    if os.path.exists(filename):
-        os.remove(filename)
-            
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(csv_info)
-        print("CSV file correctly created.")

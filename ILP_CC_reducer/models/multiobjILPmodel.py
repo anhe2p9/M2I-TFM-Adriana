@@ -122,7 +122,7 @@ class MultiobjectiveILPmodel():
     
     
     
-    def epsilonObjective_2obj(self, m, lambd, obj):
+    def epsilonObjective_2obj(self, m, lambd, obj): # TODO: se puede pasar como parámetro el objetivo que sea
         if obj == 'SEQ':
             return self.sequencesObjective(m) - lambd * m.l
         elif obj == 'LOC':
@@ -131,7 +131,7 @@ class MultiobjectiveILPmodel():
             return self.CCdifferenceObjective(m) - lambd * m.l
     
 
-    def epsilonConstraint_2obj(self, m, obj):
+    def epsilonConstraint_2obj(self, m, obj): # TODO: se puede pasar como parámetro el objetivo que sea
         if obj == 'SEQ':
             return self.sequencesObjective(m) + m.l == m.epsilon
         elif obj == 'LOC':

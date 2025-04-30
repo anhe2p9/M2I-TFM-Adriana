@@ -40,6 +40,12 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
         
+        # result = None
+        
+        # concrete = multiobj_model.model.create_instance(data)
+        # Save model in a LP file
+        concrete.write(f'output/PRUEBA.lp', io_options={'symbolic_solver_labels': True})
+        
         
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
             
@@ -56,10 +62,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             
             
             
-            output_data.append(f"Valores en el primer paso: {algorithms_utils.calculate_results(concrete, obj2)}\n")
+            output_data.append(f"Valores en el primer paso: {sum(concrete.x[i].value for i in concrete.S), concrete.cmax.value - concrete.cmin.value}\n")
             
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
-            multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
+            multiobj_model.model.f2z = pyo.Param(initialize=f2z)
             # new constraint f2(x) <= f2(z)
             multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2))
             # new objective: min f1(x)
@@ -73,7 +79,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
 
             """ FP <- {z} (add z to Pareto front) """
-            newrow = algorithms_utils.calculate_results(concrete, obj2) # Calculate results for CSV file
+            newrow = [sum(concrete.x[i].value for i in concrete.S), concrete.cmax.value - concrete.cmin.value] # Calculate results for CSV file
             csv_data.append(newrow)
             
             # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, newrow, obj2)
@@ -88,7 +94,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append('===============================================================================')
             
             # epsilon <- f1(z) - 1
-            multiobj_model.model.epsilon = pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True)
+            multiobj_model.model.epsilon = pyo.Param(initialize=f1z-1, mutable=True)
             
             # lower bound for f1(x)
             u1 = f1z - 1
@@ -121,7 +127,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
                     
                     """ PF = PF U {z} """
-                    newrow = algorithms_utils.calculate_results(concrete, obj2) # Calculate results for CSV file
+                    newrow = [sum(concrete.x[i].value for i in concrete.S), concrete.cmax.value - concrete.cmin.value] # Calculate results for CSV file
                     csv_data.append(newrow)
                     
                     
@@ -129,7 +135,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
                     
                     # New epsilon value
-                    algorithms_utils.modify_component(multiobj_model, 'epsilon', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
+                    algorithms_utils.modify_component(multiobj_model, 'epsilon', pyo.Param(initialize=f1z-1, mutable=True))
                     
                     
                     output_data.append(f"f1z: {f1z}\n")

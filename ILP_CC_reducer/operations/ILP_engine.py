@@ -55,7 +55,7 @@ class ILPEngine():
 
     def apply_algorithm(self, algorithm: Algorithm, instance: dp.DataPortal, tau: int, *args) -> Any:
         """Apply the given algorithm to the given model instance."""
-            
+        
         args_list = tuple(item for item in args if item)
         
         return algorithm.execute(instance, tau, *args_list)

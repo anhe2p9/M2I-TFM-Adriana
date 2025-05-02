@@ -85,13 +85,27 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
 
 
 
-def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, second_obj=None):
+def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, objectives=None):
     
-    if second_obj:
-        print(f"Second objective: {second_obj}")
     model_engine = ILPEngine()
     
     model = MultiobjectiveILPmodel()
+    
+    if objectives:
+        print(f"The objectives are: {objectives}")
+    
+    objectives_list = []
+    for obj in objectives:
+        if obj == 'SEQ':
+            objectives_list.append(model.sequencesObjective)
+        elif obj == 'CC':
+            objectives_list.append(model.CCdifferenceObjective)
+        elif obj == 'LOC':
+            objectives_list.append(model.LOCdifferenceObjective)
+        else:
+            sys.exit('Objectives must be: SEQ, CC or LOC.')
+    
+    
         
     # Process ilp model
     # ilp_model = model.define_model_without_obj()
@@ -102,7 +116,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, second_obj)
+    csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, objectives_list)
     
     algorithms_utils.write_output_to_files(csv_data, concrete_model, os.path.basename(instance_folder), alg_name, output_data)
 
@@ -173,7 +187,7 @@ def obtain_arguments():
     parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None, help=f'Threshold (tau) to be reached by the optimization model.')
     parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, default=None, help=f'Number of subdivisions to generate different weights.')
     parser.add_argument('-w', '--weights', dest='weights', type=str, default=None, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated by comma (",").')
-    parser.add_argument('-o', '--secondobj', dest='second_obj', type=str, default=None, help=f'Second objective to minimize in the case of a two objective ILP.')
+    parser.add_argument('-o', '--objectives', dest='objectives', type=str, default=None, help=f'Two objectives to minimize in the case of a two objective ILP. Write the two objectives separated by comma (",").')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
 
     
@@ -213,7 +227,7 @@ if __name__ == '__main__':
     threshold = args['threshold'] if args['threshold'] else config.get('threshold')
     subdivisions = args['subdivisions'] if args['subdivisions'] else config.get('subdivisions')
     weights = args['weights'] if args['weights'] else config.get('weights')
-    second_obj = args['second_obj'] if args['second_obj'] else config.get('second_obj')
+    objectives = args['objectives'] if args['objectives'] else config.get('objectives')
     
     # Overwrite .ini file values with commandline values if it exists
     for key, value in args.items():
@@ -237,9 +251,13 @@ if __name__ == '__main__':
         if not instance_path.is_dir():
             sys.exit(f'The model instance must be a folder with three CSV files.')
             
-    # Turn "x,y,z" into (float,float,float) if --weights is a parameter in command line
+    # Turn "w1,w2,w3" into (float,float,float) if --weights is a parameter in command line
     if weights:
         weights = tuple(map(float, weights.split(",")))
+        
+    # Turn "obj1,obj2" into (str,str) if --objectives is a parameter in command line
+    if objectives:
+        objectives = tuple(map(str, objectives.split(",")))
     
     
     if model_type == 'uniobjective':
@@ -248,7 +266,7 @@ if __name__ == '__main__':
         else:
             main_one_obj(ilp_algorithm, threshold)
     elif model_type == 'multiobjective':
-        main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, second_obj)
+        main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
     else:
         sys.exit("No adequate number of parameters have been provided. Run python main.py -h for help.")
 

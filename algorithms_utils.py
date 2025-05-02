@@ -31,6 +31,7 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
 def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_name: str, algorithm: str, output_data: list):
     # Save model in a LP file
     concrete.write(f'output/{algorithm}_{method_name}.lp', io_options={'symbolic_solver_labels': True})
+    print("Model correctly saved in a LP file.")
 
     # Save data in a CSV file
     filename = f"output/{algorithm}_{method_name}_results.csv"
@@ -47,6 +48,7 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_na
     with open(f"output/{algorithm}_{method_name}_output.txt", "w") as f:
         for linea in output_data:
             f.write(linea + "\n")
+        print("Output correctly saved in a TXT file.")
 
 
 
@@ -93,7 +95,7 @@ def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, 
     
     print('===============================================================================')
     if (solver_status == 'ok'):
-        if obj2:
+        if obj2: # TODO: poner un for cada objetivo porque tiene que ser lo más general posible
             print(f'Objective SEQUENCES: {newrow[0]}')
             print(f'Objective {obj2}: {newrow[1]}')
         else:
@@ -111,7 +113,7 @@ def write_results_and_sequences_to_file(concrete: pyo.ConcreteModel, file: str, 
     
     file.write('-------------------------------------------------------------------------------\n')
     if (solver_status == 'ok'):
-        if obj2:
+        if obj2: # TODO: aquí también poner un for para los objetivos
             file.write(f'Objective SEQUENCES: {newrow[0]}\n')
             file.write(f'Objective {obj2}: {newrow[1]}\n')
         else:
@@ -126,7 +128,29 @@ def write_results_and_sequences_to_file(concrete: pyo.ConcreteModel, file: str, 
 
 
 
-def generate_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, int, int]:
+
+
+
+def add_info_to_list(concrete: pyo.ConcreteModel, output_data: list, solver_status: str, obj1: str, obj2: str, newrow: list):
+    """ Write results and a vertical list of selected sequences in a given file """
+    
+    
+    if (solver_status == 'ok'):
+        output_data.append(f'{obj1.__name__}: {newrow[0]}')
+        output_data.append(f'{obj2.__name__}: {newrow[1]}')
+        output_data.append('Sequences selected:')
+        for s in concrete.S:
+            output_data.append(f"x[{s}] = {concrete.x[s].value}")
+    output_data.append('===============================================================================')
+
+
+
+
+
+
+
+
+def generate_three_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, int, int]:
     """
     Generates subdivisions in spherical coordinates for an octant.
         
@@ -147,7 +171,7 @@ def generate_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, in
     return w1, w2, w3
 
 
-def generate_weights_2obj(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
+def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
     """
     Generates subdivisions in polar coordinates for a cuadrant.
         

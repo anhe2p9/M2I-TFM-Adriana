@@ -40,12 +40,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
         
-        # result = None
-        
-        # concrete = multiobj_model.model.create_instance(data)
-        # Save model in a LP file
-        concrete.write(f'output/PRUEBA.lp', io_options={'symbolic_solver_labels': True})
-        
+        result.write()
         
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
             
@@ -165,7 +160,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 else:
                     solution_found = False            
             
-            return csv_data, concrete, output_data
+        return csv_data, concrete, output_data
 
 
                 

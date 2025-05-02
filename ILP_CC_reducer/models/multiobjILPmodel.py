@@ -101,15 +101,19 @@ class MultiobjectiveILPmodel():
         return (sequencesWeight * self.sequencesObjective(m) +
                 LOCdiffWeight * self.LOCdifferenceObjective(m) +
                 CCdiffWeight * self.CCdifferenceObjective(m))
-        
-    def weightedSum2obj(self, m, sequencesWeight, obj2_Weight, obj: str):
-        if obj =='LOC':
-            return (sequencesWeight * self.sequencesObjective(m) +
-                    obj2_Weight * self.LOCdifferenceObjective(m))
-        else:
-            return (sequencesWeight * self.sequencesObjective(m) +
-                    obj2_Weight * self.CCdifferenceObjective(m))
     
+    def weightedSum2obj(self, m, w1: int, w2: int, firstObjective: pyo.Objective, secondObjective: pyo.Objective):
+        """ Weighted sum method for two objectives. """
+        return w1 * firstObjective(m) + w2 * secondObjective(m)
+        
+    # def weightedSum2obj(self, m, sequencesWeight, obj2_Weight, obj: str):
+    #     if obj =='LOC':
+    #         return (sequencesWeight * self.sequencesObjective(m) +
+    #                 obj2_Weight * self.LOCdifferenceObjective(m))
+    #     else:
+    #         return (sequencesWeight * self.sequencesObjective(m) +
+    #                 obj2_Weight * self.CCdifferenceObjective(m))
+
     
     def epsilonObjective(self, m):
         return self.LOCdifferenceObjective(m) - (m.lambd1 * m.l1 + m.lambd2 * m.l2)

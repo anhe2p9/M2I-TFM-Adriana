@@ -39,7 +39,7 @@ class WeightedSumAlgorithm(Algorithm):
     
             for i in range(args+1):
                 for j in range(args+1):
-                    w1, w2, w3 = algorithms_utils.generate_weights(args, i, j)
+                    w1, w2, w3 = algorithms_utils.generate_three_weights(args, i, j)
                     
                     _, newrow, _ = process_weighted_model(multiobj_model, data, w1 ,w2, w3)
                     

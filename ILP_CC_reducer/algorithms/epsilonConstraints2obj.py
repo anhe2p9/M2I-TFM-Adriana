@@ -23,21 +23,21 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int, obj2: str) -> None:
+    def execute(data: dp.DataPortal, tau: int, objectives_list: list) -> None:
         
         multiobj_model = MultiobjectiveILPmodel()
         
+        obj1, obj2 = objectives_list[:2]
+        
         output_data = []
         
-        csv_data = [["Num.sequences", f"{obj2}dif"]]
+        csv_data = [[f"{obj1.__name__}", f"{obj2.__name__}"]]
         
         # Define threshold
         multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
-        # Define the objective selected by user
-        second_objective = multiobj_model.LOCdifferenceObjective if obj2 == 'LOC' else multiobj_model.CCdifferenceObjective
 
         # Solve {min f2}
-        multiobj_model.model.obj = pyo.Objective(rule=lambda m: second_objective(m))
+        multiobj_model.model.obj = pyo.Objective(rule=lambda m: obj2(m))
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
         
         result.write()
@@ -49,22 +49,40 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             f2z = pyo.value(concrete.obj)
             
             output_data.append("=====================================================================================================================================\n")
-            if obj2 == 'LOC':
+            if obj1.__name__ == 'LOCdifferenceObjective':
+                valuef1 = concrete.tmax.value - concrete.tmin.value
+            elif obj1.__name__ == 'CCdifferenceObjective':
+                valuef1 = concrete.cmax.value - concrete.cmin.value
+            elif obj1.__name__ == 'sequencesObjective':
+                valuef1 = sum(concrete.x[i].value for i in concrete.S)
+            # TODO: ME HE QUEDADO POR AQUÍ, SIGUE GENERALIZANDO TODO EL CÓDIGO    
+            
+            
+            
+            if obj2.__name__ == 'LOCdifferenceObjective':
                 output_data.append(f"tmax: {concrete.tmax.value}, tmin: {concrete.tmin.value}\n")
-            else:
+            elif obj2.__name__ == 'CCdifferenceObjective':
                 output_data.append(f"cmax: {concrete.cmax.value}, cmin: {concrete.cmin.value}\n")
-            output_data.append(f"min f2(x), {obj2}, subject to x in X: {f2z}\n")
+            elif obj2.__name__ == 'sequencesObjective':
+                output_data.append(f"sum: {[concrete.x[i].value for i in concrete.S]}\n")
+            
+            
+            output_data.append(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}\n")
             
             
             
-            output_data.append(f"Valores en el primer paso: {sum(concrete.x[i].value for i in concrete.S), concrete.cmax.value - concrete.cmin.value}\n")
+            
+            
+            
+            
+            output_data.append(f"Valores en el primer paso: {sum(concrete.x[i].value for i in concrete.S), valuef1}\n")
             
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobj_model.model.f2z = pyo.Param(initialize=f2z)
             # new constraint f2(x) <= f2(z)
             multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.SecondObjdiffConstraint(m, obj2))
             # new objective: min f1(x)
-            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m))) # FRANCIS CREE QUE SE PUEDE SOBREESCRIBIR LA VARIABLE Y YA ESTÁ
+            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
             # Solve model
             concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
             # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}

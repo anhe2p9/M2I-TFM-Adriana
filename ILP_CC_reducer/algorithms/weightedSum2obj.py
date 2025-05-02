@@ -28,8 +28,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
         
         multiobj_model = MultiobjectiveILPmodel()
         
-        obj1 = objectives_list[0]
-        obj2 = objectives_list[1]
+        obj1, obj2 = objectives_list[:2]
         
         csv_data = [[f"Weight1_{obj1.__name__}",f"Weight2_{obj2.__name__}",obj1.__name__,obj2.__name__]]
         
@@ -48,7 +47,6 @@ class WeightedSumAlgorithm2obj(Algorithm):
                 
                 newrow = algorithms_utils.calculate_results(concrete, obj2)
                 
-                # algorithms_utils.print_result_and_sequences(concrete, results.solver.status, newrow, obj2)
                 
                 algorithms_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
                 
@@ -65,15 +63,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
             newrow = algorithms_utils.calculate_results(concrete, obj2)
             csv_data.append(newrow)
             
-            output_data.append('===============================================================================')
-            if (results.solver.status == 'ok'):
-                output_data.append(f'{obj1.__name__}: {newrow[0]}')
-                output_data.append(f'{obj2.__name__}: {newrow[1]}')
-                output_data.append('Sequences selected:')
-                for s in concrete.S:
-                    output_data.append(f"x[{s}] = {concrete.x[s].value}")
-            output_data.append('===============================================================================')
-            
+            algorithms_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
                 
             
         else:

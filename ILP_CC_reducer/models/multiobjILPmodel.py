@@ -126,29 +126,16 @@ class MultiobjectiveILPmodel():
     
     
     
-    def epsilonObjective_2obj(self, m, lambd, obj): # TODO: se puede pasar como parámetro el objetivo que sea
-        if obj == 'SEQ':
-            return self.sequencesObjective(m) - lambd * m.l
-        elif obj == 'LOC':
-            return self.LOCdifferenceObjective(m) - lambd * m.l
-        else:
-            return self.CCdifferenceObjective(m) - lambd * m.l
-    
+    def epsilonObjective_2obj(self, m, obj):
+        return obj(m) - m.lambda_value * m.l
 
-    def epsilonConstraint_2obj(self, m, obj): # TODO: se puede pasar como parámetro el objetivo que sea
-        if obj == 'SEQ':
-            return self.sequencesObjective(m) + m.l == m.epsilon
-        elif obj == 'LOC':
-            return self.LOCdifferenceObjective(m) + m.l == m.epsilon
-        else:
-            return self.CCdifferenceObjective(m) + m.l == m.epsilon
+
+    def epsilonConstraint_2obj(self, m, obj):
+        return obj(m) + m.l == m.epsilon
         
-    def SecondObjdiffConstraint(self, m, obj):
-        if obj == 'LOC':
-            return self.LOCdifferenceObjective(m) <= m.f2z
-        else:
-            return self.CCdifferenceObjective(m) <= m.f2z
-    
+    def second_obj_diff_constraint(self, m, obj):
+        return obj(m) <= m.f2z
+
     def TPAobjective(self, m):
         return sum(m.x[j] for j in m.S) + sum(m.z[j,i] for (j,i) in m.N) + m.tmax + m.tmin + m.cmax + m.cmin
         

@@ -105,9 +105,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     except KeyError as e:
         sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
 
-    # Process ilp model
-    # ilp_model = model.define_model_without_obj()
-    
+
     # Process algorithm
     algorithm = model_engine.get_algorithm_from_name(alg_name)
     

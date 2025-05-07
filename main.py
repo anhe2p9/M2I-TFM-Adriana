@@ -85,28 +85,26 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
 
 
 
-def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions=None, weights=None, objectives=None):
+def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
     
     model_engine = ILPEngine()
     
     model = MultiobjectiveILPmodel()
-    
+
     if objectives:
         print(f"The objectives are: {objectives}")
-    
-    objectives_list = []
-    for obj in objectives:
-        if obj == 'SEQ':
-            objectives_list.append(model.sequencesObjective)
-        elif obj == 'CC':
-            objectives_list.append(model.CCdifferenceObjective)
-        elif obj == 'LOC':
-            objectives_list.append(model.LOCdifferenceObjective)
-        else:
-            sys.exit('Objectives must be: SEQ, CC or LOC.')
-    
-    
-        
+
+    objective_map = {
+        'SEQ': model.sequencesObjective,
+        'CC': model.CCdifferenceObjective,
+        'LOC': model.LOCdifferenceObjective
+    }
+
+    try:
+        objectives_list = [objective_map[obj.upper()] for obj in objectives]
+    except KeyError as e:
+        sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
+
     # Process ilp model
     # ilp_model = model.define_model_without_obj()
     

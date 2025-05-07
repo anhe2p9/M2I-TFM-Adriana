@@ -7,7 +7,7 @@ import algorithms_utils
 # import csv
 # import os
 
-from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 
 
@@ -15,7 +15,7 @@ class WeightedSumAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:
-        return 'Weigthed Sum Algorithm'
+        return 'Weigthed Sum algorithm'
     
     @staticmethod
     def get_description() -> str:
@@ -65,7 +65,7 @@ class WeightedSumAlgorithm(Algorithm):
             print(results)
             
         else:
-            sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
+            sys.exit(f'The Weighted Sum algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
         
         
         return csv_data, concrete

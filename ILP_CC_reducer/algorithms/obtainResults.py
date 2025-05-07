@@ -11,7 +11,7 @@ import pandas as pd
 # import csv
 # import os
 
-from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.algorithm.algorithm import Algorithm
 
 
 class obtainResultsAlgorithm(Algorithm):

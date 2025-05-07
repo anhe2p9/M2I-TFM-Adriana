@@ -277,7 +277,7 @@ if __name__ == '__main__':
     #     elif config.get('weights'):
     #         main(instance_path, ilp_algorithm, threshold, weights)
     #     else:
-    #         sys.exit(f'The Weighted Sum Algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
+    #         sys.exit(f'The Weighted Sum algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
     # else:
     #     main(instance_path, ilp_algorithm, threshold, subdivisions, weights, second_obj)
     #

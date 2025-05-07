@@ -4,7 +4,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 from pyomo.repn import generate_standard_repn
 import numpy as np
 
-from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 
 
@@ -12,11 +12,11 @@ class TPAdataAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:
-        return 'TPA data Algorithm'
+        return 'TPA data algorithm'
     
     @staticmethod
     def get_description() -> str:
-        return ("It obtains model matrices to apply TPA Algorithm.")
+        return ("It obtains model matrices to apply TPA algorithm.")
 
     @staticmethod
     def execute(model: pyo.AbstractModel, data: dp.DataPortal) -> None:

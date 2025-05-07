@@ -7,7 +7,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 # import os
 # import csv
 
-from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 
 import algorithms_utils
@@ -18,14 +18,14 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:
-        return 'Epsilon Constraint Algorithm with 3 obj'
+        return 'Epsilon Constraint algorithm with 3 obj'
     
     @staticmethod
     def get_description() -> str:
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int) -> None:
+    def execute(data: dp.DataPortal, tau: int):
                 
         multiobj_model = MultiobjectiveILPmodel()
         

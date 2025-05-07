@@ -9,7 +9,7 @@ from typing import Any
 # import csv
 # import os
 
-from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 
 
@@ -17,7 +17,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
 
     @staticmethod
     def get_name() -> str:
-        return 'Weigthed Sum Algorithm'
+        return 'Weigthed Sum algorithm'
     
     @staticmethod
     def get_description() -> str:
@@ -67,7 +67,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
                 
             
         else:
-            sys.exit(f'The Weighted Sum Algorithm parameters for two objectives must be a number of subdivisions s and the second objective.')
+            sys.exit(f'The Weighted Sum algorithm parameters for two objectives must be a number of subdivisions s and the second objective.')
             
         return csv_data, concrete, output_data
 

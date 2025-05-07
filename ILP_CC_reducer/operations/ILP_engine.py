@@ -13,7 +13,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 # from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 # from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 
-from ILP_CC_reducer.Algorithm.Algorithm import Algorithm
+from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer import algorithms as ALGORITHMS
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
@@ -60,7 +60,7 @@ class ILPEngine():
         
         return algorithm.execute(instance, tau, *args_list)
     
-    # def apply_algorithms(self, algorithm: Algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> None:
+    # def apply_algorithms(self, algorithm: algorithm, ILPm: pyo.AbstractModel, instance: dp.DataPortal, tau: int, *args) -> None:
     #     """Apply the given algorithm to all model instances."""
     #     # TODO: dado un conjunto de instancias, aplicar a todas ellas el correspondiente algoritmo y generar el csv de resultados
     #     # la verdad es que no tengo claro si hacer los multiobjetivo así, creo que lo voy a enfocar más en hacer cada uno por separado

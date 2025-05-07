@@ -26,5 +26,3 @@ class Algorithm(ABC):
         """Apply the algorithm to the given model instance."""
         pass
     
-    
-    

@@ -48,9 +48,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append(
                 "==================================================================================================\n")
             objective_handlers = {
-                'loc_difference_objective': lambda v: v.tmax.value - v.tmin.value,
-                'cc_difference_objective': lambda v: v.cmax.value - v.cmin.value,
-                'sequences_objective': lambda v: sum(v.x[i].value for i in v.S),
+                'loc_difference_objective': lambda v: round(v.tmax.value - v.tmin.value),
+                'cc_difference_objective': lambda v: round(v.cmax.value - v.cmin.value),
+                'sequences_objective': lambda v: round(sum(v.x[i].value for i in v.S)),
             }
 
             value_f1 = objective_handlers[obj1.__name__](concrete)
@@ -73,10 +73,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # Solve model
             concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
             # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
-            f1z = pyo.value(concrete.obj)
+            f1z = pyo.value(obj1(concrete))
 
-            print(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
-            output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
+            print(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
+            output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
 
             """ FP <- {z} (add z to Pareto front) """
             new_row = [value_f1,value_f2]  # Calculate results for CSV file
@@ -126,28 +126,28 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 # Solve
                 concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
-                value_f1 = objective_handlers[obj1.__name__](concrete)
-                value_f2 = objective_handlers[obj2.__name__](concrete)
-
                 concrete.write(f'output/PRUEBA.lp', io_options={'symbolic_solver_labels': True})
 
                 print(f"EPSILON OBJECTIVE: {multiobjective_model.epsilon_objective_2obj(concrete, obj2)}")
                 print(f"EPSILON CONSTRAINT: {multiobjective_model.epsilon_constraint_2obj(concrete, obj1)}")
 
-                print(f"epsilon: {concrete.epsilon.value}")
-                print(f"u1: {u1}")
-                print(f"lambda: {concrete.lambda_value.value}")
-                print(f"comprobación: {f1z} <= {concrete.epsilon.value}")
+                print(f"epsilon: {round(concrete.epsilon.value)}")
+                print(f"u1: {round(u1)}")
+                print(f"lambda: {round(concrete.lambda_value.value)}")
+                print(f"comprobación: {round(f1z)} <= {round(concrete.epsilon.value)}")
 
                 """ While exists x in X that makes f1(x) <= epsilon do """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
-                    print(f"l value: {concrete.l.value}")
+                    print(f"l value: {round(concrete.l.value)}")
                     output_data.append(f"slack variable l value: {concrete.l.value}\n")
 
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
 
                     """ PF = PF U {z} """
+                    value_f1 = objective_handlers[obj1.__name__](concrete)
+                    value_f2 = objective_handlers[obj2.__name__](concrete)
+
                     new_row = [value_f1,value_f2]  # Calculate results for CSV file
                     csv_data.append(new_row)
 
@@ -158,15 +158,15 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     algorithms_utils.modify_component(multiobjective_model, 'epsilon',
                                                       pyo.Param(initialize=f1z - 1, mutable=True))
 
-                    output_data.append(f"f1z: {f1z}\n")
+                    output_data.append(f"f1z: {round(f1z)}\n")
 
                     # lower bound for f1(x) (it has to decrease with f1z)
                     u1 = f1z - 1
 
-                    output_data.append(f"epsilon: {concrete.epsilon.value}\n")
-                    output_data.append(f"u1: {u1}\n")
-                    output_data.append(f"lambda: {concrete.lambda_value.value}\n")
-                    output_data.append(f"comprobación: {f1z} <= {concrete.epsilon.value}\n")
+                    output_data.append(f"epsilon: {round(concrete.epsilon.value)}\n")
+                    output_data.append(f"u1: {round(u1)}\n")
+                    output_data.append(f"lambda: {round(concrete.lambda_value.value)}\n")
+                    output_data.append(f"comprobación: {round(f1z)} <= {round(concrete.epsilon.value)}\n")
 
                     # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
 

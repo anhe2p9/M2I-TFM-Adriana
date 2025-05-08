@@ -38,7 +38,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
         
         
         # Solve {min f2}
-        multiobj_model.model.obj = pyo.Objective(rule=lambda m: multiobj_model.CCdifferenceObjective(m))
+        multiobj_model.model.obj = pyo.Objective(rule=lambda m: multiobj_model.cc_difference_objective(m))
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
         
         
@@ -60,12 +60,12 @@ class EpsilonConstraintAlgorithm(Algorithm):
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
             # new constraint f2(x) <= f2(z)
-            multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.CCdifferenceObjective(m) <= m.f2z)
+            multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.cc_difference_objective(m) <= m.f2z)
             
             
             
             # Solve {min f3}
-            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.LOCdifferenceObjective(m)))
+            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.loc_difference_objective(m)))
             concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
             
             
@@ -79,12 +79,12 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 # new parameter f3(z) to implement new constraint f3(x) <= f3(z)
                 multiobj_model.model.f3z = pyo.Param(within=pyo.NonNegativeReals, initialize=f3z)
                 # new constraint f3(x) <= f3(z)
-                multiobj_model.model.f3Constraint = pyo.Constraint(rule=lambda m: multiobj_model.LOCdifferenceObjective(m) <= m.f3z)
+                multiobj_model.model.f3Constraint = pyo.Constraint(rule=lambda m: multiobj_model.loc_difference_objective(m) <= m.f3z)
                 
                 
                 
                 # new objective: min f1(x)
-                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequencesObjective(m)))
+                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.sequences_objective(m)))
                 # Solve model
                 concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
                 # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
@@ -129,13 +129,13 @@ class EpsilonConstraintAlgorithm(Algorithm):
                     
                     """ Solve {min f3(x) - (lambda1 * l1 + lambda2 * l2), subject to f1(x) + l1 = epsilon1, f2(x) + l2 = epsilon2} """
                     # min f2(x) - lambda * l
-                    algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilonObjective(m)))
+                    algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.epsilon_objective(m)))
                     
                     
                     # subject to f1(x) + l1 = epsilon1
-                    algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint1', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'SEQ')))
+                    algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint1', pyo.Constraint(rule=lambda m: multiobj_model.epsilon_constraint(m, 'SEQ')))
                     # subject to f2(x) + l2 = epsilon2
-                    algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint2', pyo.Constraint(rule=lambda m: multiobj_model.epsilonConstraint(m, 'CC')))
+                    algorithms_utils.modify_component(multiobj_model, 'epsilonConstraint2', pyo.Constraint(rule=lambda m: multiobj_model.epsilon_constraint(m, 'CC')))
                     
                     
                     # Solve
@@ -154,13 +154,13 @@ class EpsilonConstraintAlgorithm(Algorithm):
                         
                         
                         """ epsilon1 = f1(z) - 1 """
-                        f1z = pyo.value(multiobj_model.sequencesObjective(concrete))
+                        f1z = pyo.value(multiobj_model.sequences_objective(concrete))
                         # New epsilon1 value
                         algorithms_utils.modify_component(multiobj_model, 'epsilon1', pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True))
                         
                         
                         """ epsilon2 = f2(z) - 1 """
-                        f2z = pyo.value(multiobj_model.CCdifferenceObjective(concrete))
+                        f2z = pyo.value(multiobj_model.cc_difference_objective(concrete))
                         # New epsilon2 value
                         algorithms_utils.modify_component(multiobj_model, 'epsilon2', pyo.Param(within=pyo.NonNegativeReals, initialize=f2z-1, mutable=True))
                         

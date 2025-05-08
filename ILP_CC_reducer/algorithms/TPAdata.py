@@ -35,9 +35,9 @@ class TPAdataAlgorithm(Algorithm):
         
         # Definimos una lista con las funciones objetivo que vamos a usar:
         objectives = [
-            multiobj_model.sequencesObjective,
-            multiobj_model.LOCdifferenceObjective,
-            multiobj_model.CCdifferenceObjective
+            multiobj_model.sequences_objective,
+            multiobj_model.loc_difference_objective,
+            multiobj_model.cc_difference_objective
         ]
         
         coef_rows = []

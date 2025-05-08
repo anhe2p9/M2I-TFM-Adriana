@@ -95,9 +95,9 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
         print(f"The objectives are: {objectives}")
 
     objective_map = {
-        'SEQ': model.sequencesObjective,
-        'CC': model.CCdifferenceObjective,
-        'LOC': model.LOCdifferenceObjective
+        'SEQ': model.sequences_objective,
+        'CC': model.cc_difference_objective,
+        'LOC': model.loc_difference_objective
     }
 
     try:

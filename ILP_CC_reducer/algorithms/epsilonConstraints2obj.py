@@ -33,10 +33,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         csv_data = [[f"{obj1.__name__}", f"{obj2.__name__}"]]
 
         # Define threshold
-        multiobjective_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
+        multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
         # Solve {min f2}
-        multiobjective_model.model.obj = pyo.Objective(rule=lambda m: obj2(m))
+        multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
@@ -48,9 +48,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append(
                 "==================================================================================================\n")
             objective_handlers = {
-                'LOCdifferenceObjective': lambda v: v.tmax.value - v.tmin.value,
-                'CCdifferenceObjective': lambda v: v.cmax.value - v.cmin.value,
-                'sequencesObjective': lambda v: sum(v.x[i].value for i in v.S),
+                'loc_difference_objective': lambda v: v.tmax.value - v.tmin.value,
+                'cc_difference_objective': lambda v: v.cmax.value - v.cmin.value,
+                'sequences_objective': lambda v: sum(v.x[i].value for i in v.S),
             }
 
             value_f1 = objective_handlers[obj1.__name__](concrete)
@@ -63,9 +63,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append(f"Valores en el primer paso: {value_f1, value_f2}\n")
 
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
-            multiobjective_model.model.f2z = pyo.Param(initialize=f2z)
+            multiobjective_model.f2z = pyo.Param(initialize=f2z)
             # new constraint f2(x) <= f2(z)
-            multiobjective_model.model.f2Constraint = pyo.Constraint(
+            multiobjective_model.f2Constraint = pyo.Constraint(
                 rule=lambda m: multiobjective_model.second_obj_diff_constraint(m, obj2))
             # new objective: min f1(x)
             algorithms_utils.modify_component(multiobjective_model, 'obj',
@@ -94,19 +94,19 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append('===============================================================================')
 
             # epsilon <- f1(z) - 1
-            multiobjective_model.model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)
+            multiobjective_model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)
 
             # lower bound for f1(x)
             u1 = f1z - 1
 
             # l = epsilon - f1(x)
-            multiobjective_model.model.l = pyo.Var(within=pyo.NonNegativeReals)
+            multiobjective_model.l = pyo.Var(within=pyo.NonNegativeReals)
 
             solution_found = (result.solver.status == 'ok') and (
                         result.solver.termination_condition == 'optimal')  # while loop control
-            multiobjective_model.model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
+            multiobjective_model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
 
-            multiobjective_model.model.lambda_value = pyo.Param(initialize=(1/(f1z-u1)), mutable=True)
+            multiobjective_model.lambda_value = pyo.Param(initialize=(1/(f1z-u1)), mutable=True)
 
             while solution_found:
 
@@ -126,6 +126,9 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 # Solve
                 concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
+                value_f1 = objective_handlers[obj1.__name__](concrete)
+                value_f2 = objective_handlers[obj2.__name__](concrete)
+
                 concrete.write(f'output/PRUEBA.lp', io_options={'symbolic_solver_labels': True})
 
                 print(f"EPSILON OBJECTIVE: {multiobjective_model.epsilon_objective_2obj(concrete, obj2)}")
@@ -134,19 +137,18 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 print(f"epsilon: {concrete.epsilon.value}")
                 print(f"u1: {u1}")
                 print(f"lambda: {concrete.lambda_value.value}")
-                print(f"l value: {concrete.l.value}")
                 print(f"comprobación: {f1z} <= {concrete.epsilon.value}")
 
-                """ While exists x in X that makes f1(x) < epsilon do """
+                """ While exists x in X that makes f1(x) <= epsilon do """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
+                    print(f"l value: {concrete.l.value}")
                     output_data.append(f"slack variable l value: {concrete.l.value}\n")
 
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
 
                     """ PF = PF U {z} """
-                    new_row = [sum(concrete.x[i].value for i in concrete.S),
-                              concrete.cmax.value - concrete.cmin.value]  # Calculate results for CSV file
+                    new_row = [value_f1,value_f2]  # Calculate results for CSV file
                     csv_data.append(new_row)
 
                     """ epsilon = f1(z) - 1 """

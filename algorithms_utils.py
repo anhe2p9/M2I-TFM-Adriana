@@ -16,14 +16,14 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any) -> None:
     """ Modify a given component of a model to avoid construct warnings """
     
-    if hasattr(mobj_model.model, component):
-        mobj_model.model.del_component(component)
-    mobj_model.model.add_component(component, new_value)
+    if hasattr(mobj_model, component):
+        mobj_model.del_component(component)
+    mobj_model.add_component(component, new_value)
 
 def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
     """ Generates a Concrete Model for a given model instance and solves it using CPLEX solver """
     
-    concrete = mobj_model.model.create_instance(instance)
+    concrete = mobj_model.create_instance(instance)
     solver = pyo.SolverFactory('cplex')
     result = solver.solve(concrete)
     return concrete, result

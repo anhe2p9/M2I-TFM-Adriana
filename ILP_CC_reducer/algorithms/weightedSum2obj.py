@@ -42,7 +42,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
             for i in range(weights_config+1):
                 w1, w2 = algorithms_utils.generate_two_weights(weights_config, i)
                
-                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum2obj(m, w1, w2, obj1, obj2)))
+                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
                 concrete, results = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
                 
                 newrow = algorithms_utils.calculate_results(concrete, obj2)
@@ -57,7 +57,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
             print(f"Proccessing ILP results with weights: {weights_config}...")
             w1, w2 = weights_config
             
-            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.weightedSum2obj(m, w1, w2, obj1, obj2)))
+            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
             concrete, results = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
             
             newrow = algorithms_utils.calculate_results(concrete, obj2)

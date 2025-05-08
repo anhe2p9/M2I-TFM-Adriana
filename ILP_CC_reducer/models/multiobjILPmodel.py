@@ -5,7 +5,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 class MultiobjectiveILPmodel():
     
-    def __init__(self):
+    def __init__(self) -> None:
         """Initializes the abstract model."""
         self.model = pyo.AbstractModel()
         self.defined_model = self.define_model_without_obj()

@@ -21,7 +21,7 @@ def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: p
     mobj_model.model.add_component(component, new_value)
 
 def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
-    """ Generate a Concrete Model for a given model instance and solve it using CPLEX solver """
+    """ Generates a Concrete Model for a given model instance and solves it using CPLEX solver """
     
     concrete = mobj_model.model.create_instance(instance)
     solver = pyo.SolverFactory('cplex')

@@ -13,7 +13,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 # from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
 
 
-def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any):
+def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any) -> None:
     """ Modify a given component of a model to avoid construct warnings """
     
     if hasattr(mobj_model.model, component):

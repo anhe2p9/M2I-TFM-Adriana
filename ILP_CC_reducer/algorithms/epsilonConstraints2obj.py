@@ -69,7 +69,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 rule=lambda m: multiobjective_model.second_obj_diff_constraint(m, obj2))
             # new objective: min f1(x)
             algorithms_utils.modify_component(multiobjective_model, 'obj',
-                                              pyo.Objective(rule=lambda m: multiobjective_model.sequencesObjective(m)))
+                                              pyo.Objective(rule=lambda m: obj1(m)))
             # Solve model
             concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
             # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
@@ -79,16 +79,15 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {f1z}\n")
 
             """ FP <- {z} (add z to Pareto front) """
-            new_row = [sum(concrete.x[i].value for i in concrete.S),
-                      concrete.cmax.value - concrete.cmin.value]  # Calculate results for CSV file
+            new_row = [value_f1,value_f2]  # Calculate results for CSV file
             csv_data.append(new_row)
 
             # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
 
             output_data.append('===============================================================================')
             if result.solver.status == 'ok':
-                output_data.append(f'Objective SEQUENCES: {new_row[0]}')
-                output_data.append(f'Objective {obj2}: {new_row[1]}')
+                output_data.append(f'Objective {obj1.__name__}: {new_row[0]}')
+                output_data.append(f'Objective {obj2.__name__}: {new_row[1]}')
                 output_data.append('Sequences selected:')
                 for s in concrete.S:
                     output_data.append(f"x[{s}] = {concrete.x[s].value}")
@@ -112,60 +111,71 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             while solution_found:
 
                 # estimate a lambda value > 0
-                multiobjective_model.lambda_value = 1/(f1z - u1)
+                algorithms_utils.modify_component(multiobjective_model, 'lambda_value',
+                                                  pyo.Param(initialize=(1/(f1z-u1)), mutable=True))
 
                 """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 # min f2(x) - lambda * l
                 algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-                    rule=lambda m: multiobjective_model.epsilonObjective_2obj(m, obj2)))
+                    rule=lambda m: multiobjective_model.epsilon_objective_2obj(m, obj2)))
+
                 # subject to f1(x) + l = epsilon
                 algorithms_utils.modify_component(multiobjective_model, 'epsilonConstraint', pyo.Constraint(
-                    rule=lambda m: multiobjective_model.epsilonConstraint_2obj(m, obj2)))
+                    rule=lambda m: multiobjective_model.epsilon_constraint_2obj(m, obj1)))
+
                 # Solve
                 concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
+                concrete.write(f'output/PRUEBA.lp', io_options={'symbolic_solver_labels': True})
+
+                print(f"EPSILON OBJECTIVE: {multiobjective_model.epsilon_objective_2obj(concrete, obj2)}")
+                print(f"EPSILON CONSTRAINT: {multiobjective_model.epsilon_constraint_2obj(concrete, obj1)}")
+
+                print(f"epsilon: {concrete.epsilon.value}")
+                print(f"u1: {u1}")
+                print(f"lambda: {concrete.lambda_value.value}")
+                print(f"l value: {concrete.l.value}")
+                print(f"comprobación: {f1z} <= {concrete.epsilon.value}")
+
                 """ While exists x in X that makes f1(x) < epsilon do """
-                output_data.append(f"slack variable l value: {concrete.l.value}\n")
+                if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
-                # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
+                    output_data.append(f"slack variable l value: {concrete.l.value}\n")
 
-                """ PF = PF U {z} """
-                new_row = [sum(concrete.x[i].value for i in concrete.S),
-                          concrete.cmax.value - concrete.cmin.value]  # Calculate results for CSV file
-                csv_data.append(new_row)
+                    # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
 
-                """ epsilon = f1(z) - 1 """
-                f1z = pyo.value(obj1(concrete))
+                    """ PF = PF U {z} """
+                    new_row = [sum(concrete.x[i].value for i in concrete.S),
+                              concrete.cmax.value - concrete.cmin.value]  # Calculate results for CSV file
+                    csv_data.append(new_row)
 
-                # New epsilon value
-                algorithms_utils.modify_component(multiobjective_model, 'epsilon',
-                                                  pyo.Param(initialize=f1z - 1, mutable=True))
+                    """ epsilon = f1(z) - 1 """
+                    f1z = pyo.value(obj1(concrete))
 
-                output_data.append(f"f1z: {f1z}\n")
+                    # New epsilon value
+                    algorithms_utils.modify_component(multiobjective_model, 'epsilon',
+                                                      pyo.Param(initialize=f1z - 1, mutable=True))
 
-                # lower bound for f1(x) (it has to decrease with f1z)
-                u1 = f1z - 1
+                    output_data.append(f"f1z: {f1z}\n")
 
-                print(f"epsilon: {concrete.epsilon.value}\n")
-                print(f"u1: {u1}\n")
-                print(f"lambda: {concrete.lambda_value.value}\n")
-                print(f"comprobación: {f1z} <= {concrete.epsilon.value}\n")
+                    # lower bound for f1(x) (it has to decrease with f1z)
+                    u1 = f1z - 1
 
-                output_data.append(f"epsilon: {concrete.epsilon.value}\n")
-                output_data.append(f"u1: {u1}\n")
-                output_data.append(f"lambda: {concrete.lambda_value.value}\n")
-                output_data.append(f"comprobación: {f1z} <= {concrete.epsilon.value}\n")
+                    output_data.append(f"epsilon: {concrete.epsilon.value}\n")
+                    output_data.append(f"u1: {u1}\n")
+                    output_data.append(f"lambda: {concrete.lambda_value.value}\n")
+                    output_data.append(f"comprobación: {f1z} <= {concrete.epsilon.value}\n")
 
-                # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
+                    # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
 
-                output_data.append('===============================================================================')
-                if result.solver.status == 'ok':
-                    output_data.append(f'Objective SEQUENCES: {new_row[0]}')
-                    output_data.append(f'Objective {obj2}: {new_row[1]}')
-                    output_data.append('Sequences selected:')
-                    for s in concrete.S:
-                        output_data.append(f"x[{s}] = {concrete.x[s].value}")
-                output_data.append('===============================================================================')
+                    output_data.append('===============================================================================')
+                    if result.solver.status == 'ok':
+                        output_data.append(f'Objective {obj1.__name__}: {new_row[0]}')
+                        output_data.append(f'Objective {obj2.__name__}: {new_row[1]}')
+                        output_data.append('Sequences selected:')
+                        for s in concrete.S:
+                            output_data.append(f"x[{s}] = {concrete.x[s].value}")
+                    output_data.append('===============================================================================')
 
                 solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 

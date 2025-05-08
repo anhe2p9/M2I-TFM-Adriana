@@ -244,6 +244,19 @@ if __name__ == '__main__':
         model_instance = Path(model_instance)
         instance_path = "original_code_data" / model_instance
         print(f"INSTANCE PATH: {instance_path}")
+
+        objective_file = next((f for f in instance_path.iterdir() if f.name.endswith('_sequences.csv')), None)
+
+        if objective_file:
+            with objective_file.open(newline='', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                filas = list(reader)
+                if len(filas) > 1 and len(filas[1]) > 2:
+                    x0_cc_value = int(filas[1][2])
+                    print(f"Actual CC: {x0_cc_value}.")
+        if x0_cc_value <= threshold:
+            sys.exit(f'Objective threshold must be lower than actual CC.')
+
         if not instance_path.is_dir():
             sys.exit(f'The model instance must be a folder with three CSV files.')
             

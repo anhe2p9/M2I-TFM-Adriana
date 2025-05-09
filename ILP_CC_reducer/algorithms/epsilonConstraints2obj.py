@@ -47,19 +47,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
             print(
                 "==================================================================================================\n")
-            output_data.append(
-                "==================================================================================================\n")
-            # objective_handlers = {
-            #     'loc_difference_objective': lambda v: round(v.tmax.value - v.tmin.value),
-            #     'cc_difference_objective': lambda v: round(v.cmax.value - v.cmin.value),
-            #     'sequences_objective': lambda v: round(sum(v.x[i].value for i in v.S)),
-            # }
-            #
-            # value_f1 = objective_handlers[obj1.__name__](concrete)
-            # value_f2 = objective_handlers[obj2.__name__](concrete)
-
             print(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}")
 
+            output_data.append(
+                "==================================================================================================\n")
             output_data.append(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}\n")
 
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)

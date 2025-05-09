@@ -30,10 +30,10 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
         self.conflict_sequences = pyo.Constraint(self.C, rule=conflict_sequences)
         self.threshold = pyo.Constraint(self.S, rule=threshold)
         self.z_definition = pyo.Constraint(self.N, rule=z_definition)
-        self.maxLOC = pyo.Constraint(self.S, rule=max_loc)
-        self.minLOC = pyo.Constraint(self.S, rule=min_loc)
-        self.maxCC = pyo.Constraint(self.S, rule=max_cc)
-        self.minCC = pyo.Constraint(self.S, rule=min_cc)
+        self.max_loc = pyo.Constraint(self.S, rule=max_loc)
+        self.min_loc = pyo.Constraint(self.S, rule=min_loc)
+        self.max_cc = pyo.Constraint(self.S, rule=max_cc)
+        self.min_cc = pyo.Constraint(self.S, rule=min_cc)
         self.x_0 = pyo.Constraint(rule=x_0)
     
     def process_data(self, s_filename: str, n_filename: str, c_filename: str, offsets_filename: str) -> dict:
@@ -145,25 +145,25 @@ def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
     return m.x[i] + m.x[j] <= 1
 
 def threshold(m, i): # restricción para no alcanzar el Threshold
-            return m.nmcc[i] * m.x[i] - sum((m.ccr[j, i] * m.z[j, i]) for j,k in m.N if k == i) <= m.tau
+    return m.nmcc[i] * m.x[i] - sum((m.ccr[j, i] * m.z[j, i]) for j,k in m.N if k == i) <= m.tau
         
 def z_definition(m, j, i): # restricción para definir bien las variables z
-            interm = [l for l in m.S if (j,l) in m.N and (l,i) in m.N]
-            card_l = len(interm)
-            return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
+    interm = [l for l in m.S if (j,l) in m.N and (l,i) in m.N]
+    card_l = len(interm)
+    return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 
 def max_loc(m, i):
-            return m.tmax >= m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, i] for j,k in m.N if k == i)
+    return m.tmax >= m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, i] for j,k in m.N if k == i)
 
 def min_loc(m, i):
-            return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, k] for j,k in m.N if k == i)
+    return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, k] for j,k in m.N if k == i)
         
 def max_cc(m, i):
-            return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
+    return m.cmax >= m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
 
 def min_cc(m, i):
-            return m.cmin <= (m.tau + 1) * (1 - m.x[i]) + m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
+    return m.cmin <= (m.tau + 1) * (1 - m.x[i]) + m.nmcc[i] * m.x[i] - sum(m.ccr[j, i] * m.z[j, i] for j,k in m.N if k == i)
 
 def x_0(m):
-            return m.x[0] == 1
+    return m.x[0] == 1
         

@@ -94,16 +94,18 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     if objectives:
         print(f"The objectives are: {objectives}")
 
-    objective_map = {
-        'SEQ': model.sequences_objective,
-        'CC': model.cc_difference_objective,
-        'LOC': model.loc_difference_objective
-    }
+        objective_map = {
+            'SEQ': model.sequences_objective,
+            'CC': model.cc_difference_objective,
+            'LOC': model.loc_difference_objective
+        }
 
-    try:
-        objectives_list = [objective_map[obj.upper()] for obj in objectives]
-    except KeyError as e:
-        sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
+        try:
+            objectives_list = [objective_map[obj.upper()] for obj in objectives]
+        except KeyError as e:
+            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
+    else:
+        objectives_list = None
 
 
     # Process algorithm

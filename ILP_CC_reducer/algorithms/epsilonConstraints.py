@@ -34,11 +34,11 @@ class EpsilonConstraintAlgorithm(Algorithm):
         csv_data = [["Num.sequences","CCdif","LOCdif"]]        
         
         # Define threshold
-        multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+        multiobj_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
         
         
         # Solve {min f2}
-        multiobj_model.model.obj = pyo.Objective(rule=lambda m: multiobj_model.cc_difference_objective(m))
+        multiobj_model.obj = pyo.Objective(rule=lambda m: multiobj_model.cc_difference_objective(m))
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
         
         
@@ -58,9 +58,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
             print(f"Valores en el primer paso: {algorithms_utils.calculate_results(concrete, 'CC')}")
             
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
-            multiobj_model.model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
+            multiobj_model.f2z = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z)
             # new constraint f2(x) <= f2(z)
-            multiobj_model.model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.cc_difference_objective(m) <= m.f2z)
+            multiobj_model.f2Constraint = pyo.Constraint(rule=lambda m: multiobj_model.cc_difference_objective(m) <= m.f2z)
             
             
             
@@ -77,9 +77,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 
                 
                 # new parameter f3(z) to implement new constraint f3(x) <= f3(z)
-                multiobj_model.model.f3z = pyo.Param(within=pyo.NonNegativeReals, initialize=f3z)
+                multiobj_model.f3z = pyo.Param(within=pyo.NonNegativeReals, initialize=f3z)
                 # new constraint f3(x) <= f3(z)
-                multiobj_model.model.f3Constraint = pyo.Constraint(rule=lambda m: multiobj_model.loc_difference_objective(m) <= m.f3z)
+                multiobj_model.f3Constraint = pyo.Constraint(rule=lambda m: multiobj_model.loc_difference_objective(m) <= m.f3z)
                 
                 
                 
@@ -100,9 +100,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 algorithms_utils.print_result_and_sequences(concrete, result.solver.status, newrow)            
                 
                 # epsilon2 <- f1(z) - 1
-                multiobj_model.model.epsilon1 = pyo.Param(within=pyo.NonNegativeReals, initialize=f1z-1, mutable=True)
+                multiobj_model.epsilon1 = pyo.Param(initialize=f1z-1, mutable=True)
                 # epsilon2 <- f2(z) - 1
-                multiobj_model.model.epsilon2 = pyo.Param(within=pyo.NonNegativeReals, initialize=f2z-1, mutable=True)
+                multiobj_model.epsilon2 = pyo.Param(initialize=f2z-1, mutable=True)
                 
                 
                 # lower bound for f1(x)
@@ -111,21 +111,21 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 u2 = f2z - 1
                 
                 # l1 = epsilon1 - f1(x)
-                multiobj_model.model.l1 = pyo.Var(within=pyo.NonNegativeReals)
+                multiobj_model.l1 = pyo.Var(within=pyo.NonNegativeReals)
                 # l2 = epsilon2 - f2(x)
-                multiobj_model.model.l2 = pyo.Var(within=pyo.NonNegativeReals)
+                multiobj_model.l2 = pyo.Var(within=pyo.NonNegativeReals)
     
                 
                 solution_found = True # while loop control
-                multiobj_model.model.del_component('f2Constraint') # delete f2(x) <= f2(z) constraint
-                multiobj_model.model.del_component('f3Constraint') # delete f3(x) <= f3(z) constraint
+                multiobj_model.del_component('f2Constraint') # delete f2(x) <= f2(z) constraint
+                multiobj_model.del_component('f3Constraint') # delete f3(x) <= f3(z) constraint
                 
                 while solution_found:
                 
                     # estimate a lambda1 value > 0
-                    multiobj_model.model.lambd1 = pyo.Param(within=pyo.NonNegativeReals, initialize=1/(f1z - u1))
+                    multiobj_model.lambd1 = pyo.Param(initialize=1/(f1z - u1))
                     # estimate a lambda2 value > 0
-                    multiobj_model.model.lambd2 = pyo.Param(within=pyo.NonNegativeReals, initialize=1/(f2z - u2))
+                    multiobj_model.lambd2 = pyo.Param(initialize=1/(f2z - u2))
                     
                     """ Solve {min f3(x) - (lambda1 * l1 + lambda2 * l2), subject to f1(x) + l1 = epsilon1, f2(x) + l2 = epsilon2} """
                     # min f2(x) - lambda * l
@@ -192,4 +192,4 @@ class EpsilonConstraintAlgorithm(Algorithm):
                 
                 # f.close()
                 
-        return csv_data, concrete
+        return csv_data, concrete, None

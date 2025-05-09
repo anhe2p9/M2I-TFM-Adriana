@@ -30,7 +30,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
         output_data = []
 
-        csv_data = [[f"{obj1.__name__}", f"{obj2.__name__}"]]
+        csv_data = [[obj.__name__ for obj in objectives_list]]
 
         multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
@@ -67,13 +67,13 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
 
             """ FP <- {z} (add z to Pareto front) """
-            new_row = [f1z,f2z]  # Results for CSV file
+            new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]  # Results for CSV file
             csv_data.append(new_row)
 
             output_data.append('===============================================================================')
             if result.solver.status == 'ok':
-                output_data.append(f'Objective {obj1.__name__}: {new_row[0]}')
-                output_data.append(f'Objective {obj2.__name__}: {new_row[1]}')
+                for i, obj in enumerate(objectives_list):
+                    output_data.append(f'Objective {obj.__name__}: {new_row[i]}')
                 output_data.append('Sequences selected:')
                 for s in concrete.S:
                     output_data.append(f"x[{s}] = {concrete.x[s].value}")
@@ -104,7 +104,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
                 concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)  # Solve problem
 
-                """ Checks if exists x in X that makes f1(x) <= epsilon (is exists solution) """
+                """ Checks if exists x in X that makes f1(x) <= epsilon (if exists solution) """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
                     print(f"l value: {round(concrete.l.value)}")
@@ -112,7 +112,6 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
                     """ PF = PF U {z} """
                     f1z = round(pyo.value(obj1(concrete)))
-                    f2z = round(pyo.value(obj2(concrete)))
 
                     new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]
                     # new_row = [f1z,f2z]  # Results for CSV file
@@ -133,8 +132,8 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     output_data.append(f"comprobación: {round(f1z)} <= {round(concrete.epsilon.value)}\n")
                     output_data.append('===============================================================================')
                     if result.solver.status == 'ok':
-                        output_data.append(f'Objective {obj1.__name__}: {new_row[0]}')
-                        output_data.append(f'Objective {obj2.__name__}: {new_row[1]}')
+                        for i, obj in enumerate(objectives_list):
+                            output_data.append(f'Objective {obj.__name__}: {new_row[i]}')
                         output_data.append('Sequences selected:')
                         for s in concrete.S:
                             output_data.append(f"x[{s}] = {concrete.x[s].value}")

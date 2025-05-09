@@ -43,24 +43,24 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
             """ z <- Solve {min f1(x) subject to f2(x) <= f2(z)} """
             # f2(z) := f2z
-            f2z = pyo.value(concrete.obj)
+            f2z = round(pyo.value(obj2(concrete)))
 
+            print(
+                "==================================================================================================\n")
             output_data.append(
                 "==================================================================================================\n")
-            objective_handlers = {
-                'loc_difference_objective': lambda v: round(v.tmax.value - v.tmin.value),
-                'cc_difference_objective': lambda v: round(v.cmax.value - v.cmin.value),
-                'sequences_objective': lambda v: round(sum(v.x[i].value for i in v.S)),
-            }
+            # objective_handlers = {
+            #     'loc_difference_objective': lambda v: round(v.tmax.value - v.tmin.value),
+            #     'cc_difference_objective': lambda v: round(v.cmax.value - v.cmin.value),
+            #     'sequences_objective': lambda v: round(sum(v.x[i].value for i in v.S)),
+            # }
+            #
+            # value_f1 = objective_handlers[obj1.__name__](concrete)
+            # value_f2 = objective_handlers[obj2.__name__](concrete)
 
-            value_f1 = objective_handlers[obj1.__name__](concrete)
-            value_f2 = objective_handlers[obj2.__name__](concrete)
-
-            print(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}\n")
-            print(f"Valores en el primer paso: {value_f1, value_f2}\n")
+            print(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}")
 
             output_data.append(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}\n")
-            output_data.append(f"Valores en el primer paso: {value_f1, value_f2}\n")
 
             # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobjective_model.f2z = pyo.Param(initialize=f2z)
@@ -73,13 +73,13 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             # Solve model
             concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
             # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
-            f1z = pyo.value(obj1(concrete))
+            f1z = round(pyo.value(obj1(concrete)))
 
             print(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
             output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
 
             """ FP <- {z} (add z to Pareto front) """
-            new_row = [value_f1,value_f2]  # Calculate results for CSV file
+            new_row = [f1z,f2z]  # Calculate results for CSV file
             csv_data.append(new_row)
 
             # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
@@ -145,16 +145,13 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
 
                     """ PF = PF U {z} """
-                    value_f1 = objective_handlers[obj1.__name__](concrete)
-                    value_f2 = objective_handlers[obj2.__name__](concrete)
+                    f1z = round(pyo.value(obj1(concrete)))
+                    f2z = round(pyo.value(obj2(concrete)))
 
-                    new_row = [value_f1,value_f2]  # Calculate results for CSV file
+                    new_row = [f1z,f2z]  # Calculate results for CSV file
                     csv_data.append(new_row)
 
                     """ epsilon = f1(z) - 1 """
-                    f1z = pyo.value(obj1(concrete))
-
-                    # New epsilon value
                     algorithms_utils.modify_component(multiobjective_model, 'epsilon',
                                                       pyo.Param(initialize=f1z - 1, mutable=True))
 

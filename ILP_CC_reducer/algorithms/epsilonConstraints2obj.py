@@ -32,18 +32,16 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
         csv_data = [[f"{obj1.__name__}", f"{obj2.__name__}"]]
 
-        # Define threshold
         multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
-        # Solve {min f2}
-        multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))
+        multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
+
+        """ z <- Solve {min f1(x) subject to f2(x) <= f2(z)} """
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
-            """ z <- Solve {min f1(x) subject to f2(x) <= f2(z)} """
-            # f2(z) := f2z
-            f2z = round(pyo.value(obj2(concrete)))
+            f2z = round(pyo.value(obj2(concrete)))  # f2(z) := f2z
 
             print(
                 "==================================================================================================\n")
@@ -53,27 +51,24 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 "==================================================================================================\n")
             output_data.append(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}\n")
 
-            # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
-            multiobjective_model.f2z = pyo.Param(initialize=f2z)
-            # new constraint f2(x) <= f2(z)
+            multiobjective_model.f2z = pyo.Param(initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobjective_model.f2Constraint = pyo.Constraint(
-                rule=lambda m: multiobjective_model.second_obj_diff_constraint(m, obj2))
-            # new objective: min f1(x)
+                rule=lambda m: multiobjective_model.second_obj_diff_constraint(m, obj2))  # new constraint: f2(x) <= f2(z)
             algorithms_utils.modify_component(multiobjective_model, 'obj',
-                                              pyo.Objective(rule=lambda m: obj1(m)))
-            # Solve model
+                                              pyo.Objective(rule=lambda m: obj1(m)))  # new objective: min f1(x)
+
+            """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
             concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
-            # z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
-            f1z = round(pyo.value(obj1(concrete)))
+            multiobjective_model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
+
+            f1z = round(pyo.value(obj1(concrete)))  # f1(z) := f1z
 
             print(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
             output_data.append(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
 
             """ FP <- {z} (add z to Pareto front) """
-            new_row = [f1z,f2z]  # Calculate results for CSV file
+            new_row = [f1z,f2z]  # Results for CSV file
             csv_data.append(new_row)
-
-            # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
 
             output_data.append('===============================================================================')
             if result.solver.status == 'ok':
@@ -84,62 +79,43 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     output_data.append(f"x[{s}] = {concrete.x[s].value}")
             output_data.append('===============================================================================')
 
-            # epsilon <- f1(z) - 1
-            multiobjective_model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)
+            """ epsilon <- f1(z) - 1 """
+            multiobjective_model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)  # Epsilon parameter
 
-            # lower bound for f1(x)
-            u1 = f1z - 1
+            multiobjective_model.l = pyo.Var(within=pyo.NonNegativeReals)  # l = epsilon - f1(x)
 
-            # l = epsilon - f1(x)
-            multiobjective_model.l = pyo.Var(within=pyo.NonNegativeReals)
+            u1 = f1z - 1  # lower bound for f1(x)
+            multiobjective_model.lambda_value = pyo.Param(initialize=(1/(f1z-u1)), mutable=True)  # Lambda parameter
 
             solution_found = (result.solver.status == 'ok') and (
-                        result.solver.termination_condition == 'optimal')  # while loop control
-            multiobjective_model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
+                    result.solver.termination_condition == 'optimal')  # while loop control
 
-            multiobjective_model.lambda_value = pyo.Param(initialize=(1/(f1z-u1)), mutable=True)
-
+            """ While exists x in X that makes f1(x) <= epsilon do """
             while solution_found:
-
-                # estimate a lambda value > 0
+                """ estimate a lambda value > 0 """
                 algorithms_utils.modify_component(multiobjective_model, 'lambda_value',
                                                   pyo.Param(initialize=(1/(f1z-u1)), mutable=True))
 
-                """ Solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
-                # min f2(x) - lambda * l
+                """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
                 algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-                    rule=lambda m: multiobjective_model.epsilon_objective_2obj(m, obj2)))
-
-                # subject to f1(x) + l = epsilon
+                    rule=lambda m: multiobjective_model.epsilon_objective_2obj(m, obj2)))  # min f2(x) - lambda * l
                 algorithms_utils.modify_component(multiobjective_model, 'epsilonConstraint', pyo.Constraint(
-                    rule=lambda m: multiobjective_model.epsilon_constraint_2obj(m, obj1)))
+                    rule=lambda m: multiobjective_model.epsilon_constraint_2obj(m, obj1)))  # f1(x) + l = epsilon
 
-                # Solve
-                concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+                concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)  # Solve problem
 
-                concrete.write(f'output/PRUEBA.lp', io_options={'symbolic_solver_labels': True})
-
-                print(f"EPSILON OBJECTIVE: {multiobjective_model.epsilon_objective_2obj(concrete, obj2)}")
-                print(f"EPSILON CONSTRAINT: {multiobjective_model.epsilon_constraint_2obj(concrete, obj1)}")
-
-                print(f"epsilon: {round(concrete.epsilon.value)}")
-                print(f"u1: {round(u1)}")
-                print(f"lambda: {round(concrete.lambda_value.value)}")
-                print(f"comprobación: {round(f1z)} <= {round(concrete.epsilon.value)}")
-
-                """ While exists x in X that makes f1(x) <= epsilon do """
+                """ Checks if exists x in X that makes f1(x) <= epsilon (is exists solution) """
                 if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
                     print(f"l value: {round(concrete.l.value)}")
                     output_data.append(f"slack variable l value: {concrete.l.value}\n")
 
-                    # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
-
                     """ PF = PF U {z} """
                     f1z = round(pyo.value(obj1(concrete)))
                     f2z = round(pyo.value(obj2(concrete)))
 
-                    new_row = [f1z,f2z]  # Calculate results for CSV file
+                    new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]
+                    # new_row = [f1z,f2z]  # Results for CSV file
                     csv_data.append(new_row)
 
                     """ epsilon = f1(z) - 1 """
@@ -155,9 +131,6 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                     output_data.append(f"u1: {round(u1)}\n")
                     output_data.append(f"lambda: {round(concrete.lambda_value.value)}\n")
                     output_data.append(f"comprobación: {round(f1z)} <= {round(concrete.epsilon.value)}\n")
-
-                    # algorithms_utils.write_results_and_sequences_to_file(concrete, f, result.solver.status, new_row, obj2)
-
                     output_data.append('===============================================================================')
                     if result.solver.status == 'ok':
                         output_data.append(f'Objective {obj1.__name__}: {new_row[0]}')

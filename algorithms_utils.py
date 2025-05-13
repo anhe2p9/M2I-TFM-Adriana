@@ -30,8 +30,9 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
 
 def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_name: str, algorithm: str, output_data: list=None):
     # Save model in a LP file
-    concrete.write(f'output/{algorithm}_{method_name}.lp', io_options={'symbolic_solver_labels': True})
-    print("Model correctly saved in a LP file.")
+    if concrete:
+        concrete.write(f'output/{algorithm}_{method_name}.lp', io_options={'symbolic_solver_labels': True})
+        print("Model correctly saved in a LP file.")
 
     # Save data in a CSV file
     filename = f"output/{algorithm}_{method_name}_results.csv"

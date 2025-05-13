@@ -25,9 +25,14 @@ class EpsilonConstraintAlgorithm(Algorithm):
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int):
+    def execute(data: dp.DataPortal, tau: int, objectives_list: list= None):
                 
         multiobj_model = MultiobjectiveILPmodel()
+
+        if not objectives_list:
+            obj1 = multiobj_model.sequences_objective
+            obj2 = multiobj_model.cc_difference_objective
+            obj3 = multiobj_model.loc_difference_objective
         
         # f = open('output/eConstraint_output.txt', 'w')
         
@@ -94,7 +99,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
     
                 """ FP <- {z} (add z to Pareto front) """
-                newrow = algorithms_utils.calculate_results(concrete) # Calculate results for CSV file
+                newrow = [pyo.value(multiobj_model.sequences_objective(concrete)), pyo.value(multiobj_model.cc_difference_objective(concrete)), pyo.value(multiobj_model.loc_difference_objective(concrete))]
                 csv_data.append(newrow)
                 
                 algorithms_utils.print_result_and_sequences(concrete, result.solver.status, newrow)            
@@ -149,7 +154,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
                         # z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
                         
                         """ PF = PF U {z} """
-                        newrow = algorithms_utils.calculate_results(concrete) # Calculate results for CSV file
+                        newrow = [pyo.value(multiobj_model.sequences_objective(concrete)), pyo.value(multiobj_model.cc_difference_objective(concrete)), pyo.value(multiobj_model.loc_difference_objective(concrete))]
                         csv_data.append(newrow)
                         
                         

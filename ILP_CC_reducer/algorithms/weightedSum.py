@@ -27,11 +27,14 @@ class WeightedSumAlgorithm(Algorithm):
         multiobj_model = MultiobjectiveILPmodel()
     
         # Define threshold
-        multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+        multiobj_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
         
         csv_data = [["Weight1","Weight2","Weight3","Num.sequences","CCdif","LOCdif"]]
         
         print(f"ARGS WEIGHTS: {args}")
+
+        concrete = None
+
         
         """ Weighted model for all generated weights given a number of subdivisions """
         if isinstance(args, int):
@@ -51,7 +54,7 @@ class WeightedSumAlgorithm(Algorithm):
             
             """ Weighted model just for a specific given weights """
         elif all(isinstance(arg, float) for arg in args):
-            print(f"Proccessing the optimal ILP solution with weights: {args}")
+            print(f"Processing the optimal ILP solution with weights: {args}")
                         
             w1, w2, w3 = args
             
@@ -68,17 +71,17 @@ class WeightedSumAlgorithm(Algorithm):
             sys.exit(f'The Weighted Sum algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
         
         
-        return csv_data, concrete
+        return csv_data, concrete, None
     
 
 
 
 def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3):
     
-    algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weightedSum(m, w1, w2, w3)))
+    algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3)))
     concrete, results = algorithms_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
     
-    newrow_values = algorithms_utils.calculate_results(concrete) # Calculate results for CSV file
+    newrow_values = [pyo.value(model.sequences_objective(concrete)), pyo.value(model.cc_difference_objective(concrete)), pyo.value(model.loc_difference_objective(concrete))]
     newrow = [round(w1,2),round(w2,2),round(w3,2)] + newrow_values
     
     # TODO: añadir generación de CSVs con los resultados (hay algún método ya hecho creo que sería solo llamarlo)

@@ -115,7 +115,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     instance = model_engine.load_concrete(instance_folder, model)
     
     csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, objectives_list)
-    
+
     algorithms_utils.write_output_to_files(csv_data, concrete_model, os.path.basename(instance_folder), alg_name, output_data)
 
 
@@ -247,10 +247,10 @@ if __name__ == '__main__':
         instance_path = "original_code_data" / model_instance
         print(f"INSTANCE PATH: {instance_path}")
 
-        objective_file = next((f for f in instance_path.iterdir() if f.name.endswith('_sequences.csv')), None)
+        sequences_file = next((f for f in instance_path.iterdir() if f.name.endswith('_sequences.csv')), None)
 
-        if objective_file:
-            with objective_file.open(newline='', encoding='utf-8') as f:
+        if sequences_file:
+            with sequences_file.open(newline='', encoding='utf-8') as f:
                 reader = csv.reader(f)
                 filas = list(reader)
                 if len(filas) > 1 and len(filas[1]) > 2:

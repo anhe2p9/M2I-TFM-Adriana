@@ -36,11 +36,12 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
         multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
 
-        """ z <- Solve {min f1(x) subject to f2(x) <= f2(z)} """
+        """ z <- Solve {min f2(x) subject to x in X} """
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 
+            """ z <- Solve {min f1(x) subject to f2(x) <= f2(z)} """
             f2z = round(pyo.value(obj2(concrete)))  # f2(z) := f2z
 
             print(
@@ -51,7 +52,8 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
                 "==================================================================================================\n")
             output_data.append(f"min f2(x), {obj2.__name__}, subject to x in X: {f2z}\n")
 
-            multiobjective_model.f2z = pyo.Param(initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
+            multiobjective_model.f2z = pyo.Param(
+                initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
             multiobjective_model.f2Constraint = pyo.Constraint(
                 rule=lambda m: multiobjective_model.second_obj_diff_constraint(m, obj2))  # new constraint: f2(x) <= f2(z)
             algorithms_utils.modify_component(multiobjective_model, 'obj',

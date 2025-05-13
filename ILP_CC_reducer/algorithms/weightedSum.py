@@ -22,14 +22,22 @@ class WeightedSumAlgorithm(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int, args) -> None:
+    def execute(data: dp.DataPortal, tau: int, args, objectives_list: list=None) -> None:
         
-        multiobj_model = MultiobjectiveILPmodel()
+        multiobjective_model = MultiobjectiveILPmodel()
+
+        if not objectives_list:  # if there is no order, the order will be [SEQ,CC,LOC]
+            objectives_list = [multiobjective_model.sequences_objective,
+                               multiobjective_model.cc_difference_objective,
+                               multiobjective_model.loc_difference_objective]
+
+        obj1, obj2, obj3 = objectives_list[:3]
     
         # Define threshold
-        multiobj_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
-        
-        csv_data = [["Weight1","Weight2","Weight3","Num.sequences","CCdif","LOCdif"]]
+        multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+
+        objectives_names = [obj.__name__ for obj in objectives_list]
+        csv_data = [["Weight1","Weight2","Weight3"] + objectives_names]
         
         print(f"ARGS WEIGHTS: {args}")
 
@@ -44,7 +52,7 @@ class WeightedSumAlgorithm(Algorithm):
                 for j in range(args+1):
                     w1, w2, w3 = algorithms_utils.generate_three_weights(args, i, j)
                     
-                    _, newrow, _ = process_weighted_model(multiobj_model, data, w1 ,w2, w3)
+                    _, newrow, _ = process_weighted_model(multiobjective_model, data, w1 ,w2, w3, obj1, obj2, obj3)
                     
                     csv_data.append(newrow)
                 
@@ -58,7 +66,7 @@ class WeightedSumAlgorithm(Algorithm):
                         
             w1, w2, w3 = args
             
-            concrete, newrow, results = process_weighted_model(multiobj_model, data, w1 ,w2, w3)
+            concrete, newrow, results = process_weighted_model(multiobjective_model, data, w1 ,w2, w3, obj1, obj2, obj3)
                   
             csv_data.append(newrow)
             
@@ -76,9 +84,9 @@ class WeightedSumAlgorithm(Algorithm):
 
 
 
-def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3):
+def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3, obj1, obj2, obj3):
     
-    algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3)))
+    algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
     concrete, results = algorithms_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
     
     newrow_values = [pyo.value(model.sequences_objective(concrete)), pyo.value(model.cc_difference_objective(concrete)), pyo.value(model.loc_difference_objective(concrete))]

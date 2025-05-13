@@ -91,10 +91,8 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     
     
     
-    def weighted_sum(self, m, sequences_weight, loc_diff_weight, cc_diff_weight):
-        return (sequences_weight * self.sequences_objective(m) +
-                loc_diff_weight * self.loc_difference_objective(m) +
-                cc_diff_weight * self.cc_difference_objective(m))
+    def weighted_sum(self, m, w1, w2, w3, obj1, obj2, obj3):
+        return (w1*obj1(m) + w2*obj2(m) + w3*obj3(m))
     
     @staticmethod
     def weighted_sum_2obj(m, w1: int, w2: int, first_objective: pyo.Objective, second_objective: pyo.Objective):
@@ -110,15 +108,11 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     #                 obj2_Weight * self.CCdifferenceObjective(m))
 
     
-    def epsilon_objective(self, m):
-        return self.loc_difference_objective(m) - (m.lambd1 * m.l1 + m.lambd2 * m.l2)
+    def epsilon_objective(self, m, obj):
+        return obj(m) - (m.lambd1 * m.l1 + m.lambd2 * m.l2)
     
-    def epsilon_constraint(self, m, obj): # TODO: adaptarlo para poner el que sea necesario
-        if obj == 'SEQ':
-            return self.sequences_objective(m) + m.l1 == m.epsilon1
-        else:
-            return self.cc_difference_objective(m) + m.l2 == m.epsilon2
-    
+    # def epsilon_constraint(self, m, obj, l, epsilon): # TODO: adaptarlo para poner el que sea necesario
+    #     return obj(m) + l == epsilon
     
     
     @staticmethod

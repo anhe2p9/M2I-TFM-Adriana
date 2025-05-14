@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 from pandas.plotting import parallel_coordinates
 
 # Cargar el CSV (ajusta el nombre de tu archivo)
-df = pd.read_csv('output/WeightedSumAlgorithm_PRUEBA2_results.csv')
+# df = pd.read_csv('output/WeightedSumAlgorithm_PRUEBA2_results.csv')
+df = pd.read_csv('output/EpsilonConstraintAlgorithm_PRUEBA2_results.csv')
 
 print(df.columns)
 
@@ -24,7 +25,7 @@ for col in objetivos_cols:
 # Dibujo
 plt.figure(figsize=(12, 6))
 parallel_coordinates(df_plot, class_column='pesos', colormap=plt.cm.viridis, alpha=0.5)
-plt.title('Gráfica de coordenadas paralelas - Objetivos vs Pesos')
+plt.title('Gráfica de coordenadas paralelas - Objetivos')
 plt.ylabel('Valor de los objetivos')
 plt.xlabel('Objetivos')
 plt.legend([],[], frameon=False)  # Puedes quitar la leyenda si hay muchas combinaciones

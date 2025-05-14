@@ -37,7 +37,7 @@ class WeightedSumAlgorithm(Algorithm):
         multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
 
         objectives_names = [obj.__name__ for obj in objectives_list]
-        csv_data = [["Weight1","Weight2","Weight3"] + objectives_names]
+        csv_data = [[f"Weight1_{obj1.__name__}",f"Weight2_{obj2.__name__}",f"Weight1_{obj3.__name__}"] + objectives_names]
         
         print(f"ARGS WEIGHTS: {args}")
 
@@ -84,12 +84,12 @@ class WeightedSumAlgorithm(Algorithm):
 
 
 
-def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1 ,w2, w3, obj1, obj2, obj3):
+def process_weighted_model(model: MultiobjectiveILPmodel, data: dp.DataPortal, w1 ,w2, w3, obj1, obj2, obj3):
     
     algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
     concrete, results = algorithms_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
     
-    newrow_values = [pyo.value(model.sequences_objective(concrete)), pyo.value(model.cc_difference_objective(concrete)), pyo.value(model.loc_difference_objective(concrete))]
+    newrow_values = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete)), pyo.value(obj3(concrete))]
     newrow = [round(w1,2),round(w2,2),round(w3,2)] + newrow_values
     
     # TODO: añadir generación de CSVs con los resultados (hay algún método ya hecho creo que sería solo llamarlo)

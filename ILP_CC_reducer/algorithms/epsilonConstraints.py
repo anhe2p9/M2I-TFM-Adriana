@@ -125,10 +125,11 @@ class EpsilonConstraintAlgorithm(Algorithm):
                     algorithms_utils.modify_component(
                         multiobjective_model, 'epsilonConstraint2', pyo.Constraint(
                             rule=lambda m: obj2(m) + m.l2 == m.epsilon2))  # subject to f2(x) + l2 = epsilon2
-                    
 
                     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)  # Solve
-                    
+
+                    result.write()
+
                     """ While exists x in X that makes f1(x) < epsilon do """
                     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
                         
@@ -155,7 +156,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
                         print(f"f2z: {f2z}")
 
                         u1 = f1z - 1  # lower bound for f1(x) (it has to decrease with f1z)
-                        u2 = f2z - 1  # lower bound for f2(x) (it has to decrease with f2z)
+                        u2 = f2z - 1 # lower bound for f2(x) (it has to decrease with f2z)
 
                         print(f"epsilon1: {concrete.epsilon1.value}")
                         print(f"epsilon2: {concrete.epsilon2.value}")

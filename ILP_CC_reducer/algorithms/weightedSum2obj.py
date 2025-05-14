@@ -26,7 +26,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
     @staticmethod
     def execute(data: dp.DataPortal, tau: int, weights_config: Any, objectives_list: list) -> None:
         
-        multiobj_model = MultiobjectiveILPmodel()
+        multiobjective_model = MultiobjectiveILPmodel()
         
         obj1, obj2 = objectives_list[:2]
         
@@ -34,7 +34,7 @@ class WeightedSumAlgorithm2obj(Algorithm):
         
         output_data = []
         
-        multiobj_model.model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+        multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
         
         if isinstance(weights_config, int):
             print(f"Proccessing all ILP results with {weights_config} subdivisions...")
@@ -42,10 +42,10 @@ class WeightedSumAlgorithm2obj(Algorithm):
             for i in range(weights_config+1):
                 w1, w2 = algorithms_utils.generate_two_weights(weights_config, i)
                
-                algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
-                concrete, results = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
+                algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
+                concrete, results = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
                 
-                newrow = algorithms_utils.calculate_results(concrete, obj2)
+                newrow = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete))]
                 
                 
                 algorithms_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
@@ -57,10 +57,10 @@ class WeightedSumAlgorithm2obj(Algorithm):
             print(f"Proccessing ILP results with weights: {weights_config}...")
             w1, w2 = weights_config
             
-            algorithms_utils.modify_component(multiobj_model, 'obj', pyo.Objective(rule=lambda m: multiobj_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
-            concrete, results = algorithms_utils.concrete_and_solve_model(multiobj_model, data)
+            algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
+            concrete, results = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
             
-            newrow = algorithms_utils.calculate_results(concrete, obj2)
+            newrow = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete))]
             csv_data.append(newrow)
             
             algorithms_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)

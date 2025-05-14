@@ -172,3 +172,10 @@ class EpsilonConstraintAlgorithm(Algorithm):
                     solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
                 
         return csv_data, concrete, None
+
+
+# def update(meta_list: list[list], z):
+#     for B in meta_list:
+#         if z < B[0]:
+#             for i in range(3):
+#                 B[i] = [x for j in range(i,p) if ]

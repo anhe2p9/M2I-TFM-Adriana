@@ -108,8 +108,9 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     #                 obj2_Weight * self.CCdifferenceObjective(m))
 
     
-    def epsilon_objective(self, m, obj):
-        return obj(m) - (m.lambd1 * m.l1 + m.lambd2 * m.l2)
+    @staticmethod
+    def epsilon_objective(m, obj):
+        return obj(m) - (m.lambda2 * m.l2 + m.lambda3 * m.l3)
     
     # def epsilon_constraint(self, m, obj, l, epsilon): # TODO: adaptarlo para poner el que sea necesario
     #     return obj(m) + l == epsilon

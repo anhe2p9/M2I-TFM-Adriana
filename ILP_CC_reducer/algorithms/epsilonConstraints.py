@@ -43,28 +43,18 @@ class EpsilonConstraintAlgorithm(Algorithm):
                                multiobjective_model.cc_difference_objective,
                                multiobjective_model.loc_difference_objective]
 
-        multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
-        uniobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold UO
-
-        multiobjective_model.lambda2 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
-        multiobjective_model.lambda3 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
-
-        multiobjective_model.l2 = pyo.Var(within=pyo.NonNegativeReals)  # l2 = epsilon2 - f2(x)
-        multiobjective_model.l3 = pyo.Var(within=pyo.NonNegativeReals)  # l3 = epsilon3 - f3(x)
-
+        add_items_to_multiobjective_model(tau)
         concrete = uniobjective_model.create_instance(data)
 
         nadir_dict = {multiobjective_model.sequences_objective: len(concrete.S)+1,
                       multiobjective_model.cc_difference_objective: concrete.nmcc[0]+1 ,
                       multiobjective_model.loc_difference_objective: concrete.loc[0]+1}
 
-        print(f"OBJECTIVES LIST: {objectives_list}")
-
         nadir_point = []
         for obj in objectives_list:
             nadir_point.append(nadir_dict[obj])
 
-        initial_box = ((-1,-1,-1),tuple(nadir_point))
+        initial_box = ((0,0,0),tuple(nadir_point))
 
         S, concrete = epsilon_constraint_with_ppartition(data, objectives_list, initial_box, max_solutions=20)
 
@@ -77,24 +67,49 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         return csv_data, concrete, None
 
+def add_items_to_multiobjective_model(tau: int):
+    multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
+    uniobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold UO
+
+    multiobjective_model.lambda2 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
+    multiobjective_model.lambda3 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
+
+    multiobjective_model.l2 = pyo.Var(within=pyo.NonNegativeReals)  # l2 = epsilon2 - f2(x)
+    multiobjective_model.l3 = pyo.Var(within=pyo.NonNegativeReals)  # l3 = epsilon3 - f3(x)
 
 
 
-def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, eps2: float, eps3: float):
 
-    obj1, obj2, obj3 = objectives_list[:3]
+def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, solution, direction: int, eps2: float, eps3: float):
+
+    obj1, obj2, obj3 = objectives_list
 
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
         rule=lambda m: multiobjective_model.epsilon_objective(m, obj1)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
     algorithms_utils.modify_component(
         multiobjective_model, 'epsilonConstraint2', pyo.Constraint(
-            rule=lambda m: obj2(m) + m.l2 == eps2))  # subject to f1(x) + l1 = epsilon1
+            rule=lambda m: obj2(m) + m.l2 == eps2))  # subject to f2(x) + l2 = epsilon2
     algorithms_utils.modify_component(
         multiobjective_model, 'epsilonConstraint3', pyo.Constraint(
-            rule=lambda m: obj3(m) + m.l3 == eps3))  # subject to f2(x) + l2 = epsilon2
+            rule=lambda m: obj3(m) + m.l3 == eps3))  # subject to f3(x) + l3 = epsilon3
+
+    print(f"SOLUTION: {solution}")
+
+    if solution:
+        for i in range(direction):
+            if i == 0:
+                algorithms_utils.modify_component(
+                    multiobjective_model, f'boxes_constraint_{i}', pyo.Constraint(
+                        rule=lambda m: objectives_list[i](m) <= solution[i] - 1))
+            else:
+                algorithms_utils.modify_component(
+                    multiobjective_model, f'boxes_constraint_{i}', pyo.Constraint(
+                        rule=lambda m: objectives_list[i](m) >= solution[i]))
 
     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+
+    # concrete.pprint()
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
@@ -108,23 +123,29 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, eps2: f
 
 def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
     S = set()  # Conjunto de soluciones no dominadas
-    boxes = [initial_box]  # Lista de cajas por explorar
+    boxes = [(initial_box, None)]  # lista de tuplas (caja, z)
+
+    solution = None
 
     while boxes and len(S) < max_solutions:
         print(f"BOX: {boxes}")
 
-        B = boxes.pop(0)
+        B, direction = boxes.pop(0)
         l, u = B
 
         # Punto z intermedio para partir (punto central)
-        z = tuple((l[i] + u[i]) / 2 for i in range(3))
+        # z = tuple((l[i] + u[i]) / 2 for i in range(3))
 
-        # Usar z[1] y z[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete = solve_epsilon_constraint(data, objectives_list, eps2=z[1], eps3=z[2])
+
+        # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
+        solution, concrete = solve_epsilon_constraint(data, objectives_list, solution, direction, eps2=u[1], eps3=u[2])
+
+        print("Intentando con eps2 =", u[1], "eps3 =", u[2])
+        print("Solución obtenida:", solution)
 
         if solution is not None:
             # Si ya tenemos exactamente esa solución, no la volvemos a usar
-            if solution in S:
+            if any(approx_equal(solution, s) for s in S):
                 continue  # solución repetida, descartar caja
 
             # Si está dominada, tampoco sirve
@@ -138,9 +159,9 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
             z = solution
             new_boxes = p_partition_3d(B, z)
 
-            for box in new_boxes:
+            for i, box in enumerate(new_boxes):
                 if box is not None:
-                    boxes.append(box)
+                    boxes.append((box, i))
         else:
             # No se encontró solución → caja descartada
             continue
@@ -176,3 +197,6 @@ def dominates(a: Point3D, b: Point3D) -> bool:
     print(f"VALOR B: {b}")
 
     return all(a[i] <= b[i] for i in range(3)) and any(a[i] < b[i] for i in range(3))
+
+def approx_equal(a: Point3D, b: Point3D, tol=1e-4):
+    return all(abs(ai - bi) < tol for ai, bi in zip(a, b))

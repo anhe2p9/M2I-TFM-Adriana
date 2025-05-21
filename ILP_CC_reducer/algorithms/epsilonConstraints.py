@@ -80,6 +80,8 @@ def add_items_to_multiobjective_model(tau: int):
 
 def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, solution, direction: int, eps2: float, eps3: float):
 
+    print(f"Processing e-constraint with eps2: {eps2}, eps3: {eps3}.")
+
     obj1, obj2, obj3 = objectives_list
 
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
@@ -126,6 +128,9 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
     last_solution = None
 
     while boxes and len(S) < max_solutions:
+
+        print(f"Solutions set: {S}.")
+        print(f"BOXES: {boxes}.")
 
         B, direction = boxes.pop(0)
         l, u = B

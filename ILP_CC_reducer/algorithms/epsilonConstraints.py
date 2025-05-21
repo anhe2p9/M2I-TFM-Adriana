@@ -78,23 +78,14 @@ def add_items_to_multiobjective_model(tau: int):
 
 
 
-def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, solution, direction: int, eps2: float, eps3: float):
-
-    print(f"Processing e-constraint with eps2: {eps2}, eps3: {eps3}.")
-
+def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tuple, eps2: float, eps3: float):
     obj1, obj2, obj3 = objectives_list
 
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
         rule=lambda m: multiobjective_model.epsilon_objective(m, obj1)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
-    algorithms_utils.modify_component(
-        multiobjective_model, 'epsilonConstraint2', pyo.Constraint(
-            rule=lambda m: obj2(m) + m.l2 == eps2))  # subject to f2(x) + l2 = epsilon2
-    algorithms_utils.modify_component(
-        multiobjective_model, 'epsilonConstraint3', pyo.Constraint(
-            rule=lambda m: obj3(m) + m.l3 == eps3))  # subject to f3(x) + l3 = epsilon3
-
-    add_boxes_restrictions(solution, objectives_list, direction)
+    add_epsilon_constraints(obj2, obj3, eps2, eps3)
+    add_boxes_constraints(box, objectives_list)
 
     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
@@ -106,7 +97,17 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, solutio
     return newrow, concrete
 
 
-def add_boxes_restrictions(solution: tuple, objectives_list: list, direction: int):
+def add_epsilon_constraints(obj2: pyo.Objective, obj3: pyo.Objective, eps2: int, eps3: int):
+    algorithms_utils.modify_component(
+        multiobjective_model, 'epsilonConstraint2', pyo.Constraint(
+            rule=lambda m: obj2(m) + m.l2 == eps2))  # subject to f2(x) + l2 = epsilon2
+    algorithms_utils.modify_component(
+        multiobjective_model, 'epsilonConstraint3', pyo.Constraint(
+            rule=lambda m: obj3(m) + m.l3 == eps3))  # subject to f3(x) + l3 = epsilon3
+
+
+def add_boxes_constraints(box_info: tuple, objectives_list: list):
+    _, solution, direction = box_info
     if solution:
         for i in range(4):
             if hasattr(multiobjective_model, f'boxes_constraint_{i}'):
@@ -122,24 +123,22 @@ def add_boxes_restrictions(solution: tuple, objectives_list: list, direction: in
 
 def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
     S = set()  # Conjunto de soluciones no dominadas
-    boxes = [(initial_box, None)]  # lista de tuplas (caja, z)
-
-    solution = None
-    last_solution = None
+    boxes = [(initial_box, None, None)]  # lista de tuplas (caja, z, direction)
 
     while boxes and len(S) < max_solutions:
 
-        print(f"Solutions set: {S}.")
-        print(f"BOXES: {boxes}.")
+        # print(f"Solutions set: {S}.")
+        # print(f"BOXES: {boxes}.")
 
-        B, direction = boxes.pop(0)
+        print(f"Processing e-constraint with boxes: {boxes}.")
+
+        box_info = boxes.pop(0)
+        B = box_info[0]
+
         l, u = B
 
-        if solution:
-            last_solution = solution
-
         # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete = solve_epsilon_constraint(data, objectives_list, last_solution, direction, eps2=u[1], eps3=u[2])
+        solution, concrete = solve_epsilon_constraint(data, objectives_list, box_info, eps2=u[1], eps3=u[2])
 
         if solution:
             # Si ya tenemos exactamente esa solución, no la volvemos a usar
@@ -153,16 +152,20 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
             # Solución válida y no dominada → la guardamos
             S.add(solution)
 
+            print(f"New solution: {solution}.")
+
             # Partimos la caja con respecto a la solución real obtenida
             z = solution
             new_boxes = p_partition_3d(B, z)
 
             for i, box in enumerate(new_boxes):
                 if box is not None:
-                    boxes.append((box, i+1))
+                    boxes.append((box, solution, i+1))
         else:
             # No se encontró solución → caja descartada
             continue
+
+    print(f"Solution set: {S}.")
 
     return S, concrete
 

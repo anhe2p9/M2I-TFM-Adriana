@@ -28,14 +28,22 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     result = solver.solve(concrete)
     return concrete, result
 
-def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_name: str, algorithm: str, output_data: list=None):
+def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_name: str,
+                          algorithm: str, project_name: str, output_data: list=None):
+
+    result_name = f"{algorithm}_{method_name}"
+
+    if not os.path.exists(f"output/{project_name}/{result_name}"):
+        os.makedirs(f"output/{project_name}/{result_name}")
+
     # Save model in a LP file
     if concrete:
-        concrete.write(f'output/{algorithm}_{method_name}.lp', io_options={'symbolic_solver_labels': True})
+        concrete.write(f'output/{project_name}/{result_name}/{result_name}.lp',
+                       io_options={'symbolic_solver_labels': True})
         print("Model correctly saved in a LP file.")
 
     # Save data in a CSV file
-    filename = f"output/{algorithm}_{method_name}_results.csv"
+    filename = f"output/{project_name}/{algorithm}_{method_name}/{algorithm}_{method_name}_results.csv"
             
     if os.path.exists(filename):
         os.remove(filename)
@@ -47,7 +55,7 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_na
     
     # Save output in a TXT file
     if output_data:
-        with open(f"output/{algorithm}_{method_name}_output.txt", "w") as f:
+        with open(f"output/{project_name}/{algorithm}_{method_name}/{algorithm}_{method_name}_output.txt", "w") as f:
             for linea in output_data:
                 f.write(linea + "\n")
             print("Output correctly saved in a TXT file.")

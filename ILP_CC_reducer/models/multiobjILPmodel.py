@@ -110,7 +110,7 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     
     @staticmethod
     def epsilon_objective(m, obj):
-        return obj(m) - (m.lambda2 * m.l2 + m.lambda3 * m.l3)
+        return obj(m) - (m.lambda2 * m.sl2 + m.lambda3 * m.sl3)
     
     # def epsilon_constraint(self, m, obj, l, epsilon): # TODO: adaptarlo para poner el que sea necesario
     #     return obj(m) + l == epsilon

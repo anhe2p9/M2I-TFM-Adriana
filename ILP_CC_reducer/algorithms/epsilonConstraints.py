@@ -3,13 +3,8 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from typing import List, Tuple, Optional, Set
 
-import heapq
+import time
 
-# from typing import Any
-# import sys
-
-# import os
-# import csv
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -38,6 +33,8 @@ class EpsilonConstraintAlgorithm(Algorithm):
     @staticmethod
     def execute(data: dp.DataPortal, tau: int, objectives_list: list= None):
 
+        start_total = time.time()
+
         if not objectives_list:  # if there is no order, the order will be [SEQ,CC,LOC]
             objectives_list = [multiobjective_model.sequences_objective,
                                multiobjective_model.cc_difference_objective,
@@ -56,14 +53,22 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         initial_box = ((0,0,0),tuple(nadir_point))
 
-        S, concrete = epsilon_constraint_with_ppartition(data, objectives_list, initial_box, max_solutions=20)
+        add_b0_constraints(initial_box, objectives_list)
+
+        S, concrete, output_data = epsilon_constraint_with_ppartition(data, objectives_list, initial_box, max_solutions=20)
 
         csv_data = [[obj.__name__ for obj in objectives_list]]
 
         for sol in S:
             csv_data.append(list(sol))
 
-        return csv_data, concrete, None
+        end_total = time.time()
+
+        output_data.append("==========================================================================================")
+        output_data.append("==========================================================================================")
+        output_data.append(f"Total execution time: {end_total - start_total:.2f}")
+
+        return csv_data, concrete, output_data
 
 
 def add_items_to_multiobjective_model(tau: int):
@@ -73,12 +78,28 @@ def add_items_to_multiobjective_model(tau: int):
     multiobjective_model.lambda2 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
     multiobjective_model.lambda3 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
 
-    multiobjective_model.l2 = pyo.Var(within=pyo.NonNegativeReals)  # l2 = epsilon2 - f2(x)
-    multiobjective_model.l3 = pyo.Var(within=pyo.NonNegativeReals)  # l3 = epsilon3 - f3(x)
+    multiobjective_model.sl2 = pyo.Var(within=pyo.NonNegativeReals)  # sl2 = epsilon2 - f2(x)
+    multiobjective_model.sl3 = pyo.Var(within=pyo.NonNegativeReals)  # sl3 = epsilon3 - f3(x)
+
+
+
+def add_b0_constraints(initial_box: tuple, objectives_list: list):
+    l,u = initial_box
+    obj1, obj2, obj3 = objectives_list
+
+    multiobjective_model.b0l1_constraint = pyo.Constraint(rule=lambda m: obj1(m) >= l[0])
+    multiobjective_model.b0l2_constraint = pyo.Constraint(rule=lambda m: obj2(m) >= l[1])
+    multiobjective_model.b0l3_constraint = pyo.Constraint(rule=lambda m: obj3(m) >= l[2])
+
+    multiobjective_model.b0u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= u[0])
+    multiobjective_model.b0u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= u[1])
+    multiobjective_model.b0u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= u[2])
 
 
 
 def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tuple, eps2: float, eps3: float):
+    output_data = []
+
     obj1, obj2, obj3 = objectives_list
 
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
@@ -91,19 +112,32 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
+
+        output_data.append('===============================================================================')
+        if result.solver.status == 'ok':
+            for i, obj in enumerate(objectives_list):
+                output_data.append(f'Objective {obj.__name__}: {newrow[i]}')
+            output_data.append('Sequences selected:')
+            for s in concrete.S:
+                output_data.append(f"x[{s}] = {concrete.x[s].value}")
+
     else:
         newrow = None
 
-    return newrow, concrete
+    print(f"Newrow: {newrow}.")
+
+    cplex_time = result.solver.time
+
+    return newrow, concrete, cplex_time, output_data
 
 
 def add_epsilon_constraints(obj2: pyo.Objective, obj3: pyo.Objective, eps2: int, eps3: int):
     algorithms_utils.modify_component(
         multiobjective_model, 'epsilonConstraint2', pyo.Constraint(
-            rule=lambda m: obj2(m) + m.l2 == eps2))  # subject to f2(x) + l2 = epsilon2
+            rule=lambda m: obj2(m) + m.sl2 == eps2))  # subject to f2(x) + l2 = epsilon2
     algorithms_utils.modify_component(
         multiobjective_model, 'epsilonConstraint3', pyo.Constraint(
-            rule=lambda m: obj3(m) + m.l3 == eps3))  # subject to f3(x) + l3 = epsilon3
+            rule=lambda m: obj3(m) + m.sl3 == eps3))  # subject to f3(x) + l3 = epsilon3
 
 
 def add_boxes_constraints(box_info: tuple, objectives_list: list):
@@ -122,6 +156,8 @@ def add_boxes_constraints(box_info: tuple, objectives_list: list):
 
 
 def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
+    output_data = []
+
     S = set()  # Conjunto de soluciones no dominadas
     boxes = [(initial_box, None, None)]  # lista de tuplas (caja, z, direction)
 
@@ -138,7 +174,8 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
         l, u = B
 
         # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete = solve_epsilon_constraint(data, objectives_list, box_info, eps2=u[1], eps3=u[2])
+        solution, concrete, cplex_time, new_output_data = solve_epsilon_constraint(data, objectives_list,
+                                                                               box_info, eps2=u[1], eps3=u[2])
 
         if solution:
             # Si ya tenemos exactamente esa solución, no la volvemos a usar
@@ -151,6 +188,8 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
 
             # Solución válida y no dominada → la guardamos
             S.add(solution)
+            output_data = output_data + new_output_data
+            output_data.append(f"CPLEX time: {cplex_time}.")
 
             print(f"New solution: {solution}.")
 
@@ -161,13 +200,18 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
             for i, box in enumerate(new_boxes):
                 if box is not None:
                     boxes.append((box, solution, i+1))
+
         else:
             # No se encontró solución → caja descartada
+            output_data.append("======================================================================================")
+            output_data.append(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
+            output_data.append("======================================================================================")
+
             continue
 
     print(f"Solution set: {S}.")
 
-    return S, concrete
+    return S, concrete, output_data
 
 
 def p_partition_3d(B: Box3D, z: Point3D) -> List[Optional[Box3D]]:

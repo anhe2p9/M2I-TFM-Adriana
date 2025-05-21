@@ -86,9 +86,8 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
 
 
 def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
-    
+
     model_engine = ILPEngine()
-    
     model = MultiobjectiveILPmodel()
 
     if objectives:
@@ -114,9 +113,13 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau, subdivisions, weights, objectives_list)
+    csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau,
+                                                                         subdivisions, weights, objectives_list)
 
-    algorithms_utils.write_output_to_files(csv_data, concrete_model, os.path.basename(instance_folder), alg_name, output_data)
+    project_name = os.path.basename(instance_folder.parent.parent)
+
+    algorithms_utils.write_output_to_files(csv_data, concrete_model, os.path.basename(instance_folder),
+                                           alg_name, project_name, output_data)
 
 
 

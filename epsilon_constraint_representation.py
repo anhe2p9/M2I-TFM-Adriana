@@ -10,7 +10,17 @@ plt.rcParams['text.usetex'] = True
 
 model = MultiobjectiveILPmodel()
 
-csv_path = 'output/pruebas/EpsilonConstraintAlgorithm_small_test/EpsilonConstraintAlgorithm_small_test_results.csv'
+# csv_path = 'output/pruebas/EpsilonConstraintAlgorithm_small_test/EpsilonConstraintAlgorithm_small_test_results.csv'
+
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameMethodNode/EpsilonConstraintAlgorithm_renameMethodNode_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_getTreeCellRendererComponent/EpsilonConstraintAlgorithm_getTreeCellRendererComponent_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_compile/EpsilonConstraintAlgorithm_compile_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_downloadZipsOnly/EpsilonConstraintAlgorithm_downloadZipsOnly_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_parseCommandLine/EpsilonConstraintAlgorithm_parseCommandLine_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_doSaveJarDecompiled/EpsilonConstraintAlgorithm_doSaveJarDecompiled_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_FileDrop/EpsilonConstraintAlgorithm_FileDrop_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameClassNode/EpsilonConstraintAlgorithm_renameClassNode_results.csv'
+csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameFieldNode/EpsilonConstraintAlgorithm_renameFieldNode_results.csv'
 
 # Cargar el CSV
 df = pd.read_csv(csv_path)

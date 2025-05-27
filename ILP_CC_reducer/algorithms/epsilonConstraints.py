@@ -266,6 +266,13 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
 
     complete_data_row = []
 
+
+    objective_map = {
+        'sequences': multiobjective_model.sequences_objective,
+        'cc': multiobjective_model.cc_difference_objective,
+        'loc': multiobjective_model.loc_difference_objective
+    }
+
     """ Number of sequences """
     num_sequences = len([s for s in concrete.S])
     complete_data_row.append(num_sequences)
@@ -298,7 +305,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
         complete_data_row.append(offsets_list)
 
         """ Extractions """
-        extractions = len(solution)
+        extractions = round(pyo.value(objective_map['sequences'](concrete)))
         complete_data_row.append(extractions)
 
         """ Not nested solution """
@@ -334,12 +341,14 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
         CC_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j, k in concrete.N if
                         k == 0 and concrete.z[j, k].value != 0]
 
+        print(f"CC REDUCTION: {CC_reduction}")
+
         reduction_complexity = sum(CC_reduction)
         complete_data_row.append(reduction_complexity)
 
 
         """ Final complexity """
-        final_complexity = initial_complexity - reduction_complexity
+        final_complexity = round(pyo.value(objective_map['cc'](concrete)))
         complete_data_row.append(final_complexity)
 
         """ Minimum extracted LOC, Maximum extracted LOC, Mean extracted LOC, Total extracted LOC, Nested LOC """
@@ -352,7 +361,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
             complete_data_row.append(maxExtractedLOC)
             meanExtractedLOC = round(float(np.mean(LOC_for_each_sequence)))
             complete_data_row.append(meanExtractedLOC)
-            totalExtractedLOC = sum(LOC_for_each_sequence)
+            totalExtractedLOC = round(pyo.value(objective_map['loc'](concrete)))
             complete_data_row.append(totalExtractedLOC)
             # NESTED LOC
             nested_LOC = {}
@@ -377,7 +386,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
             complete_data_row.append(maxExtractedCC)
             meanExtractedCC = round(float(np.mean(CC_reduction)))
             complete_data_row.append(meanExtractedCC)
-            totalExtractedCC = reduction_complexity
+            totalExtractedCC = initial_complexity - final_complexity
             complete_data_row.append(totalExtractedCC)
             # NESTED CC
             nested_CC = {}

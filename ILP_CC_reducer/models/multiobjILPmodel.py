@@ -87,10 +87,8 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     @staticmethod
     def cc_difference_objective(m): # modelar tercer objetivo como restricción
         return m.cmax - m.cmin
-    
-    
-    
-    
+
+    @staticmethod
     def weighted_sum(self, m, w1, w2, w3, obj1, obj2, obj3):
         return (w1*obj1(m) + w2*obj2(m) + w3*obj3(m))
     
@@ -98,28 +96,14 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     def weighted_sum_2obj(m, w1: int, w2: int, first_objective: pyo.Objective, second_objective: pyo.Objective):
         """ Weighted sum method for two objectives. """
         return w1 * first_objective(m) + w2 * second_objective(m)
-        
-    # def weightedSum2obj(self, m, sequencesWeight, obj2_Weight, obj: str):
-    #     if obj =='LOC':
-    #         return (sequencesWeight * self.sequencesObjective(m) +
-    #                 obj2_Weight * self.LOCdifferenceObjective(m))
-    #     else:
-    #         return (sequencesWeight * self.sequencesObjective(m) +
-    #                 obj2_Weight * self.CCdifferenceObjective(m))
-
     
     @staticmethod
     def epsilon_objective(m, obj):
         return obj(m) - (m.lambda2 * m.sl2 + m.lambda3 * m.sl3)
     
-    # def epsilon_constraint(self, m, obj, l, epsilon): # TODO: adaptarlo para poner el que sea necesario
-    #     return obj(m) + l == epsilon
-    
-    
     @staticmethod
     def epsilon_objective_2obj(m, obj):
         return obj(m) - m.lambda_value * m.l
-
 
     @staticmethod
     def epsilon_constraint_2obj(m, obj):

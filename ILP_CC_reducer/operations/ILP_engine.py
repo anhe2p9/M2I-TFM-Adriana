@@ -28,7 +28,7 @@ class ILPEngine():
         """Return the list of all ILP operations available."""
         return [self.get_algorithm_from_name(ref_name) for ref_name in ALGORITHMS_NAMES]
     
-    def load_concrete(self, data_folder: Path, model: pyo.AbstractModel) -> dp.DataPortal:
+    def load_concrete(self, data_folder: Path, model: pyo.AbstractModel) -> dict:
         
         files = { "sequences": None, "nested": None, "conflict": None }
 

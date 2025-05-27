@@ -29,7 +29,7 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     return concrete, result
 
 def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_name: str,
-                          algorithm: str, project_name: str, output_data: list=None):
+                          algorithm: str, project_name: str, output_data: list=None, complete_data: list=None):
 
     result_name = f"{algorithm}_{method_name}"
 
@@ -59,6 +59,14 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, method_na
             for linea in output_data:
                 f.write(linea + "\n")
             print("Output correctly saved in a TXT file.")
+
+    # Save output in a TXT file
+    if complete_data:
+        with open(f"output/{project_name}/{algorithm}_{method_name}/{algorithm}_{method_name}_complete_data.csv",
+                  mode="w", newline="", encoding="utf-8") as complete_csv:
+            writer = csv.writer(complete_csv)
+            writer.writerows(complete_data)
+            print("Complete CSV file correctly created.")
 
 
 

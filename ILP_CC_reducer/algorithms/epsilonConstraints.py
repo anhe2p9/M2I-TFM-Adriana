@@ -4,6 +4,8 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 from typing import List, Tuple, Optional, Set
 
 import time
+import numpy as np
+import pandas as pd
 
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
@@ -31,7 +33,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
         return ("It obtains supported and non-supported ILP solutions.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int, objectives_list: list= None):
+    def execute(data_dict: dict, tau: int, objectives_list: list= None):
+
+        data = data_dict['data']
 
         start_total = time.time()
 
@@ -55,7 +59,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         add_b0_constraints(initial_box, objectives_list)
 
-        S, concrete, output_data = epsilon_constraint_with_ppartition(data, objectives_list, initial_box, max_solutions=20)
+        S, concrete, output_data, complete_data = epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box, max_solutions=20)
 
         csv_data = [[obj.__name__ for obj in objectives_list]]
 
@@ -68,15 +72,15 @@ class EpsilonConstraintAlgorithm(Algorithm):
         output_data.append("==========================================================================================")
         output_data.append(f"Total execution time: {end_total - start_total:.2f}")
 
-        return csv_data, concrete, output_data
+        return csv_data, concrete, output_data, complete_data
 
 
 def add_items_to_multiobjective_model(tau: int):
     multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
     uniobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold UO
 
-    multiobjective_model.lambda2 = pyo.Param(initialize=1, mutable=True)  # Lambda parameter
-    multiobjective_model.lambda3 = pyo.Param(initialize=1, mutable=True)  # Lambda parameter
+    multiobjective_model.lambda2 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
+    multiobjective_model.lambda3 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
 
     multiobjective_model.sl2 = pyo.Var(within=pyo.NonNegativeReals)  # sl2 = epsilon2 - f2(x)
     multiobjective_model.sl3 = pyo.Var(within=pyo.NonNegativeReals)  # sl3 = epsilon3 - f3(x)
@@ -128,7 +132,7 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
 
     cplex_time = result.solver.time
 
-    return newrow, concrete, cplex_time, output_data
+    return newrow, concrete, result, cplex_time, output_data
 
 
 def add_epsilon_constraints(obj2: pyo.Objective, obj3: pyo.Objective, eps2: int, eps3: int):
@@ -155,8 +159,18 @@ def add_boxes_constraints(box_info: tuple, objectives_list: list):
                     rule=lambda m: objectives_list[direction+i](m) >= solution[direction+i]))
 
 
-def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
+def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
     output_data = []
+
+    complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
+                      "initialComplexity", "solution", "offsets", "extractions",
+                      "NOTnestedSolution", "NOTnestedExtractions",
+                      "NESTEDsolution", "NESTEDextractions",
+                      "reductionComplexity", "finalComplexity",
+                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
+                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
+                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
+                      "terminationCondition", "executionTime"]]
 
     S = set()  # Conjunto de soluciones no dominadas
     boxes = [(initial_box, None, None)]  # lista de tuplas (caja, z, direction)
@@ -174,8 +188,8 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
         l, u = B
 
         # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete, cplex_time, new_output_data = solve_epsilon_constraint(data, objectives_list,
-                                                                               box_info, eps2=u[1], eps3=u[2])
+        solution, concrete, result, cplex_time, new_output_data = solve_epsilon_constraint(data_dict['data'], objectives_list,
+                                                                                   box_info, eps2=u[1], eps3=u[2])
 
         if solution:
             # Si ya tenemos exactamente esa solución, no la volvemos a usar
@@ -190,6 +204,9 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
             S.add(solution)
             output_data = output_data + new_output_data
             output_data.append(f"CPLEX time: {cplex_time}.")
+
+            complete_data_new_row = write_complete_info(concrete, result, data_dict)
+            complete_data.append(complete_data_new_row)
 
             print(f"New solution: {solution}.")
 
@@ -211,7 +228,7 @@ def epsilon_constraint_with_ppartition(data, objectives_list, initial_box: Box3D
 
     print(f"Solution set: {S}.")
 
-    return S, concrete, output_data
+    return S, concrete, output_data, complete_data
 
 
 def p_partition_3d(B: Box3D, z: Point3D) -> List[Optional[Box3D]]:
@@ -242,3 +259,162 @@ def dominates(a: Point3D, b: Point3D) -> bool:
 
 def approx_equal(a: Point3D, b: Point3D, tol=1e-4):
     return all(abs(ai - bi) < tol for ai, bi in zip(a, b))
+
+
+def write_complete_info(concrete: pyo.ConcreteModel, results, data):
+    """ Completes a csv with all solution data """
+
+    complete_data_row = []
+
+    """ Number of sequences """
+    num_sequences = len([s for s in concrete.S])
+    complete_data_row.append(num_sequences)
+
+    """ Number of variables """
+    num_vars_utilizadas = results.Problem[0].number_of_variables
+    complete_data_row.append(num_vars_utilizadas)
+
+    """ Number of constraints """
+    num_constraints = sum(len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
+    complete_data_row.append(num_constraints)
+
+    """ Initial complexity """
+    initial_complexity = concrete.nmcc[0]
+    complete_data_row.append(initial_complexity)
+
+    if (results.solver.status == 'ok') and (results.solver.termination_condition == 'optimal'):
+        """ Solution """
+        solution = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and s != 0]
+        complete_data_row.append(solution)
+
+        """ Offsets """
+        df_csv = pd.read_csv(data["offsets"], header=None, names=["index", "start", "end"])
+
+        # Filter by index in solution str list and obtain values
+        solution_str = [str(i) for i in solution]
+        offsets_list = df_csv[df_csv["index"].isin(solution_str)][["start", "end"]].values.tolist()
+
+        offsets_list = [[int(start), int(end)] for start, end in offsets_list]
+        complete_data_row.append(offsets_list)
+
+        """ Extractions """
+        extractions = len(solution)
+        complete_data_row.append(extractions)
+
+        """ Not nested solution """
+        not_nested_solution = [concrete.x[s].index() for s, k in concrete.N if k == 0 and concrete.z[s, k].value != 0]
+        complete_data_row.append(not_nested_solution)
+
+        """ Not nested extractions """
+        not_nested_extractions = len(not_nested_solution)
+        complete_data_row.append(not_nested_extractions)
+
+
+        """ Nested solution """
+        nested_solution = {}
+
+        for s, k in concrete.N:
+            if concrete.z[s, k].value != 0 and k in solution:
+                if k not in nested_solution:
+                    nested_solution[k] = []  # Crear una nueva lista para cada k
+                nested_solution[k].append(concrete.x[s].index())
+
+        if len(nested_solution) != 0:
+            complete_data_row.append(nested_solution)
+        else:
+            complete_data_row.append("")
+
+
+        """ Nested extractions """
+        nested_extractions = sum(len(v) for v in nested_solution.values())
+        complete_data_row.append(nested_extractions)
+
+
+        """ Reduction of complexity """
+        CC_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j, k in concrete.N if
+                        k == 0 and concrete.z[j, k].value != 0]
+
+        reduction_complexity = sum(CC_reduction)
+        complete_data_row.append(reduction_complexity)
+
+
+        """ Final complexity """
+        final_complexity = initial_complexity - reduction_complexity
+        complete_data_row.append(final_complexity)
+
+        """ Minimum extracted LOC, Maximum extracted LOC, Mean extracted LOC, Total extracted LOC, Nested LOC """
+        LOC_for_each_sequence = [(concrete.loc[j] * concrete.z[j, k].value) for j, k in concrete.N if
+                                 k == 0 and concrete.z[j, k].value != 0]
+        if len(LOC_for_each_sequence) > 0:
+            minExtractedLOC = min(LOC_for_each_sequence)
+            complete_data_row.append(minExtractedLOC)
+            maxExtractedLOC = max(LOC_for_each_sequence)
+            complete_data_row.append(maxExtractedLOC)
+            meanExtractedLOC = round(float(np.mean(LOC_for_each_sequence)))
+            complete_data_row.append(meanExtractedLOC)
+            totalExtractedLOC = sum(LOC_for_each_sequence)
+            complete_data_row.append(totalExtractedLOC)
+            # NESTED LOC
+            nested_LOC = {}
+            for v in nested_solution.values():
+                for n in v:
+                    nested_LOC[n] = concrete.loc[n]
+            if len(nested_LOC) > 0:
+                complete_data_row.append(nested_LOC)
+            else:
+                complete_data_row.append("")
+        else:
+            for _ in range(5):
+                complete_data_row.append("")
+
+
+
+        """ Min reduction of CC, Max reduction of CC, Mean reduction of CC, Total reduction of CC, Nested CC """
+        if len(CC_reduction) > 0:
+            minExtractedCC = min(CC_reduction)
+            complete_data_row.append(minExtractedCC)
+            maxExtractedCC = max(CC_reduction)
+            complete_data_row.append(maxExtractedCC)
+            meanExtractedCC = round(float(np.mean(CC_reduction)))
+            complete_data_row.append(meanExtractedCC)
+            totalExtractedCC = reduction_complexity
+            complete_data_row.append(totalExtractedCC)
+            # NESTED CC
+            nested_CC = {}
+            for v in nested_solution.values():
+                for n in v:
+                    nested_CC[n] = concrete.nmcc[n]
+            if len(nested_CC) > 0:
+                complete_data_row.append(nested_CC)
+            else:
+                complete_data_row.append("")
+        else:
+            for _ in range(5):
+                complete_data_row.append("")
+
+        """ Min extracted Params, Max extracted Params, Mean extracted Params, Total extracted Params """
+        PARAMS_for_each_sequence = [(concrete.params[j] * concrete.z[j, k].value) for j, k in concrete.N if
+                                    concrete.z[j, k].value != 0]
+        if len(PARAMS_for_each_sequence) > 0:
+            minExtractedPARAMS = min(PARAMS_for_each_sequence)
+            complete_data_row.append(minExtractedPARAMS)
+            maxExtractedPARAMS = max(PARAMS_for_each_sequence)
+            complete_data_row.append(maxExtractedPARAMS)
+            meanExtractedPARAMS = round(float(np.mean(PARAMS_for_each_sequence)))
+            complete_data_row.append(meanExtractedPARAMS)
+            totalExtractedPARAMS = sum(PARAMS_for_each_sequence)
+            complete_data_row.append(totalExtractedPARAMS)
+        else:
+            for _ in range(4):
+                complete_data_row.append("")
+    else:
+        for _ in range(23):
+            complete_data_row.append("")
+
+    """ Termination condition """
+    complete_data_row.append(str(results.solver.termination_condition))
+
+    """ Execution time """
+    complete_data_row.append(results.solver.time)
+
+    return complete_data_row

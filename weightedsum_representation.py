@@ -4,7 +4,7 @@ from pandas.plotting import parallel_coordinates
 
 # Cargar el CSV (ajusta el nombre de tu archivo)
 # df = pd.read_csv('output/WeightedSumAlgorithm_PRUEBA2_results.csv')
-df = pd.read_csv('output/EpsilonConstraintAlgorithm_PRUEBA2_results.csv')
+df = pd.read_csv('output/pruebas/WeightedSumAlgorithm_small_test/WeightedSumAlgorithm_small_test_results.csv')
 
 print(df.columns)
 

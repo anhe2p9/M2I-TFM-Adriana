@@ -113,13 +113,13 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance['data'], tau,
+    csv_data, concrete_model, output_data, complete_data = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                          subdivisions, weights, objectives_list)
 
     project_name = os.path.basename(instance_folder.parent.parent)
 
     algorithms_utils.write_output_to_files(csv_data, concrete_model, os.path.basename(instance_folder),
-                                           alg_name, project_name, output_data)
+                                           alg_name, project_name, output_data, complete_data)
 
 
 
@@ -283,26 +283,6 @@ if __name__ == '__main__':
         main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
     else:
         sys.exit("No adequate number of parameters have been provided. Run python main.py -h for help.")
-
-        
-    # if config['ilp_algorithm'] == 'WeightedSumAlgorithm' or config['ilp_algorithm'] == 'WeightedSumAlgorithm2obj':
-    #     if config.get('subdivisions'):
-    #         main(instance_path, ilp_algorithm, threshold, subdivisions)
-    #     elif config.get('weights'):
-    #         main(instance_path, ilp_algorithm, threshold, weights)
-    #     else:
-    #         sys.exit(f'The Weighted Sum algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
-    # else:
-    #     main(instance_path, ilp_algorithm, threshold, subdivisions, weights, second_obj)
-    #
-    #
-
-    
-    # PARÁMETROS DE PRUEBA
-    # -i C:/Users/X1502/eclipse-workspace/git/M2I-TFM-Adriana/original_code_data/EZInjection_hook -a WeightedSumAlgorithm -t 15 -s 6
-    
-    
-    
     
     
     

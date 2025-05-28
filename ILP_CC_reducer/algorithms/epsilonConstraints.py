@@ -146,18 +146,22 @@ def add_epsilon_constraints(obj2: pyo.Objective, obj3: pyo.Objective, eps2: int,
 
 
 def add_boxes_constraints(box_info: tuple, objectives_list: list):
-    _, solution, direction = box_info
-    if solution:
-        for i in range(4):
+    _, last_solution, direction = box_info
+    if last_solution:
+        for i in range(4): # delete all last constraints
             if hasattr(multiobjective_model, f'boxes_constraint_{i}'):
                 multiobjective_model.del_component(f'boxes_constraint_{i}')
+
+        """ Add first constraint """
         algorithms_utils.modify_component(
             multiobjective_model, f'boxes_constraint_{direction}', pyo.Constraint(
-                rule=lambda m: objectives_list[direction - 1](m) <= solution[direction - 1] - 1))
+                rule=lambda m: objectives_list[direction - 1](m) <= last_solution[direction - 1] - 1))
+
+        """ Add every constraint left depending on the box direction """
         for i in range(3-direction):
             algorithms_utils.modify_component(
                 multiobjective_model, f'boxes_constraint_{direction+i+1}', pyo.Constraint(
-                    rule=lambda m: objectives_list[direction+i](m) >= solution[direction+i]))
+                    rule=lambda m: objectives_list[direction+i](m) >= last_solution[direction+i]))
 
 
 def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:

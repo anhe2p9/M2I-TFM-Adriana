@@ -59,7 +59,8 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         add_b0_constraints(initial_box, objectives_list)
 
-        S, concrete, output_data, complete_data = epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box, max_solutions=20)
+        S, concrete, output_data, complete_data = epsilon_constraint_with_ppartition(data_dict, objectives_list,
+                                                                                     initial_box, max_solutions=20)
 
         csv_data = [[obj.__name__ for obj in objectives_list]]
 
@@ -163,7 +164,7 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
     output_data = []
 
     complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
-                      "initialComplexity", "solution", "offsets", "extractions",
+                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
                       "NOTnestedSolution", "NOTnestedExtractions",
                       "NESTEDsolution", "NESTEDextractions",
                       "reductionComplexity", "finalComplexity",
@@ -188,8 +189,10 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
         l, u = B
 
         # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete, result, cplex_time, new_output_data = solve_epsilon_constraint(data_dict['data'], objectives_list,
-                                                                                   box_info, eps2=u[1], eps3=u[2])
+        solution, concrete, result, cplex_time, new_output_data = solve_epsilon_constraint(data_dict['data'],
+                                                                                           objectives_list,
+                                                                                           box_info,
+                                                                                           eps2=u[1], eps3=u[2])
 
         if solution:
             # Si ya tenemos exactamente esa solución, no la volvemos a usar
@@ -266,7 +269,6 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
 
     complete_data_row = []
 
-
     objective_map = {
         'sequences': multiobjective_model.sequences_objective,
         'cc': multiobjective_model.cc_difference_objective,
@@ -292,7 +294,12 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
     if (results.solver.status == 'ok') and (results.solver.termination_condition == 'optimal'):
         """ Solution """
         solution = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and s != 0]
-        complete_data_row.append(solution)
+        complete_data_row.append([(concrete.x[s].index(),
+                                   round(pyo.value(concrete.nmcc[s] - sum(concrete.ccr[j, s] * concrete.z[j, s]
+                                                                          for j,k in concrete.N if k == s))),
+                                   round(pyo.value(concrete.loc[s] - sum((concrete.loc[j] - 1) * concrete.z[j, k]
+                                                                         for j,k in concrete.N if k == s))))
+                                  for s in concrete.S if concrete.x[s].value == 1])
 
         """ Offsets """
         df_csv = pd.read_csv(data["offsets"], header=None, names=["index", "start", "end"])
@@ -315,7 +322,6 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
         """ Not nested extractions """
         not_nested_extractions = len(not_nested_solution)
         complete_data_row.append(not_nested_extractions)
-
 
         """ Nested solution """
         nested_solution = {}
@@ -348,7 +354,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
 
 
         """ Final complexity """
-        final_complexity = round(pyo.value(objective_map['cc'](concrete)))
+        final_complexity = initial_complexity - reduction_complexity
         complete_data_row.append(final_complexity)
 
         """ Minimum extracted LOC, Maximum extracted LOC, Mean extracted LOC, Total extracted LOC, Nested LOC """
@@ -361,7 +367,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
             complete_data_row.append(maxExtractedLOC)
             meanExtractedLOC = round(float(np.mean(LOC_for_each_sequence)))
             complete_data_row.append(meanExtractedLOC)
-            totalExtractedLOC = round(pyo.value(objective_map['loc'](concrete)))
+            totalExtractedLOC = sum(LOC_for_each_sequence)
             complete_data_row.append(totalExtractedLOC)
             # NESTED LOC
             nested_LOC = {}

@@ -20,7 +20,9 @@ model = MultiobjectiveILPmodel()
 # csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_doSaveJarDecompiled/EpsilonConstraintAlgorithm_doSaveJarDecompiled_results.csv'
 # csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_FileDrop/EpsilonConstraintAlgorithm_FileDrop_results.csv'
 # csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameClassNode/EpsilonConstraintAlgorithm_renameClassNode_results.csv'
-csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameFieldNode/EpsilonConstraintAlgorithm_renameFieldNode_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameFieldNode/EpsilonConstraintAlgorithm_renameFieldNode_results.csv'
+# csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_FileDrop/EpsilonConstraintAlgorithm_FileDrop_results.csv'
+csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/prueba_FileDrop.csv"
 
 # Cargar el CSV
 df = pd.read_csv(csv_path)
@@ -28,6 +30,8 @@ df = pd.read_csv(csv_path)
 match = re.search(r'EpsilonConstraintAlgorithm_(.+?)_results\.csv$', os.path.basename(csv_path))
 if match:
     method_name = match.group(1)
+else:
+    method_name = os.path.basename(csv_path)
 
 print(df.columns)
 

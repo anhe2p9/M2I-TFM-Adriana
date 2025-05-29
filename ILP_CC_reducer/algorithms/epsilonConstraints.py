@@ -6,6 +6,8 @@ from typing import List, Tuple, Optional, Set
 import time
 import numpy as np
 import pandas as pd
+import io
+from datetime import datetime
 
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
@@ -57,7 +59,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         initial_box = ((0,0,0),tuple(nadir_point))
 
-        add_b0_constraints(initial_box, objectives_list)
+        # add_b0_constraints(initial_box, objectives_list)
 
         S, concrete, output_data, complete_data = epsilon_constraint_with_ppartition(data_dict, objectives_list,
                                                                                      initial_box, max_solutions=20)
@@ -80,25 +82,25 @@ def add_items_to_multiobjective_model(tau: int):
     multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
     uniobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold UO
 
-    multiobjective_model.lambda2 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
-    multiobjective_model.lambda3 = pyo.Param(initialize=0.5, mutable=True)  # Lambda parameter
+    multiobjective_model.lambda2 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
+    multiobjective_model.lambda3 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
 
     multiobjective_model.sl2 = pyo.Var(within=pyo.NonNegativeReals)  # sl2 = epsilon2 - f2(x)
     multiobjective_model.sl3 = pyo.Var(within=pyo.NonNegativeReals)  # sl3 = epsilon3 - f3(x)
 
 
 
-def add_b0_constraints(initial_box: tuple, objectives_list: list):
-    l,u = initial_box
-    obj1, obj2, obj3 = objectives_list
-
-    multiobjective_model.b0l1_constraint = pyo.Constraint(rule=lambda m: obj1(m) >= l[0])
-    multiobjective_model.b0l2_constraint = pyo.Constraint(rule=lambda m: obj2(m) >= l[1])
-    multiobjective_model.b0l3_constraint = pyo.Constraint(rule=lambda m: obj3(m) >= l[2])
-
-    multiobjective_model.b0u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= u[0])
-    multiobjective_model.b0u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= u[1])
-    multiobjective_model.b0u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= u[2])
+# def add_b0_constraints(initial_box: tuple, objectives_list: list):
+#     l,u = initial_box
+#     obj1, obj2, obj3 = objectives_list
+#
+#     multiobjective_model.b0l1_constraint = pyo.Constraint(rule=lambda m: obj1(m) >= l[0])
+#     multiobjective_model.b0l2_constraint = pyo.Constraint(rule=lambda m: obj2(m) >= l[1])
+#     multiobjective_model.b0l3_constraint = pyo.Constraint(rule=lambda m: obj3(m) >= l[2])
+#
+#     multiobjective_model.b0u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= u[0])
+#     multiobjective_model.b0u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= u[1])
+#     multiobjective_model.b0u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= u[2])
 
 
 
@@ -114,6 +116,14 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
     add_boxes_constraints(box, objectives_list)
 
     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+
+    # prefijo = "boxes_constraint"
+    #
+    # for name, constraint in concrete.component_map(pyo.Constraint, active=True).items():
+    #     if name.startswith(prefijo):
+    #         print(f"Restricción: {name}")
+    #         for index in constraint:
+    #             print(f"  {index}: {constraint[index].expr}")
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
@@ -148,20 +158,26 @@ def add_epsilon_constraints(obj2: pyo.Objective, obj3: pyo.Objective, eps2: int,
 def add_boxes_constraints(box_info: tuple, objectives_list: list):
     _, last_solution, direction = box_info
     if last_solution:
-        for i in range(4): # delete all last constraints
+        for i in range(4):
             if hasattr(multiobjective_model, f'boxes_constraint_{i}'):
-                multiobjective_model.del_component(f'boxes_constraint_{i}')
+                    multiobjective_model.del_component(f'boxes_constraint_{i}')
 
         """ Add first constraint """
-        algorithms_utils.modify_component(
-            multiobjective_model, f'boxes_constraint_{direction}', pyo.Constraint(
+        multiobjective_model.add_component(f'boxes_constraint_{direction}', pyo.Constraint(
                 rule=lambda m: objectives_list[direction - 1](m) <= last_solution[direction - 1] - 1))
 
-        """ Add every constraint left depending on the box direction """
+        """ Add rest of constraint if there is any """
         for i in range(3-direction):
-            algorithms_utils.modify_component(
-                multiobjective_model, f'boxes_constraint_{direction+i+1}', pyo.Constraint(
-                    rule=lambda m: objectives_list[direction+i](m) >= last_solution[direction+i]))
+            idx = direction + i
+            name = f'boxes_constraint_{idx + 1}'
+
+            def make_rule(idx):
+                return lambda m: objectives_list[idx](m) >= last_solution[idx]
+
+            multiobjective_model.add_component(
+                name,
+                pyo.Constraint(rule=make_rule(idx))
+            )
 
 
 def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
@@ -239,18 +255,18 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
 
 
 def p_partition_3d(B: Box3D, z: Point3D) -> List[Optional[Box3D]]:
-    l, u = B
+    l, u = B  # original box: l = (l1, l2, l3), u = (u1, u2, u3)
     boxes = []
 
-    for i in range(3):
+    for i in range(3):  # i = 0 (x), 1 (y), 2 (z)
         new_l = list(l)
-        for j in range(i + 1, 3):
+        for j in range(i + 1, 3):  # constraint x_j ≥ z_j for j > i
             new_l[j] = max(z[j], l[j])
 
         new_u = list(u)
         for j in range(i):
             new_u[j] = u[j]
-        new_u[i] = max(z[i], l[i])
+        new_u[i] = max(z[i], l[i])  # cut by x_i < z_i
 
         is_empty = any(new_l[k] >= new_u[k] for k in range(3))
         boxes.append(None if is_empty else (tuple(new_l), tuple(new_u)))
@@ -350,8 +366,6 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
         """ Reduction of complexity """
         CC_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j, k in concrete.N if
                         k == 0 and concrete.z[j, k].value != 0]
-
-        print(f"CC REDUCTION: {CC_reduction}")
 
         reduction_complexity = sum(CC_reduction)
         complete_data_row.append(reduction_complexity)

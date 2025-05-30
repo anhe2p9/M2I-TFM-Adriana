@@ -98,8 +98,8 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
         return w1 * first_objective(m) + w2 * second_objective(m)
     
     @staticmethod
-    def epsilon_objective(m, obj):
-        return obj(m) - (m.lambda2 * m.sl2 + m.lambda3 * m.sl3)
+    def epsilon_objective(m, obj1, obj2, obj3):
+        return obj1(m) + obj2(m) + obj3(m)
     
     @staticmethod
     def epsilon_objective_2obj(m, obj):

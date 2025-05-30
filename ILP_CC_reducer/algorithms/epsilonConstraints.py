@@ -85,22 +85,8 @@ def add_items_to_multiobjective_model(tau: int):
     multiobjective_model.lambda2 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
     multiobjective_model.lambda3 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
 
-    multiobjective_model.sl2 = pyo.Var(within=pyo.NonNegativeReals)  # sl2 = epsilon2 - f2(x)
-    multiobjective_model.sl3 = pyo.Var(within=pyo.NonNegativeReals)  # sl3 = epsilon3 - f3(x)
-
-
-
-# def add_b0_constraints(initial_box: tuple, objectives_list: list):
-#     l,u = initial_box
-#     obj1, obj2, obj3 = objectives_list
-#
-#     multiobjective_model.b0l1_constraint = pyo.Constraint(rule=lambda m: obj1(m) >= l[0])
-#     multiobjective_model.b0l2_constraint = pyo.Constraint(rule=lambda m: obj2(m) >= l[1])
-#     multiobjective_model.b0l3_constraint = pyo.Constraint(rule=lambda m: obj3(m) >= l[2])
-#
-#     multiobjective_model.b0u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= u[0])
-#     multiobjective_model.b0u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= u[1])
-#     multiobjective_model.b0u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= u[2])
+    # multiobjective_model.sl2 = pyo.Var(within=pyo.NonNegativeReals)  # sl2 = epsilon2 - f2(x)
+    # multiobjective_model.sl3 = pyo.Var(within=pyo.NonNegativeReals)  # sl3 = epsilon3 - f3(x)
 
 
 
@@ -110,20 +96,21 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
     obj1, obj2, obj3 = objectives_list
 
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-        rule=lambda m: multiobjective_model.epsilon_objective(m, obj1)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
+        rule=lambda m: multiobjective_model.epsilon_objective(m, obj1, obj2, obj3)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
-    add_epsilon_constraints(obj2, obj3, eps2, eps3)
-    add_boxes_constraints(box, objectives_list)
+    add_boxes_constraints(box[0], objectives_list)
+    # add_boxes_partition_constraints(box,objectives_list)
 
     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
-    # prefijo = "boxes_constraint"
-    #
-    # for name, constraint in concrete.component_map(pyo.Constraint, active=True).items():
-    #     if name.startswith(prefijo):
-    #         print(f"Restricción: {name}")
-    #         for index in constraint:
-    #             print(f"  {index}: {constraint[index].expr}")
+    prefijo = "boxes_constraint"
+
+    for name, constraint in concrete.component_map(pyo.Constraint, active=True).items():
+        if name.startswith(prefijo) or name.startswith('epsilonConstraint'):
+            print(f"Restricción: {name}")
+            for index in constraint:
+                print(f"  {index}: {constraint[index].expr}")
+
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
@@ -146,16 +133,28 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
     return newrow, concrete, result, cplex_time, output_data
 
 
-def add_epsilon_constraints(obj2: pyo.Objective, obj3: pyo.Objective, eps2: int, eps3: int):
-    algorithms_utils.modify_component(
-        multiobjective_model, 'epsilonConstraint2', pyo.Constraint(
-            rule=lambda m: obj2(m) + m.sl2 == eps2))  # subject to f2(x) + l2 = epsilon2
-    algorithms_utils.modify_component(
-        multiobjective_model, 'epsilonConstraint3', pyo.Constraint(
-            rule=lambda m: obj3(m) + m.sl3 == eps3))  # subject to f3(x) + l3 = epsilon3
+def add_boxes_constraints(box: tuple, objectives_list: list):
+    l,u = box
+    obj1, obj2, obj3 = objectives_list
+
+    for i in range(3):
+        if hasattr(multiobjective_model, f'box_l{i+1}_constraint'):
+            multiobjective_model.del_component(f'box_l{i+1}_constraint')
+
+    multiobjective_model.box_l1_constraint = pyo.Constraint(rule=lambda m: obj1(m) >= l[0])
+    multiobjective_model.box_l2_constraint = pyo.Constraint(rule=lambda m: obj2(m) >= l[1])
+    multiobjective_model.box_l3_constraint = pyo.Constraint(rule=lambda m: obj3(m) >= l[2])
+
+    for i in range(3):
+        if hasattr(multiobjective_model, f'box_u{i+1}_constraint'):
+            multiobjective_model.del_component(f'box_u{i+1}_constraint')
+
+    multiobjective_model.box_u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= u[0] - 1)
+    multiobjective_model.box_u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= u[1] - 1)
+    multiobjective_model.box_u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= u[2] - 1)
 
 
-def add_boxes_constraints(box_info: tuple, objectives_list: list):
+def add_boxes_partition_constraints(box_info: tuple, objectives_list: list):
     _, last_solution, direction = box_info
     if last_solution:
         for i in range(4):
@@ -201,6 +200,9 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
         # print(f"Solutions set: {S}.")
         # print(f"BOXES: {boxes}.")
 
+        print(
+            "=============================================================================================================")
+
         print(f"Processing e-constraint with boxes: {boxes}.")
 
         box_info = boxes.pop(0)
@@ -232,6 +234,8 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
             complete_data.append(complete_data_new_row)
 
             print(f"New solution: {solution}.")
+            print(
+                "=============================================================================================================")
 
             # Partimos la caja con respecto a la solución real obtenida
             z = solution

@@ -83,10 +83,6 @@ def add_items_to_multiobjective_model(tau: int):
     multiobjective_model.lambda2 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
     multiobjective_model.lambda3 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
 
-    # multiobjective_model.sl2 = pyo.Var(within=pyo.NonNegativeReals)  # sl2 = epsilon2 - f2(x)
-    # multiobjective_model.sl3 = pyo.Var(within=pyo.NonNegativeReals)  # sl3 = epsilon3 - f3(x)
-
-
 
 def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tuple):
     output_data = []

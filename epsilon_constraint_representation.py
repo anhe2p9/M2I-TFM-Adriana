@@ -21,8 +21,15 @@ model = MultiobjectiveILPmodel()
 # csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_FileDrop/EpsilonConstraintAlgorithm_FileDrop_results.csv'
 # csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameClassNode/EpsilonConstraintAlgorithm_renameClassNode_results.csv'
 # csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_renameFieldNode/EpsilonConstraintAlgorithm_renameFieldNode_results.csv'
-csv_path = 'output/bytecode-viewer/EpsilonConstraintAlgorithm_FileDrop/EpsilonConstraintAlgorithm_FileDrop_results.csv'
 # csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/prueba_FileDrop.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_compile/EpsilonConstraintAlgorithm_compile_results.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_renameMethodNode/EpsilonConstraintAlgorithm_renameMethodNode_results.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_getTreeCellRendererComponent/EpsilonConstraintAlgorithm_getTreeCellRendererComponent_results.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_downloadZipsOnly/EpsilonConstraintAlgorithm_downloadZipsOnly_results.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_parseCommandLine/EpsilonConstraintAlgorithm_parseCommandLine_results.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_doSaveJarDecompiled/EpsilonConstraintAlgorithm_doSaveJarDecompiled_results.csv"
+# csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_renameClassNode/EpsilonConstraintAlgorithm_renameClassNode_results.csv"
+csv_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/bytecode-viewer/EpsilonConstraintAlgorithm_renameFieldNode/EpsilonConstraintAlgorithm_renameFieldNode_results.csv"
 
 # Cargar el CSV
 df = pd.read_csv(csv_path)
@@ -65,6 +72,6 @@ plt.title(f'Multiobjective ILP solutions for {method_name}')
 plt.ylabel('Objectives values')
 plt.xlabel('Objetives to minimize')
 plt.legend([], [], frameon=False)  # Quita la leyenda si hay muchas soluciones
-plt.legend(title='Solución', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
+plt.legend(title='Solution', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
 plt.tight_layout()
 plt.show()

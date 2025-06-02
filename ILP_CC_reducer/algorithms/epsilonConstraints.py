@@ -57,11 +57,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
         for obj in objectives_list:
             nadir_point.append(nadir_dict[obj])
 
-        initial_box = ((0,0,0),tuple(nadir_point))
+        initial_box = tuple(nadir_point)
 
-        # add_b0_constraints(initial_box, objectives_list)
-
-        S, concrete, output_data, complete_data = epsilon_constraint_with_ppartition(data_dict, objectives_list,
+        S, concrete, output_data, complete_data = epsilon_constraint_with_full_p_split(data_dict, objectives_list,
                                                                                      initial_box, max_solutions=20)
 
         csv_data = [[obj.__name__ for obj in objectives_list]]
@@ -90,7 +88,7 @@ def add_items_to_multiobjective_model(tau: int):
 
 
 
-def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tuple, eps2: float, eps3: float):
+def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tuple):
     output_data = []
 
     obj1, obj2, obj3 = objectives_list
@@ -98,8 +96,7 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
         rule=lambda m: multiobjective_model.epsilon_objective(m, obj1, obj2, obj3)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
-    add_boxes_constraints(box[0], objectives_list)
-    # add_boxes_partition_constraints(box,objectives_list)
+    add_boxes_constraints(box, objectives_list)
 
     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
@@ -114,6 +111,9 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
+        ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in [multiobjective_model.sequences_objective,
+                                                                         multiobjective_model.cc_difference_objective,
+                                                                         multiobjective_model.loc_difference_objective])
 
         output_data.append('===============================================================================')
         if result.solver.status == 'ok':
@@ -125,61 +125,28 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
 
     else:
         newrow = None
+        ordered_newrow = None
 
     print(f"Newrow: {newrow}.")
 
     cplex_time = result.solver.time
 
-    return newrow, concrete, result, cplex_time, output_data
+    return newrow, concrete, result, cplex_time, output_data, ordered_newrow
 
 
 def add_boxes_constraints(box: tuple, objectives_list: list):
-    l,u = box
     obj1, obj2, obj3 = objectives_list
-
-    for i in range(3):
-        if hasattr(multiobjective_model, f'box_l{i+1}_constraint'):
-            multiobjective_model.del_component(f'box_l{i+1}_constraint')
-
-    multiobjective_model.box_l1_constraint = pyo.Constraint(rule=lambda m: obj1(m) >= l[0])
-    multiobjective_model.box_l2_constraint = pyo.Constraint(rule=lambda m: obj2(m) >= l[1])
-    multiobjective_model.box_l3_constraint = pyo.Constraint(rule=lambda m: obj3(m) >= l[2])
 
     for i in range(3):
         if hasattr(multiobjective_model, f'box_u{i+1}_constraint'):
             multiobjective_model.del_component(f'box_u{i+1}_constraint')
 
-    multiobjective_model.box_u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= u[0] - 1)
-    multiobjective_model.box_u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= u[1] - 1)
-    multiobjective_model.box_u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= u[2] - 1)
+    multiobjective_model.box_u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= box[0] - 1)
+    multiobjective_model.box_u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= box[1] - 1)
+    multiobjective_model.box_u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= box[2] - 1)
 
 
-def add_boxes_partition_constraints(box_info: tuple, objectives_list: list):
-    _, last_solution, direction = box_info
-    if last_solution:
-        for i in range(4):
-            if hasattr(multiobjective_model, f'boxes_constraint_{i}'):
-                    multiobjective_model.del_component(f'boxes_constraint_{i}')
-
-        """ Add first constraint """
-        multiobjective_model.add_component(f'boxes_constraint_{direction}', pyo.Constraint(
-                rule=lambda m: objectives_list[direction - 1](m) <= last_solution[direction - 1] - 1))
-
-        """ Add rest of constraint if there is any """
-        for i in range(3-direction):
-            idx = direction + i
-            name = f'boxes_constraint_{idx + 1}'
-
-            def make_rule(idx):
-                return lambda m: objectives_list[idx](m) >= last_solution[idx]
-
-            multiobjective_model.add_component(
-                name,
-                pyo.Constraint(rule=make_rule(idx))
-            )
-
-
-def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
+def epsilon_constraint_with_full_p_split(data_dict, objectives_list, initial_box: Box3D, max_solutions=100) -> Set[Point3D]:
     output_data = []
 
     complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
@@ -193,40 +160,27 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
                       "terminationCondition", "executionTime"]]
 
     S = set()  # Conjunto de soluciones no dominadas
-    boxes = [(initial_box, None, None)]  # lista de tuplas (caja, z, direction)
+    s_ordered = set()
+
+    boxes = [initial_box]  # lista de tuplas (caja, z, direction)
 
     while boxes and len(S) < max_solutions:
-
-        # print(f"Solutions set: {S}.")
-        # print(f"BOXES: {boxes}.")
 
         print(
             "=============================================================================================================")
 
         print(f"Processing e-constraint with boxes: {boxes}.")
 
-        box_info = boxes.pop(0)
-        B = box_info[0]
-
-        l, u = B
+        B = boxes.pop(0)
 
         # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete, result, cplex_time, new_output_data = solve_epsilon_constraint(data_dict['data'],
-                                                                                           objectives_list,
-                                                                                           box_info,
-                                                                                           eps2=u[1], eps3=u[2])
+        solution, concrete, result, cplex_time, new_output_data, ordered_newrow = solve_epsilon_constraint(data_dict['data'],
+                                                                                           objectives_list, B)
 
         if solution:
-            # Si ya tenemos exactamente esa solución, no la volvemos a usar
-            if any(approx_equal(solution, s) for s in S):
-                continue  # solución repetida, descartar caja
+            S.add(solution)  # Add solution to solutions set
+            s_ordered.add(ordered_newrow)
 
-            # Si está dominada, tampoco sirve
-            if any(dominates(other, solution) for other in S):
-                continue  # caja dominada, no se parte
-
-            # Solución válida y no dominada → la guardamos
-            S.add(solution)
             output_data = output_data + new_output_data
             output_data.append(f"CPLEX time: {cplex_time}.")
 
@@ -238,12 +192,24 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
                 "=============================================================================================================")
 
             # Partimos la caja con respecto a la solución real obtenida
-            z = solution
-            new_boxes = p_partition_3d(B, z)
+            new_boxes = full_p_split_3d(B, solution)
 
             for i, box in enumerate(new_boxes):
                 if box is not None:
-                    boxes.append((box, solution, i+1))
+                    boxes.append(box)
+
+            for i,box in enumerate(boxes):
+                if inside(solution,box):
+                    boxes.pop(i)
+                    new_boxes = full_p_split_3d(box, solution)
+                    for j, new_box in enumerate(new_boxes):
+                        if box is not None:
+                            boxes.append(new_box)
+
+            print(f"GENERAL BOXES LIST: {boxes}.")
+            non_dominated_boxes = filter_contained_boxes(boxes)
+            print(f"NON DOMINATED BOXES: {non_dominated_boxes}.")
+            boxes = non_dominated_boxes
 
         else:
             # No se encontró solución → caja descartada
@@ -253,27 +219,26 @@ def epsilon_constraint_with_ppartition(data_dict, objectives_list, initial_box: 
 
             continue
 
-    print(f"Solution set: {S}.")
+    print(f"Solution set: {s_ordered}.")
 
     return S, concrete, output_data, complete_data
 
 
-def p_partition_3d(B: Box3D, z: Point3D) -> List[Optional[Box3D]]:
-    l, u = B  # original box: l = (l1, l2, l3), u = (u1, u2, u3)
+def full_p_split_3d(B: Box3D, z: Point3D) -> List[Optional[Box3D]]:
+    l = (0,0,0)
+    u = B  # original box: l = (l1, l2, l3), u = (u1, u2, u3)
     boxes = []
 
     for i in range(3):  # i = 0 (x), 1 (y), 2 (z)
-        new_l = list(l)
-        for j in range(i + 1, 3):  # constraint x_j ≥ z_j for j > i
-            new_l[j] = max(z[j], l[j])
 
         new_u = list(u)
         for j in range(i):
             new_u[j] = u[j]
         new_u[i] = max(z[i], l[i])  # cut by x_i < z_i
 
-        is_empty = any(new_l[k] >= new_u[k] for k in range(3))
-        boxes.append(None if is_empty else (tuple(new_l), tuple(new_u)))
+        is_empty = any(u[k] < z[k] for k in range(i+1, 3)) or new_u[i] <= l[i]
+
+        boxes.append(None if is_empty else tuple(new_u))
 
     return boxes
 
@@ -284,8 +249,35 @@ def dominates(a: Point3D, b: Point3D) -> bool:
     """
     return all(a[i] <= b[i] for i in range(3)) and any(a[i] < b[i] for i in range(3))
 
-def approx_equal(a: Point3D, b: Point3D, tol=1e-4):
-    return all(abs(ai - bi) < tol for ai, bi in zip(a, b))
+
+def inside(a: Point3D, b: Point3D) -> bool:
+    """
+    Returns True if point a is completely inside b.
+    """
+    return all(a[i] < b[i] for i in range(3))
+
+
+def filter_contained_boxes(boxes: List[Point3D]) -> List[Point3D]:
+    """
+    Elimina las cajas cuyo punto superior está contenido (componente a componente)
+    en otra caja de la lista.
+    """
+    non_dominated = []
+
+    for i, box_i in enumerate(boxes):
+        dominated = False
+        for j, box_j in enumerate(boxes):
+            if i == j:
+                continue
+            # Si box_i está estrictamente contenida en box_j
+            if dominates(box_i, box_j):
+                dominated = True
+                print(f"Discarded box: {box_i} because it is inside box {box_j}.")
+                break
+        if not dominated:
+            non_dominated.append(box_i)
+
+    return non_dominated
 
 
 def write_complete_info(concrete: pyo.ConcreteModel, results, data):

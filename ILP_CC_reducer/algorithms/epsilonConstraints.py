@@ -184,8 +184,6 @@ def epsilon_constraint_with_full_p_split(data_dict, objectives_list, initial_box
             complete_data.append(complete_data_new_row)
 
             print(f"New solution: {solution}.")
-            print(
-                "=============================================================================================================")
 
             # Partimos la caja con respecto a la solución real obtenida
             new_boxes = full_p_split_3d(B, solution)

@@ -121,8 +121,6 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
         newrow = None
         ordered_newrow = None
 
-    print(f"Newrow: {newrow}.")
-
     cplex_time = result.solver.time
 
     return newrow, concrete, result, cplex_time, output_data, ordered_newrow

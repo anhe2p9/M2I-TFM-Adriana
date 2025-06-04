@@ -34,14 +34,13 @@ model = MultiobjectiveILPmodel()
 
 
 def generate_graph(csv_path, output_pdf_path):
+    linestyles = ['-', '--', '-.', ':']
+    markers = ['o', 's', 'D', '^', 'v', '*', 'x', '+', 'p', 'h', '1', '2', '3', '4', '|', '_']
+    colors = plt.cm.tab20.colors  # hasta 20 colores distintos
+
+
     # Cargar el CSV
     df = pd.read_csv(csv_path)
-
-    match = re.search(r'EpsilonConstraintAlgorithm_(.+?)_results\.csv$', os.path.basename(csv_path))
-    if match:
-        method_name = match.group(1)
-    else:
-        method_name = os.path.basename(csv_path)
 
     print(df.columns)
 
@@ -49,9 +48,9 @@ def generate_graph(csv_path, output_pdf_path):
     objetivos_cols = df.columns
 
     objective_map = {
-        model.sequences_objective.__name__: "SEQUENCES",
-        model.cc_difference_objective.__name__: "CC",
-        model.loc_difference_objective.__name__: "LOC"
+        model.sequences_objective.__name__: r"SEQUENCES$_{sum}$",
+        model.cc_difference_objective.__name__: r"CC$_{diff}$",
+        model.loc_difference_objective.__name__: r"LOC$_{diff}$"
     }
 
 
@@ -61,23 +60,31 @@ def generate_graph(csv_path, output_pdf_path):
     # DataFrame para graficar
     df_plot = df[['id'] + list(objetivos_cols)]
 
-    # Renombrar columnas con nombres amigables (si coinciden)
-    df_plot_renamed = df_plot.rename(columns=objective_map)
 
     # Asegúrate de que las columnas sean numéricas
     for col in objetivos_cols:
         df_plot[col] = pd.to_numeric(df_plot[col], errors='coerce')
 
+    x = range(len(objetivos_cols))
+
+    for i, row in df.iterrows():
+        style = linestyles[i % len(linestyles)]
+        marker = markers[i % len(markers)]
+        color = colors[i % len(colors)]
+        y = [row[col] for col in objetivos_cols]
+        plt.plot(x, y, label=row['id'], linestyle=style, marker=marker, color=color, alpha=0.8)
+
+    # Mapeo de nombres de objetivos a nombres legibles
+    x_labels = [objective_map.get(col, col) for col in objetivos_cols]
+
     # Dibujo
-    plt.figure(figsize=(8, 6))
-    parallel_coordinates(df_plot_renamed, class_column='id', colormap=plt.cm.viridis, alpha=0.7)
-    plt.title(f'Multiobjective ILP solutions for {method_name}')
-    plt.ylabel('Objectives values')
-    plt.xlabel('Objetives to minimize')
+    plt.xticks(ticks=x, labels=x_labels)
+    plt.ylabel(r'Objectives values')
+    plt.xlabel(r'Objetives to minimize')
     plt.legend([], [], frameon=False)  # Quita la leyenda si hay muchas soluciones
-    plt.legend(title='Solution', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
+    plt.legend(title=r'Solution', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
+    plt.grid(True)
     plt.tight_layout()
-    # plt.show()
 
     # Guardar como PDF
     plt.savefig(output_pdf_path, format='pdf')

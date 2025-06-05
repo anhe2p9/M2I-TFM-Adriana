@@ -22,7 +22,7 @@ uniobjective_model = ILPmodelRsain()
 
 
 
-class EpsilonConstraintAlgorithm(Algorithm):
+class HybridMethodForThreeObj(Algorithm):
 
     @staticmethod
     def get_name() -> str:

@@ -50,6 +50,12 @@ for proyecto in os.listdir(ROOT_DIR):
             hv = HV(ref_point=ref_point)
             hipervolumen = hv.do(objetivos)
 
+            # Cálculo del hipervolumen de la caja total
+            hv_max = hv.do(np.array([0,0,0]))
+
+            hv_normalized = hipervolumen / hv_max
+
+
             # Dividir clase_metodo en clase y método
             if "_" in clase_metodo:
                 clase, metodo = clase_metodo.rsplit("_", 1)
@@ -67,6 +73,7 @@ for proyecto in os.listdir(ROOT_DIR):
                 "class": clase,
                 "method": metodo,
                 "hypervolume": hipervolumen,
+                "normalized_hypervolume": np.round(hv_normalized,2),
                 f"avg_{nombres_objetivos[0]}": medias[0],
                 f"std_{nombres_objetivos[0]}": desvios[0],
                 f"median_{nombres_objetivos[0]}": medianas[0],

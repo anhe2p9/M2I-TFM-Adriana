@@ -72,15 +72,15 @@ def generate_graph(csv_path, output_pdf_path):
         marker = markers[i % len(markers)]
         color = colors[i % len(colors)]
         y = [row[col] for col in objetivos_cols]
-        plt.plot(x, y, label=row['id'], linestyle=style, marker=marker, color=color, alpha=0.8)
+        plt.plot(x, y, label=row['id'], linestyle=style, marker=marker, color=color, alpha=0.8, linewidth=3)
 
     # Mapeo de nombres de objetivos a nombres legibles
     x_labels = [objective_map.get(col, col) for col in objetivos_cols]
 
     # Dibujo
-    plt.xticks(ticks=x, labels=x_labels)
-    plt.ylabel(r'Objectives values')
-    plt.xlabel(r'Objetives to minimize')
+    plt.xticks(ticks=x, labels=x_labels, fontsize=18)
+    plt.ylabel(r'Objectives values', fontsize=18)
+    plt.xlabel(r'Objetives to minimize', fontsize=18)
     plt.legend([], [], frameon=False)  # Quita la leyenda si hay muchas soluciones
     plt.legend(title=r'Solution', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
     plt.grid(True)

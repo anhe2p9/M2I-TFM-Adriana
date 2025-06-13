@@ -29,7 +29,8 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     return concrete, result
 
 def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_name: str, class_name: str,
-                          method_name: str, algorithm: str, output_data: list=None, complete_data: list=None):
+                          method_name: str, algorithm: str, output_data: list=None, complete_data: list=None,
+                          nadir: list= None):
 
     result_name = f"{algorithm}_{class_name}_{method_name}"
 
@@ -67,6 +68,14 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
             writer = csv.writer(complete_csv)
             writer.writerows(complete_data)
             print("Complete CSV file correctly created.")
+
+    # Save nadir point in a csv file
+    if nadir:
+        with open(f"output/{project_name}/{result_name}/{result_name}_nadir.csv",
+                  mode="w", newline="", encoding="utf-8") as nadir_csv:
+            writer = csv.writer(nadir_csv)
+            writer.writerows(nadir)
+            print("Nadir CSV file correctly created.")
 
 
 

@@ -60,7 +60,9 @@ class HybridMethodForThreeObj(Algorithm):
         solutions_set, concrete, output_data, complete_data = epsilon_constraint_with_full_p_split(data_dict, objectives_list,
                                                                                      initial_box, max_solutions=20)
 
-        csv_data = [[obj.__name__ for obj in objectives_list]]
+        objectives_names = [obj.__name__ for obj in objectives_list]
+
+        csv_data = [objectives_names]
 
         for sol in solutions_set:
             csv_data.append(list(sol))
@@ -71,7 +73,7 @@ class HybridMethodForThreeObj(Algorithm):
         output_data.append("==========================================================================================")
         output_data.append(f"Total execution time: {end_total - start_total:.2f}")
 
-        return csv_data, concrete, output_data, complete_data
+        return csv_data, concrete, output_data, complete_data, [objectives_names, nadir_point]
 
 
 def add_items_to_multiobjective_model(tau: int):

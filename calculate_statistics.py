@@ -22,7 +22,8 @@ for proyecto in os.listdir(ROOT_DIR):
             continue
 
         archivo = next((f for f in os.listdir(ruta_clase) if f.endswith("_results.csv")), None)
-        if archivo is None:
+        nadir = next((f for f in os.listdir(ruta_clase) if f.endswith("_nadir.csv")), None)
+        if archivo is None or nadir is None:
             continue
 
         ruta_archivo = os.path.join(ruta_clase, archivo)
@@ -46,8 +47,7 @@ for proyecto in os.listdir(ROOT_DIR):
                 raise ValueError("Sin datos numéricos")
 
             # Punto de referencia y cálculo de hipervolumen
-            ref_point = np.max(objetivos, axis=0) + 1
-            hv = HV(ref_point=ref_point)
+            hv = HV(ref_point=nadir)
             hipervolumen = hv.do(objetivos)
 
             # Cálculo del hipervolumen de la caja total

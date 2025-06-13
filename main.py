@@ -113,7 +113,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     # Process instance
     instance = model_engine.load_concrete(instance_folder, model)
     
-    csv_data, concrete_model, output_data, complete_data = model_engine.apply_algorithm(algorithm, instance, tau,
+    csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                          subdivisions, weights, objectives_list)
 
     method_name = os.path.basename(instance_folder)
@@ -121,7 +121,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     project_name = os.path.basename(instance_folder.parent.parent)
 
     algorithms_utils.write_output_to_files(csv_data, concrete_model, project_name, class_name, method_name,
-                                           alg_name, output_data, complete_data)
+                                           alg_name, output_data, complete_data, nadir)
 
 
 

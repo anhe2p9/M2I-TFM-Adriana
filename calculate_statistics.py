@@ -4,7 +4,7 @@ import numpy as np
 from pymoo.indicators.hv import HV
 
 # Ruta raíz donde están todas las carpetas de proyectos
-ROOT_DIR = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/DOCKER_output"
+ROOT_DIR = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/hybrid_method_docker_output"
 
 # Inicializar listas
 resultados = []
@@ -21,15 +21,19 @@ for proyecto in os.listdir(ROOT_DIR):
         if not os.path.isdir(ruta_clase):
             continue
 
-        archivo = next((f for f in os.listdir(ruta_clase) if f.endswith("_results.csv")), None)
-        nadir = next((f for f in os.listdir(ruta_clase) if f.endswith("_nadir.csv")), None)
-        if archivo is None or nadir is None:
+        results_file = next((f for f in os.listdir(ruta_clase) if f.endswith("_results.csv")), None)
+        nadir_file = next((f for f in os.listdir(ruta_clase) if f.endswith("_nadir.csv")), None)
+        if results_file is None or nadir_file is None:
             continue
 
-        ruta_archivo = os.path.join(ruta_clase, archivo)
+        results_path = os.path.join(ruta_clase, results_file)
+
+        nadir_path = os.path.join(ruta_clase, nadir_file)
+        df_nadir = pd.read_csv(nadir_path)
+        nadir = df_nadir.iloc[0].values.astype(float)
 
         try:
-            df = pd.read_csv(ruta_archivo)
+            df = pd.read_csv(results_path)
 
             # Validar que hay datos y al menos 3 columnas numéricas
             if df.shape[0] == 0:
@@ -93,7 +97,7 @@ for proyecto in os.listdir(ROOT_DIR):
             archivos_invalidos.append({
                 "proyecto": proyecto,
                 "clase_metodo": clase_metodo,
-                "archivo": ruta_archivo,
+                "archivo": results_path,
                 "error": str(e)
             })
 

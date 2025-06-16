@@ -39,12 +39,12 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
 
     # Save model in a LP file
     if concrete:
-        concrete.write(f'output/{project_name}/{result_name}/{result_name}.lp',
+        concrete.write(f'output/{project_name}/{result_name}/{method_name}.lp',
                        io_options={'symbolic_solver_labels': True})
         print("Model correctly saved in a LP file.")
 
     # Save data in a CSV file
-    filename = f"output/{project_name}/{result_name}/{result_name}_results.csv"
+    filename = f"output/{project_name}/{result_name}/{method_name}_results.csv"
             
     if os.path.exists(filename):
         os.remove(filename)
@@ -56,14 +56,14 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
     
     # Save output in a TXT file
     if output_data:
-        with open(f"output/{project_name}/{result_name}/{result_name}_output.txt", "w") as f:
+        with open(f"output/{project_name}/{result_name}/{method_name}_output.txt", "w") as f:
             for linea in output_data:
                 f.write(linea + "\n")
             print("Output correctly saved in a TXT file.")
 
     # Save output in a TXT file
     if complete_data:
-        with open(f"output/{project_name}/{result_name}/{result_name}_complete_data.csv",
+        with open(f"output/{project_name}/{result_name}/{method_name}_complete_data.csv",
                   mode="w", newline="", encoding="utf-8") as complete_csv:
             writer = csv.writer(complete_csv)
             writer.writerows(complete_data)
@@ -71,7 +71,7 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
 
     # Save nadir point in a csv file
     if nadir:
-        with open(f"output/{project_name}/{result_name}/{result_name}_nadir.csv",
+        with open(f"output/{project_name}/{result_name}/{method_name}_nadir.csv",
                   mode="w", newline="", encoding="utf-8") as nadir_csv:
             writer = csv.writer(nadir_csv)
             writer.writerows(nadir)

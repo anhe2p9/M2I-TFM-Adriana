@@ -308,9 +308,7 @@ if __name__ == '__main__':
         save_config(config)
 
     # Check model instance
-    if not model_instance:
-        sys.exit("Instance folder required.")
-    else:
+    if model_instance:
         instance_path = Path(model_instance)
 
     # Show final properties used
@@ -349,7 +347,10 @@ if __name__ == '__main__':
         input_dir = "output/results"
 
     # Output files
-    if not output_dir:
+    if not output_dir and input_dir:
+        input_path = Path(input_dir)
+        output_dir = input_path.parent
+    elif not output_dir and not input_dir:
         output_dir = "output/plots_and_statistics"
 
 

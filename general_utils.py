@@ -89,20 +89,6 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
 
 
 
-def calculate_results(concrete_model: pyo.ConcreteModel, obj_selected: str = None):
-    """ Calculate sequences selected, and the selected second objective difference """
-    sequences_sum = sum(concrete_model.x[i].value for i in concrete_model.S)
-            
-    if obj_selected is not None:
-        obj_diff = obtain_obj_diff(concrete_model, obj_selected)
-        newrow = [sequences_sum, obj_diff]
-    else:
-        cc_diff = obtain_obj_diff(concrete_model, 'CC')
-        loc_diff = obtain_obj_diff(concrete_model, 'LOC')
-        newrow = [sequences_sum, cc_diff, loc_diff]   
-    return newrow
-
-
 def obtain_obj_diff(concrete_model: pyo.ConcreteModel, obj: str):
     """ Obtain LOC diff in case that objective is selected, or CC diff in case that objective is selected. """
     
@@ -143,27 +129,6 @@ def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, 
         for s in concrete.S:
             print(f"x[{s}] = {concrete.x[s].value}")
     print('===============================================================================')
-
-
-def write_results_and_sequences_to_file(concrete: pyo.ConcreteModel, file: str, solver_status: str, newrow: list, obj2: str=None):
-    """ Write results and a vertical list of selected sequences in a given file """
-    
-    file.write('-------------------------------------------------------------------------------\n')
-    if (solver_status == 'ok'):
-        if obj2: # TODO: aquí también poner un for para los objetivos
-            file.write(f'Objective SEQUENCES: {newrow[0]}\n')
-            file.write(f'Objective {obj2}: {newrow[1]}\n')
-        else:
-            file.write(f'Objective SEQUENCES: {newrow[0]}\n')
-            file.write(f'Objective CC_diff: {newrow[1]}\n')
-            file.write(f'Objective LOC_diff: {newrow[2]}\n')
-        file.write('Sequences selected:\n')
-        for s in concrete.S:
-            file.write(f"x[{s}] = {concrete.x[s].value}\n")
-    file.write('===============================================================================\n')
-
-
-
 
 
 
@@ -225,110 +190,6 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
     w1, w2 =  [math.sin(subdivisions[theta_index]), math.cos(subdivisions[theta_index])]
     
     return w1, w2
-
-
-
-
-
-
-
-
-def generate_results_csv_file(instance: str, concrete: pyo.ConcreteModel, results: Any, csv_list: list[Any]):
-    
-    data_row = []
-
-    _, folder_name = os.path.split(instance)
-    class_name, method_name = folder_name.split('_')
-    data_row.append(class_name)
-    data_row.append(method_name)
-            
-    initial_complexity = concrete.nmcc[0]
-    data_row.append(initial_complexity)
-    
-    solution = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and concrete.x[s].index() != 0]
-    data_row.append(solution)
-    
-    extractions = len(solution)
-    data_row.append(extractions)
-    
-    reduction_complexity = sum(concrete.ccr[j,i] for j,i in concrete.N if concrete.z[j,i].value == 1)
-    data_row.append(reduction_complexity)
-    
-    final_complexity = initial_complexity - reduction_complexity
-    data_row.append(final_complexity)
-    
-    
-    LOC_for_each_sequence = [concrete.loc[s] for s in concrete.S if concrete.x[s].value == 1 and concrete.x[s].index() != 0]
-    if len(LOC_for_each_sequence) > 0:
-        minExtractedLOC = min(LOC_for_each_sequence)
-        data_row.append(minExtractedLOC)
-        maxExtractedLOC = max(LOC_for_each_sequence)
-        data_row.append(maxExtractedLOC)
-        meanExtractedLOC = float(np.mean(LOC_for_each_sequence))
-        data_row.append(meanExtractedLOC)
-        totalExtractedLOC = sum(LOC_for_each_sequence)
-        data_row.append(totalExtractedLOC)
-    else:
-        for i in range(4):
-            data_row.append("")
-    
-    
-    CC_for_each_sequence = [concrete.nmcc[s] for s in concrete.S if concrete.x[s].value == 1 and concrete.x[s].index() != 0]
-    if len(CC_for_each_sequence) > 0:
-        minExtractedCC = min(CC_for_each_sequence)
-        data_row.append(minExtractedCC)
-        maxExtractedCC = max(CC_for_each_sequence)
-        data_row.append(maxExtractedCC)
-        meanExtractedCC = float(np.mean(CC_for_each_sequence))
-        data_row.append(meanExtractedCC)
-        totalExtractedCC = sum(CC_for_each_sequence)
-        data_row.append(totalExtractedCC)
-    else:
-        for i in range(4):
-            data_row.append("")
-    
-    data_row.append(str(results.solver.status))
-    data_row.append(results.solver.time)
-           
-    
-    print(data_row)
-    csv_list.append(data_row)
-    
-    print("============================================================================================================")
-    
-    
-    return csv_list
-
-
-
-
-def create_csv_from_results(concrete: pyo.ConcreteModel, results: Any):
-    
-    csv_data = [["class", "method", "initialComplexity", "solution", "extractions", 
-             "reductionComplexity", "finalComplexity",
-             "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", 
-             "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", 
-             "modelStatus", "executionTime"]]
-
-
-    instance_folder = "original_code_data"
-    
-    for subfolder in sorted(os.listdir(instance_folder)):
-        subfolder_path = os.path.join(instance_folder, subfolder)
-        if os.path.isdir(subfolder_path):
-            print(f"Processing Class_Method: {subfolder}")
-            results_csv = generate_results_csv_file(Path(subfolder_path), concrete, results, csv_data)
-        
-    
-    # Escribir datos en un archivo CSV
-    with open("results.csv", mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(results_csv)
-    
-    print("Archivo CSV creado correctamente.")
-
-
-
 
 
 def generate_graph(csv_path, output_pdf_path):

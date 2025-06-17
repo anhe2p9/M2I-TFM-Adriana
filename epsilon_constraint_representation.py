@@ -2,9 +2,7 @@ import os.path
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from pandas.plotting import parallel_coordinates
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
-import re
 
 plt.rcParams['text.usetex'] = True
 
@@ -89,14 +87,15 @@ def generate_graph(csv_path, output_pdf_path):
     # Guardar como PDF
     plt.savefig(output_pdf_path, format='pdf')
     plt.close()
+    print(f"Plot saved in {output_pdf_path}.")
 
 
-def recorrer_y_graficar(ruta_base):
-    carpeta_graficas = os.path.join(ruta_base, "GRÁFICAS")
+def traverse_and_plot(base_path):
+    carpeta_graficas = os.path.join(base_path, "GRÁFICAS")
     os.makedirs(carpeta_graficas, exist_ok=True)
 
-    for proyecto in os.listdir(ruta_base):
-        ruta_proyecto = os.path.join(ruta_base, proyecto)
+    for proyecto in os.listdir(base_path):
+        ruta_proyecto = os.path.join(base_path, proyecto)
         if not os.path.isdir(ruta_proyecto) or proyecto == "GRÁFICAS":
             continue
 
@@ -116,7 +115,3 @@ def recorrer_y_graficar(ruta_base):
                     print(f"Generando gráfica para: {ruta_csv}")
                     generate_graph(ruta_csv, salida_pdf)
 
-
-# Llama a la función indicando el directorio raíz donde están los proyectos
-base_path = "C:/Users/X1502/Adriana/LAB334/resultados_multiobj/DOCKER_output"
-recorrer_y_graficar(base_path)

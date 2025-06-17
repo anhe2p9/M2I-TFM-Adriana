@@ -60,8 +60,8 @@ def extraer_clase_metodo(nombre_archivo):
 # Call the main function
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process refactoring cache and output results.')
-    parser.add_argument('input_folder', type=str, help='Path to the refactoring cache CSV file')
-    parser.add_argument('output_folder', type=str, help='Folder to save the output CSV files')
+    parser.add_argument('--input', dest='input_folder', type=str, help='Path to the refactoring cache CSV file')
+    parser.add_argument('--output', dest='output_folder', type=str, help='Folder to save the output CSV files')
     args = parser.parse_args()
     
     input_folder = Path(args.input_folder)

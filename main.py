@@ -85,7 +85,8 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
 
 
 
-def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
+def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions: tuple=None,
+                        weights: tuple=None, objectives: tuple=None):
 
     model_engine = ILPEngine()
     model = MultiobjectiveILPmodel()
@@ -116,14 +117,17 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                          subdivisions, weights, objectives_list)
 
-    method_name = os.path.basename(instance_folder)
-    class_name = os.path.basename(instance_folder.parent)
-    project_name = os.path.basename(instance_folder.parent.parent)
+    method_name, class_name, project_name = get_all_path_names(instance_folder)
 
     algorithms_utils.write_output_to_files(csv_data, concrete_model, project_name, class_name, method_name,
                                            alg_name, output_data, complete_data, nadir)
 
 
+def get_all_path_names(instance_folder: Path):
+    method_name = os.path.basename(instance_folder)
+    class_name = os.path.basename(instance_folder.parent)
+    project_name = os.path.basename(instance_folder.parent.parent)
+    return method_name, class_name, project_name
 
 PROPERTIES_FILE = "properties.ini"
 
@@ -182,15 +186,45 @@ def save_config(parameters, file=PROPERTIES_FILE):
 def obtain_arguments():
     """Defines arguments from command line and parse them."""
 
-    parser = argparse.ArgumentParser(description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally a determined number of subdivisions s or three weights w, it applies the correspondent algorithm to find the optimal solutions of the model instance. One can also give as input a properties file path.')
-    parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None, help=f'Properties file name in case one want to give every parameter from a .ini file.')
-    parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None, help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
-    parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None, help='Model instance to be optimized (name of the folder with the three data files in CSV format).')
-    parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None, help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
-    parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None, help=f'Threshold (tau) to be reached by the optimization model.')
-    parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int, default=None, help=f'Number of subdivisions to generate different weights.')
-    parser.add_argument('-w', '--weights', dest='weights', type=str, default=None, help=f'Weights assigned for weighted sum in the case of a specific combination of weights. Three weights w1,w2,w3 separated by comma (",").')
-    parser.add_argument('-o', '--objectives', dest='objectives', type=str, default=None, help=f'Two objectives to minimize in the case of a two objective ILP. Write the two objectives separated by comma (",").')
+    parser = argparse.ArgumentParser(
+        description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally '
+                    'a determined number of subdivisions s or three weights w, it applies the '
+                    'correspondent algorithm to find the optimal solutions of the model instance. '
+                    'One can also give as input a properties file path.')
+    parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None,
+                        help=f'Properties file name in case one want to give every parameter from a .ini file.')
+    parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None,
+                        help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
+    parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None,
+                        help='Model instance to be optimized '
+                             '(name of the folder with the three data files in CSV format).')
+    parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None,
+                        help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
+    parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None,
+                        help=f'Threshold (tau) to be reached by the optimization model.')
+    parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int,
+                        default=None, help=f'Number of subdivisions to generate different weights.')
+    parser.add_argument('-w', '--weights', dest='weights', type=str, default=None,
+                        help=f'Weights assigned for weighted sum in the case of a specific combination of weights.'
+                             f' Three weights w1,w2,w3 separated by comma (",").')
+    parser.add_argument('-o', '--objectives', dest='objectives', type=str, default=None,
+                        help=f'Two objectives to minimize in the case of a two objective ILP. '
+                             f'Write the two objectives separated by comma (",").')
+    parser.add_argument('--plot', action='store_true',
+                        help=f'Plots the result of the given result. It gives just one plot.')
+    parser.add_argument( '--all_plots', action='store_true',
+                        help=f'Plots all results in a given directory. More than one plot will be created.')
+    parser.add_argument('--statistics', action='store_true',
+                        help=f'Creates a CSV file with the statistics of all the results found in a given directory.'
+                             f'The statistics are: hypervolume, median, iqr, average and std for each objective.')
+    parser.add_argument('--input', dest='input_dir', type=str, default=None,
+                        help=f'The input path for plots and/or statistics can be specified,'
+                             f' and if there is no input path, the output path will be the general "output/results" '
+                             f'folder for all results.')
+    parser.add_argument('--output', dest='output_dir', type=str, default=None,
+                        help=f'The output path for plots and/or statistics can be specified,'
+                             f' and if there is no output path, the output path will be the general'
+                             f' "output/plots_and_statistics" folder for all results.')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
 
     
@@ -199,12 +233,6 @@ def obtain_arguments():
     
 
     return parameters
-
-    
-
-
-
-
 
 
 
@@ -231,6 +259,8 @@ if __name__ == '__main__':
     subdivisions = args['subdivisions'] if args['subdivisions'] else config.get('subdivisions')
     weights = args['weights'] if args['weights'] else config.get('weights')
     objectives = args['objectives'] if args['objectives'] else config.get('objectives')
+    input_dir = args['input_dir'] if args['input_dir'] else config.get('input_dir')
+    output_dir = args['output_dir'] if args['output_dir'] else config.get('output_dir')
     
     # Overwrite .ini file values with commandline values if it exists
     for key, value in args.items():
@@ -251,6 +281,9 @@ if __name__ == '__main__':
         model_instance = Path(model_instance)
         instance_path = "original_code_data" / model_instance
         print(f"INSTANCE PATH: {instance_path}")
+
+        method_name, class_name, project_name = get_all_path_names(model_instance)
+        general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"
 
         sequences_file = next((f for f in instance_path.iterdir() if f.name.endswith('_sequences.csv')), None)
 
@@ -274,8 +307,35 @@ if __name__ == '__main__':
     # Turn "obj1,obj2" into (str,str) if --objectives is a parameter in command line
     if objectives:
         objectives = tuple(map(str, objectives.split(",")))
-    
-    
+
+    # Single plot True if there is --single_plot
+    if args["plot"]:
+        single_plot = True
+    else:
+        single_plot = False
+
+    # All plots True if there is --all_plots
+    if args["all_plots"]:
+        all_plots = True
+    else:
+        all_plots = False
+
+    # Statistics True if there is --statistics
+    if args["statistics"]:
+        statistics = True
+    else:
+        statistics = False
+
+    # Input files
+    if not input_dir:
+        input_dir = "output/results"
+
+    # Output files
+    if not output_dir:
+        output_dir = "output/plots_and_statistics"
+
+
+
     if model_type == 'uniobjective':
         if model_instance:
             main_one_obj(ilp_algorithm, instance_path, threshold)
@@ -283,8 +343,18 @@ if __name__ == '__main__':
             main_one_obj(ilp_algorithm, threshold)
     elif model_type == 'multiobjective':
         main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
-    else:
-        sys.exit("No adequate number of parameters have been provided. Run python main.py -h for help.")
-    
+
+        input_general_path = f"output/results/{general_path}"
+        results_csv_path = f"{input_general_path}_results.csv"
+        single_plot_path = f"{input_general_path}_plot"
+
+        if single_plot:
+            algorithms_utils.generate_graph(results_csv_path, single_plot_path)
+
+    if all_plots:
+        algorithms_utils.traverse_and_plot(input_dir, output_dir)
+
+    if statistics:
+        algorithms_utils.generate_statistics(input_dir, output_dir)
     
     

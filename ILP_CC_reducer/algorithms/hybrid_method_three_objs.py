@@ -12,7 +12,7 @@ from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 from ILP_CC_reducer.models import ILPmodelRsain
 
-import algorithms_utils
+import general_utils
 
 
 Box3D = Tuple[float, float, float]
@@ -89,12 +89,12 @@ def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tu
 
     obj1, obj2, obj3 = objectives_list
 
-    algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
+    general_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
         rule=lambda m: multiobjective_model.epsilon_objective(m, obj1, obj2, obj3)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
     add_boxes_constraints(box, objectives_list)
 
-    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+    concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)
 
     prefijo = "boxes_constraint"
 

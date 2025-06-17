@@ -11,22 +11,29 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
 from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel 
-import algorithms_utils
+import general_utils
 
-# import algorithms_utils
-    
-# code_filepath: str, model: pyo.AbstractModel, algorithm: str = None, subdivisions: int = None
+model_engine = ILPEngine()
+model = ILPmodelRsain()
+multiobjective_model = MultiobjectiveILPmodel()
 
-def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
-    
-    # Uso del script
-    # file_path = "GENERAL_results.xlsx"  # Reemplaza con la ruta real del archivo
-    # optimal_tuples = algorithms_utils.extract_optimal_tuples(file_path)
+def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None):
 
-    model_engine = ILPEngine()
-    model = ILPmodelRsain()
+    if objective:
+        print(f"The objective is: {objective}")
+
+        objective_map = {
+            'SEQ': model.sequences_objective,
+            'CC': model.cc_difference_objective,
+            'LOC': model.loc_difference_objective
+        }
+
+        try:
+            objective= next(objective_map[obj.upper()] for obj in objectives)
+        except KeyError as e:
+            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
     
-    csv_data = [["project", "class", "method", "missingFile", "emptyFile",
+    csv_data = ["project", "class", "method", "missingFile", "emptyFile",
          "numberOfSequences", "numberOfVariables", "numberOfConstraints",
          "initialComplexity", "solution", "offsets", "extractions",
          "NOTnestedSolution", "NOTnestedExtractions",
@@ -35,52 +42,59 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
          "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC", 
          "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
          "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-         "modelStatus", "terminationCondition", "executionTime"]]
+         "modelStatus", "terminationCondition", "executionTime"]
 
-    
-    
-    instance_folder = "original_code_data"
+    # Crear el archivo desde cero (sobrescribir si existe)
+    csv_path = f"{instance_path}_{objective.__name__}_results.csv"
+    with open(csv_path, mode='w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=csv_data)
+        writer.writeheader()
 
-    for project_folder in sorted(os.listdir(instance_folder)):
+    for project_folder in sorted(os.listdir(instance_path)):
         project_folder = Path(project_folder)
         print(f"Project folder: {project_folder}")
-        total_path = instance_folder / project_folder
+        total_path = instance_path / project_folder
         for class_folder in sorted(os.listdir(total_path)):
             class_folder = Path(class_folder)
             print(f"Class folder: {class_folder}")
-            total_path = instance_folder / project_folder / class_folder
+            total_path = instance_path / project_folder / class_folder
             for method_folder in sorted(os.listdir(total_path)):
                 method_folder = Path(method_folder)
                 print(f"Method folder: {method_folder}")
-                total_path = instance_folder / project_folder / class_folder / method_folder
+                total_path = instance_path / project_folder / class_folder / method_folder
                 print(f"Total path: {total_path}")
                 if os.path.isdir(total_path):
                     project_folder_name = project_folder.name
                     print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
-                    
-                    # folder_tuple = (project_folder_name, class_folder.name, method_folder.name)
 
-                    # if folder_tuple in optimal_tuples:
+                    # Check threshold
+                    check_threshold(total_path)
 
-                    # Process ilp model
-                    ilp_model = model.define_model()
-                    
                     # Process algorithm
                     algorithm = model_engine.get_algorithm_from_name(alg_name)
                     
                     # Process instance
                     instance = model_engine.load_concrete(total_path, model)
                     
-                    folders_data = {"project": str(project_folder_name), "class": str(class_folder), "method": str(method_folder)}
-                    results_csv = model_engine.apply_rsain_model(algorithm, ilp_model, instance, tau, csv_data, folders_data)
+                    folders_data = {
+                        "project": str(project_folder_name),
+                        "class": str(class_folder),
+                        "method": str(method_folder)
+                                    }
 
+                    if objective.__name__ == 'sequences_objective':
+                        results_csv = model_engine.apply_rsain_model(algorithm,instance, tau, folders_data, objective)
+                    else:
+                        results_csv = model_engine.apply_algorithm(algorithm, instance, tau, folders_data,
+                                                                   objective)
 
-    # Escribir datos en un archivo CSV
-    with open(f"{project_folder_name}_results.csv", mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(results_csv)
+                    with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
+                        writer = csv.writer(f)
+                        writer.writerow(results_csv)
+                    print("Added line succesfully.")
+                    print("============================================================================================================")
     
-    print("Archivo CSV creado correctamente.")
+    print("CSV file with results for one objective correctly created.")
 
 
 
@@ -88,16 +102,13 @@ def main_one_obj(alg_name: str, project_folder: str=None, tau: int=15):
 def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions: tuple=None,
                         weights: tuple=None, objectives: tuple=None):
 
-    model_engine = ILPEngine()
-    model = MultiobjectiveILPmodel()
-
     if objectives:
         print(f"The objectives are: {objectives}")
 
         objective_map = {
-            'SEQ': model.sequences_objective,
-            'CC': model.cc_difference_objective,
-            'LOC': model.loc_difference_objective
+            'SEQ': multiobjective_model.sequences_objective,
+            'CC': multiobjective_model.cc_difference_objective,
+            'LOC': multiobjective_model.loc_difference_objective
         }
 
         try:
@@ -112,14 +123,14 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     algorithm = model_engine.get_algorithm_from_name(alg_name)
     
     # Process instance
-    instance = model_engine.load_concrete(instance_folder, model)
+    instance = model_engine.load_concrete(instance_folder, multiobjective_model)
     
     csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                          subdivisions, weights, objectives_list)
 
     method_name, class_name, project_name = get_all_path_names(instance_folder)
 
-    algorithms_utils.write_output_to_files(csv_data, concrete_model, project_name, class_name, method_name,
+    general_utils.write_output_to_files(csv_data, concrete_model, project_name, class_name, method_name,
                                            alg_name, output_data, complete_data, nadir)
 
 
@@ -178,6 +189,26 @@ def save_config(parameters, file=PROPERTIES_FILE):
         config.write(f)
 
     print(f"Properties saved in {file}")
+
+
+def check_threshold(model_instance):
+    model_instance = Path(model_instance)
+    print(f"INSTANCE PATH: {model_instance}")
+
+    sequences_file = next((f for f in model_instance.iterdir() if f.name.endswith('_sequences.csv')), None)
+    if sequences_file:
+        with sequences_file.open(newline='', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            filas = list(reader)
+            if len(filas) > 1 and len(filas[1]) > 2:
+                x0_cc_value = int(filas[1][2])
+                print(f"Actual CC: {x0_cc_value}.")
+        if x0_cc_value <= threshold:
+            sys.exit(f'Objective threshold must be lower than actual CC.')
+
+    if not model_instance.is_dir():
+        sys.exit(f'The model instance must be a folder with three CSV files (multiobjective)'
+                 f' or the base path with all projects (one objective).')
     
     
     
@@ -196,10 +227,12 @@ def obtain_arguments():
     parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None,
                         help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None,
-                        help='Model instance to be optimized '
-                             '(name of the folder with the three data files in CSV format).')
+                        help='Model instance to be optimized. '
+                             'It can be the name of the folder with the three data files in CSV format for multiobjective'
+                             'or the name of the general folder with all instances for one objective.')
     parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None,
-                        help=f'Algorithm to be applied to the model instance {[a for a in ALGORITHMS_NAMES]}.')
+                        help=f'Algorithm to be applied to the model instance in the case of multiobjective ILP:'
+                             f' {[a for a in ALGORITHMS_NAMES]}.')
     parser.add_argument('-t', '--tau', dest='threshold', type=int, default=None,
                         help=f'Threshold (tau) to be reached by the optimization model.')
     parser.add_argument('-s', '--subdivisions', dest='subdivisions', type=int,
@@ -208,8 +241,9 @@ def obtain_arguments():
                         help=f'Weights assigned for weighted sum in the case of a specific combination of weights.'
                              f' Three weights w1,w2,w3 separated by comma (",").')
     parser.add_argument('-o', '--objectives', dest='objectives', type=str, default=None,
-                        help=f'Two objectives to minimize in the case of a two objective ILP. '
-                             f'Write the two objectives separated by comma (",").')
+                        help=f'Two objectives to minimize. '
+                             f'In case of two or three objectives, write them separated by comma (","):'
+                             f' "obj1,obj2" or "obj1,obj2,ob3".')
     parser.add_argument('--plot', action='store_true',
                         help=f'Plots the result of the given result. It gives just one plot.')
     parser.add_argument( '--all_plots', action='store_true',
@@ -245,7 +279,7 @@ if __name__ == '__main__':
     # Load properties from file if it exists
     config = {}
     if args['properties_file']:
-        properties_file_path = Path(args['properties_file'])
+        properties_file_path = args['properties_file']
         print(f"PROPERTIES FILE PATH: {properties_file_path}")
         if not properties_file_path.is_file():
             sys.exit(f'The model instance must be a .ini file.')
@@ -271,34 +305,16 @@ if __name__ == '__main__':
     if args["save"]:
         save_config(config)
 
+    # Check model instance
+    if not model_instance:
+        sys.exit("Instance folder required.")
+    else:
+        instance_path = Path(model_instance)
+
     # Show final properties used
     print("Final configuration:")
     for key, value in config.items():
-        print(f"   · {key} = {value}")  
-    
-    
-    if model_instance:
-        model_instance = Path(model_instance)
-        instance_path = "original_code_data" / model_instance
-        print(f"INSTANCE PATH: {instance_path}")
-
-        method_name, class_name, project_name = get_all_path_names(model_instance)
-        general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"
-
-        sequences_file = next((f for f in instance_path.iterdir() if f.name.endswith('_sequences.csv')), None)
-
-        if sequences_file:
-            with sequences_file.open(newline='', encoding='utf-8') as f:
-                reader = csv.reader(f)
-                filas = list(reader)
-                if len(filas) > 1 and len(filas[1]) > 2:
-                    x0_cc_value = int(filas[1][2])
-                    print(f"Actual CC: {x0_cc_value}.")
-        if x0_cc_value <= threshold:
-            sys.exit(f'Objective threshold must be lower than actual CC.')
-
-        if not instance_path.is_dir():
-            sys.exit(f'The model instance must be a folder with three CSV files.')
+        print(f"   · {key} = {value}")
             
     # Turn "w1,w2,w3" into (float,float,float) if --weights is a parameter in command line
     if weights:
@@ -338,23 +354,27 @@ if __name__ == '__main__':
 
     if model_type == 'uniobjective':
         if model_instance:
-            main_one_obj(ilp_algorithm, instance_path, threshold)
+            main_one_obj('obtainResultsAlgorithm', model_instance, int(threshold),objectives)
         else:
-            main_one_obj(ilp_algorithm, threshold)
+            sys.exit('General instance folder required.')
     elif model_type == 'multiobjective':
+        check_threshold(model_instance)
         main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
+
+        method_name, class_name, project_name = get_all_path_names(instance_path)
+        general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"
 
         input_general_path = f"output/results/{general_path}"
         results_csv_path = f"{input_general_path}_results.csv"
         single_plot_path = f"{input_general_path}_plot"
 
         if single_plot:
-            algorithms_utils.generate_graph(results_csv_path, single_plot_path)
+            general_utils.generate_graph(results_csv_path, single_plot_path)
 
     if all_plots:
-        algorithms_utils.traverse_and_plot(input_dir, output_dir)
+        general_utils.traverse_and_plot(input_dir, output_dir)
 
     if statistics:
-        algorithms_utils.generate_statistics(input_dir, output_dir)
+        general_utils.generate_statistics(input_dir, output_dir)
     
     

@@ -20,8 +20,6 @@ class ILPmodelRsain(pyo.AbstractModel):
         self.x = pyo.Var(self.S, within=pyo.Binary)
         self.z = pyo.Var(self.S, self.S, within=pyo.Binary)
 
-        self.obj = pyo.Objective(rule=lambda m: sequencesObjective(m))
-
         self.conflict_sequences = pyo.Constraint(self.C, rule=conflict_sequences)
         self.threshold = pyo.Constraint(self.S, rule=threshold)
         self.z_definition = pyo.Constraint(self.N, rule=zDefinition)
@@ -66,11 +64,18 @@ class ILPmodelRsain(pyo.AbstractModel):
         total_data = {"missingFiles": missing_file, "emptyFiles": empty_file, "data": data, "offsets": offsets_filename}
         # print(f"DATA: {total_data}")
         return total_data
-    
-    
-def sequencesObjective(m):
-    return sum(m.x[j] for j in m.S)
-    
+
+    @staticmethod
+    def sequences_objective(m):
+        return sum(m.x[j] for j in m.S)
+
+    @staticmethod
+    def loc_difference_objective(m):  # modelar segundo objetivo como restricción
+        return m.tmax - m.tmin
+
+    @staticmethod
+    def cc_difference_objective(m):  # modelar tercer objetivo como restricción
+        return m.cmax - m.cmin
 
 def conflict_sequences(m, i, j): # restricción para las secuencias en conflicto
     return m.x[i] + m.x[j] <= 1

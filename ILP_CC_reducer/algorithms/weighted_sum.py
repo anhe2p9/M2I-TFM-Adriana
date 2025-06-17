@@ -2,7 +2,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import sys
-import algorithms_utils
+import general_utils
 
 # import csv
 # import os
@@ -22,9 +22,10 @@ class WeightedSumAlgorithm(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int, args, objectives_list: list=None) -> None:
+    def execute(data_dict: dict, tau: int, args, objectives_list: list=None) -> None:
         
         multiobjective_model = MultiobjectiveILPmodel()
+        data = data_dict['data']
 
         if not objectives_list:  # if there is no order, the order will be [SEQ,CC,LOC]
             objectives_list = [multiobjective_model.sequences_objective,
@@ -50,7 +51,7 @@ class WeightedSumAlgorithm(Algorithm):
     
             for i in range(args+1):
                 for j in range(args+1):
-                    w1, w2, w3 = algorithms_utils.generate_three_weights(args, i, j)
+                    w1, w2, w3 = general_utils.generate_three_weights(args, i, j)
                     
                     _, newrow, _ = process_weighted_model(multiobjective_model, data, w1 ,w2, w3, obj1, obj2, obj3)
                     
@@ -72,22 +73,23 @@ class WeightedSumAlgorithm(Algorithm):
             
             concrete.pprint()
             
-            algorithms_utils.print_result_and_sequences(concrete, results.solver.status)
+            general_utils.print_result_and_sequences(concrete, results.solver.status)
             print(results)
             
         else:
             sys.exit(f'The Weighted Sum algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
         
         
-        return csv_data, concrete, None
+        return csv_data, concrete, None, None, None
     
 
 
 
 def process_weighted_model(model: MultiobjectiveILPmodel, data: dp.DataPortal, w1 ,w2, w3, obj1, obj2, obj3):
     
-    algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
-    concrete, results = algorithms_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
+    general_utils.modify_component(model, 'obj',
+                                   pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
+    concrete, results = general_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
     
     newrow_values = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete)), pyo.value(obj3(concrete))]
     newrow = [round(w1,2),round(w2,2),round(w3,2)] + newrow_values

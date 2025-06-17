@@ -89,7 +89,7 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
         return m.cmax - m.cmin
 
     @staticmethod
-    def weighted_sum(self, m, w1, w2, w3, obj1, obj2, obj3):
+    def weighted_sum(m, w1, w2, w3, obj1, obj2, obj3):
         return (w1*obj1(m) + w2*obj2(m) + w3*obj3(m))
     
     @staticmethod

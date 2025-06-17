@@ -2,7 +2,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import sys
-import algorithms_utils
+import general_utils
 
 from typing import Any
 
@@ -24,9 +24,10 @@ class WeightedSumAlgorithm2obj(Algorithm):
         return ("It obtains soported ILP solutions based on the given weights.")
 
     @staticmethod
-    def execute(data: dp.DataPortal, tau: int, weights_config: Any, objectives_list: list) -> None:
+    def execute(data_dict: dict, tau: int, weights_config: Any, objectives_list: list) -> None:
         
         multiobjective_model = MultiobjectiveILPmodel()
+        data = data_dict['data']
         
         obj1, obj2 = objectives_list[:2]
         
@@ -40,15 +41,15 @@ class WeightedSumAlgorithm2obj(Algorithm):
             print(f"Proccessing all ILP results with {weights_config} subdivisions...")
         
             for i in range(weights_config+1):
-                w1, w2 = algorithms_utils.generate_two_weights(weights_config, i)
+                w1, w2 = general_utils.generate_two_weights(weights_config, i)
                
-                algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
-                concrete, results = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+                general_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
+                concrete, results = general_utils.concrete_and_solve_model(multiobjective_model, data)
                 
                 newrow = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete))]
                 
                 
-                algorithms_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
+                general_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
                 
                 newrow = [round(w1,3),round(w2,3)] + newrow
                 csv_data.append(newrow)
@@ -57,19 +58,19 @@ class WeightedSumAlgorithm2obj(Algorithm):
             print(f"Proccessing ILP results with weights: {weights_config}...")
             w1, w2 = weights_config
             
-            algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
-            concrete, results = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+            general_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
+            concrete, results = general_utils.concrete_and_solve_model(multiobjective_model, data)
             
             newrow = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete))]
             csv_data.append(newrow)
             
-            algorithms_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
+            general_utils.add_info_to_list(concrete, output_data, results.solver.status, obj1, obj2, newrow)
                 
             
         else:
             sys.exit(f'The Weighted Sum algorithm parameters for two objectives must be a number of subdivisions s and the second objective.')
             
-        return csv_data, concrete, output_data
+        return csv_data, concrete, output_data, None, None
 
 
 

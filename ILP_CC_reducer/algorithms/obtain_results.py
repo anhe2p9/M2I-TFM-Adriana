@@ -1,17 +1,16 @@
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
-# import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-# import sys
-# import algorithms_utils
-# from typing import Any
 import numpy as np
 import pandas as pd
+import os
 
-#
-# import csv
-# import os
-
+from ILP_CC_reducer.models import ILPmodelRsain
+from ILP_CC_reducer.models import MultiobjectiveILPmodel
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
+
+import general_utils
+
+
 
 
 class obtainResultsAlgorithm(Algorithm):
@@ -25,10 +24,18 @@ class obtainResultsAlgorithm(Algorithm):
         return ("It obtains the solution for just sequences objective.")
 
     @staticmethod
-    def execute(model: pyo.ConcreteModel, data: dict, csv_list: list[str], folders_data: dict) -> list[str]:
-        
+    def execute(data: dict, tau:int, folders_data: dict, objective: str=None) -> list[str]:
+
+        if objective.__name__ == 'sequences_objective':
+            model = ILPmodelRsain()
+        else:
+            model = MultiobjectiveILPmodel()
+
         data_row = []
-        
+
+        general_utils.modify_component(model,'tau',
+                                       pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False))
+
         data_row.append(folders_data["project"])
         data_row.append(folders_data["class"])
         data_row.append(folders_data["method"])
@@ -43,6 +50,11 @@ class obtainResultsAlgorithm(Algorithm):
         
         data_row.append(missing_file)
         data_row.append(empty_file)
+
+        if not objective:
+            objective = model.sequences_objective
+
+        general_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: objective(m)))
     
         # Verificar si todos los archivos han sido encontrados
         if len(data.get("missingFiles")) == 0 and "sequences" not in data["emptyFiles"]:
@@ -52,8 +64,9 @@ class obtainResultsAlgorithm(Algorithm):
             solver = pyo.SolverFactory('cplex')
             solver.options["timelimit"] = 3600 # time limit for solver
             results = solver.solve(concrete)
-            
-            
+
+            if not os.path.exists("models"):
+                os.makedirs("models")
             # Guardar el modelo en un archivo .lp antes de resolverlo
             concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp', io_options={'symbolic_solver_labels': True})
         
@@ -221,11 +234,8 @@ class obtainResultsAlgorithm(Algorithm):
     
     
         print(data_row)
-        csv_list.append(data_row)
         
-        print("============================================================================================================") 
-        
-        return csv_list
+        return data_row
     
 
 

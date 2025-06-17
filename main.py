@@ -372,7 +372,7 @@ if __name__ == '__main__':
         single_plot_path = f"{input_general_path}_plot"
 
         if single_plot:
-            general_utils.generate_graph(results_csv_path, single_plot_path)
+            general_utils.generate_plot(results_csv_path, single_plot_path)
 
     if all_plots:
         general_utils.traverse_and_plot(input_dir, output_dir)

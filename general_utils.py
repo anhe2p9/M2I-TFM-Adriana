@@ -168,7 +168,7 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
     return w1, w2
 
 
-def generate_graph(csv_path, output_pdf_path):
+def generate_plot(csv_path, output_pdf_path):
     linestyles = ['-', '--', '-.', ':']
     markers = ['o', 's', 'D', '^', 'v', '*', 'x', '+', 'p', 'h', '1', '2', '3', '4', '|', '_']
     colors = plt.cm.tab20.colors  # hasta 20 colores distintos
@@ -250,7 +250,7 @@ def traverse_and_plot(input_path: str, output_path: str):
                     ruta_csv = os.path.join(ruta_metodo, archivo)
                     salida_pdf = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}.pdf")
                     print(f"Generando gráfica para: {ruta_csv}")
-                    generate_graph(ruta_csv, salida_pdf)
+                    generate_plot(ruta_csv, salida_pdf)
 
 def generate_statistics(input_path: str, output_path: str):
     # Inicializar listas

@@ -13,7 +13,7 @@ import general_utils
 
 
 
-class obtainResultsAlgorithm(Algorithm):
+class ObtainResultsAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:

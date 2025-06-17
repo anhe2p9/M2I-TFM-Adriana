@@ -219,8 +219,10 @@ def obtain_arguments():
 
     parser = argparse.ArgumentParser(
         description='ILP model engine. Given an abstract model m, a model instance a, an algorithm a and optionally '
-                    'a determined number of subdivisions s or three weights w, it applies the '
-                    'correspondent algorithm to find the optimal solutions of the model instance. '
+                    'a threshold t, '
+                    'a determined number of subdivisions s or three weights w,'
+                    'an objectives order o, and other additional argumentes,'
+                    ' it applies the correspondent algorithm to find the optimal solutions of the model instance. '
                     'One can also give as input a properties file path.')
     parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None,
                         help=f'Properties file name in case one want to give every parameter from a .ini file.')

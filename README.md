@@ -8,20 +8,31 @@ Enhancement for Automatic Software Cognitive Complexity Reduction through Intege
 - [Table of Contents](#table-of-contents)
 - [ILP Model](#ilp-model)
   - [Requirements](#requirements)
-  - [Download and installation](#download-and-installation)
-  - [Execution of the ILP Model](#execution-of-the-ilp-model)
-  - [Execution of the tests](#execution-of-the-tests)
+  - [Download and Installation](#download-and-installation)
+  - [Overview](#execution-of-the-ilp-model)
+  - [Problem Context](...)
+  - [Getting Started](...)
+  - [Arguments](...)
+  - [Output Types](...)
+  - [Objectives (Cognitive Complexity Metrics)](...)
+  - [Additional Script](...)
+  - [Example](...)
+  - [Project Structure](...)
+  - 
   
-# ILP Model
+# ILP Model Engine
 
-## Requirements
+This project provides a command-line engine for solving ILP (Integer Linear Programming) problems related to reducing cognitive complexity in Java code refactorings at the method level. The tool supports solving both single-objective and multi-objective ILP instances using various algorithms and configurations.
+
+
+## 📦  Requirements
 - [Python 3.9+](https://www.python.org/)
 - [CPLEX](https://www.ibm.com/es-es/products/ilog-cplex-optimization-studio)
 
 The library has been tested in Linux (Mint and Ubuntu) and Windows 11.
 
 
-## Download and installation
+## ⬇️ Download and Installation
 1. Install [Python 3.9+](https://www.python.org/)
 2. Download/Clone this repository and enter into the main directory.
 3. Create a virtual environment: `python -m venv env`
@@ -36,24 +47,150 @@ The library has been tested in Linux (Mint and Ubuntu) and Windows 11.
 5. Install the dependencies: `pip install -r requirements.txt`
 
 
-## Execution of the ILP Model
-You can use any code in the [codes folder](codes/) to execute and test the ILP model.
 
-- **Help:** Provide help to execute the refactoring engine.
-    `python main.py -h`
+## 💡 Overview
 
-- **Apply the CC reducer model to a method:** Apply the ILP model to the given method of the provided piece of code.
-  
-  - Execution: `python ilp-model-pfm.py FILE1 FILE2 FILE3 THRESHOLD`
-  - Inputs: 
-    - The `FILE1` parameter specifies the file path of the extraction opportunities, its lines of code (LOC) and its new method cognitive complexity ($NMCC_i = \iota_i + \nu_i$) in CSV format.
-    - The `FILE2` parameter specifies the subsequences of each extraction opportunity, to specify the relation between each node of the conflict graph, and its cognitive complexity reduction ($CCR_{j \to i} = \iota_i + \nu_j + |\lambda_j - \lambda_i|\mu_j$)
-    - The `FILE3` parameter specifies the conflict sequences and its cognitive complexity reduction (CCR defined above).
-    - The `THRESHOLD` parameter specifies the maximum SSCC desired for that method.
-  - Outputs:
-    - An ILP model file in NO LO SÉ format with the given method refactored.
-  - Example: `python ilp-model-pfm.py sequences.csv nested.csv conflict.csv 15`
+The main purpose of this application is to automate the generation and resolution of ILP models designed to **optimize code refactorings**. The models aim to **minimize**:
+
+1. The number of extractions (refactorings).
+2. The difference between the maximum and minimum **cognitive complexity** across all resulting sequences.
+3. The difference between the maximum and minimum **lines of code** across all resulting sequences.
+
+## 🧠 Problem Context
+
+Given a Java method and its corresponding **refactoring cache**, the system builds ILP model instances to explore different refactoring strategies. These models are then solved with one of several available algorithms.
+
+The results may vary:
+- A **.csv file** and a corresponding **.lp file** for **single-objective** ILP.
+- For **multi-objective** problems (2 or 3 objectives), a set of solutions using:
+  - **Weighted sum** (single or multiple combinations).
+  - **Augmented ε-constraint** (for two objectives).
+  - A **hybrid algorithm** (for three objectives), exploring the entire objective space to generate an approximate Pareto front.
+
+---
+
+## 🚀 Getting Started
+
+To run the main engine:
+
+```bash
+python main.py [OPTIONS]
+```
 
 
-## Execution of the tests
-No sé si habrá.
+## 🔧 Arguments
+
+| Argument                | Description |
+|-------------------------|-------------|
+| `-f`, `--file`          | Path to a `.ini` file containing all parameters. |
+| `-m`, `--modeltype`     | Type of model: `uniobjective` or `multiobjective`. |
+| `-i`, `--instance`      | Path to the model instance. For multi-objective, this should be a folder containing three `.csv` files. |
+| `-a`, `--algorithm`     | Algorithm to use for solving multi-objective problems. Must be one of: `[ALGORITHMS_NAMES]`. |
+| `-t`, `--tau`           | Threshold (τ) used in optimization (e.g., for ε-constraint). |
+| `-s`, `--subdivisions`  | Number of subdivisions for generating weighted combinations. |
+| `-w`, `--weights`       | Specific weights for weighted sum: `w1,w2,w3`. |
+| `-o`, `--objectives`    | Objectives to minimize, e.g., `obj1,obj2` or `obj1,obj2,obj3`. |
+| `--plot`                | Plot the result of a specific experiment. |
+| `--all_plots`           | Plot all results in the given directory. |
+| `--statistics`          | Generate a CSV file with statistics for all results in the given directory. |
+| `--input`               | Input directory for results (used for plotting/statistics). Defaults to `output/results`. |
+| `--output`              | Output directory for plots/statistics. Defaults to `output/plots_and_statistics`. |
+| `--save`                | Save current configuration to a `.ini` file. |
+
+
+
+---
+
+## 🧪 Output Types
+
+Depending on the model and input configuration, the application can generate:
+
+- For **single-objective ILP**:
+  - A `.csv` file containing the solution.
+  - An `.lp` file representing the ILP model for each instance.
+
+- For **multi-objective ILP** (2 or 3 objectives):
+  - A set of non-dominated solutions (Pareto front), either:
+    - via **weighted sum**:
+      - using a sweep over weight combinations (`--subdivisions`), or
+      - with a specific combination (`--weights`).
+    - via **augmented ε-constraint** algorithm (`--algorithm`), for 2 objectives.
+      - CSV file with results.
+      - Concrete model.
+      - Output data with the solution for each Java method.
+    - via a **hybrid objective-space exploration algorithm**, for 3 objectives:
+      - CSV file with results.
+      - Concrete model.
+      - Output data with the solution for each Java method.
+      - Nadir point.
+      - Plot in case of requested.
+
+---
+
+## 🧠 Objectives (Cognitive Complexity Metrics)
+
+The optimization process focuses on refactoring Java methods by minimizing the following cognitive complexity metrics:
+
+1. **Number of Extractions**:  
+   The total number of code extractions performed.  
+   _Goal_: Minimize to keep changes limited.
+
+2. **Complexity Range**:  
+   Difference between the highest and lowest cognitive complexity values among extracted sequences.  
+   _Goal_: Minimize to ensure balanced complexity across parts.
+
+3. **Lines of Code Range**:  
+   Difference between the largest and smallest number of lines of code among extracted parts.  
+   _Goal_: Minimize to obtain balanced code lengths.
+
+---
+
+## 🗂️ Additional Script
+
+A secondary `input_files_main.py` located in **ILP_data_from_refactoring_cache** folder is used to **generate ILP input files** from a refactoring cache. This cache must be generated beforehand by another tool that analyzes Java code.
+
+The arguments for this file is the `input_folder` and `output_folder`.
+
+---
+
+##  📘  Examples
+
+```bash
+python main.py -m multiobjective -i ./instances/my_instance -a HybirdMethodForThreeObj -t 15 -o seq,cc,loc --plot
+python main.py -m multiobjective -i ./instances/my_instance -a WeightedSumAlgorithm2obj -t 2 -s 6 -o seq,cc
+python input_files_main.py ./input_folder ./output_folder
+```
+
+##  📂 Project Structure
+    📁 M2I-TFM-Adriana  
+    ├── 📁 ILP_CC_reducer  
+    │   ├── 📁 algorithm  
+    │   │   ├── __init__.py  
+    │   │   └── algorithm.py  
+    │   ├── 📁 algorithms  
+    │   │   ├── __init__.py  
+    │   │   ├── e_constraint_two_objs.py  
+    │   │   ├── hybrid_method_three_objs.py  
+    │   │   ├── obtain_results.py  
+    │   │   ├── weighted_sum.py  
+    │   │   └── weighted_sum_two_objs.py  
+    │   ├── 📁 models  
+    │   │   ├── __init__.py  
+    │   │   ├── ILPmodelRsain.py  
+    │   │   └── multiobjILPmodel.py  
+    │   └── 📁 operations  
+    │       ├── __init__.py  
+    │       └── ILP_engine.py  
+    ├── 📁 ILP_data_from_refactoring_cache  
+    │   ├── 📁 dataset_refactoring_caches  
+    │   ├── 📁 utils  
+    │   │   ├── dataset.py  
+    │   │   ├── offsets.py  
+    │   │   └── refactoring_cache.py  
+    │   ├── __init__.py  
+    │   ├── input_files_main.py  
+    │   └── README.md  
+    ├── general_utils.py  
+    ├── main.py  
+    ├── README.md  
+    └── requirements.txt  

@@ -61,7 +61,7 @@ class ILPEngine():
     
 
     def apply_rsain_model(self, algorithm: Algorithm, data: dict,
-                          tau: int, csv_data: list[Any], folders_data: dict, objective: str) -> None:
+                          tau: int, csv_data: list[Any], folders_data: dict, objective: str) -> list:
         """Creates a csv with the results data."""
         return algorithm.execute(data, tau, csv_data, folders_data, objective)
 

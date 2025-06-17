@@ -89,30 +89,6 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
 
 
 
-def obtain_obj_diff(concrete_model: pyo.ConcreteModel, obj: str):
-    """ Obtain LOC diff in case that objective is selected, or CC diff in case that objective is selected. """
-    
-    # Define parameters
-    paremeter_selected_x = concrete_model.loc if obj == 'LOC' else concrete_model.nmcc
-    paremeter_selected_z = concrete_model.loc if obj == 'LOC' else concrete_model.ccr
-    
-    # Select Z index depending on the objective
-    get_z_index = (lambda j, ii: paremeter_selected_z[j]) if obj == 'LOC' else (lambda j, ii: paremeter_selected_z[j, ii])
-    
-    # Obtain max
-    max_xLOC = max(paremeter_selected_x[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-    max_zLOC = max(get_z_index(j,ii) for j,ii in concrete_model.N if concrete_model.z[j,ii].value == 1)
-    max_selected = abs(max_xLOC - max_zLOC) # Obtain the max extracted property
-    
-    # Obtain min
-    min_selected = min(paremeter_selected_x[i] for i in concrete_model.S if concrete_model.x[i].value == 1)
-    
-    # Obtain diff between max and min
-    obj_diff = abs(max_selected - min_selected)
-    
-    return obj_diff
-
-
 def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list, obj2: str=None):
     """ Print results and a vertical list of sequences selected """
     

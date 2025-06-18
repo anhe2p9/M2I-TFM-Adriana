@@ -323,6 +323,7 @@ def generate_statistics(input_path: str, output_path: str):
                     "project": proyecto,
                     "class": clase,
                     "method": metodo,
+                    "nadir": f"({', '.join(str(int(x)) for x in nadir)})",
                     "hypervolume": hipervolumen,
                     "normalized_hypervolume": np.round(hv_normalized,2),
                     f"avg_{nombres_objetivos[0]}": medias[0],

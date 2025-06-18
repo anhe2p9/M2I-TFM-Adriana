@@ -79,13 +79,13 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
             writer.writerows(complete_data)
             print("Complete CSV file correctly created.")
 
-    # Save nadir point in a csv file
-    if nadir:
-        with open(f"{method_path}_nadir.csv",
-                  mode="w", newline="", encoding="utf-8") as nadir_csv:
-            writer = csv.writer(nadir_csv)
-            writer.writerows(nadir)
-            print("Nadir CSV file correctly created.")
+    # # Save nadir point in a csv file
+    # if nadir:
+    #     with open(f"{method_path}_nadir.csv",
+    #               mode="w", newline="", encoding="utf-8") as nadir_csv:
+    #         writer = csv.writer(nadir_csv)
+    #         writer.writerows(nadir)
+    #         print("Nadir CSV file correctly created.")
 
 
 
@@ -269,15 +269,10 @@ def generate_statistics(input_path: str, output_path: str):
                 continue
 
             results_file = next((f for f in os.listdir(ruta_clase) if f.endswith("_results.csv")), None)
-            nadir_file = next((f for f in os.listdir(ruta_clase) if f.endswith("_nadir.csv")), None)
-            if results_file is None or nadir_file is None:
+            if results_file is None:
                 continue
 
             results_path = os.path.join(ruta_clase, results_file)
-
-            nadir_path = os.path.join(ruta_clase, nadir_file)
-            df_nadir = pd.read_csv(nadir_path)
-            nadir = df_nadir.iloc[0].values.astype(float)
 
             try:
                 df = pd.read_csv(results_path)
@@ -297,13 +292,19 @@ def generate_statistics(input_path: str, output_path: str):
                 if objetivos.size == 0:
                     raise ValueError("Sin datos numéricos")
 
+                # Calculate nadir directly from Pareto front
+                nadir = np.max(objetivos, axis=0)
+                ref_point = nadir + 1
+
                 # Punto de referencia y cálculo de hipervolumen
-                hv = HV(ref_point=nadir)
+                hv = HV(ref_point=ref_point)
                 hipervolumen = hv.do(objetivos)
 
                 # Cálculo del hipervolumen de la caja total
-                hv_max = hv.do(np.array([0,0,0]))
+                ideal = np.min(objetivos, axis=0)
+                hv_max = hv.do(ideal)
 
+                # Nomalize PF
                 hv_normalized = hipervolumen / hv_max
 
 
@@ -323,7 +324,8 @@ def generate_statistics(input_path: str, output_path: str):
                     "project": proyecto,
                     "class": clase,
                     "method": metodo,
-                    "nadir": f"({', '.join(str(int(x)) for x in nadir)})",
+                    "num_solutions": objetivos.shape[0],
+                    "nadir": f"({', '.join(str(int(x)) for x in ref_point)})",
                     "hypervolume": hipervolumen,
                     "normalized_hypervolume": np.round(hv_normalized,2),
                     f"avg_{nombres_objetivos[0]}": medias[0],

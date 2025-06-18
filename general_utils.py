@@ -36,57 +36,6 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     result = solver.solve(concrete)
     return concrete, result
 
-def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_name: str, class_name: str,
-                          method_name: str, algorithm: str, output_data: list=None, complete_data: list=None,
-                          nadir: list= None):
-
-    result_name = f"{algorithm}_{class_name}_{method_name}"
-    base_path = f"output/results/{project_name}/{result_name}"
-    method_path = f"{base_path}/{method_name}"
-
-    if not os.path.exists(base_path):
-        os.makedirs(base_path)
-
-    # Save model in a LP file
-    if concrete:
-        concrete.write(f'{method_path}.lp',
-                       io_options={'symbolic_solver_labels': True})
-        print("Model correctly saved in a LP file.")
-
-    # Save data in a CSV file
-    filename = f"{method_path}_results.csv"
-            
-    if os.path.exists(filename):
-        os.remove(filename)
-            
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(csv_info)
-        print("CSV file correctly created.")
-    
-    # Save output in a TXT file
-    if output_data:
-        with open(f"{method_path}_output.txt", "w") as f:
-            for linea in output_data:
-                f.write(linea + "\n")
-            print("Output correctly saved in a TXT file.")
-
-    # Save output in a TXT file
-    if complete_data:
-        with open(f"{method_path}_complete_data.csv",
-                  mode="w", newline="", encoding="utf-8") as complete_csv:
-            writer = csv.writer(complete_csv)
-            writer.writerows(complete_data)
-            print("Complete CSV file correctly created.")
-
-    # # Save nadir point in a csv file
-    # if nadir:
-    #     with open(f"{method_path}_nadir.csv",
-    #               mode="w", newline="", encoding="utf-8") as nadir_csv:
-    #         writer = csv.writer(nadir_csv)
-    #         writer.writerows(nadir)
-    #         print("Nadir CSV file correctly created.")
-
 
 
 def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list, obj2: str=None):

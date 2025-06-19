@@ -199,7 +199,6 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
             output_data.append(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
             output_data.append("======================================================================================")
 
-            continue
 
     print(f"Solution set: {s_ordered}.")
 

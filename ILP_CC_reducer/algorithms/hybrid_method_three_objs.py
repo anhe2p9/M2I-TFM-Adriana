@@ -96,9 +96,6 @@ def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
 
     concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)
 
-    prefijo = "boxes_constraint"
-
-
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
         ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in [multiobjective_model.sequences_objective,

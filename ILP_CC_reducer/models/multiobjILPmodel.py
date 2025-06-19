@@ -98,7 +98,7 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
         return w1 * first_objective(m) + w2 * second_objective(m)
     
     @staticmethod
-    def epsilon_objective(m, obj1, obj2, obj3):
+    def weighted_sum_hybrid_method(m, obj1, obj2, obj3):
         return obj1(m) + obj2(m) + obj3(m)
     
     @staticmethod

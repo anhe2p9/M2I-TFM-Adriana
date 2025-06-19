@@ -26,7 +26,7 @@ class HybridMethodForThreeObj(Algorithm):
 
     @staticmethod
     def get_name() -> str:
-        return 'Epsilon Constraint algorithm with 3 obj'
+        return 'Hybrid Method algorithm for 3 obj'
     
     @staticmethod
     def get_description() -> str:
@@ -57,8 +57,8 @@ class HybridMethodForThreeObj(Algorithm):
 
         initial_box = tuple(nadir_point)
 
-        solutions_set, concrete, output_data, complete_data = epsilon_constraint_with_full_p_split(data_dict, objectives_list,
-                                                                                     initial_box, max_solutions=20)
+        solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(data_dict, objectives_list,
+                                                                                              initial_box, max_solutions=20)
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
@@ -84,25 +84,19 @@ def add_items_to_multiobjective_model(tau: int):
     multiobjective_model.lambda3 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
 
 
-def solve_epsilon_constraint(data: dp.DataPortal, objectives_list: list, box: tuple):
+def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
     output_data = []
 
     obj1, obj2, obj3 = objectives_list
 
     general_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-        rule=lambda m: multiobjective_model.epsilon_objective(m, obj1, obj2, obj3)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
+        rule=lambda m: multiobjective_model.weighted_sum_hybrid_method(m, obj1, obj2, obj3)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
     add_boxes_constraints(box, objectives_list)
 
     concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)
 
     prefijo = "boxes_constraint"
-
-    for name, constraint in concrete.component_map(pyo.Constraint, active=True).items():
-        if name.startswith(prefijo) or name.startswith('epsilonConstraint'):
-            print(f"Restricción: {name}")
-            for index in constraint:
-                print(f"  {index}: {constraint[index].expr}")
 
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
@@ -140,7 +134,7 @@ def add_boxes_constraints(box: tuple, objectives_list: list):
     multiobjective_model.box_u3_constraint = pyo.Constraint(rule=lambda m: obj3(m) <= box[2] - 1)
 
 
-def epsilon_constraint_with_full_p_split(data_dict, objectives_list, initial_box: tuple, max_solutions=100):
+def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tuple, max_solutions=100):
     output_data = []
 
     complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
@@ -167,9 +161,8 @@ def epsilon_constraint_with_full_p_split(data_dict, objectives_list, initial_box
 
         actual_box = boxes.pop(0)
 
-        # Usar e[1] y e[2] como valores de epsilon para restricciones f2 y f3
-        solution, concrete, result, cplex_time, new_output_data, ordered_newrow = solve_epsilon_constraint(data_dict['data'],
-                                                                                           objectives_list, actual_box)
+        solution, concrete, result, cplex_time, new_output_data, ordered_newrow = solve_hybrid_method(data_dict['data'],
+                                                                                                      objectives_list, actual_box)
 
         if solution:
             solutions_set.add(solution)  # Add solution to solutions set

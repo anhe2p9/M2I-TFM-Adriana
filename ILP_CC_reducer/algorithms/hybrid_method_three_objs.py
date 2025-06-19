@@ -174,19 +174,12 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
             print(f"New solution: {solution}.")
 
             # Partimos la caja con respecto a la solución real obtenida
-            new_boxes = full_p_split_3d(actual_box, solution)
-
-            for i, box in enumerate(new_boxes):
-                if box is not None:
-                    boxes.append(box)
+            boxes = full_p_split_3d(actual_box, solution, boxes)
 
             for i,box in enumerate(boxes):
                 if inside(solution,box):
                     boxes.pop(i)
-                    new_boxes = full_p_split_3d(box, solution)
-                    for j, new_box in enumerate(new_boxes):
-                        if box is not None:
-                            boxes.append(new_box)
+                    boxes = full_p_split_3d(box, solution, boxes)
 
             print(f"GENERAL BOXES LIST: {boxes}.")
             non_dominated_boxes = filter_contained_boxes(boxes)
@@ -205,10 +198,10 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
     return solutions_set, concrete, output_data, complete_data
 
 
-def full_p_split_3d(box: Box3D, z: tuple) -> List[Optional[Box3D]]:
+def full_p_split_3d(box: Box3D, z: tuple, boxes: list) -> List[Optional[Box3D]]:
     l = (0,0,0)
     u = box  # original box: l = (l1, l2, l3), u = (u1, u2, u3)
-    boxes = []
+    new_boxes = []
 
     for i in range(3):  # i = 0 (x), 1 (y), 2 (z)
 
@@ -219,7 +212,11 @@ def full_p_split_3d(box: Box3D, z: tuple) -> List[Optional[Box3D]]:
 
         is_empty = any(u[k] < z[k] for k in range(i+1, 3)) or new_u[i] <= l[i]
 
-        boxes.append(None if is_empty else tuple(new_u))
+        new_boxes.append(None if is_empty else tuple(new_u))
+
+    for i, box in enumerate(new_boxes):
+        if box is not None:
+            boxes.append(box)
 
     return boxes
 

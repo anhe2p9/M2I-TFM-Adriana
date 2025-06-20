@@ -634,7 +634,7 @@ if __name__ == '__main__':
 
         input_general_path = f"output/results/{general_path}"
         results_csv_path = f"{input_general_path}_results.csv"
-        single_plot_path = f"{input_general_path}_plot"
+        single_plot_path = f"{input_general_path}_plot.pdf"
 
         if single_plot:
             generate_plot(results_csv_path, single_plot_path)

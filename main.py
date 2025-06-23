@@ -5,6 +5,7 @@ import pandas as pd
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 
 import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 
 import numpy as np
 from pymoo.indicators.hv import HV
@@ -201,6 +202,131 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
     #         writer.writerows(nadir)
     #         print("Nadir CSV file correctly created.")
 
+
+def generate_PF_plot(results_path, output_html_path):
+
+    df = pd.read_csv(results_path)
+
+    # Validar que hay datos y al menos 3 columnas numéricas
+    if df.shape[0] == 0:
+        raise ValueError("Archivo vacío")
+
+    columnas_numericas = df.select_dtypes(include=[np.number])
+    if columnas_numericas.shape[1] < 3:
+        raise ValueError("Menos de 3 columnas numéricas")
+
+    # Seleccionar primeras 3 columnas numéricas
+    objetivos = columnas_numericas.iloc[:, :3].values
+    nombres_objetivos = columnas_numericas.columns[:3]
+
+    if objetivos.size == 0:
+        raise ValueError("Sin datos numéricos")
+
+    # Calculate nadir directly from Pareto front
+    nadir = np.max(objetivos, axis=0)
+    ref_point = nadir + 1
+
+    fig = go.Figure()
+
+    n1, n2, n3 = ref_point
+
+    solutions = []
+    with open(results_path, newline='') as csvfile:
+        lector = csv.reader(csvfile)
+        next(lector)  # Saltar la cabecera
+        for row in lector:
+            sol = tuple(map(int, row))  # Convierte los strings a enteros
+            solutions.append(sol)
+
+    parallel_face_colors = {
+        'top_bottom': 'purple',
+        'front_back': 'orange',
+        'left_right': 'cyan'
+    }
+
+    # Caras agrupadas por paralelismo (cada par son dos triángulos)
+    parallel_faces = [
+        # Inferior (z=c) y superior (z=10)
+        {
+            'faces': [(0, 1, 2), (0, 2, 3), (4, 5, 6), (4, 6, 7)],
+            'color': parallel_face_colors['top_bottom']
+        },
+        # Frontal (y=b) y trasera (y=15)
+        {
+            'faces': [(0, 1, 5), (0, 5, 4), (2, 3, 7), (2, 7, 6)],
+            'color': parallel_face_colors['front_back']
+        },
+        # Derecha (x=20) e izquierda (x=a)
+        {
+            'faces': [(1, 2, 6), (1, 6, 5), (0, 3, 7), (0, 7, 4)],
+            'color': parallel_face_colors['left_right']
+        }
+    ]
+
+    for sol in solutions:
+        a, b, c = sol[0], sol[1], sol[2]
+
+        # Coordenadas de los 8 vértices del cubo
+        x = [a, n1, n1, a, a, n1, n1, a]
+        y = [b, b, n2, n2, b, b, n2, n2]
+        z = [c, c, c, c, n3, n3, n3, n3]
+
+        # Añadir una traza Mesh3d por cada par de caras con mismo color
+        for group in parallel_faces:
+            color = group['color']
+            face_tris = group['faces']
+
+            i_vals = [f[0] for f in face_tris]
+            j_vals = [f[1] for f in face_tris]
+            k_vals = [f[2] for f in face_tris]
+
+            fig.add_trace(go.Mesh3d(
+                x=x, y=y, z=z,
+                i=i_vals, j=j_vals, k=k_vals,
+                color=color,
+                opacity=1,
+                flatshading=True,
+                showscale=False
+            ))
+
+    # Dibujar puntos
+    f1, f2, f3 = zip(*solutions)
+    fig.add_trace(go.Scatter3d(
+        x=f1, y=f2, z=f3,
+        mode='markers',
+        marker=dict(size=4, color='black'),
+        name='Soluciones'
+    ))
+
+    fig.update_layout(scene=dict(aspectmode='data'))
+    fig.write_html(output_html_path)
+    print(f"3D PF saved in {output_html_path}.")
+
+
+def traverse_and_PF_plot(input_path, output_path):
+    carpeta_graficas = os.path.join(output_path, "PF3D")
+    os.makedirs(carpeta_graficas, exist_ok=True)
+
+    for proyecto in os.listdir(input_path):
+        ruta_proyecto = os.path.join(input_path, proyecto)
+        if not os.path.isdir(ruta_proyecto) or proyecto == "PF3D":
+            continue
+
+        # Carpeta del proyecto dentro de GRÁFICAS
+        carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{proyecto}_PF_3D")
+        os.makedirs(carpeta_salida_proyecto, exist_ok=True)
+
+        for carpeta_clase_metodo in os.listdir(ruta_proyecto):
+            ruta_metodo = os.path.join(ruta_proyecto, carpeta_clase_metodo)
+            if not os.path.isdir(ruta_metodo):
+                continue
+
+            for archivo in os.listdir(ruta_metodo):
+                if archivo.endswith("_results.csv"):
+                    ruta_csv = os.path.join(ruta_metodo, archivo)
+                    salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}.html")
+                    print(f"Generating Pf 3D for: {ruta_csv}")
+                    generate_PF_plot(ruta_csv, salida_html)
 
 
 def generate_plot(csv_path, output_pdf_path):
@@ -511,11 +637,15 @@ def obtain_arguments():
                              f' "obj1,obj2" or "obj1,obj2,ob3".')
     parser.add_argument('--plot', action='store_true',
                         help=f'Plots the result of the given result. It gives just one plot.')
+    parser.add_argument('--3dPF', action='store_true',
+                        help=f'Plots the 3D PF of the given result. It gives just one PF plot.')
     parser.add_argument( '--all_plots', action='store_true',
                         help=f'Plots all results in a given directory. More than one plot will be created.')
     parser.add_argument('--statistics', action='store_true',
                         help=f'Creates a CSV file with the statistics of all the results found in a given directory.'
                              f'The statistics are: hypervolume, median, iqr, average and std for each objective.')
+    parser.add_argument('--all_3dPF', action='store_true',
+                        help=f'Plots all 3D PFs in a given directory. More than one PF plot will be created.')
     parser.add_argument('--input', dest='input_dir', type=str, default=None,
                         help=f'The input path for plots and/or statistics can be specified,'
                              f' and if there is no input path, the output path will be the general "output/results" '
@@ -593,11 +723,23 @@ if __name__ == '__main__':
     else:
         single_plot = False
 
+    # Single 3D PF plot True if there is --3dPF
+    if args["3dPF"]:
+        single_3D_PF = True
+    else:
+        single_3D_PF = False
+
     # All plots True if there is --all_plots
     if args["all_plots"]:
         all_plots = True
     else:
         all_plots = False
+
+    # All plots True if there is --all_plots
+    if args["all_3dPF"]:
+        all_3DPF = True
+    else:
+        all_3DPF = False
 
     # Statistics True if there is --statistics
     if args["statistics"]:
@@ -635,14 +777,21 @@ if __name__ == '__main__':
         input_general_path = f"output/results/{general_path}"
         results_csv_path = f"{input_general_path}_results.csv"
         single_plot_path = f"{input_general_path}_plot.pdf"
+        single_3D_PF_path = f"{input_general_path}_3DPF.html"
 
         if single_plot:
             generate_plot(results_csv_path, single_plot_path)
+        if single_3D_PF:
+            generate_PF_plot(results_csv_path, single_3D_PF_path)
 
     if all_plots:
         traverse_and_plot(input_dir, output_dir)
 
     if statistics:
         generate_statistics(input_dir, output_dir)
+
+    if all_3DPF:
+        traverse_and_PF_plot(input_dir, output_dir)
+
     
     

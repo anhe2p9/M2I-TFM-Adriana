@@ -4,13 +4,11 @@ import numpy as np
 import pandas as pd
 import os
 
+import utils.algorithms_utils as algorithm_utils
+
 from ILP_CC_reducer.models import ILPmodelRsain
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
-
-import general_utils
-
-
 
 
 class ObtainResultsAlgorithm(Algorithm):
@@ -33,7 +31,7 @@ class ObtainResultsAlgorithm(Algorithm):
 
         data_row = []
 
-        general_utils.modify_component(model,'tau',
+        algorithm_utils.modify_component(model,'tau',
                                        pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False))
 
         data_row.append(folders_data["project"])
@@ -54,7 +52,7 @@ class ObtainResultsAlgorithm(Algorithm):
         if not objective:
             objective = model.sequences_objective
 
-        general_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: objective(m)))
+        algorithm_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: objective(m)))
     
         # Verificar si todos los archivos han sido encontrados
         if len(data.get("missingFiles")) == 0 and "sequences" not in data["emptyFiles"]:

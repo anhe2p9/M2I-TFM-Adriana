@@ -7,13 +7,11 @@ import time
 import numpy as np
 import pandas as pd
 
+import utils.algorithms_utils as algorithms_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 from ILP_CC_reducer.models import ILPmodelRsain
-
-import general_utils
-
 
 Box3D = Tuple[float, float, float]
 Point3D = Tuple[float, float, float]
@@ -89,12 +87,12 @@ def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
 
     obj1, obj2, obj3 = objectives_list
 
-    general_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
+    algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
         rule=lambda m: multiobjective_model.weighted_sum_hybrid_method(m, obj1, obj2, obj3)))  # min f1(x) - (lambda2 * l2 + lambda3 * l3)
 
     add_boxes_constraints(box, objectives_list)
 
-    concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)
+    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file

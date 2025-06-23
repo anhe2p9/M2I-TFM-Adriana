@@ -1,14 +1,10 @@
 import pyomo.environ as pyo  # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp  # permite cargar datos para usar en esos modelos de optimización
 
-# import sys
-# import csv
-# import os
+import utils.algorithms_utils as algorithms_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
-
-import general_utils
 
 multiobjective_model = MultiobjectiveILPmodel()
 
@@ -36,7 +32,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
         multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
 
         """ z <- Solve {min f2(x) subject to x in X} """
-        concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)
+        concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
             f1z = solve_min_f1_subject_to_f2x_lower_than_f2z(obj1, obj2, concrete, output_data, data)
@@ -55,7 +51,7 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
             """ While exists x in X that makes f1(x) <= epsilon do """
             while solution_found:
                 """ estimate a lambda value > 0 """
-                general_utils.modify_component(multiobjective_model, 'lambda_value',
+                algorithms_utils.modify_component(multiobjective_model, 'lambda_value',
                                                   pyo.Param(initialize=(1/(f1z-u1)), mutable=True))
 
                 """ Solve epsilon constraint problem """
@@ -86,11 +82,11 @@ def solve_min_f1_subject_to_f2x_lower_than_f2z(obj1: pyo.Objective, obj2: pyo.Ob
         initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
     multiobjective_model.f2Constraint = pyo.Constraint(
         rule=lambda m: multiobjective_model.second_obj_diff_constraint(m, obj2))  # new constraint: f2(x) <= f2(z)
-    general_utils.modify_component(multiobjective_model, 'obj',
+    algorithms_utils.modify_component(multiobjective_model, 'obj',
                                       pyo.Objective(rule=lambda m: obj1(m)))  # new objective: min f1(x)
 
     """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
-    concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)
+    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
     multiobjective_model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
 
     f1z = round(pyo.value(obj1(concrete)))  # f1(z) := f1z
@@ -124,12 +120,12 @@ def solve_min_f2_subject_to_epsilon_constraint(obj1: pyo.Objective, obj2: pyo.Ob
     """
     z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon}
     """
-    general_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
+    algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
         rule=lambda m: multiobjective_model.epsilon_objective_2obj(m, obj2)))  # min f2(x) - lambda * l
-    general_utils.modify_component(multiobjective_model, 'epsilonConstraint', pyo.Constraint(
+    algorithms_utils.modify_component(multiobjective_model, 'epsilonConstraint', pyo.Constraint(
         rule=lambda m: multiobjective_model.epsilon_constraint_2obj(m, obj1)))  # f1(x) + l = epsilon
 
-    concrete, result = general_utils.concrete_and_solve_model(multiobjective_model, data)  # Solve problem
+    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)  # Solve problem
 
     return concrete,result
 
@@ -153,7 +149,7 @@ def update_pareto_front_and_params(concrete: pyo.ConcreteModel, obj1: pyo.Object
     csv_data.append(new_row)
 
     """ epsilon = f1(z) - 1 """
-    general_utils.modify_component(multiobjective_model, 'epsilon',
+    algorithms_utils.modify_component(multiobjective_model, 'epsilon',
                                       pyo.Param(initialize=f1z - 1, mutable=True))
 
     # lower bound for f1(x) (it has to decrease with f1z)

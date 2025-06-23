@@ -2,10 +2,8 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import sys
-import general_utils
 
-# import csv
-# import os
+import utils.algorithms_utils as algorithm_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -51,7 +49,7 @@ class WeightedSumAlgorithm(Algorithm):
     
             for i in range(args+1):
                 for j in range(args+1):
-                    w1, w2, w3 = general_utils.generate_three_weights(args, i, j)
+                    w1, w2, w3 = algorithm_utils.generate_three_weights(args, i, j)
                     
                     _, newrow, _ = process_weighted_model(multiobjective_model, data, w1 ,w2, w3, obj1, obj2, obj3)
                     
@@ -73,7 +71,7 @@ class WeightedSumAlgorithm(Algorithm):
             
             concrete.pprint()
             
-            general_utils.print_result_and_sequences(concrete, results.solver.status)
+            algorithm_utils.print_result_and_sequences(concrete, results.solver.status)
             print(results)
             
         else:
@@ -87,9 +85,9 @@ class WeightedSumAlgorithm(Algorithm):
 
 def process_weighted_model(model: MultiobjectiveILPmodel, data: dp.DataPortal, w1 ,w2, w3, obj1, obj2, obj3):
     
-    general_utils.modify_component(model, 'obj',
+    algorithm_utils.modify_component(model, 'obj',
                                    pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
-    concrete, results = general_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
+    concrete, results = algorithm_utils.concrete_and_solve_model(model, data) # para crear una instancia de modelo y hacerlo concreto
     
     newrow_values = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete)), pyo.value(obj3(concrete))]
     newrow = [round(w1,2),round(w2,2),round(w3,2)] + newrow_values

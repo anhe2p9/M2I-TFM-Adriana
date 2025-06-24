@@ -25,107 +25,107 @@ def generate_PF_plot(results_path, output_html_path):
     else:
         columnas_numericas = df.select_dtypes(include=[np.number])
         if columnas_numericas.shape[1] < 3:
-            raise ValueError("Less than 3 numeric columns.")
+            print("Less than 3 numeric columns.")
+        else:
+            # Seleccionar primeras 3 columnas numéricas
+            objetivos = columnas_numericas.iloc[:, :3].values
+            nombres_objetivos = columnas_numericas.columns[:3]
 
-        # Seleccionar primeras 3 columnas numéricas
-        objetivos = columnas_numericas.iloc[:, :3].values
-        nombres_objetivos = columnas_numericas.columns[:3]
+            if objetivos.size == 0:
+                print("Without numeric values.")
+            else:
+                # Calculate nadir directly from Pareto front
+                nadir = np.max(objetivos, axis=0)
+                ref_point = nadir + 1
 
-        if objetivos.size == 0:
-            raise ValueError("Without numeric values.")
+                fig = go.Figure()
 
-        # Calculate nadir directly from Pareto front
-        nadir = np.max(objetivos, axis=0)
-        ref_point = nadir + 1
+                n1, n2, n3 = ref_point
 
-        fig = go.Figure()
+                solutions = []
+                with open(results_path, newline='') as csvfile:
+                    lector = csv.reader(csvfile)
+                    next(lector)  # Saltar la cabecera
+                    for row in lector:
+                        sol = tuple(map(int, row))  # Convierte los strings a enteros
+                        solutions.append(sol)
 
-        n1, n2, n3 = ref_point
+                parallel_face_colors = {
+                    'top_bottom': 'purple',
+                    'front_back': 'orange',
+                    'left_right': 'cyan'
+                }
 
-        solutions = []
-        with open(results_path, newline='') as csvfile:
-            lector = csv.reader(csvfile)
-            next(lector)  # Saltar la cabecera
-            for row in lector:
-                sol = tuple(map(int, row))  # Convierte los strings a enteros
-                solutions.append(sol)
+                # Caras agrupadas por paralelismo (cada par son dos triángulos)
+                parallel_faces = [
+                    # Inferior (z=c) y superior (z=10)
+                    {
+                        'faces': [(0, 1, 2), (0, 2, 3), (4, 5, 6), (4, 6, 7)],
+                        'color': parallel_face_colors['top_bottom']
+                    },
+                    # Frontal (y=b) y trasera (y=15)
+                    {
+                        'faces': [(0, 1, 5), (0, 5, 4), (2, 3, 7), (2, 7, 6)],
+                        'color': parallel_face_colors['front_back']
+                    },
+                    # Derecha (x=20) e izquierda (x=a)
+                    {
+                        'faces': [(1, 2, 6), (1, 6, 5), (0, 3, 7), (0, 7, 4)],
+                        'color': parallel_face_colors['left_right']
+                    }
+                ]
 
-        parallel_face_colors = {
-            'top_bottom': 'purple',
-            'front_back': 'orange',
-            'left_right': 'cyan'
-        }
+                for sol in solutions:
+                    a, b, c = sol[0], sol[1], sol[2]
 
-        # Caras agrupadas por paralelismo (cada par son dos triángulos)
-        parallel_faces = [
-            # Inferior (z=c) y superior (z=10)
-            {
-                'faces': [(0, 1, 2), (0, 2, 3), (4, 5, 6), (4, 6, 7)],
-                'color': parallel_face_colors['top_bottom']
-            },
-            # Frontal (y=b) y trasera (y=15)
-            {
-                'faces': [(0, 1, 5), (0, 5, 4), (2, 3, 7), (2, 7, 6)],
-                'color': parallel_face_colors['front_back']
-            },
-            # Derecha (x=20) e izquierda (x=a)
-            {
-                'faces': [(1, 2, 6), (1, 6, 5), (0, 3, 7), (0, 7, 4)],
-                'color': parallel_face_colors['left_right']
-            }
-        ]
+                    # Coordenadas de los 8 vértices del cubo
+                    x = [a, n1, n1, a, a, n1, n1, a]
+                    y = [b, b, n2, n2, b, b, n2, n2]
+                    z = [c, c, c, c, n3, n3, n3, n3]
 
-        for sol in solutions:
-            a, b, c = sol[0], sol[1], sol[2]
+                    # Añadir una traza Mesh3d por cada par de caras con mismo color
+                    for group in parallel_faces:
+                        color = group['color']
+                        face_tris = group['faces']
 
-            # Coordenadas de los 8 vértices del cubo
-            x = [a, n1, n1, a, a, n1, n1, a]
-            y = [b, b, n2, n2, b, b, n2, n2]
-            z = [c, c, c, c, n3, n3, n3, n3]
+                        i_vals = [f[0] for f in face_tris]
+                        j_vals = [f[1] for f in face_tris]
+                        k_vals = [f[2] for f in face_tris]
 
-            # Añadir una traza Mesh3d por cada par de caras con mismo color
-            for group in parallel_faces:
-                color = group['color']
-                face_tris = group['faces']
+                        fig.add_trace(go.Mesh3d(
+                            x=x, y=y, z=z,
+                            i=i_vals, j=j_vals, k=k_vals,
+                            color=color,
+                            opacity=1,
+                            flatshading=True,
+                            showscale=False
+                        ))
 
-                i_vals = [f[0] for f in face_tris]
-                j_vals = [f[1] for f in face_tris]
-                k_vals = [f[2] for f in face_tris]
-
-                fig.add_trace(go.Mesh3d(
-                    x=x, y=y, z=z,
-                    i=i_vals, j=j_vals, k=k_vals,
-                    color=color,
-                    opacity=1,
-                    flatshading=True,
-                    showscale=False
+                # Dibujar puntos
+                f1, f2, f3 = zip(*solutions)
+                fig.add_trace(go.Scatter3d(
+                    x=f1, y=f2, z=f3,
+                    mode='markers',
+                    marker=dict(size=4, color='black'),
+                    name='Soluciones'
                 ))
 
-        # Dibujar puntos
-        f1, f2, f3 = zip(*solutions)
-        fig.add_trace(go.Scatter3d(
-            x=f1, y=f2, z=f3,
-            mode='markers',
-            marker=dict(size=4, color='black'),
-            name='Soluciones'
-        ))
+                objective_map = {
+                    model.sequences_objective.__name__: r"SEQUENCES<sub>sum</sub>",
+                    model.cc_difference_objective.__name__: r"CC<sub>diff</sub>",
+                    model.loc_difference_objective.__name__: r"LOC<sub>diff</sub>"
+                }
 
-        objective_map = {
-            model.sequences_objective.__name__: r"SEQUENCES<sub>sum</sub>",
-            model.cc_difference_objective.__name__: r"CC<sub>diff</sub>",
-            model.loc_difference_objective.__name__: r"LOC<sub>diff</sub>"
-        }
+                x_label = objective_map.get(nombres_objetivos[0])
+                y_label = objective_map.get(nombres_objetivos[1])
+                z_label = objective_map.get(nombres_objetivos[2])
 
-        x_label = objective_map.get(nombres_objetivos[0])
-        y_label = objective_map.get(nombres_objetivos[1])
-        z_label = objective_map.get(nombres_objetivos[2])
-
-        fig.update_layout(scene=dict(xaxis_title=x_label,
-                                     yaxis_title=y_label,
-                                     zaxis_title=z_label,
-                                     aspectmode='data'))
-        fig.write_html(output_html_path)
-        print(f"3D PF saved in {output_html_path}.")
+                fig.update_layout(scene=dict(xaxis=dict(title=dict(text=x_label, font=dict(size=25))),
+                                             yaxis=dict(title=dict(text=y_label, font=dict(size=25))),
+                                             zaxis=dict(title=dict(text=z_label, font=dict(size=25))),
+                                             aspectmode='data'))
+                fig.write_html(output_html_path)
+                print(f"3D PF saved in {output_html_path}.")
 
 
 def traverse_and_PF_plot(input_path, output_path):

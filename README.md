@@ -80,24 +80,24 @@ python main.py [OPTIONS]
 
 ## 🔧 Arguments
 
-| Argument               | Description |
-|------------------------|-------------|
-| `-f`, `--file`         | Path to a `.ini` file containing all parameters. |
-| `-m`, `--modeltype`    | Type of model: `uniobjective` or `multiobjective`. |
+| Argument               | Description                                                                                           |
+|------------------------|-------------------------------------------------------------------------------------------------------|
+| `-f`, `--file`         | Path to a `.ini` file containing all parameters.                                                      |
+| `-m`, `--modeltype`    | Type of model: `uniobjective` or `multiobjective`.                                                    |
 | `-i`, `--instance`     | Path to the model instance. For multi-objective, this should be a folder containing three `.csv` files. |
-| `-a`, `--algorithm`    | Algorithm to use for solving multi-objective problems. Must be one of: `[ALGORITHMS_NAMES]`. |
-| `-t`, `--tau`          | Threshold (τ) used in optimization (e.g., for ε-constraint). |
-| `-s`, `--subdivisions` | Number of subdivisions for generating weighted combinations. |
-| `-w`, `--weights`      | Specific weights for weighted sum: `w1,w2,w3`. |
-| `-o`, `--objectives`   | Objectives to minimize, e.g., `obj1,obj2` or `obj1,obj2,obj3`. |
-| `--plot`               | Plot the result of a specific experiment. |
-| `--3dPF`               | Plots the 3D PF of the given result. |
-| `--all_plots`          | Plot all results in the given directory. |
-| `--all_3dPF`           | Plots all 3D PFs in a given directory. |
-| `--statistics`         | Generate a CSV file with statistics for all results in the given directory. |
-| `--input`              | Input directory for results (used for plotting/statistics). Defaults to `output/results`. |
-| `--output`             | Output directory for plots/statistics. Defaults to `output/plots_and_statistics`. |
-| `--save`               | Save current configuration to a `.ini` file. |
+| `-a`, `--algorithm`    | Algorithm to use for solving multi-objective problems. Must be one of: `[ALGORITHMS_NAMES]`.          |
+| `-t`, `--tau`          | Threshold (τ) used in optimization (e.g., for ε-constraint).                                          |
+| `-s`, `--subdivisions` | Number of subdivisions for generating weighted combinations.                                          |
+| `-w`, `--weights`      | Specific weights for weighted sum: `w1,w2,w3`.                                                        |
+| `-o`, `--objectives`   | Objectives to minimize, e.g., `obj1,obj2` or `obj1,obj2,obj3`.                                        |
+| `--plot`               | Plot the result of a specific experiment.                                                             |
+| `--3dPF`               | Plot the 3D PF of the given result.                                                                   |
+| `--all_plots`          | Plot all results in the given directory.                                                              |
+| `--all_3dPF`           | Plot all 3D PFs in a given directory.                                                                 |
+| `--statistics`         | Generate a CSV file with statistics for all results in the given directory.                           |
+| `--input`              | Input directory for results (used for plotting/statistics). Defaults to `output/results`.             |
+| `--output`             | Output directory for plots/statistics. Defaults to `output/plots_and_statistics`.                     |
+| `--save`               | Save current configuration to a `.ini` file.                                                          |
 
 
 

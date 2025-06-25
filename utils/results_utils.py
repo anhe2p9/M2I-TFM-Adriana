@@ -170,7 +170,7 @@ def generate_plot(csv_path, output_pdf_path):
     objetivos_cols = df.columns
 
     objective_map = {
-        model.sequences_objective.__name__: r"SEQUENCES$_{sum}$",
+        model.sequences_objective.__name__: r"EXTRACTIONS",
         model.cc_difference_objective.__name__: r"CC$_{diff}$",
         model.loc_difference_objective.__name__: r"LOC$_{diff}$"
     }
@@ -235,7 +235,7 @@ def traverse_and_plot(input_path: str, output_path: str):
             for archivo in os.listdir(ruta_metodo):
                 if archivo.endswith("_results.csv"):
                     ruta_csv = os.path.join(ruta_metodo, archivo)
-                    salida_pdf = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_parallel_coordinates_plot.pdf.pdf")
+                    salida_pdf = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_parallel_coordinates_plot.pdf")
                     print(f"Generando gráfica para: {ruta_csv}")
                     generate_plot(ruta_csv, salida_pdf)
 

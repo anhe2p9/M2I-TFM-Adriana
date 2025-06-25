@@ -51,9 +51,9 @@ def generate_PF_plot(results_path, output_html_path):
                         solutions.append(sol)
 
                 parallel_face_colors = {
-                    'top_bottom': 'purple',
-                    'front_back': 'orange',
-                    'left_right': 'cyan'
+                    'top_bottom': "#E6E6FA",
+                    'front_back': "#FFDAB9",
+                    'left_right': "#C1FFC1"
                 }
 
                 # Caras agrupadas por paralelismo (cada par son dos triángulos)
@@ -106,12 +106,12 @@ def generate_PF_plot(results_path, output_html_path):
                 fig.add_trace(go.Scatter3d(
                     x=f1, y=f2, z=f3,
                     mode='markers',
-                    marker=dict(size=4, color='black'),
+                    marker=dict(size=10, color='black'),
                     name='Soluciones'
                 ))
 
                 objective_map = {
-                    model.sequences_objective.__name__: r"SEQUENCES<sub>sum</sub>",
+                    model.sequences_objective.__name__: r"EXTRACTIONS",
                     model.cc_difference_objective.__name__: r"CC<sub>diff</sub>",
                     model.loc_difference_objective.__name__: r"LOC<sub>diff</sub>"
                 }
@@ -142,16 +142,17 @@ def traverse_and_PF_plot(input_path, output_path):
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
         for carpeta_clase_metodo in os.listdir(ruta_proyecto):
-            ruta_metodo = os.path.join(ruta_proyecto, carpeta_clase_metodo)
-            if not os.path.isdir(ruta_metodo):
-                continue
+            if carpeta_clase_metodo.startswith('HybridMethodForThreeObj'):
+                ruta_metodo = os.path.join(ruta_proyecto, carpeta_clase_metodo)
+                if not os.path.isdir(ruta_metodo):
+                    continue
 
-            for archivo in os.listdir(ruta_metodo):
-                if archivo.endswith("_results.csv"):
-                    ruta_csv = os.path.join(ruta_metodo, archivo)
-                    salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_3DPF.html")
-                    print(f"Generating Pf 3D for: {ruta_csv}")
-                    generate_PF_plot(ruta_csv, salida_html)
+                for archivo in os.listdir(ruta_metodo):
+                    if archivo.endswith("_results.csv"):
+                        ruta_csv = os.path.join(ruta_metodo, archivo)
+                        salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_3DPF.html")
+                        print(f"Generating Pf 3D for: {ruta_csv}")
+                        generate_PF_plot(ruta_csv, salida_html)
 
 
 def generate_plot(csv_path, output_pdf_path):

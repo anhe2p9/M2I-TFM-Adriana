@@ -8,7 +8,7 @@ Multi-objective Integer Linear Programming approach for Automatic Software Cogni
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-- [ILP Model](#ilp-model)
+- [ILP Model](#ilp-model-engine)
   - [Requirements](#️-requirements)
   - [Download and Installation](#️-download-and-installation)
   - [Overview](#️-overview)
@@ -27,7 +27,7 @@ Multi-objective Integer Linear Programming approach for Automatic Software Cogni
 This project provides a command-line engine for solving ILP (Integer Linear Programming) problems related to reducing cognitive complexity in Java code refactorings at the method level. The tool supports solving both single-objective and multi-objective ILP instances using various algorithms and configurations.
 
 
-## 📦  Requirements
+## 📦 Requirements
 - [Python 3.9+](https://www.python.org/)
 - [CPLEX](https://www.ibm.com/es-es/products/ilog-cplex-optimization-studio)
 

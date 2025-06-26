@@ -288,8 +288,8 @@ def obtain_arguments():
                         help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None,
                         help='Model instance to be optimized. '
-                             'It can be the name of the folder with the three data files in CSV format for multiobjective'
-                             'or the name of the general folder with all instances for one objective.')
+                             'It can be the folder path with the three data files in CSV format for multiobjective'
+                             'or the general folder path with all instances for one objective.')
     parser.add_argument('-a', '--algorithm', dest='ilp_algorithm', type=str, default=None,
                         help=f'Algorithm to be applied to the model instance in the case of multiobjective ILP:'
                              f' {[a for a in ALGORITHMS_NAMES]}.')

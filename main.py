@@ -9,6 +9,8 @@ import argparse
 import configparser
 from pathlib import Path
 
+from grapheme import length
+
 import utils.results_utils as results_utils
 
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
@@ -404,6 +406,8 @@ if __name__ == '__main__':
         
     # Turn "obj1,obj2" into (str,str) if --objectives is a parameter in command line
     if objectives:
+        if length(objectives) != num_of_objectives:
+            sys.exit("The length of the objectives list mus be the same as the number of objectives specified.")
         objectives = tuple(map(str, objectives.split(",")))
 
     # Single plot True if there is --single_plot

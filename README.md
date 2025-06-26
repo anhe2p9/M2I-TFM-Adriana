@@ -9,17 +9,17 @@ Multi-objective Integer Linear Programming approach for Automatic Software Cogni
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [ILP Model](#ilp-model)
-  - [Requirements](#requirements)
-  - [Download and Installation](#download-and-installation)
-  - [Overview](#execution-of-the-ilp-model)
-  - [Problem Context](...)
-  - [Getting Started](...)
-  - [Arguments](...)
-  - [Output Types](...)
-  - [Objectives (Cognitive Complexity Metrics)](...)
-  - [Additional Script](...)
-  - [Example](...)
-  - [Project Structure](...)
+  - [Requirements](#️-requirements)
+  - [Download and Installation](#️-download-and-installation)
+  - [Overview](#️-overview)
+  - [Problem Context](#️-problem-context)
+  - [Getting Started](#️-getting-started)
+  - [Arguments](#️-arguments)
+  - [Output Types](#️-output-types)
+  - [Objectives (Cognitive Complexity Metrics)](#️-objectives-cognitive-complexity-metrics)
+  - [Additional Script](#️-additional-script)
+  - [Example](#️-examples)
+  - [Project Structure](#️-project-structure)
 
   
 # ILP Model Engine

@@ -7,19 +7,19 @@ Multi-objective Integer Linear Programming approach for Automatic Software Cogni
 
 
 # Table of Contents
-- [Table of Contents](#table-of-contents)
-- [ILP Model](#ilp-model-engine)
-  - [Requirements](#️-requirements)
-  - [Download and Installation](#️-download-and-installation)
-  - [Overview](#️-overview)
-  - [Problem Context](#️-problem-context)
-  - [Getting Started](#️-getting-started)
-  - [Arguments](#️-arguments)
-  - [Output Types](#️-output-types)
-  - [Objectives (Cognitive Complexity Metrics)](#️-objectives-cognitive-complexity-metrics)
-  - [Additional Script](#️-additional-script)
-  - [Example](#️-example)
-  - [Project Structure](#️-project-structure)
+- [Table of Contents](#-table-of-contents)
+- [ILP Model](#-ilp-model-engine)
+  - [Requirements](##-📦-requirements)
+  - [Download and Installation](##-⬇️-download-and-installation)
+  - [Overview](##-💡-overview)
+  - [Problem Context](##-🧠-problem-context)
+  - [Getting Started](##-🚀-getting-started)
+  - [Arguments](##-🔧-arguments)
+  - [Output Types](##-🧪-output-types)
+  - [Objectives (Cognitive Complexity Metrics)](##-🧠-objectives-cognitive-complexity-metrics))
+  - [Additional Script](##-🗂️-additional-script)
+  - [Example](##-📘-examples)
+  - [Project Structure](##-📂-project-structure)
 
   
 # ILP Model Engine
@@ -157,7 +157,7 @@ The arguments for this file is the `input_folder` and `output_folder`.
 
 ---
 
-##  📘  Examples
+## 📘 Examples
 
 ```bash
 python main.py -m multiobjective -i ./instances/my_instance -a HybirdMethodForThreeObj -t 15 -o seq,cc,loc --plot
@@ -165,7 +165,7 @@ python main.py -m multiobjective -i ./instances/my_instance -a WeightedSumAlgori
 python input_files_main.py ./input_folder ./output_folder
 ```
 
-##  📂 Project Structure
+## 📂 Project Structure
     📁 M2I-TFM-Adriana  
     ├── 📁 ILP_CC_reducer  
     │   ├── 📁 algorithm  

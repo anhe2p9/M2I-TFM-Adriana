@@ -103,8 +103,8 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
 
 
 
-def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdivisions: tuple=None,
-                        weights: tuple=None, objectives: tuple=None):
+def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: Path, tau: int=15,
+                        subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
 
     if objectives:
         print(f"The objectives are: {objectives}")
@@ -128,9 +128,21 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
     
     # Process instance
     instance = model_engine.load_concrete(instance_folder, multiobjective_model)
-    
-    csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm, instance, tau,
-                                                                         subdivisions, weights, objectives_list)
+
+    complete_data, nadir = None, None
+
+    if alg_name == 'WeightedSumAlgorithm':
+        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance,tau,
+                                                                             num_of_objectives, subdivisions,
+                                                                             weights, objectives_list)
+    elif alg_name == 'EpsilonConstraintAlgorithm' or alg_name == 'HybridMethodForThreeObj':
+        csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
+                                                                                                   instance,
+                                                                                                   tau,
+                                                                                                   objectives_list)
+    else:
+        sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
+                 f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodForThreeObj.")
 
     method_name, class_name, project_name = get_all_path_names(instance_folder)
 
@@ -284,8 +296,10 @@ def obtain_arguments():
                     'One can also give as input a properties file path.')
     parser.add_argument('-f', '--file', dest='properties_file', type=str, default=None,
                         help=f'Properties file name in case one want to give every parameter from a .ini file.')
-    parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None,
-                        help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
+    parser.add_argument('-n', '--num_of_objectives', dest='num_of_objectives', type=str, default=None,
+                        help=f'Number of objectives to minimize.')
+    # parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None,
+    #                     help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None,
                         help='Model instance to be optimized. '
                              'It can be the folder path with the three data files in CSV format for multiobjective'
@@ -301,9 +315,9 @@ def obtain_arguments():
                         help=f'Weights assigned for weighted sum in the case of a specific combination of weights.'
                              f' Three weights w1,w2,w3 separated by comma (",").')
     parser.add_argument('-o', '--objectives', dest='objectives', type=str, default=None,
-                        help=f'Two objectives to minimize. '
+                        help=f'List of objectives to minimize. '
                              f'In case of two or three objectives, write them separated by comma (","):'
-                             f' "obj1,obj2" or "obj1,obj2,ob3".')
+                             f' "obj1", "obj1,obj2" or "obj1,obj2,ob3".')
     parser.add_argument('--plot', action='store_true',
                         help=f'Plots the result of the given result. It gives just one plot.')
     parser.add_argument('--3dPF', action='store_true',
@@ -350,7 +364,8 @@ if __name__ == '__main__':
         config = load_config(properties_file_path)
     
     
-    model_type = args['model_type'] if args['model_type'] else config.get('model_type')
+    # model_type = args['model_type'] if args['model_type'] else config.get('model_type')
+    num_of_objectives = int(args['num_of_objectives']) if args['num_of_objectives'] else int(config.get('num_of_objectives'))
     model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
     ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
     threshold = args['threshold'] if args['threshold'] else config.get('threshold')
@@ -359,6 +374,11 @@ if __name__ == '__main__':
     objectives = args['objectives'] if args['objectives'] else config.get('objectives')
     input_dir = args['input_dir'] if args['input_dir'] else config.get('input_dir')
     output_dir = args['output_dir'] if args['output_dir'] else config.get('output_dir')
+
+    # Check that there is number of objectives specified
+    if not num_of_objectives:
+        sys.exit(f'No number of objectives specified, please specify the number of objectives to minimize.'
+                 f' Type python main.py -h for help.')
     
     # Overwrite .ini file values with commandline values if it exists
     for key, value in args.items():
@@ -429,7 +449,7 @@ if __name__ == '__main__':
 
 
 
-    if model_type == 'uniobjective':
+    if num_of_objectives == 1:
         if model_instance:
             check_threshold(model_instance)
             if not ilp_algorithm:
@@ -437,9 +457,9 @@ if __name__ == '__main__':
             main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives)
         else:
             sys.exit('General instance folder required.')
-    elif model_type == 'multiobjective':
+    elif num_of_objectives > 1:
         check_threshold(model_instance)
-        main_multiobjective(ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
+        main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
 
         method_name, class_name, project_name = get_all_path_names(instance_path)
         general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"

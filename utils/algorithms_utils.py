@@ -79,7 +79,7 @@ def generate_three_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[i
         dict: Dictionary with subdivisions in spherical coordinates.
     """
     # Crear ángulos según las divisiones
-    angles = np.linspace(0, np.pi/2, n_divisions + 1)  # divisiones del plano
+    angles = np.linspace(0.1, np.pi/2, n_divisions + 1)  # divisiones del plano
     subdivisions = {i: angles[i] for i in range(n_divisions+1)}
     
     w1, w2, w3 =  [math.sin(subdivisions[theta_index])*math.cos(subdivisions[phi_index]),
@@ -100,7 +100,7 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
         dict: Dictionary with subdivisions in spherical coordinates.
     """
     # Crear ángulos según las divisiones
-    angles = np.linspace(0, np.pi/2, n_divisions + 1)  # divisiones del plano
+    angles = np.linspace(0.1, np.pi/2, n_divisions + 1)  # divisiones del plano
     subdivisions = {i: angles[i] for i in range(n_divisions+1)}
     
     w1, w2 =  [math.sin(subdivisions[theta_index]), math.cos(subdivisions[theta_index])]

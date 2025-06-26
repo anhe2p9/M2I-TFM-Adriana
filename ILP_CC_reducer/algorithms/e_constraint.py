@@ -9,7 +9,7 @@ from ILP_CC_reducer.models import MultiobjectiveILPmodel
 multiobjective_model = MultiobjectiveILPmodel()
 
 
-class EpsilonConstraintAlgorithm2obj(Algorithm):
+class EpsilonConstraintAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:

@@ -431,6 +431,7 @@ if __name__ == '__main__':
 
     if model_type == 'uniobjective':
         if model_instance:
+            check_threshold(model_instance)
             if not ilp_algorithm:
                 ilp_algorithm = 'ObtainResultsAlgorithm'
             main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives)

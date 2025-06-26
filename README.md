@@ -161,11 +161,26 @@ The arguments for this file is the `input_folder` and `output_folder`.
 
 ## 📘 Examples
 
+This command generates the input needed for the main module of the tool:
 ```bash
-python main.py -m multiobjective -i ./instances/my_instance -a HybirdMethodForThreeObj -t 15 -o seq,cc,loc --plot
-python main.py -m multiobjective -i ./instances/my_instance -a WeightedSumAlgorithm2obj -t 2 -s 6 -o seq,cc
 python input_files_main.py ./input_folder ./output_folder
 ```
+
+
+This command generates the solution for two-objectives ILP problem with weighted sum algorithm for two objectives:
+```bash
+python main.py -m multiobjective -i ./instances/my_instance -a WeightedSumAlgorithm2obj -t 2 -s 6 -o seq,cc
+```
+
+
+This command generates the solution for three-objectives ILP problem with hybrid method algorithm for three objectives, and it also generates the parallel coordinates plot and the complete Pareto front in three dimensions:
+```bash
+python main.py -m multiobjective -i ./instances/my_instance -a HybirdMethodForThreeObj -t 15 -o seq,cc,loc --plot --3dPF
+```
+
+
+
+
 
 ## 📂 Project Structure
     📁 M2I-TFM-Adriana  

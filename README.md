@@ -18,7 +18,7 @@ Multi-objective Integer Linear Programming approach for Automatic Software Cogni
   - [Output Types](#️-output-types)
   - [Objectives (Cognitive Complexity Metrics)](#️-objectives-cognitive-complexity-metrics)
   - [Additional Script](#️-additional-script)
-  - [Example](#️-examples)
+  - [Example](#️-example)
   - [Project Structure](#️-project-structure)
 
   

@@ -37,15 +37,15 @@ class HybridMethodForThreeObj(Algorithm):
 
         start_total = time.time()
 
-        if not objectives_list:  # if there is no order, the order will be [SEQ,CC,LOC]
-            objectives_list = [multiobjective_model.sequences_objective,
+        if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
+            objectives_list = [multiobjective_model.extractions_objective,
                                multiobjective_model.cc_difference_objective,
                                multiobjective_model.loc_difference_objective]
 
         add_items_to_multiobjective_model(tau)
         concrete = uniobjective_model.create_instance(data)
 
-        nadir_dict = {multiobjective_model.sequences_objective: len(concrete.S)+1,
+        nadir_dict = {multiobjective_model.extractions_objective: len(concrete.S) + 1,
                       multiobjective_model.cc_difference_objective: concrete.nmcc[0]+1 ,
                       multiobjective_model.loc_difference_objective: concrete.loc[0]+1}
 
@@ -96,7 +96,7 @@ def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
-        ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in [multiobjective_model.sequences_objective,
+        ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in [multiobjective_model.extractions_objective,
                                                                          multiobjective_model.cc_difference_objective,
                                                                          multiobjective_model.loc_difference_objective])
 
@@ -262,7 +262,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
     complete_data_row = []
 
     objective_map = {
-        'sequences': multiobjective_model.sequences_objective,
+        'extractions': multiobjective_model.extractions_objective,
         'cc': multiobjective_model.cc_difference_objective,
         'loc': multiobjective_model.loc_difference_objective
     }
@@ -304,7 +304,7 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
         complete_data_row.append(offsets_list)
 
         """ Extractions """
-        extractions = round(pyo.value(objective_map['sequences'](concrete)))
+        extractions = round(pyo.value(objective_map['extractions'](concrete)))
         complete_data_row.append(extractions)
 
         """ Not nested solution """

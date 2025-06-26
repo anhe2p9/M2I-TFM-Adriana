@@ -111,7 +111,7 @@ def generate_PF_plot(results_path, output_html_path):
                 ))
 
                 objective_map = {
-                    model.sequences_objective.__name__: r"EXTRACTIONS",
+                    model.extractions_objective.__name__: r"EXTRACTIONS",
                     model.cc_difference_objective.__name__: r"CC<sub>diff</sub>",
                     model.loc_difference_objective.__name__: r"LOC<sub>diff</sub>"
                 }
@@ -170,7 +170,7 @@ def generate_plot(csv_path, output_pdf_path):
     objetivos_cols = df.columns
 
     objective_map = {
-        model.sequences_objective.__name__: r"EXTRACTIONS",
+        model.extractions_objective.__name__: r"EXTRACTIONS",
         model.cc_difference_objective.__name__: r"CC$_{diff}$",
         model.loc_difference_objective.__name__: r"LOC$_{diff}$"
     }

@@ -77,7 +77,7 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     
     
     @staticmethod
-    def sequences_objective(m):
+    def extractions_objective(m):
         return sum(m.x[j] for j in m.S)
     
     @staticmethod

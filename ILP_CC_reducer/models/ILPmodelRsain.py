@@ -66,7 +66,7 @@ class ILPmodelRsain(pyo.AbstractModel):
         return total_data
 
     @staticmethod
-    def sequences_objective(m):
+    def extractions_objective(m):
         return sum(m.x[j] for j in m.S)
 
     @staticmethod

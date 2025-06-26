@@ -27,7 +27,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
         print(f"The objective is: {objective}")
 
         objective_map = {
-            'SEQ': model.sequences_objective,
+            'EXTRACTIONS': model.extractions_objective,
             'CC': model.cc_difference_objective,
             'LOC': model.loc_difference_objective
         }
@@ -35,7 +35,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
         try:
             objective= next(objective_map[obj.upper()] for obj in objectives)
         except KeyError as e:
-            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
+            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: EXTRACTIONS, CC or LOC.")
     
     csv_data = ["project", "class", "method", "missingFile", "emptyFile",
          "numberOfSequences", "numberOfVariables", "numberOfConstraints",
@@ -86,7 +86,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                         "method": str(method_folder)
                                     }
 
-                    if objective.__name__ == 'sequences_objective':
+                    if objective.__name__ == 'extractions_objective':
                         results_csv = model_engine.apply_rsain_model(algorithm,instance, tau, folders_data, objective)
                     else:
                         results_csv = model_engine.apply_algorithm(algorithm, instance, tau, folders_data,
@@ -110,7 +110,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
         print(f"The objectives are: {objectives}")
 
         objective_map = {
-            'SEQ': multiobjective_model.sequences_objective,
+            'EXTRACTIONS': multiobjective_model.extractions_objective,
             'CC': multiobjective_model.cc_difference_objective,
             'LOC': multiobjective_model.loc_difference_objective
         }
@@ -118,7 +118,7 @@ def main_multiobjective(alg_name: str, instance_folder: Path, tau: int=15, subdi
         try:
             objectives_list = [objective_map[obj.upper()] for obj in objectives]
         except KeyError as e:
-            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: SEQ, CC or LOC.")
+            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: EXTRACTIONS, CC or LOC.")
     else:
         objectives_list = None
 

@@ -24,8 +24,8 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
         data = data_dict['data']
 
-        if not objectives_list:  # if there is no order, the order will be [SEQ,CC]
-            objectives_list = [multiobjective_model.sequences_objective,
+        if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
+            objectives_list = [multiobjective_model.extractions_objective,
                                multiobjective_model.cc_difference_objective]
 
         obj1, obj2 = objectives_list[:2]
@@ -95,7 +95,7 @@ def solve_min_f1_subject_to_f2x_lower_than_f2z(obj1: pyo.Objective, obj2: pyo.Ob
 
     f1z = round(pyo.value(obj1(concrete)))  # f1(z) := f1z
 
-    print(f"min f1(x), sequences, subject to f2(x) <= f2(z): {round(f1z)}\n")
+    print(f"min f1(x), extractions, subject to f2(x) <= f2(z): {round(f1z)}\n")
 
     return f1z
 

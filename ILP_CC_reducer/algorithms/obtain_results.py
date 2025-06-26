@@ -19,12 +19,12 @@ class ObtainResultsAlgorithm(Algorithm):
     
     @staticmethod
     def get_description() -> str:
-        return ("It obtains the solution for just sequences objective.")
+        return ("It obtains the solution for single-objective ILP problem.")
 
     @staticmethod
     def execute(data: dict, tau:int, folders_data: dict, objective: str=None) -> list[str]:
 
-        if objective.__name__ == 'sequences_objective':
+        if objective.__name__ == 'extractions_objective':
             model = ILPmodelRsain()
         else:
             model = MultiobjectiveILPmodel()
@@ -50,7 +50,7 @@ class ObtainResultsAlgorithm(Algorithm):
         data_row.append(empty_file)
 
         if not objective:
-            objective = model.sequences_objective
+            objective = model.extractions_objective
 
         algorithm_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: objective(m)))
     

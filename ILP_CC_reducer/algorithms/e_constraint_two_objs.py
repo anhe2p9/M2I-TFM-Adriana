@@ -24,6 +24,10 @@ class EpsilonConstraintAlgorithm2obj(Algorithm):
 
         data = data_dict['data']
 
+        if not objectives_list:  # if there is no order, the order will be [SEQ,CC]
+            objectives_list = [multiobjective_model.sequences_objective,
+                               multiobjective_model.cc_difference_objective]
+
         obj1, obj2 = objectives_list[:2]
         output_data = []
         csv_data = [[obj.__name__ for obj in objectives_list]]

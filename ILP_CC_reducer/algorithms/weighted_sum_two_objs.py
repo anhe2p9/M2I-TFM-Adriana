@@ -25,7 +25,11 @@ class WeightedSumAlgorithm2obj(Algorithm):
         
         multiobjective_model = MultiobjectiveILPmodel()
         data = data_dict['data']
-        
+
+        if not objectives_list:  # if there is no order, the order will be [SEQ,CC]
+            objectives_list = [multiobjective_model.sequences_objective,
+                               multiobjective_model.cc_difference_objective]
+
         obj1, obj2 = objectives_list[:2]
         
         csv_data = [[f"Weight1_{obj1.__name__}",f"Weight2_{obj2.__name__}",obj1.__name__,obj2.__name__]]

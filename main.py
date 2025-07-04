@@ -367,7 +367,7 @@ if __name__ == '__main__':
     
     
     # model_type = args['model_type'] if args['model_type'] else config.get('model_type')
-    num_of_objectives = int(args['num_of_objectives']) if args['num_of_objectives'] else int(config.get('num_of_objectives'))
+    num_of_objectives = int(args['num_of_objectives']) if args['num_of_objectives'] else config.get('num_of_objectives')
     model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
     ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
     threshold = args['threshold'] if args['threshold'] else config.get('threshold')
@@ -378,7 +378,7 @@ if __name__ == '__main__':
     output_dir = args['output_dir'] if args['output_dir'] else config.get('output_dir')
 
     # Check that there is number of objectives specified
-    if not num_of_objectives:
+    if model_instance and not num_of_objectives:
         sys.exit(f'No number of objectives specified, please specify the number of objectives to minimize.'
                  f' Type python main.py -h for help.')
     
@@ -403,12 +403,12 @@ if __name__ == '__main__':
     # Turn "w1,w2,w3" into (float,float,float) if --weights is a parameter in command line
     if weights:
         weights = tuple(map(float, weights.split(",")))
-        
+
     # Turn "obj1,obj2" into (str,str) if --objectives is a parameter in command line
     if objectives:
-        if length(objectives) != num_of_objectives:
-            sys.exit("The length of the objectives list mus be the same as the number of objectives specified.")
         objectives = tuple(map(str, objectives.split(",")))
+        if len(objectives) != num_of_objectives:
+            sys.exit("The length of the objectives list must be the same as the number of objectives specified.")
 
     # Single plot True if there is --single_plot
     if args["plot"]:
@@ -452,31 +452,35 @@ if __name__ == '__main__':
         output_dir = "output/plots_and_statistics"
 
 
-
-    if num_of_objectives == 1:
-        if model_instance:
+    if num_of_objectives:
+        if num_of_objectives == 1:
+            if model_instance:
+                check_threshold(model_instance)
+                if not ilp_algorithm:
+                    ilp_algorithm = 'ObtainResultsAlgorithm'
+                main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives)
+            else:
+                sys.exit('General instance folder required.')
+        elif num_of_objectives > 1 and model_instance:
             check_threshold(model_instance)
-            if not ilp_algorithm:
-                ilp_algorithm = 'ObtainResultsAlgorithm'
-            main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives)
-        else:
-            sys.exit('General instance folder required.')
-    elif num_of_objectives > 1:
-        check_threshold(model_instance)
-        main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
+            main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
 
-        method_name, class_name, project_name = get_all_path_names(instance_path)
-        general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"
+            method_name, class_name, project_name = get_all_path_names(instance_path)
+            general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"
 
-        input_general_path = f"output/results/{general_path}"
-        results_csv_path = f"{input_general_path}_results.csv"
-        single_plot_path = f"{input_general_path}_parallel_coordinates_plot.pdf"
-        single_3D_PF_path = f"{input_general_path}_3DPF.html"
+            input_general_path = f"output/results/{general_path}"
+            results_csv_path = f"{input_general_path}_results.csv"
+            single_3D_PF_path = f"{input_general_path}_3DPF.html"
 
-        if single_plot:
-            results_utils.generate_plot(results_csv_path, single_plot_path)
-        if single_3D_PF:
-            results_utils.generate_PF_plot(results_csv_path, single_3D_PF_path)
+            if single_plot:
+                if num_of_objectives == 2:
+                    single_plot_path = f"{input_general_path}_2DPF_plot.pdf"
+                    results_utils.generate_2DPF_plot(results_csv_path, single_plot_path)
+                elif num_of_objectives == 3:
+                    single_plot_path = f"{input_general_path}_parallel_coordinates_plot.pdf"
+                    results_utils.generate_plot(results_csv_path, single_plot_path)
+            if single_3D_PF:
+                results_utils.generate_3DPF_plot(results_csv_path, single_3D_PF_path)
 
     if all_plots:
         results_utils.traverse_and_plot(input_dir, output_dir)

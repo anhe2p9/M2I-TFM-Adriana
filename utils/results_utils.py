@@ -25,7 +25,7 @@ def generate_2DPF_plot(results_path, output_pdf_path):
     else:
         columnas_numericas = df.select_dtypes(include=[np.number])
         if columnas_numericas.shape[1] < 2:
-            print("Less than 2 numeric columns.")
+            print("It is not possible to represent 2D PF because there is less than 2 numeric columns.")
         else:
             # Seleccionar primeras 3 columnas numéricas
             objetivos = columnas_numericas.iloc[:, :2].values
@@ -195,7 +195,7 @@ def generate_3DPF_plot(results_path, output_html_path):
     else:
         columnas_numericas = df.select_dtypes(include=[np.number])
         if columnas_numericas.shape[1] < 3:
-            print("Less than 3 numeric columns.")
+            print("It is not possible to represent 3D PF because there is less than 3 numeric columns.")
         else:
             # Seleccionar primeras 3 columnas numéricas
             objetivos = columnas_numericas.iloc[:, :3].values

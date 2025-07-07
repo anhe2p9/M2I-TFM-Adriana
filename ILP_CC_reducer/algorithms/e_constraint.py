@@ -73,9 +73,9 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
             """ epsilon <- f1(z) - 1 """
             multiobjective_model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)  # Epsilon parameter
-            multiobjective_model.l = pyo.Var(within=pyo.NonNegativeReals)  # l = epsilon - f1(x)
-            u1 = f1z - 1  # lower bound for f1(x)
-            multiobjective_model.lambda_value = pyo.Param(initialize=(1/((f1z-u1)*10**3)), mutable=True)  # Lambda parameter
+            multiobjective_model.s = pyo.Var(within=pyo.NonNegativeReals)  # s = epsilon - f1(x)
+            l1 = f1z - 1  # lower bound for f1(x)
+            multiobjective_model.lambda_value = pyo.Param(initialize=(1/((f1z-l1)*10**3)), mutable=True)  # Lambda parameter
 
             solution_found = (result.solver.status == 'ok') and (
                     result.solver.termination_condition == 'optimal')  # while loop control
@@ -84,7 +84,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
             while solution_found:
                 """ estimate a lambda value > 0 """
                 algorithms_utils.modify_component(multiobjective_model, 'lambda_value',
-                                                  pyo.Param(initialize=(1/((f1z-u1)*10**3)), mutable=True))
+                                                  pyo.Param(initialize=(1/((f1z-l1)*10**3)), mutable=True))
 
                 """ Solve epsilon constraint problem """
                 """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
@@ -109,7 +109,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
                                                       pyo.Param(initialize=f1z - 1, mutable=True))
 
                     # lower bound for f1(x) (it has to decrease with f1z)
-                    u1 = f1z - 1
+                    l1 = f1z - 1
                     add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
                 solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 

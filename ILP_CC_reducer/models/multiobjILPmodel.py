@@ -103,7 +103,7 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
     
     @staticmethod
     def epsilon_objective_2obj(m, obj):
-        return obj(m) - m.lambda_value * m.l
+        return obj(m) - m.lambda_value * m.s
 
     @staticmethod
     def second_obj_diff_constraint(m, obj):
@@ -111,7 +111,7 @@ class MultiobjectiveILPmodel(pyo.AbstractModel):
 
     @staticmethod
     def epsilon_constraint_2obj(m, obj):
-        return obj(m) + m.l == m.epsilon
+        return obj(m) + m.s == m.epsilon
 
     
 

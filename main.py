@@ -105,8 +105,8 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
 
 
 
-def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: Path, tau: int=15,
-                        subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
+def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: Path, general_path: str,
+                        tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
 
     if objectives:
         print(f"The objectives are: {objectives}")
@@ -146,11 +146,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
                  f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodForThreeObj.")
 
-    method_name, class_name, project_name = get_all_path_names(instance_folder)
-
-    write_output_to_files(csv_data, concrete_model, project_name, class_name, method_name,
-                                           alg_name, output_data, complete_data, nadir)
-
+    write_output_to_files(csv_data, concrete_model, general_path, output_data, complete_data)
 
 
 def get_all_path_names(instance_folder: Path):
@@ -160,24 +156,20 @@ def get_all_path_names(instance_folder: Path):
     return method_name, class_name, project_name
 
 
-def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_name: str, class_name: str,
-                          method_name: str, algorithm: str, output_data: list = None, complete_data: list = None,
-                          nadir: list = None):
-    result_name = f"{algorithm}_{class_name}_{method_name}"
-    base_path = f"output/results/{project_name}/{result_name}"
-    method_path = f"{base_path}/{method_name}"
+def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, general_path: str,
+                          output_data: list = None, complete_data: list = None):
 
-    if not os.path.exists(base_path):
-        os.makedirs(base_path)
+    if not os.path.exists(Path(general_path).parent):
+        os.makedirs(Path(general_path).parent)
 
     # Save model in a LP file
     if concrete:
-        concrete.write(f'{method_path}.lp',
+        concrete.write(f'{general_path}.lp',
                        io_options={'symbolic_solver_labels': True})
-        print("Model correctly saved in a LP file.")
+        print(f"Model correctly saved in {general_path}.lp.")
 
     # Save data in a CSV file
-    filename = f"{method_path}_results.csv"
+    filename = f"{general_path}_results.csv"
 
     if os.path.exists(filename):
         os.remove(filename)
@@ -185,22 +177,32 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, project_n
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerows(csv_info)
-        print("CSV file correctly created.")
+        print(f"CSV file correctly created in {filename}.")
 
     # Save output in a TXT file
+    output_filename = f"{general_path}_output.txt"
+
+    if os.path.exists(output_filename):
+        os.remove(output_filename)
+
     if output_data:
-        with open(f"{method_path}_output.txt", "w") as f:
+        with open(output_filename, "w") as f:
             for linea in output_data:
                 f.write(linea + "\n")
-            print("Output correctly saved in a TXT file.")
+            print(f"Output correctly saved in {output_filename}.")
 
-    # Save output in a TXT file
+    # Save complete data in a TXT file
+    complete_data_filename = f"{general_path}_complete_data.csv"
+
+    if os.path.exists(complete_data_filename):
+        os.remove(complete_data_filename)
+
     if complete_data:
-        with open(f"{method_path}_complete_data.csv",
+        with open(complete_data_filename,
                   mode="w", newline="", encoding="utf-8") as complete_csv:
             writer = csv.writer(complete_csv)
             writer.writerows(complete_data)
-            print("Complete CSV file correctly created.")
+            print(f"Complete CSV file correctly created in {complete_data_filename}.")
 
     # # Save nadir point in a csv file
     # if nadir:
@@ -463,21 +465,22 @@ if __name__ == '__main__':
                 sys.exit('General instance folder required.')
         elif num_of_objectives > 1 and model_instance:
             check_threshold(model_instance)
-            main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, int(threshold), subdivisions, weights, objectives)
 
             method_name, class_name, project_name = get_all_path_names(instance_path)
-            general_path = f"{project_name}/{ilp_algorithm}_{class_name}_{method_name}/{method_name}"
+            general_path = f"output/results/{project_name}/{ilp_algorithm}_{class_name}_{method_name}_{'-'.join(objectives)}/{method_name}"
 
-            input_general_path = f"output/results/{general_path}"
-            results_csv_path = f"{input_general_path}_results.csv"
-            single_3D_PF_path = f"{input_general_path}_3DPF.html"
+            main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, general_path,
+                                int(threshold), subdivisions, weights, objectives)
+
+            results_csv_path = f"{general_path}_results.csv"
+            single_3D_PF_path = f"{general_path}_3DPF.html"
 
             if single_plot:
                 if num_of_objectives == 2:
-                    single_plot_path = f"{input_general_path}_2DPF_plot.pdf"
+                    single_plot_path = f"{general_path}_2DPF_plot.pdf"
                     results_utils.generate_2DPF_plot(results_csv_path, single_plot_path)
                 elif num_of_objectives == 3:
-                    single_plot_path = f"{input_general_path}_parallel_coordinates_plot.pdf"
+                    single_plot_path = f"{general_path}_parallel_coordinates_plot.pdf"
                     results_utils.generate_plot(results_csv_path, single_plot_path)
             if single_3D_PF:
                 results_utils.generate_3DPF_plot(results_csv_path, single_3D_PF_path)

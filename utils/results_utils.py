@@ -325,32 +325,23 @@ def traverse_and_PF_plot(input_path, output_path):
                         generate_3DPF_plot(ruta_csv, salida_html)
 
             if carpeta_clase_metodo.startswith('EpsilonConstraintAlgorithm'):
-                ruta_metodo = os.path.join(ruta_proyecto, carpeta_clase_metodo)
-                if not os.path.isdir(ruta_metodo):
-                    continue
-
-                for archivo in os.listdir(ruta_metodo):
-                    if archivo.endswith("_results.csv"):
-                        ruta_csv = os.path.join(ruta_metodo, archivo)
-                        salida_pdf = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_2DPF.pdf")
-                        print(f"Generating 2D PF for: {ruta_csv}")
-                        generate_2DPF_plot(ruta_csv, salida_pdf)
+                continue
 
 
 
 
 
 def traverse_and_plot(input_path: str, output_path: str):
-    carpeta_graficas = os.path.join(output_path, "GRÁFICAS")
+    carpeta_graficas = os.path.join(output_path, "plots")
     os.makedirs(carpeta_graficas, exist_ok=True)
 
     for proyecto in os.listdir(input_path):
         ruta_proyecto = os.path.join(input_path, proyecto)
-        if not os.path.isdir(ruta_proyecto) or proyecto == "GRÁFICAS":
+        if not os.path.isdir(ruta_proyecto) or proyecto == "plots":
             continue
 
-        # Carpeta del proyecto dentro de GRÁFICAS
-        carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{proyecto}_gráficas")
+        # Carpeta del proyecto dentro de parallel_coordinates_plots
+        carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{proyecto}_plots")
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
         for carpeta_clase_metodo in os.listdir(ruta_proyecto):
@@ -362,10 +353,16 @@ def traverse_and_plot(input_path: str, output_path: str):
                     if archivo.endswith("_results.csv"):
                         ruta_csv = os.path.join(ruta_metodo, archivo)
                         if carpeta_clase_metodo.startswith('HybridMethodForThreeObj'):
+                            #  Parallel coordinates plots
                             salida_pdf = os.path.join(carpeta_salida_proyecto,
                                                       f"{carpeta_clase_metodo}_parallel_coordinates_plot.pdf")
                             print(f"Generating parallel coordinates plot for: {ruta_csv}")
                             generate_plot(ruta_csv, salida_pdf)
+
+                            #  3D PF plots
+                            salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_3DPF.html")
+                            print(f"Generating 3D PF for: {ruta_csv}")
+                            generate_3DPF_plot(ruta_csv, salida_html)
                         if carpeta_clase_metodo.startswith('EpsilonConstraintAlgorithm'):
                             salida_pdf = os.path.join(carpeta_salida_proyecto,
                                                       f"{carpeta_clase_metodo}_2DPF_plot.pdf")

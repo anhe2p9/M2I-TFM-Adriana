@@ -481,7 +481,7 @@ if __name__ == '__main__':
                     results_utils.generate_2DPF_plot(results_csv_path, single_plot_path)
                 elif num_of_objectives == 3:
                     single_plot_path = f"{general_path}_parallel_coordinates_plot.pdf"
-                    results_utils.generate_plot(results_csv_path, single_plot_path)
+                    results_utils.generate_parallel_coordinates_plot(results_csv_path, single_plot_path)
             if single_3D_PF:
                 results_utils.generate_3DPF_plot(results_csv_path, single_3D_PF_path)
 

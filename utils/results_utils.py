@@ -82,7 +82,7 @@ def generate_2DPF_plot(results_path, output_pdf_path):
                 y_min, y_max = plt.ylim()
 
                 dx = (x_max - x_min) * 0.04
-                dy = (y_max - y_min) * 0.04
+                dy = (y_max - y_min) * 0.02
 
                 for idx, (x, y) in enumerate(zip(o1, o2), start=1):
                     plt.text(x + dx, y + dy, f's{idx}', ha='center', fontsize=20, color='black', zorder=4)
@@ -115,7 +115,7 @@ def generate_2DPF_plot(results_path, output_pdf_path):
 
 
 
-def generate_plot(csv_path, output_pdf_path):
+def generate_parallel_coordinates_plot(csv_path, output_pdf_path):
     linestyles = ['-', '--', '-.', ':']
     markers = ['o', 's', 'D', '^', 'v', '*', 'x', '+', 'p', 'h', '1', '2', '3', '4', '|', '_']
     colors = plt.cm.tab20.colors  # hasta 20 colores distintos
@@ -357,7 +357,7 @@ def traverse_and_plot(input_path: str, output_path: str):
                             salida_pdf = os.path.join(carpeta_salida_proyecto,
                                                       f"{carpeta_clase_metodo}_parallel_coordinates_plot.pdf")
                             print(f"Generating parallel coordinates plot for: {ruta_csv}")
-                            generate_plot(ruta_csv, salida_pdf)
+                            generate_parallel_coordinates_plot(ruta_csv, salida_pdf)
 
                             #  3D PF plots
                             salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_3DPF.html")

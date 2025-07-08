@@ -467,7 +467,7 @@ if __name__ == '__main__':
             check_threshold(model_instance)
 
             method_name, class_name, project_name = get_all_path_names(instance_path)
-            general_path = f"output/results/{project_name}/{ilp_algorithm}_{class_name}_{method_name}_{'-'.join(objectives)}/{method_name}"
+            general_path = f"output/results/{project_name}/{ilp_algorithm}_{'-'.join(objectives)}_{class_name}_{method_name}/{method_name}"
 
             main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, general_path,
                                 int(threshold), subdivisions, weights, objectives)

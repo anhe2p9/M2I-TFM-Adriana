@@ -278,7 +278,7 @@ def generate_3DPF_plot(results_path, output_html_path):
                     mode='markers+text',
                     marker=dict(size=10, color='black'),
                     text=[f's{idx+1}' for idx in range(len(solutions))],
-                    textposition='bottom center',
+                    textposition='top center',
                     textfont=dict(color='black', size = 18),
                     name='Solutions'
                 ))

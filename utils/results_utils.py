@@ -275,9 +275,12 @@ def generate_3DPF_plot(results_path, output_html_path):
                 f1, f2, f3 = zip(*solutions)
                 fig.add_trace(go.Scatter3d(
                     x=f1, y=f2, z=f3,
-                    mode='markers',
+                    mode='markers+text',
                     marker=dict(size=10, color='black'),
-                    name='Soluciones'
+                    text=[f's{idx+1}' for idx in range(len(solutions))],
+                    textposition='bottom center',
+                    textfont=dict(color='black', size = 18),
+                    name='Solutions'
                 ))
 
                 objective_map = {

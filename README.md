@@ -1,7 +1,7 @@
 # User Manual
 Single and multi-objective Integer Linear Programming approach for Automatic Software Cognitive Complexity Reduction.
 
-![Overview of the proposed multiobjective ILP CC reducer tool](ILP_CC_reducer_tool_page_readme.jpg)
+![Overview of the proposed multiobjective ILP CC reducer tool](ILP_CC_reducer_tool_readme.png)
 
 
 

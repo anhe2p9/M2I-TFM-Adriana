@@ -91,17 +91,17 @@ python main.py [OPTIONS]
 | `-i`, `--instance`          | Path to the model instance. It can be the folder path with the three data files in CSV format for multiobjective or the general folder path with all instances for one objective.                 |
 | `-a`, `--algorithm`         | Algorithm to use for solving single and multiobjective ILP problems. Must be one of: `['ObtainResultsAlgorithm', 'WeightedSumAlgorithm', 'EpsilonConstraintAlgorithm', 'HybridMethodAlgorithm']`. |
 | `-t`, `--tau`               | Threshold (τ) used in optimization (e.g., for ε-constraint).                                                                                                                                      |
-| `-s`, `--subdivisions`      | Number of subdivisions for generating weighted combinations.                                                                                                                                      |
-| `-w`, `--weights`           | Specific weights for weighted sum: `w1,w2` or `w1,w2,w3`.                                                                                                                                         |
+| `-s`, `--subdivisions`      | (Optional) Number of subdivisions for generating weighted combinations.                                                                                                                           |
+| `-w`, `--weights`           | (Optional) Specific weights for weighted sum: `w1,w2` or `w1,w2,w3`.                                                                                                                              |
 | `-o`, `--objectives`        | (Optional) Objectives to minimize: `obj1,obj2` or `obj1,obj2,obj3`.                                                                                                                               |
-| `--plot`                    | Plot the result of a specific experiment.                                                                                                                                                         |
-| `--3dPF`                    | Plot the 3D PF of the given result.                                                                                                                                                               |
-| `--all_plots`               | Plot all results in the given directory.                                                                                                                                                          |
-| `--all_3dPF`                | Plot all 3D PFs in a given directory.                                                                                                                                                             |
-| `--statistics`              | Generate a CSV file with statistics for all results in the given directory.                                                                                                                       |
-| `--input`                   | Input directory for results (used for plotting/statistics). Defaults to `output/results`.                                                                                                         |
-| `--output`                  | Output directory for plots/statistics. Defaults to `output/plots_and_statistics`.                                                                                                                 |
-| `--save`                    | Save current configuration to a `.ini` file.                                                                                                                                                      |
+| `--plot`                    | (Optional) Plot the result of a specific experiment.                                                                                                                                              |
+| `--3dPF`                    | (Optional) Plot the 3D PF of the given result.                                                                                                                                                    |
+| `--all_plots`               | (Optional) Plot all results in the given directory.                                                                                                                                               |
+| `--all_3dPF`                | (Optional) Plot all 3D PFs in a given directory.                                                                                                                                                  |
+| `--statistics`              | (Optional) Generate a CSV file with statistics for all results in the given directory.                                                                                                            |
+| `--input`                   | (Optional) Input directory for results (used for plotting/statistics). Defaults to `output/results`.                                                                                              |
+| `--output`                  | (Optional) Output directory for plots/statistics. Defaults to `output/plots_and_statistics`.                                                                                                      |
+| `--save`                    | (Optional) Save current configuration to a `.ini` file.                                                                                                                                           |
 
 
 

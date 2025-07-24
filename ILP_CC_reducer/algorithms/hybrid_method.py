@@ -21,7 +21,7 @@ uniobjective_model = ILPmodelRsain()
 
 
 
-class HybridMethod(Algorithm):
+class HybridMethodAlgorithm(Algorithm):
 
     @staticmethod
     def get_name() -> str:

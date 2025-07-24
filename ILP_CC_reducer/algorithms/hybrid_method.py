@@ -6,6 +6,7 @@ from typing import List, Tuple, Optional
 import time
 import numpy as np
 import pandas as pd
+import sys
 
 import utils.algorithms_utils as algorithms_utils
 
@@ -13,14 +14,14 @@ from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
 from ILP_CC_reducer.models import ILPmodelRsain
 
-Box3D = Tuple[float, float, float]
-Point3D = Tuple[float, float, float]
+PointND = Tuple[float, ...]
+BoxND = Tuple[float, ...]
 multiobjective_model = MultiobjectiveILPmodel()
 uniobjective_model = ILPmodelRsain()
 
 
 
-class HybridMethodForTwoObj(Algorithm):
+class HybridMethod(Algorithm):
 
     @staticmethod
     def get_name() -> str:
@@ -31,31 +32,26 @@ class HybridMethodForTwoObj(Algorithm):
         return "It obtains supported and non-supported ILP solutions."
 
     @staticmethod
-    def execute(data_dict: dict, tau: int, objectives_list: list= None):
+    def execute(data_dict: dict, tau: int, num_of_objectives: int, objectives_list: list= None):
 
-        data = data_dict['data']
+
+        if num_of_objectives == 2:
+            if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
+                objectives_list = [multiobjective_model.extractions_objective,
+                                   multiobjective_model.cc_difference_objective]
+        elif num_of_objectives == 3:
+            if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
+                objectives_list = [multiobjective_model.extractions_objective,
+                                   multiobjective_model.cc_difference_objective,
+                                   multiobjective_model.loc_difference_objective]
+        else:
+            sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
+
 
         start_total = time.time()
 
-        if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
-            objectives_list = [multiobjective_model.extractions_objective,
-                               multiobjective_model.cc_difference_objective]
-
-        add_items_to_multiobjective_model(tau)
-        concrete = uniobjective_model.create_instance(data)
-
-        nadir_dict = {multiobjective_model.extractions_objective: len(concrete.S) + 1,
-                      multiobjective_model.cc_difference_objective: concrete.nmcc[0]+1 ,
-                      multiobjective_model.loc_difference_objective: concrete.loc[0]+1}
-
-        nadir_point = []
-        for obj in objectives_list:
-            nadir_point.append(nadir_dict[obj])
-
-        initial_box = tuple(nadir_point)
-
-        solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(data_dict, objectives_list,
-                                                                                              initial_box, max_solutions=20)
+        solutions_set, concrete, output_data, complete_data, nadir_point = initialize_hybrid_method(objectives_list,
+                                                                                                    tau, data_dict)
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
@@ -73,20 +69,43 @@ class HybridMethodForTwoObj(Algorithm):
         return csv_data, concrete, output_data, complete_data, [objectives_names, nadir_point]
 
 
-def add_items_to_multiobjective_model(tau: int):
+
+
+def initialize_hybrid_method(objectives_list: list, tau: int, data_dict: dict):
+    data = data_dict['data']
+
     multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
     uniobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold UO
 
-    multiobjective_model.lambda2 = pyo.Param(initialize=0.001, mutable=True)  # Lambda parameter
+    concrete = uniobjective_model.create_instance(data)
+
+    nadir_dict = {multiobjective_model.extractions_objective: len(concrete.S) + 1,
+                  multiobjective_model.cc_difference_objective: concrete.nmcc[0] + 1,
+                  multiobjective_model.loc_difference_objective: concrete.loc[0] + 1}
+
+    nadir_point = []
+    for obj in objectives_list:
+        nadir_point.append(nadir_dict[obj])
+
+    initial_box = tuple(nadir_point)
+
+    solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(data_dict, objectives_list,
+                                                                                          initial_box, max_solutions=20)
+
+    return solutions_set, concrete, output_data, complete_data, nadir_point
+
+def hybrid_method_for_three_objs():
+    pass
+
+
+
 
 
 def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
     output_data = []
 
-    obj1, obj2 = objectives_list
-
     algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-        rule=lambda m: multiobjective_model.weighted_sum_hybrid_method_2objs(m, obj1, obj2)))
+        rule=lambda m: sum(obj(m) for obj in objectives_list)))
 
     add_boxes_constraints(box, objectives_list)
 
@@ -94,8 +113,12 @@ def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
-        ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in [multiobjective_model.extractions_objective,
-                                                                         multiobjective_model.cc_difference_objective])
+
+
+        desired_order_for_objectives = ['extractions_objective', 'cc_difference_objective', 'loc_difference_objective']
+        objectives_dict = {obj.__name__: obj for obj in objectives_list}
+        ordered_objectives = [objectives_dict[name] for name in desired_order_for_objectives if name in objectives_dict]
+        ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in ordered_objectives)
 
         output_data.append('===============================================================================')
         if result.solver.status == 'ok':
@@ -115,14 +138,22 @@ def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
 
 
 def add_boxes_constraints(box: tuple, objectives_list: list):
-    obj1, obj2 = objectives_list
-
-    for i in range(2):
+    for i in range(len(objectives_list)):
         if hasattr(multiobjective_model, f'box_u{i+1}_constraint'):
             multiobjective_model.del_component(f'box_u{i+1}_constraint')
 
-    multiobjective_model.box_u1_constraint = pyo.Constraint(rule=lambda m: obj1(m) <= box[0] - 1)
-    multiobjective_model.box_u2_constraint = pyo.Constraint(rule=lambda m: obj2(m) <= box[1] - 1)
+    for i, obj_func in enumerate(objectives_list):
+        attr_name = f'box_u{i + 1}_constraint'
+        rhs = box[i] - 1
+
+        def make_rule(obj, r):
+            return lambda m: obj(m) <= r
+
+        setattr(
+            multiobjective_model,
+            attr_name,
+            pyo.Constraint(rule=make_rule(obj_func, rhs))
+        )
 
 
 def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tuple, max_solutions=100):
@@ -141,7 +172,7 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
     solutions_set = set()  # Non-dominated solutions set
     s_ordered = set()
 
-    boxes = [initial_box]  # tuple list (u1, u2)
+    boxes = [initial_box]  # tuple list (u_1, ..., u_n)
 
     while boxes and len(solutions_set) < max_solutions:
 
@@ -168,12 +199,12 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
             print(f"New solution: {solution}.")
 
             # Partimos la caja con respecto a la solución real obtenida
-            boxes = full_p_split_2d(actual_box, solution, boxes)
+            boxes = full_p_split(actual_box, solution, boxes)
 
             for i,box in enumerate(boxes):
                 if inside(solution,box):
                     boxes.pop(i)
-                    boxes = full_p_split_2d(box, solution, boxes)
+                    boxes = full_p_split(box, solution, boxes)
 
             print(f"GENERAL BOXES LIST: {boxes}.")
             non_dominated_boxes = filter_contained_boxes(boxes)
@@ -192,19 +223,21 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
     return solutions_set, concrete, output_data, complete_data
 
 
-def full_p_split_2d(box: Box3D, z: tuple, boxes: list) -> List[Optional[Box3D]]:
-    l = (0,0)
-    u = box  # original box: l = (l1, l2), u = (u1, u2)
+def full_p_split(box: BoxND, z: tuple, boxes: list) -> List[Optional[BoxND]]:
+    dimensions = len(box)
+
+    l = (0,) * dimensions
+    u = box  # original box: l = (l1, ..., l_n), u = (u1, ..., u_n)
     new_boxes = []
 
-    for i in range(2):  # i = 0 (x), 1 (y), 2 (z)
+    for i in range(dimensions):  # i = 0 (x), 1 (y), 2 (z)
 
         new_u = list(u)
         for j in range(i):
             new_u[j] = u[j]
         new_u[i] = max(z[i], l[i])  # cut by x_i < z_i
 
-        is_empty = any(u[k] < z[k] for k in range(i+1, 2)) or new_u[i] <= l[i]
+        is_empty = any(u[k] < z[k] for k in range(i+1, dimensions)) or new_u[i] <= l[i]
 
         new_boxes.append(None if is_empty else tuple(new_u))
 
@@ -219,17 +252,17 @@ def dominates(a: tuple, b: tuple) -> bool:
     """
     Returns True if point a dominates b.
     """
-    return all(a[i] <= b[i] for i in range(3)) and any(a[i] < b[i] for i in range(3))
+    return all(a[i] <= b[i] for i in range(len(a))) and any(a[i] < b[i] for i in range(len(a)))
 
 
 def inside(a: tuple, b: tuple) -> bool:
     """
     Returns True if point 'a' is completely inside 'b'.
     """
-    return all(a[i] < b[i] for i in range(2))
+    return all(a[i] < b[i] for i in range(len(a)))
 
 
-def filter_contained_boxes(boxes: List[Point3D]) -> List[Point3D]:
+def filter_contained_boxes(boxes: List[PointND]) -> List[PointND]:
     """
     Elimina las cajas cuyo punto superior está contenido (componente a componente)
     en otra caja de la lista.

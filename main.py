@@ -138,11 +138,16 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
                                                                              num_of_objectives, subdivisions,
                                                                              weights, objectives_list)
     elif (alg_name == 'EpsilonConstraintAlgorithm'
-          or alg_name == 'HybridMethodForTwoObj'
           or alg_name == 'HybridMethodForThreeObj'):
         csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
                                                                                                    instance,
                                                                                                    tau,
+                                                                                                   objectives_list)
+    elif alg_name == 'HybridMethod':
+        csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
+                                                                                                   instance,
+                                                                                                   tau,
+                                                                                                   num_of_objectives,
                                                                                                    objectives_list)
     else:
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"

@@ -44,6 +44,12 @@ class HybridMethodAlgorithm(Algorithm):
                 objectives_list = [multiobjective_model.extractions_objective,
                                    multiobjective_model.cc_difference_objective,
                                    multiobjective_model.loc_difference_objective]
+        elif num_of_objectives == 4:
+            if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
+                objectives_list = [multiobjective_model.extractions_objective,
+                                   multiobjective_model.cc_difference_objective,
+                                   multiobjective_model.loc_difference_objective,
+                                   multiobjective_model.loc_difference_objective]
         else:
             sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
 

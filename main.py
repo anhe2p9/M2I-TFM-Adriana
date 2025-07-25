@@ -143,7 +143,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
                                                                                                    instance,
                                                                                                    tau,
                                                                                                    objectives_list)
-    elif alg_name == 'HybridMethod':
+    elif alg_name == 'HybridMethodAlgorithm':
         csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
                                                                                                    instance,
                                                                                                    tau,
@@ -418,6 +418,10 @@ if __name__ == '__main__':
         objectives = tuple(map(str, objectives.split(",")))
         if len(objectives) != num_of_objectives:
             sys.exit("The length of the objectives list must be the same as the number of objectives specified.")
+    else:
+        all_objectives = ('extractions', 'cc', 'loc', 'loc')
+        objectives = all_objectives[:num_of_objectives]
+
 
     # Single plot True if there is --single_plot
     if args["plot"]:

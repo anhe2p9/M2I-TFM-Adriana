@@ -94,7 +94,7 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
     Generates subdivisions in polar coordinates for a cuadrant.
         
     Args:
-        n_divisions (int): Number of divisions in each plane (XY, XZ, YZ).
+        n_divisions (int): Number of divisions in each axe (X, Y).
         
     Returns:
         dict: Dictionary with subdivisions in spherical coordinates.

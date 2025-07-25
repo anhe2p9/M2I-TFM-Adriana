@@ -151,7 +151,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
                                                                                                    objectives_list)
     else:
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
-                 f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodForThreeObj.")
+                 f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethod.")
 
     write_output_to_files(csv_data, concrete_model, general_path, output_data, complete_data)
 

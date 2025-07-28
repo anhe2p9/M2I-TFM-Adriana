@@ -28,18 +28,17 @@ class EpsilonConstraintAlgorithm(Algorithm):
             objectives_list = [multiobjective_model.extractions_objective,
                                multiobjective_model.cc_difference_objective]
 
-        obj1, obj2 = objectives_list[:2]
+        obj1, obj2 = objectives_list
         output_data = []
         results_csv = [[obj.__name__ for obj in objectives_list]]
 
         multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
-        multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
 
         """ z <- Solve {min f2(x) subject to x in X} """
+        multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
-            obj1, obj2 = objectives_list
             """
             z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
             """

@@ -138,7 +138,8 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
                                                                              num_of_objectives, subdivisions,
                                                                              weights, objectives_list)
     elif (alg_name == 'EpsilonConstraintAlgorithm'
-          or alg_name == 'HybridMethodForThreeObj'):
+          or alg_name == 'HybridMethodForThreeObj'
+          or alg_name == 'EpsilonConstraintForThreeObjsAlgorithm'):
         csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
                                                                                                    instance,
                                                                                                    tau,

@@ -94,11 +94,6 @@ def initialize_hybrid_method(objectives_list: list, tau: int, data_dict: dict):
 
     return solutions_set, concrete, output_data, complete_data, nadir_point
 
-def hybrid_method_for_three_objs():
-    pass
-
-
-
 
 
 def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):

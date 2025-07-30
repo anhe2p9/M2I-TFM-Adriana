@@ -114,10 +114,9 @@ class EpsilonConstraintForThreeObjsAlgorithm(Algorithm):
                                          domain=pyo.NonNegativeReals)
 
 
-        for i in range(grid_points[1], 0, -1):
-            for j in range(grid_points[0], 0, -1):
-                concrete, result, feasible = solve_e_constraint(objectives_list, ranges,
-                                                                ub_point, [i,j], grid_points, data)
+        for i in range(ub_point[1], 0, -1):
+            for j in range(ub_point[2], 0, -1):
+                concrete, result, feasible = solve_e_constraint(objectives_list, ub_point[1:], data)
 
                 # concrete.pprint()
 
@@ -139,6 +138,7 @@ class EpsilonConstraintForThreeObjsAlgorithm(Algorithm):
                     print(f"Registering solution #{neff}")
                 else:
                     print(f"Infeasible.")
+                    break
 
 
         print(f"Total number of efficient solutions found: {neff}")
@@ -147,11 +147,11 @@ class EpsilonConstraintForThreeObjsAlgorithm(Algorithm):
         return results_csv, concrete, output_data, None, None
 
 
-def solve_e_constraint(objectives_list: list, ranges: tuple, ub, it, grid_points, data):
+def solve_e_constraint(objectives_list: list, ub, data):
     eps = 1 / (10 ** 3)
 
     def make_objective(obj):
-        return lambda m: obj(m) + eps * sum(m.s[i] / ranges[i] for i in range(1, len(objectives_list)))
+        return lambda m: obj(m) - eps * sum(m.s[i] for i in range(1, len(objectives_list)))
 
     algorithms_utils.modify_component(multiobjective_model, 'obj',
                                       pyo.Objective(rule=make_objective(objectives_list[0])))
@@ -159,13 +159,18 @@ def solve_e_constraint(objectives_list: list, ranges: tuple, ub, it, grid_points
     for k, objective in enumerate(objectives_list[1:]):
         attr_name = f'f{k + 1}z_constraint_eps_problem'
 
-        def make_rule(it, obj, ep):
-            return lambda m: obj(m) + m.s[it] == ep
+        def make_rule(itr, obj, ep):
+            return lambda m: obj(m) + m.s[itr] == ep
+
+        print(
+            f"ub[{k}]: {ub[k]} - (it[{k}] * ranges[{k}]) / grid_points[{k}]: ({it[k]} * {ranges[k]}) / {grid_points[k]} = {ub[k]} - {(it[k] * ranges[k]) / grid_points[k]} = {ub[k] - (it[k] * ranges[k]) / grid_points[k]}.")
 
         algorithms_utils.modify_component(multiobjective_model, attr_name, pyo.Constraint(
             rule=make_rule(k, objective, ub[k] - (it[k] * ranges[k]) / grid_points[k])))
 
     concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+
+    # concrete.pprint()
 
     solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 

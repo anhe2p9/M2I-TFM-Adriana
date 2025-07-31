@@ -2,6 +2,7 @@ import pyomo.environ as pyo  # ayuda a definir y resolver problemas de optimizac
 import pyomo.dataportal as dp  # permite cargar datos para usar en esos modelos de optimización
 
 import utils.algorithms_utils as algorithms_utils
+import sys
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -20,99 +21,283 @@ class EpsilonConstraintAlgorithm(Algorithm):
         return "It obtains supported and non-supported ILP solutions for two objectives using e-constraint algorithm."
 
     @staticmethod
-    def execute(data_dict: dict, tau: int, objectives_list: list) -> tuple:
+    def execute(data_dict: dict, tau: int, num_of_objectives: int, objectives_list: list) -> tuple:
 
-        data = data_dict['data']
+        if num_of_objectives == 2:
+            if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
+                objectives_list = [multiobjective_model.extractions_objective,
+                                   multiobjective_model.cc_difference_objective]
+            results_csv, concrete, output_data = e_constraint_2objs(data_dict, tau, objectives_list)
+        elif num_of_objectives == 3:
+            if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
+                objectives_list = [multiobjective_model.extractions_objective,
+                                   multiobjective_model.cc_difference_objective,
+                                   multiobjective_model.loc_difference_objective]
+            results_csv, concrete, output_data = e_constraint_3objs(data_dict, tau, objectives_list)
+        else:
+            sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
 
-        if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
-            objectives_list = [multiobjective_model.extractions_objective,
-                               multiobjective_model.cc_difference_objective]
 
-        obj1, obj2 = objectives_list
-        output_data = []
-        results_csv = [[obj.__name__ for obj in objectives_list]]
+        return results_csv, concrete, output_data, None, None
 
-        multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
-        """ z <- Solve {min f2(x) subject to x in X} """
-        multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
+def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list):
+    data = data_dict['data']
+
+    if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
+        objectives_list = [multiobjective_model.extractions_objective,
+                           multiobjective_model.cc_difference_objective]
+
+    obj1, obj2 = objectives_list
+    output_data = []
+    results_csv = [[obj.__name__ for obj in objectives_list]]
+
+    multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
+
+    """ z <- Solve {min f2(x) subject to x in X} """
+    multiobjective_model.obj = pyo.Objective(rule=lambda m: obj2(m))  # Objective {min f2}
+    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+
+    if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
+        """
+        z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
+        """
+        f2z = round(pyo.value(obj2(concrete)))  # f2(z) := f2z
+
+        print(
+            "==================================================================================================\n")
+        print(f"min f2(x), {obj2.__name__}, subject to x in X. Result obtained: f2(z) = {round(f2z)}.")
+
+        multiobjective_model.f2z = pyo.Param(
+            initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
+        multiobjective_model.f2Constraint = pyo.Constraint(
+            rule=lambda m: multiobjective_model.second_obj_diff_constraint(m,
+                                                                           obj2))  # new constraint: f2(x) <= f2(z)
+        algorithms_utils.modify_component(multiobjective_model, 'obj',
+                                          pyo.Objective(rule=lambda m: obj1(m)))  # new objective: min f1(x)
+
+        """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
+        concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+        multiobjective_model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
+
+        """ FP <- {z} (add z to Pareto front) """
+        new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]  # Results for CSV file
+        results_csv.append(new_row)
+        print(f"New solution: {new_row}.")
+
+        add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
+
+        f1z = new_row[0]
+
+        """ epsilon <- f1(z) - 1 """
+        multiobjective_model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)  # Epsilon parameter
+        multiobjective_model.s = pyo.Var(within=pyo.NonNegativeReals)  # s = epsilon - f1(x)
+        l1 = f1z - 1  # lower bound for f1(x)
+        multiobjective_model.lambda_value = pyo.Param(initialize=(1 / ((f1z - l1) * 10 ** 3)),
+                                                      mutable=True)  # Lambda parameter
+
+        solution_found = (result.solver.status == 'ok') and (
+                result.solver.termination_condition == 'optimal')  # while loop control
+
+        """ While exists x in X that makes f1(x) <= epsilon do """
+        while solution_found:
+            """ estimate a lambda value > 0 """
+            algorithms_utils.modify_component(multiobjective_model, 'lambda_value',
+                                              pyo.Param(initialize=(1 / ((f1z - l1) * 10 ** 3)), mutable=True))
+
+            """ Solve epsilon constraint problem """
+            """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
+            algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
+                rule=lambda m: multiobjective_model.epsilon_objective_2obj(m, obj2)))  # min f2(x) - lambda * l
+            algorithms_utils.modify_component(multiobjective_model, 'epsilonConstraint', pyo.Constraint(
+                rule=lambda m: multiobjective_model.epsilon_constraint_2obj(m, obj1)))  # f1(x) + l = epsilon
+
+            concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model,
+                                                                         data)  # Solve problem
+
+            """ Checks if exists x in X that makes f1(x) <= epsilon (if exists solution) """
+            if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
+                """ PF = PF U {z} """
+                f1z = pyo.value(obj1(concrete))
+                new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]
+                results_csv.append(new_row)
+                print(f"New solution: {new_row}.")
+
+                """ epsilon = f1(z) - 1 """
+                algorithms_utils.modify_component(multiobjective_model, 'epsilon',
+                                                  pyo.Param(initialize=f1z - 1, mutable=True))
+
+                # lower bound for f1(x) (it has to decrease with f1z)
+                l1 = f1z - 1
+                add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
+            solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
+
+    return results_csv, concrete, output_data
+
+
+
+def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
+    data = data_dict['data']
+
+    p = len(objectives_list)
+
+    output_data = []
+    results_csv = [[obj.__name__ for obj in objectives_list]]
+
+    multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
+
+    """ Obtain payoff table by the lexicographic optimization of the objective functions """
+    opt_lex_list = []
+    opt_lex_table = []
+
+    multiobjective_model.obj = pyo.Objective(rule=lambda m: objectives_list[0](m))
+
+    print(f"--------------------------------------------------------------------------------")
+    for i, objective in enumerate(objectives_list):
+        algorithms_utils.modify_component(multiobjective_model, 'obj',
+                                          pyo.Objective(rule=lambda m: objective(m)))  # new objective: min f2(x)
+
         concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
         if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
-            """
-            z <- Solve {min f1(x) subject to f2(x) <= f2(z)}
-            """
-            f2z = round(pyo.value(obj2(concrete)))  # f2(z) := f2z
+            opt_lex = [round(pyo.value(opt(concrete))) for opt in objectives_list]
 
-            print(
-                "==================================================================================================\n")
-            print(f"min f2(x), {obj2.__name__}, subject to x in X. Result obtained: f2(z) = {round(f2z)}.")
+            opt_lex_table.append(opt_lex)
 
-            multiobjective_model.f2z = pyo.Param(
-                initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
-            multiobjective_model.f2Constraint = pyo.Constraint(
-                rule=lambda m: multiobjective_model.second_obj_diff_constraint(m,
-                                                                               obj2))  # new constraint: f2(x) <= f2(z)
-            algorithms_utils.modify_component(multiobjective_model, 'obj',
-                                              pyo.Objective(rule=lambda m: obj1(m)))  # new objective: min f1(x)
+            f_nz = round(pyo.value(objective(concrete)))  # f_n(z) := f_nz
 
-            """ Solve {min f1(x) subject to f2(x) <= f2(z)} """
-            concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
-            multiobjective_model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
+            opt_lex_list.append(f_nz)
 
-            """ FP <- {z} (add z to Pareto front) """
-            new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]  # Results for CSV file
-            results_csv.append(new_row)
-            print(f"New solution: {new_row}.")
+            print(f"min f{i + 1}(x), {objective.__name__}. Result obtained: f{i + 1}(z) = {round(f_nz)}.")
 
-            add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
+            attr_name = f'f{i + 1}z_constraint'
 
-            f1z = new_row[0]
+            def make_rule(obj, r):
+                return lambda m: obj(m) <= r
+
+            setattr(
+                multiobjective_model,
+                attr_name,
+                pyo.Constraint(rule=make_rule(objective, f_nz))
+            )
+
+    opt_lex_point = tuple(opt_lex_list)
+    print(f"--------------------------------------------------------------------------------")
+    print(f"Lexicographic optima list: {opt_lex_point}.")
+
+    for i in range(p):
+        multiobjective_model.del_component(f'f{i + 1}z_constraint')  # delete f_n(x) <= f_n(z) constraint
+
+    """ Set upper bounds ub_k for k=2...p """
+    ub_dict = {multiobjective_model.extractions_objective: len(concrete.S) + 1,
+               multiobjective_model.cc_difference_objective: concrete.nmcc[0] + 1,
+               multiobjective_model.loc_difference_objective: concrete.loc[0] + 1}
+
+    ub_point = []
+    for obj in objectives_list:
+        ub_point.append(ub_dict[obj])
+
+    ub = tuple(ub_point)
+
+    print(f"Upper bounds: {ub}.")
+
+    """ Calculate ranges (r_1, ..., r_p) """
+    ranges = tuple(u - l for u, l in zip(ub, opt_lex_point))
+    print(f"Ranges: {ranges}.")
+
+    """ Set number of gridpoints g_k (k=2...p) for the p-1 obj.functions' ranges """
+    grid_points = ranges[1:]
+    print(f"Grid points: {grid_points}.")
+
+    multiobjective_model.s = pyo.Var(range(p), domain=pyo.NonNegativeReals)
+
+    e_const = ub_point[1:]
+    solutions_set = set()
+    for i in range(ub_point[1], 0, -1):
+        for j in range(ub_point[2], 0, -1):
+            print(f"[i,j]: [{i},{j}].")
+            concrete, result, feasible = solve_e_constraint(objectives_list, e_const, data)
+
+            # concrete.pprint()
+
+            if feasible:
+                new_sol = [round(pyo.value(obj(concrete))) for obj in objectives_list]
+
+                desired_order_for_objectives = ['extractions_objective', 'cc_difference_objective',
+                                                'loc_difference_objective']
+                objectives_dict = {obj.__name__: obj for obj in objectives_list}
+                ordered_objectives = [objectives_dict[name] for name in desired_order_for_objectives if
+                                      name in objectives_dict]
+                ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in ordered_objectives)
+
+                new_sol_tuple = tuple(new_sol)
+
+                dominated = False
+                for sol in solutions_set:
+                    if dominates(sol, new_sol_tuple):
+                        dominated = True
+
+                e_const = [i, j]
+
+                if dominated:
+                    print(f"Dominated solution.")
+                    continue
+
+                if new_sol_tuple not in solutions_set:
+                    print(f"New solution found: {tuple(ordered_newrow)}.")
+                    solutions_set.add(new_sol_tuple)
+                else:
+                    print(f"Repeated solution.")
+
+            else:
+                print(f"Infeasible.")
+                e_const = [i, j]
+
+    for sol in solutions_set:
+        results_csv.append(list(sol))
+
+    print(f"Solutions: {results_csv}.")
+
+    return results_csv, concrete, output_data
 
 
-            """ epsilon <- f1(z) - 1 """
-            multiobjective_model.epsilon = pyo.Param(initialize=f1z - 1, mutable=True)  # Epsilon parameter
-            multiobjective_model.s = pyo.Var(within=pyo.NonNegativeReals)  # s = epsilon - f1(x)
-            l1 = f1z - 1  # lower bound for f1(x)
-            multiobjective_model.lambda_value = pyo.Param(initialize=(1/((f1z-l1)*10**3)), mutable=True)  # Lambda parameter
 
-            solution_found = (result.solver.status == 'ok') and (
-                    result.solver.termination_condition == 'optimal')  # while loop control
+def solve_e_constraint(objectives_list: list, e, data):
+    eps = 1 / (10 ** 4)
 
-            """ While exists x in X that makes f1(x) <= epsilon do """
-            while solution_found:
-                """ estimate a lambda value > 0 """
-                algorithms_utils.modify_component(multiobjective_model, 'lambda_value',
-                                                  pyo.Param(initialize=(1/((f1z-l1)*10**3)), mutable=True))
+    def make_objective(obj):
+        return lambda m: obj(m) - eps * sum(m.s[i] for i in range(1, len(objectives_list)))
 
-                """ Solve epsilon constraint problem """
-                """ z <- solve {min f2(x) - lambda * l, subject to f1(x) + l = epsilon} """
-                algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-                    rule=lambda m: multiobjective_model.epsilon_objective_2obj(m, obj2)))  # min f2(x) - lambda * l
-                algorithms_utils.modify_component(multiobjective_model, 'epsilonConstraint', pyo.Constraint(
-                    rule=lambda m: multiobjective_model.epsilon_constraint_2obj(m, obj1)))  # f1(x) + l = epsilon
+    algorithms_utils.modify_component(multiobjective_model, 'obj',
+                                      pyo.Objective(rule=make_objective(objectives_list[0])))
 
-                concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model,
-                                                                             data)  # Solve problem
+    for k, objective in enumerate(objectives_list[1:]):
+        attr_name = f'f{k + 1}z_constraint_eps_problem'
 
-                """ Checks if exists x in X that makes f1(x) <= epsilon (if exists solution) """
-                if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
-                    """ PF = PF U {z} """
-                    f1z = pyo.value(obj1(concrete))
-                    new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]
-                    results_csv.append(new_row)
-                    print(f"New solution: {new_row}.")
+        def make_rule(itr, obj, ep):
+            return lambda m: obj(m) + m.s[itr + 1] == ep
 
-                    """ epsilon = f1(z) - 1 """
-                    algorithms_utils.modify_component(multiobjective_model, 'epsilon',
-                                                      pyo.Param(initialize=f1z - 1, mutable=True))
+        algorithms_utils.modify_component(multiobjective_model, attr_name, pyo.Constraint(
+            rule=make_rule(k, objective, e[k] - 1)))
 
-                    # lower bound for f1(x) (it has to decrease with f1z)
-                    l1 = f1z - 1
-                    add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
-                solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
+    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
 
-        return results_csv, concrete, output_data, None, None
+    # concrete.pprint()
+
+    solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
+
+    return concrete, result, solution_found
+
+
+def dominates(a: tuple, b: tuple) -> bool:
+    """
+    Returns True if point a dominates b.
+    """
+    return all(a[i] <= b[i] for i in range(len(a))) and any(a[i] < b[i] for i in range(len(a)))
+
+
+
+
 
 
 

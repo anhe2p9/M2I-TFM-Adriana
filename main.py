@@ -419,7 +419,7 @@ if __name__ == '__main__':
         if len(objectives) != num_of_objectives:
             sys.exit("The length of the objectives list must be the same as the number of objectives specified.")
     else:
-        all_objectives = ('extractions', 'cc', 'loc', 'loc')
+        all_objectives = ('extractions', 'cc', 'loc')
         objectives = all_objectives[:num_of_objectives]
 
 

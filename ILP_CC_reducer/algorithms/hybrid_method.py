@@ -269,7 +269,7 @@ def filter_contained_boxes(boxes: List[PointND]) -> List[PointND]:
         for j, box_j in enumerate(boxes):
             if i == j:
                 continue
-            # Si box_i está estrictamente contenida en box_j
+            # If box_i dominates box_j
             if dominates(box_i, box_j):
                 dominated = True
                 print(f"Discarded box: {box_i} because it is inside box {box_j}.")

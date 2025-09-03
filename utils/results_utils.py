@@ -390,10 +390,12 @@ def generate_statistics_obj(
     try:
         df = pd.read_csv(results_path)
         execution_time_average = ""
+        total_execution_time = ""
         if complete_data_path:
             compl_dat = pd.read_csv(complete_data_path)
             if not compl_dat.empty:
-                execution_time_average = compl_dat["executionTime"].sum()
+                execution_time_average = compl_dat["executionTime"].mean()
+                total_execution_time = compl_dat["executionTime"].sum()
 
         if df.empty:
             raise ValueError("Archivo vacío")
@@ -433,7 +435,8 @@ def generate_statistics_obj(
             "nadir": f"({', '.join(str(int(x)) for x in ref_point)})",
             "hypervolume": hipervolumen,
             "normalized_hypervolume": np.round(hv_normalized, 2),
-            "execution_time_average": execution_time_average
+            "execution_time_average": execution_time_average,
+            "total_execution_time": total_execution_time
         }
 
         for i, nombre in enumerate(nombres_objetivos):

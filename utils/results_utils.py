@@ -378,6 +378,7 @@ def traverse_and_plot(input_path: str, output_path: str):
 
 def generate_statistics_obj(
     results_path: str,
+    complete_data_path: str,
     proyecto: str,
     clase_metodo: str,
     num_obj: int
@@ -388,6 +389,11 @@ def generate_statistics_obj(
     """
     try:
         df = pd.read_csv(results_path)
+        execution_time_average = ""
+        if complete_data_path:
+            compl_dat = pd.read_csv(complete_data_path)
+            if not compl_dat.empty:
+                execution_time_average = compl_dat["executionTime"].sum()
 
         if df.empty:
             raise ValueError("Archivo vacío")
@@ -427,6 +433,7 @@ def generate_statistics_obj(
             "nadir": f"({', '.join(str(int(x)) for x in ref_point)})",
             "hypervolume": hipervolumen,
             "normalized_hypervolume": np.round(hv_normalized, 2),
+            "execution_time_average": execution_time_average
         }
 
         for i, nombre in enumerate(nombres_objetivos):
@@ -463,11 +470,19 @@ def generate_statistics(input_path: str, output_path: str):
             if results_file is None:
                 continue
 
+            complete_data_file = next(
+                (f for f in os.listdir(ruta_clase) if f.endswith("_complete_data.csv")),
+                None
+            )
+
             results_path = os.path.join(ruta_clase, results_file)
 
-            if clase_metodo.startswith('EpsilonConstraintAlgorithm'):
+            if complete_data_file:
+                complete_data_path = os.path.join(ruta_clase, complete_data_file)
+
+            if clase_metodo.startswith('HybridMethod_extractions-cc'):
                 resultado = generate_statistics_obj(
-                    results_path, proyecto, clase_metodo, num_obj=2
+                    results_path, complete_data_path, proyecto, clase_metodo, num_obj=2
                 )
                 if resultado is None or 'error' in resultado:
                     archivos_invalidos.append({
@@ -479,9 +494,9 @@ def generate_statistics(input_path: str, output_path: str):
                 else:
                     resultados_2obj.append(resultado)
 
-            elif clase_metodo.startswith('HybridMethodForThreeObj'):
+            elif clase_metodo.startswith('HybridMethodForThreeObj_extractions-cc-loc'):
                 resultado = generate_statistics_obj(
-                    results_path, proyecto, clase_metodo, num_obj=3
+                    results_path, complete_data_path, proyecto, clase_metodo, num_obj=3
                 )
                 if resultado is None or 'error' in resultado:
                     archivos_invalidos.append({

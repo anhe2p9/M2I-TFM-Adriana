@@ -511,6 +511,8 @@ def generate_statistics(input_path: str, output_path: str):
                 else:
                     resultados_3obj.append(resultado)
 
+    print("Hemos llegado hasta aquí illo")
+
     # Guardar resultados
     if resultados_2obj:
         df_2obj = pd.DataFrame(resultados_2obj)

@@ -483,7 +483,12 @@ def generate_statistics(input_path: str, output_path: str):
             if complete_data_file:
                 complete_data_path = os.path.join(ruta_clase, complete_data_file)
 
-            if clase_metodo.startswith('HybridMethod_extractions-cc'):
+            if clase_metodo.startswith('HybridMethodAlgorithm_extractions-cc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-extractions')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-cc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-loc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_extractions-loc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-extractions'):
                 resultado = generate_statistics_obj(
                     results_path, complete_data_path, proyecto, clase_metodo, num_obj=2
                 )
@@ -497,7 +502,12 @@ def generate_statistics(input_path: str, output_path: str):
                 else:
                     resultados_2obj.append(resultado)
 
-            elif clase_metodo.startswith('HybridMethodForThreeObj_extractions-cc-loc'):
+            elif clase_metodo.startswith('HybridMethodAlgorithm_extractions-cc-loc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_extractions-loc-cc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-extractions-cc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-extractions-loc')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-loc-extractions')\
+                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-cc-extractions'):
                 resultado = generate_statistics_obj(
                     results_path, complete_data_path, proyecto, clase_metodo, num_obj=3
                 )

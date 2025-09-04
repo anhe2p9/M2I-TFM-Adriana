@@ -27,18 +27,28 @@ class EpsilonConstraintAlgorithm(Algorithm):
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
                 objectives_list = [multiobjective_model.extractions_objective,
                                    multiobjective_model.cc_difference_objective]
-            results_csv, concrete, output_data = e_constraint_2objs(data_dict, tau, objectives_list)
+            results_csv, concrete, output_data, complete_data = e_constraint_2objs(data_dict, tau, objectives_list)
         elif num_of_objectives == 3:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
                 objectives_list = [multiobjective_model.extractions_objective,
                                    multiobjective_model.cc_difference_objective,
                                    multiobjective_model.loc_difference_objective]
-            results_csv, concrete, output_data = e_constraint_3objs(data_dict, tau, objectives_list)
+            results_csv, concrete, output_data, complete_data = e_constraint_3objs(data_dict, tau, objectives_list)
         else:
-            sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
+            sys.exit("Number of objectives for augmented e-constraint algorithm must be 2 or 3.")
+
+        objectives_names = [obj.__name__ for obj in objectives_list]
+
+        nadir_dict = {multiobjective_model.extractions_objective: len(concrete.S) + 1,
+                      multiobjective_model.cc_difference_objective: concrete.nmcc[0] + 1,
+                      multiobjective_model.loc_difference_objective: concrete.loc[0] + 1}
+
+        reference_point = []
+        for obj in objectives_list:
+            reference_point.append(nadir_dict[obj])
 
 
-        return results_csv, concrete, output_data, None, None
+        return results_csv, concrete, output_data, complete_data, [objectives_names, reference_point]
 
 
 def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list):
@@ -51,6 +61,16 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list):
     obj1, obj2 = objectives_list
     output_data = []
     results_csv = [[obj.__name__ for obj in objectives_list]]
+
+    complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
+                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
+                      "not_nested_solution", "not_nested_extractions",
+                      "nested_solution", "nested_extractions",
+                      "reductionComplexity", "finalComplexity",
+                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
+                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
+                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
+                      "terminationCondition", "executionTime"]]
 
     multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
@@ -123,6 +143,9 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list):
                 results_csv.append(new_row)
                 print(f"New solution: {new_row}.")
 
+                complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
+                complete_data.append(complete_data_new_row)
+
                 """ epsilon = f1(z) - 1 """
                 algorithms_utils.modify_component(multiobjective_model, 'epsilon',
                                                   pyo.Param(initialize=f1z - 1, mutable=True))
@@ -132,12 +155,22 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list):
                 add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
             solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 
-    return results_csv, concrete, output_data
+    return results_csv, concrete, output_data, complete_data
 
 
 
 def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
     data = data_dict['data']
+
+    complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
+                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
+                      "not_nested_solution", "not_nested_extractions",
+                      "nested_solution", "nested_extractions",
+                      "reductionComplexity", "finalComplexity",
+                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
+                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
+                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
+                      "terminationCondition", "executionTime"]]
 
     p = len(objectives_list)
 
@@ -246,6 +279,10 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
                 if new_sol_tuple not in solutions_set:
                     print(f"New solution found: {tuple(ordered_newrow)}.")
                     solutions_set.add(new_sol_tuple)
+
+                    complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
+                    complete_data.append(complete_data_new_row)
+
                 else:
                     print(f"Repeated solution.")
 
@@ -258,7 +295,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
 
     print(f"Solutions: {results_csv}.")
 
-    return results_csv, concrete, output_data
+    return results_csv, concrete, output_data, complete_data
 
 
 

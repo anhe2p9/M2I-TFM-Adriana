@@ -511,7 +511,7 @@ def generate_statistics(input_path: str, output_path: str):
                 else:
                     resultados_3obj.append(resultado)
 
-    print("Hemos llegado hasta aquí illo")
+    print(f"Hemos llegado hasta aquí y la variable es: {resultados_3obj}.")
 
     # Guardar resultados
     if resultados_2obj:

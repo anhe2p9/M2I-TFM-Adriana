@@ -174,7 +174,7 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
         print(
             "=============================================================================================================")
 
-        print(f"Processing e-constraint with boxes: {boxes}.")
+        print(f"Processing hybrid method with boxes: {boxes}.")
 
         actual_box = boxes.pop(0)
 

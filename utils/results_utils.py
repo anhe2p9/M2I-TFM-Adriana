@@ -419,6 +419,10 @@ def generate_statistics_obj(
 
         if "_" in clase_metodo:
             clase, metodo = clase_metodo.rsplit("_", 1)
+            parts = clase.split("_", 2)
+
+            algorithm = parts[0]  # antes del primer "_"
+            clase = parts[2]
         else:
             clase, metodo = clase_metodo, ""
 
@@ -431,6 +435,7 @@ def generate_statistics_obj(
             "project": proyecto,
             "class": clase,
             "method": metodo,
+            "algorithm": algorithm,
             "num_solutions": objetivos.shape[0],
             "nadir": f"({', '.join(str(int(x)) for x in ref_point)})",
             "hypervolume": hipervolumen,
@@ -483,12 +488,12 @@ def generate_statistics(input_path: str, output_path: str):
             if complete_data_file:
                 complete_data_path = os.path.join(ruta_clase, complete_data_file)
 
-            if clase_metodo.startswith('HybridMethodAlgorithm_extractions-cc_')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-extractions_')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-cc_')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-loc_')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_extractions-loc_')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-extractions_'):
+            if ('_extractions-cc_' in clase_metodo
+                  or '_cc-extractions_' in clase_metodo
+                  or '_loc-cc_' in clase_metodo
+                  or '_cc-loc_' in clase_metodo
+                  or '_extractions-loc_' in clase_metodo
+                  or '_loc-extractions_' in clase_metodo):
                 resultado = generate_statistics_obj(
                     results_path, complete_data_path, proyecto, clase_metodo, num_obj=2
                 )
@@ -502,12 +507,12 @@ def generate_statistics(input_path: str, output_path: str):
                 else:
                     resultados_2obj.append(resultado)
 
-            elif clase_metodo.startswith('HybridMethodAlgorithm_extractions-cc-loc')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_extractions-loc-cc')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-extractions-cc')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-extractions-loc')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_cc-loc-extractions')\
-                    or clase_metodo.startswith('HybridMethodAlgorithm_loc-cc-extractions'):
+            elif ('extractions-cc-loc' in clase_metodo
+                  or 'extractions-loc-cc' in clase_metodo
+                  or 'loc-extractions-cc' in clase_metodo
+                  or 'cc-extractions-loc' in clase_metodo
+                  or 'cc-loc-extractions' in clase_metodo
+                  or 'loc-cc-extractions' in clase_metodo):
                 resultado = generate_statistics_obj(
                     results_path, complete_data_path, proyecto, clase_metodo, num_obj=3
                 )

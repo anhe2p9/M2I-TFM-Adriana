@@ -252,9 +252,8 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
         # for j in range(ub_point[2], 0, -1):
         while j > 0:
             print("==================================")
-            print(f"[i,j]: [{i},{j}].")
+            print(f"[i,j] for e-constraint: [{i},{j}].")
             e_const = [i, j]
-            print(f"e_const: {e_const}.")
             concrete, result, feasible = solve_e_constraint(objectives_list, e_const, data)
 
             # concrete.pprint()

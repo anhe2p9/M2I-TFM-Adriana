@@ -294,7 +294,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
 
             else:
                 print(f"Infeasible.")
-                j -= 1
+                j = 0
 
     for sol in solutions_set:
         results_csv.append(list(sol))

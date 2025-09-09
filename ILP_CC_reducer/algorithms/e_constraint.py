@@ -246,9 +246,15 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
 
     e_const = ub_point[1:]
     solutions_set = set()
+
     for i in range(ub_point[1], 0, -1):
-        for j in range(ub_point[2], 0, -1):
+        j = ub_point[2]
+        # for j in range(ub_point[2], 0, -1):
+        while j > 0:
+            print("==================================")
             print(f"[i,j]: [{i},{j}].")
+            e_const = [i, j]
+            print(f"e_const: {e_const}.")
             concrete, result, feasible = solve_e_constraint(objectives_list, e_const, data)
 
             # concrete.pprint()
@@ -270,7 +276,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
                     if dominates(sol, new_sol_tuple):
                         dominated = True
 
-                e_const = [i, j]
+                j = new_sol_tuple[-1]
 
                 if dominated:
                     print(f"Dominated solution.")
@@ -284,11 +290,11 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
                     complete_data.append(complete_data_new_row)
 
                 else:
-                    print(f"Repeated solution.")
+                    print(f"Repeated solution: {tuple(ordered_newrow)}.")
 
             else:
                 print(f"Infeasible.")
-                e_const = [i, j]
+                j -= 1
 
     for sol in solutions_set:
         results_csv.append(list(sol))

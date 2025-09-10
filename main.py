@@ -170,10 +170,10 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, general_p
         os.makedirs(Path(general_path).parent)
 
     # Save model in a LP file
-    if concrete:
-        concrete.write(f'{general_path}.lp',
-                       io_options={'symbolic_solver_labels': True})
-        print(f"Model correctly saved in {general_path}.lp.")
+    # if concrete:
+    #     concrete.write(f'{general_path}.lp',
+    #                    io_options={'symbolic_solver_labels': True})
+    #     print(f"Model correctly saved in {general_path}.lp.")
 
     # Save data in a CSV file
     filename = f"{general_path}_results.csv"

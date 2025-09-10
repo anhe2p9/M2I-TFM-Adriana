@@ -62,9 +62,11 @@ class HybridMethodAlgorithm(Algorithm):
 
         end_total = time.time()
 
+        total_time = end_total - start_total
+
         output_data.append("==========================================================================================")
         output_data.append("==========================================================================================")
-        output_data.append(f"Total execution time: {end_total - start_total:.2f}")
+        output_data.append(f"Total execution time: {total_time:.2f}")
 
         return csv_data, concrete, output_data, complete_data, [objectives_names, reference_point]
 

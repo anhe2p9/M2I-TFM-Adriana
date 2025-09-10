@@ -3,6 +3,7 @@ import pyomo.dataportal as dp  # permite cargar datos para usar en esos modelos 
 
 import utils.algorithms_utils as algorithms_utils
 import sys
+import time
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.models import MultiobjectiveILPmodel
@@ -22,6 +23,8 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
     @staticmethod
     def execute(data_dict: dict, tau: int, num_of_objectives: int, objectives_list: list) -> tuple:
+
+        start_total = time.time()
 
         if num_of_objectives == 2:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
@@ -46,6 +49,14 @@ class EpsilonConstraintAlgorithm(Algorithm):
         reference_point = []
         for obj in objectives_list:
             reference_point.append(nadir_dict[obj])
+
+        end_total = time.time()
+
+        total_time = end_total - start_total
+
+        output_data.append("==========================================================================================")
+        output_data.append("==========================================================================================")
+        output_data.append(f"Total execution time: {total_time:.2f}")
 
 
         return results_csv, concrete, output_data, complete_data, [objectives_names, reference_point]
@@ -153,6 +164,15 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list):
                 # lower bound for f1(x) (it has to decrease with f1z)
                 l1 = f1z - 1
                 add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
+
+                output_data.append('===============================================================================')
+                if result.solver.status == 'ok':
+                    for i, obj in enumerate(objectives_list):
+                        output_data.append(f'Objective {obj.__name__}: {complete_data_new_row[i]}')
+                    output_data.append('Sequences selected:')
+                    for s in concrete.S:
+                        output_data.append(f"x[{s}] = {concrete.x[s].value}")
+
             solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 
     return results_csv, concrete, output_data, complete_data
@@ -256,6 +276,8 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
             e_const = [i, j]
             concrete, result, feasible = solve_e_constraint(objectives_list, e_const, data)
 
+            cplex_time = result.solver.time
+
             # concrete.pprint()
 
             if feasible:
@@ -288,11 +310,35 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
                     complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
                     complete_data.append(complete_data_new_row)
 
+                    output_data.append(
+                        '===============================================================================')
+                    if result.solver.status == 'ok':
+                        for i, obj in enumerate(objectives_list):
+                            output_data.append(f'Objective {obj.__name__}: {complete_data_new_row[i]}')
+                        output_data.append('Sequences selected:')
+                        for s in concrete.S:
+                            output_data.append(f"x[{s}] = {concrete.x[s].value}")
+
+                    output_data.append(f"CPLEX time: {cplex_time}.")
+
                 else:
                     print(f"Repeated solution: {tuple(ordered_newrow)}.")
 
+                    output_data.append(
+                        "======================================================================================")
+                    output_data.append(f"Repeated solution, CPLEX TIME: {cplex_time}")
+                    output_data.append(
+                        "======================================================================================")
+
             else:
                 print(f"Infeasible.")
+
+                output_data.append(
+                    "======================================================================================")
+                output_data.append(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
+                output_data.append(
+                    "======================================================================================")
+
                 j = 0
 
     for sol in solutions_set:

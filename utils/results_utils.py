@@ -9,6 +9,7 @@ from matplotlib.patches import Rectangle
 
 import csv
 import os
+import re
 import os.path
 
 from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
@@ -379,6 +380,7 @@ def traverse_and_plot(input_path: str, output_path: str):
 def generate_statistics_obj(
     results_path: str,
     complete_data_path: str,
+    output_path: str,
     proyecto: str,
     clase_metodo: str,
     num_obj: int
@@ -395,7 +397,17 @@ def generate_statistics_obj(
             compl_dat = pd.read_csv(complete_data_path)
             if not compl_dat.empty:
                 execution_time_average = compl_dat["executionTime"].mean()
-                total_execution_time = compl_dat["executionTime"].sum()
+
+        if output_path:
+            with open(output_path, "r") as f:
+                lines = f.readlines()
+                if lines:
+                    last_line = lines[-1].strip()  # última línea
+                    # Extraemos el número usando regex
+                    match = re.search(r"Total execution time:\s*([0-9.]+)", last_line)
+                    if match:
+                        time_value = float(match.group(1))
+                        total_execution_time = time_value
 
         if df.empty:
             raise ValueError("Archivo vacío")
@@ -478,8 +490,15 @@ def generate_statistics(input_path: str, output_path: str):
             if results_file is None:
                 continue
 
+            complete_data_path, execution_time_path = None, None
+
             complete_data_file = next(
                 (f for f in os.listdir(ruta_clase) if f.endswith("_complete_data.csv")),
+                None
+            )
+
+            execution_time_file = next(
+                (f for f in os.listdir(ruta_clase) if f.endswith("_output.txt")),
                 None
             )
 
@@ -487,6 +506,8 @@ def generate_statistics(input_path: str, output_path: str):
 
             if complete_data_file:
                 complete_data_path = os.path.join(ruta_clase, complete_data_file)
+            if execution_time_file:
+                execution_time_path = os.path.join(ruta_clase, execution_time_file)
 
             if ('_extractions-cc_' in clase_metodo
                   or '_cc-extractions_' in clase_metodo
@@ -495,7 +516,7 @@ def generate_statistics(input_path: str, output_path: str):
                   or '_extractions-loc_' in clase_metodo
                   or '_loc-extractions_' in clase_metodo):
                 resultado = generate_statistics_obj(
-                    results_path, complete_data_path, proyecto, clase_metodo, num_obj=2
+                    results_path, complete_data_path, execution_time_path, proyecto, clase_metodo, num_obj=2
                 )
                 if resultado is None or 'error' in resultado:
                     archivos_invalidos.append({
@@ -514,7 +535,7 @@ def generate_statistics(input_path: str, output_path: str):
                   or 'cc-loc-extractions' in clase_metodo
                   or 'loc-cc-extractions' in clase_metodo):
                 resultado = generate_statistics_obj(
-                    results_path, complete_data_path, proyecto, clase_metodo, num_obj=3
+                    results_path, complete_data_path, execution_time_path, proyecto, clase_metodo, num_obj=3
                 )
                 if resultado is None or 'error' in resultado:
                     archivos_invalidos.append({

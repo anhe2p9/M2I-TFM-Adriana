@@ -54,10 +54,10 @@ class ObtainResultsAlgorithm(Algorithm):
 
         algorithm_utils.modify_component(model, 'obj', pyo.Objective(rule=lambda m: objective(m)))
     
-        # Verificar si todos los archivos han sido encontrados
+        # Verify if all files were found
         if len(data.get("missingFiles")) == 0 and "sequences" not in data["emptyFiles"]:
             
-            concrete = model.create_instance(data["data"]) # para crear una instancia de modelo y hacerlo concreto
+            concrete = model.create_instance(data["data"]) # create a model instance and make it concrete
             
             solver = pyo.SolverFactory('cplex')
             solver.options["timelimit"] = 3600 # time limit for solver
@@ -65,7 +65,7 @@ class ObtainResultsAlgorithm(Algorithm):
 
             if not os.path.exists("models"):
                 os.makedirs("models")
-            # Guardar el modelo en un archivo .lp antes de resolverlo
+            # Save model in a .lp file before solving it
             concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp', io_options={'symbolic_solver_labels': True})
         
         
@@ -73,14 +73,9 @@ class ObtainResultsAlgorithm(Algorithm):
             print(f"There are {num_sequences} x[i] variables")
             data_row.append(num_sequences)
             
-            
-            # num_variables = sum(1 for v in concrete.component_data_objects(pyo.Var, active=True) if v.active)
-            # print(f"There are {num_variables} variables")
-            # data_row.append(num_variables)
-            
-            
-            num_vars_utilizadas = results.Problem[0].number_of_variables
-            data_row.append(num_vars_utilizadas)
+
+            num_used_vars = results.Problem[0].number_of_variables
+            data_row.append(num_used_vars)
             
             num_constraints = sum(len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
             print(f"There are {num_constraints} constraints")
@@ -107,7 +102,7 @@ class ObtainResultsAlgorithm(Algorithm):
                 # OFFSETS
                 df_csv = pd.read_csv(data["offsets"], header=None, names=["index", "start", "end"])
             
-                # Filter by intex in solution str list and obtain values
+                # Filter by index in solution str list and obtain values
                 solution_str = [str(i) for i in solution]
                 offsets_list = df_csv[df_csv["index"].isin(solution_str)][["start", "end"]].values.tolist()
                 

@@ -26,7 +26,7 @@ multiobjective_model = MultiobjectiveILPmodel()
 def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None):
 
     if objective:
-        print(f"The objective is: {objective}")
+        print(f"The objective is: {objective[0]}")
 
         objective_map = {
             'EXTRACTIONS': model.extractions_objective,

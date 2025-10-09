@@ -61,14 +61,15 @@ class ObtainResultsAlgorithm(Algorithm):
             
             solver = pyo.SolverFactory('cplex')
             solver.options["timelimit"] = 3600 # time limit for solver
-            results = solver.solve(concrete)
 
             if not os.path.exists("models"):
                 os.makedirs("models")
             # Save model in a .lp file before solving it
-            concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp', io_options={'symbolic_solver_labels': True})
-        
-        
+            concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
+                           io_options={'symbolic_solver_labels': True})
+
+            results = solver.solve(concrete)
+
             num_sequences = len([s for s in concrete.S])
             print(f"There are {num_sequences} x[i] variables")
             data_row.append(num_sequences)

@@ -70,10 +70,9 @@ class ObtainResultsAlgorithm(Algorithm):
 
             results = solver.solve(concrete)
 
-            num_sequences = len([s for s in concrete.S])
-            print(f"There are {num_sequences} x[i] variables")
-            data_row.append(num_sequences)
-            
+            num_extractions = len([s for s in concrete.S])
+            print(f"There are {num_extractions} x[i] variables")
+            data_row.append(num_extractions)
 
             num_used_vars = results.Problem[0].number_of_variables
             data_row.append(num_used_vars)

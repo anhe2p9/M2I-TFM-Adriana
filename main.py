@@ -150,7 +150,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
     }
 
     if alg_name == 'WeightedSumAlgorithm':
-        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau,info_dict)
+        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
         csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,

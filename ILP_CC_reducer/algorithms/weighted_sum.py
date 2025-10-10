@@ -27,19 +27,22 @@ class WeightedSumAlgorithm(Algorithm):
 
         num_of_objectives = info_dict.get("num_of_objectives")
         objectives_list = info_dict.get("objectives_list")
-        weights_config = info_dict.get("weights_config")
+        subdivisions = info_dict.get("subdivisions")
+        weights = info_dict.get("weights")
+
 
         if num_of_objectives == 2:
-            return weighted_sum_for_two_objectives(data_dict, tau, weights_config, objectives_list)
+            return weighted_sum_for_two_objectives(data_dict, tau, objectives_list, subdivisions, weights)
         elif num_of_objectives == 3:
-            return weighted_sum_for_three_objectives(data_dict, tau, weights_config, objectives_list)
+            return weighted_sum_for_three_objectives(data_dict, tau, objectives_list, subdivisions, weights)
         else:
             sys.exit("Number of objectives for weighted sum algorithm must be 2 or 3.")
 
 
 
 
-def weighted_sum_for_two_objectives(data_dict: dict, tau: int, weights_config: Any, objectives_list: list):
+def weighted_sum_for_two_objectives(data_dict: dict, tau: int, objectives_list: list,
+                                    subdivisions: int=None, weights: tuple=None):
     multiobjective_model = MultiobjectiveILPmodel()
     data = data_dict['data']
 
@@ -55,11 +58,11 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, weights_config: A
 
     multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
 
-    if isinstance(weights_config, int):
-        print(f"Processing all ILP results with {weights_config} subdivisions...")
+    if subdivisions:
+        print(f"Processing all ILP results with {subdivisions} subdivisions...")
 
-        for i in range(weights_config+1):
-            w1, w2 = algorithm_utils.generate_two_weights(weights_config, i)
+        for i in range(subdivisions+1):
+            w1, w2 = algorithm_utils.generate_two_weights(subdivisions, i)
 
             algorithm_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
                 rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
@@ -73,9 +76,9 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, weights_config: A
             newrow = [round(w1,3),round(w2,3)] + newrow
             csv_data.append(newrow)
 
-    elif all(isinstance(w, float) for w in weights_config):
-        print(f"Processing ILP results with weights: {weights_config}...")
-        w1, w2 = weights_config
+    elif weights:
+        print(f"Processing ILP results with weights: {weights}...")
+        w1, w2 = weights
 
         algorithm_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
             rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
@@ -93,7 +96,8 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, weights_config: A
 
     return csv_data, concrete, output_data
 
-def weighted_sum_for_three_objectives(data_dict: dict, tau: int, weights_config, objectives_list: list=None):
+def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list: list=None,
+                                      subdivisions: int=None, weights: tuple=None):
     multiobjective_model = MultiobjectiveILPmodel()
     data = data_dict['data']
 
@@ -110,17 +114,15 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, weights_config,
     objectives_names = [obj.__name__ for obj in objectives_list]
     csv_data = [[f"Weight1_{obj1.__name__}", f"Weight2_{obj2.__name__}", f"Weight1_{obj3.__name__}"] + objectives_names]
 
-    print(f"ARGS WEIGHTS: {weights_config}")
-
     concrete = None
 
     """ Weighted model for all generated weights given a number of subdivisions """
-    if isinstance(weights_config, int):
-        print(f"Processing all ILP results with {weights_config} subdivisions")
+    if subdivisions:
+        print(f"Processing all ILP results with {subdivisions} subdivisions")
 
-        for i in range(weights_config + 1):
-            for j in range(weights_config + 1):
-                w1, w2, w3 = algorithm_utils.generate_three_weights(weights_config, i, j)
+        for i in range(subdivisions + 1):
+            for j in range(subdivisions + 1):
+                w1, w2, w3 = algorithm_utils.generate_three_weights(subdivisions, i, j)
 
                 _, newrow, _ = process_weighted_model(multiobjective_model, data, w1, w2, w3, obj1, obj2, obj3)
 
@@ -130,10 +132,10 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, weights_config,
                     break
 
         """ Weighted model just for a specific given weights """
-    elif all(isinstance(arg, float) for arg in weights_config):
-        print(f"Processing the optimal ILP solution with weights: {weights_config}")
+    elif weights:
+        print(f"Processing the optimal ILP solution with weights: {weights}")
 
-        w1, w2, w3 = weights_config
+        w1, w2, w3 = weights
 
         concrete, newrow, results = process_weighted_model(multiobjective_model, data, w1, w2, w3, obj1, obj2, obj3)
 

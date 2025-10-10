@@ -67,6 +67,7 @@ class ObtainResultsAlgorithm(Algorithm):
             # Save model in a .lp file before solving it
             concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
                            io_options={'symbolic_solver_labels': True})
+            print(f"Model correcly saved as {folders_data["class"]}-{folders_data["method"]}.lp.")
 
             num_extractions = len([s for s in concrete.S])
             print(f"There are {num_extractions} x[i] variables")
@@ -227,9 +228,7 @@ class ObtainResultsAlgorithm(Algorithm):
                 data_row.append(str(results.solver.termination_condition))
                 data_row.append(results.solver.time)
 
-
-    
-        print(data_row)
+                print(data_row)
         
         return data_row
     

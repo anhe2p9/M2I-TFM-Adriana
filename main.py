@@ -89,19 +89,24 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                                     }
 
                     if objective.__name__ == 'extractions_objective':
-                        results_csv = model_engine.apply_rsain_model(algorithm,instance, tau,
+                        results_csv = model_engine.apply_rsain_model(algorithm, instance, tau,
                                                                      folders_data, objective, just_model)
                     else:
                         results_csv = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                    folders_data, objective, just_model)
 
-                    with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
-                        writer = csv.writer(f)
-                        writer.writerow(results_csv)
-                    print("Added line succesfully.")
-                    print("============================================================================================================")
-    
-    print("CSV file with results for one objective correctly created.")
+                    if not just_model:
+                        with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
+                            writer = csv.writer(f)
+                            writer.writerow(results_csv)
+                        print("Added line succesfully.")
+
+    if not just_model:
+        print("CSV file with results for one objective correctly created.")
+
+    print(
+        "============================================================================================================")
+
 
 
 
@@ -138,11 +143,6 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
         csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                              num_of_objectives, subdivisions,
                                                                              weights, objectives_list)
-    elif alg_name == 'HybridMethodForThreeObj':
-        csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
-                                                                                                   instance,
-                                                                                                   tau,
-                                                                                                   objectives_list)
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
         csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,

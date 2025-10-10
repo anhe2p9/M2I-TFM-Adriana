@@ -61,9 +61,9 @@ class ILPEngine():
     
 
     def apply_rsain_model(self, algorithm: Algorithm, data: dict,
-                          tau: int, folders_data: dict, objective: str) -> list:
+                          tau: int, folders_data: dict, objective: str, just_model: bool) -> list:
         """Creates a csv with the results' data."""
-        return algorithm.execute(data, tau, folders_data, objective)
+        return algorithm.execute(data, tau, folders_data, objective, just_model)
 
     
     

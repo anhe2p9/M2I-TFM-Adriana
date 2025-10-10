@@ -15,7 +15,7 @@ class Algorithm(ABC):
 
     @staticmethod
     @abstractmethod
-    def execute(data: dict, *args):
+    def execute(data: dict, tau:int, *args, **kwargs):
         """Apply the algorithm to the given model instance."""
         pass
     

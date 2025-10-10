@@ -22,7 +22,7 @@ class ObtainResultsAlgorithm(Algorithm):
         return ("It obtains the solution for single-objective ILP problem.")
 
     @staticmethod
-    def execute(data: dict, tau:int, folders_data: dict, objective: str=None) -> list[str]:
+    def execute(data: dict, tau:int, folders_data: dict, objective: str=None, just_model: bool=False) -> list[str]:
 
         if objective.__name__ == 'extractions_objective':
             model = ILPmodelRsain()
@@ -68,19 +68,20 @@ class ObtainResultsAlgorithm(Algorithm):
             concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
                            io_options={'symbolic_solver_labels': True})
 
-            results = solver.solve(concrete)
-
             num_extractions = len([s for s in concrete.S])
             print(f"There are {num_extractions} x[i] variables")
             data_row.append(num_extractions)
 
-            num_used_vars = results.Problem[0].number_of_variables
-            data_row.append(num_used_vars)
-            
-            num_constraints = sum(len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
+            num_constraints = sum(
+                len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
             print(f"There are {num_constraints} constraints")
             data_row.append(num_constraints)
-            
+
+            results = solver.solve(concrete)
+
+            num_used_vars = results.Problem[0].number_of_variables
+            data_row.append(num_used_vars)
+
             if (results.solver.status == 'ok') and (results.solver.termination_condition == 'optimal'):
                 print('Optimal solution found')
                 print('Objective value: ', pyo.value(concrete.obj))

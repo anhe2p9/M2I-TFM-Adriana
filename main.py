@@ -23,7 +23,7 @@ model_engine = ILPEngine()
 model = ILPmodelRsain()
 multiobjective_model = MultiobjectiveILPmodel()
 
-def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None):
+def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None, just_model: bool=False):
 
     if objective:
         print(f"The objective is: {objective[0]}")
@@ -89,10 +89,11 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                                     }
 
                     if objective.__name__ == 'extractions_objective':
-                        results_csv = model_engine.apply_rsain_model(algorithm,instance, tau, folders_data, objective)
+                        results_csv = model_engine.apply_rsain_model(algorithm,instance, tau,
+                                                                     folders_data, objective, just_model)
                     else:
-                        results_csv = model_engine.apply_algorithm(algorithm, instance, tau, folders_data,
-                                                                   objective)
+                        results_csv = model_engine.apply_algorithm(algorithm, instance, tau,
+                                                                   folders_data, objective, just_model)
 
                     with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
                         writer = csv.writer(f)
@@ -134,7 +135,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
     complete_data, nadir = None, None
 
     if alg_name == 'WeightedSumAlgorithm':
-        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance,tau,
+        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau,
                                                                              num_of_objectives, subdivisions,
                                                                              weights, objectives_list)
     elif alg_name == 'HybridMethodForThreeObj':
@@ -331,6 +332,8 @@ def obtain_arguments():
                              f' "obj1", "obj1,obj2" or "obj1,obj2,ob3".')
     parser.add_argument('--plot', action='store_true',
                         help=f'Plots the result of the given result. It gives just one plot.')
+    parser.add_argument('--model', action='store_true',
+                        help=f'For one objective, it gives back just the ILP model, and does not try to solve it.')
     parser.add_argument('--3dPF', action='store_true',
                         help=f'Plots the 3D PF of the given result. It gives just one PF plot.')
     parser.add_argument( '--all_plots', action='store_true',
@@ -422,6 +425,11 @@ if __name__ == '__main__':
         all_objectives = ('extractions', 'cc', 'loc')
         objectives = all_objectives[:num_of_objectives]
 
+    # Single 3D PF plot True if there is --3dPF
+    if args["model"]:
+        just_model = True
+    else:
+        just_model = False
 
     # Single plot True if there is --single_plot
     if args["plot"]:
@@ -471,7 +479,7 @@ if __name__ == '__main__':
                 check_threshold(model_instance)
                 if not ilp_algorithm:
                     ilp_algorithm = 'ObtainResultsAlgorithm'
-                main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives)
+                main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives, just_model)
             else:
                 sys.exit('General instance folder required.')
         elif num_of_objectives > 1 and model_instance:

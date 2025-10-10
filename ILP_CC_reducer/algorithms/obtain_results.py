@@ -19,10 +19,14 @@ class ObtainResultsAlgorithm(Algorithm):
     
     @staticmethod
     def get_description() -> str:
-        return ("It obtains the solution for single-objective ILP problem.")
+        return "It obtains the solution for single-objective ILP problem."
 
     @staticmethod
-    def execute(data_dict: dict, tau:int, folders_data: dict, objective: str=None, just_model: bool=False) -> list[str]:
+    def execute(data_dict: dict, tau:int, info_dict: dict) -> list[str]:
+
+        folders_data = info_dict.get("folders_data")
+        objective = info_dict.get("objective")
+        just_model = info_dict.get("just_model")
 
         if objective.__name__ == 'extractions_objective':
             model = ILPmodelRsain()
@@ -67,7 +71,7 @@ class ObtainResultsAlgorithm(Algorithm):
             # Save model in a .lp file before solving it
             concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
                            io_options={'symbolic_solver_labels': True})
-            print(f"Model correcly saved as {folders_data["class"]}-{folders_data["method"]}.lp.")
+            print(f"Model correctly saved as {folders_data["class"]}-{folders_data["method"]}.lp.")
 
             num_extractions = len([s for s in concrete.S])
             print(f"There are {num_extractions} x[i] variables")
@@ -148,9 +152,9 @@ class ObtainResultsAlgorithm(Algorithm):
                     data_row.append(nested_extractions)
 
                     # CC REDUCTION
-                    CC_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j,k in concrete.N if k == 0 and concrete.z[j,k].value != 0]
+                    cc_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j,k in concrete.N if k == 0 and concrete.z[j,k].value != 0]
 
-                    reduction_complexity = sum(CC_reduction)
+                    reduction_complexity = sum(cc_reduction)
                     data_row.append(reduction_complexity)
 
                     # FINAL COMPLEXITY
@@ -158,23 +162,23 @@ class ObtainResultsAlgorithm(Algorithm):
                     data_row.append(final_complexity)
 
                     # LOC FOR EACH SEQUENCE: m.loc[i] * m.x[i] - sum(m.loc[j] * m.z[j, k] for j,k in m.N if k == i)
-                    LOC_for_each_sequence = [(concrete.loc[j] * concrete.z[j, k].value) for j,k in concrete.N if k == 0 and concrete.z[j,k].value != 0]
-                    if len(LOC_for_each_sequence) > 0:
-                        minExtractedLOC = min(LOC_for_each_sequence)
-                        data_row.append(minExtractedLOC)
-                        maxExtractedLOC = max(LOC_for_each_sequence)
-                        data_row.append(maxExtractedLOC)
-                        meanExtractedLOC = round(float(np.mean(LOC_for_each_sequence)))
-                        data_row.append(meanExtractedLOC)
-                        totalExtractedLOC = sum(LOC_for_each_sequence)
-                        data_row.append(totalExtractedLOC)
+                    loc_for_each_sequence = [(concrete.loc[j] * concrete.z[j, k].value) for j,k in concrete.N if k == 0 and concrete.z[j,k].value != 0]
+                    if len(loc_for_each_sequence) > 0:
+                        min_extracted_loc = min(loc_for_each_sequence)
+                        data_row.append(min_extracted_loc)
+                        max_extracted_loc = max(loc_for_each_sequence)
+                        data_row.append(max_extracted_loc)
+                        mean_extracted_loc = round(float(np.mean(loc_for_each_sequence)))
+                        data_row.append(mean_extracted_loc)
+                        total_extracted_loc = sum(loc_for_each_sequence)
+                        data_row.append(total_extracted_loc)
                         # NESTED LOC
-                        nested_LOC = {}
+                        nested_loc = {}
                         for v in nested_solution.values():
                             for n in v:
-                                nested_LOC[n] = concrete.loc[n]
-                        if len(nested_LOC) > 0:
-                            data_row.append(nested_LOC)
+                                nested_loc[n] = concrete.loc[n]
+                        if len(nested_loc) > 0:
+                            data_row.append(nested_loc)
                         else:
                             data_row.append("")
                     else:
@@ -185,38 +189,38 @@ class ObtainResultsAlgorithm(Algorithm):
 
 
                     # CC FOR EACH SEQUENCE
-                    if len(CC_reduction) > 0:
-                        minExtractedCC = min(CC_reduction)
-                        data_row.append(minExtractedCC)
-                        maxExtractedCC = max(CC_reduction)
-                        data_row.append(maxExtractedCC)
-                        meanExtractedCC = round(float(np.mean(CC_reduction)))
-                        data_row.append(meanExtractedCC)
-                        totalExtractedCC = reduction_complexity
-                        data_row.append(totalExtractedCC)
+                    if len(cc_reduction) > 0:
+                        min_extracted_cc = min(cc_reduction)
+                        data_row.append(min_extracted_cc)
+                        max_extracted_cc = max(cc_reduction)
+                        data_row.append(max_extracted_cc)
+                        mean_extracted_cc = round(float(np.mean(cc_reduction)))
+                        data_row.append(mean_extracted_cc)
+                        total_extracted_cc = reduction_complexity
+                        data_row.append(total_extracted_cc)
                         # NESTED CC
-                        nested_CC = {}
+                        nested_cc = {}
                         for v in nested_solution.values():
                             for n in v:
-                                nested_CC[n] = concrete.nmcc[n]
-                        if len(nested_CC) > 0:
-                            data_row.append(nested_CC)
+                                nested_cc[n] = concrete.nmcc[n]
+                        if len(nested_cc) > 0:
+                            data_row.append(nested_cc)
                         else:
                             data_row.append("")
                     else:
                         for _ in range(5):
                             data_row.append("")
 
-                    PARAMS_for_each_sequence = [(concrete.params[j] * concrete.z[j, k].value) for j,k in concrete.N if concrete.z[j,k].value != 0]
-                    if len(PARAMS_for_each_sequence) > 0:
-                        minExtractedPARAMS = min(PARAMS_for_each_sequence)
-                        data_row.append(minExtractedPARAMS)
-                        maxExtractedPARAMS = max(PARAMS_for_each_sequence)
-                        data_row.append(maxExtractedPARAMS)
-                        meanExtractedPARAMS = round(float(np.mean(PARAMS_for_each_sequence)))
-                        data_row.append(meanExtractedPARAMS)
-                        totalExtractedPARAMS = sum(PARAMS_for_each_sequence)
-                        data_row.append(totalExtractedPARAMS)
+                    params_for_each_sequence = [(concrete.params[j] * concrete.z[j, k].value) for j,k in concrete.N if concrete.z[j,k].value != 0]
+                    if len(params_for_each_sequence) > 0:
+                        min_extracted_params = min(params_for_each_sequence)
+                        data_row.append(min_extracted_params)
+                        max_extracted_params = max(params_for_each_sequence)
+                        data_row.append(max_extracted_params)
+                        mean_extracted_params = round(float(np.mean(params_for_each_sequence)))
+                        data_row.append(mean_extracted_params)
+                        total_extracted_params = sum(params_for_each_sequence)
+                        data_row.append(total_extracted_params)
                     else:
                         for _ in range(4):
                             data_row.append("")

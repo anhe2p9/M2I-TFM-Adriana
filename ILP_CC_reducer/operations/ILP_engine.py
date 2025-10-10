@@ -52,18 +52,12 @@ class ILPEngine():
         
         
 
-    def apply_algorithm(self, algorithm: Algorithm, instance: dict, tau: int, *args) -> Any:
+    def apply_algorithm(self, algorithm: Algorithm, instance: dict, tau: int, info_dict) -> Any:
         """Apply the given algorithm to the given model instance."""
-        
-        args_list = tuple(item for item in args if item)
 
-        return algorithm.execute(instance, tau, *args_list)
+        return algorithm.execute(instance, tau, info_dict)
     
 
-    def apply_rsain_model(self, algorithm: Algorithm, data: dict,
-                          tau: int, folders_data: dict, objective: str, just_model: bool) -> list:
-        """Creates a csv with the results' data."""
-        return algorithm.execute(data, tau, folders_data, objective, just_model)
 
     
     

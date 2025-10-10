@@ -32,8 +32,10 @@ class HybridMethodAlgorithm(Algorithm):
         return "It obtains supported and non-supported ILP solutions."
 
     @staticmethod
-    def execute(data_dict: dict, tau: int, num_of_objectives: int, objectives_list: list= None):
+    def execute(data_dict: dict, tau: int, info_dict: dict):
 
+        num_of_objectives = info_dict.get("num_of_objectives")
+        objectives_list = info_dict.get("objectives_list")
 
         if num_of_objectives == 2:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
@@ -170,6 +172,8 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
     s_ordered = set()
 
     boxes = [initial_box]  # tuple list (u_1, ..., u_n)
+
+    concrete = None
 
     while boxes and len(solutions_set) < max_solutions:
 

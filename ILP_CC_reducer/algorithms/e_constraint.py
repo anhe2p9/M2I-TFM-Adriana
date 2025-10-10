@@ -1,5 +1,4 @@
 import pyomo.environ as pyo  # ayuda a definir y resolver problemas de optimización
-import pyomo.dataportal as dp  # permite cargar datos para usar en esos modelos de optimización
 
 import utils.algorithms_utils as algorithms_utils
 import sys
@@ -22,7 +21,10 @@ class EpsilonConstraintAlgorithm(Algorithm):
         return "It obtains supported and non-supported ILP solutions for two objectives using e-constraint algorithm."
 
     @staticmethod
-    def execute(data_dict: dict, tau: int, num_of_objectives: int, objectives_list: list) -> tuple:
+    def execute(data_dict: dict, tau: int, info_dict: dict) -> tuple:
+
+        num_of_objectives = info_dict.get("num_of_objectives")
+        objectives_list = info_dict.get("objectives_list")
 
         start_total = time.time()
 
@@ -205,6 +207,8 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
 
     multiobjective_model.obj = pyo.Objective(rule=lambda m: objectives_list[0](m))
 
+    concrete = None
+
     print(f"--------------------------------------------------------------------------------")
     for i, objective in enumerate(objectives_list):
         algorithms_utils.modify_component(multiobjective_model, 'obj',
@@ -264,7 +268,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
 
     multiobjective_model.s = pyo.Var(range(p), domain=pyo.NonNegativeReals)
 
-    e_const = ub_point[1:]
     solutions_set = set()
 
     for i in range(ub_point[1], 0, -1):
@@ -313,8 +316,8 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list):
                     output_data.append(
                         '===============================================================================')
                     if result.solver.status == 'ok':
-                        for i, obj in enumerate(objectives_list):
-                            output_data.append(f'Objective {obj.__name__}: {complete_data_new_row[i]}')
+                        for k, obj in enumerate(objectives_list):
+                            output_data.append(f'Objective {obj.__name__}: {complete_data_new_row[k]}')
                         output_data.append('Sequences selected:')
                         for s in concrete.S:
                             output_data.append(f"x[{s}] = {concrete.x[s].value}")

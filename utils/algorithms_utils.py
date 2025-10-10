@@ -30,7 +30,7 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
 
 
 
-def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list, obj2: str=None):
+def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list=None, obj2: str=None):
     """ Print results and a vertical list of sequences selected """
     
     print('===============================================================================')
@@ -69,7 +69,7 @@ def add_info_to_list(concrete: pyo.ConcreteModel, output_data: list, solver_stat
 
 
 
-def generate_three_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[int, int, int]:
+def generate_three_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[float, float, float]:
     """
     Generates subdivisions in spherical coordinates for an octant.
         
@@ -90,7 +90,7 @@ def generate_three_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[i
     return w1, w2, w3
 
 
-def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[int, int, int]:
+def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[float, float]:
     """
     Generates subdivisions in polar coordinates for a cuadrant.
         

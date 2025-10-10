@@ -88,12 +88,14 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                         "method": str(method_folder)
                                     }
 
-                    if objective.__name__ == 'extractions_objective':
-                        results_csv = model_engine.apply_rsain_model(algorithm, instance, tau,
-                                                                     folders_data, objective, just_model)
-                    else:
-                        results_csv = model_engine.apply_algorithm(algorithm, instance, tau,
-                                                                   folders_data, objective, just_model)
+                    # Complete info to ensure code structure
+                    info_dict = {
+                        "folders_data": folders_data,
+                        "objective": objective,
+                        "just_model": just_model
+                    }
+
+                    results_csv = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
 
                     if not just_model:
                         with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
@@ -139,17 +141,22 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
 
     complete_data, nadir = None, None
 
+    # Complete info to ensure code structure
+    info_dict = {
+        "num_of_objectives": num_of_objectives,
+        "objectives_list": objectives_list,
+        "subdivisions": subdivisions,
+        "weights": weights
+    }
+
     if alg_name == 'WeightedSumAlgorithm':
-        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau,
-                                                                             num_of_objectives, subdivisions,
-                                                                             weights, objectives_list)
+        csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau,info_dict)
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
         csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
                                                                                                    instance,
                                                                                                    tau,
-                                                                                                   num_of_objectives,
-                                                                                                   objectives_list)
+                                                                                                   info_dict)
     else:
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
                  f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodAlgorithm.")

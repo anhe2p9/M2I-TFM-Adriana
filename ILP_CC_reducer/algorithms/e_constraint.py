@@ -387,11 +387,6 @@ def dominates(a: tuple, b: tuple) -> bool:
     return all(a[i] <= b[i] for i in range(len(a))) and any(a[i] < b[i] for i in range(len(a)))
 
 
-
-
-
-
-
 def add_result_to_output_data_file(concrete: pyo.ConcreteModel, objectives_list: list,
                                    new_row: list, output_data: list, result):
     output_data.append('===============================================================================')

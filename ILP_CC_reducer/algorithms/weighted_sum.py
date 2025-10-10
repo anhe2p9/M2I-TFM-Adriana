@@ -141,10 +141,7 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list
 
         csv_data.append(newrow)
 
-        concrete.pprint()
-
-        algorithm_utils.print_result_and_sequences(concrete, results.solver.status)
-        print(results)
+        algorithm_utils.print_result_and_sequences(concrete, results.solver.status, newrow)
 
     else:
         sys.exit(f'The Weighted Sum algorithm parameters must be a number of subdivisions s or three weights w1,w2,w3.')
@@ -155,8 +152,7 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list
 def process_weighted_model(model: MultiobjectiveILPmodel, data: dp.DataPortal, w1, w2, w3, obj1, obj2, obj3):
     algorithm_utils.modify_component(model, 'obj',
                                      pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
-    concrete, results = algorithm_utils.concrete_and_solve_model(model,
-                                                                 data)  # para crear una instancia de modelo y hacerlo concreto
+    concrete, results = algorithm_utils.concrete_and_solve_model(model, data)
 
     newrow_values = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete)), pyo.value(obj3(concrete))]
     newrow = [round(w1, 2), round(w2, 2), round(w3, 2)] + newrow_values

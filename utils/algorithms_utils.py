@@ -30,9 +30,9 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
 
 
 
-def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list=None, obj2: str=None):
+def print_result_and_sequences(concrete: pyo.ConcreteModel, solver_status: str, newrow: list, obj2: str=None):
     """ Print results and a vertical list of sequences selected """
-    
+
     print('===============================================================================')
     if (solver_status == 'ok'):
         if obj2: # TODO: poner un for cada objetivo porque tiene que ser lo más general posible

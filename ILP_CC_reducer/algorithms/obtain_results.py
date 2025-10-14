@@ -62,16 +62,6 @@ class ObtainResultsAlgorithm(Algorithm):
         if len(data_dict.get("missingFiles")) == 0 and "sequences" not in data_dict["emptyFiles"]:
             
             concrete = model.create_instance(data_dict["data"]) # create a model instance and make it concrete
-            
-            solver = pyo.SolverFactory('cplex')
-            solver.options["timelimit"] = 3600 # time limit for solver
-
-            if not os.path.exists("models"):
-                os.makedirs("models")
-            # Save model in a .lp file before solving it
-            concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
-                           io_options={'symbolic_solver_labels': True})
-            print(f"Model correctly saved as {folders_data["class"]}-{folders_data["method"]}.lp.")
 
             num_extractions = len([s for s in concrete.S])
             print(f"There are {num_extractions} x[i] variables")
@@ -81,6 +71,16 @@ class ObtainResultsAlgorithm(Algorithm):
                 len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
             print(f"There are {num_constraints} constraints")
             data_row.append(num_constraints)
+
+            if not os.path.exists("models"):
+                os.makedirs("models")
+            # Save model in a .lp file before solving it
+            concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
+                           io_options={'symbolic_solver_labels': True})
+            print(f"Model correctly saved as {folders_data["class"]}-{folders_data["method"]}.lp.")
+
+            solver = pyo.SolverFactory('cplex')
+            solver.options["timelimit"] = 3600  # time limit for solver
 
             if not just_model:
 

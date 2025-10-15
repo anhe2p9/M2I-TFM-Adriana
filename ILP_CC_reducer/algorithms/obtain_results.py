@@ -26,7 +26,8 @@ class ObtainResultsAlgorithm(Algorithm):
 
         folders_data = info_dict.get("folders_data")
         objective = info_dict.get("objective")
-        just_model = info_dict.get("just_model")
+        obtain_model = info_dict.get("obtain_model")
+        solve_model = info_dict.get("solve_model")
 
         if objective.__name__ == 'extractions_objective':
             model = ILPmodelRsain()
@@ -63,26 +64,40 @@ class ObtainResultsAlgorithm(Algorithm):
             
             concrete = model.create_instance(data_dict["data"]) # create a model instance and make it concrete
 
-            num_extractions = len([s for s in concrete.S])
-            print(f"There are {num_extractions} x[i] variables")
-            data_row.append(num_extractions)
+            num_variables = concrete.nvariables()
+            print(f"There are {num_variables} variables")
+            data_row.append(num_variables)
 
             num_constraints = sum(
                 len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
             print(f"There are {num_constraints} constraints")
             data_row.append(num_constraints)
 
-            if not os.path.exists("models"):
-                os.makedirs("models")
-            # Save model in a .lp file before solving it
-            concrete.write(f'models/{folders_data["class"]}-{folders_data["method"]}.lp',
-                           io_options={'symbolic_solver_labels': True})
-            print(f"Model correctly saved as {folders_data["class"]}-{folders_data["method"]}.lp.")
+            num_xi_variables = len([s for s in concrete.S])
+            print(f"There are {num_xi_variables} extractions")
+            data_row.append(num_xi_variables)
 
-            solver = pyo.SolverFactory('cplex')
-            solver.options["timelimit"] = 3600  # time limit for solver
+            if obtain_model:
+                # Create folder if it doesn't exist
+                if not os.path.exists("models"):
+                    os.makedirs("models")
 
-            if not just_model:
+                # Build model file path
+                model_path = os.path.join("models", f'{folders_data["class"]}-{folders_data["method"]}.lp')
+
+                # Save model as a .lp file before solving
+                concrete.write(model_path, io_options={'symbolic_solver_labels': True})
+
+                # Get absolute file path
+                abs_model_path = os.path.abspath(model_path)
+
+                # Informative message
+                print(f"Model correctly saved at: {abs_model_path}")
+
+            if solve_model:
+
+                solver = pyo.SolverFactory('cplex')
+                solver.options["timelimit"] = 3600  # time limit for solver
 
                 results = solver.solve(concrete)
 
@@ -232,7 +247,11 @@ class ObtainResultsAlgorithm(Algorithm):
                 data_row.append(str(results.solver.termination_condition))
                 data_row.append(results.solver.time)
 
-                print(data_row)
+            else:
+                for _ in range(27):
+                    data_row.append("")
+
+        print(data_row)
         
         return data_row
     

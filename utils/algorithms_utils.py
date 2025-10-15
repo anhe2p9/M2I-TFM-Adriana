@@ -120,9 +120,9 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
         'loc': model.loc_difference_objective
     }
 
-    """ Number of sequences """
-    num_sequences = len([s for s in concrete.S])
-    complete_data_row.append(num_sequences)
+    """ Number of extractions """
+    num_extractions = len([s for s in concrete.S])
+    complete_data_row.append(num_extractions)
 
     """ Number of variables """
     num_vars_utilizadas = results.Problem[0].number_of_variables

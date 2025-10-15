@@ -23,7 +23,8 @@ model_engine = ILPEngine()
 model = ILPmodelRsain()
 multiobjective_model = MultiobjectiveILPmodel()
 
-def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None, just_model: bool=False):
+def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None,
+                 obtain_model: bool=False, solve_model: bool=False):
 
     if objective:
         print(f"The objective is: {objective[0]}")
@@ -40,7 +41,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
             sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: EXTRACTIONS, CC or LOC.")
     
     csv_data = ["project", "class", "method", "missingFile", "emptyFile",
-         "numberOfSequences", "numberOfVariables", "numberOfConstraints",
+         "numberOfVariables", "numberOfConstraints", "numberOfExtractions", "numberOfUsedVariables",
          "initialComplexity", "solution", "offsets", "extractions",
          "NOTnestedSolution", "NOTnestedExtractions",
          "NESTEDsolution", "NESTEDextractions",
@@ -92,18 +93,19 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     info_dict = {
                         "folders_data": folders_data,
                         "objective": objective,
-                        "just_model": just_model
+                        "obtain_model": obtain_model,
+                        "solve_model": solve_model
                     }
 
                     results_csv = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
 
-                    if not just_model:
-                        with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
-                            writer = csv.writer(f)
-                            writer.writerow(results_csv)
-                        print("Added line succesfully.")
 
-    if not just_model:
+                    with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
+                        writer = csv.writer(f)
+                        writer.writerow(results_csv)
+                    print("Added line succesfully.")
+
+    if not obtain_model:
         print("CSV file with results for one objective correctly created.")
 
     print(
@@ -337,10 +339,12 @@ def obtain_arguments():
                         help=f'List of objectives to minimize. '
                              f'In case of two or three objectives, write them separated by comma (","):'
                              f' "obj1", "obj1,obj2" or "obj1,obj2,ob3".')
+    parser.add_argument('--model', action='store_true',
+                        help=f'For one objective, it gives back the ILP model.')
+    parser.add_argument('--solve', action='store_true',
+                        help=f'For one objective, it tries to solve the model.')
     parser.add_argument('--plot', action='store_true',
                         help=f'Plots the result of the given result. It gives just one plot.')
-    parser.add_argument('--model', action='store_true',
-                        help=f'For one objective, it gives back just the ILP model, and does not try to solve it.')
     parser.add_argument('--3dPF', action='store_true',
                         help=f'Plots the 3D PF of the given result. It gives just one PF plot.')
     parser.add_argument( '--all_plots', action='store_true',
@@ -432,11 +436,11 @@ if __name__ == '__main__':
         all_objectives = ('extractions', 'cc', 'loc')
         objectives = all_objectives[:num_of_objectives]
 
-    # Single 3D PF plot True if there is --3dPF
-    if args["model"]:
-        just_model = True
-    else:
-        just_model = False
+    # For one objective, it tries to obtain the model if there is --model
+    obtain_model = bool(args.get("model"))
+
+    # For one objective, it tries to solve the model if there is --solve
+    solve_model = bool(args.get("solve"))
 
     # Single plot True if there is --single_plot
     if args["plot"]:
@@ -486,7 +490,7 @@ if __name__ == '__main__':
                 check_threshold(model_instance)
                 if not ilp_algorithm:
                     ilp_algorithm = 'ObtainResultsAlgorithm'
-                main_one_obj(ilp_algorithm, model_instance, int(threshold),objectives, just_model)
+                main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives, obtain_model, solve_model)
             else:
                 sys.exit('General instance folder required.')
         elif num_of_objectives > 1 and model_instance:

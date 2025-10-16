@@ -319,8 +319,8 @@ def obtain_arguments():
                         help=f'Properties file name in case one want to give every parameter from a .ini file.')
     parser.add_argument('-n', '--num_of_objectives', dest='num_of_objectives', type=str, default=None,
                         help=f'Number of objectives to minimize.')
-    # parser.add_argument('-m', '--modeltype', dest='model_type', type=str, default=None,
-    #                     help='Type of model (uniobjective or multiobjective) used to solve the specific instance.')
+    parser.add_argument('-m', '--model_path', dest='model_path', type=str, default=None,
+                        help='Path to the model to be analyzed (obtain number of variables and constraints.')
     parser.add_argument('-i', '--instance', dest='model_instance', type=str, default=None,
                         help='Model instance to be optimized. '
                              'It can be the folder path with the three data files in CSV format for multiobjective'
@@ -389,7 +389,7 @@ if __name__ == '__main__':
         config = load_config(properties_file_path)
     
     
-    # model_type = args['model_type'] if args['model_type'] else config.get('model_type')
+    model_path = args['model_path'] if args['model_path'] else config.get('model_path')
     num_of_objectives = int(args['num_of_objectives']) if args['num_of_objectives'] else config.get('num_of_objectives')
     model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
     ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
@@ -524,5 +524,10 @@ if __name__ == '__main__':
     if all_3DPF:
         results_utils.traverse_and_PF_plot(input_dir, output_dir)
 
-    
+
+    # If we want to analyze a model from a .lp
+    if model_path:
+        resultado = results_utils.analyze_lp_model(model_path)
+        print(f"There are {resultado['total_variables']} varaibles.")
+        print(f"There are {resultado['constraints']} constraints.")
     

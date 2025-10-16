@@ -565,3 +565,81 @@ def generate_statistics(input_path: str, output_path: str):
         ruta_invalidos = os.path.join(output_path, "archivos_invalidos.csv")
         df_invalidos.to_csv(ruta_invalidos, index=False)
         print(f"⚠️  Archivos con errores guardados en: {ruta_invalidos}")
+
+
+def analyze_lp_model(file_lp):
+
+    section = None
+    constraints = 0
+    variables = {
+        'bounds': set(),
+        'binary': set()
+    }
+
+    var_pattern = re.compile(r'[a-zA-Z_]+\([0-9_]+\)')  # solo variables tipo x(0), z(1_0), etc.
+
+    with open(file_lp, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+
+            # Detect sections
+            if line.lower() == 's.t.':
+                section = 'constraints'
+                continue
+            elif line.lower().startswith('bounds'):
+                section = 'bounds'
+                continue
+            elif line.lower().startswith('binary'):
+                section = 'binary'
+                continue
+            elif line.lower().startswith('end'):
+                section = None
+                continue
+
+            # Count constraints
+            if section == 'constraints':
+                if line.endswith(':'):
+                    constraints += 1
+
+            # Count variables
+            elif section in ('bounds', 'binary'):
+                for v in var_pattern.findall(line):
+                    variables[section].add(v)
+
+    # Continuous variables are bounds minus binary
+    continuous_variables = variables['bounds'] - variables['binary']
+    all_variables = set().union(continuous_variables, variables['binary'])
+
+    summary = {
+        'constraints': constraints,
+        'continuous_bounds_variables': len(continuous_variables),
+        'binary_variables': len(variables['binary']),
+        'total_variables': len(all_variables),
+        'section_details': {
+            'continuous_bounds': len(continuous_variables),
+            'binary': len(variables['binary'])
+        }
+    }
+
+    # Flatten the nested section
+    flat_summary = {
+        'constraints': summary['constraints'],
+        'continuous_bounds_variables': summary['continuous_bounds_variables'],
+        'binary_variables': summary['binary_variables'],
+        'total_variables': summary['total_variables'],
+        'section_continuous_bounds': summary['section_details']['continuous_bounds'],
+        'section_binary': summary['section_details']['binary']
+    }
+
+    # Create DataFrame
+    df_summary = pd.DataFrame([flat_summary])
+
+    # Save CSV
+    summary_path = os.path.join(os.path.dirname(file_lp), f"{os.path.basename(file_lp)}_summary.csv")
+    df_summary.to_csv(summary_path, index=False)
+
+    print(f"\n✅ Model data saved in: {summary_path}")
+
+    return summary

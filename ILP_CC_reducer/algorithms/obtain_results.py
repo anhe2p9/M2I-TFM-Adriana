@@ -74,7 +74,7 @@ class ObtainResultsAlgorithm(Algorithm):
             data_row.append(num_constraints)
 
             num_xi_variables = len([s for s in concrete.S])
-            print(f"There are {num_xi_variables} extractions")
+            print(f"There are {num_xi_variables} potential extractions")
             data_row.append(num_xi_variables)
 
             if obtain_model:

@@ -89,8 +89,14 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                         "method": str(method_folder)
                                     }
 
+                    variables, constraints = results_utils.analyze_model_data(total_path)
+                    print(f"There are {variables} variables.")
+                    print(f"There are {constraints} constraints.")
+
                     # Complete info to ensure code structure
                     info_dict = {
+                        "variables": variables,
+                        "constraints": constraints,
                         "folders_data": folders_data,
                         "objective": objective,
                         "obtain_model": obtain_model,
@@ -340,7 +346,7 @@ def obtain_arguments():
                              f'In case of two or three objectives, write them separated by comma (","):'
                              f' "obj1", "obj1,obj2" or "obj1,obj2,ob3".')
     parser.add_argument('--model', action='store_true',
-                        help=f'For one objective, it gives back the ILP model.')
+                        help=f'For one objective, it tries to just obtain the model.')
     parser.add_argument('--solve', action='store_true',
                         help=f'For one objective, it tries to solve the model.')
     parser.add_argument('--plot', action='store_true',
@@ -388,8 +394,7 @@ if __name__ == '__main__':
             sys.exit(f'The model instance must be a .ini file.')
         config = load_config(properties_file_path)
     
-    
-    model_path = args['model_path'] if args['model_path'] else config.get('model_path')
+
     num_of_objectives = int(args['num_of_objectives']) if args['num_of_objectives'] else config.get('num_of_objectives')
     model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
     ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
@@ -523,11 +528,4 @@ if __name__ == '__main__':
 
     if all_3DPF:
         results_utils.traverse_and_PF_plot(input_dir, output_dir)
-
-
-    # If we want to analyze a model from a .lp
-    if model_path:
-        resultado = results_utils.analyze_lp_model(model_path)
-        print(f"There are {resultado['total_variables']} varaibles.")
-        print(f"There are {resultado['constraints']} constraints.")
     

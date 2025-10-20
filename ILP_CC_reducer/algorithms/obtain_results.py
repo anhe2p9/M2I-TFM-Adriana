@@ -64,14 +64,9 @@ class ObtainResultsAlgorithm(Algorithm):
             
             concrete = model.create_instance(data_dict["data"]) # create a model instance and make it concrete
 
-            num_variables = concrete.nvariables()
-            print(f"There are {num_variables} variables")
-            data_row.append(num_variables)
-
-            num_constraints = sum(
-                len(constraint) for constraint in concrete.component_objects(pyo.Constraint, active=True))
-            print(f"There are {num_constraints} constraints")
-            data_row.append(num_constraints)
+            variables, constraints = info_dict["variables"], info_dict["constraints"]
+            data_row.append(variables)
+            data_row.append(constraints)
 
             num_xi_variables = len([s for s in concrete.S])
             print(f"There are {num_xi_variables} potential extractions")
@@ -103,6 +98,8 @@ class ObtainResultsAlgorithm(Algorithm):
 
                 num_used_vars = results.Problem[0].number_of_variables
                 data_row.append(num_used_vars)
+
+                print(f"Used variables: {num_used_vars}.")
 
                 if (results.solver.status == 'ok') and (results.solver.termination_condition == 'optimal'):
                     print('Optimal solution found')

@@ -1,5 +1,7 @@
 import pandas as pd
 
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
@@ -567,79 +569,32 @@ def generate_statistics(input_path: str, output_path: str):
         print(f"⚠️  Archivos con errores guardados en: {ruta_invalidos}")
 
 
-def analyze_lp_model(file_lp):
+def analyze_model_data(method_path):
+    # Main path containing the subfolders
+    main_path = Path(method_path)
 
-    section = None
-    constraints = 0
-    variables = {
-        'bounds': set(),
-        'binary': set()
-    }
+    # Dictionary to store the three DataFrames
+    dataframes = {}
+    row_counts = {}
 
-    var_pattern = re.compile(r'[a-zA-Z_]+\([0-9_]+\)')  # solo variables tipo x(0), z(1_0), etc.
+    # Get all CSV files in the folder
+    csv_files = list(method_path.glob("*.csv"))
 
-    with open(file_lp, 'r') as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
+    # Read each CSV file and store it in the dictionary
+    for csv_file in csv_files:
+        df = pd.read_csv(csv_file)
+        # Extract the part after the last underscore and before ".csv"
+        suffix = csv_file.stem.split("_")[-1]
+        dataframes[suffix] = df  # Use the suffix as key
 
-            # Detect sections
-            if line.lower() == 's.t.':
-                section = 'constraints'
-                continue
-            elif line.lower().startswith('bounds'):
-                section = 'bounds'
-                continue
-            elif line.lower().startswith('binary'):
-                section = 'binary'
-                continue
-            elif line.lower().startswith('end'):
-                section = None
-                continue
+        # Count the number of rows (excluding header)
+        row_counts[suffix] = len(df)
 
-            # Count constraints
-            if section == 'constraints':
-                if line.endswith(':'):
-                    constraints += 1
+    # Example: sum rows from specific CSVs
+    keys_to_sum = ["sequences", "nested"]
+    variables = sum(row_counts[key] for key in keys_to_sum if key in row_counts)
 
-            # Count variables
-            elif section in ('bounds', 'binary'):
-                for v in var_pattern.findall(line):
-                    variables[section].add(v)
+    keys_to_sum = ["sequences", "nested", "conflict"]
+    constraints = sum(row_counts[key] for key in keys_to_sum if key in row_counts) + 1 # sum 1 for the x_0 == 1 constraint
 
-    # Continuous variables are bounds minus binary
-    continuous_variables = variables['bounds'] - variables['binary']
-    all_variables = set().union(continuous_variables, variables['binary'])
-
-    summary = {
-        'constraints': constraints,
-        'continuous_bounds_variables': len(continuous_variables),
-        'binary_variables': len(variables['binary']),
-        'total_variables': len(all_variables),
-        'section_details': {
-            'continuous_bounds': len(continuous_variables),
-            'binary': len(variables['binary'])
-        }
-    }
-
-    # Flatten the nested section
-    flat_summary = {
-        'constraints': summary['constraints'],
-        'continuous_bounds_variables': summary['continuous_bounds_variables'],
-        'binary_variables': summary['binary_variables'],
-        'total_variables': summary['total_variables'],
-        'section_continuous_bounds': summary['section_details']['continuous_bounds'],
-        'section_binary': summary['section_details']['binary']
-    }
-
-    # Create DataFrame
-    df_summary = pd.DataFrame([flat_summary])
-
-    # Save CSV
-    summary_path = os.path.join(os.path.dirname(file_lp), f"{os.path.basename(file_lp)}_summary.csv")
-    df_summary.to_csv(summary_path, index=False)
-
-    print(f"\n✅ Model data saved in: {summary_path}")
-
-    return summary
+    return variables, constraints

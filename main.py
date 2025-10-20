@@ -93,17 +93,19 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     print(f"There are {variables} variables.")
                     print(f"There are {constraints} constraints.")
 
-                    # Complete info to ensure code structure
-                    info_dict = {
-                        "variables": variables,
-                        "constraints": constraints,
-                        "folders_data": folders_data,
-                        "objective": objective,
-                        "obtain_model": obtain_model,
-                        "solve_model": solve_model
-                    }
+                    if obtain_model or solve_model:
 
-                    results_csv = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
+                        # Complete info to ensure code structure
+                        info_dict = {
+                            "variables": variables,
+                            "constraints": constraints,
+                            "folders_data": folders_data,
+                            "objective": objective,
+                            "obtain_model": obtain_model,
+                            "solve_model": solve_model
+                        }
+
+                        results_csv = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
 
 
                     with open(csv_path, mode='a', newline='', encoding='utf-8') as f:

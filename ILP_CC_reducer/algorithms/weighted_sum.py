@@ -9,7 +9,7 @@ from typing import Any
 import utils.algorithms_utils as algorithm_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
-from ILP_CC_reducer.models import GeneralILPmodel
+from ILP_CC_reducer.model import GeneralILPmodel
 
 
 class WeightedSumAlgorithm(Algorithm):

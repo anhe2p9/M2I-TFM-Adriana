@@ -6,7 +6,7 @@ import os
 
 import utils.algorithms_utils as algorithm_utils
 
-from ILP_CC_reducer.models import GeneralILPmodel
+from ILP_CC_reducer.model import GeneralILPmodel
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 
 
@@ -73,11 +73,11 @@ class ObtainResultsAlgorithm(Algorithm):
 
             if obtain_model:
                 # Create folder if it doesn't exist
-                if not os.path.exists("models"):
-                    os.makedirs("models")
+                if not os.path.exists("model"):
+                    os.makedirs("model")
 
                 # Build model file path
-                model_path = os.path.join("models", f'{folders_data["class"]}-{folders_data["method"]}.lp')
+                model_path = os.path.join("model", f'{folders_data["class"]}-{folders_data["method"]}.lp')
 
                 # Save model as a .lp file before solving
                 concrete.write(model_path, io_options={'symbolic_solver_labels': True})

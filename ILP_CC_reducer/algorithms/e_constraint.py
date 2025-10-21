@@ -5,7 +5,7 @@ import sys
 import time
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
-from ILP_CC_reducer.models import GeneralILPmodel
+from ILP_CC_reducer.model import GeneralILPmodel
 
 
 class EpsilonConstraintAlgorithm(Algorithm):

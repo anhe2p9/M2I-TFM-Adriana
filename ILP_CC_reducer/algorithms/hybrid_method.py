@@ -9,7 +9,7 @@ import sys
 import utils.algorithms_utils as algorithms_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
-from ILP_CC_reducer.models import GeneralILPmodel
+from ILP_CC_reducer.model import GeneralILPmodel
 
 
 PointND = Tuple[float, ...]

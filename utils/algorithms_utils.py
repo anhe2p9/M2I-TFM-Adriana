@@ -5,7 +5,7 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import matplotlib.pyplot as plt
-from ILP_CC_reducer.models import GeneralILPmodel
+from ILP_CC_reducer.model import GeneralILPmodel
 
 import numpy as np
 import pandas as pd

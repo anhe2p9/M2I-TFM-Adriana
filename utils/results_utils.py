@@ -14,8 +14,8 @@ import os
 import re
 import os.path
 
-from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
-model = ILPmodelRsain()
+from ILP_CC_reducer.models.ILPmodel import GeneralILPmodel
+model = GeneralILPmodel(active_objectives=["extractions", "cc", "loc"])
 
 
 

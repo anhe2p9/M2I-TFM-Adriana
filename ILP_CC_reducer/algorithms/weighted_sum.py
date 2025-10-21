@@ -2,13 +2,14 @@ import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimizaci
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import sys
+import utils.algorithms_utils as algorithms_utils
 
 from typing import Any
 
 import utils.algorithms_utils as algorithm_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
-from ILP_CC_reducer.models import MultiobjectiveILPmodel
+from ILP_CC_reducer.models import GeneralILPmodel
 
 
 class WeightedSumAlgorithm(Algorithm):
@@ -26,29 +27,32 @@ class WeightedSumAlgorithm(Algorithm):
                                                                          tuple[list[list[str]], Any | None, None]:
 
         num_of_objectives = info_dict.get("num_of_objectives")
-        objectives_list = info_dict.get("objectives_list")
+
+        objectives_names = info_dict.get("objectives_list")
+        model = GeneralILPmodel(active_objectives=objectives_names)
+        objectives_list = algorithms_utils.organize_objectives(model, objectives_names)
+
         subdivisions = info_dict.get("subdivisions")
         weights = info_dict.get("weights")
 
 
         if num_of_objectives == 2:
-            return weighted_sum_for_two_objectives(data_dict, tau, objectives_list, subdivisions, weights)
+            return weighted_sum_for_two_objectives(model, data_dict, tau, objectives_list, subdivisions, weights)
         elif num_of_objectives == 3:
-            return weighted_sum_for_three_objectives(data_dict, tau, objectives_list, subdivisions, weights)
+            return weighted_sum_for_three_objectives(model, data_dict, tau, objectives_list, subdivisions, weights)
         else:
             sys.exit("Number of objectives for weighted sum algorithm must be 2 or 3.")
 
 
 
 
-def weighted_sum_for_two_objectives(data_dict: dict, tau: int, objectives_list: list,
+def weighted_sum_for_two_objectives(model: pyo.AbstractModel, data_dict: dict, tau: int, objectives_list: list,
                                     subdivisions: int=None, weights: tuple=None):
-    multiobjective_model = MultiobjectiveILPmodel()
     data = data_dict['data']
 
     if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
-        objectives_list = [multiobjective_model.extractions_objective,
-                           multiobjective_model.cc_difference_objective]
+        objectives_list = [model.extractions_objective,
+                           model.cc_difference_objective]
 
     obj1, obj2 = objectives_list[:2]
 
@@ -56,7 +60,7 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, objectives_list: 
 
     output_data = []
 
-    multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
+    model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False) # Threshold
 
     if subdivisions:
         print(f"Processing all ILP results with {subdivisions} subdivisions...")
@@ -64,9 +68,9 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, objectives_list: 
         for i in range(subdivisions+1):
             w1, w2 = algorithm_utils.generate_two_weights(subdivisions, i)
 
-            algorithm_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-                rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
-            concrete, results = algorithm_utils.concrete_and_solve_model(multiobjective_model, data)
+            algorithm_utils.modify_component(model, 'obj', pyo.Objective(
+                rule=lambda m: model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
+            concrete, results = algorithm_utils.concrete_and_solve_model(model, data)
 
             newrow = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete))]
 
@@ -80,9 +84,9 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, objectives_list: 
         print(f"Processing ILP results with weights: {weights}...")
         w1, w2 = weights
 
-        algorithm_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
-            rule=lambda m: multiobjective_model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
-        concrete, results = algorithm_utils.concrete_and_solve_model(multiobjective_model, data)
+        algorithm_utils.modify_component(model, 'obj', pyo.Objective(
+            rule=lambda m: model.weighted_sum_2obj(m, w1, w2, obj1, obj2)))
+        concrete, results = algorithm_utils.concrete_and_solve_model(model, data)
 
         newrow = [pyo.value(obj1(concrete)), pyo.value(obj2(concrete))]
         csv_data.append(newrow)
@@ -96,20 +100,20 @@ def weighted_sum_for_two_objectives(data_dict: dict, tau: int, objectives_list: 
 
     return csv_data, concrete, output_data
 
-def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list: list=None,
+def weighted_sum_for_three_objectives(model: pyo.AbstractModel, data_dict: dict, tau: int, objectives_list: list=None,
                                       subdivisions: int=None, weights: tuple=None):
-    multiobjective_model = MultiobjectiveILPmodel()
+
     data = data_dict['data']
 
     if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
-        objectives_list = [multiobjective_model.extractions_objective,
-                           multiobjective_model.cc_difference_objective,
-                           multiobjective_model.loc_difference_objective]
+        objectives_list = [model.extractions_objective,
+                           model.cc_difference_objective,
+                           model.loc_difference_objective]
 
     obj1, obj2, obj3 = objectives_list[:3]
 
     # Define threshold
-    multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
+    model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
     objectives_names = [obj.__name__ for obj in objectives_list]
     csv_data = [[f"Weight1_{obj1.__name__}", f"Weight2_{obj2.__name__}", f"Weight1_{obj3.__name__}"] + objectives_names]
@@ -124,7 +128,7 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list
             for j in range(subdivisions + 1):
                 w1, w2, w3 = algorithm_utils.generate_three_weights(subdivisions, i, j)
 
-                _, newrow, _ = process_weighted_model(multiobjective_model, data, w1, w2, w3, obj1, obj2, obj3)
+                _, newrow, _ = process_weighted_model(model, data, w1, w2, w3, obj1, obj2, obj3)
 
                 csv_data.append(newrow)
 
@@ -137,7 +141,7 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list
 
         w1, w2, w3 = weights
 
-        concrete, newrow, results = process_weighted_model(multiobjective_model, data, w1, w2, w3, obj1, obj2, obj3)
+        concrete, newrow, results = process_weighted_model(model, data, w1, w2, w3, obj1, obj2, obj3)
 
         csv_data.append(newrow)
 
@@ -149,7 +153,7 @@ def weighted_sum_for_three_objectives(data_dict: dict, tau: int, objectives_list
     return csv_data, concrete, None
 
 
-def process_weighted_model(model: MultiobjectiveILPmodel, data: dp.DataPortal, w1, w2, w3, obj1, obj2, obj3):
+def process_weighted_model(model: pyo.AbstractModel, data: dp.DataPortal, w1, w2, w3, obj1, obj2, obj3):
     algorithm_utils.modify_component(model, 'obj',
                                      pyo.Objective(rule=lambda m: model.weighted_sum(m, w1, w2, w3, obj1, obj2, obj3)))
     concrete, results = algorithm_utils.concrete_and_solve_model(model, data)

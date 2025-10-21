@@ -6,8 +6,7 @@ import os
 
 import utils.algorithms_utils as algorithm_utils
 
-from ILP_CC_reducer.models import ILPmodelRsain
-from ILP_CC_reducer.models import MultiobjectiveILPmodel
+from ILP_CC_reducer.models import GeneralILPmodel
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 
 
@@ -25,14 +24,14 @@ class ObtainResultsAlgorithm(Algorithm):
     def execute(data_dict: dict, tau:int, info_dict: dict) -> list[str]:
 
         folders_data = info_dict.get("folders_data")
-        objective = info_dict.get("objective")
+        objective_name = info_dict.get("objective")
+
+        model = GeneralILPmodel(active_objectives=[objective_name])
+
+        objective = algorithm_utils.organize_objectives(model, [objective_name])[0]
+
         obtain_model = info_dict.get("obtain_model")
         solve_model = info_dict.get("solve_model")
-
-        if objective.__name__ == 'extractions_objective':
-            model = ILPmodelRsain()
-        else:
-            model = MultiobjectiveILPmodel()
 
         data_row = []
 

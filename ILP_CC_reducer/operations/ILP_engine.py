@@ -10,7 +10,7 @@ from pathlib import Path
 import pyomo.environ as pyo
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
-
+import utils.models_utils as models_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer import algorithms as ALGORITHMS
@@ -27,7 +27,7 @@ class ILPEngine():
         """Return the list of all ILP operations available."""
         return [self.get_algorithm_from_name(ref_name) for ref_name in ALGORITHMS_NAMES]
     
-    def load_concrete(self, data_folder: Path, model: pyo.AbstractModel) -> dict:
+    def load_concrete(self, data_folder: Path) -> dict:
         
         files = { "sequences": None, "nested": None, "conflict": None }
 
@@ -45,7 +45,7 @@ class ILPEngine():
                     files["feasible_extractions_offsets"] = file
 
 
-        data = model.process_data(str(files["sequences"]),
+        data = models_utils.process_data(str(files["sequences"]),
                                   str(files["nested"]),
                                   str(files["conflict"]),
                                   str(files["feasible_extractions_offsets"]))

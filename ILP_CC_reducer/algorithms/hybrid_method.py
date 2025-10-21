@@ -4,22 +4,16 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 from typing import List, Tuple, Optional
 
 import time
-# import numpy as np
-# import pandas as pd
 import sys
 
 import utils.algorithms_utils as algorithms_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
-from ILP_CC_reducer.models import MultiobjectiveILPmodel
-from ILP_CC_reducer.models import ILPmodelRsain
+from ILP_CC_reducer.models import GeneralILPmodel
+
 
 PointND = Tuple[float, ...]
 BoxND = Tuple[float, ...]
-multiobjective_model = MultiobjectiveILPmodel()
-uniobjective_model = ILPmodelRsain()
-
-
 
 class HybridMethodAlgorithm(Algorithm):
 
@@ -35,25 +29,29 @@ class HybridMethodAlgorithm(Algorithm):
     def execute(data_dict: dict, tau: int, info_dict: dict):
 
         num_of_objectives = info_dict.get("num_of_objectives")
-        objectives_list = info_dict.get("objectives_list")
+        objectives_names = info_dict.get("objectives_list")
+        model = GeneralILPmodel(active_objectives=objectives_names)
+        objectives_list = algorithms_utils.organize_objectives(model, objectives_names)
 
         if num_of_objectives == 2:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
-                objectives_list = [multiobjective_model.extractions_objective,
-                                   multiobjective_model.cc_difference_objective]
+                objectives_list = [model.extractions_objective,
+                                   model.cc_difference_objective]
         elif num_of_objectives == 3:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
-                objectives_list = [multiobjective_model.extractions_objective,
-                                   multiobjective_model.cc_difference_objective,
-                                   multiobjective_model.loc_difference_objective]
+                objectives_list = [model.extractions_objective,
+                                   model.cc_difference_objective,
+                                   model.loc_difference_objective]
         else:
             sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
 
 
         start_total = time.time()
 
-        solutions_set, concrete, output_data, complete_data, reference_point = initialize_hybrid_method(objectives_list,
-                                                                                                    tau, data_dict)
+        solutions_set, concrete, output_data, complete_data, reference_point = initialize_hybrid_method(model,
+                                                                                                        objectives_list,
+                                                                                                        tau,
+                                                                                                        data_dict)
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
@@ -75,17 +73,16 @@ class HybridMethodAlgorithm(Algorithm):
 
 
 
-def initialize_hybrid_method(objectives_list: list, tau: int, data_dict: dict):
+def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, tau: int, data_dict: dict):
     data = data_dict['data']
 
-    multiobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
-    uniobjective_model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold UO
+    model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
 
-    concrete = uniobjective_model.create_instance(data)
+    concrete = model.create_instance(data)
 
-    nadir_dict = {multiobjective_model.extractions_objective: len(concrete.S) + 1,
-                  multiobjective_model.cc_difference_objective: concrete.nmcc[0] + 1,
-                  multiobjective_model.loc_difference_objective: concrete.loc[0] + 1}
+    nadir_dict = {model.extractions_objective: len(concrete.S) + 1,
+                  model.cc_difference_objective: concrete.nmcc[0] + 1,
+                  model.loc_difference_objective: concrete.loc[0] + 1}
 
     nadir_point = []
     for obj in objectives_list:
@@ -93,22 +90,24 @@ def initialize_hybrid_method(objectives_list: list, tau: int, data_dict: dict):
 
     initial_box = tuple(nadir_point)
 
-    solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(data_dict, objectives_list,
-                                                                                          initial_box, max_solutions=20)
+    solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(model, data_dict,
+                                                                                          objectives_list,
+                                                                                          initial_box,
+                                                                                          max_solutions=20)
 
     return solutions_set, concrete, output_data, complete_data, nadir_point
 
 
 
-def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
+def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objectives_list: list, box: tuple):
     output_data = []
 
-    algorithms_utils.modify_component(multiobjective_model, 'obj', pyo.Objective(
+    algorithms_utils.modify_component(model, 'obj', pyo.Objective(
         rule=lambda m: sum(obj(m) for obj in objectives_list)))
 
-    add_boxes_constraints(box, objectives_list)
+    add_boxes_constraints(model, box, objectives_list)
 
-    concrete, result = algorithms_utils.concrete_and_solve_model(multiobjective_model, data)
+    concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
@@ -136,10 +135,10 @@ def solve_hybrid_method(data: dp.DataPortal, objectives_list: list, box: tuple):
     return newrow, concrete, result, cplex_time, output_data, ordered_newrow
 
 
-def add_boxes_constraints(box: tuple, objectives_list: list):
+def add_boxes_constraints(model: pyo. AbstractModel, box: tuple, objectives_list: list):
     for i in range(len(objectives_list)):
-        if hasattr(multiobjective_model, f'box_u{i+1}_constraint'):
-            multiobjective_model.del_component(f'box_u{i+1}_constraint')
+        if hasattr(model, f'box_u{i+1}_constraint'):
+            model.del_component(f'box_u{i+1}_constraint')
 
     for i, obj_func in enumerate(objectives_list):
         attr_name = f'box_u{i + 1}_constraint'
@@ -149,13 +148,14 @@ def add_boxes_constraints(box: tuple, objectives_list: list):
             return lambda m: obj(m) <= r
 
         setattr(
-            multiobjective_model,
+            model,
             attr_name,
             pyo.Constraint(rule=make_rule(obj_func, rhs))
         )
 
 
-def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tuple, max_solutions=100):
+def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objectives_list,
+                                    initial_box: tuple, max_solutions=100):
     output_data = []
 
     complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
@@ -184,8 +184,10 @@ def hybrid_method_with_full_p_split(data_dict, objectives_list, initial_box: tup
 
         actual_box = boxes.pop(0)
 
-        solution, concrete, result, cplex_time, new_output_data, ordered_newrow = solve_hybrid_method(data_dict['data'],
-                                                                                                      objectives_list, actual_box)
+        solution, concrete, result, cplex_time, new_output_data, ordered_newrow = solve_hybrid_method(model,
+                                                                                                      data_dict['data'],
+                                                                                                      objectives_list,
+                                                                                                      actual_box)
 
         if solution:
             solutions_set.add(solution)  # Add solution to solutions set

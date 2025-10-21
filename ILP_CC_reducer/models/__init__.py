@@ -1,6 +1,4 @@
-from .ILPmodelRsain import ILPmodelRsain
-from .multiobjILPmodel import MultiobjectiveILPmodel
+from .ILPmodel import GeneralILPmodel
 
 
-__all__ = ['ILPmodelRsain',
-           'MultiobjectiveILPmodel']
+__all__ = ['GeneralILPmodel']

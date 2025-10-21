@@ -16,30 +16,11 @@ import utils.results_utils as results_utils
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 
-from ILP_CC_reducer.models.ILPmodelRsain import ILPmodelRsain
-from ILP_CC_reducer.models.multiobjILPmodel import MultiobjectiveILPmodel
-
 model_engine = ILPEngine()
-model = ILPmodelRsain()
-multiobjective_model = MultiobjectiveILPmodel()
 
 def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None,
                  obtain_model: bool=False, solve_model: bool=False):
 
-    if objective:
-        print(f"The objective is: {objective[0]}")
-
-        objective_map = {
-            'EXTRACTIONS': model.extractions_objective,
-            'CC': model.cc_difference_objective,
-            'LOC': model.loc_difference_objective
-        }
-
-        try:
-            objective= next(objective_map[obj.upper()] for obj in objectives)
-        except KeyError as e:
-            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: EXTRACTIONS, CC or LOC.")
-    
     csv_data = ["project", "class", "method", "missingFile", "emptyFile",
          "numberOfVariables", "numberOfConstraints", "numberOfExtractions", "numberOfUsedVariables",
          "initialComplexity", "solution", "offsets", "extractions",
@@ -52,7 +33,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
          "modelStatus", "terminationCondition", "executionTime"]
 
     # Crear el archivo desde cero (sobrescribir si existe)
-    csv_path = f"{instance_path}_{objective.__name__}_results.csv"
+    csv_path = f"{instance_path}_{objective}_results.csv"
     with open(csv_path, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=csv_data)
         writer.writeheader()
@@ -81,7 +62,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     algorithm = model_engine.get_algorithm_from_name(alg_name)
                     
                     # Process instance
-                    instance = model_engine.load_concrete(total_path, model)
+                    instance = model_engine.load_concrete(total_path)
                     
                     folders_data = {
                         "project": str(project_folder_name),
@@ -124,35 +105,19 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
 def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: Path, general_path: str,
                         tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
 
-    if objectives:
-        print(f"The objectives are: {objectives}")
-
-        objective_map = {
-            'EXTRACTIONS': multiobjective_model.extractions_objective,
-            'CC': multiobjective_model.cc_difference_objective,
-            'LOC': multiobjective_model.loc_difference_objective
-        }
-
-        try:
-            objectives_list = [objective_map[obj.upper()] for obj in objectives]
-        except KeyError as e:
-            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: EXTRACTIONS, CC or LOC.")
-    else:
-        objectives_list = None
-
 
     # Process algorithm
     algorithm = model_engine.get_algorithm_from_name(alg_name)
     
     # Process instance
-    instance = model_engine.load_concrete(instance_folder, multiobjective_model)
+    instance = model_engine.load_concrete(instance_folder)
 
     complete_data, nadir = None, None
 
     # Complete info to ensure code structure
     info_dict = {
         "num_of_objectives": num_of_objectives,
-        "objectives_list": objectives_list,
+        "objectives_list": objectives,
         "subdivisions": subdivisions,
         "weights": weights
     }
@@ -495,7 +460,7 @@ if __name__ == '__main__':
                 check_threshold(model_instance)
                 if not ilp_algorithm:
                     ilp_algorithm = 'ObtainResultsAlgorithm'
-                main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives, obtain_model, solve_model)
+                main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives[0], obtain_model, solve_model)
             else:
                 sys.exit('General instance folder required.')
         elif num_of_objectives > 1 and model_instance:

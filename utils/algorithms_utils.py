@@ -1,16 +1,37 @@
 import math
+import sys
 
 import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
 import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos de optimización
 
 import matplotlib.pyplot as plt
-from ILP_CC_reducer.models import MultiobjectiveILPmodel
+from ILP_CC_reducer.models import GeneralILPmodel
 
 import numpy as np
 import pandas as pd
 
 plt.rcParams['text.usetex'] = True
-model = MultiobjectiveILPmodel()
+model = GeneralILPmodel()
+
+def organize_objectives(specific_model: pyo.AbstractModel, objectives_names: list):
+
+    if objectives_names:
+        print(f"The objectives are: {objectives_names}")
+
+        objective_map = {
+            'EXTRACTIONS': specific_model.extractions_objective,
+            'CC': specific_model.cc_difference_objective,
+            'LOC': specific_model.loc_difference_objective
+        }
+
+        try:
+            objectives_list = [objective_map[obj.upper()] for obj in objectives_names]
+        except KeyError as e:
+            sys.exit(f"Unknown objective '{e.args[0]}'. Objectives must be: EXTRACTIONS, CC or LOC.")
+    else:
+        objectives_list = None
+
+    return objectives_list
 
 
 def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: pyo.Any) -> None:

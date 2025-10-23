@@ -569,10 +569,7 @@ def generate_statistics(input_path: str, output_path: str):
         print(f"⚠️  Archivos con errores guardados en: {ruta_invalidos}")
 
 
-def analyze_model_data(method_path):
-    # Main path containing the subfolders
-    main_path = Path(method_path)
-
+def analyze_model_data(method_path: Path, objectives: tuple):
     # Dictionary to store the three DataFrames
     dataframes = {}
     row_counts = {}
@@ -590,11 +587,21 @@ def analyze_model_data(method_path):
         # Count the number of rows (excluding header)
         row_counts[suffix] = len(df)
 
-    # Example: sum rows from specific CSVs
-    keys_to_sum = ["sequences", "nested"]
-    variables = sum(row_counts[key] for key in keys_to_sum if key in row_counts)
+    # Add 1 if 'cc' in objectives and another 1 if 'loc' in objectives
+    extra = 2 * sum(obj in objectives for obj in ("cc", "loc"))
 
-    keys_to_sum = ["sequences", "nested", "conflict"]
-    constraints = sum(row_counts[key] for key in keys_to_sum if key in row_counts) + 1 # sum 1 for the x_0 == 1 constraint
+    # Sum rows from specific CSVs and add the extra value
+    keys_to_sum = ["sequences", "nested"]
+    variables = sum(row_counts[k] for k in keys_to_sum if k in row_counts) + extra
+
+    # Compute factor: 1 normally, 2 if 'cc' or 'loc' in objectives, 3 if both
+    factor = 1 + 2 * sum(obj in objectives for obj in ("cc", "loc"))
+
+    # Sum all constraints, applying factor only to 'sequences'
+    constraints = sum(
+        row_counts[k] * (factor if k == "sequences" else 1)
+        for k in ("sequences", "nested", "conflict")
+        if k in row_counts
+    ) + 1  # +1 for x_0 == 1 constraint
 
     return variables, constraints

@@ -70,7 +70,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                         "method": str(method_folder)
                                     }
 
-                    variables, constraints = results_utils.analyze_model_data(total_path)
+                    variables, constraints = results_utils.analyze_model_data(total_path, (objective,))
                     print(f"There are {variables} variables.")
                     print(f"There are {constraints} constraints.")
 
@@ -85,7 +85,6 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     }
 
                     results_csv = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
-
 
                     with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
                         writer = csv.writer(f)
@@ -113,6 +112,10 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
     instance = model_engine.load_concrete(instance_folder)
 
     complete_data, nadir = None, None
+
+    variables, constraints = results_utils.analyze_model_data(instance_folder, objectives)
+    print(f"There are {variables} variables.")
+    print(f"There are {constraints} constraints.")
 
     # Complete info to ensure code structure
     info_dict = {

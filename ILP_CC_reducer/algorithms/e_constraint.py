@@ -46,13 +46,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
-        nadir_dict = {model.extractions_objective: len(concrete.S) + 1,
-                      model.cc_difference_objective: concrete.nmcc[0] + 1,
-                      model.loc_difference_objective: concrete.loc[0] + 1}
-
-        reference_point = []
-        for obj in objectives_list:
-            reference_point.append(nadir_dict[obj])
+        reference_point = algorithms_utils.obtaint_reference_point(concrete, objectives_list)
 
         end_total = time.time()
 

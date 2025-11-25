@@ -80,22 +80,16 @@ def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, ta
 
     concrete = model.create_instance(data)
 
-    nadir_dict = {model.extractions_objective: len(concrete.S) + 1,
-                  model.cc_difference_objective: concrete.nmcc[0] + 1,
-                  model.loc_difference_objective: concrete.loc[0] + 1}
+    reference_point = algorithms_utils.obtaint_reference_point(concrete, objectives_list)
 
-    nadir_point = []
-    for obj in objectives_list:
-        nadir_point.append(nadir_dict[obj])
-
-    initial_box = tuple(nadir_point)
+    initial_box = tuple(reference_point)
 
     solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(model, data_dict,
                                                                                           objectives_list,
                                                                                           initial_box,
                                                                                           max_solutions=20)
 
-    return solutions_set, concrete, output_data, complete_data, nadir_point
+    return solutions_set, concrete, output_data, complete_data, reference_point
 
 
 

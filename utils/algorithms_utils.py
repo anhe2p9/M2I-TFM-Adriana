@@ -13,6 +13,17 @@ import pandas as pd
 plt.rcParams['text.usetex'] = True
 model = GeneralILPmodel()
 
+def obtaint_reference_point(concrete: pyo.ConcreteModel, objectives_list: list):
+    reference_dict = {model.extractions_objective: len(concrete.S) + 1,
+                      model.cc_difference_objective: concrete.nmcc[0] + 1,
+                      model.loc_difference_objective: concrete.loc[0] + 1}
+
+    reference_point = []
+    for obj in objectives_list:
+        reference_point.append(reference_dict[obj])
+
+    return reference_point
+
 def organize_objectives(specific_model: pyo.AbstractModel, objectives_names: list):
 
     if objectives_names:

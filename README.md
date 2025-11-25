@@ -197,10 +197,9 @@ python main.py -n 3 -i ./instances/my_instance -a HybirdMethodAlgorithm -t 15 -o
     │   │   ├── weighted_sum.py 
     │   │   ├── e_constraint.py  
     │   │   ├── hybrid_method.py
-    │   ├── 📁 models  
+    │   ├── 📁 model  
     │   │   ├── __init__.py  
-    │   │   ├── ILPmodelRsain.py  
-    │   │   └── multiobjILPmodel.py  
+    │   │   ├── ILPmodel.py
     │   └── 📁 operations  
     │       ├── __init__.py  
     │       └── ILP_engine.py  

@@ -295,26 +295,14 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
                 j = new_sol_tuple[-1]
 
-                if new_sol_tuple == (3, 12, 1):
-                    # concrete.pprint()
-                    concrete.cmin.display()
-                    concrete.s.display()
-                    concrete.f1z_constraint_eps_problem.display()
-                    concrete.f2z_constraint_eps_problem.display()
-
-                if new_sol_tuple == (3, 11, 1):
-                    # concrete.pprint()
-                    concrete.cmin.display()
-                    concrete.s.display()
-                    concrete.f1z_constraint_eps_problem.display()
-                    concrete.f2z_constraint_eps_problem.display()
-
                 if dominated:
                     print(f"Dominated solution.")
                     continue
 
                 if new_sol_tuple not in solutions_set:
                     print(f"New solution found: {tuple(ordered_newrow)}.")
+
+                    solutions_set = update_pareto_front_replace(solutions_set, new_sol_tuple)
                     solutions_set.add(new_sol_tuple)
 
                     complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
@@ -383,6 +371,25 @@ def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data):
     solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 
     return concrete, result, solution_found
+
+def update_pareto_front_replace(pareto_front: set, new_solution: tuple):
+    """
+    Adds the new_solution to the pareto_front and removes any existing
+    solution that is dominated by the new_solution.
+    """
+    # Temporary list to store solutions not dominated by the new solution
+    updated_front = set()
+
+    for sol in pareto_front:
+        if not algorithms_utils.dominates(new_solution, sol):
+            # Keep existing solutions that are NOT dominated by new_solution
+            updated_front.add(sol)
+        # Solutions dominated by new_solution are automatically removed
+
+    # Always add the new solution
+    updated_front.add(new_solution)
+
+    return updated_front
 
 
 def add_result_to_output_data_file(concrete: pyo.ConcreteModel, objectives_list: list,

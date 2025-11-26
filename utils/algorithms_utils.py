@@ -63,6 +63,11 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     
     concrete = mobj_model.create_instance(instance)
     solver = pyo.SolverFactory('cplex')
+
+    solver.options["parallel"] = 1  # modo determinista
+    solver.options["deterministic"] = 1  # modo determinista completo
+    solver.options["threads"] = 1  # 1 solo thread
+
     result = solver.solve(concrete)
     return concrete, result
 

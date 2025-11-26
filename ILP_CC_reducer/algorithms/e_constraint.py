@@ -292,9 +292,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
                 dominated = False
                 for sol in solutions_set:
-
-                    print(f"New sol: {new_sol_tuple}, solution studied: {sol}")
-
                     if algorithms_utils.dominates(sol, new_sol_tuple):
                         dominated = True
 

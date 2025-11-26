@@ -302,7 +302,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                     concrete.f1z_constraint_eps_problem.display()
                     concrete.f2z_constraint_eps_problem.display()
 
-                if new_sol_tuple == (4, 2, 11):
+                if new_sol_tuple == (3, 11, 1):
                     # concrete.pprint()
                     concrete.cmin.display()
                     concrete.s.display()

@@ -276,8 +276,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
             cplex_time = result.solver.time
 
-            # concrete.pprint()
-
             if feasible:
                 new_sol = [round(pyo.value(obj(concrete))) for obj in objectives_list]
 
@@ -289,20 +287,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in ordered_objectives)
 
                 new_sol_tuple = tuple(new_sol)
-
-                if new_sol_tuple == (4,3,12):
-                    # concrete.pprint()
-                    concrete.cmin.display()
-                    concrete.s.display()
-                    concrete.f1z_constraint_eps_problem.display()
-                    concrete.f2z_constraint_eps_problem.display()
-
-                if new_sol_tuple == (4,2,11):
-                    # concrete.pprint()
-                    concrete.cmin.display()
-                    concrete.s.display()
-                    concrete.f1z_constraint_eps_problem.display()
-                    concrete.f2z_constraint_eps_problem.display()
 
                 dominated = False
                 for sol in solutions_set:
@@ -381,8 +365,6 @@ def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data):
             rule=make_rule(k, objective, e[k] - 1)))
 
     concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
-
-    # concrete.pprint()
 
     solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 

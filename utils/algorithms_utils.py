@@ -24,6 +24,12 @@ def obtaint_reference_point(concrete: pyo.ConcreteModel, objectives_list: list):
 
     return reference_point
 
+def dominates(a: tuple, b: tuple) -> bool:
+    """
+    Returns True if point a dominates b.
+    """
+    return all(a[i] <= b[i] for i in range(len(a))) and any(a[i] < b[i] for i in range(len(a)))
+
 def organize_objectives(specific_model: pyo.AbstractModel, objectives_names: list):
 
     if objectives_names:

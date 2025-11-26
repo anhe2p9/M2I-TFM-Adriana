@@ -245,13 +245,6 @@ def full_p_split(box: BoxND, z: tuple, boxes: list) -> List[Optional[BoxND]]:
     return boxes
 
 
-def dominates(a: tuple, b: tuple) -> bool:
-    """
-    Returns True if point a dominates b.
-    """
-    return all(a[i] <= b[i] for i in range(len(a))) and any(a[i] < b[i] for i in range(len(a)))
-
-
 def inside(a: tuple, b: tuple) -> bool:
     """
     Returns True if point 'a' is completely inside 'b'.
@@ -272,7 +265,7 @@ def filter_contained_boxes(boxes: List[PointND]) -> List[PointND]:
             if i == j:
                 continue
             # If box_i dominates box_j
-            if dominates(box_i, box_j):
+            if algorithms_utils.dominates(box_i, box_j):
                 dominated = True
                 print(f"Discarded box: {box_i} because it is inside box {box_j}.")
                 break

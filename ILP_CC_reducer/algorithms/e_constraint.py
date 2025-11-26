@@ -292,7 +292,10 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
                 dominated = False
                 for sol in solutions_set:
-                    if dominates(sol, new_sol_tuple):
+
+                    print(f"New sol: {new_sol_tuple}, solution studied: {sol}")
+
+                    if algorithms_utils.dominates(sol, new_sol_tuple):
                         dominated = True
 
                 j = new_sol_tuple[-1]
@@ -373,13 +376,6 @@ def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data):
     solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 
     return concrete, result, solution_found
-
-
-def dominates(a: tuple, b: tuple) -> bool:
-    """
-    Returns True if point a dominates b.
-    """
-    return all(a[i] <= b[i] for i in range(len(a))) and any(a[i] < b[i] for i in range(len(a)))
 
 
 def add_result_to_output_data_file(concrete: pyo.ConcreteModel, objectives_list: list,

@@ -62,9 +62,9 @@ def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPor
     """ Generates a Concrete Model for a given model instance and solves it using CPLEX solver """
     
     concrete = mobj_model.create_instance(instance)
-    solver = pyo.SolverFactory('cplex')
 
-    solver.options["threads"] = 1  # 1 solo thread
+    solver = pyo.SolverFactory('cplex')
+    solver.options["threads"] = 1  # just 1 thread
 
     result = solver.solve(concrete)
     return concrete, result

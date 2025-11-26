@@ -291,14 +291,18 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 new_sol_tuple = tuple(new_sol)
 
                 if new_sol_tuple == (4,3,12):
-                    concrete.pprint()
-                    # concrete.cmin.display()
-                    # concrete.s.display()
+                    # concrete.pprint()
+                    concrete.cmin.display()
+                    concrete.s.display()
+                    concrete.f1z_constraint_eps_problem.display()
+                    concrete.f2z_constraint_eps_problem.display()
 
                 if new_sol_tuple == (4,2,11):
-                    concrete.pprint()
-                    # concrete.cmin.display()
-                    # concrete.s.display()
+                    # concrete.pprint()
+                    concrete.cmin.display()
+                    concrete.s.display()
+                    concrete.f1z_constraint_eps_problem.display()
+                    concrete.f2z_constraint_eps_problem.display()
 
                 dominated = False
                 for sol in solutions_set:

@@ -197,45 +197,12 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
     """ Obtain payoff table by the lexicographic optimization of the objective functions """
-    opt_lex_list = []
-    opt_lex_table = []
-
-    model.obj = pyo.Objective(rule=lambda m: objectives_list[0](m))
+    print(f"--------------------------------------------------------------------------------")
+    opt_lex_table = compute_lexicographic_table(objectives_list, model, data)
+    print(f"--------------------------------------------------------------------------------")
+    print(f"Lexicographic optima list: {opt_lex_table}.")
 
     concrete = None
-
-    print(f"--------------------------------------------------------------------------------")
-    for i, objective in enumerate(objectives_list):
-        algorithms_utils.modify_component(model, 'obj',
-                                          pyo.Objective(rule=lambda m: objective(m)))  # new objective: min f2(x)
-
-        concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
-
-        if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
-            opt_lex = [round(pyo.value(opt(concrete))) for opt in objectives_list]
-
-            opt_lex_table.append(opt_lex)
-
-            f_nz = round(pyo.value(objective(concrete)))  # f_n(z) := f_nz
-
-            opt_lex_list.append(f_nz)
-
-            print(f"min f{i + 1}(x), {objective.__name__}. Result obtained: f{i + 1}(z) = {round(f_nz)}.")
-
-            attr_name = f'f{i + 1}z_constraint'
-
-            def make_rule(obj, r):
-                return lambda m: obj(m) <= r
-
-            setattr(
-                model,
-                attr_name,
-                pyo.Constraint(rule=make_rule(objective, f_nz))
-            )
-
-    opt_lex_point = tuple(opt_lex_list)
-    print(f"--------------------------------------------------------------------------------")
-    print(f"Lexicographic optima list: {opt_lex_point}.")
 
     for i in range(p):
         model.del_component(f'f{i + 1}z_constraint')  # delete f_n(x) <= f_n(z) constraint
@@ -348,6 +315,86 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
     return results_csv, concrete, output_data, complete_data
 
+def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel, data):
+    opt_lex_table = []
+
+    model.obj = pyo.Objective(rule=lambda m: objectives_list[0](m))
+
+    # For each objective fas main (f1, f2, f3)
+    for main_index, main_objective in enumerate(objectives_list):
+
+        print("-------------------------------------------------------------------------------")
+        print(f"Lexicographic row for minimizing {objectives_list[main_index].__name__}")
+
+        # List to save f1(z), f2(z), f3(z) for this row
+        row_values = []
+
+        # Lexicographic order: first the main one, then the others
+        lex_order = [main_objective] + [obj for obj in objectives_list if obj != main_objective]
+
+        # For each lexicographic level
+        for level, objective in enumerate(lex_order):
+
+            # 1. Change the model objective
+            def make_obj_rule(obj):
+                return lambda m: obj(m)
+
+            algorithms_utils.modify_component(model, 'obj', pyo.Objective(rule=make_obj_rule(objective)))
+
+            # 2. Solve the model
+            concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
+
+            print("-------------------------------------------------------------------------------")
+            concrete.obj.pprint()
+
+            for cons in concrete.component_objects(pyo.Constraint, active=True):
+                if cons.name.startswith("lex_"):
+                    print(f"Restricción: {cons.name}")
+                    for index in cons:
+                        print("  Expresión:", cons[index].expr)
+            print("-------------------------------------------------------------------------------")
+
+            if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
+
+                # 3. Save the values vector (f1(z), f2(z), f3(z))
+                current_values = [round(pyo.value(f(concrete))) for f in objectives_list]
+                row_values = current_values  # always updated with actual solution
+
+                f_nz = round(pyo.value(objective(concrete)))  # valor f_n(z)
+                print(f"  Level {level + 1}: min {objective.__name__}(x) = {f_nz}")
+
+                # 4. Add lexicographic constraint for the next level
+                attr_name = f'lex_fix_{objective.__name__}_{main_index}_{level}'
+
+                def make_rule(obj, r):
+                    return lambda m: obj(m) <= r
+
+                setattr(
+                    model,
+                    attr_name,
+                    pyo.Constraint(rule=make_rule(objective, f_nz))
+                )
+
+            else:
+                print(f"  ❌ Optimization failed at level {level + 1}")
+                break
+
+        # Save this row in the payoff table
+        print(f"  → Lexicographic row obtained: {tuple(row_values)}")
+        opt_lex_table.append(tuple(row_values))
+
+        # Remove new constraints after calculating each row
+        for c in list(model.component_objects(pyo.Constraint, active=True)):
+            if c.name.startswith("lex_fix_"):
+                model.del_component(c)
+
+    print("-------------------------------------------------------------------------------")
+    print("Complete lexicographic table:")
+    for row in opt_lex_table:
+        print(row)
+    print("-------------------------------------------------------------------------------")
+
+    return opt_lex_table
 
 
 def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data, ranges):

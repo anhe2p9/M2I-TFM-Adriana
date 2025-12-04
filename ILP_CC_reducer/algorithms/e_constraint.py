@@ -271,8 +271,10 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
         while j > 0:
             print("==================================")
             print(f"[i,j] for e-constraint: [{i},{j}].")
+            # e_const = [opt_lex_list[k] + (j*ranges[k])/grid_points[k-1] for k in range(1, 3)] # PRUEBA para e_const
+            # print(f"e_const: {e_const}.")
             e_const = [i, j]
-            concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const, data)
+            concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const, data, ranges)
 
             cplex_time = result.solver.time
 
@@ -348,11 +350,11 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
 
 
-def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data):
+def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data, ranges):
     eps = 1 / (10 ** 4)
 
     def make_objective(obj):
-        return lambda m: obj(m) - eps * sum(m.s[i] for i in range(1, len(objectives_list)))
+        return lambda m: obj(m) - eps * sum(m.s[i]/ranges[i] for i in range(1, len(objectives_list)))
 
     algorithms_utils.modify_component(model, 'obj',
                                       pyo.Objective(rule=make_objective(objectives_list[0])))
@@ -367,6 +369,10 @@ def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data):
             rule=make_rule(k, objective, e[k] - 1)))
 
     concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
+
+    # print(f"Objective: {concrete.obj.pprint()}.")
+    # print(f"Constraint1: {concrete.f1z_constraint_eps_problem.pprint()}.")
+    # print(f"Constraint2: {concrete.f2z_constraint_eps_problem.pprint()}.")
 
     solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 

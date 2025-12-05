@@ -197,10 +197,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
     """ Obtain payoff table by the lexicographic optimization of the objective functions """
-    print(f"--------------------------------------------------------------------------------")
     opt_lex_table = compute_lexicographic_table(objectives_list, model, data)
-    print(f"--------------------------------------------------------------------------------")
-    print(f"Lexicographic optima list: {opt_lex_table}.")
 
     concrete = None
 
@@ -335,16 +332,6 @@ def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel,
 
             # 2. Solve the model
             concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
-
-            print("-------------------------------------------------------------------------------")
-            concrete.obj.pprint()
-
-            for cons in concrete.component_objects(pyo.Constraint, active=True):
-                if cons.name.startswith("lex_"):
-                    print(f"Restricción: {cons.name}")
-                    for index in cons:
-                        print("  Expresión:", cons[index].expr)
-            print("-------------------------------------------------------------------------------")
 
             if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal'):
 

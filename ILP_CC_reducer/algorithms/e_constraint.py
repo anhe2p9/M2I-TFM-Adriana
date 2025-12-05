@@ -99,8 +99,7 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
         model.f2z = pyo.Param(
             initialize=f2z)  # new parameter f2(z) to implement new constraint f2(x) <= f2(z)
         model.f2Constraint = pyo.Constraint(
-            rule=lambda m: model.second_obj_diff_constraint(m,
-                                                                           obj2))  # new constraint: f2(x) <= f2(z)
+            rule=lambda m: model.second_obj_diff_constraint(m, obj2))  # new constraint: f2(x) <= f2(z)
         algorithms_utils.modify_component(model, 'obj',
                                           pyo.Objective(rule=lambda m: obj1(m)))  # new objective: min f1(x)
 
@@ -197,15 +196,25 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
     """ Obtain payoff table by the lexicographic optimization of the objective functions """
-    opt_lex_table = compute_lexicographic_table(objectives_list, model, data)
+    opt_lex_table_min, concrete = compute_lexicographic_table(objectives_list, model, data)
+    # concrete = None
 
-    concrete = None
+    """ Set lower bounds ul_k for k=2...p """
+    ul_point = tuple(min(col) for col in zip(*opt_lex_table_min)) # (min(f1), min(f2), min(f3))
+    print(f"Lower bounds: {ul_point}.")
 
     """ Set upper bounds ub_k for k=2...p """
-    ub_point = tuple(max(col) for col in zip(*opt_lex_table)) # (max(f1), max(f2), max(f3))
-    ul_point = tuple(min(col) for col in zip(*opt_lex_table)) # (min(f1), min(f2), min(f3))
+    ub_dict = {model.extractions_objective: len(concrete.S),
+               model.cc_difference_objective: concrete.nmcc[0],
+               model.loc_difference_objective: concrete.loc[0]}
 
-    print(f"Upper bounds: {ub_point}. Lower bounds: {ul_point}.")
+    ub_point = []
+    for obj in objectives_list:
+        ub_point.append(ub_dict[obj])
+
+    ub = tuple(ub_point)
+
+    print(f"Upper bounds: {ub}.")
 
     """ Calculate ranges (r_1, ..., r_p) """
     ranges = tuple(u - l for u,l in zip(ub_point,ul_point))
@@ -218,7 +227,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     model.s = pyo.Var(range(p), domain=pyo.NonNegativeReals)
 
     solutions_set = set()
-    new_sol = []
 
     for i in reversed(range(ul_point[1], ub_point[1] + 1)):  # gridpoints f2
         j = ub_point[2]
@@ -243,7 +251,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in ordered_objectives)
 
                 new_sol_tuple = tuple(new_sol)
-
 
                 dominated = False
                 for sol in solutions_set:
@@ -346,7 +353,7 @@ def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel,
                 attr_name = f'lex_fix_{objective.__name__}_{main_index}_{level}'
 
                 def make_rule(obj, r):
-                    return lambda m: obj(m) <= r
+                    return lambda m: obj(m) == r
 
                 setattr(
                     model,
@@ -373,7 +380,7 @@ def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel,
         print(row)
     print("-------------------------------------------------------------------------------")
 
-    return opt_lex_table
+    return opt_lex_table, concrete
 
 
 def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data, ranges):

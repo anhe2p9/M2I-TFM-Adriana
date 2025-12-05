@@ -230,7 +230,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
             e_const = [i,j]
             print("=====================================")
-            print(f"i={i}, j={j}, e_const = {e_const}")
+            print(f"Iteration = {e_const}")
 
             concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const, data, ranges)
             cplex_time = result.solver.time

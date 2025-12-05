@@ -204,24 +204,14 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
     concrete = None
 
-    for i in range(p):
-        model.del_component(f'f{i + 1}z_constraint')  # delete f_n(x) <= f_n(z) constraint
-
     """ Set upper bounds ub_k for k=2...p """
-    ub_dict = {model.extractions_objective: len(concrete.S) + 1,
-               model.cc_difference_objective: concrete.nmcc[0] + 1,
-               model.loc_difference_objective: concrete.loc[0] + 1}
+    ub_point = tuple(max(col) for col in zip(*opt_lex_table)) # (max(f1), max(f2), max(f3))
+    ul_point = tuple(min(col) for col in zip(*opt_lex_table)) # (min(f1), min(f2), min(f3))
 
-    ub_point = []
-    for obj in objectives_list:
-        ub_point.append(ub_dict[obj])
-
-    ub = tuple(ub_point)
-
-    print(f"Upper bounds: {ub}.")
+    print(f"Upper bounds: {ub_point}. Lower bounds: {ul_point}.")
 
     """ Calculate ranges (r_1, ..., r_p) """
-    ranges = tuple(u - l for u, l in zip(ub, opt_lex_point))
+    ranges = tuple(u - l for u,l in zip(ub_point,ul_point))
     print(f"Ranges: {ranges}.")
 
     """ Set number of gridpoints g_k (k=2...p) for the p-1 obj.functions' ranges """
@@ -231,18 +221,18 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     model.s = pyo.Var(range(p), domain=pyo.NonNegativeReals)
 
     solutions_set = set()
+    new_sol = []
 
-    for i in range(ub_point[1], 0, -1):
+    for i in reversed(range(ul_point[1], ub_point[1] + 1)):  # gridpoints f2
         j = ub_point[2]
-        # for j in range(ub_point[2], 0, -1):
-        while j > 0:
-            print("==================================")
-            print(f"[i,j] for e-constraint: [{i},{j}].")
-            # e_const = [opt_lex_list[k] + (j*ranges[k])/grid_points[k-1] for k in range(1, 3)] # PRUEBA para e_const
-            # print(f"e_const: {e_const}.")
-            e_const = [i, j]
-            concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const, data, ranges)
 
+        while j > 0:
+
+            e_const = [i,j]
+            print("=====================================")
+            print(f"i={i}, j={j}, e_const = {e_const}")
+
+            concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const, data, ranges)
             cplex_time = result.solver.time
 
             if feasible:
@@ -257,12 +247,13 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
                 new_sol_tuple = tuple(new_sol)
 
+
                 dominated = False
                 for sol in solutions_set:
                     if algorithms_utils.dominates(sol, new_sol_tuple):
                         dominated = True
 
-                j = new_sol_tuple[-1]
+                j = new_sol_tuple[-1] - 1
 
                 if dominated:
                     print(f"Dominated solution.")
@@ -307,6 +298,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                     "======================================================================================")
 
                 j = 0
+    print("=====================================")
 
     for sol in solutions_set:
         results_csv.append(list(sol))
@@ -398,7 +390,7 @@ def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel,
 
 
 def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data, ranges):
-    eps = 1 / (10 ** 4)
+    eps = 1 / (10 ** 3)
 
     def make_objective(obj):
         return lambda m: obj(m) - eps * sum(m.s[i]/ranges[i] for i in range(1, len(objectives_list)))
@@ -413,7 +405,7 @@ def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data, 
             return lambda m: obj(m) + m.s[itr + 1] == ep
 
         algorithms_utils.modify_component(model, attr_name, pyo.Constraint(
-            rule=make_rule(k, objective, e[k] - 1)))
+            rule=make_rule(k, objective, e[k])))
 
     concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
 

@@ -86,8 +86,7 @@ def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, ta
 
     solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(model, data_dict,
                                                                                           objectives_list,
-                                                                                          initial_box,
-                                                                                          max_solutions=20)
+                                                                                          initial_box)
 
     return solutions_set, concrete, output_data, complete_data, reference_point
 
@@ -149,7 +148,7 @@ def add_boxes_constraints(model: pyo. AbstractModel, box: tuple, objectives_list
 
 
 def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objectives_list,
-                                    initial_box: tuple, max_solutions=100):
+                                    initial_box: tuple):
     output_data = []
 
     complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
@@ -169,7 +168,7 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
 
     concrete = None
 
-    while boxes and len(solutions_set) < max_solutions:
+    while boxes:
 
         print(
             "=============================================================================================================")

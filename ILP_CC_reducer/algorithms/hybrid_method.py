@@ -176,7 +176,12 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
 
         print(f"Processing hybrid method with boxes: {boxes}.")
 
-        actual_box = boxes.pop(0)
+        def volume(box: tuple):
+            return box[0] * box[1] * box[2]
+
+        idx = max(range(len(boxes)), key=lambda i: volume(boxes[i]))
+        actual_box = boxes.pop(idx)
+        print(f" * Selected box: {actual_box}.")
 
         (solution, concrete, result,
          cplex_time, new_output_data,
@@ -193,7 +198,7 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
             complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
             complete_data.append(complete_data_new_row)
 
-            print(f"New solution: {solution}.")
+            print(f"New solution found: {solution}.")
 
             # Partimos la caja con respecto a la solución real obtenida
             boxes = full_p_split(actual_box, solution, boxes)

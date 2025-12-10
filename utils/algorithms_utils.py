@@ -150,7 +150,7 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[float, float]:
     return w1, w2
 
 
-def write_complete_info(concrete: pyo.ConcreteModel, results, data):
+def write_complete_info(concrete: pyo.ConcreteModel, results, data, solution_time):
     """ Completes a csv with all solution data """
 
     complete_data_row = []
@@ -312,6 +312,9 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data):
 
     """ Termination condition """
     complete_data_row.append(str(results.solver.termination_condition))
+
+    """ Time for finding solution """
+    complete_data_row.append(solution_time)
 
     """ Execution time """
     complete_data_row.append(results.solver.time)

@@ -48,10 +48,8 @@ class HybridMethodAlgorithm(Algorithm):
 
         start_total = time.time()
 
-        solutions_set, concrete, output_data, complete_data, reference_point = initialize_hybrid_method(model,
-                                                                                                        objectives_list,
-                                                                                                        tau,
-                                                                                                        data_dict)
+        (solutions_set, concrete, output_data,
+         complete_data, reference_point) = initialize_hybrid_method(model, objectives_list, tau, data_dict, start_total)
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
@@ -73,7 +71,7 @@ class HybridMethodAlgorithm(Algorithm):
 
 
 
-def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, tau: int, data_dict: dict):
+def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, tau: int, data_dict: dict, start_total):
     data = data_dict['data']
 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
@@ -86,13 +84,13 @@ def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, ta
 
     solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(model, data_dict,
                                                                                           objectives_list,
-                                                                                          initial_box)
+                                                                                          initial_box, start_total)
 
     return solutions_set, concrete, output_data, complete_data, reference_point
 
 
 
-def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objectives_list: list, box: tuple):
+def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objectives_list: list, box: tuple, start_total):
     output_data = []
 
     algorithms_utils.modify_component(model, 'obj', pyo.Objective(
@@ -104,6 +102,8 @@ def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objective
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         newrow = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
+
+        solution_time = time.time() - start_total
 
 
         desired_order_for_objectives = ['extractions_objective', 'cc_difference_objective', 'loc_difference_objective']
@@ -122,10 +122,11 @@ def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objective
     else:
         newrow = None
         ordered_newrow = None
+        solution_time = None
 
     cplex_time = result.solver.time
 
-    return newrow, concrete, result, cplex_time, output_data, ordered_newrow
+    return newrow, concrete, result, cplex_time, output_data, ordered_newrow, solution_time
 
 
 def add_boxes_constraints(model: pyo. AbstractModel, box: tuple, objectives_list: list):
@@ -148,7 +149,7 @@ def add_boxes_constraints(model: pyo. AbstractModel, box: tuple, objectives_list
 
 
 def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objectives_list,
-                                    initial_box: tuple):
+                                    initial_box: tuple, start_total):
     output_data = []
 
     complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
@@ -159,7 +160,7 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
                       "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
                       "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
                       "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-                      "terminationCondition", "executionTime"]]
+                      "terminationCondition", "solutionObtainingTime", "executionTime"]]
 
     solutions_set = set()  # Non-dominated solutions set
     s_ordered = set()
@@ -177,10 +178,10 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
 
         actual_box = boxes.pop(0)
 
-        solution, concrete, result, cplex_time, new_output_data, ordered_newrow = solve_hybrid_method(model,
-                                                                                                      data_dict['data'],
-                                                                                                      objectives_list,
-                                                                                                      actual_box)
+        (solution, concrete, result,
+         cplex_time, new_output_data,
+         ordered_newrow, solution_time) = solve_hybrid_method(model, data_dict['data'],
+                                                              objectives_list, actual_box, start_total)
 
         if solution:
             solutions_set.add(solution)  # Add solution to solutions set
@@ -189,7 +190,7 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
             output_data = output_data + new_output_data
             output_data.append(f"CPLEX time: {cplex_time}.")
 
-            complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
+            complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
             complete_data.append(complete_data_new_row)
 
             print(f"New solution: {solution}.")

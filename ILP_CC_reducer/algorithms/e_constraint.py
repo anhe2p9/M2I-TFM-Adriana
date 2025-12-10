@@ -28,19 +28,31 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         start_total = time.time()
 
+        complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
+                          "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
+                          "not_nested_solution", "not_nested_extractions",
+                          "nested_solution", "nested_extractions",
+                          "reductionComplexity", "finalComplexity",
+                          "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
+                          "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
+                          "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
+                          "terminationCondition", "solutionObtainingTime", "executionTime"]]
+
         if num_of_objectives == 2:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
                 objectives_list = [model.extractions_objective,
                                    model.cc_difference_objective]
             results_csv, concrete, output_data, complete_data = e_constraint_2objs(data_dict, tau,
-                                                                                   objectives_list, model)
+                                                                                   objectives_list, model,
+                                                                                   complete_data, start_total)
         elif num_of_objectives == 3:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
                 objectives_list = [model.extractions_objective,
                                    model.cc_difference_objective,
                                    model.loc_difference_objective]
             results_csv, concrete, output_data, complete_data = e_constraint_3objs(data_dict, tau,
-                                                                                   objectives_list, model)
+                                                                                   objectives_list, model,
+                                                                                   complete_data, start_total)
         else:
             sys.exit("Number of objectives for augmented e-constraint algorithm must be 2 or 3.")
 
@@ -60,7 +72,8 @@ class EpsilonConstraintAlgorithm(Algorithm):
         return results_csv, concrete, output_data, complete_data, [objectives_names, reference_point]
 
 
-def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel):
+def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel,
+                       complete_data: list, start_total):
     data = data_dict['data']
 
     if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
@@ -69,16 +82,6 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
     obj1, obj2 = objectives_list
     output_data = []
     results_csv = [[obj.__name__ for obj in objectives_list]]
-
-    complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
-                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
-                      "not_nested_solution", "not_nested_extractions",
-                      "nested_solution", "nested_extractions",
-                      "reductionComplexity", "finalComplexity",
-                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
-                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
-                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-                      "terminationCondition", "executionTime"]]
 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
@@ -110,7 +113,10 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
         """ FP <- {z} (add z to Pareto front) """
         new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]  # Results for CSV file
         results_csv.append(new_row)
+        solution_time = time.time() - start_total
         print(f"New solution: {new_row}.")
+        complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
+        complete_data.append(complete_data_new_row)
 
         add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
 
@@ -148,9 +154,10 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 f1z = pyo.value(obj1(concrete))
                 new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]
                 results_csv.append(new_row)
+                solution_time = time.time() - start_total
                 print(f"New solution: {new_row}.")
 
-                complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
+                complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
                 complete_data.append(complete_data_new_row)
 
                 """ epsilon = f1(z) - 1 """
@@ -175,18 +182,9 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
 
 
-def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel):
+def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel,
+                       complete_data: list, start_total):
     data = data_dict['data']
-
-    complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
-                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
-                      "not_nested_solution", "not_nested_extractions",
-                      "nested_solution", "nested_extractions",
-                      "reductionComplexity", "finalComplexity",
-                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
-                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
-                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-                      "terminationCondition", "executionTime"]]
 
     p = len(objectives_list)
 
@@ -231,7 +229,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     for i in reversed(range(ul_point[1], ub_point[1] + 1)):  # gridpoints f2
         j = ub_point[2]
 
-        while j > 0:
+        while j > ul_point[2]:
 
             e_const = [i,j]
             print("=====================================")
@@ -266,10 +264,13 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 if new_sol_tuple not in solutions_set:
                     print(f"New solution found: {tuple(ordered_newrow)}.")
 
+                    solution_time = time.time() - start_total
+
                     solutions_set = update_pareto_front_replace(solutions_set, new_sol_tuple)
                     solutions_set.add(new_sol_tuple)
 
-                    complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict)
+                    complete_data_new_row = algorithms_utils.write_complete_info(concrete, result,
+                                                                                 data_dict, solution_time)
                     complete_data.append(complete_data_new_row)
 
                     output_data.append(
@@ -301,7 +302,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 output_data.append(
                     "======================================================================================")
 
-                j = 0
+                j = ul_point[2]
     print("=====================================")
 
     for sol in solutions_set:
@@ -387,7 +388,7 @@ def solve_e_constraint(objectives_list: list, model:pyo.AbstractModel, e, data, 
     eps = 1 / (10 ** 3)
 
     def make_objective(obj):
-        return lambda m: obj(m) - eps * sum(m.s[i]/ranges[i] for i in range(1, len(objectives_list)))
+        return lambda m: obj(m) - eps * sum((m.s[i]/ranges[i]) for i in range(1, len(objectives_list)))
 
     algorithms_utils.modify_component(model, 'obj',
                                       pyo.Objective(rule=make_objective(objectives_list[0])))

@@ -28,6 +28,9 @@ class HybridMethodAlgorithm(Algorithm):
     @staticmethod
     def execute(data_dict: dict, tau: int, info_dict: dict):
 
+        print(f"Data: {data_dict}.")
+        print(f"Info dict: {info_dict}.")
+
         num_of_objectives = info_dict.get("num_of_objectives")
         objectives_names = info_dict.get("objectives_list")
         model = GeneralILPmodel(active_objectives=objectives_names)
@@ -48,8 +51,8 @@ class HybridMethodAlgorithm(Algorithm):
 
         start_total = time.time()
 
-        (solutions_set, concrete, output_data,
-         complete_data, reference_point) = initialize_hybrid_method(model, objectives_list, tau, data_dict, start_total)
+        (solutions_set, concrete,
+         output_data, reference_point) = initialize_hybrid_method(model, objectives_list, tau, data_dict, start_total)
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
@@ -66,7 +69,7 @@ class HybridMethodAlgorithm(Algorithm):
         output_data.append("==========================================================================================")
         output_data.append(f"Total execution time: {total_time:.2f}")
 
-        return csv_data, concrete, output_data, complete_data, [objectives_names, reference_point]
+        return csv_data, concrete, output_data, [objectives_names, reference_point]
 
 
 
@@ -78,15 +81,15 @@ def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, ta
 
     concrete = model.create_instance(data)
 
-    reference_point = algorithms_utils.obtaint_reference_point(concrete, objectives_list)
+    reference_point = algorithms_utils.obtain_reference_point(concrete, objectives_list)
 
     initial_box = tuple(reference_point)
 
-    solutions_set, concrete, output_data, complete_data = hybrid_method_with_full_p_split(model, data_dict,
+    solutions_set, concrete, output_data = hybrid_method_with_full_p_split(model, data_dict,
                                                                                           objectives_list,
                                                                                           initial_box, start_total)
 
-    return solutions_set, concrete, output_data, complete_data, reference_point
+    return solutions_set, concrete, output_data, reference_point
 
 
 
@@ -150,17 +153,24 @@ def add_boxes_constraints(model: pyo. AbstractModel, box: tuple, objectives_list
 
 def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objectives_list,
                                     initial_box: tuple, start_total):
-    output_data = []
 
-    complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
-                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
-                      "not_nested_solution", "not_nested_extractions",
-                      "nested_solution", "nested_extractions",
-                      "reductionComplexity", "finalComplexity",
-                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
-                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
-                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-                      "terminationCondition", "solutionObtainingTime", "executionTime"]]
+    general_path = data_dict["instance_folder"]
+
+    writer_complete_data, complete_data_file = algorithms_utils.initialize_complete_data(general_path)
+
+
+    # # Save data in a CSV file
+    # filename = f"{general_path}_results.csv"
+    #
+    # if os.path.exists(filename):
+    #     os.remove(filename)
+    #
+    # with open(filename, mode="w", newline="", encoding="utf-8") as file:
+    #     writer = csv.writer(file)
+    #     writer.writerows(csv_info)
+    #     print(f"CSV file correctly created in {filename}.")
+
+    output_data = []
 
     solutions_set = set()  # Non-dominated solutions set
     s_ordered = set()
@@ -196,7 +206,9 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
             output_data.append(f"CPLEX time: {cplex_time}.")
 
             complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
-            complete_data.append(complete_data_new_row)
+            writer_complete_data.writerow(complete_data_new_row)
+            complete_data_file.flush()
+
 
             print(f"New solution found: {solution}.")
 
@@ -222,7 +234,10 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
 
     print(f"Solution set: {s_ordered}.")
 
-    return solutions_set, concrete, output_data, complete_data
+    complete_data_file.close()
+    print(f"Complete data correctly saved in {complete_data_file}.")
+
+    return solutions_set, concrete, output_data
 
 
 def full_p_split(box: BoxND, z: tuple, boxes: list) -> List[Optional[BoxND]]:

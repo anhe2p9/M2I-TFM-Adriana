@@ -9,11 +9,42 @@ from ILP_CC_reducer.model import GeneralILPmodel
 
 import numpy as np
 import pandas as pd
+import os
+import csv
+from pathlib import Path
 
 plt.rcParams['text.usetex'] = True
 model = GeneralILPmodel()
 
-def obtaint_reference_point(concrete: pyo.ConcreteModel, objectives_list: list):
+def initialize_complete_data(general_path: str):
+    if not os.path.exists(Path(general_path).parent):
+        os.makedirs(Path(general_path).parent)
+
+    # Save data for each solution in a CSV file
+    complete_data_filename = f"{general_path}_complete_data.csv"
+
+    if os.path.exists(complete_data_filename):
+        os.remove(complete_data_filename)
+
+    complete_data_file = open(complete_data_filename, 'a', newline='')
+    writer_complete_data = csv.writer(complete_data_file)
+
+    if Path(complete_data_filename).stat().st_size == 0:
+        writer_complete_data.writerow(["numberOfSequences", "numberOfVariables", "numberOfConstraints",
+                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
+                      "not_nested_solution", "not_nested_extractions",
+                      "nested_solution", "nested_extractions",
+                      "reductionComplexity", "finalComplexity",
+                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
+                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
+                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
+                      "terminationCondition", "solutionObtainingTime", "executionTime"])
+
+    return writer_complete_data, complete_data_file
+
+
+
+def obtain_reference_point(concrete: pyo.ConcreteModel, objectives_list: list):
     reference_dict = {model.extractions_objective: len(concrete.S) + 1,
                       model.cc_difference_objective: concrete.nmcc[0] + 1,
                       model.loc_difference_objective: concrete.loc[0] + 1}

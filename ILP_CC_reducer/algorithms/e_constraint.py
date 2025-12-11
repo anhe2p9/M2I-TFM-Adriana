@@ -58,7 +58,7 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         objectives_names = [obj.__name__ for obj in objectives_list]
 
-        reference_point = algorithms_utils.obtaint_reference_point(concrete, objectives_list)
+        reference_point = algorithms_utils.obtain_reference_point(concrete, objectives_list)
 
         end_total = time.time()
 

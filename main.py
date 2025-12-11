@@ -110,6 +110,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
     
     # Process instance
     instance = model_engine.load_concrete(instance_folder)
+    instance["instance_folder"] = general_path
 
     complete_data, nadir = None, None
 
@@ -129,7 +130,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
         csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
-        csv_data, concrete_model, output_data, complete_data, nadir = model_engine.apply_algorithm(algorithm,
+        csv_data, concrete_model, output_data, nadir = model_engine.apply_algorithm(algorithm,
                                                                                                    instance,
                                                                                                    tau,
                                                                                                    info_dict)
@@ -137,7 +138,7 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
                  f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodAlgorithm.")
 
-    write_output_to_files(csv_data, concrete_model, general_path, output_data, complete_data)
+    write_output_to_files(csv_data, general_path, output_data)
 
 
 def get_all_path_names(instance_folder: Path):
@@ -147,17 +148,12 @@ def get_all_path_names(instance_folder: Path):
     return method_name, class_name, project_name
 
 
-def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, general_path: str,
+def write_output_to_files(csv_info: list, general_path: str,
                           output_data: list = None, complete_data: list = None):
 
     if not os.path.exists(Path(general_path).parent):
         os.makedirs(Path(general_path).parent)
 
-    # Save model in a LP file
-    # if concrete:
-    #     concrete.write(f'{general_path}.lp',
-    #                    io_options={'symbolic_solver_labels': True})
-    #     print(f"Model correctly saved in {general_path}.lp.")
 
     # Save data in a CSV file
     filename = f"{general_path}_results.csv"
@@ -182,26 +178,19 @@ def write_output_to_files(csv_info: list, concrete: pyo.ConcreteModel, general_p
                 f.write(linea + "\n")
             print(f"Output correctly saved in {output_filename}.")
 
-    # Save complete data in a TXT file
-    complete_data_filename = f"{general_path}_complete_data.csv"
-
-    if os.path.exists(complete_data_filename):
-        os.remove(complete_data_filename)
-
     if complete_data:
+        # Save complete data in a TXT file
+        complete_data_filename = f"{general_path}_complete_data.csv"
+
+        if os.path.exists(complete_data_filename):
+            os.remove(complete_data_filename)
+
         with open(complete_data_filename,
                   mode="w", newline="", encoding="utf-8") as complete_csv:
             writer = csv.writer(complete_csv)
             writer.writerows(complete_data)
             print(f"Complete CSV file correctly created in {complete_data_filename}.")
 
-    # # Save nadir point in a csv file
-    # if nadir:
-    #     with open(f"{method_path}_nadir.csv",
-    #               mode="w", newline="", encoding="utf-8") as nadir_csv:
-    #         writer = csv.writer(nadir_csv)
-    #         writer.writerows(nadir)
-    #         print("Nadir CSV file correctly created.")
 
 
 

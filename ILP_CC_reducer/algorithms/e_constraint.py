@@ -28,59 +28,56 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
         start_total = time.time()
 
-        complete_data = [["numberOfSequences", "numberOfVariables", "numberOfConstraints",
-                          "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
-                          "not_nested_solution", "not_nested_extractions",
-                          "nested_solution", "nested_extractions",
-                          "reductionComplexity", "finalComplexity",
-                          "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
-                          "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
-                          "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-                          "terminationCondition", "solutionObtainingTime", "executionTime"]]
+        general_path = data_dict["instance_folder"]
+
+        output_data_writer = algorithms_utils.initialize_output_data(general_path)
+        complete_data_writer, complete_data_file = algorithms_utils.initialize_complete_data(general_path)
+        results_writer, results_file = algorithms_utils.initialize_results_file(general_path, objectives_list)
+
+        writers_and_files = {"output_data_writer": output_data_writer,
+                             "complete_data_writer": complete_data_writer,
+                             "complete_data_file": complete_data_file,
+                             "results_writer": results_writer,
+                             "results_file": results_file}
 
         if num_of_objectives == 2:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
                 objectives_list = [model.extractions_objective,
                                    model.cc_difference_objective]
-            results_csv, concrete, output_data, complete_data = e_constraint_2objs(data_dict, tau,
-                                                                                   objectives_list, model,
-                                                                                   complete_data, start_total)
+            e_constraint_2objs(data_dict, tau, objectives_list, model, writers_and_files, start_total)
         elif num_of_objectives == 3:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
                 objectives_list = [model.extractions_objective,
                                    model.cc_difference_objective,
                                    model.loc_difference_objective]
-            results_csv, concrete, output_data, complete_data = e_constraint_3objs(data_dict, tau,
-                                                                                   objectives_list, model,
-                                                                                   complete_data, start_total)
+            e_constraint_3objs(data_dict, tau, objectives_list, model, writers_and_files, start_total)
         else:
             sys.exit("Number of objectives for augmented e-constraint algorithm must be 2 or 3.")
-
-        objectives_names = [obj.__name__ for obj in objectives_list]
-
-        reference_point = algorithms_utils.obtain_reference_point(concrete, objectives_list)
 
         end_total = time.time()
 
         total_time = end_total - start_total
 
-        output_data.append("==========================================================================================")
-        output_data.append("==========================================================================================")
-        output_data.append(f"Total execution time: {total_time:.2f}")
+        output_data_writer.write('===============================================================================\n')
+        output_data_writer.write(f"Total execution time: {total_time:.2f}\n")
+        output_data_writer.close()
+        print(f"Output correctly saved in {output_data_writer.name}.")
 
+        complete_data_file.close()
+        print(f"Complete data correctly saved in {complete_data_file.name}.")
 
-        return results_csv, concrete, output_data, complete_data, [objectives_names, reference_point]
+        results_file.close()
+        print(f"Results correctly saved in {results_file.name}.")
 
 
 def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel,
-                       complete_data: list, start_total):
+                       writers_and_files: dict, start_total):
     data = data_dict['data']
 
     if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
         objectives_list = [model.extractions_objective, model.cc_difference_objective]
 
     obj1, obj2 = objectives_list
-    output_data = []
     results_csv = [[obj.__name__ for obj in objectives_list]]
 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
@@ -111,14 +108,18 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
         model.del_component('f2Constraint')  # delete f2(x) <= f2(z) constraint
 
         """ FP <- {z} (add z to Pareto front) """
-        new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]  # Results for CSV file
-        results_csv.append(new_row)
+        new_row = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
+        results_csv.append([i for i in new_row])
         solution_time = time.time() - start_total
         print(f"New solution: {new_row}.")
-        complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
-        complete_data.append(complete_data_new_row)
+        algorithms_utils.write_complete_data_info(concrete, result, data_dict,
+                                                  solution_time,
+                                                  writers_and_files["complete_data_writer"],
+                                                  writers_and_files["complete_data_file"])
 
-        add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
+
+        algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_row,
+                                                        writers_and_files["output_data_writer"], result)
 
         f1z = new_row[0]
 
@@ -155,10 +156,13 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 new_row = [round(pyo.value(obj(concrete))) for obj in objectives_list]
                 results_csv.append(new_row)
                 solution_time = time.time() - start_total
+                writers_and_files["results_writer"].writerow(new_row)
+                writers_and_files["results_file"].flush()
                 print(f"New solution: {new_row}.")
 
-                complete_data_new_row = algorithms_utils.write_complete_info(concrete, result, data_dict, solution_time)
-                complete_data.append(complete_data_new_row)
+                algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
+                                                          writers_and_files["complete_data_writer"],
+                                                          writers_and_files["complete_data_file"])
 
                 """ epsilon = f1(z) - 1 """
                 algorithms_utils.modify_component(model, 'epsilon',
@@ -166,29 +170,22 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
                 # lower bound for f1(x) (it has to decrease with f1z)
                 l1 = f1z - 1
-                add_result_to_output_data_file(concrete, objectives_list, new_row, output_data, result)
-
-                output_data.append('===============================================================================')
-                if result.solver.status == 'ok':
-                    for i, obj in enumerate(objectives_list):
-                        output_data.append(f'Objective {obj.__name__}: {complete_data_new_row[i]}')
-                    output_data.append('Sequences selected:')
-                    for s in concrete.S:
-                        output_data.append(f"x[{s}] = {concrete.x[s].value}")
+                algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_row,
+                                                                writers_and_files["output_data_writer"], result)
 
             solution_found = (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal')
 
-    return results_csv, concrete, output_data, complete_data
+    return results_csv, concrete
 
 
 
 def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel,
-                       complete_data: list, start_total):
+                       writers_and_files: dict, start_total):
     data = data_dict['data']
 
     p = len(objectives_list)
 
-    output_data = []
+    output_data_writer = writers_and_files["output_data_writer"]
     results_csv = [[obj.__name__ for obj in objectives_list]]
 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
@@ -269,37 +266,33 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                     solutions_set = update_pareto_front_replace(solutions_set, new_sol_tuple)
                     solutions_set.add(new_sol_tuple)
 
-                    complete_data_new_row = algorithms_utils.write_complete_info(concrete, result,
-                                                                                 data_dict, solution_time)
-                    complete_data.append(complete_data_new_row)
+                    algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
+                                                              writers_and_files["complete_data_writer"],
+                                                              writers_and_files["complete_data_file"]
+                                                              )
 
-                    output_data.append(
-                        '===============================================================================')
-                    if result.solver.status == 'ok':
-                        for k, obj in enumerate(objectives_list):
-                            output_data.append(f'Objective {obj.__name__}: {complete_data_new_row[k]}')
-                        output_data.append('Sequences selected:')
-                        for s in concrete.S:
-                            output_data.append(f"x[{s}] = {concrete.x[s].value}")
+                    algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_sol_tuple,
+                                                                    output_data_writer, result)
 
-                    output_data.append(f"CPLEX time: {cplex_time}.")
+                    writers_and_files["results_writer"].writerow(new_sol_tuple)
+                    writers_and_files["results_file"].flush()
 
                 else:
                     print(f"Repeated solution: {tuple(ordered_newrow)}.")
 
-                    output_data.append(
+                    output_data_writer.write(
                         "======================================================================================")
-                    output_data.append(f"Repeated solution, CPLEX TIME: {cplex_time}")
-                    output_data.append(
+                    output_data_writer.write(f"Repeated solution, CPLEX TIME: {cplex_time}")
+                    output_data_writer.write(
                         "======================================================================================")
 
             else:
                 print(f"Infeasible.")
 
-                output_data.append(
+                output_data_writer.write(
                     "======================================================================================")
-                output_data.append(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
-                output_data.append(
+                output_data_writer.write(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
+                output_data_writer.write(
                     "======================================================================================")
 
                 j = ul_point[2]
@@ -310,7 +303,7 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
     print(f"Solutions: {results_csv}.")
 
-    return results_csv, concrete, output_data, complete_data
+    return results_csv, concrete
 
 def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel, data):
     opt_lex_table = []
@@ -430,15 +423,3 @@ def update_pareto_front_replace(pareto_front: set, new_solution: tuple):
     updated_front.add(new_solution)
 
     return updated_front
-
-
-def add_result_to_output_data_file(concrete: pyo.ConcreteModel, objectives_list: list,
-                                   new_row: list, output_data: list, result):
-    output_data.append('===============================================================================')
-    if result.solver.status == 'ok':
-        for i, obj in enumerate(objectives_list):
-            output_data.append(f'Objective {obj.__name__}: {new_row[i]}')
-        output_data.append('Sequences selected:')
-        for s in concrete.S:
-            output_data.append(f"x[{s}] = {concrete.x[s].value}")
-    output_data.append('===============================================================================')

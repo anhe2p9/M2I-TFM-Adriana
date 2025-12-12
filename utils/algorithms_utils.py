@@ -39,9 +39,50 @@ def initialize_complete_data(general_path: str):
                       "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
                       "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
                       "terminationCondition", "solutionObtainingTime", "executionTime"])
+        complete_data_file.flush()
 
     return writer_complete_data, complete_data_file
 
+def initialize_output_data(general_path: str):
+    if not os.path.exists(Path(general_path).parent):
+        os.makedirs(Path(general_path).parent)
+
+    # Save data for each solution in a CSV file
+    output_filename = f"{general_path}_output.txt"
+
+    if os.path.exists(output_filename):
+        os.remove(output_filename)
+
+    writer_output = open(output_filename, 'w', newline='')
+
+    return writer_output
+
+def initialize_results_file(general_path: str, objectives_list: list):
+    # Save data in a CSV file
+    results_filename = f"{general_path}_results.csv"
+
+    if os.path.exists(results_filename):
+        os.remove(results_filename)
+
+    results_file = open(results_filename, 'a', newline='')
+    results_writer = csv.writer(results_file)
+
+    if Path(results_filename).stat().st_size == 0:
+        results_writer.writerow([obj.__name__ for obj in objectives_list])
+        results_file.flush()
+
+    return results_writer, results_file
+
+
+def add_result_to_output_data_file(concrete: pyo.ConcreteModel, objectives_list: list,
+                                   new_row: tuple, output_data_writer, result):
+    output_data_writer.write('===============================================================================\n')
+    if result.solver.status == 'ok':
+        for i, obj in enumerate(objectives_list):
+            output_data_writer.write(f'Objective {obj.__name__}: {new_row[i]}\n')
+        output_data_writer.write('Sequences selected:\n')
+        for s in concrete.S:
+            output_data_writer.write(f"x[{s}] = {concrete.x[s].value}\n")
 
 
 def obtain_reference_point(concrete: pyo.ConcreteModel, objectives_list: list):
@@ -181,7 +222,7 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[float, float]:
     return w1, w2
 
 
-def write_complete_info(concrete: pyo.ConcreteModel, results, data, solution_time):
+def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solution_time, writer, file):
     """ Completes a csv with all solution data """
 
     complete_data_row = []
@@ -349,5 +390,8 @@ def write_complete_info(concrete: pyo.ConcreteModel, results, data, solution_tim
 
     """ Execution time """
     complete_data_row.append(results.solver.time)
+
+    writer.writerow(complete_data_row)
+    file.flush()
 
     return complete_data_row

@@ -24,8 +24,8 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
     csv_data = ["project", "class", "method", "missingFile", "emptyFile",
          "numberOfVariables", "numberOfConstraints", "numberOfExtractions", "numberOfUsedVariables",
          "initialComplexity", "solution", "offsets", "extractions",
-         "NOTnestedSolution", "NOTnestedExtractions",
-         "NESTEDsolution", "NESTEDextractions",
+         "NOT_nestedSolution", "NOT_nestedExtractions",
+         "NESTED_solution", "NESTED_extractions",
          "reductionComplexity", "finalComplexity",
          "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC", 
          "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
@@ -89,7 +89,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     with open(csv_path, mode='a', newline='', encoding='utf-8') as f:
                         writer = csv.writer(f)
                         writer.writerow(results_csv)
-                    print("Added line succesfully.")
+                    print("Added line successfully.")
 
     if solve_model:
         print("CSV file with results for one objective correctly created.")
@@ -112,8 +112,6 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
     instance = model_engine.load_concrete(instance_folder)
     instance["instance_folder"] = general_path
 
-    complete_data, nadir = None, None
-
     variables, constraints = results_utils.analyze_model_data(instance_folder, objectives)
     print(f"There are {variables} variables.")
     print(f"There are {constraints} constraints.")
@@ -128,17 +126,14 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
 
     if alg_name == 'WeightedSumAlgorithm':
         csv_data, concrete_model, output_data = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
+        write_output_to_files(general_path, csv_data, output_data)
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
-        csv_data, concrete_model, output_data, nadir = model_engine.apply_algorithm(algorithm,
-                                                                                                   instance,
-                                                                                                   tau,
-                                                                                                   info_dict)
+        model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
+        write_output_to_files(general_path)
     else:
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
                  f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodAlgorithm.")
-
-    write_output_to_files(csv_data, general_path, output_data)
 
 
 def get_all_path_names(instance_folder: Path):
@@ -148,31 +143,32 @@ def get_all_path_names(instance_folder: Path):
     return method_name, class_name, project_name
 
 
-def write_output_to_files(csv_info: list, general_path: str,
+def write_output_to_files(general_path: str, csv_info: list = None,
                           output_data: list = None, complete_data: list = None):
 
     if not os.path.exists(Path(general_path).parent):
         os.makedirs(Path(general_path).parent)
 
+    if csv_info:
+        # Save data in a CSV file
+        filename = f"{general_path}_results.csv"
 
-    # Save data in a CSV file
-    filename = f"{general_path}_results.csv"
+        if os.path.exists(filename):
+            os.remove(filename)
 
-    if os.path.exists(filename):
-        os.remove(filename)
+        with open(filename, mode="w", newline="", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            writer.writerows(csv_info)
+            print(f"CSV file correctly created in {filename}.")
 
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerows(csv_info)
-        print(f"CSV file correctly created in {filename}.")
-
-    # Save output in a TXT file
-    output_filename = f"{general_path}_output.txt"
-
-    if os.path.exists(output_filename):
-        os.remove(output_filename)
 
     if output_data:
+        # Save output in a TXT file
+        output_filename = f"{general_path}_output.txt"
+
+        if os.path.exists(output_filename):
+            os.remove(output_filename)
+
         with open(output_filename, "w") as f:
             for linea in output_data:
                 f.write(linea + "\n")

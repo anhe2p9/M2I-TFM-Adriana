@@ -123,11 +123,8 @@ def generate_parallel_coordinates_plot(csv_path, output_pdf_path):
     markers = ['o', 's', 'D', '^', 'v', '*', 'x', '+', 'p', 'h', '1', '2', '3', '4', '|', '_']
     colors = plt.cm.tab20.colors  # hasta 20 colores distintos
 
-
     # Cargar el CSV
     df = pd.read_csv(csv_path)
-
-    print(df.columns)
 
     # Suponemos que todas las columnas son objetivos
     objetivos_cols = df.columns
@@ -138,13 +135,11 @@ def generate_parallel_coordinates_plot(csv_path, output_pdf_path):
         model.loc_difference_objective.__name__: r"LOC$_{diff}$"
     }
 
-
     # Crear nombres s1, s2, ..., sN
     df['id'] = [f's{i+1}' for i in range(len(df))]
 
     # DataFrame para graficar
     df_plot = df[['id'] + list(objetivos_cols)]
-
 
     # Asegúrate de que las columnas sean numéricas
     for col in objetivos_cols:

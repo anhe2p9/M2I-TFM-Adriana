@@ -62,9 +62,6 @@ class HybridMethodAlgorithm(Algorithm):
         print(f"Output correctly saved in {output_data_writer.name}.")
 
 
-
-
-
 def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, tau: int,
                              data_dict: dict, output_data_writer, start_total):
     data = data_dict['data']
@@ -73,8 +70,6 @@ def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, ta
     reference_point = algorithms_utils.obtain_reference_point(concrete, objectives_list)
     initial_box = tuple(reference_point)
     hybrid_method_with_full_p_split(model, data_dict, objectives_list, output_data_writer, initial_box, start_total)
-
-
 
 
 def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objectives_list: list,

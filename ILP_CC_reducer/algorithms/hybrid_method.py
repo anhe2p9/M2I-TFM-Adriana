@@ -3,6 +3,7 @@ import pyomo.dataportal as dp # permite cargar datos para usar en esos modelos d
 
 from typing import List, Tuple, Optional
 
+from multiprocessing import Process, Queue
 import time
 import sys
 
@@ -28,6 +29,8 @@ class HybridMethodAlgorithm(Algorithm):
     @staticmethod
     def execute(data_dict: dict, tau: int, info_dict: dict):
 
+        q = Queue()
+
         num_of_objectives = info_dict.get("num_of_objectives")
         objectives_names = info_dict.get("objectives_list")
         model = GeneralILPmodel(active_objectives=objectives_names)
@@ -50,7 +53,16 @@ class HybridMethodAlgorithm(Algorithm):
 
         output_data_writer = algorithms_utils.initialize_output_data(data_dict["instance_folder"])
 
-        initialize_hybrid_method(model, objectives_list, tau, data_dict, output_data_writer, start_total)
+        p = Process(target=solve_worker, args=(model, objectives_list, tau, data_dict, output_data_writer, start_total))
+        p.start()
+        p.join(3600)  # timeout
+
+        if p.is_alive():
+            p.terminate()
+            p.join()
+            return None  # timeout → no solución
+        else:
+            return q.get()
 
         end_total = time.time()
 
@@ -60,6 +72,11 @@ class HybridMethodAlgorithm(Algorithm):
         output_data_writer.write(f"Total execution time: {total_time:.2f}\n")
         output_data_writer.close()
         print(f"Output correctly saved in {output_data_writer.name}.")
+
+
+def solve_worker(model, objectives_list, tau, data_dict, output_data_writer, start_total):
+    # execute each iteration inside a child process
+    initialize_hybrid_method(model, objectives_list, tau, data_dict, output_data_writer, start_total)
 
 
 def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, tau: int,

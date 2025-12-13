@@ -28,9 +28,43 @@ class HybridMethodAlgorithm(Algorithm):
 
     @staticmethod
     def execute(data_dict: dict, tau: int, info_dict: dict):
+        """
+        Executes the Hybrid Method algorithm for a multi-objective ILP problem.
 
-        q = Queue()
+        This method is intended to be called from a higher-level experimental or
+        execution framework (e.g., an Engine or Experiment Manager). It runs the
+        complete hybrid search procedure inside a separate process in order to
+        enforce a global time limit independently of the solver (CPLEX).
 
+        The algorithm follows an anytime approach:
+          - Partial solutions and intermediate results are written incrementally
+            to output files during execution.
+          - If the global time limit is reached, the process is forcefully
+            terminated and all results generated up to that point remain available.
+          - If the algorithm finishes before the time limit, final execution
+            statistics are written normally.
+
+        No in-memory results are expected to be returned when a timeout occurs.
+        Persistent storage (CSV/TXT files) is used as the single source of truth
+        for both partial and final outputs.
+
+        Parameters
+        ----------
+        data_dict : dict
+            Dictionary containing the input data and instance-specific information.
+        tau : int
+            Threshold parameter used by the hybrid method.
+        info_dict : dict
+            Dictionary with metadata about the problem, including the number of
+            objectives and their corresponding definitions.
+
+        Returns
+        -------
+        None
+            The method does not return results in memory. All outputs are written
+            to disk to support anytime analysis and robust termination under
+            time limits.
+        """
         num_of_objectives = info_dict.get("num_of_objectives")
         objectives_names = info_dict.get("objectives_list")
         model = GeneralILPmodel(active_objectives=objectives_names)
@@ -48,62 +82,158 @@ class HybridMethodAlgorithm(Algorithm):
         else:
             sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
 
+        time_limit = 3600
 
-        start_total = time.time()
-
-        output_data_writer = algorithms_utils.initialize_output_data(data_dict["instance_folder"])
-
-        p = Process(target=solve_worker, args=(model, objectives_list, tau, data_dict, output_data_writer, start_total))
+        q = Queue()
+        p = Process(target=solve_worker, args=(model, objectives_list, tau, data_dict, time_limit, q))
         p.start()
-        p.join(3600)  # timeout
+        p.join(time_limit)  # timeout
 
         if p.is_alive():
+            try:
+                total_time = q.get_nowait()  # intenta obtener lo que haya
+            except:
+                total_time = time_limit
             p.terminate()
             p.join()
-            return None  # timeout → no solución
         else:
-            return q.get()
+            total_time = q.get()
 
-        end_total = time.time()
+        output_path = f"{data_dict["instance_folder"]}_output.txt"
 
-        total_time = end_total - start_total
+        with open(output_path, "a", encoding="utf-8") as f:
+            f.write('===============================================================================\n')
+            f.write(f"Total execution time: {total_time:.2f}\n")
+            f.flush()
+        print(f"Output correctly saved in {output_path}.")
 
-        output_data_writer.write('===============================================================================\n')
-        output_data_writer.write(f"Total execution time: {total_time:.2f}\n")
-        output_data_writer.close()
-        print(f"Output correctly saved in {output_data_writer.name}.")
 
+def solve_worker(model, objectives_list, tau, data_dict, time_limit, q):
+    output_data_writer = algorithms_utils.initialize_output_data(data_dict["instance_folder"])
 
-def solve_worker(model, objectives_list, tau, data_dict, output_data_writer, start_total):
     # execute each iteration inside a child process
-    initialize_hybrid_method(model, objectives_list, tau, data_dict, output_data_writer, start_total)
+    total_time = initialize_hybrid_method(model, objectives_list, tau, data_dict, output_data_writer, time_limit)
+    output_data_writer.close()
+
+    q.put(total_time)
 
 
 def initialize_hybrid_method(model: pyo.AbstractModel, objectives_list: list, tau: int,
-                             data_dict: dict, output_data_writer, start_total):
+                             data_dict: dict, output_data_writer, time_limit):
+    start_total = time.time()
+
     data = data_dict['data']
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold MO
     concrete = model.create_instance(data)
     reference_point = algorithms_utils.obtain_reference_point(concrete, objectives_list)
     initial_box = tuple(reference_point)
-    hybrid_method_with_full_p_split(model, data_dict, objectives_list, output_data_writer, initial_box, start_total)
+    hybrid_method_with_full_p_split(model, data_dict, objectives_list, output_data_writer, initial_box,
+                                    start_total, time_limit)
+
+    end_total = time.time()
+    total_time = end_total - start_total
+
+    return total_time
+
+
+def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objectives_list, output_data_writer,
+                                    initial_box: tuple, start_total, time_limit):
+    general_path = data_dict["instance_folder"]
+
+    complete_data_writer, complete_data_file = algorithms_utils.initialize_complete_data(general_path)
+    results_writer, results_file = algorithms_utils.initialize_results_file(general_path, objectives_list)
+
+    solutions_set = set()  # Non-dominated solutions set
+    s_ordered = set()
+
+    boxes = [initial_box]  # tuple list (u_1, ..., u_n)
+
+    concrete = None
+
+    while boxes:
+
+        remaining_time = time_limit - (time.time() - start_total)
+        print(f"Remaining time: {remaining_time}.")
+
+        print(
+            "=============================================================================================================")
+
+        print(f"Processing hybrid method with boxes: {boxes}.")
+
+        def volume(box: tuple):
+            return box[0] * box[1] * box[2]
+
+        idx = max(range(len(boxes)), key=lambda i: volume(boxes[i]))
+        actual_box = boxes.pop(idx)
+        print(f" * Selected box: {actual_box}.")
+
+        (solution, concrete, result, cplex_time,
+         ordered_newrow, solution_time) = solve_hybrid_method(model, data_dict['data'], objectives_list,
+                                                              actual_box, output_data_writer,
+                                                              start_total, remaining_time)
+
+        if solution:
+            solutions_set.add(solution)  # Add solution to solutions set
+            results_writer.writerow(solution)
+            results_file.flush()
+            print(f"New solution found: {solution}.")
+
+            s_ordered.add(ordered_newrow)
+
+            output_data_writer.write(f"CPLEX time: {cplex_time}.\n")
+            output_data_writer.flush()
+
+            algorithms_utils.write_complete_data_info(concrete, result, data_dict,
+                                                      solution_time, complete_data_writer, complete_data_file)
+
+
+            # Split the box with the real solution found
+            boxes = full_p_split(actual_box, solution, boxes)
+
+            for i,box in enumerate(boxes):
+                if inside(solution,box):
+                    boxes.pop(i)
+                    boxes = full_p_split(box, solution, boxes)
+
+            print(f"GENERAL BOXES LIST: {boxes}.")
+            non_dominated_boxes = filter_contained_boxes(boxes)
+            print(f"NON DOMINATED BOXES: {non_dominated_boxes}.")
+            boxes = non_dominated_boxes
+
+        else:
+            # No solution found -> discard box
+            output_data_writer.write('===============================================================================\n')
+            output_data_writer.write(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}.\n")
+            output_data_writer.write('===============================================================================\n')
+            output_data_writer.flush()
+
+
+    print(f"Solution set: {s_ordered}.")
+
+    complete_data_file.close()
+    print(f"Complete data correctly saved in {complete_data_file.name}.")
+
+    results_file.close()
+    print(f"Results correctly saved in {results_file.name}.")
+
+    return concrete
+
 
 
 def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objectives_list: list,
-                        box: tuple, output_data_writer, start_total):
+                        box: tuple, output_data_writer, start_total, remaining_time):
 
     algorithms_utils.modify_component(model, 'obj', pyo.Objective(
         rule=lambda m: sum(obj(m) for obj in objectives_list)))
 
     add_boxes_constraints(model, box, objectives_list)
 
-    concrete, result = algorithms_utils.concrete_and_solve_model(model, data)
+    concrete, result = algorithms_utils.concrete_and_solve_model(model, data, remaining_time)
 
     if (result.solver.status == 'ok') and (result.solver.termination_condition == 'optimal') :
         new_row = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
 
         solution_time = time.time() - start_total
-
 
         desired_order_for_objectives = ['extractions_objective', 'cc_difference_objective', 'loc_difference_objective']
         objectives_dict = {obj.__name__: obj for obj in objectives_list}
@@ -140,84 +270,6 @@ def add_boxes_constraints(model: pyo. AbstractModel, box: tuple, objectives_list
             attr_name,
             pyo.Constraint(rule=make_rule(obj_func, rhs))
         )
-
-
-def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objectives_list, output_data_writer,
-                                    initial_box: tuple, start_total):
-
-    general_path = data_dict["instance_folder"]
-
-    complete_data_writer, complete_data_file = algorithms_utils.initialize_complete_data(general_path)
-    results_writer, results_file = algorithms_utils.initialize_results_file(general_path, objectives_list)
-
-    solutions_set = set()  # Non-dominated solutions set
-    s_ordered = set()
-
-    boxes = [initial_box]  # tuple list (u_1, ..., u_n)
-
-    concrete = None
-
-    while boxes:
-
-        print(
-            "=============================================================================================================")
-
-        print(f"Processing hybrid method with boxes: {boxes}.")
-
-        def volume(box: tuple):
-            return box[0] * box[1] * box[2]
-
-        idx = max(range(len(boxes)), key=lambda i: volume(boxes[i]))
-        actual_box = boxes.pop(idx)
-        print(f" * Selected box: {actual_box}.")
-
-        (solution, concrete, result, cplex_time,
-         ordered_newrow, solution_time) = solve_hybrid_method(model, data_dict['data'], objectives_list,
-                                                              actual_box, output_data_writer, start_total)
-
-        if solution:
-            solutions_set.add(solution)  # Add solution to solutions set
-            results_writer.writerow(solution)
-            results_file.flush()
-            print(f"New solution found: {solution}.")
-
-            s_ordered.add(ordered_newrow)
-
-            output_data_writer.write(f"CPLEX time: {cplex_time}.\n")
-
-            algorithms_utils.write_complete_data_info(concrete, result, data_dict,
-                                                      solution_time, complete_data_writer, complete_data_file)
-
-
-            # Split the box with the real solution found
-            boxes = full_p_split(actual_box, solution, boxes)
-
-            for i,box in enumerate(boxes):
-                if inside(solution,box):
-                    boxes.pop(i)
-                    boxes = full_p_split(box, solution, boxes)
-
-            print(f"GENERAL BOXES LIST: {boxes}.")
-            non_dominated_boxes = filter_contained_boxes(boxes)
-            print(f"NON DOMINATED BOXES: {non_dominated_boxes}.")
-            boxes = non_dominated_boxes
-
-        else:
-            # No solution found -> discard box
-            output_data_writer.write('===============================================================================\n')
-            output_data_writer.write(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}.\n")
-            output_data_writer.write('===============================================================================\n')
-
-
-    print(f"Solution set: {s_ordered}.")
-
-    complete_data_file.close()
-    print(f"Complete data correctly saved in {complete_data_file.name}.")
-
-    results_file.close()
-    print(f"Results correctly saved in {results_file.name}.")
-
-    return concrete
 
 
 def full_p_split(box: BoxND, z: tuple, boxes: list) -> List[Optional[BoxND]]:

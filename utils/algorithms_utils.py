@@ -130,13 +130,13 @@ def modify_component(mobj_model: pyo.AbstractModel, component: str, new_value: p
         mobj_model.del_component(component)
     mobj_model.add_component(component, new_value)
 
-def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal):
+def concrete_and_solve_model(mobj_model: pyo.AbstractModel, instance: dp.DataPortal, remaining_time: int=3600):
     """ Generates a Concrete Model for a given model instance and solves it using CPLEX solver """
-    
     concrete = mobj_model.create_instance(instance)
 
     solver = pyo.SolverFactory('cplex')
     solver.options["threads"] = 1  # just 1 thread
+    solver.options["timelimit"] = remaining_time
 
     result = solver.solve(concrete)
     return concrete, result

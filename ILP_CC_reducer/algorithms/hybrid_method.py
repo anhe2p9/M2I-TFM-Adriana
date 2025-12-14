@@ -82,7 +82,7 @@ class HybridMethodAlgorithm(Algorithm):
         else:
             sys.exit("Number of objectives for hybrid method algorithm must be 2 or 3.")
 
-        time_limit = 3600
+        time_limit = info_dict["time_limit"]
 
         q = Queue()
         p = Process(target=solve_worker, args=(model, objectives_list, tau, data_dict, time_limit, q))
@@ -153,7 +153,6 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
     while boxes:
 
         remaining_time = time_limit - (time.time() - start_total)
-        print(f"Remaining time: {remaining_time}.")
 
         print(
             "=============================================================================================================")

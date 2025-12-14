@@ -19,7 +19,7 @@ from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
 model_engine = ILPEngine()
 
 def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective: str=None,
-                 obtain_model: bool=False, solve_model: bool=False):
+                 obtain_model: bool=False, solve_model: bool=False, time_limit: int=3600):
 
     csv_data = ["project", "class", "method", "missingFile", "emptyFile",
          "numberOfVariables", "numberOfConstraints", "numberOfExtractions", "numberOfUsedVariables",
@@ -81,7 +81,8 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                         "folders_data": folders_data,
                         "objective": objective,
                         "obtain_model": obtain_model,
-                        "solve_model": solve_model
+                        "solve_model": solve_model,
+                        "time_limit": time_limit
                     }
 
                     results_csv = model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
@@ -102,7 +103,8 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
 
 
 def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: Path, general_path: str,
-                        tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None):
+                        tau: int=15, subdivisions: tuple=None, weights: tuple=None, objectives: tuple=None,
+                        time_limit: int=3600):
 
 
     # Process algorithm
@@ -121,7 +123,8 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
         "num_of_objectives": num_of_objectives,
         "objectives_list": objectives,
         "subdivisions": subdivisions,
-        "weights": weights
+        "weights": weights,
+        "time_limit": time_limit
     }
 
     if alg_name == 'WeightedSumAlgorithm':
@@ -322,6 +325,8 @@ def obtain_arguments():
                              f' and if there is no output path, the output path will be the general'
                              f' "output/plots_and_statistics" folder for all results.')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
+    parser.add_argument('-tl', '--timelimit', dest='time_limit', type=int, default=3600,
+                        help=f'Maximum desired tiem for problem resolution.')
 
     
     args = parser.parse_args()
@@ -357,6 +362,7 @@ if __name__ == '__main__':
     objectives = args['objectives'] if args['objectives'] else config.get('objectives')
     input_dir = args['input_dir'] if args['input_dir'] else config.get('input_dir')
     output_dir = args['output_dir'] if args['output_dir'] else config.get('output_dir')
+    time_limit = args['time_limit'] if args['time_limit'] else config.get('time_limit')
 
     # Check that there is number of objectives specified
     if model_instance and not num_of_objectives:
@@ -448,7 +454,8 @@ if __name__ == '__main__':
                 check_threshold(model_instance)
                 if not ilp_algorithm:
                     ilp_algorithm = 'ObtainResultsAlgorithm'
-                main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives[0], obtain_model, solve_model)
+                main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives[0],
+                             obtain_model, solve_model, time_limit)
             else:
                 sys.exit('General instance folder required.')
         elif num_of_objectives > 1 and model_instance:
@@ -458,7 +465,7 @@ if __name__ == '__main__':
             general_path = f"output/results/{project_name}/{ilp_algorithm}_{'-'.join(objectives)}_{class_name}_{method_name}/{method_name}"
 
             main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, general_path,
-                                int(threshold), subdivisions, weights, objectives)
+                                int(threshold), subdivisions, weights, objectives, time_limit)
 
             results_csv_path = f"{general_path}_results.csv"
             single_3D_PF_path = f"{general_path}_3DPF.html"

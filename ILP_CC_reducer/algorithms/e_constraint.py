@@ -1,6 +1,8 @@
 import pyomo.environ as pyo  # ayuda a definir y resolver problemas de optimización
 
 import utils.algorithms_utils as algorithms_utils
+
+from multiprocessing import Process, Queue
 import sys
 import time
 
@@ -26,16 +28,18 @@ class EpsilonConstraintAlgorithm(Algorithm):
         model = GeneralILPmodel(active_objectives=objectives_names)
         objectives_list = algorithms_utils.organize_objectives(model, objectives_names)
 
+        time_limit = info_dict["time_limit"]
+
+        q = Queue()
+
         start_total = time.time()
 
         general_path = data_dict["instance_folder"]
 
-        output_data_writer = algorithms_utils.initialize_output_data(general_path)
         complete_data_writer, complete_data_file = algorithms_utils.initialize_complete_data(general_path)
         results_writer, results_file = algorithms_utils.initialize_results_file(general_path, objectives_list)
 
-        writers_and_files = {"output_data_writer": output_data_writer,
-                             "complete_data_writer": complete_data_writer,
+        writers_and_files = {"complete_data_writer": complete_data_writer,
                              "complete_data_file": complete_data_file,
                              "results_writer": results_writer,
                              "results_file": results_file}
@@ -44,24 +48,39 @@ class EpsilonConstraintAlgorithm(Algorithm):
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
                 objectives_list = [model.extractions_objective,
                                    model.cc_difference_objective]
-            e_constraint_2objs(data_dict, tau, objectives_list, model, writers_and_files, start_total)
+            p = Process(target=solve_worker, args=(e_constraint_2objs, model, objectives_list, tau, data_dict,
+                                                   writers_and_files, start_total, time_limit, q))
+            p.start()
+            p.join(time_limit)  # timeout
         elif num_of_objectives == 3:
             if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC,LOC]
                 objectives_list = [model.extractions_objective,
                                    model.cc_difference_objective,
                                    model.loc_difference_objective]
-            e_constraint_3objs(data_dict, tau, objectives_list, model, writers_and_files, start_total)
+            p = Process(target=solve_worker, args=(e_constraint_3objs, model, objectives_list, tau, data_dict,
+                                                   writers_and_files, start_total, time_limit, q))
+            p.start()
+            p.join(time_limit)  # timeout
         else:
             sys.exit("Number of objectives for augmented e-constraint algorithm must be 2 or 3.")
 
-        end_total = time.time()
+        if p.is_alive():
+            try:
+                total_time = q.get_nowait()  # intenta obtener lo que haya
+            except:
+                total_time = time_limit
+            p.terminate()
+            p.join()
+        else:
+            total_time = q.get()
 
-        total_time = end_total - start_total
+        output_path = f"{data_dict["instance_folder"]}_output.txt"
 
-        output_data_writer.write('===============================================================================\n')
-        output_data_writer.write(f"Total execution time: {total_time:.2f}\n")
-        output_data_writer.close()
-        print(f"Output correctly saved in {output_data_writer.name}.")
+        with open(output_path, "a", encoding="utf-8") as f:
+            f.write('===============================================================================\n')
+            f.write(f"Total execution time: {total_time:.2f}\n")
+            f.flush()
+        print(f"Output correctly saved in {output_path}.")
 
         complete_data_file.close()
         print(f"Complete data correctly saved in {complete_data_file.name}.")
@@ -69,9 +88,18 @@ class EpsilonConstraintAlgorithm(Algorithm):
         results_file.close()
         print(f"Results correctly saved in {results_file.name}.")
 
+def solve_worker(algorithm, model, objectives_list, tau, data_dict, writers_and_files, start_total, time_limit, q):
+    output_data_writer = algorithms_utils.initialize_output_data(data_dict["instance_folder"])
+
+    # execute each iteration inside a child process
+    total_time = algorithm(data_dict, tau, objectives_list, model, writers_and_files, start_total, time_limit)
+    output_data_writer.close()
+
+    q.put(total_time)
+
 
 def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel,
-                       writers_and_files: dict, start_total):
+                       writers_and_files: dict, start_total, time_limit):
     data = data_dict['data']
 
     if not objectives_list:  # if there is no order, the order will be [EXTRACTIONS,CC]
@@ -180,7 +208,7 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
 
 def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: pyo.AbstractModel,
-                       writers_and_files: dict, start_total):
+                       writers_and_files: dict, start_total, time_limit):
     data = data_dict['data']
 
     p = len(objectives_list)
@@ -303,7 +331,10 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
     print(f"Solutions: {results_csv}.")
 
-    return results_csv, concrete
+    end_total = time.time()
+    total_time = end_total - start_total
+
+    return results_csv, concrete, total_time
 
 def compute_lexicographic_table(objectives_list: list, model: pyo.AbstractModel, data):
     opt_lex_table = []

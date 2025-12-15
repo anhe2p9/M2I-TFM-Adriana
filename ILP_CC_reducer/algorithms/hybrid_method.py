@@ -28,41 +28,49 @@ class HybridMethodAlgorithm(Algorithm):
     @staticmethod
     def execute(data_dict: dict, tau: int, info_dict: dict):
         """
-        Executes the Hybrid Method algorithm for a multi-objective ILP problem.
+        Executes the Hybrid Method algorithm for solving multi-objective
+        Integer Linear Programming (ILP) problems with an arbitrary number
+        of objective functions.
 
-        This method is intended to be called from a higher-level experimental or
-        execution framework (e.g., an Engine or Experiment Manager). It runs the
-        complete hybrid search procedure inside a separate process in order to
-        enforce a global time limit independently of the solver (CPLEX).
+        The hybrid method combines mathematical programming with a systematic
+        decomposition of the objective space into axis-aligned boxes. Starting
+        from an initial box defined by a reference point, the algorithm iteratively
+        explores the search space by selecting the box with the largest volume.
+        For each selected box, a single-objective ILP is solved by minimizing the
+        sum of all objective functions subject to box-specific upper-bound
+        constraints.
 
-        The algorithm follows an anytime approach:
-          - Partial solutions and intermediate results are written incrementally
-            to output files during execution.
-          - If the global time limit is reached, the process is forcefully
-            terminated and all results generated up to that point remain available.
-          - If the algorithm finishes before the time limit, final execution
-            statistics are written normally.
+        If a feasible solution is found, it is added to the set of non-dominated
+        solutions, recorded in the output files, and used to split the current box
+        via a full p-split strategy. This splitting generates smaller sub-boxes
+        that exclude the dominated region induced by the new solution. Boxes that
+        are empty, redundant, or dominated by other boxes are filtered out to
+        reduce the search space.
 
-        No in-memory results should be returned when a timeout occurs.
-        Persistent storage (CSV/TXT files) is used as the single source of truth
-        for both partial and final outputs.
+        If no feasible solution exists for a selected box, the box is discarded.
+        The process continues until no boxes remain or the global time limit
+        is reached.
+
+        Throughout the execution, the algorithm enforces a global time limit,
+        tracks solver performance, and stores detailed solution and execution
+        information in output files.
 
         Parameters
         ----------
         data_dict : dict
-            Dictionary containing the input data and instance-specific information.
+            Dictionary containing the instance data and file paths required to
+            build and solve the ILP model.
         tau : int
-            Threshold parameter used by the hybrid method.
+            Threshold parameter used in the ILP model constraints.
         info_dict : dict
-            Dictionary with metadata about the problem, including the number of
-            objectives and their corresponding definitions.
+            Dictionary containing execution parameters such as the number of
+            objectives, objective ordering, and the global time limit.
 
         Returns
         -------
         None
-            The method does not return results in memory. All outputs are written
-            to disk to support anytime analysis and robust termination under
-            time limits.
+            The total execution time and all generated non-dominated solutions
+            are written to output files.
         """
         num_of_objectives = info_dict.get("num_of_objectives")
         objectives_names = info_dict.get("objectives_list")

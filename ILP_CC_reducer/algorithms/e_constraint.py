@@ -20,7 +20,47 @@ class EpsilonConstraintAlgorithm(Algorithm):
 
     @staticmethod
     def execute(data_dict: dict, tau: int, info_dict: dict):
+        """
+        Executes the Augmented Epsilon-Constraint (AUGMECON) algorithm for solving
+        multi-objective Integer Linear Programming (ILP) problems with two or three
+        objective functions.
 
+        For the bi-objective case (p = 2), the method applies the classical
+        augmented epsilon-constraint approach. It first optimizes the secondary
+        objective to obtain an initial bound, then iteratively minimizes the primary
+        objective while tightening an epsilon constraint on it. At each iteration,
+        non-dominated solutions are generated and added to the Pareto front until
+        no further feasible solutions exist or the global time limit is reached.
+
+        For the tri-objective case (p = 3), the method follows a grid-based
+        augmented epsilon-constraint strategy. It first computes a lexicographic
+        payoff table to determine lower and upper bounds for the objective functions.
+        Using these bounds, a grid is constructed over the ranges of the constrained
+        objectives. For each grid point, an augmented epsilon-constraint problem is
+        solved, generating candidate solutions that are checked for dominance and
+        used to incrementally update the Pareto front.
+
+        Throughout the execution, the method enforces a global time limit, records
+        all feasible and non-dominated solutions, and writes detailed solver and
+        solution information to output files.
+
+        Parameters
+        ----------
+        data_dict : dict
+            Dictionary containing the instance data and file paths required to build
+            and solve the ILP model.
+        tau : int
+            Threshold parameter used in the ILP model constraints.
+        info_dict : dict
+            Dictionary containing execution parameters such as the number of
+            objectives, objective ordering, and the global time limit.
+
+        Returns
+        -------
+        None
+            The total execution time and all generated solutions are written to
+            output files.
+        """
         num_of_objectives = info_dict.get("num_of_objectives")
         objectives_names = info_dict.get("objectives_list")
         model = GeneralILPmodel(active_objectives=objectives_names)

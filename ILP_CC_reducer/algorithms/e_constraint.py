@@ -249,99 +249,108 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
     remaining_time = time_limit - (time.time() - start_total)
 
-    for i in reversed(range(ul_point[1], ub_point[1] + 1)):  # gridpoints f2
-        j = ub_point[2]
+    if ranges and grid_points:
+        for i in reversed(range(ul_point[1], ub_point[1] + 1)):  # gridpoints f2
+            j = ub_point[2]
 
-        while j > ul_point[2] and remaining_time >= 0:
+            while j > ul_point[2] and remaining_time >= 0:
 
-            e_const = [i,j]
-            print("=====================================")
-            print(f"Iteration = {e_const}")
+                e_const = [i,j]
+                print("=====================================")
+                print(f"Iteration = {e_const}")
 
-            concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const,
-                                                            data, ranges, remaining_time)
-            cplex_time = result.solver.time
+                concrete, result, feasible = solve_e_constraint(objectives_list, model, e_const,
+                                                                data, ranges, remaining_time)
+                cplex_time = result.solver.time
 
-            if feasible:
-                new_sol = [round(pyo.value(obj(concrete))) for obj in objectives_list]
+                if feasible:
+                    new_sol = [round(pyo.value(obj(concrete))) for obj in objectives_list]
 
-                desired_order_for_objectives = ['extractions_objective', 'cc_difference_objective',
-                                                'loc_difference_objective']
-                objectives_dict = {obj.__name__: obj for obj in objectives_list}
-                ordered_objectives = [objectives_dict[name] for name in desired_order_for_objectives if
-                                      name in objectives_dict]
-                ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in ordered_objectives)
+                    desired_order_for_objectives = ['extractions_objective', 'cc_difference_objective',
+                                                    'loc_difference_objective']
+                    objectives_dict = {obj.__name__: obj for obj in objectives_list}
+                    ordered_objectives = [objectives_dict[name] for name in desired_order_for_objectives if
+                                          name in objectives_dict]
+                    ordered_newrow = tuple(round(pyo.value(obj(concrete))) for obj in ordered_objectives)
 
-                new_sol_tuple = tuple(new_sol)
+                    new_sol_tuple = tuple(new_sol)
 
-                dominated = False
-                for sol in solutions_set:
-                    if algorithms_utils.dominates(sol, new_sol_tuple):
-                        dominated = True
+                    dominated = False
+                    for sol in solutions_set:
+                        if algorithms_utils.dominates(sol, new_sol_tuple):
+                            dominated = True
 
-                j = new_sol_tuple[-1] - 1
+                    j = new_sol_tuple[-1] - 1
 
-                if dominated:
-                    print(f"Dominated solution.")
-                    continue
+                    if dominated:
+                        print(f"Dominated solution.")
+                        continue
 
-                if new_sol_tuple not in solutions_set:
-                    print(f"New solution found: {tuple(ordered_newrow)}.")
+                    if new_sol_tuple not in solutions_set:
+                        print(f"New solution found: {tuple(ordered_newrow)}.")
 
-                    solution_time = time.time() - start_total
+                        solution_time = time.time() - start_total
 
-                    solutions_set = update_pareto_front_replace(solutions_set, new_sol_tuple)
-                    solutions_set.add(new_sol_tuple)
+                        solutions_set = update_pareto_front_replace(solutions_set, new_sol_tuple)
+                        solutions_set.add(new_sol_tuple)
 
-                    algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
-                                                              complete_data_writer, complete_data_file)
+                        algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
+                                                                  complete_data_writer, complete_data_file)
 
-                    algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_sol_tuple,
-                                                                    output_data_writer, result)
+                        algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_sol_tuple,
+                                                                        output_data_writer, result)
 
-                    results_writer.writerow(new_sol_tuple)
-                    results_file.flush()
+                        results_writer.writerow(new_sol_tuple)
+                        results_file.flush()
+
+                    else:
+                        print(f"Repeated solution: {tuple(ordered_newrow)}.")
+
+                        output_data_writer.write(
+                            "======================================================================================")
+                        output_data_writer.write(f"Repeated solution, CPLEX TIME: {cplex_time}")
+                        output_data_writer.write(
+                            "======================================================================================")
 
                 else:
-                    print(f"Repeated solution: {tuple(ordered_newrow)}.")
+                    print(f"Infeasible.")
 
                     output_data_writer.write(
                         "======================================================================================")
-                    output_data_writer.write(f"Repeated solution, CPLEX TIME: {cplex_time}")
+                    output_data_writer.write(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
                     output_data_writer.write(
                         "======================================================================================")
 
-            else:
-                print(f"Infeasible.")
+                    j = ul_point[2]
 
-                output_data_writer.write(
-                    "======================================================================================")
-                output_data_writer.write(f"SOLUTION NOT FOUND, CPLEX TIME: {cplex_time}")
-                output_data_writer.write(
-                    "======================================================================================")
+                remaining_time = time_limit - (time.time() - start_total)
 
-                j = ul_point[2]
+            if remaining_time <= 0:
+                break
 
-            remaining_time = time_limit - (time.time() - start_total)
+        print("=====================================")
 
-        if remaining_time <= 0:
-            break
+        for sol in solutions_set:
+            results_csv.append(list(sol))
 
-    print("=====================================")
-
-    for sol in solutions_set:
-        results_csv.append(list(sol))
+        print(
+            "-------------------------------------------------------"
+            "-------------------------------------------------------")
+        print(f"Solutions: {solutions_set}.")
+        print(
+            "-------------------------------------------------------"
+            "-------------------------------------------------------")
+    else:
+        print(
+            "-------------------------------------------------------"
+            "-------------------------------------------------------")
+        print(f"No solution found because it was not possible to create lexicographic table.")
+        print(
+            "-------------------------------------------------------"
+            "-------------------------------------------------------")
 
     end_total = time.time()
     total_time = end_total - start_total
-
-    print(
-        "-------------------------------------------------------"
-        "-------------------------------------------------------")
-    print(f"Solutions: {solutions_set}.")
-    print(
-        "-------------------------------------------------------"
-        "-------------------------------------------------------")
 
     complete_data_file.close()
     print(f"Complete data correctly saved in {complete_data_file.name}.")

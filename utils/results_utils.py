@@ -118,58 +118,61 @@ def generate_2DPF_plot(results_path, output_pdf_path):
 
 
 
-def generate_parallel_coordinates_plot(csv_path, output_pdf_path):
+def generate_parallel_coordinates_plot(results_path, output_pdf_path):
     linestyles = ['-', '--', '-.', ':']
     markers = ['o', 's', 'D', '^', 'v', '*', 'x', '+', 'p', 'h', '1', '2', '3', '4', '|', '_']
     colors = plt.cm.tab20.colors  # hasta 20 colores distintos
 
     # Cargar el CSV
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv(results_path)
 
-    # Suponemos que todas las columnas son objetivos
-    objetivos_cols = df.columns
+    if df.empty:
+        print(f"No solutions found in {results_path}. Parallel coordinates plot not generated.")
+    else:
+        # We suppose that all columns are objectives
+        objetivos_cols = df.columns
 
-    objective_map = {
-        model.extractions_objective.__name__: r"EXTRACTIONS",
-        model.cc_difference_objective.__name__: r"CC$_{diff}$",
-        model.loc_difference_objective.__name__: r"LOC$_{diff}$"
-    }
+        objective_map = {
+            model.extractions_objective.__name__: r"EXTRACTIONS",
+            model.cc_difference_objective.__name__: r"CC$_{diff}$",
+            model.loc_difference_objective.__name__: r"LOC$_{diff}$"
+        }
 
-    # Crear nombres s1, s2, ..., sN
-    df['id'] = [f's{i+1}' for i in range(len(df))]
+        # Crear nombres s1, s2, ..., sN
+        df['id'] = [f's{i+1}' for i in range(len(df))]
 
-    # DataFrame para graficar
-    df_plot = df[['id'] + list(objetivos_cols)]
+        # DataFrame para graficar
+        df_plot = df[['id'] + list(objetivos_cols)]
 
-    # Asegúrate de que las columnas sean numéricas
-    for col in objetivos_cols:
-        df_plot[col] = pd.to_numeric(df_plot[col], errors='coerce')
+        # Asegúrate de que las columnas sean numéricas
+        for col in objetivos_cols:
+            df_plot[col] = pd.to_numeric(df_plot[col], errors='coerce')
 
-    x = range(len(objetivos_cols))
+        x = range(len(objetivos_cols))
 
-    for i, row in df.iterrows():
-        style = linestyles[i % len(linestyles)]
-        marker = markers[i % len(markers)]
-        color = colors[i % len(colors)]
-        y = [row[col] for col in objetivos_cols]
-        plt.plot(x, y, label=row['id'], linestyle=style, marker=marker, color=color, alpha=0.8, linewidth=3)
+        for i, row in df.iterrows():
+            style = linestyles[i % len(linestyles)]
+            marker = markers[i % len(markers)]
+            color = colors[i % len(colors)]
+            y = [row[col] for col in objetivos_cols]
+            plt.plot(x, y, label=row['id'], linestyle=style, marker=marker, color=color, alpha=0.8, linewidth=3)
 
-    # Mapeo de nombres de objetivos a nombres legibles
-    x_labels = [objective_map.get(col, col) for col in objetivos_cols]
+        # Mapeo de nombres de objetivos a nombres legibles
+        x_labels = [objective_map.get(col, col) for col in objetivos_cols]
 
-    # Dibujo
-    plt.xticks(ticks=x, labels=x_labels, fontsize=18)
-    plt.ylabel(r'Objectives values', fontsize=18)
-    plt.xlabel(r'Objetives to minimize', fontsize=18)
-    plt.legend([], [], frameon=False)  # Quita la leyenda si hay muchas soluciones
-    plt.legend(title=r'Solution', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
-    plt.grid(True)
-    plt.tight_layout()
+        # Dibujo
+        plt.xticks(ticks=x, labels=x_labels, fontsize=18)
+        plt.ylabel(r'Objectives values', fontsize=18)
+        plt.xlabel(r'Objetives to minimize', fontsize=18)
+        plt.legend([], [], frameon=False)  # Quita la leyenda si hay muchas soluciones
+        plt.legend(title=r'Solution', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize='small')
+        plt.grid(True)
+        plt.tight_layout()
 
-    # Guardar como PDF
-    plt.savefig(output_pdf_path, format='pdf')
-    plt.close()
-    print(f"Plot saved in {output_pdf_path}.")
+        # Guardar como PDF
+        plt.savefig(output_pdf_path, format='pdf')
+        plt.close()
+        print(f"Plot saved in {output_pdf_path}.")
 
 
 
@@ -189,7 +192,7 @@ def generate_3DPF_plot(results_path, output_html_path):
 
     # Validar que hay datos y al menos 3 columnas numéricas
     if df.shape[0] == 0:
-        print("Empty file.")
+        print(f"No solutions found in {results_path}. 3DPF plot not generated.")
     else:
         columnas_numericas = df.select_dtypes(include=[np.number])
         if columnas_numericas.shape[1] < 3:

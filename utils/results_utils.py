@@ -386,8 +386,8 @@ def generate_statistics_obj(
     num_obj: int
 ):
     """
-    Calcula estadísticas para un archivo CSV con num_obj objetivos.
-    Devuelve un diccionario con los resultados o None si ocurre un error.
+    Calculates statistics for a CSV file with num_obj targets.
+    Returns a dictionary with the results or None if an error occurs.
     """
     try:
         df = pd.read_csv(results_path)

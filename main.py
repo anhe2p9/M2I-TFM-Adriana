@@ -309,6 +309,8 @@ def obtain_arguments():
                         help=f'Plots the result of the given result. It gives just one plot.')
     parser.add_argument('--3dPF', action='store_true',
                         help=f'Plots the 3D PF of the given result. It gives just one PF plot.')
+    parser.add_argument('--relHV', action='store_true',
+                        help=f'Plots the relative HV with respect time of the given result. It gives just one PF plot.')
     parser.add_argument( '--all_plots', action='store_true',
                         help=f'Plots all results in a given directory. More than one plot will be created.')
     parser.add_argument('--statistics', action='store_true',
@@ -316,6 +318,9 @@ def obtain_arguments():
                              f'The statistics are: hypervolume, median, iqr, average and std for each objective.')
     parser.add_argument('--all_3dPF', action='store_true',
                         help=f'Plots all 3D PFs in a given directory. More than one PF plot will be created.')
+    parser.add_argument('--all_relHV', action='store_true',
+                        help=f'Plots all relative HVs with respect time in a given directory.'
+                             f' More than one PF plot will be created.')
     parser.add_argument('--input', dest='input_dir', type=str, default=None,
                         help=f'The input path for plots and/or statistics can be specified,'
                              f' and if there is no input path, the output path will be the general "output/results" '
@@ -418,17 +423,29 @@ if __name__ == '__main__':
     else:
         single_3D_PF = False
 
+    # Single relative HV plot True if there is --rel_hv
+    if args["relHV"]:
+        relative_hv = True
+    else:
+        relative_hv = False
+
     # All plots True if there is --all_plots
     if args["all_plots"]:
         all_plots = True
     else:
         all_plots = False
 
-    # All plots True if there is --all_plots
+    # All 3dPF True if there is --all_3dPF
     if args["all_3dPF"]:
         all_3DPF = True
     else:
         all_3DPF = False
+
+    # All relative HVs True if there is --all_relHV
+    if args["all_relHV"]:
+        all_relHV = True
+    else:
+        all_relHV = False
 
     # Statistics True if there is --statistics
     if args["statistics"]:
@@ -468,17 +485,21 @@ if __name__ == '__main__':
                                 int(threshold), subdivisions, weights, objectives, time_limit)
 
             results_csv_path = f"{general_path}_results.csv"
-            single_3D_PF_path = f"{general_path}_3DPF.html"
 
             if single_plot:
                 if num_of_objectives == 2:
                     single_plot_path = f"{general_path}_2DPF_plot.pdf"
-                    results_utils.generate_2DPF_plot(results_csv_path, single_plot_path)
+                    results_utils.generate_2d_pf_plot(results_csv_path, single_plot_path)
                 elif num_of_objectives == 3:
                     single_plot_path = f"{general_path}_parallel_coordinates_plot.pdf"
                     results_utils.generate_parallel_coordinates_plot(results_csv_path, single_plot_path)
             if single_3D_PF:
-                results_utils.generate_3DPF_plot(results_csv_path, single_3D_PF_path)
+                single_3D_PF_path = f"{general_path}_3DPF.html"
+                results_utils.generate_3d_pf_plot(results_csv_path, single_3D_PF_path)
+            if relative_hv:
+                complete_data_path = f"{general_path}_complete_data.csv"
+                single_relative_hv_path = f"{general_path}_relative_hv_with_time.pdf"
+                results_utils.generate_relative_hypervolume_plot(complete_data_path, single_relative_hv_path)
 
     if all_plots:
         results_utils.traverse_and_plot(input_dir, output_dir)
@@ -487,5 +508,7 @@ if __name__ == '__main__':
         results_utils.generate_statistics(input_dir, output_dir)
 
     if all_3DPF:
-        results_utils.traverse_and_PF_plot(input_dir, output_dir)
-    
+        results_utils.traverse_and_pf_plot(input_dir, output_dir)
+
+    if all_relHV:
+        results_utils.generate_global_relative_hv_vs_time(input_dir, output_dir)

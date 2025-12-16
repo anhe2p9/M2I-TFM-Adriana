@@ -19,20 +19,20 @@ model = GeneralILPmodel(active_objectives=["extractions", "cc", "loc"])
 
 
 
-def generate_2DPF_plot(results_path, output_pdf_path):
+def generate_2d_pf_plot(results_path, output_pdf_path):
     df = pd.read_csv(results_path)
 
     # Validar que hay datos y al menos 3 columnas numéricas
     if df.shape[0] == 0:
         print(f"No solutions found in {results_path}. 2DPF plot not generated.")
     else:
-        columnas_numericas = df.select_dtypes(include=[np.number])
-        if columnas_numericas.shape[1] < 2:
+        numeric_columns = df.select_dtypes(include=[np.number])
+        if numeric_columns.shape[1] < 2:
             print("It is not possible to represent 2DPF because there is less than 2 numeric columns.")
         else:
             # Seleccionar primeras 3 columnas numéricas
-            objetivos = columnas_numericas.iloc[:, :2].values
-            nombres_objetivos = columnas_numericas.columns[:2]
+            objetivos = numeric_columns.iloc[:, :2].values
+            nombres_objetivos = numeric_columns.columns[:2]
 
             objetivo1 = df.iloc[:, 0]  # Todas las filas, columna 0
             objetivo2 = df.iloc[:, 1]
@@ -112,14 +112,8 @@ def generate_2DPF_plot(results_path, output_pdf_path):
                 print(f"2D PF plot saved in {output_pdf_path}.")
 
 
-
-
-
-
-
-
 def generate_parallel_coordinates_plot(results_path, output_pdf_path):
-    linestyles = ['-', '--', '-.', ':']
+    line_styles = ['-', '--', '-.', ':']
     markers = ['o', 's', 'D', '^', 'v', '*', 'x', '+', 'p', 'h', '1', '2', '3', '4', '|', '_']
     colors = plt.cm.tab20.colors  # hasta 20 colores distintos
 
@@ -151,7 +145,7 @@ def generate_parallel_coordinates_plot(results_path, output_pdf_path):
         x = range(len(objetivos_cols))
 
         for i, row in df.iterrows():
-            style = linestyles[i % len(linestyles)]
+            style = line_styles[i % len(line_styles)]
             marker = markers[i % len(markers)]
             color = colors[i % len(colors)]
             y = [row[col] for col in objetivos_cols]
@@ -175,18 +169,7 @@ def generate_parallel_coordinates_plot(results_path, output_pdf_path):
         print(f"Plot saved in {output_pdf_path}.")
 
 
-
-
-
-
-
-
-
-
-
-
-
-def generate_3DPF_plot(results_path, output_html_path):
+def generate_3d_pf_plot(results_path, output_html_path):
 
     df = pd.read_csv(results_path)
 
@@ -194,13 +177,13 @@ def generate_3DPF_plot(results_path, output_html_path):
     if df.shape[0] == 0:
         print(f"No solutions found in {results_path}. 3DPF plot not generated.")
     else:
-        columnas_numericas = df.select_dtypes(include=[np.number])
-        if columnas_numericas.shape[1] < 3:
+        numeric_columns = df.select_dtypes(include=[np.number])
+        if numeric_columns.shape[1] < 3:
             print("It is not possible to represent 3DPF plot because there is less than 3 numeric columns.")
         else:
             # Seleccionar primeras 3 columnas numéricas
-            objetivos = columnas_numericas.iloc[:, :3].values
-            nombres_objetivos = columnas_numericas.columns[:3]
+            objetivos = numeric_columns.iloc[:, :3].values
+            nombres_objetivos = numeric_columns.columns[:3]
 
             if objetivos.size == 0:
                 print("Without numeric values.")
@@ -254,7 +237,7 @@ def generate_3DPF_plot(results_path, output_html_path):
                     y = [b, b, n2, n2, b, b, n2, n2]
                     z = [c, c, c, c, n3, n3, n3, n3]
 
-                    # Añadir una traza Mesh3d por cada par de caras con mismo color
+                    # Añadir una traza Mesh 3d por cada par de caras con mismo color
                     for group in parallel_faces:
                         color = group['color']
                         face_tris = group['faces']
@@ -302,7 +285,7 @@ def generate_3DPF_plot(results_path, output_html_path):
                 print(f"3D PF saved in {output_html_path}.")
 
 
-def traverse_and_PF_plot(input_path, output_path):
+def traverse_and_pf_plot(input_path, output_path):
     carpeta_graficas = os.path.join(output_path, "PF3D")
     os.makedirs(carpeta_graficas, exist_ok=True)
 
@@ -315,24 +298,21 @@ def traverse_and_PF_plot(input_path, output_path):
         carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{proyecto}_PF_3D")
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
-        for carpeta_clase_metodo in os.listdir(ruta_proyecto):
-            if carpeta_clase_metodo.startswith('HybridMethodForThreeObj'):
-                ruta_metodo = os.path.join(ruta_proyecto, carpeta_clase_metodo)
-                if not os.path.isdir(ruta_metodo):
+        for class_method_folder in os.listdir(ruta_proyecto):
+            if class_method_folder.startswith('HybridMethodForThreeObj'):
+                method_path = os.path.join(ruta_proyecto, class_method_folder)
+                if not os.path.isdir(method_path):
                     continue
 
-                for archivo in os.listdir(ruta_metodo):
+                for archivo in os.listdir(method_path):
                     if archivo.endswith("_results.csv"):
-                        ruta_csv = os.path.join(ruta_metodo, archivo)
-                        salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_3DPF.html")
+                        ruta_csv = os.path.join(method_path, archivo)
+                        salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
                         print(f"Generating 3D PF for: {ruta_csv}")
-                        generate_3DPF_plot(ruta_csv, salida_html)
+                        generate_3d_pf_plot(ruta_csv, salida_html)
 
-            if carpeta_clase_metodo.startswith('EpsilonConstraintAlgorithm'):
+            if class_method_folder.startswith('EpsilonConstraintAlgorithm'):
                 continue
-
-
-
 
 
 def traverse_and_plot(input_path: str, output_path: str):
@@ -348,33 +328,48 @@ def traverse_and_plot(input_path: str, output_path: str):
         carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{proyecto}_plots")
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
-        for carpeta_clase_metodo in os.listdir(ruta_proyecto):
-                ruta_metodo = os.path.join(ruta_proyecto, carpeta_clase_metodo)
-                if not os.path.isdir(ruta_metodo):
+        for class_method_folder in os.listdir(ruta_proyecto):
+                method_path = os.path.join(ruta_proyecto, class_method_folder)
+                if not os.path.isdir(method_path):
                     continue
 
-                for archivo in os.listdir(ruta_metodo):
+                for archivo in os.listdir(method_path):
                     if archivo.endswith("_results.csv"):
-                        ruta_csv = os.path.join(ruta_metodo, archivo)
-                        if carpeta_clase_metodo.startswith('HybridMethodForThreeObj'):
+                        ruta_csv = os.path.join(method_path, archivo)
+                        if class_method_folder.startswith('HybridMethodForThreeObj'):
                             #  Parallel coordinates plots
                             salida_pdf = os.path.join(carpeta_salida_proyecto,
-                                                      f"{carpeta_clase_metodo}_parallel_coordinates_plot.pdf")
+                                                      f"{class_method_folder}_parallel_coordinates_plot.pdf")
                             print(f"Generating parallel coordinates plot for: {ruta_csv}")
                             generate_parallel_coordinates_plot(ruta_csv, salida_pdf)
 
                             #  3D PF plots
-                            salida_html = os.path.join(carpeta_salida_proyecto, f"{carpeta_clase_metodo}_3DPF.html")
+                            salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
                             print(f"Generating 3D PF for: {ruta_csv}")
-                            generate_3DPF_plot(ruta_csv, salida_html)
-                        if carpeta_clase_metodo.startswith('EpsilonConstraintAlgorithm'):
+                            generate_3d_pf_plot(ruta_csv, salida_html)
+                        if class_method_folder.startswith('EpsilonConstraintAlgorithm'):
                             salida_pdf = os.path.join(carpeta_salida_proyecto,
-                                                      f"{carpeta_clase_metodo}_2DPF_plot.pdf")
+                                                      f"{class_method_folder}_2DPF_plot.pdf")
                             print(f"Generating 2D PF plot for: {ruta_csv}")
-                            generate_2DPF_plot(ruta_csv, salida_pdf)
+                            generate_2d_pf_plot(ruta_csv, salida_pdf)
 
 
+def generate_relative_hypervolume_plot(input_path, output_path):
+    input_file = pd.read_csv(input_path)
+    if not input_file.empty:
+        abs_hv = input_file["absoluteHypervolume"].values
+        solution_times = input_file["solutionObtainingTime"].values
 
+        hv_max = np.max(abs_hv, axis=0)
+        hv_relative = abs_hv / hv_max
+
+        plt.figure(figsize=(8, 5))
+        plt.plot(solution_times, hv_relative, marker='o', linestyle='-')
+        plt.xlabel("Time (s)")
+        plt.ylabel("Relative hypervolume")
+        plt.grid(True)
+        plt.tight_layout()
+        plt.savefig(output_path)
 
 
 def generate_statistics_obj(
@@ -382,7 +377,7 @@ def generate_statistics_obj(
     complete_data_path: str,
     output_path: str,
     proyecto: str,
-    clase_metodo: str,
+    class_method: str,
     num_obj: int
 ):
     """
@@ -390,13 +385,13 @@ def generate_statistics_obj(
     Returns a dictionary with the results or None if an error occurs.
     """
     try:
-        df = pd.read_csv(results_path)
+        results_file = pd.read_csv(results_path)
         execution_time_average = ""
         total_execution_time = ""
         if complete_data_path:
-            compl_dat = pd.read_csv(complete_data_path)
-            if not compl_dat.empty:
-                execution_time_average = compl_dat["executionTime"].mean()
+            complete_data_file = pd.read_csv(complete_data_path)
+            if not complete_data_file.empty:
+                execution_time_average = complete_data_file["executionTime"].mean()
 
         if output_path:
             with open(output_path, "r") as f:
@@ -409,15 +404,15 @@ def generate_statistics_obj(
                         time_value = float(match.group(1))
                         total_execution_time = time_value
 
-        if df.empty:
-            raise ValueError("Archivo vacío")
+        if results_file.empty:
+            raise ValueError(f"Empty file: {results_path}. It is not possible to generate any result.")
 
-        columnas_numericas = df.select_dtypes(include=[np.number])
-        if columnas_numericas.shape[1] < num_obj:
-            raise ValueError(f"Menos de {num_obj} columnas numéricas")
+        numeric_columns = results_file.select_dtypes(include=[np.number])
+        if numeric_columns.shape[1] < num_obj:
+            raise ValueError(f"Less than {num_obj} numeric columns.")
 
-        objetivos = columnas_numericas.iloc[:, :num_obj].values
-        nombres_objetivos = columnas_numericas.columns[:num_obj]
+        objetivos = numeric_columns.iloc[:, :num_obj].values
+        nombres_objetivos = numeric_columns.columns[:num_obj]
 
         nadir = np.max(objetivos, axis=0)
         ref_point = nadir + 1
@@ -429,24 +424,24 @@ def generate_statistics_obj(
         hv_max = hv.do(ideal)
         hv_normalized = hipervolumen / hv_max
 
-        if "_" in clase_metodo:
-            clase, metodo = clase_metodo.rsplit("_", 1)
+        if "_" in class_method:
+            clase, method = class_method.rsplit("_", 1)
             parts = clase.split("_", 2)
 
             algorithm = parts[0]  # antes del primer "_"
             clase = parts[2]
         else:
-            clase, metodo = clase_metodo, ""
+            clase, method = class_method, ""
 
         medias = np.round(np.mean(objetivos, axis=0), 2)
-        desvios = np.round(np.std(objetivos, axis=0), 2)
+        standard_dev = np.round(np.std(objetivos, axis=0), 2)
         medianas = np.median(objetivos, axis=0)
         iqr = np.percentile(objetivos, 75, axis=0) - np.percentile(objetivos, 25, axis=0)
 
         res = {
             "project": proyecto,
             "class": clase,
-            "method": metodo,
+            "method": method,
             "algorithm": algorithm,
             "num_solutions": objetivos.shape[0],
             "nadir": f"({', '.join(str(int(x)) for x in ref_point)})",
@@ -458,7 +453,7 @@ def generate_statistics_obj(
 
         for i, nombre in enumerate(nombres_objetivos):
             res[f"avg_{nombre}"] = medias[i]
-            res[f"std_{nombre}"] = desvios[i]
+            res[f"std_{nombre}"] = standard_dev[i]
             res[f"median_{nombre}"] = medianas[i]
             res[f"iqr_{nombre}"] = iqr[i]
 
@@ -471,15 +466,15 @@ def generate_statistics_obj(
 def generate_statistics(input_path: str, output_path: str):
     resultados_2obj = []
     resultados_3obj = []
-    archivos_invalidos = []
+    invalid_files = []
 
     for proyecto in os.listdir(input_path):
         ruta_proyecto = os.path.join(input_path, proyecto)
         if not os.path.isdir(ruta_proyecto):
             continue
 
-        for clase_metodo in os.listdir(ruta_proyecto):
-            ruta_clase = os.path.join(ruta_proyecto, clase_metodo)
+        for class_method in os.listdir(ruta_proyecto):
+            ruta_clase = os.path.join(ruta_proyecto, class_method)
             if not os.path.isdir(ruta_clase):
                 continue
 
@@ -509,38 +504,38 @@ def generate_statistics(input_path: str, output_path: str):
             if execution_time_file:
                 execution_time_path = os.path.join(ruta_clase, execution_time_file)
 
-            if ('_extractions-cc_' in clase_metodo
-                  or '_cc-extractions_' in clase_metodo
-                  or '_loc-cc_' in clase_metodo
-                  or '_cc-loc_' in clase_metodo
-                  or '_extractions-loc_' in clase_metodo
-                  or '_loc-extractions_' in clase_metodo):
+            if ('_extractions-cc_' in class_method
+                  or '_cc-extractions_' in class_method
+                  or '_loc-cc_' in class_method
+                  or '_cc-loc_' in class_method
+                  or '_extractions-loc_' in class_method
+                  or '_loc-extractions_' in class_method):
                 resultado = generate_statistics_obj(
-                    results_path, complete_data_path, execution_time_path, proyecto, clase_metodo, num_obj=2
+                    results_path, complete_data_path, execution_time_path, proyecto, class_method, num_obj=2
                 )
                 if resultado is None or 'error' in resultado:
-                    archivos_invalidos.append({
+                    invalid_files.append({
                         "project": proyecto,
-                        "class_method": clase_metodo,
+                        "class_method": class_method,
                         "archivo": results_path,
                         "error": resultado.get('error', 'Error desconocido')
                     })
                 else:
                     resultados_2obj.append(resultado)
 
-            elif ('extractions-cc-loc' in clase_metodo
-                  or 'extractions-loc-cc' in clase_metodo
-                  or 'loc-extractions-cc' in clase_metodo
-                  or 'cc-extractions-loc' in clase_metodo
-                  or 'cc-loc-extractions' in clase_metodo
-                  or 'loc-cc-extractions' in clase_metodo):
+            elif ('extractions-cc-loc' in class_method
+                  or 'extractions-loc-cc' in class_method
+                  or 'loc-extractions-cc' in class_method
+                  or 'cc-extractions-loc' in class_method
+                  or 'cc-loc-extractions' in class_method
+                  or 'loc-cc-extractions' in class_method):
                 resultado = generate_statistics_obj(
-                    results_path, complete_data_path, execution_time_path, proyecto, clase_metodo, num_obj=3
+                    results_path, complete_data_path, execution_time_path, proyecto, class_method, num_obj=3
                 )
                 if resultado is None or 'error' in resultado:
-                    archivos_invalidos.append({
+                    invalid_files.append({
                         "project": proyecto,
-                        "class_method": clase_metodo,
+                        "class_method": class_method,
                         "archivo": results_path,
                         "error": resultado.get('error', 'Error desconocido')
                     })
@@ -560,11 +555,11 @@ def generate_statistics(input_path: str, output_path: str):
         df_3obj.to_csv(ruta_3obj, index=False)
         print(f"\n✅ Resumen 3 objetivos guardado en: {ruta_3obj}")
 
-    if archivos_invalidos:
-        df_invalidos = pd.DataFrame(archivos_invalidos)
-        ruta_invalidos = os.path.join(output_path, "archivos_invalidos.csv")
-        df_invalidos.to_csv(ruta_invalidos, index=False)
-        print(f"⚠️  Archivos con errores guardados en: {ruta_invalidos}")
+    if invalid_files:
+        df_invalid = pd.DataFrame(invalid_files)
+        ruta_invalid = os.path.join(output_path, "invalid_files.csv")
+        df_invalid.to_csv(ruta_invalid, index=False)
+        print(f"⚠️  Archivos con errores guardados en: {ruta_invalid}")
 
 
 def analyze_model_data(method_path: Path, objectives: tuple):
@@ -603,3 +598,135 @@ def analyze_model_data(method_path: Path, objectives: tuple):
     ) + 1  # +1 for x_0 == 1 constraint
 
     return variables, constraints
+
+
+def generate_global_relative_hv_vs_time(
+    results_root: str,
+    output_dir: str | None = None,
+    interpolation_points: int = 200
+):
+    """
+    Generates ONE graph per algorithm (AUGMECON / HybridMethod)
+    and per number of objectives (2 and 3), with all executions together.
+
+    results_root/
+        project/
+            Algorithm_obj1-obj2(-obj3)_...
+                *_complete_data.csv
+    """
+
+    curves = {
+        ("EpsilonConstraintAlgorithm", 2): [],
+        ("EpsilonConstraintAlgorithm", 3): [],
+        ("HybridMethodAlgorithm", 2): [],
+        ("HybridMethodAlgorithm", 3): []
+    }
+
+    # ---------- Browse through all folders ----------
+    for project in os.listdir(results_root):
+        project_path = os.path.join(results_root, project)
+        if not os.path.isdir(project_path):
+            continue
+
+        for solution_folder in os.listdir(project_path):
+            solution_path = os.path.join(project_path, solution_folder)
+            if not os.path.isdir(solution_path):
+                continue
+
+            # Algorithm
+            if solution_folder.startswith("EpsilonConstraintAlgorithm"):
+                algorithm = "EpsilonConstraintAlgorithm"
+            elif solution_folder.startswith("HybridMethodAlgorithm"):
+                algorithm = "HybridMethodAlgorithm"
+            else:
+                continue
+
+            # Objectives
+            try:
+                objectives_part = solution_folder.split("_", 1)[1]
+                objectives = objectives_part.split("_")[0]
+                obj_list = objectives.split("-")
+                num_obj = len(obj_list)
+            except Exception:
+                continue
+
+            if num_obj not in (2, 3):
+                continue
+
+            for file in os.listdir(solution_path):
+                if not file.endswith("_complete_data.csv"):
+                    continue
+
+                csv_path = os.path.join(solution_path, file)
+
+                try:
+                    df = pd.read_csv(csv_path)
+                    if df.empty:
+                        continue
+
+                    if not {"absoluteHypervolume", "solutionObtainingTime"} <= set(df.columns):
+                        continue
+
+                    times = df["solutionObtainingTime"].values
+                    hv_abs = df["absoluteHypervolume"].values
+
+                    # Order by time
+                    order = np.argsort(times)
+                    times = times[order]
+                    hv_abs = hv_abs[order]
+
+                    hv_max = hv_abs[-1]
+                    if hv_max <= 0:
+                        continue
+
+                    # Compute relative HV
+                    hv_rel = hv_abs / hv_abs[-1]  # normalize HV so last is 1
+
+                    # Append an explicit final point (time relative=1, HV=1) to ensure curve ends at 1
+                    times = np.append(times, times[-1])
+                    hv_rel = np.append(hv_rel, 1.0)
+
+                    # Normalize time to relative [0,1]
+                    t_rel = (times - times[0]) / (times[-1] - times[0])
+
+                    # Compute cumulative average HV (exclude the last point for averaging)
+                    hv_cumsum = np.cumsum(hv_rel[:-1]) / np.arange(1, len(hv_rel))
+
+                    # Interpolate cumulative average HV
+                    t_interp = np.linspace(0, 1, interpolation_points)
+                    hv_interp = np.interp(t_interp, t_rel, np.append(hv_cumsum, 1.0))
+
+                    curves[(algorithm, num_obj)].append(hv_interp)
+
+                except Exception as e:
+                    print(f"Error processing {csv_path}: {e}")
+
+    # ---------- Generate HV plots ----------
+    if output_dir is None:
+        output_dir = results_root
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    for (algorithm, num_obj), hv_list in curves.items():
+        if not hv_list:
+            continue
+
+        plt.figure(figsize=(8, 5))
+
+        # Average over all executions
+        hv_mean = np.mean(hv_list, axis=0)
+        t_interp = np.linspace(0, 1, interpolation_points)
+        plt.plot(t_interp, hv_mean, color="blue")
+
+        plt.xlabel("Relative Time")
+        plt.ylabel("Cumulative Average Relative HV")
+        plt.ylim(0, 1.05)
+        plt.title(f"{algorithm} – {num_obj} objectives")
+        plt.grid(True)
+        plt.tight_layout()
+
+        filename = f"{algorithm}_{num_obj}obj_relative_hv_vs_time.pdf"
+        plt.savefig(os.path.join(output_dir, filename))
+        plt.close()
+    print(f"Relative HV plots correctly saved in {output_dir}.")
+

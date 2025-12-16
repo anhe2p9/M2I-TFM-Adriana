@@ -4,6 +4,9 @@ import utils.algorithms_utils as algorithms_utils
 import sys
 import time
 
+import pandas as pd
+import ast
+
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
 from ILP_CC_reducer.model import GeneralILPmodel
 
@@ -111,7 +114,6 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
         objectives_list = [model.extractions_objective, model.cc_difference_objective]
 
     obj1, obj2 = objectives_list
-    results_csv = [[obj.__name__ for obj in objectives_list]]
 
     solutions_set = set()
 
@@ -145,7 +147,6 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
         """ FP <- {z} (add z to Pareto front) """
         new_row = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)  # Results for CSV file
-        results_csv.append([i for i in new_row])
         solutions_set.add(new_row)
 
         solution_time = time.time() - start_total
@@ -154,8 +155,10 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
         print(f"New solution: {new_row}.")
         print("=====================================")
 
-        algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
-                                                  complete_data_writer, complete_data_file)
+        hypervolume = algorithms_utils.hypervolume_from_solutions_set(solutions_set)
+
+        algorithms_utils.writerow_complete_data_info(concrete, result, data_dict, new_row, solution_time, hypervolume,
+                                                     complete_data_writer, complete_data_file)
 
 
         algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_row,
@@ -195,7 +198,6 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 """ PF = PF U {z} """
                 f1z = pyo.value(obj1(concrete))
                 new_row = tuple(round(pyo.value(obj(concrete))) for obj in objectives_list)
-                results_csv.append([i for i in new_row])
                 solutions_set.add(new_row)
 
                 solution_time = time.time() - start_total
@@ -206,8 +208,11 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
                 print(f"New solution: {new_row}.")
                 print("=====================================")
 
-                algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
-                                                          complete_data_writer, complete_data_file)
+                hypervolume = algorithms_utils.hypervolume_from_solutions_set(solutions_set)
+
+                algorithms_utils.writerow_complete_data_info(concrete, result, data_dict, new_row,
+                                                             solution_time, hypervolume,
+                                                             complete_data_writer, complete_data_file)
 
                 """ epsilon = f1(z) - 1 """
                 algorithms_utils.modify_component(model, 'epsilon',
@@ -229,10 +234,10 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
         "-------------------------------------------------------"
         "-------------------------------------------------------")
 
-    complete_data_file.close()
-    print(f"Complete data correctly saved in {complete_data_file.name}.")
     results_file.close()
     print(f"Results correctly saved in {results_file.name}.")
+    complete_data_file.close()
+    print(f"Complete data correctly saved in {complete_data_file.name}.")
 
     end_total = time.time()
     total_time = end_total - start_total
@@ -250,8 +255,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     results_writer, results_file = algorithms_utils.initialize_results_file(general_path, objectives_list)
 
     p = len(objectives_list)
-
-    results_csv = [[obj.__name__ for obj in objectives_list]]
 
     model.tau = pyo.Param(within=pyo.NonNegativeReals, initialize=tau, mutable=False)  # Threshold
 
@@ -334,8 +337,11 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
                         solutions_set = update_pareto_front_replace(solutions_set, new_sol_tuple)
                         solutions_set.add(new_sol_tuple)
 
-                        algorithms_utils.write_complete_data_info(concrete, result, data_dict, solution_time,
-                                                                  complete_data_writer, complete_data_file)
+                        hypervolume = algorithms_utils.hypervolume_from_solutions_set(solutions_set)
+
+                        algorithms_utils.writerow_complete_data_info(concrete, result, data_dict, new_sol_tuple,
+                                                                     solution_time, hypervolume,
+                                                                     complete_data_writer, complete_data_file)
 
                         algorithms_utils.add_result_to_output_data_file(concrete, objectives_list, new_sol_tuple,
                                                                         output_data_writer, result)
@@ -370,9 +376,6 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
         print("=====================================")
 
-        for sol in solutions_set:
-            results_csv.append(list(sol))
-
         print(
             "-------------------------------------------------------"
             "-------------------------------------------------------")
@@ -393,9 +396,23 @@ def e_constraint_3objs(data_dict: dict, tau: int, objectives_list: list, model: 
     total_time = end_total - start_total
 
     complete_data_file.close()
-    print(f"Complete data correctly saved in {complete_data_file.name}.")
+    results_file.close()
+
+    """ Rewrite results file to avoid dominated solutions when algorithm ends """
+    results_writer, results_file = algorithms_utils.initialize_results_file(general_path, objectives_list)
+    for sol in solutions_set:
+        results_writer.writerow(sol)
+        results_file.flush()
     results_file.close()
     print(f"Results correctly saved in {results_file.name}.")
+
+    """ Rewrite complete_data file to avoid dominated solutions when algorithm ends """
+    filter_csv_by_solution_set(
+        csv_path=f"{general_path}_complete_data.csv",
+        solution_set=solutions_set,
+        solution_column="solution"
+    )
+    print(f"Complete data correctly saved in {complete_data_file.name}.")
 
     return total_time
 
@@ -519,3 +536,38 @@ def update_pareto_front_replace(pareto_front: set, new_solution: tuple):
     updated_front.add(new_solution)
 
     return updated_front
+
+
+def filter_csv_by_solution_set(csv_path, solution_set, solution_column="solution"):
+    """
+    Keeps only rows whose 'solution' value is in solution_set
+    and overwrites the CSV file.
+
+    Parameters
+    ----------
+    csv_path : str
+        Path to the CSV file.
+    solution_set : set[tuple]
+        Set of valid solutions (e.g. non-dominated).
+    solution_column : str
+        Column name containing the solution representation.
+    """
+    df = pd.read_csv(csv_path)
+
+    if df.empty:
+        return
+
+    def parse_solution(value):
+        if isinstance(value, tuple):
+            return value
+        if isinstance(value, str):
+            return tuple(ast.literal_eval(value))
+        raise ValueError(f"Unsupported solution format: {value}")
+
+    parsed_solutions = df[solution_column].apply(parse_solution)
+
+    mask = parsed_solutions.isin(solution_set)
+
+    df_filtered = df[mask]
+
+    df_filtered.to_csv(csv_path, index=False)

@@ -12,36 +12,10 @@ import pandas as pd
 import os
 import csv
 from pathlib import Path
+from pymoo.indicators.hv import HV
 
 plt.rcParams['text.usetex'] = True
 model = GeneralILPmodel()
-
-def initialize_complete_data(general_path: str):
-    if not os.path.exists(Path(general_path).parent):
-        os.makedirs(Path(general_path).parent)
-
-    # Save data for each solution in a CSV file
-    complete_data_filename = f"{general_path}_complete_data.csv"
-
-    if os.path.exists(complete_data_filename):
-        os.remove(complete_data_filename)
-
-    complete_data_file = open(complete_data_filename, 'a', newline='')
-    writer_complete_data = csv.writer(complete_data_file)
-
-    if Path(complete_data_filename).stat().st_size == 0:
-        writer_complete_data.writerow(["numberOfSequences", "numberOfVariables", "numberOfConstraints",
-                      "initialComplexity", "solution (index,CC,LOC)", "offsets", "extractions",
-                      "not_nested_solution", "not_nested_extractions",
-                      "nested_solution", "nested_extractions",
-                      "reductionComplexity", "finalComplexity",
-                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
-                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
-                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
-                      "terminationCondition", "solutionObtainingTime", "executionTime"])
-        complete_data_file.flush()
-
-    return writer_complete_data, complete_data_file
 
 def initialize_output_data(general_path: str):
     if not os.path.exists(Path(general_path).parent):
@@ -206,7 +180,7 @@ def generate_three_weights(n_divisions=6, theta_index=0, phi_index=0) -> tuple[f
 
 def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[float, float]:
     """
-    Generates subdivisions in polar coordinates for a cuadrant.
+    Generates subdivisions in polar coordinates for a quadrant.
         
     Args:
         n_divisions (int): Number of divisions in each axe (X, Y).
@@ -222,8 +196,37 @@ def generate_two_weights(n_divisions=6, theta_index=0) -> tuple[float, float]:
     
     return w1, w2
 
+def initialize_complete_data(general_path: str):
+    if not os.path.exists(Path(general_path).parent):
+        os.makedirs(Path(general_path).parent)
 
-def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solution_time, writer, file):
+    # Save data for each solution in a CSV file
+    complete_data_filename = f"{general_path}_complete_data.csv"
+
+    if os.path.exists(complete_data_filename):
+        os.remove(complete_data_filename)
+
+    complete_data_file = open(complete_data_filename, 'a', newline='')
+    writer_complete_data = csv.writer(complete_data_file)
+
+    if Path(complete_data_filename).stat().st_size == 0:
+        writer_complete_data.writerow(["numberOfSequences", "numberOfVariables", "numberOfConstraints",
+                      "initialComplexity", "solution", "solution_info (index,CC,LOC)", "offsets", "extractions",
+                      "not_nested_solution", "not_nested_extractions",
+                      "nested_solution", "nested_extractions",
+                      "reductionComplexity", "finalComplexity",
+                      "minExtractedLOC", "maxExtractedLOC", "meanExtractedLOC", "totalExtractedLOC", "nestedLOC",
+                      "minReductionOfCC", "maxReductionOfCC", "meanReductionOfCC", "totalReductionOfCC", "nestedCC",
+                      "minExtractedParams", "maxExtractedParams", "meanExtractedParams", "totalExtractedParams",
+                      "terminationCondition", "absoluteHypervolume", "solutionObtainingTime", "executionTime"])
+        complete_data_file.flush()
+
+    return writer_complete_data, complete_data_file
+
+
+def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
+                                solution, solution_time, hypervolume,
+                                writer, file):
     """ Completes a csv with all solution data """
 
     complete_data_row = []
@@ -252,7 +255,10 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
 
     if (results.solver.status == 'ok') and (results.solver.termination_condition == 'optimal'):
         """ Solution """
-        solution = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and s != 0]
+        complete_data_row.append(solution)
+
+        """  """
+        solution_info = [concrete.x[s].index() for s in concrete.S if concrete.x[s].value == 1 and s != 0]
         complete_data_row.append([(concrete.x[s].index(),
                                    round(pyo.value(concrete.nmcc[s] - sum(concrete.ccr[j, s] * concrete.z[j, s]
                                                                           for j,k in concrete.N if k == s))),
@@ -264,7 +270,7 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
         df_csv = pd.read_csv(data["offsets"], header=None, names=["index", "start", "end"])
 
         # Filter by index in solution str list and obtain values
-        solution_str = [str(i) for i in solution]
+        solution_str = [str(i) for i in solution_info]
         offsets_list = df_csv[df_csv["index"].isin(solution_str)][["start", "end"]].values.tolist()
 
         offsets_list = [[int(start), int(end)] for start, end in offsets_list]
@@ -286,7 +292,7 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
         nested_solution = {}
 
         for s, k in concrete.N:
-            if concrete.z[s, k].value != 0 and k in solution:
+            if concrete.z[s, k].value != 0 and k in solution_info:
                 if k not in nested_solution:
                     nested_solution[k] = []  # Crear una nueva lista para cada k
                 nested_solution[k].append(concrete.x[s].index())
@@ -296,11 +302,9 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
         else:
             complete_data_row.append("")
 
-
         """ Nested extractions """
         nested_extractions = sum(len(v) for v in nested_solution.values())
         complete_data_row.append(nested_extractions)
-
 
         """ Reduction of complexity """
         cc_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j, k in concrete.N if
@@ -308,7 +312,6 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
 
         reduction_complexity = sum(cc_reduction)
         complete_data_row.append(reduction_complexity)
-
 
         """ Final complexity """
         final_complexity = initial_complexity - reduction_complexity
@@ -338,8 +341,6 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
         else:
             for _ in range(5):
                 complete_data_row.append("")
-
-
 
         """ Min reduction of CC, Max reduction of CC, Mean reduction of CC, Total reduction of CC, Nested CC """
         if len(cc_reduction) > 0:
@@ -380,11 +381,14 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
             for _ in range(4):
                 complete_data_row.append("")
     else:
-        for _ in range(23):
+        for _ in range(25):
             complete_data_row.append("")
 
     """ Termination condition """
     complete_data_row.append(str(results.solver.termination_condition))
+
+    """ Absolute Hypervolume """
+    complete_data_row.append(hypervolume)
 
     """ Time for finding solution """
     complete_data_row.append(solution_time)
@@ -396,3 +400,21 @@ def write_complete_data_info(concrete: pyo.ConcreteModel, results, data, solutio
     file.flush()
 
     return complete_data_row
+
+
+def hypervolume_from_solutions_set(solutions_set):
+    """
+    Calculate the hypervolume from a set of non-dominated solutions.
+
+    solutions_set: set of tuples with objective values
+    ref_point: reference point for the hypervolume. If None, it is automatically calculated as max+1
+    """
+    if not solutions_set:
+        return 0.0
+
+    solutions = np.array(list(solutions_set))
+
+    ref_point = np.max(solutions, axis=0) + 1
+
+    hv = HV(ref_point=ref_point)
+    return hv.do(solutions)

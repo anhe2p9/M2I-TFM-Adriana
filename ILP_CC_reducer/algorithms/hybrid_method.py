@@ -6,6 +6,8 @@ from typing import List, Tuple, Optional
 import time
 import sys
 
+from fontTools.merge.util import current_time
+
 import utils.algorithms_utils as algorithms_utils
 
 from ILP_CC_reducer.algorithm.algorithm import Algorithm
@@ -159,6 +161,7 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
                                                               start_total, remaining_time)
 
         if solution:
+            finding_solution_time = time.time() - start_total
             solutions_set.add(solution)  # Add solution to solutions set
             print(f"New solution found: {solution}.")
 
@@ -168,9 +171,11 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
             output_data_writer.write(f"CPLEX time: {cplex_time}.\n")
             output_data_writer.flush()
 
-            algorithms_utils.write_complete_data_info(concrete, result, data_dict,
-                                                      solution_time, complete_data_writer, complete_data_file)
+            hypervolume = algorithms_utils.hypervolume_from_solutions_set(solutions_set)
 
+            algorithms_utils.writerow_complete_data_info(concrete, result, data_dict, solution,
+                                                         solution_time, hypervolume,
+                                                         complete_data_writer, complete_data_file)
 
             # Split the box with the real solution found
             boxes = full_p_split(actual_box, solution, boxes)
@@ -214,11 +219,10 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
         "-------------------------------------------------------"
         "-------------------------------------------------------")
 
-    complete_data_file.close()
-    print(f"Complete data correctly saved in {complete_data_file.name}.")
     results_file.close()
     print(f"Results correctly saved in {results_file.name}.")
-
+    complete_data_file.close()
+    print(f"Complete data correctly saved in {complete_data_file.name}.")
 
 
 def solve_hybrid_method(model: pyo.AbstractModel, data: dp.DataPortal, objectives_list: list,

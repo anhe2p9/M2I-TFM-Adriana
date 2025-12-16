@@ -2,10 +2,11 @@ import os
 import re
 from openai import OpenAI
 from datetime import datetime
+import argparse
+from pathlib import Path
 
 API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL = "gpt-5.1"   # o "gpt-5.1"
-INPUT_FOLDER = "codigos_original_y_refactorizado"
 
 client = OpenAI(api_key=API_KEY)
 
@@ -78,10 +79,30 @@ def send_to_chatgpt(original_code, refactored_code, extraction_name, used_names)
 
     return response.output_text.strip()
 
+def avoid_overwrite(path: Path) -> Path:
+    """
+    If path exists, adds _1, _2, ... before the extension.
+    """
+    if not path.exists():
+        return path
 
-def main():
+    stem = path.stem
+    suffix = path.suffix
+    parent = path.parent
+
+    i = 1
+    while True:
+        new_path = parent / f"{stem}_{i}{suffix}"
+        if not new_path.exists():
+            return new_path
+        i += 1
+
+
+
+def main(input_folder: Path, output_folder: Path):
+    output_folder.mkdir(parents=True, exist_ok=True)
     log = ""  # Accumulates all the log
-    pairs = find_java_pairs(INPUT_FOLDER)
+    pairs = find_java_pairs(input_folder)
 
     if not pairs:
         print("Pairs of original/refactored version not found.")
@@ -128,10 +149,10 @@ def main():
             log += f"    ✓ New name: {new_name}\n"
 
         # Save updated code in a new file
-        new_file_path = os.path.join(
-            os.path.dirname(refactored_path),
-            f"refactored_renamed_{os.path.basename(refactored_path)}"
+        new_file_path = avoid_overwrite(
+            output_folder / f"refactored_renamed_{Path(refactored_path).name}"
         )
+
         with open(new_file_path, "w", encoding="utf-8") as f:
             f.write(modified_code)
 
@@ -139,7 +160,7 @@ def main():
 
     # Save complete log in an unic file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_file = os.path.join(INPUT_FOLDER, f"complete_log_{timestamp}.txt")
+    log_file = output_folder / f"complete_log_{timestamp}.txt"
     with open(log_file, "w", encoding="utf-8") as f:
         f.write(log)
 
@@ -147,4 +168,15 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='Automatic methods manes assignation, '
+                                                 'given an original and a refactored code.')
+    parser.add_argument('--input', dest='input_folder', type=str,
+                        help='Path to the folder with original and refactored methods.')
+    parser.add_argument('--output', dest='output_folder', type=str,
+                        help='Folder to save the output names files.')
+    args = parser.parse_args()
+
+    input_folder = Path(args.input_folder)
+    output_folder = Path(args.output_folder) if args.output_folder else input_folder
+
+    main(input_folder, output_folder)

@@ -154,12 +154,20 @@ The optimization process focuses on refactoring Java methods by minimizing the f
 
 ---
 
-## 🗂️ Additional Script
+## 🗂️ Additional Scripts
 
-A secondary `input_files_main.py` located in **ILP_data_from_refactoring_cache** folder is used to **generate ILP input files** from a refactoring cache. This cache must be generated beforehand by another tool that analyzes Java code.
+- **`input_files_main.py`** (located in **ILP_data_from_refactoring_cache**)  
+  - Generates ILP input files from a refactoring cache.  
+  - Arguments:  
+    - `input_folder`  
+    - `output_folder` (optional, to save results in a different folder than the input)
 
-The arguments for this file is the `input_folder` and `output_folder`.
-
+- **`new_refactoring_names_assignation.py`** *(new)*  
+  - Automatically assigns names to refactored code.  
+  - Arguments:  
+    - `input_folder`  
+    - `output_folder` (optional, to save results in a different folder than the input)  
+  - ⚠️ The automatic creation of refactored code from solutions is still **under development** and will be fully automated soon.
 ---
 
 ## 📘 Examples

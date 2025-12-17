@@ -29,7 +29,12 @@ class ILPEngine():
     
     def load_concrete(self, data_folder: Path) -> dict:
         
-        files = { "sequences": None, "nested": None, "conflict": None }
+        files = {
+            "sequences": None,
+            "nested": None,
+            "conflict": None,
+            "feasible_extractions_offsets": None
+        }
 
         for file in data_folder.iterdir():
             if file.is_file():
@@ -44,11 +49,10 @@ class ILPEngine():
                 elif clear_name.endswith("feasible_extractions_offsets"):
                     files["feasible_extractions_offsets"] = file
 
-
-        data = models_utils.process_data(str(files["sequences"]),
-                                  str(files["nested"]),
-                                  str(files["conflict"]),
-                                  str(files["feasible_extractions_offsets"]))
+        data = models_utils.process_data(files["sequences"],
+                                  files["nested"],
+                                  files["conflict"],
+                                  files["feasible_extractions_offsets"])
         
         return data # files_status_dict = {"missingFiles": lista de archivos que faltan,
                                          # "emptyFiles": lista de archivos vacíos,

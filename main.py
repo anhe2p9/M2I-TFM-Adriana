@@ -93,7 +93,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     print("Added line successfully.")
 
     if solve_model:
-        print("CSV file with results for one objective correctly created.")
+        print(f"CSV file with results for one objective correctly saved in {csv_path}.")
 
     print(
         "============================================================================================================")

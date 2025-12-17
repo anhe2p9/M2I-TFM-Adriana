@@ -4,8 +4,11 @@ import sys
 
 ROOT_DIR = sys.argv[1]
 
-PYTHON_CMD = "python"
-MAIN_SCRIPT = "main.py"
+PYTHON = sys.executable
+MAIN_SCRIPT = os.path.join(
+    os.path.dirname(__file__),
+    "main.py"
+)
 
 N_OBJECTIVES = 3
 ALGORITHM = sys.argv[2]
@@ -15,7 +18,7 @@ TIME_LIMIT = 120
 FLAGS = ["--plot", "--3dPF", "--relHV"]
 
 if not os.path.isdir(ROOT_DIR):
-    raise ValueError(f"Root folder not found: {ROOT_DIR}")
+    raise ValueError(f"Root directory does not exist: {ROOT_DIR}")
 
 for project in os.listdir(ROOT_DIR):
     project_path = os.path.join(ROOT_DIR, project)
@@ -40,7 +43,7 @@ for project in os.listdir(ROOT_DIR):
             print(f"    Ejecutando instancia en: {method_path}")
 
             cmd = [
-                PYTHON_CMD, MAIN_SCRIPT,
+                PYTHON, MAIN_SCRIPT,
                 "-n", str(N_OBJECTIVES),
                 "-i", method_path,
                 "-a", ALGORITHM,

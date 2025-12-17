@@ -607,7 +607,7 @@ def generate_global_relative_hv_vs_time(
 ):
     """
     Generates ONE graph per algorithm (AUGMECON / HybridMethod)
-    and per number of objectives (2 and 3), with all executions together.
+    and per number of objectives (2 and 3), averaging HV at each relative time point.
 
     results_root/
         project/
@@ -670,11 +670,6 @@ def generate_global_relative_hv_vs_time(
                     times = df["solutionObtainingTime"].values
                     hv_abs = df["absoluteHypervolume"].values
 
-                    # Order by time
-                    order = np.argsort(times)
-                    times = times[order]
-                    hv_abs = hv_abs[order]
-
                     hv_max = hv_abs[-1]
                     if hv_max <= 0:
                         continue
@@ -682,23 +677,17 @@ def generate_global_relative_hv_vs_time(
                     # Compute relative HV
                     hv_rel = hv_abs / hv_abs[-1]  # normalize HV so last is 1
 
-                    print(f"* Algorithm: {algorithm}.")
-                    print(f"    Absolute HV: {hv_abs}.")
-                    print(f"    Relative HV: {hv_rel}.")
-
-                    # Append an explicit final point (time relative=1, HV=1) to ensure curve ends at 1
-                    times = np.append(times, times[-1])
-                    hv_rel = np.append(hv_rel, 1.0)
-
                     # Normalize time to relative [0,1]
-                    t_rel = (times - times[0]) / (times[-1] - times[0])
+                    duration = times[-1] - times[0]
+                    if duration == 0:
+                        t_rel = np.array([0, 1])
+                        hv_rel = np.array([hv_rel[0], hv_rel[0]])
+                    else:
+                        t_rel = (times - times[0]) / duration
 
-                    # Compute cumulative average HV (exclude the last point for averaging)
-                    hv_cumsum = np.cumsum(hv_rel[:-1]) / np.arange(1, len(hv_rel))
-
-                    # Interpolate cumulative average HV
+                    # Interpolate HV to common relative time grid
                     t_interp = np.linspace(0, 1, interpolation_points)
-                    hv_interp = np.interp(t_interp, t_rel, np.append(hv_cumsum, 1.0))
+                    hv_interp = np.interp(t_interp, t_rel, hv_rel)
 
                     curves[(algorithm, num_obj)].append(hv_interp)
 
@@ -708,29 +697,53 @@ def generate_global_relative_hv_vs_time(
     # ---------- Generate HV plots ----------
     if output_dir is None:
         output_dir = results_root
-
     os.makedirs(output_dir, exist_ok=True)
 
+    # Individual plots per algorithm and number of objectives
     for (algorithm, num_obj), hv_list in curves.items():
         if not hv_list:
             continue
 
         plt.figure(figsize=(8, 5))
-
-        # Average over all executions
         hv_mean = np.mean(hv_list, axis=0)
         t_interp = np.linspace(0, 1, interpolation_points)
         plt.plot(t_interp, hv_mean, color="blue")
-
         plt.xlabel("Relative Time")
-        plt.ylabel("Cumulative Average Relative HV")
+        plt.ylabel("Average Relative HV")
         plt.ylim(0, 1.05)
         plt.title(f"{algorithm} – {num_obj} objectives")
         plt.grid(True)
         plt.tight_layout()
-
         filename = f"{algorithm}_{num_obj}obj_relative_hv_vs_time.pdf"
         plt.savefig(os.path.join(output_dir, filename))
         plt.close()
+
+    # ---------- Comparative plots per number of objectives ----------
+    for num_obj in (2, 3):
+        # Check if there is any data for this number of objectives
+        has_data = any(curves.get((alg, num_obj)) for alg in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"])
+        if not has_data:
+            continue  # skip plotting if no data
+        plt.figure(figsize=(8, 5))
+        for algorithm in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"]:
+            hv_list = curves.get((algorithm, num_obj), [])
+            if not hv_list:
+                continue
+            # Average over all executions at each relative time point
+            hv_mean = np.mean(hv_list, axis=0)
+            t_interp = np.linspace(0, 1, interpolation_points)
+            plt.plot(t_interp, hv_mean, label=algorithm)
+
+        plt.xlabel("Relative Time")
+        plt.ylabel("Average Relative HV")
+        plt.ylim(0, 1.05)
+        plt.title(f"Comparison of algorithms – {num_obj} objectives")
+        plt.grid(True)
+        plt.legend()
+        plt.tight_layout()
+        filename = f"Comparison_algorithms_{num_obj}obj_relative_hv_vs_time.pdf"
+        plt.savefig(os.path.join(output_dir, filename))
+        plt.close()
+
     print(f"Relative HV plots correctly saved in {output_dir}.")
 

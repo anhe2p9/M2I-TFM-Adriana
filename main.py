@@ -331,7 +331,7 @@ def obtain_arguments():
                              f' "output/plots_and_statistics" folder for all results.')
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
     parser.add_argument('-tl', '--timelimit', dest='time_limit', type=int, default=3600,
-                        help=f'Maximum desired tiem for problem resolution.')
+                        help=f'Maximum desired time for problem resolution.')
 
     
     args = parser.parse_args()

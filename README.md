@@ -170,6 +170,22 @@ The optimization process focuses on refactoring Java methods by minimizing the f
     - `input_folder`  
     - `output_folder` (optional, to save results in a different folder than the input)  
   - ⚠️ The automatic creation of refactored code from solutions is still **under development** and will be fully automated soon.
+
+- **`run_all_instances.ps1`** *(new)*  
+  - Executes `main.py` for **all problem instances contained in a folder hierarchy** with the following structure:  
+    ```
+    root_folder → projects → classes → methods
+    ```
+    Each **method folder** is treated as an independent instance and passed as the `-i` argument to `main.py`.  
+  - This script is designed for **Windows environments** using **PowerShell**.  
+  - Arguments:  
+    - `root_folder` (path to the root directory containing all projects)  
+    - `Algorithm` (algorithm desired, see [Arguments](#-arguments))
+  - Internally executes the following command for each method folder:
+    ```
+    python main.py -n 3 -i <method_folder> -a DesiredAlgorithm -t 15 -tl 120 --plot --3dPF --relHV
+    ```
+  - Useful for batch execution of experiments across multiple projects, classes, and instances without manual intervention.
 ---
 
 ## 📘 Examples

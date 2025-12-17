@@ -682,6 +682,10 @@ def generate_global_relative_hv_vs_time(
                     # Compute relative HV
                     hv_rel = hv_abs / hv_abs[-1]  # normalize HV so last is 1
 
+                    print(f"* Algorithm: {algorithm}.")
+                    print(f"    Absolute HV: {hv_abs}.")
+                    print(f"    Relative HV: {hv_rel}.")
+
                     # Append an explicit final point (time relative=1, HV=1) to ensure curve ends at 1
                     times = np.append(times, times[-1])
                     hv_rel = np.append(hv_rel, 1.0)

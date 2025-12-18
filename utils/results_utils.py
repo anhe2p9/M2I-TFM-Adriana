@@ -335,7 +335,7 @@ def traverse_and_plot(input_path: str, output_path: str):
                 if not os.path.isdir(method_path):
                     continue
 
-                # Extract objectives from folcer name
+                # Extract objectives from folder name
                 partes = class_method_folder.split("_")
                 if len(partes) < 2:
                     continue  # If folder name does not start at least with "Algorithm_objectives", continue

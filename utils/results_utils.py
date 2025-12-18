@@ -166,7 +166,7 @@ def generate_parallel_coordinates_plot(results_path, output_pdf_path):
         # Guardar como PDF
         plt.savefig(output_pdf_path, format='pdf')
         plt.close()
-        print(f"Plot saved in {output_pdf_path}.")
+        print(f"Parallel coordinates plot saved in {output_pdf_path}.")
 
 
 def generate_3d_pf_plot(results_path, output_html_path):

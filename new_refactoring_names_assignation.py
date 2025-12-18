@@ -45,15 +45,26 @@ def extract_extraction_names(java_content):
     return sorted(names)
 
 
-def send_to_chatgpt(original_code, refactored_code, extraction_name, used_names):
+def extract_existing_method_names(java_code: str) -> set[str]:
+    pattern = r"""
+        (?:public|protected|private)?\s*
+        (?:static\s+)?(?:final\s+)?
+        [\w<>\[\]]+\s+
+        (\w+)\s*\(
+    """
+    return set(re.findall(pattern, java_code, re.VERBOSE))
+
+
+def send_to_chatgpt(original_code, refactored_code, extraction_name, existing_names, generated_names):
     """
     Sendes prompt + content from both JAva files as text.
     Considers the method manes used to not repeat them.
     """
     # Create string with used names
+    forbidden_names = sorted(existing_names | set(generated_names))
     used_str = ""
-    if used_names:
-        used_str = f" Do not repeat the following method names: {', '.join(used_names)}."
+    if generated_names:
+        used_str = f" Do not repeat the following method names: {', '.join(forbidden_names)}."
 
     prompt = (
         f"Given the initial Java code: {original_code} and"
@@ -119,6 +130,10 @@ def main(input_folder: Path, output_folder: Path):
         with open(refactored_path, "r", encoding="utf-8") as f:
             refactored_code = f.read()
 
+        existing_method_names = extract_existing_method_names(refactored_code)
+
+        generated_method_names = []
+
         extraction_names = extract_extraction_names(refactored_code)
 
         if not extraction_names:
@@ -132,13 +147,32 @@ def main(input_folder: Path, output_folder: Path):
         # Copy that we will be modifying locally
         modified_code = refactored_code
 
+        MAX_ATTEMPTS = 5
+
         for extraction in extraction_names:
             msg = f"  → Sending extraction: {extraction}\n"
             print(msg, end="")
             log += msg
 
             # Call to ChatGPT always with refactored_ version
-            new_name = send_to_chatgpt(original_code, refactored_code, extraction, used_names)
+            for attempt in range(MAX_ATTEMPTS):
+                new_name = send_to_chatgpt(
+                    original_code,
+                    refactored_code,
+                    extraction,
+                    existing_method_names,
+                    used_names
+                )
+
+                if (
+                        new_name not in existing_method_names
+                        and new_name not in used_names
+                        and re.match(r"^[a-z][a-zA-Z0-9]*$", new_name)
+                ):
+                    break
+            else:
+                raise RuntimeError(f"No valid name generated for {extraction}")
+
             used_names.append(new_name)
 
             # Replace the method mane in the modified code

@@ -20,11 +20,11 @@ def find_java_pairs(folder):
         for f in files:
             if not f.endswith(".java"):
                 continue
-            if f.startswith("original_"):
-                key = f[len("original_"):]
+            if f.startswith("original"):
+                key = f[len("original"):]
                 originals[key] = os.path.join(root, f)
-            elif f.startswith("refactored_"):
-                key = f[len("refactored_"):]
+            elif f.startswith("refactored"):
+                key = f[len("refactored"):]
                 refactors[key] = os.path.join(root, f)
 
     pairs = []

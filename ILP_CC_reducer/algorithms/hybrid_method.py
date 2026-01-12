@@ -5,6 +5,7 @@ from typing import List, Tuple, Optional
 
 import time
 import sys
+from math import prod
 
 from fontTools.merge.util import current_time
 
@@ -149,7 +150,7 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
         print(f"Processing hybrid method with boxes: {boxes}.")
 
         def volume(box: tuple):
-            return box[0] * box[1] * box[2]
+            return prod(box)
 
         idx = max(range(len(boxes)), key=lambda i: volume(boxes[i]))
         actual_box = boxes.pop(idx)

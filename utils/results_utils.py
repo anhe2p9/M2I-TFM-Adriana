@@ -323,7 +323,7 @@ def traverse_and_plot(input_path: str, output_path: str):
 
     for project in os.listdir(input_path):
         ruta_proyecto = os.path.join(input_path, project)
-        print(f"Going through the project {project}.")
+        print(f"Going through project {project}.")
         if not os.path.isdir(ruta_proyecto) or project == "plots":
             continue
 
@@ -332,38 +332,39 @@ def traverse_and_plot(input_path: str, output_path: str):
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
         for class_method_folder in os.listdir(ruta_proyecto):
-                method_path = os.path.join(ruta_proyecto, class_method_folder)
-                if not os.path.isdir(method_path):
-                    continue
+            print(f"Going through solution {class_method_folder}.")
+            method_path = os.path.join(ruta_proyecto, class_method_folder)
+            if not os.path.isdir(method_path):
+                continue
 
-                # Extract objectives from folder name
-                partes = class_method_folder.split("_")
-                if len(partes) < 2:
-                    continue  # If folder name does not start at least with "Algorithm_objectives", continue
+            # Extract objectives from folder name
+            partes = class_method_folder.split("_")
+            if len(partes) < 2:
+                continue  # If folder name does not start at least with "Algorithm_objectives", continue
 
-                objetivos = partes[1].split("-")
-                # Make sure that they are valid objectives
-                objetivos = [o for o in objetivos if o in objetivos_validos]
+            objetivos = partes[1].split("-")
+            # Make sure that they are valid objectives
+            objetivos = [o for o in objetivos if o in objetivos_validos]
 
-                for archivo in os.listdir(method_path):
-                    if archivo.endswith("_results.csv"):
-                        ruta_csv = os.path.join(method_path, archivo)
-                        if len(objetivos) == 2:
-                            salida_pdf = os.path.join(
-                                carpeta_salida_proyecto, f"{class_method_folder}_2DPF_plot.pdf"
-                            )
-                            print(f"Generating 2D PF plot for: {ruta_csv}")
-                            generate_2d_pf_plot(ruta_csv, salida_pdf)
-                        elif len(objetivos) == 3:
-                            salida_pdf = os.path.join(
-                                carpeta_salida_proyecto, f"{class_method_folder}_parallel_coordinates_plot.pdf"
-                            )
-                            print(f"Generating parallel coordinates plot for: {ruta_csv}")
-                            generate_parallel_coordinates_plot(ruta_csv, salida_pdf)
+            for archivo in os.listdir(method_path):
+                if archivo.endswith("_results.csv"):
+                    ruta_csv = os.path.join(method_path, archivo)
+                    if len(objetivos) == 2:
+                        salida_pdf = os.path.join(
+                            carpeta_salida_proyecto, f"{class_method_folder}_2DPF_plot.pdf"
+                        )
+                        print(f"Generating 2D PF plot for: {ruta_csv}")
+                        generate_2d_pf_plot(ruta_csv, salida_pdf)
+                    elif len(objetivos) == 3:
+                        salida_pdf = os.path.join(
+                            carpeta_salida_proyecto, f"{class_method_folder}_parallel_coordinates_plot.pdf"
+                        )
+                        print(f"Generating parallel coordinates plot for: {ruta_csv}")
+                        generate_parallel_coordinates_plot(ruta_csv, salida_pdf)
 
-                            salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
-                            print(f"Generating 3D PF for: {ruta_csv}")
-                            generate_3d_pf_plot(ruta_csv, salida_html)
+                        salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
+                        print(f"Generating 3D PF for: {ruta_csv}")
+                        generate_3d_pf_plot(ruta_csv, salida_html)
 
 
 def generate_relative_hypervolume_plot(input_path, output_path):

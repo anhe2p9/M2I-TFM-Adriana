@@ -321,13 +321,14 @@ def traverse_and_plot(input_path: str, output_path: str):
 
     objetivos_validos = {"extractions", "cc", "loc"}
 
-    for proyecto in os.listdir(input_path):
-        ruta_proyecto = os.path.join(input_path, proyecto)
-        if not os.path.isdir(ruta_proyecto) or proyecto == "plots":
+    for project in os.listdir(input_path):
+        ruta_proyecto = os.path.join(input_path, project)
+        print(f"Going through the project {project}.")
+        if not os.path.isdir(ruta_proyecto) or project == "plots":
             continue
 
-        # Carpeta del proyecto dentro de parallel_coordinates_plots
-        carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{proyecto}_plots")
+        # Project folder inside parallel_coordinates_plots
+        carpeta_salida_proyecto = os.path.join(carpeta_graficas, f"{project}_plots")
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
         for class_method_folder in os.listdir(ruta_proyecto):

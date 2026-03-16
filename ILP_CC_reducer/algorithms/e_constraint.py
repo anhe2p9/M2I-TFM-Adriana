@@ -151,6 +151,9 @@ def e_constraint_2objs(data_dict: dict, tau: int, objectives_list: list, model: 
 
         solution_time = time.time() - start_total
 
+        results_writer.writerow(new_row)
+        results_file.flush()
+
         print("=====================================")
         print(f"New solution: {new_row}.")
         print("=====================================")

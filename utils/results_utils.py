@@ -623,18 +623,259 @@ def analyze_model_data(method_path: Path, objectives: tuple):
     return variables, constraints
 
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib
+import numpy as np
+import os
+import zipfile
+import tempfile
+import shutil
+import json
+import math
+from matplotlib.gridspec import GridSpec
+
+
+def generate_comparative_plots_per_project(all_data, output_dir: str, colors: dict,
+                                           markers: dict, lines_styles: dict,
+                                           algorithm_labels: dict, project_labels: dict, target_obj: int):
+    # Averiguar cuántos proyectos hay exactamente
+    projects = all_data["project"].unique()
+    num_projects = len(projects)
+
+    num_cols = 3
+    num_rows = math.ceil(num_projects / num_cols)
+
+    # Ajustar el alto del PDF automáticamente según el número de filas
+    fig = plt.figure(figsize=(15, 4 * num_rows))
+
+    # --- LA MAGIA DEL CENTRADO ---
+    # Usamos el doble de columnas (6) en el GridSpec para tener "medios pasos"
+    gs = GridSpec(num_rows, num_cols * 2, figure=fig)
+    axes = []
+
+    for i in range(num_projects):
+        row = i // num_cols
+        # Calculamos cuántos elementos caen en la fila actual
+        items_in_this_row = min(num_cols, num_projects - row * num_cols)
+
+        # Desplazamiento de columnas para centrar si la fila no está llena
+        # Si hay 3 elementos, offset = 0. Si hay 1 (tu caso), offset = 2.
+        offset = num_cols - items_in_this_row
+
+        col_idx_in_row = i % num_cols
+        col_start = offset + (col_idx_in_row * 2)
+        col_end = col_start + 2
+
+        ax = fig.add_subplot(gs[row, col_start:col_end])
+        axes.append(ax)
+    # -----------------------------
+
+    handles_dict = {}
+
+    for i, project in enumerate(projects):
+        ax = axes[i]
+        project_data = all_data[all_data["project"] == project]
+
+        max_time_proj = 0
+        for t_arr in project_data["t_abs"]:
+            if len(t_arr) > 0 and t_arr[-1] > max_time_proj:
+                max_time_proj = t_arr[-1]
+
+        if max_time_proj == 0:
+            max_time_proj = 1
+
+        if max_time_proj > 1000:
+            # Genera puntos más densos al principio para que la curva logarítmica sea suave
+            t_interp = np.geomspace(0.1, max_time_proj, 200)
+            t_interp[0] = 0.0  # Forzamos el origen en 0 para enganchar con tus datos
+        else:
+            t_interp = np.linspace(0, max_time_proj, 200)
+
+        for algorithm in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"]:
+            filtered_data = project_data[project_data["algorithm"] == algorithm]
+
+            hv_list = []
+            for _, row in filtered_data.iterrows():
+                t_arr = np.array(row["t_abs"], dtype=float)
+                hv_arr = np.array(row["hv_rel"], dtype=float)
+
+                if len(t_arr) > 0:
+                    hv_interp = np.interp(t_interp, t_arr, hv_arr)
+                    if hv_interp[0] != 1:
+                        hv_list.append(hv_interp)
+
+            if not hv_list:
+                continue
+
+            hv_list = [np.array(hv, dtype=float) for hv in hv_list]
+            hv_mean = np.mean(hv_list, axis=0)
+            hv_std = np.std(hv_list, axis=0)
+
+            line, = ax.plot(
+                t_interp,
+                hv_mean,
+                label=f"{algorithm_labels.get(algorithm, algorithm)}",
+                linewidth=2,
+                color=colors.get(algorithm),
+                linestyle=lines_styles.get(algorithm, "-"),
+                marker=markers.get(algorithm),
+                markevery=15
+            )
+
+            ax.fill_between(
+                t_interp,
+                np.maximum(hv_mean - hv_std, 0),
+                hv_mean + hv_std,
+                color=colors.get(algorithm),
+                alpha=0.2,
+                edgecolor='none'
+            )
+
+            if algorithm not in handles_dict:
+                handles_dict[algorithm] = line
+
+        ax.set_title(project_labels.get(project, project), fontsize=22)
+        if max_time_proj > 1000:
+            # Usamos symlog para que acepte el tiempo 0 sin dar error matemático
+            ax.set_xscale('symlog', linthresh=1.0)
+            ax.set_xlabel("Absolute Time (Log)", fontsize=18)
+        else:
+            ax.set_xlabel("Absolute Time", fontsize=18)
+            # ---------------------------------------------
+
+        ax.set_ylabel("Average Relative HV", fontsize=18)
+        ax.set_facecolor('#f9f9f9')
+        # ax.set_xlabel("Absolute Time", fontsize=18)
+        # ax.set_ylabel("Average Relative HV", fontsize=18)
+        # ax.set_facecolor('#f9f9f9')
+        ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
+        ax.set_ylim(0, 1.05)
+        ax.tick_params(axis='y', labelsize=18)
+        ax.tick_params(axis='x', labelsize=18)
+
+    # Margen para que la leyenda no se pise con los ejes
+    plt.tight_layout(rect=[0, 0.08, 1, 0.98])
+
+    legend = fig.legend(
+        handles=handles_dict.values(),
+        labels=[algorithm_labels.get(a, a) for a in handles_dict.keys()],
+        loc='lower center',
+        bbox_to_anchor=(0.52, 0.04),
+        ncol=len(handles_dict),
+        frameon=True,
+        facecolor='white',
+        edgecolor='gray',
+        fontsize=18
+    )
+
+    legend.get_frame().set_alpha(0.8)
+    legend.get_frame().set_linewidth(0.5)
+
+    file_name = f"open_source_projects_HV_comparison_{target_obj}obj.pdf"
+    plt.savefig(os.path.join(output_dir, file_name), bbox_inches='tight')
+    plt.close()
+
+    print(f"Comparative absolute HV plots PER PROJECT ({target_obj} objs) correctly saved in {output_dir}.")
+
+def generate_comparative_plot_Ayesa(all_data, output_dir: str, colors: dict,
+                                    markers: dict, lines_styles: dict, algorithm_labels: dict, target_obj: int):
+    project_name = "gestion-expedientes"
+    proj_data = all_data[all_data["project"] == project_name]
+
+    plt.figure(figsize=(10, 6))
+    ax = plt.gca()
+
+    max_time_proj = 0
+    for t_arr in proj_data["t_abs"]:
+        if len(t_arr) > 0 and t_arr[-1] > max_time_proj:
+            max_time_proj = t_arr[-1]
+
+    if max_time_proj == 0:
+        max_time_proj = 1
+
+    if max_time_proj > 1000:
+        # Genera puntos más densos al principio para que la curva logarítmica sea suave
+        t_interp = np.geomspace(0.1, max_time_proj, 200)
+        t_interp[0] = 0.0  # Forzamos el origen en 0 para enganchar con tus datos
+    else:
+        t_interp = np.linspace(0, max_time_proj, 200)
+
+    for algorithm in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"]:
+        hv_list = []
+        for _, row in proj_data[proj_data["algorithm"] == algorithm].iterrows():
+            t_arr = np.array(row["t_abs"], dtype=float)
+            hv_arr = np.array(row["hv_rel"], dtype=float)
+            if len(t_arr) > 0:
+                hv_interp = np.interp(t_interp, t_arr, hv_arr)
+                if hv_interp[0] != 1:
+                    hv_list.append(hv_interp)
+
+        if not hv_list:
+            continue
+
+        hv_list = [np.array(hv, dtype=float) for hv in hv_list]
+        hv_std = np.std(hv_list, axis=0)
+        hv_mean = np.mean(hv_list, axis=0)
+
+        plt.plot(
+            t_interp,
+            hv_mean,
+            label=f"{algorithm_labels.get(algorithm, algorithm)}",
+            linewidth=2,
+            color=colors.get(algorithm),
+            linestyle=lines_styles.get(algorithm, "-"),
+            marker=markers.get(algorithm),
+            markevery=15
+        )
+
+        plt.fill_between(
+            t_interp,
+            np.maximum(hv_mean - hv_std, 0),
+            hv_mean + hv_std,
+            color=colors.get(algorithm),
+            alpha=0.2,
+            edgecolor='none'
+        )
+
+    ax.set_facecolor('#f9f9f9')
+    ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
+    if max_time_proj > 1000:
+        # Usamos symlog para que acepte el tiempo 0 sin dar error matemático
+        ax.set_xscale('symlog', linthresh=1.0)
+        ax.set_xlabel("Absolute Time (Log)", fontsize=18)
+    else:
+        ax.set_xlabel("Absolute Time", fontsize=18)
+        # ---------------------------------------------
+
+    ax.set_ylabel("Average Relative HV", fontsize=18)
+    # ax.set_facecolor('#f9f9f9')
+    # ax.set_xlabel("Absolute Time", fontsize=24)
+    # ax.set_ylabel("Average Relative HV", fontsize=24)
+    ax.set_ylim(0, 1.05)
+    ax.tick_params(axis='y', labelsize=22)
+    ax.tick_params(axis='x', labelsize=22)
+
+    legend = plt.legend(frameon=True, facecolor='white', edgecolor='gray', fontsize=22)
+    legend.get_frame().set_alpha(0.8)
+    legend.get_frame().set_linewidth(0.5)
+    plt.tight_layout()
+
+    file_name = f"{project_name}_HV_comparison_{target_obj}obj.pdf"
+    plt.savefig(os.path.join(output_dir, file_name))
+    plt.close()
+
+    print(f"Comparative absolute HV plots for AYESA ({target_obj} objs) correctly saved in {output_dir}.")
 
 
 def generate_global_relative_hv_vs_time(
-    results_root: str,
-    output_dir: str | None = None,
-    interpolation_points: int = 200
+        results_root: str,
+        output_dir: str | None = None,
+        interpolation_points: int = 200
 ):
     """
     Generates ONE graph per algorithm (EpsilonConstraint / HybridMethod)
-    and per number of objectives (2 and 3), averaging HV at each relative time point.
-
-    Stores all processed data in a CSV maestro to avoid re-processing.
+    and per number of objectives (2 and 3), averaging HV at each ABSOLUTE time point.
     """
 
     matplotlib.rcParams['font.family'] = 'Times New Roman'
@@ -642,34 +883,27 @@ def generate_global_relative_hv_vs_time(
     original_input_path = results_root
     processed_dir = os.path.join(os.path.dirname(os.path.abspath(original_input_path)), "processed_data")
     os.makedirs(processed_dir, exist_ok=True)
-    csv_master_path = os.path.join(processed_dir, "all_relative_hv_data.csv")
 
-    # Si existe CSV maestro, cargarlo y saltar procesamiento pesado
+    # Nombre del archivo actualizado para procesar el tiempo absoluto
+    csv_master_path = os.path.join(processed_dir, "all_absolute_hv_data.csv")
+
+    def ensure_list(x):
+        if isinstance(x, str):
+            return json.loads(x)
+        return x
+
     if os.path.exists(csv_master_path):
         print(f"CSV maestro encontrado en {csv_master_path}. Cargando datos directamente...")
         all_data = pd.read_csv(csv_master_path)
-        # Convertir t_rel y hv_rel de string a listas
-
-        def ensure_list(x):
-            if isinstance(x, str):
-                return json.loads(x)
-            return x
-
-        all_data["t_rel"] = all_data["t_rel"].apply(ensure_list)
+        all_data["t_abs"] = all_data["t_abs"].apply(ensure_list)
         all_data["hv_rel"] = all_data["hv_rel"].apply(ensure_list)
-
         skip_processing = True
     else:
-        all_data = pd.DataFrame(columns=["project", "class", "method", "algorithm", "num_obj", "t_rel", "hv_rel"])
+        all_data = pd.DataFrame(columns=["project", "class", "method", "algorithm", "num_obj", "t_abs", "hv_rel"])
         skip_processing = False
-
-    curves = {}
 
     temp_dir = None
 
-    # ----------------------------------------------------------
-    # Normalizar results_root
-    # ----------------------------------------------------------
     if not skip_processing:
         if results_root.endswith(".zip"):
             print(f"Extracting zip {results_root}.")
@@ -694,12 +928,10 @@ def generate_global_relative_hv_vs_time(
                 print("No 'results' folder found. Using original folder.")
                 results_root = temp_dir if temp_dir else results_root
 
-    # Output directory
     if output_dir is None:
         output_dir = os.path.dirname(os.path.abspath(original_input_path))
     os.makedirs(output_dir, exist_ok=True)
 
-    # ---------- Browse through all folders ----------
     if not skip_processing:
         for project in os.listdir(results_root):
             project_path = os.path.join(results_root, project)
@@ -711,9 +943,7 @@ def generate_global_relative_hv_vs_time(
                 solution_path = os.path.join(project_path, solution_folder)
                 if not os.path.isdir(solution_path):
                     continue
-                print(f"Solution path: {solution_path}.")
 
-                # Parse algorithm
                 if solution_folder.startswith("EpsilonConstraintAlgorithm"):
                     algorithm = "EpsilonConstraintAlgorithm"
                 elif solution_folder.startswith("HybridMethodAlgorithm"):
@@ -721,11 +951,10 @@ def generate_global_relative_hv_vs_time(
                 else:
                     continue
 
-                # Parse class, method, num_obj
                 try:
                     parts = solution_folder.split("_", 2)
-                    objectives_str = parts[1]  # e.g., "extractions-cc-loc"
-                    class_method_str = parts[2]  # e.g., "src.main.java.eu.activage.datalake.query.DataLakeClient.java_execute"
+                    objectives_str = parts[1]
+                    class_method_str = parts[2]
                     class_name, method_name = class_method_str.rsplit("_", 1)
                     num_obj = len(objectives_str.split("-"))
                 except Exception:
@@ -734,7 +963,6 @@ def generate_global_relative_hv_vs_time(
                 if num_obj not in (2, 3):
                     continue
 
-                # Process CSV files
                 for file in os.listdir(solution_path):
                     if not file.endswith("_complete_data.csv"):
                         continue
@@ -742,9 +970,7 @@ def generate_global_relative_hv_vs_time(
                     csv_path = os.path.join(solution_path, file)
                     try:
                         df = pd.read_csv(csv_path)
-                        if df.empty:
-                            continue
-                        if not {"absoluteHypervolume", "solutionObtainingTime"} <= set(df.columns):
+                        if df.empty or not {"absoluteHypervolume", "solutionObtainingTime"} <= set(df.columns):
                             continue
 
                         times = df["solutionObtainingTime"].values
@@ -753,33 +979,19 @@ def generate_global_relative_hv_vs_time(
                         if hv_max <= 0:
                             continue
 
-                        # Relative HV
                         hv_rel = hv_abs / hv_max
 
-                        # Relative time
-                        duration = times[-1] - times[0]
-                        if duration == 0:
-                            t_rel = np.array([0, 1])
-                            hv_rel = np.array([hv_rel[0], hv_rel[0]])
-                        else:
-                            t_rel = (times - times[0]) / duration
+                        # Extraemos el tiempo absoluto en lugar de relativo
+                        t_abs = times - times[0]
 
-                        # Interpolation
-                        t_interp = np.linspace(0, 1, interpolation_points)
-                        hv_interp = np.interp(t_interp, t_rel, hv_rel)
-
-                        # Append to curves for plotting
-                        curves.setdefault((algorithm, num_obj), []).append(hv_interp)
-
-                        # Append to master DataFrame (una fila por método)
                         df_temp = pd.DataFrame({
                             "project": [project],
                             "class": [class_name],
                             "method": [method_name],
                             "algorithm": [algorithm],
                             "num_obj": [num_obj],
-                            "t_rel": [json.dumps(t_interp.tolist())],
-                            "hv_rel": [json.dumps(hv_interp.tolist())]
+                            "t_abs": [json.dumps(t_abs.tolist())],
+                            "hv_rel": [json.dumps(hv_rel.tolist())]
                         })
                         all_data = pd.concat([all_data, df_temp], ignore_index=True)
 
@@ -787,24 +999,55 @@ def generate_global_relative_hv_vs_time(
                         print(f"Error processing {csv_path}: {e}")
                 print("-----------------------------------------------------------------------------------------------")
 
-        # Guardar CSV maestro al final
         all_data.to_csv(csv_master_path, index=False)
         print(f"CSV maestro guardado en {csv_master_path}.")
 
-    # ---------- Rebuild curves from all_data ----------
-    if skip_processing:
-        curves = {}
-        for (alg, n_obj), group in all_data.groupby(["algorithm", "num_obj"]):
+    all_data["t_abs"] = all_data["t_abs"].apply(ensure_list)
+    all_data["hv_rel"] = all_data["hv_rel"].apply(ensure_list)
 
-            def ensure_list(x):
-                if isinstance(x, str):
-                    import json
-                    return json.loads(x)
-                return x
+    # --- NUEVO FILTRO 1: Excluir instancias que superen los 3600 segundos ---
+    # Sacamos el tiempo final de cada ejecución (el último elemento de t_abs)
+    all_data['run_max_time'] = all_data['t_abs'].apply(lambda x: x[-1] if len(x) > 0 else 0)
 
-            hv_list = [ensure_list(row) for row in group["hv_rel"]]
+    # Nos quedamos solo con las que hayan tardado 3600 segundos o menos
+    all_data = all_data[all_data['run_max_time'] <= 3600]
+    all_data = all_data.drop(columns=['run_max_time'])  # Limpiamos la columna temporal
+    # ------------------------------------------------------------------------
 
-            curves[(alg, n_obj)] = hv_list
+    # --- NUEVO FILTRO2: Quedarse solo con los casos comunes a ambos algoritmos ---
+    # Contamos cuántos algoritmos distintos hay para cada combinación exacta de problema
+    all_data['alg_count'] = all_data.groupby(['project', 'class', 'method', 'num_obj'])['algorithm'].transform(
+        'nunique')
+
+    # Nos quedamos solo con las filas donde el conteo es exactamente 2 (AUGMECON y Hybrid)
+    all_data = all_data[all_data['alg_count'] == 2].drop(columns=['alg_count'])
+
+    # Opcional pero recomendado: un print para saber cuántos datos sobrevivieron al filtro
+    print(f"Total de ejecuciones válidas y comunes para comparar: {len(all_data)}")
+    # ---------------------------------------------------------------------------
+
+
+    # Construir las curves globales interpolando sobre el max_time GLOBAL (para las gráficas agregadas)
+    global_max_time = 0
+    for t_arr in all_data["t_abs"]:
+        if len(t_arr) > 0 and t_arr[-1] > global_max_time:
+            global_max_time = t_arr[-1]
+
+    if global_max_time == 0:
+        global_max_time = 1
+
+    t_interp_global = np.linspace(0, global_max_time, interpolation_points)
+    curves = {}
+
+    for (alg, n_obj), group in all_data.groupby(["algorithm", "num_obj"]):
+        hv_list = []
+        for _, row in group.iterrows():
+            t_arr = np.array(row["t_abs"], dtype=float)
+            hv_arr = np.array(row["hv_rel"], dtype=float)
+            if len(t_arr) > 0:
+                hv_interp = np.interp(t_interp_global, t_arr, hv_arr)
+                hv_list.append(hv_interp)
+        curves[(alg, n_obj)] = hv_list
 
     e_constraint_color = "#110EC7"
     hybrid_method_color = "#AC0EC7"
@@ -825,7 +1068,7 @@ def generate_global_relative_hv_vs_time(
         "knowage-core": "Knowage-core",
         "MOEAFramework": "MOEA-Framework",
         "queryexecution": "Query-Execution",
-        "Ayesa_data": "Ayesa project"
+        "gestion-expedientes": "Ayesa project"
     }
 
     algorithm_labels = {
@@ -845,221 +1088,23 @@ def generate_global_relative_hv_vs_time(
 
     linewidth = 2
 
-    individual_plot_per_algorithm(curves, interpolation_points, colors, linewidth, output_dir)
-    comparative_plot_per_algorithm(curves, interpolation_points, colors, linewidth,
-                                   output_dir, algorithm_labels)
 
-    all_data_no_ayesa = all_data[all_data["project"] != "Ayesa_data"]
-    generate_comparative_plots_per_project(all_data_no_ayesa, output_dir, colors,
-                                           markers, line_styles, algorithm_labels, project_labels)
+    # --- Generación de PDFs separados por número de objetivos (2 y 3) ---
+    for obj in [2, 3]:
+        # Gráficas de proyectos Open Source
+        all_data_no_ayesa = all_data[(all_data["project"] != "gestion-expedientes") & (all_data["num_obj"] == obj)]
+        if not all_data_no_ayesa.empty:
+            generate_comparative_plots_per_project(all_data_no_ayesa, output_dir, colors,
+                                                   markers, line_styles, algorithm_labels, project_labels,
+                                                   target_obj=obj)
 
-    generate_comparative_plot_Ayesa(all_data, output_dir, colors, markers, line_styles, algorithm_labels)
+        # Gráfica del proyecto Ayesa
+        all_data_ayesa = all_data[(all_data["project"] == "gestion-expedientes") & (all_data["num_obj"] == obj)]
+        if not all_data_ayesa.empty:
+            generate_comparative_plot_Ayesa(all_data_ayesa, output_dir, colors,
+                                            markers, line_styles, algorithm_labels, target_obj=obj)
 
-    # Clean temporary folder if it was created
     if temp_dir is not None:
         shutil.rmtree(temp_dir)
 
-    print(f"ALL relative HV plots correctly saved in {output_dir}.")
-
-
-def generate_comparative_plots_per_project(all_data, output_dir: str, colors: dict,
-                                           markers: dict, lines_styles: dict,
-                                           algorithm_labels: dict, project_labels):
-    projects = all_data["project"].unique()
-    num_projects = len(projects)
-    rows = 5
-    cols = 2
-    rows = math.ceil(num_projects / cols)
-    fig, axes = plt.subplots(rows, cols, figsize=(15, 4 * rows))
-    axes = axes.flatten()
-
-    handles_dict = {}
-
-    for i, project in enumerate(projects):
-        ax = axes[i]
-        project_data = all_data[all_data["project"] == project]
-
-        for num_obj in (2, 3):
-            for algorithm in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"]:
-                # seleccionar las filas que cumplan condiciones
-                filtered_data = project_data[
-                    (project_data["algorithm"] == algorithm) &
-                    (project_data["num_obj"] == num_obj)
-                    ]
-
-                # construir lista de hv_rel filtrando listas cuyo primer elemento sea 1
-                hv_list = [row for row in filtered_data["hv_rel"] if len(row) > 0 and row[0] != 1]
-                if not hv_list:
-                    continue
-                hv_list = [np.array(hv, dtype=float) for hv in hv_list]
-                hv_mean = np.mean(hv_list, axis=0)
-                t_interp = project_data.iloc[0]["t_rel"]
-                line, = ax.plot(
-                    t_interp,
-                    hv_mean,
-                    label=f"{algorithm_labels.get(algorithm, algorithm)}",
-                    linewidth=2,
-                    color=colors.get(algorithm),
-                    linestyle=lines_styles.get(algorithm, "-"),
-                    marker=markers.get(algorithm),
-                    markevery=15
-                )
-
-                if algorithm not in handles_dict:
-                    handles_dict[algorithm] = line
-
-        ax.set_title(project_labels.get(project, project), fontsize=26)
-        ax.set_facecolor('#f9f9f9')
-        ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
-        ax.set_ylim(0, 1.05)
-        ax.tick_params(axis='y', labelsize=22)
-        ax.tick_params(axis='x', labelsize=22)
-        ax.grid(True, linestyle='--', alpha=0.3)
-
-    # eliminar ejes sobrantes si hay menos proyectos que subplots
-    for j in range(i + 1, len(axes)):
-        fig.delaxes(axes[j])
-
-    fig.subplots_adjust(left=0.08, bottom=0.18)
-
-    fig.supxlabel("Relative Time", fontsize=26, y=0.09)
-    fig.supylabel("Average Relative HV", fontsize=26, x=0.06)
-
-    legend = fig.legend(
-        handles=handles_dict.values(),
-        labels=[algorithm_labels.get(a, a) for a in handles_dict.keys()],
-        loc='lower center',
-        bbox_to_anchor=(0.5, 0.05),
-        bbox_transform=fig.transFigure,
-        ncol=len(handles_dict),
-        frameon=True,
-        facecolor='white',
-        edgecolor='gray',
-        fontsize=22
-    )
-
-    legend.get_frame().set_alpha(0.8)
-    legend.get_frame().set_linewidth(0.5)
-
-    plt.tight_layout(rect=[0.06, 0.09, 1, 1])
-    plt.savefig(os.path.join(output_dir, "open_source_projects_HV_comparison.pdf"), bbox_inches='tight')
-    plt.close()
-
-    print(f"Comparative relative HV plots PER PROJECT correctly saved in {output_dir}.")
-
-
-def generate_comparative_plot_Ayesa(all_data, output_dir: str, colors: dict,
-                                    markers: dict, lines_styles: dict, algorithm_labels: dict):
-    project_name = "Ayesa_data"
-    proj_data = all_data[all_data["project"] == project_name]
-
-    plt.figure(figsize=(10, 6))
-    ax = plt.gca()
-    for algorithm in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"]:
-        hv_list = [row for row in proj_data[proj_data["algorithm"] == algorithm]["hv_rel"]]
-        if not hv_list:
-            continue
-        hv_mean = np.mean(hv_list, axis=0)
-        t_interp = proj_data.iloc[0]["t_rel"]
-        plt.plot(
-            t_interp,
-            hv_mean,
-            label=f"{algorithm_labels.get(algorithm, algorithm)}",
-            linewidth=2,
-            color=colors.get(algorithm),
-            linestyle=lines_styles.get(algorithm, "-"),
-            marker=markers.get(algorithm),
-            markevery=15
-        )
-
-    ax.set_facecolor('#f9f9f9')
-    ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
-    ax.set_xlabel("Relative Time", fontsize=24)
-    ax.set_ylabel("Average Relative HV", fontsize=24)
-    ax.set_ylim(0, 1.05)
-    ax.tick_params(axis='y', labelsize=22)
-    ax.tick_params(axis='x', labelsize=22)
-
-    legend = plt.legend(frameon=True, facecolor='white', edgecolor='gray', fontsize=22)
-    legend.get_frame().set_alpha(0.8)
-    legend.get_frame().set_linewidth(0.5)
-    plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f"{project_name}_HV_comparison.pdf"))
-    plt.close()
-
-    print(f"Comparative relative HV plots for AYESA correctly saved in {output_dir}.")
-
-
-def individual_plot_per_algorithm(curves: dict, interpolation_points: int, colors: dict,
-                                  linewidth: int, output_dir: str):
-    # Individual plots per algorithm and number of objectives
-    for (algorithm, num_obj), hv_list in curves.items():
-        if not hv_list:
-            continue
-        plt.figure(figsize=(8, 5))
-        hv_mean = np.mean(hv_list, axis=0)
-        t_interp = np.linspace(0, 1, interpolation_points)
-
-        ax = plt.gca()
-        ax.set_facecolor('#f9f9f9')
-        ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
-        ax.plot(t_interp, hv_mean, color=colors.get(algorithm, 'black'), linewidth=linewidth, label=algorithm)
-        ax.set_xlabel("Relative Time", fontsize=18)
-        ax.set_ylabel("Average Relative HV", fontsize=18)
-        ax.set_ylim(0, 1.05)
-
-        legend = ax.legend(frameon=True, facecolor='white', edgecolor='gray', fontsize=12)
-        legend.get_frame().set_alpha(0.8)
-        plt.tight_layout()
-        filename = f"{algorithm}_{num_obj}obj_relative_hv_vs_time.pdf"
-        plt.savefig(os.path.join(output_dir, filename))
-        plt.close()
-
-    print(f"Individual relative HV plots correctly saved in {output_dir}.")
-
-
-def comparative_plot_per_algorithm(curves: dict, interpolation_points: int, colors: dict,
-                                   linewidth: int, output_dir: str, algorithm_labels: dict):
-    # Comparative plots per number of objectives
-    for num_obj in (2, 3):
-        has_data = any(curves.get((alg, num_obj)) for alg in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"])
-        if not has_data:
-            continue
-
-        plt.figure(figsize=(8, 5))
-        ax = plt.gca()
-        ax.set_facecolor('#f9f9f9')
-        ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
-
-        for algorithm in ["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"]:
-            hv_list_raw = curves.get((algorithm, num_obj), [])
-
-            # Filtrar listas cuyo primer elemento sea 1
-            hv_list = [hv for hv in hv_list_raw if len(hv) > 0 and hv[0] != 1]
-            if not hv_list:
-                continue
-            hv_mean = np.mean(hv_list, axis=0)
-            t_interp = np.linspace(0, 1, interpolation_points)
-            ax.plot(
-                t_interp,
-                hv_mean,
-                label=f"{algorithm_labels.get(algorithm, algorithm)}",
-                color=colors.get(algorithm, 'black'),
-                linewidth=linewidth
-            )
-
-        ax.set_xlabel("Relative Time", fontsize=12)
-        ax.set_ylabel("Average Relative HV", fontsize=12)
-        ax.set_ylim(0, 1.05)
-
-        legend = ax.legend(frameon=True, facecolor='white', edgecolor='gray', fontsize=12)
-        frame = legend.get_frame()
-        frame.set_alpha(0.8)  # transparencia
-        frame.set_linewidth(0.5)
-
-        plt.tight_layout()
-        filename = f"Comparison_algorithms_{num_obj}obj_relative_hv_vs_time.pdf"
-        plt.savefig(os.path.join(output_dir, filename))
-        plt.close()
-
-    print(f"Comparative relative HV plots correctly saved in {output_dir}.")
+    print(f"ALL absolute HV plots correctly saved in {output_dir}.")

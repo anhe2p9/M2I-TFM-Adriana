@@ -189,11 +189,18 @@ def hybrid_method_with_full_p_split(model: pyo.AbstractModel, data_dict, objecti
             # Split the box with the real solution found
             boxes = full_p_split(actual_box, solution, boxes)
 
-            for i,box in enumerate(boxes.copy()):
-                if inside(solution,box):
+            updated_boxes = []
+            for box in boxes:
+                if inside(solution, box):
                     print(f"    Solution: {solution} inside box: {box}.")
-                    boxes.pop(i)
-                    boxes = full_p_split(box, solution, boxes)
+                    # Si la solución está dentro, no añadimos la caja original,
+                    # sino que la dividimos y añadimos las sub-cajas a la nueva lista
+                    updated_boxes = full_p_split(box, solution, updated_boxes)
+                else:
+                    # Si no, la caja sobrevive intacta
+                    updated_boxes.append(box)
+
+            boxes = updated_boxes
 
             print(f"GENERAL BOXES LIST: {boxes}.")
             non_dominated_boxes = filter_contained_boxes(boxes)

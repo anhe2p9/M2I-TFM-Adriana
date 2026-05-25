@@ -307,8 +307,9 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
         complete_data_row.append(nested_extractions)
 
         """ Reduction of complexity """
-        cc_reduction = [(concrete.ccr[j, k] * concrete.z[j, k].value) for j, k in concrete.N if
-                        k == 0 and concrete.z[j, k].value != 0]
+        cc_reduction = [concrete.nmcc[i] * concrete.x[i].value - sum(concrete.ccr[j, i] * concrete.z[j, i].value
+                                                               for j, k in concrete.N if k == i)
+                        for i,j in concrete.N if concrete.z[i,j].value == 1]
 
         reduction_complexity = sum(cc_reduction)
         complete_data_row.append(reduction_complexity)
@@ -318,8 +319,10 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
         complete_data_row.append(final_complexity)
 
         """ Minimum extracted LOC, Maximum extracted LOC, Mean extracted LOC, Total extracted LOC, Nested LOC """
-        loc_for_each_sequence = [(concrete.loc[j] * concrete.z[j, k].value) for j, k in concrete.N if
-                                 k == 0 and concrete.z[j, k].value != 0]
+        loc_for_each_sequence = [(concrete.loc[i] * concrete.x[i].value)
+                                 - sum(concrete.loc[j] * concrete.z[j, k].value for j,k in concrete.N if k==i)
+                                 for i, j in concrete.N if concrete.z[i, j].value == 1]
+        print(f"LOC FOR EACH SEQUENCE: {loc_for_each_sequence}.")
         if len(loc_for_each_sequence) > 0:
             min_extracted_loc = min(loc_for_each_sequence)
             complete_data_row.append(min_extracted_loc)
@@ -333,9 +336,11 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
             nested_loc = {}
             for v in nested_solution.values():
                 for n in v:
-                    nested_loc[n] = concrete.loc[n]
+                    nested_loc[n] = concrete.loc[n] - sum(concrete.loc[k] * concrete.z[k, l].value
+                                                          for k,l in concrete.N if l==n)
             if len(nested_loc) > 0:
                 complete_data_row.append(nested_loc)
+                print(f"Nested LOC: {nested_loc}.")
             else:
                 complete_data_row.append("")
         else:
@@ -356,9 +361,11 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
             nested_cc = {}
             for v in nested_solution.values():
                 for n in v:
-                    nested_cc[n] = concrete.nmcc[n]
+                    nested_cc[n] = concrete.nmcc[n] - sum(concrete.ccr[j, n] * concrete.z[j, n].value
+                                                               for j,k in concrete.N if k == n)
             if len(nested_cc) > 0:
                 complete_data_row.append(nested_cc)
+                print(f"NESTED CC: {nested_cc}.")
             else:
                 complete_data_row.append("")
         else:

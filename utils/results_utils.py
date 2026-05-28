@@ -20,6 +20,8 @@ import json
 import math
 from matplotlib.gridspec import GridSpec
 
+import utils.interactive_3DPF_with_solutions as interactive_3dpf
+
 from ILP_CC_reducer.model.ILPmodel import GeneralILPmodel
 model = GeneralILPmodel(active_objectives=["extractions", "cc", "loc"])
 
@@ -291,7 +293,8 @@ def generate_3d_pf_plot(results_path, output_html_path):
                 print(f"3D PF saved in {output_html_path}.")
 
 
-def traverse_and_pf_plot(input_path, output_path):
+def traverse_and_pf_plot(input_path, output_path, complete_data: Path=None,
+                         refact_cache: Path=None, original_class: Path=None):
     carpeta_graficas = os.path.join(output_path, "PF3D")
     os.makedirs(carpeta_graficas, exist_ok=True)
 
@@ -305,23 +308,47 @@ def traverse_and_pf_plot(input_path, output_path):
         os.makedirs(carpeta_salida_proyecto, exist_ok=True)
 
         for class_method_folder in os.listdir(ruta_proyecto):
-            if class_method_folder.startswith('HybridMethodForThreeObj'):
-                method_path = os.path.join(ruta_proyecto, class_method_folder)
-                if not os.path.isdir(method_path):
-                    continue
-
-                for archivo in os.listdir(method_path):
-                    if archivo.endswith("_results.csv"):
-                        ruta_csv = os.path.join(method_path, archivo)
-                        salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
-                        print(f"Generating 3D PF for: {ruta_csv}")
-                        generate_3d_pf_plot(ruta_csv, salida_html)
-
-            if class_method_folder.startswith('EpsilonConstraintAlgorithm'):
+            method_path = os.path.join(ruta_proyecto, class_method_folder)
+            if not os.path.isdir(method_path):
                 continue
 
+            for archivo in os.listdir(method_path):
+                if archivo.endswith("_results.csv"):
+                    ruta_csv = os.path.join(method_path, archivo)
+                    salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
+                    print(f"Generating 3D PF for: {ruta_csv}")
+                    if refact_cache and original_class:
+                        interactive_3dpf.generate_3d_pf_plot(complete_data, salida_html, refact_cache, original_class)
+                    else:
+                        generate_3d_pf_plot(input_path, salida_html)
 
-def traverse_and_plot(input_path: str, output_path: str):
+
+
+def traverse_and_plot(input_path: str, output_path: str, complete_path: Path,
+                      refact_cache: Path = None, original_class: Path = None) -> None:
+    """
+    Traverses a project directory structure, searches for optimization results CSV files,
+    and generates different types of plots based on the number of evaluated objectives.
+
+    The method extracts the objectives (extractions, cc, loc) from the solution folder names.
+    Depending on the number of valid objectives found:
+    - 2 objectives: Generates a 2D Pareto Front plot (PDF).
+    - 3 objectives: Generates a parallel coordinates plot (PDF) and a 3D Pareto Front plot (HTML).
+      (If `refact_cache` and `original_class` are provided, the 3D plot will be interactive).
+
+    :param input_path: Path to the input directory containing the project folders.
+    :type input_path: str
+    :param output_path: Base path where the output will be saved. A "plots" subfolder will be created automatically.
+    :type output_path: str
+    :param complete_path: Full path of the execution context, used for the interactive 3D plot.
+    :type complete_path: Path
+    :param refact_cache: Path to the refactoring cache (required for the interactive 3D plot).
+    :type refact_cache: Path, optional
+    :param original_class: Path to the analyzed original class (required for the interactive 3D plot).
+    :type original_class: Path, optional
+    :return: The function does not return any value; it saves the generated files directly to disk.
+    :rtype: None
+    """
     carpeta_graficas = os.path.join(output_path, "plots")
     os.makedirs(carpeta_graficas, exist_ok=True)
 
@@ -370,7 +397,10 @@ def traverse_and_plot(input_path: str, output_path: str):
 
                         salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
                         print(f"Generating 3D PF for: {ruta_csv}")
-                        generate_3d_pf_plot(ruta_csv, salida_html)
+                        if refact_cache and original_class:
+                            interactive_3dpf.generate_3d_pf_plot(complete_path, output_path, refact_cache, original_class)
+                        else:
+                            generate_3d_pf_plot(ruta_csv, salida_html)
 
 
 def generate_relative_hypervolume_plot(input_path, output_path):

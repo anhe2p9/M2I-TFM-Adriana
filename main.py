@@ -12,6 +12,7 @@ from pathlib import Path
 from grapheme import length
 
 import utils.results_utils as results_utils
+import utils.interactive_3DPF_with_solutions as interactive_3dpf
 
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
@@ -133,8 +134,8 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
         # Create parent directory explicitly
-        os.makedirs(Path(general_path).parent, exist_ok=True)
         model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
+        write_output_to_files(general_path)
     else:
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
                  f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodAlgorithm.")
@@ -156,39 +157,39 @@ def write_output_to_files(general_path: str, csv_info: list = None,
     if csv_info:
         # Save data in a CSV file
         filename = f"{general_path}_results.csv"
-        temp_filename = f"{filename}.tmp"
 
-        with open(temp_filename, mode="w", newline="", encoding="utf-8") as file:
+        if os.path.exists(filename):
+            os.remove(filename)
+
+        with open(filename, mode="w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerows(csv_info)
-
-        os.replace(temp_filename, filename)
-        print(f"CSV file correctly created in {filename}.")
-
+            print(f"CSV file correctly created in {filename}.")
 
     if output_data:
         # Save output in a TXT file
         output_filename = f"{general_path}_output.txt"
-        temp_output_filename = f"{output_filename}.tmp"
 
-        with open(temp_output_filename, "w") as f:
+        if os.path.exists(output_filename):
+            os.remove(output_filename)
+
+        with open(output_filename, "w") as f:
             for linea in output_data:
                 f.write(linea + "\n")
-
-        os.replace(temp_output_filename, output_filename)
-        print(f"Output correctly saved in {output_filename}.")
+            print(f"Output correctly saved in {output_filename}.")
 
     if complete_data:
         # Save complete data in a TXT file
         complete_data_filename = f"{general_path}_complete_data.csv"
-        temp_complete_filename = f"{complete_data_filename}.tmp"
 
-        with open(temp_complete_filename, mode="w", newline="", encoding="utf-8") as complete_csv:
+        if os.path.exists(complete_data_filename):
+            os.remove(complete_data_filename)
+
+        with open(complete_data_filename,
+                  mode="w", newline="", encoding="utf-8") as complete_csv:
             writer = csv.writer(complete_csv)
             writer.writerows(complete_data)
-
-        os.replace(temp_complete_filename, complete_data_filename)
-        print(f"Complete CSV file correctly created in {complete_data_filename}.")
+            print(f"Complete CSV file correctly created in {complete_data_filename}.")
 
 
 
@@ -332,6 +333,10 @@ def obtain_arguments():
     parser.add_argument('--save', action='store_true', help='Save properties in a .ini file')
     parser.add_argument('-tl', '--timelimit', dest='time_limit', type=int, default=3600,
                         help=f'Maximum desired time for problem resolution.')
+    parser.add_argument('-oc', '--original_class', dest='original_class', type=str, default=None,
+                        help=f'Path to the original class where the method original method is.')
+    parser.add_argument('-rc', '--refactoring_cache', dest='refactoring_cache', type=str, default=None,
+                        help=f'Path to the refactoring cache of the method.')
 
     
     args = parser.parse_args()
@@ -368,6 +373,8 @@ if __name__ == '__main__':
     input_dir = args['input_dir'] if args['input_dir'] else config.get('input_dir')
     output_dir = args['output_dir'] if args['output_dir'] else config.get('output_dir')
     time_limit = args['time_limit'] if args['time_limit'] else config.get('time_limit')
+    original_class = args['original_class'] if args['original_class'] else config.get('original_class')
+    refact_cache = args['refactoring_cache'] if args['refactoring_cache'] else config.get('refactoring_cache')
 
     # Check that there is number of objectives specified
     if model_instance and not num_of_objectives:
@@ -386,6 +393,14 @@ if __name__ == '__main__':
     # Check model instance
     if model_instance:
         instance_path = Path(model_instance)
+
+    # Check original class Path
+    if original_class:
+        original_class = Path(original_class)
+
+    # Check refactoring cache Path
+    if refact_cache:
+        refact_cache = Path(refact_cache)
 
     # Show final properties used
     print("Final configuration:")
@@ -485,6 +500,8 @@ if __name__ == '__main__':
                                 int(threshold), subdivisions, weights, objectives, time_limit)
 
             results_csv_path = f"{general_path}_results.csv"
+            complete_data_path = f"{general_path}_complete_data.csv"
+            output_html_path = f"{general_path}_interactive_3dPF.html"
 
             if single_plot:
                 if num_of_objectives == 2:
@@ -495,14 +512,17 @@ if __name__ == '__main__':
                     results_utils.generate_parallel_coordinates_plot(results_csv_path, single_plot_path)
             if single_3D_PF:
                 single_3D_PF_path = f"{general_path}_3DPF.html"
-                results_utils.generate_3d_pf_plot(results_csv_path, single_3D_PF_path)
+                if refact_cache and original_class:
+                    interactive_3dpf.generate_3d_pf_plot(complete_data_path, output_html_path,
+                                                         refact_cache, original_class)
+                else:
+                    results_utils.generate_3d_pf_plot(results_csv_path, single_3D_PF_path)
             if relative_hv:
-                complete_data_path = f"{general_path}_complete_data.csv"
                 single_relative_hv_path = f"{general_path}_relative_hv_with_time.pdf"
                 results_utils.generate_relative_hypervolume_plot(complete_data_path, single_relative_hv_path)
 
     if all_plots:
-        results_utils.traverse_and_plot(input_dir, output_dir)
+        results_utils.traverse_and_plot(input_dir, output_dir, complete_data_path, refact_cache, original_class)
 
     if statistics:
         results_utils.generate_statistics(input_dir, output_dir)

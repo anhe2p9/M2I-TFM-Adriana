@@ -1,0 +1,631 @@
+import csv
+import ast
+import os
+import re
+import tree_sitter_java as tsjava
+from tree_sitter import Language, Parser
+from concurrent.futures import ThreadPoolExecutor
+
+# Configuración inicial
+JAVA_LANGUAGE = Language(tsjava.language())
+parser = Parser(JAVA_LANGUAGE)
+
+import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+
+from ILP_CC_reducer.model.ILPmodel import GeneralILPmodel
+model = GeneralILPmodel(active_objectives=["extractions", "cc", "loc"])
+
+from openai import OpenAI
+
+API_KEY = os.getenv("OPENAI_API_KEY")
+MODEL = "gpt-4o"   # o "gpt-5.1"
+
+client = OpenAI(api_key=API_KEY)
+
+
+def generate_3d_pf_plot(complete_data_file, output_html_path, refact_cache_file, original_class_file):
+    df = pd.read_csv(complete_data_file)
+
+    if df.shape[0] == 0:
+        print(f"No solutions found in {complete_data_file}. 3DPF plot not generated.")
+        return
+
+    if 'solution' not in df.columns:
+        print("Error: No se encontró la columna 'solution' en el archivo CSV.")
+        return
+
+    df['solution_tuple'] = df['solution'].apply(ast.literal_eval)
+    objetivos = np.array(df['solution_tuple'].to_list())
+
+    if objetivos.shape[1] < 3:
+        print(
+            "It is not possible to represent 3DPF plot because there is less than 3 objectives in the solution tuple.")
+        return
+
+    nombres_objetivos = ["extractions", "cc", "loc"]
+    nadir = np.max(objetivos, axis=0)
+    ref_point = nadir + 1
+
+    fig = go.Figure()
+    n1, n2, n3 = ref_point
+    solutions = [tuple(sol) for sol in objetivos]
+
+    # 1. Detectamos la carpeta del archivo input y creamos la subcarpeta allí dentro
+    carpeta_input = os.path.dirname(complete_data_file)
+    folder_refactorizaciones = os.path.join(carpeta_input, "refactorizaciones_soluciones")
+
+    os.makedirs(folder_refactorizaciones, exist_ok=True)
+    print(f"\nGenerating refactoring files for each solution in parallel...")
+
+    # 2. Generamos los enlaces calculando la ruta relativa respecto al HTML del gráfico
+    # para que el navegador web pueda abrirlos correctamente al hacer clic.
+    carpeta_output = os.path.dirname(output_html_path)
+    enlaces_ordenados = []
+    for idx in range(len(solutions)):
+        ruta_real_solucion = os.path.join(folder_refactorizaciones, f"solucion_{idx + 1}.html")
+        # os.path.relpath calcula el camino óptimo desde el archivo del gráfico hasta la solución
+        ruta_relativa_web = os.path.relpath(ruta_real_solucion, carpeta_output)
+        enlaces_ordenados.append(ruta_relativa_web)
+
+    # 2. Función auxiliar que ejecutará cada hilo
+    def procesar_hilo(idx):
+        ruta_html_sol = os.path.join(folder_refactorizaciones, f"solucion_{idx + 1}.html")
+        try:
+            procesar_refactorizacion(complete_data_file, refact_cache_file, original_class_file, idx, ruta_html_sol)
+        except Exception as e:
+            print(f"❌ [Error] Saltando solución #{idx + 1} debido a un fallo: {e}")
+
+    # 3. Lanzamos la ejecución en paralelo (puedes ajustar max_workers si OpenAI te da Rate Limit)
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        executor.map(procesar_hilo, range(len(solutions)))
+
+    parallel_face_colors = {
+        'top_bottom': "#E6E6FA",
+        'front_back': "#FFDAB9",
+        'left_right': "#C1FFC1"
+    }
+
+    parallel_faces = [
+        {'faces': [(0, 1, 2), (0, 2, 3), (4, 5, 6), (4, 6, 7)], 'color': parallel_face_colors['top_bottom']},
+        {'faces': [(0, 1, 5), (0, 5, 4), (2, 3, 7), (2, 7, 6)], 'color': parallel_face_colors['front_back']},
+        {'faces': [(1, 2, 6), (1, 6, 5), (0, 3, 7), (0, 7, 4)], 'color': parallel_face_colors['left_right']}
+    ]
+
+    for sol in solutions:
+        a, b, c = sol[0], sol[1], sol[2]
+        x = [a, n1, n1, a, a, n1, n1, a]
+        y = [b, b, n2, n2, b, b, n2, n2]
+        z = [c, c, c, c, n3, n3, n3, n3]
+
+        for group in parallel_faces:
+            color = group['color']
+            face_tris = group['faces']
+            fig.add_trace(go.Mesh3d(
+                x=x, y=y, z=z,
+                i=[f[0] for f in face_tris], j=[f[1] for f in face_tris], k=[f[2] for f in face_tris],
+                color=color, opacity=1, flatshading=True, showscale=False,
+                hoverinfo='skip'
+            ))
+
+    f1, f2, f3 = zip(*solutions)
+    fig.add_trace(go.Scatter3d(
+        x=f1, y=f2, z=f3,
+        mode='markers+text',
+        marker=dict(size=10, color='black'),
+        text=[f's{idx + 1}' for idx in range(len(solutions))],
+        textposition='top center',
+        textfont=dict(color='black', size=18),
+        name='Solutions',
+        customdata=enlaces_ordenados,
+        hovertemplate=(
+            "<b>Solution: %{text}</b><br><br>"
+            "EXTRACTIONS: %{x}<br>"
+            "CC<sub>diff</sub>: %{y}<br>"
+            "LOC<sub>diff</sub>: %{z}"
+            "<extra></extra>"
+        )
+    ))
+
+    # Cambia este bloque para que use formato LaTeX válido en Plotly
+    objective_map = {
+        "extractions": r"EXTRACTIONS",
+        "cc": r"CC<sub>diff</sub>",
+        "loc": r"LOC<sub>diff</sub>"
+    }
+
+    x_label = objective_map.get(nombres_objetivos[0], nombres_objetivos[0])
+    y_label = objective_map.get(nombres_objetivos[1], nombres_objetivos[1])
+    z_label = objective_map.get(nombres_objetivos[2], nombres_objetivos[2])
+
+    fig.update_layout(scene=dict(xaxis=dict(title=dict(text=x_label, font=dict(size=25))),
+                                 yaxis=dict(title=dict(text=y_label, font=dict(size=25))),
+                                 zaxis=dict(title=dict(text=z_label, font=dict(size=25))),
+                                 aspectmode='data'))
+
+    fig.write_html(output_html_path, include_mathjax='cdn')
+    print(f"3D PF saved in {output_html_path}.")
+
+    script_interactivo = """
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var plotDiv = document.getElementsByClassName('plotly-graph-div')[0];
+        if (plotDiv) {
+            plotDiv.on('plotly_click', function(data){
+                if(data.points && data.points[0] && data.points[0].customdata) {
+                    var url = data.points[0].customdata;
+                    window.open(url, '_blank');
+                }
+            });
+        }
+    });
+    </script>
+    """
+    with open(output_html_path, 'r', encoding='utf-8') as f:
+        html_contenido = f.read()
+
+    html_contenido = html_contenido.replace("</body>", f"{script_interactivo}\n</body>")
+
+    with open(output_html_path, 'w', encoding='utf-8') as f:
+        f.write(html_contenido)
+    print("[OK] Script de redirección web inyectado con éxito en el frente de Pareto.")
+
+
+def crear_mapa_char_a_byte(texto):
+    mapa = [0] * (len(texto) + 1)
+    byte_offset = 0
+    for i, char in enumerate(texto):
+        mapa[i] = byte_offset
+        byte_offset += len(char.encode('utf-8'))
+    mapa[len(texto)] = byte_offset
+    return mapa
+
+
+def encontrar_tipo_real_ast(nodo_metodo, nombre_var, codigo_bytes):
+    tipo_encontrado = ["Object"]
+
+    def walk(n):
+        if tipo_encontrado[0] != "Object": return
+        if n.type == 'formal_parameter':
+            name_node = n.child_by_field_name('name')
+            if name_node and codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf-8') == nombre_var:
+                type_node = n.child_by_field_name('type')
+                if type_node: tipo_encontrado[0] = codigo_bytes[type_node.start_byte:type_node.end_byte].decode('utf-8')
+        elif n.type == 'local_variable_declaration':
+            type_node = n.child_by_field_name('type')
+            for child in n.children:
+                if child.type == 'variable_declarator':
+                    name_node = child.child_by_field_name('name')
+                    if name_node and codigo_bytes[name_node.start_byte:name_node.end_byte].decode(
+                            'utf-8') == nombre_var:
+                        if type_node: tipo_encontrado[0] = codigo_bytes[type_node.start_byte:type_node.end_byte].decode(
+                            'utf-8')
+        elif n.type == 'enhanced_for_statement':
+            name_node = n.child_by_field_name('name')
+            if name_node and codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf-8') == nombre_var:
+                type_node = n.child_by_field_name('type')
+                if type_node: tipo_encontrado[0] = codigo_bytes[type_node.start_byte:type_node.end_byte].decode('utf-8')
+        for child in n.children: walk(child)
+
+    walk(nodo_metodo)
+    return tipo_encontrado[0]
+
+
+def obtener_locales_metodo(nodo_metodo, codigo_bytes):
+    locales = set()
+    def buscar(n):
+        if n.type in ['variable_declarator', 'formal_parameter']:
+            name_node = n.child_by_field_name('name')
+            if name_node: locales.add(codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf8'))
+        elif n.type == 'enhanced_for_statement':
+            name_node = n.child_by_field_name('name')
+            if name_node: locales.add(codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf8'))
+        for child in n.children: buscar(child)
+    buscar(nodo_metodo)
+    return locales
+
+
+def obtener_parametros_limpios(nodo_metodo_orig, lista_nodos, codigo_bytes, start, end):
+    locales_metodo = obtener_locales_metodo(nodo_metodo_orig, codigo_bytes)  # <-- AÑADIR AQUÍ
+    declaradas_dentro = set()
+    usos_externos = {}
+
+    def registrar_declaracion(n_id):
+        if n_id and start <= (n_id.start_byte + n_id.end_byte) / 2 <= end:
+            name = codigo_bytes[n_id.start_byte:n_id.end_byte].decode('utf8')
+            declaradas_dentro.add(name)
+
+    def buscar_decls(n):
+        if n.type == 'variable_declarator':
+            registrar_declaracion(n.child_by_field_name('name'))
+        elif n.type == 'enhanced_for_statement':
+            name_node = n.child_by_field_name('name')
+            if name_node:
+                registrar_declaracion(name_node)
+            else:
+                for child in n.children:
+                    if child.type == 'identifier':
+                        registrar_declaracion(child)
+                        break
+        for child in n.children: buscar_decls(child)
+
+    for nodo in lista_nodos: buscar_decls(nodo)
+
+    def buscar_usos(n):
+        if n.type == 'identifier' and start <= (n.start_byte + n.end_byte) / 2 <= end:
+            nombre = codigo_bytes[n.start_byte:n.end_byte].decode('utf8')
+            parent = n.parent
+            es_valido = True
+
+            if parent.type == 'method_invocation' and parent.child_by_field_name('name') == n: es_valido = False
+            if parent.type == 'field_access' and parent.child_by_field_name('field') == n: es_valido = False
+            if nombre in declaradas_dentro: es_valido = False
+            if nombre in ['this', 'super', 'null', 'true', 'false'] or nombre[0].isupper(): es_valido = False
+            if nombre not in locales_metodo: es_valido = False # <-- AÑADIR ESTA LÍNEA AQUÍ
+
+            if es_valido:
+                if nombre not in usos_externos:
+                    usos_externos[nombre] = encontrar_tipo_real_ast(nodo_metodo_orig, nombre, codigo_bytes)
+
+        for child in n.children: buscar_usos(child)
+
+    for nodo in lista_nodos: buscar_usos(nodo)
+    return usos_externos
+
+
+# Lógica para detectar si hay variables que deben ser retornadas (parámetros de salida)
+def obtener_parametros_salida(nodo_metodo_orig, codigo_bytes, start, end):
+    locales_metodo = obtener_locales_metodo(nodo_metodo_orig, codigo_bytes)
+    modificadas_dentro = set()
+    declaradas_dentro = set()
+    usadas_despues = set()
+
+    # 1. Buscar modificaciones o declaraciones dentro del bloque
+    def buscar_modificaciones(n):
+        if n.type == 'assignment_expression':
+            left = n.child_by_field_name('left')
+            # Si el lado izquierdo es un identificador puro (reasignación de referencia o primitivo)
+            if left and left.type == 'identifier' and start <= n.start_byte <= end:
+                modificadas_dentro.add(codigo_bytes[left.start_byte:left.end_byte].decode('utf8'))
+        elif n.type == 'update_expression':
+            for child in n.children:
+                if child.type == 'identifier' and start <= n.start_byte <= end:
+                    modificadas_dentro.add(codigo_bytes[child.start_byte:child.end_byte].decode('utf8'))
+        elif n.type == 'variable_declarator':
+            name_node = n.child_by_field_name('name')
+            if name_node and start <= name_node.start_byte <= end:
+                # Modificado: Las declaradas dentro nacen y mueren aquí, no son salidas globales
+                declaradas_dentro.add(codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf8'))
+        elif n.type == 'enhanced_for_statement':
+            name_node = n.child_by_field_name('name')
+            if name_node and start <= name_node.start_byte <= end:
+                declaradas_dentro.add(codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf8'))
+
+        for child in n.children:
+            buscar_modificaciones(child)
+
+    # 2. Buscar usos de variables DESPUÉS del bloque (offset de inicio mayor que 'end')
+    def buscar_usos_despues(n):
+        if n.type == 'identifier' and (n.start_byte + n.end_byte) / 2 > end:
+            nombre = codigo_bytes[n.start_byte:n.end_byte].decode('utf8')
+            parent = n.parent
+            es_valido = True
+
+            if parent.type == 'method_invocation' and parent.child_by_field_name('name') == n: es_valido = False
+            if parent.type == 'field_access' and parent.child_by_field_name('field') == n: es_valido = False
+            if nombre in ['this', 'super', 'null', 'true', 'false'] or nombre[0].isupper(): es_valido = False
+
+            if es_valido:
+                usadas_despues.add(nombre)
+
+        for child in n.children:
+            buscar_usos_despues(child)
+
+    # ¡CORREGIDO!: Ejecutamos una sola vez cada búsqueda sobre el AST
+    buscar_modificaciones(nodo_metodo_orig)
+    buscar_usos_despues(nodo_metodo_orig)
+
+    # 3. Intersección: Se modificó dentro, se usa después, es local... y RESTAMOS las declaradas dentro
+    salidas = modificadas_dentro.intersection(usadas_despues).intersection(locales_metodo) - declaradas_dentro
+
+    resultado_salidas = {}
+    for var in salidas:
+        resultado_salidas[var] = encontrar_tipo_real_ast(nodo_metodo_orig, var, codigo_bytes)
+
+    return resultado_salidas
+
+
+def validar_y_encadenar_nodos(root_node, start, end):
+    padre = root_node.descendant_for_byte_range(start, end)
+    if padre.type != 'block':
+        while padre and padre.parent and padre.type != 'block':
+            if padre.type.endswith('statement') or padre.type.endswith('declaration'): break
+            padre = padre.parent
+        return [padre], padre.start_byte, padre.end_byte
+
+    nodos_encadenados = []
+    for child in padre.children:
+        if child.type in ['{', '}']: continue
+        overlap_start = max(start, child.start_byte)
+        overlap_end = min(end, child.end_byte)
+        overlap_len = max(0, overlap_end - overlap_start)
+        child_len = child.end_byte - child.start_byte
+
+        if child_len > 0 and (overlap_len / child_len) > 0.5:
+            nodos_encadenados.append(child)
+
+    if not nodos_encadenados: return [padre], padre.start_byte, padre.end_byte
+    return nodos_encadenados, nodos_encadenados[0].start_byte, nodos_encadenados[-1].end_byte
+
+
+def calcular_metodo_y_desfase(ruta_csv_principal, ruta_csv_extra, root_node, codigo_bytes, codigo_str, mapa_offsets):
+    nombre_archivo = os.path.basename(ruta_csv_principal)
+    nombre_metodo = nombre_archivo.split('-')[0]
+    match_linea = re.search(r'-(\d+)_', nombre_archivo)
+    if not match_linea:
+        raise ValueError(f"No se pudo extraer el número de línea del archivo: {nombre_archivo}")
+
+    linea_referencia = int(match_linea.group(1))
+    metodos_candidatos = []
+
+    def buscar_metodos(n):
+        if n.type == 'method_declaration':
+            name_node = n.child_by_field_name('name')
+            if name_node and codigo_bytes[name_node.start_byte:name_node.end_byte].decode('utf-8') == nombre_metodo:
+                metodos_candidatos.append(n)
+        for child in n.children:
+            buscar_metodos(child)
+
+    buscar_metodos(root_node)
+
+    if not metodos_candidatos:
+        raise ValueError(f"No se encontró ningún método llamado '{nombre_metodo}' en el código.")
+
+    nodo_metodo_orig = min(metodos_candidatos, key=lambda n: abs((n.start_point[0] + 1) - linea_referencia))
+    body_node = nodo_metodo_orig.child_by_field_name('body')
+    if not body_node or body_node.type != 'block':
+        raise ValueError("El método encontrado no tiene un bloque de código válido.")
+
+    sentencias_reales = [c for c in body_node.children if c.type not in ['{', '}', 'block_comment', 'line_comment']]
+    if not sentencias_reales:
+        return 0, nodo_metodo_orig
+
+    real_body_start_byte = sentencias_reales[0].start_byte
+    max_diferencia = -1
+    csv_body_start_char = 0
+
+    with open(ruta_csv_extra, mode='r', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            try:
+                start_c = int(row[0])
+                end_c = int(row[1])
+                diferencia = end_c - start_c
+                if diferencia > max_diferencia:
+                    max_diferencia = diferencia
+                    csv_body_start_char = start_c
+            except (ValueError, IndexError):
+                continue
+
+    if max_diferencia == -1:
+        raise ValueError("No se encontraron rangos válidos en el CSV extra.")
+
+    csv_body_start_byte = mapa_offsets[csv_body_start_char]
+    desfase_global = real_body_start_byte - csv_body_start_byte
+
+    return desfase_global, nodo_metodo_orig
+
+
+def generar_nombre_metodo_openai(codigo_metodo, nombres_usados):
+
+    # Formateamos la lista de nombres para el prompt
+    nombres_evitar = ", ".join(nombres_usados) if nombres_usados else "Ninguno"
+
+    prompt = f"""
+    Analiza el siguiente fragmento de código Java extraído de un método y propón un único nombre representativo en formato camelCase (por ejemplo, 'calcularTotal', 'validarUsuario'). 
+    Devuelve ÚNICAMENTE el nombre del método, sin introducciones, sin explicaciones, sin punto y final y sin comillas.
+
+    IMPORTANTE: NO uses ninguno de los siguientes nombres, ya que han sido utilizados previamente en esta clase: [{nombres_evitar}]
+
+    Código:
+    {codigo_metodo}
+    """
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=15
+        )
+        nombre = response.choices[0].message.content.strip()
+        nombre_limpio = re.sub(r'[^a-zA-Z0-9_]', '', nombre)
+        return nombre_limpio if nombre_limpio else "metodoExtraido"
+    except Exception as e:
+        print(f"[Error OpenAI] No se pudo obtener el nombre: {e}")
+        return "metodoExtraido"
+
+
+def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucion, ruta_salida_html):
+    nombre_metodo_original = os.path.basename(ruta_csv_principal).split('-')[0]
+
+    with open(ruta_java, 'r', encoding='utf-8', newline='') as f:
+        codigo_str = f.read()
+        codigo_bytes = codigo_str.encode('utf-8')
+
+    mapa_offsets = crear_mapa_char_a_byte(codigo_str)
+
+    tree = parser.parse(codigo_bytes)
+    root_node = tree.root_node
+
+    desfase_global, nodo_metodo_orig = calcular_metodo_y_desfase(
+        ruta_csv_principal, ruta_csv_extra, root_node, codigo_bytes, codigo_str, mapa_offsets
+    )
+
+    with open(ruta_csv_principal, mode='r', encoding='utf-8') as f:
+        reader = list(csv.DictReader(f))
+        fila = reader[n_solucion]
+        lista_offsets = ast.literal_eval(fila['offsets'])
+
+    extracciones_procesadas = []
+    nombres_usados = []
+
+    for idx, (char_start, char_end) in enumerate(lista_offsets):
+        byte_start_bruto = mapa_offsets[char_start]
+        byte_end_bruto = mapa_offsets[char_end]
+
+        byte_start_real = byte_start_bruto + desfase_global
+        byte_end_real = byte_end_bruto + desfase_global
+
+        lista_nodos, start_final, end_final = validar_y_encadenar_nodos(root_node, byte_start_real, byte_end_real)
+
+        params = obtener_parametros_limpios(nodo_metodo_orig, lista_nodos, codigo_bytes, start_final, end_final)
+        # Ahora calculamos también los parámetros de salida
+        params_salida = obtener_parametros_salida(nodo_metodo_orig, codigo_bytes, start_final, end_final)
+
+        args_firma = [f"{tipo} {nombre}" for nombre, tipo in params.items()]
+        args_llamada = list(params.keys())
+
+        # Extraemos el fragmento de código para enviárselo a OpenAI
+        texto_original_extraido = codigo_bytes[start_final:end_final].decode('utf-8')
+
+        # Llamada a la API pasando la lista de usados y registrando el nuevo
+        nombre_base = generar_nombre_metodo_openai(texto_original_extraido, nombres_usados)
+        nombres_usados.append(nombre_base)
+
+        nombre_metodo_nuevo = f"{nombre_base}"
+
+        # ¡MODIFICADO!: Lógica dinámica para asignar tipo de retorno y reasignación de llamada
+        tipo_retorno = "void"
+        var_retorno = None
+        asignacion_llamada = ""
+
+        if len(params_salida) > 0:
+            var_retorno, tipo_retorno = list(params_salida.items())[0]
+            asignacion_llamada = f"{var_retorno} = "
+            if len(params_salida) > 1:
+                vars_criticas = ", ".join(params_salida.keys())
+                alerta_comentario = (
+                    f"\n    // ⚠️ ¡ALERTA DE COMPILACIÓN! — LIMITACIÓN DE JAVA ⚠️\n"
+                    f"    // Este bloque requería devolver: [{vars_criticas}].\n"
+                    f"    // Solo se está retornando '{var_retorno}'. El código requerirá adaptación manual.\n"
+                )
+                texto_original_extraido = alerta_comentario + texto_original_extraido
+                print(
+                    f"[Aviso] Extracción {idx} en solución {n_solucion + 1} tiene múltiples salidas. Solo se retornará '{var_retorno}' por limitaciones de Java.")
+
+        firma = f"private {tipo_retorno} {nombre_metodo_nuevo}({', '.join(args_firma)})"
+
+        if "throws Exception" in codigo_bytes[nodo_metodo_orig.start_byte:nodo_metodo_orig.end_byte].decode('utf-8'):
+            if "throw " in codigo_bytes[start_final:end_final].decode('utf-8'):
+                firma += " throws Exception"
+
+        # Aplicamos la reasignación en la llamada (si corresponde)
+        llamada = f"{asignacion_llamada}{nombre_metodo_nuevo}({', '.join(args_llamada)});"
+
+        extracciones_procesadas.append({
+            'idx': idx, 'start': start_final, 'end': end_final,
+            'firma': firma, 'llamada': llamada, 'texto_original': texto_original_extraido,
+            'var_retorno': var_retorno  # Guardamos la variable que necesita un 'return'
+        })
+
+    def obtener_reemplazos_directos(c_start, c_end):
+        sublist = []
+        for e in extracciones_procesadas:
+            if c_start <= e['start'] and e['end'] <= c_end:
+                if e['start'] != c_start or e['end'] != c_end:
+                    sublist.append(e)
+        directos = []
+        for e1 in sublist:
+            es_anidado = False
+            for e2 in sublist:
+                if e1 != e2 and e2['start'] <= e1['start'] and e1['end'] <= e2['end']:
+                    es_anidado = True
+                    break
+            if not es_anidado: directos.append(e1)
+        return directos
+
+    bytes_metodo_modificado = codigo_bytes[nodo_metodo_orig.start_byte:nodo_metodo_orig.end_byte]
+    reemplazos_orig = obtener_reemplazos_directos(nodo_metodo_orig.start_byte, nodo_metodo_orig.end_byte)
+    reemplazos_orig_ordenados = sorted(reemplazos_orig, key=lambda x: x['start'], reverse=True)
+
+    for r in reemplazos_orig_ordenados:
+        rel_start = r['start'] - nodo_metodo_orig.start_byte
+        rel_end = r['end'] - nodo_metodo_orig.start_byte
+        bytes_metodo_modificado = bytes_metodo_modificado[:rel_start] + r['llamada'].encode(
+            'utf-8') + bytes_metodo_modificado[rel_end:]
+
+    texto_metodo_original_refactorizado = bytes_metodo_modificado.decode('utf-8')
+
+    nuevos_metodos_codigo = []
+    for ext in extracciones_procesadas:
+        bytes_cuerpo = ext['texto_original'].encode('utf-8')
+        reemplazos_internos = obtener_reemplazos_directos(ext['start'], ext['end'])
+        reemplazos_internos_ordenados = sorted(reemplazos_internos, key=lambda x: x['start'], reverse=True)
+
+        for r in reemplazos_internos_ordenados:
+            rel_start = r['start'] - ext['start']
+            rel_end = r['end'] - ext['start']
+            bytes_cuerpo = bytes_cuerpo[:rel_start] + r['llamada'].encode('utf-8') + bytes_cuerpo[rel_end:]
+
+        cuerpo_final_texto = bytes_cuerpo.decode('utf-8')
+
+        # ¡MODIFICADO!: Inyectamos el 'return' al final del método si es necesario
+        if ext['var_retorno']:
+            cuerpo_final_texto = cuerpo_final_texto.rstrip() + f"\n    return {ext['var_retorno']};\n"
+
+        codigo_completo_metodo = f"{ext['firma']} {{\n    {cuerpo_final_texto}\n}}"
+        nuevos_metodos_codigo.append(codigo_completo_metodo)
+
+    bloque_final = []
+    bloque_final.append("// ========================================================")
+    bloque_final.append(f"// SUSTITUIR EL MÉTODO ORIGINAL '{nombre_metodo_original}' POR ESTE:")
+    bloque_final.append("// ========================================================")
+    bloque_final.append(texto_metodo_original_refactorizado.strip())
+    bloque_final.append("\n// ========================================================")
+    bloque_final.append("// PEGAR ESTOS NUEVOS MÉTODOS DEBAJO DEL ANTERIOR:")
+    bloque_final.append("// ========================================================")
+    for m_codigo in nuevos_metodos_codigo:
+        bloque_final.append(m_codigo)
+        bloque_final.append("")
+
+    texto_codigo_limpio = "\n".join(bloque_final)
+
+    html_plantilla = f"""<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Refactorización - Solución {n_solucion + 1}</title>
+        <style>
+            body {{ font-family: 'Courier New', Courier, monospace; background-color: #1e1e1e; color: #d4d4d4; padding: 30px; line-height: 1.5; }}
+            h2 {{ color: #4fc1ff; font-family: Arial, sans-serif; border-bottom: 1px solid #333; padding-bottom: 10px; }}
+            pre {{ background-color: #252526; padding: 20px; border-radius: 6px; border: 1px solid #3c3c3c; overflow-x: auto; font-size: 14px; }}
+            .info {{ font-family: Arial, sans-serif; color: #85c46c; margin-bottom: 20px; }}
+        </style>
+    </head>
+    <body>
+        <h2>Propuesta de Refactorización — Solución #{n_solucion + 1}</h2>
+        <div class="info">Método procesado: <strong>{nombre_metodo_original}</strong></div>
+        <pre><code>{texto_codigo_limpio}</code></pre>
+    </body>
+    </html>
+    """
+
+    with open(ruta_salida_html, 'w', encoding='utf-8') as out_f:
+        out_f.write(html_plantilla)
+
+
+# if __name__ == "__main__":
+#     # CONFIGURACIÓN GENERAL
+#     ARCHIVO_CSV_PRINCIPAL = 'obtenerTablasDinamicas-562_complete_Data.csv'
+#     ARCHIVO_CSV_EXTRA = 'gestion-expedientes@src.main.java-es.juntadeandalucia.ceceu.sede.gesexpedientes.service.impl-PDFnormalizadoServiceImpl.java-obtenerTablasDinamicas-562.csv'
+#     ARCHIVO_JAVA = 'PDFnormalizadoServiceImpl.java'
+#
+#     # ARCHIVO_CSV_PRINCIPAL = 'routeAPacketTo-220_complete_data.csv'
+#     # ARCHIVO_CSV_EXTRA = 'cybercaptor-server@src.main.java-org.fiware.cybercaptor.server.topology.asset-Host.java-routeAPacketTo-220.csv'
+#     # ARCHIVO_JAVA = 'Host.java'
+#
+#     FICHERO_GRAFICO_PARETO = f"{ARCHIVO_CSV_PRINCIPAL}_3dPF.html"
+#
+#     # Lanzamos el motor completo pasándole los tres ficheros de contexto
+#     generate_3d_pf_plot(ARCHIVO_CSV_PRINCIPAL, FICHERO_GRAFICO_PARETO, ARCHIVO_CSV_EXTRA, ARCHIVO_JAVA)

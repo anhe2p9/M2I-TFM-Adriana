@@ -322,7 +322,6 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
         loc_for_each_sequence = [(concrete.loc[i] * concrete.x[i].value)
                                  - sum(concrete.loc[j] * concrete.z[j, k].value for j,k in concrete.N if k==i)
                                  for i, j in concrete.N if concrete.z[i, j].value == 1]
-        print(f"LOC FOR EACH SEQUENCE: {loc_for_each_sequence}.")
         if len(loc_for_each_sequence) > 0:
             min_extracted_loc = min(loc_for_each_sequence)
             complete_data_row.append(min_extracted_loc)
@@ -340,7 +339,6 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
                                                           for k,l in concrete.N if l==n)
             if len(nested_loc) > 0:
                 complete_data_row.append(nested_loc)
-                print(f"Nested LOC: {nested_loc}.")
             else:
                 complete_data_row.append("")
         else:
@@ -365,7 +363,6 @@ def writerow_complete_data_info(concrete: pyo.ConcreteModel, results, data,
                                                                for j,k in concrete.N if k == n)
             if len(nested_cc) > 0:
                 complete_data_row.append(nested_cc)
-                print(f"NESTED CC: {nested_cc}.")
             else:
                 complete_data_row.append("")
         else:

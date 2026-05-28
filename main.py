@@ -41,28 +41,28 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
     for project_folder in sorted(os.listdir(instance_path)):
         project_folder = Path(project_folder)
         print(f"Project folder: {project_folder}")
-        total_path = instance_path / project_folder
-        for class_folder in sorted(os.listdir(total_path)):
+        project_path = instance_path / project_folder
+        for class_folder in sorted(os.listdir(project_path)):
             class_folder = Path(class_folder)
             print(f"Class folder: {class_folder}")
-            total_path = instance_path / project_folder / class_folder
-            for method_folder in sorted(os.listdir(total_path)):
+            class_path = project_path / class_folder
+            for method_folder in sorted(os.listdir(class_path)):
                 method_folder = Path(method_folder)
                 print(f"Method folder: {method_folder}")
-                total_path = instance_path / project_folder / class_folder / method_folder
-                print(f"Total path: {total_path}")
-                if os.path.isdir(total_path):
+                method_path = class_path / method_folder
+                print(f"Total path: {method_path}")
+                if os.path.isdir(method_path):
                     project_folder_name = project_folder.name
                     print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
 
                     # Check threshold
-                    check_threshold(total_path)
+                    check_threshold(method_path, threshold)
 
                     # Process algorithm
                     algorithm = model_engine.get_algorithm_from_name(alg_name)
                     
                     # Process instance
-                    instance = model_engine.load_concrete(total_path)
+                    instance = model_engine.load_concrete(method_path)
                     
                     folders_data = {
                         "project": str(project_folder_name),
@@ -70,7 +70,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                         "method": str(method_folder)
                                     }
 
-                    variables, constraints = results_utils.analyze_model_data(total_path, (objective,))
+                    variables, constraints = results_utils.analyze_model_data(method_path, (objective,))
                     print(f"There are {variables} variables.")
                     print(f"There are {constraints} constraints.")
 
@@ -132,8 +132,9 @@ def main_multiobjective(num_of_objectives: int, alg_name: str, instance_folder: 
         write_output_to_files(general_path, csv_data, output_data)
     elif (alg_name == 'HybridMethodAlgorithm'
           or alg_name == 'EpsilonConstraintAlgorithm'):
+        # Create parent directory explicitly
+        os.makedirs(Path(general_path).parent, exist_ok=True)
         model_engine.apply_algorithm(algorithm, instance, tau, info_dict)
-        write_output_to_files(general_path)
     else:
         sys.exit(f"Unknown algorithm '{alg_name}'. Algorithms for more than one objective must be:"
                  f" WeightedSumAlgorithm, EpsilonConstraintAlgorithm, or HybridMethodAlgorithm.")
@@ -155,40 +156,39 @@ def write_output_to_files(general_path: str, csv_info: list = None,
     if csv_info:
         # Save data in a CSV file
         filename = f"{general_path}_results.csv"
+        temp_filename = f"{filename}.tmp"
 
-        if os.path.exists(filename):
-            os.remove(filename)
-
-        with open(filename, mode="w", newline="", encoding="utf-8") as file:
+        with open(temp_filename, mode="w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerows(csv_info)
-            print(f"CSV file correctly created in {filename}.")
+
+        os.replace(temp_filename, filename)
+        print(f"CSV file correctly created in {filename}.")
 
 
     if output_data:
         # Save output in a TXT file
         output_filename = f"{general_path}_output.txt"
+        temp_output_filename = f"{output_filename}.tmp"
 
-        if os.path.exists(output_filename):
-            os.remove(output_filename)
-
-        with open(output_filename, "w") as f:
+        with open(temp_output_filename, "w") as f:
             for linea in output_data:
                 f.write(linea + "\n")
-            print(f"Output correctly saved in {output_filename}.")
+
+        os.replace(temp_output_filename, output_filename)
+        print(f"Output correctly saved in {output_filename}.")
 
     if complete_data:
         # Save complete data in a TXT file
         complete_data_filename = f"{general_path}_complete_data.csv"
+        temp_complete_filename = f"{complete_data_filename}.tmp"
 
-        if os.path.exists(complete_data_filename):
-            os.remove(complete_data_filename)
-
-        with open(complete_data_filename,
-                  mode="w", newline="", encoding="utf-8") as complete_csv:
+        with open(temp_complete_filename, mode="w", newline="", encoding="utf-8") as complete_csv:
             writer = csv.writer(complete_csv)
             writer.writerows(complete_data)
-            print(f"Complete CSV file correctly created in {complete_data_filename}.")
+
+        os.replace(temp_complete_filename, complete_data_filename)
+        print(f"Complete CSV file correctly created in {complete_data_filename}.")
 
 
 
@@ -244,7 +244,7 @@ def save_config(parameters, file=PROPERTIES_FILE):
     print(f"Properties saved in {file}")
 
 
-def check_threshold(model_instance):
+def check_threshold(model_instance, threshold):
     model_instance = Path(model_instance)
     print(f"INSTANCE PATH: {model_instance}")
 
@@ -376,7 +376,7 @@ if __name__ == '__main__':
     
     # Overwrite .ini file values with commandline values if it exists
     for key, value in args.items():
-        if value:  # Solo actualizar si el usuario lo pasó por línea de comandos
+        if value is not None:  # Solo actualizar si el usuario lo pasó por línea de comandos
             config[key] = value
     
     # Save file if there is '--save'
@@ -468,7 +468,7 @@ if __name__ == '__main__':
     if num_of_objectives:
         if num_of_objectives == 1:
             if model_instance:
-                check_threshold(model_instance)
+                check_threshold(model_instance, int(threshold))
                 if not ilp_algorithm:
                     ilp_algorithm = 'ObtainResultsAlgorithm'
                 main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives[0],
@@ -476,7 +476,7 @@ if __name__ == '__main__':
             else:
                 sys.exit('General instance folder required.')
         elif num_of_objectives > 1 and model_instance:
-            check_threshold(model_instance)
+            check_threshold(model_instance, int(threshold))
 
             method_name, class_name, project_name = get_all_path_names(instance_path)
             general_path = f"output/results/{project_name}/{ilp_algorithm}_{'-'.join(objectives)}_{class_name}_{method_name}/{method_name}"

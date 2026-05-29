@@ -552,7 +552,9 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
     for r in reemplazos_orig_ordenados:
         rel_start = r['start'] - nodo_metodo_orig.start_byte
         rel_end = r['end'] - nodo_metodo_orig.start_byte
-        bytes_metodo_modificado = bytes_metodo_modificado[:rel_start] + r['llamada'].encode(
+        # MARCADOR: Envolvemos la llamada al método
+        llamada_marcada = f"[[START_CALL_{r['idx']}]]" + r['llamada'] + f"[[END_CALL_{r['idx']}]]"
+        bytes_metodo_modificado = bytes_metodo_modificado[:rel_start] + llamada_marcada.encode(
             'utf-8') + bytes_metodo_modificado[rel_end:]
 
     texto_metodo_original_refactorizado = bytes_metodo_modificado.decode('utf-8')
@@ -566,15 +568,17 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
         for r in reemplazos_internos_ordenados:
             rel_start = r['start'] - ext['start']
             rel_end = r['end'] - ext['start']
-            bytes_cuerpo = bytes_cuerpo[:rel_start] + r['llamada'].encode('utf-8') + bytes_cuerpo[rel_end:]
+            # MARCADOR: Envolvemos las llamadas anidadas dentro de otros métodos extraídos
+            llamada_marcada = f"[[START_CALL_{r['idx']}]]" + r['llamada'] + f"[[END_CALL_{r['idx']}]]"
+            bytes_cuerpo = bytes_cuerpo[:rel_start] + llamada_marcada.encode('utf-8') + bytes_cuerpo[rel_end:]
 
         cuerpo_final_texto = bytes_cuerpo.decode('utf-8')
 
-        # ¡MODIFICADO!: Inyectamos el 'return' al final del método si es necesario
         if ext['var_retorno']:
             cuerpo_final_texto = cuerpo_final_texto.rstrip() + f"\n    return {ext['var_retorno']};\n"
 
-        codigo_completo_metodo = f"{ext['firma']} {{\n    {cuerpo_final_texto}\n}}"
+        # MARCADOR: Envolvemos el método extraído al completo (firma, llaves y cuerpo)
+        codigo_completo_metodo = f"[[START_METHOD_{ext['idx']}]]{ext['firma']} {{\n    {cuerpo_final_texto}\n}}[[END_METHOD_{ext['idx']}]]"
         nuevos_metodos_codigo.append(codigo_completo_metodo)
 
     bloque_final = []
@@ -591,22 +595,205 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
 
     texto_codigo_limpio = "\n".join(bloque_final)
 
+    # 1. Calcular las posiciones en caracteres del inicio y fin del método original
+    metodo_start_char = len(codigo_bytes[:nodo_metodo_orig.start_byte].decode('utf-8'))
+    metodo_end_char = len(codigo_bytes[:nodo_metodo_orig.end_byte].decode('utf-8'))
+
+    # 2. Extraer ÚNICAMENTE el fragmento del método original
+    codigo_marcado = codigo_str[metodo_start_char:metodo_end_char]
+
+    # Recopilamos todos los puntos de inserción (START y END)
+    eventos = []
+    for ext in extracciones_procesadas:
+        local_start = ext['start'] - metodo_start_char
+        local_end = ext['end'] - metodo_start_char
+        idx = ext['idx']
+        longitud = local_end - local_start
+
+        # Guardamos la posición, si es apertura (True) o cierre (False), longitud y el tag
+        eventos.append({'pos': local_start, 'is_start': True, 'len': longitud, 'tag': f"[[START_BOX_{idx}]]"})
+        eventos.append({'pos': local_end, 'is_start': False, 'len': longitud, 'tag': f"[[END_BOX_{idx}]]"})
+
+    # Criterio matemático para anidar HTML perfectamente sin romper texto
+    def sort_key(e):
+        # - e['pos']: para insertar estrictamente de derecha a izquierda (evita el desfase)
+        # - e['is_start']: si coinciden, cierra cajas antes de abrir nuevas
+        # - length_factor: garantiza que las cajas internas se cierren/abran dentro de las externas
+        length_factor = -e['len'] if e['is_start'] else e['len']
+        return (e['pos'], e['is_start'], length_factor)
+
+    eventos.sort(key=sort_key, reverse=True)
+
+    # Insertamos las etiquetas en el string de atrás hacia adelante
+    for e in eventos:
+        pos = e['pos']
+        codigo_marcado = codigo_marcado[:pos] + e['tag'] + codigo_marcado[pos:]
+
+    # 3. Escapar caracteres de Java para que sean HTML seguros
+    import html
+    codigo_original_html = html.escape(codigo_marcado)
+    codigo_refactorizado_html = html.escape(texto_codigo_limpio)
+
+    # 4. Reemplazar los placeholders por las etiquetas SPAN reales en AMBOS lados
+    for idx in range(len(lista_offsets)):
+        # Generar un tono de color único para cada extracción y el número visible
+        hue = (idx * 137) % 360  # Truco para que colores consecutivos sean muy distintos
+        estilo_dinamico = f'style="--tema-hue: {hue};" data-num="{idx + 1}"'
+
+        # Lado izquierdo (código original)
+        codigo_original_html = codigo_original_html.replace(
+            f"[[START_BOX_{idx}]]", f'<span class="recuadro-extraccion" {estilo_dinamico}>'
+        ).replace(f"[[END_BOX_{idx}]]", '</span>')
+
+        # Lado derecho (1): Llamadas a los métodos
+        codigo_refactorizado_html = codigo_refactorizado_html.replace(
+            f"[[START_CALL_{idx}]]", f'<span class="recuadro-llamada" {estilo_dinamico}>'
+        ).replace(f"[[END_CALL_{idx}]]", '</span>')
+
+        # Lado derecho (2): Métodos extraídos completos
+        codigo_refactorizado_html = codigo_refactorizado_html.replace(
+            f"[[START_METHOD_{idx}]]", f'<span class="recuadro-metodo" {estilo_dinamico}>'
+        ).replace(f"[[END_METHOD_{idx}]]", '</span>')
+
     html_plantilla = f"""<!DOCTYPE html>
     <html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Refactorización - Solución {n_solucion + 1}</title>
         <style>
-            body {{ font-family: 'Courier New', Courier, monospace; background-color: #1e1e1e; color: #d4d4d4; padding: 30px; line-height: 1.5; }}
-            h2 {{ color: #4fc1ff; font-family: Arial, sans-serif; border-bottom: 1px solid #333; padding-bottom: 10px; }}
-            pre {{ background-color: #252526; padding: 20px; border-radius: 6px; border: 1px solid #3c3c3c; overflow-x: auto; font-size: 14px; }}
-            .info {{ font-family: Arial, sans-serif; color: #85c46c; margin-bottom: 20px; }}
+            /* Contenedor en paralelo (Izquierda vs Derecha) */
+            .comparador-container {{
+                display: flex;
+                gap: 20px;
+                width: 100%;
+                font-family: 'Courier New', Courier, monospace;
+            }}
+            .columna-codigo {{
+                flex: 1;
+                background: #f8f9fa;
+                border: 1px solid #e9ecef;
+                border-radius: 6px;
+                padding: 15px;
+                overflow-x: auto;
+            }}
+            .columna-codigo h3 {{
+                margin-top: 0;
+                font-family: sans-serif;
+                color: #495057;
+                border-bottom: 2px solid #dee2e6;
+                padding-bottom: 8px;
+            }}
+            /* Mantiene el contenedor seguro y con scroll si es necesario */
+            .columna-codigo code {{
+                display: block;
+                width: max-content;
+                min-width: 100%;
+            }}
+            
+            /* 1. FORZAR AL CONTENEDOR 'PRE' A NO ROMPER LÍNEAS NUNCA */
+            pre, pre * {{
+                white-space: pre !important;
+                word-break: normal !important;
+                overflow-wrap: normal !important;
+            }}
+            
+            pre {{
+                margin: 0;
+                display: block !important;
+                width: max-content !important; /* Se estira obligatoriamente hasta el final de la línea más larga */
+                min-width: 100% !important;
+                box-sizing: border-box !important;
+            }}
+            
+            /* 2. ASEGURAR QUE LOS RECUADROS GRANDES SE ADAPTEN (MÉTODOS Y EXTRACCIONES) */
+            .recuadro-extraccion, .recuadro-metodo {{
+                border: 2px dashed hsl(var(--tema-hue), 75%, 50%);
+                background-color: hsla(var(--tema-hue), 75%, 50%, 0.1);
+                border-radius: 4px;
+                padding: 4px 8px;
+                
+                display: block !important;
+                width: 100% !important; /* Rellena el 100% del max-content del 'pre' padre */
+                box-sizing: border-box !important;
+                
+                position: relative;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                
+                /* Doble seguridad anti-salto de línea aquí dentro */
+                white-space: pre !important;
+                word-break: normal !important;
+                overflow-wrap: normal !important;
+            }}
+
+            /* 3. RECUADRO CORTO PARA LAS LLAMADAS A MÉTODOS */
+            .recuadro-llamada {{
+                border: 2px dashed hsl(var(--tema-hue), 75%, 50%);
+                background-color: hsla(var(--tema-hue), 75%, 50%, 0.1);
+                border-radius: 4px;
+                
+                /* Dejamos 32px de padding a la derecha para que entre el número holgadamente */
+                padding: 2px 32px 2px 6px; 
+                
+                /* inline-block hace que la caja se ajuste al tamaño del texto */
+                display: inline-block !important; 
+                box-sizing: border-box !important;
+                
+                position: relative;
+                white-space: pre !important;
+            }}
+
+            /* 4. FORMATO UNIFICADO PARA LOS NÚMEROS (CIRCULITOS) */
+            .recuadro-extraccion::after, 
+            .recuadro-metodo::after, 
+            .recuadro-llamada::after {{
+                content: attr(data-num); /* Lee el número que inyectas en Python */
+                position: absolute;
+                background-color: hsl(var(--tema-hue), 75%, 50%);
+                color: white;
+                border-radius: 50%;
+                width: 20px;
+                height: 20px;
+                
+                /* Centrado del texto dentro del círculo */
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-family: sans-serif;
+                font-size: 11px;
+                font-weight: bold;
+                line-height: 1;
+            }}
+            
+            /* Posicionamiento del número en recuadros grandes (arriba a la derecha) */
+            .recuadro-extraccion::after, 
+            .recuadro-metodo::after {{
+                top: 6px;
+                right: 8px;
+            }}
+
+            /* Posicionamiento del número en llamadas (centrado verticalmente a la derecha) */
+            .recuadro-llamada::after {{
+                top: 50%;
+                right: 6px;
+                transform: translateY(-50%);
+            }}
         </style>
     </head>
     <body>
-        <h2>Propuesta de Refactorización — Solución #{n_solucion + 1}</h2>
-        <div class="info">Método procesado: <strong>{nombre_metodo_original}</strong></div>
-        <pre><code>{texto_codigo_limpio}</code></pre>
+        <h2>Análisis de la Solución</h2>
+        
+        <div class="comparador-container">
+            <div class="columna-codigo">
+                <h3>Código Original</h3>
+                <pre><code>{codigo_original_html}</code></pre>
+            </div>
+            
+            <div class="columna-codigo">
+                <h3>Código Refactorizado</h3>
+                <pre><code>{codigo_refactorizado_html}</code></pre>
+            </div>
+        </div>
     </body>
     </html>
     """

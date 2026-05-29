@@ -595,39 +595,35 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
 
     texto_codigo_limpio = "\n".join(bloque_final)
 
-    # 1. Calcular las posiciones en caracteres del inicio y fin del método original
-    metodo_start_char = len(codigo_bytes[:nodo_metodo_orig.start_byte].decode('utf-8'))
-    metodo_end_char = len(codigo_bytes[:nodo_metodo_orig.end_byte].decode('utf-8'))
+    # 1. Copiar los bytes del método original directamente
+    bytes_original_marcado = codigo_bytes[nodo_metodo_orig.start_byte:nodo_metodo_orig.end_byte]
 
-    # 2. Extraer ÚNICAMENTE el fragmento del método original
-    codigo_marcado = codigo_str[metodo_start_char:metodo_end_char]
-
-    # Recopilamos todos los puntos de inserción (START y END)
+    # 2. Recopilamos todos los puntos de inserción (START y END) operando 100% en BYTES
     eventos = []
     for ext in extracciones_procesadas:
-        local_start = ext['start'] - metodo_start_char
-        local_end = ext['end'] - metodo_start_char
+        local_start = ext['start'] - nodo_metodo_orig.start_byte
+        local_end = ext['end'] - nodo_metodo_orig.start_byte
         idx = ext['idx']
         longitud = local_end - local_start
 
-        # Guardamos la posición, si es apertura (True) o cierre (False), longitud y el tag
-        eventos.append({'pos': local_start, 'is_start': True, 'len': longitud, 'tag': f"[[START_BOX_{idx}]]"})
-        eventos.append({'pos': local_end, 'is_start': False, 'len': longitud, 'tag': f"[[END_BOX_{idx}]]"})
+        eventos.append(
+            {'pos': local_start, 'is_start': True, 'len': longitud, 'tag': f"[[START_BOX_{idx}]]".encode('utf-8')})
+        eventos.append(
+            {'pos': local_end, 'is_start': False, 'len': longitud, 'tag': f"[[END_BOX_{idx}]]".encode('utf-8')})
 
-    # Criterio matemático para anidar HTML perfectamente sin romper texto
     def sort_key(e):
-        # - e['pos']: para insertar estrictamente de derecha a izquierda (evita el desfase)
-        # - e['is_start']: si coinciden, cierra cajas antes de abrir nuevas
-        # - length_factor: garantiza que las cajas internas se cierren/abran dentro de las externas
         length_factor = -e['len'] if e['is_start'] else e['len']
         return (e['pos'], e['is_start'], length_factor)
 
     eventos.sort(key=sort_key, reverse=True)
 
-    # Insertamos las etiquetas en el string de atrás hacia adelante
+    # 3. Insertamos las etiquetas en la secuencia de bytes de atrás hacia adelante
     for e in eventos:
         pos = e['pos']
-        codigo_marcado = codigo_marcado[:pos] + e['tag'] + codigo_marcado[pos:]
+        bytes_original_marcado = bytes_original_marcado[:pos] + e['tag'] + bytes_original_marcado[pos:]
+
+    # 4. Finalmente, decodificamos a string con los marcadores ya en su sitio perfecto
+    codigo_marcado = bytes_original_marcado.decode('utf-8')
 
     # 3. Escapar caracteres de Java para que sean HTML seguros
     import html

@@ -318,7 +318,7 @@ def traverse_and_pf_plot(input_path, output_path, complete_data: Path=None,
                     salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
                     print(f"Generating 3D PF for: {ruta_csv}")
                     if refact_cache and original_class:
-                        interactive_3dpf.generate_3d_pf_plot(complete_data, salida_html, refact_cache, original_class)
+                        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete_data, salida_html, refact_cache, original_class)
                     else:
                         generate_3d_pf_plot(input_path, salida_html)
 
@@ -398,7 +398,7 @@ def traverse_and_plot(input_path: str, output_path: str, complete_path: Path,
                         salida_html = os.path.join(carpeta_salida_proyecto, f"{class_method_folder}_3DPF.html")
                         print(f"Generating 3D PF for: {ruta_csv}")
                         if refact_cache and original_class:
-                            interactive_3dpf.generate_3d_pf_plot(complete_path, output_path, refact_cache, original_class)
+                            interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete_path, output_path, refact_cache, original_class)
                         else:
                             generate_3d_pf_plot(ruta_csv, salida_html)
 

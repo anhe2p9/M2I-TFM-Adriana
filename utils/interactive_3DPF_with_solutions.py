@@ -14,6 +14,8 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 
+from plotly.subplots import make_subplots
+
 from ILP_CC_reducer.model.ILPmodel import GeneralILPmodel
 model = GeneralILPmodel(active_objectives=["extractions", "cc", "loc"])
 
@@ -25,7 +27,8 @@ MODEL = "gpt-4o"   # o "gpt-5.1"
 client = OpenAI(api_key=API_KEY)
 
 
-def generate_3d_pf_plot(complete_data_file, output_html_path, refact_cache_file, original_class_file):
+def generate_3d_pf_and_parallel_coordinates_plot(complete_data_file, output_html_path, refact_cache_file,
+                                                 original_class_file):
     df = pd.read_csv(complete_data_file)
 
     if df.shape[0] == 0:
@@ -45,13 +48,29 @@ def generate_3d_pf_plot(complete_data_file, output_html_path, refact_cache_file,
         return
 
     nombres_objetivos = ["extractions", "cc", "loc"]
-    nadir = np.max(objetivos, axis=0)
-    ref_point = nadir + 1
 
-    fig = go.Figure()
-    n1, n2, n3 = ref_point
+    fig = make_subplots(
+        rows=1, cols=2,
+        specs=[[{'type': 'scene'}, {'type': 'xy'}]],
+        subplot_titles=('3D Pareto front', 'Parallel coordinates plot')
+    )
+
     solutions = [tuple(sol) for sol in objetivos]
 
+    enlaces_ordenados = create_refactoring_files(complete_data_file, output_html_path, solutions,
+                                                 refact_cache_file, original_class_file)
+
+    fig = customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados)
+    fig = customize_parallel_coordinates(solutions, fig, enlaces_ordenados)
+    fig = customize_plotly_figures(nombres_objetivos, fig)
+    html_contenido = make_plotly_interactive(fig, output_html_path)
+
+    with open(output_html_path, 'w', encoding='utf-8') as f:
+        f.write(html_contenido)
+    print("[OK] Script de redirección web inyectado con éxito en el frente de Pareto.")
+
+
+def create_refactoring_files(complete_data_file, output_html_path, solutions, refact_cache_file, original_class_file):
     # 1. Detectamos la carpeta del archivo input y creamos la subcarpeta allí dentro
     carpeta_input = os.path.dirname(complete_data_file)
     folder_refactorizaciones = os.path.join(carpeta_input, "refactorizaciones_soluciones")
@@ -69,17 +88,25 @@ def generate_3d_pf_plot(complete_data_file, output_html_path, refact_cache_file,
         ruta_relativa_web = os.path.relpath(ruta_real_solucion, carpeta_output)
         enlaces_ordenados.append(ruta_relativa_web)
 
-    # 2. Función auxiliar que ejecutará cada hilo
+    # 3. Función auxiliar que ejecutará cada hilo
     def procesar_hilo(idx):
         ruta_html_sol = os.path.join(folder_refactorizaciones, f"solucion_{idx + 1}.html")
         try:
-            procesar_refactorizacion(complete_data_file, refact_cache_file, original_class_file, idx, ruta_html_sol)
+            process_refactoring(complete_data_file, refact_cache_file, original_class_file, idx, ruta_html_sol)
         except Exception as e:
             print(f"❌ [Error] Saltando solución #{idx + 1} debido a un fallo: {e}")
 
-    # 3. Lanzamos la ejecución en paralelo (puedes ajustar max_workers si OpenAI te da Rate Limit)
+    # 4. Lanzamos la ejecución en paralelo (puedes ajustar max_workers si OpenAI te da Rate Limit)
     with ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(procesar_hilo, range(len(solutions)))
+
+    return enlaces_ordenados
+
+
+def customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados):
+    nadir = np.max(objetivos, axis=0)
+    ref_point = nadir + 1
+    n1, n2, n3 = ref_point
 
     parallel_face_colors = {
         'top_bottom': "#E6E6FA",
@@ -107,7 +134,7 @@ def generate_3d_pf_plot(complete_data_file, output_html_path, refact_cache_file,
                 i=[f[0] for f in face_tris], j=[f[1] for f in face_tris], k=[f[2] for f in face_tris],
                 color=color, opacity=1, flatshading=True, showscale=False,
                 hoverinfo='skip'
-            ))
+            ), row=1, col=1)
 
     f1, f2, f3 = zip(*solutions)
     fig.add_trace(go.Scatter3d(
@@ -126,50 +153,124 @@ def generate_3d_pf_plot(complete_data_file, output_html_path, refact_cache_file,
             "LOC<sub>diff</sub>: %{z}"
             "<extra></extra>"
         )
-    ))
+    ), row=1, col=1)
 
-    # Cambia este bloque para que use formato LaTeX válido en Plotly
+    return fig
+
+
+def customize_parallel_coordinates(solutions, fig, enlaces_ordenados):
+    pasos = 30  # Densidad de puntos invisibles para asegurar el clic
+
+    for idx, sol in enumerate(solutions):
+        x_dense = []
+        y_dense = []
+        marker_sizes = []
+
+        # Tramo 1: de EXTRACTIONS (x=0) a CCdiff (x=1)
+        for i in range(pasos):
+            t = i / pasos
+            x_dense.append(t)
+            y_dense.append(sol[0] + t * (sol[1] - sol[0]))
+            # Solo mostramos el marcador principal en el extremo
+            marker_sizes.append(8 if i == 0 else 0)
+
+        # Tramo 2: de CCdiff (x=1) a LOCdiff (x=2)
+        for i in range(pasos):
+            t = i / pasos
+            x_dense.append(1 + t)
+            y_dense.append(sol[1] + t * (sol[2] - sol[1]))
+            marker_sizes.append(8 if i == 0 else 0)
+
+        # Punto final: LOCdiff (x=2)
+        x_dense.append(2)
+        y_dense.append(sol[2])
+        marker_sizes.append(8)
+
+        fig.add_trace(go.Scatter(
+            x=x_dense,
+            y=y_dense,
+            mode='lines+markers',
+            name=f's{idx + 1}',
+            marker=dict(size=marker_sizes),  # Puntos intermedios ocultos
+            line=dict(width=3),
+            customdata=[enlaces_ordenados[idx]] * len(x_dense),
+            # Tooltip limpio para que no muestre decimales raros en medio de la línea
+            hovertemplate="<b>%{fullData.name}</b><extra></extra>"
+        ), row=1, col=2)
+
+    return fig
+
+
+def customize_plotly_figures(nombres_objetivos, fig):
+    # 1. Mapeo de nombres para que usen formato HTML válido en Plotly
     objective_map = {
-        "extractions": r"EXTRACTIONS",
-        "cc": r"CC<sub>diff</sub>",
-        "loc": r"LOC<sub>diff</sub>"
+        "extractions": "EXTRACTIONS",
+        "cc": "CC<sub>diff</sub>",
+        "loc": "LOC<sub>diff</sub>"
     }
 
+    # Asignación de variables dinámicas
     x_label = objective_map.get(nombres_objetivos[0], nombres_objetivos[0])
     y_label = objective_map.get(nombres_objetivos[1], nombres_objetivos[1])
     z_label = objective_map.get(nombres_objetivos[2], nombres_objetivos[2])
 
-    fig.update_layout(scene=dict(xaxis=dict(title=dict(text=x_label, font=dict(size=25))),
-                                 yaxis=dict(title=dict(text=y_label, font=dict(size=25))),
-                                 zaxis=dict(title=dict(text=z_label, font=dict(size=25))),
-                                 aspectmode='data'))
+    # 2. Configuramos las etiquetas del Eje X para el gráfico 2D (coordenadas paralelas)
+    # Usamos variables dinámicas x_label, y_label y z_label
+    fig.update_xaxes(
+        tickmode='array',
+        tickvals=[0, 1, 2],
+        ticktext=[x_label, y_label, z_label],
+        row=1, col=2
+    )
 
+    # 3. Configuración original para el 3D y el layout general
+    fig.update_layout(
+        scene=dict(
+            xaxis=dict(title=dict(text=x_label, font=dict(size=25))),
+            yaxis=dict(title=dict(text=y_label, font=dict(size=25))),
+            zaxis=dict(title=dict(text=z_label, font=dict(size=25))),
+            aspectmode='data'
+        ),
+        scene_camera=dict(eye=dict(x=-1.25, y=-1.25, z=1.25)),
+        hoverdistance=-1
+    )
+
+    return fig
+
+def make_plotly_interactive(fig, output_html_path):
     fig.write_html(output_html_path, include_mathjax='cdn')
     print(f"3D PF saved in {output_html_path}.")
 
     script_interactivo = """
-    <script>
-    document.addEventListener('DOMContentLoaded', function(){
-        var plotDiv = document.getElementsByClassName('plotly-graph-div')[0];
-        if (plotDiv) {
-            plotDiv.on('plotly_click', function(data){
-                if(data.points && data.points[0] && data.points[0].customdata) {
-                    var url = data.points[0].customdata;
-                    window.open(url, '_blank');
-                }
-            });
-        }
-    });
-    </script>
-    """
+        <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var plotDiv = document.getElementsByClassName('plotly-graph-div')[0];
+            if (plotDiv) {
+
+                // Único evento personalizado: Clic en las gráficas para abrir la URL
+                plotDiv.on('plotly_click', function(data){
+                    if(data.points && data.points[0] && data.points[0].customdata) {
+                        var custom = data.points[0].customdata;
+                        // Extraemos la URL dependiendo de cómo la empaquete Plotly (array o string)
+                        var url = Array.isArray(custom) ? custom[0] : custom;
+
+                        // Verificamos que realmente hay una URL válida antes de intentar abrirla
+                        if (url && typeof url === 'string') {
+                            window.open(url, '_blank');
+                        }
+                    }
+                });
+
+            }
+        });
+        </script>
+        """
     with open(output_html_path, 'r', encoding='utf-8') as f:
         html_contenido = f.read()
 
     html_contenido = html_contenido.replace("</body>", f"{script_interactivo}\n</body>")
 
-    with open(output_html_path, 'w', encoding='utf-8') as f:
-        f.write(html_contenido)
-    print("[OK] Script de redirección web inyectado con éxito en el frente de Pareto.")
+    return html_contenido
 
 
 def crear_mapa_char_a_byte(texto):
@@ -322,7 +423,7 @@ def obtener_parametros_salida(nodo_metodo_orig, codigo_bytes, start, end):
         for child in n.children:
             buscar_usos_despues(child)
 
-    # ¡CORREGIDO!: Ejecutamos una sola vez cada búsqueda sobre el AST
+    # Ejecutamos una sola vez cada búsqueda sobre el AST
     buscar_modificaciones(nodo_metodo_orig)
     buscar_usos_despues(nodo_metodo_orig)
 
@@ -423,10 +524,13 @@ def generar_nombre_metodo_openai(codigo_metodo, nombres_usados):
     nombres_evitar = ", ".join(nombres_usados) if nombres_usados else "Ninguno"
 
     prompt = f"""
-    Analiza el siguiente fragmento de código Java extraído de un método y propón un único nombre representativo en formato camelCase (por ejemplo, 'calcularTotal', 'validarUsuario'). 
-    Devuelve ÚNICAMENTE el nombre del método, sin introducciones, sin explicaciones, sin punto y final y sin comillas.
+    Analiza el siguiente fragmento de código Java extraído de un método y propón un único nombre representativo
+    en formato camelCase (por ejemplo, 'calcularTotal', 'validarUsuario'). 
+    Devuelve ÚNICAMENTE el nombre del método, sin introducciones, sin explicaciones, 
+    sin punto y final y sin comillas.
 
-    IMPORTANTE: NO uses ninguno de los siguientes nombres, ya que han sido utilizados previamente en esta clase: [{nombres_evitar}]
+    IMPORTANTE: NO uses ninguno de los siguientes nombres,
+     ya que han sido utilizados previamente en esta clase: [{nombres_evitar}]
 
     Código:
     {codigo_metodo}
@@ -446,8 +550,8 @@ def generar_nombre_metodo_openai(codigo_metodo, nombres_usados):
         return "metodoExtraido"
 
 
-def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucion, ruta_salida_html):
-    nombre_metodo_original = os.path.basename(ruta_csv_principal).split('-')[0]
+def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucion, ruta_salida_html):
+    original_method_name = os.path.basename(ruta_csv_principal).split('-')[0]
 
     with open(ruta_java, 'r', encoding='utf-8', newline='') as f:
         codigo_str = f.read()
@@ -512,7 +616,8 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
                 )
                 texto_original_extraido = alerta_comentario + texto_original_extraido
                 print(
-                    f"[Aviso] Extracción {idx} en solución {n_solucion + 1} tiene múltiples salidas. Solo se retornará '{var_retorno}' por limitaciones de Java.")
+                    f"[Aviso] Extracción {idx} en solución {n_solucion + 1} tiene múltiples salidas. "
+                    f"Solo se retornará '{var_retorno}' por limitaciones de Java.")
 
         firma = f"private {tipo_retorno} {nombre_metodo_nuevo}({', '.join(args_firma)})"
 
@@ -583,7 +688,7 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
 
     bloque_final = []
     bloque_final.append("// ========================================================")
-    bloque_final.append(f"// SUSTITUIR EL MÉTODO ORIGINAL '{nombre_metodo_original}' POR ESTE:")
+    bloque_final.append(f"// SUSTITUIR EL MÉTODO ORIGINAL '{original_method_name}' POR ESTE:")
     bloque_final.append("// ========================================================")
     bloque_final.append(texto_metodo_original_refactorizado.strip())
     bloque_final.append("\n// ========================================================")
@@ -796,19 +901,3 @@ def procesar_refactorizacion(ruta_csv_principal, ruta_csv_extra, ruta_java, n_so
 
     with open(ruta_salida_html, 'w', encoding='utf-8') as out_f:
         out_f.write(html_plantilla)
-
-
-# if __name__ == "__main__":
-#     # CONFIGURACIÓN GENERAL
-#     ARCHIVO_CSV_PRINCIPAL = 'obtenerTablasDinamicas-562_complete_Data.csv'
-#     ARCHIVO_CSV_EXTRA = 'gestion-expedientes@src.main.java-es.juntadeandalucia.ceceu.sede.gesexpedientes.service.impl-PDFnormalizadoServiceImpl.java-obtenerTablasDinamicas-562.csv'
-#     ARCHIVO_JAVA = 'PDFnormalizadoServiceImpl.java'
-#
-#     # ARCHIVO_CSV_PRINCIPAL = 'routeAPacketTo-220_complete_data.csv'
-#     # ARCHIVO_CSV_EXTRA = 'cybercaptor-server@src.main.java-org.fiware.cybercaptor.server.topology.asset-Host.java-routeAPacketTo-220.csv'
-#     # ARCHIVO_JAVA = 'Host.java'
-#
-#     FICHERO_GRAFICO_PARETO = f"{ARCHIVO_CSV_PRINCIPAL}_3dPF.html"
-#
-#     # Lanzamos el motor completo pasándole los tres ficheros de contexto
-#     generate_3d_pf_plot(ARCHIVO_CSV_PRINCIPAL, FICHERO_GRAFICO_PARETO, ARCHIVO_CSV_EXTRA, ARCHIVO_JAVA)

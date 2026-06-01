@@ -263,10 +263,36 @@ def check_threshold(model_instance, threshold):
     if not model_instance.is_dir():
         sys.exit(f'The model instance must be a folder with three CSV files (multiobjective)'
                  f' or the base path with all projects (one objective).')
-    
-    
-    
-    
+
+
+def clasificar_archivos(ruta_carpeta):
+    # Convertimos la cadena en un objeto Path
+    carpeta = Path(ruta_carpeta)
+
+    # Inicializamos las variables
+    original_class = None
+    complete_data_path = None
+    refact_cache = None
+
+    # Verificamos que la carpeta realmente exista
+    if not carpeta.is_dir():
+        print(f"Error: La ruta '{ruta_carpeta}' no es una carpeta válida.")
+        return None
+
+    # Iteramos sobre los elementos dentro de la carpeta
+    for archivo in carpeta.iterdir():
+        if archivo.is_file():  # Nos aseguramos de que sea un archivo y no una subcarpeta
+            nombre = archivo.name
+
+            if nombre.endswith('.java'):
+                original_class = archivo
+            elif nombre.endswith('_complete_data.csv'):
+                complete_data_path = archivo
+            elif nombre.endswith('.csv'):
+                refact_cache = archivo
+
+    return original_class, complete_data_path, refact_cache
+
 
 def obtain_arguments():
     """Defines arguments from command line and parse them."""
@@ -337,7 +363,10 @@ def obtain_arguments():
                         help=f'Path to the original class where the method original method is.')
     parser.add_argument('-rc', '--refactoring_cache', dest='refactoring_cache', type=str, default=None,
                         help=f'Path to the refactoring cache of the method.')
-
+    parser.add_argument('-sfp', '--solution_path', dest='solution_path', type=str,
+                        default=None, help=f'Path to the folder with files about solution needed'
+                                           f' if the instance is already solved and '
+                                           f'one just wants to represent the solution.')
     
     args = parser.parse_args()
     parameters = vars(args)
@@ -375,6 +404,7 @@ if __name__ == '__main__':
     time_limit = args['time_limit'] if args['time_limit'] else config.get('time_limit')
     original_class = args['original_class'] if args['original_class'] else config.get('original_class')
     refact_cache = args['refactoring_cache'] if args['refactoring_cache'] else config.get('refactoring_cache')
+    solution_path = args['solution_path'] if args['solution_path'] else config.get('solution_path')
 
     # Check that there is number of objectives specified
     if model_instance and not num_of_objectives:
@@ -401,6 +431,10 @@ if __name__ == '__main__':
     # Check refactoring cache Path
     if refact_cache:
         refact_cache = Path(refact_cache)
+
+    # Check provided complete data Path
+    if solution_path:
+        solution_path = Path(solution_path)
 
     # Show final properties used
     print("Final configuration:")
@@ -513,8 +547,8 @@ if __name__ == '__main__':
             if single_3D_PF:
                 single_3D_PF_path = f"{general_path}_3DPF.html"
                 if refact_cache and original_class:
-                    interactive_3dpf.generate_3d_pf_plot(complete_data_path, output_html_path,
-                                                         refact_cache, original_class)
+                    interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete_data_path, output_html_path,
+                                                                                  refact_cache, original_class)
                 else:
                     results_utils.generate_3d_pf_plot(results_csv_path, single_3D_PF_path)
             if relative_hv:
@@ -532,3 +566,10 @@ if __name__ == '__main__':
 
     if all_relHV:
         results_utils.generate_global_relative_hv_vs_time(input_dir, output_dir)
+
+    if solution_path:
+        original_class, complete, cache = clasificar_archivos(solution_path)
+        output_html = f"{solution_path}/{solution_path.name}_interactive_3dPF.html"
+
+        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete, output_html,
+                                                                      cache, original_class)

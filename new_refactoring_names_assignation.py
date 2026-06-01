@@ -6,7 +6,7 @@ import argparse
 from pathlib import Path
 
 API_KEY = os.getenv("OPENAI_API_KEY")
-MODEL = "gpt-5.1"   # o "gpt-5.1"
+MODEL = "gpt-4o"   # o "gpt-5.1"
 
 client = OpenAI(api_key=API_KEY)
 
@@ -57,7 +57,7 @@ def extract_existing_method_names(java_code: str) -> set[str]:
 
 def send_to_chatgpt(original_code, refactored_code, extraction_name, existing_names, generated_names):
     """
-    Sendes prompt + content from both JAva files as text.
+    Sends prompt + content from both JAva files as text.
     Considers the method manes used to not repeat them.
     """
     # Create string with used names

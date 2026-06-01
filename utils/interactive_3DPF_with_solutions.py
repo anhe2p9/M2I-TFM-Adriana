@@ -215,7 +215,6 @@ def customize_plotly_figures(nombres_objetivos, fig):
     z_label = objective_map.get(nombres_objetivos[2], nombres_objetivos[2])
 
     # 2. Configuramos las etiquetas del Eje X para el gráfico 2D (coordenadas paralelas)
-    # Usamos variables dinámicas x_label, y_label y z_label
     fig.update_xaxes(
         tickmode='array',
         tickvals=[0, 1, 2],
@@ -233,6 +232,26 @@ def customize_plotly_figures(nombres_objetivos, fig):
         ),
         scene_camera=dict(eye=dict(x=-1.25, y=-1.25, z=1.25)),
         hoverdistance=-1
+    )
+
+    texto_ayuda = (
+        "<b>Navegación 3D:</b><br>"
+        "🖱️ Clic Izquierdo: Girar<br>"
+        "🔘 Rueda: Zoom<br>"
+        "🖱️ Clic Derecho: Desplazar"
+    )
+
+    fig.add_annotation(
+        text=texto_ayuda,
+        xref="paper", yref="paper",
+        x=0.01, y=0.98,          # Ubicación en la esquina superior izquierda (Subplot 1)
+        showarrow=False,
+        align="left",
+        bgcolor="rgba(255, 255, 255, 0.85)",  # Fondo blanco semitransparente
+        bordercolor="#d3d3d3",
+        borderwidth=1,
+        borderpad=8,
+        font=dict(size=12, color="#333333", family="Arial")
     )
 
     return fig

@@ -265,31 +265,41 @@ def check_threshold(model_instance, threshold):
                  f' or the base path with all projects (one objective).')
 
 
-def clasificar_archivos(ruta_carpeta):
-    # Convertimos la cadena en un objeto Path
-    carpeta = Path(ruta_carpeta)
+def classify_solution_files(solutions_folder_path):
+    solutions_folder = Path(solutions_folder_path)
 
-    # Inicializamos las variables
     original_class = None
     complete_data_path = None
     refact_cache = None
 
-    # Verificamos que la carpeta realmente exista
-    if not carpeta.is_dir():
-        print(f"Error: La ruta '{ruta_carpeta}' no es una carpeta válida.")
-        return None
+    if not solutions_folder.is_dir():
+        raise FileNotFoundError(f"Path '{solutions_folder_path}' is not a valid folder.")
 
-    # Iteramos sobre los elementos dentro de la carpeta
-    for archivo in carpeta.iterdir():
-        if archivo.is_file():  # Nos aseguramos de que sea un archivo y no una subcarpeta
+    # Buscamos los archivos dentro de la carpeta
+    for archivo in solutions_folder.iterdir():
+        if archivo.is_file():
             nombre = archivo.name
-
             if nombre.endswith('.java'):
                 original_class = archivo
             elif nombre.endswith('_complete_data.csv'):
                 complete_data_path = archivo
             elif nombre.endswith('.csv'):
                 refact_cache = archivo
+
+    # --- Validación de archivos faltantes ---
+    faltan = []
+    if original_class is None:
+        faltan.append("Clase original (.java)")
+    if complete_data_path is None:
+        faltan.append("Datos completos (_complete_data.csv)")
+    if refact_cache is None:
+        faltan.append("Cache de refactorización (.csv)")
+
+    # Si la lista "faltan" tiene elementos, lanzamos el error
+    if faltan:
+        # Unimos los elementos con comas para un mensaje limpio
+        mensaje_error = f"Error en '{solutions_folder.name}': Falta por definir: {', '.join(faltan)}"
+        raise FileNotFoundError(mensaje_error)
 
     return original_class, complete_data_path, refact_cache
 
@@ -568,8 +578,18 @@ if __name__ == '__main__':
         results_utils.generate_global_relative_hv_vs_time(input_dir, output_dir)
 
     if solution_path:
-        original_class, complete, cache = clasificar_archivos(solution_path)
+        try:
+            original_class, complete, cache = classify_solution_files(solution_path)
+            print("All files successfully found!")
+            print(f"-> {original_class.name}\n-> {complete.name}\n-> {cache.name}")
+
+        except FileNotFoundError as e:
+            # Aquí capturamos el error específico y mostramos el mensaje detallado
+            print(f"❌ Error control: {e}")
+        except Exception as e:
+            # Por si ocurre cualquier otro error inesperado
+            print(f"💥 Unexpected error: {e}")
+
         output_html = f"{solution_path}/{solution_path.name}_interactive_3dPF.html"
 
-        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete, output_html,
-                                                                      cache, original_class)
+        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete, output_html, cache, original_class)

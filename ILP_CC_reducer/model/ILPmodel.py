@@ -114,10 +114,12 @@ def z_definition(m, j, i): # restricción para definir bien las variables z
     card_l = len(interm)
     return m.z[j, i] + card_l * (m.z[j, i] - 1) <= m.x[j] - sum(m.x[l] for l in interm)
 
-def max_loc(m, i):
+def max_loc(m, i):  # (m.loc[j] - 1) porque se restan las lineas de código de la extraccion completa
+    # menos la linea de la llamada al metodo (esa no se cuenta y por eso se quita uno menos)
     return m.tmax >= m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, i] for j,k in m.N if k == i)
 
-def min_loc(m, i):
+def min_loc(m, i):  # (m.loc[j] - 1) porque se restan las lineas de código de la extraccion completa
+    # menos la linea de la llamada al metodo (esa no se cuenta y por eso se quita uno menos)
     return m.tmin <= m.loc[0] * (1 - m.x[i]) + m.loc[i] * m.x[i] - sum((m.loc[j] - 1) * m.z[j, k] for j,k in m.N if k == i)
         
 def max_cc(m, i):

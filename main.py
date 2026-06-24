@@ -557,7 +557,8 @@ if __name__ == '__main__':
             if single_3D_PF:
                 single_3D_PF_path = f"{general_path}_3DPF.html"
                 if refact_cache and original_class:
-                    interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete_data_path, output_html_path,
+                    interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives,complete_data_path,
+                                                                                  output_html_path,
                                                                                   refact_cache, original_class)
                 else:
                     results_utils.generate_3d_pf_plot(results_csv_path, single_3D_PF_path)
@@ -592,4 +593,5 @@ if __name__ == '__main__':
 
         output_html = f"{solution_path}/{solution_path.name}_interactive_3dPF.html"
 
-        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(complete, output_html, cache, original_class)
+        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives, complete, output_html,
+                                                                      cache, original_class)

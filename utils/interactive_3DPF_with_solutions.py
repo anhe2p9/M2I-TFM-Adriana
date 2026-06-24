@@ -2,6 +2,7 @@ import csv
 import ast
 import os
 import re
+import textwrap
 import tree_sitter_java as tsjava
 from tree_sitter import Language, Parser
 from concurrent.futures import ThreadPoolExecutor
@@ -27,8 +28,8 @@ MODEL = "gpt-4o"   # o "gpt-5.1"
 client = OpenAI(api_key=API_KEY)
 
 
-def generate_3d_pf_and_parallel_coordinates_plot(complete_data_file, output_html_path, refact_cache_file,
-                                                 original_class_file):
+def generate_3d_pf_and_parallel_coordinates_plot(objectives_list, complete_data_file, output_html_path,
+                                                 refact_cache_file, original_class_file):
     df = pd.read_csv(complete_data_file)
 
     if df.shape[0] == 0:
@@ -47,8 +48,6 @@ def generate_3d_pf_and_parallel_coordinates_plot(complete_data_file, output_html
             "It is not possible to represent 3DPF plot because there is less than 3 objectives in the solution tuple.")
         return
 
-    nombres_objetivos = ["extractions", "cc", "loc"]
-
     fig = make_subplots(
         rows=1, cols=2,
         specs=[[{'type': 'scene'}, {'type': 'xy'}]],
@@ -57,12 +56,15 @@ def generate_3d_pf_and_parallel_coordinates_plot(complete_data_file, output_html
 
     solutions = [tuple(sol) for sol in objetivos]
 
-    enlaces_ordenados = create_refactoring_files(complete_data_file, output_html_path, solutions,
-                                                 refact_cache_file, original_class_file)
+    # Recibimos los enlaces y las explicaciones
+    enlaces_ordenados, explicaciones_ordenadas = create_refactoring_files(
+        complete_data_file, output_html_path, solutions, refact_cache_file, original_class_file, objectives_list
+    )
 
-    fig = customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados)
+    # Enviamos las explicaciones a customize_3d_pf_plot
+    fig = customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados, explicaciones_ordenadas)
     fig = customize_parallel_coordinates(solutions, fig, enlaces_ordenados)
-    fig = customize_plotly_figures(nombres_objetivos, fig)
+    fig = customize_plotly_figures(objectives_list, fig)
     html_contenido = make_plotly_interactive(fig, output_html_path)
 
     with open(output_html_path, 'w', encoding='utf-8') as f:
@@ -70,7 +72,8 @@ def generate_3d_pf_and_parallel_coordinates_plot(complete_data_file, output_html
     print("[OK] Script de redirección web inyectado con éxito en el frente de Pareto.")
 
 
-def create_refactoring_files(complete_data_file, output_html_path, solutions, refact_cache_file, original_class_file):
+def create_refactoring_files(complete_data_file, output_html_path, solutions, refact_cache_file,
+                             original_class_file, orden_objetivos):
     # 1. Detectamos la carpeta del archivo input y creamos la subcarpeta allí dentro
     carpeta_input = os.path.dirname(complete_data_file)
     folder_refactorizaciones = os.path.join(carpeta_input, "refactorizaciones_soluciones")
@@ -92,18 +95,89 @@ def create_refactoring_files(complete_data_file, output_html_path, solutions, re
     def procesar_hilo(idx):
         ruta_html_sol = os.path.join(folder_refactorizaciones, f"solucion_{idx + 1}.html")
         try:
-            process_refactoring(complete_data_file, refact_cache_file, original_class_file, idx, ruta_html_sol)
+            # Retornamos el resultado del método
+            return process_refactoring(complete_data_file, refact_cache_file, original_class_file, idx,
+                                       ruta_html_sol, orden_objetivos)
         except Exception as e:
             print(f"❌ [Error] Saltando solución #{idx + 1} debido a un fallo: {e}")
+            return "Explicación no disponible debido a un error."
 
-    # 4. Lanzamos la ejecución en paralelo (puedes ajustar max_workers si OpenAI te da Rate Limit)
+    # 4. Lanzamos la ejecución en paralelo
     with ThreadPoolExecutor(max_workers=10) as executor:
-        executor.map(procesar_hilo, range(len(solutions)))
+        # executor.map mantiene el orden de los índices perfectamente.
+        # Al convertirlo en lista, guardamos todas las explicaciones en orden.
+        explicaciones_ordenadas = list(executor.map(procesar_hilo, range(len(solutions))))
 
-    return enlaces_ordenados
+    # Devolvemos ambas listas
+    return enlaces_ordenados, explicaciones_ordenadas
 
 
-def customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados):
+def generar_explicacion_metodo_openai(codigo_original, codigo_refactorizado, fila_dict, objectives_list):
+    # Convertimos el diccionario a un string bonito para el prompt
+    import json
+    info_solucion_json = json.dumps(fila_dict, indent=4, ensure_ascii=False)
+
+    prompt = f"""
+    Actúa como un Arquitecto de Software experto y consultor técnico. Tu objetivo es ayudar a un desarrollador 
+    a decidir si debe ELEGIR esta solución de refactorización específica de entre varias opciones de un Frente de Pareto.
+
+    MÉTRICAS DETALLADAS DE ESTA SOLUCIÓN (Formato JSON):
+    {info_solucion_json}
+
+    ORDEN DE LOS OBJETIVOS OPTIMIZADOS (Corresponde a los valores de la tupla 'solution'):
+    {objectives_list}
+
+    CÓDIGO ORIGINAL:
+    {codigo_original}
+
+    CÓDIGO REFACTORIZADO:
+    {codigo_refactorizado}
+
+    GUÍA DE INTERPRETACIÓN DE MÉTRICAS PARA TU ANÁLISIS:
+    - 'solution': Valores óptimos encontrados. El orden de los números se corresponde con '{objectives_list}'.
+    - 'solution_info (index,CC,LOC)': Lista de tuplas donde cada elemento detalla el (índice de extracción,
+       Complejidad Ciclomática (CC) interna de ese bloque, y Líneas de Código (LOC) de ese bloque).
+    - 'reductionComplexity' y 'finalComplexity': Cuánta complejidad se le quita al método original y cómo queda de simple.
+    - 'not_nested_...' vs 'nested_...': Indica si los métodos extraídos están libres o si hay métodos extraídos dentro
+       de otros métodos extraídos (anidamiento). El anidamiento añade complejidad de acoplamiento pero aísla sub-rutinas.
+    - 'min/max/mean/totalExtractedLOC' y 'CC': Te dicen la distribución del tamaño y la carga de los métodos extraídos
+       (¿son todos homogéneos o hay uno gigante y otros diminutos?).
+
+    TAREA:
+    Escribe una justificación de ingeniería de máximo 3-4 líneas orientada a la SELECCIÓN de esta solución. 
+    Debes realizar un análisis crítico combinando lo que observas en el código con lo que revelan las métricas
+     cuantitativas anteriores.
+
+    REGLAS CRÍTICAS DE CONTROL DE CALIDAD:
+    1. PROHIBIDO usar clichés vagos como "mejora la legibilidad", "es más limpio", "sigue buenas prácticas" o
+        "facilita el mantenimiento". Sé específico con la semántica del código (nombres de funciones/variables).
+    2. Menciona qué responsabilidad o lógica concreta (ej. "el procesamiento de paquetes", "la validación de rutas")
+        se está aislando según el código modificado.
+    3. Cohesiona las métricas con el diseño: Si ves que hay alta reducción de complejidad ('reductionComplexity')
+        o elementos anidados ('nested_extractions' > 0), explica al desarrollador el impacto de ese trade-off
+        arquitectónico en el mundo real.
+    4. Define el PERFIL DE PREFERENCIA ideal: Termina la última frase indicando taxativamente para qué tipo
+        de usuario es idónea esta solución (ej. "Ideal para usuarios que priorizan reducir la complejidad
+        del método principal sin importarles generar anidamiento secundario" o "Ideal para un refactorizado
+        conservador, plano y de bajo impacto").
+
+    RESPUESTA:
+    Devuelve ÚNICAMENTE el párrafo de justificación, sin introducciones, sin saludos y sin formato markdown pesado.
+    """
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",  # O el modelo que utilices
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,  # Temperatura baja para un análisis técnico y consistente
+            max_tokens=200
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"[Error OpenAI] No se pudo obtener la justificación: {e}")
+        return "Solución estructurada basada en los objetivos de optimización del Frente de Pareto."
+
+
+def customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados, explicaciones_ordenadas):
     nadir = np.max(objetivos, axis=0)
     ref_point = nadir + 1
     n1, n2, n3 = ref_point
@@ -137,6 +211,18 @@ def customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados):
             ), row=1, col=1)
 
     f1, f2, f3 = zip(*solutions)
+
+    # =========================================================
+    # Formatear las explicaciones para que no se salgan
+    # =========================================================
+    explicaciones_formateadas = []
+    for exp in explicaciones_ordenadas:
+        # Divide el texto en líneas de máximo 60 caracteres y las une con saltos de línea HTML
+        texto_roto = "<br>".join(textwrap.wrap(exp, width=60))
+        explicaciones_formateadas.append(texto_roto)
+
+    customdata_combinado = list(zip(enlaces_ordenados, explicaciones_formateadas))
+
     fig.add_trace(go.Scatter3d(
         x=f1, y=f2, z=f3,
         mode='markers+text',
@@ -145,12 +231,14 @@ def customize_3d_pf_plot(objetivos, solutions, fig, enlaces_ordenados):
         textposition='top center',
         textfont=dict(color='black', size=18),
         name='Solutions',
-        customdata=enlaces_ordenados,
+        customdata=customdata_combinado,
+        hoverlabel=dict(align="left"),  # <-- NUEVO: Alinea el texto a la izquierda
         hovertemplate=(
             "<b>Solution: %{text}</b><br><br>"
             "EXTRACTIONS: %{x}<br>"
             "CC<sub>diff</sub>: %{y}<br>"
-            "LOC<sub>diff</sub>: %{z}"
+            "LOC<sub>diff</sub>: %{z}<br><br>"
+            "<b>Explanation:</b><br>%{customdata[1]}"
             "<extra></extra>"
         )
     ), row=1, col=1)
@@ -569,7 +657,7 @@ def generar_nombre_metodo_openai(codigo_metodo, nombres_usados):
         return "metodoExtraido"
 
 
-def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucion, ruta_salida_html):
+def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucion, ruta_salida_html, objectives_list):
     original_method_name = os.path.basename(ruta_csv_principal).split('-')[0]
 
     with open(ruta_java, 'r', encoding='utf-8', newline='') as f:
@@ -749,12 +837,12 @@ def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucio
     # 4. Finalmente, decodificamos a string con los marcadores ya en su sitio perfecto
     codigo_marcado = bytes_original_marcado.decode('utf-8')
 
-    # 3. Escapar caracteres de Java para que sean HTML seguros
+    # 5. Escapar caracteres de Java para que sean HTML seguros
     import html
     codigo_original_html = html.escape(codigo_marcado)
     codigo_refactorizado_html = html.escape(texto_codigo_limpio)
 
-    # 4. Reemplazar los placeholders por las etiquetas SPAN reales en AMBOS lados
+    # 6. Reemplazar los placeholders por las etiquetas SPAN reales en AMBOS lados
     for idx in range(len(lista_offsets)):
         # Generar un tono de color único para cada extracción y el número visible
         hue = (idx * 137) % 360  # Truco para que colores consecutivos sean muy distintos
@@ -920,3 +1008,11 @@ def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucio
 
     with open(ruta_salida_html, 'w', encoding='utf-8') as out_f:
         out_f.write(html_plantilla)
+
+    # 1. Obtenemos los strings limpios
+    codigo_original_limpio = codigo_bytes[nodo_metodo_orig.start_byte:nodo_metodo_orig.end_byte].decode('utf-8')
+    texto_codigo_limpio = "\n".join(bloque_final)
+
+    # 2. Llamada a OpenAI enviando las métricas para que la explicación sea ultra-específica
+    explicacion = generar_explicacion_metodo_openai(codigo_original_limpio, texto_codigo_limpio, fila, objectives_list)
+    return explicacion

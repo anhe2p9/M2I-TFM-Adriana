@@ -7,6 +7,16 @@ import tree_sitter_java as tsjava
 from tree_sitter import Language, Parser
 from concurrent.futures import ThreadPoolExecutor
 
+import os
+# Forzar a Matplotlib a usar un backend que no sea GUI (antes de que se cargue)
+os.environ['MPLBACKEND'] = 'Agg'
+
+try:
+    import matplotlib
+    matplotlib.use('Agg')
+except ImportError:
+    pass
+
 # Configuración inicial
 JAVA_LANGUAGE = Language(tsjava.language())
 parser = Parser(JAVA_LANGUAGE)
@@ -81,34 +91,44 @@ def create_refactoring_files(complete_data_file, output_html_path, solutions, re
     os.makedirs(folder_refactorizaciones, exist_ok=True)
     print(f"\nGenerating refactoring files for each solution in parallel...")
 
+    # [NUEVO] Preparación única de código, AST y cálculo de desfase global
+    with open(original_class_file, 'r', encoding='utf-8', newline='') as f:
+        codigo_str = f.read()
+        codigo_bytes = codigo_str.encode('utf-8')
+
+    mapa_offsets = crear_mapa_char_a_byte(codigo_str)
+    tree = parser.parse(codigo_bytes)
+    root_node = tree.root_node
+
+    desfase_global, nodo_metodo_orig = calcular_metodo_y_desfase(
+        complete_data_file, refact_cache_file, root_node, codigo_bytes, mapa_offsets
+    )
+
+    print(f"DESFASE GLOBAL: {desfase_global}.")
+
     # 2. Generamos los enlaces calculando la ruta relativa respecto al HTML del gráfico
-    # para que el navegador web pueda abrirlos correctamente al hacer clic.
     carpeta_output = os.path.dirname(output_html_path)
     enlaces_ordenados = []
     for idx in range(len(solutions)):
         ruta_real_solucion = os.path.join(folder_refactorizaciones, f"solucion_{idx + 1}.html")
-        # os.path.relpath calcula el camino óptimo desde el archivo del gráfico hasta la solución
         ruta_relativa_web = os.path.relpath(ruta_real_solucion, carpeta_output)
         enlaces_ordenados.append(ruta_relativa_web)
 
-    # 3. Función auxiliar que ejecutará cada hilo
+    # 3. Función auxiliar que ejecutará cada hilo (ahora recibe las variables compartidas)
     def procesar_hilo(idx):
         ruta_html_sol = os.path.join(folder_refactorizaciones, f"solucion_{idx + 1}.html")
         try:
-            # Retornamos el resultado del método
-            return process_refactoring(complete_data_file, refact_cache_file, original_class_file, idx,
-                                       ruta_html_sol, orden_objetivos)
+            # Pasamos las estructuras compartidas ya calculadas
+            return process_refactoring(complete_data_file, idx, ruta_html_sol, orden_objetivos,
+                                       desfase_global, nodo_metodo_orig, root_node, codigo_bytes, mapa_offsets)
         except Exception as e:
             print(f"❌ [Error] Saltando solución #{idx + 1} debido a un fallo: {e}")
             return "Explicación no disponible debido a un error."
 
     # 4. Lanzamos la ejecución en paralelo
     with ThreadPoolExecutor(max_workers=10) as executor:
-        # executor.map mantiene el orden de los índices perfectamente.
-        # Al convertirlo en lista, guardamos todas las explicaciones en orden.
         explicaciones_ordenadas = list(executor.map(procesar_hilo, range(len(solutions))))
 
-    # Devolvemos ambas listas
     return enlaces_ordenados, explicaciones_ordenadas
 
 
@@ -567,7 +587,7 @@ def validar_y_encadenar_nodos(root_node, start, end):
     return nodos_encadenados, nodos_encadenados[0].start_byte, nodos_encadenados[-1].end_byte
 
 
-def calcular_metodo_y_desfase(ruta_csv_principal, ruta_csv_extra, root_node, codigo_bytes, codigo_str, mapa_offsets):
+def calcular_metodo_y_desfase(ruta_csv_principal, ruta_csv_extra, root_node, codigo_bytes, mapa_offsets):
     nombre_archivo = os.path.basename(ruta_csv_principal)
     nombre_metodo = nombre_archivo.split('-')[0]
     match_linea = re.search(r'-(\d+)_', nombre_archivo)
@@ -657,21 +677,9 @@ def generar_nombre_metodo_openai(codigo_metodo, nombres_usados):
         return "metodoExtraido"
 
 
-def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucion, ruta_salida_html, objectives_list):
+def process_refactoring(ruta_csv_principal, n_solucion, ruta_salida_html, objectives_list,
+                        desfase_global, nodo_metodo_orig, root_node, codigo_bytes, mapa_offsets):
     original_method_name = os.path.basename(ruta_csv_principal).split('-')[0]
-
-    with open(ruta_java, 'r', encoding='utf-8', newline='') as f:
-        codigo_str = f.read()
-        codigo_bytes = codigo_str.encode('utf-8')
-
-    mapa_offsets = crear_mapa_char_a_byte(codigo_str)
-
-    tree = parser.parse(codigo_bytes)
-    root_node = tree.root_node
-
-    desfase_global, nodo_metodo_orig = calcular_metodo_y_desfase(
-        ruta_csv_principal, ruta_csv_extra, root_node, codigo_bytes, codigo_str, mapa_offsets
-    )
 
     with open(ruta_csv_principal, mode='r', encoding='utf-8') as f:
         reader = list(csv.DictReader(f))
@@ -691,22 +699,18 @@ def process_refactoring(ruta_csv_principal, ruta_csv_extra, ruta_java, n_solucio
         lista_nodos, start_final, end_final = validar_y_encadenar_nodos(root_node, byte_start_real, byte_end_real)
 
         params = obtener_parametros_limpios(nodo_metodo_orig, lista_nodos, codigo_bytes, start_final, end_final)
-        # Ahora calculamos también los parámetros de salida
         params_salida = obtener_parametros_salida(nodo_metodo_orig, codigo_bytes, start_final, end_final)
 
         args_firma = [f"{tipo} {nombre}" for nombre, tipo in params.items()]
         args_llamada = list(params.keys())
 
-        # Extraemos el fragmento de código para enviárselo a OpenAI
         texto_original_extraido = codigo_bytes[start_final:end_final].decode('utf-8')
 
-        # Llamada a la API pasando la lista de usados y registrando el nuevo
         nombre_base = generar_nombre_metodo_openai(texto_original_extraido, nombres_usados)
         nombres_usados.append(nombre_base)
 
         nombre_metodo_nuevo = f"{nombre_base}"
 
-        # ¡MODIFICADO!: Lógica dinámica para asignar tipo de retorno y reasignación de llamada
         tipo_retorno = "void"
         var_retorno = None
         asignacion_llamada = ""

@@ -1,15 +1,11 @@
 import os
 import os.path
 
-import pyomo.environ as pyo # ayuda a definir y resolver problemas de optimización
-
 import sys
 import csv
 import argparse
 import configparser
 from pathlib import Path
-
-from grapheme import length
 
 import utils.results_utils as results_utils
 import utils.interactive_3DPF_with_solutions as interactive_3dpf

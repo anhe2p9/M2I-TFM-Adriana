@@ -140,6 +140,7 @@ def generar_explicacion_metodo_openai(codigo_original, codigo_refactorizado, fil
     prompt = f"""
     Actúa como un Arquitecto de Software experto y consultor técnico. Tu objetivo es ayudar a un desarrollador 
     a decidir si debe ELEGIR esta solución de refactorización específica de entre varias opciones de un Frente de Pareto.
+    Las refactorizaciones tratan de reducir la COMPLEJIDAD COGNITIVA del código (medida a nivel de método).
 
     MÉTRICAS DETALLADAS DE ESTA SOLUCIÓN (Formato JSON):
     {info_solucion_json}
@@ -154,19 +155,23 @@ def generar_explicacion_metodo_openai(codigo_original, codigo_refactorizado, fil
     {codigo_refactorizado}
 
     GUÍA DE INTERPRETACIÓN DE MÉTRICAS PARA TU ANÁLISIS:
-    - 'solution': Valores óptimos encontrados. El orden de los números se corresponde con '{objectives_list}'.
+    - 'solution': Valores óptimos encontrados. El orden de los números se corresponde con '{objectives_list}', 
+        donde "extractions" es el número de extracciones realizadas, CC_diff es la diferencia de complejidad cognitiva
+         entre la máxima y mínima complejidad cognitiva de todas las extracciones y el método original refactorizado, 
+         y LOC_diff es la diferencia de líneas de código entre las máximas y mínimas líneas de código de todas
+          las extracciones y el método original refactorizado.
     - 'solution_info (index,CC,LOC)': Lista de tuplas donde cada elemento detalla el (índice de extracción,
-       Complejidad Ciclomática (CC) interna de ese bloque, y Líneas de Código (LOC) de ese bloque).
-    - 'reductionComplexity' y 'finalComplexity': Cuánta complejidad se le quita al método original y cómo queda de simple.
+       Complejidad Cognitiva (CC) interna de ese bloque, y Líneas de Código (LOC) de ese bloque).
+    - 'reductionComplexity' y 'finalComplexity': Cuánta complejidad cognitiva se le quita al método original y cómo queda de simple.
     - 'not_nested_...' vs 'nested_...': Indica si los métodos extraídos están libres o si hay métodos extraídos dentro
-       de otros métodos extraídos (anidamiento). El anidamiento añade complejidad de acoplamiento pero aísla sub-rutinas.
+       de otros métodos extraídos (anidamiento).
     - 'min/max/mean/totalExtractedLOC' y 'CC': Te dicen la distribución del tamaño y la carga de los métodos extraídos
-       (¿son todos homogéneos o hay uno gigante y otros diminutos?).
+       (¿son todos homogéneos o hay uno gigante y otros diminutos?). LOS se refiere a líneas de ´codigo y CC a complejidad cognitiva.
 
     TAREA:
-    Escribe una justificación de ingeniería de máximo 3-4 líneas orientada a la SELECCIÓN de esta solución. 
+    Escribe una justificación de ingeniería de máximo 2-3 líneas orientada a la SELECCIÓN de esta solución. 
     Debes realizar un análisis crítico combinando lo que observas en el código con lo que revelan las métricas
-     cuantitativas anteriores.
+    cuantitativas anteriores.
 
     REGLAS CRÍTICAS DE CONTROL DE CALIDAD:
     1. PROHIBIDO usar clichés vagos como "mejora la legibilidad", "es más limpio", "sigue buenas prácticas" o

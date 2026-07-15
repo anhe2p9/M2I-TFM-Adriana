@@ -25,23 +25,26 @@ if not JDTLS_HOME:
 
 
 # =====================================================================
-# CLIENTE LSP NATIVO PARA ECLIPSE JDT LS
+# CLIENTE LSP NATIVO PARA ECLIPSE JDT LS (VERSIÓN MEJORADA Y ROBUSTA)
 # =====================================================================
 class JDTLSClient:
     def __init__(self, jdtls_home, workspace_dir, project_path):
-        self.jdtls_home = jdtls_home
-        self.workspace_dir = workspace_dir
-        self.project_path = project_path
+        # Convertimos todas las rutas a absolutas con barras '/' para evitar conflictos en Windows
+        self.jdtls_home = os.path.abspath(jdtls_home).replace("\\", "/")
+        self.workspace_dir = os.path.abspath(workspace_dir).replace("\\", "/")
+        self.project_path = os.path.abspath(project_path).replace("\\", "/")
         self.proc = None
         self.request_id = 1
         self.file_versions = {}
 
     def start(self):
-        plugins_dir = os.path.join(self.jdtls_home, "plugins")
+        import sys  # <--- IMPORTANTE: Importado al principio para evitar el UnboundLocalError
+
+        plugins_dir = f"{self.jdtls_home}/plugins"
         launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
         if not launchers:
             raise FileNotFoundError("❌ No se encontró el JAR de equinox launcher en jdtls/plugins. Revisa JDTLS_HOME.")
-        launcher_jar = launchers[0]
+        launcher_jar = os.path.abspath(launchers[0]).replace("\\", "/")
 
         if sys.platform.startswith("win"):
             config_dir = "config_win"
@@ -49,7 +52,7 @@ class JDTLSClient:
             config_dir = "config_mac"
         else:
             config_dir = "config_linux"
-        config_path = os.path.join(self.jdtls_home, config_dir)
+        config_path = os.path.abspath(os.path.join(self.jdtls_home, config_dir)).replace("\\", "/")
 
         cmd = [
             "java",
@@ -57,18 +60,43 @@ class JDTLSClient:
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",
             "-Dlog.level=ALL",
-            "-noconsole",
-            "-data", self.workspace_dir,
+            "-Xmx1G",
+            "--add-modules=ALL-SYSTEM",
+            "--add-opens", "java.base/java.util=ALL-UNNAMED",
+            "--add-opens", "java.base/java.lang=ALL-UNNAMED",
             "-jar", launcher_jar,
-            "-configuration", config_path
+            # --- ARGUMENTOS DE ECLIPSE (Siempre deben ir después de -jar) ---
+            "-configuration", config_path,
+            "-data", self.workspace_dir,
+            "-noconsole"
         ]
+
+        print("\n🚀 Intentando iniciar Eclipse JDT LS con el siguiente comando:")
+        print(" ".join([f'"{arg}"' if " " in arg else arg for arg in cmd]))
+        sys.stdout.flush()
 
         self.proc = subprocess.Popen(
             cmd,
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
-            stderr=subprocess.DEVNULL
+            stderr=subprocess.PIPE
         )
+
+        time.sleep(2.0)
+        poll = self.proc.poll()
+        if poll is not None:
+            stdout_output = self.proc.stdout.read().decode('utf-8', errors='ignore') if self.proc.stdout else ""
+            stderr_output = self.proc.stderr.read().decode('utf-8', errors='ignore') if self.proc.stderr else ""
+
+            print("\n❌ Error crítico: El proceso de Eclipse JDT LS se cerró inmediatamente al arrancar.")
+            print("--- LOG DE ERROR DE JAVA (STDERR) ---")
+            print(stderr_output if stderr_output.strip() else "No hay salida en STDERR.")
+            print("-------------------------------------")
+            print("--- LOG DE SALIDA DE JAVA (STDOUT) ---")
+            print(stdout_output if stdout_output.strip() else "No hay salida en STDOUT.")
+            print("--------------------------------------")
+            sys.stdout.flush()
+            raise RuntimeError("No se pudo iniciar Eclipse JDT LS debido a un fallo en la JVM.")
 
     def send(self, method, params=None, is_notification=False):
         payload = {"jsonrpc": "2.0", "method": method}
@@ -80,15 +108,36 @@ class JDTLSClient:
 
         body = json.dumps(payload)
         header = f"Content-Length: {len(body)}\r\n\r\n"
-        self.proc.stdin.write((header + body).encode('utf-8'))
-        self.proc.stdin.flush()
+
+        try:
+            self.proc.stdin.write((header + body).encode('utf-8'))
+            self.proc.stdin.flush()
+        except OSError as e:
+            # Si el canal está roto, informamos de la muerte del servidor
+            self._handle_server_crash()
+            raise e
         return payload.get("id")
 
+    def _handle_server_crash(self):
+        if self.proc:
+            stderr_output = self.proc.stderr.read().decode('utf-8', errors='ignore')
+            print("\n❌ El servidor Eclipse JDT LS ha muerto inesperadamente.")
+            print("--- LOG DE ERROR DE JAVA (STDERR) ---")
+            print(stderr_output)
+            print("-------------------------------------")
+
     def read_message(self):
+        if self.proc.poll() is not None:
+            self._handle_server_crash()
+            raise RuntimeError("El proceso JDT LS ha terminado de manera abrupta.")
+
         content_length = None
         while True:
             line = self.proc.stdout.readline().decode('utf-8').strip()
             if not line:
+                if self.proc.poll() is not None:
+                    self._handle_server_crash()
+                    raise RuntimeError("El proceso JDT LS ha terminado mientras se leía del buffer.")
                 break
             if line.lower().startswith("content-length:"):
                 content_length = int(line.split(":")[1].strip())
@@ -97,7 +146,7 @@ class JDTLSClient:
         body = self.proc.stdout.read(content_length).decode('utf-8')
         return json.loads(body)
 
-    def wait_for_response(self, req_id, timeout=10):
+    def wait_for_response(self, req_id, timeout=15):
         start_time = time.time()
         while time.time() - start_time < timeout:
             msg = self.read_message()
@@ -114,11 +163,14 @@ class JDTLSClient:
         payload = {"jsonrpc": "2.0", "id": req_id, "result": result}
         body = json.dumps(payload)
         header = f"Content-Length: {len(body)}\r\n\r\n"
-        self.proc.stdin.write((header + body).encode('utf-8'))
-        self.proc.stdin.flush()
+        try:
+            self.proc.stdin.write((header + body).encode('utf-8'))
+            self.proc.stdin.flush()
+        except OSError:
+            self._handle_server_crash()
 
     def initialize(self):
-        project_uri = f"file:///{os.path.abspath(self.project_path).replace('\\', '/')}"
+        project_uri = f"file:///{self.project_path}"
         req_id = self.send("initialize", {
             "processId": os.getpid(),
             "rootUri": project_uri,
@@ -136,12 +188,12 @@ class JDTLSClient:
         self.wait_for_response(req_id)
         self.send("initialized", is_notification=True)
         print("☕ Eclipse JDT LS inicializado y compilando el proyecto...")
-        time.sleep(3)  # Tiempo de cortesía para el indexado inicial
+        time.sleep(3)
 
     def open_file(self, file_path):
         abs_path = os.path.abspath(file_path).replace("\\", "/")
         uri = f"file:///{abs_path}"
-        with open(file_path, "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8", newline='') as f:
             content = f.read()
         self.file_versions[uri] = self.file_versions.get(uri, 0) + 1
         self.send("textDocument/didOpen", {
@@ -210,8 +262,21 @@ class JDTLSClient:
                     self.apply_text_edits(file_path, doc_change["edits"])
 
     def apply_text_edits(self, file_path, edits):
-        with open(file_path, "r", encoding="utf-8") as f:
+        # Usamos newline='' para no corromper los \r\n de Windows al leer
+        with open(file_path, "r", encoding="utf-8", newline='') as f:
             content = f.read()
+
+        # --- CÁLCULO DE DESPLAZAMIENTOS EXACTOS ---
+        shifts = []
+        for edit in edits:
+            start_abs = position_to_offset(content, edit["range"]["start"])
+            end_abs = position_to_offset(content, edit["range"]["end"])
+            # Cuánto cambia el tamaño localmente = tamaño del texto nuevo - tamaño del texto reemplazado
+            delta = len(edit["newText"]) - (end_abs - start_abs)
+            shifts.append({"pos": start_abs, "delta": delta})
+
+        # Guardamos los shifts en la instancia para que el bucle principal los recoja
+        self.last_shifts = shifts
 
         sorted_edits = sorted(
             edits,
@@ -236,17 +301,21 @@ class JDTLSClient:
                 for _ in range(s_line + 1, e_line + 1):
                     lines.pop(s_line + 1)
 
-        with open(file_path, "w", encoding="utf-8") as f:
+        with open(file_path, "w", encoding="utf-8", newline='') as f:
             f.write("".join(lines))
 
     def stop(self):
         if self.proc:
             try:
-                self.send("shutdown")
-                self.send("exit", is_notification=True)
+                # Solo intentamos enviar comandos de apagado si el proceso sigue realmente activo
+                if self.proc.poll() is None:
+                    self.send("shutdown")
+                    self.send("exit", is_notification=True)
             except Exception:
                 pass
-            self.proc.terminate()
+            finally:
+                self.proc.terminate()
+                self.proc.wait()
 
 
 # =====================================================================
@@ -261,16 +330,25 @@ def offset_to_position(content, offset):
     return {"line": line, "character": character}
 
 
-def adjust_range(remaining_range, applied_start, applied_end, delta):
-    """Ajusta dinámicamente el rango restante tras una modificación de tamaño (delta)."""
+def position_to_offset(content, pos):
+    """Convierte coordenadas de línea y columna LSP a un offset absoluto de caracteres."""
+    lines = content.splitlines(keepends=True)
+    if pos["line"] >= len(lines):
+        return len(content)
+    offset = sum(len(lines[i]) for i in range(pos["line"]))
+    offset += min(pos["character"], len(lines[pos["line"]]))
+    return offset
+
+
+def adjust_range_with_shifts(remaining_range, shifts):
+    """Ajusta dinámicamente un rango basándose en múltiples ediciones locales exactas."""
     start, end = remaining_range
-    # Caso A: El rango restante está después del rango modificado -> Desplaza todo
-    if start >= applied_end:
-        start += delta
-        end += delta
-    # Caso B: El rango modificado estaba ANIDADO dentro del rango restante -> Solo se estira el final
-    elif start <= applied_start and applied_end <= end:
-        end += delta
+    # Ordenamos los shifts por posición para no desfasar el cálculo en cascada
+    for shift in sorted(shifts, key=lambda x: x["pos"]):
+        if start > shift["pos"]:
+            start += shift["delta"]
+        if end > shift["pos"]:
+            end += shift["delta"]
     return [start, end]
 
 
@@ -386,10 +464,10 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
 
             print(f"\n📁 Refactorizando clase con Eclipse: {os.path.basename(full_class_path)}")
 
-            # --- TRUCO CLAVE 1: INNER-FIRST ---
-            # Ordenamos los rangos por tamaño de menor a mayor.
-            # Las extracciones anidadas más profundas se procesan siempre primero.
-            raw_ranges.sort(key=lambda r: (r[1] - r[0]))
+            # --- TRUCO CLAVE 1 MEJORADO: BOTTOM-UP & INNER-FIRST ---
+            # Ordenamos de abajo hacia arriba (mayor start_offset primero).
+            # Si dos rangos empiezan igual, el más corto (más anidado) va primero.
+            raw_ranges.sort(key=lambda r: (-r[0], r[1] - r[0]))
 
             client.open_file(full_class_path)
 
@@ -398,7 +476,7 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
                 start_offset, end_offset = current_range
 
                 # Leer el estado actual del archivo en disco
-                with open(full_class_path, "r", encoding="utf-8") as f:
+                with open(full_class_path, "r", encoding="utf-8", newline='') as f:
                     content = f.read()
                 old_length = len(content)
 
@@ -409,22 +487,20 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
                 print(f"   ↳ Solicitando extracción a Eclipse en rango original: {start_offset}-{end_offset}")
 
                 # Pedir a Eclipse que aplique la refactorización
+                client.last_shifts = []  # Limpiar shifts anteriores
                 success = client.request_extract_method(full_class_path, start_pos, end_pos)
 
                 if success:
-                    # Leer archivo modificado y calcular la diferencia de tamaño
-                    with open(full_class_path, "r", encoding="utf-8") as f:
-                        new_content = f.read()
-                    delta = len(new_content) - old_length
-                    print(f"      ✅ Extracción exitosa. Cambio en tamaño: {delta} caracteres.")
+                    print(f"      ✅ Extracción exitosa. Registrados {len(client.last_shifts)} cambios locales.")
 
                     # Notificar a Eclipse que el archivo cambió para que re-compile internamente
                     client.close_file(full_class_path)
                     client.open_file(full_class_path)
 
-                    # --- TRUCO CLAVE 2: AJUSTE DINÁMICO DE OFFSETS RESTANTES (shifting) ---
+                    # --- NUEVO TRUCO: AJUSTE DINÁMICO DE OFFSETS EXACTO ---
+                    # Aplicamos los desplazamientos milimétricos a los offsets pendientes
                     for j in range(i + 1, len(raw_ranges)):
-                        raw_ranges[j] = adjust_range(raw_ranges[j], start_offset, end_offset, delta)
+                        raw_ranges[j] = adjust_range_with_shifts(raw_ranges[j], client.last_shifts)
                 else:
                     print("      ❌ Eclipse omitió esta extracción (no cumple condiciones semánticas).")
 

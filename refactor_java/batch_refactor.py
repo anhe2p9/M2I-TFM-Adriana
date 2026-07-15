@@ -14,8 +14,14 @@ import zipfile
 import shutil
 
 # --- CONFIGURACIÓN DE ECLIPSE JDT LS ---
-# Cambia esta ruta a donde hayas descomprimido el servidor JDT LS
-JDTLS_HOME = os.getenv("JDTLS_HOME", "C:/jdtls" if sys.platform.startswith("win") else "/opt/jdtls")
+# Intenta leer la variable de entorno JDTLS_HOME
+JDTLS_HOME = os.getenv("JDTLS_HOME")
+
+# Si no existe (devuelve None), detenemos el script con un error claro
+if not JDTLS_HOME:
+    print("❌ Error: La variable de entorno 'JDTLS_HOME' no está configurada.")
+    print("Por favor, configúrala apuntando a la carpeta de Eclipse JDT LS.")
+    sys.exit(1)
 
 
 # =====================================================================

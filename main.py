@@ -1,6 +1,10 @@
 import os
 import os.path
 
+
+import subprocess
+import pandas as pd
+
 import sys
 import csv
 import argparse
@@ -53,7 +57,7 @@ def main_one_obj(alg_name: str, instance_path: Path=None, tau: int=15, objective
                     print(f"Processing project: {project_folder_name}, class: {class_folder}, method: {method_folder}")
 
                     # Check threshold
-                    check_threshold(method_path, threshold)
+                    check_threshold(method_path, tau)
 
                     # Process algorithm
                     algorithm = model_engine.get_algorithm_from_name(alg_name)
@@ -381,213 +385,237 @@ def obtain_arguments():
     return parameters
 
 
+# ==========================================
+# 1. PARAMETER LOADING AND CONFIGURATION
+# ==========================================
 
-
-if __name__ == '__main__':
-    
-    # Obtain arguments from command-line
-    args = obtain_arguments()
-    
-    # Load properties from file if it exists
+def setup_configuration(args):
+    """Loads properties, merges command-line arguments, and returns the final config."""
     config = {}
     if args['properties_file']:
-        properties_file_path = args['properties_file']
+        properties_file_path = Path(args['properties_file'])
         print(f"PROPERTIES FILE PATH: {properties_file_path}")
         if not properties_file_path.is_file():
-            sys.exit(f'The model instance must be a .ini file.')
+            sys.exit('The model instance must be a .ini file.')
         config = load_config(properties_file_path)
-    
 
-    num_of_objectives = int(args['num_of_objectives']) if args['num_of_objectives'] else config.get('num_of_objectives')
-    model_instance = args['model_instance'] if args['model_instance'] else config.get('model_instance')
-    ilp_algorithm = args['ilp_algorithm'] if args['ilp_algorithm'] else config.get('ilp_algorithm')
-    threshold = args['threshold'] if args['threshold'] else config.get('threshold')
-    subdivisions = args['subdivisions'] if args['subdivisions'] else config.get('subdivisions')
-    weights = args['weights'] if args['weights'] else config.get('weights')
-    objectives = args['objectives'] if args['objectives'] else config.get('objectives')
-    input_dir = args['input_dir'] if args['input_dir'] else config.get('input_dir')
-    output_dir = args['output_dir'] if args['output_dir'] else config.get('output_dir')
-    time_limit = args['time_limit'] if args['time_limit'] else config.get('time_limit')
-    original_class = args['original_class'] if args['original_class'] else config.get('original_class')
-    refact_cache = args['refactoring_cache'] if args['refactoring_cache'] else config.get('refactoring_cache')
-    solution_path = args['solution_path'] if args['solution_path'] else config.get('solution_path')
-
-    # Check that there is number of objectives specified
-    if model_instance and not num_of_objectives:
-        sys.exit(f'No number of objectives specified, please specify the number of objectives to minimize.'
-                 f' Type python main.py -h for help.')
-    
-    # Overwrite .ini file values with commandline values if it exists
+    # Overwrite values with command-line arguments
     for key, value in args.items():
-        if value is not None:  # Solo actualizar si el usuario lo pasó por línea de comandos
+        if value is not None:
             config[key] = value
-    
-    # Save file if there is '--save'
+
     if args["save"]:
         save_config(config)
 
-    # Check model instance
-    if model_instance:
-        instance_path = Path(model_instance)
-
-    # Check original class Path
-    if original_class:
-        original_class = Path(original_class)
-
-    # Check refactoring cache Path
-    if refact_cache:
-        refact_cache = Path(refact_cache)
-
-    # Check provided complete data Path
-    if solution_path:
-        solution_path = Path(solution_path)
-
-    # Show final properties used
+    # Show final configuration
     print("Final configuration:")
-    for key, value in config.items():
-        print(f"   · {key} = {value}")
-            
-    # Turn "w1,w2,w3" into (float,float,float) if --weights is a parameter in command line
-    if weights:
+    for key, val in config.items():
+        print(f"   · {key} = {val}")
+
+    return config
+
+
+def parse_objectives_and_weights(config):
+    """Parses objectives and weights from the configuration."""
+    num_objs = int(config.get('num_of_objectives', 0)) if config.get('num_of_objectives') else None
+
+    weights = config.get('weights')
+    if weights and isinstance(weights, str):
         weights = tuple(map(float, weights.split(",")))
 
-    # Turn "obj1,obj2" into (str,str) if --objectives is a parameter in command line
+    objectives = config.get('objectives')
     if objectives:
-        objectives = tuple(map(str, objectives.split(",")))
-        if len(objectives) != num_of_objectives:
+        if isinstance(objectives, str):
+            objectives = tuple(map(str, objectives.split(",")))
+        if len(objectives) != num_objs:
             sys.exit("The length of the objectives list must be the same as the number of objectives specified.")
     else:
         all_objectives = ('extractions', 'cc', 'loc')
-        objectives = all_objectives[:num_of_objectives]
+        objectives = all_objectives[:num_objs] if num_objs else ()
 
-    # For one objective, it tries to obtain the model if there is --model
-    obtain_model = bool(args.get("model"))
+    return objectives, weights
 
-    # For one objective, it tries to solve the model if there is --solve
-    solve_model = bool(args.get("solve"))
 
-    # Single plot True if there is --single_plot
-    if args["plot"]:
-        single_plot = True
-    else:
-        single_plot = False
+# ==========================================
+# 2. ALGORITHM EXECUTION
+# ==========================================
 
-    # Single 3D PF plot True if there is --3dPF
-    if args["3dPF"]:
-        single_3D_PF = True
-    else:
-        single_3D_PF = False
+def run_optimization(config, objectives, weights):
+    """Executes the single-objective or multi-objective optimization pipeline."""
+    num_objs = int(config.get('num_of_objectives', 0))
+    model_instance = config.get('model_instance')
+    threshold = int(config.get('threshold', 0)) if config.get('threshold') else 0
+    ilp_algorithm = config.get('ilp_algorithm')
+    time_limit = config.get('time_limit')
 
-    # Single relative HV plot True if there is --rel_hv
-    if args["relHV"]:
-        relative_hv = True
-    else:
-        relative_hv = False
+    if not num_objs:
+        return None
 
-    # All plots True if there is --all_plots
-    if args["all_plots"]:
-        all_plots = True
-    else:
-        all_plots = False
+    if model_instance and not num_objs:
+        sys.exit('No number of objectives specified to minimize.')
 
-    # All 3dPF True if there is --all_3dPF
-    if args["all_3dPF"]:
-        all_3DPF = True
-    else:
-        all_3DPF = False
+    instance_path = Path(model_instance) if model_instance else None
 
-    # All relative HVs True if there is --all_relHV
-    if args["all_relHV"]:
-        all_relHV = True
-    else:
-        all_relHV = False
+    # --- SINGLE-OBJECTIVE ---
+    if num_objs == 1:
+        if model_instance:
+            check_threshold(model_instance, threshold)
+            algo = ilp_algorithm if ilp_algorithm else 'ObtainResultsAlgorithm'
+            obtain_model = bool(config.get("model"))
+            solve_model = bool(config.get("solve"))
 
-    # Statistics True if there is --statistics
-    if args["statistics"]:
-        statistics = True
-    else:
-        statistics = False
+            main_one_obj(algo, model_instance, threshold, objectives[0], obtain_model, solve_model, time_limit)
+        else:
+            sys.exit('General instance folder required.')
+        return None
 
-    # Input files
-    if not input_dir:
-        input_dir = "output/results"
+    # --- MULTI-OBJECTIVE ---
+    elif num_objs > 1 and model_instance:
+        check_threshold(model_instance, threshold)
+        method_name, class_name, project_name = get_all_path_names(instance_path)
+        general_path = f"output/results/{project_name}/{ilp_algorithm}_{'-'.join(objectives)}_{class_name}_{method_name}/{method_name}"
 
-    # Output files
+        main_multiobjective(num_objs, ilp_algorithm, instance_path, general_path,
+                            threshold, config.get('subdivisions'), weights, objectives, time_limit)
+        return general_path
+
+    return None
+
+
+# ==========================================
+# 3. PLOT AND STATISTICS GENERATION
+# ==========================================
+
+def generate_plots_and_stats(config, objectives, general_path, args):
+    """Generates all plots and statistics configured by the user."""
+    # Input/Output paths
+    input_dir = config.get('input_dir', "output/results")
+    output_dir = config.get('output_dir')
     if not output_dir and input_dir:
-        input_path = Path(input_dir)
-        output_dir = input_path.parent
+        output_dir = str(Path(input_dir).parent)
     elif not output_dir and not input_dir:
         output_dir = "output/plots_and_statistics"
 
+    num_objs = int(config.get('num_of_objectives', 0))
+    refact_cache = Path(config['refactoring_cache']) if config.get('refactoring_cache') else None
+    original_class = Path(config['original_class']) if config.get('original_class') else None
 
-    if num_of_objectives:
-        if num_of_objectives == 1:
-            if model_instance:
-                check_threshold(model_instance, int(threshold))
-                if not ilp_algorithm:
-                    ilp_algorithm = 'ObtainResultsAlgorithm'
-                main_one_obj(ilp_algorithm, model_instance, int(threshold), objectives[0],
-                             obtain_model, solve_model, time_limit)
+    # Individual plots (Only if there is a multi-objective results path)
+    if general_path and num_objs > 1:
+        results_csv_path = f"{general_path}_results.csv"
+        complete_data_path = f"{general_path}_complete_data.csv"
+        output_html_path = f"{general_path}_interactive_3dPF.html"
+
+        if args["plot"]:
+            if num_objs == 2:
+                results_utils.generate_2d_pf_plot(results_csv_path, f"{general_path}_2DPF_plot.pdf")
+            elif num_objs == 3:
+                results_utils.generate_parallel_coordinates_plot(results_csv_path,
+                                                                 f"{general_path}_parallel_coordinates_plot.pdf")
+
+        if args["3dPF"]:
+            if refact_cache and original_class:
+                interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives, complete_data_path,
+                                                                              output_html_path, refact_cache,
+                                                                              original_class)
             else:
-                sys.exit('General instance folder required.')
-        elif num_of_objectives > 1 and model_instance:
-            check_threshold(model_instance, int(threshold))
+                results_utils.generate_3d_pf_plot(results_csv_path, f"{general_path}_3DPF.html")
 
-            method_name, class_name, project_name = get_all_path_names(instance_path)
-            general_path = f"output/results/{project_name}/{ilp_algorithm}_{'-'.join(objectives)}_{class_name}_{method_name}/{method_name}"
+        if args["relHV"]:
+            results_utils.generate_relative_hypervolume_plot(complete_data_path,
+                                                             f"{general_path}_relative_hv_with_time.pdf")
 
-            main_multiobjective(num_of_objectives, ilp_algorithm, instance_path, general_path,
-                                int(threshold), subdivisions, weights, objectives, time_limit)
-
-            results_csv_path = f"{general_path}_results.csv"
-            complete_data_path = f"{general_path}_complete_data.csv"
-            output_html_path = f"{general_path}_interactive_3dPF.html"
-
-            if single_plot:
-                if num_of_objectives == 2:
-                    single_plot_path = f"{general_path}_2DPF_plot.pdf"
-                    results_utils.generate_2d_pf_plot(results_csv_path, single_plot_path)
-                elif num_of_objectives == 3:
-                    single_plot_path = f"{general_path}_parallel_coordinates_plot.pdf"
-                    results_utils.generate_parallel_coordinates_plot(results_csv_path, single_plot_path)
-            if single_3D_PF:
-                single_3D_PF_path = f"{general_path}_3DPF.html"
-                if refact_cache and original_class:
-                    interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives,complete_data_path,
-                                                                                  output_html_path,
-                                                                                  refact_cache, original_class)
-                else:
-                    results_utils.generate_3d_pf_plot(results_csv_path, single_3D_PF_path)
-            if relative_hv:
-                single_relative_hv_path = f"{general_path}_relative_hv_with_time.pdf"
-                results_utils.generate_relative_hypervolume_plot(complete_data_path, single_relative_hv_path)
-
-    if all_plots:
+    # Global plots
+    if args["all_plots"] and general_path:
+        complete_data_path = f"{general_path}_complete_data.csv"
         results_utils.traverse_and_plot(input_dir, output_dir, complete_data_path, refact_cache, original_class)
-
-    if statistics:
+    if args["statistics"]:
         results_utils.generate_statistics(input_dir, output_dir)
-
-    if all_3DPF:
+    if args["all_3dPF"]:
         results_utils.traverse_and_pf_plot(input_dir, output_dir)
-
-    if all_relHV:
+    if args["all_relHV"]:
         results_utils.generate_global_relative_hv_vs_time(input_dir, output_dir)
 
-    if solution_path:
+
+# ==========================================
+# 4. AUTOMATIC REFACTORING (JavaParser)
+# ==========================================
+
+def apply_pareto_refactoring(general_path, original_class_path):
+    """Finds the lexicographical optimum in the Pareto CSV and calls JavaParser."""
+    if not general_path or not original_class_path:
+        print("⚠️ Cannot refactor: Missing results path or original class.")
+        return
+
+    csv_results_path = f"{general_path}_results.csv"
+    jar_path = "refactor_java/target/refactor-app-1.0-SNAPSHOT-jar-with-dependencies.jar"
+
+    if not os.path.exists(csv_results_path):
+        print(f"⚠️ Results CSV not found at: {csv_results_path}")
+        return
+
+    try:
+        # 1. Read and find lexicographical optimum (Prioritizes lower LOC_diff, then lower extractions)
+        df = pd.read_csv(csv_results_path)
+
+        # Ascending order by LOC_diff and then by extractions (lower is better)
+        df_sorted = df.sort_values(by=['LOC_diff', 'extractions'], ascending=[True, True])
+        best_sol = df_sorted.iloc[0]
+
+        offsets_str = str(best_sol['offsets'])  # Expected format: "100-200,300-400"
+
+        print(f"\n🚀 Lexicographical Optimum Found:")
+        print(f"   · LOC_diff: {best_sol['LOC_diff']} | Extractions: {best_sol['extractions']}")
+        print(f"   · Applying offsets: {offsets_str}")
+
+        # 2. Invoke JavaParser
+        cmd = ['java', '-jar', jar_path, str(original_class_path)] + offsets_str.split(',')
+        result = subprocess.run(cmd, capture_output=True, text=True)
+
+        if result.returncode == 0:
+            print(f"✅ Refactoring successfully applied to {original_class_path.name}!")
+        else:
+            print(f"❌ Error executing JavaParser:\n{result.stderr}")
+
+    except Exception as e:
+        print(f"💥 Refactoring process failed: {e}")
+
+
+# ==========================================
+# 5. MAIN FUNCTION
+# ==========================================
+
+def main():
+    # Obtain command-line arguments
+    args = obtain_arguments()
+
+    # 1. Initialize unified configuration
+    config = setup_configuration(args)
+    objectives, weights = parse_objectives_and_weights(config)
+
+    # 2. Execute optimization
+    general_path = run_optimization(config, objectives, weights)
+
+    # 3. Generate plots and reports
+    generate_plots_and_stats(config, objectives, general_path, args)
+
+    # 4. Handle "solution_path" if explicitly requested by the user
+    if args.get('solution_path'):
+        solution_path = Path(args['solution_path'])
         try:
-            original_class, complete, cache = classify_solution_files(solution_path)
+            orig_class, complete, cache = classify_solution_files(solution_path)
             print("All files successfully found!")
-            print(f"-> {original_class.name}\n-> {complete.name}\n-> {cache.name}")
-
-        except FileNotFoundError as e:
-            # Aquí capturamos el error específico y mostramos el mensaje detallado
-            print(f"❌ Error control: {e}")
+            output_html = f"{solution_path}/{solution_path.name}_interactive_3dPF.html"
+            interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives, complete, output_html, cache,
+                                                                          orig_class)
         except Exception as e:
-            # Por si ocurre cualquier otro error inesperado
-            print(f"💥 Unexpected error: {e}")
+            print(f"❌ Error handling solution_path: {e}")
 
-        output_html = f"{solution_path}/{solution_path.name}_interactive_3dPF.html"
+    # # 5. Automatically refactor using the lexicographical optimum
+    # if general_path and config.get('original_class'):
+    #     original_class_path = Path(config['original_class'])
+    #     apply_pareto_refactoring(general_path, original_class_path)
 
-        interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives, complete, output_html,
-                                                                      cache, original_class)
+
+if __name__ == '__main__':
+    main()

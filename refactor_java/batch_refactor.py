@@ -381,6 +381,19 @@ def process_results(results_base_dir, target_algo, user_priority, target_class=N
                 "classpath"), match.group("method")
 
             if algo != target_algo: continue
+
+            # --- FILTRADO ESTRICTO PARA 3 OBJETIVOS ---
+            objs_list = [o.lower() for o in objs_str.split('-')]
+
+            # 1. Ignorar si no tiene exactamente 3 objetivos (descarta las ejecuciones de 2 objetivos)
+            if len(objs_list) != 3:
+                continue
+
+            # 2. Validar que los objetivos sean componentes válidos
+            valid_objs = {'ex', 'extractions', 'cc', 'loc'}
+            if not all(o in valid_objs for o in objs_list):
+                continue
+            # ------------------------------------------
             if target_class and not classpath.endswith(target_class): continue
 
             csv_path = os.path.join(root, f"{method}_complete_data.csv")
@@ -637,28 +650,40 @@ def main():
             project_root = extraction_path
         project_name = clean_name
 
-    # --- BÚSQUEDA ADAPTATIVA (INTELIGENTE) DE LA CARPETA DE RESULTADOS ---
+    # --- BÚSQUEDA ADAPTATIVA INTELIGENTE Y CASE-INSENSITIVE ---
+    target_project_name = project_name.lower()
+    project_dir = None
+
+    # 1. Buscar la carpeta del proyecto (soporta minusculas/mayusculas y rutas anidadas como output/results/fastjson)
+    if os.path.basename(os.path.normpath(args.results_dir)).lower() == target_project_name:
+        project_dir = args.results_dir
+    else:
+        for root, dirs, _ in os.walk(args.results_dir):
+            for d in dirs:
+                if d.lower() == target_project_name:
+                    project_dir = os.path.join(root, d)
+                    break
+            if project_dir:
+                break
+
     target_results_dir = None
 
-    if os.path.isdir(args.results_dir):
-        # 1. Buscar una subcarpeta que contenga el nombre del proyecto (ignorando mayúsculas/minúsculas)
-        for folder_name in os.listdir(args.results_dir):
-            full_folder_path = os.path.join(args.results_dir, folder_name)
-            if os.path.isdir(full_folder_path):
-                # Compara "fastjson" con "fastjson", "FastJson", "fastjson-results", etc.
-                if project_name.lower() in folder_name.lower():
-                    target_results_dir = full_folder_path
-                    break
+    if project_dir:
+        # 2. Si existe la subcarpeta explícita de "3-objectives", usamos esa
+        for item in os.listdir(project_dir):
+            item_path = os.path.join(project_dir, item)
+            if os.path.isdir(item_path) and "3-objective" in item.lower():
+                target_results_dir = item_path
+                break
 
-    # 2. Por si el usuario ya ha pasado la ruta exacta del proyecto en --results-dir
-    if not target_results_dir and project_name.lower() in os.path.basename(
-            os.path.normpath(args.results_dir)).lower():
-        target_results_dir = args.results_dir
+        # 3. Si no existe subcarpeta de "3-objectives" (caso 1), usamos la carpeta del proyecto directamente
+        if not target_results_dir:
+            target_results_dir = project_dir
 
-    if not target_results_dir:
+    if not target_results_dir or not os.path.exists(target_results_dir):
         print(
-            f"\n⚠️ Error: No se encontró ninguna subcarpeta para el proyecto '{project_name}' dentro de:\n{args.results_dir}")
-        print("Por seguridad, se detiene la ejecución para no intentar refactorizar archivos de otros proyectos.")
+            f"\n⚠️ Error: No se encontró ninguna carpeta correspondiente a '{project_name}' dentro de:\n{args.results_dir}")
+        print("Comprueba que el nombre del proyecto coincida con la carpeta de resultados.")
         return
 
     print(f"🔍 Explorando resultados en: {target_results_dir}")

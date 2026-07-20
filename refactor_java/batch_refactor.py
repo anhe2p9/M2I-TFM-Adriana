@@ -53,35 +53,36 @@ class JDTLSClient:
 
         original_config_path = os.path.abspath(os.path.join(self.jdtls_home, config_dir)).replace("\\", "/")
 
-        # SOLUCIÓN DE PERMISOS: Copiamos la configuración a un directorio temporal con permisos de escritura
+        # Copiamos la configuración a la carpeta temporal con permisos universales
         writable_config_path = os.path.join(self.workspace_dir, "jdtls_config")
         if not os.path.exists(writable_config_path):
             shutil.copytree(original_config_path, writable_config_path)
 
         cmd = [
             "java",
+            f"-Duser.home={self.workspace_dir}",  # Redirige el HOME de Java a la carpeta temporal con permisos
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",
             "-Dlog.level=ALL",
             "-Xmx2G",
             "--add-modules=ALL-SYSTEM",
-            "--add-opens", "java.base/java.util=ALL-UNNAMED",
-            "--add-opens", "java.base/java.lang=ALL-UNNAMED",
+            "--add-opens=java.base/java.util=ALL-UNNAMED",
+            "--add-opens=java.base/java.lang=ALL-UNNAMED",
             "-jar", launcher_jar,
-            "-configuration", writable_config_path,  # <- Usamos la carpeta con permisos
+            "-configuration", writable_config_path,
             "-data", self.workspace_dir,
             "-noconsole"
         ]
 
         print("\n🚀 [Sistema] Iniciando JVM (4GB) y cargando Eclipse JDT LS...")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        time.sleep(2.0)
+        time.sleep(4.0)
 
-        # Comprobamos si el proceso ha muerto prematuramente
         if self.proc.poll() is not None:
             err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore')
-            raise RuntimeError(f"El proceso JDT LS ha fallado al iniciar. Detalle de Java:\n{err_msg}")
+            raise RuntimeError(
+                f"El proceso JDT LS ha fallado al iniciar (código {self.proc.returncode}). Detalle de Java:\n{err_msg}")
 
         self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
         self.reader_thread.start()

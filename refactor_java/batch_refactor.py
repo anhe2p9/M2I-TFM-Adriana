@@ -42,7 +42,7 @@ class JDTLSClient:
         self.running = True
         self.msg_queue = queue.Queue()
 
-        # 1. Copia la configuración a un directorio temporal independiente
+        # 1. Configuración local (Evita problemas de permisos en config_linux)
         local_config = tempfile.mkdtemp(prefix="jdtls_config_")
         config_subfolder = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
             "darwin") else "config_linux"
@@ -52,17 +52,18 @@ class JDTLSClient:
         else:
             local_config = orig_config
 
-        # 2. Filtrado preciso del JAR del launcher principal de Equinox
+        # 2. Workspace temporal EXCLUSIVO para JDT LS (Soluciona el Código 13 de Lock)
+        jdtls_workspace = tempfile.mkdtemp(prefix="jdtls_ws_")
+
+        # 3. Localizar el JAR de Equinox
         plugins_dir = os.path.join(self.jdtls_home, "plugins")
         all_launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
         valid_launchers = [
             f for f in all_launchers
             if not any(x in os.path.basename(f) for x in ["source", "gtk", "win32", "cocoa", "x86_64", "arm64"])
         ]
-
         if not valid_launchers:
             valid_launchers = all_launchers
-
         if not valid_launchers:
             raise FileNotFoundError(f"❌ No se encontró el JAR de equinox launcher en {plugins_dir}")
 
@@ -70,7 +71,6 @@ class JDTLSClient:
 
         cmd = [
             "java",
-            f"-Duser.home={self.workspace_dir}",
             "-Djava.awt.headless=true",
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
@@ -82,14 +82,14 @@ class JDTLSClient:
             "--add-opens", "java.base/java.lang=ALL-UNNAMED",
             "-jar", launcher_jar,
             "-configuration", local_config,
-            "-data", self.workspace_dir,
+            "-data", jdtls_workspace,
             "-noconsole"
         ]
 
-        print("\n🚀 [Sistema] Iniciando JVM (2GB) y cargando Eclipse JDT LS...")
+        print(f"\n🚀 [Sistema] Iniciando JVM (2GB) en workspace aislado...")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-        # Iniciar lectura de streams inmediatamente para prevenir bloqueos de búfer
+        # Iniciar lectura de streams de inmediato
         self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
         self.reader_thread.start()
 
@@ -99,8 +99,8 @@ class JDTLSClient:
             err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore') if self.proc.stderr else ""
             out_msg = self.proc.stdout.read().decode('utf-8', errors='ignore') if self.proc.stdout else ""
 
-            # Recuperar log interno de Eclipse si se llegó a crear
-            eclipse_log_path = os.path.join(self.workspace_dir, ".metadata", ".log")
+            # Recuperar el log si ha logrado crearlo en el workspace temporal
+            eclipse_log_path = os.path.join(jdtls_workspace, ".metadata", ".log")
             eclipse_log_content = ""
             if os.path.exists(eclipse_log_path):
                 try:

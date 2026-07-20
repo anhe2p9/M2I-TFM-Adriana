@@ -180,7 +180,7 @@ class JDTLSClient:
                     "codeAction": {"codeActionLiteralSupport": {"codeActionKind": {"valueSet": ["refactor.extract"]}}}}
             }
         })
-        self.wait_for_response(req_id, timeout=120)
+        self.wait_for_response(req_id, timeout=1000)
         self.send("initialized", is_notification=True)
         print("☕ [Fase 1 completada] Eclipse listo y proyecto cargado.")
 

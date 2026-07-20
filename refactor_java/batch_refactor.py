@@ -46,12 +46,18 @@ class JDTLSClient:
         local_jdtls = tempfile.mkdtemp(prefix="jdtls_inst_")
         shutil.copytree(self.jdtls_home, local_jdtls, dirs_exist_ok=True)
 
-        # 2. Otorgar permisos totales (rwx) a todos los archivos y subcarpetas copiados
+        # 2. Asignar permisos totales de lectura/escritura a la copia local
         for root_dir, dirs, files in os.walk(local_jdtls):
             for d in dirs:
-                os.chmod(os.path.join(root_dir, d), 0o777)
+                try:
+                    os.chmod(os.path.join(root_dir, d), 0o777)
+                except Exception:
+                    pass
             for f in files:
-                os.chmod(os.path.join(root_dir, f), 0o777)
+                try:
+                    os.chmod(os.path.join(root_dir, f), 0o777)
+                except Exception:
+                    pass
 
         plugins_dir = os.path.join(local_jdtls, "plugins")
         launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
@@ -66,7 +72,6 @@ class JDTLSClient:
         cmd = [
             "java",
             "-Duser.home=/tmp",
-            f"-Dosgi.configuration.area={config_path}",
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",

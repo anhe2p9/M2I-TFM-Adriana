@@ -58,7 +58,7 @@ class JDTLSClient:
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",
             "-Dlog.level=ALL",
-            "-Xmx4G",
+            "-Xmx2G",
             "--add-modules=ALL-SYSTEM",
             "--add-opens", "java.base/java.util=ALL-UNNAMED",
             "--add-opens", "java.base/java.lang=ALL-UNNAMED",
@@ -118,23 +118,18 @@ class JDTLSClient:
         try:
             msg = self.msg_queue.get(timeout=timeout)
 
-            # Mensajes de estado generales
             if msg.get("method") in ["window/logMessage", "language/status"]:
                 text = msg.get("params", {}).get("message", "")
                 if any(x in text for x in ["Compile", "Build", "Error", "Indexing"]):
                     print(f"      🛠️ [Eclipse] {text}")
 
-            # NUEVO: Capturar errores de compilación (Diagnostics)
             elif msg.get("method") == "textDocument/publishDiagnostics":
                 uri = msg.get("params", {}).get("uri", "")
                 diagnostics = msg.get("params", {}).get("diagnostics", [])
-
-                # severity 1 = Error, 2 = Warning
                 errors = [d for d in diagnostics if d.get("severity") == 1]
 
                 if errors:
                     filename = os.path.basename(uri)
-                    # Imprimir solo el primer error para no saturar la consola
                     print(f"      🚨 [Error de Compilación en {filename}]: {errors[0]['message']}")
 
             return msg
@@ -194,7 +189,6 @@ class JDTLSClient:
             with open(file_path, 'r', encoding='latin-1', newline="") as f:
                 content = f.read()
 
-
         self.file_versions[abs_path] = self.file_versions.get(abs_path, 0) + 1
         self.send("textDocument/didOpen", {
             "textDocument": {"uri": f"file:///{abs_path}", "languageId": "java",
@@ -244,7 +238,6 @@ class JDTLSClient:
                         doc_change["edits"], desired_name)
 
     def apply_text_edits(self, file_path, edits, desired_name):
-
         try:
             with open(file_path, 'r', encoding='utf-8', newline="") as f:
                 content = f.read()
@@ -266,14 +259,12 @@ class JDTLSClient:
                 lines[s_line] = lines[s_line][:s_char] + new_text + lines[e_line][e_char:]
                 for _ in range(s_line + 1, e_line + 1): lines.pop(s_line + 1)
 
-        # Guardar el archivo modificado con soporte para caracteres especiales
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write("".join(lines))
         except UnicodeEncodeError:
             with open(file_path, "w", encoding="latin-1") as f:
                 f.write("".join(lines))
-
 
     def stop(self):
         self.running = False
@@ -303,6 +294,8 @@ def offset_to_position(content, offset):
 def process_results(results_base_dir, target_algo, user_priority, target_class=None):
     class_offsets_map = {}
     base_path = Path(results_base_dir)
+
+    # Expresión regular adaptada para soportar cualquier número de objetivos (2 ó 3)
     folder_pattern = re.compile(r"^(?P<algo>[^_]+)_(?P<objs>[^_]+)_(?P<classpath>.*\.java)_(?P<method>.+)$")
 
     for root, dirs, files in os.walk(base_path):
@@ -312,16 +305,19 @@ def process_results(results_base_dir, target_algo, user_priority, target_class=N
         if match:
             algo, objs_str, classpath, method = match.group("algo"), match.group("objs"), match.group(
                 "classpath"), match.group("method")
-            if algo != target_algo or (target_class and not classpath.endswith(target_class)): continue
+
+            if algo != target_algo: continue
+            if target_class and not classpath.endswith(target_class): continue
 
             csv_path = os.path.join(root, f"{method}_complete_data.csv")
             if not os.path.exists(csv_path): continue
 
-            df = pd.read_csv(csv_path)
             try:
+                df = pd.read_csv(csv_path)
                 df['parsed_solution'] = df['solution'].apply(ast.literal_eval)
-            except:
+            except Exception:
                 continue
+
             df = df[df['parsed_solution'].apply(lambda x: len(x) > 0)]
             if df.empty: continue
 
@@ -359,10 +355,16 @@ def process_results(results_base_dir, target_algo, user_priority, target_class=N
                     if idx in children: return get_depth(parent, current_depth + 1)
                 return current_depth
 
-            for ext in method_extractions: ext["depth"] = get_depth(ext["orig_idx"]) if ext[
-                                                                                            "orig_idx"] is not None else 0
+            for ext in method_extractions:
+                ext["depth"] = get_depth(ext["orig_idx"]) if ext["orig_idx"] is not None else 0
 
-            real_class_path = classpath.replace(".", "/")[:-5] + ".java"
+            # Normalizar la ruta de la clase a partir del classpath
+            if classpath.endswith(".java"):
+                base_cp = classpath[:-5]
+            else:
+                base_cp = classpath
+            real_class_path = base_cp.replace("-", "/").replace(".", "/") + ".java"
+
             if real_class_path not in class_offsets_map: class_offsets_map[real_class_path] = {}
             if method not in class_offsets_map[real_class_path]: class_offsets_map[real_class_path][method] = []
             class_offsets_map[real_class_path][method].extend(method_extractions)
@@ -417,8 +419,6 @@ def inject_markers(file_path, prepared_extractions):
 def apply_refactorings_to_classes(class_offsets_map, project_root):
     temp_ws = tempfile.mkdtemp(prefix="jdtls_ws_")
     client = JDTLSClient(JDTLS_HOME, temp_ws, project_root)
-
-    # --- LISTA PARA RECOLECTAR ESTADÍSTICAS ---
     extraction_results = []
 
     try:
@@ -428,24 +428,24 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
         for class_rel_path, methods_dict in class_offsets_map.items():
             if not methods_dict: continue
 
-            # 1. Intentar la ruta normal directa
+            # 1. Intentar la ruta relativa completa
             full_class_path = os.path.join(project_root, class_rel_path)
 
-            # 2. Si no existe, buscar inteligentemente en los submódulos
+            # 2. Si no existe, buscar por coincidencia de subcarpeta o nombre de archivo (.java)
             if not os.path.exists(full_class_path):
                 found_path = None
-                # Recorremos todas las carpetas dentro del proyecto raíz
+                target_filename = os.path.basename(class_rel_path)
+
                 for current_dir, dirs, files in os.walk(project_root):
-                    candidate_path = os.path.join(current_dir, class_rel_path)
-                    if os.path.exists(candidate_path):
-                        found_path = candidate_path
-                        break  # ¡Lo encontramos!
+                    if target_filename in files:
+                        found_path = os.path.join(current_dir, target_filename)
+                        break
 
                 if found_path:
                     full_class_path = found_path
                 else:
                     print(
-                        f"   👻 Archivo fantasma: No se encontró '{class_rel_path}' en ningún submódulo de {os.path.basename(project_root)}")
+                        f"   👻 Archivo fantasma: No se encontró '{class_rel_path}' ({target_filename}) en {os.path.basename(project_root)}")
                     continue
 
             print(f"\n📁 Procesando clase: {os.path.basename(full_class_path)}")
@@ -453,9 +453,7 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
             inject_markers(full_class_path, prepared_extractions)
             print(f"   ↳ Inyectados marcadores jerárquicos para {len(prepared_extractions)} bloques.")
 
-            import time
             time.sleep(3)
-
             client.open_file(full_class_path)
 
             for ext_item in prepared_extractions:
@@ -565,24 +563,34 @@ def main():
             project_root = extraction_path
         project_name = clean_name
 
-    target_results_dir = os.path.join(args.results_dir, project_name, f"{project_name}-3-objectives-results")
+    # --- BÚSQUEDA ADAPTATIVA DE LA CARPETA DE RESULTADOS ---
+    possible_paths = [
+        os.path.join(args.results_dir, project_name, f"{project_name}-3-objectives-results"),
+        os.path.join(args.results_dir, project_name, f"{project_name}-2-objectives-results"),
+        os.path.join(args.results_dir, project_name),
+        args.results_dir
+    ]
 
-    if not os.path.exists(target_results_dir):
-        print(f"\n⚠️ Error: No se encontró la carpeta:\n{target_results_dir}")
+    target_results_dir = None
+    for candidate in possible_paths:
+        if os.path.exists(candidate):
+            target_results_dir = candidate
+            break
+
+    if not target_results_dir:
+        print(f"\n⚠️ Error: No se encontró la carpeta de resultados en:\n{args.results_dir}")
         return
 
+    print(f"🔍 Explorando resultados en: {target_results_dir}")
     class_map = process_results(target_results_dir, args.algorithm, args.priority, args.target_class)
 
     if not class_map:
-        print("\n⚠️ No se encontraron resultados que aplicar.")
+        print("\n⚠️ No se encontraron resultados válidos para aplicar.")
         return
 
     print("\n--- INICIANDO REFACTORIZACIÓN EN LOTE ---")
     extraction_results = apply_refactorings_to_classes(class_map, project_root)
 
-    # =====================================================================
-    # GENERACIÓN DE CSV Y MOSTRAR RESUMEN POR PANTALLA
-    # =====================================================================
     total_intentos = len(extraction_results)
 
     if total_intentos > 0:
@@ -590,7 +598,6 @@ def main():
         fallidos = total_intentos - exitosos
         porcentaje = (exitosos / total_intentos) * 100
 
-        # Guardar CSV en la misma carpeta base que el proyecto original
         parent_dir = os.path.dirname(os.path.normpath(args.project_root))
         csv_filename = f"{project_name}_metricas_extraccion.csv"
         csv_path = os.path.abspath(os.path.join(parent_dir, csv_filename))

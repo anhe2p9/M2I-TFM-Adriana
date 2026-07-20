@@ -42,18 +42,25 @@ class JDTLSClient:
         self.running = True
         self.msg_queue = queue.Queue()
 
-        plugins_dir = f"{self.jdtls_home}/plugins"
+        # [SOLUCIÓN DEFINITIVA]: Clonamos el servidor Eclipse entero a la carpeta temporal.
+        # Soluciona permisos, mantiene rutas relativas intactas y aísla la ejecución.
+        local_jdtls = os.path.join(self.workspace_dir, "jdtls_local")
+        if not os.path.exists(local_jdtls):
+            shutil.copytree(self.jdtls_home, local_jdtls)
+
+        plugins_dir = f"{local_jdtls}/plugins"
         launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
         if not launchers:
-            raise FileNotFoundError("❌ No se encontró el JAR de equinox launcher. Revisa JDTLS_HOME.")
+            raise FileNotFoundError("❌ No se encontró el JAR de equinox launcher en la copia local.")
         launcher_jar = os.path.abspath(launchers[0]).replace("\\", "/")
 
         config_dir = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
             "darwin") else "config_linux"
-        config_path = os.path.abspath(os.path.join(self.jdtls_home, config_dir)).replace("\\", "/")
+        config_path = os.path.abspath(os.path.join(local_jdtls, config_dir)).replace("\\", "/")
 
         cmd = [
             "java",
+            f"-Duser.home={self.workspace_dir}",  # Aisla los archivos ocultos de Java
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",
@@ -70,7 +77,7 @@ class JDTLSClient:
 
         print("\n🚀 [Sistema] Iniciando JVM (4GB) y cargando Eclipse JDT LS...")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        time.sleep(2.0)
+        time.sleep(3.0)
 
         if self.proc.poll() is not None:
             err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore') if self.proc.stderr else ""

@@ -39,24 +39,39 @@ class JDTLSClient:
         self.running = False
 
     def start(self):
+        import uuid
         self.running = True
         self.msg_queue = queue.Queue()
 
-        # 1. Configuración local (Evita problemas de permisos en config_linux)
-        local_config = tempfile.mkdtemp(prefix="jdtls_config_")
-        config_subfolder = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
-            "darwin") else "config_linux"
-        orig_config = os.path.join(self.jdtls_home, config_subfolder)
-        if os.path.exists(orig_config):
-            shutil.copytree(orig_config, local_config, dirs_exist_ok=True)
-        else:
-            local_config = orig_config
+        uid = uuid.uuid4().hex[:8]
 
-        # 2. Workspace temporal EXCLUSIVO para JDT LS (Soluciona el Código 13 de Lock)
-        jdtls_workspace = tempfile.mkdtemp(prefix="jdtls_ws_")
+        # 1. Clonar TODO el servidor JDT LS para mantener plugins/ y config/ unidos
+        local_jdtls = os.path.join(tempfile.gettempdir(), f"jdtls_iso_{uid}")
+        shutil.copytree(self.jdtls_home, local_jdtls)
 
-        # 3. Localizar el JAR de Equinox
-        plugins_dir = os.path.join(self.jdtls_home, "plugins")
+        # 2. Dar permisos totales para evitar problemas con el usuario de Docker
+        for root_dir, dirs, files in os.walk(local_jdtls):
+            for d in dirs:
+                try:
+                    os.chmod(os.path.join(root_dir, d), 0o777)
+                except Exception:
+                    pass
+            for f in files:
+                try:
+                    os.chmod(os.path.join(root_dir, f), 0o777)
+                except Exception:
+                    pass
+
+        # 3. Workspace aislado en /tmp
+        jdtls_workspace = os.path.join(tempfile.gettempdir(), f"jdtls_ws_{uid}")
+        os.makedirs(jdtls_workspace, exist_ok=True)
+        try:
+            os.chmod(jdtls_workspace, 0o777)
+        except Exception:
+            pass
+
+        # 4. Configurar rutas locales
+        plugins_dir = os.path.join(local_jdtls, "plugins")
         all_launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
         valid_launchers = [
             f for f in all_launchers
@@ -69,8 +84,18 @@ class JDTLSClient:
 
         launcher_jar = os.path.abspath(valid_launchers[0]).replace("\\", "/")
 
+        config_dir = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
+            "darwin") else "config_linux"
+        config_path = os.path.join(local_jdtls, config_dir).replace("\\", "/")
+
+        # ¡CRÍTICO! Limpiar caché OSGi previa por si viene bloqueada de la imagen Docker
+        osgi_cache = os.path.join(config_path, "org.eclipse.osgi")
+        if os.path.exists(osgi_cache):
+            shutil.rmtree(osgi_cache, ignore_errors=True)
+
         cmd = [
             "java",
+            "-Duser.home=/tmp",
             "-Djava.awt.headless=true",
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
@@ -81,15 +106,15 @@ class JDTLSClient:
             "--add-opens", "java.base/java.util=ALL-UNNAMED",
             "--add-opens", "java.base/java.lang=ALL-UNNAMED",
             "-jar", launcher_jar,
-            "-configuration", local_config,
+            "-configuration", config_path,
             "-data", jdtls_workspace,
             "-noconsole"
         ]
 
-        print(f"\n🚀 [Sistema] Iniciando JVM (2GB) en workspace aislado...")
+        print(f"\n🚀 [Sistema] Iniciando JVM en entorno 100% aislado (Servidor clonado en /tmp)...")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-        # Iniciar lectura de streams de inmediato
+        # Iniciar lectura de streams
         self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
         self.reader_thread.start()
 
@@ -99,7 +124,6 @@ class JDTLSClient:
             err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore') if self.proc.stderr else ""
             out_msg = self.proc.stdout.read().decode('utf-8', errors='ignore') if self.proc.stdout else ""
 
-            # Recuperar el log si ha logrado crearlo en el workspace temporal
             eclipse_log_path = os.path.join(jdtls_workspace, ".metadata", ".log")
             eclipse_log_content = ""
             if os.path.exists(eclipse_log_path):
@@ -112,6 +136,8 @@ class JDTLSClient:
             detail = f"--- STDOUT ---\n{out_msg}\n--- STDERR ---\n{err_msg}"
             if eclipse_log_content:
                 detail += f"\n--- ECLIPSE LOG (.metadata/.log) ---\n{eclipse_log_content}"
+            else:
+                detail += f"\n[!] No se generó log en el workspace. Verifica rutas."
 
             raise RuntimeError(
                 f"El proceso JDT LS ha fallado al iniciar (Código {self.proc.returncode}).\nDetalle:\n{detail}")

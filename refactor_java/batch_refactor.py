@@ -50,7 +50,13 @@ class JDTLSClient:
 
         config_dir = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
             "darwin") else "config_linux"
-        config_path = os.path.abspath(os.path.join(self.jdtls_home, config_dir)).replace("\\", "/")
+
+        original_config_path = os.path.abspath(os.path.join(self.jdtls_home, config_dir)).replace("\\", "/")
+
+        # SOLUCIÓN DE PERMISOS: Copiamos la configuración a un directorio temporal con permisos de escritura
+        writable_config_path = os.path.join(self.workspace_dir, "jdtls_config")
+        if not os.path.exists(writable_config_path):
+            shutil.copytree(original_config_path, writable_config_path)
 
         cmd = [
             "java",
@@ -63,7 +69,7 @@ class JDTLSClient:
             "--add-opens", "java.base/java.util=ALL-UNNAMED",
             "--add-opens", "java.base/java.lang=ALL-UNNAMED",
             "-jar", launcher_jar,
-            "-configuration", config_path,
+            "-configuration", writable_config_path,  # <- Usamos la carpeta con permisos
             "-data", self.workspace_dir,
             "-noconsole"
         ]
@@ -71,8 +77,11 @@ class JDTLSClient:
         print("\n🚀 [Sistema] Iniciando JVM (4GB) y cargando Eclipse JDT LS...")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         time.sleep(2.0)
+
+        # Comprobamos si el proceso ha muerto prematuramente
         if self.proc.poll() is not None:
-            raise RuntimeError("El proceso JDT LS ha fallado al iniciar.")
+            err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore')
+            raise RuntimeError(f"El proceso JDT LS ha fallado al iniciar. Detalle de Java:\n{err_msg}")
 
         self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
         self.reader_thread.start()

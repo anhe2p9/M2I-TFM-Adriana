@@ -637,22 +637,28 @@ def main():
             project_root = extraction_path
         project_name = clean_name
 
-    # --- BÚSQUEDA ADAPTATIVA DE LA CARPETA DE RESULTADOS ---
-    possible_paths = [
-        os.path.join(args.results_dir, project_name, f"{project_name}-3-objectives-results"),
-        os.path.join(args.results_dir, project_name, f"{project_name}-2-objectives-results"),
-        os.path.join(args.results_dir, project_name),
-        args.results_dir
-    ]
-
+    # --- BÚSQUEDA ADAPTATIVA (INTELIGENTE) DE LA CARPETA DE RESULTADOS ---
     target_results_dir = None
-    for candidate in possible_paths:
-        if os.path.exists(candidate):
-            target_results_dir = candidate
-            break
+
+    if os.path.isdir(args.results_dir):
+        # 1. Buscar una subcarpeta que contenga el nombre del proyecto (ignorando mayúsculas/minúsculas)
+        for folder_name in os.listdir(args.results_dir):
+            full_folder_path = os.path.join(args.results_dir, folder_name)
+            if os.path.isdir(full_folder_path):
+                # Compara "fastjson" con "fastjson", "FastJson", "fastjson-results", etc.
+                if project_name.lower() in folder_name.lower():
+                    target_results_dir = full_folder_path
+                    break
+
+    # 2. Por si el usuario ya ha pasado la ruta exacta del proyecto en --results-dir
+    if not target_results_dir and project_name.lower() in os.path.basename(
+            os.path.normpath(args.results_dir)).lower():
+        target_results_dir = args.results_dir
 
     if not target_results_dir:
-        print(f"\n⚠️ Error: No se encontró la carpeta de resultados en:\n{args.results_dir}")
+        print(
+            f"\n⚠️ Error: No se encontró ninguna subcarpeta para el proyecto '{project_name}' dentro de:\n{args.results_dir}")
+        print("Por seguridad, se detiene la ejecución para no intentar refactorizar archivos de otros proyectos.")
         return
 
     print(f"🔍 Explorando resultados en: {target_results_dir}")

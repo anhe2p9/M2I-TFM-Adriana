@@ -42,36 +42,36 @@ class JDTLSClient:
         self.running = True
         self.msg_queue = queue.Queue()
 
-        # 1. Crear una copia privada e independiente de JDT LS en /tmp
-        local_jdtls = tempfile.mkdtemp(prefix="jdtls_inst_")
-        shutil.copytree(self.jdtls_home, local_jdtls, dirs_exist_ok=True)
-
-        # 2. Asignar permisos totales de lectura/escritura a la copia local
-        for root_dir, dirs, files in os.walk(local_jdtls):
-            for d in dirs:
-                try:
-                    os.chmod(os.path.join(root_dir, d), 0o777)
-                except Exception:
-                    pass
-            for f in files:
-                try:
-                    os.chmod(os.path.join(root_dir, f), 0o777)
-                except Exception:
-                    pass
-
-        plugins_dir = os.path.join(local_jdtls, "plugins")
-        launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
-        if not launchers:
-            raise FileNotFoundError("❌ No se encontró el JAR de equinox launcher en la copia local.")
-        launcher_jar = os.path.abspath(launchers[0]).replace("\\", "/")
-
-        config_dir = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
+        # 1. Copia la configuración a un directorio temporal independiente
+        local_config = tempfile.mkdtemp(prefix="jdtls_config_")
+        config_subfolder = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
             "darwin") else "config_linux"
-        config_path = os.path.abspath(os.path.join(local_jdtls, config_dir)).replace("\\", "/")
+        orig_config = os.path.join(self.jdtls_home, config_subfolder)
+        if os.path.exists(orig_config):
+            shutil.copytree(orig_config, local_config, dirs_exist_ok=True)
+        else:
+            local_config = orig_config
+
+        # 2. Filtrado preciso del JAR del launcher principal de Equinox
+        plugins_dir = os.path.join(self.jdtls_home, "plugins")
+        all_launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
+        valid_launchers = [
+            f for f in all_launchers
+            if not any(x in os.path.basename(f) for x in ["source", "gtk", "win32", "cocoa", "x86_64", "arm64"])
+        ]
+
+        if not valid_launchers:
+            valid_launchers = all_launchers
+
+        if not valid_launchers:
+            raise FileNotFoundError(f"❌ No se encontró el JAR de equinox launcher en {plugins_dir}")
+
+        launcher_jar = os.path.abspath(valid_launchers[0]).replace("\\", "/")
 
         cmd = [
             "java",
-            "-Duser.home=/tmp",
+            f"-Duser.home={self.workspace_dir}",
+            "-Djava.awt.headless=true",
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",
@@ -81,22 +81,40 @@ class JDTLSClient:
             "--add-opens", "java.base/java.util=ALL-UNNAMED",
             "--add-opens", "java.base/java.lang=ALL-UNNAMED",
             "-jar", launcher_jar,
-            "-configuration", config_path,
+            "-configuration", local_config,
             "-data", self.workspace_dir,
             "-noconsole"
         ]
 
-        print("\n🚀 [Sistema] Iniciando JVM (4GB) y cargando Eclipse JDT LS...")
+        print("\n🚀 [Sistema] Iniciando JVM (2GB) y cargando Eclipse JDT LS...")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+        # Iniciar lectura de streams inmediatamente para prevenir bloqueos de búfer
+        self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
+        self.reader_thread.start()
+
         time.sleep(3.0)
 
         if self.proc.poll() is not None:
             err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore') if self.proc.stderr else ""
-            raise RuntimeError(
-                f"El proceso JDT LS ha fallado al iniciar. Código {self.proc.returncode}.\nDetalle: {err_msg}")
+            out_msg = self.proc.stdout.read().decode('utf-8', errors='ignore') if self.proc.stdout else ""
 
-        self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
-        self.reader_thread.start()
+            # Recuperar log interno de Eclipse si se llegó a crear
+            eclipse_log_path = os.path.join(self.workspace_dir, ".metadata", ".log")
+            eclipse_log_content = ""
+            if os.path.exists(eclipse_log_path):
+                try:
+                    with open(eclipse_log_path, 'r', encoding='utf-8', errors='ignore') as f:
+                        eclipse_log_content = f.read()
+                except Exception:
+                    pass
+
+            detail = f"--- STDOUT ---\n{out_msg}\n--- STDERR ---\n{err_msg}"
+            if eclipse_log_content:
+                detail += f"\n--- ECLIPSE LOG (.metadata/.log) ---\n{eclipse_log_content}"
+
+            raise RuntimeError(
+                f"El proceso JDT LS ha fallado al iniciar (Código {self.proc.returncode}).\nDetalle:\n{detail}")
 
     def _enqueue_output(self):
         stdout = self.proc.stdout

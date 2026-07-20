@@ -12,7 +12,6 @@ import configparser
 from pathlib import Path
 
 import utils.results_utils as results_utils
-import utils.interactive_3DPF_with_solutions as interactive_3dpf
 
 from ILP_CC_reducer.operations.ILP_engine import ILPEngine
 from ILP_CC_reducer.algorithms import __all__ as ALGORITHMS_NAMES
@@ -515,6 +514,7 @@ def generate_plots_and_stats(config, objectives, general_path, args):
 
         if args["3dPF"]:
             if refact_cache and original_class:
+                import utils.interactive_3DPF_with_solutions as interactive_3dpf
                 interactive_3dpf.generate_3d_pf_and_parallel_coordinates_plot(objectives, complete_data_path,
                                                                               output_html_path, refact_cache,
                                                                               original_class)
@@ -601,6 +601,7 @@ def main():
 
     # 4. Handle "solution_path" if explicitly requested by the user
     if args.get('solution_path'):
+        import utils.interactive_3DPF_with_solutions as interactive_3dpf
         solution_path = Path(args['solution_path'])
         try:
             orig_class, complete, cache = classify_solution_files(solution_path)

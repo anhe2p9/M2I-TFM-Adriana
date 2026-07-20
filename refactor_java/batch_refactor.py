@@ -40,16 +40,17 @@ class JDTLSClient:
 
     def start(self):
         import uuid
+        import glob
         self.running = True
         self.msg_queue = queue.Queue()
 
         uid = uuid.uuid4().hex[:8]
 
-        # 1. Clonar TODO el servidor JDT LS para mantener plugins/ y config/ unidos
+        # 1. Clonar el servidor
         local_jdtls = os.path.join(tempfile.gettempdir(), f"jdtls_iso_{uid}")
         shutil.copytree(self.jdtls_home, local_jdtls)
 
-        # 2. Dar permisos totales para evitar problemas con el usuario de Docker
+        # 2. Permisos
         for root_dir, dirs, files in os.walk(local_jdtls):
             for d in dirs:
                 try:
@@ -62,7 +63,7 @@ class JDTLSClient:
                 except Exception:
                     pass
 
-        # 3. Workspace aislado en /tmp
+        # 3. Workspace
         jdtls_workspace = os.path.join(tempfile.gettempdir(), f"jdtls_ws_{uid}")
         os.makedirs(jdtls_workspace, exist_ok=True)
         try:
@@ -70,25 +71,29 @@ class JDTLSClient:
         except Exception:
             pass
 
-        # 4. Configurar rutas locales
+        # 4. Encontrar Launcher
         plugins_dir = os.path.join(local_jdtls, "plugins")
         all_launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
-        valid_launchers = [
-            f for f in all_launchers
-            if not any(x in os.path.basename(f) for x in ["source", "gtk", "win32", "cocoa", "x86_64", "arm64"])
-        ]
+        valid_launchers = [f for f in all_launchers if not any(
+            x in os.path.basename(f) for x in ["source", "gtk", "win32", "cocoa", "x86_64", "arm64"])]
         if not valid_launchers:
             valid_launchers = all_launchers
         if not valid_launchers:
-            raise FileNotFoundError(f"❌ No se encontró el JAR de equinox launcher en {plugins_dir}")
+            raise FileNotFoundError(f"❌ No se encontró launcher en {plugins_dir}")
 
         launcher_jar = os.path.abspath(valid_launchers[0]).replace("\\", "/")
 
+        # 5. Validar Configuración
         config_dir = "config_win" if sys.platform.startswith("win") else "config_mac" if sys.platform.startswith(
             "darwin") else "config_linux"
         config_path = os.path.join(local_jdtls, config_dir).replace("\\", "/")
 
-        # ¡CRÍTICO! Limpiar caché OSGi previa por si viene bloqueada de la imagen Docker
+        # ¡NUEVO!: Si config_linux no tiene config.ini, usar la carpeta compartida o fallará con Código 13
+        if not os.path.exists(os.path.join(config_path, "config.ini")):
+            alt_config = os.path.join(local_jdtls, "config_ss_linux").replace("\\", "/")
+            if os.path.exists(os.path.join(alt_config, "config.ini")):
+                config_path = alt_config
+
         osgi_cache = os.path.join(config_path, "org.eclipse.osgi")
         if os.path.exists(osgi_cache):
             shutil.rmtree(osgi_cache, ignore_errors=True)
@@ -105,39 +110,43 @@ class JDTLSClient:
             "--add-modules=ALL-SYSTEM",
             "--add-opens", "java.base/java.util=ALL-UNNAMED",
             "--add-opens", "java.base/java.lang=ALL-UNNAMED",
+            "--add-opens", "java.base/sun.nio.ch=ALL-UNNAMED",
             "-jar", launcher_jar,
             "-configuration", config_path,
             "-data", jdtls_workspace,
             "-noconsole"
         ]
 
-        print(f"\n🚀 [Sistema] Iniciando JVM en entorno 100% aislado (Servidor clonado en /tmp)...")
+        print(f"\n🚀 [Sistema] Iniciando JVM... (Buscando logs profundos OSGi en caso de error)")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-        # Iniciar lectura de streams
         self.reader_thread = threading.Thread(target=self._enqueue_output, daemon=True)
         self.reader_thread.start()
 
-        time.sleep(3.0)
+        time.sleep(4.0)  # Damos margen para que Equinox vuelque el log
 
         if self.proc.poll() is not None:
             err_msg = self.proc.stderr.read().decode('utf-8', errors='ignore') if self.proc.stderr else ""
             out_msg = self.proc.stdout.read().decode('utf-8', errors='ignore') if self.proc.stdout else ""
 
-            eclipse_log_path = os.path.join(jdtls_workspace, ".metadata", ".log")
-            eclipse_log_content = ""
-            if os.path.exists(eclipse_log_path):
+            # Buscar logs tanto en configuración como en workspace
+            log_contents = ""
+            log_files = glob.glob(os.path.join(config_path, "*.log")) + glob.glob(
+                os.path.join(jdtls_workspace, ".metadata", "*.log"))
+            for lf in log_files:
                 try:
-                    with open(eclipse_log_path, 'r', encoding='utf-8', errors='ignore') as f:
-                        eclipse_log_content = f.read()
+                    with open(lf, 'r', encoding='utf-8', errors='ignore') as f:
+                        content = f.read().strip()
+                        if content:
+                            log_contents += f"\n--- LOG ENCONTRADO: {os.path.basename(lf)} ---\n{content}\n"
                 except Exception:
                     pass
 
             detail = f"--- STDOUT ---\n{out_msg}\n--- STDERR ---\n{err_msg}"
-            if eclipse_log_content:
-                detail += f"\n--- ECLIPSE LOG (.metadata/.log) ---\n{eclipse_log_content}"
+            if log_contents:
+                detail += log_contents
             else:
-                detail += f"\n[!] No se generó log en el workspace. Verifica rutas."
+                detail += f"\n[!] Tampoco se encontró log OSGi en {config_path}."
 
             raise RuntimeError(
                 f"El proceso JDT LS ha fallado al iniciar (Código {self.proc.returncode}).\nDetalle:\n{detail}")

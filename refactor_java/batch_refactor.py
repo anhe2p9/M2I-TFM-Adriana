@@ -42,13 +42,18 @@ class JDTLSClient:
         self.running = True
         self.msg_queue = queue.Queue()
 
-        # [SOLUCIÓN DEFINITIVA]: Clonamos el servidor Eclipse entero a la carpeta temporal.
-        # Soluciona permisos, mantiene rutas relativas intactas y aísla la ejecución.
-        local_jdtls = os.path.join(self.workspace_dir, "jdtls_local")
-        if not os.path.exists(local_jdtls):
-            shutil.copytree(self.jdtls_home, local_jdtls)
+        # 1. Crear una copia privada e independiente de JDT LS en /tmp
+        local_jdtls = tempfile.mkdtemp(prefix="jdtls_inst_")
+        shutil.copytree(self.jdtls_home, local_jdtls, dirs_exist_ok=True)
 
-        plugins_dir = f"{local_jdtls}/plugins"
+        # 2. Otorgar permisos totales (rwx) a todos los archivos y subcarpetas copiados
+        for root_dir, dirs, files in os.walk(local_jdtls):
+            for d in dirs:
+                os.chmod(os.path.join(root_dir, d), 0o777)
+            for f in files:
+                os.chmod(os.path.join(root_dir, f), 0o777)
+
+        plugins_dir = os.path.join(local_jdtls, "plugins")
         launchers = glob.glob(os.path.join(plugins_dir, "org.eclipse.equinox.launcher_*.jar"))
         if not launchers:
             raise FileNotFoundError("❌ No se encontró el JAR de equinox launcher en la copia local.")
@@ -60,7 +65,8 @@ class JDTLSClient:
 
         cmd = [
             "java",
-            f"-Duser.home={self.workspace_dir}",  # Aisla los archivos ocultos de Java
+            "-Duser.home=/tmp",
+            f"-Dosgi.configuration.area={config_path}",
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
             "-Declipse.product=org.eclipse.jdt.ls.core.product",

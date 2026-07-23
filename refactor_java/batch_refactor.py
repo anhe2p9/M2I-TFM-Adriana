@@ -1,7 +1,7 @@
 import os
 import re
 import ast
-import glob
+import urllib.parse
 import sys
 import json
 import time
@@ -27,16 +27,18 @@ if not JDTLS_HOME:
 # CLIENTE LSP CON MULTITHREADING Y AUTORECUPERACIÓN (SELF-HEALING)
 # =====================================================================
 class JDTLSClient:
-    def __init__(self, jdtls_home, workspace_dir, project_path):
+    def __init__(self, jdtls_home, workspace_dir, project_path, use_system_m2=False):
         self.jdtls_home = os.path.abspath(jdtls_home).replace("\\", "/")
         self.workspace_dir = os.path.abspath(workspace_dir).replace("\\", "/")
         self.project_path = os.path.abspath(project_path).replace("\\", "/")
+        self.use_system_m2 = use_system_m2
         self.proc = None
         self.request_id = 1
         self.file_versions = {}
         self.msg_queue = queue.Queue()
         self.reader_thread = None
         self.running = False
+        self.file_diagnostics = {}
 
     def start(self):
         import uuid
@@ -99,8 +101,7 @@ class JDTLSClient:
             shutil.rmtree(osgi_cache, ignore_errors=True)
 
         cmd = [
-            "java",
-            "-Duser.home=/tmp",
+            "C:/Program Files/Java/jdk-25/bin/java.exe",
             "-Djava.awt.headless=true",
             "-Declipse.application=org.eclipse.jdt.ls.core.id1",
             "-Dosgi.bundles.defaultStartLevel=4",
@@ -116,6 +117,10 @@ class JDTLSClient:
             "-data", jdtls_workspace,
             "-noconsole"
         ]
+
+        # 2. Si NO se ha activado el flag, le añadimos la restricción /tmp
+        if not self.use_system_m2:
+            cmd.insert(1, "-Duser.home=/tmp")
 
         print(f"\n🚀 [Sistema] Iniciando JVM... (Buscando logs profundos OSGi en caso de error)")
         self.proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -135,7 +140,7 @@ class JDTLSClient:
                 os.path.join(jdtls_workspace, ".metadata", "*.log"))
             for lf in log_files:
                 try:
-                    with open(lf, 'r', encoding='utf-8', errors='ignore') as f:
+                    with open(lf, 'r', encoding='utf-8', errors='ignore', newline="") as f:
                         content = f.read().strip()
                         if content:
                             log_contents += f"\n--- LOG ENCONTRADO: {os.path.basename(lf)} ---\n{content}\n"
@@ -197,18 +202,63 @@ class JDTLSClient:
                 if any(x in text for x in ["Compile", "Build", "Error", "Indexing"]):
                     print(f"      🛠️ [Eclipse] {text}")
 
+
+
             elif msg.get("method") == "textDocument/publishDiagnostics":
                 uri = msg.get("params", {}).get("uri", "")
                 diagnostics = msg.get("params", {}).get("diagnostics", [])
                 errors = [d for d in diagnostics if d.get("severity") == 1]
 
+                # --- DECODIFICACIÓN SEGURA DE URI PARA WINDOWS ---
+                clean_uri = urllib.parse.unquote(uri)
+
+                if clean_uri.startswith("file:///"):
+                    clean_uri = clean_uri[8:]
+                elif clean_uri.startswith("file:/"):
+                    clean_uri = clean_uri[6:]
+
+                norm_uri = os.path.abspath(clean_uri).lower()
+                self.file_diagnostics[norm_uri] = errors
+                # -------------------------------------------------
+
                 if errors:
                     filename = os.path.basename(uri)
-                    print(f"      🚨 [Error de Compilación en {filename}]: {errors[0]['message']}")
+                    err_msg = errors[0]['message']
+                    print(f"      🚨 [Error de Compilación en {filename}]: {err_msg}")
+
+                    # 🧹 DETECCIÓN Y AUTO-LIMPIEZA DE JARS CORRUPTOS EN /tmp
+                    if "not a valid ZIP file" in err_msg or "cannot be read" in err_msg:
+                        match = re.search(r"'([^']+\.jar)'", err_msg)
+                        if match:
+                            corrupt_jar = match.group(1)
+                            if os.path.exists(corrupt_jar):
+                                try:
+                                    os.remove(corrupt_jar)
+                                    print(f"      🧹 [Auto-Fix] Se ha eliminado el JAR corrupto: {os.path.basename(corrupt_jar)}")
+                                except Exception as e:
+                                    print(f"      ⚠️ No se pudo eliminar el JAR corrupto: {e}")
 
             return msg
         except queue.Empty:
             return None
+
+    def clear_file_errors(self, file_path):
+        """Limpia el registro de errores previo para forzar una lectura fresca."""
+        norm_path = os.path.abspath(file_path).lower()
+        self.file_diagnostics[norm_path] = None
+
+    def get_file_errors(self, file_path, timeout=5.0):
+        """Espera a que Eclipse emita el diagnóstico DEFINITIVO del archivo."""
+        norm_path = os.path.abspath(file_path).lower()
+        start = time.time()
+
+        # Drenamos la cola durante el tiempo COMPLETO.
+        # Ignoramos el primer mensaje vacío [] de Eclipse y le damos tiempo real de compilar.
+        while time.time() - start < timeout:
+            self.read_message(timeout=0.2)
+
+        res = self.file_diagnostics.get(norm_path)
+        return res if res is not None else []
 
     def wait_for_response(self, req_id, desired_name=None, timeout=60):
         start_time, last_ping = time.time(), time.time()
@@ -296,20 +346,24 @@ class JDTLSClient:
             self.wait_for_response(r_id, desired_name=desired_name, timeout=timeout)
             return True
         elif "edit" in extract_action:
-            self.apply_workspace_edit(extract_action["edit"], desired_name)
-            return True
+            return self.apply_workspace_edit(extract_action["edit"], desired_name)
         return False
 
     def apply_workspace_edit(self, edit, desired_name):
+        applied_all = True
         if "changes" in edit:
             for uri, text_edits in edit["changes"].items():
-                self.apply_text_edits(uri.replace("file:///", "").replace("/", os.sep), text_edits, desired_name)
+                if not self.apply_text_edits(uri.replace("file:///", "").replace("/", os.sep), text_edits,
+                                             desired_name):
+                    applied_all = False
         elif "documentChanges" in edit:
             for doc_change in edit["documentChanges"]:
                 if "textDocument" in doc_change:
-                    self.apply_text_edits(
-                        doc_change["textDocument"]["uri"].replace("file:///", "").replace("/", os.sep),
-                        doc_change["edits"], desired_name)
+                    if not self.apply_text_edits(
+                            doc_change["textDocument"]["uri"].replace("file:///", "").replace("/", os.sep),
+                            doc_change["edits"], desired_name):
+                        applied_all = False
+        return applied_all
 
     def apply_text_edits(self, file_path, edits, desired_name):
         try:
@@ -325,6 +379,68 @@ class JDTLSClient:
         for edit in sorted_edits:
             start, end = edit["range"]["start"], edit["range"]["end"]
             new_text = re.sub(r"\bextracted\d*\b", desired_name, edit["newText"]) if desired_name else edit["newText"]
+
+            # --- ESCUDO DE SEGURIDAD: Detectar el bug de Múltiples Variables de Salida de Eclipse ---
+            # Busca declaraciones huérfanas (ej: "Object type;" o "int i;") justo antes del return o la llave de cierre.
+            patron_huerfana = re.search(
+                r"\b([A-Z][a-zA-Z0-9_<>,\[\]]*|int|boolean|double|float|long|short|byte|char)\s+([a-zA-Z0-9_$]+)\s*;\s*(?:return\s+[^;]+;)?\s*\}",
+                new_text)
+
+            if patron_huerfana:
+                tipo_var = patron_huerfana.group(1)
+                nombre_var = patron_huerfana.group(2)
+
+                reporte = f"⚠️ [EXTRACCIÓN ABORTADA] Bug de JDT detectado (Múltiples Variables de Salida). " \
+                          f"Eclipse dejó la variable '{tipo_var} {nombre_var}' fuera de ámbito. " \
+                          f"Se omite la refactorización para evitar romper el código."
+
+                print(reporte)
+
+                # Si estás guardando reportes en un archivo, añádelo aquí. Ejemplo:
+                # with open("extraction_reports.log", "a", encoding="utf-8") as log_file:
+                #     log_file.write(f"{desired_name}: {reporte}\n")
+
+                # Abortamos la aplicación de esta edición y notificamos el fallo
+                return False
+                # ----------------------------------------------------------------------------------------
+
+            # --- LÓGICA MULTI-GENÉRICA (CORREGIDA PARA MODIFICADORES Y DUPLICADOS) ---
+            if desired_name:
+                # 1. Usamos [^{};=]+? para atrapar el tipo de retorno de forma ultra-segura.
+                #    Esto evita que la expresión regular retroceda y mutile declaraciones de
+                #    clases (public class...), enums o campos globales.
+                patron_firma = re.compile(
+                    r"((?:(?:public|protected|private|static|final|synchronized|native|strictfp)\s+)+)([^{};=]+?)(\s+)([a-zA-Z_$][a-zA-Z0-9_$]*)(\s*\()([^)]*)(\))"
+                )
+
+                def inyectar_genericos(match):
+                    modificadores = match.group(1)
+                    tipo_retorno_raw = match.group(2)
+                    espacio = match.group(3)
+                    nombre_metodo = match.group(4)
+                    apertura = match.group(5)
+                    parametros = match.group(6)
+                    cierre = match.group(7)
+
+                    tipo_retorno_limpio = tipo_retorno_raw.strip()
+
+                    if tipo_retorno_limpio.startswith("<"):
+                        return match.group(0)
+
+                    texto_analisis = f"{tipo_retorno_limpio} {parametros}"
+                    letras_genericas = re.findall(r"\b[A-Z]\b", texto_analisis)
+                    letras_unicas = list(dict.fromkeys(letras_genericas))
+
+                    if letras_unicas:
+                        declaracion = f"<{', '.join(letras_unicas)}> "
+                        return f"{modificadores}{declaracion}{tipo_retorno_limpio}{espacio}{nombre_metodo}{apertura}{parametros}{cierre}"
+
+                    return match.group(0)
+
+                # Aplicamos la sustitución usando el patrón blindado
+                new_text = patron_firma.sub(inyectar_genericos, new_text)
+            # ------------------------------------------------
+
             s_line, s_char, e_line, e_char = start["line"], start["character"], end["line"], end["character"]
 
             if s_line == e_line:
@@ -334,11 +450,13 @@ class JDTLSClient:
                 for _ in range(s_line + 1, e_line + 1): lines.pop(s_line + 1)
 
         try:
-            with open(file_path, "w", encoding="utf-8") as f:
+            with open(file_path, "w", encoding="utf-8", newline="") as f:
                 f.write("".join(lines))
         except UnicodeEncodeError:
-            with open(file_path, "w", encoding="latin-1") as f:
+            with open(file_path, "w", encoding="latin-1", newline="") as f:
                 f.write("".join(lines))
+
+        return True
 
     def stop(self):
         self.running = False
@@ -452,20 +570,37 @@ def process_results(results_base_dir, target_algo, user_priority, target_class=N
                 base_cp = classpath
             real_class_path = base_cp.replace("-", "/").replace(".", "/") + ".java"
 
+            # Limpiamos el guión y el número de línea del nombre del método
+            clean_method = method.split('-')[0]
+
             if real_class_path not in class_offsets_map: class_offsets_map[real_class_path] = {}
-            if method not in class_offsets_map[real_class_path]: class_offsets_map[real_class_path][method] = []
-            class_offsets_map[real_class_path][method].extend(method_extractions)
+            if clean_method not in class_offsets_map[real_class_path]: class_offsets_map[real_class_path][
+                clean_method] = []
+            class_offsets_map[real_class_path][clean_method].extend(method_extractions)
 
     return class_offsets_map
 
 
-def prepare_extractions_with_names(methods_dict):
+def prepare_extractions_with_names(methods_dict, class_content):
     prepared = []
     for method_name, ext_list in methods_dict.items():
         sorted_by_size = sorted(ext_list, key=lambda e: e["range"][1] - e["range"][0])
-        for i, ext in enumerate(sorted_by_size, 1):
+        extraction_n = 1
+
+        for ext in sorted_by_size:
+            desired_name = f"{method_name}_extraction_{extraction_n}"
+
+            # Comprobar si el nombre ya existe en el código fuente de la clase
+            while f"{desired_name}(" in class_content or f"{desired_name} (" in class_content:
+                extraction_n += 1
+                desired_name = f"{method_name}_extraction_{extraction_n}"
+
             prepared.append(
-                {"range": ext["range"], "depth": ext["depth"], "desired_name": f"{method_name}_extraction_{i}"})
+                {"range": ext["range"], "depth": ext["depth"], "desired_name": desired_name,
+                 "method_name": method_name})
+
+            # Incrementar para la siguiente extracción del mismo método
+            extraction_n += 1
 
     prepared.sort(key=lambda x: x["range"][1] - x["range"][0])
     for ext_id, item in enumerate(prepared): item["ext_id"] = ext_id
@@ -489,23 +624,89 @@ def inject_markers(file_path, prepared_extractions):
 
     encoding_usado = 'utf-8'
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, 'r', encoding='utf-8', newline="") as f:
             content = f.read()
     except UnicodeDecodeError:
         encoding_usado = 'latin-1'
-        with open(file_path, 'r', encoding='latin-1') as f:
+        with open(file_path, 'r', encoding='latin-1', newline="") as f:
             content = f.read()
     for ins in insertions: content = content[:ins["pos"]] + ins["text"] + content[ins["pos"]:]
     with open(file_path, "w", encoding=encoding_usado, newline="") as f:
         f.write(content)
 
 
+def sanitize_uninitialized_variables(content):
+    """
+    Parche definitivo anti-bug de Eclipse JDT LS:
+    1. Desglosa declaraciones múltiples en LÍNEAS INDEPENDIENTES.
+       Ej: 'int i, j;' -> 'int i = 0;\nint j = 0;'
+       Esto evita que Eclipse borre la línea entera si decide mover una de las variables.
+    2. Inicializa todas las variables locales con valores por defecto.
+    """
+    lines = content.splitlines()
+    new_lines = []
+
+    # Patrón para preservar indentación y marcadores comentarios /*START...*/
+    prefijo_regex = r'^(\s*(?:/\*.*?\*/\s*)*)'
+
+    for line in lines:
+        # Ignoramos si ya está inicializada, es 'final', 'return', o import/package
+        if 'final ' in line or 'return ' in line or '=' in line or line.strip().startswith(('import ', 'package ')):
+            new_lines.append(line)
+            continue
+
+        # 1. Arrays (ej: int[] a, b; o String[] x, y;)
+        m = re.match(prefijo_regex + r'([a-zA-Z0-9_<>\?]+\s*\[\])\s+([a-zA-Z0-9_$,\s]+);(.*)$', line)
+        if m:
+            pref, tipo, vars_str, rest = m.groups()
+            vars_list = [v.strip() for v in vars_str.split(',') if v.strip()]
+            for idx, v in enumerate(vars_list):
+                comment = rest if idx == len(vars_list) - 1 else ""
+                new_lines.append(f"{pref}{tipo} {v} = null;{comment}")
+            continue
+
+        # 2. Primitivos numéricos (ej: int i, j; float x, y; int b1, b2, b3;)
+        m = re.match(prefijo_regex + r'(int|double|float|long|short|byte|char)\s+([a-zA-Z0-9_$,\s]+);(.*)$', line)
+        if m:
+            pref, tipo, vars_str, rest = m.groups()
+            vars_list = [v.strip() for v in vars_str.split(',') if v.strip()]
+            for idx, v in enumerate(vars_list):
+                comment = rest if idx == len(vars_list) - 1 else ""
+                new_lines.append(f"{pref}{tipo} {v} = 0;{comment}")
+            continue
+
+        # 3. Booleanos (ej: boolean flag, done;)
+        m = re.match(prefijo_regex + r'(boolean)\s+([a-zA-Z0-9_$,\s]+);(.*)$', line)
+        if m:
+            pref, tipo, vars_str, rest = m.groups()
+            vars_list = [v.strip() for v in vars_str.split(',') if v.strip()]
+            for idx, v in enumerate(vars_list):
+                comment = rest if idx == len(vars_list) - 1 else ""
+                new_lines.append(f"{pref}{tipo} {v} = false;{comment}")
+            continue
+
+        # 4. Objetos y Genéricos (ej: Collection a, b; o String s1, s2;)
+        m = re.match(prefijo_regex + r'([A-Z][a-zA-Z0-9_<>,\?\[\]]*)\s+([a-zA-Z0-9_$,\s]+);(.*)$', line)
+        if m:
+            pref, tipo, vars_str, rest = m.groups()
+            if '(' not in vars_str and ')' not in vars_str:
+                vars_list = [v.strip() for v in vars_str.split(',') if v.strip()]
+                for idx, v in enumerate(vars_list):
+                    comment = rest if idx == len(vars_list) - 1 else ""
+                    new_lines.append(f"{pref}{tipo} {v} = null;{comment}")
+                continue
+
+        new_lines.append(line)
+
+    return "\n".join(new_lines)
+
+
 # =====================================================================
 # MOTOR PRINCIPAL DE REFACTORIZACIÓN CON SEGUIMIENTO DE MÉTRICAS
 # =====================================================================
-def apply_refactorings_to_classes(class_offsets_map, project_root):
+def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2=False):
     temp_ws = tempfile.mkdtemp(prefix="jdtls_ws_")
-    client = JDTLSClient(JDTLS_HOME, temp_ws, project_root)
+    client = JDTLSClient(JDTLS_HOME, temp_ws, project_root, use_system_m2=use_system_m2)
     extraction_results = []
 
     try:
@@ -536,9 +737,36 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
                     continue
 
             print(f"\n📁 Procesando clase: {os.path.basename(full_class_path)}")
-            prepared_extractions = prepare_extractions_with_names(methods_dict)
+
+            # --- 1. Leer el archivo intacto para no romper los offsets originales ---
+            try:
+                with open(full_class_path, 'r', encoding='utf-8', newline="") as f:
+                    class_content = f.read()
+            except UnicodeDecodeError:
+                with open(full_class_path, 'r', encoding='latin-1', newline="") as f:
+                    class_content = f.read()
+
+            # --- 2. Inyectar marcadores USANDO LOS OFFSETS INTACTOS ---
+            prepared_extractions = prepare_extractions_with_names(methods_dict, class_content)
             inject_markers(full_class_path, prepared_extractions)
             print(f"   ↳ Inyectados marcadores jerárquicos para {len(prepared_extractions)} bloques.")
+
+            # --- 3. Leer el archivo YA MARCADO ---
+            encoding_usado = 'utf-8'
+            try:
+                with open(full_class_path, 'r', encoding='utf-8', newline="") as f:
+                    marked_content = f.read()
+            except UnicodeDecodeError:
+                encoding_usado = 'latin-1'
+                with open(full_class_path, 'r', encoding='latin-1', newline="") as f:
+                    marked_content = f.read()
+
+            # --- 4. Aplicar el saneamiento de variables sobre el código ya marcado ---
+            # Al hacerlo ahora, el cambio de longitud del archivo no desalinea ningún offset
+            sanitized_content = sanitize_uninitialized_variables(marked_content)
+
+            with open(full_class_path, "w", encoding=encoding_usado, newline="") as f:
+                f.write(sanitized_content)
 
             time.sleep(3)
             client.open_file(full_class_path)
@@ -548,12 +776,15 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
 
                 encoding_usado = 'utf-8'
                 try:
-                    with open(full_class_path, 'r', encoding='utf-8') as f:
+                    with open(full_class_path, 'r', encoding='utf-8', newline="") as f:
                         content = f.read()
                 except UnicodeDecodeError:
                     encoding_usado = 'latin-1'
-                    with open(full_class_path, 'r', encoding='latin-1') as f:
+                    with open(full_class_path, 'r', encoding='latin-1', newline="") as f:
                         content = f.read()
+
+                # --- RESPALDO PREVIO PARA ROLLBACK ---
+                backup_content_clean = content
 
                 start_marker, end_marker = f"/*START_EXT_{ext_id}*/", f"/*END_EXT_{ext_id}*/"
                 start_idx, end_idx = content.find(start_marker), content.find(end_marker)
@@ -571,8 +802,11 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
                 with open(full_class_path, "w", encoding=encoding_usado, newline="") as f:
                     f.write(content)
 
-                start_pos, end_pos = offset_to_position(content, start_idx), offset_to_position(content, end_idx - len(
-                    start_marker))
+                # Limpiamos diagnósticos previos antes de pedir la extracción
+                client.clear_file_errors(full_class_path)
+                start_pos, end_pos = offset_to_position(content, start_idx), offset_to_position(content,
+                                                                                                end_idx - len(
+                                                                                                    start_marker))
 
                 print(f"\n👉 [Extracción {ext_id + 1}/{len(prepared_extractions)}] Asignando: '{desired_name}'")
                 print(f"   📝 Código: \"{preview_text}\"")
@@ -586,29 +820,79 @@ def apply_refactorings_to_classes(class_offsets_map, project_root):
                 }, is_notification=True)
 
                 success = False
-                try:
-                    success = client.request_extract_method(full_class_path, start_pos, end_pos, desired_name,
-                                                            timeout=30)
-                except TimeoutError:
-                    print("\n⚠️ [Timeout] Eclipse JDT LS se ha colgado. Iniciando proceso de autorecuperación...")
-                    client.stop()
-                    time.sleep(2)
-                    shutil.rmtree(client.workspace_dir, ignore_errors=True)
-                    os.makedirs(client.workspace_dir, exist_ok=True)
-                    client.start()
-                    client.initialize()
-                    client.open_file(full_class_path)
-                    print("      🔄 Servidor recuperado con éxito. Continuando con la ejecución...\n")
-                    success = False
+                max_intentos = 2  # 1 intento original + 1 reintento tras recuperación
+
+                for intento in range(1, max_intentos + 1):
+                    try:
+                        success = client.request_extract_method(full_class_path, start_pos, end_pos, desired_name,
+                                                                timeout=100)
+                        break
+                    except TimeoutError:
+                        print(f"\n⚠️ [Timeout] Eclipse JDT LS se ha colgado (Intento {intento}/{max_intentos}).")
+
+                        if intento < max_intentos:
+                            print("   Iniciando proceso de autorecuperación para reintentar...")
+                            client.stop()
+                            time.sleep(2)
+                            shutil.rmtree(client.workspace_dir, ignore_errors=True)
+                            os.makedirs(client.workspace_dir, exist_ok=True)
+
+                            client.start()
+                            client.initialize()
+                            client.open_file(full_class_path)
+                            print("      🔄 Servidor recuperado con éxito. Ejecutando reintento...\n")
+                        else:
+                            print(
+                                "      ❌ Se han agotado los reintentos. Omitiendo esta extracción.")
+                            success = False
 
                 if success:
-                    print("      ✅ ¡Extracción exitosa!")
+                    # --- EL CAMBIO CLAVE: Forzar a Eclipse a evaluar el NUEVO código ---
+                    # Leemos el código tal y como ha quedado tras la extracción
+                    with open(full_class_path, "r", encoding=encoding_usado, newline="") as f:
+                        new_content = f.read()
+
+                    # Vaciamos la memoria antigua de Eclipse y le inyectamos la nueva versión
+                    client.send("textDocument/didClose",
+                                {"textDocument": {"uri": f"file:///{full_class_path.replace('\\', '/')}"}},
+                                is_notification=True)
+                    client.send("textDocument/didOpen", {
+                        "textDocument": {"uri": f"file:///{full_class_path.replace('\\', '/')}", "languageId": "java",
+                                         "version": int(time.time()), "text": new_content}
+                    }, is_notification=True)
+                    # ------------------------------------------------------------------
+
+                    # Ahora sí, Eclipse analiza el código modificado y esperamos su veredicto (3.5s)
+                    errors = client.get_file_errors(full_class_path, timeout=5.0)
+
+                    if not errors:
+                        print("      ✅ ¡Extracción exitosa!")
+                        extraction_results.append(
+                            {"Clase": os.path.basename(full_class_path), "Metodo Original": ext_item["method_name"],
+                             "Nombre Extraccion": desired_name, "Exito": "Sí"})
+                    else:
+                        print(f"      🚨 La extracción generó {len(errors)} error(es) de compilación en Eclipse.")
+                        print(f"         ↳ Detalle: {errors[0].get('message')}")
+                        success = False  # Rechazamos la extracción para forzar el Rollback
+
+                if not success:
+                    print("      ❌ Deshaciendo extracción (Rollback) para mantener la clase funcional...")
+                    # 1. Restauramos el código previo
+                    with open(full_class_path, "w", encoding=encoding_usado, newline="") as f:
+                        f.write(backup_content_clean)
+
+                    # 2. Refrescamos el estado en Eclipse enviando la versión limpia
+                    client.send("textDocument/didClose",
+                                {"textDocument": {"uri": f"file:///{full_class_path.replace('\\', '/')}"}},
+                                is_notification=True)
+                    client.send("textDocument/didOpen", {
+                        "textDocument": {"uri": f"file:///{full_class_path.replace('\\', '/')}", "languageId": "java",
+                                         "version": int(time.time()), "text": backup_content_clean}
+                    }, is_notification=True)
+
                     extraction_results.append(
-                        {"Clase": os.path.basename(full_class_path), "Nombre Extraccion": desired_name, "Exito": "Sí"})
-                else:
-                    print("      ❌ Eclipse ignoró la extracción (No cumple condiciones semánticas).")
-                    extraction_results.append(
-                        {"Clase": os.path.basename(full_class_path), "Nombre Extraccion": desired_name, "Exito": "No"})
+                        {"Clase": os.path.basename(full_class_path), "Metodo Original": ext_item["method_name"],
+                         "Nombre Extraccion": desired_name, "Exito": "No"})
 
             client.close_file(full_class_path)
 
@@ -625,6 +909,7 @@ def main():
     parser.add_argument("--project-root", required=True)
     parser.add_argument("--algorithm", required=True, choices=["EpsilonConstraintAlgorithm", "HybridMethodAlgorithm"])
     parser.add_argument("--priority", nargs="+", default=["loc", "extractions", "cc"])
+    parser.add_argument("--use-system-m2", action="store_true", help="Usa la carpeta .m2 del usuario en vez de /tmp")
 
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--target-class")
@@ -636,7 +921,7 @@ def main():
 
     if project_name.endswith(".zip"):
         clean_name = project_name[:-4]
-        extraction_path = os.path.join(os.path.dirname(project_root), f"{clean_name}_refactored")
+        extraction_path = os.path.join(os.path.dirname(project_root), f"{clean_name}_refactored_{args.algorithm}")
         if os.path.exists(extraction_path): shutil.rmtree(extraction_path)
         with zipfile.ZipFile(project_root, 'r') as zip_ref:
             zip_ref.extractall(extraction_path)
@@ -644,8 +929,8 @@ def main():
         inner_contents = os.listdir(extraction_path)
         if len(inner_contents) == 1 and os.path.isdir(os.path.join(extraction_path, inner_contents[0])):
             os.rename(os.path.join(extraction_path, inner_contents[0]),
-                      os.path.join(extraction_path, f"{inner_contents[0]}-refactored"))
-            project_root = os.path.join(extraction_path, f"{inner_contents[0]}-refactored")
+                      os.path.join(extraction_path, f"{inner_contents[0]}-refactored_{args.algorithm}"))
+            project_root = os.path.join(extraction_path, f"{inner_contents[0]}-refactored_{args.algorithm}")
         else:
             project_root = extraction_path
         project_name = clean_name
@@ -694,7 +979,7 @@ def main():
         return
 
     print("\n--- INICIANDO REFACTORIZACIÓN EN LOTE ---")
-    extraction_results = apply_refactorings_to_classes(class_map, project_root)
+    extraction_results = apply_refactorings_to_classes(class_map, project_root, use_system_m2=args.use_system_m2)
 
     total_intentos = len(extraction_results)
 
@@ -710,18 +995,56 @@ def main():
         df_results = pd.DataFrame(extraction_results)
         df_results.to_csv(csv_path, index=False, encoding="utf-8")
 
+        # --- AGRUPACIÓN A NIVEL DE MÉTODO ---
+        method_stats = []
+        for (clase, metodo), group in df_results.groupby(["Clase", "Metodo Original"]):
+            total_ext = len(group)
+            exitos = sum(group["Exito"] == "Sí")
+            if exitos == total_ext:
+                estado = "Completado"
+            elif exitos == 0:
+                estado = "Fallido"
+            else:
+                estado = f"Parcial ({exitos}/{total_ext})"
+
+            method_stats.append({
+                "Clase": clase,
+                "Metodo Original": metodo,
+                "Extracciones Previstas": total_ext,
+                "Extracciones Exitosas": exitos,
+                "Estado": estado
+            })
+
+        df_methods = pd.DataFrame(method_stats)
+        csv_methods_path = os.path.abspath(os.path.join(parent_dir, f"{project_name}_metricas_metodos.csv"))
+        df_methods.to_csv(csv_methods_path, index=False, encoding="utf-8")
+
+        # Cálculos para el resumen en consola
+        total_metodos = len(method_stats)
+        metodos_completos = sum(1 for m in method_stats if m["Estado"] == "Completado")
+        metodos_parciales = sum(1 for m in method_stats if m["Estado"].startswith("Parcial"))
+        metodos_fallidos = sum(1 for m in method_stats if m["Estado"] == "Fallido")
+
         print("\n" + "=" * 70)
         print("🎉 REFACTORIZACIÓN COMPLETADA 🎉".center(70))
         print("=" * 70)
-        print("\n📊 Métrica de Rendimiento:")
+
+        print("\n📊 RENDIMIENTO POR EXTRACCIONES:")
         print(f"   * Total Intentadas: {total_intentos}")
         print(f"   * Exitosas: {exitosos}")
         print(f"   * Fallidas / Ignoradas: {fallidos}")
-        print(f"   * Tasa de Éxito: **{porcentaje:.2f}%**")
+        print(f"   * Tasa de Éxito Global: **{porcentaje:.2f}%**")
 
-        print("\n📂 Rutas de Salida:")
+        print("\n📊 RENDIMIENTO POR MÉTODOS ORIGINALES:")
+        print(f"   * Total de Métodos Procesados: {total_metodos}")
+        print(f"   * Refactorizados Completamente: {metodos_completos}")
+        print(f"   * Refactorizados Parcialmente: {metodos_parciales}")
+        print(f"   * Fallidos (Ninguna extracción): {metodos_fallidos}")
+
+        print("\n📂 RUTAS DE SALIDA:")
         print(f"   * Proyecto Refactorizado: {os.path.abspath(project_root)}")
-        print(f"   * Archivo de Métricas (CSV): {csv_path}")
+        print(f"   * Métricas de Extracciones (CSV): {csv_path}")
+        print(f"   * Métricas de Métodos (CSV): {csv_methods_path}")
         print("\n" + "=" * 70 + "\n")
     else:
         print("\n⚠️ No se procesó ninguna extracción durante la ejecución.")

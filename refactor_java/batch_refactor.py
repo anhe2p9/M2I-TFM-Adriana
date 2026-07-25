@@ -539,38 +539,27 @@ def process_results(results_base_dir, target_algo, user_priority, target_class=N
 
 def prepare_extractions_with_names(methods_dict, class_content):
     prepared = []
-
-    # 1. Aplanar todas las extracciones calculando sus metadatos
     for method_name, ext_list in methods_dict.items():
-        for ext in ext_list:
-            prepared.append({
-                "range": ext["range"],
-                "depth": ext["depth"],
-                "method_name": method_name
-            })
+        sorted_by_size = sorted(ext_list, key=lambda e: e["range"][1] - e["range"][0])
+        extraction_n = 1
 
-    # 2. ORDENACIÓN ESTRATÉGICA TRIPLE:
-    #    -1º (-x["depth"]): De mayor profundidad a menor (más anidado primero).
-    #    -2º (-x["range"][0]): De abajo a arriba en el archivo Java (mayor offset primero).
-    #    -3º (x["range"][1] - x["range"][0]): Bloque más pequeño primero (desempate).
-    prepared.sort(key=lambda x: (-x["depth"], -x["range"][0], x["range"][1] - x["range"][0]))
+        for ext in sorted_by_size:
+            desired_name = f"{method_name}_extraction_{extraction_n}"
 
-    # 3. Asignar IDs y nombres secuenciales respetando el nuevo orden
-    method_counters = {}
-    for ext_id, item in enumerate(prepared, start=1):
-        item["ext_id"] = ext_id
-        m_name = item["method_name"]
+            # Comprobar si el nombre ya existe en el código fuente de la clase
+            while f"{desired_name}(" in class_content or f"{desired_name} (" in class_content:
+                extraction_n += 1
+                desired_name = f"{method_name}_extraction_{extraction_n}"
 
-        method_counters[m_name] = method_counters.get(m_name, 0) + 1
-        desired_name = f"{m_name}_extraction_{method_counters[m_name]}"
+            prepared.append(
+                {"range": ext["range"], "depth": ext["depth"], "desired_name": desired_name,
+                 "method_name": method_name})
 
-        # Evitar duplicados de nombre en la clase fuente
-        while f"{desired_name}(" in class_content or f"{desired_name} (" in class_content:
-            method_counters[m_name] += 1
-            desired_name = f"{m_name}_extraction_{method_counters[m_name]}"
+            # Incrementar para la siguiente extracción del mismo método
+            extraction_n += 1
 
-        item["desired_name"] = desired_name
-
+    prepared.sort(key=lambda x: x["range"][1] - x["range"][0])
+    for ext_id, item in enumerate(prepared, start=1): item["ext_id"] = ext_id
     return prepared
 
 

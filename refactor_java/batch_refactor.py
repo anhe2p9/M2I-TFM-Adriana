@@ -328,7 +328,7 @@ class JDTLSClient:
         abs_path = os.path.abspath(file_path).replace("\\", "/")
         self.send("textDocument/didClose", {"textDocument": {"uri": f"file:///{abs_path}"}}, is_notification=True)
 
-    def request_extract_method(self, file_path, start_pos, end_pos, desired_name, timeout=30):
+    def request_extract_method(self, file_path, start_pos, end_pos, desired_name, timeout=30, auto_extracted_ids=None):
         abs_path = os.path.abspath(file_path).replace("\\", "/")
         req_id = self.send("textDocument/codeAction", {
             "textDocument": {"uri": f"file:///{abs_path}"},
@@ -351,26 +351,27 @@ class JDTLSClient:
             self.wait_for_response(r_id, desired_name=desired_name, timeout=timeout)
             return True
         elif "edit" in extract_action:
-            return self.apply_workspace_edit(extract_action["edit"], desired_name)
+            # Pasamos el parámetro aquí
+            return self.apply_workspace_edit(extract_action["edit"], desired_name, auto_extracted_ids)
         return False
 
-    def apply_workspace_edit(self, edit, desired_name):
+    def apply_workspace_edit(self, edit, desired_name, auto_extracted_ids=None):
         applied_all = True
         if "changes" in edit:
             for uri, text_edits in edit["changes"].items():
                 if not self.apply_text_edits(uri.replace("file:///", "").replace("/", os.sep), text_edits,
-                                             desired_name):
+                                             desired_name, auto_extracted_ids):
                     applied_all = False
         elif "documentChanges" in edit:
             for doc_change in edit["documentChanges"]:
                 if "textDocument" in doc_change:
                     if not self.apply_text_edits(
                             doc_change["textDocument"]["uri"].replace("file:///", "").replace("/", os.sep),
-                            doc_change["edits"], desired_name):
+                            doc_change["edits"], desired_name, auto_extracted_ids):
                         applied_all = False
         return applied_all
 
-    def apply_text_edits(self, file_path, edits, desired_name):
+    def apply_text_edits(self, file_path, edits, desired_name, auto_extracted_ids=None):
         try:
             with open(file_path, 'r', encoding='utf-8', newline="") as f:
                 content = f.read()
@@ -384,13 +385,16 @@ class JDTLSClient:
             char_idx = pos["character"]
             return sum(len(lines[i]) for i in range(min(line_idx, len(lines)))) + char_idx
 
+        # === NUEVO: Capturar todo el texto entrante para control de duplicados ===
+        all_incoming_text = "".join([edit["newText"] for edit in edits])
+        # =========================================================================
+
         edits_with_offsets = []
         for edit in edits:
             start_off = get_absolute_offset(edit["range"]["start"])
             end_off = get_absolute_offset(edit["range"]["end"])
             edits_with_offsets.append((start_off, end_off, edit["newText"]))
 
-        # Procesamos de abajo hacia arriba para evitar desajustes de índices
         edits_with_offsets.sort(key=lambda x: x[0], reverse=True)
 
         for start_off, end_off, text in edits_with_offsets:
@@ -406,7 +410,40 @@ class JDTLSClient:
                 print(f"      ⚠️ [EXTRACCIÓN ABORTADA] Bug de JDT (Variable huérfana: '{tipo_var} {nombre_var}').")
                 return False
 
-            # Reemplazo directo y limpio usando offsets
+            # === INTERCEPCIÓN DE DUPLICADOS AUTO-EXTRAÍDOS ===
+            overwritten_code = content[start_off:end_off]
+
+            missing_starts_full = [m for m in re.findall(r'/\*START_EXT_\d+\*/', overwritten_code) if
+                                   m not in all_incoming_text]
+            missing_ends_full = [m for m in re.findall(r'/\*END_EXT_\d+\*/', overwritten_code) if
+                                 m not in all_incoming_text]
+
+            starts_to_reinject = []
+            ends_to_reinject = []
+
+            for m in missing_starts_full:
+                ext_id_match = re.search(r'\d+', m)
+                if ext_id_match and auto_extracted_ids is not None:
+                    ext_id = int(ext_id_match.group())
+                    auto_extracted_ids.add(ext_id)  # Lo guardamos como exitoso
+                    print(
+                        f"      🤖 [Eclipse] Duplicado detectado y reemplazado. Extracción {ext_id} marcada como exitosa.")
+                else:
+                    starts_to_reinject.append(m)  # Si no tenemos el set, lo rescatamos como antes
+
+            for m in missing_ends_full:
+                ext_id_match = re.search(r'\d+', m)
+                if ext_id_match and auto_extracted_ids is not None:
+                    pass  # Ya lo capturamos con el START, simplemente evitamos reinyectarlo
+                else:
+                    ends_to_reinject.append(m)
+
+            if starts_to_reinject:
+                new_text = "".join(starts_to_reinject) + new_text
+            if ends_to_reinject:
+                new_text = new_text + "".join(ends_to_reinject)
+            # ==================================================
+
             content = content[:start_off] + new_text + content[end_off:]
 
         with open(file_path, 'w', encoding='utf-8', newline="") as f:
@@ -567,13 +604,25 @@ def inject_markers(file_path, prepared_extractions):
     insertions = []
     for item in prepared_extractions:
         r, ext_id, depth = item["range"], item["ext_id"], item["depth"]
-        insertions.append({"pos": r[1], "text": f"/*END_EXT_{ext_id}*/", "is_start": False, "depth": depth})
-        insertions.append({"pos": r[0], "text": f"/*START_EXT_{ext_id}*/", "is_start": True, "depth": depth})
+        size = r[1] - r[0]
+        insertions.append(
+            {"pos": r[1], "text": f"/*END_EXT_{ext_id}*/", "is_start": False, "depth": depth, "size": size})
+        insertions.append(
+            {"pos": r[0], "text": f"/*START_EXT_{ext_id}*/", "is_start": True, "depth": depth, "size": size})
 
     def sort_key(ins):
+        # 1. Procesar desde el final del archivo hacia el principio para no desfasar offsets
         p1 = -ins["pos"]
-        p2 = 1 if ins["is_start"] else 0
-        p3 = -ins["depth"] if ins["is_start"] else ins["depth"]
+
+        # 2. Si coinciden en la misma posición exacta, procesamos primero START (0) y luego END (1)
+        # Como las inserciones empujan el texto anterior, esto asegura que quede: /*END_...*//*START_...*/
+        p2 = 0 if ins["is_start"] else 1
+
+        # 3. EL ARREGLO CRÍTICO DE ANIDAMIENTO:
+        # - Para START: Procesamos primero los bloques PEQUEÑOS (Inner). Al insertar luego el GRANDE (Outer) en la misma posición, el GRANDE quedará por FUERA.
+        # - Para END: Procesamos primero los bloques GRANDES (Outer). Al insertar luego el PEQUEÑO (Inner), el PEQUEÑO quedará por DENTRO.
+        p3 = ins["size"] if ins["is_start"] else -ins["size"]
+
         return (p1, p2, p3)
 
     insertions.sort(key=sort_key)
@@ -593,66 +642,48 @@ def inject_markers(file_path, prepared_extractions):
 
 def sanitize_uninitialized_variables(content):
     """
-    Inicializa variables primitivas y objetos sin valor que causan el bug "huérfana"
-    en Eclipse JDT, protegiendo los marcadores jerárquicos adyacentes.
+    Descompone declaraciones múltiples (ej. double y1, y2, beta;) en líneas
+    independientes e inicializadas para evitar que el refactorizador de JDT LS
+    borre variables del ámbito padre.
     """
-    # Para double/float
-    content = re.sub(r'^(\s*(?:/\*.*?\*/\s*)*)(double|float)\s+([a-zA-Z0-9_$]+)\s*;\s*(/\*.*?\*/)?\s*$',
-                     r'\1\2 \3 = 0.0;\4', content, flags=re.MULTILINE)
-    # Para enteros y otros numéricos
-    content = re.sub(r'^(\s*(?:/\*.*?\*/\s*)*)(int|long|short|byte|char)\s+([a-zA-Z0-9_$]+)\s*;\s*(/\*.*?\*/)?\s*$',
-                     r'\1\2 \3 = 0;\4', content, flags=re.MULTILINE)
-    # Para booleanos
-    content = re.sub(r'^(\s*(?:/\*.*?\*/\s*)*)(boolean)\s+([a-zA-Z0-9_$]+)\s*;\s*(/\*.*?\*/)?\s*$',
-                     r'\1\2 \3 = false;\4', content, flags=re.MULTILINE)
-    # Para Objetos/Clases
-    content = re.sub(r'^(\s*(?:/\*.*?\*/\s*)*)([A-Z][a-zA-Z0-9_<>,\?\[\]]*)\s+([a-zA-Z0-9_$]+)\s*;\s*(/\*.*?\*/)?\s*$',
-                     r'\1\2 \3 = null;\4', content, flags=re.MULTILINE)
-    return content
 
+    def split_and_initialize(match):
+        indent = match.group(1) or ""
+        var_type = match.group(2)
+        vars_payload = match.group(3)
+        comment = match.group(4) or ""
 
-def pre_process_java_file(content):
-    """
-    Pre-procesa el archivo YA MARCADO para evitar bugs de Eclipse JDT LS con el AST.
-    Maneja marcadores intercalados entre 'else' e 'if' (ej. '} else /*START_EXT_4*/if').
-    """
-    # 1. Convertir 'else if' en 'if' independientes soportando marcadores intermedios.
-    #    Transforma: '} else /*START_EXT_4*/if'  ==>  '}\n/*START_EXT_4*/if'
-    content = re.sub(
-        r'\}\s*else\s*(/\*START_EXT_\d+\*/)?\s*if\b',
-        r'}\n\1if',
-        content
-    )
+        # Determinar valor por defecto según el tipo primitivo/objeto
+        if var_type in ["double", "float"]:
+            default_val = "0.0"
+        elif var_type in ["int", "long", "short", "byte", "char"]:
+            default_val = "0"
+        elif var_type == "boolean":
+            default_val = "false"
+        else:
+            default_val = "null"
 
-    # 2. Separar variables múltiples para evitar que Eclipse borre declaraciones
-    lines = content.splitlines()
-    new_lines = []
-    prefijo_regex = r'^(\s*)(?:(/\*.*?\*/)\s*)?'
-
-    for line in lines:
-        if 'final ' in line or 'return ' in line or line.strip().startswith(('import ', 'package ')):
-            new_lines.append(line)
-            continue
-        if 'for ' in line or 'for(' in line:
-            new_lines.append(line)
-            continue
-
-        m = re.match(
-            prefijo_regex + r'(int|double|float|long|short|byte|char|boolean|[A-Z][a-zA-Z0-9_<>,\?\[\]]*)\s+([^;]+);(.*)$',
-            line)
-        if m:
-            indent, marker, tipo, vars_str, rest = m.groups()
-            if marker is None: marker = ""
-
-            if ',' in vars_str and '(' not in vars_str and ')' not in vars_str and '<' not in vars_str and '>' not in vars_str:
-                vars_list = [v.strip() for v in vars_str.split(',')]
-                for idx, v in enumerate(vars_list):
-                    current_marker = marker + " " if (idx == 0 and marker) else ""
-                    new_lines.append(f"{indent}{current_marker}{tipo} {v};{rest if idx == len(vars_list) - 1 else ''}")
+        split_lines = []
+        # Separar las variables por coma
+        for var_expr in vars_payload.split(","):
+            var_clean = var_expr.strip()
+            if not var_clean:
                 continue
+            # Si ya tiene asignación previa (ej. x = 5), se conserva; si no, se inicializa
+            if "=" in var_clean:
+                split_lines.append(f"{indent}{var_type} {var_clean};")
+            else:
+                split_lines.append(f"{indent}{var_type} {var_clean} = {default_val};")
 
-        new_lines.append(line)
-    return "\n".join(new_lines)
+        result_code = "\n".join(split_lines)
+        if comment:
+            result_code += f" {comment}"
+        return result_code
+
+    # Regex que detecta declaraciones simples Y múltiples (con comas)
+    multidecl_regex = r'^(\s*)([A-Z][a-zA-Z0-9_<>\[\]]*|int|double|float|long|short|byte|char|boolean)\s+([a-zA-Z0-9_$\s,=]+);\s*(/\*.*?\*/)?\s*$'
+
+    return re.sub(multidecl_regex, split_and_initialize, content, flags=re.MULTILINE)
 
 
 # =====================================================================
@@ -744,8 +775,22 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
             time.sleep(3)
             client.open_file(full_class_path)
 
+            class_auto_extracted = set()
+
             for ext_item in prepared_extractions:
                 ext_id, desired_name = ext_item["ext_id"], ext_item["desired_name"]
+
+                # --- Saltar si Eclipse ya procesó este bloque automáticamente ---
+                if ext_id in class_auto_extracted:
+                    print(f"\n👉 [Extracción {ext_id}/{len(prepared_extractions)}] Omitiendo: '{desired_name}'")
+                    print("   ✅ Este duplicado ya fue resuelto automáticamente por Eclipse en una iteración anterior.")
+                    extraction_results.append({
+                        "Clase": os.path.basename(full_class_path),
+                        "Metodo Original": ext_item["method_name"],
+                        "Nombre Extraccion": desired_name,
+                        "Exito": "Sí (Duplicado Auto-Extraído)"
+                    })
+                    continue
 
                 encoding_usado = 'utf-8'
                 try:
@@ -786,19 +831,38 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                 preview_text = snippet_lines[0] if snippet_lines else ""
                 if len(preview_text) > 80: preview_text = preview_text[:77] + "..."
 
-                # Limpiamos los marcadores de la extracción ACTUAL
-                content = content[:end_idx] + content[end_idx + len(end_marker):]
-                content = content[:start_idx] + content[start_idx + len(start_marker):]
+                # --- LIMPIEZA DE MARCADORES Y CÁLCULO PRECISO DE OFFSETS ---
+                S_len = len(start_marker)
+                E_len = len(end_marker)
 
-                # Guardamos en disco el contenido con los marcadores restantes intactos
+                # 1. Extraer el fragmento exacto entre los marcadores
+                snippet = content[start_idx + S_len: end_idx]
+
+                # 2. Eliminar cualquier otro marcador residual dentro del fragmento (ej. marcadores de extracciones fallidas)
+                snippet_clean = re.sub(r'/\*(START|END)_EXT_\d+\*/', '', snippet)
+
+                # 3. Reconstruir el archivo sin el marcador actual y con el fragmento sin basura
+                content = content[:start_idx] + snippet_clean + content[end_idx + E_len:]
+
+                # 4. Ajustar bordes de selección para omitir saltos de línea y espacios en blanco
+                sel_start = start_idx
+                sel_end = start_idx + len(snippet_clean)
+
+                while sel_start < sel_end and content[sel_start].isspace():
+                    sel_start += 1
+
+                while sel_end > sel_start and content[sel_end - 1].isspace():
+                    sel_end -= 1
+
+                # 5. Guardar en disco el contenido limpio para que Eclipse analice el código Java real
                 with open(full_class_path, "w", encoding=encoding_usado, newline="") as f:
                     f.write(content)
 
                 client.clear_file_errors(full_class_path)
 
-                # Las coordenadas se calculan basándose en el contenido limpio actual
-                start_pos = offset_to_position(content, start_idx)
-                end_pos = offset_to_position(content, end_idx - len(start_marker))
+                # 6. Convertir los offsets limpios a coordenadas (línea, columna)
+                start_pos = offset_to_position(content, sel_start)
+                end_pos = offset_to_position(content, sel_end)
 
                 print(f"\n👉 [Extracción {ext_id}/{len(prepared_extractions)}] Asignando: '{desired_name}'")
                 print(f"   📝 Código: \"{preview_text}\"")
@@ -818,10 +882,15 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                 max_intentos = 2  # 1 intento original + 1 reintento tras recuperación
                 error_line_number = 0
 
+                # --- Set temporal para evitar falsos positivos en caso de rollback ---
+                temp_auto_extracted = set()
+
                 for intento in range(1, max_intentos + 1):
                     try:
-                        success = client.request_extract_method(full_class_path, start_pos, end_pos, desired_name,
-                                                                timeout=100)
+                        success = client.request_extract_method(
+                            full_class_path, start_pos, end_pos, desired_name,
+                            timeout=100, auto_extracted_ids=temp_auto_extracted
+                        )
                         break
                     except TimeoutError:
                         print(f"\n⚠️ [Timeout] Eclipse JDT LS se ha colgado (Intento {intento}/{max_intentos}).")
@@ -863,6 +932,10 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
 
                     if not errors:
                         print("      ✅ ¡Extracción exitosa!")
+
+                        # --- Consolidar los auto-extraídos porque todo ha ido bien ---
+                        class_auto_extracted.update(temp_auto_extracted)
+
                         extraction_results.append(
                             {"Clase": os.path.basename(full_class_path), "Metodo Original": ext_item["method_name"],
                              "Nombre Extraccion": desired_name, "Exito": "Sí"})
@@ -874,80 +947,146 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                         # Extraemos la línea de las coordenadas JSON, no del texto del mensaje
                         error_line_number = errors[0].get('range', {}).get('start', {}).get('line', 0) + 1
 
-                        # AUTO-HEALING
+                        # AUTO-HEALING: VARIABLES NO RESUELTAS (Falta declaración de tipo)
                         if error_line_number and "cannot be resolved to a variable" in errors[0].get('message'):
-                            # 1. Extraer el nombre de la variable (SIN depender de comillas)
-                            match = re.search(r"(\w+)\s+cannot be resolved to a variable", errors[0].get('message'))
-                            if match:
-                                missing_var = match.group(1)
+                            heal_attempts = 0
+                            max_heal_attempts = 5
+                            current_errors = errors
 
-                                # 2. 🔍 BUSCAR EL TIPO REAL EN EL BACKUP DEL CÓDIGO ORIGINAL
-                                real_type = "var"
+                            while current_errors and "cannot be resolved to a variable" in current_errors[0].get(
+                                    'message') and heal_attempts < max_heal_attempts:
+                                # 1. Extraer el nombre de la variable
+                                match = re.search(r"(\w+)\s+cannot be resolved to a variable",
+                                                  current_errors[0].get('message'))
+                                if match:
+                                    missing_var = match.group(1)
+                                    error_line = current_errors[0].get('range', {}).get('start', {}).get('line', 0) + 1
 
-                                tipos_java = r"([A-Z][a-zA-Z0-9_<>\[\]]*|int|double|float|long|short|byte|char|boolean)(?:\[\])*"
-                                regex_tipo = r"(?:public\s+|private\s+|protected\s+|final\s+|static\s+)*" + tipos_java + r"\s+[a-zA-Z0-9_\s,]*\b" + re.escape(
-                                    missing_var) + r"\b"
+                                    # 2. 🔍 BUSCAR EL TIPO REAL EN EL BACKUP DEL CÓDIGO ORIGINAL
+                                    real_type = "var"
+                                    tipos_java = r"([A-Z][a-zA-Z0-9_<>\[\]]*|int|double|float|long|short|byte|char|boolean)(?:\[\])*"
+                                    regex_tipo = r"(?:public\s+|private\s+|protected\s+|final\s+|static\s+)*" + tipos_java + r"\s+[a-zA-Z0-9_\s,]*\b" + re.escape(
+                                        missing_var) + r"\b"
 
-                                for line in backup_content_clean.splitlines():
-                                    match_tipo = re.search(regex_tipo, line.strip())
-                                    if match_tipo and "=" not in line.split(missing_var)[0]:
-                                        real_type = match_tipo.group(1)
-                                        break
+                                    for line in backup_content_clean.splitlines():
+                                        match_tipo = re.search(regex_tipo, line.strip())
+                                        if match_tipo and "=" not in line.split(missing_var)[0]:
+                                            real_type = match_tipo.group(1)
+                                            break
 
-                                # 3. Leer el archivo Java
-                                with open(full_class_path, 'r', encoding=encoding_usado, newline='') as f:
-                                    lines = f.readlines()
+                                    # 3. Leer el archivo Java
+                                    with open(full_class_path, 'r', encoding=encoding_usado, newline='') as f:
+                                        lines = f.readlines()
 
-                                # 4. Buscar la línea exacta que está fallando
-                                idx = error_line_number - 1
+                                    # 4. Buscar la línea exacta que está fallando
+                                    idx = error_line - 1
 
-                                if idx < len(lines):
-                                    problematic_line = lines[idx]
+                                    if idx < len(lines):
+                                        problematic_line = lines[idx]
 
-                                    # 5. Inyectar el tipo dinámico
-                                    # Flexibilizamos la búsqueda por si hay espacios antes del igual
-                                    if missing_var in problematic_line and "extraction_" in problematic_line:
-                                        print(
-                                            f"      🩹 [AUTO-HEALING] Declarando '{missing_var}' in-situ con su tipo original: '{real_type}'...")
+                                        # 5. Inyectar el tipo dinámico
+                                        if missing_var in problematic_line:
+                                            print(
+                                                f"      🩹 [AUTO-HEALING] Declarando '{missing_var}' in-situ con su tipo original: '{real_type}' (Intento {heal_attempts + 1})...")
 
-                                        # Reemplazamos la primera aparición de la variable
-                                        # Usamos re.sub para manejar posibles espacios antes del igual: "variable =" o "variable="
-                                        fixed_line = re.sub(rf"\b{missing_var}\s*=", f"{real_type} {missing_var} =",
-                                                            problematic_line, count=1)
-                                        lines[idx] = fixed_line
+                                            fixed_line = re.sub(rf"\b{missing_var}\s*=", f"{real_type} {missing_var} =",
+                                                                problematic_line, count=1)
+                                            lines[idx] = fixed_line
 
-                                        # 6. Sobrescribir el archivo curado en disco
-                                        with open(full_class_path, 'w', encoding=encoding_usado, newline='') as f:
-                                            f.writelines(lines)
+                                            # 6. Sobrescribir el archivo curado en disco
+                                            with open(full_class_path, 'w', encoding=encoding_usado, newline='') as f:
+                                                f.writelines(lines)
 
-                                        # Sincronizar cerrando y abriendo el archivo en Eclipse
-                                        client.close_file(full_class_path)
-                                        client.clear_file_errors(full_class_path)
-                                        client.open_file(full_class_path)
+                                            # Sincronizar cerrando y abriendo el archivo en Eclipse
+                                            client.close_file(full_class_path)
+                                            client.clear_file_errors(full_class_path)
+                                            client.open_file(full_class_path)
+                                            time.sleep(1.5)
 
-                                        time.sleep(1.5)
-
-                                        # 7. 🔄 RE-EVALUAR: Preguntamos de nuevo a Eclipse
-                                        errors_after_heal = client.get_file_errors(full_class_path, timeout=5.0)
-
-                                        if not errors_after_heal:
-                                            print("      ✨ [AUTO-HEALING EXITOSO] El error ha sido resuelto.")
-                                            print("      ✅ ¡Extracción exitosa!")
-                                            success = True
-                                            extraction_results.append({
-                                                "Clase": os.path.basename(full_class_path),
-                                                "Metodo Original": ext_item["method_name"],
-                                                "Nombre Extraccion": desired_name,
-                                                "Exito": "Sí (Auto-curado)"
-                                            })
-                                            # Actualizamos el backup para las siguientes extracciones
-                                            with open(full_class_path, "r", encoding=encoding_usado, newline='') as f:
-                                                backup_content_clean = f.read()
+                                            # 7. 🔄 RE-EVALUAR
+                                            current_errors = client.get_file_errors(full_class_path, timeout=5.0)
+                                            heal_attempts += 1
                                         else:
-                                            print("      ⚠️ [AUTO-HEALING FALLIDO] Persisten otros errores.")
-                                            for err in errors_after_heal:
-                                                err_line = err.get('range', {}).get('start', {}).get('line', 0) + 1
-                                                print(f"         ↳ [Línea {err_line}]: {err.get('message')}")
+                                            # Si por algún motivo no encontramos la variable en la línea, salimos del bucle
+                                            break
+                                else:
+                                    break
+
+                            # Evaluación final tras salir del bucle
+                            if not current_errors:
+                                print(
+                                    "      ✨ [AUTO-HEALING EXITOSO] Todos los errores de resolución de variables curados.")
+                                print("      ✅ ¡Extracción exitosa!")
+                                success = True
+                                extraction_results.append({
+                                    "Clase": os.path.basename(full_class_path),
+                                    "Metodo Original": ext_item["method_name"],
+                                    "Nombre Extraccion": desired_name,
+                                    "Exito": "Sí (Auto-curado)"
+                                })
+                                # Actualizamos el backup para las siguientes extracciones
+                                with open(full_class_path, "r", encoding=encoding_usado, newline='') as f:
+                                    backup_content_clean = f.read()
+                            else:
+                                print(
+                                    "      ⚠️ [AUTO-HEALING FALLIDO] Persisten otros errores tras los intentos de curación.")
+                                for err in current_errors:
+                                    err_line = err.get('range', {}).get('start', {}).get('line', 0) + 1
+                                    print(f"         ↳ [Línea {err_line}]: {err.get('message')}")
+                        # --- NUEVO AUTO-HEALING: VARIABLES NO INICIALIZADAS ---
+                        elif error_line_number and "may not have been initialized" in errors[0].get('message'):
+                            heal_attempts = 0
+                            max_heal_attempts = 5
+                            current_errors = errors
+
+                            while current_errors and "may not have been initialized" in current_errors[0].get(
+                                    'message') and heal_attempts < max_heal_attempts:
+                                match = re.search(r"The local variable (\w+) may not have been initialized",
+                                                  current_errors[0].get('message'))
+                                if match:
+                                    uninit_var = match.group(1)
+                                    print(
+                                        f"      🩹 [AUTO-HEALING] Inicializando variable huérfana '{uninit_var}' a null (Intento {heal_attempts + 1})...")
+
+                                    # Leer y parchear el archivo
+                                    with open(full_class_path, 'r', encoding=encoding_usado, newline='') as f:
+                                        lines = f.readlines()
+
+                                    for j, line in enumerate(lines):
+                                        if re.search(rf"\b{uninit_var}\s*;", line):
+                                            lines[j] = re.sub(rf"\b({uninit_var})\s*;", r"\1 = null;", line)
+                                            break
+
+                                    with open(full_class_path, 'w', encoding=encoding_usado, newline='') as f:
+                                        f.writelines(lines)
+
+                                    # Sincronizar con Eclipse
+                                    client.close_file(full_class_path)
+                                    client.clear_file_errors(full_class_path)
+                                    client.open_file(full_class_path)
+                                    time.sleep(1.5)
+
+                                    current_errors = client.get_file_errors(full_class_path, timeout=5.0)
+                                    heal_attempts += 1
+                                else:
+                                    break
+
+                            if not current_errors:
+                                print("      ✨ [AUTO-HEALING EXITOSO] Todos los errores de inicialización resueltos.")
+                                print("      ✅ ¡Extracción exitosa!")
+                                success = True
+                                extraction_results.append({
+                                    "Clase": os.path.basename(full_class_path),
+                                    "Metodo Original": ext_item["method_name"],
+                                    "Nombre Extraccion": desired_name,
+                                    "Exito": "Sí (Auto-curado)"
+                                })
+                                with open(full_class_path, "r", encoding=encoding_usado, newline='') as f:
+                                    backup_content_clean = f.read()
+                            else:
+                                print(
+                                    "      ⚠️ [AUTO-HEALING FALLIDO] Persisten otros errores tras los intentos de curación.")
+
 
                 if not success:
                     # --- NUEVO BLOQUE DE DEBUG ---
@@ -976,24 +1115,22 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                             failed_code = f.read()
 
                         failed_lines = failed_code.splitlines()
-                        encontrado = False
                         print("      --- CONTEXTO DE LA EXTRACCIÓN FALLIDA ---")
-                        for i, line in enumerate(failed_lines):
-                            # Buscamos la línea donde Eclipse inyectó el nuevo método
-                            if desired_name in line:
-                                # Extraemos 10 líneas por arriba y 10 por abajo para dar contexto
-                                start_print = max(0, i -10)
-                                end_print = min(len(failed_lines), i + 10)
-                                for j in range(start_print, end_print):
-                                    prefijo = "👉 " if j == i else "   "
-                                    print(f"      {prefijo}{j + 1}: {failed_lines[j]}")
-                                print("      -----------------------------------------")
-                                encontrado = True
-                                break  # Rompemos en la primera coincidencia (la llamada al método)
 
-                        if not encontrado:
-                            print(
-                                f"      ⚠️ No se encontró '{desired_name}' en el código. Puede que Eclipse no haya aplicado ningún cambio de texto.")
+                        # Usamos la línea de error detectada (o el índice de inicio) en lugar de buscar texto fantasma
+                        centro_idx = linea_centro - 1
+
+                        if 0 <= centro_idx < len(failed_lines):
+                            start_print = max(0, centro_idx - 10)
+                            end_print = min(len(failed_lines), centro_idx + 10)
+
+                            for j in range(start_print, end_print):
+                                # Resaltamos la línea central del problema
+                                prefijo = "👉 " if j == centro_idx else "   "
+                                print(f"      {prefijo}{j + 1}: {failed_lines[j]}")
+                            print("      -----------------------------------------")
+                        else:
+                            print(f"      ⚠️ No se pudo determinar el contexto visual en la línea {linea_centro}.")
                     except Exception as e:
                         print(f"      ⚠️ Error al intentar mostrar el código de depuración: {e}")
                     # -----------------------------
@@ -1115,6 +1252,9 @@ def main():
         print("\n⚠️ No se encontraron resultados válidos para aplicar.")
         return
 
+    # --- Calcular el total de extracciones marcadas en los CSV ---
+    total_planificadas = sum(len(exts) for methods in class_map.values() for exts in methods.values())
+
     print("\n--- INICIANDO REFACTORIZACIÓN EN LOTE ---")
     start_time_global = time.time()
 
@@ -1128,10 +1268,11 @@ def main():
 
     total_intentos = len(extraction_results)
 
-    if total_intentos > 0:
+    if total_planificadas > 0:
         exitosos = sum(1 for r in extraction_results if r["Exito"].startswith("Sí"))
         fallidos = total_intentos - exitosos
-        porcentaje = (exitosos / total_intentos) * 100
+        omitidas = total_planificadas - total_intentos
+        porcentaje = (exitosos / total_planificadas) * 100
 
         parent_dir = os.path.dirname(os.path.normpath(args.project_root))
         csv_filename = f"{project_name}_metricas_extraccion.csv"
@@ -1182,10 +1323,12 @@ def main():
         print(f"\n⏱️ TIEMPO TOTAL DE EJECUCIÓN: {time_str}")
 
         print("\n📊 RENDIMIENTO POR EXTRACCIONES:")
-        print(f"   * Total Intentadas: {total_intentos}")
+        print(f"   * Total Planificadas (encontradas al inicio): {total_planificadas}")
+        print(f"   * Total Intentadas en Eclipse: {total_intentos}")
+        print(f"   * Omitidas sin llegar a probarse (ej. error de marcadores): {omitidas}")
         print(f"   * Exitosas: {exitosos}")
-        print(f"   * Fallidas / Ignoradas: {fallidos}")
-        print(f"   * Tasa de Éxito Global: **{porcentaje:.2f}%**")
+        print(f"   * Fallidas tras probarse: {fallidos}")
+        print(f"   * Tasa de Éxito Global (sobre las planificadas): **{porcentaje:.2f}%**")
 
         print("\n📊 RENDIMIENTO POR MÉTODOS ORIGINALES:")
         print(f"   * Total de Métodos Procesados: {total_metodos}")

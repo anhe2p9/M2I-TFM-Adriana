@@ -308,11 +308,12 @@ class JDTLSClient:
         self.send("textDocument/didClose", {"textDocument": {"uri": f"file:///{abs_path}"}}, is_notification=True)
         self.clear_file_errors(file_path)
         
+        self.file_versions[abs_path] = self.file_versions.get(abs_path, 0) + 1
         self.send("textDocument/didOpen", {
             "textDocument": {
                 "uri": f"file:///{abs_path}", 
                 "languageId": "java",
-                "version": int(time.time() * 1000), 
+                "version": self.file_versions[abs_path], 
                 "text": content
             }
         }, is_notification=True)
@@ -1211,9 +1212,14 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
 
                 # --- ENVIAMOS A ECLIPSE EL CÓDIGO REAL ---
                 # Eclipse sabe ignorar comentarios /*START...*/ sin romper el AST.
+                client.file_versions[full_class_path.replace('\\', '/')] = client.file_versions.get(full_class_path.replace('\\', '/'), 0) + 1
                 client.send("textDocument/didOpen", {
-                    "textDocument": {"uri": f"file:///{full_class_path.replace('\\', '/')}", "languageId": "java",
-                                     "version": int(time.time()), "text": content}
+                    "textDocument": {
+                        "uri": f"file:///{full_class_path.replace('\\', '/')}", 
+                        "languageId": "java",
+                        "version": client.file_versions[full_class_path.replace('\\', '/')], 
+                        "text": content
+                    }
                 }, is_notification=True)
 
                 success = False
@@ -1541,7 +1547,7 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                                 print("      ⚠️ [AUTO-HEALING FALLIDO] Persisten otros errores tras intentar inyectar el genérico.")
                                 save_debug_snapshot(f"autohealing_fallo_{desired_name}.java", healed_code)
                         
-                        # --- NUEVO AUTO-HEALING: RETURN FALTANTE ---
+                        # --- NUEVO AUTO-HEALING MEJORADO: RETURN FALTANTE Y VARIABLES MÚLTIPLES ---
                         elif error_line_number and "This method must return a result of type" in errors[0].get('message'):
                             heal_attempts = 0
                             max_heal_attempts = 3 * len(errors)
@@ -1551,61 +1557,64 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                                 match = re.search(r"This method must return a result of type\s+([^\s]+)", current_errors[0].get('message'))
                                 if match:
                                     original_type = match.group(1)
-                                    print(f"      🩹 [AUTO-HEALING] Inyectando return por defecto para el tipo '{original_type}' en la línea {error_line_number} (Intento {heal_attempts + 1})...")
+                                    # Actualizar siempre la línea del error en cada intento
+                                    error_line_number = current_errors[0].get('range', {}).get('start', {}).get('line', 0) + 1
+                                    
+                                    # 1. Determinar el valor por defecto seguro base
+                                    if "[]" in original_type: def_val = "null" 
+                                    elif original_type in ["double", "float"]: def_val = "0.0"
+                                    elif original_type in ["int", "long", "short", "byte", "char"]: def_val = "0"
+                                    elif original_type == "boolean": def_val = "false"
+                                    else: def_val = "null"
 
-                                    # Determinar el valor por defecto seguro
-                                    if "[]" in original_type: 
-                                        def_val = "null" 
-                                    else:
-                                        if original_type in ["double", "float"]: def_val = "0.0"
-                                        elif original_type in ["int", "long", "short", "byte", "char"]: def_val = "0"
-                                        elif original_type == "boolean": def_val = "false"
-                                        else: def_val = "null"
+                                    var_to_return = def_val
 
                                     with open(full_class_path, 'r', encoding=encoding_usado, newline='') as f:
                                         lines = f.readlines()
                                     
-                                    # Índice de la línea que Eclipse marca como errónea (0-indexed)
                                     idx = error_line_number - 1
                                     injected = False
                                     
+                                    # 2. BÚSQUEDA INTELIGENTE DE LA VARIABLE A DEVOLVER
+                                    # Buscamos hacia arriba si existe una declaración que coincida con original_type
+                                    for i in range(min(idx + 20, len(lines) - 1), max(-1, idx - 50), -1):
+                                        match_var = re.search(rf"\b{re.escape(original_type)}\s+([a-zA-Z0-9_$]+)\s*(?:=|;)", lines[i])
+                                        if match_var:
+                                            var_to_return = match_var.group(1)
+                                            print(f"      💡 [AUTO-HEALING INTELIGENTE] Infiriendo variable a devolver: '{var_to_return}' en lugar de '{def_val}'.")
+                                            break
+
                                     if 0 <= idx < len(lines):
                                         target_line = lines[idx]
                                         
-                                        # Caso 1: Eclipse marca un "return;" vacío (como en tu ejemplo de la línea 89)
                                         if re.search(r"\breturn\s*;", target_line):
-                                            lines[idx] = re.sub(r"\breturn\s*;", f"return {def_val};", target_line)
+                                            lines[idx] = re.sub(r"\breturn\s*;", f"return {var_to_return};", target_line)
                                             injected = True
-                                        
-                                        # Caso 2: Eclipse marca la llave de cierre '}' porque falta el return al final
-                                        elif "}" in target_line:
-                                            # Insertamos el return justo antes de la llave respetando la indentación
+                                        elif "}" in target_line and not "{" in target_line:
                                             indent = target_line[:len(target_line) - len(target_line.lstrip())]
-                                            lines[idx] = target_line.replace("}", f"return {def_val};\n{indent}", 1)
+                                            lines[idx] = target_line.replace("}", f"return {var_to_return};\n{indent}", 1)
                                             injected = True
-                                        
-                                        # Caso 3: Fallback (Eclipse marca el inicio del método por falta de return al final)
                                         else:
-                                            print(f"      ⚠️ [AUTO-HEALING] Eclipse marcó la instrucción '{target_line.strip()}'. Buscando el final EXACTO del método mediante balanceo de llaves...")
+                                            print(f"      ⚠️ Buscando el final EXACTO del método mediante balanceo de llaves robusto...")
                                             
-                                            injected = False
+                                            # 3. BALANCEO DE LLAVES ROBUSTO
+                                            # Retroceder hasta la firma del método para no perder la llave principal
+                                            inicio_metodo = idx
+                                            while inicio_metodo > 0 and "{" not in lines[inicio_metodo] and not re.search(r"\b(?:public|private|protected)\b", lines[inicio_metodo]):
+                                                inicio_metodo -= 1
+                                                
                                             bracket_count = 0
                                             found_first_bracket = False
                                             method_end_idx = -1
                                             
-                                            # Recorrer desde la línea del error hacia abajo para balancear llaves
-                                            for j in range(idx, len(lines)):
-                                                line_text = lines[j]
-                                                
-                                                # Contamos las aperturas y cierres iterando por carácter
-                                                for char in line_text:
+                                            for j in range(inicio_metodo, len(lines)):
+                                                for char in lines[j]:
                                                     if char == '{':
                                                         bracket_count += 1
                                                         found_first_bracket = True
                                                     elif char == '}':
                                                         bracket_count -= 1
                                                 
-                                                # Si ya abrimos la primera llave y el contador vuelve a 0, es el cierre del método
                                                 if found_first_bracket and bracket_count == 0:
                                                     method_end_idx = j
                                                     break
@@ -1614,56 +1623,52 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                                                 j = method_end_idx
                                                 indent = lines[j][:len(lines[j]) - len(lines[j].lstrip())]
                                                 
-                                                # Inyectamos el return justo antes de la última llave de cierre
-                                                partes = lines[j].rsplit('}', 1)
-                                                lines[j] = partes[0] + f"return {def_val};\n{indent}}}" + (partes[1] if len(partes) > 1 else "")
-                                                
-                                                injected = True
-                                                print(f"      🩹 [AUTO-HEALING] Return inyectado en el final EXACTO del bloque (Línea {j+1}) evitando 'Unreachable code'.")
+                                                # Evitar "Unreachable code" comprobando la instrucción anterior
+                                                prev_line = lines[j-1].strip() if j > 0 else ""
+                                                if not any(prev_line.startswith(kw) for kw in ["return", "throw", "break", "continue"]):
+                                                    partes = lines[j].rsplit('}', 1)
+                                                    lines[j] = partes[0] + f"return {var_to_return};\n{indent}}}" + (partes[1] if len(partes) > 1 else "")
+                                                    injected = True
+                                                    print(f"      🩹 [AUTO-HEALING] Return inyectado en el final EXACTO del bloque (Línea {j+1}).")
+                                                else:
+                                                    print("      ⚠️ Salto de control previo detectado. Abortando inyección para evitar 'Unreachable code'.")
+                                                    break
                                             else:
-                                                print("      ⚠️ [AUTO-HEALING] Abortando: No se pudo balancear las llaves para encontrar el final del método.")
+                                                print("      ⚠️ No se pudo balancear las llaves.")
                                                 break
 
                                     if injected:
-                                        # Escribir los cambios en disco
                                         with open(full_class_path, 'w', encoding=encoding_usado, newline='') as f:
                                             f.writelines(lines)
-                                            
-                                        # Sincronizar
                                         current_errors = client.sync_file_and_get_errors(full_class_path, timeout=5.0)
-                                        
-                                        # 🔥 CRÍTICO: Actualizar el número de línea por si el error saltó a otro "return;" vacío en el mismo método
-                                        if current_errors:
-                                            error_line_number = current_errors[0].get('range', {}).get('start', {}).get('line', 0) + 1
-                                            
                                         heal_attempts += 1
                                     else:
-                                        print("      ⚠️ [AUTO-HEALING] No se pudo inyectar el return en la línea indicada.")
                                         break
                                 else:
                                     break
-                                # Evaluación final tras el bucle de curación de returns
-                                try:
-                                    with open(full_class_path, 'r', encoding=encoding_usado, newline='') as f:
-                                        healed_code = f.read()
-                                except Exception:
-                                    healed_code = content
 
-                                if not current_errors:
-                                    print("      ✨ [AUTO-HEALING EXITOSO] Todos los returns faltantes inyectados de forma segura.")
-                                    save_debug_snapshot(f"autohealing_exito_{desired_name}.java", healed_code)
-                                    print("      ✅ ¡Extracción exitosa!")
-                                    success = True
-                                    extraction_results.append({
-                                        "Clase": os.path.basename(full_class_path),
-                                        "Metodo Original": ext_item["method_name"],
-                                        "Nombre Extraccion": desired_name,
-                                        "Exito": "Sí (Auto-curado return)"
-                                    })
-                                    backup_content_clean = healed_code
-                                else:
-                                    print("      ⚠️ [AUTO-HEALING FALLIDO] Persisten otros errores tras intentar inyectar los returns.")
-                                    save_debug_snapshot(f"autohealing_fallo_{desired_name}.java", healed_code)
+                            # Evaluación final tras el bucle de curación de returns
+                            try:
+                                with open(full_class_path, 'r', encoding=encoding_usado, newline='') as f:
+                                    healed_code = f.read()
+                            except Exception:
+                                healed_code = content
+
+                            if not current_errors:
+                                print("      ✨ [AUTO-HEALING EXITOSO] Todos los returns faltantes inyectados de forma segura.")
+                                save_debug_snapshot(f"autohealing_exito_{desired_name}.java", healed_code)
+                                print("      ✅ ¡Extracción exitosa!")
+                                success = True
+                                extraction_results.append({
+                                    "Clase": os.path.basename(full_class_path),
+                                    "Metodo Original": ext_item["method_name"],
+                                    "Nombre Extraccion": desired_name,
+                                    "Exito": "Sí (Auto-curado return inteligente)"
+                                })
+                                backup_content_clean = healed_code
+                            else:
+                                print("      ⚠️ [AUTO-HEALING FALLIDO] Persisten otros errores tras intentar inyectar los returns.")
+                                save_debug_snapshot(f"autohealing_fallo_{desired_name}.java", healed_code)
 
                 if not success:
                     extraction_results.append({
@@ -1674,7 +1679,7 @@ def apply_refactorings_to_classes(class_offsets_map, project_root, use_system_m2
                     })
 
                     # Volcar el archivo completo a la carpeta de debug
-                    codigo_a_guardar = failed_code if 'failed_code' in locals() else backup_content_clean
+                    codigo_a_guardar = content if 'failed_code' in locals() else backup_content_clean
                     save_debug_snapshot(f"3_fallo_extraccion_{desired_name}.java", codigo_a_guardar)
 
                     print("\n      ❌ Deshaciendo extracción (Rollback) para mantener la clase funcional...")
